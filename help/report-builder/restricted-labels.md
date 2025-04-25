@@ -1,43 +1,48 @@
 ---
-title: Wat zijn beperkte labels in Report Builder?
-description: Beschrijft beperkte etiketten in Report Builder
+title: Wat zijn beperkte labels in Report Builder
+description: Beschrijft beperkte labels in Report Builder
 role: User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 99c3c66e-928e-4363-a6a9-bbcab792337a
-source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
+source-git-commit: 6dd8a70293161ff58361953a7e48a98834b7abe0
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
 
 # Beperkte labels in Report Builder
 
-Over het algemeen worden aan gegevensbeheer gerelateerde instellingen in Customer Journey Analytics overgenomen van Adobe Experience Platform. Dankzij de integratie tussen Customer Journey Analytics en Adobe Experience Platform Data Governance kunnen gevoelige gegevens van Customers Journey Analytics worden geëtiketteerd en kan het privacybeleid worden gehandhaafd.
+Over het algemeen worden aan gegevensbeheer gerelateerde instellingen in Customer Journey Analytics overgenomen van Experience Platform. Dankzij de integratie tussen Customer Journey Analytics en Experience Platform Data Governance kunnen gevoelige gegevens van Customer Journey Analytics worden geëtiketteerd en kan het privacybeleid worden gehandhaafd.
 
-De etiketten en het beleid van de privacy die op datasets werden gecreeerd die door Experience Platform worden verbruikt kunnen in het werkschema van de de gegevensmeningen van de Customer Journey Analytics worden bezocht. Deze labels stoppen of waarschuwen gebruikers die metriek en/of afmetingen van gevoelige velden maken. Voor informatie over datasets, zie [Overzicht van gegevenssets](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html)
+De etiketten en het beleid van de privacy die op datasets worden gecreeerd door Experience Platform worden verbruikt kunnen in het werkschema van de gegevensmeningen van Customer Journey Analytics worden aangeschept. Deze labels stoppen of waarschuwen gebruikers die metriek en afmetingen van gevoelige velden maken. Voor informatie over datasets, zie [ Overzicht van Datasets ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)
 
 Wanneer gegevens uit Customer Journey Analytics worden geëxporteerd (via rapportage, export, API, enz.), worden bovendien waarschuwingen of labels toegevoegd om gebruikers te laten weten dat een rapport gevoelige informatie bevat die op een specifieke manier moet worden behandeld.
 
-Dankzij deze integratie kunt u de compatibiliteit eenvoudiger beheren. Gegevensstewards in uw organisatie kunnen beleid plaatsen om gebruik te beperken. Dientengevolge, kunnen uw gebruikers van de Customer Journey Analytics gegevens betrouwbaarder gebruiken, wetend dat het aan beleid voldoet dat door gegevens eerder wordt bepaald.
+Dankzij deze integratie kunt u de compatibiliteit beheren. Gegevensstewards in uw organisatie kunnen beleid plaatsen om gebruik te beperken. Dit betekent dat uw Customer Journey Analytics-gebruikers gegevens betrouwbaarder kunnen gebruiken, in de wetenschap dat deze in overeenstemming zijn met het beleid dat wordt gedefinieerd door data stewards.
 
-Zie voor meer informatie [Customer Journey Analytics en gegevensbeheer](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-privacy/privacy-overview.html)
+Voor meer informatie, zie [ Customer Journey Analytics en de Governance van Gegevens ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-privacy/privacy-overview)
 
-## Beperkte gegevens weergeven in Report Builder
+## Beperkte gegevens weergeven
 
-Er worden twee door de Adobe gedefinieerde beleidsregels weergegeven in de Customer Journey Analytics die van invloed zijn op rapportage, downloaden en delen:
+In Customer Journey Analytics worden twee door Adobe gedefinieerde beleidsregels weergegeven die van invloed zijn op rapportage, downloaden en delen:
 
 * Beleid voor analyse afdwingen
 * Downloadbeleid afdwingen
 
-Componenten die door dit beleid worden beïnvloed, worden grijs weergegeven. Wanneer u de muisaanwijzer boven een component waarop een beleid is toegepast, wordt een notitie weergegeven om het volgende aan te geven: **Het beleid is op dit gebied toegepast waarbij het gebruik van deze gegevens wordt verboden.** Zie voor meer informatie [Labels en beleid](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-governance.html).
+De componenten onderworpen aan dit beleid zijn grijs uit en hebben een ![ InfoOutline ](/help/assets/icons/InfoOutline.svg) pictogram. Wanneer u de muisaanwijzer boven het pictogram Info houdt, wordt een notitie weergegeven die het volgende aangeeft: **[!UICONTROL Policies have been applied to this field prohibiting use of this data]** .
 
-![De beleidsnota die op het verboden gebruik van gegevens wijst.](assets/rb-restricted-label.png)
+Voor meer informatie, zie [ Etiketten en beleid ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-governance).
 
-## Rapporten met beperkte gegevens bijwerken
+<!--
 
-In gevallen waar een gebruiker een rapport van de Report Builder met gegevenselementen creeerde die later worden beperkt, wanneer het rapport wordt verfrist, wordt een foutenmelding getoond.
+![The policy note indicating prohibited use of data.](assets/rb-restricted-label.png){zoomable="yes"}
+-->
 
-![Het foutbericht dat wordt weergegeven nadat gegevenselementen later zijn beperkt.](assets/error-restricted-data.png)
+## Rapporten bijwerken die beperkte gegevens bevatten
+
+Wanneer een gebruiker een Report Builder-rapport heeft gemaakt met gegevenselementen die later worden beperkt, wordt een foutbericht weergegeven wanneer het rapport wordt vernieuwd.
+
+![ het foutenbericht wordt getoond nadat de gegevenselementen later worden beperkt.](assets/error-restricted-data.png){width="100%" zoomable="yes"}

@@ -1,62 +1,59 @@
 ---
-title: Hoe te om montages voor Report Builder in Customer Journey Analytics te vormen
+title: Configureren van instellingen voor Report Builder in Customer Journey Analytics
 description: Beschrijft hoe te om off-line-mode, taal, zoals-van-datum, en het oplossen van problemenmontages te plaatsen.
 role: Admin
 feature: Report Builder
 type: Documentation
 exl-id: 32423cb4-1a4c-4ea3-ad4b-9520aff9ae4b
 solution: Customer Journey Analytics
-source-git-commit: 9efad7c7808a7a68bc25fc5f1700f4e4f8e18614
+source-git-commit: 9794779894fbecb433c16d108c555c5f81a4b491
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
 # Report Builder-instellingen
 
-Gebruik de **Instellingen** om toepassing-vlakke montages zoals de taal te vormen die door UI wordt getoond of al dan niet om op off-line wijze te werken. De instellingen worden direct toegepast en ingesteld voor alle toekomstige sessies totdat ze worden gewijzigd.
+Gebruik de **ruit van Montages** om toepassing-vlakke montages zoals de taal te vormen die door UI wordt getoond of al dan niet om op off-line wijze te werken. De instellingen worden direct toegepast en ingesteld voor alle toekomstige sessies totdat ze worden gewijzigd.
 
 Report Builder-instellingen wijzigen
 
-1. Klik op de knop **Instellingen** pictogram.
+1. Selecteer het **pictogram van Montages**.
 
-1. Breng wijzigingen aan in de modus Off-line inschakelen, selecteer een taal of schakel de loginstellingen van Problemen oplossen in.
+1. Breng veranderingen in [ toe toelaten van off-line wijze ](#off-line-mode), [ uitgezocht een taal ](#language), of [ laat het oplossen van problemen ](#troubleshooting) toe.
 
-1. Klikken **Toepassen**.
+1. Selecteer **[!UICONTROL Apply]** .
 
-   ![Het venster Datumbereik Reporten Builder met de knoppen Annuleren en Toepassen.](./assets/image38.png)
+   ![ de ruit van het de datumwaaier van Report Builder die annuleert en knoop toepast.](./assets/report-builder-settings.png){zoomable="yes"}
 
 ## Offlinemodus
 
-Bij het maken en bewerken van een gegevensblok in de offline modus worden geen gegevens opgehaald. In plaats daarvan worden simulatiegegevens gebruikt, zodat u snel een gegevensblok kunt maken en bewerken zonder te wachten op het uitvoeren van de aanvraag. Wanneer u weer online bent, *Gegevensblok vernieuwen* of *Alle gegevensblokken vernieuwen* de opdracht vernieuwt de gegevensblokken die u met werkelijke gegevens hebt gemaakt.
+Wanneer u een gegevensblok maakt en bewerkt in de offline modus, worden er geen gegevens opgehaald. In plaats daarvan worden simulatiegegevens gebruikt, zodat u snel kunt werken zonder te wachten op het uitvoeren van het verzoek. Wanneer u online weer bent, verfrist de uitgezochte ![ ](/help/assets/icons/Refresh.svg) **[!UICONTROL Refresh data block]** of ![ DocumentRefresh ](/help/assets/icons/DocumentRefresh.svg) **[!UICONTROL Refresh all data blocks]** om de gegevensblokken met daadwerkelijke gegevens te verfrissen.
 
 Offlinemodus inschakelen
 
-1. Klik op de knop **Instellingen** pictogram.
+1. Selecteer ![ Plaatsend ](/help/assets/icons/Setting.svg).
 
-1. Selecteren **Offlinemodus inschakelen**.
+1. **[!UICONTROL Enable off-line mode]** in-/uitschakelen.
 
-1. Geef een positief geheel getal op in het dialoogvenster **Metrische gegevens weergeven als** veld.
+1. Voer een positief geheel getal in het veld **[!UICONTROL Display metric data]** als in.
 
-1. Klikken **Toepassen**.
+1. Selecteer **[!UICONTROL Apply]** .
+
 
 ## Taal
 
-U kunt de taal voor Report Builder UI kiezen. Alle ondersteunde Adobe Analytics-talen zijn beschikbaar.
+U kunt de taal voor de interface van Report Builder kiezen. Alle ondersteunde Customer Journey Analytics-talen zijn beschikbaar.
 
-De taal selecteren die wordt gebruikt in de gebruikersinterface van de Report Builder
+U kunt als volgt de taal selecteren die wordt gebruikt in de Report Builder-interface:
 
-1. Klik op Instellingen.
+1. Selecteer een taal in het keuzemenu **[!UICONTROL Language]** .
 
-1. Selecteer een taal in het menu **Taal** vervolgkeuzelijst.
-
-   ![Het venster Datumbereik van de Report Builder waarin de lijst Taal wordt weergegeven, waarbij Engels is geselecteerd.](./assets/image39.png)
-
-1. Klikken **Toepassen.**
+1. Selecteer **toepassen.**
 
 ## Problemen oplossen
 
-Gebruik de instelling voor probleemoplossing om alle client-/servergegevens te registreren bij een lokaal bestand. Gebruik deze optie om ondersteuningstickets op te lossen.
+Met de instelling **[!UICONTROL Troubleshooting logs]** worden alle client-/servergegevens naar een lokaal bestand geregistreerd. Gebruik deze optie om ondersteuningstickets op te lossen.
 
-Als u de optie Problemen oplossen wilt inschakelen, selecteert u **Aanvraag voor logboekrapportbuilder naar lokaal bestand**.
+Schakel **[!UICONTROL Log report builder request to local file]** in om het oplossen van problemenlogboeken in te schakelen.

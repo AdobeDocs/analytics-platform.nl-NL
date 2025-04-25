@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
-source-git-commit: 56ac1c5a6d13a972aed90cab79cbc5f794cedc9e
+source-git-commit: 6dd8a70293161ff58361953a7e48a98834b7abe0
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '940'
 ht-degree: 1%
 
 ---
@@ -18,62 +18,66 @@ ht-degree: 1%
 
 Door gebrek, keert elk afmetingspunt in de lijst top 10 punten voor die afmeting terug.
 
-Om de afmetingspunten te veranderen die voor elke afmeting worden teruggekeerd
+Om de afmetingspunten te veranderen die voor elke afmeting worden teruggekeerd:
 
-1. Selecteer een gegevensblok en klik op Gegevensblok bewerken in het deelvenster OPDRACHTEN.
+1. Selecteer een cel in het gegevensblok.
 
-1. Selecteer **[!UICONTROL Next]** om het tabblad Dimensies weer te geven.
+1. Selecteer ![ uitgeven ](/help/assets/icons/Edit.svg) **[!UICONTROL Edit data block]** in het **[!UICONTROL Commands]** paneel.
+
+1. Selecteer **[!UICONTROL Next]** om de tab **[!UICONTROL Dimensions]** weer te geven.
 
 1. Selecteer ![ MoreSmall ](/help/assets/icons/MoreSmall.svg) naast een componentennaam in de lijst.
 
-   ![ de pictogramopties van de ellips.](./assets/image27.png)
+   ![ de pictogramopties van de ellips.](./assets/image27.png){zoomable="yes"}
 
-1. Selecteer **afmeting van de Filter** in pop-up menu om de **afmeting van de Filter** ruit te tonen.
+1. Selecteer **[!UICONTROL Filter dimension]** in het pop-upmenu om het deelvenster **[!UICONTROL Filter dimension]** weer te geven.
 
-1. Selecteer **populairste** of **Specifiek**.
+1. Selecteer **populairste** of **Specifiek** als **[!UICONTROL Type]**.
 
-   ![ de specifieke optie die in de ruit van de afmeting van de Filter wordt geselecteerd.](./assets/image28.png)
+   ![ de specifieke optie die in de ruit van de afmeting van de Filter wordt geselecteerd.](./assets/image28.png){zoomable="yes"}
 
-1. Selecteer de gewenste opties op basis van het gekozen filtertype.
+1. Selecteer aangewezen die opties op het [ worden gebaseerd gekozen filtertype ](#filter-type).
 
-1. Klik **toepassen** om de filter toe te voegen.
+1. Selecteer **[!UICONTROL Apply]** om het filter toe te voegen.
 
-   Report Builder geeft een melding weer ter bevestiging van het toegevoegde filter.
+1. Report Builder geeft een melding weer ter bevestiging van het toegevoegde filter.
 
-Houd de muisaanwijzer boven een dimensie om toegepaste filters weer te geven. De afmetingen met toegepaste filters tonen a ![ filter ](/help/assets/icons/Filter.svg) filterpictogram naast de naam van Dimension.
+Houd de muisaanwijzer boven een dimensie om toegepaste filters weer te geven. De afmetingen met toegepaste filters tonen a ![ filter ](/help/assets/icons/Filter.svg) filterpictogram naast de afmetingsnaam.
 
 ## Het filter en de sorteervolgorde wijzigen
 
-Er wordt een pijl weergegeven naast de metrische waarde die wordt gebruikt om het gegevensblok te filteren en te sorteren. De richting van de pijl geeft aan of de metrische waarde in oplopende of aflopende volgorde wordt gesorteerd.
+A ![ ArrowUp ](/help/assets/icons/ArrowUp.svg) of ![ ArrowDown ](/help/assets/icons/ArrowDown.svg) verschijnt naast metrisch die wordt gebruikt om het gegevensblok te filtreren en te sorteren. De richting van de pijl geeft aan of de metrische waarde in oplopende of aflopende volgorde wordt gesorteerd.
 
-Als u de sorteerrichting wilt wijzigen, selecteert u de pijl naast de metrische waarde.
+De sorteervolgorde wijzigen:
 
-Om metrisch te veranderen die wordt gebruikt om het gegevensblok te filtreren en te sorteren,
+- Selecteer ![ ArrowUp ](/help/assets/icons/ArrowUp.svg) of ![ ArrowDown ](/help/assets/icons/ArrowDown.svg) naast metrisch om de soortorde van een knevel te voorzien.
+
+U wijzigt als volgt de metrische waarde die wordt gebruikt voor het filteren en sorteren van het gegevensblok:
 
 1. Houd de muisaanwijzer boven de gewenste metrische component in de Tabelbouwer om aanvullende opties weer te geven.
 
-2. Selecteer de pijl op aangewezen metrisch.
+2. Selecteer ![ ArrowDown ](/help/assets/icons/ArrowDown.svg) voor aangewezen metrisch.
 
-   ![ de bouwer en metriek van de Lijst.](./assets/image30.png)
+   ![ de bouwer en metriek van de Lijst.](./assets/image30.png){zoomable="yes"}
 
 
 
 ## Filtertype
 
-Er zijn twee manieren om dimensiepunten te filteren: het populairste en Specifieke.
+Er zijn twee manieren om afmetingspunten te filtreren: [ populairste ](#most-popular) en [ Specifieke ](#specific-filtering)
 
-### Meest populair
+### **[!UICONTROL Most popular]**
 
-Met de populairste optie kunt u dimensie-items dynamisch filteren op basis van metrische waarden. Het populairste filtreren keert de hoogste gerangschikte afmetingspunten terug die op metrische waarden worden gebaseerd. Standaard worden de eerste 10 dimensies weergegeven, gesorteerd op de eerste metrische waarde die aan het gegevensblok is toegevoegd.
+Met de optie **[!UICONTROL Most popular]** kunt u dimensie-items dynamisch filteren op basis van metrische waarden. De populairste winst de hoogste gerangschikte afmetingspunten die op metrische waarden worden gebaseerd. Standaard worden de eerste 10 dimensies weergegeven, gesorteerd op de eerste metrische waarde die aan het gegevensblok is toegevoegd.
 
-![ de populairste optie.](./assets/image29.png)
+![ de populairste optie.](./assets/image29.png){zoomable="yes"}
 
 
-**de opties van de Pagina en van Rijen**
+#### Opties voor Pagina en Rijen
 
-Gebruik de **Pagina** en **Rijen** gebieden om gegevens in opeenvolgende groepen of pagina&#39;s te verdelen. Dit staat u toe om gerangschikte rijwaarden buiten de hoogste waarden in uw rapport te trekken. Deze functie is vooral handig voor het ophalen van gegevens boven de limiet van 50.000 rijen.
+Gebruik de velden **[!UICONTROL Page]** en **[!UICONTROL Rows]** om gegevens te verdelen in opeenvolgende groepen of pagina&#39;s. Met deze functie kunt u gerangschikte rijwaarden buiten de bovenste waarden in uw rapport opnemen. En is vooral nuttig om gegevens voorbij de 50.000 rijgrens te trekken.
 
-De standaardwaarde voor Pagina is 1 en voor Rijen is 10. Deze standaardinstellingen impliceren dat elke pagina 10 rijen gegevens heeft. Pagina 1 retourneert de bovenste 10 items, pagina 2 retourneert de volgende 10 items, enzovoort.
+De standaardwaarde voor Pagina is `1` en voor Rijen is `10` . Deze standaardinstellingen impliceren dat elke pagina 10 rijen gegevens heeft. Pagina 1 retourneert de bovenste 10 items, pagina 2 retourneert de volgende 10 items, enzovoort.
 
 In de onderstaande tabel staan voorbeelden van pagina- en rijwaarden en de resulterende uitvoer.
 
@@ -85,80 +89,69 @@ In de onderstaande tabel staan voorbeelden van pagina- en rijwaarden en de resul
 | 2 | 100 | Items 101-200 |
 | 2 | 50.000 | Items 50.001-100.000 |
 
-De minimum- en maximumwaarden zijn:
+In de onderstaande tabel worden de minimum- en maximumwaarden voor pagina en rijen weergegeven.
 
-- Beginpagina: Min = 1, Max: 50 miljoen
-- Aantal rijen: Min = 1, Max: 50.000
+|       | Minimumwaarden | Maximumwaarden |
+|-------|---------------:|---------------:|
+| Beginpagina | 1 | 50 miljoen |
+| Aantal rijen | 1 | 50.000 |
 
-### Inclusief &quot;Geen waarde&quot;
 
-In Customer Journey Analytics verzamelen sommige dimensies een item &#39;Geen waarde&#39;. Met dit filter kunt u deze waarden uitsluiten van rapporten. U kunt bijvoorbeeld een classificatie maken, zoals de classificatie Productnaam op basis van de sleutel Product SKU. Als een specifiek product-SKU niet is ingesteld met de specifieke productnaamclassificatie, wordt de productnaam ingesteld op &quot;geen waarde&quot;.
+#### Inclusief &quot;Geen waarde&quot;
+
+In Customer Journey Analytics, verzamelen sommige dimensies a *geen waarde* ingang. Met de instelling **[!UICONTROL Include "No value"]** kunt u deze waarden uitsluiten van rapporten. U kunt bijvoorbeeld een classificatie maken, zoals de classificatie Productnaam op basis van de sleutel Product SKU. Als een specifiek productSKU niet opstelling met zijn specifieke classificatie van de Naam van het Product is geweest, wordt zijn waarde van de Naam van het Product geplaatst aan *Geen waarde*.
 
 **[!UICONTROL Include "No value"]** is standaard geselecteerd. Schakel deze optie uit als u items zonder waarde wilt uitsluiten.
 
-### Filteren op criteria
+#### Filteren op criteria
 
 U kunt dimensie-items filteren op basis van de vraag of aan alle criteria is voldaan of aan alle criteria is voldaan.
 
-Filtercriteria instellen
+Filtercriteria instellen:
 
-1. Selecteer een operator in de vervolgkeuzelijst.
+1. Selecteer een operator in de lijst met operatoren. Standaard is **[!UICONTROL Contains the phrase]** geselecteerd
 
-   ![ de exploitantlijst.](./assets/image31.png)
+   ![ de exploitantlijst.](./assets/image31.png){zoomable="yes"}
 
-1. Voer een waarde in het zoekveld in.
+1. Voer een zoekterm in.
 
 1. Selecteer ![ toevoegen ](/help/assets/icons/Add.svg) **[!UICONTROL Add row]** om de selectie te bevestigen en een ander criterium punt toe te voegen.
 
 1. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om een criterium punt te verwijderen.
 
-   U kunt maximaal 10 criteria toevoegen.
+U kunt maximaal 10 criteria toevoegen.
 
-### Specifieke filtering
+### **[!UICONTROL  Specific]**
 
-Met de optie Specifiek kunt u een vaste lijst met dimensie-items maken voor elke dimensie. Gebruik het **Specifieke** filtrerende type om de nauwkeurige afmetingspunten te specificeren in uw filter te omvatten. U kunt items in een lijst of uit een reeks cellen selecteren.
+Met de optie **[!UICONTROL Specific]** kunt u een vaste lijst met dimensie-items maken voor elke dimensie. Gebruik het filtertype **[!UICONTROL Specific]** om de exacte afmetingen op te geven die u in het filter wilt opnemen. U kunt items in een lijst of uit een reeks cellen selecteren.
 
-![ de Specifieke opties en de geselecteerde punten.](./assets/image32.png)
+![ de Specifieke opties en de geselecteerde punten.](./assets/image32.png){zoomable="yes"}
 
 #### Van lijst
 
-1. Selecteer **van lijst** optie om afmetingspunten te zoeken en te selecteren.
+1. Selecteer de optie **[!UICONTROL From list]** om te zoeken naar dimensie-items en deze te selecteren.
 
-   Wanneer u **van lijst** optie selecteert, is de lijst bevolkt met afmetingspunten met de meeste gebeurtenissen eerst.
+   Wanneer u **van lijst** optie selecteert, wordt de **[!UICONTROL Dimension items]** lijst bevolkt met afmetingspunten die door aantal gebeurtenissen worden bevolen.
 
-   ![ Van lijstoptie en beschikbare punten.](./assets/image33.png)
+   ![ Van lijstoptie en beschikbare punten.](./assets/image33.png){zoomable="yes"}
 
-   De **Beschikbare punten** lijst wordt bevolen van afmetingspunten met de meeste gebeurtenissen aan die met het minst.
+1. Ga een onderzoekstermijn in het ![ Onderzoek ](/help/assets/icons/Search.svg) in **[!UICONTROL _voeg punt_]** toe om de lijst te zoeken.
 
-1. Ga een onderzoekstermijn op **in voeg punt** gebied toe om de lijst te zoeken.
+1. Als u wilt zoeken naar een item dat niet in de laatste 90 dagen aan gegevens is opgenomen, selecteert u **[!UICONTROL Show items for the last 6 months]** om de zoekopdracht uit te breiden. Wanneer gegevens van de afgelopen 6 maanden zijn geladen, werkt Report Builder de koppeling naar **[!UICONTROL Show items for last 18 months]** bij.
 
-1. Om naar een punt te zoeken niet inbegrepen in de laatste 90 dagen van gegevens, klik **tonen punten voor de laatste 6 maanden** om het onderzoek uit te breiden.
+1. Om een punt van de **[!UICONTROL Selected items]** lijst te schrappen, selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg).
 
-   ![ de punten van de Show van de laatste 6 maandenlijst.](./assets/image34.png)
+1. Om een punt in de **[!UICONTROL Selected items]** lijst te bewegen, sleep en laat vallen het punt of selecteer ![ MoreSmall ](/help/assets/icons/MoreSmall.svg) om het contextmenu te tonen en van de verplaatsingsopties te selecteren.
 
-   Na gegevens van de afgelopen 6 maanden laden, werkt Report Builder de verbinding aan **punten voor laatste 18 maanden** bij.
+1. Selecteer **[!UICONTROL Apply]** .
 
-1. Selecteer een dimensie-item.
-
-   De geselecteerde afmetingspunten worden automatisch toegevoegd aan de **Geselecteerde punten** lijst.
-
-   ![](./assets/image35.png)
-
-   Als u een item uit de lijst wilt verwijderen, klikt u op het pictogram Verwijderen om het item uit de lijst te verwijderen.
-
-   Als u een item in de lijst wilt verplaatsen, sleept u het item en zet u het neer of klikt u ... om het verplaatsingsmenu weer te geven.
-
-   ![ de lijst van afmetingspunten.](./assets/image36.png)
-
-1. Klik **toepassen**
-
-   Report Builder werkt de lijst bij om het specifieke filter te tonen u toepaste.
+Report Builder werkt de lijst bij om het specifieke filter te tonen u toepaste.
 
 #### Uit celbereik
 
-Selecteer **van waaier van cellen** optie om een waaier van cel te kiezen die de lijst van dimensiepunten bevatten om aan te passen.
+Selecteer **van waaier van cellen** optie om een waaier van cel te kiezen die de lijst van dimensiepunten bevat om aan te passen.
 
-![ Van waaier van cellen optie en gebied om één waaier van cellen te selecteren.](./assets/image37.png)
+![ Van waaier van cellen optie en gebied om één waaier van cellen te selecteren.](./assets/image37.png){zoomable="yes"}
 
 Houd rekening met de volgende beperkingen wanneer u een bereik cellen selecteert:
 
@@ -168,10 +161,14 @@ Houd rekening met de volgende beperkingen wanneer u een bereik cellen selecteert
 
 Uw selectie kan lege cellen of cellen met waarden bevatten die niet met een specifiek afmetingspunt aanpassen.
 
-### Van het lusje van Dimensies in de Bouwer van de Lijst
 
-Van het **lusje van Dimensies**, klik het chevron pictogram naast een afmetingsnaam om de lijst van afmetingspunten te bekijken.
+### Snel een dimensie filteren
 
-![ het lusje van Dimensies en de lijst van dimensies.](./assets/dimensions_chevron.png)
+Een dimensie filteren waarvoor momenteel geen filter wordt toegepast:
 
-U kunt punten op de **Lijst** slepen en laten vallen of een puntnaam tweemaal klikken om het aan de **Bouwer van de Lijst** toe te voegen.
+1. Selecteer ![ ChevronRight ](/help/assets/icons/ChevronRight.svg) voor een afmeting. Bijvoorbeeld **[!UICONTROL Interaction channel]** .
+
+1. Selecteer een dimensie-items die u aan het filter wilt toevoegen. Alternatief, selecteer één of meerdere afmetingspunten en sleep en laat vallen de selectie op ![ TableSelectRow ](/help/assets/icons/TableSelectRow.svg) **[!UICONTROL Row]** sectie.
+
+   ![ het lusje van Dimensies en de lijst van dimensies.](./assets/quickly-filter.png){zoomable="yes"}
+

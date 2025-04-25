@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: bf765144-34f8-465b-b06d-53e4ca91014a
-source-git-commit: 48f5e9d6c5d3a33a5bae45e841eb8364b7172876
+source-git-commit: 9794779894fbecb433c16d108c555c5f81a4b491
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -17,43 +17,41 @@ ht-degree: 0%
 
 U kunt een gegevensweergave selecteren in de vervolgkeuzelijst of een gegevensweergave selecteren in een cel en uw gegevensblok automatisch bijwerken met een nieuwe gegevensweergave.
 
-**Gegevensweergave uit cel selecteren**
+## Gegevens uit een cel selecteren
 
-Als u een gegevensweergave in een cel selecteert, kunt u gegevensblokken eenvoudig vernieuwen met verschillende gegevensweergaven. Als uw organisatie meerdere gegevensweergaven heeft die op elkaar lijken of identiek zijn in de structuur, in plaats van volledig nieuwe rapporten met afzonderlijke gegevensblokken te maken, kunt u gegevensblokken vernieuwen met een gegevensweergave die u in een cel hebt geselecteerd. Dit is ook handig als u gecompliceerde gegevensblokindelingen hebt die aangepaste componenten en indelingen bevatten.
+Als u een gegevensweergave in een cel selecteert, kunt u gegevensblokken eenvoudig vernieuwen met verschillende gegevensweergaven. In plaats van volledig nieuwe rapporten met afzonderlijke gegevensblokken te creëren, kunt u gegevensblokken met een gegevensmening verfrissen die van een cel wordt geselecteerd.
 
-Als u een gegevensweergave in een cel wilt selecteren, maakt u eerst een gegevensblok en wijst u meerdere gegevensweergaven toe aan een cel buiten het gegevensblok. Vervolgens gebruikt u de gegevensweergave van het deelvenster Cellen om uw gegevensblokken te vernieuwen van verschillende gegevensweergaven.
+Het selecteren van een gegevensweergave in een cel is handig als u:
 
-1. Maak een gegevensblok.
-Zie voor informatie over het maken van een gegevensblok [Een gegevensblok maken](/help/report-builder/create-a-data-block.md).
+* Meerdere gegevensweergaven die op elkaar lijken of identiek zijn in structuur.
+* Gecompliceerde gegevensblokindelingen die aangepaste componenten en lay-outs bevatten.
 
-1. Klik op de knop *celpictogram* in de *Gegevensweergaven* sectie.
+Als u een gegevensweergave in een cel wilt selecteren, maakt u eerst een gegevensblok en wijst u meerdere gegevensweergaven toe aan een cel buiten het gegevensblok. Gebruik vervolgens het deelvenster **[!UICONTROL Data view from cell]** om uw gegevensblokken van verschillende gegevensweergaven te vernieuwen.
 
-   ![Maak een nieuw gegevensblokvenster met het celpictogram gemarkeerd.](/help/report-builder/assets/cell-icon.png)
+1. Maak een gegevensblok. Voor informatie over het creëren van een gegevensblok, zie [ een gegevensblok ](/help/report-builder/create-a-data-block.md) creëren.
 
-1. Selecteer een cellocatie om de gegevensweergaven aan de geselecteerde cel toe te voegen.
+1. Selecteer ![ DataViewSelector ](/help/assets/icons/DataViewSelector.svg) in **[!UICONTROL Data views]**.
 
-   U wilt mogelijk een cel selecteren die ver genoeg van uw gegevensblokcellen is verwijderd, zodat deze elkaar niet overlappen.
+1. Selecteer een cel gebruikend ![ DataBlockSelector ](/help/assets/icons/DataBlockSelector.svg) buiten het gegevensblok.
 
-1. Bevestig de geselecteerde cellocatie.
+1. Voeg een of meer gegevensweergaven van de **[!UICONTROL Select data views to add to data view from cell]** toe met slepen en neerzetten. U kunt ook een gegevensweergave selecteren om de gegevensweergave aan de lijst van **[!UICONTROL Data views included]** toe te voegen.
 
-1. Selecteer de gegevensweergaven die u aan de cel wilt toewijzen.
+   * U kunt ](/help/assets/icons/Search.svg) **[!UICONTROL _Uitgezochte gegevensmeningen van het 0} Onderzoek_]** gebruiken om naar gegevensmeningen te zoeken.![
+   * Gebruik ![ MoreSmall ](/help/assets/icons/MoreSmall.svg) om een contextmenu te openen zodat kunt u gegevensmeningen omhoog of onderaan in de **[!UICONTROL Data views included]** lijst bewegen.
+   * Gebruik ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om een gegevensmening van de **[!UICONTROL Data views included]** lijst te schrappen.
 
-   ![Het deelvenster Snel bewerken van Report Builder met de weergave Gegevens selecteren.](/help/report-builder/assets/select-data-view.png)
+   ![ Uitgezochte gegevensmening van een cel ](assets/dataviews-from-a-cell.png){zoomable="yes"}
 
-1. Klikken **Toepassen**.
+1. Selecteer **[!UICONTROL Apply]** om de geselecteerde gegevensweergaven toe te passen op de geselecteerde cel.
 
-   Wanneer u uw gegevensblok hebt voltooid, kunt u uw gegevensblok vernieuwen met een andere gegevensweergave dan de geselecteerde cel.
 
-   **De gegevensweergave van de cel wijzigen**
+## De gegevensweergave vanuit een cel wijzigen
 
-1. Klik op de locatie van de gegevensweergavecel die u hebt gekozen in Stap 3.
+1. Selecteer de locatie van de gegevensweergavecel in het vel.
+1. Selecteer in de Report Builder-hub de koppeling **[!UICONTROL Data views from cell]** in **[!UICONTROL Quick edit]** .
+1. Selecteer een gegevensweergave in het vervolgkeuzemenu **[!UICONTROL Data view]** .
 
-   Er wordt een vervolgkeuzemenu weergegeven met de gegevensweergaven die u eerder in Stap 5 hebt geselecteerd.
+   ![ de gegevensmening van de Verandering van een cel ](assets/change-data-view-from-cell.png){zoomable="yes"}
+1. Selecteer **[!UICONTROL Refresh data block(s) upon change]** Optioneel.
 
-1. Selecteer een andere gegevensweergave in de vervolgkeuzelijst.
-
-1. (Optioneel) **Gegevensblok(ken) vernieuwen selecteren** bij wijziging.
-
-1. Klikken **Toepassen**.
-
-   Report Builder vernieuwt het gegevensblok met gekozen gegevensmening.
+1. Selecteer **[!UICONTROL Apply]** . Report Builder vernieuwt het gegevensblok op basis van de geselecteerde gegevensweergave.

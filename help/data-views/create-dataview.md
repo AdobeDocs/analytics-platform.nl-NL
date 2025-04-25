@@ -5,7 +5,7 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+source-git-commit: 6213cc09800743a1f7cb4828d71ee731439e529b
 workflow-type: tm+mt
 source-wordcount: '2010'
 ht-degree: 0%
@@ -191,7 +191,7 @@ U kunt {het pictogram van de Filter ](https://spectrum.adobe.com/static/icons/wo
 
 ### Instellingen (segmenten)
 
-U kunt segmenten toevoegen die van toepassing zijn op een volledige gegevensweergave. Dit segment wordt toegepast op om het even welk rapport dat u in Workspace loopt. Sleep een segment van de lijst in de linkerspoor aan het [!UICONTROL Add segments] gebied.
+U kunt segmenten toevoegen die van toepassing zijn op een volledige gegevensweergave. Dit segment wordt toegepast op om het even welk rapport dat u in Workspace loopt. Sleep een segment van de lijst in de linkerspoor aan het **[!UICONTROL Add segments]** gebied.
 
 ### Sessieinstellingen
 

@@ -4,9 +4,9 @@ description: Hiermee geeft u updates voor de inhoud van de Customer Journey Anal
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: b880c63d22cec0e7de4f313eef72e86f41e85eca
+source-git-commit: 9cda9a2b8d5ec876a1c4a5c539daa1e0624a4460
 workflow-type: tm+mt
-source-wordcount: '5031'
+source-wordcount: '5040'
 ht-degree: 4%
 
 ---
@@ -20,6 +20,7 @@ De volgende updates zijn aangebracht in de documentatie van Customer Journey Ana
 | Functie | Beschrijving |
 | --- | --- |
 | **April 2025** | |
+| Report Builder | Herzien en bijgewerkt de [ documentatie van Report Builder ](/help/report-builder/report-buider-overview.md). |
 | Gebruik weergeven en beheren | Herwerkte de documentatie op hoe te [ mening ](/help/connections/manage-connections.md#usage) en [ het gebruik van Customer Journey Analytics beheren ](/help/technotes/estimate-usage.md) |
 | Adobe Content Analytics | [ Content Analytics ](/help/content-analytics/content-analytics.md) staat u toe om grote volumes van inhoudsgegevens snel en gemakkelijk te onderzoeken om tendensen, vlekanomalieën te ontdekken, inhoudsvermoeidheid te identificeren, en inzichten van inhoudblootstelling te bereiken. |
 | Bijgewerkte XDM-velden voor het verzamelen van Streaming Media-gegevens in Adobe Experience Platform | Wanneer het verzamelen van de Gegevens van Media van de Streaming in Adobe Experience Platform, zouden de XDM gebiedspaden onder de rubriek van &quot;Pad van het Gebied XDM&quot;van de Streaming de parameterdocumentatie van Media niet meer moeten worden gebruikt. Deze gebiedspaden worden gevonden op de volgende pagina&#39;s en als &quot;Vervangen&quot;duidelijk: [ Audio en videoparameters ](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters), [ Advertentieparameters ](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/ad-parameters), [ de parameters van het Hoofdstuk ](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/chapter-parameters), [ de staatsparameters van de Speler ](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/player-state-parameters), en [ de parameters van de Kwaliteit ](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/quality-parameters). |

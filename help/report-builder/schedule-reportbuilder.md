@@ -1,25 +1,25 @@
 ---
-title: Hoe te om werkboeken te plannen gebruikend Report Builder in Customer Journey Analytics
-description: Leer hoe u de planningsfunctie in Report Builder gebruikt
+title: Workbooks plannen met Report Builder in Customer Journey Analytics
+description: Meer informatie over het gebruik van de planningsfunctie in Report Builder
 role: User
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: 7429d8f9-1e8f-4fbd-8b04-cbe7adbff3e2
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: 6dd8a70293161ff58361953a7e48a98834b7abe0
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
 
 # Workbooks plannen
 
-Nadat u uw werkboek en voltooide uw analyse bewaarde, kunt u uw werkboek met anderen op uw team gemakkelijk delen gebruikend de het plannen eigenschap. De eigenschap van het Programma staat u toe om een programma tot stand te brengen dat automatisch de gegevens in het werkboek vernieuwt en het dossier van het werkboek van Excel .xlsx als gehechtheid aan uw gespecificeerd publiek op een specifieke datum en een tijd e-mailt. Als u een schema instelt, krijgen ontvangers automatisch regelmatig updates. U kunt de planningseigenschap ook gebruiken om het werkboek eens uit te sturen zonder automatische updates te plannen.
+Nadat u uw werkboek en voltooide uw analyse bewaarde, kunt u uw werkboek met anderen op uw team delen gebruikend de het plannen eigenschap. De planningseigenschap staat u toe om een programma tot stand te brengen dat automatisch de gegevens in het werkboek vernieuwt. En e-mailt het het werkboekdossier van Excel als gehechtheid aan uw gespecificeerd publiek op een specifieke datum en een tijd. Door een schema in te stellen, krijgen ontvangers automatisch regelmatige updates. U kunt de planningseigenschap ook gebruiken om het werkboek eens uit te sturen zonder automatische updates te plannen.
 
-U kunt veelvoudige programma&#39;s voor één enkel werkboek tot stand brengen. Bijvoorbeeld, kunt u een werkboek naar uw team op een dagelijkse basis verzenden en u kunt het werkboek naar uw manager eens per week verzenden door twee verschillende programma&#39;s te creëren.
+U kunt veelvoudige programma&#39;s voor één enkel werkboek tot stand brengen. Bijvoorbeeld, creeert u twee programma&#39;s om een werkboek naar uw team dagelijks en naar uw manager één keer per week te verzenden.
 
-De eigenschap van het Programma staat u ook aan de bescherming van het opstellingswachtwoord voor een werkboek toe en geeft eerder geplande werkboeken uit.
+De planningseigenschap staat u ook aan de bescherming van het opstellingswachtwoord voor een werkboek toe en geeft eerder geplande werkboeken uit.
 
 
 >[!BEGINSHADEBOX]
@@ -31,104 +31,152 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Werkboeken va
 
 ## Een werkboek plannen
 
-Gebruik de de taakknoop van het Programma in de hub van de Report Builder om snel een programma tot stand te brengen zodat u een dossier van werkboekExcel (.xlsx) aan een individu of een groep kunt automatisch verdelen.
+Een werkboek plannen:
 
-1. Klik de knoop van het Programma in de hub van de Report Builder.
+1. Selecteer **[!UICONTROL Schedule]** in de hub van Report Builder om een programma tot stand te brengen zodat u een dossier van werkboekExcel (.xlsx) aan een individu of een groep kunt automatisch verdelen.
 
-   ![ klik de knoop van het Programma om een programma tot stand te brengen.](./assets/schedule-button.png){width="55%"}
+   ![ selecteer de knoop van het Programma om een programma tot stand te brengen.](./assets/schedule.png){zoomable="yes"}
 
-1. Klik het Werkboek van het Programma of de plus knoop in upper-left om een nieuw gepland werkboek tot stand te brengen.
+1. Selecteer **[!UICONTROL Schedule Workbook]** of ![ voeg ](/help/assets/icons/Add.svg) toe om een nieuw gepland werkboek tot stand te brengen.
 
-   ![ het venster van de werkboeken van het Programma.](./assets/schedule-workbook.png){width="55%"}
+   ![ het venster van de werkboeken van het Programma.](./assets/schedule-workbook.png){zoomable="yes"}
 
    De het plannen ruit toont sommige vooraf bepaalde informatie over het werkboek zoals de werkboeknaam en de laatste datum dat het werkboek werd gewijzigd.
 
-   ![ het plannen ruit.](./assets/schedule-pane.png){width="55%"}
+### Bestand
 
-1. (Optioneel) Voer een bestandsnaam in.
+In de sectie **[!UICONTROL File]** geeft u details over het bestandstype, de naam en een wachtwoord op om het bestand te beveiligen.
 
-   De naam van het werkboekdossier blijft aan de naam van het werkboek in gebreke maar u kunt dit veranderen als u wilt. Als u hetzelfde werkboek naar meerdere soorten publiek stuurt en u het een wat vriendelijker naam wilt geven voor een bepaald publiek, kunt u de naam wijzigen.
+![ het plannen ruit.](./assets/schedule-pane.png){zoomable="yes"}
 
-1. (Optioneel) Selecteer **Tijdstempel toevoegen aan bestandsnaam** .
+1. Gebruik ![ TableSelect ](/help/assets/icons/TableSelect.svg) om het huidige werkboek te selecteren, als niet reeds geselecteerd.
 
-   U kunt een timestamp aan het dossier toevoegen - noem om de datum te identificeren het werkboek werd bijgewerkt. Dit is nuttig om snel te zien welke versie van een werkboek op een specifieke datum werd verzonden. De **filename voorproef** toont hoe de naam van het werkboekdossier in e-mail zal verschijnen wanneer het werkboek wordt verdeeld. De tijdstempelnotatie is YYYY-MM-DD.
+1. (Optioneel) Voer een **[!UICONTROL File name]** in.
 
-1. (Optioneel) Selecteer **.zip-compressie** om het bestand te comprimeren en wachtwoordbeveiliging voor het bestand in te stellen.
+   De naam van het werkboekdossier blijft aan de naam van het werkboek in gebreke maar u kunt de dossiernaam veranderen als u wilt.
 
-   Wanneer u deze selectie maakt, wordt u gevraagd een wachtwoord in te voeren om het bestand te openen. Dit is nuttig als u zich zorgen maakt over gegevensveiligheid en u wachtwoord het werkboek wilt beschermen. Als u het bestand met een wachtwoord wilt beveiligen, moet u **.zip compression** selecteren. Het wachtwoord moet ten minste 8 tekens hebben en een getal en een speciaal teken bevatten.
+1. Selecteer een **[!UICONTROL File type]** .
 
-   ![ ga een wachtwoord op het Wachtwoord in beschermt het werkboekgebied.](./assets/zip-compression.png){width="55%"}
+   * **[!UICONTROL Excel]**
+   * **[!UICONTROL PDF]**
+   * **[!UICONTROL CSV]**
 
-1. Ga **Ontvangers** in. U kunt de naam invoeren van een persoon die in uw organisatie wordt herkend, of u kunt een e-mailadres invoeren van een persoon binnen of buiten uw organisatie.
+   Wanneer u **[!UICONTROL CSV]** selecteert, houd er rekening mee dat het geplande werkboek als postgehechtheid wordt verzonden. Sommige e-mailbeheerders van bedrijven kunnen e-mailberichten blokkeren met ZIP-bijlagen. U ziet een waarschuwing op basis hiervan.
+
+1. (Optioneel) Selecteer **[!UICONTROL Append time-stamp to file name]** .
+
+   U kunt een timestamp aan het dossier toevoegen - noem om de datum te identificeren het werkboek werd bijgewerkt. Een timestamp is nuttig om te zien welke versie van een werkboek op een specifieke datum werd verzonden. Als deze optie is geselecteerd, kunt u kiezen tussen:
+
+   * **[!UICONTROL ISO Date format]** . Dit betekent dat `YYYY-MM-DD` aan de bestandsnaam wordt toegevoegd.
+   * **[!UICONTROL ISO Date format + time stamp]** . Dit betekent dat `YYYY-MM-DD_HH-MM-SS` aan de bestandsnaam wordt toegevoegd.
+
+<!-- Does no longer seem to be an option? 
+1. (Optional) Select **.zip compression** to compress the file and set up password protection on the file.
+
+    When you make this selection, you're prompted to enter a password to open the file. This is helpful if you have concerns about data security and you want to password protect the workbook. Protecting the file with a password requires you to select **.zip compression**. The password must be at least 8 characters and contain a number and a special character.
+
+    ![Enter a password in the Password protect the workbook field.](./assets/zip-compression.png){zoomable="yes"}{width="55%"}
+-->
+
+1. Voer een wachtwoord in **[!UICONTROL Password protect the workbook]** in. Voor een geldig wachtwoord zijn ten minste 8 tekens nodig, een getal en een speciaal teken. Selecteer ![ VisibilityOff ](/help/assets/icons/VisibilityOff.svg) om het wachtwoord en ![ Zichtbaarheid ](/help/assets/icons/Visibility.svg) te tonen om het wachtwoord (gebrek) te verbergen.
+
+
+### E-mail
+
+In de sectie **[!UICONTROL Email]** geeft u de ontvangers, het onderwerp en de beschrijving van de e-mail op.
+
+![ e-mailmontages van het Programma ](assets/schedule-email.png){zoomable="yes"}
+
+1. Ga **Ontvangers** in. U kunt de naam invoeren van een persoon die in uw organisatie wordt herkend. U kunt ook een e-mailadres invoeren van een persoon die zich buiten uw organisatie bevindt.
 
 1. Ga het **Onderwerp** van e-mail en een beschrijving voor uw ontvangers in. Het onderwerp blijft aan de naam van het werkboekdossier in gebreke maar u kunt het onderwerp wijzigen indien nodig. U kunt details in de beschrijvingssectie toevoegen.
 
-   ![ ga een onderwerp op het Onderwerp in.](./assets/recipients-subject.png){width="55%"}
+1. U kunt desgewenst een beschrijving invoeren in het tekstgebied **[!UICONTROL Description]** .
 
-1. Opstelling de het plannen opties om de datum en de tijd te plaatsen die u het werkboek aan uw ontvangers wilt e-mailden.
 
-   Kies de begin- en einddatum- en tijdframes. Dit kan de datum van vandaag of een datum in de toekomst zijn.
+### Schema
 
-   Kies de **Frequentie** van het drop-down menu. U kunt de frequentie instellen op uurbasis, dagelijks, wekelijks, maandelijks of jaarlijks op een bepaalde dag. Bijvoorbeeld, kunt u opstelling een programma om het werkboek op de eerste Zondagnacht van de maand te verzenden zodat uw ontvangers de e-mail in hun inbox eerste ding op maandagochtend zullen hebben.
+In de **[!UICONTROL Schedule]** sectie, kunt u het programma bepalen om de e-mails met het werkboek naar uw ontvangers te verzenden.
 
-   ![ selecteer de frequentie om uw rapport te plannen.](./assets/frequency.png){width="55%"}
+![ definitie van het Programma ](assets/schedule-enable.png){zoomable="yes"}
 
-1. Nadat u het programma plaatst, verzendt de klik **op programma**.
+1. Selecteer **[!UICONTROL Show scheduling options]** om een schema te definiëren.
 
-   ![ klik verzenden op programma.](./assets/send-on-schedule.png){width="55%"}
+1. Voer een begindatum in in **[!UICONTROL Starting on]** . Alternatief, selecteer ![ Kalender ](/help/assets/icons/Calendar.svg) om een begindatum van de kalender te kiezen.
 
-   U zult een bevestigingstoast bij de bodem van de hub van de Report Builder zien en het geplande werkboek is vermeld onder het lusje van Werkboeken.
+1. Voer een einddatum in in **[!UICONTROL Ending on]** . Alternatief, selecteer ![ Kalender ](/help/assets/icons/Calendar.svg) om een einddatum van de kalender te kiezen.
 
-   ![ Bevestiging toast ](./assets/confirmation-toast.png){width="55%"}
+1. Selecteer een **[!UICONTROL Frequency]** . Afhankelijk van de geselecteerde frequentie, hebt u extra opties. Zie onderstaande tabel.
 
-## Het werkboek slechts éénmaal verzenden
+   | Frequentie | Opties |
+   |---|---|
+   | **[!UICONTROL Send hourly]** | Voer een waarde in voor **[!UICONTROL Send every number of hours]** . |
+   | **[!UICONTROL Send daily]** | Selecteer een **[!UICONTROL Daily frequency]**: **[!UICONTROL Send every day]**, **[!UICONTROL Send every weekday]** of **[!UICONTROL Custom frequency]** .<br/> Als u **[!UICONTROL Custom frequency]** selecteert, ga een waarde voor **[!UICONTROL Send every number of days]** in. |
+   | **[!UICONTROL Send weekly]** | Voer een waarde in voor **[!UICONTROL Send every number of weeks]** . Selecteer een **[!UICONTROL Day of week]** . |
+   | **[!UICONTROL Send monthly by day of the week]** | Selecteer een **[!UICONTROL Day of week]** en een **[!UICONTROL Week of month]** . |
+   | **[!UICONTROL Send monthly by day of the month]** | Selecteer een waarde in **[!UICONTROL Send on this day of the month]** . |
+   | **[!UICONTROL Send yearly by day of the month]** | Selecteer een **[!UICONTROL Day of week]** , selecteer een **[!UICONTROL Week of month]** en selecteer een **[!UICONTROL Monthly of year]** . |
+   | **[!UICONTROL Send yearly by specific date]** | Selecteer een **[!UICONTROL Month of year]** en selecteer een waarde in **[!UICONTROL Send on this day of the month]** . |
 
-U kunt het werkboek ook slechts eenmaal verzenden.
+### Verzenden
 
-1. Un-controle **tonen het plannen opties**
+Om het werkboek te verzenden:
 
-   ![ klik niet-controle tonen het plannen opties om een werkboek één keer uit te zenden.](./assets/send-now.png){width="40%"}
+* Als u geen schema gebruikend **[!UICONTROL Show scheduling options]** hebt bepaald, uitgezocht **[!UICONTROL Send now]** om het werkboek per e-mail onmiddellijk te verzenden.
+* Als u een programma gebruikend **[!UICONTROL Show scheduling options]** hebt bepaald, uitgezocht **[!UICONTROL Send on schedule]** om het werkboek door e-mail te verzenden gebruikend het programma u bepaalde.
 
-1. Klik **verzenden nu**.
+In beide gevallen ziet u een bevestigingstoets onder aan de Report Builder-hub.
 
-## Geplande werkboeken weergeven en bewerken
+Als u het verzenden van het werkboek wilt annuleren, selecteert u **[!UICONTROL Cancel]** .
 
-U kunt alle geplande werkboeken weergeven en beheren op één locatie onder het tabblad Werkboeken.
 
-1. In de sectie van het Programma van de hub van de Report Builder, klik de Werkboeken tabel. Gebruik deze weergave om een lijst met alle geplande werkboeken weer te geven.
+## Geplande werkboeken weergeven en beheren
 
-1. Selecteer een werkboek. Verscheidene hulpmiddelen worden getoond die u toestaan om het werkboek uit te geven, de planningstaak uit te geven, de planningstaak te pauzeren en opnieuw te beginnen, een gepland taakrapport te downloaden, of de planningstaak te schrappen.
+U kunt alle geplande werkboeken weergeven en beheren op het tabblad **[!UICONTROL Workbooks]** .
 
-   ![ Screenshot die de werkboekplanningspictogrammen tonen.](./assets/schedule-icons.png){width="20%"}
+1. Selecteren **[!UICONTROL Schedule]** in de Report Builder-hub
 
-* (Facultatief) klik het potloodpictogram om de werkboekplanningstaak uit te geven.
+1. Selecteer de tab **[!UICONTROL Workbooks]** . U ziet een lijst van alle geplande werkboeken.
 
-* (Optioneel) Klik op het klokpictogram om een geschiedenis van elke geplande taak weer te geven.
+   ![ Gepland werkboek ](assets/scheduled-workbooks.png){zoomable="yes"}
 
-* (Optioneel) Klik op het pauzepictogram om de taak van het distributieprogramma te onderbreken en opnieuw te starten. Dit is nuttig als u het werkboek moet wijzigen alvorens het werkboek wordt verzonden. Klik nogmaals op het pauzepictogram als u de distributie opnieuw wilt starten.
+   U kunt over het pictogram bewegen om het statuut van een gepland werkboek te zien.
 
-* (Facultatief) klik het downloadpictogram om een exemplaar van de werkboekprogrammataak te downloaden.
+   Het gebruik ![ Onderzoek ](/help/assets/icons/Search.svg) aan onderzoek naar specifieke geplande werkboeken.
+Gebruik ![ ColumnSetting ](/help/assets/icons/ColumnSetting.svg) om te bepalen welke kolommen te tonen.
 
-* (Optioneel) Klik op de prullenbak om de geplande taak te verwijderen.
+1. Selecteer een of meer werkboeken.
 
-  ![ Schermafbeelding die de lijst met planningstaken toont.](./assets/selected-workbook.png){width="40%"}
+   ![ geselecteerde werkboeken van het Programma ](assets/scheduled-workbooks-selected.png){zoomable="yes"}
 
-## De status van geplande taken controleren
+   De volgende opties zijn beschikbaar:
 
-In de geschiedenisweergave kunt u de status van elke geplande taak controleren. Er is een afzonderlijke rij die de statusverandering voor elke geplande taak documenteert. In het hieronder getoonde voorbeeld, werd het *Nieuwe Uur Programma* in werking gesteld op 5 Januari, bij 3:04pm. Om 15:05 uur is het bestand vernieuwd en verzonden naar ontvangers. Het volgende werkboek, *Onjuiste werkboek*, ontmoette een fout tijdens verfrist proces. Als een werkboek niet kon verzenden, helpt het geschiedenislusje u problemen oplossen door te tonen waar in het proces de fout voorkwam. In dit geval, is het waarschijnlijk toe te schrijven aan één of andere fout van het gegevensblok, misschien een ontbrekende component, die het werkboek van met succes het verfrissen hield.
+   | Optie | Beschrijving |
+   |---|---|
+   | ![ geeft ](/help/assets/icons/Edit.svg) uit | Bewerk het schema voor een geselecteerd werkboek. |
+   | ![ Geschiedenis ](/help/assets/icons/History.svg) | De geschiedenis van geselecteerde werkboeken weergeven. |
+   | ![ Pauze ](/help/assets/icons/Pause.svg) | Onderbreek het schema van geselecteerde werkboeken. |
+   | ![ Spel ](/help/assets/icons/Play.svg) | Hervat het schema van geselecteerde werkboeken. |
+   | ![Download](/help/assets/icons/Download.svg) | Download het geselecteerde werkboek in een nieuw werkboek. |
+   | ![ Schrapping ](/help/assets/icons/Delete.svg) | Verwijder het schema van geselecteerde werkboeken. |
 
-Een groen vinkje wijst erop dat het werkboek met succes werd verzonden. Een uitroepteken in een rode driehoek geeft aan dat er een fout is opgetreden.
 
-U kunt kiezen welke kolommen u wilt weergeven op het tabblad Historie door op het pictogram voor kolominstellingen rechts van de zoekbalk te klikken.
+## Geschiedenis en status van geplande werkboeken
 
-![ klik het kolompictogram om specifieke kolommen te tonen of te verbergen.](./assets/history.png){width="55%"}
+U kunt de geschiedenis en status van geplande werkboeken weergeven op het tabblad **[!UICONTROL History]** .
 
-U kunt onderaan de geschiedenis filtreren om slechts dat van één enkele geplande werkboeken te zien door naar het werkboeklusje te gaan, het werkboek te selecteren en het geschiedenispictogram te klikken.
+1. Selecteer **[!UICONTROL Schedule]** in de hub van Report Builder.
 
-U kunt de geschiedenis van een specifiek werkboek van het lusje van Werkboeken ook bekijken. Voor het lusje van Werkboeken, selecteer het werkboek en klik dan het geschiedenispictogram.
+1. Selecteer de tab **[!UICONTROL History]** . U ziet een lijst van alle geplande werkboeken.
 
-![ het pictogram van de de geschiedenisgeschiedenis van werkboeken ](./assets/history2.png){width="55%"}
+   ![ Geplande geschiedenis ](assets/scheduled-workbooks-history.png){zoomable="yes"}
 
-Het werkboekfilter zal dan bij de bovenkant van de geschiedenis verschijnen. Klik op de x naast het filter om de geschiedenis van alle geplande taken opnieuw weer te geven.
+   Het gebruik ![ Onderzoek ](/help/assets/icons/Search.svg) aan onderzoek naar specifieke werkboeken in de lijst.
+Gebruik ![ ColumnSetting ](/help/assets/icons/ColumnSetting.svg) om te bepalen welke kolommen te tonen.
 
-![ de werkboekfilter.](./assets/history3.png){width="55%"}
+   Op het tabblad **[!UICONTROL History]** kunt u de status van elke geplande taak controleren. Een afzonderlijke rij documenteert de statusverandering voor elke geplande taak.
+
+   * A ![ CheckmarkCircleGreen ](/help/assets/icons/CheckmarkCircleGreen.svg) wijst erop dat het werkboek met succes werd verzonden.
+   * A ![ AlertRed ](/help/assets/icons/AlertRed.svg) wijst erop dat een fout voorkwam.
+
+Alternatief, kunt u ![ Geschiedenis ](/help/assets/icons/History.svg) voor één of meerdere geselecteerde werkboeken op het **[!UICONTROL Workbooks]** lusje selecteren. Deze actie toont het **[!UICONTROL History]** lusje met een lijst door uw selectie wordt gefiltreerd die. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om een filter te verwijderen.
