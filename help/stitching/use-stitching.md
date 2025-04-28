@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: 157f70353f60da3fec83e016e7a09f69f7f514cf
+source-git-commit: 7cd0bd94ec45b1570d0be765d95b25defa3e1b87
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,12 @@ Het Customer Journey Analytics-pakket waarop u recht hebt, bepaalt de beschikbar
    - Een verzoek om stitching in te schakelen.
    - De dataset-id voor de gegevensset die u opnieuw wilt invoeren.
    - De kolomnaam (identiteitspad en naamruimte) van de permanente id voor de gewenste gegevensset (de id die op elke rij wordt weergegeven).
-   - Voor op veld gebaseerde stitching, de kolomnaam van transient identiteitskaart voor de gewenste dataset (persoonsidentificatie, die ook als verbinding tussen datasets in de context van een verbinding dienst doet). Voor op een grafiek gebaseerde stitching, de identiteitsnaamruimte die voor het vragen van de identiteitsgrafiek moet worden gebruikt.
+   - Als de dataset `identityMap` ondersteunt:
+      - Geef voor stitching op basis van velden de naamruimte op voor zowel de permanente als tijdelijke id&#39;s.
+      - Geef voor op grafiek gebaseerde stitching de naamruimte op voor de persistente id en de naamruimte voor identiteiten die moet worden gebruikt voor het opvragen van de identiteitsgrafiek.
+   - Als de gegevensset `identityMap` niet ondersteunt:
+      - Voor op veld gebaseerde stitching, de kolomnaam van transient identiteitskaart voor de gewenste dataset (persoonsidentificatie, die ook als verbinding tussen datasets in de context van een verbinding dienst doet).
+      - Voor op een grafiek gebaseerde stitching, de identiteitsnaamruimte die voor het vragen van de identiteitsgrafiek moet worden gebruikt.
    - Uw voorkeur voor terugkijkvenster en herhalingsfrequentie. Zie uw pakket van Customer Journey Analytics voor de [ beschikbare opties ](#options).
    - Naam van sandbox.
 

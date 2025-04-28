@@ -4,18 +4,89 @@ description: Toelichting op basis van veldensteunen
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
-source-git-commit: 4ce1b22cce3416b8a82e5c56e605475ae6c27d88
+exl-id: e5cb55e7-aed0-4598-a727-72e6488f5aa8
+source-git-commit: 9237549aabe73ec98fc42d593e899c98e12eb194
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1779'
 ht-degree: 2%
 
 ---
 
 # Veldgebaseerde stitatie
 
-Op gebied gebaseerde stitching specificeert u een gebeurtenisdataset evenals blijvende identiteitskaart (koekje) en voorbijgaande identiteitskaart (persoonsidentiteitskaart) voor die dataset. Op veld gebaseerde stitching leidt tot een nieuwe gestippelde kolom van identiteitskaart in de nieuwe gestikte dataset en werkt deze stitched ID kolom bij die op rijen wordt gebaseerd die een transient identiteitskaart voor die specifieke blijvende identiteitskaart hebben. <br/> u kunt op gebied-gebaseerde het stitching gebruiken wanneer het gebruiken van Customer Journey Analytics als standalone oplossing (die geen toegang tot de Dienst van de Identiteit van het Experience Platform en bijbehorende identiteitsgrafiek heeft). Of als u de beschikbare identiteitsgrafiek niet wilt gebruiken.
+Op gebied gebaseerde stitching specificeert u een gebeurtenisdataset evenals blijvende identiteitskaart (koekje) en voorbijgaande identiteitskaart (persoonsidentiteitskaart) voor die dataset. Op veld gebaseerde stitching leidt tot een nieuwe gestippelde kolom van identiteitskaart in de nieuwe gestikte dataset en werkt deze stitched ID kolom bij die op rijen wordt gebaseerd die een transient identiteitskaart voor die specifieke blijvende identiteitskaart hebben. <br/> u kunt op gebied-gebaseerde het stitching gebruiken wanneer het gebruiken van Customer Journey Analytics als standalone oplossing (die geen toegang tot de Dienst van de Identiteit van Experience Platform en bijbehorende identiteitsgrafiek heeft). Of als u de beschikbare identiteitsgrafiek niet wilt gebruiken.
 
 ![ Op gebied-gebaseerde het stitching ](/help/stitching/assets/fbs.png)
+
+
+## IdentityMap
+
+Op velden gebaseerde stitching ondersteunt het gebruik van de [`identifyMap` veldgroep ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity) in de volgende scenario&#39;s:
+
+- Gebruik van de primaire identiteit in naamruimte `identityMap` om de persistentID te definiëren:
+   - Als meerdere primaire identiteiten in verschillende naamruimten worden gevonden, worden de identiteiten in de naamruimten lexigrafisch gesorteerd en wordt de eerste identiteit geselecteerd.
+   - Wanneer meerdere primaire identiteiten in één naamruimte worden gevonden, wordt de eerste lexicografische beschikbare primaire identiteit geselecteerd.
+
+  In het onderstaande voorbeeld resulteren naamruimten en identiteiten in een gesorteerde lijst met primaire identiteiten en ten slotte in de geselecteerde identiteit.
+
+  <table>
+     <tr>
+       <th>Naamruimten</th>
+       <th>Lijst met identiteiten</th>
+     </tr>
+     <tr>
+       <td>ECID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ecid-3"},<br/>&nbsp;&nbsp;{"id": "ecid-2", "primary": true},<br/>&nbsp;&nbsp;{"id": "ecid-1", "primary": true}<br/>&nbsp;]</code></pre></td>
+     </tr>
+     <tr>
+       <td>CCID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ccid-1"},<br/>&nbsp;&nbsp;{"id": "ccid-2", "primary": true}<br/>]</code></pre></td>
+     </tr>
+   </table>
+
+  <table>
+    <tr>
+      <th>Lijst met gesorteerde identiteiten</th>
+      <th>Geselecteerde identiteit</th>
+    </tr>
+    <tr>
+      <td><pre lang="json"><code>PrimaryIdentities [<br/>&nbsp;&nbsp;{"id": "ccid-2", "namespace": "CCID"},<br/>&nbsp;&nbsp;{"id": "ecid-1", "namespace": "ECID"},<br/>&nbsp;&nbsp;{"id": "ecid-2", "namespace": "ECID"}<br/>]<br/>NonPrimaryIdentities [<br/>&nbsp;&nbsp;{"id": "ccid-1", "namespace": "CCID"},<br/>&nbsp;&nbsp;{"id": "ecid-3", "namespace": "ECID"}<br/>]</code></pre></td>
+      <td><pre lang="json"><code>"id": "ccid-2",<br/>"namespace": "CCID"</code></pre></td>
+    </tr>
+  </table>
+
+
+- Gebruik van naamruimte `identityMap` om zowel persistentID als transientID of beide te definiëren:
+   - Wanneer meerdere waarden voor permanentID of transientID worden gevonden in een naamruimte `identityMap` , wordt de eerste lexicografische beschikbare waarde gebruikt.
+   - Naamruimten voor persistentID en transientID moeten elkaar uitsluiten.
+
+  In het onderstaande voorbeeld resulteren de naamruimten en identiteiten in een lijst met gesorteerde identiteiten voor de geselecteerde naamruimte (ECID) en ten slotte de geselecteerde identiteit.
+
+  <table>
+     <tr>
+       <th>Naamruimten</th>
+       <th>Lijst met identiteiten</th>
+     </tr>
+     <tr>
+       <td>ECID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ecid-3"},<br/>&nbsp;&nbsp;{"id": "ecid-2", "primary": true},<br/>&nbsp;&nbsp;{"id": "ecid-1", "primary": true}<br/>]</code></pre></td>
+     </tr>
+     <tr>
+       <td>CCID</td>
+       <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;{"id": "ccid-1"},<br/>&nbsp;&nbsp;{"id": "ccid-2", "primary": true}<br/>]</code></pre></td>
+     </tr>
+   </table>
+
+  <table>
+    <tr>
+      <th>Lijst met gesorteerde identiteiten</th>
+      <th>Geselecteerde identiteit</th>
+    </tr>
+    <tr>
+      <td><pre lang="json"><code>[<br/>&nbsp;&nbsp;"id": "ecid-1",<br/>&nbsp;&nbsp;"id": "ecid-2",<br/>&nbsp;&nbsp;"id": "ecid-3"<br/>]</code></pre></td>
+      <td><pre lang="json"><code>"id": "ecid-1",<br/>"namespace": "ECID"</code></pre></td>
+    </tr>
+  </table>
 
 ## Hoe veldomstandigheden stitching werkt
 
@@ -139,21 +210,24 @@ De volgende voorwaarden zijn specifiek van toepassing op veldomstandigheden:
 
 - De dataset van de gebeurtenis in Adobe Experience Platform, waarop u het stitching wilt toepassen, moet twee kolommen hebben die bezoekers helpen identificeren:
 
-   - A **blijvende identiteitskaart**, een herkenningsteken beschikbaar op elke rij. Bijvoorbeeld een bezoekersidentiteitskaart die door een bibliotheek van het AppMeasurement van Adobe Analytics of een ECID wordt geproduceerd door de Dienst van de Identiteit van Adobe Experience Platform.
-   - A **voorbijgaande identiteitskaart**, een herkenningsteken beschikbaar op slechts sommige rijen. Een gehashte gebruikersnaam of e-mailadres bijvoorbeeld wanneer een bezoeker de verificatie uitvoert. U kunt vrijwel elke gewenste id gebruiken. Stitching beschouwt dit gebied om de daadwerkelijke informatie van persoonidentiteitskaart te houden. Voor de beste stitching resultaten, zou een transient identiteitskaart binnen de gebeurtenissen van de dataset minstens eens voor elke blijvende identiteitskaart moeten worden verzonden. Als u van plan bent om deze dataset binnen een verbinding van de Customer Journey Analytics te omvatten, is het verkieslijk dat de andere datasets ook een gelijkaardige gemeenschappelijke herkenningsteken hebben.
+   - A **blijvende identiteitskaart**, een herkenningsteken beschikbaar op elke rij. Bijvoorbeeld een bezoeker-id die is gegenereerd door een Adobe Analytics AppMeasurement-bibliotheek of een ECID die is gegenereerd door de Adobe Experience Platform Identity Service.
+   - A **voorbijgaande identiteitskaart**, een herkenningsteken beschikbaar op slechts sommige rijen. Een gehashte gebruikersnaam of e-mailadres bijvoorbeeld wanneer een bezoeker de verificatie uitvoert. U kunt vrijwel elke gewenste id gebruiken. Stitching beschouwt dit gebied om de daadwerkelijke informatie van persoonidentiteitskaart te houden. Voor de beste stitching resultaten, zou een transient identiteitskaart binnen de gebeurtenissen van de dataset minstens eens voor elke blijvende identiteitskaart moeten worden verzonden. Als u van plan bent om deze dataset binnen een verbinding van Customer Journey Analytics te omvatten, is het verkieslijk dat de andere datasets ook een gelijkaardige gemeenschappelijke herkenningsteken hebben.
 
-- Beide kolommen (blijvende identiteitskaart en voorbijgaande identiteitskaart) moeten als identiteitsgebied met een identiteitsnaamruimte in het schema voor de dataset worden bepaald u wilt heksen. Wanneer het gebruiken van identiteit stitching in Real-time Customer Data Platform, gebruikend de [`identityMap` gebiedsgroep ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity), moet u nog identiteitsgebieden met een identiteitsnaamruimte toevoegen. Deze identificatie van identiteitsvelden is vereist omdat Customer Journey Analytics stitching de `identityMap` veldgroep niet ondersteunt. Wanneer u een identiteitsveld toevoegt in het schema en ook de veldgroep `identityMap` gebruikt, moet u het extra identiteitsveld niet instellen als primaire identiteit. Als u een extra identiteitsveld instelt als primaire identiteit, heeft dit invloed op de veldgroep `identityMap` die wordt gebruikt voor Real-time Customer Data Platform.
+<!--
+- Both columns (persistent ID and transient ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
+
+-->
 
 ## Beperkingen
 
 De volgende beperkingen zijn specifiek van toepassing op veldomstandigheden:
 
 - De huidige mogelijkheden voor opnieuw aanvragen zijn beperkt tot één stap (permanente id tot tijdelijke id). Het opnieuw activeren in meerdere stappen (bijvoorbeeld een blijvende id naar een tijdelijke id en een andere tijdelijke id) wordt niet ondersteund.
-- Als een apparaat door veelvoudige mensen wordt gedeeld en het totale aantal overgangen tussen gebruikers overschrijdt 50.000, houdt de Customer Journey Analytics het stitching van gegevens voor dat apparaat op.
+- Als een apparaat door meerdere personen wordt gedeeld en het totale aantal overgangen tussen gebruikers groter is dan 50.000, stopt Customer Journey Analytics met het naaien van gegevens voor dat apparaat.
 - Aangepaste id-kaarten die in uw organisatie worden gebruikt, worden niet ondersteund.
-- Het plaatsen is case-sensitive. Voor datasets die door de de bronschakelaar van de Analyse worden geproduceerd, adviseert de Adobe om het even welke regels van VISTA of verwerkingsregels te herzien die op het transient gebied van identiteitskaart van toepassing zijn. Deze controle zorgt ervoor dat geen van deze regels nieuwe vormen van zelfde identiteitskaart introduceert. U moet er bijvoorbeeld voor zorgen dat er geen VISTA- of verwerkingsregels zijn die een lagere waarde invoeren in het veld met de tijdelijke id voor slechts een gedeelte van de gebeurtenissen.
+- Het plaatsen is case-sensitive. Voor datasets die door de de bronschakelaar van de Analyse worden geproduceerd, adviseert Adobe om het even welke regels van VISTA of verwerkingsregels te herzien die op het overgangsgebied van identiteitskaart van toepassing zijn. Deze controle zorgt ervoor dat geen van deze regels nieuwe vormen van zelfde identiteitskaart introduceert. U moet er bijvoorbeeld voor zorgen dat er geen VISTA- of verwerkingsregels zijn die een lagere waarde invoeren in het veld met de tijdelijke id voor slechts een gedeelte van de gebeurtenissen.
 - Bij het aanbrengen van titels worden velden niet gecombineerd of samengevoegd.
 - Het veld Tijdelijke id moet één type id (id&#39;s uit één naamruimte) bevatten. Het veld Tijdelijke id mag bijvoorbeeld geen combinatie bevatten van aanmeldings-id&#39;s en e-mailid&#39;s.
 - Als er meerdere gebeurtenissen plaatsvinden met dezelfde tijdstempel voor dezelfde permanente id, maar met verschillende waarden in het veld voor de tijdelijke id, wordt de id geselecteerd door stitching op basis van alfabetische volgorde. Dus als de blijvende id A twee gebeurtenissen heeft met dezelfde tijdstempel en een van de gebeurtenissen Bob opgeeft en de andere de Ann, selecteert de stitching Ann.
 - Wees voorzichtig met scenario&#39;s waarin de tijdelijke id&#39;s plaatsaanduidingswaarden bevatten, bijvoorbeeld `Undefined` . Zie [ Veelgestelde vragen ](faq.md) voor meer informatie.
-
+- U kunt niet dezelfde naamruimte gebruiken, zowel de persistentID als de transientID, de naamruimten moeten elkaar uitsluiten.
