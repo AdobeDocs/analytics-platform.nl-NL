@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: e5cb55e7-aed0-4598-a727-72e6488f5aa8
-source-git-commit: 9237549aabe73ec98fc42d593e899c98e12eb194
+source-git-commit: e0e80723e21b7e8c460c05ec39b699eef00abb8b
 workflow-type: tm+mt
 source-wordcount: '1779'
 ht-degree: 2%
@@ -29,7 +29,7 @@ Op velden gebaseerde stitching ondersteunt het gebruik van de [`identifyMap` vel
 
   In het onderstaande voorbeeld resulteren naamruimten en identiteiten in een gesorteerde lijst met primaire identiteiten en ten slotte in de geselecteerde identiteit.
 
-  <table>
+  <table style="table-layout:auto">
      <tr>
        <th>Naamruimten</th>
        <th>Lijst met identiteiten</th>
@@ -44,7 +44,7 @@ Op velden gebaseerde stitching ondersteunt het gebruik van de [`identifyMap` vel
      </tr>
    </table>
 
-  <table>
+  <table style="table-layout:auto">
     <tr>
       <th>Lijst met gesorteerde identiteiten</th>
       <th>Geselecteerde identiteit</th>
@@ -62,7 +62,7 @@ Op velden gebaseerde stitching ondersteunt het gebruik van de [`identifyMap` vel
 
   In het onderstaande voorbeeld resulteren de naamruimten en identiteiten in een lijst met gesorteerde identiteiten voor de geselecteerde naamruimte (ECID) en ten slotte de geselecteerde identiteit.
 
-  <table>
+  <table style="table-layout:auto">
      <tr>
        <th>Naamruimten</th>
        <th>Lijst met identiteiten</th>
@@ -77,7 +77,7 @@ Op velden gebaseerde stitching ondersteunt het gebruik van de [`identifyMap` vel
      </tr>
    </table>
 
-  <table>
+  <table style="table-layout:auto">
     <tr>
       <th>Lijst met gesorteerde identiteiten</th>
       <th>Geselecteerde identiteit</th>
