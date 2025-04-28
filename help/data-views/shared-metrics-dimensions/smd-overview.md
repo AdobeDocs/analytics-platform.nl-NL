@@ -2,7 +2,7 @@
 title: Overzicht van gedeelde metriek en dimensies
 description: Gebruik dezelfde dimensie of metrische referentie in meerdere gegevensweergaven.
 exl-id: 998a9f9b-cfa7-4b97-b32b-d50e35d01b39
-source-git-commit: 5fd023f988e485f04654869a982e02cb0f3e52a1
+source-git-commit: 4bb24fae7c7d53a0fde3bb2dc35ef27f91701d5a
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 0%
@@ -89,7 +89,7 @@ Schakel het selectievakje naast een component in om alle beschikbare handelingen
 ![ Voorproef van beschikbare acties ](assets/smd-actions.png)
 
 * ![ pictogram van het Potlood ](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]**: Open de geselecteerde afmetingen en metriek in de [ gedeelde componentenredacteur ](shared-component-editor.md), die u hun [ componentenmontages ](/help/data-views/component-settings/overview.md) laat aanpassen. Wanneer u meerdere componenten selecteert die u wilt bewerken, worden deze allemaal geopend in de componenteditor. U kunt componenten in de componenteditor verplaatsen en klikken om hetzelfde veld voor meerdere componenten te bewerken.
-* ![ pictogram van het Aandeel ](/help/assets/icons/Share.svg) **[!UICONTROL Share to data view(s)]**: Opent een venster dat alle gegevensmeningen beschikbaar binnen de geselecteerde verbinding toont. Schakel het selectievakje in voor elke gegevensweergave waarin u deze component beschikbaar wilt maken en selecteer vervolgens **[!UICONTROL Share]** .
-* ![ Unshare pictogram ](/help/assets/icons/SaveTo.svg) **[!UICONTROL Unshare to data view(s)]**: Opent een venster dat alle gegevensmeningen toont die deze component momenteel met wordt gedeeld. Schakel het selectievakje in voor elke gegevensweergave waaruit u de beschikbaarheid van deze component wilt verwijderen en selecteer vervolgens **[!UICONTROL Unshare]** .
+* ![ pictogram van het Aandeel ](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share to data view(s)]**: Opent een venster dat alle gegevensmeningen beschikbaar binnen de geselecteerde verbinding toont. Schakel het selectievakje in voor elke gegevensweergave waarin u deze component beschikbaar wilt maken en selecteer vervolgens **[!UICONTROL Share]** .
+* ![ Unshare pictogram ](/help/assets/icons/SaveTo.svg) **[!UICONTROL Unshare from data view(s)]**: Opent een venster dat alle gegevensmeningen toont die deze component momenteel met wordt gedeeld. Schakel het selectievakje in voor elke gegevensweergave waaruit u de beschikbaarheid van deze component wilt verwijderen en selecteer vervolgens **[!UICONTROL Unshare]** .
 * ![ Dupliceer pictogram ](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]**: Creeert een exemplaar van de geselecteerde component(en). Er wordt een nieuwe component-id gegenereerd voor gedupliceerde componenten.
 * ![ pictogram van de Schrapping ](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**: Verwijdert de geselecteerde componenten uit de interface. Als de geselecteerde componenten met om het even welke gegevensmeningen worden gedeeld, worden zij unshared.
