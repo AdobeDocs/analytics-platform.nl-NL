@@ -4,9 +4,9 @@ description: Leer hoe u componenten van de ene gebruiker naar de andere kunt ove
 role: Admin
 solution: Customer Journey Analytics
 exl-id: c5ed81ea-1d55-4193-9bb1-a2a93ebde91f
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 3e521cb4ef532d57b9f408fc12dcf138f130f059
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Voor Asset Transfer is de toestemming van de productbeheerder voor Customer Jour
 
 1. Nadat u een gebruiker hebt geselecteerd, wordt de optie Overdrachtselementen onder aan het scherm weergegeven.
 
-   ![ menuoptie ](/help/tools/asset-transfer/assets/after-selection.png)
+   ![ optie van het de activa van de Overdracht ](/help/tools/asset-transfer/assets/after-selection.png)
 
 1. Klik op **[!UICONTROL Transfer assets]**.
 
@@ -75,6 +75,20 @@ Er zijn drie mogelijke resultaten voor een overdracht:
 
 - **de mislukking van de Overdracht**: &quot;Slaagde er niet in om activa over te brengen. Probeer het opnieuw.&quot;
 
+### Mogelijke redenen voor mislukte overdracht van middelen
+
+- De afhankelijke diensten die mislukkingen veroorzaken: De overdrachtinteractie van activa met een verschillende dienst voor elk componententype (b.v. netwerkkwesties, stroomafwaartse de dienstproblemen), zodat kan dit een gedeeltelijke of volledige mislukking, of intermitterende mislukkingen veroorzaken.
+
+- Ontbrekende component of overgedragen door een andere beheerder: een component is verwijderd door een andere gebruiker of overgedragen door een andere beheerder aan iemand anders, terwijl een elementoverdrachttaak nog bezig was.
+
+- De POST-inhoud van de API wordt niet correct gevuld: een component wordt mogelijk niet verzonden in de POST-inhoud van de API wanneer meerdere componenttypen zijn geselecteerd.
+
+- Gebruiker bestaat niet: de gebruiker is halverwege de overdracht verwijderd of is om een andere reden ongeldig. Als de gebruiker ongeldig is voordat de overdracht wordt gestart, wordt deze taak afgevangen en wordt de taak niet verwerkt. Als de gebruiker halverwege de overdracht werd geschrapt, kon dit gedeeltelijke mislukkingen veroorzaken.
+
+- Verbinding/netwerkfout: verbinding gaat verloren bij overdracht halverwege. Om het even welke partijen overdrachtbanen die reeds werden overgebracht naar het achterste proces nog aan voltooiing, maar de gebruiker zal niet het bericht van het overdrachtresultaat met een samenvatting zien van wat slaagde en wat ontbrak.
+
+- Tabblad met gesloten mid-transfer in browser: bij zeer grote overdrachten, als het browsertabblad wordt gesloten of als de pagina weg van de mid-transfer wordt genavigeerd, worden alleen de netwerkaanvragen die zijn gedaan voordat het tabblad close/page navigatie plaatsvindt, op de juiste wijze elementen overgedragen. Als de gebruiker terugnavigeert naar de pagina, ontvangen zij niet het bericht van de reactiestatus erop wijst die welke activa overmaakten, en welke niet.
+
 ## Assets overbrengen tijdens upgrade van Adobe Analytics naar Customer Journey Analytics
 
 Een van de belangrijkste gevallen van overdracht van activa is tijdens de upgrade van Adobe Analytics naar Customer Journey Analytics.
@@ -91,6 +105,9 @@ Dit hulpmiddel van de Overdracht van Activa laat later beheerders componenten aa
 
 Met de optie **[!UICONTROL Export to CSV]** kunnen beheerders alleen een lijst met gebruikers downloaden die wordt weergegeven in een CSV-bestand. Ze kunnen geen lijst met overgedragen elementen exporteren naar een CSV-bestand.
 
-<!---## Unknown users
+## Inactieve gebruikers
 
-All previously deleted users appear under one unknown user entry, along with all their orphan components. These components can be transferred to a new recipient. This feature will be available in January.-->
+Alle eerder verwijderde gebruikers worden samen met hun wezen onder één item voor &quot;Inactieve gebruikers&quot; weergegeven. Deze componenten kunnen naar een nieuwe ontvanger worden overgebracht. Deze functie is beschikbaar in januari.
+
+![ Inactieve gebruikers die in de activa UI van de Overdracht verschijnen ](assets/inactive-users.png)
+
