@@ -1,7 +1,7 @@
 ---
-source-git-commit: a85efff8720d8fdf02b0d1290fedf17654be48e3
+source-git-commit: 3ca1004fc1bbe3b60f32348d7da84718aef3a057
 workflow-type: tm+mt
-source-wordcount: '3719'
+source-wordcount: '3995'
 ht-degree: 0%
 
 ---
@@ -239,3 +239,19 @@ Gebruik de volgende informatie om de visualisatie te kiezen die het beste aan uw
 >[!INFO]
 >
 >In deze documentatie, zijn de specifieke B2B- artikelen of de functionaliteit, slechts beschikbaar met Customer Journey Analytics B2B edition, duidelijk met [!BADGE  B2B edition ]{type=Informative}.
+
+
+## Algemene instellingen voor gegevenssets {#common-dataset-settings}
+
+| Instelling | Beschrijving |
+|---|---|
+| **[!UICONTROL Import new data]** | Schakel deze optie in als u een continue verbinding wilt maken. Met een lopende verbinding zijn de nieuwe gegevensbatches die aan de datasets worden toegevoegd automatisch beschikbaar in Workspace. |
+| **[!UICONTROL Dataset backfill]** | Schakel **[!UICONTROL Backfill all existing data]** in om ervoor te zorgen dat een back-up wordt gemaakt van alle bestaande gegevens.<br/><br/> selecteer **[!UICONTROL Request backfill]** om historische gegevens voor een specifieke periode terug te vullen. U kunt tot 10 periodes van de datasetbackfill bepalen.<ol><li>Bepaal de periode door begin en eindgegevens in te gaan of data te selecteren gebruikend ![ Kalender ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg).</li><li>Selecteer **[!UICONTROL Queue backfill]** om de backfill aan de lijst toe te voegen, of **[!UICONTROL Cancel]** om te annuleren.</li></ol>Voor elke ingang, uitgezocht ![ geef ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) uit om de periode uit te geven, of selecteer ![ Schrapping ](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) om de ingang te schrappen.<br/><br/> op backfills:<ul><li>U kunt elke dataset afzonderlijk terugvullen.</li><li>U geeft voorrang aan nieuwe gegevens die aan een dataset in de verbinding worden toegevoegd, zodat heeft dit nieuwe gegeven de laagste latentie.</li><li>Alle backfill (historische) gegevens worden langzamer geïmporteerd. De hoeveelheid historische gegevens beïnvloedt de latentie.</li><li>De bronschakelaar van de Analyse voert tot 13 maanden van gegevens (ongeacht grootte) voor productiesandboxen in. De back-up van niet-productiesandboxen is beperkt tot 3 maanden.</li></ul> |
+| **[!UICONTROL Batch status]** | Mogelijke statusindicatoren zijn:<ul><li>Succes</li><li>X backfill(s) verwerken</li><li>Uit</li></ul> |
+| **[!UICONTROL Dataset ID]** | Deze id wordt automatisch gegenereerd. |
+| **[!UICONTROL Description]** | De beschrijving die aan deze dataset wordt gegeven toen de dataset werd gecreeerd. |
+| **[!UICONTROL Number of records]** | De grootte van de gegevensset. |
+| **[!UICONTROL Schema]** | Het schema op basis waarvan de dataset in Adobe Experience Platform is gemaakt. |
+| **[!UICONTROL Dataset]** | De naam van de gegevensset. |
+| **[!UICONTROL Preview: *naam van de dataset *]** | Hiermee geeft u een voorvertoning weer van de gegevensset voor de eerste tien rijen en de eerste tien kolommen. |
+| ![ RemoveCircle ](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL Remove]** | U kunt [ een dataset ](/help/connections/create-connection.md#delete-a-dataset) schrappen zonder de volledige verbinding te schrappen. Het schrappen van een dataset van een verbinding vermindert de kosten betrokken bij gegevensopname en het lastige proces om de volledige verbinding en bijbehorende gegevensmeningen opnieuw te creëren. |
