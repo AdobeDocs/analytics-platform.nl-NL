@@ -4,9 +4,9 @@ description: Hiermee geeft u updates voor de inhoud van de Customer Journey Anal
 exl-id: 1cfb9810-e083-4a68-9c58-295e674da8d7
 solution: Customer Journey Analytics
 feature: Release Notes
-source-git-commit: 1a88be1f79bc6dc07f849af5f32f3472105ee3ed
+source-git-commit: 8a8244bff45017a4b021599df6ff3dc37cf8e1c6
 workflow-type: tm+mt
-source-wordcount: '5077'
+source-wordcount: '5107'
 ht-degree: 4%
 
 ---
@@ -20,6 +20,7 @@ De volgende updates zijn aangebracht in de documentatie van Customer Journey Ana
 | Functie | Beschrijving |
 | --- | --- |
 | **April 2025** | |
+| Meer volledige uitvoerlimieten voor tabellen | Veranderde het [ aantal kolommen ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/export/export-cloud#comparison-of-full-table-export-in-customer-journey-analytics-to-data-warehouse-in-adobe-analytics) klanten kunnen met volledige lijstuitvoer van 5 dimensies en 5 metriek aan 10 dimensies en 10 metriek gebruiken. |
 | Verbindingen | De documentatie van de Verbinding van de Klant voor de Aanleg van de Reis van de Klant voor de aanstaande Reis B2B edition van de Klant opnieuw werkte en bijwerkte. |
 | Gebruiksscenario voor productanalyse | Toegevoegde [ analyse van het Product in Customer Journey Analytics ](/help/use-cases/product-analysis.md). |
 | Gedeelde metriek en dimensies | Toegevoegde documentatie voor de [ Gedeelde metriek &amp; dimensies ](/help/data-views/shared-metrics-dimensions/smd-overview.md) eigenschap. |

@@ -3,16 +3,16 @@ title: Opmerkingen bij de release van Customer Journey Analytics
 description: Aanvullende informatie voor de nieuwste versie van Customer Journey Analytics weergeven
 exl-id: e8eab856-34e0-4875-b441-b1e680b9e111
 feature: Release Notes
-source-git-commit: 4e65e2fd1720b63b9dec341d4a67f7356df77fcb
+source-git-commit: 8a8244bff45017a4b021599df6ff3dc37cf8e1c6
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '890'
 ht-degree: 3%
 
 ---
 
 # Huidige Adobe Customer Journey Analytics-releaseopmerkingen (april 2025)
 
-**Laatste update**: 28 april 2025
+**Laatste update**: 30 april 2025
 
 Deze opmerkingen hebben betrekking op de releaseperiode van 27 maart tot 15 mei 2025. De versies van Adobe Customer Journey Analytics werken op a [ ononderbroken leveringsmodel ](releases.md), dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
@@ -20,6 +20,7 @@ Deze opmerkingen hebben betrekking op de releaseperiode van 27 maart tot 15 mei 
 
 | Functie | Beschrijving | [ Het begin van de Uitvoer ](releases.md) | [ Algemene Beschikbaarheid ](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Verhoging in volledige lijst de uitvoergrenzen van de lijst** | Wij verhogen het aantal kolommen klanten met volledige lijstuitvoer van 5 dimensies en 5 metriek aan 10 dimensies en 10 metriek kunnen gebruiken. Dit geldt voor alle Customer Journey Analytics-lagen. De rechten voor het aantal rijen dat kan worden geëxporteerd, worden niet gewijzigd. |  | donderdag 30 april 2025 |
 | **Updates aan de lijnpunt van de &quot;Geen Waarde&quot;op numerieke afmetingen** | Voor numerieke afmetingen kunt u met deze update<ul><li>Gebruik de dimensie-item Geen waarde in een segment.</li><li>Voer een uitsplitsing uit in een rapport over de post &quot;Geen waarde&quot;.</li></ul> [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/no-value-options#numeric) | vrijdag 27 maart 2025 |
 | **Adobe Content Analytics** | Met Adobe Content Analytics kunt u snel en eenvoudig grote hoeveelheden inhoudsgegevens onderzoeken om trends, anomalieën in steunkleuren, vermoeidheid van inhoud en inzicht in de blootstelling aan inhoud te ontdekken.<p>U kunt tijd besparen met vooraf gebouwde rapportagesjablonen en nieuwe functies, zoals Asset Inspector. Met deze functie kunt u het middel niet alleen visualiseren in overeenstemming met uw gegevens, maar ook elk middel openen voor samengevatte details, zoals prestaties, plaatsingen, kenmerken en meer.<p>U kunt deze nieuwe reeks inhoudsgegevens binnen de context van de volledige klantenreis onderzoeken om belangrijke bedrijfsvragen te beantwoorden, inhoudsprestaties te beoordelen, segmentatie te verbeteren, optimalisatiemogelijkheden te identificeren, en nieuw publiek voor activering te bepalen.<p>Content Analytics is een add-on bij Customer Journey Analytics. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics) |  | vrijdag 27 maart 2025 |
 | **de Inzameling van Media: De Verbindingsupdates van Adobe Source voor nieuwe Media die XDM** melden | De Analytics Source Connector wijst streaming mediagegevens in Adobe Analytics automatisch toe aan dezelfde velden die door de Web SDK worden gebruikt. Eerder werden gegevens zowel aan de oude als aan de nieuwe locatie toegewezen, maar in de toekomst wordt alleen de nieuwe locatie gebruikt. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping) |  | dinsdag 31 maart 2025 |

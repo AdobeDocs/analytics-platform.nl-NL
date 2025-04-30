@@ -5,7 +5,7 @@ title: Customer Journey Analytics-rapporten exporteren naar de cloud
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: 158d75f81490edca2b5219a9b3ede2fbcdcc5901
 workflow-type: tm+mt
 source-wordcount: '2285'
 ht-degree: 1%
@@ -189,7 +189,7 @@ De volgende componenten worden niet ondersteund en Analysis Workspace vraagt u d
    * Heeft [ toegelaten persistentie ](/help/data-views/component-settings/persistence.md)
    * Gebruikt niet a [ bindende afmeting ](/help/use-cases/data-views/binding-dimensions-metrics.md)
 * De veelvoudige afmetingen die van gebieden zijn die verschillende [ series van voorwerpen ](/help/use-cases/object-arrays.md) van verwijzingen voorzien. (Meerdere afmetingen die verwijzen naar dezelfde array van objecten zijn toegestaan.)
-* Meer dan 5 dimensies en 5 metriek per rapport (maximaal 5 dimensies en 5 metriek worden gesteund)
+* Meer dan 10 dimensies en 10 metriek per rapport (maximaal 10 dimensies en 10 metriek worden gesteund)
 * In tabelkolommen:
    * Datumbereiken
    * Dimensies
@@ -227,8 +227,8 @@ Als u eerder Data Warehouse hebt gebruikt om Adobe Analytics-gegevens te exporte
 | Een aangepast rapport maken | Ja | Ja |
 | Berekende cijfers | Ja | Nee |
 | Segmenten | Ja | Beperkt |
-| Dimensies | Limiet van 5 | Onbeperkt |
-| Metrics | Limiet van 5 | Onbeperkt |
+| Dimensies | Limiet 10 | Onbeperkt |
+| Metrics | Limiet 10 | Onbeperkt |
 | Rijen rapporteren | Limiet van 3 miljoen, 30 miljoen, 150 miljoen of 300 miljoen, afhankelijk van de omvang | Onbeperkt |
 | Aantal rapporten | Onbeperkt | Onbeperkt |
 | Ad hoc (eenmalige) levering | Ja | Ja |
