@@ -5,9 +5,9 @@ exl-id: b4ac37ca-213b-4118-85e1-8e8f98553c6c
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: e4ddb98b800457e407bb414ed4929c5d5018cf30
+source-git-commit: 836c793ae74185728af03636b0ba3e838f46f05d
 workflow-type: tm+mt
-source-wordcount: '6279'
+source-wordcount: '6347'
 ht-degree: 0%
 
 ---
@@ -210,6 +210,8 @@ In **[!UICONTROL Connections]** > **[!UICONTROL *Naam van het verbindings *]**sc
 
 In **[!UICONTROL Connections]** > **[!UICONTROL *Naam van het verbindings *]**scherm:
 
+![ Naamloze verbindingsmontages ](assets/create-conn1-b2b.png)
+
 1. Configureer de verbindingsinstellingen.
 
    | Instelling | Beschrijving |
@@ -217,7 +219,7 @@ In **[!UICONTROL Connections]** > **[!UICONTROL *Naam van het verbindings *]**sc
    | **[!UICONTROL Connection name]** | Voer een unieke naam in voor de verbinding. |
    | **[!UICONTROL Connection description]** | Beschrijf het doel van deze verbinding. |
    | **[!UICONTROL Tags]** | Geef tags op om tags toe te voegen aan uw verbinding, zodat u deze tags kunt gebruiken om in een later stadium naar de verbinding te zoeken. |
-   | **[!UICONTROL Primary ID]** | Selecteer de juiste primaire id voor uw verbinding: <ul><li>![ Gebruiker ](/help/assets/icons/User.svg) **[!UICONTROL Person]** voor een scenario B2C</li><li> ![ Bouw ](/help/assets/icons/Building.svg) **[!UICONTROL Account]** voor een scenario B2B.</li></ul>.<br/> zodra u één of meerdere datasets aan uw verbinding toevoegt, kunt u primaire identiteitskaart niet meer veranderen. <br/> de selectie van primaire identiteitskaart bepaalt of de verbinding op persoon gebaseerd of rekening gebaseerd is. De verbindingsbasis bepaalt de beschikbare [ montages ](#dataset-settings) voor bepaalde types van datasets. |
+   | **[!UICONTROL Primary ID]** | Selecteer de juiste primaire id voor uw verbinding: <ul><li>![ Gebruiker ](/help/assets/icons/User.svg) **[!UICONTROL Person]** voor een op persoon-gebaseerde verbinding u typisch in een scenario B2C gebruikt.</li><li> ![ Bouw ](/help/assets/icons/Building.svg) **[!UICONTROL Account]** voor een op rekening-gebaseerde verbinding u typisch in een B2B scenario gebruikt.</li></ul>Zodra u één of meerdere datasets aan uw verbinding toevoegt, kunt u primaire identiteitskaart niet meer veranderen. <br/> de selectie van primaire identiteitskaart bepaalt of de verbinding op persoon-gebaseerd of op rekening-gebaseerd is. De verbindingsbasis bepaalt de beschikbare [ montages ](#dataset-settings) voor bepaalde types van datasets. |
    | **[!UICONTROL Optional containers]** | Als u ![ Bouw ](/help/assets/icons/Building.svg) **[!UICONTROL Account]** als **[!UICONTROL Primary ID]** hebt geselecteerd, selecteer extra containers.<ul><li>**[!UICONTROL Global account]**: hiermee kunt u algemene accounts configureren in een verbinding.</li><li>**[!UICONTROL Opportunity]**: hiermee kunt u de mogelijkheden van een verbinding configureren.</li><li>**[!UICONTROL Buying group]**: hiermee kunt u groepen aanschaffen in een verbinding.</li><ul> |
    | **[!UICONTROL Sandbox]** | Kies een sandbox in Experience Platform die de gegevenssets bevat waarop u een verbinding wilt maken.<p>Adobe Experience Platform verstrekt [ zandbakken ](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home) die één enkele instantie van het Platform in afzonderlijke virtuele milieu&#39;s verdelen helpen digitale ervaringstoepassingen ontwikkelen en evolueren. U kunt sandboxen zien als &#39;gegevenssilo&#39;s&#39; die gegevenssets bevatten. Sandboxen worden gebruikt om toegang tot datasets te controleren.<p>Als u de sandbox hebt geselecteerd, geeft de linkerrail alle gegevenssets in die sandbox weer waaruit u kunt trekken. |
    | **[!UICONTROL Enable rolling data window]** | Als u dit selectievakje inschakelt, kunt u Customer Journey Analytics-gegevensbewaring definiëren als een schuifvenster in maanden (1 maand, 3 maanden, 6 maanden enzovoort) op verbindingsniveau.<p>Het bewaren van gegevens is gebaseerd op de tijdstempels van de gebeurtenisdataset en is slechts op gebeurtenisdatasets van toepassing. Er bestaat geen instelling voor het schuivende gegevensvenster voor profiel- of opzoekgegevenssets, omdat er geen relevante tijdstempels zijn. Nochtans, als uw verbinding om het even welk profiel of raadplegingsdatasets (naast één of meerdere gebeurtenisdatasets) omvat, worden die gegevens bewaard voor de zelfde tijdspanne.<p> Het belangrijkste voordeel is dat u alleen gegevens opslaat of rapporteert die van toepassing zijn en nuttig zijn, en oudere gegevens verwijdert die niet meer nuttig zijn. Het helpt u onder uw contractgrenzen te blijven en vermindert het risico van overleeftijdskosten.<p><ul><li>Als u de standaardinstelling (uitgeschakeld) verlaat, vervangt de bewaarinstelling voor Adobe Experience Platform-gegevens de bewaarperiode. Als je 25 maanden aan gegevens hebt in Experience Platform, krijgt Customer Journey Analytics 25 maanden aan gegevens via back-up. Als u 10 van die maanden in Platform schrapte, zou Customer Journey Analytics de resterende 15 maanden behouden.</li><li>Als u een schuivend gegevensvenster inschakelt, geeft u in **[!UICONTROL Select number of months]** het aantal maanden op waarvoor u het schuivende gegevensvenster inschakelt. |
@@ -236,10 +238,10 @@ In **[!UICONTROL Connections]** > **[!UICONTROL *Naam van het verbindings *]**sc
    | **[!UICONTROL Dataset type]** | Voor elke dataset die u aan deze verbinding toevoegde, plaatst Customer Journey Analytics automatisch het [ datasettype ](#dataset-types) dat op de gegevens wordt gebaseerd die binnen komen. Er zijn drie verschillende gegevenstypen: gebeurtenisgegevens, profielgegevens en opzoekgegevens. Zie de tabel hieronder voor een uitleg van de typen gegevenssets. |
    | **[!UICONTROL Granularity]** | De granulariteit van de gegevens in de gegevensset; alleen van toepassing voor samenvattende gegevenssets. |
    | **[!UICONTROL Data source type]** | Het gegevensbrontype van de dataset. Niet van toepassing voor samenvattende gegevensreeksen. |
-   | **[!UICONTROL Account ID]** | (slechts getoond voor rekening gebaseerde verbindingen) identiteitskaart van de Rekening die wordt gebruikt om op rekening-gebaseerde rapportering voor de dataset te steunen. |
-   | **[!UICONTROL Global Account ID]** | (slechts getoond voor rekening gebaseerde verbindingen) globale identiteitskaart van de Rekening die wordt gebruikt om op rekening-gebaseerde rapportering voor de dataset te steunen. |
-   | **[!UICONTROL Buying Group ID]** | (wordt alleen weergegeven voor op account gebaseerde verbindingen) De inkoopgroep-id die wordt gebruikt voor opzoeken van groepsgegevens. |
-   | **[!UICONTROL Opportunity ID]** | (slechts getoond voor rekening gebaseerde verbindingen) identiteitskaart van de Kans die aan raadplegingsopportuniteitsgegevens wordt gebruikt. |
+   | **[!UICONTROL Account ID]** | (slechts getoond voor op rekening-gebaseerde verbindingen) identiteitskaart van de Rekening die wordt gebruikt om op rekening-gebaseerde rapportering voor de dataset te steunen. |
+   | **[!UICONTROL Global Account ID]** | (slechts getoond voor op rekening-gebaseerde verbindingen) Globale identiteitskaart van de Rekening die wordt gebruikt om op rekening-gebaseerde rapportering voor de dataset te steunen. |
+   | **[!UICONTROL Buying Group ID]** | (slechts getoond voor op rekening-gebaseerde verbindingen) De het Kopen identiteitskaart van de Groep die wordt gebruikt aan raadpleging die groepsgegevens koopt. |
+   | **[!UICONTROL Opportunity ID]** | (slechts getoond voor op rekening-gebaseerde verbindingen) identiteitskaart van de Kans die aan raadplegingsopportuniteitsgegevens wordt gebruikt. |
    | **[!UICONTROL Person ID]** | De persoon-id die wordt gebruikt ter ondersteuning van op personen gebaseerde rapportage voor de gegevensset. |
    | **[!UICONTROL Key]** | De sleutel die voor een raadplegingsdataset wordt gebruikt. |
    | **[!UICONTROL Matching Key]** | De passende sleutel die voor een raadplegingsdataset wordt gebruikt. |
@@ -463,7 +465,7 @@ U [ voegt één of meerdere datasets ](#add-datasets) toe of [ geeft bestaande d
 >[!CONTEXTUALHELP]
 >id="connection_datasetbackfill"
 >title="Gegevensset backfill"
->abstract="Met deze optie wordt een back-up gemaakt van de bestaande (historische) gegevens van Experience Platform voor deze gegevensset in de verbinding."
+>abstract="Met deze optie worden de bestaande (historische) gegevens van Experience Platform voor deze gegevensset in de verbinding hersteld."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -483,7 +485,7 @@ U [ voegt één of meerdere datasets ](#add-datasets) toe of [ geeft bestaande d
 >title="Verbindingsmap"
 >abstract="De kaart van de Verbinding visualiseert het verband tussen gebeurtenis, persoon, rekening en relevante raadplegingsdatasets (als kansen, campagnereleden, en meer)."
 
-## Gegevenssets toevoegen
+### Gegevenssets toevoegen
 
 U kunt een of meer Experience Platform-gegevenssets toevoegen wanneer u een verbinding maakt of bewerkt.
 
@@ -513,7 +515,7 @@ U kunt een of meer Experience Platform-gegevenssets toevoegen wanneer u een verb
    * Om details van een dataset te tonen, selecteer ![ InfoOutline ](/help/assets/icons/InfoOutline.svg).
 
 
-1. Selecteer een of meer gegevenssets en selecteer **[!UICONTROL Next]** . Minstens één gebeurtenisdataset moet deel van de verbinding uitmaken.
+1. Selecteer een of meer gegevenssets en selecteer **[!UICONTROL Next]** . Minstens één gebeurtenis of samenvattingsdataset moet deel van de verbinding uitmaken.
 
 1. Vorm de [ montages voor elk van de geselecteerde datasets ](#dataset-settings), één voor één, in de ➋ **[!UICONTROL Datasets settings]** stap van de **[!UICONTROL Add datasets]** dialoog.
 
@@ -540,7 +542,7 @@ Om een dataset uit te geven die reeds voor een verbinding, in **[!UICONTROL Conn
 
 ### Gegevensinstellingen
 
-Wanneer u datasets toevoegt of een bestaande dataset uitgeeft, vormt u de datasetmontages voor elke dataset. De beschikbare montages hangen van het [ type van dataset ](#dataset-types) en, voor sommige datasettypes, van het type van verbinding (persoon gebaseerde of [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} gebaseerde rekening af.)
+Wanneer u datasets toevoegt of een bestaande dataset uitgeeft, vormt u de datasetmontages voor elke dataset. De beschikbare montages hangen van het [ type van dataset ](#dataset-types) en, voor sommige datasettypes, van het type van verbinding (op persoon-gebaseerd of [!BADGE  op B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} rekening-gebaseerd.) af.
 
 Alle datasets en datasettypes hebben [ algemene montages en details ](#general-dataset-settings-and-details), zoals al dan niet om nieuwe gegevens in te voeren en terugvullingen te verzoeken.
 
@@ -552,34 +554,34 @@ De specifieke montages voor een gebeurtenisdataset zijn afhankelijk van het type
 
 ![ de montages B2C van de dataset van de Gebeurtenis ](assets/event-dataset-settings-b2c.png)
 
-Voor een gebeurtenisdataset in een op persoon gebaseerde verbinding, kunt u specificeren:
+Voor een gebeurtenisdataset in een op persoon-gebaseerde verbinding, kunt u specificeren:
 
 | Instelling | Beschrijving |
 | --- | --- |
 | **[!UICONTROL Person ID]** | Selecteer een persoon-id in de vervolgkeuzelijst met beschikbare identiteiten. Deze identiteiten werden bepaald in het datasetschema in Experience Platform. Zie [ de Kaart van de Identiteit van het Gebruik als identiteitskaart van de Persoon ](#id-map) voor informatie over hoe te om de Kaart van de Identiteit als identiteitskaart van de Persoon te gebruiken.<p>Als er geen persoon-id&#39;s zijn waaruit u kunt kiezen, betekent dit dat er geen persoon-id&#39;s zijn gedefinieerd in het schema. Zie [ identiteitsgebieden in UI ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity) voor meer informatie bepalen. <p>De waarde voor de geselecteerde persoon-id wordt als hoofdlettergevoelig beschouwd. `abc123` en `ABC123` zijn bijvoorbeeld twee verschillende waarden. |
 | **[!UICONTROL Timestamp]** | Deze instelling wordt automatisch ingesteld op het standaardtijdstempelveld vanuit op gebeurtenissen gebaseerde schema&#39;s in Experience Platform. |
-| **[!UICONTROL Data source type]** | Selecteer een type gegevensbron. <br/> de Types van gegevensbronnen omvatten: <ul><li>[!UICONTROL Web data]</li><li>[!UICONTROL Mobile App data]</li><li>[!UICONTROL POS data]</li><li>[!UICONTROL CRM data]</li><li>[!UICONTROL Survey data]</li><li>[!UICONTROL Call Center data]</li><li>[!UICONTROL Product data]</li><li> [!UICONTROL Accounts data]</li><li> [!UICONTROL Transaction data]</li><li>[!UICONTROL Customer Feedback data]</li><li> [!UICONTROL Other]</li></ul>Dit veld wordt gebruikt om de typen gebruikte gegevensbronnen te controleren. |
-| **[!UICONTROL Data source description]** | Beschrijf de gegevensbron wanneer u Andere als gegevenstype hebt geselecteerd. |
+| **[!UICONTROL Data source type]** | Selecteer een type gegevensbron. De volgende gegevensbronnen zijn van verschillende typen: <ul><li>[!UICONTROL Web data]</li><li>[!UICONTROL Mobile App data]</li><li>[!UICONTROL POS data]</li><li>[!UICONTROL CRM data]</li><li>[!UICONTROL Survey data]</li><li>[!UICONTROL Call Center data]</li><li>[!UICONTROL Product data]</li><li> [!UICONTROL Accounts data]</li><li> [!UICONTROL Transaction data]</li><li>[!UICONTROL Customer Feedback data]</li><li> [!UICONTROL Other]</li></ul>Dit veld wordt gebruikt om de typen gebruikte gegevensbronnen te controleren. |
+| **[!UICONTROL Data source description]** | Een beschrijving van de gegevensbron wanneer u Andere als gegevenstype hebt geselecteerd. |
 
 
 ##### Verbinding op basis van account
 
 [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
 
-Voor een gebeurtenisdataset in een op rekening gebaseerde verbinding, kunt u specificeren:
+Voor een gebeurtenisdataset in een op rekening-gebaseerde verbinding, kunt u specificeren:
 
 ![ de montages B2C van de dataset van de Gebeurtenis ](assets/event-dataset-settings-b2b.png)
 
 | Instelling | Beschrijving |
 | --- | --- |
-| **[!UICONTROL Account ID]** | Selecteer een account-id (de unieke id voor een account) uit de beschikbare identiteiten die zijn gedefinieerd in het gegevenssetschema in de Experience Platform. |
-| **[!UICONTROL Global Account ID]** | Selecteer een account-id (de unieke id voor een account) uit de beschikbare identiteiten die zijn gedefinieerd in het gegevenssetschema in de Experience Platform. |
+| **[!UICONTROL Account ID]** | Selecteer een algemene account-id (de unieke id voor een account) uit de beschikbare identiteiten die zijn gedefinieerd in het gegevenssetschema in de Experience Platform. Dit is van toepassing wanneer u Global Account als container hebt toegevoegd aan uw verbinding. |
+| **[!UICONTROL Global Account ID]** | Selecteer een account-id (de unieke id voor een account) uit de beschikbare identiteiten die zijn gedefinieerd in het gegevenssetschema in de Experience Platform. Dit is van toepassing wanneer u Global Account niet als container hebt toegevoegd aan uw verbinding. |
 | **[!UICONTROL Opportunity ID]** | Selecteer een kansen-id (de unieke id voor een opportuniteit) uit de beschikbare id&#39;s die zijn gedefinieerd in het gegevenssetschema in de Experience Platform. |
 | **[!UICONTROL Buying Group ID]** | Selecteer een koopgroep-id (de unieke id voor een inkoopgroep) uit de beschikbare identiteiten die zijn gedefinieerd in het gegevenssetschema in de Experience Platform. |
 | **[!UICONTROL Person ID]** | Selecteer een persoon-id in de vervolgkeuzelijst met beschikbare identiteiten. Deze identiteiten werden bepaald in het datasetschema in Experience Platform. Zie [ de Kaart van de Identiteit van het Gebruik als identiteitskaart van de Persoon ](#id-map) voor informatie over hoe te om de Kaart van de Identiteit als identiteitskaart van de Persoon te gebruiken.<p>Als er geen persoon-id&#39;s zijn waaruit u kunt kiezen, betekent dit dat een of meer personen-id&#39;s niet zijn gedefinieerd in het schema. Zie [ identiteitsgebieden in UI ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity) voor meer informatie bepalen. <p>De waarde voor de geselecteerde persoon-id wordt als hoofdlettergevoelig beschouwd. `abc123` en `ABC123` zijn bijvoorbeeld twee verschillende waarden. |
 | **[!UICONTROL Timestamp]** | Deze instelling wordt automatisch ingesteld op het standaardtijdstempelveld vanuit op gebeurtenissen gebaseerde schema&#39;s in Experience Platform. |
-| **[!UICONTROL Data source type]** | Selecteer een type gegevensbron. <br/> de Types van gegevensbronnen omvatten: <ul><li>[!UICONTROL Web data]</li><li>[!UICONTROL Mobile App data]</li><li>[!UICONTROL POS data]</li><li>[!UICONTROL CRM data]</li><li>[!UICONTROL Survey data]</li><li>[!UICONTROL Call Center data]</li><li>[!UICONTROL Product data]</li><li> [!UICONTROL Accounts data]</li><li> [!UICONTROL Transaction data]</li><li>[!UICONTROL Customer Feedback data]</li><li> [!UICONTROL Other]</li></ul>Dit veld wordt gebruikt om de typen gebruikte gegevensbronnen te controleren. |
-| **[!UICONTROL Data source description]** | Beschrijf de gegevensbron wanneer u Andere als gegevenstype hebt geselecteerd. |
+| **[!UICONTROL Data source type]** | Selecteer een type gegevensbron. De volgende gegevensbronnen zijn van verschillende typen: <ul><li>[!UICONTROL Web data]</li><li>[!UICONTROL Mobile App data]</li><li>[!UICONTROL POS data]</li><li>[!UICONTROL CRM data]</li><li>[!UICONTROL Survey data]</li><li>[!UICONTROL Call Center data]</li><li>[!UICONTROL Product data]</li><li> [!UICONTROL Accounts data]</li><li> [!UICONTROL Transaction data]</li><li>[!UICONTROL Customer Feedback data]</li><li> [!UICONTROL Other]</li></ul>Dit veld wordt gebruikt om de typen gebruikte gegevensbronnen te controleren. |
+| **[!UICONTROL Data source description]** | Een beschrijving van de gegevensbron wanneer u Andere als gegevenstype hebt geselecteerd. |
 
 
 #### Profielgegevensset
@@ -590,26 +592,27 @@ De specifieke montages voor een profieldataset zijn afhankelijk van het type van
 
 ![ de datasetmontages B2C van het Profiel ](assets/profile-dataset-settings-b2c.png)
 
-Voor een profieldataset in een op persoon gebaseerde verbinding, specificeert u:
+Voor een profieldataset in een op persoon-gebaseerde verbinding, specificeert u:
 
 | Instelling | Beschrijving |
 | --- | --- |
-| **[!UICONTROL Person ID]** | Selecteer een persoon-id in de vervolgkeuzelijst met beschikbare identiteiten. Deze identiteiten werden bepaald in het datasetschema in Experience Platform. Zie [ de Kaart van de Identiteit van het Gebruik als identiteitskaart van de Persoon ](#id-map) voor informatie over hoe te om de Kaart van de Identiteit als identiteitskaart van de Persoon te gebruiken.<p>Als er geen persoon-id&#39;s zijn waaruit u kunt kiezen, betekent dit dat er geen persoon-id&#39;s zijn gedefinieerd in het schema. Zie [ identiteitsgebieden in UI ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity) voor meer informatie bepalen. <p>De waarde voor de geselecteerde persoon-id wordt als hoofdlettergevoelig beschouwd. `abc123` en `ABC123` zijn bijvoorbeeld twee verschillende waarden. |
-| **[!UICONTROL Data source type]** | Selecteer een type gegevensbron. <br/> de Types van gegevensbronnen omvatten: <ul><li>[!UICONTROL Web data]</li><li>[!UICONTROL Mobile App data]</li><li>[!UICONTROL POS data]</li><li>[!UICONTROL CRM data]</li><li>[!UICONTROL Survey data]</li><li>[!UICONTROL Call Center data]</li><li>[!UICONTROL Product data]</li><li> [!UICONTROL Accounts data]</li><li> [!UICONTROL Transaction data]</li><li>[!UICONTROL Customer Feedback data]</li><li> [!UICONTROL Other]</li></ul>Dit veld wordt gebruikt om de typen gebruikte gegevensbronnen te controleren. |
-| **[!UICONTROL Data source description]** | Beschrijf de gegevensbron wanneer u Andere als gegevenstype hebt geselecteerd. |
+| **[!UICONTROL Person ID]** | Selecteer een persoon-id in de vervolgkeuzelijst met beschikbare identiteiten. Deze identiteiten werden bepaald in het datasetschema in Experience Platform. Zie [ de Kaart van de Identiteit van het Gebruik als identiteitskaart van de Persoon ](#id-map) voor informatie over hoe te om de Kaart van de Identiteit als identiteitskaart van de Persoon te gebruiken.<p>Als er geen persoon-id&#39;s zijn waaruit u kunt kiezen, worden er geen personen-id&#39;s gedefinieerd in het schema. Zie [ identiteitsgebieden in UI ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity) voor meer informatie bepalen. <p>De waarde voor de geselecteerde persoon-id wordt als hoofdlettergevoelig beschouwd. `abc123` en `ABC123` zijn bijvoorbeeld twee verschillende waarden. |
+| **[!UICONTROL Data source type]** | Selecteer een type gegevensbron. De volgende gegevensbronnen zijn van verschillende typen: <ul><li>[!UICONTROL Web data]</li><li>[!UICONTROL Mobile App data]</li><li>[!UICONTROL POS data]</li><li>[!UICONTROL CRM data]</li><li>[!UICONTROL Survey data]</li><li>[!UICONTROL Call Center data]</li><li>[!UICONTROL Product data]</li><li> [!UICONTROL Accounts data]</li><li> [!UICONTROL Transaction data]</li><li>[!UICONTROL Customer Feedback data]</li><li> [!UICONTROL Other]</li></ul>Dit veld wordt gebruikt om de typen gebruikte gegevensbronnen te controleren. |
+| **[!UICONTROL Data source description]** | Een beschrijving van de gegevensbron wanneer u Andere als gegevenstype hebt geselecteerd. |
 
 #### Verbinding op basis van account
 
 ![ de datasetmontages B2B van het Profiel ](assets/profile-dataset-settings-b2b.png)
 
-Voor een profieldataset in een rekening gebaseerde verbinding, specificeert u:
+Voor een profieldataset in een op rekening-gebaseerde verbinding, specificeert u:
 
 | Instelling | Beschrijving |
 | --- | --- |
-| **[!UICONTROL Person ID]** | Selecteer een persoon-id in de vervolgkeuzelijst met beschikbare identiteiten. Deze identiteiten werden bepaald in het datasetschema in Experience Platform. Zie [ de Kaart van de Identiteit van het Gebruik als identiteitskaart van de Persoon ](#id-map) voor informatie over hoe te om de Kaart van de Identiteit als identiteitskaart van de Persoon te gebruiken.<p>Als er geen persoon-id&#39;s zijn waaruit u kunt kiezen, betekent dit dat er geen persoon-id&#39;s zijn gedefinieerd in het schema. Zie [ identiteitsgebieden in UI ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity) voor meer informatie bepalen. <p>De waarde voor de geselecteerde persoon-id wordt als hoofdlettergevoelig beschouwd. `abc123` en `ABC123` zijn bijvoorbeeld twee verschillende waarden. |
-| **[!UICONTROL Account ID]** | Selecteer een Account-id die wordt gebruikt ter ondersteuning van op account gebaseerde rapportage voor de gegevensset in de vervolgkeuzelijst met beschikbare identiteiten. |
-| **[!UICONTROL Data source type]** | Selecteer een type gegevensbron. <br/> de Types van gegevensbronnen omvatten: <ul><li>[!UICONTROL Web data]</li><li>[!UICONTROL Mobile App data]</li><li>[!UICONTROL POS data]</li><li>[!UICONTROL CRM data]</li><li>[!UICONTROL Survey data]</li><li>[!UICONTROL Call Center data]</li><li>[!UICONTROL Product data]</li><li> [!UICONTROL Accounts data]</li><li> [!UICONTROL Transaction data]</li><li>[!UICONTROL Customer Feedback data]</li><li> [!UICONTROL Other]</li></ul>Dit veld wordt gebruikt om de typen gebruikte gegevensbronnen te controleren. |
-| **[!UICONTROL Data source description]** | Beschrijf de gegevensbron wanneer u Andere als gegevenstype hebt geselecteerd. |
+| **[!UICONTROL Person ID]** | Selecteer een persoon-id in de vervolgkeuzelijst met beschikbare identiteiten. Deze identiteiten werden bepaald in het datasetschema in Experience Platform. Zie [ de Kaart van de Identiteit van het Gebruik als identiteitskaart van de Persoon ](#id-map) voor informatie over hoe te om de Kaart van de Identiteit als identiteitskaart van de Persoon te gebruiken.<p>Als er geen persoon-id&#39;s zijn waaruit u kunt kiezen, worden er geen personen-id&#39;s gedefinieerd in het schema. Zie [ identiteitsgebieden in UI ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity) voor meer informatie bepalen. <p>De waarde voor de geselecteerde persoon-id wordt als hoofdlettergevoelig beschouwd. `abc123` en `ABC123` zijn bijvoorbeeld twee verschillende waarden. |
+| **[!UICONTROL Global Account field]** | Selecteer een globaal rekeningsgebied om op rekening-gebaseerde rapportering voor de dataset van de dropdown lijst van beschikbare identiteiten te steunen. Dit is van toepassing wanneer u Global Account als container hebt toegevoegd aan uw verbinding. |
+| **[!UICONTROL Account field]** | Selecteer een rekeningsgebied om op rekening-gebaseerde rapportering voor de dataset van de dropdown lijst van beschikbare identiteiten te steunen. Dit is van toepassing wanneer u Global Account niet als container hebt toegevoegd aan uw verbinding. |
+| **[!UICONTROL Data source type]** | Selecteer een type gegevensbron. De volgende gegevensbronnen zijn van verschillende typen: <ul><li>[!UICONTROL Web data]</li><li>[!UICONTROL Mobile App data]</li><li>[!UICONTROL POS data]</li><li>[!UICONTROL CRM data]</li><li>[!UICONTROL Survey data]</li><li>[!UICONTROL Call Center data]</li><li>[!UICONTROL Product data]</li><li> [!UICONTROL Accounts data]</li><li> [!UICONTROL Transaction data]</li><li>[!UICONTROL Customer Feedback data]</li><li> [!UICONTROL Other]</li></ul>Dit veld wordt gebruikt om de typen gebruikte gegevensbronnen te controleren. |
+| **[!UICONTROL Data source description]** | Een beschrijving van de gegevensbron wanneer u Andere als gegevenstype hebt geselecteerd. |
 
 #### Gegevensset opzoeken
 
@@ -617,16 +620,16 @@ De specifieke montages voor een raadplegingsdataset zijn afhankelijk van het typ
 
 ##### Persoonlijke verbinding
 
-![ de montages van de gebeurtenisdataset van de opzoekgebeurtenis gebaseerde persoon ](assets/lookup-dataset-settings-b2c.png)
+![ de montages van de gebeurtenisdataset van de opzoekgebeurtenis op persoon-gebaseerd ](assets/lookup-dataset-settings-b2c.png)
 
-Voor een raadplegingsdataset in een persoon gebaseerde verbinding, specificeert u:
+Voor een raadplegingsdataset in een op persoon-gebaseerde verbinding, specificeert u:
 
 | Instellingen | Beschrijving |
 |---|---|
 | **[!UICONTROL Key]** | De sleutel aan gebruik voor een dataset van de Opzoeken. |
 | **[!UICONTROL Matching key]** | De passende sleutel om zich aan te sluiten in één van de gebeurtenisdatasets. Als deze lijst leeg is, hebt u waarschijnlijk geen gebeurtenisdataset toegevoegd of gevormd. |
-| **[!UICONTROL Data source type]** | Selecteer een type gegevensbron. <br/> de Types van gegevensbronnen omvatten: <ul><li>[!UICONTROL Web data]</li><li>[!UICONTROL Mobile App data]</li><li>[!UICONTROL POS data]</li><li>[!UICONTROL CRM data]</li><li>[!UICONTROL Survey data]</li><li>[!UICONTROL Call Center data]</li><li>[!UICONTROL Product data]</li><li> [!UICONTROL Accounts data]</li><li> [!UICONTROL Transaction data]</li><li>[!UICONTROL Customer Feedback data]</li><li> [!UICONTROL Other]</li></ul>Dit veld wordt gebruikt om de typen gebruikte gegevensbronnen te controleren. |
-| **[!UICONTROL Data source description]** | Beschrijf de gegevensbron wanneer u Andere als gegevenstype hebt geselecteerd. |
+| **[!UICONTROL Data source type]** | Selecteer een type gegevensbron. De volgende gegevensbronnen zijn van verschillende typen: <ul><li>[!UICONTROL Web data]</li><li>[!UICONTROL Mobile App data]</li><li>[!UICONTROL POS data]</li><li>[!UICONTROL CRM data]</li><li>[!UICONTROL Survey data]</li><li>[!UICONTROL Call Center data]</li><li>[!UICONTROL Product data]</li><li> [!UICONTROL Accounts data]</li><li> [!UICONTROL Transaction data]</li><li>[!UICONTROL Customer Feedback data]</li><li> [!UICONTROL Other]</li></ul>Dit veld wordt gebruikt om de typen gebruikte gegevensbronnen te controleren. |
+| **[!UICONTROL Data source description]** | Een beschrijving van de gegevensbron wanneer u Andere als gegevenstype hebt geselecteerd. |
 | **[!UICONTROL Transform dataset]** | Voor specifieke B2B raadplegingsdatasets, kunt u de transformatie van een dataset voor juiste B2B op persoon-gebaseerde rapporteringsscenario&#39;s toelaten. Zie [ datasets van de Transformatie voor B2B raadplegingen ](transform-datasets-b2b-lookups.md) voor meer informatie. |
 
 
@@ -635,9 +638,9 @@ Voor een raadplegingsdataset in een persoon gebaseerde verbinding, specificeert 
 
 [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
 
-![ de rekening van de de montagesrekening van de gebeurtenisdataset van de Opzoekopdracht ](assets/lookup-dataset-settings-b2b.png)
+![ de montages op rekening-Gebaseerde van de gebeurtenisdataset van de Opzoektijd ](assets/lookup-dataset-settings-b2b.png)
 
-Voor een raadplegingsdataset in een rekening gebaseerde verbinding, kunt u specificeren:
+Voor een raadplegingsdataset in een op rekening-gebaseerde verbinding, kunt u specificeren:
 
 | Instellingen | Beschrijving |
 |---|---|
@@ -675,25 +678,6 @@ Wanneer u een dataset schrapt, wordt u geïnformeerd over de implicaties van de 
 
 Wanneer u ![ Geschiedenis ](/help/assets/icons/History.svg) **[!UICONTROL Past backfills]** in de interface selecteert, toont de a **[!UICONTROL Past backfills: _Naam van dataset_]** dialoog de meest recente backfills van de dataset.
 
-## Verbindingsvoorbeeld {#preview}
-
-Om de verbinding voor te vertonen die u hebt gemaakt, selecteert u ](/help/assets/icons/PageSearch.svg) PageSearch **[!UICONTROL Connection preview]** in het dialoogvenster Verbindingsinstellingen.![
-
-![ Voorproef van de Verbinding ](assets/create-conn4.png)
-
-Deze voorvertoning bevat enkele kolommen met een overzicht van de verbindingsconfiguratie. Welke kolomtypes worden getoond hangt van uw individuele datasets af.
-
-
-## Verbindingsmap
-
-[!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
-
-Om een kaart van het verband tussen de datasets te zien die deel van uw verbinding uitmaken, selecteer ![ GraphPathing ](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Connection map]** in de de montagedialoog van de Verbinding.
-
-![ kaart van de Verbinding ](assets/connectionmap.png)
-
-Deze kaart helpt u om een beter inzicht te krijgen in hoe u uw verbinding hebt bepaald en opstelling het verband tussen uw gebeurtenis, profiel, raadpleging, en summiere gegevensdatasets gebruikend herkenningstekens.
-
 ## Gegevenstypen {#dataset-types}
 
 Voor elke dataset die u aan deze verbinding toevoegt, [!UICONTROL Customer Journey Analytics] plaatst automatisch het datasettype dat op de gegevens wordt gebaseerd die binnen komen.
@@ -711,9 +695,25 @@ Er zijn verschillende gegevenstypen: [!UICONTROL Event] data, [!UICONTROL Profil
 | **[!UICONTROL Profile]** | Gegevens die worden toegepast op uw account, personen, gebruikers of klanten in de [!UICONTROL Event] -gegevens. Staat u bijvoorbeeld toe om CRM-gegevens over uw klanten te uploaden. | N.v.t. | Om het even welk ingebouwd of douaneschema dat op de *individuele klasse van het Profiel XDM* gebaseerd is. | U kunt selecteren welke Persoon identiteitskaart/identiteitskaart van de Rekening [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} u wilt omvatten. Elke dataset (behalve summiere datasets), die in [!DNL Experience Platform] wordt bepaald, heeft zijn eigen reeks van één of meerdere Persoon IDs of Account IDs [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} bepaald. Bijvoorbeeld Cookie-id, Stitched ID, Gebruikersnaam, Trackingcode, Account-id enzovoort.](assets/person-id.png)**Nota** van identiteitskaart van de Persoon <br>![: Als u een verbinding creeert die datasets met verschillende IDs omvat, geeft het rapporteren op dat. Om datasets samen te voegen, moet u zelfde Persoon identiteitskaart of identiteitskaart van de Rekening [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} gebruiken. |
 | **Samenvatting** | Gegevens uit tijdreeksen die niet aan een individuele persoon-id zijn gekoppeld. De summiere gegevens vertegenwoordigen samengevoegde gegevens op een verschillend niveau van samenvoeging, bijvoorbeeld campagnes. U kunt deze gegevens in Customer Journey Analytics gebruiken om verschillende gebruiksgevallen te ondersteunen. Zie [ Summiere gegevens ](/help/data-views/summary-data.md) voor meer informatie. | Automatisch instellen op het standaardtijdstempelveld van op gebeurtenissen gebaseerde overzichtsmetrieschema&#39;s in Experience Platform. Alleen granulariteit per uur of per dag wordt ondersteund. | Om het even welk ingebouwd of douaneschema dat op de *wordt gebaseerd XDM Summiere Metriek* klasse. | N.v.t. |
 
->[!MORELIKETHIS]
->
->Blog: [ hoe te Gebeurtenis, Opzoeken, en de Datasets van het Profiel in Adobe Customer Journey Analytics ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478) gebruiken
+## Verbindingsvoorbeeld {#preview}
+
+Om de verbinding voor te vertonen die u hebt gemaakt, selecteert u ](/help/assets/icons/PageSearch.svg) PageSearch **[!UICONTROL Connection preview]** in het dialoogvenster Verbindingsinstellingen.![
+
+![ Voorproef van de Verbinding ](assets/create-conn4.png)
+
+Deze voorvertoning bevat enkele kolommen met een overzicht van de verbindingsconfiguratie. Welke kolomtypes worden getoond hangt van uw individuele datasets af.
+
+
+## Verbindingsmap
+
+[!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
+
+Om een kaart van het verband tussen de datasets te zien die deel van uw verbinding uitmaken, selecteer ![ GraphPathing ](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Connection map]** in de de montagedialoog van de Verbinding.
+
+![ kaart van de Verbinding ](assets/connectionmap.png)
+
+Deze kaart helpt u om een beter inzicht te krijgen in hoe u uw verbinding hebt bepaald en opstelling het verband tussen uw gebeurtenis, profiel, raadpleging, en samenvattingsdatasets gebruikend herkenningstekens.
+
 
 ## Numerieke velden gebruiken als opzoektoetsen en opzoekwaarden {#numeric}
 
@@ -779,5 +779,10 @@ Wanneer het creëren van een verbinding, kunt u grote datasets voor raadplegings
 U kunt verzoeken om een algoritmische snoeiing van een grote raadplegingsdataset. Deze algoritmische het snoeien houdt slechts gegevens in de raadplegingsdataset die de sleutels in uw gebeurtenisdataset aanpast. Op deze manier hoeft u niet de gehele onafgebroken opzoekgegevensset te laden. Oude of minder vaak gebruikte items worden verwijderd, wat een lichte invloed kan hebben op rapporten, maar aanzienlijke voordelen met zich meebrengt. Het algoritme kijkt terug 90 dagen en werkt wekelijks bij.
 
 Neem contact op met uw Adobe-ondersteuningsteam voor meer informatie en om deze mogelijkheid in te schakelen.
+
+
+>[!MORELIKETHIS]
+>
+>Blog: [ hoe te Gebeurtenis, Opzoeken, en de Datasets van het Profiel in Adobe Customer Journey Analytics ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478) gebruiken
 
 ![ Aandeel ](/help/assets/icons/Share.svg)

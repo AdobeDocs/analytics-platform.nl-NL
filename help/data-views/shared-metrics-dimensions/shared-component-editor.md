@@ -1,7 +1,8 @@
 ---
 title: Gedeelde componenteditor
 description: Maak of bewerk gedeelde afmetingen en maatstaven.
-source-git-commit: d2c6605cc440c293aca279c1583bac964055d277
+exl-id: 3f6a808a-d6ac-4a47-a5e2-63b9f17952e8
+source-git-commit: 62df631eeac40f2009304d91c93950c38a260dab
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -19,7 +20,7 @@ Met de gedeelde componenteditor kunt u gedeelde afmetingen en maateenheden maken
 
 De rechterbovenhoek bevat drie knoppen:
 
-* **[!UICONTROL Close]** of **[!UICONTROL Cancel]** : als alle wijzigingen zijn opgeslagen, sluit de knop **[!UICONTROL Close]** de editor. Als er om het even welke niet bewaarde veranderingen zijn, sluit de ** [!UICONTROL Cancel] knoop de redacteur zonder die veranderingen op te slaan.
+* **[!UICONTROL Close]** of **[!UICONTROL Cancel]** : als alle wijzigingen zijn opgeslagen, sluit de knop **[!UICONTROL Close]** de editor. Als er niet-opgeslagen wijzigingen zijn, sluit u de editor met de knop **[!UICONTROL Cancel]** zonder deze wijzigingen op te slaan.
 * **[!UICONTROL Save]**: hiermee slaat u alle componenten op en opent u de editor.
 * **[!UICONTROL Save and finish]**: slaat alle componenten op en sluit de editor.
 
