@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: 1b7d5159-39b2-4ba4-be64-f448ae53c70e
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 11dc62cda2ceb7afabd3abd0944420601c8fa235
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,20 @@ Voor dit gebruiksgeval gelden twee vereisten:
 * U moet gerechtigd zijn tot het pakket van Metrische Quantum **Dev Ops**.
 * U moet labels gebruiken in Adobe Experience Platform Data Collection.
 
-## Stap 1: Leg wrijvingsgebeurtenissen vast met de metrische tagextensie Quantum
+## Stap 1: Maak een schemaveld voor Quantum Metric friction-gebeurtenissen
+
+Voor dit gebruik is een speciaal schemaveld vereist om gegevens naar te verzenden. U kunt dit gebied in om het even welke gewenste plaats in uw schema tot stand brengen en het noemen wat u wilt. Er worden voorbeeldwaarden gegeven als uw organisatie geen voorkeur op naam of locatie heeft.
+
+1. Login aan [ experience.adobe.com ](https://experience.adobe.com).
+1. Ga naar **[!UICONTROL Data Collection]** > **[!UICONTROL Schemas]**.
+1. Selecteer het gewenste schema in de lijst.
+1. Selecteer ![ voeg gebiedspictogram ](/help/assets/icons/AddCircle.svg) naast het gewenste voorwerp toe. Bijvoorbeeld naast `Implementation Details` .
+1. Typ rechts in het scherm de gewenste waarde [!UICONTROL Name] . Bijvoorbeeld `qmErrorName` .
+1. Voer het gewenste [!UICONTROL Display name] in. Bijvoorbeeld `Quantum Metric error name` .
+1. Selecteer [!UICONTROL Type] als **[!UICONTROL String]** .
+1. Selecteer **[!UICONTROL Save]** .
+
+## Stap 2: Leg wrijvingsgebeurtenissen vast met de metrische tagextensie Quantum
 
 Zie [ Metrische uitbreiding van het Quantum ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) in de gids van de Doelen van Adobe Experience Platform voor instructies op hoe te opstelling uw markeringen om Metrische gegevens van het Quantum te omvatten. Het gebruik van deze uitbreiding gaat meer rijen in een bestaande dataset over.
 
@@ -40,7 +53,7 @@ Voeg vervolgens het dynamisch ingestelde gegevenselement toe aan uw XDM-object:
 
 ![ het schermschot van de de foutennaam van het Quantum Metrische ](assets/error-name.png)
 
-## Stap 2: voeg één of meerdere afmetingen en metriek aan de gegevensmening in Customer Journey Analytics toe
+## Stap 3: voeg één of meerdere afmetingen en metriek aan de gegevensmening in Customer Journey Analytics toe
 
 Bewerk de bestaande gegevensweergave om de sessie-id toe te voegen als een beschikbare dimensie in Customer Journey Analytics.
 
@@ -52,7 +65,7 @@ Bewerk de bestaande gegevensweergave om de sessie-id toe te voegen als een besch
 1. Klik op **[!UICONTROL Save]** als u alle gewenste afmetingen en metriek hebt gemaakt.
 1. Raadpleeg de documentatie bij Quantum Metric voor een volledige lijst met foutgebeurtenissen. Als u extra vragen hebt, contacteer uw Metrische vertegenwoordiger van de klantensteun van Quantum of voorleg een verzoek door het [ Metrische Portaal van het Verzoek van de Klant van Quantum Metrische ](https://community.quantummetric.com/s/public-support-page).
 
-## Stap 3: Gebruik de dimensie en metriek met de rest van uw gegevens in Analysis Workspace
+## Stap 4: Gebruik de dimensie en metriek met de rest van uw gegevens in Analysis Workspace
 
 Met Quantum Metric friction-gebeurtenisgegevens die naast de overige bezoekersgegevens worden verzameld, kunt u ze precies gebruiken zoals u dat zou doen met andere maten of metrische gegevens in Customer Journey Analytics.
 
@@ -62,7 +75,7 @@ Met Quantum Metric friction-gebeurtenisgegevens die naast de overige bezoekersge
 1. Creeer de lijst van de a [ Vrije vorm ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md).
 1. Sleep de gewenste afmetingen en afmetingen naar het Workspace-canvas voor analyse.
 
-Mogelijke analyses zijn:
+Mogelijke analytische ideeën zijn:
 
 * Trend friction event data over time
 * Voeg bij een fallout- of trechter-visualisatie Customer Journey Analytics-gebeurtenissen toe als een paar stappen en Quantum Metric friction-gebeurtenissen. Met dit rapport kunt u zien waar bezoekers meestal in de problemen komen.
