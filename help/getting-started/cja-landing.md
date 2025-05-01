@@ -4,7 +4,7 @@ description: Customer Journey Analytics-openingspagina.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: f39cf7c386c42488d6607154fc7922911df5527c
+source-git-commit: e16bfa01dd3bedc96a147b2510ba33f4b88b01b9
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 2%
@@ -25,13 +25,13 @@ Bekijk een glimp van de nieuwste verbeteringen in het Customer Journey Analytics
 
 >[!TAB  Content Analytics ]
 
-Met Adobe Content Analytics kunt u snel en eenvoudig grote hoeveelheden inhoudsgegevens onderzoeken om trends, anomalieën in steunkleuren, vermoeidheid van inhoud en inzicht in de blootstelling aan inhoud te ontdekken.
+Met Content Analytics kunt u snel en eenvoudig grote hoeveelheden inhoudsgegevens onderzoeken om trends, anomalieën in steunkleuren, vermoeidheid van inhoud en inzicht in de blootstelling aan inhoud te ontdekken.
 
 [![afbeelding](assets/learn-more-button.svg)](/help/content-analytics/content-analytics.md)
 
 >[!TAB  Gedeelde metriek en dimensies ]
 
-De gedeelde metriek &amp; de afmetingen verstrekken een centrale plaats om afmetingen en metriek te beheren die over om het even welk aantal gegevensmeningen kunnen worden gebruikt. Deze componenten zijn vooral van belang voor organisaties die meerdere gegevensweergaven gebruiken, vooral als die gegevensweergaven gemeenschappelijke componentinstellingen delen.
+De gedeelde metriek en de afmetingen verstrekken een centrale plaats om afmetingen en metriek te beheren die over om het even welk aantal gegevensmeningen kunnen worden gebruikt. Deze componenten zijn vooral van belang voor organisaties die meerdere gegevensweergaven gebruiken, vooral als die gegevensweergaven gemeenschappelijke componentinstellingen delen.
 
 [![afbeelding](assets/learn-more-button.svg)](/help/data-views/shared-metrics-dimensions/smd-overview.md)
 

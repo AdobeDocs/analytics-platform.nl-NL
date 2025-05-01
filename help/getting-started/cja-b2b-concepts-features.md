@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 badgePremium: label="B2B edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: f13d0f7afcfe2ebb334062b79b409219169c1aee
+source-git-commit: e16bfa01dd3bedc96a147b2510ba33f4b88b01b9
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 0%
@@ -90,3 +90,4 @@ Als een recorddataset een gelijke door gebied gebruikt, wordt de recorddataset b
 ## Rapport over op personen en rekeningen gebaseerde gegevens
 
 Als u op persoon-gebaseerde containers (en persoonsidentiteiten) en op rekening-gebaseerde containers (en rekeningsidentiteiten) wilt rapporteren, zou u twee afzonderlijke verbinding binnen Customer Journey Analytics moeten opzetten. Bij één verbinding selecteert u Persoon als primaire id en bij één verbinding selecteert u Account als primaire id. Customer Journey Analytics biedt geen ondersteuning voor persoonlijke en op account gebaseerde rapportage vanuit één containerhiërarchie.
+
