@@ -5,9 +5,9 @@ exl-id: be19aa27-58aa-438d-806c-e27c9a289797
 solution: Customer Journey Analytics
 feature: Basics
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 8972a195554971006eb4315bdd216947d6cf79f3
 workflow-type: tm+mt
-source-wordcount: '2432'
+source-wordcount: '2473'
 ht-degree: 1%
 
 ---
@@ -37,6 +37,7 @@ De volgende tabel bevat een lijst met functies die beschikbaar zijn in Customer 
 | **Canvas van de Reis** | [ het canvas van de Reis ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas?lang=en) is een visualisatie in de werkruimte van de Analyse die u toestaat om te analyseren hoe de mensen door of uit een bepaalde reis te werk gaan vallen. |
 | **Gebruik van het Product** | [ het gebruik van het Product ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/product-usage/usage-overview) toont u hoe uw organisatie Customer Journey Analytics gebruikt. |
 | **rapport-tijd transformaties** | [ de meningen van Gegevens ](/help/data-views/data-views.md) in Customer Journey Analytics staan u toe om gegevens van een verbinding verder te interpreteren. U kunt gegevens wijzigen of verwijderen zonder uw implementatie te wijzigen, subtekenreeksen gebruiken om afmetingen te manipuleren, metriek van om het even welke waarde tot stand te brengen, of filtersubtekenreeksen. Al deze transformaties worden niet-destructief uitgevoerd. Adobe Analytics biedt beperkte mogelijkheden via virtuele rapportsuites en aangepaste sessielengte. |
+| **Gedeelde metriek en dimensies over gegevensmeningen** | Staat u toe om dimensie en metrische montages over veelvoudige gegevensmeningen ](/help/data-views/shared-metrics-dimensions/smd-overview.md) toe te passen. [ Wijzigingen in een gedeelde dimensie of metrische waarde zijn van toepassing op alle instanties van die dimensie of metrisch in alle toepasselijke gegevensweergaven. |
 | **SQL toegang** | Met de optie Data Distiller kan Customer Journey Analytics de beperkingen verwijderen van gegevens die zijn verzameld bij Adobe-backendverwerking. U kunt uw gegevens met SQL wijzigen, waarden en datasets tot stand brengen uniek aan uw zaken en blijven onderzoeken. Analytics biedt geen ondersteuning voor SQL-toegang tot de bijbehorende gegevens. |
 | **Stitching** | [ Stitching ](/help/stitching/overview.md) is een krachtige eigenschap die de geschiktheid van een gebeurtenisdataset voor kanaalanalyse opheft. Kanaaloverschrijdende analyse is een belangrijkste gebruikscase die Customer Journey Analytics kan behandelen, die u toestaat om rapporten over veelvoudige datasets van verschillende kanalen naadloos te combineren en in werking te stellen, die op een gemeenschappelijke herkennings (persoon ID) wordt gebaseerd. |
 | **Malplaatjes in Adobe Journey Optimizer** | Pas de nieuwe rapporteringsinterface in Adobe Journey Optimizer aan door a [ malplaatje ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates?lang=en) in Customer Journey Analytics te creëren of uit te geven, dan sparen het malplaatje dat op de pagina van Rapporten in Journey Optimizer moet worden gebruikt. |
