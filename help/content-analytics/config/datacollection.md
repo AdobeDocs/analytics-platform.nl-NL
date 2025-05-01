@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
+source-git-commit: d695fcb8dbd98675914c687f3dfaf8c5f0017073
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Een Content Analytics-gebeurtenis bestaat uit:
 Content Analytics-gebeurtenissen worden verzameld als een reeks van:
 
 1. [ A geregistreerde mening of klik ](#recorded-view-or-click).
-1. [ een regelmatige of specifieke (gedrags) gebeurtenis ](#regular-or-specific-behaviorial-event).
+1. [ de trekker van A om een gebeurtenis van Content Analytics ](#trigger-to-send-a-content-analytics-event) te verzenden.
 
 Content Analytics verzamelt gegevens op deze manier om die reeks te weerspiegelen in plaats van een weergave te verzamelen of klik apart van het verzamelen van de gebeurtenis direct na die weergave of klik. Op deze manier wordt ook de hoeveelheid verzamelde gegevens verminderd.
 
@@ -84,11 +84,11 @@ Er wordt een ervaringsklik opgenomen wanneer:
 * Elke klik vindt plaats op een koppeling op de pagina waarvoor ervaringen zijn ingeschakeld.
 
 
-### Gewone of specifieke (gedrags)gebeurtenis
+### Trigger om een Content Analytics-gebeurtenis te verzenden
 
-Triggers om een reguliere of specifieke (gedrags)gebeurtenis te starten in de context van Content Analytics zijn:
+Om het aantal vraag te verminderen die de pagina verlaat, verzamelt Content Analytics informatie maar verzendt niet onmiddellijk die informatie. Informatie over interactie met inhoud wordt verzameld en een gebeurtenis die die informatie bevat, wordt alleen verzonden wanneer een van de volgende triggers plaatsvindt:
 
-* Web SDK of AppMettings verzendt een gebeurtenis.
+* Web SDK of AppMettings verzendt een gebeurtenis. De tijdstempel van deze gebeurtenis is
 * De zichtbaarheid verandert in verborgen, bijvoorbeeld:
    * Pagina wordt verwijderd
    * Tabblad Overschakelen
