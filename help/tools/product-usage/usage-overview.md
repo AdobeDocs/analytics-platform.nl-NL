@@ -2,9 +2,9 @@
 title: Overzicht van productgebruik
 description: Bekijk inzichten en rapporten over hoe uw organisatie Customer Journey Analytics gebruikt.
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: a4615907f61b4d63393a9481fdd7b45b7b9b6262
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -126,3 +126,11 @@ Als u het productgebruik inschakelt, zijn de volgende afmetingen beschikbaar. Al
    * [!UICONTROL Venn]
 
 Het gebruik van het product houdt geen individuele projectcomponenten bij wanneer een project slechts wordt geopend of bekeken. De gebruikersactie van het openen van een project wordt echter gevolgd.
+
+## Beschikbare sjabloon
+
+Een [ malplaatje van Adobe ](/help/analysis-workspace/templates/use-templates.md) is beschikbaar dat de componenten gebruikt die automatisch van deze eigenschap worden geproduceerd.
+
+**[!UICONTROL Adobe templates]** > **[!UICONTROL Other]** > **[!UICONTROL Product usage overview]**
+
+Selecteer de gegevensweergave die het productgebruik automatisch in de gegevensweergavekiezer maakt en selecteer vervolgens de sjabloon **[!UICONTROL Product usage overview]** . Selecteer **[!UICONTROL Preview]** om te zien welke deelvensters in de sjabloon worden gebruikt en meer te weten te komen over ideale gebruiksgevallen of selecteer **[!UICONTROL Use template]** om de sjabloon te openen in Analysis Workspace.
