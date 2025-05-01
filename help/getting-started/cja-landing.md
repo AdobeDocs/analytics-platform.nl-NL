@@ -4,9 +4,9 @@ description: Customer Journey Analytics-openingspagina.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
+source-git-commit: f39cf7c386c42488d6607154fc7922911df5527c
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '884'
 ht-degree: 2%
 
 ---
@@ -28,6 +28,12 @@ Bekijk een glimp van de nieuwste verbeteringen in het Customer Journey Analytics
 Met Adobe Content Analytics kunt u snel en eenvoudig grote hoeveelheden inhoudsgegevens onderzoeken om trends, anomalieën in steunkleuren, vermoeidheid van inhoud en inzicht in de blootstelling aan inhoud te ontdekken.
 
 [![afbeelding](assets/learn-more-button.svg)](/help/content-analytics/content-analytics.md)
+
+>[!TAB  Gedeelde metriek en dimensies ]
+
+De gedeelde metriek &amp; de afmetingen verstrekken een centrale plaats om afmetingen en metriek te beheren die over om het even welk aantal gegevensmeningen kunnen worden gebruikt. Deze componenten zijn vooral van belang voor organisaties die meerdere gegevensweergaven gebruiken, vooral als die gegevensweergaven gemeenschappelijke componentinstellingen delen.
+
+[![afbeelding](assets/learn-more-button.svg)](/help/data-views/shared-metrics-dimensions/smd-overview.md)
 
 >[!TAB  AI Medewerker ]
 
@@ -54,6 +60,7 @@ De intelligente titels worden nu gesteund, met extra interfaceverbeteringen, voo
 Met waarschuwingen kunt u op basis van gewijzigde percentages of specifieke gegevenspunten op de hoogte worden gesteld. U kunt bekijken hoe vaak een waarschuwing wordt geactiveerd, waarschuwingen verzenden via e-mail of SMS, gestapelde waarschuwingen maken en nog veel meer.
 
 [![afbeelding](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
+
 
 >[!TAB  Summiere gegevens ]
 
