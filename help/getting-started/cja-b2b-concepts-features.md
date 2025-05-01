@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 badgePremium: label="B2B edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
+source-git-commit: f13d0f7afcfe2ebb334062b79b409219169c1aee
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -19,59 +19,74 @@ ht-degree: 0%
 
 {{draft-b2b}}
 
-In dit artikel worden algemene concepten en kenmerken op datasets en containers beschreven en wordt uitgelegd hoe deze verschillen tussen de standaard en de B2B edition van Customer Journey Analytics.
-
-Datasets zijn de bronnen van een verbinding. Als deel van vestiging een verbinding, bepaalt u datasets om deel van die verbinding te uitmaken.
-
-Containers worden in Customer Journey Analytics gebruikt om functies zoals segmenten, berekende meetgegevens en geavanceerde analysemogelijkheden te ondersteunen en te vereenvoudigen.
+Dit artikel verklaart concepten zoals verbindingen, herkenningstekens, containers, en datasets, algemeen gebruikt in Customer Journey Analytics. En hoe de Customer Journey Analytics B2B edition extra functies toevoegt aan deze concepten.
 
 
+## Verbindingen en id&#39;s
+
+In Customer Journey Analytics kiest u een gemeenschappelijke id, ook wel Persoon-id genoemd, waarmee u uw gebeurtenisgegevens kunt verbinden met andere gegevenssets, zoals profielgegevensset en opzoekgegevenssets. Dit type verbinding wordt een op persoon gebaseerde verbinding genoemd die op persoon-gebaseerde rapportering en analyse vergemakkelijkt.
+
+In Customer Journey Analytics B2B edition kunt u kiezen tussen een persoonlijke verbinding of een verbinding op basis van een account. Een op account gebaseerde verbinding vergemakkelijkt rapportage en analyse op basis van account.
+
+* Voor een op persoon gebaseerde verbinding selecteert u Person als primaire id. U kunt dan uw verbinding, gegevensmening en werkruimteprojecten voor op persoon-gebaseerde rapportering vormen en opstelling.
+* Voor een verbinding op basis van een account selecteert u Account als primaire id. Vervolgens kunt u desgewenst extra containers toevoegen voor Global Account, Buying Group en Opportunity. Afhankelijk van of u een Global Account toevoegt of niet, is uw primaire id een account-id of een algemene account-id.
 
 
-## Standaardcontainers
+## Containers
 
-De *standaard* versie van Customer Journey Analytics is bouwt rond het concept drie containers: Persoon, Zitting, en Gebeurtenis. In een standaard Customer Journey Analytics-instelling worden deze containers impliciet gegenereerd op basis van uw installatie.
+In Customer Journey Analytics-containers worden gegenereerd als onderdeel van de configuratie van een verbinding en gegevensweergave. Containers slaan alleen id&#39;s op om het snel en uitvoerbaar uitvoeren van functies zoals segmentatie, storingen en meer te vergemakkelijken.
 
-U kunt opnieuw bepalen hoe deze containers worden genoemd wanneer u een mening van Gegevens vormt maar conceptueel gebruikt de standaardversie een op persoon-gebaseerde containerhiërarchie.
+### Standaardcontainers
+
+Customer Journey Analytics is gebouwd rond het concept van drie containers: Persoon, Zitting, en Gebeurtenis. Tijdens een configuratie, worden deze containers impliciet geproduceerd.
+
+U kunt opnieuw bepalen hoe deze containers worden genoemd wanneer u een gegevensmening vormt maar de hiërarchie en de verhoudingen tussen de containers wordt vooraf bepaald. De container van de Zitting wordt geproduceerd gebaseerd op hoe u een zitting in de [ montages van de Zitting ](/help/data-views/session-settings.md) in uw gegevensmening bepaalt.
 
 ![ B2C ](assets/b2c-containers.svg){zoomable="yes"}
 
-In de verbinding, voegt u de datasets van de Gebeurtenis, van het Profiel en van de Opzoeker toe en u selecteert identiteiten om te gebruiken om de verbinding tussen deze datasets te bepalen. Als deel van de verbinding, wordt een op persoon-gebaseerde containerhiërarchie automatisch geproduceerd. In die hiërarchie wordt de container van de Zitting bepaald door de [ montages van de Zitting ](/help/data-views/session-settings.md) in uw mening van Gegevens.
 
+### B2B-containers
 
-## B2B-containers
+In Customer Journey Analytics B2B edition wordt een container Account toegevoegd aan de lijst met gegenereerde containers. En u hebt de optie om de generatie van extra containers, zoals Globale Rekening, het Kopen Groep, en Kans te vormen.
 
-In Customer Journey Analytics B2B edition wordt een container Account toegevoegd aan de lijst met gegenereerde containers.  En u hebt de optie om de generatie van extra containers, zoals Globale Rekening, het Kopen Groep, en Kans te vormen.
+De hiërarchie en de relaties tussen de containers zijn vooraf bepaald. Opportunity, Buying Group en Person zijn alle containers op hetzelfde niveau van de container van de account. In die hiërarchie wordt de container van de Zitting tussen de container van de Persoon en de container van de Gebeurtenis geproduceerd gebaseerd op hoe u een zitting in de [ montages van de Zitting ](/help/data-views/session-settings.md) in uw gegevensmening bepaalt. Er worden momenteel geen extra sessiecontainers gegenereerd en ondersteund, bijvoorbeeld tussen de container Account en de container Event. Zie de onderstaande tabel voor een beschrijving en het basisgebruik van de B2B-containers.
 
 ![ B2B ](assets/b2b-containers.svg){zoomable="yes"}
 
-In de verbinding, voegt u Gebeurtenis, Rekening, Globale Rekening, Kans, het Kopen Groep en andere datasets van de Opzoekopdracht toe. U selecteert Account als primaire id voor de verbinding, zodat u op account gebaseerde identiteiten kunt gebruiken om de verbinding tussen de gegevenssets te definiëren. Als onderdeel van de verbinding wordt automatisch een containerhiërarchie op basis van een account gegenereerd. In die hiërarchie wordt de container van de Zitting tussen de container van de Persoon en de container van de Gebeurtenis bepaald door de [ montages van de Zitting ](/help/data-views/session-settings.md) in uw mening van Gegevens. Aanvullende sessiecontainers, bijvoorbeeld tussen Account en Event, worden momenteel niet ondersteund.
-
-Opportunity, Buying Group en Person zijn alle containers op hetzelfde niveau van de container van de account. Zie de tabel hieronder voor een beschrijving en basisgebruik.
-
 | B2B-container | Beschrijving <br/> Basis gebruiksgeval |
 |---|---|
-| Account | Een bedrijf dat een klant of potentiële klant van uw zaken is. Dit zou een dochteronderneming of afdeling van een grotere organisatie kunnen zijn. Account vertegenwoordigt de organisatie waarnaar u verkoopt en die u wilt bijhouden op organisatieniveau. |
-| Globale account (optioneel) | De belangrijkste moedermaatschappij van een groep verbonden ondernemingen. Een global account heeft geen moedermaatschappij, maar kan dochterondernemingen of afdelingen hebben die tot de global account behoren. Een account zonder moedermaatschappij of dochterondernemingen moet zowel in het accountveld als in het veld voor de globale account worden vermeld, als beide accounts zijn ingeschakeld als onderdeel van het instellen van een verbinding. |
-| Opportunity (optioneel) | Een verzameling producten en diensten die samen worden verkocht. Bij een gelegenheid waren vaak verschillende fasen van de verkoopcyclus betrokken om als verkoop te worden gesloten.<br> u zou opportuniteitsgegevens gebruiken om de opportuniteitsvooruitgang door de verkooptrechter te meten. Bijvoorbeeld, een rapport dat details over de topkansen verstrekt die van opportuniteitsfase 3 aan fase 4 zijn overgegaan. |
-| Groep voor kopen (optioneel) | Een verzameling personen binnen een organisatie die betrokken is bij het besluitvormingsproces voor de aankoop van een product of dienst. <br/> u zou het kopen groepsgegevens gebruiken om het kopen groepen door campagnebeheer te volgen. Bijvoorbeeld, bouwde een publiekssegment van zeer belangrijke het kopen groepen.<br/> U wilt waarschijnlijk een zoekopdracht vanuit de inkoopgroep naar profielgegevens, zodat u gegevens over de personen in een inkoopgroep kunt melden. |
+| Account | Een bedrijf dat een klant of potentiële klant van uw zaken is. De onderneming zou een dochteronderneming of een afdeling van een grotere organisatie kunnen zijn. Account vertegenwoordigt de organisatie waarnaar u verkoopt en die u wilt bijhouden op organisatieniveau. |
+| Globale account (optioneel) | De belangrijkste moedermaatschappij van een groep verbonden ondernemingen. Een global account heeft geen moedermaatschappij, maar kan dochterondernemingen of afdelingen hebben die tot de global account behoren. Wanneer u de globale container van de Rekening hebt gevormd in uw verbinding, zou een rekening die geen ouder of geen dochterondernemingen heeft op zowel het rekeningsgebied als globaal rekeningsgebied moeten worden vermeld. |
+| Opportunity (optioneel) | Een verzameling producten en diensten die samen worden verkocht. Een kans bestond vaak uit verschillende fasen in de verkoopcyclus tot de sluiting van de verkoop.<br> u zou gegevens gebruiken om de opportuniteitsvooruitgang door de verkooptrechter te meten. Bijvoorbeeld een rapport dat details over de hoogste kansen verstrekt die zich van fase 3 aan fase 4 bewogen. |
+| Groep voor kopen (optioneel) | Een verzameling personen binnen een organisatie die betrokken is bij het besluitvormingsproces voor de aankoop van een product of dienst. <br/> u zou het kopen groepsgegevens gebruiken om het kopen groepen door campagnebeheer te volgen. Stel bijvoorbeeld dat u een publiekssegment van belangrijke inkoopgroepen maakt.<br/> U wilt waarschijnlijk een zoekopdracht vanuit de inkoopgroep naar profielgegevens, zodat u gegevens over de personen in een inkoopgroep kunt melden. |
 | Persoon | Een individu, dat vaak door een uniek e-mailadres wordt geïdentificeerd dat met het bedrijf in wisselwerking heeft gestaan. <br/> u zou de profielgegevens gebruiken om mensen te identificeren die voor een rekening werken. Bijvoorbeeld: richt alle mensen bij een rekening die zich voor een conferentie hebben aangemeld. |
 
+>[!IMPORTANT]
+>
+>* Als u **** de Globale container van de Rekening in een op rekening-gebaseerde verbinding hebt toegelaten, zou elk verslag in uw gebeurtenisdatasets een identiteitskaart van de Rekening en Globale identiteitskaart van de Rekening moeten bevatten. Als dat niet het geval is, wordt de record overgeslagen.
+>* Als u **** niet de Globale container van de Rekening in een op rekening-gebaseerde verbinding hebt toegelaten, zou elk verslag in uw gebeurtenisdatasets een identiteitskaart van de Rekening moeten bevatten. Als dat niet het geval is, wordt de record overgeslagen.
+
+## Gegevenssets
+
+Wanneer u [ datasetmontages ](/help/connections/create-connection.md#dataset-settings) voor uw op rekening-gebaseerde verbinding in Customer Journey Analytics B2B edition vormt, hangen de opties beschikbaar voor sommige montages van het [ datasettype ](/help/connections/create-connection.md#dataset-types) af. U moet bijvoorbeeld:
+
+* Specificeer herkenningstekens voor elk van de containers die u voor uw gebeurtenisdatasets hebt gevormd.
+* Definieer een accountveld of algemeen accountveld voor uw profielgegevenssets.
+* Bepaal sleutels en hoe te om deze sleutels (door container van gebied) voor raadplegingsdatasets aan te passen.
 
 ## Afstemmen op container of veld
 
-Wanneer u een verbinding in Customer Journey Analytics bepaalt, kunt u voor elke verslag (profiel of raadpleging) dataset bepalen, of die dataset door container wordt aangepast of door gebied.
+U kunt voor elke raadplegingsdataset bepalen, of u de dataset door gebied of door container aanpast.
 
 ### Afstemmen op container
 
-Als een recorddataset door container, bijvoorbeeld het Kopen Groep wordt aangepast, wordt de recorddataset behandeld als een type van profieldataset en als dataset van het Profiel in het gebruikersinterface.
+Als een recorddataset een gelijke door container gebruikt, wordt de recorddataset behandeld als een type van profieldataset en als dataset van het Profiel in het gebruikersinterface. De gelijke van het gebruik door container op datasets die uw gevormde containers steunen. Bijvoorbeeld een gegevensset voor inkoopgroep.
 
 ### Overeenkomst per veld
 
-Als een recorddataset door gebied, bijvoorbeeld het Lid van de Lijst van de Marketing wordt aangepast, wordt de recorddataset behandeld als een type van raadplegingsdataset en als dataset van de Opzoekopdracht in het gebruikersinterface.
-
+Als een recorddataset een gelijke door gebied gebruikt, wordt de recorddataset behandeld als type van raadplegingsdataset en als dataset van de Opzoekopdracht in het gebruikersinterface. De gelijke van het gebruik door gebied op datasets die extra details door raadpleging bijvoorbeeld, een dataset van het Lid van de Lijst van de Marketing, of een dataset van de Details van het Product steunen.
 
 
 ## Rapport over op personen en rekeningen gebaseerde gegevens
 
-Als u op persoon-gebaseerde containers (en persoonsidentiteiten) en op rekening-gebaseerde containers (en rekeningsidentiteiten) wilt rapporteren, zou u twee afzonderlijke verbinding binnen Customer Journey Analytics moeten opzetten. Bij één verbinding selecteert u Persoon als primaire id en bij één verbinding selecteert u Account als primaire id. Customer Journey Analytics biedt geen ondersteuning voor op personen gebaseerde en op account gebaseerde rapportage vanuit dezelfde container.
+Als u op persoon-gebaseerde containers (en persoonsidentiteiten) en op rekening-gebaseerde containers (en rekeningsidentiteiten) wilt rapporteren, zou u twee afzonderlijke verbinding binnen Customer Journey Analytics moeten opzetten. Bij één verbinding selecteert u Persoon als primaire id en bij één verbinding selecteert u Account als primaire id. Customer Journey Analytics biedt geen ondersteuning voor persoonlijke en op account gebaseerde rapportage vanuit één containerhiërarchie.
