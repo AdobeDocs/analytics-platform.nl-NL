@@ -7,9 +7,9 @@ feature: Use Cases
 hidefromtoc: true
 hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: d48a6fc306a84eeeb189e1b272bfded7ed26ed70
+source-git-commit: a03505aeb56f99b28f50819765a496705876b89c
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '766'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Bij deze stappen wordt ervan uitgegaan dat u tags gebruikt in de gegevensverzame
 
 Zie de [ Metrische de markeringsuitbreiding van het Quantum ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) documentatie voor meer informatie.
 
-## Stap 1: Maak een schemaveld voor de metrische gegevens van Quantum
+## Stap 1: Maak een schemaveld om de metrische sessie-id van Quantum aan te passen
 
 Voor dit gebruik is een speciaal schemaveld vereist om gegevens naar te verzenden. U kunt dit gebied in om het even welke gewenste plaats in uw schema tot stand brengen en het noemen wat u wilt. Er worden voorbeeldwaarden gegeven als uw organisatie geen voorkeur op naam of locatie heeft.
 
@@ -32,7 +32,7 @@ Voor dit gebruik is een speciaal schemaveld vereist om gegevens naar te verzende
 1. Ga naar **[!UICONTROL Data Collection]** > **[!UICONTROL Schemas]**.
 1. Selecteer het gewenste schema in de lijst.
 1. Selecteer ![ voeg gebiedspictogram ](/help/assets/icons/AddCircle.svg) naast het gewenste voorwerp toe. Bijvoorbeeld naast `Implementation Details` .
-1. Typ rechts in het scherm het gewenste [!UICONTROL Name] . Bijvoorbeeld `qmSessionId` .
+1. Typ rechts in het scherm de gewenste waarde [!UICONTROL Name] . Bijvoorbeeld `qmSessionId` .
 1. Voer het gewenste [!UICONTROL Display name] in. Bijvoorbeeld `Quantum Metric session ID` .
 1. Selecteer [!UICONTROL Type] als **[!UICONTROL String]** .
 1. Selecteer **[!UICONTROL Save]** .
