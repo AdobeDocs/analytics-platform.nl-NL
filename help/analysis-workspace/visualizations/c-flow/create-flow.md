@@ -4,9 +4,9 @@ title: Hoe te om een stroomvisualisatie te vormen
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: 915c1ecff6dcbe42a6ed81c74f4ec5b4a24eaaa5
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,17 @@ ht-degree: 0%
 >id="workspace_flow_container"
 >title="Stroomcontainer"
 >abstract="Selecteer de container die u wilt gebruiken om het plakken weer te geven (nummers voor)."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_disabled"
+>title="Inclusief herhalingen (uitgeschakeld)"
+>abstract="Herhalingen kunnen niet worden verwijderd uit stroomvisualisaties die multigetaxeerde afmetingen bevatten."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_default"
+>title="Inclusief herhalingen "
+>abstract="Stroomvisualisaties zijn gebaseerd op instanties van een dimensie. Met deze instelling kunt u herhalende exemplaren opnemen of uitsluiten, bijvoorbeeld: Pagina wordt opnieuw geladen."
+
 
 
 Stroomvisualisaties helpen u de reis te begrijpen die voortkomt uit een specifieke conversiegebeurtenis op uw website of uw app. Of leidt tot een specifieke conversiegebeurtenis. De visualisatie traceert een pad door uw dimensies (en dimensie-items) of metriek.
@@ -39,7 +50,7 @@ U kunt het begin of het eind van de weg vormen u in geinteresseerd bent. U kunt 
 
    * Gebruik het keuzemenu om metriek of afmetingen te selecteren.
    * Sleep afmetingen of metriek vanuit het linkerdeelvenster.
-   * Typ de naam van een dimensie of metrisch en selecteer deze wanneer deze in de vervolgkeuzelijst wordt weergegeven.
+   * Typ de naam van een dimensie of metrisch en selecteer deze wanneer deze in het keuzemenu wordt weergegeven.
 
    >[!IMPORTANT]
    >
