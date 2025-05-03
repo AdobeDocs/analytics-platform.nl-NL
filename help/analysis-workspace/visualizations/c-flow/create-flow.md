@@ -4,14 +4,34 @@ title: Hoe te om een stroomvisualisatie te vormen
 feature: Visualizations
 exl-id: 7055cbc9-19b3-40f0-b8d4-52d241224827
 role: User
-source-git-commit: 915c1ecff6dcbe42a6ed81c74f4ec5b4a24eaaa5
+source-git-commit: 2a2e158c0eb0f60591a92ed98572bbb6c344e3be
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1566'
 ht-degree: 0%
 
 ---
 
 # Een stroomvisualisatie configureren {#configure-a-flow-visualization}
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_startswith"
+>title="Starts with (Begint met)"
+>abstract="Dit veld kan alleen worden ingesteld bij de eerste build. Als u dit veld wilt bijwerken, selecteert u **[!UICONTROL Reset]** om een nieuwe stroomvisualisatie te maken."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_contains"
+>title="Bevat"
+>abstract="Dit veld kan alleen worden ingesteld bij de eerste build. Als u dit veld wilt bijwerken, selecteert u **[!UICONTROL Reset]** om een nieuwe stroomvisualisatie te maken."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_endswith"
+>title="Ends with (Eindigt met)"
+>abstract="Dit veld kan alleen worden ingesteld bij de eerste build. Als u dit veld wilt bijwerken, selecteert u **[!UICONTROL Reset]** om een nieuwe stroomvisualisatie te maken."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_pathingdimension"
+>title="Dimensie verven"
+>abstract="Selecteer een dimensie die u wilt gebruiken als het pad dat u wilt gebruiken voor of naar de geselecteerde component."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_container"
@@ -25,8 +45,23 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_include_repeats_default"
->title="Inclusief herhalingen "
+>title="Inclusief herhalingen"
 >abstract="Stroomvisualisaties zijn gebaseerd op instanties van een dimensie. Met deze instelling kunt u herhalende exemplaren opnemen of uitsluiten, bijvoorbeeld: Pagina wordt opnieuw geladen."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_limit_occurrence"
+>title="Beperken tot eerste/laatste voorkomen"
+>abstract="De resultaten zijn beperkt tot wegen wanneer het eerste/laatste aanraakpunt een ingang/uitgang is."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_numberofcolumns"
+>title="Aantal kolommen"
+>abstract="Dit veld kan alleen worden ingesteld bij de eerste build. Als u dit veld wilt bijwerken, selecteert u **[!UICONTROL Reset]** om een nieuwe stroomvisualisatie te maken."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_itemsexpandedpercolumn"
+>title="Items uitgevouwen per kolom"
+>abstract="Dit veld kan alleen worden ingesteld bij de eerste build. Als u dit veld wilt bijwerken, selecteert u **[!UICONTROL Reset]** om een nieuwe stroomvisualisatie te maken."
 
 
 
