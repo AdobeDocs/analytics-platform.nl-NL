@@ -2,9 +2,9 @@
 title: Gedeelde componenteditor
 description: Maak of bewerk gedeelde afmetingen en maatstaven.
 exl-id: 3f6a808a-d6ac-4a47-a5e2-63b9f17952e8
-source-git-commit: 62df631eeac40f2009304d91c93950c38a260dab
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ De interface bevat drie hoofdkolommen/secties:
 
 * **de gebiedsselecteur van het Schema**: plaats van het gewenste schemagebied (s) en sleep hen aan het inbegrepen componentengebied.
    * **Verbinding**: De actieve verbinding. Verander de actieve verbinding in de [ gedeelde metriek &amp; dimensiemanager ](smd-overview.md).
-   * **drop-down van de Lijst van de Component**: U kunt tussen het selecteren [!UICONTROL Schema fields] (netto nieuwe gedeelde afmetingen en metriek), of [!UICONTROL Metrics & Dimensions] (bestaande gedeelde componenten) kiezen.
+   * **lijst van de Component**: U kunt tussen het selecteren [!UICONTROL Schema fields] (netto nieuwe gedeelde afmetingen en metriek), of [!UICONTROL Metrics & Dimensions] (bestaande gedeelde componenten) van het drop-down menu kiezen.
    * **Onderzoek**: Gebruik het ![ pictogram van het Onderzoek ](/help/assets/icons/Search.svg) tekstonderzoek om van het gewenste schemagebied of gedeelde component door naam de plaats te bepalen. U kunt ](/help/assets/icons/Filter.svg) filters van het pictogram van de Filter {ook gebruiken 0} om onderaan de lijst van componenten te versmallen. ![ Het filter `Is not deprecated` is standaard actief.
    * **creeer afgeleid gebied**: Staat u toe om [ een afgeleid gebied ](/help/data-views/derived-fields/derived-fields.md) tot stand te brengen.
 * **omvatten componenten**: De componenten die u om vormt worden gedeeld. Wanneer u gedeelde componenten maakt, kunt u meerdere schemavelden naar dit gebied slepen om meerdere componenten tegelijk te maken. Wanneer u gedeelde componenten bewerkt, kunt u meerdere componenten selecteren die u wilt bewerken. Hierin worden alle geselecteerde componenten in dit gebied weergegeven.

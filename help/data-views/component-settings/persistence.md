@@ -5,7 +5,7 @@ exl-id: b8b234c6-a7d9-40e9-8380-1db09610b941
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 4%
@@ -101,7 +101,7 @@ Details over de beschikbare vervalinstellingen.
 
 ## [!UICONTROL Binding Dimension]
 
-Een vervolgkeuzelijst waarmee u de persistentie van een waarde voor de dimensie kunt binden aan waarden van de dimensie in een andere dimensie. Tot de geldige opties behoren andere afmetingen die in de gegevensweergave zijn opgenomen.
+Een vervolgkeuzemenu waarmee u de persistentie van een waarde voor de dimensie kunt binden aan waarden van de dimensie in een andere dimensie. Tot de geldige opties behoren andere afmetingen die in de gegevensweergave zijn opgenomen.
 
 Zie [ Gebruikend bindende dimensies en metriek in Customer Journey Analytics ](../../use-cases/data-views/binding-dimensions-metrics.md) voor voorbeelden rond hoe te om bindende dimensies effectief te gebruiken.
 
@@ -115,7 +115,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Bindende afme
 
 ## [!UICONTROL Binding Metric]
 
-Een vervolgkeuzelijst waarin u een metrische waarde kunt kiezen die als een bindende trigger fungeert. Mogelijke geldige opties zijn meetgegevens die zijn opgenomen in de gegevensweergave.
+Een drop-down menu dat u metrisch laat kiezen die als bindende trekker dienst doet. Mogelijke geldige opties zijn meetgegevens die zijn opgenomen in de gegevensweergave.
 
 Deze instelling wordt alleen weergegeven wanneer de Binding Dimension zich in de objectarray lager bevindt dan de component. Wanneer metrisch binden in een gebeurtenis aanwezig is, worden de afmetingswaarden gekopieerd van de gebeurtenis-vlakke afmeting neer aan het lagere schemaniveau van de bindende afmeting.
 

@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: 417443ae-a1ab-483b-a8fd-cff5ee8b6263
-source-git-commit: e2e04432682f94b18bf9ed25d15f906c05bfd59d
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1141'
 ht-degree: 2%
 
 ---
@@ -93,7 +93,7 @@ Om summiere gegevens in uw rapporten en analyse behoorlijk te gebruiken, zijn ee
 
 ### Korreligheid en tijdzone
 
-Wanneer het vormen van de dataset die de summiere gegevens in Customer Journey Analytics bevat, merkt u op dat granularity automatisch uit de gegevens wordt afgeleid. De selecties voor **[!UICONTROL Timestamp]** en **[!UICONTROL Timezone]** dropdown zijn uitgeschakeld omdat beide uit de schemadefinitie zijn afgeleid.
+Wanneer het vormen van de dataset die de summiere gegevens in Customer Journey Analytics bevat, merkt u op dat granularity automatisch uit de gegevens wordt afgeleid. De selecties voor **[!UICONTROL Timestamp]** en **[!UICONTROL Timezone]** vervolgkeuzemenu zijn uitgeschakeld omdat beide uit de schemadefinitie zijn afgeleid.
 
 #### Granulariteit
 

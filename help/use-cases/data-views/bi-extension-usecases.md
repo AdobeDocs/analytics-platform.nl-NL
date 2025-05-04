@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: 463ddbba0bd6765bd5fde1b2098c5603b48b10e4
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '11965'
 ht-degree: 0%
@@ -87,7 +87,7 @@ Wanneer u de gebruiksgevallen doorloopt, vervangt u deze voorbeeldobjecten door 
    1. Navigeer naar uw Experience Platform-sandbox.
    1. Selecteer ![ Vragen ](/help/assets/icons/DataSearch.svg) **[!UICONTROL Queries]** van het linkerspoor.
    1. Selecteer de tab **[!UICONTROL Credentials]** in de interface van **[!UICONTROL Queries]** .
-   1. Selecteer `prod:cja` in het vervolgkeuzemenu **[!UICONTROL Database]** .
+   1. Selecteer `prod:cja` in de vervolgkeuzelijst **[!UICONTROL Database]** .
 
       ![ de dienstgeloofsbrieven van de Vraag ](assets/queryservice-credentials.png){zoomable="yes"}
 
@@ -146,7 +146,7 @@ Power BI Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATT
    1. Navigeer naar uw Experience Platform-sandbox.
    1. Selecteer ![ Vragen ](/help/assets/icons/DataSearch.svg) **[!UICONTROL Queries]** van het linkerspoor.
    1. Selecteer de tab **[!UICONTROL Credentials]** in de interface van **[!UICONTROL Queries]** .
-   1. Selecteer `prod:cja` in het vervolgkeuzemenu **[!UICONTROL Database]** .
+   1. Selecteer `prod:cja` in de vervolgkeuzelijst **[!UICONTROL Database]** .
 
       ![ de dienstgeloofsbrieven van de Vraag ](assets/queryservice-credentials.png){zoomable="yes"}
 
@@ -158,7 +158,7 @@ Power BI Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATT
       1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om **[!UICONTROL Host]** van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** aan **[!UICONTROL Server]**.
       1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om **[!UICONTROL Port]** van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** aan **[!UICONTROL Port]**.
       1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om **[!UICONTROL Database]** van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** aan **[!UICONTROL Database]**. Voeg `%3FFLATTEN` toe aan de waarde die u plakt. Bijvoorbeeld: `prod:cja%3FFLATTEN` .
-      1. Selecteer **[!UICONTROL Username and Password]** in het vervolgkeuzemenu **[!UICONTROL Authentication]** .
+      1. Selecteer **[!UICONTROL Username and Password]** in de vervolgkeuzelijst **[!UICONTROL Authentication]** .
       1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om **[!UICONTROL Username]** van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** aan **[!UICONTROL Username]**.
       1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om **[!UICONTROL Password]** van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** aan **[!UICONTROL Password]**. Als u a [ niet-uitbreidende credentie ](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect) gebruikt, gebruik het wachtwoord van uw niet-uitbreidende referentie.
       1. Controleer of **[!UICONTROL Require SSL]** is ingeschakeld.
@@ -198,7 +198,7 @@ Tableau Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTE
    1. Navigeer naar uw Experience Platform-sandbox.
    1. Selecteer ![ Vragen ](/help/assets/icons/DataSearch.svg) **[!UICONTROL Queries]** van het linkerspoor.
    1. Selecteer de tab **[!UICONTROL Credentials]** in de interface van **[!UICONTROL Queries]** .
-   1. Selecteer `prod:cja` in het vervolgkeuzemenu **[!UICONTROL Database]** .
+   1. Selecteer `prod:cja` in de vervolgkeuzelijst **[!UICONTROL Database]** .
 
       ![ de dienstgeloofsbrieven van de Vraag ](assets/queryservice-credentials.png){zoomable="yes"}
 
@@ -274,7 +274,7 @@ De markering ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` 
    1. Navigeer naar uw Experience Platform-sandbox.
    1. Selecteer ![ Vragen ](/help/assets/icons/DataSearch.svg) **[!UICONTROL Queries]** van het linkerspoor.
    1. Selecteer de tab **[!UICONTROL Credentials]** in de interface van **[!UICONTROL Queries]** .
-   1. Selecteer `prod:cja` in het vervolgkeuzemenu **[!UICONTROL Database]** .
+   1. Selecteer `prod:cja` in de vervolgkeuzelijst **[!UICONTROL Database]** .
 
       ![ de dienstgeloofsbrieven van de Vraag ](assets/queryservice-credentials.png){zoomable="yes"}
 
@@ -380,7 +380,7 @@ Jupyter-laptop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN
    1. Navigeer naar uw Experience Platform-sandbox.
    1. Selecteer ![ Vragen ](/help/assets/icons/DataSearch.svg) **[!UICONTROL Queries]** van het linkerspoor.
    1. Selecteer de tab **[!UICONTROL Credentials]** in de interface van **[!UICONTROL Queries]** .
-   1. Selecteer `prod:cja` in het vervolgkeuzemenu **[!UICONTROL Database]** .
+   1. Selecteer `prod:cja` in de vervolgkeuzelijst **[!UICONTROL Database]** .
 
       ![ de dienstgeloofsbrieven van de Vraag ](assets/queryservice-credentials.png){zoomable="yes"}
 
@@ -1030,10 +1030,10 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
    1. Als u beide grafieken wilt bestellen in aflopende volgorde van inkoopopbrengsten, plaatst u de muisaanwijzer op de titel van **[!UICONTROL Purchase Revenue]** en selecteert u het sorteerpictogram.
    1. Als u het aantal items in de grafieken wilt beperken, selecteert u **[!UICONTROL SUM(Purchase Revenue)]** in **[!UICONTROL Rows]** en kiest u **[!UICONTROL Filter]** in het vervolgkeuzemenu.
    1. Selecteer **[!UICONTROL Range of values]** in het dialoogvenster **[!UICONTROL Filter \[Purchase Revenue\]]** en voer de gewenste waarden in. Bijvoorbeeld: `1,000,000` - `2,000,000` . Selecteer **[!UICONTROL Apply]** en **[!UICONTROL OK]** .
-   1. Als u de twee staafdiagrammen wilt omzetten in een combinatieschema, selecteert u **[!UICONTROL SUM(Purchases)]** in **[!UICONTROL Rows]** en kiest u **[!UICONTROL Dual Axis]** in het vervolgkeuzemenu. De staafdiagrammen worden omgezet in een spreidingsgrafiek.
+   1. Als u de twee staafdiagrammen wilt omzetten in een combinatieschema, selecteert u **[!UICONTROL SUM(Purchases)]** in **[!UICONTROL Rows]** en kiest u **[!UICONTROL Dual Axis]** in het keuzemenu. De staafdiagrammen worden omgezet in een spreidingsgrafiek.
    1. U wijzigt het spreidingsperceel als volgt in een staafdiagram:
-      1. Selecteer **[!UICONTROL SUM(Purchases)]** in het **[!UICONTROL Marks]** gebied en selecteer **[!UICONTROL Line]** in het vervolgkeuzemenu.
-      1. Selecteer **[!UICONTROL SUM(Purchase Revenue)]** in het **[!UICONTROL Marks]** gebied en selecteer **[!UICONTROL Bar]** in het vervolgkeuzemenu.
+      1. Selecteer **[!UICONTROL SUM(Purchases)]** in het **[!UICONTROL Marks]** -gebied en selecteer **[!UICONTROL Line]** in de vervolgkeuzelijst.
+      1. Selecteer **[!UICONTROL SUM(Purchase Revenue)]** in het **[!UICONTROL Marks]** -gebied en selecteer **[!UICONTROL Bar]** in de vervolgkeuzelijst.
 
    Uw Tableau Desktop moet er hieronder uitzien.
 
@@ -1045,7 +1045,7 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
 1. Zorg ervoor dat het **[!UICONTROL Data]** -werkblad is geselecteerd.
    1. Selecteer **[!UICONTROL Show me]** rechtsboven en selecteer **[!UICONTROL Text table]** (visualisatie linksboven) om de inhoud van de twee grafieken aan een tabel aan te passen.
    1. Om koopopbrengst in dalende orde te opdracht geven, houd over **[!UICONTROL Purchase Revenue]** in de lijst en selecteer ![ SortOrderDown ](/help/assets/icons/SortOrderDown.svg).
-   1. Selecteer **[!UICONTROL Entire View]** in het vervolgkeuzemenu **[!UICONTROL Fit]** .
+   1. Selecteer **[!UICONTROL Entire View]** in de vervolgkeuzelijst **[!UICONTROL Fit]** .
 
    Uw Tableau Desktop moet er hieronder uitzien.
 
@@ -1073,21 +1073,21 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2024/01/01]** .
 1. Selecteer **[!UICONTROL Product Name]** in het gedeelte **[!UICONTROL ‣ Cc Data View]** links in de sectie.
 1. Vanuit het gedeelte **[!UICONTROL ‣ Custom Fields]** in de linkertrack:
-   1. Selecteer **[!UICONTROL Custom Measure]** in het vervolgkeuzemenu **[!UICONTROL + Add]** .
+   1. Selecteer **[!UICONTROL Custom Measure]** in de vervolgkeuzelijst **[!UICONTROL + Add]** .
    1. In het dialoogvenster **[!UICONTROL Create custom measure]** :
-      1. Selecteer **[!UICONTROL Purchase Revenue]** in het vervolgkeuzemenu **[!UICONTROL Field to measure]** .
-      1. Selecteer **[!UICONTROL Sum]** in het vervolgkeuzemenu **[!UICONTROL Measure type]** .
+      1. Selecteer **[!UICONTROL Purchase Revenue]** in de vervolgkeuzelijst **[!UICONTROL Field to measure]** .
+      1. Selecteer **[!UICONTROL Sum]** in de vervolgkeuzelijst **[!UICONTROL Measure type]** .
       1. Voer een aangepaste veldnaam in voor **[!UICONTROL Name]** . Bijvoorbeeld: `Purchase Revenue` .
       1. Selecteer de tab **[!UICONTROL Field details]** .
-      1. Selecteer **[!UICONTROL Decimals]** in het vervolgkeuzemenu en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .**[!UICONTROL Format]**
+      1. Selecteer **[!UICONTROL Decimals]** in de vervolgkeuzelijst **[!UICONTROL Format]** en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .
          ![ Lager aangepast metrisch gebied ](assets/uc5-looker-customfield.png){zoomable="yes"}
       1. Selecteer **[!UICONTROL Save]** .
    1. Selecteer **[!UICONTROL Custom Measure]** nogmaals in de vervolgkeuzelijst **[!UICONTROL + Add]** . In het dialoogvenster **[!UICONTROL Create custom]** -meting:
-      1. Selecteer **[!UICONTROL Purchases]** in het vervolgkeuzemenu **[!UICONTROL Field to measure]** .
-      1. Selecteer **[!UICONTROL Sum]** in het vervolgkeuzemenu **[!UICONTROL Measure type]** .
+      1. Selecteer **[!UICONTROL Purchases]** in de vervolgkeuzelijst **[!UICONTROL Field to measure]** .
+      1. Selecteer **[!UICONTROL Sum]** in de vervolgkeuzelijst **[!UICONTROL Measure type]** .
       1. Voer een aangepaste veldnaam in voor **[!UICONTROL Name]** . Bijvoorbeeld: `Sum of Purchases` .
       1. Selecteer de tab **[!UICONTROL Field details]** .
-      1. Selecteer **[!UICONTROL Decimals]** in het vervolgkeuzemenu en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .**[!UICONTROL Format]**
+      1. Selecteer **[!UICONTROL Decimals]** in de vervolgkeuzelijst **[!UICONTROL Format]** en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .
       1. Selecteer **[!UICONTROL Save]** .
    1. Beide velden worden automatisch toegevoegd aan de gegevensweergave.
 1. Selecteer **[!UICONTROL + Filter]** om nog een **[!UICONTROL Filters]** toe te voegen en de gegevens te beperken.
@@ -1261,9 +1261,9 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
    1. Sleep **[!UICONTROL Product Category]** en zet de muisknop los naast **[!UICONTROL Columns]** .
    1. Sleep **[!UICONTROL Purchase Revenue]** en zet de muisknop los naast **[!UICONTROL Rows]** . De waarde verandert in **[!UICONTROL SUM(Purchase Revenue)]** .
    1. Sleep Aankopen en zet ze neer naast **[!UICONTROL Rows]** . De waarde verandert in **[!UICONTROL SUM(Purchases)]** .
-   1. Selecteer **[!UICONTROL SUM(Purchases)]** en selecteer **[!UICONTROL Dual Axis]** in het vervolgkeuzemenu.
-   1. Selecteer **[!UICONTROL SUM(Purchases)]** in **[!UICONTROL Marks]** en selecteer **[!UICONTROL Line]** in het vervolgkeuzemenu.
-   1. Selecteer **[!UICONTROL SUM(Purchase Revenue)]** in **[!UICONTROL Marks]** en selecteer **[!UICONTROL Bar]** in het vervolgkeuzemenu.
+   1. Selecteer **[!UICONTROL SUM(Purchases)]** en selecteer **[!UICONTROL Dual Axis]** in de vervolgkeuzelijst.
+   1. Selecteer **[!UICONTROL SUM(Purchases)]** in **[!UICONTROL Marks]** en selecteer **[!UICONTROL Line]** in de vervolgkeuzelijst.
+   1. Selecteer **[!UICONTROL SUM(Purchase Revenue)]** in **[!UICONTROL Marks]** en selecteer **[!UICONTROL Bar]** in de vervolgkeuzelijst.
    1. Selecteer **[!UICONTROL Entire View]** in het menu **[!UICONTROL Fit]** .
    1. Selecteer de titel **[!UICONTROL Purchase Revenue]** in het diagram en controleer of de aankoopopbrengsten oplopend zijn.
 
@@ -1282,9 +1282,9 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
    1. Sleep **[!UICONTROL Product Category]** van het **[!UICONTROL Data]** deelvenster naar **[!UICONTROL Rows]** .
    1. Sleep **[!UICONTROL Product Name]** van het **[!UICONTROL Data]** deelvenster naar **[!UICONTROL Rows]** , naast **[!UICONTROL Product Category]** .
    1. Als u de twee horizontale balken in een tabel wilt wijzigen, selecteert u **[!UICONTROL Text Table]** in **[!UICONTROL Show Me]** .
-   1. Selecteer **[!UICONTROL Purchases]** in **[!UICONTROL Measure Values]** om het aantal producten te beperken. Selecteer **[!UICONTROL Filter]** in het vervolgkeuzemenu.
+   1. Selecteer **[!UICONTROL Purchases]** in **[!UICONTROL Measure Values]** om het aantal producten te beperken. Selecteer **[!UICONTROL Filter]** in het keuzemenu.
    1. Selecteer **[!UICONTROL At least]** in het dialoogvenster **[!UICONTROL Filter \[Purchases\]]** en voer `7000` in. Selecteer **[!UICONTROL Apply]** en **[!UICONTROL OK]** .
-   1. Selecteer **[!UICONTROL Fit Width]** in het vervolgkeuzemenu **[!UICONTROL the]** Passend.
+   1. Selecteer **[!UICONTROL Fit Width]** in de vervolgkeuzelijst **[!UICONTROL the]** Passend.
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
@@ -1299,9 +1299,9 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
    1. Sleep **[!UICONTROL Product Category]** van het **[!UICONTROL Data]** deelvenster naar **[!UICONTROL Columns]** .
    1. Sleep **[!UICONTROL Product Name]** van het **[!UICONTROL Data]** deelvenster naar **[!UICONTROL Columns]** .
    1. Als u de twee verticale staafdiagrammen wilt wijzigen in een driehoek, selecteert u **[!UICONTROL Treemap]** in **[!UICONTROL Show Me]** .
-   1. Selecteer **[!UICONTROL Purchases]** in **[!UICONTROL Measure Values]** om het aantal producten te beperken. Selecteer **[!UICONTROL Filter]** in het vervolgkeuzemenu.
+   1. Selecteer **[!UICONTROL Purchases]** in **[!UICONTROL Measure Values]** om het aantal producten te beperken. Selecteer **[!UICONTROL Filter]** in het keuzemenu.
    1. Selecteer **[!UICONTROL At least]** in het dialoogvenster **[!UICONTROL Filter \[Purchases\]]** en voer `7000` in. Selecteer **[!UICONTROL Apply]** en **[!UICONTROL OK]** .
-   1. Selecteer **[!UICONTROL Fit Width]** in het vervolgkeuzemenu **[!UICONTROL Fit]** .
+   1. Selecteer **[!UICONTROL Fit Width]** in de vervolgkeuzelijst **[!UICONTROL Fit]** .
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
@@ -1331,21 +1331,21 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
    1. Selecteer **[!UICONTROL Product Category]** .
    1. Selecteer **[!UICONTROL Product Name]** .
 1. Vanuit het gedeelte **[!UICONTROL ‣ Custom Fields]** in de linkertrack:
-   1. Selecteer **[!UICONTROL Custom Measure]** in het vervolgkeuzemenu **[!UICONTROL + Add]** .
+   1. Selecteer **[!UICONTROL Custom Measure]** in de vervolgkeuzelijst **[!UICONTROL + Add]** .
    1. In het dialoogvenster **[!UICONTROL Create custom measure]** :
-      1. Selecteer **[!UICONTROL Purchase Revenue]** in het vervolgkeuzemenu **[!UICONTROL Field to measure]** .
-      1. Selecteer **[!UICONTROL Sum]** in het vervolgkeuzemenu **[!UICONTROL Measure type]** .
+      1. Selecteer **[!UICONTROL Purchase Revenue]** in de vervolgkeuzelijst **[!UICONTROL Field to measure]** .
+      1. Selecteer **[!UICONTROL Sum]** in de vervolgkeuzelijst **[!UICONTROL Measure type]** .
       1. Voer een aangepaste veldnaam in voor **[!UICONTROL Name]** . Bijvoorbeeld: `Sum of Purchase Revenue` .
       1. Selecteer de tab **[!UICONTROL Field details]** .
-      1. Selecteer **[!UICONTROL Decimals]** in het vervolgkeuzemenu en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .**[!UICONTROL Format]**
+      1. Selecteer **[!UICONTROL Decimals]** in de vervolgkeuzelijst **[!UICONTROL Format]** en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .
          ![ Lager aangepast metrisch gebied ](assets/uc5-looker-customfield.png){zoomable="yes"}
       1. Selecteer **[!UICONTROL Save]** .
    1. Selecteer **[!UICONTROL Custom Measure]** nogmaals in de vervolgkeuzelijst **[!UICONTROL + Add]** . In het dialoogvenster **[!UICONTROL Create custom]** -meting:
-      1. Selecteer **[!UICONTROL Purchases]** in het vervolgkeuzemenu **[!UICONTROL Field to measure]** .
-      1. Selecteer **[!UICONTROL Sum]** in het vervolgkeuzemenu **[!UICONTROL Measure type]** .
+      1. Selecteer **[!UICONTROL Purchases]** in de vervolgkeuzelijst **[!UICONTROL Field to measure]** .
+      1. Selecteer **[!UICONTROL Sum]** in de vervolgkeuzelijst **[!UICONTROL Measure type]** .
       1. Voer een aangepaste veldnaam in voor **[!UICONTROL Name]** . Bijvoorbeeld: `Sum of Purchases` .
       1. Selecteer de tab **[!UICONTROL Field details]** .
-      1. Selecteer **[!UICONTROL Decimals]** in het vervolgkeuzemenu en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .**[!UICONTROL Format]**
+      1. Selecteer **[!UICONTROL Decimals]** in de vervolgkeuzelijst **[!UICONTROL Format]** en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .
       1. Selecteer **[!UICONTROL Save]** .
    1. Beide velden worden automatisch toegevoegd aan de gegevensweergave.
 1. Selecteer **[!UICONTROL + Filter]** in de sectie **[!UICONTROL Filters]** . In het dialoogvenster **[!UICONTROL Add Filter]** . Selecteer **[!UICONTROL ‣ Custom Fields]** en vervolgens **[!UICONTROL Purchase Revenue]** .
@@ -1484,10 +1484,10 @@ U kunt ook de functie Telling gebruiken, die anders is dan Power BI.
    1. Selecteer **[!UICONTROL Range of Dates]** in het dialoogvenster **[!UICONTROL Next >]** van **[!UICONTROL Filter Field \[Daterange\]]** .
    1. Selecteer **[!UICONTROL Range of dates]** in het dialoogvenster **[!UICONTROL Filter \[Daterange]]** en selecteer `01/01/2023` - `31/1/2023` . Selecteer **[!UICONTROL Apply]** en **[!UICONTROL OK]** .
    1. Sleep **[!UICONTROL Cm Product Name Count Distinct]** naar **[!UICONTROL Rows]** . De waarde verandert in **[!UICONTROL SUM(Cm Product Name Count Distinct)]** . Dit veld is de berekende maateenheid die u in Customer Journey Analytics hebt gedefinieerd.
-   1. Sleep **[!UICONTROL Daterangeday]** en zet de muisknop los naast **[!UICONTROL Columns]** . Selecteer **[!UICONTROL Daterangeday]** en selecteer **[!UICONTROL Day]** in het vervolgkeuzemenu.
+   1. Sleep **[!UICONTROL Daterangeday]** en zet de muisknop los naast **[!UICONTROL Columns]** . Selecteer **[!UICONTROL Daterangeday]** en selecteer **[!UICONTROL Day]** in de vervolgkeuzelijst.
    1. Als u de lijnvisualisatie wilt wijzigen in een tabel, selecteert u **[!UICONTROL Text Table]** in **[!UICONTROL Show Me]** .
    1. Selecteer **[!UICONTROL Swap Rows and Columns]** op de werkbalk.
-   1. Selecteer **[!UICONTROL Fit Width]** in het vervolgkeuzemenu **[!UICONTROL Fit]** .
+   1. Selecteer **[!UICONTROL Fit Width]** in de vervolgkeuzelijst **[!UICONTROL Fit]** .
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
@@ -1498,8 +1498,8 @@ U kunt ook de functie Telling gebruiken, die anders is dan Power BI.
 1. Selecteer **[!UICONTROL Rename]** in het contextmenu van de tab **[!UICONTROL Sheet 1 (2)]** om de naam van het werkblad te wijzigen in `Card` .
 
 1. Controleer of u de weergave **[!UICONTROL Card]** hebt geselecteerd.
-1. Selecteer **[!UICONTROL DAY(Daterangeday)]** en selecteer **[!UICONTROL Month]** in het vervolgkeuzemenu. De waarde verandert in **[!UICONTROL MONTH(Daterangeday)]** .
-1. Selecteer **[!UICONTROL SUM(Cm Product Name Count Distinct)]** in **[!UICONTROL Marks]** en selecteer **[!UICONTROL Format]** in het vervolgkeuzemenu.
+1. Selecteer **[!UICONTROL DAY(Daterangeday)]** en selecteer **[!UICONTROL Month]** in de vervolgkeuzelijst. De waarde verandert in **[!UICONTROL MONTH(Daterangeday)]** .
+1. Selecteer **[!UICONTROL SUM(Cm Product Name Count Distinct)]** in **[!UICONTROL Marks]** en selecteer **[!UICONTROL Format]** in de vervolgkeuzelijst.
 1. Als u de tekengrootte wilt wijzigen, selecteert u in het deelvenster **[!UICONTROL Format SUM(CM Product Name Count Distinct)]** de optie **[!UICONTROL Font]** within **[!UICONTROL Default]** en selecteert u **[!UICONTROL 72]** voor de tekengrootte.
 1. Als u het getal wilt uitlijnen, selecteert u **[!UICONTROL Automatic]** naast **[!UICONTROL Alignment]** en stelt u **[!UICONTROL Horizontal]** in op gecentreerd.
 1. Als u hele getallen wilt gebruiken, selecteert u **[!UICONTROL 123.456]** naast **[!UICONTROL Numbers]** en selecteert u **[!UICONTROL Number (Custom)]** . Stel **[!UICONTROL Decimal places]** in op `0` .
@@ -1640,7 +1640,7 @@ Bedenk hoe het datumbereik dat in de visualisatie van de tabel Freeform is gedef
    1. Sleep **[!UICONTROL Occurrences]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Columns]** neer. De waarde verandert in **[!UICONTROL SUM(Occurrences)]** .
    1. Selecteer **[!UICONTROL Text Table]** in **[!UICONTROL Show Me]** .
    1. Selecteer **[!UICONTROL Swap Rows and Columns]** op de werkbalk.
-   1. Selecteer **[!UICONTROL Fit Width]** in het vervolgkeuzemenu **[!UICONTROL Fit]** .
+   1. Selecteer **[!UICONTROL Fit Width]** in de vervolgkeuzelijst **[!UICONTROL Fit]** .
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
@@ -1684,7 +1684,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
    ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc8-jupyter-input.png){zoomable="yes"}
 
-1. Selecteer **[!UICONTROL Fishing Products]** in het vervolgkeuzemenu.
+1. Selecteer **[!UICONTROL Fishing Products]** in de vervolgkeuzelijst.
 
 1. Voer de volgende instructies in een nieuwe cel in.
 
@@ -1799,7 +1799,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
    1. Sleep **[!UICONTROL Product Name]** van de **[!UICONTROL Tables]** lijst aan **[!UICONTROL Rows]**.
    1. Sleep **[!UICONTROL Occurrences]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Columns]** neer. De waarde verandert in **[!UICONTROL SUM(Occurrences)]** .
    1. Selecteer **[!UICONTROL Text Table]** in **[!UICONTROL Show Me]** .
-   1. Selecteer **[!UICONTROL Fit Width]** in het vervolgkeuzemenu **[!UICONTROL Fit]** .
+   1. Selecteer **[!UICONTROL Fit Width]** in de vervolgkeuzelijst **[!UICONTROL Fit]** .
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
@@ -1851,7 +1851,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
    ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc9-jupyter-input.png){zoomable="yes"}
 
-1. Selecteer **[!UICONTROL Fishing Products]** in het vervolgkeuzemenu.
+1. Selecteer **[!UICONTROL Fishing Products]** in de vervolgkeuzelijst.
 
 1. Voer de volgende instructies in een nieuwe cel in.
 
@@ -1969,7 +1969,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
    1. Sleep **[!UICONTROL Product Name]** van de **[!UICONTROL Tables]** lijst aan **[!UICONTROL Rows]**.
    1. Sleep **[!UICONTROL Occurrences]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Columns]** neer. De waarde verandert in **[!UICONTROL SUM(Occurrences)]** .
    1. Selecteer **[!UICONTROL Text Table]** in **[!UICONTROL Show Me]** .
-   1. Selecteer **[!UICONTROL Fit Width]** in het vervolgkeuzemenu **[!UICONTROL Fit]** .
+   1. Selecteer **[!UICONTROL Fit Width]** in de vervolgkeuzelijst **[!UICONTROL Fit]** .
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
@@ -2015,7 +2015,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 
    ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc10-jupyter-input.png){zoomable="yes"}
 
-1. Selecteer **[!UICONTROL Hunting]** in het vervolgkeuzemenu.
+1. Selecteer **[!UICONTROL Hunting]** in de vervolgkeuzelijst.
 
 1. Voer de volgende instructies in een nieuwe cel in.
 
@@ -2209,7 +2209,7 @@ limit 1000001
    1. Sleep **[!UICONTROL Purchases]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Columns]** neer. De waarde verandert in **[!UICONTROL SUM(Purchases)]** .
    1. Sleep **[!UICONTROL Purchase Revenue]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Columns]** , naast **[!UICONTROL SUM(Purchases)]** . De waarde verandert in **[!UICONTROL SUM(Purchase Revenue)]** .
    1. Selecteer **[!UICONTROL Text Table]** in **[!UICONTROL Show Me]** .
-   1. Selecteer **[!UICONTROL Fit Width]** in het vervolgkeuzemenu **[!UICONTROL Fit]** .
+   1. Selecteer **[!UICONTROL Fit Width]** in de vervolgkeuzelijst **[!UICONTROL Fit]** .
    1. Selecteer de kolomkop **[!UICONTROL Purchase Revenue]** en sorteer de tabel in deze kolom in aflopende volgorde.
 
       Uw Tableau Desktop moet er hieronder uitzien.
@@ -2240,13 +2240,13 @@ GROUP BY 1
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/02/01]** .
 1. Selecteer **[!UICONTROL Product Name]** in het gedeelte **[!UICONTROL ‣ Cc Data View]** links in de sectie.
 1. Vanuit het gedeelte **[!UICONTROL ‣ Custom Fields]** in de linkertrack:
-   1. Selecteer **[!UICONTROL Custom Measure]** in het vervolgkeuzemenu **[!UICONTROL + Add]** .
+   1. Selecteer **[!UICONTROL Custom Measure]** in de vervolgkeuzelijst **[!UICONTROL + Add]** .
    1. In het dialoogvenster **[!UICONTROL Create custom measure]** :
-      1. Selecteer **[!UICONTROL Purchase Revenue]** in het vervolgkeuzemenu **[!UICONTROL Field to measure]** .
-      1. Selecteer **[!UICONTROL Sum]** in het vervolgkeuzemenu **[!UICONTROL Measure type]** .
+      1. Selecteer **[!UICONTROL Purchase Revenue]** in de vervolgkeuzelijst **[!UICONTROL Field to measure]** .
+      1. Selecteer **[!UICONTROL Sum]** in de vervolgkeuzelijst **[!UICONTROL Measure type]** .
       1. Voer een aangepaste veldnaam in voor **[!UICONTROL Name]** . Bijvoorbeeld: `Sum of Purchase Revenue` .
       1. Selecteer de tab **[!UICONTROL Field details]** .
-      1. Selecteer **[!UICONTROL Decimals]** in het vervolgkeuzemenu en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .**[!UICONTROL Format]**
+      1. Selecteer **[!UICONTROL Decimals]** in de vervolgkeuzelijst **[!UICONTROL Format]** en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .
          ![ Lager aangepast metrisch gebied ](assets/uc5-looker-customfield.png){zoomable="yes"}
       1. Selecteer **[!UICONTROL Save]** .
 1. Selecteer **[!UICONTROL ↓]** (**[!UICONTROL Descending, Sort Order: 1]** ) in de kolom **[!UICONTROL Purchase Revenue]** .
@@ -2477,15 +2477,15 @@ limit 1000001
    1. Sleep **[!UICONTROL Product Name]** van de **[!UICONTROL Tables]** lijst aan **[!UICONTROL Rows]**.
    1. Sleep **[!UICONTROL Occurrences]** -item uit de **[!UICONTROL Tables]** -lijst en zet de vermelding in het veld naast **[!UICONTROL Columns]** neer. De waarde verandert in **[!UICONTROL SUM(Occurrences)]** .
    1. Selecteer **[!UICONTROL Text Table]** in **[!UICONTROL Show Me]** .
-   1. Selecteer **[!UICONTROL Fit Width]** in het vervolgkeuzemenu **[!UICONTROL Fit]** .
-   1. Selecteer **[!UICONTROL Product Name]** in **[!UICONTROL Rows]** . Selecteer **[!UICONTROL Filter]** in het vervolgkeuzemenu.
+   1. Selecteer **[!UICONTROL Fit Width]** in de vervolgkeuzelijst **[!UICONTROL Fit]** .
+   1. Selecteer **[!UICONTROL Product Name]** in **[!UICONTROL Rows]** . Selecteer **[!UICONTROL Filter]** in de vervolgkeuzelijst.
       1. Selecteer de tab **[!UICONTROL Top]** in het dialoogvenster **[!UICONTROL Filter \[Product Name\]]** .
       1. Selecteer **[!UICONTROL By field:]** **[!UICONTROL Top]** `5` **[!UICONTROL by Occurrences]** **[!UICONTROL Sum]** .
       1. Selecteer **[!UICONTROL Apply]** en **[!UICONTROL OK]** .
 
          ![ AlertRed ](/help/assets/icons/AlertRed.svg) u merkt dat de lijst verdwijnt. Het selecteren van top 5 productnamen door voorkomen werkt **niet** behoorlijk gebruikend deze filter.
       1. Selecteer **[!UICONTROL Product Name]** in de **[!UICONTROL Filter]** plank en van het drop-down menu uitgezocht **[!UICONTROL Remove]**. De tabel wordt opnieuw weergegeven.
-   1. Selecteer **[!UICONTROL SUM(Occurrences)]** in de **[!UICONTROL Marks]** -plank. Selecteer **[!UICONTROL Filter]** in het vervolgkeuzemenu.
+   1. Selecteer **[!UICONTROL SUM(Occurrences)]** in de **[!UICONTROL Marks]** -plank. Selecteer **[!UICONTROL Filter]** in de vervolgkeuzelijst.
       1. Selecteer **[!UICONTROL At least]** in het dialoogvenster **[!UICONTROL Filter \[Occurrences\]]** .
       1. Voer `47.799` in als waarde. Deze waarde zorgt ervoor dat alleen de bovenste 5 items in de tabel worden weergegeven. Selecteer **[!UICONTROL Apply]** en **[!UICONTROL OK]** .
 
@@ -2720,7 +2720,7 @@ De Customer Journey Analytics-objecten zijn beschikbaar in de zijbalk van **[!UI
 
 **Afmetingen**
 Dimensies van Customer Journey Analytics worden geïdentificeerd door de [!UICONTROL Component name] . [!UICONTROL Component name] wordt gedefinieerd in uw Customer Journey Analytics-gegevensweergave. Dimensies **[!UICONTROL Product Name]** in Customer Journey Analytics hebben bijvoorbeeld een [!UICONTROL Component name] **[!UICONTROL Product Name]** . Dit is de naam voor de dimensie in Tableau. Alle afmetingen worden aangegeven met **[!UICONTROL Abc]** .
-De datumbereikafmetingen van Customer Journey Analytics, zoals **[!UICONTROL Day]** , **[!UICONTROL Week]** , **[!UICONTROL Month]** en meer, zijn beschikbaar als **[!UICONTROL Daterangeday]** , **[!UICONTROL Daterangeweek]** , **[!UICONTROL Daterangemonth]** en meer. Wanneer u een dimensie van het datumbereik gebruikt, moet u een aangewezen definitie van datum of tijd selecteren om op die afmeting van het datumbereik van het drop-down menu toe te passen. Bijvoorbeeld **[!UICONTROL Year]**, **[!UICONTROL Quarter]**, **[!UICONTROL Month]**, **[!UICONTROL Day]** .
+De datumbereikafmetingen van Customer Journey Analytics, zoals **[!UICONTROL Day]** , **[!UICONTROL Week]** , **[!UICONTROL Month]** en meer, zijn beschikbaar als **[!UICONTROL Daterangeday]** , **[!UICONTROL Daterangeweek]** , **[!UICONTROL Daterangemonth]** en meer. Wanneer u een dimensie van het datumbereik gebruikt, moet u een aangewezen definitie van datum of tijd selecteren om op die dimensie van het datumbereik van het drop-down menu toe te passen. Bijvoorbeeld **[!UICONTROL Year]**, **[!UICONTROL Quarter]**, **[!UICONTROL Month]**, **[!UICONTROL Day]** .
 
 **Metriek**
 Metrische gegevens uit Customer Journey Analytics worden geïdentificeerd door de [!UICONTROL Component Name] . [!UICONTROL Component Name] wordt gedefinieerd in uw Customer Journey Analytics-gegevensweergave. Metrisch **[!UICONTROL Purchase Revenue]** in Customer Journey Analytics heeft bijvoorbeeld een [!UICONTROL Component Name] **[!UICONTROL Purchase Revenue]** . Dit is de naam voor de metrische waarde in Tableau. Alle metriek worden geïdentificeerd door **[!UICONTROL #]**. Wanneer u metrisch in om het even welke visualisatie gebruikt, wordt metrisch anders genoemd aan **[!UICONTROL Sum(*metrisch *)]**.
@@ -2786,7 +2786,7 @@ Datumbereiken die u in Customer Journey Analytics definieert, zijn beschikbaar i
 Looker biedt aangepaste transformatiefuncties met behulp van aangepaste veldbuilders, zoals hierboven wordt weergegeven. Als voorbeeld, wilt u de [ Enige afmeting gerangschikte ](#single-dimension-ranked) gebruiksgeval met productnamen in kleine letters uitvoeren.
 
 1. Vanuit het gedeelte **[!UICONTROL ‣ Custom Fields]** in de linkertrack:
-   1. Selecteer **[!UICONTROL Custom Dimension]** in het vervolgkeuzemenu **[!UICONTROL + Add]** .
+   1. Selecteer **[!UICONTROL Custom Dimension]** in de vervolgkeuzelijst **[!UICONTROL + Add]** .
    1. Voer `lower(${cc_data_view.product_name})` in het tekstgebied **[!UICONTROL Expression]** in. Wanneer u `Product Name` begint te typen, krijgt u de juiste syntaxis.
       ![ de transformatievoorbeeld van de Leider ](assets/uc14-looker-transformation.png){zoomable="yes"}
    1. Voer `product name` in als de **[!UICONTROL Name]** .
@@ -3110,7 +3110,7 @@ Elk van de ondersteunde BI-gereedschappen heeft een aantal bedenkingen bij het w
 >[!TAB  Desktop Tableau ]
 
 * Het filtreren van de Waaier van de Waaier van de Desktop van Tableau van Daten is exclusief. Voor uw einddatum, moet u één meer dan de dag selecteren u wilt melden.
-* Wanneer u standaard een datum- of datum-tijddimensie zoals **[!UICONTROL Daterangemonth]** toevoegt aan de rijen van een blad, plaatst Tableau Desktop het veld in een **[!UICONTROL YEAR()]** -functie.  Om te krijgen wat u wilt, moet u die afmeting selecteren en van het drop-down menu selecteren de datumfunctie u wilt gebruiken.  Wijzig bijvoorbeeld **[!UICONTROL Year]** in **[!UICONTROL Month]** wanneer u **[!UICONTROL Daterangemonth]** wilt gebruiken.
+* Wanneer u standaard een datum- of datum-tijddimensie zoals **[!UICONTROL Daterangemonth]** toevoegt aan de rijen van een blad, plaatst Tableau Desktop het veld in een **[!UICONTROL YEAR()]** -functie.  Om te krijgen wat u wilt, moet u die dimensie selecteren en van het drop-down menu selecteren de datumfunctie u wilt gebruiken.  Wijzig bijvoorbeeld **[!UICONTROL Year]** in **[!UICONTROL Month]** wanneer u **[!UICONTROL Daterangemonth]** wilt gebruiken.
 * Het beperken van resultaten tot Top *X* is niet duidelijk in de Desktop van Tableau. U kunt de resultaten expliciet beperken of een berekend veld en de functie **[!UICONTROL INDEX()]** gebruiken.  Het toevoegen van een Hoogste *X* filter aan een afmeting produceert complexe SQL gebruikend binnen-sluit zich aan dat niet wordt gesteund.
 
 >[!TAB  Leider ]

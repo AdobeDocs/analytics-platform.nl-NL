@@ -4,7 +4,7 @@ title: Rijinstellingen
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '897'
 ht-degree: 0%
@@ -36,9 +36,9 @@ U wijzigt als volgt het aantal rijen dat wordt weergegeven:
 
 1. Klik op het nummer naast **[!UICONTROL Rows]** boven aan de eerste kolom van de tabel.
 
-   ![ vrije lijst die van de Vrije vorm de drop-down lijst van voor het aantal getoonde rijen toont. Er zijn 400 rijen geselecteerd.](assets/change-row-count.gif)
+   ![ Vrije lijst die het drop-down menu van voor het aantal getoonde rijen toont. Er zijn 400 rijen geselecteerd.](assets/change-row-count.gif)
 
-1. Selecteer in de vervolgkeuzelijst het aantal rijen dat u wilt weergeven in de tabel.
+1. Selecteer in het keuzemenu het aantal rijen dat u wilt weergeven in de tabel.
 
 
 ## Contextmenu

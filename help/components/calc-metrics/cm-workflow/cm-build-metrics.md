@@ -3,7 +3,7 @@ description: De Berekende Bouwer van Metriek verstrekt een canvas om Afmetingen,
 title: Berekende maatstaven samenstellen
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1536'
 ht-degree: 0%
@@ -170,7 +170,7 @@ Er wordt automatisch een segmentcontainer toegevoegd aan de **[!UICONTROL Defini
    * Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** van binnen een container:
 
       1. Selecteer **[!UICONTROL Segment]** . Er wordt een segmentcontainer toegevoegd aan de **[!UICONTROL Definition]** .
-      1. In de nieuwe segmentcontainer, selecteer een segment van [!UICONTROL *Uitgezocht..*] dropdown menu.
+      1. In de nieuwe segmentcontainer, selecteer een segment van [!UICONTROL *Uitgezocht..*] drop-down menu.
 
   >[!TIP]
   >
@@ -196,7 +196,7 @@ Als u een functiecontainer wilt toevoegen, kunt u het volgende gebruiken:
 * Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** van binnen een container:
 
    1. Selecteer **[!UICONTROL Function]** .
-   1. In de container, selecteer een functie van [!UICONTROL *Uitgezocht...*] dropdown menu.
+   1. In de container, selecteer een functie van [!UICONTROL *Uitgezocht...*] drop-down menu.
 
 De functievulling krijgt de naam van de functiecomponent. Bijvoorbeeld, ![ Functie ](/help/assets/icons/Effect.svg) **[!UICONTROL SQUARE ROOT (metric)]**. Selecteer ![ InfoOutline ](/help/assets/icons/InfoOutline.svg) om popup met details op de functie te tonen. Selecteer **[!UICONTROL Learn more]** voor meer informatie over de functie.
 

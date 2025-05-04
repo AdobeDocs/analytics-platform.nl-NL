@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
 exl-id: bf765144-34f8-465b-b06d-53e4ca91014a
-source-git-commit: 9794779894fbecb433c16d108c555c5f81a4b491
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Een gegevensweergave selecteren
 
-U kunt een gegevensweergave selecteren in de vervolgkeuzelijst of een gegevensweergave selecteren in een cel en uw gegevensblok automatisch bijwerken met een nieuwe gegevensweergave.
+U kunt een gegevensweergave selecteren in het keuzemenu of een gegevensweergave selecteren in een cel en uw gegevensblok automatisch bijwerken met een nieuwe gegevensweergave.
 
 ## Gegevens uit een cel selecteren
 

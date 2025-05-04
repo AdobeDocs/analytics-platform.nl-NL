@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 exl-id: 1f39d7f4-b508-45d8-9b97-81242c3805d3
 solution: Customer Journey Analytics
-source-git-commit: 6dd8a70293161ff58361953a7e48a98834b7abe0
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ U kunt een bestaand segment vervangen door een ander segment om te wijzigen hoe 
 
 1. Selecteer een of meer segmenten die u wilt vervangen.
 
-1. Zoek naar één of meerdere segmenten van Replace met dropdown-menu om het segment aan de **[!UICONTROL Replace with]** lijst toe te voegen.
+1. Zoek naar één of meerdere segmenten van Replace met drop-down menu om het segment aan de **[!UICONTROL Replace with]** lijst toe te voegen.
 
 1. Selecteer **[!UICONTROL Apply]** .
 

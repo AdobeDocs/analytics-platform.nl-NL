@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: BI Extension
 role: Admin
 exl-id: ab7e1f15-ead9-46b7-94b7-f81802f88ff5
-source-git-commit: bc2c959497230d7672d43d5cd409ca62d4627d6a
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '3188'
 ht-degree: 0%
@@ -70,7 +70,7 @@ In Adobe Experience Platform:
 
 1. Selecteer ![ creëren Vraag ](assets/Smock_AddCircle_18_N.svg) **[!UICONTROL ** vraag **]** creëren.
 
-1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in het vervolgkeuzemenu **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
+1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in de vervolgkeuzelijst **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
 
 1. Om de vraag uit te voeren, typ uw SQL verklaring en selecteer ![ Spel ](assets/Smock_Play_18_N.svg) knoop (of druk `[SHIFT]` + `[ENTER]`).
 
@@ -85,7 +85,7 @@ In Adobe Experience Platform:
 
    1. Selecteer **[!UICONTROL ** Referenties **]** van de hoogste bar.
 
-   1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in het vervolgkeuzemenu **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
+   1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in de vervolgkeuzelijst **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
 
    1. Om het bevelkoord te kopiëren, gebruik ![ Exemplaar ](assets/Smock_Copy_18_N.svg) in de **[!UICONTROL ** bevel PSQL **]** sectie.
 
@@ -110,7 +110,7 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
    1. Selecteer **[!UICONTROL ** Referenties **]** van de hoogste bar.
 
-   1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in het vervolgkeuzemenu **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
+   1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in de vervolgkeuzelijst **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
 
    1. Gebruik ![ Exemplaar ](assets/Smock_Copy_18_N.svg) om elk van de parameters van de geloofsbrieven van Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username], en anderen) te kopiëren wanneer nodig in Power BI.
 
@@ -153,7 +153,7 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
    1. Selecteer **[!UICONTROL ** Referenties **]** van de hoogste bar.
 
-   1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in het vervolgkeuzemenu **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
+   1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in de vervolgkeuzelijst **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
 
    1. Gebruik ![ Exemplaar ](assets/Smock_Copy_18_N.svg) om elk van de geloofsbrieven van Postgres parameters ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username], en anderen) te kopiëren wanneer nodig in de Desktop van Tableau.
 
@@ -199,7 +199,7 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
    1. Selecteer **[!UICONTROL ** Referenties **]** van de hoogste bar.
 
-   1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in het vervolgkeuzemenu **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
+   1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in de vervolgkeuzelijst **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
 
    1. Gebruik ![ Exemplaar ](assets/Smock_Copy_18_N.svg) om elk van de parameters van de geloofsbrieven van Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username], en anderen) te kopiëren wanneer nodig in Leider.
 
@@ -226,7 +226,7 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
    1. Selecteer **[!UICONTROL ** Referenties **]** van de hoogste bar.
 
-   1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in het vervolgkeuzemenu **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
+   1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in de vervolgkeuzelijst **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
 
    1. Gebruik ![ Exemplaar ](assets/Smock_Copy_18_N.svg) om elk van de parameters van de geloofsbrieven van Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username], en anderen) te kopiëren wanneer nodig in Notitie Jupyter.
 
@@ -250,7 +250,7 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
    1. Selecteer **[!UICONTROL ** Referenties **]** van de hoogste bar.
 
-   1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in het vervolgkeuzemenu **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
+   1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in de vervolgkeuzelijst **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
 
    1. Gebruik ![ Exemplaar ](assets/Smock_Copy_18_N.svg) om elk van de parameters van de geloofsbrieven van Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username], en anderen) te kopiëren wanneer nodig in Notitie Jupyter.
 

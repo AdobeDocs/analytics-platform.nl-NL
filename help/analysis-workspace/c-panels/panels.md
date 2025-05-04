@@ -4,7 +4,7 @@ title: Overzicht van deelvensters
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 1%
@@ -107,7 +107,7 @@ De paneelkalender bepaalt de rapportdatumwaaier voor lijsten en visualisaties bi
 ![ het kalendervenster dat de geselecteerde datumwaaier toont.](assets/panel-calendar.png)
 
 1. Selecteer een datumbereik door eerst de begindatum en vervolgens de einddatum te selecteren.
-Alternatief, kunt u a **[!UICONTROL Preset]** van [!UICONTROL *selecteren selecteert vooraf ingesteld*] dropdown menu.
+Alternatief, kunt u a **[!UICONTROL Preset]** van [!UICONTROL *selecteren vooraf ingesteld*] drop-down menu.
 
 1. Selecteer indien nodig **[!UICONTROL Show advanced settings]** tot en met:
 
@@ -200,7 +200,7 @@ Gebruikers kunnen het vervolgkeuzemenu voor segmenten van het deelvenster op een
 
 #### Dynamische vervolgkeuzelijsten
 
-Met dynamische vervolgkeuzelijsten kunt u beschikbare waarden bepalen op basis van gegevens binnen het rapportagebereik van het deelvenster en waarden in andere vervolgkeuzelijsten. U kunt bijvoorbeeld twee dynamische vervolgkeuzelijsten maken met de dimensie Landen en de dimensie Steden. Wanneer u een land in de vervolgkeuzelijst **[!UICONTROL Countries]** selecteert, wordt de vervolgkeuzelijst **[!UICONTROL Cities]** dynamisch aangepast, zodat alleen de steden in dat land worden weergegeven.
+Met dynamische vervolgkeuzelijsten kunt u beschikbare waarden bepalen op basis van gegevens binnen het rapportagebereik van het deelvenster en waarden in andere vervolgkeuzelijsten. U kunt bijvoorbeeld twee dynamische vervolgkeuzelijsten maken met de dimensie Landen en de dimensie Steden. Wanneer u een land selecteert in de vervolgkeuzelijst **[!UICONTROL Countries]** , wordt het vervolgkeuzemenu **[!UICONTROL Cities]** dynamisch aangepast, zodat alleen de steden in dat land worden weergegeven.
 
 Dit concept is van toepassing op alle dimensies. Alleen dimensie-items die binnen het datumbereik van het deelvenster verschijnen en geselecteerde segmenten zijn zichtbaar. Dimension-items die zijn geselecteerd in statische vervolgkeuzelijsten beïnvloeden de beschikbare waarden in dynamische vervolgkeuzelijsten. Inverse is echter niet waar. Dimension-items die zijn geselecteerd in dynamische vervolgkeuzelijsten hebben geen invloed op de beschikbare waarden in statische vervolgkeuzelijsten.
 

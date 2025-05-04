@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: a763027e-68f7-4f0a-8082-85db5283c8e3
 role: Admin
-source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 0%
@@ -32,12 +32,12 @@ Met de instellingen van de component [!UICONTROL Substring] kunt u meerdere teke
 
 ## Van links/rechts
 
-Neem een deel van een tekenreeks op basis van zijn positie naar het begin of einde van een tekenreeks. De methoden **[!UICONTROL From the Left]** en **[!UICONTROL From the Right]** bevatten twee vervolgkeuzelijsten: **[!UICONTROL From]** (waar de uitvoer begint) en **[!UICONTROL To]** (waar de uitvoer eindigt).
+Neem een deel van een tekenreeks op basis van zijn positie naar het begin of einde van een tekenreeks. De methoden **[!UICONTROL From the Left]** en **[!UICONTROL From the Right]** bieden twee keuzemenu&#39;s: **[!UICONTROL From]** (waar de uitvoer begint) en **[!UICONTROL To]** (waar de uitvoer eindigt).
 
 * **[!UICONTROL String Start]**: Het begin van de tekenreeks.
 * **[!UICONTROL String End]**: Het einde van de tekenreeks.
 * **[!UICONTROL Position]**: Een statisch aantal tekens van links of rechts, afhankelijk van de methode.
-* **[!UICONTROL String]**: Identiek aan een teken of reeks tekens om het begin of einde van een tekenreeks aan te geven. In deze vervolgkeuzelijst worden ook extra opties weergegeven:
+* **[!UICONTROL String]**: Identiek aan een teken of reeks tekens om het begin of einde van een tekenreeks aan te geven. Dit vervolgkeuzemenu toont ook extra opties:
    * **[!UICONTROL Match]**: De tekenreeks die moet overeenkomen. Als de input geen gelijke met dit gebied heeft, [ Geen waardeopties ](no-value-options.md) zijn van toepassing.
    * **[!UICONTROL Index]**: De criteria van **[!UICONTROL Match]** kunnen meerdere keren in een tekenreeks voorkomen. Dit geheel getal bepaalt welke overeenkomst wordt gebruikt om de uitvoer te starten of te beëindigen, afhankelijk van de methode. Een index van `1` vertegenwoordigt bijvoorbeeld de eerste overeenkomst. Als de index hoger is dan het aantal beschikbare gelijken, [ Geen waardeopties ](no-value-options.md) zijn van toepassing.
    * **[!UICONTROL Include String]**: Een selectievakje dat de **[!UICONTROL Match]** -tekenreeks indien ingeschakeld in de uitvoer opneemt.

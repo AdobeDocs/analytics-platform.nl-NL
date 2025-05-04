@@ -4,9 +4,9 @@ title: Snelle segmenten
 feature: Workspace Basics, Filters, Segments
 role: User
 exl-id: 549e5db5-fcdf-43c5-bc43-590144aee309
-source-git-commit: e9516455416c0e5f228d62d17dee5ef87c368337
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,8 @@ Het koptekstgebied bepaalt de naam, het type en het bereik van het snelle segmen
 |---|---|
 | **[!UICONTROL Name]** | De naam wordt automatisch afgeleid uit de snelle segmentdefinitie. |
 | **[!UICONTROL People]** <br/>![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) ![ Alarm ](/help/assets/icons/Alert.svg) | Een voorvertoning van de gegevens die het snelle segment oplevert. Een bar en een percentage verstrekken insight in hoeveel van de algemene gegevens deel van het resultaat van het snelle segment uitmaken. Een rood ![ alarm ](/help/assets/icons/Alert.svg) signaleert dat het snelle segment geen gegevens terugkeert. |
-| **[!UICONTROL Include]**<br/>**[!UICONTROL Exclude]** | Selecteer van dropdown ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) of u de resultaten van het snelle segment van de gegevens in het paneel wilt omvatten of uitsluiten. |
-| **[!UICONTROL Event]**<br/>**[!UICONTROL Session]**<br/>**[!UICONTROL Person]** | Selecteer van dropdown ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) het werkingsgebied van het snelle segment. |
+| **[!UICONTROL Include]**<br/>**[!UICONTROL Exclude]** | Selecteer van drop-down ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) of u de resultaten van het snelle segment van de gegevens in het paneel wilt omvatten of uitsluiten. |
+| **[!UICONTROL Event]**<br/>**[!UICONTROL Session]**<br/>**[!UICONTROL Person]** | Selecteer van het drop-down menu ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) het werkingsgebied van het snelle segment. |
 
 ### Voorwaardegebied
 
@@ -84,7 +84,7 @@ In het voorwaardengebied worden de voorwaarden opgegeven (maximaal drie). Voor e
 
 | Element | Beschrijving |
 |---|---|
-| **[!UICONTROL Dimension]**<br/>**[!UICONTROL Metric]**<br/>**[!UICONTROL Date range]** | Selecteer van dropdown ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) of u een voorwaarde voor een afmeting, metrische of datumwaaier wilt specificeren. |
+| **[!UICONTROL Dimension]**<br/>**[!UICONTROL Metric]**<br/>**[!UICONTROL Date range]** | Selecteer van het drop-down menu ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) of u een voorwaarde voor een afmeting, metrische of datumwaaier wilt specificeren. |
 | **[!UICONTROL *component *]** | Het componentveld voor de voorwaarde. U kunt [!UICONTROL *Type*] toevoegen een component, een component van de lijst selecteren, of u kunt een component van het componentenpaneel slepen en laten vallen. U kunt vergelijkbare componenten alleen neerzetten in het deelveld van de voorwaarde. U kunt bijvoorbeeld alleen een dimensie-component uit het deelvenster Componenten neerzetten als aan een afmetingsvoorwaarde is voldaan. <br/> u kunt ook slepen en laten vallen om een bestaande component te vervangen.<br/> Uitgezochte ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om de component van het componentengebied te schrappen. |
 | **[!UICONTROL *exploitant *]** | De operator voor de component. Zie [ Operatoren ](operators.md) voor meer informatie. Alleen beschikbaar voor afmetingen en metriek. |
 | **[!UICONTROL *waarde *]** | De waarde voor de voorwaarde. Afhankelijk van de geselecteerde operator kunt u de waarde in een lijst selecteren of een waarde invoeren. |
@@ -94,7 +94,7 @@ In het voorwaardengebied worden de voorwaarden opgegeven (maximaal drie). Voor e
 
 | Knop | Beschrijving |
 |---|---|
-| **[!UICONTROL AND]**<br/>**[!UICONTROL OR]** | Deze optie is alleen beschikbaar wanneer u meerdere voorwaarden definieert. Selecteer van dropdown ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) tussen de voorwaarden. De selectie bepaalt de booleaanse logica voor het snelle segment. U kunt logica niet mengen wanneer er drie voorwaarden zijn. De Booleaanse logica is **[!UICONTROL AND]** of **[!UICONTROL OR]** . |
+| **[!UICONTROL AND]**<br/>**[!UICONTROL OR]** | Deze optie is alleen beschikbaar wanneer u meerdere voorwaarden definieert. Selecteer van het drop-down menu ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) tussen de voorwaarden. De selectie bepaalt de booleaanse logica voor het snelle segment. U kunt logica niet mengen wanneer er drie voorwaarden zijn. De Booleaanse logica is **[!UICONTROL AND]** of **[!UICONTROL OR]** . |
 | ![ AddCircle ](/help/assets/icons/AddCircle.svg) | Hiermee voegt u een andere voorwaarde toe aan het snelle segment. Deze knop is alleen beschikbaar wanneer u een of twee voorwaarden voor het snelle segment hebt gedefinieerd. |
 | **[!UICONTROL Apply]** | Pas de wijzigingen toe op het snelle segment. |
 | **[!UICONTROL Open builder]** | U wordt om bevestiging gevraagd met een dialoogvenster **[!UICONTROL Are your sure?]** . Als u **[!UICONTROL OK]** selecteert, kunt u uw segment in [ Snelle segmentbouwer ](#quick-filter-builder) niet meer wijzigen Uw snel segment wordt anders genoemd aan **[!UICONTROL Segment]** en heeft nu een donkerdere blauwe dunne linkerbar.<br/> de regelmatige [ bouwer van het Segment ](filter-builder.md) opent met de optie aan **[!UICONTROL Make this segment available to all your projects and add it to your component list]**. <ul><li>Als u deze optie selecteert en **[!UICONTROL Apply]** selecteert, wordt het segment toegevoegd aan de ![ 2} **[!UICONTROL Segment]** componentenlijst van het Segment in het componentenpaneel.](/help/assets/icons/Segmentation.svg)</li><li>Als u deze optie niet selecteert en **[!UICONTROL Apply]** selecteert, blijft het segment een segment met alleen het Workspace-project.</li></ul> |

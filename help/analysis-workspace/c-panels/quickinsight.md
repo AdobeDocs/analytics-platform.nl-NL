@@ -4,9 +4,9 @@ title: Deelvenster Snelle inzichten
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1081'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Wanneer u deze [!UICONTROL Analysis Workspace] voor het eerst gebruikt, vraagt u
 * waar moet een segment worden gemaakt?
 * en meer.
 
-Om met deze vragen te helpen, [!UICONTROL Quick insights] hefboomwerkingen een algoritme dat u met de populairste dimensies, metriek, segmenten, en datumwaaiers uw bedrijfgebruik voorstelt. Dit algoritme is gebaseerd op het gebruik van gegevenscomponenten in [!UICONTROL Analysis Workspace] door uw eigen bedrijf. In feite ziet u afmetingen, metriek, en segment geëtiketteerd met [!UICONTROL POPULAR] in de drop-down lijst, zoals hier getoond:
+Om met deze vragen te helpen, [!UICONTROL Quick insights] hefboomwerkingen een algoritme dat u met de populairste dimensies, metriek, segmenten, en datumwaaiers uw bedrijfgebruik voorstelt. Dit algoritme is gebaseerd op het gebruik van gegevenscomponenten in [!UICONTROL Analysis Workspace] door uw eigen bedrijf. In feite ziet u afmetingen, metriek, en segment geëtiketteerd met [!UICONTROL POPULAR] in het drop-down menu, zoals hier getoond:
 
 ![ het Snelle paneel van Inzichten.](assets/popular-tag.png)
 
@@ -94,7 +94,7 @@ U kunt de bouwstenen op drie manieren specificeren:
 
 * Componenten slepen en neerzetten vanuit het linkerdeelvenster.
 * Begin in één van de bouwsteengebieden te typen. Wanneer invoer wordt gevonden, vult het bouwsteengebied met mogelijke waarden automatisch.
-* Specificeer een bouwsteendrop-down (bijvoorbeeld `Country` in **[!UICONTROL Analyze]**) en onderzoek de lijst van mogelijke waarde (gebruikend ![ ChevronRight ](/help/assets/icons/ChevronRight.svg)) voor de waarde u (bijvoorbeeld, **[!UICONTROL Country code]**) wilt gebruiken.
+* Specificeer een bouwsteendrop-down menu (bijvoorbeeld `Country` in **[!UICONTROL Analyze]**) en onderzoek de lijst van mogelijke waarde (gebruikend ![ ChevronRight ](/help/assets/icons/ChevronRight.svg)) voor de waarde u (bijvoorbeeld, **[!UICONTROL Country code]**) wilt gebruiken.
 
 Selecteer **[!UICONTROL Clear]** om alle invoervelden te wissen.
 

@@ -5,7 +5,7 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 12531600-7e88-4d56-a2a5-e5b346f91937
 solution: Customer Journey Analytics
-source-git-commit: e0615e3b4b1a4f0cd675de4bf4bb84d73eab8b8c
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '2624'
 ht-degree: 0%
@@ -136,7 +136,7 @@ Het plaatsen is *op* door gebrek. Wissel het aan *weg* als u geen vergelijkingsd
 
 ## Visualisaties toepassen {#viz}
 
-De dashboards van de Analyse bieden vier visualisaties die u groot inzicht in afmetingspunten en metriek geven. Schakel over naar een andere visualisatie door de [!UICONTROL chart type] van de tegel [!UICONTROL Properties] te wijzigen. Selecteer gewoon de rechtertegel en wijzig vervolgens het diagramtype.
+De dashboards van de Analyse bieden vier visualisaties die u groot insight in afmetingspunten en metriek geven. Schakel over naar een andere visualisatie door de [!UICONTROL chart type] van de tegel [!UICONTROL Properties] te wijzigen. Selecteer gewoon de rechtertegel en wijzig vervolgens het diagramtype.
 
 ![ Eigenschappen van de Tegel ](assets/properties.png)
 
@@ -203,7 +203,7 @@ De onderbrekingen verfijnen uw analyse door metriek door afmetingspunten zoals h
 
 ![ Breakdown_view ](assets/break_view.png)
 
-Elke dimensie die aan de tegel wordt toegevoegd, wordt weergegeven in een vervolgkeuzelijst in de gedetailleerde weergave van de app. De uitvoerende gebruiker kan dan uit de opties kiezen die in de drop-down lijst worden vermeld.
+Elke dimensie die aan de tegel wordt toegevoegd, wordt weergegeven in een vervolgkeuzemenu in de gedetailleerde weergave van de app. De uitvoerende gebruiker kan dan uit de opties kiezen die in het drop-down menu worden vermeld.
 
 ## Detaildia&#39;s aanpassen {#customize-detail-slide}
 
@@ -264,7 +264,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ verhalen van 
 >[!ENDSHADEBOX]
 
 
-**om een gegevensverhaal** te creëren {#data-story-create}
+**om een gegevensverhaal** {#data-story-create} te creëren
 
 Bouw uw gegevensverhaal door veelvoudige detaildia&#39;s aan een tegel toe te voegen.
 

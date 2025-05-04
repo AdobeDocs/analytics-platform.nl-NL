@@ -5,7 +5,7 @@ exl-id: ab91659b-a1e6-4f6b-8976-410cf894d1a0
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: cd31712c1dde1fc39f4d0dc81555c19b7690bcab
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
@@ -77,7 +77,7 @@ The catch here is that they can only populate those IDs today if they have a dir
 
 Om op de standaardraadplegingsdimensies van Adobe te rapporteren, moet u één of meer van deze dimensies toevoegen wanneer u a [ gegevensmening ](/help/data-views/data-views.md) in Customer Journey Analytics creeert. In **[!UICONTROL Data view]** > **[!UICONTROL Components]** :
 
-1. Selecteer **[!UICONTROL Schema fields]** in het vervolgkeuzemenu in de linkertrack.
+1. Selecteer **[!UICONTROL Schema fields]** in het keuzemenu in de linkertrack.
 1. Selecteer **[!UICONTROL Adobe lookups]** in de lijst met containers voor schemavelden.
 1. Blader omlaag naar **[!UICONTROL Browser]** , **[!UICONTROL Mobile]** of **[!UICONTROL Operating System]** totdat u de dimensie vindt die u wilt toevoegen.
 1. Sleep de dimensie naar de **[!UICONTROL Metrics]** - of **[!UICONTROL Dimensions]** -tabel in **[!UICONTROL Included components]** .

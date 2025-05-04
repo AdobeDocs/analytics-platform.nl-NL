@@ -5,7 +5,7 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 6213cc09800743a1f7cb4828d71ee731439e529b
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '2010'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Verstrekt overkoepelende montages voor de gegevensmening.
 | Instelling | Beschrijving |
 | --- | --- |
 | **[!UICONTROL Connection]** | Dit gebied verbindt de gegevensmening met de verbinding die u vroeger vestigde, die één of meerdere datasets van Adobe Experience Platform bevat. |
-| **[!UICONTROL Name]** | Vereist. De naam van de gegevensweergave. Deze waarde wordt weergegeven in de vervolgkeuzelijst rechtsboven in Analysis Workspace. |
+| **[!UICONTROL Name]** | Vereist. De naam van de gegevensweergave. Deze waarde wordt weergegeven in het vervolgkeuzemenu rechtsboven in Analysis Workspace. |
 | **[!UICONTROL External ID]** | Vereist. De naam van gegevensmening u in externe bronnen, zoals bedrijfsintelligentiegereedschappen kunt gebruiken. De standaardwaarde is `unspecified` . Als u geen externe id opgeeft, wordt de naam gegenereerd op basis van de naam van de gegevensweergave en worden spaties vervangen door onderstrepingstekens. |
 | **[!UICONTROL Description]** | Optioneel. Adobe raadt een gedetailleerde beschrijving aan, zodat gebruikers begrijpen waarom de gegevensweergave bestaat en voor wie deze is ontworpen. |
 

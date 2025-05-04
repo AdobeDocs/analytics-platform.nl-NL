@@ -2,9 +2,9 @@
 title: Overzicht van gedeelde metriek en dimensies
 description: Gebruik dezelfde dimensie of metrische referentie in meerdere gegevensweergaven.
 exl-id: 998a9f9b-cfa7-4b97-b32b-d50e35d01b39
-source-git-commit: 4bb24fae7c7d53a0fde3bb2dc35ef27f91701d5a
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Alle gedeelde afmetingen en metriek worden weergegeven onder de vier overzichtsk
    * **[!UICONTROL Created by]**: alleen componenten weergeven die door een bepaalde gebruiker zijn gemaakt.
    * **[!UICONTROL Duplicates]**: alleen componenten weergeven die dezelfde component-id hebben als een andere component. Deze filters zijn identiek aan het herzien van componenten door de overzichtskaarten.
 * **Onderzoek**: Gebruik het ![ pictogram van het Onderzoek ](../../assets/icons/Search.svg) pictogram om naar een component door naam te zoeken.
-* **[!UICONTROL Connection]**: Een dropdown die de [ verbinding ](/help/connections/overview.md) verandert. De gedeelde afmetingen en de metriek zijn altijd specifiek voor één enkele verbinding.
+* **[!UICONTROL Connection]**: Een drop-down menu dat de [ verbinding ](/help/connections/overview.md) verandert. De gedeelde afmetingen en de metriek zijn altijd specifiek voor één enkele verbinding.
 * **[!UICONTROL Customize table]**: Selecteer het ![ Customize lijstpictogram ](/help/assets/icons/ColumnSetting.svg) pictogram om kolommen in de lijst te tonen of te verbergen. Beschikbare opties zijn:
    * **[!UICONTROL Field name]**: De naam van de gedeelde dimensie of metrische waarde. Dit veld is altijd zichtbaar.
    * **[!UICONTROL Type]**: geeft aan of de component een dimensie of metrisch is. Dit veld is altijd zichtbaar.

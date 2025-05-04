@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: c39ee568-97f6-4925-ae18-3d4a9dfdb6f5
-source-git-commit: e4e0c3cf2e865454837df6626c3b1b09f119f07f
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Een groep dimensies maken:
 1. Selecteer een dimensie.
 1. Selecteer ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Summary data group]**.
 1. Schakel **[!UICONTROL Create grouping]** in.
-1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Dimension]** een dimensie die u wilt groeperen met de geselecteerde dimensie in de eerste stap. Merk op dat alleen de afmetingen die u al hebt toegevoegd aan de gegevensweergave beschikbaar zijn in de vervolgkeuzelijst.
+1. Selecteer in het keuzemenu **[!UICONTROL Dimension]** een dimensie die u wilt groeperen met de geselecteerde dimensie in de eerste stap. Merk op dat slechts de dimensies u reeds aan de gegevensmening hebt toegevoegd beschikbaar zijn van het drop-down menu.
 1. Schakel **[!UICONTROL Hide in reporting]** desgewenst in om de gegroepeerde dimensie te verbergen voor rapportage. Als u deze optie inschakelt, is dit vergelijkbaar met het afzonderlijk configureren van **[!UICONTROL Hide in reporting]** voor de gegroepeerde dimensie. Zie [ montages van de Component ](overview.md) voor meer informatie.
 1. Naar keuze, om extra dimensies aan de groepering toe te voegen, ![ voegt toe ](/help/assets/icons/Add.svg) **[!UICONTROL Add dimension to group]**.<br/> u kunt tot negen dimensies toevoegen, aangezien een summiere gegevensgroep een grens van tien dimensies heeft.
 

@@ -5,7 +5,7 @@ feature: Analytics Dashboards
 role: User, Admin
 solution: Customer Journey Analytics
 exl-id: 6a0de7db-689d-448d-b8e0-90af4a5ee325
-source-git-commit: d8286e34edba128113ba99602ba24eea67c5dea8
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1782'
 ht-degree: 0%
@@ -34,7 +34,7 @@ De onderbrekingen verfijnen uw analyse door metriek door afmetingspunten zoals h
 
 ![ Breakdown_view ](assets/break_view.png)
 
-Elke dimensie die aan de tegel wordt toegevoegd, wordt weergegeven in een vervolgkeuzelijst in de gedetailleerde weergave van de app. De uitvoerende gebruiker kan dan uit de opties kiezen die in de drop-down lijst worden vermeld.
+Elke dimensie die aan de tegel wordt toegevoegd, wordt weergegeven in een vervolgkeuzemenu in de gedetailleerde weergave van de app. De uitvoerende gebruiker kan dan uit de opties kiezen die in het drop-down menu worden vermeld.
 
 ## Detaildia&#39;s aanpassen {#customize-detail-slide}
 
@@ -91,7 +91,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ verhalen van 
 >[!ENDSHADEBOX]
 
 
-**om een gegevensverhaal** te creëren {#data-story-create}
+**om een gegevensverhaal** {#data-story-create} te creëren
 
 Bouw uw gegevensverhaal door veelvoudige detaildia&#39;s aan een tegel toe te voegen.
 

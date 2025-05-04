@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
 exl-id: 80139806-618a-46ff-b2c4-32d7bb85a526
-source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '4616'
+source-wordcount: '4618'
 ht-degree: 7%
 
 ---
@@ -314,7 +314,7 @@ U voegt als volgt een veldgroep met de velden voor de voorbeeldgegevens toe:
    1. Voer een **[!UICONTROL Field name]** in: `campaign_id`
    1. Voer een **[!UICONTROL Display name]** in: `campaign_id`
    1. Selecteer een **[!UICONTROL Type]** in de vervolgkeuzelijst **[!UICONTROL Select data type]** : **[!UICONTROL String]**
-   1. Controleer of **[!UICONTROL Assign to]** **[!UICONTROL Field group]** is geselecteerd en selecteer **[!UICONTROL Example Summary Data]** in het vervolgkeuzemenu.
+   1. Zorg ervoor dat **[!UICONTROL Assign to]** **[!UICONTROL Field group]** is geselecteerd en selecteer **[!UICONTROL Example Summary Data]** in de vervolgkeuzelijst.
    1. Blader omlaag naar de onderkant en selecteer **[!UICONTROL Apply]** .
 1. Herhaal de vorige stap voor de andere velden van de samenvattingsgegevens. Zie de onderstaande tabel voor de juiste waarden.
 
@@ -391,7 +391,7 @@ Als u de voorbeeldgegevens in Customer Journey Analytics wilt gebruiken, maakt u
 1. Selecteer **[!UICONTROL Create new connection]** .
 1. In **[!UICONTROL Connections]** > **[!UICONTROL Untitled connection]** :
    1. Voer een **[!UICONTROL Connection name]** in, bijvoorbeeld `Example Connection Using Summary Data` .
-   1. Selecteer de zandbak die de dataset bevat u en de andere datasets creeerde u van de zandbak dropdown lijst wilt omvatten.
+   1. Selecteer de sandbox die de gegevensset bevat die u hebt gemaakt en de andere gegevenssets die u wilt opnemen in het vervolgkeuzemenu Sandbox.
    1. Selecteer **[!UICONTROL less than 1 million]** in de vervolgkeuzelijst **[!UICONTROL Average number of daily events]** .
    1. Selecteer **[!UICONTROL Add datasets]** .
    1. In de stap **[!UICONTROL Select datasets]** van de wizard **[!UICONTROL Add datasets]** :
@@ -493,9 +493,9 @@ Om ervoor te zorgen dat u de juiste gegevens in Workspace kunt rapporteren, wilt
          ![ Voortgekomen gebied voor campagnenaam ](../aa-data/../assets/summary-derived-field.png)
 
          1. Selecteer **[!UICONTROL campaign_id]** voor **[!UICONTROL Value]** .
-         1. Selecteer **[!UICONTROL Example Lookup Data Dataset]** in het vervolgkeuzemenu **[!UICONTROL Lookup dataset]** .
-         1. Selecteer **[!UICONTROL tracking_code]** in het vervolgkeuzemenu **[!UICONTROL Matching Key]** .
-         1. Selecteer **[!UICONTROL campaign_name]** in het vervolgkeuzemenu **[!UICONTROL Values to return]** .
+         1. Selecteer **[!UICONTROL Example Lookup Data Dataset]** in de vervolgkeuzelijst **[!UICONTROL Lookup dataset]** .
+         1. Selecteer **[!UICONTROL tracking_code]** in de vervolgkeuzelijst **[!UICONTROL Matching Key]** .
+         1. Selecteer **[!UICONTROL campaign_name]** in de vervolgkeuzelijst **[!UICONTROL Values to return]** .
          1. Selecteer **[!UICONTROL Save]** .
 
       1. Voeg het nieuwe afgeleide veld **[!UICONTROL Campaign Name (Lookup Derived Field)]** toe aan de lijst met **[!UICONTROL Dimensions]** -componenten.
@@ -512,7 +512,7 @@ Om ervoor te zorgen dat u de juiste gegevens in Workspace kunt rapporteren, wilt
 
          ![ de summiere gegevens van de Opbrengst ](../assets/revenue-summary-data.png)
          1. Ontvouw ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Attribution]**.
-            1. Selecteer ![ AttributeLastTouch ](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Last Touch]** van de **[!UICONTROL Attribution Model]** dropdown lijst.
+            1. Selecteer ![ AttributeLastTouch ](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Last Touch]** van het **[!UICONTROL Attribution Model]** drop-down menu.
             1. Selecteer **[!UICONTROL 30 Day]** in de vervolgkeuzelijst **[!UICONTROL Lookback window]** .
          1. Ontvouw ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **Formaat**.
             1. Selecteer **[!UICONTROL Currency]** in de vervolgkeuzelijst **[!UICONTROL Format]** .
@@ -522,7 +522,7 @@ Om ervoor te zorgen dat u de juiste gegevens in Workspace kunt rapporteren, wilt
 
          ![ orden summiere gegevens ](../assets/orders-summary-data.png)
          1. Ontvouw ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Attribution]**.
-            1. Selecteer ![ AttributeLastTouch ](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Last Touch]** van de **[!UICONTROL Attribution Model]** dropdown lijst.
+            1. Selecteer ![ AttributeLastTouch ](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Last Touch]** van het **[!UICONTROL Attribution Model]** drop-down menu.
             1. Selecteer **[!UICONTROL 30 Day]** in de vervolgkeuzelijst **[!UICONTROL Lookback window]** .
          1. Ontvouw ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Format]**.
             1. Selecteer **[!UICONTROL Decimal]** in de vervolgkeuzelijst **[!UICONTROL Format]** .

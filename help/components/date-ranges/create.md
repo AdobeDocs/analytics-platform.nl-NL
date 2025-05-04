@@ -4,7 +4,7 @@ description: Maak een datumbereik voor rapportage.
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
 role: User
-source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Het dialoogvenster **[!UICONTROL New date range]** of **[!UICONTROL Edit date ra
 1. Geef desgewenst een **[!UICONTROL Description]** op.
 1. Organiseer het segment door een of meer **[!UICONTROL Tags]** te maken of toe te passen. Begin te typen om naar bestaande tags te zoeken die u kunt selecteren. Of druk op **[!UICONTROL ENTER]** om een nieuwe tag toe te voegen. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om een markering te verwijderen. |
 1. Selecteer een **[!UICONTROL Date Range]** door eerst de begindatum en vervolgens de einddatum te selecteren.
-Alternatief, kunt u a **[!UICONTROL Preset]** van [!UICONTROL *selecteren selecteert vooraf ingesteld*] dropdown menu.
+Alternatief, kunt u a **[!UICONTROL Preset]** van [!UICONTROL *selecteren vooraf ingesteld*] drop-down menu.
 
 1. Selecteer indien nodig **[!UICONTROL Show advanced settings]** tot en met:
 

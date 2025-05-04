@@ -5,7 +5,7 @@ feature: Analytics Dashboards
 role: User
 exl-id: 12901a76-cb88-45a5-81e9-59fb310328be
 solution: Customer Journey Analytics
-source-git-commit: d8286e34edba128113ba99602ba24eea67c5dea8
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '1273'
 ht-degree: 0%
@@ -120,7 +120,7 @@ U kunt als volgt dashboards gebruiken:
 
    * Afhankelijk van het interval u tikt (**Dag**, **Week**, **Maand**, of **Jaar**), zult u twee opties voor datum bereiken-of de huidige spanwijdte van tijd of onmiddellijk voorafgaand aan het zien. Tik op een van deze twee opties om het eerste bereik te selecteren. Tik in de lijst **[!UICONTROL COMPARE TO]** op een van de opties die worden weergegeven om de gegevens van deze tijdsperiode te vergelijken met de gegevens van het eerste datumbereik dat u hebt geselecteerd. Tik op **[!UICONTROL Done]** rechtsboven in het scherm. De velden **[!UICONTROL Date Ranges]** en Scorecard worden bijgewerkt met de nieuwe vergelijkingsgegevens uit de nieuwe bereiken die u hebt geselecteerd.
 
-1. Om een segment op uw Scorecard toe te passen, tik de segment drop-down lijst en selecteer een segment dat door uw curator is gevormd. [ Segmenten ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) in app functioneren de zelfde manier zij in Workspace doen.
+1. Als u een segment wilt toepassen op uw scorebord, tikt u op het vervolgkeuzemenu voor segmenten en selecteert u een segment dat door de curator is geconfigureerd. [ Segmenten ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) in app functioneren de zelfde manier zij in Workspace doen.
 
    ![ Segment ](assets/segment_filter.png)
 

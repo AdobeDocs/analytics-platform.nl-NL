@@ -5,9 +5,9 @@ title: Projecten delen
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1970'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Als er niet-opgeslagen wijzigingen zijn, wordt u gevraagd eerst uw project op te
 
 1. (Voorwaardelijk) Als u één project deelt, kies of om de volgende opties toe te laten wanneer het delen van het project:
 
-   * **Deel ingebedde projectcomponenten:** deelt segmenten, berekende metriek, en datumwaaiers met alle ontvangers. Nadat deze componenten zijn gedeeld, worden deze weergegeven in de vervolgkeuzelijst Componenten van de Workspace van de ontvanger. Deze instelling blijft niet bestaan. Het is een eenmalige actie op het moment van delen.
+   * **Deel ingebedde projectcomponenten:** deelt segmenten, berekende metriek, en datumwaaiers met alle ontvangers. Nadat deze componenten zijn gedeeld, worden deze weergegeven in het vervolgkeuzemenu Componenten van de Workspace van de ontvanger. Deze instelling blijft niet bestaan. Het is een eenmalige actie op het moment van delen.
 
    * **Reeks als het landen pagina voor ontvangers:** plaatst deze pagina als het landen pagina voor ontvangers. Deze instelling blijft niet bestaan. Het is een eenmalige actie op het moment van delen.
 

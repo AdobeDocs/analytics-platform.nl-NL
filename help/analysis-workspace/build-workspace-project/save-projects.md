@@ -4,7 +4,7 @@ title: Projecten opslaan
 feature: Workspace Basics
 role: User
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Als u een project handmatig wilt opslaan terwijl uw project in Analysis Workspac
       * **[!UICONTROL Name]** (vereist). naam van uw project.
       * **[!UICONTROL Description]**. Een beschrijving van uw project.
       * **[!UICONTROL Tags]**. Onderzoek naar markeringen in het [!UICONTROL *gebied van het Onderzoek*] of voeg nieuwe markeringen toe gebruikend **[!UICONTROL ENTER]**.
-      * **[!UICONTROL Folder]**. Selecteer een omslag van [!UICONTROL *Uitgezocht een omslag*] dropdown menu. Als u geen map opgeeft, wordt het project opgeslagen in de huidige map waaruit u een nieuw project hebt gemaakt.
+      * **[!UICONTROL Folder]**. Selecteer een omslag van [!UICONTROL *Uitgezocht een omslag*] drop-down menu. Als u geen map opgeeft, wordt het project opgeslagen in de huidige map waaruit u een nieuw project hebt gemaakt.
       * **[!UICONTROL Version notes]**. Voeg versienota&#39;s in *toe voegt nota&#39;s* tekstgebied.
 
    1. Selecteer **[!UICONTROL Save]** om uw project op te slaan.
@@ -79,7 +79,7 @@ Als u een project handmatig wilt opslaan terwijl uw project in Analysis Workspac
       * **[!UICONTROL Name]** (vereist). naam van uw project.
       * **[!UICONTROL Description]**. Een beschrijving van uw project.
       * **[!UICONTROL Tags]**. Onderzoek naar markeringen in het [!UICONTROL *gebied van het Onderzoek*] of voeg nieuwe markeringen toe gebruikend **[!UICONTROL ENTER]**.
-      * **[!UICONTROL Folder]**. Selecteer een omslag van [!UICONTROL *Uitgezocht een omslag*] dropdown menu. Als u geen map opgeeft, wordt het project opgeslagen in de huidige map waaruit u een nieuw project hebt gemaakt.
+      * **[!UICONTROL Folder]**. Selecteer een omslag van [!UICONTROL *Uitgezocht een omslag*] drop-down menu. Als u geen map opgeeft, wordt het project opgeslagen in de huidige map waaruit u een nieuw project hebt gemaakt.
       * **[!UICONTROL Version notes]**. Voeg versienota&#39;s in *toe voegt nota&#39;s* tekstgebied.
 
    1. Selecteer **[!UICONTROL Save]** om uw project op te slaan.

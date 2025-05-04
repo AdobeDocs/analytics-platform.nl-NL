@@ -4,7 +4,7 @@ description: Leer hoe u het publiek beheert in Customer Journey Analytics
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
-source-git-commit: 65dcbf63d9e155cb7e04bf9a550151a37b8457e6
+source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 1%
@@ -80,7 +80,7 @@ Het volgende is gemeenschappelijke acties in de Geplande Manager van Projecten. 
 
 | Pictogram | Handeling | Beschrijving |
 |:---:|---|---|
-| ![ Etiketten ](/help/assets/icons/Labels.svg) | **[!UICONTROL Tag]** | Label het geselecteerde publiek. In de **[!UICONTROL Update tags: *dialoog van de publieksnaam *]**, uitgezochte markeringen van het dropdown menu of type één of meerdere nieuwe markeringen. Selecteer **[!UICONTROL Save]**voor opslaan. |
+| ![ Etiketten ](/help/assets/icons/Labels.svg) | **[!UICONTROL Tag]** | Label het geselecteerde publiek. In de **[!UICONTROL Update tags: *dialoog van de publieksnaam *]**, uitgezochte markeringen van het drop-down menu of type één of meerdere nieuwe markeringen. Selecteer **[!UICONTROL Save]**voor opslaan. |
 | ![ Schrapping ](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Verwijder het geselecteerde publiek. |
 | ![ geeft ](/help/assets/icons/Edit.svg) uit | **[!UICONTROL Rename]** | Wijzig de naam van het geselecteerde publiek. Gebruik de **[!UICONTROL Rename: *dialoog van de publieksnaam *]**om het publiek anders te noemen en **[!UICONTROL Save]**te selecteren om te bewaren. |
 
