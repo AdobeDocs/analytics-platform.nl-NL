@@ -53,7 +53,7 @@ Zodra u uw gegevens hebt voorbereid en al uw geloofsbrieven en schema&#39;s op z
 
 ## Stap 2: Opstelling een verbinding van de Customer Journey Analytics aan de datasets van AI van de Klant
 
-In Customer Journey Analytics, kunt u één of meerdere verbindingen ](/help/connections/create-connection.md) aan Experience Platform datasets nu tot stand brengen die voor Klant AI van instrumenten zijn voorzien. [ Elke voorspelling, zoals &quot;Waarschijnlijkheid om rekening te bevorderen&quot;, vergelijkt met één dataset. Deze datasets worden weergegeven met het voorvoegsel &quot;Customer AI Scores in EE Format - name_of_application&quot;.
+In Customer Journey Analytics, kunt u één of meerdere verbindingen [&#128279;](/help/connections/create-connection.md) aan Experience Platform datasets nu tot stand brengen die voor Klant AI van instrumenten zijn voorzien.  Elke voorspelling, zoals &quot;Waarschijnlijkheid om rekening te bevorderen&quot;, vergelijkt met één dataset. Deze datasets worden weergegeven met het voorvoegsel &quot;Customer AI Scores in EE Format - name_of_application&quot;.
 
 >[!IMPORTANT]
 >

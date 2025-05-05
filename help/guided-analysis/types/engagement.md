@@ -24,7 +24,7 @@ ht-degree: 0%
 <!-- markdownlint-enable MD034 -->
 
 
-De ](/help/assets/icons/EngagementGraph.svg) **[!UICONTROL Engagement]** analyse 0} EngagementGraph verstrekt inzicht in hoe vaak een eigenschap tegenover hoeveel mensen het gebruikt wordt. ![ Deze analyse werkt het best wanneer het vergelijken van verscheidene eigenschappen aan elkaar. Het helpt investeringsbeslissingen te voeden door te begrijpen wat uw kern, macht, eenmalig, en twijfelachtige eigenschappen zijn.
+De ![&#128279;](/help/assets/icons/EngagementGraph.svg) **[!UICONTROL Engagement]** analyse 0&rbrace; EngagementGraph verstrekt inzicht in hoe vaak een eigenschap tegenover hoeveel mensen het gebruikt wordt.  Deze analyse werkt het best wanneer het vergelijken van verscheidene eigenschappen aan elkaar. Het helpt investeringsbeslissingen te voeden door te begrijpen wat uw kern, macht, eenmalig, en twijfelachtige eigenschappen zijn.
 
 De eigenschappen die naar de bovenkant van deze visualisatie trekken wijzen erop dat zij vaak onder betrokken gebruikers worden gebruikt. De eigenschappen die naar het recht van deze visualisatie trekken wijzen erop dat zij wijd onder uw actieve gebruikers worden geadopteerd. Het gemiddelde aantal keren dat een functie wordt gebruikt, verdeelt de grafiek horizontaal. Het mediane percentage actieve gebruikers verdeelt de grafiek verticaal. Medianen worden berekend op basis van de gebeurtenissen die in de query zijn geselecteerd, niet alle gegevens.
 

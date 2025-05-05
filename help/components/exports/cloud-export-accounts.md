@@ -34,7 +34,7 @@ Voor informatie over hoe te om bestaande rekeningen, met inbegrip van het bekijk
 
 1. Op het [!UICONTROL **de rekeningsnaam van de Plaats**] gebied, specificeer een naam voor de plaatsrekening. Deze naam wordt weergegeven wanneer u een locatie maakt.
 
-1. Op het **]gebied van de de rekeningsbeschrijving van de Plaats 0}, verstrek een korte beschrijving van de rekening helpen het van andere rekeningen van het zelfde rekeningtype onderscheiden.[!UICONTROL **
+1. Op het **gebied van de de rekeningsbeschrijving van de Plaats 0&rbrace;, verstrek een korte beschrijving van de rekening helpen het van andere rekeningen van het zelfde rekeningtype onderscheiden.**
 
 1. Laat de optie toe om rekening [!UICONTROL **ter beschikking te stellen van alle gebruikers in uw organisatie**] als u andere gebruikers in uw organisatie wilt toestaan om de rekening te gebruiken.
 

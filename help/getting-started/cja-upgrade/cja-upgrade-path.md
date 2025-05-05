@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Stap 2: kies uw upgradepad
 
-++ + breid deze sectie uit om te zien waar de informatie op deze pagina in het grotere verbeteringsproces past. Controleer of alle vorige upgradestappen zijn voltooid.
++++ breid deze sectie uit om te zien waar de informatie op deze pagina in het grotere verbeteringsproces past. Controleer of alle vorige upgradestappen zijn voltooid.
 
 Voordat u doorgaat met deze sectie, moet u eerst controleren of u alle vorige upgradetaken hebt uitgevoerd.
 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Sjablonen voor berekende metriek
 
-Customer Journey Analytics verstrekt de volgende berekende metriesjablonen om de gemeenschappelijkste gebruiks-gevallen te behandelen. Deze Adobe-bepaalde berekende metriek worden geïdentificeerd door een klein ![ 1} embleem AdobeLogoSmall {. ](/help/assets/icons/AdobeLogoSmall.svg) Om snel op deze metriek te filtreren, selecteer ![ Etiket ](/help/assets/icons/Label.svg) **[!UICONTROL Adobe Template]** in de [ filter van Componenten ](/help/components/overview.md#filter).
+Customer Journey Analytics verstrekt de volgende berekende metriesjablonen om de gemeenschappelijkste gebruiks-gevallen te behandelen. Deze Adobe-bepaalde berekende metriek worden geïdentificeerd door een klein ![ 1&rbrace; embleem AdobeLogoSmall &lbrace;. ](/help/assets/icons/AdobeLogoSmall.svg) Om snel op deze metriek te filtreren, selecteer ![ Etiket ](/help/assets/icons/Label.svg) **[!UICONTROL Adobe Template]** in de [ filter van Componenten ](/help/components/overview.md#filter).
 
 | Metrische naam berekend | Beschrijving <br/> Formule |
 |---------|----------|

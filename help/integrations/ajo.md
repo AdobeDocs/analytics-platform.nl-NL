@@ -25,7 +25,7 @@ Wanneer u Customer Journey Analytics die voor Journey Optimizer rapporteert hebt
 
 ### Verbinding
 
-De verbinding heeft de naam **[!UICONTROL AJO Enabled Connection (*zandbaknaam *)]**en heeft het volgende uit de dooswaarden voor configuratie en datasets:
+De verbinding heeft de naam **[!UICONTROL AJO Enabled Connection (*zandbaknaam *)]**&#x200B;en heeft het volgende uit de dooswaarden voor configuratie en datasets:
 
 | **montages van de Verbinding** | Waarde |
 |---|---| 
@@ -44,7 +44,7 @@ De verbinding heeft de naam **[!UICONTROL AJO Enabled Connection (*zandbaknaam *
 | Naam gegevensset | Schema | Het type DataSet | Type gegevensbron | Persoon-id | Sleutel | Overeenkomende sleutel | Nieuwe gegevens importeren | Backfill-gegevens |
 |---|---|---|---|---|---|---|---|---|
 | [!UICONTROL AJO Entity Dataset] | [!UICONTROL AJO Entity Record Schema] | [!UICONTROL Lookup] | [!UICONTROL Other] | - | ` _id` | `_experience. decisioning. propositions. scopeDetails. correlationID` | ![ Groene Status ](assets/../../connections/assets/status-green.svg) op | ![ Grijs van de Status ](assets/../../connections/assets/status-gray.svg) weg |
-| [!UICONTROL Journey Step Events] | [!UICONTROL Journey Step Event schema for Journey Orchestration] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL  IdentityMap(\<primary\>)] | - | - | ![ Groene Status ](assets/../../connections/assets/status-green.svg) op | ![ Grijs van de Status ](assets/../../connections/assets/status-gray.svg) weg |
+| [!UICONTROL Journey Step Events] | [!UICONTROL Journey Step Event schema for Journey Orchestration] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL &#x200B; IdentityMap(\<primary\>)] | - | - | ![ Groene Status ](assets/../../connections/assets/status-green.svg) op | ![ Grijs van de Status ](assets/../../connections/assets/status-gray.svg) weg |
 | [!UICONTROL AJO Email Tracking Experience Event Dataset] | [!UICONTROL AJO Email Tracking Experience Event Schema] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL IdentityMap(\<primary\>)] | - | - | ![ Groene Status ](assets/../../connections/assets/status-green.svg) op | ![ Grijs van de Status ](assets/../../connections/assets/status-gray.svg) weg |
 | [!UICONTROL AJO Message Feedback Event Dataset] | [!UICONTROL AJO Message Feedback Event Schema] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL IdentityMap(\<primary\>)] | - | - | ![ Groene Status ](assets/../../connections/assets/status-green.svg) op | ![ Grijs van de Status ](assets/../../connections/assets/status-gray.svg) weg |
 | [!UICONTROL AJO Push Tracking Experience Event Dataset] | [!UICONTROL AJO Push Tracking Experience Event Schema] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL IdentityMap(\<primary\>)] | - | - | ![ Groene Status ](assets/../../connections/assets/status-green.svg) op | ![ Grijs van de Status ](assets/../../connections/assets/status-gray.svg) weg |

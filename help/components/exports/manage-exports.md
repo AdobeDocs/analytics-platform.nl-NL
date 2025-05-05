@@ -78,7 +78,7 @@ U kunt een bestaande exportbewerking dupliceren.
 
 1. Selecteren [!UICONTROL **Dupliceren**].
 
-   Er wordt een duplicaat van de exportbewerking gemaakt. De naam van de nieuwe exportbewerking komt overeen met de naam van de oorspronkelijke exportbewerking, met _[!UICONTROL - Copy]_toegevoegd aan de bestandsnaam.
+   Er wordt een duplicaat van de exportbewerking gemaakt. De naam van de nieuwe exportbewerking komt overeen met de naam van de oorspronkelijke exportbewerking, met _[!UICONTROL - Copy]_&#x200B;toegevoegd aan de bestandsnaam.
 
 1. (Optioneel) [De nieuwe exportbewerking bewerken](#edit-an-export), inclusief de bestandsnaam en andere eigenschappen die u wilt wijzigen.
 

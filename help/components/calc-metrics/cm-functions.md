@@ -26,7 +26,7 @@ De [ Berekende metrieke bouwer ](cm-workflow/cm-build-metrics.md) laat u statist
 
 Een tabelfunctie is een functie waarbij de uitvoer voor elke rij van de tabel hetzelfde is. Een rijfunctie is een functie waarbij de uitvoer voor elke rij van de tabel anders is.
 
-Waar toepasselijk en relevant, is een functie geannoteerd met het type van functie: [!BADGE  Lijst ]{type="Neutral"}[!BADGE  Rij ]{type="Neutral"}
+Waar toepasselijk en relevant, is een functie geannoteerd met het type van functie: [!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 ## Wat betekent de parameter include-zeros?
 
@@ -52,7 +52,7 @@ Een alternatief scenario is dat u twee metriek van rente hebt en één een hoger
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ABSOLUTE VALUE(metric)]**
 
-[!BADGE  Rij ]{type="Neutral"}
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -137,7 +137,7 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL COUNT(metric)]**
 
-[!BADGE  Lijst ]{type="Neutral"}
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -157,7 +157,7 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENT(metric)]**
 
-[!BADGE  Rij ]{type="Neutral"}
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -178,7 +178,7 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL MEAN(metric, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"}
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -200,7 +200,7 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL MEDIAN(metric, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"}
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -259,7 +259,7 @@ MODULO(MODULO(x,y)+y,y)
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL PERCENTILE(metric, k, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"}
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -304,7 +304,7 @@ Retourneert x opgevoerd naar de y-macht.
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUARTILE(metric, quartile, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"}[ MINIMUM VAN DE KOLOM ](#column-minimum), [ GEMIDDELD ](#median), en [ MAXIMUM VAN DE KOLOM ](#column-maximum) keren de zelfde waarde terug zoals [ KWALITEIT ](#quartile) wanneer kwartiel aan `0` (nul) gelijk is, `2`, en `4`, respectievelijk.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}[ MINIMUM VAN DE KOLOM ](#column-minimum), [ GEMIDDELD ](#median), en [ MAXIMUM VAN DE KOLOM ](#column-maximum) keren de zelfde waarde terug zoals [ KWALITEIT ](#quartile) wanneer kwartiel aan `0` (nul) gelijk is, `2`, en `4`, respectievelijk.
 
 | Argument | Beschrijving |
 |---|---|
@@ -435,7 +435,7 @@ Som van de kolommen van elke rij.
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL SQUARE ROOT(metric, include_zeros)]**
 
-[!BADGE  Rij ]{type="Neutral"}
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -455,7 +455,7 @@ Som van de kolommen van elke rij.
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL STANDARD DEVIATION(metric, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"}
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|
@@ -476,7 +476,7 @@ Som van de kolommen van elke rij.
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANCE(metric, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"}
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"}
 
 | Argument | Beschrijving |
 |---|---|

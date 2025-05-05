@@ -121,7 +121,7 @@ Filtercriteria instellen:
 
 U kunt maximaal 10 criteria toevoegen.
 
-### **[!UICONTROL  Specific]**
+### **[!UICONTROL &#x200B; Specific]**
 
 Met de optie **[!UICONTROL Specific]** kunt u een vaste lijst met dimensie-items maken voor elke dimensie. Gebruik het filtertype **[!UICONTROL Specific]** om de exacte afmetingen op te geven die u in het filter wilt opnemen. U kunt items in een lijst of uit een reeks cellen selecteren.
 

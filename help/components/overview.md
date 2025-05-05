@@ -84,7 +84,7 @@ U kunt de lijst met componenten in het linkerdeelvenster van Analysis Workspace 
 
 2. Typ in het zoekveld de naam van de component die u in het project wilt gebruiken.
 
-   Een kleur en pictogram geven het type component aan. **het pictogram van Afmetingen ![ Dimension ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) is oranje,** Segmenten **![ het pictogram van het Segment ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) is blauw,** de waaiers van de Datum **](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) het de waaierpictogram van de Datum is paars, en** Metriek **![ Metrisch pictogram ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) is groen.**![<br/> het pictogram van Adobe ![ AdobeLogo ](/help/assets/icons/AdobeLogoSmall.svg) wijst of op een berekend metrisch malplaatje of een segmentmalplaatje. Het calculatorpictogram ![ pictogram van de Rekenmachine ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) wijst op berekende metrisch dat een beheerder in uw organisatie heeft gecreeerd.
+   Een kleur en pictogram geven het type component aan. **het pictogram van Afmetingen ![ Dimension ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) is oranje,** Segmenten **![ het pictogram van het Segment ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) is blauw,** de waaiers van de Datum **![&#128279;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) het de waaierpictogram van de Datum is paars, en** Metriek **![ Metrisch pictogram ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) is groen.**<br/> het pictogram van Adobe ![ AdobeLogo ](/help/assets/icons/AdobeLogoSmall.svg) wijst of op een berekend metrisch malplaatje of een segmentmalplaatje. Het calculatorpictogram ![ pictogram van de Rekenmachine ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) wijst op berekende metrisch dat een beheerder in uw organisatie heeft gecreeerd.
 
 3. Selecteer de component in het keuzemenu.
 
@@ -92,7 +92,7 @@ U kunt de lijst met componenten in het linkerdeelvenster van Analysis Workspace 
 
 1. Selecteer het **pictogram van Componenten** pictogram van Componenten ![ ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in het linkerpaneel.
 
-2. Selecteer **![ het pictogram van de Filter van het Woordenboek van de Filter van de Filter 1} Filter**, of ga `#` op het onderzoeksgebied in.](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+2. Selecteer **![ het pictogram van de Filter van het Woordenboek van de Filter van de Filter 1&rbrace; Filter**, of ga `#` op het onderzoeksgebied in.](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
 3. Selecteer een van de volgende filteropties om de lijst met componenten te filteren:
 
@@ -126,4 +126,4 @@ De volgende sorteeropties zijn beschikbaar:
 
 ## Toegangsmachtigingen
 
-In Analysis Workspace, kunnen de beheerders [ ](/help/analysis-workspace/curate-share/curate.md) leiden die de componenten aan gebruikers in het melden worden blootgesteld.
+In Analysis Workspace, kunnen de beheerders [&#128279;](/help/analysis-workspace/curate-share/curate.md) leiden die de componenten aan gebruikers in het melden worden blootgesteld.

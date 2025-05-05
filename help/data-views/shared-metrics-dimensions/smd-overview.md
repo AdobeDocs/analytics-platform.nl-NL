@@ -69,15 +69,15 @@ Alle gedeelde afmetingen en metriek worden weergegeven onder de vier overzichtsk
    * **[!UICONTROL Data usage labels]**: De [ etiketten van het gegevensgebruik ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview) voor het schemagebied.
    * **[!UICONTROL Deprecated]**: geeft aan of de afgekeurde markering is ingesteld.
    * **[!UICONTROL Format]**: De indeling waarin waarden worden weergegeven. Boeken worden meestal weergegeven als `True | False`, metriek wordt meestal weergegeven als `Decimal` , enzovoort.
-   * **[!UICONTROL Metric deduplication]**: De [ Metrische deduplicatie ](/help/data-views/component-settings/metric-deduplication.md) montages van de component {.
-   * **[!UICONTROL Behavior]**: De montages van het Gedrag van de component [ ](/help/data-views/component-settings/behavior.md).
-   * **[!UICONTROL Attribution]**: De montages van de Attributie van de component [ ](/help/data-views/component-settings/attribution.md).
-   * **[!UICONTROL No value option]**: De 1} geen waardeopties van de component ](/help/data-views/component-settings/no-value-options.md).[
-   * **[!UICONTROL Value bucketing]**: De 1} waarde van de component {](/help/data-views/component-settings/value-bucketing.md) montages knippert.[
-   * **[!UICONTROL Persistence]**: De 1} persistentie ](/help/data-views/component-settings/persistence.md) montages van de component {.[
-   * **[!UICONTROL Lowercase]**: Wijst erop als de component in kleine letters toegelaten op de montages van het Gedrag van de component [ ](/help/data-views/component-settings/behavior.md) wordt gebaseerd.
-   * **[!UICONTROL Substring]**: De 1} Substring ](/help/data-views/component-settings/substring.md) montages van de component {.[
-   * **[!UICONTROL Summary data group]**: De montages van de 1} Summiere gegevensgroep van de component ](/help/data-views/component-settings/summary-data-group.md).[
+   * **[!UICONTROL Metric deduplication]**: De [ Metrische deduplicatie ](/help/data-views/component-settings/metric-deduplication.md) montages van de component &lbrace;.
+   * **[!UICONTROL Behavior]**: De montages van het Gedrag van de component [&#128279;](/help/data-views/component-settings/behavior.md).
+   * **[!UICONTROL Attribution]**: De montages van de Attributie van de component [&#128279;](/help/data-views/component-settings/attribution.md).
+   * **[!UICONTROL No value option]**: De 1&rbrace; geen waardeopties van de component [&#128279;](/help/data-views/component-settings/no-value-options.md).
+   * **[!UICONTROL Value bucketing]**: De 1&rbrace; waarde van de component &lbrace;[&#128279;](/help/data-views/component-settings/value-bucketing.md) montages knippert.
+   * **[!UICONTROL Persistence]**: De 1&rbrace; persistentie [&#128279;](/help/data-views/component-settings/persistence.md) montages van de component &lbrace;.
+   * **[!UICONTROL Lowercase]**: Wijst erop als de component in kleine letters toegelaten op de montages van het Gedrag van de component [&#128279;](/help/data-views/component-settings/behavior.md) wordt gebaseerd.
+   * **[!UICONTROL Substring]**: De 1&rbrace; Substring [&#128279;](/help/data-views/component-settings/substring.md) montages van de component &lbrace;.
+   * **[!UICONTROL Summary data group]**: De montages van de 1&rbrace; Summiere gegevensgroep van de component [&#128279;](/help/data-views/component-settings/summary-data-group.md).
    * **[!UICONTROL Date created]**: De datum waarop de component is gemaakt of geïmporteerd.
    * **[!UICONTROL Last modified]**: als de component is gewijzigd nadat deze is gemaakt, de datum waarop deze voor het laatst is gewijzigd.
 * **[!UICONTROL Job history]**: Selecteer het ![ pictogram van de Geschiedenis ](/help/assets/icons/History.svg) pictogram om een modaal venster te openen dat alle instanties van het invoeren van dimensies en metriek van individuele gegevensmeningen toont.

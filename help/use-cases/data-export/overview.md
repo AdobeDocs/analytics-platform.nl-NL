@@ -49,7 +49,7 @@ Dit is van invloed op de uitvoer van gegevens uit Adobe Analytics:
 
 In Customer Journey Analytics worden gebeurtenissen niet op volgorde verzameld en wordt een persoon-id gebruikt in plaats van een apparaat-id, zodat Customer Journey Analytics kenmerk en sessionisatie op het rapporttijdstip kan bijwerken. Dit type gegevensverzameling introduceert flexibiliteit, zoals:
 
-* Stitching kan _gegevens dagelijks of wekelijks opnieuw spelen 1}, associerend anonieme gebeurtenissen met bekende gebeurtenissen._ Zie [ het Plaatsen ](../../stitching/overview.md) voor meer informatie.
+* Stitching kan _gegevens dagelijks of wekelijks opnieuw spelen 1&rbrace;, associerend anonieme gebeurtenissen met bekende gebeurtenissen._ Zie [ het Plaatsen ](../../stitching/overview.md) voor meer informatie.
 * Sessionisatie en aanhoudend waarden veranderen telkens als
    * nieuwe gegevens worden verzameld of
    * stitching voegt gebeurtenissen toe aan de geschiedenis van een persoon .

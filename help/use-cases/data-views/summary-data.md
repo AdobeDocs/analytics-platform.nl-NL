@@ -278,7 +278,7 @@ De gegevens van de opzoekopdracht zijn beschikbaar in de Dataset van de Gegevens
 | 17 | def321 | def-adgroup | 321 Campagne |
 | 18 | ghi321 | ghi-adgroup | 321 Campagne |
 
-[![ DataDownload ](/help/assets/icons/DataDownload.svg) gegevens van de de steekproefraadpleging van de Download {](./assets/lookup-data.csv)
+[![ DataDownload ](/help/assets/icons/DataDownload.svg) gegevens van de de steekproefraadpleging van de Download &lbrace;](./assets/lookup-data.csv)
 +++
 
 >[!INFO]

@@ -38,7 +38,7 @@ Als u de gegevensbloktabel wilt sorteren, selecteert u een kolomkop. Selecteer d
 
 ## Gegevensblokken zoeken
 
-Gebruik het ](/help/assets/icons/Search.svg) **[!UICONTROL _3} gebied van het Onderzoek ![ {van het Onderzoek {om van om het even wat in de lijst van het gegevensblok de plaats te bepalen._]** U kunt bijvoorbeeld zoeken naar metriek in de gegevensblokken of gegevensweergave. U kunt ook zoeken naar datums die worden weergegeven in het datumbereik, de datumwijziging of de kolommen met de laatste uitvoerdatum.
+Gebruik het (/help/assets/icons/Search.svg) **_3&rbrace; gebied van het Onderzoek ![ &lbrace;van het Onderzoek &lbrace;om van om het even wat in de lijst van het gegevensblok de plaats te bepalen._]** U kunt bijvoorbeeld zoeken naar metriek in de gegevensblokken of gegevensweergave. U kunt ook zoeken naar datums die worden weergegeven in het datumbereik, de datumwijziging of de kolommen met de laatste uitvoerdatum.
 
 
 ## Gegevensblokken bewerken

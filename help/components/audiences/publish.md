@@ -165,9 +165,9 @@ Customer Journey Analytics-publiek in platform weergeven:
 
    * Filter ![ Filter ](/help/assets/icons/Filter.svg) op **[!UICONTROL Origin]** en selecteer **[!UICONTROL Customer Journey Analytics]**.
 
-   * Gebruik het ![ 1} onderzoeksgebied van het Onderzoek {.](/help/assets/icons/Search.svg)
+   * Gebruik het ![ 1&rbrace; onderzoeksgebied van het Onderzoek &lbrace;.](/help/assets/icons/Search.svg)
 
-Voor meer informatie over het gebruiken van Soorten publiek in Platform, zie de ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) sectie van het publiek [ in de [ gids UI van de Bouwer van het Segment ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) in de documentatie van Experience Platform.
+Voor meer informatie over het gebruiken van Soorten publiek in Platform, zie de [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) sectie van het publiek  in de [ gids UI van de Bouwer van het Segment ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) in de documentatie van Experience Platform.
 
 ### Begrijp discrepanties in publiekscijfers
 

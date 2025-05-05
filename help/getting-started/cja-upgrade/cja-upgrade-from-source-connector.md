@@ -54,7 +54,7 @@ Na is het proces op hoog niveau voor het overschakelen van uitsluitend het gebru
 
 1. Wijs elke afmeting van Adobe Analytics van uw bron van Analytics aan de afmeting in het schema van SDK van het Web toe.
 
-   1. 
+   1. &#x200B;
       <!-- how do you get here -->
 
    1. Selecteer in de sectie **[!UICONTROL Map standard fields]** de tab **[!UICONTROL Custom]** .

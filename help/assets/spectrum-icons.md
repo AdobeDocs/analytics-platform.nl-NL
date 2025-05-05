@@ -17,7 +17,7 @@ ht-degree: 2%
 
 In deze tabel worden alle Spectrumpictogrammen weergegeven die beschikbaar zijn via de configuratie van Spectrumpictogrammen. Gebruik de naam om het fragment toe te voegen aan de markering en het pictogram Spectrum weer te geven.
 
-Kijk [ pagina van Wiki ](ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum+icons+in+documentation) voor om het even welke updates.
+Kijk [ pagina van Wiki ] (ttps://wiki.corp.adobe.com/display/omtrplatform/Use+Spectrum+icons+in+documentation) voor om het even welke updates.
 
 ![](https://reportbuilder.an.adobe.com/assets/AdobeAnalyticsLogo-80.png)
 

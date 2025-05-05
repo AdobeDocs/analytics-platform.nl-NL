@@ -25,7 +25,7 @@ Door eerder gemaakte soorten publiek te beheren, kunt u:
 * Insight van de winst in de **hoeveelheid tijd het nam om een publiek** van Customer Journey Analytics te produceren. En de hoeveelheid tijd die nodig was om het publiek in real-time klantplatform te laten verschijnen voor activeringsdoeleinden.
 * Zie of het publiek in Customer Journey Analytics **actief door het Platform van de Klant in real time** wordt gebruikt. Of (ideaal) Experience Platform-toepassingen die het publiek gebruiken dat door Customer Journey Analytics wordt gemaakt.
 
-Als u ](/help/technotes/access-control.md#user-level-access) toegang hebt van de Mening van het publiek [ {, kunt u publiek bekijken. Als u [ publiek hebt leidt tot ](/help/technotes/access-control.md#user-level-access) toegang, kunt u publiek uitgeven en schrappen.
+Als u [&#128279;](/help/technotes/access-control.md#user-level-access) toegang hebt van de Mening van het publiek  &lbrace;, kunt u publiek bekijken. Als u [ publiek hebt leidt tot ](/help/technotes/access-control.md#user-level-access) toegang, kunt u publiek uitgeven en schrappen.
 
 ## Soorten publiek weergeven in de lijst Soorten publiek
 
@@ -80,9 +80,9 @@ Het volgende is gemeenschappelijke acties in de Geplande Manager van Projecten. 
 
 | Pictogram | Handeling | Beschrijving |
 |:---:|---|---|
-| ![ Etiketten ](/help/assets/icons/Labels.svg) | **[!UICONTROL Tag]** | Label het geselecteerde publiek. In de **[!UICONTROL Update tags: *dialoog van de publieksnaam *]**, uitgezochte markeringen van het drop-down menu of type één of meerdere nieuwe markeringen. Selecteer **[!UICONTROL Save]**voor opslaan. |
+| ![ Etiketten ](/help/assets/icons/Labels.svg) | **[!UICONTROL Tag]** | Label het geselecteerde publiek. In de **[!UICONTROL Update tags: *dialoog van de publieksnaam *]**, uitgezochte markeringen van het drop-down menu of type één of meerdere nieuwe markeringen. Selecteer **[!UICONTROL Save]**&#x200B;voor opslaan. |
 | ![ Schrapping ](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Verwijder het geselecteerde publiek. |
-| ![ geeft ](/help/assets/icons/Edit.svg) uit | **[!UICONTROL Rename]** | Wijzig de naam van het geselecteerde publiek. Gebruik de **[!UICONTROL Rename: *dialoog van de publieksnaam *]**om het publiek anders te noemen en **[!UICONTROL Save]**te selecteren om te bewaren. |
+| ![ geeft ](/help/assets/icons/Edit.svg) uit | **[!UICONTROL Rename]** | Wijzig de naam van het geselecteerde publiek. Gebruik de **[!UICONTROL Rename: *dialoog van de publieksnaam *]**&#x200B;om het publiek anders te noemen en **[!UICONTROL Save]**&#x200B;te selecteren om te bewaren. |
 
 De volgende acties zijn beschikbaar op de blauwe actiebalk wanneer u een of meer geplande projecten selecteert.
 

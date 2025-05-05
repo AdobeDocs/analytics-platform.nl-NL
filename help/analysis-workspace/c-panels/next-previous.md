@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_In dit artikel wordt het deelvenster Het volgende of het vorige item in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_ beschreven.<br/>_Zie [het deelvenster](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/next-previous) Volgend of vorig item voor de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics-versie** van dit artikel._
+_In dit artikel wordt het deelvenster Het volgende of het vorige item in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_ beschreven.<br/>_Zie [het deelvenster](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/next-previous) Volgend of vorig item voor de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics-versie** van dit artikel._
 
 >[!ENDSHADEBOX]
 

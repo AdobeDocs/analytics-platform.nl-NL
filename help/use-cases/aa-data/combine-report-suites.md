@@ -15,7 +15,7 @@ ht-degree: 0%
 
 De [ bron van Analytics schakelaar ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) brengt de gegevens van de rapportreeks van Adobe Analytics in Adobe Experience Platform voor gebruik door de toepassingen van Adobe Experience Platform, zoals Real-time Customer Data Platform en Customer Journey Analytics (Customer Journey Analytics). Elke rapportreeks die in Adobe Experience Platform wordt gebracht wordt gevormd als individuele gegevensstroom van de bronverbinding, en elk dataflow land als dataset binnen het de gegevensmeer van Adobe Experience Platform. De bronschakelaar van de Analyse leidt tot één dataset per rapportreeks.
 
-De klanten van de Customer Journey Analytics gebruiken [ verbindingen ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) om datasets van het de gegevensmeer van Adobe Experience Platform in Customer Journey Analytics Analysis Workspace te integreren. Nochtans, wanneer het combineren van rapportsuites binnen een verbinding, schemaverschillen tussen rapportsuites moeten worden opgelost gebruikend de 1} functionaliteit van de Prep van de Gegevens van Adobe Experience Platform [ {. ](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html) Het doel is ervoor te zorgen dat Adobe Analytics-variabelen zoals props en eVars een consistente betekenis hebben in de Customer Journey Analytics.
+De klanten van de Customer Journey Analytics gebruiken [ verbindingen ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) om datasets van het de gegevensmeer van Adobe Experience Platform in Customer Journey Analytics Analysis Workspace te integreren. Nochtans, wanneer het combineren van rapportsuites binnen een verbinding, schemaverschillen tussen rapportsuites moeten worden opgelost gebruikend de 1&rbrace; functionaliteit van de Prep van de Gegevens van Adobe Experience Platform [ &lbrace;. ](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html) Het doel is ervoor te zorgen dat Adobe Analytics-variabelen zoals props en eVars een consistente betekenis hebben in de Customer Journey Analytics.
 
 ## Schemaverschillen tussen rapportsuites zijn problematisch
 
@@ -123,7 +123,7 @@ Gebruikend de Prep van Gegevens, kunt u de Categorie van de Klant in eVar 1 in d
 
    | &quot;Uitgebreid schema&quot; |
    | --- | 
-   | **klasse van de Gebeurtenis van de Ervaring 0} XDM** |
+   | **klasse van de Gebeurtenis van de Ervaring 0&rbrace; XDM** |
    | **het Malplaatje van de Gebeurtenis van de Ervaring van Adobe Analytics** gebiedsgroep |
 
 1. Maak een nieuwe veldgroep en voeg deze toe aan het schema. Velden toevoegen aan de veldgroep:
@@ -158,6 +158,6 @@ Gebruikend de Prep van Gegevens, kunt u de Categorie van de Klant in eVar 1 in d
 
 ## Data Prep vs. Component ID
 
-Zoals hierboven is beschreven, kunt u met Data Prep verschillende velden aan elkaar toewijzen in meerdere Adobe Analytics-rapportensuites. Dit is nuttig in Customer Journey Analytics wanneer u gegevens van veelvoudige datasets in één enkele verbinding van de Customer Journey Analytics wilt combineren. Nochtans, als u van plan bent om de rapportreeksen in afzonderlijke verbindingen van de Customer Journey Analytics te houden maar u één reeks rapporten over die verbindingen en gegevensmeningen wilt gebruiken, verstrekt het veranderen van onderliggende identiteitskaart van de Component in Customer Journey Analytics een manier om rapporten compatibel te maken zelfs als de schema&#39;s verschillend zijn. Zie {de Montages van de Component 0} ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html) voor meer informatie.[
+Zoals hierboven is beschreven, kunt u met Data Prep verschillende velden aan elkaar toewijzen in meerdere Adobe Analytics-rapportensuites. Dit is nuttig in Customer Journey Analytics wanneer u gegevens van veelvoudige datasets in één enkele verbinding van de Customer Journey Analytics wilt combineren. Nochtans, als u van plan bent om de rapportreeksen in afzonderlijke verbindingen van de Customer Journey Analytics te houden maar u één reeks rapporten over die verbindingen en gegevensmeningen wilt gebruiken, verstrekt het veranderen van onderliggende identiteitskaart van de Component in Customer Journey Analytics een manier om rapporten compatibel te maken zelfs als de schema&#39;s verschillend zijn. Zie {de Montages van de Component 0} [&#128279;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/overview.html) voor meer informatie.
 
 Het wijzigen van de Component ID is een functie met alleen Customer Journey Analytics en heeft geen invloed op de gegevens van de bronconnector van Analytics die naar Real-time klantprofiel en RTCDP wordt verzonden.

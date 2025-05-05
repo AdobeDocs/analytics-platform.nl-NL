@@ -52,7 +52,7 @@ De wijzigingen die u aanbrengt wanneer u de secties **[!UICONTROL Quick Edit]** 
 
 ### Gegevensweergaven
 
-Gegevensblokken trekken gegevens uit een geselecteerde gegevensweergave. Als de veelvoudige gegevensblokken in een aantekenvel worden geselecteerd en zij trekken geen gegevens van de zelfde gegevensmening, de **verbindingsvertoningen van de meningen van Gegevens**[!UICONTROL _ Veelvoud _]**.**
+Gegevensblokken trekken gegevens uit een geselecteerde gegevensweergave. Als de veelvoudige gegevensblokken in een aantekenvel worden geselecteerd en zij trekken geen gegevens van de zelfde gegevensmening, de **verbindingsvertoningen van de meningen van Gegevens**&#x200B;[!UICONTROL _ Veelvoud _]&#x200B;**.**
 
 Wanneer u de gegevensweergave wijzigt, nemen alle gegevensblokken in de selectie de nieuwe gegevensweergave over. Componenten in het gegevensblok worden op basis van ID aangepast aan de nieuwe gegevensweergave. Als een component niet in een gegevensblok wordt gevonden, wordt de component verwijderd en met **[!UICONTROL Invalid value]** vervangen of ![ AlertRed ](/help/assets/icons/AlertRed.svg) wordt getoond voor de specifieke component.
 
@@ -65,7 +65,7 @@ Als u de gegevensweergave wilt wijzigen, selecteert u een nieuwe gegevensweergav
 
 ### Segmenten
 
-De **verbinding van Segmenten** toont een summiere lijst van de segmenten die door de geselecteerde gegevensblokken worden gebruikt. Als de veelvoudige gegevensblokken met veelvoudige toegepaste segmenten worden geselecteerd, de **verbindingsvertoningen van segmenten**[!UICONTROL _ Veelvoudig _]**.**
+De **verbinding van Segmenten** toont een summiere lijst van de segmenten die door de geselecteerde gegevensblokken worden gebruikt. Als de veelvoudige gegevensblokken met veelvoudige toegepaste segmenten worden geselecteerd, de **verbindingsvertoningen van segmenten**&#x200B;[!UICONTROL _ Veelvoudig _]&#x200B;**.**
 
 >[!MORELIKETHIS]
 >

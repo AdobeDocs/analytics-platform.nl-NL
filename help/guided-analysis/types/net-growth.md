@@ -23,7 +23,7 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
-De ](/help/assets/icons/NetGrowth.svg) **[!UICONTROL Net growth]** analyse 0} NetGrowth verstrekt inzichten rond het tarief waarbij u gebruikers over een specifieke periode krijgt of verliest. ![ De horizontale as is een tijdinterval, terwijl de verticale as de meting van de groei is.
+De ![&#128279;](/help/assets/icons/NetGrowth.svg) **[!UICONTROL Net growth]** analyse 0&rbrace; NetGrowth verstrekt inzichten rond het tarief waarbij u gebruikers over een specifieke periode krijgt of verliest.  De horizontale as is een tijdinterval, terwijl de verticale as de meting van de groei is.
 
 Elk gegevenspunt vertegenwoordigt de netto groei, die met de volgende formule wordt berekend:
 

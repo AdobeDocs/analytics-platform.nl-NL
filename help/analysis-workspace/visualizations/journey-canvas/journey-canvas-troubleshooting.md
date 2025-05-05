@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Met de reiscanvasvisualisatie kunt u uitgebreide inzichten analyseren en verkrijgen over de reizen die u aan uw gebruikers en klanten biedt.
 
-Meer over het canvas van de Reis leren, zie {het overzicht van het 0} canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) en [ vormen een visualisatie van het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).[
+Meer over het canvas van de Reis leren, zie {het overzicht van het 0} canvas van de Reis [&#128279;](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) en [ vormen een visualisatie van het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
 
 De volgende informatie kan u helpen onbedoelde resultaten problemen oplossen u zou kunnen zien, zoals knopen die later in de reis komen die een hoger percentage of aantaltelling dan knopen tonen die vroeger in de reis komen.
 

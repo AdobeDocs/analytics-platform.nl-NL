@@ -24,11 +24,11 @@ ht-degree: 0%
 <!-- markdownlint-enable MD034 -->
 
 
-De ](/help/assets/icons/PeopleGroup.svg) **[!UICONTROL Active growth]** analyse 0} PeopleGroup verstrekt inzichten in de groei en de verwerving van gebruikers over een specifieke periode. ![ De horizontale as is een tijdinterval, terwijl de verticale as een maat van gebruikers is. Gebruikers worden opgesplitst in vier categorieën:
+De ![&#128279;](/help/assets/icons/PeopleGroup.svg) **[!UICONTROL Active growth]** analyse 0&rbrace; PeopleGroup verstrekt inzichten in de groei en de verwerving van gebruikers over een specifieke periode.  De horizontale as is een tijdinterval, terwijl de verticale as een maat van gebruikers is. Gebruikers worden opgesplitst in vier categorieën:
 
-* **[!UICONTROL New]**: De gebruiker was actief tijdens de huidige periode, maar niet eerder. Zie hoe ver de analyse terugkijkt door de muis boven _[!UICONTROL New users]_te houden in de diagramlegenda. Het terugkijkbereik wordt dynamisch bepaald op basis van het geselecteerde datumbereik en interval.
+* **[!UICONTROL New]**: De gebruiker was actief tijdens de huidige periode, maar niet eerder. Zie hoe ver de analyse terugkijkt door de muis boven _[!UICONTROL New users]_&#x200B;te houden in de diagramlegenda. Het terugkijkbereik wordt dynamisch bepaald op basis van het geselecteerde datumbereik en interval.
 * **[!UICONTROL Repeat]**: De gebruiker was actief in de huidige en onmiddellijk vorige periode.
-* **[!UICONTROL Return]**: De gebruiker was actief in de huidige periode en was niet actief in de onmiddellijk vorige periode, maar was voorheen actief op een bepaald punt. Zie hoe ver de analyse terugkijkt door de muis boven _[!UICONTROL Return users]_te houden in de diagramlegenda. Het terugkijkbereik wordt dynamisch bepaald op basis van het geselecteerde datumbereik en interval.
+* **[!UICONTROL Return]**: De gebruiker was actief in de huidige periode en was niet actief in de onmiddellijk vorige periode, maar was voorheen actief op een bepaald punt. Zie hoe ver de analyse terugkijkt door de muis boven _[!UICONTROL Return users]_&#x200B;te houden in de diagramlegenda. Het terugkijkbereik wordt dynamisch bepaald op basis van het geselecteerde datumbereik en interval.
 * **[!UICONTROL Dormant]**: De gebruiker was actief in de onmiddellijk vorige periode, maar is niet actief in de huidige periode. slapende gebruikers tellen niet mee voor het totale aantal actieve gebruikers.
 
 Alle actieve gebruikers (new + repeat + return) worden weergegeven als een tint boven de horizontale as, terwijl alle slapende gebruikers in oranje worden weergegeven onder de horizontale as.

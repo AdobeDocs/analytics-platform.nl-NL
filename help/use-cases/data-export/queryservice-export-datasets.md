@@ -21,13 +21,13 @@ Dit artikel schetst hoe de combinatie van de Dienst van de Vraag van het Experie
 - Gereedheid voor kunstmatig slim en machinaal leren.
 
 
-Adobe Analytics kan deze gebruiksgevallen uitvoeren gebruikend zijn ](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-overview) functionaliteit 0} van de Diefstal van Gegevens {. [ Gegevensfeeds zijn een krachtige manier om onbewerkte gegevens uit Adobe Analytics te halen. In dit artikel wordt beschreven hoe u vergelijkbare onbewerkte gegevens uit Experience Platform kunt ophalen, zodat u de hierboven vermelde gebruiksgevallen kunt implementeren. Indien van toepassing worden de in dit artikel beschreven functies vergeleken met Adobe Analytics Data Feeds om verschillen in gegevens en processen te verduidelijken.
+Adobe Analytics kan deze gebruiksgevallen uitvoeren gebruikend zijn [&#128279;](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-overview) functionaliteit 0&rbrace; van de Diefstal van Gegevens &lbrace;.  Gegevensfeeds zijn een krachtige manier om onbewerkte gegevens uit Adobe Analytics te halen. In dit artikel wordt beschreven hoe u vergelijkbare onbewerkte gegevens uit Experience Platform kunt ophalen, zodat u de hierboven vermelde gebruiksgevallen kunt implementeren. Indien van toepassing worden de in dit artikel beschreven functies vergeleken met Adobe Analytics Data Feeds om verschillen in gegevens en processen te verduidelijken.
 
 ## Inleiding
 
 Het uitvoeren van gegevens gebruikend de Dienst van de Vraag (Gegevens Distiller) en de uitvoer van Dataset bestaat uit:
 
-- het bepalen van a **geplande vraag** die de gegevens voor uw gegevensvoer als 2} de outputdataset van de outputdataset ](../assets/output-dataset.svg) produceert, gebruikend **Dienst van de Vraag**.![
+- het bepalen van a **geplande vraag** die de gegevens voor uw gegevensvoer als 2&rbrace; de outputdataset van de outputdataset ![&#128279;](../assets/output-dataset.svg) produceert, gebruikend **Dienst van de Vraag**.
 - het bepalen van de uitvoer van de a **geplande dataset** die de outputdataset naar een bestemming van de wolkenopslag uitvoert, gebruikend **de uitvoer van de Dataset**.
 
 ![ voer van Gegevens ](../assets/queryservice-export-datasets.svg)
@@ -47,7 +47,7 @@ Zorg ervoor dat u aan alle volgende vereisten voldoet voordat u de functionalite
 
 De Dienst van de Vraag van het Experience Platform staat u toe om het even welke dataset in het meer van de gegevens van het Experience Platform te vragen en zich aan te sluiten alsof het een gegevensbestandlijst is. Vervolgens kunt u de resultaten vastleggen als een nieuwe gegevensset voor verder gebruik in rapportage of voor export.
 
-U kunt het gebruikersinterface van de Dienst van de Vraag ](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/overview) gebruiken, a [ cliënt die door het protocol PostgresQL ](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/overview) wordt aangesloten, of [ RESTful APIs ](https://experienceleague.adobe.com/en/docs/experience-platform/query/api/getting-started) om vragen tot stand te brengen en te plannen die de gegevens voor uw gegevensvoer verzamelen.[
+U kunt het gebruikersinterface van de Dienst van de Vraag [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/overview) gebruiken, a [ cliënt die door het protocol PostgresQL ](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/overview) wordt aangesloten, of [ RESTful APIs ](https://experienceleague.adobe.com/en/docs/experience-platform/query/api/getting-started) om vragen tot stand te brengen en te plannen die de gegevens voor uw gegevensvoer verzamelen.
 
 ### Query maken
 

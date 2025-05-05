@@ -23,7 +23,7 @@ Informatie over een component weergeven in het gegevenswoordenboek:
 
    Het venster Gegevenswoordenboek wordt weergegeven.
 
-   {het venster van het Woordenboek van 0} Gegevens dat Snelle segmenten voor Afmetingen, Metriek, Segmenten, en de waaiers van de Datum toont ](assets/data-dictionary.png)![
+   {het venster van het Woordenboek van 0} Gegevens dat Snelle segmenten voor Afmetingen, Metriek, Segmenten, en de waaiers van de Datum toont ![&#128279;](assets/data-dictionary.png)
 
    <!--double-check this screenshot. I mocked the admin view up a bit to get rid of the Dictionary health tab.-->
 
@@ -31,7 +31,7 @@ Informatie over een component weergeven in het gegevenswoordenboek:
 
 1. (Optioneel) Typ in het zoekveld de naam van de component die u wilt weergeven.
 
-   Het type component kan door zowel kleur als pictogram worden geïdentificeerd. **het pictogram van Afmetingen ![ Dimension ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) is oranje,** Segmenten **![ het pictogram van het Segment ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) is blauw,** de waaiers van de Datum **](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) het de waaierpictogram van de Datum is paars, en** Metriek **![ Metrisch pictogram ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) is groen.**![ Het pictogram van Adobe ![ Adobe ](assets/default-calc-metric-icon.png) wijst op of een berekend metrisch malplaatje of een segmentmalplaatje, en het pictogram van de calculator ![ calculator ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) op berekende metrisch die door een beheerder Analytics in uw organisatie werd gecreeerd.
+   Het type component kan door zowel kleur als pictogram worden geïdentificeerd. **het pictogram van Afmetingen ![ Dimension ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) is oranje,** Segmenten **![ het pictogram van het Segment ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) is blauw,** de waaiers van de Datum **![&#128279;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) het de waaierpictogram van de Datum is paars, en** Metriek **![ Metrisch pictogram ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) is groen.** Het pictogram van Adobe ![ Adobe ](assets/default-calc-metric-icon.png) wijst op of een berekend metrisch malplaatje of een segmentmalplaatje, en het pictogram van de calculator ![ calculator ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) op berekende metrisch die door een beheerder Analytics in uw organisatie werd gecreeerd.
 
 1. (Facultatief) selecteer het **pictogram van de Filter ![ van het Woordenboek van de Filter van de Filter ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg), dan om het even welke volgende segmentopties om de lijst van componenten te filtreren:**
 

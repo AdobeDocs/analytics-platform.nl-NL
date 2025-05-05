@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!DNL Customer Journey Analytics BI extension] laat SQL toegang tot de [ gegevensmeningen ](./data-views.md) toe die u in Customer Journey Analytics hebt bepaald. Uw gegevensengineers en analisten zouden met Power BI, de Desktop van Tableau, of andere bedrijfsintelligentie en visualisatiehulpmiddelen (die verder als hulpmiddelen worden bedoeld BI) vertrouwd kunnen zijn. Ze kunnen nu rapporten en dashboards maken op basis van dezelfde gegevensweergaven die Customer Journey Analytics-gebruikers gebruiken bij het maken van hun Analysis Workspace-projecten.
 
-De Dienst van de Vraag van Adobe Experience Platform [ ](https://experienceleague.adobe.com/en/docs/experience-platform/query/home) is de SQL interface aan gegevens beschikbaar in het gegevensmeer van Experience Platform. Als [!DNL Customer Journey Analytics BI extension] ingeschakeld is, wordt de functionaliteit van [!DNL Query Service] uitgebreid om uw Customer Journey Analytics-gegevensweergaven als tabellen of weergaven in een [!DNL Query Service] -sessie te zien. Dit betekent dat hulpprogramma&#39;s voor bedrijfsintelligentie die [!DNL Query Service] als hun PostgresSQL-interface gebruiken, naadloos van deze uitgebreide functionaliteit profiteren.
+De Dienst van de Vraag van Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/query/home) is de SQL interface aan gegevens beschikbaar in het gegevensmeer van Experience Platform. Als [!DNL Customer Journey Analytics BI extension] ingeschakeld is, wordt de functionaliteit van [!DNL Query Service] uitgebreid om uw Customer Journey Analytics-gegevensweergaven als tabellen of weergaven in een [!DNL Query Service] -sessie te zien. Dit betekent dat hulpprogramma&#39;s voor bedrijfsintelligentie die [!DNL Query Service] als hun PostgresSQL-interface gebruiken, naadloos van deze uitgebreide functionaliteit profiteren.
 
 De belangrijkste voordelen zijn:
 
@@ -66,9 +66,9 @@ U kunt de functionaliteit direct in SQL verklaringen gebruiken gebruikend of de 
 
 In Adobe Experience Platform:
 
-1. Selecteer **[!UICONTROL ** Vragen **]** van **[!UICONTROL ** GEGEVENSBEHEER **]** in het linkerspoor.
+1. Selecteer **[!UICONTROL ** Vragen **]** van **[!UICONTROL **&#x200B; GEGEVENSBEHEER &#x200B;**]** in het linkerspoor.
 
-1. Selecteer ![ creëren Vraag ](assets/Smock_AddCircle_18_N.svg) **[!UICONTROL ** vraag **]** creëren.
+1. Selecteer ![ creëren Vraag ](assets/Smock_AddCircle_18_N.svg) **[!UICONTROL **&#x200B; vraag &#x200B;**]** creëren.
 
 1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in de vervolgkeuzelijst **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
 
@@ -81,13 +81,13 @@ In Adobe Experience Platform:
 
 1. Zoek en kopieer uw PostgresSQL-referenties in Adobe Experience Platform:
 
-   1. Selecteer **[!UICONTROL ** Vragen **]** van de linkerspoorlijn (onder **[!UICONTROL ** GEGEVENSBEHEER **]**).
+   1. Selecteer **[!UICONTROL ** Vragen **]** van de linkerspoorlijn (onder **[!UICONTROL **&#x200B; GEGEVENSBEHEER &#x200B;**]**).
 
-   1. Selecteer **[!UICONTROL ** Referenties **]** van de hoogste bar.
+   1. Selecteer **[!UICONTROL **&#x200B; Referenties &#x200B;**]** van de hoogste bar.
 
    1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in de vervolgkeuzelijst **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
 
-   1. Om het bevelkoord te kopiëren, gebruik ![ Exemplaar ](assets/Smock_Copy_18_N.svg) in de **[!UICONTROL ** bevel PSQL **]** sectie.
+   1. Om het bevelkoord te kopiëren, gebruik ![ Exemplaar ](assets/Smock_Copy_18_N.svg) in de **[!UICONTROL **&#x200B; bevel PSQL &#x200B;**]** sectie.
 
 1. Open een opdracht- of terminalvenster.
 
@@ -106,9 +106,9 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
 1. Bekijk de details van uw PostgresSQL geloofsbrieven in Adobe Experience Platform:
 
-   1. Selecteer **[!UICONTROL ** Vragen **]** van de linkerspoorlijn (onder **[!UICONTROL ** GEGEVENSBEHEER **]**).
+   1. Selecteer **[!UICONTROL ** Vragen **]** van de linkerspoorlijn (onder **[!UICONTROL **&#x200B; GEGEVENSBEHEER &#x200B;**]**).
 
-   1. Selecteer **[!UICONTROL ** Referenties **]** van de hoogste bar.
+   1. Selecteer **[!UICONTROL **&#x200B; Referenties &#x200B;**]** van de hoogste bar.
 
    1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in de vervolgkeuzelijst **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
 
@@ -116,28 +116,28 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
 1. In Power BI:
 
-   1. In het belangrijkste venster, uitgezochte **[!UICONTROL ** krijgt gegevens **]** van de hoogste toolbar.
+   1. In het belangrijkste venster, uitgezochte **[!UICONTROL **&#x200B; krijgt gegevens &#x200B;**]** van de hoogste toolbar.
 
    1. Selecteer **[!UICONTROL More...]** in het linkerspoor.
 
-   1. In **krijgt het 1} scherm van Gegevens {, onderzoek naar `PostgresSQL` en selecteer het **[!UICONTROL **gegevensbestand PostgresSQL **]**van de lijst.**
+   1. In **krijgt het 1&rbrace; scherm van Gegevens &lbrace;, onderzoek naar `PostgresSQL` en selecteer het **[!UICONTROL **gegevensbestand PostgresSQL &#x200B;**]&#x200B;**van de lijst.**
 
-   1. In het **[!UICONTROL ** PostgressSQL- gegevensbestand **]** dialoog:
+   1. In het **[!UICONTROL **&#x200B; PostgressSQL- gegevensbestand &#x200B;**]** dialoog:
 
-      1. Plak de **]** parameter van de Gastheer **[!UICONTROL ** van de Vragen van Experience Platform [!UICONTROL Credentials] op het **[!UICONTROL ** de tekstgebied van de Server **]**.
+      1. Plak de **&#x200B;**&#x200B;parameter van de Gastheer **&#x200B;**&#x200B;van de Vragen van Experience Platform [!UICONTROL Credentials] op het **[!UICONTROL **&#x200B; de tekstgebied van de Server &#x200B;**]**.
 
-      1. Plak de **]** parameter van het Gegevensbestand **[!UICONTROL ** {van de Vragen van Experience Platform [!UICONTROL Credentials] in het **[!UICONTROL ** 4} tekstgebied van het Gegevensbestand {.**]**
+      1. Plak de **&#x200B;**&#x200B;parameter van het Gegevensbestand **&#x200B;**&#x200B;{van de Vragen van Experience Platform [!UICONTROL Credentials] in het **[!UICONTROL **&#x200B; 4} tekstgebied van het Gegevensbestand &lbrace;.**]**
 
-         Voeg `?FLATTEN` aan de **[!UICONTROL ** 2} parameter van het Gegevensbestand {toe, zodat leest het als `prod:cja?FLATTEN` bijvoorbeeld. **]** Zie [ genestelde gegevensstructuren voor gebruik met de hulpmiddelen van derdeBI ](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
+         Voeg `?FLATTEN` aan de **[!UICONTROL **&#x200B; 2&rbrace; parameter van het Gegevensbestand &lbrace;toe, zodat leest het als `prod:cja?FLATTEN` bijvoorbeeld. &#x200B;**]** Zie [ genestelde gegevensstructuren voor gebruik met de hulpmiddelen van derdeBI ](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
 
       1. Selecteer **[!UICONTROL DirectQuery]** wanneer hierom wordt gevraagd voor de modus **[!UICONTROL Data Connectivity]** .
 
       1. U wordt gevraagd om **[!UICONTROL Username]** en **[!UICONTROL Password]** . Gebruik de equivalente parameters van Experience Platform Queries [!UICONTROL Credentials] .
 
 
-   1. Na succesvolle login, verschijnen de lijsten van de de gegevensmening van Customer Journey Analytics in de Navigator van Power BIs **[!UICONTROL ** **]**.
+   1. Na succesvolle login, verschijnen de lijsten van de de gegevensmening van Customer Journey Analytics in de Navigator van Power BIs **[!UICONTROL **&#x200B; **]**.
 
-   1. Selecteer de lijsten van de gegevensmening die u **[!UICONTROL ** Lading **]** wilt gebruiken en selecteren.
+   1. Selecteer de lijsten van de gegevensmening die u **[!UICONTROL **&#x200B; Lading &#x200B;**]** wilt gebruiken en selecteren.
 
    Alle dimensies en metriek die aan een of meer geselecteerde tabellen zijn gekoppeld, worden in het rechterdeelvenster weergegeven en kunnen in uw visualisaties worden gebruikt.
 
@@ -149,9 +149,9 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
 1. Bekijk de details van uw PostgresSQL geloofsbrieven in Adobe Experience Platform:
 
-   1. Selecteer **[!UICONTROL ** Vragen **]** van de linkerspoorlijn (onder **[!UICONTROL ** GEGEVENSBEHEER **]**).
+   1. Selecteer **[!UICONTROL ** Vragen **]** van de linkerspoorlijn (onder **[!UICONTROL **&#x200B; GEGEVENSBEHEER &#x200B;**]**).
 
-   1. Selecteer **[!UICONTROL ** Referenties **]** van de hoogste bar.
+   1. Selecteer **[!UICONTROL **&#x200B; Referenties &#x200B;**]** van de hoogste bar.
 
    1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in de vervolgkeuzelijst **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
 
@@ -159,29 +159,29 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
 1. In Tableau Desktop:
 
-   1. Selecteer **[!UICONTROL ** Meer **]** van **[!UICONTROL ** aan een Server **]** in het linkerspoor.
+   1. Selecteer **[!UICONTROL ** Meer **]** van **[!UICONTROL **&#x200B; aan een Server &#x200B;**]** in het linkerspoor.
 
-   1. Selecteer **[!UICONTROL ** PostgresSQL **]** van de lijst.
+   1. Selecteer **[!UICONTROL **&#x200B; PostgresSQL &#x200B;**]** van de lijst.
 
    1. In het dialoogvenster [!UICONTROL PostgresSQL] :
 
-      1. Plak de **]** parameter van de Gastheer **[!UICONTROL ** van de Vragen van Experience Platform [!UICONTROL Credentials] in het **[!UICONTROL ** de tekstgebied van de Server **]**.
+      1. Plak de **&#x200B;**&#x200B;parameter van de Gastheer **&#x200B;**&#x200B;van de Vragen van Experience Platform [!UICONTROL Credentials] in het **[!UICONTROL **&#x200B; de tekstgebied van de Server &#x200B;**]**.
 
-      1. Plak de **[!UICONTROL ** Poort **]** parameter van de Vragen van Experience Platform [!UICONTROL Credentials] in het **[!UICONTROL ** Poort **]** tekstgebied.
+      1. Plak de **[!UICONTROL ** Poort **]** parameter van de Vragen van Experience Platform [!UICONTROL Credentials] in het **[!UICONTROL **&#x200B; Poort &#x200B;**]** tekstgebied.
 
-      1. Plak de **]** parameter van het Gegevensbestand **[!UICONTROL ** {van de Vragen van Experience Platform [!UICONTROL Credentials] in het **[!UICONTROL ** 4} tekstgebied van het Gegevensbestand {.**]**
+      1. Plak de **&#x200B;**&#x200B;parameter van het Gegevensbestand **&#x200B;**&#x200B;{van de Vragen van Experience Platform [!UICONTROL Credentials] in het **[!UICONTROL **&#x200B; 4} tekstgebied van het Gegevensbestand &lbrace;.**]**
 
-         Voeg `%3FFLATTEN` aan de **[!UICONTROL ** 2} parameter van het Gegevensbestand {toe, zodat leest het als `prod:cja%3FFLATTEN` bijvoorbeeld. **]** Zie [ genestelde gegevensstructuren voor gebruik met de hulpmiddelen van derdeBI ](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
+         Voeg `%3FFLATTEN` aan de **[!UICONTROL **&#x200B; 2&rbrace; parameter van het Gegevensbestand &lbrace;toe, zodat leest het als `prod:cja%3FFLATTEN` bijvoorbeeld. &#x200B;**]** Zie [ genestelde gegevensstructuren voor gebruik met de hulpmiddelen van derdeBI ](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
 
-      1. Selecteer **[!UICONTROL ** Gebruikersnaam en Wachtwoord **]** van **[!UICONTROL ** Authentificatie **]** lijst.
+      1. Selecteer **[!UICONTROL ** Gebruikersnaam en Wachtwoord **]** van **[!UICONTROL **&#x200B; Authentificatie &#x200B;**]** lijst.
 
-      1. Plak **[!UICONTROL ** Gebruikersnaam **]** parameter van de Vragen van Experience Platform [!UICONTROL Credentials] in **[!UICONTROL ** Gebruikersnaam **]** tekstgebied.
+      1. Plak **[!UICONTROL ** Gebruikersnaam **]** parameter van de Vragen van Experience Platform [!UICONTROL Credentials] in **[!UICONTROL **&#x200B; Gebruikersnaam &#x200B;**]** tekstgebied.
 
-      1. Plak de **[!UICONTROL ** parameter van het Wachtwoord **]** van de Vragen van Experience Platform [!UICONTROL Credentials] in het **[!UICONTROL ** 4} tekstgebied van het Wachtwoord.**]**
+      1. Plak de **[!UICONTROL ** parameter van het Wachtwoord **]** van de Vragen van Experience Platform [!UICONTROL Credentials] in het **[!UICONTROL **&#x200B; 4&rbrace; tekstgebied van het Wachtwoord.**]**
 
-      1. Selecteer het **[!UICONTROL ** Teken binnen **]**.
+      1. Selecteer het **[!UICONTROL **&#x200B; Teken binnen &#x200B;**]**.
 
-   1. De gegevensmeningen van Customer Journey Analytics verschijnen omhoog als lijsten in de **[!UICONTROL ** Lijst **]** lijst.
+   1. De gegevensmeningen van Customer Journey Analytics verschijnen omhoog als lijsten in de **[!UICONTROL **&#x200B; Lijst &#x200B;**]** lijst.
 
    1. Sleep de tabellen die u op het canvas wilt gebruiken.
 
@@ -195,9 +195,9 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
 1. Bekijk de details van uw PostgresSQL geloofsbrieven in Adobe Experience Platform:
 
-   1. Selecteer **[!UICONTROL ** Vragen **]** van de linkerspoorlijn (onder **[!UICONTROL ** GEGEVENSBEHEER **]**).
+   1. Selecteer **[!UICONTROL ** Vragen **]** van de linkerspoorlijn (onder **[!UICONTROL **&#x200B; GEGEVENSBEHEER &#x200B;**]**).
 
-   1. Selecteer **[!UICONTROL ** Referenties **]** van de hoogste bar.
+   1. Selecteer **[!UICONTROL **&#x200B; Referenties &#x200B;**]** van de hoogste bar.
 
    1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in de vervolgkeuzelijst **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
 
@@ -222,9 +222,9 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
 1. Bekijk de details van uw PostgresSQL geloofsbrieven in Adobe Experience Platform:
 
-   1. Selecteer **[!UICONTROL ** Vragen **]** van de linkerspoorlijn (onder **[!UICONTROL ** GEGEVENSBEHEER **]**).
+   1. Selecteer **[!UICONTROL ** Vragen **]** van de linkerspoorlijn (onder **[!UICONTROL **&#x200B; GEGEVENSBEHEER &#x200B;**]**).
 
-   1. Selecteer **[!UICONTROL ** Referenties **]** van de hoogste bar.
+   1. Selecteer **[!UICONTROL **&#x200B; Referenties &#x200B;**]** van de hoogste bar.
 
    1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in de vervolgkeuzelijst **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
 
@@ -246,9 +246,9 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
 1. Bekijk de details van uw PostgresSQL geloofsbrieven in Adobe Experience Platform:
 
-   1. Selecteer **[!UICONTROL ** Vragen **]** van de linkerspoorlijn (onder **[!UICONTROL ** GEGEVENSBEHEER **]**).
+   1. Selecteer **[!UICONTROL ** Vragen **]** van de linkerspoorlijn (onder **[!UICONTROL **&#x200B; GEGEVENSBEHEER &#x200B;**]**).
 
-   1. Selecteer **[!UICONTROL ** Referenties **]** van de hoogste bar.
+   1. Selecteer **[!UICONTROL **&#x200B; Referenties &#x200B;**]** van de hoogste bar.
 
    1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in de vervolgkeuzelijst **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
 
@@ -316,7 +316,7 @@ De volgende extra standaardwaarden en beperkingen zijn van toepassing wanneer u 
 
 ### Ondersteunde SQL
 
-Zie {SQL van de Dienst van de Vraag 1} voor de volledige verwijzing op welk type van SQL wordt gesteund.[](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview)
+Zie {SQL van de Dienst van de Vraag 1} voor de volledige verwijzing op welk type van SQL wordt gesteund.[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview)
 
 Zie de onderstaande tabel voor voorbeelden van de SQL die u kunt gebruiken.
 
@@ -640,7 +640,7 @@ Deze functies kunnen worden gebruikt voor afmetingen in de component `SELECT` , 
 | [ Kwartaal ](https://spark.apache.org/docs/latest/api/sql/index.html#quarter) | ``SELECT QUARTER(`timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. |
 | [ Uur ](https://spark.apache.org/docs/latest/api/sql/index.html#hour) | ``SELECT HOUR(`timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. Gebruik de item-id in plaats van de waarde omdat u het nummer en niet de vriendschappelijke naam nodig hebt. |
 | [ Minuut ](https://spark.apache.org/docs/latest/api/sql/index.html#minute) | ``SELECT MINUTE(`timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. |
-| [ trekken ](https://spark.apache.org/docs/latest/api/sql/index.html#extract) | ``SELECT EXTRACT(MONTH FROM `timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. Gebruik de item-id in plaats van de waarde voor sommige onderdelen van deze functie omdat u het nummer nodig hebt en niet de vriendschappelijke naam.<br/> de gesteunde delen zijn:<br> - Trefwoorden: `YEAR`, `MONTH`, `DAYOFMONTH`, `DAYOFWEEK`, `DAYOFYEAR`, `WEEK`, `QUARTER`, `HOUR`, `MINUTE`.<br/> - Tekenreeksen: `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'` of 19}.`'MINUTE'` |
+| [ trekken ](https://spark.apache.org/docs/latest/api/sql/index.html#extract) | ``SELECT EXTRACT(MONTH FROM `timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. Gebruik de item-id in plaats van de waarde voor sommige onderdelen van deze functie omdat u het nummer nodig hebt en niet de vriendschappelijke naam.<br/> de gesteunde delen zijn:<br> - Trefwoorden: `YEAR`, `MONTH`, `DAYOFMONTH`, `DAYOFWEEK`, `DAYOFYEAR`, `WEEK`, `QUARTER`, `HOUR`, `MINUTE`.<br/> - Tekenreeksen: `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'` of 19&rbrace;.`'MINUTE'` |
 | [ Datum (deel) ](https://spark.apache.org/docs/latest/api/sql/index.html#date_part) | ``SELECT DATE_PART('month', `timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. Gebruik de item-id in plaats van de waarde voor sommige onderdelen van deze functie omdat u het nummer nodig hebt en niet de vriendschappelijke naam.<br/> Ondersteunde tekenreeksonderdelen zijn: `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'`, of `'MINUTE'` . |
 | [ Datum (beknot) ](https://spark.apache.org/docs/latest/api/sql/index.html#date_trunc) | ``SELECT DATE_TRUNC('quarter', `timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven.<br/> Ondersteunde tekenreeksgranulariteit is: `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'` of `'MINUTE'` . |
 

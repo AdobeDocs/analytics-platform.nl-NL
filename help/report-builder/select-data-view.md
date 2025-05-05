@@ -36,7 +36,7 @@ Als u een gegevensweergave in een cel wilt selecteren, maakt u eerst een gegeven
 
 1. Voeg een of meer gegevensweergaven van de **[!UICONTROL Select data views to add to data view from cell]** toe met slepen en neerzetten. U kunt ook een gegevensweergave selecteren om de gegevensweergave aan de lijst van **[!UICONTROL Data views included]** toe te voegen.
 
-   * U kunt ](/help/assets/icons/Search.svg) **[!UICONTROL _Uitgezochte gegevensmeningen van het 0} Onderzoek_]** gebruiken om naar gegevensmeningen te zoeken.![
+   * U kunt ![&#128279;](/help/assets/icons/Search.svg) **[!UICONTROL _Uitgezochte gegevensmeningen van het 0&rbrace; Onderzoek_]** gebruiken om naar gegevensmeningen te zoeken.
    * Gebruik ![ MoreSmall ](/help/assets/icons/MoreSmall.svg) om een contextmenu te openen zodat kunt u gegevensmeningen omhoog of onderaan in de **[!UICONTROL Data views included]** lijst bewegen.
    * Gebruik ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om een gegevensmening van de **[!UICONTROL Data views included]** lijst te schrappen.
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 # Beslissingsbeheer integreren
 
 
-Het Beheer van het Besluit van Adobe Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html) maakt verpersoonlijking gemakkelijk met een centrale bibliotheek van marketing aanbiedingen en een besluitvormingsmotor die regels en beperkingen op rijke, in real time profielen toepast die door Adobe Experience Platform worden gecreeerd om u te helpen uw klanten het juiste aanbod op het juiste ogenblik verzenden.[
+Het Beheer van het Besluit van Adobe Journey Optimizer [&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html) maakt verpersoonlijking gemakkelijk met een centrale bibliotheek van marketing aanbiedingen en een besluitvormingsmotor die regels en beperkingen op rijke, in real time profielen toepast die door Adobe Experience Platform worden gecreeerd om u te helpen uw klanten het juiste aanbod op het juiste ogenblik verzenden.
 
 Beslissingsbeheer is onderdeel van en geïntegreerd met Adobe Journey Optimizer. Het kan ook onafhankelijk van reizen en campagnes worden gebruikt die in Adobe Journey Optimizer worden bepaald, gebruikend zijn rijke [ API ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/getting-started.html) steun.
 
@@ -22,7 +22,7 @@ U kunt gegevens invoeren die door Beslissingsbeheer worden geproduceerd om geava
 
 ## Gegevens van Beslissingsbeheer naar Adobe Experience Platform verzenden
 
-Adobe Experience Platform fungeert als de centrale gegevensbron en als schakel tussen besluitvormingsbeheer en Customer Journey Analytics. De gegevens van het Beheer van het Besluit worden verzameld automatisch in Experience Platform **** of als deel van **uitdrukkelijk verzonden ervaringsgebeurtenissen** (bijvoorbeeld impressies of kliks). Zie [ Begonnen het worden met gegevensinzameling ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html) voor meer details.
+Adobe Experience Platform fungeert als de centrale gegevensbron en als schakel tussen besluitvormingsbeheer en Customer Journey Analytics. De gegevens van het Beheer van het Besluit worden verzameld automatisch in Experience Platform **&#x200B;**&#x200B;of als deel van **uitdrukkelijk verzonden ervaringsgebeurtenissen** (bijvoorbeeld impressies of kliks). Zie [ Begonnen het worden met gegevensinzameling ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/collect-event-data/data-collection.html) voor meer details.
 
 ## Verbinding maken
 

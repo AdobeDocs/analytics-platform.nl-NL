@@ -62,7 +62,7 @@ Om het gegevensblok te bouwen, selecteer rapportcomponenten, en pas dan de lay-o
 
 1. Voeg **[!UICONTROL Dimensions]** -, **[!UICONTROL Metrics]** - en **[!UICONTROL Segments]** -componenten toe.
 
-   Schuif de componentenlijsten of gebruik het ](/help/assets/icons/Search.svg) **[!UICONTROL _gebied van het Onderzoek van componenten_]** om van componenten de plaats te bepalen. ![ Sleep componenten naar het deelvenster [!UICONTROL Table] of selecteer een componentnaam in de lijst om de component aan het deelvenster [!UICONTROL Table] toe te voegen.
+   Schuif de componentenlijsten of gebruik het ![&#128279;](/help/assets/icons/Search.svg) **[!UICONTROL _gebied van het Onderzoek van componenten_]** om van componenten de plaats te bepalen.  Sleep componenten naar het deelvenster [!UICONTROL Table] of selecteer een componentnaam in de lijst om de component aan het deelvenster [!UICONTROL Table] toe te voegen.
 
    Selecteer een component tweemaal om de component aan een standaardsectie van de lijst toe te voegen.
 

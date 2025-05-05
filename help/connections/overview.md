@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Overzicht van verbindingen
 
-Via verbindingen kunnen Customer Journey Analytics-productbeheerders verbindingen tot stand brengen met verschillende [!DNL  Experience Platform] -gegevensbronnen, zoals gebeurtenissen, opzoekacties, profielen en samenvattingsgegevenssets. Deze verbindingen laten de integratie van gegevens van een verbinding aan een afgeleide gegevensmening toe. Verbindingen vormen de basis van Customer Journey Analytics en worden gemaakt op basis van [!DNL Experience Platform] brongegevenssets.
+Via verbindingen kunnen Customer Journey Analytics-productbeheerders verbindingen tot stand brengen met verschillende [!DNL &#x200B; Experience Platform] -gegevensbronnen, zoals gebeurtenissen, opzoekacties, profielen en samenvattingsgegevenssets. Deze verbindingen laten de integratie van gegevens van een verbinding aan een afgeleide gegevensmening toe. Verbindingen vormen de basis van Customer Journey Analytics en worden gemaakt op basis van [!DNL Experience Platform] brongegevenssets.
 
 >[!IMPORTANT]
 >
@@ -43,7 +43,7 @@ Op een hoog niveau kunt u met de workflow Verbindingen:
 | ➋ | [ inspecteer de details van een verbinding ](manage-connections.md#connection-details), als datasetverslagen die worden opgenomen, overgeslagen, of geschrapt. |
 | ➌ | [ creeer of geef de configuratie van een verbinding ](create-connection.md#create-or-edit-a-connection), als een het rollen gegevensvenster, zandbak om te gebruiken, die datasets deel van de verbinding, en meer uitmaken. |
 | ➍ | [ voegt datasets aan een verbinding ](create-connection.md#add-datasets) toe. Uw verbinding zou minstens één gebeurtenis of summiere dataset moeten hebben maar kan een verscheidenheid van gebeurtenis, profiel, raadpleging, en summiere datasets bevatten. |
-| ➎ | [ vorm de montages ](create-connection.md#dataset-settings) voor datasets die u toevoegt. U kunt bepalen hoe te om verschillende datasets te verbinden die op een gemeenschappelijke op persoon-gebaseerde of [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} op rekening-gebaseerde herkenningsteken worden gebaseerd. |
+| ➎ | [ vorm de montages ](create-connection.md#dataset-settings) voor datasets die u toevoegt. U kunt bepalen hoe te om verschillende datasets te verbinden die op een gemeenschappelijke op persoon-gebaseerde of [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} op rekening-gebaseerde herkenningsteken worden gebaseerd. |
 | ➏ | [ geeft de montages voor een bestaande dataset ](create-connection.md#edit-a-dataset) uit. U kunt de gegevenssetinstellingen altijd in een later stadium opnieuw bekijken. |
 
 

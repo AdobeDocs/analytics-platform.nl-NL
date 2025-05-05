@@ -60,7 +60,7 @@ Eerder zouden gehele getallen automatisch worden behandeld als metriek in Custom
 
 ## Numerieke afmetingen gebruiken als meetwaarden in stroomdiagrammen {#numeric}
 
-U kunt een numerieke dimensie gebruiken om meetgegevens in uw [!UICONTROL  Flow] visualisatie te krijgen.
+U kunt een numerieke dimensie gebruiken om meetgegevens in uw [!UICONTROL &#x200B; Flow] visualisatie te krijgen.
 
 1. Voor de Mening van Gegevens [ Componenten ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview) tabel, sleep het [!UICONTROL Marketing Channels] schemagebied in het [!UICONTROL Metrics] gebied onder [!UICONTROL Included components].
 2. In Workspace-rapportering toont deze flow [!UICONTROL Marketing Channels] die doorloopt in [!UICONTROL Orders] :

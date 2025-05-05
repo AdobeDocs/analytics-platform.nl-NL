@@ -26,13 +26,13 @@ De naam van mappen in Workspace wijzigen:
 * Selecteer een omslag die u in de [ lijst van het Project ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) wilt anders noemen.
 
    1. Selecteer **[!UICONTROL Rename]** van de [ acties ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions) beschikbaar van het contextmenu ![ Meer ](/help/assets/icons/More.svg) van de geselecteerde omslag, of de blauwe actiebar.
-   1. In de **[!UICONTROL Rename: *de omslagnaam *]**dialoog, ga een nieuwe naam in en selecteer **[!UICONTROL Save]**.
+   1. In de **[!UICONTROL Rename: *de omslagnaam *]**&#x200B;dialoog, ga een nieuwe naam in en selecteer **[!UICONTROL Save]**.
 
 * In de map waarvan u de naam wilt wijzigen.
 
    1. Selecteer **[!UICONTROL Rename folder]** van ![ Meer ](/help/assets/icons/More.svg) in het [ gebied van de Titel ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. In de **[!UICONTROL Rename: *omslagnaam *]**dialoog gaat een nieuwe naam in en selecteert **[!UICONTROL Save]**.
+   1. In de **[!UICONTROL Rename: *omslagnaam *]**&#x200B;dialoog gaat een nieuwe naam in en selecteert **[!UICONTROL Save]**.
 
 
 ## Mappen verplaatsen
@@ -78,5 +78,5 @@ Mappen verwijderen in Workspace:
 
    1. Selecteer **[!UICONTROL Delete folder]** van ![ Meer ](/help/assets/icons/More.svg) in het [ gebied van de Titel ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. In de **[!UICONTROL Delete *naam *omslag?]**selecteert u **[!UICONTROL OK]**.
+   1. In de **[!UICONTROL Delete *naam *omslag?]**&#x200B;selecteert u **[!UICONTROL OK]**.
 

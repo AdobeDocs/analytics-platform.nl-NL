@@ -51,7 +51,7 @@ Het totaal aantal records per tijdstempel moet overeenkomen met het aantal exemp
 >
 >Dit werkt voor regelmatige middentechnieken slechts, niet gestikte dataset (via [ het Stitching ](/help/stitching/overview.md)). Houd er rekening mee dat de boekhouding voor de persoon-id die in de Customer Journey Analytics wordt gebruikt van essentieel belang is voor het maken van de vergelijking. Dat is misschien niet altijd gemakkelijk om in Adobe Analytics te repliceren, vooral als Stitching is ingeschakeld.
 
-1. In de Diensten van de Vraag van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html), stel de volgende [!UICONTROL Total Records by timestamps] vraag in werking:[
+1. In de Diensten van de Vraag van Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html), stel de volgende [!UICONTROL Total Records by timestamps] vraag in werking:
 
    ```sql
    SELECT
@@ -85,7 +85,7 @@ Het totaal aantal records per tijdstempel moet overeenkomen met het aantal exemp
 
 ## Waarom records tijdens inname vanuit Adobe Experience Platform gefilterd of overgeslagen kunnen worden
 
-De Verbindingen van de Customer Journey Analytics [ ](/help/connections/create-connection.md) staan u toe om veelvoudige datasets samen te brengen en zich aan te sluiten die op gemeenschappelijke identiteitskaart van de Persoon over de datasets worden gebaseerd. Op het achterste eind, passen wij deduplicatie toe: volledige buitenste toetreden of verenigen op gebeurtenisdatasets die op timestamps worden gebaseerd, en dan binnengaan zich op profiel en raadplegingsdataset, die op identiteitskaart van de Persoon wordt gebaseerd.
+De Verbindingen van de Customer Journey Analytics [&#128279;](/help/connections/create-connection.md) staan u toe om veelvoudige datasets samen te brengen en zich aan te sluiten die op gemeenschappelijke identiteitskaart van de Persoon over de datasets worden gebaseerd. Op het achterste eind, passen wij deduplicatie toe: volledige buitenste toetreden of verenigen op gebeurtenisdatasets die op timestamps worden gebaseerd, en dan binnengaan zich op profiel en raadplegingsdataset, die op identiteitskaart van de Persoon wordt gebaseerd.
 
 Hier volgen enkele redenen waarom records kunnen worden overgeslagen bij het opnemen van gegevens uit Adobe Experience Platform.
 

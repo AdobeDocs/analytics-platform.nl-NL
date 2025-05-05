@@ -14,7 +14,7 @@ ht-degree: 0%
 # Segmenten beheren
 
 
-U kunt ](filters-share.md) delen, [ segment ](filters-filter.md), [ markering ](filters-tag.md), [ goedkeuren ](filters-approve.md), anders noemen, [ exemplaar ](filters-copy.md), schrappen, de segmenten en merken segmenten als [ favoriet ](filters-favorite.md) van een centrale [!UICONTROL Segment] beheersinterface. [ Segmenten beheren:
+U kunt [&#128279;](filters-share.md) delen, [ segment ](filters-filter.md), [ markering ](filters-tag.md), [ goedkeuren ](filters-approve.md), anders noemen, [ exemplaar ](filters-copy.md), schrappen, de segmenten en merken segmenten als [ favoriet ](filters-favorite.md) van een centrale [!UICONTROL Segment] beheersinterface.  Segmenten beheren:
 
 * Selecteer **[!UICONTROL Components]** in de hoofdinterface en selecteer vervolgens **[!UICONTROL Segments]** .
 

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Gebruik de [**[!UICONTROL Usage]**interface ](/help/connections/manage-connections.md#usage) aan** mening **het gebruik van opgenomen en te melden rijen over alle verbindingen in Customer Journey Analytics.
+>Gebruik de [**[!UICONTROL Usage]**&#x200B;interface ](/help/connections/manage-connections.md#usage) aan **&#x200B; mening &#x200B;** het gebruik van opgenomen en te melden rijen over alle verbindingen in Customer Journey Analytics.
 
 
 

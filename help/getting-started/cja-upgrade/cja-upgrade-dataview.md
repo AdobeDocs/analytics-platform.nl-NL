@@ -37,7 +37,7 @@ Een gegevensweergave maken:
 
 1. Op [!UICONTROL **vorm**] lusje, specificeer een naam voor de gegevensmening en vorm zijn basismontages, componenten, en kalenderopties.
 
-   Voor gedetailleerde informatie over elk gebied, zie [ ](/help/data-views/create-dataview.md#configure) vormen in [ creeer of geef een gegevensmening ](/help/data-views/create-dataview.md) uit.
+   Voor gedetailleerde informatie over elk gebied, zie [&#128279;](/help/data-views/create-dataview.md#configure) vormen in [ creeer of geef een gegevensmening ](/help/data-views/create-dataview.md) uit.
 
    ![ vorm gegevensmening ](assets/dataview-configure.png)
 

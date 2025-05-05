@@ -99,7 +99,7 @@ Voor meer informatie, zie [ Geplande projecten ](/help/components/scheduled-proj
 
 >[!NOTE]
 >
->De optie om een gepland project wachtwoord-te beschermen verschijnt slechts voor de klanten van de Customer Journey Analytics die het ](https://business.adobe.com/solutions/industries/healthcare.html) toe:voegen-op product van het Schild van de Gezondheidszorg van de 1} hebben gekocht.[
+>De optie om een gepland project wachtwoord-te beschermen verschijnt slechts voor de klanten van de Customer Journey Analytics die het [&#128279;](https://business.adobe.com/solutions/industries/healthcare.html) toe:voegen-op product van het Schild van de Gezondheidszorg van de 1&rbrace; hebben gekocht.
 
 De Adobe gebruikt het wachtwoord om geplande projecten te coderen, of zij in .pdf of .csv formaten worden verzonden.
 

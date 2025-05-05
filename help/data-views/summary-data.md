@@ -80,7 +80,7 @@ Door de samengevatte gebeurtenisgegevens te combineren met on-site clickstream-g
 
 Als u het gebruiken van een afmeting wilt melden die in een extra raadplegingsdataset (bijvoorbeeld, campagnenaam wordt bepaald), moet u deze extra stappen volgen:
 
-1. Creeer een nieuw afgeleid gebied dat de [ ](/help/data-views/derived-fields/derived-fields.md#lookup) functie van de Raadpleging gebruikt om de campagnenaam van de raadplegingsdataset te zoeken. In de definitie van de [ ](/help/data-views/derived-fields/derived-fields.md#lookup) functie van de Opzoeken gebruikt u de gelijke tussen campagnecode en het volgen code om de campagnenaam te zoeken.
+1. Creeer een nieuw afgeleid gebied dat de [&#128279;](/help/data-views/derived-fields/derived-fields.md#lookup) functie van de Raadpleging gebruikt om de campagnenaam van de raadplegingsdataset te zoeken. In de definitie van de [&#128279;](/help/data-views/derived-fields/derived-fields.md#lookup) functie van de Opzoeken gebruikt u de gelijke tussen campagnecode en het volgen code om de campagnenaam te zoeken.
 1. Voeg het nieuwe afgeleide gebied als afmetingscomponent aan uw gegevensmening toe.
 1. Vorm de de afmetingscomponent van de campagnenaam (van de raadplegingsdataset) om een summiere gegevens te hebben groeperen met het pas gecreëerde afgeleide gebied.
 
@@ -106,7 +106,7 @@ De tijdzone van uw summiere gegevens wordt bepaald op het summiere schemaniveau 
 - Voor de dagelijkse granulariteit gaat Experience Platform uit van UTC, tenzij een tijdzoneverschuiving is opgenomen in het tijdstempel. Wanneer het toevoegen van de summiere dataset die de dagelijkse summiere gegevens bevat, negeert Customer Journey Analytics de timezone die definitie op het schema wordt geplaatst en respecteert de dag verbonden aan timestamp van de gegevens in de dataset.
 - Voor granulariteit per uur respecteert Customer Journey Analytics de tijdzone die is geconfigureerd in het overzichtsgegevensschema in Experience Platform bij het interpreteren van de tijdstempel. In de onderstaande tabel staan enkele voorbeelden van deze interpretatie.
 
-  | Tijdstempel <br/> brongegevens | Tijdzone <br/> schema | Tijdstempel <br/> Platform van de Ervaring 1}<br/> | Tijdzone <br/> gegevens <br/> mening | De Analyse van de Stem van de Stem <br/> van de Klant <br><br/> |
+  | Tijdstempel <br/> brongegevens | Tijdzone <br/> schema | Tijdstempel <br/> Platform van de Ervaring 1&rbrace;<br/> | Tijdzone <br/> gegevens <br/> mening | De Analyse van de Stem van de Stem <br/> van de Klant <br><br/> |
   |---|---|---|:---|---|
   | 2024-07-29T01 :00: 00 | *gebrek GMT* | 2024-07-29T01 :00: 00 | GMT | 2024-07-29T01 :00: 00 |
   | 2024-07-29T01 :00: 00 | *gebrek GMT* | 2024-07-29T01 :00: 00 | PST | 2024-07-28T18 :00: 00 |
