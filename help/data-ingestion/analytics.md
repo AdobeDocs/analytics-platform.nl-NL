@@ -20,11 +20,11 @@ In deze snelstartgids wordt uitgelegd hoe u de gegevens kunt gebruiken die door 
 >
 >U hebt een Adobe Analytics-licentie en -implementatie op een of meer van uw websites, waarbij u een van de gedocumenteerde implementatiemethoden gebruikt:
 >
->- [ voert Analyses uit gebruikend Experience Platform Edge ](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html)
+>- [ voert Analyses uit gebruikend Experience Platform Edge ](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html?lang=nl-NL)
 >
->- [ voert Analyses uit gebruikend de uitbreiding van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html)
+>- [ voert Analyses uit gebruikend de uitbreiding van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=nl-NL)
 >
->- [ voert Analyses uit gebruikend JavaScript ](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html)
+>- [ voert Analyses uit gebruikend JavaScript ](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=nl-NL)
 
 Hiervoor moet u:
 
@@ -83,7 +83,7 @@ Zodra de verbinding wordt gecreeerd, wordt de dataflow automatisch gecreeerd om 
 
 Wanneer de eerste opname is voltooid, zijn de gegevens van uw Adobe Analytics-rapportenpakket klaar om door Customer Journey Analytics te worden gebruikt.
 
-Zie [ een Adobe Analytics bronverbinding in UI ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) voor een veel uitvoeriger leerprogramma tot stand brengen.
+Zie [ een Adobe Analytics bronverbinding in UI ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=nl-NL) voor een veel uitvoeriger leerprogramma tot stand brengen.
 
 
 ## Een verbinding instellen

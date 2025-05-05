@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Labels en beleid
 
-Wanneer u een dataset in Experience Platform creeert, kunt u creëren [gegevensgebruikslabels](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference) voor sommige of alle elementen in de gegevensset. U kunt deze labels en beleidsregels weergeven in de Customer Journey Analytics.
+Wanneer u een dataset in Experience Platform creeert, kunt u creëren [gegevensgebruikslabels](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/reference) voor sommige of alle elementen in de gegevensset. U kunt deze labels en beleidsregels weergeven in de Customer Journey Analytics.
 
 De volgende labels zijn van bijzonder belang voor de Customer Journey Analytics:
 
@@ -25,7 +25,7 @@ De volgende labels zijn van bijzonder belang voor de Customer Journey Analytics:
 >
 >De etiketten van het gebruik van gegevens worden niet automatisch verspreid aan stitched datasets. Deze kunnen echter handmatig worden toegevoegd.
 
-De etikettering op zich betekent niet dat deze etiketten van het gegevensgebruik worden afgedwongen. Daar wordt beleid voor gebruikt. U kunt uw beleid maken met de [UI EXPERIENCE PLATFORM](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/user-guide) of via de [Policy Service API](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/api/overview) in Experience Platform.
+De etikettering op zich betekent niet dat deze etiketten van het gegevensgebruik worden afgedwongen. Daar wordt beleid voor gebruikt. U kunt uw beleid maken met de [UI EXPERIENCE PLATFORM](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/policies/user-guide) of via de [Policy Service API](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/api/overview) in Experience Platform.
 
 Twee Adobe-bepaalde beleid zijn beschikbaar in Experience Platform dat in Customer Journey Analytics kan opduiken en rapportering en gegevensuitvoer kan beïnvloeden:
 
@@ -85,6 +85,6 @@ U moet eerst de schending oplossen (bijvoorbeeld de componenten uit de gegevensm
 
 >[!MORELIKETHIS]
 >
->[Wat zijn beperkte etiketten in Report Builder?](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-reportbuilder/restricted-labels)
+>[Wat zijn beperkte etiketten in Report Builder?](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-reportbuilder/restricted-labels)
 
 

@@ -28,7 +28,7 @@ CJA ontgrendelt rapport-tijd controle van de QM gegevens, opeenvolgende gegevens
 1. Navigeer naar [!UICONTROL Experience Platform] > [!UICONTROL Connections] > [!UICONTROL Sources] .
 1. Voeg de Metrische bronschakelaar van het Quantum toe, en volg de herinneringen aan voltooiing.
 
-Zie [ Adobe Experience Platform bronschakelaars ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) voor meer informatie.
+Zie [ Adobe Experience Platform bronschakelaars ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home) voor meer informatie.
 
 ## Stap 2: Een verbinding maken in Customer Journey Analytics
 
@@ -40,7 +40,7 @@ Het creëren van een bronschakelaar voor Metrische gegevens Quantum leidt automa
 1. Klik op **[!UICONTROL Save]**.
 
 >[!NOTE]
->Terwijl u Metrische gegevens Quantum aan de zelfde verbinding zoals de rest van uw gegevens van Customer Journey Analytics kunt toevoegen, kunnen die gegevens niet samen zonder gemeenschappelijke persoonsidentiteitskaart tussen de twee datasets worden vastgemaakt. Als dit gedrag wordt gewenst, adviseert Adobe het gebruiken van de [ uitbreiding van de Markering ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) in plaats van de bronschakelaar.
+>Terwijl u Metrische gegevens Quantum aan de zelfde verbinding zoals de rest van uw gegevens van Customer Journey Analytics kunt toevoegen, kunnen die gegevens niet samen zonder gemeenschappelijke persoonsidentiteitskaart tussen de twee datasets worden vastgemaakt. Als dit gedrag wordt gewenst, adviseert Adobe het gebruiken van de [ uitbreiding van de Markering ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/analytics/quantum-metric) in plaats van de bronschakelaar.
 
 ## Stap 3: Een gegevensweergave maken in Customer Journey Analytics
 

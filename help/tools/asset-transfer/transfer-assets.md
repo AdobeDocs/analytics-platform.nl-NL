@@ -93,7 +93,7 @@ Er zijn drie mogelijke resultaten voor een overdracht:
 
 Een van de belangrijkste gevallen van overdracht van activa is tijdens de upgrade van Adobe Analytics naar Customer Journey Analytics.
 
-De [ eigenschap van de Migratie van de Component ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/component-migration) in Adobe Analytics laat u beheer-Vertrouwde projecten aan andere beheerders migreren. Alle componenten waaruit deze projecten bestaan, worden vervolgens opnieuw gemaakt in Customer Journey Analytics en de beheerder van de ontvanger heeft al die componenten, ongeacht wie ze heeft gemaakt.
+De [ eigenschap van de Migratie van de Component ](https://experienceleague.adobe.com/nl/docs/analytics/admin/admin-tools/component-migration/component-migration) in Adobe Analytics laat u beheer-Vertrouwde projecten aan andere beheerders migreren. Alle componenten waaruit deze projecten bestaan, worden vervolgens opnieuw gemaakt in Customer Journey Analytics en de beheerder van de ontvanger heeft al die componenten, ongeacht wie ze heeft gemaakt.
 
 Dit hulpmiddel van de Overdracht van Activa laat later beheerders componenten aan hun rechtmatige eigenaars opnieuw toewijzen, of zij of niet worden beheerd.
 

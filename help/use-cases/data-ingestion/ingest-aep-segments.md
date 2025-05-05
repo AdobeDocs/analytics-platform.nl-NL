@@ -32,13 +32,13 @@ U hebt waarschijnlijk al een publiek in RTCP dat uit diverse bronnen kan zijn ge
 
 ## Stap 2: Maak een profielgegevensset voor Unie voor het exporteren
 
-Om het publiek naar een dataset uit te voeren die uiteindelijk aan een verbinding in Customer Journey Analytics kan worden toegevoegd, moet u een dataset creëren het waarvan schema een Profiel is [Unieschema](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html#understanding-union-schemas).
+Om het publiek naar een dataset uit te voeren die uiteindelijk aan een verbinding in Customer Journey Analytics kan worden toegevoegd, moet u een dataset creëren het waarvan schema een Profiel is [Unieschema](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=nl-NL#understanding-union-schemas).
 
 De schema&#39;s van de unie zijn samengesteld uit veelvoudige schema&#39;s die de zelfde klasse delen en voor Profiel toegelaten. Met het samenvoegingsschema kunt u een samenvoeging zien van alle velden in schema&#39;s die dezelfde klasse delen. Het Profiel van de Klant in real time gebruikt het verenigingsschema om een holistische mening van elke individuele klant tot stand te brengen.
 
 ## Stap 3: Exporteer een publiek naar de profielenset Unie via API-aanroep {#export}
 
-Alvorens u een publiek in Customer Journey Analytics kunt brengen, moet u het naar een dataset van Adobe Experience Platform uitvoeren. Dit kan alleen worden gedaan met de segmentatie-API, en met name met de [API-eindpunt voor taken exporteren](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html).
+Alvorens u een publiek in Customer Journey Analytics kunt brengen, moet u het naar een dataset van Adobe Experience Platform uitvoeren. Dit kan alleen worden gedaan met de segmentatie-API, en met name met de [API-eindpunt voor taken exporteren](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=nl-NL).
 
 U kunt een uitvoerbaan tot stand brengen gebruikend publiekidentiteitskaart van uw keus, en de resultaten in de dataset van de Vereniging van het Profiel plaatsen Adobe Experience Platform u in Stap 2 creeerde. Hoewel u verschillende kenmerken/gebeurtenissen voor het publiek kunt exporteren, hoeft u alleen het veld voor de specifieke profiel-id te exporteren dat overeenkomt met het veld voor de persoon-id dat wordt gebruikt in de Customer Journey Analytics-verbinding die u wilt gebruiken (zie onder in Stap 5).
 
@@ -89,6 +89,6 @@ U kunt nu rapporteren over `audienceMembershipId`, `audienceMembershipIdName` en
 * U zou dit proces op een regelmatige kadentie moeten uitvoeren, zodat de publieksgegevens constant binnen Customer Journey Analytics worden verfrist.
 * U kunt meerdere soorten publiek importeren binnen één Customer Journey Analytics-verbinding. Dit vergroot de complexiteit van het proces, maar het is mogelijk. Dit werkt alleen als u enkele wijzigingen aanbrengt in het bovenstaande proces:
    1. Voer dit proces voor elk gewenst publiek in uw publieksinzameling binnen RTCP uit.
-   1. Customer Journey Analytics ondersteunt arrays/objectarrays in profielgegevenssets. Een [array van objecten](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html) voor publiekMembershipId of publiekMembershipIdName is de beste optie.
+   1. Customer Journey Analytics ondersteunt arrays/objectarrays in profielgegevenssets. Een [array van objecten](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=nl-NL) voor publiekMembershipId of publiekMembershipIdName is de beste optie.
    1. Maak in de gegevensweergave een nieuwe dimensie met behulp van de subtekenreekstransformatie op het tabblad `audienceMembershipId` veld voor het omzetten van de tekenreeks met door komma&#39;s gescheiden waarden in een array. NOTA: er is momenteel een grens van 10 waarden in de serie.
    1. U kunt nu verslag uitbrengen over deze nieuwe dimensie `audienceMembershipIds` binnen de werkruimte van de Customer Journey Analytics.

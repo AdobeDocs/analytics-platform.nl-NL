@@ -18,7 +18,7 @@ In sommige gevallen hebben uitvoerende gebruikers wellicht extra hulp nodig om d
 
 ## Zorg ervoor dat gebruikers van apps toegang hebben tot Adobe Analytics
 
-1. Opstelling nieuwe gebruikers in [ Experience Cloud Admin Console ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html).
+1. Opstelling nieuwe gebruikers in [ Experience Cloud Admin Console ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=nl-NL).
 
 1. Om scorecards te kunnen delen, moet u app gebruikers toestemmingen verlenen om tot scorecard componenten zoals Analysis Workspace, de gegevensmeningen toegang te hebben die scorecards, evenals segmenten, metriek en dimensies gebaseerd zijn.
 

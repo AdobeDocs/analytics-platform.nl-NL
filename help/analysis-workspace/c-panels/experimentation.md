@@ -34,14 +34,14 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het paneel van de Experimentatie in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [ Analytics voor het paneel van het Doel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) voor informatie over hoe te om de activiteiten en de ervaringen van Adobe Target in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** te analyseren._
+_dit artikel documenteert het paneel van de Experimentatie in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [ Analytics voor het paneel van het Doel ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) voor informatie over hoe te om de activiteiten en de ervaringen van Adobe Target in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** te analyseren._
 
 >[!ENDSHADEBOX]
 
 
 In het deelvenster **[!UICONTROL Experimentation]** kunnen analisten verschillende gebruikerservaringen, marketing- of berichtvariaties vergelijken om te bepalen wat het beste is om een bepaald resultaat te bepalen. U kunt de lift en het vertrouwen evalueren van elk A/B-experiment vanuit elk testplatform: online, offline, vanuit Adobe-oplossingen zoals Target of Journey Optimizer, en zelfs via BYO-gegevens (uw eigen gegevens).
 
-Lees meer over de [ integratie tussen Adobe Customer Journey Analytics en Adobe Target ](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja).
+Lees meer over de [ integratie tussen Adobe Customer Journey Analytics en Adobe Target ](https://experienceleague.adobe.com/nl/docs/target/using/integrate/cja/target-reporting-in-cja).
 
 ## Toegangsbeheer {#access}
 
@@ -57,10 +57,10 @@ Als u het deelvenster voor experimenten wilt gebruiken, moet u aan de volgende v
 
 ### Verbinding maken om gegevenssets te experimenteren
 
-Het geadviseerde gegevensschema is voor de experimentatiegegevens om in een [ serie van Objecten ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/array) te zijn die het experiment en de variantgegevens in twee afzonderlijke dimensies bevat. Beide dimensies moeten in a **enige** objecten serie zijn. Als u uw experimentatiegegevens in één enkele afmeting (met experiment en variantgegevens in een afgebakend koord) hebt, kunt u [ substring ](/help/data-views/component-settings/substring.md) gebruiken plaatsend in gegevensmeningen om de afmeting in twee voor gebruik in het paneel te verdelen.
+Het geadviseerde gegevensschema is voor de experimentatiegegevens om in een [ serie van Objecten ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/ui/fields/array) te zijn die het experiment en de variantgegevens in twee afzonderlijke dimensies bevat. Beide dimensies moeten in a **enige** objecten serie zijn. Als u uw experimentatiegegevens in één enkele afmeting (met experiment en variantgegevens in een afgebakend koord) hebt, kunt u [ substring ](/help/data-views/component-settings/substring.md) gebruiken plaatsend in gegevensmeningen om de afmeting in twee voor gebruik in het paneel te verdelen.
 
 
-Nadat uw experimentatiegegevens [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home) in Adobe Experience Platform zijn opgenomen, [ creeer een verbinding in Customer Journey Analytics ](/help/connections/create-connection.md) aan één of meerdere experimentele datasets.
+Nadat uw experimentatiegegevens [&#128279;](https://experienceleague.adobe.com/nl/docs/experience-platform/ingestion/home) in Adobe Experience Platform zijn opgenomen, [ creeer een verbinding in Customer Journey Analytics ](/help/connections/create-connection.md) aan één of meerdere experimentele datasets.
 
 ### Contextlabels toevoegen in gegevensweergaven
 
@@ -105,7 +105,7 @@ Het deelvenster Experimentatie gebruiken:
    | **[!UICONTROL Experiment]** | Een reeks variaties op een ervaring die aan eindgebruikers werden blootgesteld om te bepalen welke het beste voor altijd kan worden bewaard. Een experiment bestaat uit twee of meer varianten, waarvan er één wordt beschouwd als de controlevariant. Deze instelling is vooraf ingevuld met de dimensies die zijn gelabeld met het **[!UICONTROL Experiment]** label in gegevensweergaven en de experimenteergegevens van de afgelopen 3 maanden. |
    | **[!UICONTROL Control variant]** | Een van de twee of meer wijzigingen in de ervaring van een eindgebruiker die worden vergeleken om het betere alternatief te identificeren. Er moet één variant worden geselecteerd als besturingselement en slechts één variant kan als controlevariant worden beschouwd. Deze instelling is vooraf ingevuld met de dimensies die zijn gelabeld met het **[!UICONTROL Variant]** label in gegevensweergaven. Met deze instelling worden de variantgegevens opgehaald die aan dit experiment zijn gekoppeld. |
    | **[!UICONTROL Success metrics]** ➊ | De metrische of metrische waarde waarmee een gebruiker varianten vergelijkt. De variant met het meest wenselijke resultaat voor metrische omzetting (of het hoogste of het laagste) wordt verklaard de *best presterende variant* van een experiment. U kunt maximaal vijf metriek toevoegen. |
-   | **[!UICONTROL Normalizing metric]** ➋ | De basis (**[!UICONTROL Global Account]** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Account]** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Opportunity]** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Buying Group]** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL People]**, **[!UICONTROL Sessions]**, of **[!UICONTROL Events]**) waarop een test loopt. Een test kan bijvoorbeeld de conversiesnelheden van verschillende variaties vergelijken, waarbij **[!UICONTROL Conversion rate]** wordt berekend als Paginaweergave. |
+   | **[!UICONTROL Normalizing metric]** ➋ | De basis (**[!UICONTROL Global Account]** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Account]** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Opportunity]** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Buying Group]** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL People]**, **[!UICONTROL Sessions]**, of **[!UICONTROL Events]**) waarop een test loopt. Een test kan bijvoorbeeld de conversiesnelheden van verschillende variaties vergelijken, waarbij **[!UICONTROL Conversion rate]** wordt berekend als Paginaweergave. |
    | **[!UICONTROL Include confidence upper/lower bounds]** | Schakel deze optie in om boven- en ondergrenzen voor betrouwbaarheidsniveaus weer te geven. |
 
 
@@ -178,7 +178,7 @@ Niet alle berekende meetgegevens zijn compatibel met het deelvenster Experimenta
 
 Berekende meetgegevens met een van de volgende meetwaarden of constanten zijn niet compatibel met het deelvenster Experimentatie:
 
-* De metriek van de basis van a [ summiere dataset ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/summary-data)
+* De metriek van de basis van a [ summiere dataset ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/summary-data)
 * De metriek van de basis die door elkaar worden verdeeld of samen worden vermenigvuldigd (bijvoorbeeld, `Revenue`/ `Orders`)
 * Constanten die worden opgeteld bij of afgetrokken van een basismetriek (bijvoorbeeld `Revenue+50`)
 * Een van de volgende basisstatistieken:

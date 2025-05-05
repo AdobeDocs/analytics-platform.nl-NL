@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Een B2B-voorbeeldproject
 
-Dit artikel illustreert een gebruiksgeval waar u in Customer Journey Analytics over persoongegevens binnen de context van een typische B2B configuratie wilt behoorlijk rapporteren. Zulk een configuratie maakt deel uit van [ Real-Time CDP B2B edition ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview).  Het gebruiksgeval verklaart hoe te opstelling, vorm en rapport over profiel (persoon) niveau gebaseerde B2B- gegevens in Customer Journey Analytics.
+Dit artikel illustreert een gebruiksgeval waar u in Customer Journey Analytics over persoongegevens binnen de context van een typische B2B configuratie wilt behoorlijk rapporteren. Zulk een configuratie maakt deel uit van [ Real-Time CDP B2B edition ](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview).  Het gebruiksgeval verklaart hoe te opstelling, vorm en rapport over profiel (persoon) niveau gebaseerde B2B- gegevens in Customer Journey Analytics.
 
 ## Verbinding
 
@@ -41,7 +41,7 @@ Bepaal uw verbinding om alle relevante B2B datasets van Experience Platform te o
 -->
 
 
-De verhouding tussen de B2B raadplegingsschema&#39;s, profielschema, en gebeurtenisschema wordt bepaald in de B2B opstelling binnen Experience Platform. Zie Schema&#39;s in [ Real-time Customer Data Platform B2B edition ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b) en [ bepalen een vele-aan-één verhouding tussen twee schema&#39;s in Real-time Customer Data Platform B2B edition ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b).
+De verhouding tussen de B2B raadplegingsschema&#39;s, profielschema, en gebeurtenisschema wordt bepaald in de B2B opstelling binnen Experience Platform. Zie Schema&#39;s in [ Real-time Customer Data Platform B2B edition ](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/schemas/b2b) en [ bepalen een vele-aan-één verhouding tussen twee schema&#39;s in Real-time Customer Data Platform B2B edition ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/tutorials/relationship-b2b).
 
 
 Om een correcte opstelling van een verbinding te verzekeren die op persoon-gebaseerde raadplegingen van uw B2B gegevens steunt, gebruik de volgende illustratie voor een overzicht en volg deze stappen:

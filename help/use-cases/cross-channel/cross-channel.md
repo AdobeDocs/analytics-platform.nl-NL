@@ -29,9 +29,9 @@ De analyse tussen kanalen laat één enkele geconsolideerde mening van klantenge
 
 ![ stroom van implementatiestappen zoals die in deze sectie wordt beschreven.](../assets/cca-architecture.png)
 
-1. [ creeer schema&#39;s ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) voor gegevens die moeten worden opgenomen.
-1. [ creeer datasets ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) voor gegevens die moeten worden opgenomen.
-1. [ Ingest gegevens in Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html):
+1. [ creeer schema&#39;s ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL) voor gegevens die moeten worden opgenomen.
+1. [ creeer datasets ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=nl-NL) voor gegevens die moeten worden opgenomen.
+1. [ Ingest gegevens in Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html?lang=nl-NL):
    1. Op gebeurtenis-gebaseerde gegevens ![ gebeurtenis ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg) van website of mobiele app door de Edge Network of de bron van Analytics schakelaar.
    2. De gegevens van het profiel ![ profiel ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) (bijvoorbeeld van een systeem van CRM, de toepassing van het vraagcentrum, loyaliteitstoepassing).
    3. Opzoekgegevens ![ raadpleging ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) (bijvoorbeeld productnaam, categorie van een systeem van de productinformatie).

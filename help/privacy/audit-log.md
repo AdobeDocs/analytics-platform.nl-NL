@@ -68,7 +68,7 @@ De volgende items worden weergegeven:
    * CREATE: Er is een handeling &quot;create&quot; uitgevoerd.
    * DELETE: er is een handeling &quot;delete&quot; uitgevoerd.
    * BEWERKEN: er is een bewerking &quot;bewerken&quot; uitgevoerd.
-   * EMBARGO: Wanneer u een verzoek in de [ Rapporterende Manager van de Activiteit ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests) beperkt, wordt de actie geregistreerd in het Logboek van de Controle onder EMBARGO.
+   * EMBARGO: Wanneer u een verzoek in de [ Rapporterende Manager van de Activiteit ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests) beperkt, wordt de actie geregistreerd in het Logboek van de Controle onder EMBARGO.
    * EXPORTEREN: er is een handeling &quot;exporteren&quot; uitgevoerd.
    * ORG_CHANGE: Er is een actie tot wijziging van de organisatie uitgevoerd.
    * REFRESH: Er is een actie &quot;vernieuwen&quot; uitgevoerd.
@@ -78,7 +78,7 @@ De volgende items worden weergegeven:
    * UNSHARE: Er is een handeling &quot;unshare&quot; uitgevoerd.
 * **[!UICONTROL Date Created]**: De datum en tijd waarop de actie is uitgevoerd.
 * **[!UICONTROL Description]**: Een overzicht van de handeling.
-* **[!UICONTROL User Name]**: De gebruiker die de handeling heeft uitgevoerd. Soms ontbreekt de gebruikersnaam. Overweeg het gebruiken van de [&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/product-usage/usage-overview) eigenschap van het Gebruik van het 0&rbrace; Product, aangezien het altijd de login gebruikersnaam omvat.
+* **[!UICONTROL User Name]**: De gebruiker die de handeling heeft uitgevoerd. Soms ontbreekt de gebruikersnaam. Overweeg het gebruiken van de [&#128279;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/tools/product-usage/usage-overview) eigenschap van het Gebruik van het 0&rbrace; Product, aangezien het altijd de login gebruikersnaam omvat.
 * **[!UICONTROL Email]**: Het e-mailadres van de gebruiker die de handeling heeft uitgevoerd.
 * **[!UICONTROL Component Name]**: De component waarop de gebruiker actie heeft uitgevoerd.
 * **[!UICONTROL Component Type]**: Het type component. Mogelijke waarden zijn:

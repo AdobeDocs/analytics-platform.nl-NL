@@ -28,9 +28,9 @@ Als voorbeeld kunt u een [Verbinding](../connections/overview.md) en [Gegevens, 
 
 1. Zorg ervoor dat u het juiste toegangsbeheer hebt:
 
-   * U moet systeem of productbeheerdervoorrechten voor een organisatie hebben die een product van de Experience Platform heeft. Zie [Overzicht van toegangsbeheer](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#platform-permissions) voor meer informatie .
+   * U moet systeem of productbeheerdervoorrechten voor een organisatie hebben die een product van de Experience Platform heeft. Zie [Overzicht van toegangsbeheer](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=nl-NL#platform-permissions) voor meer informatie .
 
-   * U moet een gebruiker in het AEP-Standaard-Alle-Gebruikers productprofiel zijn. Vraag uw beheerder als u niet de toestemmingen hebt om zich aan dit profiel toe te voegen. Zie [Toegangsbeheerhiërarchie en -workflow](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#access-control-hierarchy-and-workflow) voor meer informatie .
+   * U moet een gebruiker in het AEP-Standaard-Alle-Gebruikers productprofiel zijn. Vraag uw beheerder als u niet de toestemmingen hebt om zich aan dit profiel toe te voegen. Zie [Toegangsbeheerhiërarchie en -workflow](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=nl-NL#access-control-hierarchy-and-workflow) voor meer informatie .
 
 
 1. Navigeer naar de gebruikersinterface van het Adobe Experience Platform.

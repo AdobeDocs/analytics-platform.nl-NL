@@ -23,7 +23,7 @@ De configuratie van Content Analytics bestaat uit de volgende stappen:
 1. Slechts wanneer u [ manueel ](manual.md) het bezit van Markeringen publiceert, wordt uw configuratie van Content Analytics effectief opgesteld en de gegevensinzameling is begonnen.
 
 1. U kunt sommige minder belangrijke veranderingen in een uitgevoerde configuratie slechts aanbrengen gebruikend de [ geleide configuratie](guided.md) tovenaar. Bijvoorbeeld, verander de [ gegevensmening ](/help/data-views/data-views.md).
-1. U kunt andere veranderingen in een uitgevoerde configuratie aanbrengen gebruikend de [ uitbreiding van Adobe Content Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview) in het bijbehorende bezit van Markeringen.
+1. U kunt andere veranderingen in een uitgevoerde configuratie aanbrengen gebruikend de [ uitbreiding van Adobe Content Analytics ](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/extensions/client/content-analytics/overview) in het bijbehorende bezit van Markeringen.
 1. Slechts wanneer u [ manueel ](manual.md) het bezit van Markeringen opnieuw publiceert, worden de configuratiewijzigingen effectief opgesteld en de gegevensinzameling, die op uw veranderingen wordt gebaseerd, is begonnen.
 
 
@@ -32,12 +32,12 @@ De configuratie van Content Analytics bestaat uit de volgende stappen:
 Voordat u Content Analytics configureert, moet u controleren of aan de volgende voorwaarden is voldaan:
 
 * U hebt de gebruikersagent en IP adres voor de featurisatieservice toegestaan-vermeld die in de Analytics van de Inhoud wordt gebruikt. Het koord van de Agent van de Gebruiker om te vormen is: <code> AdobeFeaturization/1.0</code>.
-* Als u [ SDK van het Web gebruikend JavaScript ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library){target="_blank"} voor regelmatige gedragsgegevensinzameling hebt uitgevoerd, zorg ervoor u de standaardnaam <code> gebruikt.</code> voor de JavaScript-bibliotheek.
+* Als u [ SDK van het Web gebruikend JavaScript ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/install/library){target="_blank"} voor regelmatige gedragsgegevensinzameling hebt uitgevoerd, zorg ervoor u de standaardnaam <code> gebruikt.</code> voor de JavaScript-bibliotheek.
 * U hebt een Customer Journey Analytics Product Administrator-rol, met de extra machtigingen om verbindingen te beheren en gegevensweergaven te beheren.
 * Als u overweegt om de ervaringen van Content Analytics te verzamelen, zorg u opstelling en werk [ Content Analytics versioning ](manual.md#versioning) bij die op veranderingen op uw Web-pagina&#39;s wordt gebaseerd.
-* U moet [ toestemmingen voor gegevensinzameling ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions){target="_blank"} hebben:
-   * [ de toestemmingen van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}
-   * [ de toestemmingen van de Inzameling van Gegevens van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}
+* U moet [ toestemmingen voor gegevensinzameling ](https://experienceleague.adobe.com/nl/docs/experience-platform/collection/permissions){target="_blank"} hebben:
+   * [ de toestemmingen van Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}
+   * [ de toestemmingen van de Inzameling van Gegevens van Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}
 * U hebt zorgvuldig de volgende belangrijke configuratieopties overwogen:
 
    * Uw site is geschikt voor ervaringsrapporten. Een correcte rapportage van de ervaring is alleen mogelijk als aan de volgende voorwaarden is voldaan:

@@ -33,6 +33,6 @@ Zodra de Dataset van de Gebeurtenis van de Classificatie van het Doel aan een Ve
 
 ## Meer gedetailleerde informatie
 
-Zie [ Doel rapporterend in Adobe Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja) in de documentatie van het Doel voor meer informatie.
+Zie [ Doel rapporterend in Adobe Customer Journey Analytics ](https://experienceleague.adobe.com/nl/docs/target/using/integrate/cja/target-reporting-in-cja) in de documentatie van het Doel voor meer informatie.
 
 Zie het [ paneel van de Experimentatie ](../analysis-workspace/c-panels/experimentation.md) voor meer informatie over hoe de analisten verschillende gebruikerservaring, marketing, of overseinenvariaties kunnen vergelijken om te bepalen wat het best in het drijven van een specifiek resultaat is. U kunt de lift en het vertrouwen van om het even welk A/B experiment van om het even welk experimentatieplatform evalueren - online, off-line, van Adobe oplossingen zoals Doel of Journey Optimizer, en zelfs (breng-uw-eigen) gegevens BYO.

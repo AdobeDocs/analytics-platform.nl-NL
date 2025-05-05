@@ -27,10 +27,10 @@ Sommige firewallconfiguraties blokkeren domeinen die de Customer Journey Analyti
 
 ## Adobe Experience Cloud-domeinen
 
-Naast de bovengenoemde domeinen, baseert Adobe Experience Cloud zich op verscheidene domeinen voor gegevensinzameling en het uitvoeren rapporten. Zie [Door de Adobe Experience Cloud gebruikte domeinen](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) voor deze lijst met domeinen.
+Naast de bovengenoemde domeinen, baseert Adobe Experience Cloud zich op verscheidene domeinen voor gegevensinzameling en het uitvoeren rapporten. Zie [Door de Adobe Experience Cloud gebruikte domeinen](https://experienceleague.adobe.com/nl/docs/core-services/interface/data-collection/domains) voor deze lijst met domeinen.
 
 >[!MORELIKETHIS]
 >
 >[IP adressen die door Customer Journey Analytics worden gebruikt](ip-addresses.md)
 >
->[Door de Adobe Experience Cloud gebruikte domeinen](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)
+>[Door de Adobe Experience Cloud gebruikte domeinen](https://experienceleague.adobe.com/nl/docs/core-services/interface/data-collection/domains)

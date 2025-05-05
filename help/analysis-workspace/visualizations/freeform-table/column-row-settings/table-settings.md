@@ -90,4 +90,4 @@ De volgende aanvullende opties in contextmenu&#39;s zijn beschikbaar wanneer u e
 
 ## Rijhoogte wijzigen
 
-U kunt de weergavedichtheid van een project instellen op **[!UICONTROL Compact]** , **[!UICONTROL Comfortable]** en **[!UICONTROL Expanded]** . [ leer meer ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density).
+U kunt de weergavedichtheid van een project instellen op **[!UICONTROL Compact]** , **[!UICONTROL Comfortable]** en **[!UICONTROL Expanded]** . [ leer meer ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density).

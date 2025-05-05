@@ -144,4 +144,4 @@ Deze pagina omvat ip adressen u aan uw lijst van gewenste personen moet toevoege
 >
 >[ Domeinen die door Customer Journey Analytics ](domains.md) worden gebruikt
 >
->[ IP adressen die door Adobe Experience Cloud ](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses) worden gebruikt
+>[ IP adressen die door Adobe Experience Cloud ](https://experienceleague.adobe.com/nl/docs/core-services/interface/data-collection/ip-addresses) worden gebruikt

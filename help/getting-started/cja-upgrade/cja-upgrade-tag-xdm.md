@@ -29,7 +29,7 @@ Na [ het creëren van de markering en het toevoegen van de uitbreiding van SDK v
 
 ## Gegevenselementen configureren
 
-Gegevenselementen zijn de bouwstenen voor uw gegevenswoordenboek (of gegevenskaart). Gebruik gegevenselementen om gegevens te verzamelen, te organiseren en te leveren over marketing- en advertentietechnologie. U stelt gegevenselementen in uw tag in die worden gelezen van uw gegevenslaag en die kunnen worden gebruikt om gegevens naar Adobe Experience Platform te verzenden. (Voor meer informatie over gegevenselementen, zie [ elementen van Gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements) in de Documentatie van Markeringen.)
+Gegevenselementen zijn de bouwstenen voor uw gegevenswoordenboek (of gegevenskaart). Gebruik gegevenselementen om gegevens te verzamelen, te organiseren en te leveren over marketing- en advertentietechnologie. U stelt gegevenselementen in uw tag in die worden gelezen van uw gegevenslaag en die kunnen worden gebruikt om gegevens naar Adobe Experience Platform te verzenden. (Voor meer informatie over gegevenselementen, zie [ elementen van Gegevens ](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/ui/data-elements) in de Documentatie van Markeringen.)
 
 De volgende secties beschrijven voorgestelde gegevenselementen en andere gemeenschappelijke gegevenselementen die u kunt vormen.
 
@@ -213,7 +213,7 @@ Een regel definiëren:
 >
 >U kunt regels op verschillende manieren in uw tag gebruiken om variabelen te bewerken (met behulp van uw gegevenselementen).
 >
->Zie [ Regels ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html) voor meer informatie.
+>Zie [ Regels ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=nl-NL) voor meer informatie.
 
 1. Meld u aan bij experience.adobe.com met uw Adobe ID-referenties.
 
@@ -257,7 +257,7 @@ Een regel definiëren:
 
 1. Herhaal dit proces voor elke regel die u aan uw site wilt toevoegen.
 
-   Voor meer informatie over regels, zie [ Regels ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules) in de Documentatie van Markeringen.
+   Voor meer informatie over regels, zie [ Regels ](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/ui/rules) in de Documentatie van Markeringen.
 
 1. Ga met [ verder bouw en publiceer uw markering ](#build-and-publish-your-tag).
 
@@ -265,7 +265,7 @@ Een regel definiëren:
 
 Nadat u gegevenselementen en regels hebt gedefinieerd, moet u de tag maken en publiceren. Wanneer u een bibliotheek maakt, moet u deze toewijzen aan een omgeving. De uitbreidingen, de regels, en de gegevenselementen van de bouwstijl worden dan gecompileerd en in het toegewezen milieu geplaatst. Elke omgeving bevat een unieke insluitcode waarmee u de toegewezen build in uw site kunt integreren.
 
-Adobe Experience Platform-tags ondersteunen eenvoudige tot complexe publicatieworkflows die geschikt zijn voor uw implementatie van Adobe Experience Platform Web SDK. Zie [ het Publiceren overzicht ](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html) voor meer informatie.
+Adobe Experience Platform-tags ondersteunen eenvoudige tot complexe publicatieworkflows die geschikt zijn voor uw implementatie van Adobe Experience Platform Web SDK. Zie [ het Publiceren overzicht ](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=nl-NL) voor meer informatie.
 
 Om uw markering te bouwen en te publiceren:
 

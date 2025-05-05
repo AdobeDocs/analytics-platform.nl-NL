@@ -92,7 +92,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de gegevens v
 >
 >Als u van plan bent om zowel historische als levende het stromen gegevens van Google Analytics in te voeren, zorg ervoor dat u het zelfde schema voor beide datasets gebruikt. U kunt de datasets in Customer Journey Analytics samenvoegen gebruikend a [ Gecombineerde dataset ](/help/connections/combined-dataset.md).
 
-U kunt de GA gebeurtenisgegevens in een bestaande dataset in kaart brengen die u eerder creeerde, of een dataset tot stand brengen, gebruikend welk schema XDM u kiest. Zodra u het schema hebt geselecteerd, past Experience Platform machine het leren toe om elk van de gebieden in de gegevens van Google Analytics aan uw [ XDM schema ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html#ui) automatisch pre-in kaart te brengen.
+U kunt de GA gebeurtenisgegevens in een bestaande dataset in kaart brengen die u eerder creeerde, of een dataset tot stand brengen, gebruikend welk schema XDM u kiest. Zodra u het schema hebt geselecteerd, past Experience Platform machine het leren toe om elk van de gebieden in de gegevens van Google Analytics aan uw [ XDM schema ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl-NL#ui) automatisch pre-in kaart te brengen.
 
 ![ kaart van het Schema die de GA gegevensgebieden en de het schemaafbeeldingen van het Doel benadrukt ](../../assets/schema-map.png)
 

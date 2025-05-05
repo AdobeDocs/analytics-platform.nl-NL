@@ -37,4 +37,4 @@ We houden van bijdragen van onze gemeenschap! Als u een stap verder zou willen g
 
 ## Beveiligingsproblemen
 
-Beveiligingsproblemen moeten niet worden gemeld voor deze kwestie. In plaats daarvan, [dossier een kwestie aan onze veiligheidsdeskundigen](https://helpx.adobe.com/security/alertus.html)
+Beveiligingsproblemen moeten niet worden gemeld voor deze kwestie. In plaats daarvan, [dossier een kwestie aan onze veiligheidsdeskundigen](https://helpx.adobe.com/nl/security/alertus.html)

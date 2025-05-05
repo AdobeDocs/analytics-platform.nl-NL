@@ -440,4 +440,4 @@ Als u `product_finding_method` echter bindt aan de optie Winkelwagentje, wordt m
 
 >[!MORELIKETHIS]
 >
->[ Bindende Dimensionen in de Mening van Gegevens ](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html) leerprogramma.
+>[ Bindende Dimensionen in de Mening van Gegevens ](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html?lang=nl-NL) leerprogramma.

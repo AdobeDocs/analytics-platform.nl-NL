@@ -66,7 +66,7 @@ Alle gedeelde afmetingen en metriek worden weergegeven onder de vier overzichtsk
    * **[!UICONTROL Description]**: De [ beschrijving ](/help/data-views/component-settings/overview.md) van de component.
    * **[!UICONTROL Context labels]**: De [ contextetiketten ](/help/data-views/component-settings/overview.md) voor de component.
    * **[!UICONTROL Include/Exclude values]**: Maakt een lijst van het aantal regels zoals die onder [ worden gespecificeerd omvat/sluit waarden ](/help/data-views/component-settings/include-exclude-values.md) uit.
-   * **[!UICONTROL Data usage labels]**: De [ etiketten van het gegevensgebruik ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview) voor het schemagebied.
+   * **[!UICONTROL Data usage labels]**: De [ etiketten van het gegevensgebruik ](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview) voor het schemagebied.
    * **[!UICONTROL Deprecated]**: geeft aan of de afgekeurde markering is ingesteld.
    * **[!UICONTROL Format]**: De indeling waarin waarden worden weergegeven. Boeken worden meestal weergegeven als `True | False`, metriek wordt meestal weergegeven als `Decimal` , enzovoort.
    * **[!UICONTROL Metric deduplication]**: De [ Metrische deduplicatie ](/help/data-views/component-settings/metric-deduplication.md) montages van de component &lbrace;.

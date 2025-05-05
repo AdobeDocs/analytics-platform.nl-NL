@@ -53,7 +53,7 @@ De volgende parameters regelen de toegang tot de Data Insights Agent in Customer
 
 * **Contractuele toegang**: Als u niet de Agent van Gegevens van Inzichten in de Medewerker kunt gebruiken AI, gelieve de beheerder van uw organisatie of de Vertegenwoordiger van de Rekening van Adobe te contacteren. Voordat uw organisatie de Data Insights Agent kan gebruiken, moet u akkoord gaan met bepaalde juridische voorwaarden die betrekking hebben op GenAI.
 
-* **Toestemmingen**: In [!UICONTROL Adobe Admin Console], bepaalt de [!UICONTROL Reporting Tools] **[!UICONTROL AI Assistant: Data visualization]** toestemming toegang tot dit hulpmiddel. Admin van het a [ productprofiel ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) moet deze stappen in [!UICONTROL Admin Console] volgen:
+* **Toestemmingen**: In [!UICONTROL Adobe Admin Console], bepaalt de [!UICONTROL Reporting Tools] **[!UICONTROL AI Assistant: Data visualization]** toestemming toegang tot dit hulpmiddel. Admin van het a [ productprofiel ](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) moet deze stappen in [!UICONTROL Admin Console] volgen:
    1. Ga naar **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]**
    1. Selecteer de titel van het productprofiel waartoe u toegang wilt verlenen aan [!UICONTROL AI Assistant: Product Knowledge] .
    1. Selecteer **[!UICONTROL Permissions]** in het specifieke productprofiel.
@@ -86,7 +86,7 @@ Zie [ controle van de Toegang ](/help/technotes/access-control.md#access-control
 
    * **[!UICONTROL AI Assistant: Data Analysis]**
 
-   Voor extra details, kunnen de beheerders [ deze instructies ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access) zien.
+   Voor extra details, kunnen de beheerders [ deze instructies ](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/access) zien.
 
    ![ AI Hulp pictogram ](/help/assets/ai-asst-icon.png)
 

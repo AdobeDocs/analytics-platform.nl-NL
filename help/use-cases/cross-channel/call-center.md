@@ -33,7 +33,7 @@ Customer Journey Analytics biedt het waardevolle en robuuste vermogen om dataset
 
 ## Web- en callcentgegevens importeren in Platform
 
-Importeer uw gegevens naar Adobe Experience Platform. Zie [ een schema ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) en [ Samenvatting gegevens ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) in de documentatie van Adobe Experience Platform creëren.
+Importeer uw gegevens naar Adobe Experience Platform. Zie [ een schema ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL) en [ Samenvatting gegevens ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=nl-NL) in de documentatie van Adobe Experience Platform creëren.
 
 Als u gegevens importeert in Platform, kunt u met de volgende tips insight in resulterende rapporten doen toenemen:
 

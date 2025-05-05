@@ -40,5 +40,5 @@ De gefaseerde versies laten Adobe toe om het proces van de softwareplaatsing bet
 
 | Vraag | Antwoord |
 | --- | --- |
-| Kan ik vroege toegang tot een eigenschap vragen? | Nee. Vroegtijdige toegang wordt niet verleend.<br>Als u de concepten van de vroege Analyse wilt testen, moedigen wij u aan om te proberen [Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/labs.html) om feedback te geven over onze toonaangevende innovaties. |
+| Kan ik vroege toegang tot een eigenschap vragen? | Nee. Vroegtijdige toegang wordt niet verleend.<br>Als u de concepten van de vroege Analyse wilt testen, moedigen wij u aan om te proberen [Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/labs.html?lang=nl-NL) om feedback te geven over onze toonaangevende innovaties. |
 | Heeft deze releasestrategie invloed op mijn toegang tot functies? | Nee. Zodra een functie GA heeft bereikt, hebt u toegang tot de functie als deze in het pakket Analytics is opgenomen. |

@@ -22,7 +22,7 @@ Door Quantum Metric-sessiereplay te koppelen aan CJA-gegevens, kunnen klanten be
 
 Bij deze stappen wordt ervan uitgegaan dat u tags gebruikt in de gegevensverzameling van Adobe Experience Platform. U kunt deze methodes van de gegevensinzameling in een handmatige implementatie van SDK van het Web aanpassen als uw organisatie geen markeringen gebruikt.
 
-Zie de [ Metrische de markeringsuitbreiding van het Quantum ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) documentatie voor meer informatie.
+Zie de [ Metrische de markeringsuitbreiding van het Quantum ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/analytics/quantum-metric) documentatie voor meer informatie.
 
 ## Stap 1: Maak een schemaveld om de metrische sessie-id van Quantum aan te passen
 

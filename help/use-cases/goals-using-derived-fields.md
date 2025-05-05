@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Dit gebruiksgeval beschrijft hoe te om de macht van afgeleide gebieden te gebruiken om doelstellingen voor een specifieke dimensie te plaatsen en dan deze doelstellingen in uw project van de Werkruimte te gebruiken.
 
-Als u niet vertrouwd bent met afgeleide gebieden, verwijs naar [zelfstudie](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/derived-fields-in-cja.html) en [documentatie](../data-views/derived-fields/derived-fields.md) voor een inleiding.
+Als u niet vertrouwd bent met afgeleide gebieden, verwijs naar [zelfstudie](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/derived-fields-in-cja.html?lang=nl-NL) en [documentatie](../data-views/derived-fields/derived-fields.md) voor een inleiding.
 
 
 ## Doelstellingen definiëren

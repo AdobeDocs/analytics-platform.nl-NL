@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Met de functie Codes in Adobe Experience Platform kunt u code op uw site implementeren om gegevens te verzamelen. Met deze oplossing voor tagbeheer kunt u code naast andere coderingsvereisten implementeren. Tags bieden naadloze integratie met Adobe Experience Platform via de Adobe Experience Platform Web SDK-extensie.
 
-De volgende informatie beschrijft hoe u de extensie Web SDK aan uw tag kunt toevoegen. Voor supplementaire informatie, zie [ de de markeringsuitbreiding van SDK van het Web ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) in de documentatie van Experience Platform vormen. De Web SDK omvat [!UICONTROL Adobe Experience Cloud ID Service] native, zodat te hoeven u niet om de de dienstuitbreiding van identiteitskaart aan uw markering toe te voegen.
+De volgende informatie beschrijft hoe u de extensie Web SDK aan uw tag kunt toevoegen. Voor supplementaire informatie, zie [ de de markeringsuitbreiding van SDK van het Web ](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) in de documentatie van Experience Platform vormen. De Web SDK omvat [!UICONTROL Adobe Experience Cloud ID Service] native, zodat te hoeven u niet om de de dienstuitbreiding van identiteitskaart aan uw markering toe te voegen.
 
 Nadat u [ een markering ](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md) creeert, moet u het met de uitbreiding van SDK van het Web van Adobe Experience Platform vormen. Op deze manier kunt u gegevens naar Adobe Experience Platform verzenden (via uw gegevensstroom).
 

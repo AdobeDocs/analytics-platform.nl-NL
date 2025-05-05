@@ -16,7 +16,7 @@ ht-degree: 0%
 
 {{release-limited-testing}}
 
-[ AI van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html), als deel van de Intelligente Diensten van Adobe Experience Platform, verstrekt marketers de macht om klantenvoorspellingen op het individuele niveau te produceren.
+[ AI van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=nl-NL), als deel van de Intelligente Diensten van Adobe Experience Platform, verstrekt marketers de macht om klantenvoorspellingen op het individuele niveau te produceren.
 
 Met behulp van invloedrijke factoren kan de AI van de Klant u vertellen wat een klant waarschijnlijk zal doen en waarom. Bovendien kunnen marketers profiteren van de voorspellingen en inzichten van de klant van AI om de ervaringen van klanten aan te passen door de meest geschikte aanbiedingen en berichten te bedienen.
 
@@ -49,7 +49,7 @@ Voer de volgende stappen uit om AI-gegevens van de klant daadwerkelijk te integr
 
 ## Stap 1: Een AI-instantie van een klant configureren
 
-Zodra u uw gegevens hebt voorbereid en al uw geloofsbrieven en schema&#39;s op zijn plaats hebt, begin door [ te volgen vormt een Instantie van de Klant AI ](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html) gids in Adobe Experience Platform.
+Zodra u uw gegevens hebt voorbereid en al uw geloofsbrieven en schema&#39;s op zijn plaats hebt, begin door [ te volgen vormt een Instantie van de Klant AI ](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html?lang=nl-NL) gids in Adobe Experience Platform.
 
 ## Stap 2: Opstelling een verbinding van de Customer Journey Analytics aan de datasets van AI van de Klant
 

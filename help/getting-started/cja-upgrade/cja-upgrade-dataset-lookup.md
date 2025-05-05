@@ -95,7 +95,7 @@ Een opzoekgegevensset maken voor gebruik met een schema in Customer Journey Anal
 
    Het platform verstrekt automatisch intelligente aanbevelingen voor auto-in kaart gebrachte gebieden die op het doelschema of de dataset worden gebaseerd dat u selecteerde. U kunt toewijzingsregels handmatig aanpassen aan uw gebruiksgevallen.
 
-   Voor meer informatie over het toewijzingsproces, zie [ een Csv- dossier aan een bestaand schema XDM ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema) in de documentatie van Experience Platform in kaart brengen.
+   Voor meer informatie over het toewijzingsproces, zie [ een Csv- dossier aan een bestaand schema XDM ](https://experienceleague.adobe.com/nl/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema) in de documentatie van Experience Platform in kaart brengen.
 
 1. Selecteer **[!UICONTROL Finish]** .
 

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Aangezien uw organisatie Customer Journey Analytics goedkeurt, kunt u sommige verschillen in gegevens tussen Adobe Analytics en Customer Journey Analytics opmerken. Dit is normaal en kan om verschillende redenen voorkomen. Customer Journey Analytics is ontworpen om u toe te staan om op sommige beperkingen van uw gegevens in AA te verbeteren. Onverwachte en onbedoelde discrepanties kunnen zich echter voordoen. Dit artikel is ontworpen om u te helpen voor die verschillen diagnostiseren en op te lossen zodat u en uw team Customer Journey Analytics kunnen gebruiken zonder dat u zich zorgen hoeft te maken over gegevensintegriteit.
 
-Laten wij veronderstellen u de gegevens van Adobe Analytics in Adobe Experience Platform via de [ Bron van Analytics schakelaar ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) opnam, en dan een verbinding van de Customer Journey Analytics creeerde gebruikend deze dataset.
+Laten wij veronderstellen u de gegevens van Adobe Analytics in Adobe Experience Platform via de [ Bron van Analytics schakelaar ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=nl-NL) opnam, en dan een verbinding van de Customer Journey Analytics creeerde gebruikend deze dataset.
 
 ![ de gegevensstroom van Adobe Analytics door de gegevensschakelaar aan Adobe Experience Platform en aan de Analyse van de Reis van de Klant gebruikend verbindingen CJA.](assets/compare.png)
 
@@ -33,7 +33,7 @@ Hier volgen enkele stappen om uw oorspronkelijke Adobe Analytics-gegevens te ver
 
 ## Stap 1: De metrische voorvallen in Adobe Analytics uitvoeren
 
-De [ metrische voorkomen ](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html) toont het aantal treffers waar een bepaalde afmeting werd geplaatst of voortgeduurd.
+De [ metrische voorkomen ](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=nl-NL) toont het aantal treffers waar een bepaalde afmeting werd geplaatst of voortgeduurd.
 
 1. Sleep in Analytics > [!UICONTROL Workspace] het datumbereik waarover u wilt rapporteren als een dimensie naar een [!UICONTROL Freeform] -tabel.
 
@@ -51,7 +51,7 @@ Het totaal aantal records per tijdstempel moet overeenkomen met het aantal exemp
 >
 >Dit werkt voor regelmatige middentechnieken slechts, niet gestikte dataset (via [ het Stitching ](/help/stitching/overview.md)). Houd er rekening mee dat de boekhouding voor de persoon-id die in de Customer Journey Analytics wordt gebruikt van essentieel belang is voor het maken van de vergelijking. Dat is misschien niet altijd gemakkelijk om in Adobe Analytics te repliceren, vooral als Stitching is ingeschakeld.
 
-1. In de Diensten van de Vraag van Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html), stel de volgende [!UICONTROL Total Records by timestamps] vraag in werking:
+1. In de Diensten van de Vraag van Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/adobe-analytics.html?lang=nl-NL), stel de volgende [!UICONTROL Total Records by timestamps] vraag in werking:
 
    ```sql
    SELECT
@@ -66,9 +66,9 @@ Het totaal aantal records per tijdstempel moet overeenkomen met het aantal exemp
    ORDER BY Day; 
    ```
 
-1. In [ Diefstal van Gegevens van Analytics ](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html), identificeer van de ruwe gegevens of sommige rijen uit door de schakelaar van Source van Analytics zouden kunnen zijn gefiltreerd.
+1. In [ Diefstal van Gegevens van Analytics ](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=nl-NL), identificeer van de ruwe gegevens of sommige rijen uit door de schakelaar van Source van Analytics zouden kunnen zijn gefiltreerd.
 
-   De [ schakelaar van Source van de Analyse ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) zou bepaalde rijen tijdens de transformatie aan schema kunnen filtreren XDM. Er kunnen meerdere redenen zijn waarom de hele rij niet geschikt is voor transformatie. Als een van de volgende analytische velden deze waarden heeft, wordt de hele rij uitgefilterd.
+   De [ schakelaar van Source van de Analyse ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=nl-NL) zou bepaalde rijen tijdens de transformatie aan schema kunnen filtreren XDM. Er kunnen meerdere redenen zijn waarom de hele rij niet geschikt is voor transformatie. Als een van de volgende analytische velden deze waarden heeft, wordt de hele rij uitgefilterd.
 
    | Veld Analyse | Waarden die ertoe leiden dat een rij wordt neergezet |
    | --- | --- |
@@ -79,7 +79,7 @@ Het totaal aantal records per tijdstempel moet overeenkomen met het aantal exemp
    | Hit_source | 0, 3, 5, 7, 8, 9, 10 |
    | Page_event | 53 63 |
 
-   Voor meer informatie over hit\_source zie: [ de kolomverwijzing van Gegevens ](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html). Voor meer informatie over pagina\_event zie: [ de Opzoeken van de Gebeurtenis van de Pagina ](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html).
+   Voor meer informatie over hit\_source zie: [ de kolomverwijzing van Gegevens ](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=nl-NL). Voor meer informatie over pagina\_event zie: [ de Opzoeken van de Gebeurtenis van de Pagina ](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-page-event.html?lang=nl-NL).
 
 1. Als de schakelaar rijen filtreerde, trek die rijen van metrisch [!UICONTROL Occurrences] af. Het resulterende getal moet overeenkomen met het aantal gebeurtenissen in de Adobe Experience Platform-gegevenssets.
 

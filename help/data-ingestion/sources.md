@@ -119,7 +119,7 @@ Uw schema instellen:
 
    U wordt gevraagd het schema in te schakelen voor het profiel. Zodra toegelaten, wanneer het gegeven in datasets wordt opgenomen die op dit schema worden gebaseerd, worden die gegevens samengevoegd in het Real-Time Profiel van de Klant.
 
-   Zie [ het schema voor gebruik in het Profiel van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile) voor meer informatie toelaten.
+   Zie [ het schema voor gebruik in het Profiel van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL#profile) voor meer informatie toelaten.
 
    >[!IMPORTANT]
    >
@@ -131,7 +131,7 @@ Uw schema instellen:
 
 U hebt een minimaal schema gemaakt dat de loyaliteitsgegevens modelleert die u in Adobe Experience Platform kunt invoeren. Met het schema kunnen profielen worden geïdentificeerd aan de hand van het e-mailadres. Door het schema voor profiel toe te laten, zorgt u ervoor dat de gegevens van uw het stromen bron aan het Profiel van de Klant in real time worden toegevoegd.
 
-Zie [ schema&#39;s in UI ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html) voor meer informatie creëren en uitgeven bij het toevoegen van en het verwijderen van gebiedsgroepen en individuele gebieden aan een schema.
+Zie [ schema&#39;s in UI ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=nl-NL) voor meer informatie creëren en uitgeven bij het toevoegen van en het verwijderen van gebiedsgroepen en individuele gebieden aan een schema.
 
 ### Een gegevensset instellen
 
@@ -176,11 +176,11 @@ Afhankelijk van waar u de loyaliteitsgegevens van ontvangt, kiest u de relevante
 
 U kunt gegevens uit verschillende bronnen invoeren. Hieronder vindt u slechts een aantal van de vele beschikbare bronnen:
 
-- De toepassingen van Adobe (bronschakelaars omvatten [ Adobe Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics), [ Adobe Audience Manager ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/audience-manager), en meer)
+- De toepassingen van Adobe (bronschakelaars omvatten [ Adobe Analytics ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/analytics), [ Adobe Audience Manager ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/audience-manager), en meer)
 
-- De opslag van de wolk (bronschakelaars omvatten [ Amazon S3 ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/s3), [ Azure Blob ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/blob), en meer)
+- De opslag van de wolk (bronschakelaars omvatten [ Amazon S3 ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/cloud-storage/s3), [ Azure Blob ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/cloud-storage/blob), en meer)
 
-- De gegevensbestanden (bronschakelaars omvatten [ Snowflake ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake), [ de Server van Microsoft SQL ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/sql-server), en meer)
+- De gegevensbestanden (bronschakelaars omvatten [ Snowflake ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/databases/snowflake), [ de Server van Microsoft SQL ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/databases/sql-server), en meer)
 
 Een bronaansluiting instellen:
 
@@ -214,7 +214,7 @@ Zie [ Samenvatten en gegevens van traditionele Adobe Analytics ](./analytics.md)
 
 Zie [ Samenvatten en gebruik het stromen gegevens ](./streaming.md) voor informatie over hoe te om de HTTP API bronschakelaar te gebruiken.
 
-Zie [ het overzicht van Verbindingen van Source ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#terms-and-conditions) voor een overzicht van bronschakelaars met inbegrip van verbindingen aan meer informatie voor elke schakelaar.
+Zie [ het overzicht van Verbindingen van Source ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=nl-NL#terms-and-conditions) voor een overzicht van bronschakelaars met inbegrip van verbindingen aan meer informatie voor elke schakelaar.
 
 
 ## Een verbinding instellen

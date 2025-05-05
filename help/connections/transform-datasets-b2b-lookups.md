@@ -18,10 +18,10 @@ Om op persoon-gebaseerde raadplegingen op B2B gegevens (met inbegrip van rekenin
 
 Deze transformatie is slechts beschikbaar voor datasets met gegevens voor B2B raadplegingsschema&#39;s, die op de volgende klassen worden gebaseerd:
 
-* [ XDM de Verhouding van de Persoon van de Bedrijfs Rekening ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
-* [ XDM de Verhouding van de Person van BedrijfsOpportunity ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
-* [ XDM Bedrijfs de Leden van de Lijst van de Marketing ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
-* [ XDM Bedrijfs Campagne Leden ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
+* [ XDM de Verhouding van de Persoon van de Bedrijfs Rekening ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
+* [ XDM de Verhouding van de Person van BedrijfsOpportunity ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
+* [ XDM Bedrijfs de Leden van de Lijst van de Marketing ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
+* [ XDM Bedrijfs Campagne Leden ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
 
 >[!NOTE]
 >

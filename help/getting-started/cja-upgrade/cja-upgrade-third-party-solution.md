@@ -39,7 +39,7 @@ Gebruik het volgende proces wanneer u van een externe analyseoplossing, zoals Go
 
    * U kunt geen projecten en componenten van een niet-Adobe Analytics oplossing migreren.
 
-   * Afhankelijk van uw analyseoplossing, zou een bronschakelaar voor het opnemen van historische gegevens beschikbaar kunnen zijn. Voor meer informatie zie [ Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#analytics) in [ Source connectors overzicht ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) in de documentatie van Experience Platform.
+   * Afhankelijk van uw analyseoplossing, zou een bronschakelaar voor het opnemen van historische gegevens beschikbaar kunnen zijn. Voor meer informatie zie [ Analytics ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home#analytics) in [ Source connectors overzicht ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home) in de documentatie van Experience Platform.
 
 
 Neem contact op met uw Adobe-vertegenwoordiger als u meer specifiek advies, advies of ondersteuning nodig hebt.

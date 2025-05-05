@@ -17,7 +17,7 @@ In het algemeen worden instellingen met betrekking tot gegevensbeheer in Custome
 
 ## Datagovernance
 
-De integratie tussen Adobe Customer Journey Analytics en [ het Beheer van Gegevens van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html) staat voor etikettering van gevoelige gegevens van Customer Journey Analytics en handhaving van privacybeleid toe.
+De integratie tussen Adobe Customer Journey Analytics en [ het Beheer van Gegevens van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=nl-NL) staat voor etikettering van gevoelige gegevens van Customer Journey Analytics en handhaving van privacybeleid toe.
 
 De etiketten en het beleid van de privacy die op datasets werden gecreeerd die door Experience Platform worden verbruikt kunnen in het werkschema van de gegevensmeningen van Customer Journey Analytics worden aangeschept. Deze labels stoppen of waarschuwen gebruikers die metriek en/of afmetingen van gevoelige velden maken.
 

@@ -26,9 +26,9 @@ Meer informatie over Customer Journey Analytics [!UICONTROL dashboards], verwijs
 
    * [scorecards maken](/help/mobile-app/create-scorecard.md)
    * [Help managers bij het instellen van apps en het gebruik van de app](/help/mobile-app/set-up-execs.md)
-   * Als u een video-overzicht van de curvaring wilt bekijken, raadpleegt u [Adobe Analytics-dashboards Scorecard Builder](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html).
+   * Als u een video-overzicht van de curvaring wilt bekijken, raadpleegt u [Adobe Analytics-dashboards Scorecard Builder](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html?lang=nl-NL).
 
 
 * [Snelle handleiding voor gebruikers](/help/mobile-app/executive.md): Deze handleiding is bedoeld om uitvoerende gebruikers te helpen scorecards lezen en interpreteren op [!UICONTROL dashboards]. Met de app kunnen uitvoerende gebruikers snel en gemakkelijk een brede weergave van belangrijke samenvattingsgegevens op hun eigen mobiele apparaten bekijken.
 
-   * Ga voor een video waarin deze informatie wordt gemarkeerd naar [Ervaring met Adobe Analytics-dashboards in de app](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html).
+   * Ga voor een video waarin deze informatie wordt gemarkeerd naar [Ervaring met Adobe Analytics-dashboards in de app](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html?lang=nl-NL).

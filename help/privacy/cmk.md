@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Door de klant beheerde sleutels
 
-Adobe Customer Journey Analytics verstrekt de optie voor [ de klanten van het Schild van de Gezondheidszorg ](https://www.adobe.com/trust/compliance/hipaa-ready.html) en van de Privacy &amp; van het Beveiliging om klant-beheerde sleutels (CMK) voor Customer Journey Analytics gegevens te gebruiken. Merk op dat dit proces van de [ opstelling van Adobe Experience Platform CMK ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys/overview) gescheiden is. Door de klant beheerde sleutels zijn slechts beschikbaar voor organisaties die het [&#128279;](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield) toe:voegen-op aanbod van het Schild van de Gezondheidszorg of van de Privacy &amp; van het Beveiliging 1&rbrace; hebben gekocht.
+Adobe Customer Journey Analytics verstrekt de optie voor [ de klanten van het Schild van de Gezondheidszorg ](https://www.adobe.com/trust/compliance/hipaa-ready.html) en van de Privacy &amp; van het Beveiliging om klant-beheerde sleutels (CMK) voor Customer Journey Analytics gegevens te gebruiken. Merk op dat dit proces van de [ opstelling van Adobe Experience Platform CMK ](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys/overview) gescheiden is. Door de klant beheerde sleutels zijn slechts beschikbaar voor organisaties die het [&#128279;](https://experienceleague.adobe.com/nl/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield) toe:voegen-op aanbod van het Schild van de Gezondheidszorg of van de Privacy &amp; van het Beveiliging 1&rbrace; hebben gekocht.
 
 ## Door de klant beheerde sleutels instellen voor Customer Journey Analytics in Azure
 
@@ -32,12 +32,12 @@ Voer de volgende stappen uit om CMK in te stellen voor Customer Journey Analytic
 
 1. De Zorg van de Klant van de Adobe bevestigt de voltooiing van de toepassing CMK op uw gegevens van de Customer Journey Analytics.
 
-Alle gegevens die door Platform worden gebruikt, worden in doorvoer en in rust gecodeerd om uw gegevens veilig te houden, met of zonder door de klant beheerde sleutels. Voor informatie over de encryptie van Adobe Experience Platform, zie [ encryptie van Gegevens in Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption).
+Alle gegevens die door Platform worden gebruikt, worden in doorvoer en in rust gecodeerd om uw gegevens veilig te houden, met of zonder door de klant beheerde sleutels. Voor informatie over de encryptie van Adobe Experience Platform, zie [ encryptie van Gegevens in Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/governance-privacy-security/encryption).
 
 ## Door klanten beheerde sleutels instellen voor Customer Journey Analytics op Amazon Web Services
 
 >[!AVAILABILITY]
 >
->Deze sectie is van toepassing op implementaties van Experience Platform dat op Amazon Web Services (AWS) loopt. Experience Platform dat op AWS wordt uitgevoerd, is momenteel beschikbaar voor een beperkt aantal klanten. Meer over de gesteunde infrastructuur van het Experience Platform leren, zie het [ Experience Platform multi-cloud overzicht ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud).
+>Deze sectie is van toepassing op implementaties van Experience Platform dat op Amazon Web Services (AWS) loopt. Experience Platform dat op AWS wordt uitgevoerd, is momenteel beschikbaar voor een beperkt aantal klanten. Meer over de gesteunde infrastructuur van het Experience Platform leren, zie het [ Experience Platform multi-cloud overzicht ](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/multi-cloud).
 
 Als uw organisatie Adobe Experience Platform gebruikt die op Amazon Web Services wordt uitgevoerd, is CMK al geconfigureerd voor u. Er is geen extra installatie nodig.
