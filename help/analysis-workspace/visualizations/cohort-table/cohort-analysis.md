@@ -55,7 +55,7 @@ Voorbeelden van wat u kunt doen met een [!UICONTROL Cohort table] :
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ analyse van de Cohort in Analysis Workspace ](https://video.tv.adobe.com/v/23990/?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ analyse van de Cohort in Analysis Workspace ](https://video.tv.adobe.com/v/3430079/?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
 
 {{videoaa}}
 

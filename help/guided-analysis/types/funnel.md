@@ -25,7 +25,7 @@ ht-degree: 0%
 
 De ![&#128279;](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL Funnel]**&#x200B;analyse 0&rbrace; ConversionFunnel verstrekt een visuele vertegenwoordiging van een kritieke gebruikerstraject in uw product.  De horizontale as vertegenwoordigt elke stap die een gebruiker moet doorgeven. De verticale as vertegenwoordigt het percentage gebruikers of zittingen bij elke stap. Alle stappen moeten in uiteindelijke volgorde worden uitgevoerd, maar kunnen op elk moment binnen het rapportagevenster plaatsvinden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421663/?quality=12&learn=on){width="90%"}
+>[!VIDEO](https://video.tv.adobe.com/v/3432444/?quality=12&learn=on&captions=dut){width="90%"}
 
 ## Gebruik hoofdletters
 

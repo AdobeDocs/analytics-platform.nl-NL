@@ -83,7 +83,7 @@ In het Platform van de Wolk van Google, navigeer aan **Uitvoer > de Uitvoer aan 
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de gegevens van Google Analytics van de Invoer in Adobe Experience Platform ](https://video.tv.adobe.com/v/332676?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de gegevens van Google Analytics van de Invoer in Adobe Experience Platform ](https://video.tv.adobe.com/v/3437172?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 

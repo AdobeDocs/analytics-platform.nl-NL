@@ -33,7 +33,7 @@ De eigenschappen die naar de bovenkant van deze visualisatie trekken wijzen erop
 * De eigenschappen in de bodem-linkerzijde van de matrijs zijn uw **lage gevolgen** eigenschappen; zij worden niet wijd goedgekeurd of vaak gebruikt.
 * De eigenschappen in het bodem-recht van de matrijs zijn uw **eenmalig** eigenschappen; zij worden wijd goedgekeurd, maar niet vaak gebruikt.
 
->[!VIDEO](https://video.tv.adobe.com/v/3429489/&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447473?captions=dut)
 
 
 ## Gebruik hoofdletters

@@ -34,7 +34,7 @@ De ![ analyse van de Chronologie ](/help/assets/icons/Timeline.svg) **[!UICONTRO
 >* **Admins**: *het bezit PersonID wordt vereist voor deze analyse. Gelieve te voegen identiteitskaart van de Persoon aan de gegevensmening toe.*
 >* **niet-admins**: *het bezit PersonID wordt vereist voor deze analyse. Gelieve te werken met uw beheerder van de Customer Journey Analytics om identiteitskaart van de Persoon aan de gegevensmening toe te voegen.*
 
->[!VIDEO](https://video.tv.adobe.com/v/3427810/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3435773/?quality=12&learn=on&captions=dut)
 
 
 

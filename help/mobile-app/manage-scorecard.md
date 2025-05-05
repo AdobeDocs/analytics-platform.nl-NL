@@ -42,7 +42,7 @@ Met aangepaste dia&#39;s kunt u zich nog meer richten op de informatie die u dee
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de detailmeningen van de Douane ](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de detailmeningen van de Douane ](https://video.tv.adobe.com/v/3428929?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 

@@ -19,7 +19,7 @@ De volgende informatie verstrekt uitvoerende gebruikers van informatie over best
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ stafmedewerkers bijstaan om tot mobiele scorecards ](https://video.tv.adobe.com/v/343460/){target="_blank"} voor een demo video toegang te hebben.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ stafmedewerkers bijstaan om tot mobiele scorecards ](https://video.tv.adobe.com/v/3444842?captions=dut){target="_blank"} voor een demo video toegang te hebben.
 
 >[!ENDSHADEBOX]
 

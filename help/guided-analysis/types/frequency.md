@@ -25,7 +25,7 @@ ht-degree: 0%
 
 De ![&#128279;](/help/assets/icons/Histogram.svg) **[!UICONTROL Frequency]** analysegroepen van de frequentie  frequentie &lbrace;gebeurtenisgegevens door hoe vaak de gebeurtenissen in uw product voorkomen. De verticale as van deze analyse bevat emmers die de frequentie van de gebeurtenis vertegenwoordigen. De horizontale as meet het aantal gebruikers of sessies voor elk emmertje.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428089/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3435808/?quality=12&learn=on&captions=dut)
 
 ## Gebruik hoofdletters
 

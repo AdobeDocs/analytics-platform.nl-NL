@@ -30,7 +30,7 @@ De ![ Behoud ](/help/assets/icons/Retention.svg) **[!UICONTROL Retention]** anal
 
 In deze analyse, vertegenwoordigt de x-as van de grafiek de tijd sinds de eerste begingebeurtenis van een gebruiker en y-as het percentage gebruikers die met één of meerdere terugkeergebeurtenissen in dienst nemen. U kunt zowel behoud als kromme over duur bekijken, en de getoonde duur kan door de vraagmontages worden aangepast. Onder de grafiek, verstrekt een lijst samengevoegde gegevens met de optie om individuele cohorts te tonen, die een groep mensen zijn die de beginnende gebeurtenis op de zelfde datum deden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430503/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3435784/?quality=12&learn=on&captions=dut)
 
 
 ## Gebruik hoofdletters
