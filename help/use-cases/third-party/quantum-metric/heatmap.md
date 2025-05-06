@@ -4,12 +4,10 @@ description: Begrijp beter de betrokkenheid op paginaniveau en optimaliseer pagi
 role: User, Admin
 solution: Customer Journey Analytics
 feature: Use Cases
-hidefromtoc: true
-hide: true
 exl-id: d861135f-42a4-45ac-8b11-41f151bfce92
-source-git-commit: 25a2c549c27918f80202bde4cd30e305f4a295f3
+source-git-commit: 95a107c6bbc6dce6cc43c4a1b51beeaa1fa7aff1
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -24,7 +22,7 @@ De lijst zal alle zittingen in dat segment terugkeren, en u kunt om het even wel
 
 U moet op het pakket van UX Ops van Metrische Quantum **van UX** gerechtigd zijn om tot de mogelijkheden van de heatmap van Quantum Metric toegang te hebben.
 
-## Stap 1: Creeer een vrije lijst in Workspace en vorm het zodat de waarden van zittingidentiteitskaart verbindingen direct aan Metric Quantum zijn.
+## Stap 1: koppelingen configureren in Analysis Workspace
 
 1. Login aan [ experience.adobe.com ](https://experience.adobe.com).
 1. Navigeer naar Customer Journey Analytics en selecteer **[!UICONTROL Workspace]** in het bovenste menu.
@@ -41,6 +39,8 @@ U moet op het pakket van UX Ops van Metrische Quantum **van UX** gerechtigd zijn
 
 1. Klik op **[!UICONTROL Create]**.
 1. Test een van de koppelingen om te zien of deze wordt geopend in de URL terwijl de extensie Quantum Metric zichtbaar is. Deze koppelingen worden geopend op een nieuw tabblad, zodat uw Workspace-project open blijft.
+
+![ Heatmap ](assets/heatmap.png)
 
 ## Stap 2: heatmaps weergeven door op koppelingen in Customer Journey Analytics te klikken
 

@@ -1,10 +1,8 @@
 ---
 title: Quantum Metric Integration use cases
 description: Leer hoe u Quantum Metric-gegevens kunt combineren met de rest van uw gegevens in Customer Journey Analytics.
-hide: true
-hidefromtoc: true
 exl-id: a74e7143-e814-42c3-a706-b64427dc9ecb
-source-git-commit: acff9827d7507e536c4cd1d8e047b7e7b62a2642
+source-git-commit: 95a107c6bbc6dce6cc43c4a1b51beeaa1fa7aff1
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%

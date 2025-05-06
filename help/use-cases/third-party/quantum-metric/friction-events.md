@@ -4,12 +4,10 @@ description: Voeg Quantum Metric verzamelde wrijvingsgebeurtenissen toe aan Cust
 role: User, Admin
 solution: Customer Journey Analytics
 feature: Use Cases
-hidefromtoc: true
-hide: true
 exl-id: 1b7d5159-39b2-4ba4-be64-f448ae53c70e
-source-git-commit: 11dc62cda2ceb7afabd3abd0944420601c8fa235
+source-git-commit: 95a107c6bbc6dce6cc43c4a1b51beeaa1fa7aff1
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -40,7 +38,7 @@ Voor dit gebruik is een speciaal schemaveld vereist om gegevens naar te verzende
 
 ## Stap 2: Leg wrijvingsgebeurtenissen vast met de metrische tagextensie Quantum
 
-Zie [ Metrische uitbreiding van het Quantum ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/analytics/quantum-metric) in de gids van de Doelen van Adobe Experience Platform voor instructies op hoe te opstelling uw markeringen om Metrische gegevens van het Quantum te omvatten. Het gebruik van deze uitbreiding gaat meer rijen in een bestaande dataset over.
+Zie [ Metrische uitbreiding van het Quantum ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) in de gids van de Doelen van Adobe Experience Platform voor instructies op hoe te opstelling uw markeringen om Metrische gegevens van het Quantum te omvatten. Het gebruik van deze uitbreiding gaat meer rijen in een bestaande dataset over.
 
 Gebruik labels in de gegevensverzameling van Adobe Experience Platform om de naam van de wrijvingsgebeurtenis handmatig in te stellen, zodat deze in het XDM-object kan worden opgenomen en geanalyseerd. Één manier om dit te doen is in de de douanecode van de regel:
 
@@ -74,6 +72,8 @@ Met Quantum Metric friction-gebeurtenisgegevens die naast de overige bezoekersge
 1. Selecteer een bestaand project of maak een project.
 1. Creeer de lijst van de a [ Vrije vorm ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md).
 1. Sleep de gewenste afmetingen en afmetingen naar het Workspace-canvas voor analyse.
+
+![ Grafiek van de Wrijving ](assets/friction-graph.png)
 
 Mogelijke analytische ideeën zijn:
 

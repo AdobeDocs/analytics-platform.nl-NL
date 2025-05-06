@@ -4,12 +4,10 @@ description: Metrische Link Quantum-sessie wordt opnieuw afgespeeld met CJA-gege
 role: User, Admin
 solution: Customer Journey Analytics
 feature: Use Cases
-hidefromtoc: true
-hide: true
 exl-id: fcc36457-4ce9-4c93-93e2-de03becfd5da
-source-git-commit: a03505aeb56f99b28f50819765a496705876b89c
+source-git-commit: 95a107c6bbc6dce6cc43c4a1b51beeaa1fa7aff1
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '768'
 ht-degree: 1%
 
 ---
@@ -22,7 +20,7 @@ Door Quantum Metric-sessiereplay te koppelen aan CJA-gegevens, kunnen klanten be
 
 Bij deze stappen wordt ervan uitgegaan dat u tags gebruikt in de gegevensverzameling van Adobe Experience Platform. U kunt deze methodes van de gegevensinzameling in een handmatige implementatie van SDK van het Web aanpassen als uw organisatie geen markeringen gebruikt.
 
-Zie de [ Metrische de markeringsuitbreiding van het Quantum ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/analytics/quantum-metric) documentatie voor meer informatie.
+Zie de [ Metrische de markeringsuitbreiding van het Quantum ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) documentatie voor meer informatie.
 
 ## Stap 1: Maak een schemaveld om de metrische sessie-id van Quantum aan te passen
 
@@ -109,6 +107,8 @@ Creeer een vrije vormlijst in Workspace en vorm het zodat de waarden van zitting
 1. Klik op **[!UICONTROL Create]**.
 
 Elke sessie-id is nu een klikbare koppeling. Zie [ hyperlinks in een vrije vormlijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) voor meer informatie bij het toevoegen van hyperlinks aan de afmetingspunten van Analysis Workspace creëren.
+
+![ opnieuw spel van de Zitting ](assets/session-replay.png)
 
 ## Stap 5: sessies van Customer Journey Analytics weergeven
 
