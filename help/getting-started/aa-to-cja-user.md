@@ -5,7 +5,7 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: e4762cca-b2da-422b-b48f-2a5fec14c97f
-source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
+source-git-commit: 720751130d0f66bddffd13c6f160a85fcc7a7206
 workflow-type: tm+mt
 source-wordcount: '1427'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Veel van wat u op de verslaggevende kant kent is niet veranderd.
 
 * U kunt nog de macht van [ Analysis Workspace ](/help/analysis-workspace/home.md) gebruiken om uw gegevens te analyseren. Workspace werkt hetzelfde als in traditionele Adobe Analytics.
 * De zelfde versie van [ dashboards van Adobe Analytics ](/help/mobile-app/home.md) is beschikbaar, en werkt zo ook tussen Customer Journey Analytics en Adobe Analytics.
-* [ Report Builder ](/help/report-builder/report-buider-overview.md) heeft een nieuwe interface en loopt op Vensters van MS, MacOS, en de Webversie van Excel. (Vóór deze versie van Report Builder kon u de toepassing alleen op Mac gebruiken als u deze op VMware had uitgevoerd.) Deze versie biedt nog geen ondersteuning voor traditionele AA-gegevensaanvragen.
+* [ Report Builder ](/help/report-builder/rb-overview.md) heeft een nieuwe interface en loopt op Vensters van MS, MacOS, en de Webversie van Excel. (Vóór deze versie van Report Builder kon u de toepassing alleen op Mac gebruiken als u deze op VMware had uitgevoerd.) Deze versie biedt nog geen ondersteuning voor traditionele AA-gegevensaanvragen.
 
 ## Wijzigingen in de rapportage
 
@@ -36,7 +36,7 @@ U hebt veel meer toegang tot kanaalgegevens om te analyseren. Bijvoorbeeld, kunt
 
 Customer Journey Analytics haalt zijn gegevens op uit Adobe Experience Platform. Met Experience Platform kunt u klantgegevens en -inhoud van elk systeem of kanaal centraliseren en standaardiseren. Met kunt u gegevenswetenschappen en computerleren toepassen om het ontwerp en de levering van persoonlijke ervaringen te verbeteren.
 
-De gegevens van de klant in Experience Platform worden opgeslagen als datasets, die uit a [ schema ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=nl-NL) en partijen gegevens bestaan. Voor meer detail op het platform, zie [ het Overzicht van de Architectuur van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=nl-NL).
+De gegevens van de klant in Experience Platform worden opgeslagen als datasets, die uit a [ schema ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html) en partijen gegevens bestaan. Voor meer detail op het platform, zie [ het Overzicht van de Architectuur van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html).
 
 Uw Customer Journey Analytics Admin vestigt [ verbindingen ](/help/connections/create-connection.md) aan datasets in Experience Platform. Zij bouwen dan [ gegevensmeningen ](/help/data-views/data-views.md) gebruikend die verbindingen. De meningen van gegevens zijn conceptueel gelijkaardig aan virtuele rapportreeksen, en zijn de basis van rapportering in Customer Journey Analytics. Aangezien Experience Platform alle gegevens voor rapportage levert, bestaan deze sets niet meer als een container voor gegevens.
 
@@ -76,7 +76,7 @@ Met deze flexibiliteit, kunt u in situaties lopen waarin één enkel schemagebie
 
 ## Wijzigingen van het begrip &quot;segmenten&quot;
 
-Hoewel segmenten technisch niet van Adobe Analytics naar Customer Journey Analytics worden gemigreerd, kunt u het hulpmiddel van de componentenmigratie gebruiken om uw segmenten van Adobe Analytics in Customer Journey Analytics opnieuw tot stand te brengen. Segmenten worden opnieuw gemaakt in Customer Journey Analytics op basis van de afmetingen en maatstaven die zijn toegewezen. Voor meer informatie, zie [ voorbereidingen treffen om componenten en projecten van Adobe Analytics aan Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=nl-NL) te migreren.
+Hoewel segmenten technisch niet van Adobe Analytics naar Customer Journey Analytics worden gemigreerd, kunt u het hulpmiddel van de componentenmigratie gebruiken om uw segmenten van Adobe Analytics in Customer Journey Analytics opnieuw tot stand te brengen. Segmenten worden opnieuw gemaakt in Customer Journey Analytics op basis van de afmetingen en maatstaven die zijn toegewezen. Voor meer informatie, zie [ voorbereidingen treffen om componenten en projecten van Adobe Analytics aan Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html) te migreren.
 
 Hoewel u [!UICONTROL segments] ([!UICONTROL segments]) nog niet kunt delen of publiceren van [!DNL Customer Journey Analytics] naar Experience Platform Unified Profile, wordt deze functionaliteit momenteel ontwikkeld.
 

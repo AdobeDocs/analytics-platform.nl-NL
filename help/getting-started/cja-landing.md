@@ -4,7 +4,7 @@ description: Customer Journey Analytics-openingspagina.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: e16bfa01dd3bedc96a147b2510ba33f4b88b01b9
+source-git-commit: 720751130d0f66bddffd13c6f160a85fcc7a7206
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 2%
@@ -154,7 +154,7 @@ Begrijp hoe Customer Journey Analytics zich verhoudt tot Adobe Analytics. En hoe
     </td>
     <td>
       <img src="./assets/share.svg" width="35px"><br/>
-      <strong> Aandeel, de uitvoer, integreert </strong><br/> <a href="/help/analysis-workspace/curate-share/share-projects.md"> Projecten </a> - <a href="/help/mobile-app/home.md"> de Dashboards van Analytics </a> - <a href="/help/report-builder/report-buider-overview.md"> Report Builder </a> - <a href="/help/components/exports/manage-exports.md"> de uitvoer van de Wolk </a> - <a href="/help/integrations/overview.md"> Integraties </a>
+      <strong> Aandeel, de uitvoer, integreert </strong><br/> <a href="/help/analysis-workspace/curate-share/share-projects.md"> Projecten </a> - <a href="/help/mobile-app/home.md"> de Dashboards van Analytics </a> - <a href="/help/report-builder/rb-overview.md"> Report Builder </a> - <a href="/help/components/exports/manage-exports.md"> de uitvoer van de Wolk </a> - <a href="/help/integrations/overview.md"> Integraties </a>
     </td>
   </tr>
 </table>
@@ -163,7 +163,7 @@ Begrijp hoe Customer Journey Analytics zich verhoudt tot Adobe Analytics. En hoe
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong> Customer Journey Analytics </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank"> Leerprogramma's </a> - <a href="https://helpx.adobe.com/nl/legal/product-descriptions/customer-journey-analytics.html" target="_blank"> het productbeschrijving van Customer Journey Analytics </a> - <a href="https://helpx.adobe.com/nl/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank"> de productbeschrijving van Adobe Analytics (Customer Journey Analytics toe:voegen-op) </a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank"> Customer Journey Analytics APIs </a> - <a href="/help/ai-assistant.md"> AI Medewerker </a>
+<a href="https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank"> Leerprogramma's </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html" target="_blank"> het productbeschrijving van Customer Journey Analytics </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank"> de productbeschrijving van Adobe Analytics (Customer Journey Analytics toe:voegen-op) </a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank"> Customer Journey Analytics APIs </a> - <a href="/help/ai-assistant.md"> AI Medewerker </a>
 </td>
 <td><strong> Ingestie van Gegevens </strong><br/> <a href="/help/data-ingestion/data-ingestion.md"> Overzicht </a> - <a href="/help/data-ingestion/analytics.md"> Analytics </a> - <a href="/help/data-ingestion/aepwebsdk.md"> SDK van het Web </a> - <a href="/help/data-ingestion/aepmobilesdk.md"> Mobiele SDK </a> - <a href="/help/data-ingestion/batch.md"> Partij </a> - <a href="/help/data-ingestion/streaming.md"> Streaming </a> - <a href="/help/data-ingestion/sources.md"> Bronnen </a> - <a href="/help/data-ingestion/serverapi.md"> Server API </a>
 </td>

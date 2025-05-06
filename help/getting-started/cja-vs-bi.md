@@ -5,7 +5,7 @@ role: User
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: ae66cd06-7ec1-4174-a3cf-939c3a66b840
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 720751130d0f66bddffd13c6f160a85fcc7a7206
 workflow-type: tm+mt
 source-wordcount: '1648'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Elk van deze stappen kan uren, dagen, of zelfs weken nemen. Als er vervolgvragen
 
 ## Customer Journey Analytics: gedemocratiseerde workflow voor online en offline gegevens
 
-Customer Journey Analytics biedt een omgeving voor het online en offline verbinden van kanaalgegevens op overkoepelend klantniveau, uitsluitend om inzicht te krijgen in de reis van de klant. Het vereist aanvankelijke opstelling om [&#128279;](/help/connections/overview.md) te verbinden en [ meningen ](/help/data-views/data-views.md) aan de gegevens te bepalen u relevant kwalificeert. Zodra deze gegevens echter zijn voltooid, zijn ze gemakkelijk beschikbaar voor doorlopende analyse en exploratie. U kunt geleidelijk inzicht krijgen in en inzicht krijgen in de reizen van de klant. Door gecombineerde online en off-line gegevens te democratiseren, kunt u klant-reis-gerelateerde vragen in seconden beantwoorden.
+Customer Journey Analytics biedt een omgeving voor het online en offline verbinden van kanaalgegevens op overkoepelend klantniveau, uitsluitend om inzicht te krijgen in de reis van de klant. Het vereist aanvankelijke opstelling om [ ](/help/connections/overview.md) te verbinden en [ meningen ](/help/data-views/data-views.md) aan de gegevens te bepalen u relevant kwalificeert. Zodra deze gegevens echter zijn voltooid, zijn ze gemakkelijk beschikbaar voor doorlopende analyse en exploratie. U kunt geleidelijk inzicht krijgen in en inzicht krijgen in de reizen van de klant. Door gecombineerde online en off-line gegevens te democratiseren, kunt u klant-reis-gerelateerde vragen in seconden beantwoorden.
 
 ![ het werkschema van Customer Journey Analytics zoals die in deze sectie ](./assets/cjaworkflow.png) wordt beschreven
 
@@ -70,12 +70,12 @@ De volgende onderdelen van visualisatie zijn ingebouwd:
 
 * **vermogen van de Segmentatie bij elke stap van uw progressieve exploratie**: wanneer u denkt het steek houdt, kunt u uw publiek terug in Experience Platform en van daar aan om het even welke gesteunde bestemmingen publiceren.
 
-* **Sessionisatie** die volledig [&#128279;](/help/data-views/component-settings/persistence.md) aanpasbaar is: u bepaalt wanneer een zitting, als deel van een kanaal in een klantenreis, begint en beëindigt.
+* **Sessionisatie** die volledig [ ](/help/data-views/component-settings/persistence.md) aanpasbaar is: u bepaalt wanneer een zitting, als deel van een kanaal in een klantenreis, begint en beëindigt.
 
 * **Curation en democratisering**: De dashboards die in Customer Journey Analytics worden gecreeerd kunnen zijn:
 
    * [ gekromde ](/help/analysis-workspace/curate-share/curate.md) aan andere individuen in de organisatie voor ononderbroken exploratie,
-   * Geëxporteerd naar Excel met behulp van [ Report Builder ](/help/report-builder/report-buider-overview.md) (een toegewijde plug-in),
+   * Geëxporteerd naar Excel met behulp van [ Report Builder ](/help/report-builder/rb-overview.md) (een toegewijde plug-in),
    * [ Gedeeld ](/help/analysis-workspace/curate-share/share-projects.md) in diverse formaten, met inbegrip van [ PDF ](/help/analysis-workspace/export/download-send.md), [ CSV ](/help/analysis-workspace/export/download-send.md) en door a [ specifieke mobiele app ](/help/mobile-app/home.md), aan die die in de definitieve rapporten en/of visualisaties geinteresseerd zijn.
 
 Het is moeilijk om de Customer Journey Analytics-visualisatiemogelijkheden te vergelijken met de BI-gereedschappen vanwege de verschillende beschikbare visualisaties. Sommige hulpmiddelen van BI hebben geavanceerdere visualisaties, maar Customer Journey Analytics concentreert zich op interactieve en interoperabele klantenreis visualisaties die u toestaan om de gegevens binnen seconden te breken terwijl niet &quot;het in rekening brengen&quot;u voor elke extra vraag.
