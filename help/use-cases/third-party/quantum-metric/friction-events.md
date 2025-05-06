@@ -38,7 +38,7 @@ Voor dit gebruik is een speciaal schemaveld vereist om gegevens naar te verzende
 
 ## Stap 2: Leg wrijvingsgebeurtenissen vast met de metrische tagextensie Quantum
 
-Zie [ Metrische uitbreiding van het Quantum ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/analytics/quantum-metric) in de gids van de Doelen van Adobe Experience Platform voor instructies op hoe te opstelling uw markeringen om Metrische gegevens van het Quantum te omvatten. Het gebruik van deze uitbreiding gaat meer rijen in een bestaande dataset over.
+Zie [ Metrische uitbreiding van het Quantum ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/analytics/quantum-metric) in de gids van de Doelen van Adobe Experience Platform voor instructies op hoe te opstelling uw markeringen om Metrische gegevens van het Quantum te omvatten. Het gebruik van deze uitbreiding gaat meer rijen in een bestaande dataset over.
 
 Gebruik labels in de gegevensverzameling van Adobe Experience Platform om de naam van de wrijvingsgebeurtenis handmatig in te stellen, zodat deze in het XDM-object kan worden opgenomen en geanalyseerd. Één manier om dit te doen is in de de douanecode van de regel:
 
