@@ -31,7 +31,7 @@ De ![&#128279;](/help/assets/icons/PeopleGroup.svg) **[!UICONTROL Active growth]
 Alle actieve gebruikers (new + repeat + return) worden weergegeven als een tint boven de horizontale as, terwijl alle slapende gebruikers in oranje worden weergegeven onder de horizontale as.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3421667/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432435/?quality=12&learn=on&captions=dut)
 
 ## Gebruik hoofdletters
 

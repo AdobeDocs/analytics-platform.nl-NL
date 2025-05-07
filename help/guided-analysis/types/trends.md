@@ -26,7 +26,7 @@ ht-degree: 0%
 De ![ GraphTrend ](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Trends]** analyse verstrekt waardevolle insight rond de prestaties van uw product of het gedrag van uw gebruikers in tijd. De horizontale as van dit rapport is een tijdinterval, terwijl de verticale as uw gewenste gebeurtenissen meet.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3421666/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432437/?quality=12&learn=on&captions=dut)
 
 ## Gebruik hoofdletters
 

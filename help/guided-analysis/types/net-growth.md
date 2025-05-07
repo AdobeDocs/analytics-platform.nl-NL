@@ -41,7 +41,7 @@ Gelijkaardig aan de [ Actieve ](active-growth.md) analyse, worden de gebruikers 
 >
 >Herhalende gebruikers worden niet in deze berekening meegenomen, omdat ze geen winst of verlies van gebruikers vertegenwoordigen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421664/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432441/?quality=12&learn=on&captions=dut)
 
 
 ## Gebruik hoofdletters
