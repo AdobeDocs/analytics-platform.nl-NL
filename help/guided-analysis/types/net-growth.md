@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: a4f97458-9934-4a98-8005-fa1ba7831101
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: be617c59cd2fced0031fda1130b86e638bee8f68
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
-De ![&#128279;](/help/assets/icons/NetGrowth.svg) **[!UICONTROL Net growth]** analyse 0&rbrace; NetGrowth verstrekt inzichten rond het tarief waarbij u gebruikers over een specifieke periode krijgt of verliest.  De horizontale as is een tijdinterval, terwijl de verticale as de meting van de groei is.
+De ](/help/assets/icons/NetGrowth.svg) **[!UICONTROL Net growth]** analyse 0} NetGrowth verstrekt inzichten rond het tarief waarbij u gebruikers over een specifieke periode krijgt of verliest. ![ De horizontale as is een tijdinterval, terwijl de verticale as de meting van de groei is.
 
 Elk gegevenspunt vertegenwoordigt de netto groei, die met de volgende formule wordt berekend:
 
@@ -41,7 +41,7 @@ Gelijkaardig aan de [ Actieve ](active-growth.md) analyse, worden de gebruikers 
 >
 >Herhalende gebruikers worden niet in deze berekening meegenomen, omdat ze geen winst of verlies van gebruikers vertegenwoordigen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432441/?quality=12&learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3421664/?quality=12&learn=on)
 
 
 ## Gebruik hoofdletters
@@ -62,7 +62,7 @@ Met de queryrail kunt u de volgende componenten configureren:
 
 * **[!UICONTROL View]**: Schakelaar tussen deze analyse en [ Actieve groei ](active-growth.md).
 * **[!UICONTROL Events]**: De gebeurtenis die u wilt meten. Aangezien deze analyse op gebruikers is gebaseerd, wordt een gebruiker die binnen de periode eenmaal met de gebeurtenis communiceert, als een actieve gebruiker geteld. U kunt één gebeurtenis in een vraag omvatten.
-* **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. De opties zijn [!UICONTROL Number of users] en [!UICONTROL Percentage of users] .
+* **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. <ul><li>**[!UICONTROL Options]** include [!UICONTROL Number of users] and [!UICONTROL Percentage of users] .</li><li>]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} de Extra **[!UICONTROL B2B options]** van B2B edition [!BADGE  zijn beschikbaar voor Customer Journey Analytics B2B edition: [!UICONTROL Global accounts], [!UICONTROL Accounts], [!UICONTROL Buying groups], [!UICONTROL Opportunities], [!UICONTROL Percentage of global accounts], [!UICONTROL Percentage of accounts], [!UICONTROL Percentage of buying groups], en [!UICONTROL Percentage of opportunities].</li></ul>
 * **[!UICONTROL Segments]**: Het segment dat u wilt meten. U kunt één segment in een vraag omvatten.
 
 ### Tijdvergelijking

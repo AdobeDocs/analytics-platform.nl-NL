@@ -6,9 +6,9 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: 326a82e93c0c8d57db224023ed5f3a7ab94a8997
+source-git-commit: be617c59cd2fced0031fda1130b86e638bee8f68
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ In Customer Journey Analytics B2B edition kunt u kiezen tussen een persoonlijke 
 
 ## Containers
 
-In Customer Journey Analytics-containers worden gegenereerd als onderdeel van de configuratie van een verbinding en gegevensweergave. Containers slaan alleen id&#39;s op om het snel en uitvoerbaar uitvoeren van functies zoals segmentatie, storingen en meer te vergemakkelijken.
+In Customer Journey Analytics-containers worden gegenereerd als onderdeel van de configuratie van een verbinding en gegevensweergave. Containers slaan groepen id&#39;s op om het snel en uitvoerbaar uitvoeren van functies zoals segmentatie, storingen en meer te vergemakkelijken.
 
 ### Standaardcontainers
 
@@ -62,10 +62,28 @@ De hiërarchie en de relaties tussen de containers zijn vooraf bepaald. Opportun
 
 >[!IMPORTANT]
 >
->* Als u **&#x200B;**&#x200B;de Globale container van de Rekening in een op rekening-gebaseerde verbinding hebt toegelaten, zou elk verslag in uw gebeurtenisdatasets een identiteitskaart van de Rekening en Globale identiteitskaart van de Rekening moeten bevatten. Als dat niet het geval is, wordt de record overgeslagen.
->* Als u **&#x200B;**&#x200B;niet de Globale container van de Rekening in een op rekening-gebaseerde verbinding hebt toegelaten, zou elk verslag in uw gebeurtenisdatasets een identiteitskaart van de Rekening moeten bevatten. Als dat niet het geval is, wordt de record overgeslagen.
+>* Als u **** de Globale container van de Rekening in een op rekening-gebaseerde verbinding hebt toegelaten, zou elk verslag in uw gebeurtenisdatasets een identiteitskaart van de Rekening en Globale identiteitskaart van de Rekening moeten bevatten. Als dat niet het geval is, wordt de record overgeslagen.
+>* Als u **** niet de Globale container van de Rekening in een op rekening-gebaseerde verbinding hebt toegelaten, zou elk verslag in uw gebeurtenisdatasets een identiteitskaart van de Rekening moeten bevatten. Als dat niet het geval is, wordt de record overgeslagen.
 
 ## Gegevenssets
+
+In Customer Journey Analytics B2B wordt onderscheid gemaakt tussen de volgende gegevenstypen en gegevenssets.
+
+| Gegevenstype | Tijdreeks | Containerrecords | Veldrecords |
+|---|---|---|---|
+| **Datasets** | {de datasets van de Gebeurtenis 0} **<br/>bijvoorbeeld:**<ul><li>Digitale analysemogelijkheden</li><li>CRM-gebeurtenissen</li><li>Persoonlijke gebeurtenissen</li><li>Gegevens van callcenter</li></ul> | {de datasets van het 0} Profiel **<br/>bijvoorbeeld:**<ul><li>CRM-gegevens</li><li>AJO B2B-records</li><li>CDP-records</li><ul> | **Classificaties**<br/> bijvoorbeeld:<ul><li>Campagnebestanden</li><li>Records voor marketinglijsten</li><li>Metagegevens inhoud</li><li>Productdossiers</li></ul> |
+| Vereisten | **Stempel van de Tijd**<br> Elk verslag vereist:<ul><li>Account-id</li><li>Globale account-id</li><li>Persoon-id</li></ul> | **identiteitskaart van de Rekening**<br> Vereist de Verslagen van de Rekening een containeridentiteitskaart, als:<ul><li>Account</li><li>Persoon</li><li>Opportunity</li><li>Groep voor kopen</li></ul> | **het Aanpassen van sleutel**<br> Vereist Verslagen identiteitskaart in een container of gebeurtenisdataset, als:<ul><li>Campagne-id</li><li>Inhoud-id</li><li>Product-id</li></ul> |
+
+{style="table-layout:fixed"}
+
+Een voorbeeld van een op een account gebaseerde verbinding in de Customer Journey Analytics B2B edition:
+
+![ Voorbeeld op rekening-gebaseerde verbinding ](assets/b2b-datasets.svg)
+
+Customer Journey Analytics B2B edition biedt de [ kaartinterface van de Verbinding ](/help/connections/create-connection.md#connection-map) aan om u van een overzicht van het verband tussen datasets in uw verbinding te voorzien.
+
+
+Net als in Customer Journey Analytics staan tijdreeksgegevens voor gebeurtenissen centraal in Customer Journey Analytics B2B edition. Het belangrijkste verschil voor een op rekening-gebaseerde verbinding is dat u een rekeningidentiteitskaart op elk verslag in uw gebeurtenisdataset in plaats van persoonsidentiteitskaart nodig hebt.
 
 Wanneer u [ datasetmontages ](/help/connections/create-connection.md#dataset-settings) voor uw op rekening-gebaseerde verbinding in Customer Journey Analytics B2B edition vormt, hangen de opties beschikbaar voor sommige montages van het [ datasettype ](/help/connections/create-connection.md#dataset-types) af. U moet bijvoorbeeld:
 
@@ -79,11 +97,11 @@ U kunt voor elke raadplegingsdataset bepalen, of u de dataset door gebied of doo
 
 ### Afstemmen op container
 
-Als een recorddataset een gelijke door container gebruikt, wordt de recorddataset behandeld als een type van profieldataset en als dataset van het Profiel in het gebruikersinterface. De gelijke van het gebruik door container op datasets die uw gevormde containers steunen. Bijvoorbeeld een gegevensset voor inkoopgroep.
+Als een recorddataset een gelijke door container gebruikt, wordt de recorddataset behandeld als een type van profieldataset en als dataset van het Profiel in het gebruikersinterface. De gelijke van het gebruik door container op datasets die containerverslagen bevatten en die uw gevormde containers steunen. Bijvoorbeeld een gegevensset voor inkoopgroep.
 
 ### Overeenkomst per veld
 
-Als een recorddataset een gelijke door gebied gebruikt, wordt de recorddataset behandeld als type van raadplegingsdataset en als dataset van de Opzoekopdracht in het gebruikersinterface. De gelijke van het gebruik door gebied op datasets die extra details door raadpleging bijvoorbeeld, een dataset van het Lid van de Lijst van de Marketing, of een dataset van de Details van het Product steunen.
+Als een recorddataset een gelijke door gebied gebruikt, wordt de recorddataset behandeld als type van raadplegingsdataset en als dataset van de Opzoekopdracht in het gebruikersinterface. De gelijke van het gebruik door gebied op datasets die extra classificatiedetails door raadpleging bevatten. Bijvoorbeeld, een dataset van het Lid van de Lijst van de Marketing, of een dataset van de Details van het Product.
 
 
 ## Rapport over op personen en rekeningen gebaseerde gegevens

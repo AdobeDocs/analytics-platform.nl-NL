@@ -5,36 +5,33 @@ exl-id: 53ef7485-9cae-4663-bf61-4eb77c126830
 feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: be617c59cd2fced0031fda1130b86e638bee8f68
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Active growth] analyse {#active-growth}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_guidedanalysis_activegrowth_button"
 >title="Actieve groei"
 >abstract="Identificeer wie nieuw, behouden, terugkeren, of slapend is."
 
-<!-- markdownlint-enable MD034 -->
 
 
-De ![&#128279;](/help/assets/icons/PeopleGroup.svg) **[!UICONTROL Active growth]** analyse 0&rbrace; PeopleGroup verstrekt inzichten in de groei en de verwerving van gebruikers over een specifieke periode.  De horizontale as is een tijdinterval, terwijl de verticale as een maat van gebruikers is. Gebruikers worden opgesplitst in vier categorieën:
+De ](/help/assets/icons/PeopleGroup.svg) **[!UICONTROL Active growth]** analyse 0} PeopleGroup verstrekt inzichten in de groei en de verwerving van gebruikers over een specifieke periode. ![ De horizontale as is een tijdinterval, terwijl de verticale as een maat van gebruikers is. Gebruikers worden opgesplitst in vier categorieën:
 
-* **[!UICONTROL New]**: De gebruiker was actief tijdens de huidige periode, maar niet eerder. Zie hoe ver de analyse terugkijkt door de muis boven _[!UICONTROL New users]_&#x200B;te houden in de diagramlegenda. Het terugkijkbereik wordt dynamisch bepaald op basis van het geselecteerde datumbereik en interval.
+* **[!UICONTROL New]**: De gebruiker was actief tijdens de huidige periode, maar niet eerder. Zie hoe ver de analyse terugkijkt door de muis boven _[!UICONTROL New users]_te houden in de diagramlegenda. Het terugkijkbereik wordt dynamisch bepaald op basis van het geselecteerde datumbereik en interval.
 * **[!UICONTROL Repeat]**: De gebruiker was actief in de huidige en onmiddellijk vorige periode.
-* **[!UICONTROL Return]**: De gebruiker was actief in de huidige periode en was niet actief in de onmiddellijk vorige periode, maar was voorheen actief op een bepaald punt. Zie hoe ver de analyse terugkijkt door de muis boven _[!UICONTROL Return users]_&#x200B;te houden in de diagramlegenda. Het terugkijkbereik wordt dynamisch bepaald op basis van het geselecteerde datumbereik en interval.
+* **[!UICONTROL Return]**: De gebruiker was actief in de huidige periode en was niet actief in de onmiddellijk vorige periode, maar was voorheen actief op een bepaald punt. Zie hoe ver de analyse terugkijkt door de muis boven _[!UICONTROL Return users]_te houden in de diagramlegenda. Het terugkijkbereik wordt dynamisch bepaald op basis van het geselecteerde datumbereik en interval.
 * **[!UICONTROL Dormant]**: De gebruiker was actief in de onmiddellijk vorige periode, maar is niet actief in de huidige periode. slapende gebruikers tellen niet mee voor het totale aantal actieve gebruikers.
 
 Alle actieve gebruikers (new + repeat + return) worden weergegeven als een tint boven de horizontale as, terwijl alle slapende gebruikers in oranje worden weergegeven onder de horizontale as.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3432435/?quality=12&learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3421667/?quality=12&learn=on)
 
 ## Gebruik hoofdletters
 
@@ -54,7 +51,7 @@ Met de queryrail kunt u de volgende componenten configureren:
 
 * **[!UICONTROL View]**: Schakelaar tussen deze analyse en [ Netto groei ](net-growth.md).
 * **[!UICONTROL Events]**: De gebeurtenis die u wilt meten. Aangezien deze analyse op gebruikers is gebaseerd, wordt een gebruiker die binnen de periode eenmaal met de gebeurtenis communiceert, als een actieve gebruiker geteld. U kunt één gebeurtenis in een vraag omvatten.
-* **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. De opties zijn [!UICONTROL Number of users] en [!UICONTROL Percentage of users] .
+* **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. <ul><li>**[!UICONTROL Options]** include [!UICONTROL Number of users] and [!UICONTROL Percentage of users] .</li><li>]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} de Extra **[!UICONTROL B2B options]** van B2B edition [!BADGE  zijn beschikbaar voor Customer Journey Analytics B2B edition: [!UICONTROL Global accounts], [!UICONTROL Accounts], [!UICONTROL Buying groups], [!UICONTROL Opportunities], [!UICONTROL Percentage of global accounts], [!UICONTROL Percentage of accounts], [!UICONTROL Percentage of buying groups], en [!UICONTROL Percentage of opportunities].</li></ul>
 * **[!UICONTROL Segments]**: Het segment waarop u gegevens wilt segmenteren. U kunt één segment in een vraag omvatten.
 
 ### Diagraminstellingen

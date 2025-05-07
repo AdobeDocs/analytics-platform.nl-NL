@@ -5,9 +5,9 @@ exl-id: b632475f-371e-4156-9ffc-b138325aa120
 feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: e42f04eaa06a761803e76b64a5a16674fb4af57d
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,10 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
-De ![ GraphTrend ](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Trends]** analyse verstrekt waardevol inzicht rond de prestaties van uw product of het gedrag van uw gebruikers in tijd. De horizontale as van dit rapport is een tijdinterval, terwijl de verticale as uw gewenste gebeurtenissen meet.
+De ![ GraphTrend ](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Trends]** analyse verstrekt waardevolle insight rond de prestaties van uw product of het gedrag van uw gebruikers in tijd. De horizontale as van dit rapport is een tijdinterval, terwijl de verticale as uw gewenste gebeurtenissen meet.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3432437/?quality=12&learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3421666/?quality=12&learn=on)
 
 ## Gebruik hoofdletters
 
@@ -34,7 +34,7 @@ De gevallen van het gebruik voor deze analyse omvatten:
 
 * **evalueer productprestaties**: De tendensen staan u toe om de algemene prestaties van uw product over een bepaalde periode te beoordelen. Door metriek zoals gebruikersbetrokkenheid, goedkeuring, of omzettingspercentages te analyseren, kunt u identificeren als de prestaties van uw product verbeteren, stagneren, of verminderen.
 * **Goedkeuring van de Eigenschap**: De tendensen staan u toe om te begrijpen hoe de gebruikers nieuwe eigenschappen of updates goedkeuren die u vrijgeeft. U kunt bepalen welke functies populair zijn en welke functies moeten worden verbeterd. Met deze informatie kunt u gegevensgestuurde beslissingen maken over de functies waarmee u prioriteiten kunt stellen bij uw ontwikkelingsinspanningen.
-* **gebruikersgedrag**: De tendensen kunnen inzicht in gebruikersgedrag in tijd verstrekken. Door specifieke acties te onderzoeken die de gebruikers nemen, kunt u patronen identificeren waar de gebruikers zouden kunnen wegvallen. U kunt inzichten van deze analyse met [ Trechter ](funnel.md) voor nog meer inzicht rond gedrag combineren.
+* **Gebruikersgedrag**: De tendensen kunnen insight in gebruikersgedrag in tijd verstrekken. Door specifieke acties te onderzoeken die de gebruikers nemen, kunt u patronen identificeren waar de gebruikers zouden kunnen wegvallen. U kunt inzichten van deze analyse met [ Trechter ](funnel.md) voor nog meer insight rond gedrag combineren.
 * **het testen A/B en experimenteren**: Als u tests A/B binnen uw product in werking stelt, kunt u Trends gebruiken om te meten welke tests het meest succesvol in tijd zijn.
 
 ## Interface
@@ -47,7 +47,7 @@ Met de queryrail kunt u de volgende componenten configureren:
 
 * **[!UICONTROL View]**: Schakelaar tussen deze analyse en [ Frequentie ](frequency.md).
 * **[!UICONTROL Events & Metrics]**: De gebeurtenissen of metriek die u wilt meten. Elke selectie wordt weergegeven als een diagramreeks en tabelrij. Gebeurtenissen en metriek kunnen niet in de vraag worden gecombineerd; zodra u uw eerste selectie hebt gemaakt, moeten de resterende vraagselecties van het zelfde type zijn. U kunt maximaal vijf selecties opnemen.
-* **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. U kunt onder andere gebeurtenissen, sessies, gebruikers, percentage gebruikers, gebeurtenissen per sessie en gebeurtenissen per gebruiker kiezen. Geladen als opties zijn alleen van toepassing op gebeurtenisquery&#39;s en worden verwijderd voor metrische query&#39;s.
+* **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. <ul><li>**[!UICONTROL Options]** include [!UICONTROL Users] , [!UICONTROL Events] , [!UICONTROL Sessions] , [!UICONTROL Percentage of users] , [!UICONTROL Events per session] en [!UICONTROL Events per user] .</li><li>[!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} extra **[!UICONTROL B2B options]** zijn beschikbaar voor Customer Journey Analytics B2B edition: [!UICONTROL Global accounts], [!UICONTROL Accounts], [!UICONTROL Buying groups], [!UICONTROL Opportunities], [!UICONTROL Percentage of global accounts], [!UICONTROL Percentage of accounts], [!UICONTROL Percentage of buying groups], [!UICONTROL Percentage of opportunities], [!UICONTROL Events per global account], [!UICONTROL Events per account], [!UICONTROL Events per buying group], en [!UICONTROL Events per opportunity].</li></ul>Geladen als opties zijn alleen van toepassing op gebeurtenisquery&#39;s en worden verwijderd voor metrische query&#39;s.
 * **[!UICONTROL Segments]**: De segmenten die u wilt meten. Elk geselecteerd segment verdubbelt het aantal grafiekreeksen en lijstrijen. U kunt maximaal vijf segmenten opnemen.
 * **[!UICONTROL Breakdown property]**: Verdeelt de diagramreeks en tabelrijen door de waarden van de geselecteerde eigenschap. Eén enkele eigenschap voor de indeling wordt ondersteund. De bovenste 20 waarden worden weergegeven in de tabel en er kunnen maximaal tien waarden worden weergegeven in het diagram. U kunt een rij in de grafiek verbergen of blootstellen door het ![ tonen verborgen pictogram ](../assets/hide-in-chart.png) pictogram te schakelen.
 
