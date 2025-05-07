@@ -1,9 +1,10 @@
 ---
 title: Productanalyse in Customer Journey Analytics
 description: Leer welke functies u in Customer Journey Analytics kunt gebruiken om productanalyses effectief uit te voeren.
-source-git-commit: aa7b73db10e81a96f532eedf09091109209124c0
+exl-id: b185a2ed-18c8-4fb3-8c69-693d5fee0e67
+source-git-commit: 40e6fbd49a92690253855e314e9999da28a7d2f6
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -30,9 +31,9 @@ Nauwkeurige productgegevens vormen de hoeksteen van een effectieve productanalys
 Met de volgende mogelijkheden in Adobe Experience Platform en Customer Journey Analytics kunt u uw productgegevens op grote schaal opnemen en beheren:
 
 * Adobe Experience Platform
-   * [ Datasets &#x200B; ](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/overview)
-   * [ Gegevens prep &#x200B; ](https://experienceleague.adobe.com/nl/docs/experience-platform/data-prep/home)
-   * [ Gegevens Distiller &#x200B; ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/data-distiller/overview)
+   * [ Datasets &#x200B; ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)
+   * [ Gegevens prep &#x200B; ](https://experienceleague.adobe.com/en/docs/experience-platform/data-prep/home)
+   * [ Gegevens Distiller &#x200B; ](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
 * Customer Journey Analytics
    * [&#x200B;](/help/connections/overview.md)
    * [ meningen van Gegevens ](/help/data-views/data-views.md), met inbegrip van [ afgeleide gebieden &#x200B; ](/help/data-views/derived-fields/derived-fields.md)
@@ -46,6 +47,10 @@ De productgroei hangt af van actioneerbare top-of-funnel inzichten die nieuwe ge
 
 * Bij de aankoop worden nieuwe gebruikers bijgehouden die naar uw product komen, zoals hoe ze aankomen en welke inspanningen het meest of het minst effectief zijn.
 * Activering bewaakt nieuwe gebruikers die uw eerste waardegebeurtenis gebruiken, die op basis van uw specifieke doelstellingen wordt gedefinieerd.
+
+![ Actieve groei ](/help/guided-analysis/assets/active.png)
+
+![ de analyse van de Betrokkenheid ](/help/guided-analysis/assets/feature-matrix.png)
 
 Met de volgende mogelijkheden in Customer Journey Analytics kunt u zowel de overname als de activering effectief meten:
 
@@ -76,6 +81,8 @@ Met de volgende mogelijkheden in Customer Journey Analytics kunt u de betrokkenh
 
 Retentie meet hoeveel gebruikers na eerste aankoop en activering nog steeds met het product werken. De hoog-presterende producten handhaven een stabiele, loyale gebruikersbasis door interactie met de eigenschappen te maximaliseren die het meest met voortgezet gebruik correleerden. Een bewaarde gebruiker keert terug en in tijd met het product in wisselwerking staat, terwijl een beproefde gebruiker niet. Productteams volgen het behoud om de functies vast te stellen die aan de gang zijn, en ontwerpinterventies die ervoor zorgen dat veeleisende gebruikers overschakelen op het bewaarde gebruikersgedrag.
 
+![ Analyse van het Behoud ](/help/guided-analysis/assets/retention.png)
+
 Met de volgende mogelijkheden in Customer Journey Analytics kunt u het behoud en de klanken op effectieve wijze volgen:
 
 * [ Geleide analyse: Behoud ](/help/guided-analysis/types/retention.md) &#x200B;
@@ -91,13 +98,15 @@ Met de volgende mogelijkheden in Experience Cloud kunt u effectief op inzichten 
 
 * [ creeer en publiceer publiek ](/help/components/audiences/publish.md) &#x200B; voor activering van Customer Journey Analytics
 * Het publiek activeren via Experience Cloud-producten:
-   * [ experimenten van de Looppas ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/content-experiment/get-started-experiment) in AJO en Adobe Target, en meet het effect van variaties in Customer Journey Analytics gebruikend het [ paneel van de Experimentatie ](/help/analysis-workspace/c-panels/experimentation.md)
-   * [ lever in-app overeenkomsten ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/in-app/get-started-in-app) aan gebruikers in AJO
-* [ activeer publiek ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/activation-overview) aan externe bestemmingen met Adobe Real-time CDP &#x200B;
+   * [ experimenten van de Looppas ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/get-started-experiment) in AJO en Adobe Target, en meet het effect van variaties in Customer Journey Analytics gebruikend het [ paneel van de Experimentatie ](/help/analysis-workspace/c-panels/experimentation.md)
+   * [ lever in-app overeenkomsten ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/in-app/get-started-in-app) aan gebruikers in AJO
+* [ activeer publiek ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview) aan externe bestemmingen met Adobe Real-time CDP &#x200B;
 
 ## Inzichten in de organisatie delen &#x200B;
 
 Communiceer zeer belangrijke bevindingen over teams om inspanningen te richten, samenwerking te bevorderen, en iedereen te verzekeren werkt naar gedeelde product en bedrijfsdoelstellingen.
+
+![ Geleide Analyse in Workspace ](assets/guided-analysis-workspace.png)
 
 Met de volgende mogelijkheden in Customer Journey Analytics kunt u op effectieve wijze inzichten delen:
 
