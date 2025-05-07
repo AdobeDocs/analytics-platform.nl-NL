@@ -23,7 +23,7 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
-De ](/help/assets/icons/NetGrowth.svg) **[!UICONTROL Net growth]** analyse 0} NetGrowth verstrekt inzichten rond het tarief waarbij u gebruikers over een specifieke periode krijgt of verliest. ![ De horizontale as is een tijdinterval, terwijl de verticale as de meting van de groei is.
+De ![&#128279;](/help/assets/icons/NetGrowth.svg) **[!UICONTROL Net growth]** analyse 0&rbrace; NetGrowth verstrekt inzichten rond het tarief waarbij u gebruikers over een specifieke periode krijgt of verliest.  De horizontale as is een tijdinterval, terwijl de verticale as de meting van de groei is.
 
 Elk gegevenspunt vertegenwoordigt de netto groei, die met de volgende formule wordt berekend:
 
@@ -62,7 +62,7 @@ Met de queryrail kunt u de volgende componenten configureren:
 
 * **[!UICONTROL View]**: Schakelaar tussen deze analyse en [ Actieve groei ](active-growth.md).
 * **[!UICONTROL Events]**: De gebeurtenis die u wilt meten. Aangezien deze analyse op gebruikers is gebaseerd, wordt een gebruiker die binnen de periode eenmaal met de gebeurtenis communiceert, als een actieve gebruiker geteld. U kunt één gebeurtenis in een vraag omvatten.
-* **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. <ul><li>**[!UICONTROL Options]** include [!UICONTROL Number of users] and [!UICONTROL Percentage of users] .</li><li>]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} de Extra **[!UICONTROL B2B options]** van B2B edition [!BADGE  zijn beschikbaar voor Customer Journey Analytics B2B edition: [!UICONTROL Global accounts], [!UICONTROL Accounts], [!UICONTROL Buying groups], [!UICONTROL Opportunities], [!UICONTROL Percentage of global accounts], [!UICONTROL Percentage of accounts], [!UICONTROL Percentage of buying groups], en [!UICONTROL Percentage of opportunities].</li></ul>
+* **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. <ul><li>**[!UICONTROL Options]** include [!UICONTROL Number of users] and [!UICONTROL Percentage of users] .</li><li>&rbrack;{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} de Extra **[!UICONTROL B2B options]** van B2B edition zijn beschikbaar voor Customer Journey Analytics B2B edition: [!UICONTROL Global accounts], [!UICONTROL Accounts], [!UICONTROL Buying groups], [!UICONTROL Opportunities], [!UICONTROL Percentage of global accounts], [!UICONTROL Percentage of accounts], [!UICONTROL Percentage of buying groups], en [!UICONTROL Percentage of opportunities].</li></ul>
 * **[!UICONTROL Segments]**: Het segment dat u wilt meten. U kunt één segment in een vraag omvatten.
 
 ### Tijdvergelijking
