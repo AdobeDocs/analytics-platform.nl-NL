@@ -4,7 +4,7 @@ title: Sjablonen voor berekende metriek
 feature: Calculated Metrics
 exl-id: 08d11cce-170e-42a2-806f-e0a28b70a2dc
 role: User
-source-git-commit: f0786cfa74453693078c7d30d647a96bf1d98d07
+source-git-commit: c183a5013cbc5ff3765cc4926a308d0c4563a097
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Sjablonen voor berekende metriek
 
-Customer Journey Analytics verstrekt de volgende berekende metriesjablonen om de gemeenschappelijkste gebruiks-gevallen te behandelen. Deze Adobe-bepaalde berekende metriek worden geïdentificeerd door een klein ![ 1&rbrace; embleem AdobeLogoSmall &lbrace;. ](/help/assets/icons/AdobeLogoSmall.svg) Om snel op deze metriek te filtreren, selecteer ![ Etiket ](/help/assets/icons/Label.svg) **[!UICONTROL Adobe Template]** in de [ filter van Componenten ](/help/components/overview.md#filter).
+Customer Journey Analytics biedt de volgende berekende metriesjablonen voor de meest gebruikte gevallen. Deze Adobe-bepaalde berekende metriek worden geïdentificeerd door een klein ![ 1} embleem AdobeLogoSmall {. ](/help/assets/icons/AdobeLogoSmall.svg) Om deze metriek snel te filtreren, selecteer ![ Etiket ](/help/assets/icons/Label.svg) **[!UICONTROL Adobe Template]** in de [ filter van Componenten ](/help/components/overview.md#filter).
 
 | Metrische naam berekend | Beschrijving <br/> Formule |
 |---------|----------|

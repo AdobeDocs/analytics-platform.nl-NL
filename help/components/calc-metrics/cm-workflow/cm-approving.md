@@ -3,16 +3,16 @@ description: In Berekende Metrische Manager, kunt u opstelling een werkschema da
 title: Berekende waarden goedkeuren
 feature: Calculated Metrics
 exl-id: da55bb2b-9d42-4fba-add4-655f7f7c7ef6
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: c183a5013cbc5ff3765cc4926a308d0c4563a097
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
 # Berekende waarden goedkeuren
 
-In de [ Berekende metriekmanager ](cm-manager.md), kunt u segmenten goedkeuren en goedkeuren. Alleen beheerders kunnen berekende metriek goedkeuren.
+In de [ Berekende metriekmanager ](cm-manager.md), kunt u berekende metriek goedkeuren en goedkeuren. Alleen beheerders kunnen berekende metriek goedkeuren.
 
 Berekende waarden goedkeuren:
 
