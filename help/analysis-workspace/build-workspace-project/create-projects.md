@@ -4,7 +4,7 @@ title: Projecten maken
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: 191693bc970fcf59ee51706365abde0ee30e3d3d
+source-git-commit: de0b51096c772ceb180e759b2dd992e3cf2a009d
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 2%
@@ -12,15 +12,6 @@ ht-degree: 2%
 ---
 
 # Projecten maken {#create-projects}
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_project_countrepeatinstances"
->title="Herhalingsinstanties tellen"
->abstract="Geeft aan of herhalingsinstanties worden geteld in rapporten.<br/><br/> Nota: dit het plaatsen is niet op Stroom of Vallout visualisaties van toepassing."
-
-<!-- markdownlint-enable MD034 -->
 
 
 [ Projecten ](/help/analysis-workspace/build-workspace-project/freeform-overview.md) in Analysis Workspace staan u toe om zaken-kritieke analyses tot stand te brengen en te bekijken.  Deze analyses kunnen worden gedeeld met belanghebbenden binnen of buiten uw organisatie.
@@ -56,23 +47,21 @@ Nu u een Leeg project van Workspace hebt gecreeerd, zorg ervoor u met het [ Anal
 
 ## Projectinfo en -instellingen {#project-info-settings}
 
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="workspace_project_countrepeatinstances"
+>title="Herhalingsinstanties tellen"
+>abstract="Geeft aan of herhalingsinstanties worden geteld in rapporten.<br/><br/> Nota: dit het plaatsen is niet op Stroom of Vallout visualisaties van toepassing."
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_repeatinstances"
 >title="Herhalingsinstanties tellen"
 >abstract="Geeft aan of herhalingsinstanties worden geteld in rapporten.<br/> Nota: dit het plaatsen is niet op Stroom of Vallout visualisaties van toepassing."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_commenting"
 >title="Opmerkingen toestaan"
 >abstract="Als deze optie is ingeschakeld, is er een opmerkingsgebied beschikbaar in de rechterspoorlijn van het project in Analysis Workspace."
-
-<!-- markdownlint-enable MD034 -->
 
 
 De montages van het project verstrekken project-vlakke informatie over het momenteel actieve project.
