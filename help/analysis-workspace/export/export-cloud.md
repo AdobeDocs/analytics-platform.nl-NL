@@ -5,7 +5,7 @@ title: Customer Journey Analytics-rapporten exporteren naar de cloud
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 158d75f81490edca2b5219a9b3ede2fbcdcc5901
+source-git-commit: 0fb04c116864f50b396ffbd1f22e2d6dad3da983
 workflow-type: tm+mt
 source-wordcount: '2285'
 ht-degree: 1%
@@ -123,7 +123,7 @@ Een manifestbestand met de bestandsnaam `cja-export-{reportInstanceId}-{idx}.jso
 
 <!-- add in  what the file name, structure, and file format will be -->
 
-## Voordelen van exporteren naar de cloud
+## Voordelen van exporteren naar de cloud {#advantages}
 
 Door Customer Journey Analytics-gegevens naar de cloud te exporteren, kunt u:
 
@@ -217,7 +217,7 @@ Als een niet-gebrek attributiemodel in een rapport wordt gebruikt, wordt het toe
   >
   >Multidimensionale rapporten worden alleen ondersteund wanneer u gegevens exporteert naar de cloud, zoals in dit artikel wordt beschreven.
 
-## Vergelijking van de volledige uitvoer van tabellen (in Customer Journey Analytics) naar Data Warehouse (in Adobe Analytics)
+## Vergelijking van de volledige uitvoer van tabellen (in Customer Journey Analytics) naar Data Warehouse (in Adobe Analytics) {#comparison}
 
 Als u eerder Data Warehouse hebt gebruikt om Adobe Analytics-gegevens te exporteren, kunt u met de volgende tabel de verschillen zien tussen het exporteren van volledige tabellen in Customer Journey Analytics en het exporteren van gegevens met Data Warehouse in Adobe Analytics.
 
