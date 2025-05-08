@@ -154,7 +154,7 @@ U kunt [ read-only toegang ](/help/analysis-workspace/curate-share/view-only-pro
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Aandeel met iedereen ](https://video.tv.adobe.com/v/3420093/?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Aandeel met iedereen ](https://video.tv.adobe.com/v/3452460/?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
