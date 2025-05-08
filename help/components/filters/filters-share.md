@@ -4,7 +4,7 @@ title: Segmenten delen
 feature: Filters, Segments
 exl-id: c8559c7b-f886-4046-9bd6-80778882afcc
 role: User
-source-git-commit: 85a22d1e57925f0512ce0cc658cfba1008339d91
+source-git-commit: cc1e5737b481a231e139562ca4a79fbdfd61d8a3
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 In de [ manager van het Segment ](manage-filters.md), kunt u segmenten delen. Afhankelijk van uw toestemmingen, kunt u segmenten met uw volledige organisatie, groepen, of individuele gebruikers delen:
 
-* **Beheerders**: De beheerders kunnen segmenten met de gehele organisatie, met groepen binnen een organisatie, en met individuele gebruikers delen. Zie de [ documentatie van Admin Console ](https://helpx.adobe.com/nl/enterprise/using/manage-products.html) voor meer informatie.
+* **Beheerders**: De beheerders kunnen segmenten met de gehele organisatie, met groepen binnen een organisatie, en met individuele gebruikers delen. Zie de [ documentatie van Admin Console ](https://helpx.adobe.com/enterprise/using/manage-products.html) voor meer informatie.
 * **niet-beheerders**: De niet-beheerders kunnen de segmenten slechts delen zij en slechts met individuele gebruikers hebben gecreeerd. |
 
 Een of meer segmenten delen:
@@ -38,6 +38,6 @@ Hieronder vindt u een aantal tips en trucs waarmee u segmenten kunt delen.
 
 * Als beheerder, deel slechts een segment met allen als u iedereen in uw organisatie wordt overtuigd het gebruiken van de segmenten comfortabel is. U kunt ook overwegen deze segmenten te begunstigen. Zie [ Teken een segment als favoriet ](filters-favorite.md) voor meer informatie.
 
-* Als beheerder, deel een segment met een specifieke groep als dat segment bedrijfswaarde voor het gebruikersdeel van die groep verstrekt
+* Als beheerder, deel een segment met een specifieke groep als dat segment bedrijfswaarde voor het gebruikersdeel van die groep verstrekt.
 
 * Als beheerder of individuele gebruiker, deel een segment met één of meerdere individuen om een segment te bevestigen. Als de segmenten niet nuttig blijken te zijn, kunt u het segment verwijderen.
