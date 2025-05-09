@@ -3,9 +3,9 @@ title: Overzicht van afmetingen
 description: Leer welke afmetingen zijn en hoe ze worden gebruikt in Customer Journey Analytics
 feature: Dimensions
 exl-id: 3592808b-17fd-401d-ab12-ff0308b21f45
-source-git-commit: ed7e9a6c34c5f8ba9ba4f75be05768409cbc158d
+source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '225'
 ht-degree: 1%
 
 ---
@@ -37,26 +37,10 @@ De beheerders van Customer Journey Analytics kunnen [ dimensies binnen een gegev
 
 ## Standaardafmetingen
 
-Wanneer u een gegevensweergave maakt, worden de volgende op tijd gebaseerde componenten standaard als afmetingen toegevoegd aan de gegevensweergave:
+Wanneer u een gegevensweergave maakt, worden de volgende componenten standaard als afmetingen toegevoegd aan de gegevensweergave:
 
-- 15 minuten
-- 30 minuten
-- 5 minuten
-- Dag
-- Dag van Maand
-- Weekdag
-- Dag van het Jaar
-- Uur
-- Uur van de dag
-- Minute
-- Minuut uren
-- Maand
-- Maand van jaar
-- Kwart
-- Kwartaal van jaar
-- Seconde
-- Week van jaar
-- Jaar
+{{standard-dimensions}}
+
 
 ## Dimensiebeschrijvingen toevoegen
 

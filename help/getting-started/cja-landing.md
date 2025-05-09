@@ -4,9 +4,9 @@ description: Customer Journey Analytics-openingspagina.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 720751130d0f66bddffd13c6f160a85fcc7a7206
+source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '737'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ Met Customer Journey Analytics kunt u bepalen hoe u online en offline gegevens i
 
 ## Wat is nieuw?
 
-Bekijk een glimp van de nieuwste verbeteringen in het Customer Journey Analytics-product en -documentatie! Voor een uitvoerige lijst van eigenschappen, verbeteringen, en moeilijke situaties, controleer de gedetailleerde [ Nota&#39;s van de Versie ](../release-notes/latest.md). Bezoek de [ pagina van documentatieupdates ](../release-notes/doc-changes.md) om met de recentste veranderingen bijgewerkt te blijven.
+Bekijk een glimp van de nieuwste verbeteringen in het Customer Journey Analytics-product en -documentatie! Voor een uitvoerige lijst van eigenschappen, verbeteringen, en moeilijke situaties, controleer de gedetailleerde [ Nota&#39;s van de Versie ](../release-notes/latest.md). Bezoek de [ pagina van documentupdates ](../release-notes/doc-changes.md) om met de recentste documentatieupdates bijgewerkt te blijven.
 
 >[!BEGINTABS]
 
@@ -29,47 +29,60 @@ Met Content Analytics kunt u snel en eenvoudig grote hoeveelheden inhoudsgegeven
 
 [![afbeelding](assets/learn-more-button.svg)](/help/content-analytics/content-analytics.md)
 
+>[!TAB  Diepte van de Gebeurtenis ]
+
+De Diepte van de gebeurtenis is een nieuwe standaarddimensie en verstrekt nieuwe manieren om te meten en beter te begrijpen hoe de gebeurtenissen binnen klantenzittingen worden geplaatst. De dimensie van de Diepte van de Gebeurtenis laat gedetailleerde het volgen en analyse van toe waar specifieke gebeurtenissen in de opeenvolgende stroom van gebruikersinteractie binnen een zitting voorkomen.
+
+[![afbeelding](assets/learn-more-button.svg)](/help/components/dimensions/overview.md#standard-dimensions)
+
+
 >[!TAB  Gedeelde metriek en dimensies ]
 
 De gedeelde metriek en de afmetingen verstrekken een centrale plaats om afmetingen en metriek te beheren die over om het even welk aantal gegevensmeningen kunnen worden gebruikt. Deze componenten zijn vooral van belang voor organisaties die meerdere gegevensweergaven gebruiken, vooral als die gegevensweergaven gemeenschappelijke componentinstellingen delen.
 
 [![afbeelding](assets/learn-more-button.svg)](/help/data-views/shared-metrics-dimensions/smd-overview.md)
 
->[!TAB  AI Medewerker ]
 
-De Medewerker van AI is een conversatie ervaring die artsen toestaat om taken in een snel tempo uit te voeren - of zijn begrip concepten, het oplossen van problemenproblemen, of het zoeken door informatie. Het stelt ook niet-deskundigen in staat om deskundig taken uit te voeren en verhoogt de algemene kwaliteit van het werk.
+<!--
+>[!TAB AI Assistant] 
 
-[![afbeelding](assets/learn-more-button.svg)](/help/ai-assistant.md)
+AI Assistant is a conversational experience that allows practitioners to perform tasks at a fast pace - whether its understanding concepts, troubleshooting problems, or searching through information. It also allows non-experts to perform expert tasks and increases the overall quality of work.
 
-
->[!TAB  Geleide Analyse ]
-
-De geleide Analyse is nu beschikbaar direct van binnen Analysis Workspace, toelatend gebruikers om dashboards met uitvoerige inzichten van panelen, visualisaties, en geleide analyses tot stand te brengen.
-
-[![afbeelding](assets/learn-more-button.svg)](/help/guided-analysis/overview.md)
+[![image](assets/learn-more-button.svg)](/help/ai-assistant.md)
 
 
->[!TAB  Intelligente titels v2 ]
+>[!TAB Guided Analysis] 
 
-De intelligente titels worden nu gesteund, met extra interfaceverbeteringen, voor [ Lijn ](/help/analysis-workspace/visualizations/line.md) (met inbegrip van multi-line), [ Bar ](/help/analysis-workspace/visualizations/bar.md), [ Horizontale bar ](/help/analysis-workspace/visualizations/horizontal-bar.md), [ Gebied ](/help/analysis-workspace/visualizations/area.md) (met inbegrip van veelvoudige lijnen van het Gebied), [ Donut ](/help/analysis-workspace/visualizations/donut.md), [ Uitval ](/help/analysis-workspace/visualizations/fallout/fallout-flow.md), en [ Stroom ](/help/analysis-workspace/visualizations/c-flow/flow.md) visualisaties.
+Guided Analysis is now available directly from within Analysis Workspace, enabling users to create dashboards with comprehensive insights from panels, visualizations, and guided analyses.
 
-[![afbeelding](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
-
->[!TAB Waarschuwingen]
-
-Met waarschuwingen kunt u op basis van gewijzigde percentages of specifieke gegevenspunten op de hoogte worden gesteld. U kunt bekijken hoe vaak een waarschuwing wordt geactiveerd, waarschuwingen verzenden via e-mail of SMS, gestapelde waarschuwingen maken en nog veel meer.
-
-[![afbeelding](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
+[![image](assets/learn-more-button.svg)](/help/guided-analysis/overview.md)
 
 
->[!TAB  Summiere gegevens ]
 
-Staat u toe om tijdreeksgegevens in te brengen die geen persoon identiteitskaart hebben Deze tijdreeksgegevens kunnen worden gebruikt om verschillende gebruiksgevallen te ondersteunen, zoals
+>[!TAB Intelligent captions v2] 
 
-- Prestatie-indicatoren op hoog niveau presenteren als onderdeel van of naast gegevens op gebeurtenisniveau.
-- Uploaden van doelen of doelen op een uur- of dagbasis, en vervolgens positioneren van deze doelen of doelen op basis van metriek op gebeurtenisniveau.
+Intelligent captions are now supported, with additional interface improvements, for [Line](/help/analysis-workspace/visualizations/line.md) (including multi-line), [Bar](/help/analysis-workspace/visualizations/bar.md), [Horizontal bar](/help/analysis-workspace/visualizations/horizontal-bar.md), [Area](/help/analysis-workspace/visualizations/area.md) (including multiple Area lines), [Donut](/help/analysis-workspace/visualizations/donut.md), [Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md), and [Flow](/help/analysis-workspace/visualizations/c-flow/flow.md) visualizations.
 
-[![afbeelding](assets/learn-more-button.svg)](/help/data-views/summary-data.md)
+[![image](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
+
+
+>[!TAB Alerts] 
+
+Alerts allow you to be notified based on changed percentages or specific data points. You can preview how often an alert will trigger, send alerts by email or SMS, create stacked alerts, and more.
+
+[![image](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
+
+
+>[!TAB Summary data] 
+
+Allows you to bring in time-series data that does not have a person ID. This time-series data can be used to support various use cases, such as 
+
+- Presenting high-level performance indicators as part of or next to event-level data. 
+- Uploading targets or goals at an hourly or daily basis, then positioning these targets or goals against event-level metrics. 
+
+[![image](assets/learn-more-button.svg)](/help/data-views/summary-data.md)
+
+-->
 
 >[!TAB  Grafiek-based stitching* ]
 
@@ -163,7 +176,7 @@ Begrijp hoe Customer Journey Analytics zich verhoudt tot Adobe Analytics. En hoe
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong> Customer Journey Analytics </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank"> Leerprogramma's </a> - <a href="https://helpx.adobe.com/nl/legal/product-descriptions/customer-journey-analytics.html" target="_blank"> het productbeschrijving van Customer Journey Analytics </a> - <a href="https://helpx.adobe.com/nl/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank"> de productbeschrijving van Adobe Analytics (Customer Journey Analytics toe:voegen-op) </a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank"> Customer Journey Analytics APIs </a> - <a href="/help/ai-assistant.md"> AI Medewerker </a>
+<a href="https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank"> Leerprogramma's </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html" target="_blank"> het productbeschrijving van Customer Journey Analytics </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank"> de productbeschrijving van Adobe Analytics (Customer Journey Analytics toe:voegen-op) </a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank"> Customer Journey Analytics APIs </a> - <a href="/help/ai-assistant.md"> AI Medewerker </a>
 </td>
 <td><strong> Ingestie van Gegevens </strong><br/> <a href="/help/data-ingestion/data-ingestion.md"> Overzicht </a> - <a href="/help/data-ingestion/analytics.md"> Analytics </a> - <a href="/help/data-ingestion/aepwebsdk.md"> SDK van het Web </a> - <a href="/help/data-ingestion/aepmobilesdk.md"> Mobiele SDK </a> - <a href="/help/data-ingestion/batch.md"> Partij </a> - <a href="/help/data-ingestion/streaming.md"> Streaming </a> - <a href="/help/data-ingestion/sources.md"> Bronnen </a> - <a href="/help/data-ingestion/serverapi.md"> Server API </a>
 </td>

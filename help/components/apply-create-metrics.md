@@ -4,9 +4,9 @@ title: Metrics
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: defe6ad6fc796a230525ba9b178d744caf340e2f
+source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,19 @@ Adobe biedt verschillende typen maateenheden voor gebruik in Analysis Workspace:
    * **Sessies**: Metrische Sessies in Customer Journey Analytics is wat u als deel van de configuratie van de montages van Sessies in uw gegevensmening bepaalt. Zie [ montages van de Zitting ](/help/data-views/session-settings.md).
    * **Gebeurtenissen**: De metrische Gebeurtenissen in Customer Journey Analytics worden samengesteld van de gebeurtenissen die deel van om het even welke gebeurtenisdataset uitmaken u als deel van uw verbinding hebt gevormd.
 
+  Zie [ Standaardmetriek ](#standard-metrics) voor de volledige lijst van standaardmetriek.
+
 * **Berekende metriek** ![ calculator ](/help/assets/icons/Calculator.svg): Gebruiker-bepaalde metriek die op standaardmetriek, statische aantallen, of algoritmische functies gebaseerd zijn.
 
 * **Berekende metrische malplaatjes** ![ AdobeLogoSmall ](/help/assets/icons/AdobeLogoSmall.svg) : Adobe-bepaalde metriek die zich zo ook aan berekende metriek gedragen. U kunt ze ongewijzigd gebruiken in Workspace-projecten of een kopie opslaan om de logica aan te passen. Zie [ Standaard berekende metriek ](calc-metrics/cm-workflow/../default-calcmetrics.md).
 
 U kunt zien of metrisch wordt goedgekeurd ![ Goedgekeurd pictogram ](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg) of niet. Als u meer details op metrisch wilt, beweegt over metrisch, en selecteert ![ pictogram van Info ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg). Zie [ Info van de Component ](use-components-in-workspace.md#component-info) voor meer informatie.
+
+
+## Standaardwaarden
+
+De volledige lijst van standaardmetriek in Customer Journey Analytics:
+{{standard-metrics}}
 
 ## Metrische gegevens vergelijken met verschillende attribuutmodellen
 
@@ -105,6 +113,6 @@ Om berekende metrisch voor één enkel project tot stand te brengen:
 
    * [!UICONTROL **de verandering van de Percentage**]: Creeert een nieuwe kolom die de percentageverandering tussen de twee geselecteerde kolommen toont.
 
-[ Berekende Metriek: Implementatie-minder metriek ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=nl-NL) (3:42)
+[ Berekende Metriek: Implementatie-minder metriek ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
 
 

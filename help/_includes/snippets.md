@@ -1,7 +1,7 @@
 ---
-source-git-commit: 3ca1004fc1bbe3b60f32348d7da84718aef3a057
+source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
 workflow-type: tm+mt
-source-wordcount: '3995'
+source-wordcount: '5072'
 ht-degree: 0%
 
 ---
@@ -64,14 +64,14 @@ De beschikbare opties voor tijdvergelijking omvatten de vorige periode, 13 weken
 
 | Tags | Beschrijving |
 |---|---|
-| ![ Markeringen ](/help/assets/filter-tag.png){width="300"} | In de sectie **[!UICONTROL Tags]** kunt u filteren op tags. <ul><li>U kunt ![&#128279;](/help/assets/icons/Search.svg) *Codes van het Onderzoek*  zoeken &lbrace;om naar markeringen te zoeken u kunt gebruiken om te filtreren.</li><li>U kunt meerdere tags selecteren. Welke labels beschikbaar zijn, is afhankelijk van de selecties die in andere secties in het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**(1)**: Het aantal geselecteerde markeringen (als één of meerdere markeringen worden geselecteerd).</li><li>**2︎⃣**: Het aantal markeringen beschikbaar voor de punten die uit de huidige filter voortvloeien.</li><li>7︎⃣: Het aantal items dat aan de specifieke tag is gekoppeld.</li></ul></li></ul> |
+| ![ Markeringen ](/help/assets/filter-tag.png){width="300"} | In de sectie **[!UICONTROL Tags]** kunt u filteren op tags. <ul><li>U kunt ](/help/assets/icons/Search.svg) *Codes van het Onderzoek* ![ zoeken {om naar markeringen te zoeken u kunt gebruiken om te filtreren.</li><li>U kunt meerdere tags selecteren. Welke labels beschikbaar zijn, is afhankelijk van de selecties die in andere secties in het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**(1)**: Het aantal geselecteerde markeringen (als één of meerdere markeringen worden geselecteerd).</li><li>**2︎⃣**: Het aantal markeringen beschikbaar voor de punten die uit de huidige filter voortvloeien.</li><li>7︎⃣: Het aantal items dat aan de specifieke tag is gekoppeld.</li></ul></li></ul> |
 
 
 ## Sectie Gegevensweergavefilter {#dataviewfiltersection}
 
 | Gegevens, weergave | Beschrijving |
 |---|---|
-| ![ de meningen van Gegevens ](/help/assets/filter-dataview.png){width="300"} | In de sectie **[!UICONTROL Data view]** kunt u filteren op gegevensweergaven. <ul><li>U kunt ![&#128279;](/help/assets/icons/Search.svg) *de meningen van Gegevens van het 1&rbrace; Onderzoek* &lbrace;zoeken aan onderzoek naar gegevensmeningen u kunt gebruiken om te filtreren.</li><li>U kunt meerdere gegevensweergaven selecteren. Welke gegevensweergaven beschikbaar zijn, is afhankelijk van de selecties die in andere secties van het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**(2)**: Het aantal geselecteerde gegevensmeningen (als één of meerdere gegevensmeningen worden geselecteerd).</li><li>**3︎⃣**: Het aantal gegevensmeningen beschikbaar voor de punten die uit de huidige filter voortvloeien.</li><li>4︎⃣: Het aantal items dat is gekoppeld aan de specifieke gegevensweergave.</li></ul></li></ul> |
+| ![ de meningen van Gegevens ](/help/assets/filter-dataview.png){width="300"} | In de sectie **[!UICONTROL Data view]** kunt u filteren op gegevensweergaven. <ul><li>U kunt ](/help/assets/icons/Search.svg) *de meningen van Gegevens van het 1} Onderzoek* {zoeken aan onderzoek naar gegevensmeningen u kunt gebruiken om te filtreren.![</li><li>U kunt meerdere gegevensweergaven selecteren. Welke gegevensweergaven beschikbaar zijn, is afhankelijk van de selecties die in andere secties van het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**(2)**: Het aantal geselecteerde gegevensmeningen (als één of meerdere gegevensmeningen worden geselecteerd).</li><li>**3︎⃣**: Het aantal gegevensmeningen beschikbaar voor de punten die uit de huidige filter voortvloeien.</li><li>4︎⃣: Het aantal items dat is gekoppeld aan de specifieke gegevensweergave.</li></ul></li></ul> |
 
 ## Ingeschakelde sectie voor statusfilter {#enabledstatusfiltersection}
 
@@ -89,7 +89,7 @@ De beschikbare opties voor tijdvergelijking omvatten de vorige periode, 13 weken
 
 | Eigenaar | Beschrijving |
 |---|---|
-| ![ Eigenaars ](/help/assets/filter-owners.png){width="300"} | In de sectie **[!UICONTROL Owner]** kunt u filteren op eigenaars. <ul><li>U kunt ![&#128279;](/help/assets/icons/Search.svg) *Onderzoek Eigenaars*  zoeken &lbrace;om naar eigenaars te zoeken u aan filter kunt gebruiken.</li><li>U kunt meerdere eigenaars selecteren. Welke eigenaars beschikbaar zijn, is afhankelijk van de selecties die in andere secties in het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**(2)**: Het aantal geselecteerde eigenaars (als één of meerdere eigenaars worden geselecteerd).</li><li>**3︎⃣**: Het aantal eigenaars beschikbaar voor de punten die uit de huidige filter voortvloeien.</li><li>4︎⃣: Het aantal items dat aan de specifieke eigenaar is gekoppeld.</li></ul></li></ul> |
+| ![ Eigenaars ](/help/assets/filter-owners.png){width="300"} | In de sectie **[!UICONTROL Owner]** kunt u filteren op eigenaars. <ul><li>U kunt ](/help/assets/icons/Search.svg) *Onderzoek Eigenaars* ![ zoeken {om naar eigenaars te zoeken u aan filter kunt gebruiken.</li><li>U kunt meerdere eigenaars selecteren. Welke eigenaars beschikbaar zijn, is afhankelijk van de selecties die in andere secties in het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**(2)**: Het aantal geselecteerde eigenaars (als één of meerdere eigenaars worden geselecteerd).</li><li>**3︎⃣**: Het aantal eigenaars beschikbaar voor de punten die uit de huidige filter voortvloeien.</li><li>4︎⃣: Het aantal items dat aan de specifieke eigenaar is gekoppeld.</li></ul></li></ul> |
 
 ## Sectie Overige filters {#otherfiltersfiltersection}
 
@@ -132,13 +132,13 @@ Een terugzoekvenster is de hoeveelheid tijd die een conversie moet terugkijken o
 * **30 Dagen**: Zoekt file tot 30 dagen vanaf toen de omzetting gebeurde.
 * **60 Dagen**: Zoekt file tot 60 dagen vanaf toen de omzetting gebeurde.
 * **90 Dagen**: Zoekt file tot 90 dagen vanaf toen de omzetting gebeurde.
-* **13 maanden** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative}: Zoekt file aan 13 maanden vanaf toen de omzetting gebeurde.
+* **13 maanden** [!BADGE  B2B edition ]{type=Informative}: Zoekt file aan 13 maanden vanaf toen de omzetting gebeurde.
 * **Zitting**: Zoekt file aan het begin van de zitting waar een omzetting gebeurde. De raadplegingsvensters van de zitting respecteren de gewijzigde [ onderbreking van de Zitting ](/help/data-views/create-dataview.md#session-settings) in een gegevensmening.
 * **Persoon (Meldend Venster)**: Zoekt bij alle bezoeken file tot de eerste van de maand van de huidige datumwaaier. Als het bereik van de rapportdatum bijvoorbeeld 15 september tot en met 30 september is, omvat het bereik van de persoonlijke terugzoekdatum 1 september tot en met 30 september. Als u dit terugkijkvenster gebruikt, kunt u soms zien dat de afmetingspunten aan data buiten uw rapporterend venster worden toegeschreven.
-* **Globale Rekening (Meldend Venster)** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative}: Zoekt naar alle globale rekeningen tot de eerste van de maand van de huidige datumwaaier. Als het bereik van de rapportdatum bijvoorbeeld 15 september tot en met 30 september is, omvat het bereik van de globale terugzoekdatum van de account 1 september tot en met 30 september. Als u dit terugkijkvenster gebruikt, kunt u soms zien dat de afmetingspunten aan data buiten uw rapporterend venster worden toegeschreven.
-* **Rekeningen (Meldend Venster)** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative}: Zoekt naar alle rekeningen tot de eerste van de maand van de huidige datumwaaier. Als het bereik van de rapportdatum bijvoorbeeld 15 september tot en met 30 september is, omvat het bereik van de accountolookback-datum 1 september tot en met 30 september. Als u dit terugkijkvenster gebruikt, kunt u soms zien dat de afmetingspunten aan data buiten uw rapporterend venster worden toegeschreven.
-* **Kans (Meldend Venster)** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative}: Zoekt naar alle kansen tot aan de eerste maand van de maand van de huidige datumwaaier. Als het bereik van de rapportdatum bijvoorbeeld 15 september tot en met 30 september is, omvat het bereik van de opportunitylookbackdatum 1-30 september. Als u dit terugkijkvenster gebruikt, kunt u soms zien dat de afmetingspunten aan data buiten uw rapporterend venster worden toegeschreven.
-* **het Kopen groep (Meldend Venster)** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative}: Zoekt bij alle het kopen groepen file tot de eerste maand van de maand van de huidige datumwaaier. Als het bereik van de rapportdatum bijvoorbeeld 15 september tot en met 30 september is, omvat het bereik van de terugnamedatum van de inkoopgroep de periode van 1 september tot en met 30 september. Als u dit terugkijkvenster gebruikt, kunt u soms zien dat de afmetingspunten aan data buiten uw rapporterend venster worden toegeschreven.
+* **Globale Rekening (Meldend Venster)** [!BADGE  B2B edition ]{type=Informative}: Zoekt naar alle globale rekeningen tot de eerste van de maand van de huidige datumwaaier. Als het bereik van de rapportdatum bijvoorbeeld 15 september tot en met 30 september is, omvat het bereik van de globale terugzoekdatum van de account 1 september tot en met 30 september. Als u dit terugkijkvenster gebruikt, kunt u soms zien dat de afmetingspunten aan data buiten uw rapporterend venster worden toegeschreven.
+* **Rekeningen (Meldend Venster)** [!BADGE  B2B edition ]{type=Informative}: Zoekt naar alle rekeningen tot de eerste van de maand van de huidige datumwaaier. Als het bereik van de rapportdatum bijvoorbeeld 15 september tot en met 30 september is, omvat het bereik van de accountolookback-datum 1 september tot en met 30 september. Als u dit terugkijkvenster gebruikt, kunt u soms zien dat de afmetingspunten aan data buiten uw rapporterend venster worden toegeschreven.
+* **Kans (Meldend Venster)** [!BADGE  B2B edition ]{type=Informative}: Zoekt naar alle kansen tot aan de eerste maand van de maand van de huidige datumwaaier. Als het bereik van de rapportdatum bijvoorbeeld 15 september tot en met 30 september is, omvat het bereik van de opportunitylookbackdatum 1-30 september. Als u dit terugkijkvenster gebruikt, kunt u soms zien dat de afmetingspunten aan data buiten uw rapporterend venster worden toegeschreven.
+* **het Kopen groep (Meldend Venster)** [!BADGE  B2B edition ]{type=Informative}: Zoekt bij alle het kopen groepen file tot de eerste maand van de maand van de huidige datumwaaier. Als het bereik van de rapportdatum bijvoorbeeld 15 september tot en met 30 september is, omvat het bereik van de terugnamedatum van de inkoopgroep de periode van 1 september tot en met 30 september. Als u dit terugkijkvenster gebruikt, kunt u soms zien dat de afmetingspunten aan data buiten uw rapporterend venster worden toegeschreven.
 * **Tijd van de Douane:** staat u toe om een venster van de douaneterugblik van te plaatsen wanneer een omzetting gebeurde. U kunt het aantal minuten, uren, dagen, weken, maanden of kwartalen opgeven. Bijvoorbeeld, als een omzetting op 20 februari gebeurde, zou een terugkijkvenster van vijf dagen alle afmetingstips van 15 februari tot 20 februari in het attributiemodel evalueren.
 
 ## Voorbeeld van kenmerk {#attribution-example}
@@ -230,7 +230,7 @@ Gebruik de volgende informatie om de visualisatie te kiezen die het beste aan uw
 
 >[!AVAILABILITY]
 >
->De functionaliteit die in dit artikel wordt beschreven, en om het even welk ander artikel of functionaliteit die met [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative} wordt badged, is in de Beperkte het Testen fase van versie en zou niet nog in uw milieu beschikbaar kunnen zijn. <br/> ook, [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative} functionaliteiten en documentatie van [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative} functionaliteiten zijn onderworpen aan verandering en geen wettelijke verplichtingen kunnen uit het worden afgeleid.<br/> Deze nota zal worden verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het de versieproces van Customer Journey Analytics, zie [ de eigenschapversies van Customer Journey Analytics ](/help/release-notes/releases.md).
+>De functionaliteit die in dit artikel wordt beschreven, en om het even welk ander artikel of functionaliteit die met [!BADGE  B2B edition ]{type=Informative} wordt badged, is in de Beperkte het Testen fase van versie en zou niet nog in uw milieu beschikbaar kunnen zijn. <br/> ook, [!BADGE  B2B edition ]{type=Informative} functionaliteiten en documentatie van [!BADGE  B2B edition ]{type=Informative} functionaliteiten zijn onderworpen aan verandering en geen wettelijke verplichtingen kunnen uit het worden afgeleid.<br/> Deze nota zal worden verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het de versieproces van Customer Journey Analytics, zie [ de eigenschapversies van Customer Journey Analytics ](/help/release-notes/releases.md).
 >
 
 
@@ -238,7 +238,7 @@ Gebruik de volgende informatie om de visualisatie te kiezen die het beste aan uw
 
 >[!INFO]
 >
->In deze documentatie, zijn de specifieke B2B- artikelen of de functionaliteit, slechts beschikbaar met Customer Journey Analytics B2B edition, duidelijk met [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative}.
+>In deze documentatie, zijn de specifieke B2B- artikelen of de functionaliteit, slechts beschikbaar met Customer Journey Analytics B2B edition, duidelijk met [!BADGE  B2B edition ]{type=Informative}.
 
 
 ## Algemene instellingen voor gegevenssets {#common-dataset-settings}
@@ -255,3 +255,44 @@ Gebruik de volgende informatie om de visualisatie te kiezen die het beste aan uw
 | **[!UICONTROL Dataset]** | De naam van de gegevensset. |
 | **[!UICONTROL Preview: *naam van de dataset *]** | Hiermee geeft u een voorvertoning weer van de gegevensset voor de eerste tien rijen en de eerste tien kolommen. |
 | ![ RemoveCircle ](/help/assets/icons/RemoveCircle.svg) **[!UICONTROL Remove]** | U kunt [ een dataset ](/help/connections/create-connection.md#delete-a-dataset) schrappen zonder de volledige verbinding te schrappen. Het schrappen van een dataset van een verbinding vermindert de kosten betrokken bij gegevensopname en het lastige proces om de volledige verbinding en bijbehorende gegevensmeningen opnieuw te creëren. |
+
+## Standaardafmetingen {#standard-dimensions}
+
+| Componentnaam | Notities |
+|---|---|
+| 15 minuten | Elke 15 minuten dat een bepaalde gebeurtenis plaatsvond (naar beneden afgerond). Het eerste dimensie-item is de eerste 15 minuten in het datumbereik en het laatste dimensie-item is de laatste 15 minuten in het datumbereik. |
+| 30 minuten | Elke 30 minuten dat een bepaalde gebeurtenis plaatsvond (naar beneden afgerond). Het eerste dimensie-item is de eerste 30 minuten in het datumbereik en het laatste dimensie-item is de laatste 30 minuten in het datumbereik. |
+| 5 minuten | Elke 5 minuten dat een bepaalde gebeurtenis plaatsvond (naar beneden afgerond). Het eerste dimensie-item is de eerste 15 minuten in het datumbereik en het laatste dimensie-item is de laatste 5 minuten in het datumbereik. |
+| [!UICONTROL Day] | De dag waarop een bepaalde gebeurtenis plaatsvond. Het eerste afmetingspunt is de eerste dag in de datumwaaier, en het laatste afmetingspunt is de laatste dag in de datumwaaier. |
+| [!UICONTROL Day of Month] | De dag van de maand waarin een bepaalde gebeurtenis heeft plaatsgevonden. Het eerste afmetingspunt is de eerste dag van de maand in de datumwaaier, en het laatste afmetingspunt is de laatste dag van de maand in de datumwaaier. |
+| [!UICONTROL Day of Week] | De dag van de week waarin een bepaalde gebeurtenis plaatsvond. Het eerste afmetingsitem is de eerste dag van de week in het datumbereik en het laatste afmetingsitem is de laatste dag van de week in het datumbereik. |
+| [!UICONTROL Day of Month] | De dag van de maand waarin een bepaalde gebeurtenis heeft plaatsgevonden. Het eerste afmetingspunt is de eerste dag van de maand in de datumwaaier, en het laatste afmetingspunt is de laatste dag van de maand in de datumwaaier. |
+| Diepte van gebeurtenis | Hiermee worden opeenvolgende numerieke waarden (1, 2, 3, enz.) toegewezen aan elke gebeurtenisinteractie binnen een sessie. Met deze dimensie kunt u gedetailleerde tracering en analyse van waar specifieke gebeurtenissen voorkomen in de opeenvolgende stroom van gebruikersinteractie binnen een zitting toelaten. U kunt de voortgang van gebeurtenissen van begin tot eind volgen binnen een begrensde zitting. Als voorbeeld: een bezoeker landt op uw homepage (gebeurtenis 1, start van sessie), gebruikt de zoekfunctie (gebeurtenis 2), bekijkt een pagina met productdetails (gebeurtenis 3), voegt toe aan winkelwagentje (gebeurtenis 4), gaat verder met uitchecken (gebeurtenis 5) en voltooit een aankoop (gebeurtenis 6, einde van sessie). U kunt [!UICONTROL Event depth] nu in een segmentdefinitie gebruiken om gegevens te segmenteren op basis van interactiediepte. |
+| [!UICONTROL Hour] | Het uur dat een bepaalde gebeurtenis heeft plaatsgevonden (naar beneden afgerond). Het eerste afmetingspunt is het eerste uur in de datumwaaier, en het laatste afmetingspunt is het laatste uur in de datumwaaier. |
+| [!UICONTROL Hour of Day] | Het uur van de dag waarop een bepaalde gebeurtenis heeft plaatsgevonden (naar beneden afgerond). Het eerste afmetingspunt is het eerste uur van de dag in de datumwaaier, en het laatste afmetingspunt is het laatste uur van de dag in de datumwaaier. |
+| [!UICONTROL Minute] | De minuut dat een bepaalde gebeurtenis heeft plaatsgevonden (naar beneden afgerond). Het eerste afmetingspunt is de eerste minuut in de datumwaaier, en het laatste afmetingspunt is de laatste minuut in de datumwaaier. |
+| [!UICONTROL Minute of Hour] | De minuut van het uur dat een bepaalde gebeurtenis plaatsvond (naar beneden afgerond). Het eerste afmetingspunt is de eerste minuut van het uur in de datumwaaier, en het laatste afmetingspunt is de laatste minuut van het uur in de datumwaaier. |
+| [!UICONTROL Month] | De maand waarin een bepaalde gebeurtenis heeft plaatsgevonden. Het eerste afmetingspunt is de eerste maand in de datumwaaier, en het laatste afmetingspunt is de laatste maand in de datumwaaier. |
+| [!UICONTROL Month of Year] | De maand van het jaar waarin een bepaalde gebeurtenis plaatsvond. De eerste dimensie-item is de eerste maand van het jaar in het datumbereik, en de laatste dimensie-item is de laatste maand van het jaar in het datumbereik. |
+| [!UICONTROL Quarter] | Het kwart dat een bepaalde gebeurtenis heeft plaatsgevonden. De post van de eerste dimensie is het eerste kwartaal in het datumbereik, en de laatste dimensie is het laatste kwartaal in het datumbereik. |
+| [!UICONTROL Quarter of Year] | Het kwartaal van het jaar waarin een bepaalde gebeurtenis plaatsvond. De eerste dimensie-post is het eerste kwartaal van het jaar in het datumbereik, en de laatste dimensie-post is het laatste kwartaal van het jaar in het datumbereik. |
+| [!UICONTROL Second] | Het tweede dat een bepaalde gebeurtenis plaatsvond (naar beneden afgerond). Het eerste dimensie-item is de eerste seconde in het datumbereik en het laatste dimensie-item is de laatste seconde in het datumbereik. |
+| [!UICONTROL Week] | De week waarin een bepaalde gebeurtenis plaatsvond. Het eerste dimensie-item is de eerste week in het datumbereik en het laatste dimensie-item is de laatste week in het datumbereik. |
+| [!UICONTROL Week of year] | De week van het jaar waarin een bepaalde gebeurtenis plaatsvond. De eerste dimensie-item is de eerste week van het jaar in het datumbereik, en de laatste dimensie-item is de laatste week van het jaar in het datumbereik. |
+| [!UICONTROL Year] | Het jaar waarin een bepaalde gebeurtenis plaatsvond. De eerste dimensie-post is het eerste jaar in het datumbereik, en de laatste dimensie-post is het meest recente jaar in het datumbereik. |
+
+
+## Standaardwaarden {#standard-metrics}
+
+| Componentnaam | Notities |
+| --- | --- |
+| [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>[!UICONTROL Accounts] | Gebaseerd op de account-id die is opgegeven in een [!UICONTROL Connection] . |
+| [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>[!UICONTROL Buying Group] | De inkoopgroepen, op basis van de groep-id voor kopen die is opgegeven in de [!UICONTROL Connection] . |
+| [!UICONTROL Events] | Het aantal rijen van alle gebeurtenisdatasets in a [!UICONTROL Connection]. |
+| [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>[!UICONTROL Global Accounts] | Gebaseerd op de globale die Rekeningen ID in [!UICONTROL Connection] wordt gespecificeerd. |
+| [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>[!UICONTROL Opportunities] | De mogelijkheden, die op identiteitskaart van de Kanans worden gebaseerd die in [!UICONTROL Connection] wordt gespecificeerd. |
+| [!UICONTROL People] | Gebaseerd op de persoon-id die is opgegeven in een [!UICONTROL Connection] . |
+| [!UICONTROL Session Ends] | Het aantal gebeurtenissen dat de laatste gebeurtenis van een sessie was. Net als [!UICONTROL Session Starts] kan de klasse ook worden gebruikt in een segmentdefinitie om items tot aan de laatste gebeurtenis van elke sessie te segmenteren.<p>Deze component moet in uw gegevensmening voor het volgende [ berekende metrisch ](/help/components/calc-metrics/default-calcmetrics.md) worden omvat om in Workspace beschikbaar te zijn: <ul><li>Eindfrequentie sessie</li></p> |
+| [!UICONTROL Session Starts] | Het aantal gebeurtenissen dat de eerste gebeurtenis van een sessie was. Wanneer gebruikt in een segmentdefinitie (bijvoorbeeld, &quot;[!UICONTROL Session Starts] bestaat&quot;), segmenteert het neer aan enkel de eerste gebeurtenis van elke zitting.<p>Deze component moet in uw gegevensmening voor het volgende [ berekende metrisch ](/help/components/calc-metrics/default-calcmetrics.md) worden omvat om in Workspace beschikbaar te zijn: <ul><li>Beginsnelheid van sessie</li></p> |
+| [!UICONTROL Sessions] | Gebaseerd op de de zittingsmontages van de gegevensmening. |
+| [!UICONTROL Time Spent (seconds)] | Hiermee wordt de tijd tussen twee verschillende waarden voor een dimensie samengevat.<p>Deze component moet in uw gegevensmening voor de volgende [ berekende metriek ](/help/components/calc-metrics/default-calcmetrics.md) worden omvat om in Workspace beschikbaar te zijn: <ul><li>Tijd besteed per persoon</li><li>Tijd besteed per sessie</li></p> |
