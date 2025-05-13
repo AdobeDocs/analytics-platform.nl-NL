@@ -5,9 +5,9 @@ title: Customer Journey Analytics-rapporten exporteren naar de cloud
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 0fb04c116864f50b396ffbd1f22e2d6dad3da983
+source-git-commit: 9482dd11ecf4aa6f3f8a45c90c3838a4a3389c73
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2312'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,16 @@ Gebruik het volgende proces bij het exporteren van volledige tabellen naar de cl
 
 ![ het volledige proces van de lijstuitvoer dat in stappen 1 door 4 wordt beschreven.](assets/export-full-table-process.png)
 
-## Volledige tabellen exporteren vanuit Analysis Workspace
+## Volledige tabellen exporteren vanuit Analysis Workspace {#export-from-workspace}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="export-manifest"
+>title="Manifest-bestand"
+>abstract="Wanneer deze optie is ingeschakeld, wordt een manifestbestand opgenomen met alle gelukte exportbewerkingen. Met het manifestbestand kunt u bevestigen dat alle bestanden zijn geleverd."
+
+<!-- markdownlint-enable MD034 -->
 
 >[!NOTE]
 >
