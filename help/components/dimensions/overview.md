@@ -3,9 +3,9 @@ title: Overzicht van afmetingen
 description: Leer welke afmetingen zijn en hoe ze worden gebruikt in Customer Journey Analytics
 feature: Dimensions
 exl-id: 3592808b-17fd-401d-ab12-ff0308b21f45
-source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
+source-git-commit: 6cabedc5ed58dac450577fc3505be5f95b7a959d
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '235'
 ht-degree: 1%
 
 ---
@@ -45,3 +45,9 @@ Wanneer u een gegevensweergave maakt, worden de volgende componenten standaard a
 ## Dimensiebeschrijvingen toevoegen
 
 Customer Journey Analytics-beheerders kunnen beschrijvingen voor afmetingen en andere componenten toevoegen in de gegevensweergave of rechtstreeks in Analysis Workspace. Voor informatie over hoe te om beschrijvingen aan afmetingen toe te voegen, zie [ componentenbeschrijvingen ](/help/components/add-component-descriptions.md) toevoegen.
+
+>[!MORELIKETHIS]
+>
+>[ ontdekt de diepere Inzichten van de Klant met de Eigenschap van de Diepte van de Gebeurtenis ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947#M576)
+>
+
