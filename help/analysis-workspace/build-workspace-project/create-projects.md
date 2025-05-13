@@ -4,9 +4,9 @@ title: Projecten maken
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: de0b51096c772ceb180e759b2dd992e3cf2a009d
+source-git-commit: fb7e0e911de2a4a702d6069ca2f53d7769ec608b
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '496'
 ht-degree: 2%
 
 ---
@@ -31,15 +31,15 @@ Nu u een Leeg project van Workspace hebt gecreeerd, zorg ervoor u met het [ Anal
 
 ![ Project van het Voorbeeld ](assets/example-project.png)
 
-* Voeg [ panelen ](/help/analysis-workspace/c-panels/panels.md) aan uw project toe. Bijvoorbeeld de **[!DNL Example Panel]** ➊.
+* Voeg [ panelen ](/help/analysis-workspace/c-panels/panels.md) aan uw project toe. De lus **[!DNL Example Panel]** ➊ .
 
 * Voeg [ visualisaties ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) aan uw panelen toe. Bijvoorbeeld:
    * **[!DNL Line Graph]** [ lijn ](/help/analysis-workspace/visualizations/line.md) visualisatie ➋
-   * **[!DNL Countries]** [ de lijst van de Vrije vorm ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) ➌
+   * **[!DNL Countries]** [ Freeform lijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) visualisatie ➌
 * Voeg [ componenten ](/help/components/overview.md) aan uw visualisaties toe. Bijvoorbeeld:
-   * **[!DNL Store Country]** [ dimensie ](/help/components/dimensions/overview.md) ➍
-   * **[!DNL People]** [ metrische ](/help/components/apply-create-metrics.md) ➎
-   * **[!DNL Avg Order Value]** [ berekende metrische ](/help/components/calc-metrics/calc-metr-overview.md) ➏
+   * **[!DNL Store Country]** [ afmeting ](/help/components/dimensions/overview.md) ➍
+   * **[!DNL People]** [ metrisch ](/help/components/apply-create-metrics.md) ➎
+   * **[!DNL Avg Order Value]** [ berekende metrisch ](/help/components/calc-metrics/calc-metr-overview.md) ➏
    * **[!DNL Mobile App Sessions]** [ segment ](/help/components/filters/filters-overview.md) ➐
    * **[!DNL Last Month]** [ datumwaaier ](/help/components/date-ranges/overview.md) ➑
    * **[!DNL Example]** [ annotation ](/help/components/annotations/overview.md) ➒
@@ -81,14 +81,7 @@ Voorbeelden van instellingen:
 | Annotaties tonen | Geef op of er annotaties worden weergegeven voor dit project. |
 | [ het kleurenpalet van het Project ](/help/analysis-workspace/build-workspace-project/color-palettes.md) | U kunt het categorische kleurenpalet veranderen dat in Workspace wordt gebruikt, door uit paletten te kiezen die uit-van-de-doos die voor kleurenblindheid zijn geoptimaliseerd, of door uw douanepalet te specificeren. Deze functie is van invloed op veel dingen in Workspace, waaronder de meeste visualisaties. |
 | [Dichtheid weergeven](/help/analysis-workspace/build-workspace-project/view-density.md) | Hiermee kunt u meer gegevens op het scherm zien door de verticale opvulling van het linkerdeelvenster, vrije-vormtabellen en coderingstabellen te verminderen. |
-
-<!--
-
-Add this to the table above - exchange - for pipe: (End of April, 2025 when project commenting is GA)
-
-Allow commenting - When this option is enabled, a comments area is available in the right rail of the project in Analysis Workspace. For more information, see [Add and manage comments in projects](/help/analysis-workspace/build-workspace-project/comment-projects.md). 
-
--->
+| Opmerkingen toestaan | **Nota:** deze functionaliteit is in de Beperkte het Testen fase van versie en zou niet nog in uw milieu beschikbaar kunnen zijn. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het de versieproces van Customer Journey Analytics, zie [ de eigenschapversies van Customer Journey Analytics ](/help/release-notes/releases.md). <p>Als deze optie is ingeschakeld, is er een opmerkingsgebied beschikbaar in de rechterspoorlijn van het project in Analysis Workspace. Voor meer informatie, zie [ commentaren in projecten ](/help/analysis-workspace/build-workspace-project/comment-projects.md) toevoegen en beheren.</p> |
 
 
 

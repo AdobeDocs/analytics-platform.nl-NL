@@ -3,10 +3,8 @@ description: Leer hoe u commentaar kunt leveren op een project in Analysis Works
 title: Opmerkingen toevoegen en weergeven in projecten
 feature: Workspace Basics
 role: User
-hide: true
-hidefromtoc: true
 exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
-source-git-commit: ca619cfd0c4f4329c7069e387b5b4d919a53e9fb
+source-git-commit: fb7e0e911de2a4a702d6069ca2f53d7769ec608b
 workflow-type: tm+mt
 source-wordcount: '1647'
 ht-degree: 0%
@@ -14,6 +12,8 @@ ht-degree: 0%
 ---
 
 # Opmerkingen toevoegen en beheren in projecten {#comment-on-projects}
+
+{{release-limited-testing}}
 
 Met opmerkingen in Analysis Workspace kunt u inzichten delen en vragen stellen in het kader van een Analysis Workspace-project. Hierdoor kunnen discussies over de gegevens worden gestroomlijnd, waarbij gesprekken worden gevoerd binnen de context van de gegevens die worden besproken.
 
