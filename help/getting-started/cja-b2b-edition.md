@@ -6,9 +6,9 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B edition"
 exl-id: 89e482b8-8082-4413-8fd3-cc1331780af4
-source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
+source-git-commit: d0dfcce1a9ba2a2f3e55abc63116ed07a33c9411
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 {{draft-b2b}}
 
-Adobe Analytics is begonnen als een web- en digitaal analyseprogramma voor marketers, terwijl Customer Journey Analytics het bereik heeft uitgebreid tot multikanaalgegevens, offlinegegevens en platformonafhankelijke gegevens.  Beide hulpmiddelen helpen de Onderneming aan Consumentenondernemingen (B2C) hun marketing inspanningen en klantenervaring analyseren en optimaliseren.
+Adobe Analytics is begonnen als een web- en digitaal analyseprogramma voor marketers, terwijl Customer Journey Analytics het bereik heeft uitgebreid tot multikanaalgegevens, offlinegegevens en platformonafhankelijke gegevens.  Beide hulpmiddelen helpen de Onderneming aan Consumentenondernemingen (B2C) hun marketing inspanningen en klantenervaring analyseren en optimaliseren. En nadruk op **op persoon-gebaseerde rapportering en analyse**: begrijp de klantenreis, waar de klant een persoon is die met uw merk over veelvoudige kanalen in wisselwerking staat.
 
-In B2B (zaken-aan-zaken) verkoop, omvat de koopreis veelvoudige partijen, online en off-line touchpoints, en zeer belangrijke stadia alvorens een overeenkomst te sluiten. B2B-bedrijven moeten al deze interacties bijhouden in een uniforme reisweergave om hun marketinginspanningen en accountervaringen op effectieve wijze te analyseren en te optimaliseren.
+Customer Journey Analytics B2B edition voegt **op rekening-gebaseerde rapportering en analyse** toe. In B2B (zaken-aan-zaken) verkoop, omvat de koopreis veelvoudige partijen, online en off-line touchpoints, en zeer belangrijke stadia alvorens een overeenkomst te sluiten. B2B-bedrijven moeten al deze interacties bijhouden in een uniforme reisweergave om hun marketinginspanningen en accountervaringen op effectieve wijze te analyseren en te optimaliseren.
 
 Typische B2B-verkoopkenmerken zijn:
 
