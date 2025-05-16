@@ -4,9 +4,9 @@ title: Intelligente bijschriften
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: 4d566411778774d21be04c4f3d6cf2ffabed6db2
+source-git-commit: af8d4f07498211931e9549cadd4746eebb9f56f4
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -16,65 +16,10 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_area"
->title="Intelligente bijschriften: gebied"
+>id="workspace_intelligentcaptions"
+>title="Intelligente bijschriften"
 >abstract="Inzichten in de vorm van natuurlijke talen genereren om u te helpen gegevens voor deze visualisatie eenvoudiger te begrijpen en te interpreteren."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_bar"
->title="Intelligente bijschriften: balk"
->abstract="Inzichten in de vorm van natuurlijke talen genereren om u te helpen gegevens voor deze visualisatie eenvoudiger te begrijpen en te interpreteren."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_donut"
->title="Intelligente bijschriften: Donut"
->abstract="Inzichten in de vorm van natuurlijke talen genereren om u te helpen gegevens voor deze visualisatie eenvoudiger te begrijpen en te interpreteren."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_horizontalbar"
->title="Intelligente bijschriften: horizontale balk"
->abstract="Inzichten in de vorm van natuurlijke talen genereren om u te helpen gegevens voor deze visualisatie eenvoudiger te begrijpen en te interpreteren."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_line"
->title="Intelligente bijschriften: Lijn"
->abstract="Inzichten in de vorm van natuurlijke talen genereren om u te helpen gegevens voor deze visualisatie eenvoudiger te begrijpen en te interpreteren."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_fallout"
->title="Intelligente bijschriften: Uitvallen"
->abstract="Inzichten in de vorm van natuurlijke talen genereren om u te helpen gegevens voor deze visualisatie eenvoudiger te begrijpen en te interpreteren."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_intelligentcaptions_flow"
->title="Intelligente bijschriften: Stroom"
->abstract="Inzichten in de vorm van natuurlijke talen genereren om u te helpen gegevens voor deze visualisatie eenvoudiger te begrijpen en te interpreteren."
-
-<!-- markdownlint-enable MD034 -->
 
 De functie Intelligente bijschriften maakt gebruik van geavanceerde Generative AI om belangrijke inzichten te bieden voor de meest gebruikte Workspace-visualisaties in natuurlijke talen.
 
@@ -85,7 +30,7 @@ Intelligente bijschriften zijn gericht op:
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Intelligente titels ](https://video.tv.adobe.com/v/3443144/?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Intelligente titels ](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -149,7 +94,7 @@ U kunt de weergave van bijschriften bewerken, zoals een bepaalde categorie inzic
 
 1. Selecteer ![ uitgeven zicht van intelligente titels ](/help/assets/icons/EditInLight.svg) in de Intelligente dialoog van titels.
 
-1. Wissel tussen ![ zicht van de knevel ](/help/assets/icons/Visibility.svg) om een specifiek inzicht (als **[!UICONTROL Min]**) te tonen, of ![ zicht van de knevel ](/help/assets/icons/VisibilityOff.svg) om een specifiek inzicht (als **[!UICONTROL Spike]**) te verbergen.
+1. Wissel tussen ![ zicht van de knevel ](/help/assets/icons/Visibility.svg) om specifieke insight (als **[!UICONTROL Min]**) te tonen, of ![ zicht van de knevel ](/help/assets/icons/VisibilityOff.svg) om specifieke insight (als **[!UICONTROL Spike]**) te verbergen.
 
    ![ geef intelligente titels ](assets/edit-intelligent-captions.png) uit
 
@@ -168,7 +113,7 @@ U kunt feedback geven over de gegenereerde intelligente bijschriften (u kunt all
 
 ### Exporteren {#export}
 
-U kunt intelligente titels als deel van een PDF uitvoeren, zolang het project met de intelligente geproduceerde titels wordt bewaard.
+U kunt intelligente bijschriften exporteren als onderdeel van een PDF, zolang het project wordt opgeslagen met de gegenereerde intelligente bijschriften.
 
 ### Uitschakelen {#toggle}
 
@@ -184,17 +129,17 @@ Als u liever geen intelligente bijschriften wilt weergeven, schakelt u de functi
 
 ## Intelligente bijschriften in mobiele scoreborden
 
-De intelligente titels zijn ook beschikbaar in Customer Journey Analytics [ mobiele scorecards ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions).
+De intelligente titels zijn ook beschikbaar in Customer Journey Analytics [ mobiele scorecards ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions).
 
 ## Toegang tot functies
 
 De volgende parameters regelen de toegang tot intelligente bijschriften:
 
-* **toegang van de Oplossing**: De Intelligente eigenschap van titels is beschikbaar in Customer Journey Analytics, maar niet in Adobe Analytics.
+* **de toegang van de Oplossing**: De Intelligente eigenschap van titels is beschikbaar in Customer Journey Analytics, maar niet in Adobe Analytics.
 
-* **Contractuele toegang**: Als u geen Intelligente titels kunt gebruiken, gelieve de beheerder of de Vertegenwoordiger van de Rekening van de Adobe van uw organisatie (Admin) te contacteren. Voordat u Intelligente bijschriften kunt gebruiken in uw organisatie, moet u akkoord gaan met bepaalde wettelijke bepalingen die betrekking hebben op Generative AI.
+* **Contractuele toegang**: Als u geen Intelligente titels kunt gebruiken, gelieve de beheerder van uw organisatie of de Vertegenwoordiger van de Rekening van Adobe (Admin) te contacteren. Voordat u Intelligente bijschriften kunt gebruiken in uw organisatie, moet u akkoord gaan met bepaalde wettelijke bepalingen die betrekking hebben op Generative AI.
 
-* **Toestemmingen**: In [!UICONTROL Adobe Admin Console], bepaalt de [!UICONTROL Reporting Tools] **[!UICONTROL Intelligent Captions]** toestemming toegang. Admin van het a [ productprofiel ](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) moet deze stappen in [!UICONTROL Admin Console] volgen:
+* **Toestemmingen**: In [!UICONTROL Adobe Admin Console], bepaalt de [!UICONTROL Reporting Tools] **[!UICONTROL Intelligent Captions]** toestemming toegang. Admin van het a [ productprofiel ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) moet deze stappen in [!UICONTROL Admin Console] volgen:
    1. Navigeer naar **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]** .
    1. Selecteer de titel van het productprofiel waarvoor u toegang tot de Intelligente bijschriften wilt verlenen.
    1. Selecteer **[!UICONTROL Permissions]** in het specifieke productprofiel.
