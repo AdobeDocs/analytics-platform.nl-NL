@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: 7cd0bd94ec45b1570d0be765d95b25defa3e1b87
+source-git-commit: dd285caa3d9702d3ddccdba2bc656767a9fe4684
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Sstitching gebruiken
 
-Zodra uw organisatie aan alle [ eerste vereisten ](#prerequisites) voldoet en gemeenschappelijke [ beperkingen ](#limitations) en het stitching methode specifieke ([ op gebied-gebaseerde ](#limitations-1) en [ op grafiek-gebaseerde ](#limitations-2)) beperkingen begrijpt, kunt u deze stappen volgen om het stitching in Customer Journey Analytics te beginnen gebruiken.
+Zodra uw organisatie aan alle [ eerste vereisten ](overview.md#prerequisites) voldoet en gemeenschappelijke [ beperkingen ](overview.md#limitations) en het stitching methode specifieke ([ op gebied-gebaseerde ](fbs.md#limitations) en [ op grafiek-gebaseerde ](gbs.md#limitations)) beperkingen begrijpt, kunt u deze stappen volgen om het stitching in Customer Journey Analytics te beginnen gebruiken.
 
 ## Opties selecteren
 
-Het Customer Journey Analytics-pakket waarop u recht hebt, bepaalt de beschikbare tekenreeksmethoden, opties voor de initiële duur van de backfill, het terugzoekvenster, de herhalingsfrequentie en het maximale aantal gegevenssets dat is toegestaan voor stitching. Zie de [ het productbeschrijving van Customer Journey Analytics ](https://helpx.adobe.com/nl/legal/product-descriptions/customer-journey-analytics.html) voor meer details. Bepaal de beschikbare opties voordat u ondersteuning aanvraagt.
+Het Customer Journey Analytics-pakket waarop u recht hebt, bepaalt de beschikbare tekenreeksmethoden, opties voor de initiële duur van de backfill, het terugzoekvenster, de herhalingsfrequentie en het maximale aantal gegevenssets dat is toegestaan voor stitching. Zie de [ het productbeschrijving van Customer Journey Analytics ](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html) voor meer details. Bepaal de beschikbare opties voordat u ondersteuning aanvraagt.
 
 | | Customer Journey Analytics <br/> Uitgezocht | Customer Journey Analytics <br/> Prime | Customer Journey Analytics <br/> Ultimate |
 |---|---|---|---|
