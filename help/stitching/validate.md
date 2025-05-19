@@ -4,11 +4,10 @@ description: Procedure voor het valideren van stitching
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
-hide: true
-hidefromtoc: true
-source-git-commit: 7c293f2ab0f46695a53572d1231fb866a23688cd
+exl-id: b9b73926-6502-4a48-ba73-c784f80950d3
+source-git-commit: 3b402e367d2385b336c84ef52897ab34387a948d
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1123'
 ht-degree: 0%
 
 ---
@@ -23,13 +22,13 @@ Het doel van [ identiteit het stitching ](/help/stitching/overview.md) (of eenvo
 
 Dit artikel schetst analysemethodes om de verhoging op één of meerdere nieuw gecreëerde gestikte datasets te meten en vertrouwen te verstrekken dat het stitching deze voordelen levert.
 
-De analysemethodes impliceren {de montages van de de meningscomponent van 0} Gegevens [&#128279;](/help/data-views/component-settings/overview.md) die typisch toegankelijk aan beheerders zijn.  De methodes vereisen ook analisten, die in een project van Analysis Workspace werken, om berekende metriek en visualisaties tot stand te brengen.
+De analysemethodes impliceren {de montages van de de meningscomponent van 0} Gegevens ](/help/data-views/component-settings/overview.md) die typisch toegankelijk aan beheerders zijn. [ De methodes vereisen ook analisten, die in een project van Analysis Workspace werken, om berekende metriek en visualisaties tot stand te brengen.
 
 Hoewel deze analysemethoden kunnen worden gebruikt voor stitching in het veld en op grafiek gebaseerde stitching, zijn sommige elementen mogelijk niet aanwezig in de dataset, vooral in een op grafiek gebaseerd stitching scenario. Deze ontbrekende elementen kunnen het moeilijk maken om de lift rechtstreeks in Analysis Workspace te berekenen.
 
 >[!NOTE]
 >
->Dit artikel richt niet de algemene waarde van een configuratie van Customer Journey Analytics die alle datasets in Experience Platform heeft die aan zelfde identiteitsnamespace worden gericht. En dat al deze datasets vriendschappelijk worden samengevoegd om analyse over een volledige klantenreis uit te voeren.
+>De (validering van) het koppelen van een of meer gegevenssets draagt uiteindelijk bij tot betere analyse en inzichten. In dit artikel wordt echter niet ingegaan op de algemene waarde van een Customer Journey Analytics-configuratie met alle gegevenssets in Experience Platform die zijn uitgelijnd op dezelfde naamruimte. En dat al deze datasets vriendschappelijk worden samengevoegd om analyse over een volledige klantenreis uit te voeren.
 
 
 ## Voorwaarden voor gegevensweergave
@@ -47,7 +46,7 @@ Bovendien moet u twee stitching metriek toevoegen die op de aanwezigheid van waa
 
 1. Gebruik het gebied dat identiteitskaart van de Persoon van de gestikte dataset bevat om metrisch te vormen die bepaalt of identiteitskaart van de Persoon wordt geplaatst. Voeg deze persoon-id toe, zelfs als u op grafiek gebaseerde stitching gebruikt, aangezien de persoon-id helpt om een basislijn te bepalen. Als de persoon-id zich niet in de gegevensset bevindt, is de basislijn 0%.
 
-   In het onderstaande voorbeeld fungeert `personalEmail.address` als de identiteit en wordt het gebruikt om de **[!UICONTROL &#x200B; _Email set]** -parameter te maken.
+   In het onderstaande voorbeeld fungeert `personalEmail.address` als de identiteit en wordt het gebruikt om de **[!UICONTROL  _Email set]** -parameter te maken.
    ![ metrische reeks E-mail ](assets/emailset-metric.png)
 
 1. Gebruik het veld `stitchedID.namespae.code` om een **[!UICONTROL Email stitched namespace]** -dimensie te maken. Verzeker u [ omvat omvat omvat de montages van de waardecomponent ](/help/data-views/component-settings/include-exclude-values.md), zodat overweegt u slechts waarden van namespace u probeert om rijen van gegevens op te heffen.
@@ -61,16 +60,16 @@ Bovendien moet u twee stitching metriek toevoegen die op de aanwezigheid van waa
 
 Met beide dimensies die aan de gegevensmening worden toegevoegd, gebruik [ Vrije lijsten ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) in Analysis Workspace om de gegevens te controleren die elke dimensie heeft.
 
-In de **&#x200B; [!UICONTROL Stitched Namespace dimension**] lijst, ziet u typisch twee rijen voor elke dataset. Eén rij die aangeeft wanneer het koppelingsproces de fallback-methode (ECID) moest gebruiken. De andere rij bevat gebeurtenissen die zijn gekoppeld aan de gewenste naamruimte voor de identiteit (e-mail).
+In de ** [!UICONTROL Stitched Namespace dimension**] lijst, ziet u typisch twee rijen voor elke dataset. Eén rij die aangeeft wanneer het koppelingsproces de fallback-methode (ECID) moest gebruiken. De andere rij bevat gebeurtenissen die zijn gekoppeld aan de gewenste naamruimte voor de identiteit (e-mail).
 
-Voor de **&#x200B; [!UICONTROL Stitched ID dimension**] lijst, ziet u de ruwe waarden die uit de gebeurtenissen komen. In deze tabel ziet u dat de waarden tussen de blijvende id en de gewenste persoon-id eindigen.
+Voor de ** [!UICONTROL Stitched ID dimension**] lijst, ziet u de ruwe waarden die uit de gebeurtenissen komen. In deze tabel ziet u dat de waarden tussen de blijvende id en de gewenste persoon-id eindigen.
 
 ![ Controle vastgezette dimensies ](assets/check-data-on-stitching.png)
 
 
 ## Apparaatgecentreerde of persoonlijke rapportage
 
-Wanneer u een Verbinding creeert, moet u bepalen welk gebied of identiteit voor Persoon identiteitskaart wordt gebruikt. Bijvoorbeeld, op een Webdataset, als u een apparatenidentiteitskaart als identiteitskaart van de Persoon kiest, dan creeert u apparaat centric rapporten en verliest de capaciteit om zich bij deze gegevens met andere off-line kanalen aan te sluiten. Als u een kanaaloverschrijdend veld of een identiteit selecteert, bijvoorbeeld een e-mailbericht, verliest u bij niet-geverifieerde gebeurtenissen. Om dit effect te begrijpen, moet u erachter komen hoeveel van het verkeer unauthenticated is en hoeveel van het verkeer voor authentiek verklaard is.
+Wanneer u een verbinding maakt, moet u definiëren welk veld of welke identiteit wordt gebruikt voor de persoon-id. Bijvoorbeeld, op een Webdataset, als u een apparatenidentiteitskaart als identiteitskaart van de Persoon kiest, dan creeert u apparaat centric rapporten en verliest de capaciteit om zich bij deze gegevens met andere off-line kanalen aan te sluiten. Als u een kanaaloverschrijdend veld of een identiteit selecteert, bijvoorbeeld een e-mailbericht, verliest u bij niet-geverifieerde gebeurtenissen. Om dit effect te begrijpen, moet u erachter komen hoeveel van het verkeer unauthenticated is en hoeveel van het verkeer voor authentiek verklaard is.
 
 1. Maak een berekende metrische waarde **[!UICONTROL Unauthenticated events over total]**. Bepaal de regel in de regelbouwer als volgt:
    ![ Niet voor authentiek verklaarde gebeurtenissen over totaal ](assets/calcmetric-unauthenticatedeventsovertotal.png)
@@ -78,7 +77,7 @@ Wanneer u een Verbinding creeert, moet u bepalen welk gebied of identiteit voor 
 1. Maak een berekende metrische waarde **[!UICONTROL Email authentication rate]** op basis van de **[!UICONTROL _Email set]** -waarde die u eerder hebt gedefinieerd. Bepaal de regel in de regelbouwer als volgt:
    ![ Het tarief van de E-mail authentificatie ](assets/calcmetric-emailauthenticationrate.png)
 
-1. Gebruik **[!UICONTROL Unauthenticated events over total]** berekende metrisch, samen met **[!UICONTROL Email authentication rate]** berekende metrisch, om a [&#128279;](/help/analysis-workspace/visualizations/donut.md) visualisatie van de Donut te creëren. De visualisatie toont het aantal gebeurtenissen in de dataset die unauthenticated zijn en voor authentiek verklaard zijn.
+1. Gebruik **[!UICONTROL Unauthenticated events over total]** berekende metrisch, samen met **[!UICONTROL Email authentication rate]** berekende metrisch, om a [ ](/help/analysis-workspace/visualizations/donut.md) visualisatie van de Donut te creëren. De visualisatie toont het aantal gebeurtenissen in de dataset die unauthenticated zijn en voor authentiek verklaard zijn.
 
    ![ de details van de Identificatie ](assets/identification-details.png)
 
