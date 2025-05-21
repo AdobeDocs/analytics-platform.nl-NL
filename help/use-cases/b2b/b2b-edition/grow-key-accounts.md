@@ -6,14 +6,18 @@ feature: Use Cases
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: d0268ce9ba22228c5c42d600c173f39cd1001638
+badgePremium: label="B2B edition"
+exl-id: f5294af8-b8dc-4239-b0f7-5c20d39007ee
+source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
 # Sleutelaccounts vergroten
+
+{{draft-b2b}}
 
 Voor B2B-ondernemingen is het opvoeren en behouden van sleutelrekeningen een hoge prioriteit. Een voorwaarde om ervoor te zorgen dat de vooruitgang van deals is om op het juiste moment met de belangrijkste betrokkenen in uw doelaccounts te communiceren.
 
@@ -51,4 +55,3 @@ U kunt de volgende Customer Journey Analytics B2B edition-functies gebruiken:
 1. [Intelligente waarschuwingen](/help/components/c-intelligent-alerts/intelligent-alerts.md)
 1. [Delen met gebruikers van werkruimten of met anderen](/help/analysis-workspace/curate-share/share-projects.md)
 1. [Opmerkingen](/help/analysis-workspace/build-workspace-project/comment-projects.md)
-

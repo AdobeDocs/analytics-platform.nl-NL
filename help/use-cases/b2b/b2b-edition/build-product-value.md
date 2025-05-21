@@ -6,14 +6,18 @@ feature: Use Cases
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: d0268ce9ba22228c5c42d600c173f39cd1001638
+badgePremium: label="B2B edition"
+exl-id: 509c68e1-a8cc-48ac-9e9d-50c703356dbc
+source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
 
 # Productwaarde opbouwen
+
+{{draft-b2b}}
 
 U wilt B2B-productwaardeinzichten leveren aan productmanagers en CMO&#39;s of CEO&#39;s. Bijvoorbeeld door middel van een gegevensgestuurde analyse of voorspelling van de krommen. En maak deze inzichten verteerbaar via mobiele dashboards.
 
@@ -61,5 +65,3 @@ U wilt een mobiele scorecard creëren die details over rekeningen, kansen, geslo
 1. Gebruik **[!UICONTROL Preview]** om een voorvertoning van het dashboard weer te geven. Het dashboard is nu beschikbaar bij de dashboardapp van Adobe Analytics, beschikbaar bij [ App Store ](https://apps.apple.com/us/app/adobe-analytics-dashboards/id1509062264) of [ Google Play ](https://play.google.com/store/apps/details?id=com.adobe.analyticsdashboards).
 
    ![ B2B gebruiksgeval - bouwt productwaarde - democratische inzichten - mobiele scorecard voorproef ](assets/b2b-uc-build-product-value-mobile-scorecard-preview.png)
-
-

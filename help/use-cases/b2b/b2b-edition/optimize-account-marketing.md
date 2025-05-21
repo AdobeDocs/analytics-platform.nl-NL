@@ -6,14 +6,18 @@ feature: Use Cases
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: d0268ce9ba22228c5c42d600c173f39cd1001638
+badgePremium: label="B2B edition"
+exl-id: d5e44546-ea82-42eb-98df-19d51c71e9be
+source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
 
 # Accountmarketing optimaliseren
+
+{{draft-b2b}}
 
 Een effectieve marketing op basis van accounts vereist een diepgaand inzicht in de koopreis op rekeningniveau. Zo, kunt u de meest impactful marketing activiteiten bepalen om overeenkomst dicht te drijven.
 
@@ -116,4 +120,3 @@ U wilt de invloed op het genereren van MQL&#39;s (marketing gekwalificeerde lead
 1. Selecteer **[!UICONTROL Build]** .
 
    ![ B2B gebruiksgeval - persoonlijk-gebeurtenissen - stroom config ](assets/b2b-uc-optimize-marketing-flow.png)
-
