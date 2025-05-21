@@ -5,7 +5,7 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 326a82e93c0c8d57db224023ed5f3a7ab94a8997
+source-git-commit: 07f9a224d43658a58779abecd6473fceb7109ef4
 workflow-type: tm+mt
 source-wordcount: '2010'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Een nieuwe of bestaande gegevensweergave configureren:
 1. Selecteer **[!UICONTROL Save and continue]** als u de nieuwe of bestaande gegevensweergave wilt blijven configureren. Selecteer **[!UICONTROL Save]** om de configuratie voor uw bestaande gegevensweergave op te slaan.
 
 
-### Instellingen {#settings}
+### Instellingen {#configure-settings}
 
 
 >[!CONTEXTUALHELP]
@@ -81,7 +81,7 @@ Verstrekt overkoepelende montages voor de gegevensmening.
 >id="dataview_dataviewsinadobejourneyoptimizer"
 >title="Gegevensweergaven in Journey Optimizer"
 >abstract="Customer Journey Analytics moet een verbinding en gegevensweergave gebruiken die compatibel zijn met Adobe Journey Optimizer. Standaard worden automatisch een verbinding en een gegevensweergave voor dit doel gemaakt.<br/> Alternatief, kunt u deze optie toelaten om dit de standaardgegevensmening te maken die in Adobe Journey Optimizer rapportering wordt gebruikt. Wanneer toegelaten, worden alle noodzakelijke die componenten voor Journey Optimizer worden vereist toegevoegd aan deze gegevensmening, en alle noodzakelijke datasets van Journey Optimizer worden toegevoegd aan de verbinding verbonden aan deze gegevensmening."
->additional-url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/integrations/ajo#connection" text="Welke componenten en datasets worden toegevoegd."
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#connection" text="Welke componenten en datasets worden toegevoegd."
 
 
 Bevat instellingen die van toepassing zijn bij gebruik van Adobe Journey Optimizer in aanvulling op Customer Journey Analytics.
@@ -100,10 +100,10 @@ Hiermee geeft u de naam van containers voor de gegevensweergave aan. De namen va
 
 | Instelling | Beschrijving |
 | --- | --- |
-| [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Global Account container name]** | `Global Account` (standaardwaarde). De container [!UICONTROL Global Account] bevat elke sessie en gebeurtenis voor globale accounts binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt, kunt u de naam van de container hier wijzigen. |
-| [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Account container name]** | `Account` (standaardwaarde). De container [!UICONTROL Account] bevat elke sessie en gebeurtenis voor accounts binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt, kunt u de naam van de container hier wijzigen. |
-| [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Opportunity container name]** | `Opportunity` (standaardwaarde). De container [!UICONTROL Opportunity] bevat elke sessie en gebeurtenis voor mogelijkheden binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt, kunt u de naam van de container hier wijzigen. |
-| [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Buying group container name]** | `Buying Group` (standaardwaarde). De container [!UICONTROL Buying group] bevat elke sessie en gebeurtenis voor het aanschaffen van groepen binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt, kunt u de naam van de container hier wijzigen. |
+| [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Global Account container name]** | `Global Account` (standaardwaarde). De container [!UICONTROL Global Account] bevat elke sessie en gebeurtenis voor globale accounts binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt, kunt u de naam van de container hier wijzigen. |
+| [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Account container name]** | `Account` (standaardwaarde). De container [!UICONTROL Account] bevat elke sessie en gebeurtenis voor accounts binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt, kunt u de naam van de container hier wijzigen. |
+| [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Opportunity container name]** | `Opportunity` (standaardwaarde). De container [!UICONTROL Opportunity] bevat elke sessie en gebeurtenis voor mogelijkheden binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt, kunt u de naam van de container hier wijzigen. |
+| [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Buying group container name]** | `Buying Group` (standaardwaarde). De container [!UICONTROL Buying group] bevat elke sessie en gebeurtenis voor het aanschaffen van groepen binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt, kunt u de naam van de container hier wijzigen. |
 | **[!UICONTROL Person container name]** | `Person` (standaardwaarde). De container [!UICONTROL Person] bevat elke sessie en gebeurtenis voor personen binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt (bijvoorbeeld &quot;Bezoeker&quot; of &quot;Gebruiker&quot;), kunt u de naam van de container hier wijzigen. |
 | **[!UICONTROL Session container name]** | `Session` (standaardwaarde). Met de container [!UICONTROL Session] kunt u paginainteracties, campagnes of conversies voor een bepaalde sessie identificeren. U kunt de naam van deze container wijzigen in &#39;Visit&#39; of in een andere term die uw organisatie verkiest. |
 | **[!UICONTROL Event container name]** | `Event` (standaardwaarde). De container [!UICONTROL Event] definieert individuele gebeurtenissen in een dataset. Als uw organisatie een andere term gebruikt (bijvoorbeeld &quot;Hits&quot; of &quot;Paginaweergaven&quot;), kunt u de naam van de container hier wijzigen. |
@@ -167,7 +167,7 @@ Het dupliceren van metriek of afmetingen en het vervolgens wijzigen van specifie
 
 **het schemagebieden of datasets van de Filter**
 
-U kunt &lbrace;het pictogram van de Filter ![&#128279;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) schemagebieden in het linkerspoor door [!UICONTROL data type], [!UICONTROL datasets], [!UICONTROL data governance], en [!UICONTROL other] criteria ([!UICONTROL contains data], [!UICONTROL is identity], en [!UICONTROL is not deprecated]) filtreren:
+U kunt {het pictogram van de Filter ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) schemagebieden in het linkerspoor door [!UICONTROL data type], [!UICONTROL datasets], [!UICONTROL data governance], en [!UICONTROL other] criteria ([!UICONTROL contains data], [!UICONTROL is identity], en [!UICONTROL is not deprecated]) filtreren:![
 
 ![ de gebieden van de Filter ](assets/dataview-components-filter.png)
 
@@ -177,14 +177,14 @@ U kunt &lbrace;het pictogram van de Filter ![&#128279;](https://spectrum.adobe.c
 
 
 
-## Instellingen
+## Instellingen {#dataview-settings}
 
 1. Selecteer de tab **[!UICONTROL Settings]** .
 1. Vorm segmenten om op uw volledige gegevensmening toe te passen. Zie [ Montages (segmenten) ](#settings-filters) hieronder.
 1. Configureer de sessietime-out en metriek. Zie [ montages van de Zitting ](#session-settings) hieronder.
 1. Selecteer **[!UICONTROL Save and continue]** als u de nieuwe of bestaande gegevensweergave wilt blijven configureren. Selecteer **[!UICONTROL Save]** om de configuratie voor uw bestaande gegevensweergave op te slaan.
 
-### Instellingen (segmenten)
+### Instellingen (segmenten) {#segment-settings}
 
 U kunt segmenten toevoegen die van toepassing zijn op een volledige gegevensweergave. Dit segment wordt toegepast op om het even welk rapport dat u in Workspace loopt. Sleep een segment van de lijst in de linkerspoor aan het **[!UICONTROL Add segments]** gebied.
 

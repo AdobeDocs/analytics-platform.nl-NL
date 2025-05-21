@@ -4,7 +4,7 @@ description: Begrijp welke segmenten worden gebruikt voor en hoe te om een eenvo
 exl-id: 21183e98-6593-4b22-99c7-4a03231acfe9
 feature: Filters, Segments
 role: User
-source-git-commit: 85a22d1e57925f0512ce0cc658cfba1008339d91
+source-git-commit: d0268ce9ba22228c5c42d600c173f39cd1001638
 workflow-type: tm+mt
 source-wordcount: '1472'
 ht-degree: 0%
@@ -37,13 +37,13 @@ Vooral, als beheerder, verbetert de juiste planning van segmenten de kansen dat 
 
    - Wanneer moet ik dit segment gebruiken?
 
-- **Reikwijdte**: Welke [ container van het Segment ](#filter-containers) beste vertegenwoordigt de gegevens u na bent? Gebruik de kleinst mogelijke container.
+- **Reikwijdte**: Welke [ container van het Segment ](#segment-containers) beste vertegenwoordigt de gegevens u na bent? Gebruik de kleinst mogelijke container.
 
 - **Componenten**: Beslis welke componenten om in de segmentdefinitie te omvatten, en tegen welke waarden de voorwaarden zouden moeten bevestigen.
 
 - **Proces**: Overweeg een goedkeuringsproces voor uw segmenten. Er is geen goedkeuringswerkstroom in Customer Journey Analytics, maar u kunt wel een proces organiseren om te bepalen of u een segment goedkeurt of niet.
 
-- **Modulariteit**: Bepaal segmenten met modulariteit in mening. De gebruikers van uw segmenten zouden [ stapelsegmenten ](filter-builder.md#stack-filters) gemakkelijk moeten kunnen &lbrace;maken om krachtige nieuwe segmenten tot stand te brengen.
+- **Modulariteit**: Bepaal segmenten met modulariteit in mening. De gebruikers van uw segmenten zouden [ stapelsegmenten ](filter-builder.md#stack-filters) gemakkelijk moeten kunnen {maken om krachtige nieuwe segmenten tot stand te brengen.
 
 
 ## Segmenttypen
@@ -102,7 +102,7 @@ Segmenten zijn gebaseerd op een hiërarchie op Person-, Sessie- en Gebeurtenisni
 >
 >Voor Adobe Analytics-gebruikers:
 > 
-> - De **container van 0&rbrace; Persoon &lbrace;is gekend in Adobe Analytics als** bezoeker **container.**
+> - De **container van 0} Persoon {is gekend in Adobe Analytics als** bezoeker **container.**
 > - De **container van de Zitting** is gekend in Adobe Analytics als **bezoek** container.
 > - De **container van de Gebeurtenis** is gekend in Adobe Analytics als **Actief** container.
 >
@@ -165,7 +165,7 @@ Gebeurteniscontainers bevatten op waarde gebaseerde uitsplitsingen van één pag
 
 ### B2B-containers
 
-[!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
+[!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
 
 Wanneer u toegang tot [ Customer Journey Analytics B2B edition ](/help/getting-started/cja-b2b-edition.md) hebt, zijn de extra containers voor gebruik in segmenten beschikbaar. U kunt meer details over het gebruik van deze extra containers in [ B2B concepten en eigenschappen ](/help/getting-started/cja-b2b-concepts-features.md) vinden.
 

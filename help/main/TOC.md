@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 7c293f2ab0f46695a53572d1231fb866a23688cd
+source-git-commit: d56605b1ae7fd6d83853ad54ce823464090e0192
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1241'
 ht-degree: 10%
 
 ---
@@ -433,7 +433,13 @@ ht-degree: 10%
       + [Afmetingen marketingkanaal gebruiken](../use-cases/aa-data/marketing-channels.md)
       + [Rapportsuites combineren met verschillende schema&#39;s](../use-cases/aa-data/combine-report-suites.md)
    + B2B {#b2b}
-      + [Een B2B-voorbeeldproject](../use-cases/b2b/example.md)
+      + [Een voorbeeld van een op persoon gebaseerd B2B-project](../use-cases/b2b/example.md)
+      + B2B edition {#b2b-edition}
+         + [Overzicht van gevallen gebruiken](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)
+         + [Instellen](/help/use-cases/b2b/b2b-edition/setup.md)
+         + [Accountmarketing optimaliseren](/help/use-cases/b2b/b2b-edition/optimize-account-marketing.md)
+         + [Sleutelaccounts vergroten](/help/use-cases/b2b/b2b-edition/grow-key-accounts.md)
+         + [Productwaarde opbouwen](/help/use-cases/b2b/b2b-edition/build-product-value.md)
    + Complexe gegevens {#complex-data}
       + [Arrays van objecten gebruiken](../use-cases/object-arrays.md)
    + Kanaalgegevens {#cross-channel}
