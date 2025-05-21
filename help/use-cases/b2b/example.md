@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Een voorbeeld van een op persoon gebaseerd B2B-project
 
-Dit artikel illustreert een gebruiksgeval waar u in Customer Journey Analytics over persoongegevens binnen de context van een typisch persoon-gebaseerde B2B opstelling wilt behoorlijk melden. Zulk een configuratie wordt vergemakkelijkt door [ Real-Time CDP B2B edition ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview).  In het gebruiksgeval wordt uitgelegd hoe u op profielniveau gebaseerde B2B-gegevens in Customer Journey Analytics kunt instellen, configureren en rapporteren.
+Dit artikel illustreert een gebruiksgeval waar u in Customer Journey Analytics over persoongegevens binnen de context van een typisch persoon-gebaseerde B2B opstelling wilt behoorlijk melden. Zulk een configuratie wordt vergemakkelijkt door [ Real-Time CDP B2B edition ](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview).  In het gebruiksgeval wordt uitgelegd hoe u op profielniveau gebaseerde B2B-gegevens in Customer Journey Analytics kunt instellen, configureren en rapporteren.
 
-[!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} een afzonderlijke sectie voor rekening-gebaseerde rapporteringsgebruiksgevallen wordt gepubliceerd met de versie van [ B2B edition van Customer Journey Analytics ](/help/getting-started/cja-b2b-edition.md).
+[!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} een afzonderlijke sectie voor rekening-gebaseerde rapporteringsgebruiksgevallen wordt gepubliceerd met de versie van [ B2B edition van Customer Journey Analytics ](/help/getting-started/cja-b2b-edition.md).
 
 ## Verbinding
 
@@ -43,7 +43,7 @@ Definieer de verbinding zodat deze alle relevante B2B-gegevenssets van Experienc
 -->
 
 
-De verhouding tussen de B2B raadplegingsschema&#39;s, profielschema, en gebeurtenisschema wordt bepaald in de B2B opstelling binnen Experience Platform. Zie Schema&#39;s in [ Real-Time Customer Data Platform B2B edition ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b) en [ bepalen een vele-aan-één verhouding tussen twee schema&#39;s in Real-Time Customer Data Platform B2B edition ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b).
+De verhouding tussen de B2B raadplegingsschema&#39;s, profielschema, en gebeurtenisschema wordt bepaald in de B2B opstelling binnen Experience Platform. Zie Schema&#39;s in [ Real-Time Customer Data Platform B2B edition ](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/schemas/b2b) en [ bepalen een vele-aan-één verhouding tussen twee schema&#39;s in Real-Time Customer Data Platform B2B edition ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/tutorials/relationship-b2b).
 
 
 Om een correcte opstelling van een verbinding te verzekeren die op persoon-gebaseerde raadplegingen van uw B2B gegevens steunt, gebruik de volgende illustratie voor een overzicht en volg deze stappen:
