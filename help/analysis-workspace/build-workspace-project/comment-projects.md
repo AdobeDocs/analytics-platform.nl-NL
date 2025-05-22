@@ -4,9 +4,9 @@ title: Opmerkingen toevoegen en weergeven in projecten
 feature: Workspace Basics
 role: User
 exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
-source-git-commit: fb7e0e911de2a4a702d6069ca2f53d7769ec608b
+source-git-commit: df147b92e19b6dee66fcf6346113596f1cde6fd1
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Als u opmerkingen wilt maken over een specifiek gebied van het project (bijvoorb
 
 1. Open het project in Analysis Workspace en klik met de rechtermuisknop op het gebied van het project waar u de opmerking wilt invoegen.
 
-   Alle visualisaties ondersteunen commentaarbadges op de vizualization-header, maar alleen de volgende visualisaties ondersteunen commentaarbadges op specifieke gegevenspunten binnen de visualisatie:
+   Alle visualisaties ondersteunen commentaarbadges op de visualisatieheader, maar alleen de volgende visualisaties ondersteunen commentaarbadges op specifieke gegevenspunten binnen de visualisatie:
 
    * Vrije-vormtabel
    * Cohortingtabel
@@ -104,19 +104,23 @@ Opmerkingen toevoegen aan een project in Analysis Workspace:
 
 ## Andere elementen in een opmerking opnemen
 
-Met de functie voor opmerkingen in Analysis Workspace kunt u gemakkelijker met anderen samenwerken. Een andere persoon in uw opmerking opnemen:
+Met de functie voor opmerkingen in Analysis Workspace kunt u gemakkelijker met anderen samenwerken.
+
+Houd rekening met het volgende wanneer u het @-symbool gebruikt om personen in een opmerking op te nemen:
+
+* Personen die u omvat, ontvangen berichten op basis van hun Adobe Experience Cloud-meldingsinstellingen. Door gebrek, ontvangen zij een [ bericht van Experience Cloud ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications).
+
+  Bovendien, kunnen de mensen hun het berichtmontages van Experience Cloud vormen om e-mailberichten en de berichten van Slack te ontvangen door [ te abonneren aan e-mailberichten ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) en [ het intekenen aan de berichten van Slack ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack).
+
+* U kunt iedereen in uw organisatie in een commentaar omvatten, maar het doen van dit verleent hen niet automatisch toegang tot het project. Alleen mensen die al toegang hebben tot het project hebben toegang tot het project.
+
+Een andere persoon in uw opmerking opnemen:
 
 1. Typ het @-symbool en typ vervolgens de voornaam, achternaam of het e-mailadres van de persoon die u wilt opnemen.
 
    ![ markeringsgebruiker ](assets/comments-tag-user.png)
 
 1. Selecteer de naam van de persoon wanneer deze wordt weergegeven in het keuzemenu.
-
-Houd rekening met het volgende wanneer u het @-symbool gebruikt om personen in een opmerking op te nemen:
-
-* Personen die u omvat, ontvangen een e-mailmelding en een Pulse-melding.
-
-* U kunt iedereen in uw organisatie in een commentaar omvatten, maar dit verleent hen niet automatisch toegang tot het project. Alleen mensen die al toegang hebben tot het project hebben toegang tot het project.
 
 ## Een opmerking beantwoorden
 
@@ -126,7 +130,7 @@ Houd rekening met het volgende wanneer u het @-symbool gebruikt om personen in e
 
    of
 
-   Als u wilt dat in uw antwoord de tekst wordt opgenomen van de opmerking waarop u antwoordt, met de oorspronkelijke tekst die in een aanhalingsteken is opgenomen, selecteert u het pictogram met drie punten naast de specifieke opmerking of het antwoord waarop u wilt reageren, en selecteert u vervolgens **[!UICONTROL Quote reply]** . Een citaatantwoord is een goede manier om de opmerking duidelijk aan te geven of uw opmerkingen te beantwoorden.
+   Als u de tekst wilt opnemen van de opmerking waarop u antwoordt en de oorspronkelijke tekst in een aanhalingsteken staat, selecteert u het pictogram met drie punten naast de specifieke opmerking of het antwoord waarop u wilt reageren en selecteert u vervolgens **[!UICONTROL Quote reply]** . Een citaatantwoord is een goede manier om aan te geven naar welke opmerking of welk antwoord uw opmerking verwijst.
 
 1. Geef in het veld **[!UICONTROL New comment]** uw opmerking op.
 
@@ -146,7 +150,7 @@ Als er een opmerking beschikbaar is in het opmerkingengebied op de rechterspoors
 
 1. Selecteer het gebied van het project waar u de badge voor de bestaande opmerking wilt plaatsen.
 
-   A **commentaarbadge** ![ commentaarbadge ](assets/comment-indicator.png) wordt geplaatst in het gebied van het project van Workspace u selecteerde. De opmerking staat ook boven aan het commentaargebied in de rechterspoorlijn.
+   A **commentaarbadge** ![ commentaarbadge ](assets/comment-indicator.png) wordt geplaatst in het gebied van het project van Workspace dat u selecteerde. De opmerking staat ook boven aan het commentaargebied in de rechterspoorlijn.
 
    Zie [ de commentaarbadges van de Mening in een project ](#view-comment-badges-in-a-project) voor meer informatie.
 
@@ -182,7 +186,7 @@ De koppeling naar een opmerking kopiëren:
 
 ## De tekst van een opmerking kopiëren
 
-U kunt de hoofdtekst kopiëren als een opmerking en deze delen met anderen.
+U kunt de hoofdtekst van een opmerking kopiëren en deze met anderen delen.
 
 De hoofdtekst van een opmerking kopiëren:
 
@@ -208,7 +212,7 @@ Een opmerking verwijderen:
 
 1. Met het project open in Analysis Workspace, selecteer het pictogram van het commentaargebied ![ pictogram van het commentaargebied ](assets/comments-area-icon.png) in de juiste spoorlijn van Analysis Workspace.
 
-1. Selecteer het meer pictogram ![ commentaar-meer-pictogram ](assets/comment-more-icon.png) naast de commentaar u wilt schrappen, dan selecteren **[!UICONTROL Delete]**.
+1. Selecteer het meer pictogram ![ commentaar-meer-pictogram ](assets/comment-more-icon.png) naast de commentaar dat u wilt schrappen, dan selecteren **[!UICONTROL Delete]**.
 
 1. Selecteer nogmaals **[!UICONTROL Delete]** om de verwijdering te bevestigen.
 
@@ -220,7 +224,7 @@ Een opmerking oplossen:
 
 1. Met het project open in Analysis Workspace, selecteer het pictogram van het commentaargebied ![ pictogram van het commentaargebied ](assets/comments-area-icon.png) in de juiste spoorlijn van Analysis Workspace.
 
-1. Selecteer het meer pictogram ![ commentaar-meer-pictogram ](assets/comment-more-icon.png) naast de commentaar u wilt oplossen, dan selecteren **[!UICONTROL Resolve]**.
+1. Selecteer het meer pictogram ![ commentaar-meer-pictogram ](assets/comment-more-icon.png) naast de commentaar dat u wilt oplossen, dan selecteren **[!UICONTROL Resolve]**.
 
 1. Selecteer nogmaals **[!UICONTROL Resolve]** om te bevestigen.
 
