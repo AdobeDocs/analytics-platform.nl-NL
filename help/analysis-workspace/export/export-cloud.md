@@ -5,9 +5,9 @@ title: Customer Journey Analytics-rapporten exporteren naar de cloud
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: 9482dd11ecf4aa6f3f8a45c90c3838a4a3389c73
+source-git-commit: c503b5bc65565b342e5e6bea8c019d8e1ee1e429
 workflow-type: tm+mt
-source-wordcount: '2312'
+source-wordcount: '2284'
 ht-degree: 1%
 
 ---
@@ -91,8 +91,9 @@ Volledige tabellen exporteren uit Analysis Workspace:
    | Starten bij | De dag en tijd waarop de geplande export moet beginnen. <p>Deze optie is alleen beschikbaar wanneer u een geplande exportfrequentie kiest.</p> |
    | Einde op | De dag en tijd waarop de geplande export verloopt. De geplande export wordt niet meer uitgevoerd na de datum en tijd die u instelt. <p>Deze optie is alleen beschikbaar wanneer u een geplande exportfrequentie kiest.</p> |
    | Bestandsindeling | Geef op of de geëxporteerde gegevens de indeling .csv of .json moeten hebben. |
+   | Inclusief manifestbestand | Wanneer deze optie is ingeschakeld, wordt een manifestbestand opgenomen met alle gelukte exportbewerkingen. Met het manifestbestand kunt u bevestigen dat alle bestanden zijn geleverd. Het bevat de volgende informatie:<ul><li>Een lijst met alle geleverde bestanden</li><li>De MD5-controlesom van elk bestand</li></ul><p>De uitgevoerde gegevens zijn beschikbaar als gecomprimeerd dossier in de wolkenbestemming die u vormde, zoals die in [ wordt beschreven vormt wolkenuitvoerrekeningen ](/help/components/exports/cloud-export-accounts.md) en [ vormt wolkenuitvoerplaatsen ](/help/components/exports/cloud-export-locations.md).</p><p>De bestandsnaam van het gecomprimeerde bestand is als volgt, afhankelijk van of u CSV of JSON hebt gekozen als bestandsindeling:</p><ul><li>`cja-export-{reportInstanceId}-{idx}.csv.gz`</li><li>`cja-export-{reportInstanceId}-{idx}.json.gz`</li></ul><p>U kiest het dossierformaat in het **]hierboven gebied van het 1} formaat van het Dossier[!UICONTROL **.</p> |
    | Account | Selecteer de exportaccount voor de cloud waarin u de gegevens wilt verzenden. <p>Of als u nog geen cloudaccount hebt geconfigureerd die u wilt gebruiken, kunt u een nieuwe account configureren:<ol><li>Selecteer [!UICONTROL **toevoegen rekening**], dan specificeer de volgende informatie:<ul><li>[!UICONTROL **de rekeningsnaam van de Plaats**]: Specificeer een naam voor de plaatsrekening. Deze naam wordt weergegeven wanneer u een locatie maakt </li><li>[!UICONTROL **de rekeningsbeschrijving van de Plaats**]: Verstrek een korte beschrijving van de rekening helpen het van andere rekeningen van het zelfde rekeningtype onderscheiden.</li><li>[!UICONTROL **het type van Rekening**]: Selecteer het type van wolkenrekening u naar uitvoert. Beschikbare accounttypen zijn Amazon S3 Role ARN, Google Cloud Platform, Azure SAS, Azure RBAC, Snowflake en AEP Data Landing Zone.</li></ul><li>Om klaar te zijn met het vormen van uw rekening, ga met de verbinding hieronder die aan het [!UICONTROL **type van Rekening**] beantwoordt u selecteerde:<ul><li>[ AEP Gegevens die Zone ](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone) aanvoeren</li><li>[ Amazon S3 Rol ARN ](/help/components/exports/cloud-export-accounts.md#amazon-s3-role-arn)</li><li>[ Google Cloud Platform ](/help/components/exports/cloud-export-accounts.md#google-cloud-platform)</li><li>[ Azure SAS ](/help/components/exports/cloud-export-accounts.md#azure-sas)</li><li>[ Azure RBAC ](/help/components/exports/cloud-export-accounts.md#azure-rbac)</li><li>[ Snowflake ](/help/components/exports/cloud-export-accounts.md#snowflake)</li></ul></ol> |
-   | Locatienaam | Selecteer de locatie op de account waarnaar u de exportgegevens wilt verzenden.<p>Of, als u niet reeds de plaats hebt gevormd die u op de rekening wilt gebruiken die u selecteerde, kunt u een nieuwe plaats vormen:<ol><li>Selecteer [!UICONTROL **plaats**] toevoegen, dan specificeer de volgende informatie: <ul><li>[!UICONTROL **Naam**]: De naam van de plaats.</li><li>[!UICONTROL **Beschrijving**]: Verstrek een korte beschrijving van de plaats helpen het van andere plaatsen op de rekening onderscheiden.</li><li>[!UICONTROL **rekening van de Plaats**]: Selecteer de rekening waar u de plaats wilt tot stand brengen.</li></ul><li>Om uw plaats te beëindigen vormen, ga met de verbinding hieronder voort die aan het accounttype beantwoordt dat u op het [!UICONTROL **de rekening van de Plaats**] gebied selecteerde:<ul><li>[ AEP Gegevens die Zone ](/help/components/exports/cloud-export-locations.md#aep-data-landing-zone) aanvoeren.</li><li>[ Amazon S3 Rol ARN ](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[ Google Cloud Platform ](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[ Azure SAS ](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[ Azure RBAC ](/help/components/exports/cloud-export-locations.md#azure-rbac)</li><li>[ Snowflake ](/help/components/exports/cloud-export-locations.md#snowflake)</li></ul> |
+   | Locatie | Selecteer de locatie op de account waarnaar u de exportgegevens wilt verzenden.<p>Of, als u niet reeds de plaats hebt gevormd die u op de rekening wilt gebruiken die u selecteerde, kunt u een nieuwe plaats vormen:<ol><li>Selecteer [!UICONTROL **plaats**] toevoegen, dan specificeer de volgende informatie: <ul><li>[!UICONTROL **Naam**]: De naam van de plaats.</li><li>[!UICONTROL **Beschrijving**]: Verstrek een korte beschrijving van de plaats helpen het van andere plaatsen op de rekening onderscheiden.</li><li>[!UICONTROL **rekening van de Plaats**]: Selecteer de rekening waar u de plaats wilt tot stand brengen.</li></ul><li>Om uw plaats te beëindigen vormen, ga met de verbinding hieronder voort die aan het accounttype beantwoordt dat u op het [!UICONTROL **de rekening van de Plaats**] gebied selecteerde:<ul><li>[ AEP Gegevens die Zone ](/help/components/exports/cloud-export-locations.md#aep-data-landing-zone) aanvoeren.</li><li>[ Amazon S3 Rol ARN ](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[ Google Cloud Platform ](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[ Azure SAS ](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[ Azure RBAC ](/help/components/exports/cloud-export-locations.md#azure-rbac)</li><li>[ Snowflake ](/help/components/exports/cloud-export-locations.md#snowflake)</li></ul> |
 
    {style="table-layout:auto"}
 
@@ -105,32 +106,6 @@ Volledige tabellen exporteren uit Analysis Workspace:
 ## Exporteren beheren
 
 Nadat het gegeven van Analysis Workspace wordt uitgevoerd, kunt u uitgeven, opnieuw uitvoeren, dupliceren, markering, of bestaande uitvoer schrappen, zoals die in [ wordt beschreven beheert uitvoer ](/help/components/exports/manage-exports.md).
-
-## Geëxporteerde gegevens en manifestbestand weergeven
-
-### Geëxporteerde gegevens
-
-De uitgevoerde gegevens zijn beschikbaar als gecomprimeerd dossier in de wolkenbestemming die u vormde, zoals die in [ wordt beschreven vormt wolkenuitvoerrekeningen ](/help/components/exports/cloud-export-accounts.md) en [ vormt wolkenuitvoerplaatsen ](/help/components/exports/cloud-export-locations.md).
-
-De bestandsnaam van het gecomprimeerde bestand is als volgt, afhankelijk van of u CSV of JSON hebt gekozen als bestandsindeling:
-
-* `cja-export-{reportInstanceId}-{idx}.csv.gz`
-
-* `cja-export-{reportInstanceId}-{idx}.json.gz`
-
->[!NOTE]
->
->U kiest het dossierformaat in het [!UICONTROL **formaat van het Dossier**] gebied wanneer het uitvoeren van de lijst, zoals die in [ wordt beschreven Uitvoer volledige lijsten van Analysis Workspace ](#export-full-tables-from-analysis-workspace).
-
-### Manifest-bestand
-
-Een manifestbestand met de bestandsnaam `cja-export-{reportInstanceId}-{idx}.json.gz` wordt geleverd bij elke geslaagde exportlevering die ten minste één bestand bevat. Met het manifestbestand kunt u bevestigen dat alle bestanden zijn geleverd. Het bevat de volgende informatie:
-
-* Een lijst met alle geleverde bestanden
-
-* De MD5-controlesom van elk bestand
-
-<!-- add in  what the file name, structure, and file format will be -->
 
 ## Voordelen van exporteren naar de cloud {#advantages}
 
