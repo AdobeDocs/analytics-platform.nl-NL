@@ -5,9 +5,9 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: e82179f3436dc6b66ebe3f2f9b11986cadd135d9
+source-git-commit: bef00aa251831cdb809a6243b5d5a8e2c0dda9bb
 workflow-type: tm+mt
-source-wordcount: '1792'
+source-wordcount: '1803'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Data Insights Agent is beschikbaar voor in aanmerking komende Customer Journey Analytics-klanten tot 30 november 2025. Na die datum, wordt een vergunning vereist als u het gebruiken van de Agent van Gegevens wilt voortzetten. Neem contact op met uw Adobe-accountteam voor hulp bij het licentieproces.
+>De Agent van Gegevens is beschikbaar aan in aanmerking komende klanten voor een beperkte tijd. De toegang tot de Agent van Gegevens zal op 30 november 2025 beëindigen. Als u de Data Insights Agent zonder onderbreking wilt blijven gebruiken, vraagt u uw Adobe-accountvertegenwoordiger om meer informatie over het in licentie geven van Data Insights Agent.
 
 De Agent van Gegevens, toegankelijk van de Medewerker van AI in Customer Journey Analytics, is een generatieve AI gespreksagent die snel en efficiënt vragen over uw gegevens beantwoordt. In Analysis Workspace worden relevante visualisaties gemaakt aan de hand van componenten uit uw gegevensweergave en met behulp van uw werkelijke gegevens.
 
@@ -41,13 +41,13 @@ Het gebruiken van de Agent van Gegevens om gegeven-centric vragen in Analysis Wo
 
 De volgende parameters regelen de toegang tot Data Insights Agent in Customer Journey Analytics:
 
-* **de toegang van de Oplossing**: De Agent van Gegevens is beschikbaar voor de klanten van Customer Journey Analytics Prime en Ultimate. Het is niet beschikbaar in Adobe Analytics.
+* **de toegang van de Oplossing**: De Agent van Gegevens is beschikbaar voor alle klanten van Customer Journey Analytics als deel van een beperkt toegangsprogramma tot 30 November, 2025. Het is niet beschikbaar in Adobe Analytics.
 
 * **Contractuele toegang**: Als u de Agent van Gegevens van de Inzichten in de Medewerker van AI niet kunt gebruiken, gelieve de beheerder van uw organisatie of het de rekeningsteam van Adobe te contacteren. Voordat uw organisatie Data Insights Agent kan gebruiken, moet u akkoord gaan met bepaalde juridische voorwaarden die betrekking hebben op generatieve AI.
 
 * **Toestemmingen**: De noodzakelijke toestemmingen moeten in [!UICONTROL Adobe Admin Console] worden verleend alvorens de gebruikers tot de Agent van Gegevens kunnen toegang hebben.
 
-  Om toestemmingen te verlenen, moet a [ admin van het productprofiel ](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) de volgende stappen in [!UICONTROL Admin Console] voltooien:
+  Om toestemmingen te verlenen, moet a [ admin van het productprofiel ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) de volgende stappen in [!UICONTROL Admin Console] voltooien:
    1. Selecteer in **[!UICONTROL Admin Console]** de tab **[!UICONTROL Products]** om de pagina **[!UICONTROL All products and services]** weer te geven.
    1. Selecteer **[!UICONTROL Customer Journey Analytics]** .
    1. Selecteer op het tabblad **[!UICONTROL Product Profiles]** de titel van het productprofiel waartoe u toegang wilt verlenen aan [!UICONTROL AI Assistant: Product Knowledge] .
