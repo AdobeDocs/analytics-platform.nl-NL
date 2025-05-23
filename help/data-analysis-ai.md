@@ -5,16 +5,18 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: bef00aa251831cdb809a6243b5d5a8e2c0dda9bb
+source-git-commit: 730464719f05026eae141c8e6cc656fb0fe4f819
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1892'
 ht-degree: 0%
 
 ---
 
 # Gegevens visualiseren met Data Insights Agent in Customer Journey Analytics
 
-{{release-limited-testing}}
+>[!AVAILABILITY]
+>
+>De functionaliteit die in dit artikel wordt beschreven, is beschikbaar voor alle in aanmerking komende klanten als onderdeel van een gefaseerde release die op 28 mei 2025 begint, en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het de versieproces van Customer Journey Analytics, zie [ de eigenschapversies van Customer Journey Analytics ](/help/release-notes/releases.md).
 
 >[!AVAILABILITY]
 >
@@ -31,7 +33,7 @@ Het gebruiken van de Agent van Gegevens om gegeven-centric vragen in Analysis Wo
 | Functie | Binnen bereik | Buiten bereik |
 | --- | --- | --- |
 | **Visualisatietypen** | <ul><li>Lijn</li><li>Meerdere regels</li><li>Vrije-vormtabel</li><li>Balk</li><li>Donut</li><li>Samenvattingsnummer</li></ul> | <ul><li>Stroom</li><li>Fallout</li><li>Cohortabel</li><li>Gebied, gebied gestapeld</li><li>Stapel gestapeld</li><li>Opsommingsteken</li><li>Combo</li><li>Histogram</li><li>Horizontale balk, horizontale balk gestapeld</li><li>Hoofdmetrische samenvatting</li><li>Spreiding</li><li>Samenvattingswijziging</li><li>Tekst</li><li>Treemap</li><li>Venn</li></ul> |
-| **de acties van Workspace en agentenmogelijkheden** | <ul><li>Visualisaties maken en bijwerken<p>Hiermee genereert u een vrije-vormtabel en de bijbehorende visualisatie (zoals een lijn, balk, donut, enzovoort).<p>Bijvoorbeeld, *wat is de winst over SKUs van Februari aan Mei?*</p></li><li>Vervolgvragen stellen</li><li>Reageer op een vraag in de context van om het even welke vroegere herinneringen<p>Bijvoorbeeld:</p> <ul><li>Vraag 1: *de gebeurtenissen van de Trend van Maart.*</li><li>Vraag 2: *toon me de gegevens van Maart aan April in plaats daarvan*</li></ul> </li><li>Snelle detectie buiten bereik<p>Als u een herinnering voorlegt die buiten werkingsgebied, zoals *is dit project* uitvoeren, antwoordt de Agent van Gegevens Inzichten door u te informeren dat de vraag buiten werkingsgebied is.</p></li></ul> | <ul><li>Contextafhankelijke knoppen voor handelingen (toevoegen aan diagram, nieuw deelvenster, nieuwe tabel)</li><li>Delen</li><li>Exporteren</li><li>Downloaden</li><li>Gebruikersvoorkeuren beheren</li><li>Curate</li><li>Gegevensweergave beheren</li><li>Analytische dashboards-app</li><li>Attributie</li><li>Samenvatting of reactie online<p>Data Insights Agent kan niet online in de chat rail reageren met een beknopt antwoord van een gebruikersprompt. De voorbeelden van uit-van-werkingsgebied herinneringen zijn, *geven me een samenvatting van de inzichten van mijn laatste herinnering* en *vatten de hoogtepunten van de lijnvisualisatie samen.*</p></li></ul> |
+| **de acties van Workspace en agentenmogelijkheden** | <ul><li>Visualisaties maken en bijwerken<p>Hiermee genereert u een vrije-vormtabel en de bijbehorende visualisatie (zoals een lijn, balk, donut, enzovoort).<p>Bijvoorbeeld, *wat is de winst over SKUs van Februari aan Mei?*</p></li><li>Vervolgvragen stellen<p>Reageer op een vraag in de context van om het even welke vroegere herinneringen. Bijvoorbeeld:</p> <ul><li>Vraag 1: *de gebeurtenissen van de Trend van Maart.*</li><li>Vraag 2: *toon me de gegevens van Maart aan April in plaats daarvan*</li></ul> </li><li>Snelle detectie buiten bereik<p>Als u een herinnering voorlegt die buiten werkingsgebied, zoals *is dit project* uitvoeren, antwoordt de Agent van Gegevens Inzichten door u te informeren dat de vraag buiten werkingsgebied is.</p></li></ul> | <ul><li>Delen</li><li>Exporteren</li><li>Downloaden</li><li>Gebruikersvoorkeuren beheren</li><li>Gegevensweergave beheren</li><li>Analytische dashboards-app</li><li>Attributie</li><li>Samenvatting of reactie online<p>Data Insights Agent kan niet online in de chat rail reageren met een beknopt antwoord van een gebruikersprompt. De voorbeelden van uit-van-werkingsgebied herinneringen zijn, *geven me een samenvatting van de inzichten van mijn laatste herinnering* en *vatten de hoogtepunten van de lijnvisualisatie samen.*</p></li></ul> |
 | **het Verhelderen van vragen** | Als u een vraag stelt die niet genoeg context voor de Agent van Gegevens heeft om te antwoorden, of te generiek is, antwoordt de Agent van Gegevens met een het verduidelijken vraag of voorgestelde opties. <p>De volgende verduidelijkende vragen zijn voorbeelden van aan onderdelen gerelateerde vragen:</p><ul><li>Metrisch: *welke metrische &quot;opbrengst&quot;metrisch u bedoelde?*</li><li>Dimension: *welke van de hieronder &quot;gebieden&quot;wilt u zich op concentreren?*</li><li>Segment: *welk &quot;segment van de Rekening&quot;wilde u toepassen?*</li><li>De Waaier van de datum: *door &quot;vorige maand,&quot;bedoelde u de laatste volledige maand of de laatste 30 dagen?*</li></ul><p>De volgende verduidelijking is een voorbeeld van een vraag die verband houdt met dimensie-elementen:</p> <ul><li>Welke &quot;winkelnaam&quot; bedoelde je? (Bijvoorbeeld Winkel #5274, Winkel #2949, enzovoort.)</li></ul> | Het verduidelijken van vragen is beperkt tot componenten en afmetingspunten. De Agent van Gegevens kan geen dingen zoals gegevensmeningen, visualisaties, gegevensgranulariteit, vergelijking, en werkingsgebied verduidelijken. Wanneer het verduidelijken van vragen niet kan worden gebruikt, blijft de agent aan wat u het meest waarschijnlijk vraagt. Als het een onverwachte visualisatie of gegevensgranulariteit terugkeert, kunt u een vervolgvraag stellen of de visualisatie en de gegevens aanpassen. |
 | **verifieerbaarheid en correctheid van Gegevens** | De verifieerbaarheid en de correctheid van gegevens kunnen worden bevestigd door de geproduceerde vrije vormlijst en gegevensvisualisatie te bekijken. <p>Bijvoorbeeld, als u de Agent van de Inzichten van Gegevens aan *orden van de Trend* vraagt, kunt u bevestigen dat correcte metrische (&quot;orden&quot;) en datumwaaier (&quot;vorige maand&quot;) in het onlangs geproduceerde paneel, gegevensvisualisatie, en vrije vormlijst werden geselecteerd. | De Data Insights Agent reageert niet door u te informeren welke componenten of visualisaties zijn toegevoegd.</p> |
 | **mechanismen van de Terugkoppeling** | <ul><li>Stompelen omhoog</li><li>Miniatuur omlaag</li><li>Markering</li></ul> |  |
@@ -47,7 +49,7 @@ De volgende parameters regelen de toegang tot Data Insights Agent in Customer Jo
 
 * **Toestemmingen**: De noodzakelijke toestemmingen moeten in [!UICONTROL Adobe Admin Console] worden verleend alvorens de gebruikers tot de Agent van Gegevens kunnen toegang hebben.
 
-  Om toestemmingen te verlenen, moet a [ admin van het productprofiel ](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) de volgende stappen in [!UICONTROL Admin Console] voltooien:
+  Om toestemmingen te verlenen, moet a [ admin van het productprofiel ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) de volgende stappen in [!UICONTROL Admin Console] voltooien:
    1. Selecteer in **[!UICONTROL Admin Console]** de tab **[!UICONTROL Products]** om de pagina **[!UICONTROL All products and services]** weer te geven.
    1. Selecteer **[!UICONTROL Customer Journey Analytics]** .
    1. Selecteer op het tabblad **[!UICONTROL Product Profiles]** de titel van het productprofiel waartoe u toegang wilt verlenen aan [!UICONTROL AI Assistant: Product Knowledge] .
@@ -72,7 +74,9 @@ De volgende parameters regelen de toegang tot Data Insights Agent in Customer Jo
 
       >[!IMPORTANT]
       >
-      >De Data Insights Agent kan verwijzen naar de opgenomen gegevensweergaven ergens op dezelfde dag dat u deze inschakelt in de Admin Console.
+      >Houd rekening met het volgende wanneer u gegevensweergaven inschakelt:
+      >* U kunt maximaal 50 gegevensweergaven inschakelen per IMS-organisatie. Als u meer dan 50 gegevensmeningen over alle productprofielen voor een bepaalde organisatie toelaat, zal de Agent van Gegevens de 50 meest gebruikte gegevensmeningen gebruiken.
+      >* De Data Insights Agent kan verwijzen naar de opgenomen gegevensweergaven ergens op dezelfde dag dat u deze inschakelt in de Admin Console.
 
    1. Onderzoek naar of rol aan de gegevensmeningen die u wilt toelaten, dan selecteren plus pictogram ![ AddCircle ](/help/assets/icons/AddCircle.svg) naast de naam van elke gegevensmening.
 
