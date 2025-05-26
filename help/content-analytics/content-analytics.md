@@ -1,18 +1,18 @@
 ---
-title: Overzicht van Content Analytics
+title: Content Analytics-overzicht
 description: Een overzicht van Content Analytics
 solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: 6d23203468032510446711ff5a874fd149531a9a
+source-git-commit: dd4adc5acd05aecf0a67072df6688a344e1ce5c9
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
 
-# Overzicht van Content Analytics
+# Content Analytics-overzicht
 
 Content Analytics helpt marketers te begrijpen hoe inhoud van invloed is op de belangrijkste prestatie-indicatoren die een bedrijf heeft gedefinieerd. Naast de gedragsgegevens verzamelt Content Analytics gegevens over hoe inhoud wordt verbruikt en hoe inhoud invloed heeft. Bijvoorbeeld, antwoorden de klanten beter aan een specifieke toon van stem, een specifiek kleurenpalet, of specifieke thema&#39;s? Deze informatie, samen met specifiek ontworpen rapportwerkschema&#39;s en malplaatjes, kan u helpen om nog betere analyse uit te voeren en diepgaandere inzichten van klantenreisgegevens in Customer Journey Analytics te bereiken.
 
@@ -24,7 +24,7 @@ Naast de verwezenlijking van dit gestructureerde meta-gegevensprofiel, verstrekt
 
 Content Analytics biedt wel een hogere waarde:
 
-1. Het gebruik van de inhoud **&#x200B;**: Met Content Analytics krijgt u inzicht op welke activa beelden ontvangen en waar de activa impressies ontvangen. Deze inzichten helpen u om te zien of worden de activa ondergebruikt of op uw Web-eigenschappen overgebruikt.
+1. Het gebruik van de inhoud ****: Met Content Analytics krijgt u inzicht op welke activa beelden ontvangen en waar de activa impressies ontvangen. Deze inzichten helpen u om te zien of worden de activa ondergebruikt of op uw Web-eigenschappen overgebruikt.
 1. Inhoud **overeenkomsten**: Content Analytics kan betrokkenheidsinzichten zoals het gemiddelde klikken door tarief voor activa met bepaalde attributen verstrekken. Deze inzichten helpen u om te bepalen of specifieke soorten ervaringen nog efficiënt zijn.
 1. Inhoud **reizen**: Voorts wanneer gecombineerd met alle andere gegevens beschikbaar in Experience Platform, kunt u extra inzichten op uw inhoudstrajecten verkrijgen. Of specifieke inhoud bijvoorbeeld leidt tot conversies, bovenop de betrokkenheid. En met die kennis kunt u ROI op types van inhoud bepalen.
 1. De inhoud **verpersoonlijking**: De Analytics van de Inhoud staat u toe om op uw inzichten te handelen en deze inzichten te gebruiken om te bepalen hoe te om geld aan inhoud uit te geven. Moet ik bijvoorbeeld specifieke typen inhoud naar specifieke doelgroepen sturen? Welke inhoud biedt me mogelijkheden tot high-personalization?
@@ -60,13 +60,9 @@ Content Analytics gebruikt de gegevens van de de meningsmening van het Webbeeld 
 
 >[!NOTE]
 >
->Als u een licentie hebt verleend voor de &#39;Privacy and Security Shield add-on&#39;, dient u er rekening mee te houden dat (alle gegevens die zijn gegenereerd op basis van) ervaringen en bedrijfsmiddelen, afhankelijk van Content Analytics, niet worden gedekt door DULE-labels of door Klant beheerde sleutels.
+>Als u een licentie hebt verleend voor de &#39;Privacy and Security Shield add-on&#39;, dient u er rekening mee te houden dat (alle gegevens die zijn gegenereerd op basis van) ervaringen en bedrijfsmiddelen, afhankelijk van Content Analytics, niet worden gedekt door DULE-labels of door Klant beheerde sleutels. Bovendien is Content Analytics geen HIPAA-Klaar dienst.
 >
 
->[!NOTE]
->
->Content Analytics [ verzendt extra gebeurtenissen ](config/datacollection.md#content-analytics-event) die zeer waarschijnlijk om het even welke definitie van het stuiteringstarief beïnvloeden die op het aantal gebeurtenissen in een zitting of een pagina gebaseerd is.
->
 
 >[!MORELIKETHIS]
 >

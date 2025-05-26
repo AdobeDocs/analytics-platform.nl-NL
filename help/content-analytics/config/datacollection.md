@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: 63c6a5d6148c1562b7f6ac8e4a1cac5919e2dd2e
+source-git-commit: c10d88c27d4a3c92e02179da4a73a6a499d2a8c2
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Content Analytics vereist de Experience Platform Edge Network Web SDK om gebeurt
 De Content Analytics-bibliotheek verzamelt gegevens wanneer:
 
 * Content Analytics is opgenomen in de tagbibliotheek die op de pagina is geladen.
-* De pagina URL wordt gevormd in de [ uitbreiding van Content Analytics ](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/extensions/client/content-analytics/overview){target="_blank"}, een deel van de inbegrepen bibliotheek van Markeringen.
+* De pagina URL wordt gevormd in de [ uitbreiding van Content Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview){target="_blank"}, een deel van de inbegrepen bibliotheek van Markeringen.
 
 
 ## Content Analytics, gebeurtenis
@@ -94,6 +94,11 @@ Om het aantal vraag te verminderen die de pagina verlaat, verzamelt Content Anal
    * Scherm vergrendelen
 * De URL verandert, wat resulteert in een gewijzigde relevante URL.
 * De geregistreerde en klaar om te worden verzonden meningen van activa overschrijden het aantal van 32.
+
+>[!NOTE]
+>
+>De extra Content Analytics-gebeurtenissen hebben waarschijnlijk invloed op elke definitie van een stuiteringsfrequentie die is gebaseerd op het aantal gebeurtenissen in een sessie of pagina.
+>
 
 
 ## Schema&#39;s
