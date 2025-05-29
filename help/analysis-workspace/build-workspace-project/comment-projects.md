@@ -30,7 +30,7 @@ U kunt opmerkingen bekijken in het gebied met opmerkingen in de rechtertrack of 
 
 >[!NOTE]
 >
->Een project moet worden bewaard alvorens het commentaargebied in het juiste spoor zichtbaar is. Als het project niet eerder is bewaard, moet u het project ](/help/analysis-workspace/build-workspace-project/save-projects.md) bewaren [ alvorens commentaren toe te voegen.
+>Een project moet worden bewaard alvorens het commentaargebied in het juiste spoor zichtbaar is. Als het project niet eerder is bewaard, moet u het project [&#128279;](/help/analysis-workspace/build-workspace-project/save-projects.md) bewaren  alvorens commentaren toe te voegen.
 
 
 ![ commentaren van de Mening in Analysis Workspace ](assets/workspace-comments-view.png)
