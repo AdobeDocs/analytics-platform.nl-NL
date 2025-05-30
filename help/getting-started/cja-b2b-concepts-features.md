@@ -6,7 +6,7 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: 6bfd54148736d4b3434eac3ee3aa6fc8a838d57a
+source-git-commit: 1a7b877d989764e737d7f35c05f515efe3e7a307
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 0%
@@ -62,8 +62,8 @@ De hiërarchie en de relaties tussen de containers zijn vooraf bepaald. Opportun
 
 >[!IMPORTANT]
 >
->* Als u **&#x200B;**&#x200B;de Globale container van de Rekening in een op rekening-gebaseerde verbinding hebt toegelaten, zou elk verslag in uw gebeurtenisdatasets een identiteitskaart van de Rekening en Globale identiteitskaart van de Rekening moeten bevatten. Als dat niet het geval is, wordt de record overgeslagen.
->* Als u **&#x200B;**&#x200B;niet de Globale container van de Rekening in een op rekening-gebaseerde verbinding hebt toegelaten, zou elk verslag in uw gebeurtenisdatasets een identiteitskaart van de Rekening moeten bevatten. Als dat niet het geval is, wordt de record overgeslagen.
+>* Als u **** de Globale container van de Rekening in een op rekening-gebaseerde verbinding hebt toegelaten, zou elk verslag in uw gebeurtenisdatasets een identiteitskaart van de Rekening en Globale identiteitskaart van de Rekening moeten bevatten. Als dat niet het geval is, wordt de record overgeslagen.
+>* Als u **** niet de Globale container van de Rekening in een op rekening-gebaseerde verbinding hebt toegelaten, zou elk verslag in uw gebeurtenisdatasets een identiteitskaart van de Rekening moeten bevatten. Als dat niet het geval is, wordt de record overgeslagen.
 
 U kunt de B2B-containers gebruiken voor specifieke B2B-functionaliteit in Analysis Workspace:
 
@@ -77,7 +77,7 @@ U kunt de B2B-containers gebruiken voor specifieke B2B-functionaliteit in Analys
 * **Attributie**: U kunt de nieuwe B2B containers in [ attributiepaneel ](/help/analysis-workspace/c-panels/attribution.md), in [ montages van de attributie component ](/help/data-views/component-settings/attribution.md) gebruiken, in [ berekende metriek ](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md), of in [ kolommen in een lijst Freeform ](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md). Accountoverzichten worden verlengd tot 13 maanden.
 
 * **Visualizations**: [ Fall uit ](/help/analysis-workspace/visualizations/fallout/fallout-flow.md), [ Stroom ](/help/analysis-workspace/visualizations/c-flow/flow.md), [ het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md), en [ de lijst van de Cohort ](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) visualisaties steunen de nieuwe B2B containers. U kunt de nieuwe containers bijvoorbeeld gebruiken om te begrijpen hoe het kopen van groepen inhoud verbruikt, of hoe opportuniteitscohorten naar het sluiten van een verkoop toe bewegen.
-U kunt de standaardcontainer voor deze visualisatie in de [ gebruikersvoorkeur ](/help/analysis-workspace/user-preferences.md#visualizations-preferences) ook plaatsen.
+U kunt de standaardcontainer voor deze visualisaties in de [ gebruikersvoorkeur ](/help/analysis-workspace/user-preferences.md#visualizations-preferences) ook plaatsen.
 
 Segmenten, attributie en visualisaties in combinatie met de B2B-containers ondersteunen u in diepgaande B2B-analyses en -inzichten.
 

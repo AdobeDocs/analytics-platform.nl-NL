@@ -4,11 +4,9 @@ description: Leer hoe u Customer Journey Analytics B2B edition kunt instellen vo
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-hide: true
-hidefromtoc: true
 badgePremium: label="B2B edition"
 exl-id: f959a77b-ccfb-43f2-93bb-b330e73d59ac
-source-git-commit: f66df039c56fc1df3fb0e102745f500a3782d26d
+source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
 workflow-type: tm+mt
 source-wordcount: '1652'
 ht-degree: 0%
@@ -288,9 +286,9 @@ Bepaal een op rekening-gebaseerde verbinding in Customer Journey Analytics om ve
    ![ B2B verbinding - voeg datasets ](assets/b2b-connection-add-datasets.png) toe
 
 1. Selecteer **[!UICONTROL Next]** om de montages voor elk van de geselecteerde datasets te vormen.
-1. Selecteer voor de gebeurtenisdataset de juiste eVars die overeenkomen met de id&#39;s voor **[!UICONTROL Account ID]** , **[!UICONTROL Global Account ID]** , **[!UICONTROL Opportunity ID]** , **[!UICONTROL Buying Group ID]** en **[!UICONTROL Person ID]** .
+1. Selecteer voor de gebeurtenisdataset de juiste velden die overeenkomen met de id&#39;s voor **[!UICONTROL Account ID]** , **[!UICONTROL Global Account ID]** , **[!UICONTROL Opportunity ID]** , **[!UICONTROL Buying Group ID]** en **[!UICONTROL Person ID]** .
 
-   ![ B2B verbinding - voeg gebeurtenisdataset ](assets/b2b-connection-add-datasets-event-data.png) toe.
+   ![ B2B verbinding - voeg gebeurtenisdataset ](assets/b2b-connection-add-datasets-event-data.png) toe
 
 1. De rol neer om de gegevensreeks van rekeningsverslagen te vormen. Zorg ervoor dat u de juiste id (**[!UICONTROL Account_ID]**) selecteert, zodat deze overeenkomt met de account in de **[!UICONTROL Global Account]** -container. Selecteer de juiste id (**[!UICONTROL Account_ID]**) als de **[!UICONTROL Global Account field]** .
 
