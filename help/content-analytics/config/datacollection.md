@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin
 exl-id: 584587e6-45fd-4fc3-a7a6-6685481ddee7
-source-git-commit: c10d88c27d4a3c92e02179da4a73a6a499d2a8c2
+source-git-commit: 7909388273af4c19d2dfda671c2af8eac470fff9
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Content Analytics vereist de Experience Platform Edge Network Web SDK om gebeurt
 De Content Analytics-bibliotheek verzamelt gegevens wanneer:
 
 * Content Analytics is opgenomen in de tagbibliotheek die op de pagina is geladen.
-* De pagina URL wordt gevormd in de [ uitbreiding van Content Analytics ](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/extensions/client/content-analytics/overview){target="_blank"}, een deel van de inbegrepen bibliotheek van Markeringen.
+* De pagina URL wordt gevormd in de [ uitbreiding van Content Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview){target="_blank"}, een deel van de inbegrepen bibliotheek van Markeringen.
 
 
 ## Content Analytics, gebeurtenis
@@ -85,7 +85,7 @@ Er wordt een ervaringsklik opgenomen wanneer:
 
 Om het aantal vraag te verminderen die de pagina verlaat, verzamelt Content Analytics informatie maar verzendt niet onmiddellijk die informatie. Informatie over interactie met inhoud wordt verzameld en een gebeurtenis die die informatie bevat, wordt alleen verzonden wanneer een van de volgende triggers plaatsvindt:
 
-* Web SDK of AppMettings verzendt een gebeurtenis. De tijdstempel van deze gebeurtenis is
+* Web SDK of AppMettings verzendt een gebeurtenis.
 * De zichtbaarheid verandert in verborgen, bijvoorbeeld:
    * Pagina wordt verwijderd
    * Tabblad Overschakelen
