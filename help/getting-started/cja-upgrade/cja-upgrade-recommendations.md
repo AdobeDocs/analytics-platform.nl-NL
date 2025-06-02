@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: d35f8615-66f5-4823-b0b8-433852246dd2
-source-git-commit: dfc9ba843fbddc135c0f8160fb672adb36e9146f
+source-git-commit: 105b235c1a4791fd59cf65ae7f543a5fc08fc55d
 workflow-type: tm+mt
 source-wordcount: '3268'
 ht-degree: 0%
@@ -69,27 +69,27 @@ In de volgende stappen wordt beschreven welk proces wordt aanbevolen voor het up
 
 Elke stap biedt een verklaring op hoog niveau van een meer gedetailleerd proces. Volg de koppeling voor elke stap en voltooi de bijbehorende taken en ga vervolgens terug naar deze pagina en ga verder met de volgende stap in het proces.
 
-1. [ Plan uw XDM schemaarchitectuur ](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md).
+1. [ Plan uw XDM schemaarchitectuur ](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md){target="_blank"}.
 
-1. [ creeer uw gewenste douaneschema in Adobe Experience Platform ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md).
+1. [ creeer uw gewenste douaneschema in Adobe Experience Platform ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md){target="_blank"}.
 
    Houd rekening met de volgende opties bij het maken van uw schema:
 
-   * Als u Customer Journey Analytics met RTCDP wilt integreren, moet u de **[!UICONTROL Profile]** optie op uw schema toelaten, zoals die in [ wordt beschreven creeer een schema XDM om met Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) te gebruiken. Als deze optie is ingeschakeld en gegevens worden opgenomen in gegevenssets die op dit schema zijn gebaseerd, worden die gegevens samengevoegd in het realtime profiel van de klant.
+   * Als u Customer Journey Analytics met RTCDP wilt integreren, moet u de **[!UICONTROL Profile]** optie op uw schema toelaten, zoals die in [ wordt beschreven creeer een schema XDM om met Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md){target="_blank"} te gebruiken. Als deze optie is ingeschakeld en gegevens worden opgenomen in gegevenssets die op dit schema zijn gebaseerd, worden die gegevens samengevoegd in het realtime profiel van de klant.
 
-   * Als u het stromen media gegevens wilt omvatten, moet u [ uw schema vormen om het stromen gegevens ](/help/data-ingestion/streaming.md) in te voeren en te gebruiken.
+   * Als u het stromen media gegevens wilt omvatten, moet u [ uw schema vormen om het stromen gegevens ](/help/data-ingestion/streaming.md){target="_blank"} in te voeren en te gebruiken.
 
-1. [ creeer een dataset in Adobe Experience Platform ](/help/getting-started/cja-upgrade/cja-upgrade-dataset.md).
+1. [ creeer een dataset in Adobe Experience Platform ](/help/getting-started/cja-upgrade/cja-upgrade-dataset.md){target="_blank"}.
 
 1. (Optioneel) Als u classificatiegegevens gebruikt in Adobe Analytics, kunt u classificatiegegevens toevoegen aan uw gegevensset in Customer Journey Analytics.
 
-   Om dit te doen, [ creeer een raadplegingsdataset voor elke dimensie die classificatiegegevens ](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md) bevat.
+   Om dit te doen, [ creeer een raadplegingsdataset voor elke dimensie die classificatiegegevens ](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md){target="_blank"} bevat.
 
-1. Voor de implementaties van Adobe Analytics die AppMeasurement of de uitbreiding van Analytics (markeringen) gebruiken, [ creeer een gegevensstroom in Adobe Experience Platform ](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md) <!-- Is this correct? Will customers on the Web SDK already have a datastream that they only need to add AEP as a service to? Or does this step apply to everyone?-->.
+1. Voor de implementaties van Adobe Analytics die AppMeasurement of de uitbreiding van Analytics (markeringen) gebruiken, [ creeer een gegevensstroom in Adobe Experience Platform ](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md){target="_blank"} <!-- Is this correct? Will customers on the Web SDK already have a datastream that they only need to add AEP as a service to? Or does this step apply to everyone?-->.
 
-   Voor Adobe Analytics-implementaties die gebruikmaken van de Web SDK, bestaat al een gegevensstroom. Voor meer informatie, zie [ uw bestaande implementatie van SDK van het Web van Adobe Analytics vormen om gegevens naar Platform ](/help/getting-started/cja-upgrade/cja-upgrade-existing-adobe-analytics-websdk.md) te verzenden.
+   Voor Adobe Analytics-implementaties die gebruikmaken van de Web SDK, bestaat al een gegevensstroom. Voor meer informatie, zie [ uw bestaande implementatie van SDK van het Web van Adobe Analytics vormen om gegevens naar Platform ](/help/getting-started/cja-upgrade/cja-upgrade-existing-adobe-analytics-websdk.md){target="_blank"} te verzenden.
 
-1. [ voeg Adobe Experience Platform als dienst aan uw datastream ](/help/getting-started/cja-upgrade/cja-upgrade-datastream-addplatform.md) toe.
+1. [ voeg Adobe Experience Platform als dienst aan uw datastream ](/help/getting-started/cja-upgrade/cja-upgrade-datastream-addplatform.md){target="_blank"} toe.
 
 1. (Optioneel) Als u Customer Journey Analytics wilt integreren met Adobe Journey Optimizer, gebruikt u het aanpassingsobject in uw implementatie voor gebruik in Adobe Journey Optimizer.
 
@@ -97,23 +97,23 @@ Elke stap biedt een verklaring op hoog niveau van een meer gedetailleerd proces.
 
    +++Handmatige implementatie (JS-bestand)
 
-   1. [ voegt alloy.js aan uw plaats ](https://experienceleague.adobe.com/nl/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version%22) toe.
+   1. [ voegt alloy.js aan uw plaats ](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version%22){target="_blank"} toe.
 
    1. Vul een XDM-object en verzend het naar de gegevensstroom.
 
-   +++
++++
 
    +++Tags
 
-   1. [ creeer een markeringsbezit en voeg de uitbreiding van SDK van het Web van Adobe Experience Platform ](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md) toe.
+   1. [ creeer een markeringsbezit en voeg de uitbreiding van SDK van het Web van Adobe Experience Platform ](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md){target="_blank"} toe.
 
-   1. [De extensie Adobe Experience Platform Web SDK toevoegen aan de eigenschap tag](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md)
+   1. [ voeg de uitbreiding van SDK van het Web van Adobe Experience Platform aan uw markeringsbezit ](/help/getting-started/cja-upgrade/cja-upgrade-tag-extension.md){target="_blank"} toe.
 
    1. [ voert de ladersmarkering op uw plaats ](/help/getting-started/cja-upgrade/cja-upgrade-tag-loader.md) uit.
 
-   1. [ voeg de logica van de gegevensinzameling XDM aan uw markering ](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md) toe.
+   1. [ voeg de logica van de gegevensinzameling XDM aan uw markering ](/help/getting-started/cja-upgrade/cja-upgrade-tag-xdm.md){target="_blank"} toe.
 
-   +++
++++
 
 +++ API
 
@@ -121,31 +121,31 @@ Elke stap biedt een verklaring op hoog niveau van een meer gedetailleerd proces.
 
 +++
 
-1. [ bevestigt dat uw implementatie van SDK van het Web gegevens naar een dataset ](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md) verzendt.
+1. [ bevestigt dat uw implementatie van SDK van het Web gegevens naar een dataset ](/help/getting-started/cja-upgrade/cja-upgrade-dataset-ingestion.md){target="_blank"} verzendt.
 
-1. [ creeer een verbinding in Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-connection.md).
+1. [ creeer een verbinding in Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-connection.md){target="_blank"}.
 
 1. (Optioneel) Til webgegevens met gegevens uit andere kanalen, zoals gegevens van het callcenter.
 
-   U verwezenlijkt dit door extra datasets aan uw verbinding van Customer Journey Analytics toe te voegen, zoals die in [ wordt beschreven de vraagcentrum van de Invoer en Webgegevens ](/help/use-cases/cross-channel/call-center.md).
+   U verwezenlijkt dit door extra datasets aan uw verbinding van Customer Journey Analytics toe te voegen, zoals die in [ wordt beschreven de vraagcentrum van de Invoer en Webgegevens ](/help/use-cases/cross-channel/call-center.md){target="_blank"}.
 
-1. [ creeer een gegevensmening in Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md).
+1. [ creeer een gegevensmening in Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md){target="_blank"}.
 
-1. [ bevestigt dat het gegeven in de gegevensmening in Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-validate.md) stroomt.
+1. [ bevestigt dat het gegeven in de gegevensmening in Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-validate.md){target="_blank"} stroomt.
 
-1. In uw milieu van Adobe Analytics, [ gebruik de Inventaris van de Analyse ](https://experienceleague.adobe.com/nl/docs/analytics/admin/admin-tools/analytics-inventory) om een uitvoerig overzicht van uw milieu van Adobe Analytics, met inbegrip van het aantal projecten en componenten, rapportreeksen, gebruikers, en meer te zien.
+1. In uw milieu van Adobe Analytics, [ gebruik de Inventaris van de Analyse ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory){target="_blank"} om een uitvoerig overzicht van uw milieu van Adobe Analytics, met inbegrip van het aantal projecten en componenten, rapportreeksen, gebruikers, en meer te zien.
 
-1. [ Migreer projecten en componenten ](https://experienceleague.adobe.com/nl/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration).
+1. [ Migreer projecten en componenten ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration){target="_blank"}.
 
    <!-- You might not want to do this, based on the schema? Ask Zach. Will it work if you have all new schema fields? What would you want to just build from scratch. Maybe everything? -->
 
-1. (Facultatief) als u marketing kanalen in Adobe Analytics gebruikt, kunt u [ tot een marketing kanaal afgeleid gebied in Customer Journey Analytics ](/help/data-views/derived-fields/derived-fields.md#marketing-channels) leiden.
+1. (Facultatief) als u marketing kanalen in Adobe Analytics gebruikt, kunt u [ tot een marketing kanaal afgeleid gebied in Customer Journey Analytics ](/help/data-views/derived-fields/derived-fields.md#marketing-channels){target="_blank"} leiden.
 
    Afgeleide velden zijn een belangrijk aspect van real-time rapportage in Customer Journey Analytics. Een afgeleid gebied staat u toe om (vaak complexe) gegevensmanipulaties op de vlucht, door een klantgerichte regelbouwer te bepalen.
 
    Eén toepassing voor afgeleide velden is het definiëren van een afgeleid veld Marketing Channel dat het juiste marketingkanaal bepaalt op basis van een of meer voorwaarden (bijvoorbeeld URL-parameter, pagina-URL of paginanaam).
 
-   Gebruik [ het marketing kanaalfunctiesjabloon ](/help/data-views/derived-fields/derived-fields.md#marketing-channels) op afgeleide gebieden om snel een afgeleid gebied voor marketing kanalen tot stand te brengen.
+   Gebruik [ het marketing kanaalfunctiesjabloon ](/help/data-views/derived-fields/derived-fields.md#marketing-channels){target="_blank"} op afgeleide gebieden om snel een afgeleid gebied voor marketing kanalen tot stand te brengen.
 
 1. Vergelijk gegevens in Adobe Analytics van uw oude implementatie met gegevens in Customer Journey Analytics van uw nieuwe implementatie en zorg ervoor dat u alle verschillen begrijpt en waarom deze bestaan. <!-- Expound on this. Link to somewhere? There will be a lot of differences. -->
 
@@ -155,17 +155,17 @@ Elke stap biedt een verklaring op hoog niveau van een meer gedetailleerd proces.
    >
    >Gebruik de volgende stappen als u nog geen bronconnector voor Analytics hebt gemaakt.
    >
-   >Als u reeds de Analytics bronschakelaar met Customer Journey Analytics gebruikt, volg de stappen in [ Overgang van de Analytics bronschakelaar aan het Web SDK voor Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
+   >Als u reeds de Analytics bronschakelaar met Customer Journey Analytics gebruikt, volg de stappen in [ Overgang van de Analytics bronschakelaar aan het Web SDK voor Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md){target="_blank"}.
 
-   1. [Maak een XDM-schema voor de bronconnector van Analytics](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md)
+   1. [ creeer een schema XDM voor de bron van Analytics schakelaar ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md){target="_blank"}.
 
-   1. Als u reeds geen Analytics bronschakelaar hebt, [ creeer de Analytics bronschakelaar en kaartgebieden aan uw XDM schema ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
+   1. Als u reeds geen Analytics bronschakelaar hebt, [ creeer de Analytics bronschakelaar en kaartgebieden aan uw XDM schema ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md){target="_blank"}.
 
       of
 
-      Als u reeds een Analytics bronschakelaar hebt, [ kaartgebieden van de bronschakelaar aan uw schema XDM ](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
+      Als u reeds een Analytics bronschakelaar hebt, [ kaartgebieden van de bronschakelaar aan uw schema XDM ](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md){target="_blank"}.
 
-   1. [ voeg de gegevensset van de bron van Analytics aan de verbinding ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md) toe.
+   1. [ voeg de gegevensset van de bron van Analytics aan de verbinding ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md){target="_blank"} toe.
 
 1. De gebruiker aan boord gaan.
 
@@ -173,15 +173,15 @@ Elke stap biedt een verklaring op hoog niveau van een meer gedetailleerd proces.
 
    Geef uw gebruikers voldoende tijd (3 tot 6 maanden) om vertrouwd te raken met de belangrijkste verschillen in Analysis Workspace in Customer Journey Analytics.
 
-   Voor informatie over enkele zeer belangrijke verschillen tussen Adobe Analytics en Customer Journey Analytics, zie [ Gids van de Gebruiker voor de gebruikers van Adobe Analytics ](/help/getting-started/aa-to-cja-user.md).
+   Voor informatie over enkele zeer belangrijke verschillen tussen Adobe Analytics en Customer Journey Analytics, zie [ Gids van de Gebruiker voor de gebruikers van Adobe Analytics ](/help/getting-started/aa-to-cja-user.md){target="_blank"}.
 
-1. Leer over [ eigenschapsteun in Customer Journey Analytics ](/help/getting-started/aa-vs-cja/cja-aa.md). De meeste Adobe Analytics-functies worden ondersteund in Customer Journey Analytics en er zijn veel extra functies beschikbaar in Customer Journey Analytics.
+1. Leer over [ eigenschapsteun in Customer Journey Analytics ](/help/getting-started/aa-vs-cja/cja-aa.md){target="_blank"}. De meeste Adobe Analytics-functies worden ondersteund in Customer Journey Analytics en er zijn veel extra functies beschikbaar in Customer Journey Analytics.
 
 1. Schakel Adobe Analytics uit wanneer de Customer Journey Analytics Web SDK-implementatie is voltooid en u vertrouwd bent met de gegevens die u verzamelt.
 
    Adobe raadt u aan uw Adobe Analytics-omgeving na de implementatie van Customer Journey Analytics gedurende een bepaalde periode in bedrijf te houden.
 
-   Voor meer informatie over het gebruik van Adobe Analytics tijdens en na een verbetering, evenals de voorgestelde timing van het onbruikbaar maken van Adobe Analytics, zie [ evalueren hoe lang u Adobe Analytics na bevordering aan Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md) nodig hebt.
+   Voor meer informatie over het gebruik van Adobe Analytics tijdens en na een verbetering, evenals de voorgestelde timing van het onbruikbaar maken van Adobe Analytics, zie [ evalueren hoe lang u Adobe Analytics na bevordering aan Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md){target="_blank"} nodig hebt.
 
 ## Upgrade-stappen voor uw organisatie dynamisch genereren
 
@@ -213,7 +213,7 @@ Om verbeteringsstappen voor de unieke omstandigheden van uw organisatie dynamisc
    | Vraag | Beschikbare antwoorden | Aanvullende informatie |
    |---------|----------|---------|
    | Selecteer de optie die uw huidige Adobe Analytics-implementatie beschrijft. Deze informatie kan van invloed zijn op alternatieve upgradeopties die beschikbaar zijn wanneer u een upgrade naar Customer Journey Analytics uitvoert. | Selecteer een optie: <ul><li>**AppMeasurement:**<br/> een implementatie van JavaScript die AppMeasurement.js op een pagina laadt, en gegevens verzendt naar Adobe gebruikend het s voorwerp (bijvoorbeeld, s.eVar1).</li><li>**uitbreiding van Adobe Analytics (markeringen):** <br/> de markeringsimplementatie van A die de Inzameling van Gegevens van Adobe Experience Platform laadt (die vroeger als Lancering wordt bekend). De extensie Adobe Analytics is geïnstalleerd op de tag.</li><li>**de uitbreiding van SDK van het Web van Experience Platform (markeringen):**<br/> de markeringsimplementatie van A die de Inzameling van de Gegevens van Adobe Experience Platform laadt (vroeger gekend als Lancering). Voor de tag is de extensie Web SDK geïnstalleerd.</li><li>**Experience Platform Web SDK (alloy.js):** een implementatie van JavaScript die de bibliotheek van SDK van het Web (alloy.js) op een pagina laadt, en gegevens naar Adobe verzendt gebruikend een nuttige lading JSON.</li><li>**Bulk API van de Invoeging van Gegevens:**<br/> een implementatie die de API van de gegevenstoevoeging of bulkgegevenstoevoeging gebruikt.</li><li>**Experience Platform Mobile SDK:**<br/> een implementatie die Adobe Experience Platform Mobile SDK gebruikt.</li><li>**AppMeasurement die een hulpmiddel van het het markeringsbeheer van de derde gebruikt:**<br/> een implementatie die een hulpmiddel van het het markeringsbeheer van de derde gebruikt.</li><li>**niet-Adobe Analytics product:**<br/> een implementatie die gegevens voor een product buiten Adobe Analytics, zoals Google Analytics verzamelt. Als u deze optie selecteert, worden verschillende opties in de upgradehandleiding uitgeschakeld die niet van toepassing zijn bij het upgraden naar Customer Journey Analytics vanuit een niet-Adobe Analytics-product. </li><li>**ik weet niet:**<br/> als u niet de persoon bent die uw implementatie beheert, kunt u deze optie tijdelijk selecteren.</li></ul><p>Selecteer indien van toepassing:<ul><li>**onze implementatie gebruikt momenteel de bron Analytics verbinding:**<br/> de bron van Analytics schakelaar staat u toe om waarde van Customer Journey Analytics gemakkelijk te krijgen, maar vereist dat u voor zowel Adobe Analytics als Customer Journey Analytics betaalt. Deze gids kan u helpen zich op een onafhankelijke implementatie van SDK van het Web bewegen.</li></ul></p> | <ul><li>[ begrijp uw implementatie van Adobe Analytics en hoe het uw verbetering aan Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-analytics-implementation.md#understand-your-adobe-analytics-implementation-and-how-it-affects-your-upgrade-to-customer-journey-analytics) beïnvloedt</li><li>[ Overgang van de Analytics bronschakelaar aan het Web SDK voor Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md)</li></ul> |
-   | De meeste Adobe Analytics-functies zijn direct beschikbaar in Customer Journey Analytics. De volgende functies moeten echter tijdens het upgradeproces in overweging worden genomen. Selecteer de bestanden die u wilt gebruiken. | Selecteer alles wat van toepassing is:<ul><li>**Historische gegevens van Adobe Analytics:**</br> breng uw historische gegevens van de het rapportreeks van Adobe Analytics in Adobe Experience Platform en Customer Journey Analytics.</li><li>**Componenten en projecten van Adobe Analytics:**</br> Componenten van Adobe Analytics omvatten: Projecten (met hun bijbehorende vrije vormlijsten en visualisaties), segmenten, en berekende metriek.</li><li>**Bedekking van de kaart van de Activiteit en verbinding het volgen:**</br> browser van A uitbreiding die u toestaat om verbinding het volgen gegevens als bedekking op uw plaats te zien.</li><li>**gegevens van de Classificatie:**</br> Groep of categoriseer gegevens als afzonderlijke dimensies.</li><li>**de Kanalen van de Marketing:**</br> creeer regels die categoriseren hoe de klanten op uw plaats aankomen.</li><li>**Data Warehouse:**</br> de Uitvoer verwerkte gegevens van Adobe Analytics in spreadsheetformaat.</li><li>**Gegevensfeeds:**&#x200B;Een exacte vervanging voor gegevensfeeds is nog niet beschikbaar in Customer Journey Analytics. Nochtans, kan de gelijkaardige functionaliteit met mogelijkheden zoals volledige lijstuitvoer, de uitvoer van de dataset van het Platform, het hulpmiddelintegratie van BI, en rapporteringsAPI worden bereikt.</br></li><li>**het stromen media gegevens:**</br> toe:voegen-op aan Adobe Analytics en Customer Journey Analytics die in gegevensinzameling van media, zoals audio, video, of gestroomde inhoud specialiseert.</li></ul> | <ul><li>[ begrijp de eigenschapsteun van Adobe Analytics wanneer bevordering aan Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-adobe-analytics-features.md)</li></ul> |
+   | De meeste Adobe Analytics-functies zijn direct beschikbaar in Customer Journey Analytics. De volgende functies moeten echter tijdens het upgradeproces in overweging worden genomen. Selecteer de bestanden die u wilt gebruiken. | Selecteer alles wat van toepassing is:<ul><li>**Historische gegevens van Adobe Analytics:**</br> breng uw historische gegevens van de het rapportreeks van Adobe Analytics in Adobe Experience Platform en Customer Journey Analytics.</li><li>**Componenten en projecten van Adobe Analytics:**</br> Componenten van Adobe Analytics omvatten: Projecten (met hun bijbehorende vrije vormlijsten en visualisaties), segmenten, en berekende metriek.</li><li>**Bedekking van de kaart van de Activiteit en verbinding het volgen:**</br> browser van A uitbreiding die u toestaat om verbinding het volgen gegevens als bedekking op uw plaats te zien.</li><li>**gegevens van de Classificatie:**</br> Groep of categoriseer gegevens als afzonderlijke dimensies.</li><li>**de Kanalen van de Marketing:**</br> creeer regels die categoriseren hoe de klanten op uw plaats aankomen.</li><li>**Data Warehouse:**</br> de Uitvoer verwerkte gegevens van Adobe Analytics in spreadsheetformaat.</li><li>**Gegevensfeeds:**Een exacte vervanging voor gegevensfeeds is nog niet beschikbaar in Customer Journey Analytics. Nochtans, kan de gelijkaardige functionaliteit met mogelijkheden zoals volledige lijstuitvoer, de uitvoer van de dataset van het Platform, het hulpmiddelintegratie van BI, en rapporteringsAPI worden bereikt.</br></li><li>**het stromen media gegevens:**</br> toe:voegen-op aan Adobe Analytics en Customer Journey Analytics die in gegevensinzameling van media, zoals audio, video, of gestroomde inhoud specialiseert.</li></ul> | <ul><li>[ begrijp de eigenschapsteun van Adobe Analytics wanneer bevordering aan Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-adobe-analytics-features.md)</li></ul> |
    | De meeste nieuwe functies zijn direct beschikbaar in Customer Journey Analytics. De volgende functies moeten echter tijdens het upgradeproces in overweging worden genomen. Selecteer de bestanden die u wilt gebruiken. | Selecteer alles wat van toepassing is:<ul><li>**tijd verzamelde gegevens met gegevens uit andere bronnen (e.x. de gegevens van het contactcentrum):**</br> (Geadviseerd) de gegevens van de tijd van diverse Web, mobiele, en off-line eigenschappen om één enkele, geconsolideerde mening van klantengedrag tot stand te brengen. Dit vermogen om analysegegevens uit andere kanalen te combineren is het belangrijkste gebruiksgeval voor Customer Journey Analytics.</li><li>**Stitch klappen van andere datasets die een douaneafmeting gebruiken:**<br/> als om het even welk van uw datasets geen primair herkenningsteken (zoals identiteitskaart van Experience Cloud) deelt, kunt u nog die gegevens verbinden gebruikend een andere afmeting, zoals login gebruikersbenaming of e-mailadres.</li><li>**integreer met Adobe Journey Optimizer:**<br/> lever verbonden, contextafhankelijke, en gepersonaliseerde ervaringen aan klanten.</li><li>**integreer met Adobe Real-Time CDP:**<br/> combineer profielgegevens van veelvoudige bronnen om publiek en segmenten te produceren die op gebruikerssporen worden gebaseerd.</li><li>**integreer met Adobe Target (A4T):**<br/> Adobe adviseert het integreren met Adobe Journey Optimizer voor de gevallen van het verpersoonlijkingsgebruik. Integratie met Adobe Target is mogelijk, maar een kortetermijnoplossing.</li><li>**integreer met Adobe Audience Manager:**<br/> Adobe adviseert het integreren met Adobe in real time CDP voor op publiek-gebaseerde gebruiksgevallen. Integratie met Audience Manager is mogelijk, maar een kortetermijnoplossing.</li></ul> | [ Begrijp eigenschappen uniek aan Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-customer-journey-analytics-features.md) |
    | Selecteer hoe u Adobe Analytics en Customer Journey Analytics uiteindelijk wilt gebruiken: | Selecteer een optie: <ul><li>**ik ben van plan volledig naar Customer Journey Analytics van Adobe Analytics te bewegen:**<br/> (Geadviseerd) Adobe adviseert dat u volledig van Adobe Analytics aan Customer Journey Analytics overgaat. Tijdens de overgangsperiode moet u Adobe Analytics naast Customer Journey Analytics uitvoeren om gegevens naast elkaar te vergelijken. Als u op de hoogte bent van de gegevens, kunt u Adobe Analytics uitschakelen.</li><li>**ik ben van plan om beide producten van Analytics te houden:**<br/> (Niet geadviseerd) als u deze optie selecteert, omvat uw contract met Adobe zowel Adobe Analytics als Customer Journey Analytics, die voor uw organisatie in tijd duurder kunnen zijn.</li></ul> | [ evalueert wanneer om Adobe Analytics na bevordering aan Customer Journey Analytics onbruikbaar te maken ](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md) |
    | Selecteer hoe u het Customer Journey Analytics-schema wilt configureren: | Selecteer een optie: <ul><li>**ik wil een schema gebruiken dat aan mijn organisatie wordt aangepast:**</br> (Geadviseerd) Aanpassen van uw schema staat uw organisatie toe om slechts te volgen wat u nodig hebt en overheadkosten te vermijden verbonden aan rommelige en onnodige gebieden. Deze optie omvat gebiedsgroepen die door het Web SDK worden toegevoegd en gebiedsgroepen die aan uw organisatie worden aangepast.</li><li>**ik wil het standaardschema van Adobe Analytics gebruiken:**</br> (Niet geadviseerd) het schema van Adobe Analytics bevat meer dan duizend gebieden, die tot verpletterd en complex schema kunnen leiden. Uw organisatie zou gedwongen worden het concept van props en eVars te blijven volgen, een erfenisconcept dat niet in Customer Journey Analytics wordt gebruikt. Integratie met andere Adobe Experience Platform-services is moeilijker.</li></ul> | [ kies uw schema voor Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md) |
