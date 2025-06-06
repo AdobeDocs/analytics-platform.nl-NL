@@ -149,9 +149,9 @@ Een andere persoon in uw opmerking opnemen:
 
 ## Meldingen ontvangen over opmerkingen
 
-De eigenaars van het project en [ specifieke mensen u ](#include-others-in-a-comment) noemt ontvangen berichten die op hun het berichtmontages van Adobe Experience Cloud worden gebaseerd. Door gebrek, ontvangen zij een in-app bericht, zichtbaar van het [ het bericht van Experience Cloud ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications) pictogram ![ het berichtpictogram van Experience Cloud ](assets/experience-cloud-notification.png) in Customer Journey Analytics.
+De eigenaars van het project en [ specifieke mensen u ](#include-others-in-a-comment) noemt ontvangen berichten die op hun het berichtmontages van Adobe Experience Cloud worden gebaseerd. Door gebrek, ontvangen zij een in-app bericht, zichtbaar van het [ het bericht van Experience Cloud ](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/account-preferences#view-notifications) pictogram ![ het berichtpictogram van Experience Cloud ](assets/experience-cloud-notification.png) in Customer Journey Analytics.
 
-Bovendien, kunnen de mensen hun het berichtmontages van Experience Cloud vormen om e-mailberichten en de berichten van Slack te ontvangen door [ te abonneren aan e-mailberichten ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) en [ het intekenen aan de berichten van Slack ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack).
+Bovendien, kunnen de mensen hun het berichtmontages van Experience Cloud vormen om e-mailberichten en de berichten van Slack te ontvangen door [ te abonneren aan e-mailberichten ](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) en [ het intekenen aan de berichten van Slack ](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/account-preferences#slack).
 
 ## Een badge voor een bestaande opmerking plaatsen
 
