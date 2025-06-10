@@ -3,9 +3,9 @@ description: De Berekende Bouwer van Metriek verstrekt een canvas om Afmetingen,
 title: Berekende maatstaven samenstellen
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1534'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 >id="components_calculatedmetrics_productcompatibility"
 >title="Productcompatibiliteit"
 >abstract="Geeft aan waar in Customer Journey Analytics deze berekende metrische waarde kan worden gebruikt, zoals in Analysis Workspace, Report Builder enzovoort. Sommige berekende metriek kunnen niet met experimenteren worden gebruikt."
->additional-url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="Berekende meetwaarden gebruiken in experimenten"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="Berekende meetwaarden gebruiken in experimenten"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -57,7 +57,7 @@ Het dialoogvenster **[!UICONTROL Calculated metric builder]** wordt gebruikt om 
 
 ![ Berekend metrisch detailsvenster dat gebieden en opties toont die in de volgende sectie worden beschreven.](assets/calculated-metric-builder.png)
 
->[!TAB creeer of geef berekend metrisch  uit]
+>[!TAB  creeer of geef berekend metrisch ] uit
 
 ![ Berekend metrisch detailsvenster dat gebieden en opties toont die in de volgende sectie worden beschreven.](assets/create-edit-calculated-metric.png)
 
@@ -74,7 +74,7 @@ Het dialoogvenster **[!UICONTROL Calculated metric builder]** wordt gebruikt om 
    | **[!UICONTROL Description]** | Geef een beschrijving voor het segment, bijvoorbeeld `Calculated metric to define the conversion rate.` U hoeft de formule voor de berekende metrische waarde niet te beschrijven omdat de formule al automatisch beschikbaar is in [!UICONTROL Summary] . |
    | **[!UICONTROL Format]** | Selecteer een indeling voor de berekende metrische waarde: u kunt tussen **[!UICONTROL Decimal]** , **[!UICONTROL Time]** , **[!UICONTROL Percent]** en **[!UICONTROL Currency]** selecteren. |
    | **[!UICONTROL Decimal places]** | Geef het aantal decimalen op voor de geselecteerde notatie. Wordt alleen ingeschakeld wanneer de geselecteerde indeling Decimaal, Valuta en Percentage is. |
-   | **[!UICONTROL Show upward trend as]** | Geef op of een opwaartse trend van de berekende metrische waarde wordt weergegeven als Staalwaarden **[!UICONTROL Good (Green)]** of als ▼ **[!UICONTROL Bad (Red)]** . |
+   | **[!UICONTROL Show upward trend as]** | Geef op of een opwaartse trend van de berekende metrische waarde wordt weergegeven als ▲ **[!UICONTROL Good (Green)]** of als ▼ **[!UICONTROL Bad (Red)]** . |
    | **[!UICONTROL Currency]** | Geef de valuta van de berekende metrische waarde op. Alleen ingeschakeld wanneer de geselecteerde notatie Valuta is. |
    | **[!UICONTROL Tags]** | Organiseer de berekende metrisch door één of meerdere markeringen te creëren of toe te passen. Begin te typen om naar bestaande tags te zoeken die u kunt selecteren. Of druk op **[!UICONTROL ENTER]** om een nieuwe tag toe te voegen. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om een markering te verwijderen. |
    | **[!UICONTROL Preview]** | De voorvertoning geldt voor de laatste 90 dagen en is een manier om te bepalen of u de maateenheid correct hebt gedefinieerd. |
@@ -207,7 +207,7 @@ Zie [ functies van het Gebruik ](cm-using-functions.md) voor details op hoe te o
 
 Een algemene container toevoegen:
 
-* Selecteer ![&#128279;](/help/assets/icons/AddCircle.svg) AddCircle **[!UICONTROL Add]** van binnen een container
+* Selecteer ](/help/assets/icons/AddCircle.svg) AddCircle **[!UICONTROL Add]** van binnen een container![
 * Selecteer **[!UICONTROL Container]** . Er wordt een nieuwe lege generieke container toegevoegd aan de **[!UICONTROL Definition]** . U kunt een generische container gebruiken om een hiërarchie in de definitie van uw berekende metrisch te nesten of tot stand te brengen.
 
 
@@ -218,6 +218,6 @@ Om een container te schrappen, selecteer ![ dicht ](/help/assets/icons/Close.svg
 >[!MORELIKETHIS]
 >
 >[Functies gebruiken](cm-using-functions.md)
->[Segmenten ](/help/components/filters/filters-overview.md)
+>>[Segmenten ](/help/components/segments/seg-overview.md)
 >
 

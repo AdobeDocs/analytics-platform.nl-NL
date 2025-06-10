@@ -5,7 +5,7 @@ exl-id: 48546227-029c-4cf9-9b7e-66d547769270
 solution: Customer Journey Analytics
 feature: Use Cases
 role: User
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Customer Journey Analytics biedt het waardevolle en robuuste vermogen om dataset
 
 ## Web- en callcentgegevens importeren in Platform
 
-Importeer uw gegevens naar Adobe Experience Platform. Zie [ een schema ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL) en [ Samenvatting gegevens ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=nl-NL) in de documentatie van Adobe Experience Platform creëren.
+Importeer uw gegevens naar Adobe Experience Platform. Zie [ een schema ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) en [ Samenvatting gegevens ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) in de documentatie van Adobe Experience Platform creëren.
 
 Als u gegevens importeert in Platform, kunt u met de volgende tips insight in resulterende rapporten doen toenemen:
 
@@ -69,7 +69,7 @@ De volgende visualisaties kunnen worden gebruikt om inzichten van uw gestikte da
 
 Deze visualisatie helpt u begrijpen hoe goed CCA gegevens samenbrengt.
 
-1. Maak twee segmenten. De variabele die in deze twee segmenten wordt gebruikt, is dezelfde hierboven vermelde variabele die de gegevensbron van elke gebeurtenis weerspiegelt. Zie [ een segment ](/help/components/filters/create-filters.md) voor meer informatie creëren.
+1. Maak twee segmenten. De variabele die in deze twee segmenten wordt gebruikt, is dezelfde hierboven vermelde variabele die de gegevensbron van elke gebeurtenis weerspiegelt. Zie [ een segment ](/help/components/segments/seg-create.md) voor meer informatie creëren.
    * Persoonscontainer waarin de gegevensset-id gelijk is aan uw webgegevens
    * De container van de persoon waar identiteitskaart van de Dataset uw gegevens van het vraagcentrum evenaart
 2. In Analysis Workspace, sleep de visualisatie van de a [ Venn ](/help/analysis-workspace/visualizations/venn.md) op het werkruimtekanvas.

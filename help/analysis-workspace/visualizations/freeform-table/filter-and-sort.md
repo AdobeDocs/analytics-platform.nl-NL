@@ -4,7 +4,7 @@ title: Tabellen filteren en sorteren
 feature: Visualizations
 exl-id: 3af637ec-bb6c-49b7-a7b3-e1d310e71101
 role: User
-source-git-commit: 9a15cb4d771892ff656fe72b8e53d890a3fd99f7
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 0%
@@ -96,7 +96,7 @@ Gegevens filteren in Freeform-tabellen:
 
 ### publiekssegmenten gebruiken
 
-Zie [ Overzicht van de Segmentatie ](/help/components/filters/filters-overview.md) voor meer details.
+Zie [ Overzicht van de Segmentatie ](/help/components/segments/seg-overview.md) voor meer details.
 
 ## Tabellen sorteren
 

@@ -4,7 +4,7 @@ title: Reiscanvas
 feature: Visualizations
 role: User
 exl-id: 53984934-6fba-4f15-aeeb-d91039260553
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '6207'
 ht-degree: 0%
@@ -297,7 +297,7 @@ De knopen worden verbonden door een pijl. Zowel de richting van de pijl als de b
 
 #### Logica wanneer knooppunten worden aangesloten
 
-Wanneer u knopen in het canvas van de Reis verbindt, worden zij verbonden gebruikend de exploitant THEN. Dit is ook gekend als [ opeenvolgend segmenteren ](/help/components/filters/seg-sequential-build.md).
+Wanneer u knopen in het canvas van de Reis verbindt, worden zij verbonden gebruikend de exploitant THEN. Dit is ook gekend als [ opeenvolgend segmenteren ](/help/components/segments/seg-sequential-build.md).
 
 Knooppunten worden verbonden als een &quot;uiteindelijk pad&quot;, wat betekent dat bezoekers worden geteld zolang ze uiteindelijk van de ene naar de andere node gaan, ongeacht gebeurtenissen die zich tussen de twee knooppunten voordoen. De tijd die gebruikers wordt toegewezen om langs het pad te bewegen, wordt bepaald door de containerinstelling. <!-- It can also be controlled by [adding a time constraint](#add-a-time-constraint-between-nodes). -->
 
@@ -546,7 +546,7 @@ De trendgegevens bekijken:
 
 U kunt een nieuw segment tot stand brengen dat op een knoop of een pijl binnen een reis wordt gebaseerd. Nadat het segment is gemaakt, kunt u het overal in Analysis Workspace gebruiken.
 
-De segmenten die van het canvas van de Reis worden gecreeerd gebruiken [ opeenvolgend segmenteren ](/help/components/filters/seg-sequential-build.md). Dit betekent dat het segment de operator THEN gebruikt om de volgorde van gebeurtenissen (de reis) die mensen doorstroomden aan elkaar te koppelen en naar het geselecteerde knooppunt of de geselecteerde pijl te leiden. Alle gebeurtenissen die overeenkomen met het geselecteerde knooppunt of de geselecteerde pijl worden opgenomen in het segment.
+De segmenten die van het canvas van de Reis worden gecreeerd gebruiken [ opeenvolgend segmenteren ](/help/components/segments/seg-sequential-build.md). Dit betekent dat het segment de operator THEN gebruikt om de volgorde van gebeurtenissen (de reis) die mensen doorstroomden aan elkaar te koppelen en naar het geselecteerde knooppunt of de geselecteerde pijl te leiden. Alle gebeurtenissen die overeenkomen met het geselecteerde knooppunt of de geselecteerde pijl worden opgenomen in het segment.
 
 Als u een segment maakt dat is gebaseerd op een knooppunt met meerdere paden die erin vloeien, worden alle paden in het segment opgenomen. Afzonderlijke paden worden verbonden met de operator OR.
 
@@ -558,7 +558,7 @@ Een segment maken:
 
    De bouwer van het Segment toont. In de [!UICONTROL **sectie van de Definitie**], wordt de segmentdefinitie gecreeerd gebaseerd op de knoop of de pijl u en zijn context binnen de reis selecteerde.
 
-1. Geef een titel voor het segment op en breng eventuele andere wijzigingen aan. Voor meer informatie over het creëren van een segment, zie [ de bouwer van het Segment ](/help/components/filters/filter-builder.md).
+1. Geef een titel voor het segment op en breng eventuele andere wijzigingen aan. Voor meer informatie over het creëren van een segment, zie [ de bouwer van het Segment ](/help/components/segments/seg-builder.md).
 
 1. Selecteer [!UICONTROL **sparen**] om het segment te bewaren.
 

@@ -9,7 +9,7 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: c0446bd85b65109fd3311d54e33f9fb33af28f88
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '1243'
 ht-degree: 10%
@@ -325,20 +325,20 @@ ht-degree: 10%
       + [Afmetingen van tijd tot tijd](../components/dimensions/time-parting-dimensions.md)
       + [Afmetingen van hoge kardinaliteit](../components/dimensions/high-cardinality.md)
    + [Metrics](../components/apply-create-metrics.md)
-   + Segmenten {#cja-filters}
-      + [Overzicht](../components/filters/filters-overview.md)
-      + [Segmenten maken](../components/filters/create-filters.md)
-      + [Segmenten maken](../components/filters/filter-builder.md)
-      + [Snelle segmenten](../components/filters/quick-filters.md)
-      + [Sequentiële segmenten](../components/filters/seg-sequential-build.md)
-      + [Segmenten delen](../components/filters/filters-share.md)
-      + [Tagsegmenten](../components/filters/filters-tag.md)
-      + [De lijst met segmenten filteren](../components/filters/filters-filter.md)
-      + [Segmenten markeren als favorieten](../components/filters/filters-favorite.md)
-      + [Segmenten goedkeuren](../components/filters/filters-approve.md)
-      + [Segmenten kopiëren](../components/filters/filters-copy.md)
-      + [Segmenten beheren](../components/filters/manage-filters.md)
-      + [Operatoren](../components/filters/operators.md)
+   + Segmenten {#segments}
+      + [Overzicht](/help/components/segments/seg-overview.md)
+      + [Segmenten maken](/help/components/segments/seg-create.md)
+      + [Segmenten maken](/help/components/segments/seg-builder.md)
+      + [Snelle segmenten](/help/components/segments/seg-quick.md)
+      + [Sequentiële segmenten](/help/components/segments/seg-sequential-build.md)
+      + [Segmenten delen](/help/components/segments/seg-share.md)
+      + [Tagsegmenten](/help/components/segments/seg-tag.md)
+      + [De lijst met segmenten filteren](/help/components/segments/seg-filter.md)
+      + [Segmenten markeren als favorieten](/help/components/segments/seg-favorite.md)
+      + [Segmenten goedkeuren](/help/components/segments/seg-approve.md)
+      + [Segmenten kopiëren](/help/components/segments/seg-copy.md)
+      + [Segmenten beheren](/help/components/segments/seg-manage.md)
+      + [Operatoren](/help/components/segments/seg-operators.md)
    + Berekende cijfers {#cja-calcmetrics}
       + [Overzicht](../components/calc-metrics/calc-metr-overview.md)
       + Workflow voor berekende metriek {#cm-workflow}

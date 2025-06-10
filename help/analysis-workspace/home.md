@@ -6,9 +6,9 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1334'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ De belangrijkste eigenschappen van Analysis Workspace zijn beschikbaar door het 
 | ![ WebPage ](/help/assets/icons/WebPage.svg) | **[!UICONTROL Panels]** | [ de Comités ](/help/analysis-workspace/c-panels/panels.md) worden gebruikt om uw analyse binnen een project te organiseren en kunnen vele lijsten &amp; visualisaties bevatten. Veel van de deelvensters die in Analysis Workspace worden geleverd, genereren een volledige set analyses op basis van een paar gebruikersinvoer. |
 | ![ Geleide Analyse ](/help/assets/icons/GuidedAnalysis.svg) | **[!UICONTROL Guided Analysis]** | [ Geleide analyse ](../guided-analysis/overview.md) staat u toe om hoogkwalitatieve gegevens en inzichten over de klantenreis door geleide werkschema&#39;s te dienen. U kunt een analyse maken voor opname in uw Workspace-project of een eerder opgeslagen bestaande analyse opnemen. |
 | ![ GraphBarVertical ](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL Visualizations]** | [ Visualizations ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md), zoals een bar of lijngrafiek, kan worden gebruikt om gegevens aan het leven visueel te brengen. Selecteer in het linkerbenedenpaneel het middelste pictogram **[!UICONTROL Visualizations]** om de volledige lijst met beschikbare visualisaties weer te geven. |
-| ![ Kromme ](/help/assets/icons/Curate.svg) | **[!UICONTROL Components]** | [ Componenten ](/help/components/overview.md) omvatten de volgende elementen:<ul><li>![ Afmetingen ](/help/assets/icons/Dimensions.svg) [ Afmetingen ](/help/components/dimensions/overview.md)</li><li>![ Gebeurtenis ](/help/assets/icons/Event.svg) [ Metriek ](/help/components/apply-create-metrics.md)</li><li>![ Segmentatie ](/help/assets/icons/Segmentation.svg) [ Segmenten ](/help/components/filters/filters-overview.md)</li><li>![ de waaiers van de Kalender ](/help/assets/icons/Calendar.svg) [ Datum ](/help/components/date-ranges/overview.md)</li></ul> |
+| ![ Kromme ](/help/assets/icons/Curate.svg) | **[!UICONTROL Components]** | [ Componenten ](/help/components/overview.md) omvatten de volgende elementen:<ul><li>![ Afmetingen ](/help/assets/icons/Dimensions.svg) [ Afmetingen ](/help/components/dimensions/overview.md)</li><li>![ Gebeurtenis ](/help/assets/icons/Event.svg) [ Metriek ](/help/components/apply-create-metrics.md)</li><li>![ Segmentatie ](/help/assets/icons/Segmentation.svg) [ Segmenten ](/help/components/segments/seg-overview.md)</li><li>![ de waaiers van de Kalender ](/help/assets/icons/Calendar.svg) [ Datum ](/help/components/date-ranges/overview.md)</li></ul> |
 | ![ ViewList ](/help/assets/icons/ViewList.svg) | **[!UICONTROL Table of contents]** | De inhoudsopgave rangschikt alle deelvensters en visualisaties die deel uitmaken van het project in een inklapbare lijst, zodat u snel toegang hebt tot een specifiek deelvenster of een specifieke visualisatie. |
 | ![ Bladwijzer ](/help/assets/icons/Bookmark.svg) | **Woordenboek van Gegevens** | Het [ woordenboek van Gegevens ](/help/components/data-dictionary/data-dictionary-overview.md) helpt zowel gebruikers als beheerders spoor van houden en beter begrijpen de componenten in hun milieu van Analytics. |
 
@@ -62,7 +62,7 @@ Op het toetsenbord kunnen de volgende symbolen worden gebruikt:
 - **⌘** voor **[!UICONTROL *cmd *]**(bevel).
 - **⌃** voor **[!UICONTROL *ctrl *]**(controle).
 - **⌥** voor **[!UICONTROL *opt *]**(optie).
-- **⎇** voor **[!UICONTROL *alt *]**(afwisselend).
+- **⎇** voor **[!UICONTROL *alt *]**(alternatief).
 
 Zie de onderstaande tabellen voor een overzicht van de beschikbare menu&#39;s.
 
@@ -106,7 +106,7 @@ Zie de onderstaande tabellen voor een overzicht van de beschikbare menu&#39;s.
 
 | **[!UICONTROL Components]** | Sneltoets Mac | Sneltoetsvensters | Beschrijving |
 |---|---|---|---|
-| **[!UICONTROL Create segment...]** | **[!UICONTROL *shift+cmd+e *]** | **[!UICONTROL *shift+ctrl+e *]** | Creeer een nieuw [ segment ](/help/components/filters/create-filters.md). |
+| **[!UICONTROL Create segment...]** | **[!UICONTROL *shift+cmd+e *]** | **[!UICONTROL *shift+ctrl+e *]** | Creeer een nieuw [ segment ](/help/components/segments/seg-create.md). |
 | **[!UICONTROL Create metric...]** | **[!UICONTROL *shift+cmd+c *]** | **[!UICONTROL *shift+ctrl+c *]** | Creeer nieuw [ berekende metrisch ](/help/components/calc-metrics/calc-metr-overview.md). |
 | **[!UICONTROL Create date range...]** | **[!UICONTROL *shift+cmd+d *]** | **[!UICONTROL *shift+ctrl+d *]** | Creeer een nieuwe [ datumwaaier ](/help/components/date-ranges/overview.md). |
 | **[!UICONTROL Create annotation...]** | **[!UICONTROL *shift+cmd+o *]** | **[!UICONTROL *shift+ctrl+o *]** | Creeer een nieuwe [ aantekening ](/help/components/annotations/overview.md). |
@@ -162,6 +162,6 @@ Wanneer je klaar bent met het uitbouwen van het project en het is het verzamelen
 ## Aanvullende bronnen {#resources}
 
 - Het [ Leren die ](/help/getting-started/landing.md#learning) pagina in Customer Journey Analytics landen. Deze pagina is een uitstekende manier om kennis te maken met Analysis Workspace. Met name het leren van Workspace Fundamentaal. Deze sjabloon begeleidt u door algemene terminologie en stappen voor het maken van uw eerste analyse in Workspace
-- Adobe biedt honderden [ de videoopleidingsleerprogramma&#39;s van Analytics ](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/overview) aan.
-- Zie [ de versienota&#39;s van Adobe Experience Cloud ](https://experienceleague.adobe.com/nl/docs/release-notes/experience-cloud/current) voor updates over nieuwe eigenschappen.
+- Adobe biedt honderden [ de videoopleidingsleerprogramma&#39;s van Analytics ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview) aan.
+- Zie [ de versienota&#39;s van Adobe Experience Cloud ](https://experienceleague.adobe.com/en/docs/release-notes/experience-cloud/current) voor updates over nieuwe eigenschappen.
 

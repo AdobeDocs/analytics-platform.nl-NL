@@ -6,7 +6,7 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: 1a7b877d989764e737d7f35c05f515efe3e7a307
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 0%
@@ -62,12 +62,12 @@ De hiërarchie en de relaties tussen de containers zijn vooraf bepaald. Opportun
 
 >[!IMPORTANT]
 >
->* Als u **&#x200B;**&#x200B;de Globale container van de Rekening in een op rekening-gebaseerde verbinding hebt toegelaten, zou elk verslag in uw gebeurtenisdatasets een identiteitskaart van de Rekening en Globale identiteitskaart van de Rekening moeten bevatten. Als dat niet het geval is, wordt de record overgeslagen.
->* Als u **&#x200B;**&#x200B;niet de Globale container van de Rekening in een op rekening-gebaseerde verbinding hebt toegelaten, zou elk verslag in uw gebeurtenisdatasets een identiteitskaart van de Rekening moeten bevatten. Als dat niet het geval is, wordt de record overgeslagen.
+>* Als u **** de Globale container van de Rekening in een op rekening-gebaseerde verbinding hebt toegelaten, zou elk verslag in uw gebeurtenisdatasets een identiteitskaart van de Rekening en Globale identiteitskaart van de Rekening moeten bevatten. Als dat niet het geval is, wordt de record overgeslagen.
+>* Als u **** niet de Globale container van de Rekening in een op rekening-gebaseerde verbinding hebt toegelaten, zou elk verslag in uw gebeurtenisdatasets een identiteitskaart van de Rekening moeten bevatten. Als dat niet het geval is, wordt de record overgeslagen.
 
 U kunt de B2B-containers gebruiken voor specifieke B2B-functionaliteit in Analysis Workspace:
 
-* **Segmentatie**: [ B2B segmentcontainers ](/help/components/filters/filters-overview.md#b2b-containers) staan u toe om segmenten met een containerwerkingsgebied voorbij persoon, zitting of gebeurtenis te bouwen. Bijvoorbeeld: een account met een segment voor gebeurtenisregistratie of een Amerikaanse account met inkoopgroepen en een opportuniteitssegment voor fase 5.
+* **Segmentatie**: [ B2B segmentcontainers ](/help/components/segments/seg-overview.md#b2b-containers) staan u toe om segmenten met een containerwerkingsgebied voorbij persoon, zitting of gebeurtenis te bouwen. Bijvoorbeeld: een account met een segment voor gebeurtenisregistratie of een Amerikaanse account met inkoopgroepen en een opportuniteitssegment voor fase 5.
 
   >[!NOTE]
   >

@@ -4,7 +4,7 @@ title: Componenten in Analysis Workspace gebruiken
 feature: Components
 role: User
 exl-id: 97bdfb9e-a27e-4a6b-b6cc-21a292398037
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Voor informatie over hoe u de sectie van de segmentdaling op een paneel kunt geb
 
 1. U kunt desgewenst dimensies en dimensie-items in Analysis Workspace opsplitsen met andere componenten. Voor meer informatie, zie [ de dimensies van de Onderbreking in Workspace ](/help/components/dimensions/t-breakdown-fa.md).
 
-Voor meer informatie over hoe te om afmetingen in Analysis Workspace te gebruiken, zie &lbrace;de afmetingen van de Voorproef [&#128279;](/help/components/dimensions/view-dimensions.md), [ de dimensies van de Onderbreking ](/help/components/dimensions/t-breakdown-fa.md), en [ tijd-ontledende dimensies ](/help/components/dimensions/time-parting-dimensions.md).
+Voor meer informatie over hoe te om afmetingen in Analysis Workspace te gebruiken, zie {de afmetingen van de Voorproef ](/help/components/dimensions/view-dimensions.md), [ de dimensies van de Onderbreking ](/help/components/dimensions/t-breakdown-fa.md), en [ tijd-ontledende dimensies ](/help/components/dimensions/time-parting-dimensions.md).[
 
 ### Metriek toevoegen aan een project
 
@@ -91,7 +91,7 @@ Voor meer informatie over metriek, zie [ Metriek ](/help/components/apply-create
 
 ### Segmenten toevoegen aan een project
 
-[ Segmenten ](/help/components/filters/filters-overview.md) staan u toe om ondergroepen van personen, zittingen of gebeurtenissen te identificeren die op kenmerken of specifieke interactie worden gebaseerd.
+[ Segmenten ](/help/components/segments/seg-overview.md) staan u toe om ondergroepen van personen, zittingen of gebeurtenissen te identificeren die op kenmerken of specifieke interactie worden gebaseerd.
 
 U kunt segmenten in Analysis Workspace op de volgende manieren gebruiken:
 
@@ -103,7 +103,7 @@ Voor informatie over hoe u de sectie van de segmentdaling op een paneel kunt geb
 Wanneer u segmenten aan een kolom in een vrije-vormlijst toevoegt, zijn de segmenten op alle inhoud binnen de lijstkolom van toepassing. U kunt segmenten ook toevoegen als onderdeel van een uitvalvisualisatie.
 
 * Segmenten in componenten gebruiken
-Wanneer u componenten zoals [ berekende metriek ](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md) bepaalt, [ annotaties ](/help/components/annotations/create-annotations.md#annotation-builder), of zelfs [ segmenten ](/help/components/filters/filter-builder.md) kunt u segmenten als deel van de definitie gebruiken.
+Wanneer u componenten zoals [ berekende metriek ](/help/components/calc-metrics/cm-workflow/metrics-with-segments.md) bepaalt, [ annotaties ](/help/components/annotations/create-annotations.md#annotation-builder), of zelfs [ segmenten ](/help/components/segments/seg-builder.md) kunt u segmenten als deel van de definitie gebruiken.
 
 
 ### Datumbereiken toevoegen aan een project
@@ -132,5 +132,5 @@ U kunt over om het even welke component bewegen om ![ Meer info ](/help/assets/i
 
 Gebaseerd op uw toegangsbeheer, kunt u:
 
-* Heb toegang tot de ![ 2&rbrace; definitie van de Bladwijzer ](/help/assets/icons/Bookmark.svg) &lbrace;voor de component.[!UICONTROL Data dictionary]
+* Heb toegang tot de ![ 2} definitie van de Bladwijzer ](/help/assets/icons/Bookmark.svg) {voor de component.[!UICONTROL Data dictionary]
 * Heb toegang ![ uitgeeft ](/help/assets/icons/Edit.svg) componentenbouwer of gegevensmening waar de component wordt bepaald.

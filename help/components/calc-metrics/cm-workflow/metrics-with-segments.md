@@ -3,7 +3,7 @@ description: Het segmenteren van individuele metriek staat u toe om metrische ve
 title: Gesegmenteerde metriek
 feature: Calculated Metrics
 exl-id: 37cc93df-9f51-42b3-918f-ed5864991621
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -16,7 +16,7 @@ In de [ Berekende metrische bouwer ](cm-build-metrics.md#definition-builder), ku
 
 >[!NOTE]
 >
->De definities van het segment worden bijgewerkt door de [ bouwer van het Segment ](/help/components/filters/filter-builder.md). Als u een verandering in een segment aanbrengt, wordt het segment automatisch bijgewerkt overal het wordt gebruikt, met inbegrip van als het segment deel van een berekende metrische definitie uitmaakt.
+>De definities van het segment worden bijgewerkt door de [ bouwer van het Segment ](/help/components/segments/seg-builder.md). Als u een verandering in een segment aanbrengt, wordt het segment automatisch bijgewerkt overal het wordt gebruikt, met inbegrip van als het segment deel van een berekende metrische definitie uitmaakt.
 >
 
 Je wilt meetgegevens vergelijken voor Duitse mensen die interageren met je merk versus mensen buiten Duitsland. U kunt dus vragen beantwoorden zoals:
@@ -30,7 +30,7 @@ Zie de volgende secties om te illustreren hoe u deze vragen kunt beantwoorden me
 ## Populaire pagina&#39;s
 
 1. [ creeer berekende metrisch ](cm-workflow.md) van een project van Workspace, genoemd `German people`.
-1. Van binnen de [ Berekende metrische bouwer ](cm-build-metrics.md), [ creeer een segment ](/help/components/filters/filter-builder.md), getiteld `Germany`, dat het gebied van het Land van CRM van uw gegevens van CRM gebruikt om te bepalen waar een persoon van komt.
+1. Van binnen de [ Berekende metrische bouwer ](cm-build-metrics.md), [ creeer een segment ](/help/components/segments/seg-builder.md), getiteld `Germany`, dat het gebied van het Land van CRM van uw gegevens van CRM gebruikt om te bepalen waar een persoon van komt.
 
    >[!TIP]
    >

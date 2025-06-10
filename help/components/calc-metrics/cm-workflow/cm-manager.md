@@ -3,9 +3,9 @@ description: Met de functie Berekende metrische elementen kunt u bestanden delen
 title: Berekende metrische manager
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ In de lijst met filters ➊ worden alle berekende metriek weergegeven die u bezi
 
 | Kolom | Beschrijving |
 | --- | --- | 
-| ![ StarOutline ](/help/assets/icons/StarOutline.svg) | Selecteer om ![ Ster ](/help/assets/icons/Star.svg) of niet-gunst ![ StarOutline ](/help/assets/icons/StarOutline.svg) te begunstigen berekende metrisch. Zie [ Metrisch berekend Teken als favoriet ](/help/components/filters/filters-favorite.md) |
+| ![ StarOutline ](/help/assets/icons/StarOutline.svg) | Selecteer om ![ Ster ](/help/assets/icons/Star.svg) of niet-gunst ![ StarOutline ](/help/assets/icons/StarOutline.svg) te begunstigen berekende metrisch. Zie [ Metrisch berekend Teken als favoriet ](/help/components/segments/seg-favorite.md) |
 | **[!UICONTROL Title and description]** | Om berekende metrisch uit te geven, selecteer de titelverbinding, die [ Berekende metriek bouwer ](cm-build-metrics.md) opent. Een gedeelde berekende metrische waarde wordt vermeld met ![ Aandeel ](/help/assets/icons/ShareAlt.svg). |
 | **[!UICONTROL Data view]** | De gegevensweergaven waarop deze berekende metrische waarde van toepassing is. |
 | **[!UICONTROL Owner]** | Eigenaar van de berekende metrische waarde. Als gebruiker ziet u alleen de annotaties die u hebt of de annotaties die met u worden gedeeld. |
@@ -49,7 +49,7 @@ Gebruik ![ ColumnSetting ](/help/assets/icons/ColumnSetting.svg) om te specifice
 
 ### Actiebalk
 
-U kunt op filters actie ondernemen met de ➋ van de actiebalk. De actiebalk bevat de volgende handelingen:
+U kunt op filters actie ondernemen met de actiebalk ➋ . De actiebalk bevat de volgende handelingen:
 
 | Pictogram | Handeling | Beschrijving |
 |:---:|---|---|
@@ -65,11 +65,11 @@ U kunt op filters actie ondernemen met de ➋ van de actiebalk. De actiebalk bev
 
 ### Actieve filterbalk
 
-De filterbalk ➌ de actieve filters weer die van het filterdeelvenster worden toegepast op de lijst met berekende metriek (indien aanwezig). U kunt een filter snel verwijderen gebruikend ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg). Als er meer dan één filter is opgegeven, kunt u alle filters verwijderen met **[!UICONTROL Remove all]** .
+De filterbalk ➌ geeft de actieve filters weer die van het filterdeelvenster zijn toegepast op de lijst met berekende metriek (indien aanwezig). U kunt een filter snel verwijderen gebruikend ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg). Als er meer dan één filter is opgegeven, kunt u alle filters verwijderen met **[!UICONTROL Remove all]** .
 
 ### Deelvenster Filter
 
-U kunt de lijst van berekende metrisch filtreren gebruikend de ![ linker paneel➍ van de Filter ](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]**. In het filterdeelvenster worden het type filter en het aantal berekende metingen weergegeven die het specifieke filter respecteren. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om de vertoning van het filterpaneel van een knevel te voorzien.
+U kunt de lijst van berekende metrisch filtreren gebruikend ![ filter ](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** linkerpaneel ➍. In het filterdeelvenster worden het type filter en het aantal berekende metingen weergegeven die het specifieke filter respecteren. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om de vertoning van het filterpaneel van een knevel te voorzien.
 
 Zie [ Filter de lijst van berekende metriek ](cm-filter.md) voor meer informatie.
 

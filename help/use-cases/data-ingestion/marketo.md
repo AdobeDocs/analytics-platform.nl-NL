@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
 role: Admin
-source-git-commit: 9f954709a3dde01b4e01581e34aece07fe0256b1
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
@@ -18,15 +18,15 @@ U kunt de nieuwe Marketo Engage-datasets in Adobe Experience Platform (Adobe Exp
 
 ## Stap 1: Wijs Marketo-brongegevensvelden toe aan hun XDM-doelen
 
-Wijs de [ Personen ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html?lang=nl-NL#persons) en [ Activiteiten ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html?lang=nl-NL#activities) voorwerpen aan hun respectieve XDM gebieden van het schemadoel in kaart.
+Wijs de [ Personen ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html#persons) en [ Activiteiten ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo.html#activities) voorwerpen aan hun respectieve XDM gebieden van het schemadoel in kaart.
 
 ## Stap 2: Marketo-gegevens in Adobe Experience Platform opnemen
 
-Gebruik de [ schakelaar van Marketo Engage ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=nl-NL) om gegevens van Marketo aan Experience Platform te brengen en dit gegeven bijgewerkt te houden gebruikend Platform-verbonden toepassingen.
+Gebruik de [ schakelaar van Marketo Engage ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html) om gegevens van Marketo aan Experience Platform te brengen en dit gegeven bijgewerkt te houden gebruikend Platform-verbonden toepassingen.
 
 ## Stap 3: Opstelling een verbinding aan deze dataset in Customer Journey Analytics
 
-Om over de datasets van Experience Platform te rapporteren, moet u eerst een verband tussen datasets in Experience Platform en Customer Journey Analytics vestigen. Zie voor meer informatie [ creeer of geef een verbinding ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=nl-NL) uit.
+Om over de datasets van Experience Platform te rapporteren, moet u eerst een verband tussen datasets in Experience Platform en Customer Journey Analytics vestigen. Zie voor meer informatie [ creeer of geef een verbinding ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) uit.
 
 ## Stap 4: Een of meer gegevensweergaven maken
 
@@ -39,7 +39,7 @@ Een gebruiksgeval dat u zou kunnen onderzoeken is: hoeveel webpagina-bezoeken do
 1. Open [ Analytics Workspace ](/help/analysis-workspace/home.md) en creeer een nieuw project.
 Klanten met B2B/B2P CDP kunnen in Customer Journey Analytics een B2C-analyse uitvoeren. B2B-objecten zijn nog niet beschikbaar.
 
-1. Creeer a [ segment ](/help/components/filters/create-filters.md) voor Web-pagina meningen als volgt - het Type van gebeurtenis = web.webpagedetails.pageViews:
+1. Creeer a [ segment ](/help/components/segments/seg-create.md) voor Web-pagina meningen als volgt - het Type van gebeurtenis = web.webpagedetails.pageViews:
 
    ![ het venster van de Definitie die Gebeurtenis en Type van Gebeurtenis tonen ](../assets/marketo-filter.png)
 

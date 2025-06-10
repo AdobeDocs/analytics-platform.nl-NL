@@ -5,7 +5,7 @@ exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 2%
@@ -23,14 +23,14 @@ Componenten beheren vanuit de Customer Journey Analytics-hoofdinterface:
 
 U kunt de volgende componenten beheren:
 
-* [ Segmenten ](filters/filters-overview.md): Bouw, beheer, deel, en pas krachtige, geconcentreerde publiekssegmenten op uw rapporten toe. Met segmenten kunt u subsets van personen identificeren op basis van kenmerken of interacties.
+* [ Segmenten ](segments/seg-overview.md): Bouw, beheer, deel, en pas krachtige, geconcentreerde publiekssegmenten op uw rapporten toe. Met segmenten kunt u subsets van personen identificeren op basis van kenmerken of interacties.
 * [ Berekende metriek ](calc-metrics/calc-metr-overview.md): De metriek en de formules van het gebruik als nieuwe componenten voor gebruik in het melden
 * [ waaiers van de Datum ](date-ranges/create.md): Pas en verfijn de aanbiedingen van de datumwaaiers Analysis Workspace aan.
 * [ Annotaties ](/help/components/annotations/overview.md): Communiceer contextuele gegevensnuances en inzichten aan uw organisatie.
 * [ Intelligente alarm ](/help/components/c-intelligent-alerts/intelligent-alerts.md): Toestaan u om op veranderde percentages of specifieke gegevenspunten worden op de hoogte gebracht.
 * [ Geplande projecten ](/help/analysis-workspace/export/t-schedule-report.md#scheduled-projects-manager): Beheer uw geplande projecten.
 * [ Voorkeur ](/help/analysis-workspace/user-preferences.md): Beheer de voorkeur voor Analysis Workspace.
-* [ Soorten publiek ](/help/components/audiences/audiences-overview.md): Creeer en publiceer publiek van Customer Journey Analytics aan [ Real-Time Customer Data Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/home) in Experience Platform voor het richten en verpersoonlijken.
+* [ Soorten publiek ](/help/components/audiences/audiences-overview.md): Creeer en publiceer publiek van Customer Journey Analytics aan [ Real-Time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) in Experience Platform voor het richten en verpersoonlijken.
 * [ voert ](/help/components/exports/manage-export-locations.md) uit: beheer uw de uitvoerrekening en plaatsen.
 
 
@@ -72,7 +72,7 @@ U kunt componenten beheren (afzonderlijk of door meerdere componenten te selecte
    | ![ Aandeel ](/help/assets/icons/ShareAlt.svg) [!UICONTROL **Aandeel**] | Delen van componenten naar gebruikers in uw organisatie. Deze optie is alleen beschikbaar voor aangepaste componenten, zoals segmenten of berekende maateenheden. |
    | ![ Schrapping ](/help/assets/icons/Delete.svg) [!UICONTROL **Schrapping**] | Verwijder componenten die u niet meer nodig hebt. Deze optie is alleen beschikbaar voor aangepaste componenten, zoals segmenten of berekende maateenheden. |
 
-De componenten van de douane kunnen ook door hun respectieve managers van de Component worden beheerd. Bijvoorbeeld, zie [ segmenten ](/help/components/filters/manage-filters.md) beheren.
+De componenten van de douane kunnen ook door hun respectieve managers van de Component worden beheerd. Bijvoorbeeld, zie [ segmenten ](/help/components/segments/seg-manage.md) beheren.
 
 ## De componentenlijst beheren
 
@@ -84,7 +84,7 @@ U kunt de lijst met componenten in het linkerdeelvenster van Analysis Workspace 
 
 2. Typ in het zoekveld de naam van de component die u in het project wilt gebruiken.
 
-   Een kleur en pictogram geven het type component aan. **het pictogram van Afmetingen ![ Dimension ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) is oranje,** Segmenten **![ het pictogram van het Segment ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) is blauw,** de waaiers van de Datum **![&#128279;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) het de waaierpictogram van de Datum is paars, en** Metriek **![ Metrisch pictogram ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) is groen.**<br/> het pictogram van Adobe ![ AdobeLogo ](/help/assets/icons/AdobeLogoSmall.svg) wijst of op een berekend metrisch malplaatje of een segmentmalplaatje. Het calculatorpictogram ![ pictogram van de Rekenmachine ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) wijst op berekende metrisch dat een beheerder in uw organisatie heeft gecreeerd.
+   Een kleur en pictogram geven het type component aan. **het pictogram van Afmetingen ![ Dimension ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) is oranje,** Segmenten **![ het pictogram van het Segment ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) is blauw,** de waaiers van de Datum **](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) het de waaierpictogram van de Datum is paars, en** Metriek **![ Metrisch pictogram ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) is groen.**![<br/> het pictogram van Adobe ![ AdobeLogo ](/help/assets/icons/AdobeLogoSmall.svg) wijst of op een berekend metrisch malplaatje of een segmentmalplaatje. Het calculatorpictogram ![ pictogram van de Rekenmachine ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) wijst op berekende metrisch dat een beheerder in uw organisatie heeft gecreeerd.
 
 3. Selecteer de component in het keuzemenu.
 
@@ -92,7 +92,7 @@ U kunt de lijst met componenten in het linkerdeelvenster van Analysis Workspace 
 
 1. Selecteer het **pictogram van Componenten** pictogram van Componenten ![ ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in het linkerpaneel.
 
-2. Selecteer **![ het pictogram van de Filter van het Woordenboek van de Filter van de Filter 1&rbrace; Filter**, of ga `#` op het onderzoeksgebied in.](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+2. Selecteer **![ het pictogram van de Filter van het Woordenboek van de Filter van de Filter 1} Filter**, of ga `#` op het onderzoeksgebied in.](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
 3. Selecteer een van de volgende filteropties om de lijst met componenten te filteren:
 
@@ -126,4 +126,4 @@ De volgende sorteeropties zijn beschikbaar:
 
 ## Toegangsmachtigingen
 
-In Analysis Workspace, kunnen de beheerders [&#128279;](/help/analysis-workspace/curate-share/curate.md) leiden die de componenten aan gebruikers in het melden worden blootgesteld.
+In Analysis Workspace, kunnen de beheerders [ ](/help/analysis-workspace/curate-share/curate.md) leiden die de componenten aan gebruikers in het melden worden blootgesteld.

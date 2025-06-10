@@ -4,7 +4,7 @@ title: Overzicht van deelvensters
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 1%
@@ -77,7 +77,7 @@ U kunt:
 
 ## Gegevens, weergave
 
-Elk paneel wordt geassocieerd met a [ gegevensmening ](/help/data-views/data-views.md), die door ![ Gegevens ](/help/assets/icons/Data.svg) wordt geïdentificeerd **[!UICONTROL *naam van gegevensmening *]**&#x200B;in het drop-down menu bij het hoogste recht van het paneel.
+Elk paneel wordt geassocieerd met a [ gegevensmening ](/help/data-views/data-views.md), die door ![ Gegevens ](/help/assets/icons/Data.svg) wordt geïdentificeerd **[!UICONTROL *naam van gegevensmening *]**in het drop-down menu bij het hoogste recht van het paneel.
 
 Wanneer u een leeg Workspace-project maakt, is de standaardgegevensweergave voor het eerste deelvenster de gegevensweergave waarmee u het laatst in Customer Journey Analytics hebt gewerkt.
 
@@ -144,10 +144,10 @@ Sleep segmenten van het linkerdeelvenster naar de neerzetzone van het deelvenste
 
 #### Snelle segmenten
 
-De niet-segmentcomponenten kunnen ook direct in de dalingsstreek worden gesleept om snelle segmenten tot stand te brengen, die u de tijd en de inspanning sparen om naar de [ bouwer van het Segment ](/help/components/filters/filter-builder.md) te gaan. Segmenten die op deze manier worden gemaakt, worden automatisch gedefinieerd als segmenten op gebeurtenisniveau. Deze definitie kan snel worden gewijzigd door ![ te selecteren geeft ](/help/assets/icons/Edit.svg) naast de segmentnaam uit.
+De niet-segmentcomponenten kunnen ook direct in de dalingsstreek worden gesleept om snelle segmenten tot stand te brengen, die u de tijd en de inspanning sparen om naar de [ bouwer van het Segment ](/help/components/segments/seg-builder.md) te gaan. Segmenten die op deze manier worden gemaakt, worden automatisch gedefinieerd als segmenten op gebeurtenisniveau. Deze definitie kan snel worden gewijzigd door ![ te selecteren geeft ](/help/assets/icons/Edit.svg) naast de segmentnaam uit.
 
 
-Voor meer informatie, zie [ Snelle segmenten ](/help/components/filters/quick-filters.md).
+Voor meer informatie, zie [ Snelle segmenten ](/help/components/segments/seg-quick.md).
 
 ![ Ad hoc segmenten die openbaar worden gemaakt en in de dalingsstreek ](assets/adhoc-segment-filter.png) gelaten vallen
 

@@ -5,7 +5,7 @@ feature: Dimensions
 solution: Customer Journey Analytics
 exl-id: 17b275a5-c2c2-48ee-b663-e7fe76f79456
 role: User
-source-git-commit: 4bfa32ba3a7902d31edefab17a00206f922a8382
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Hoewel sommige individuele afmetingspunten in hoge kardinaliteitsrapporten zoude
 
 De beste manier om hoge kardinaliteitsdimensies aan te passen is het aantal afmetingspunten te beperken dat een rapport verwerkt. Aangezien alle rapporten op het tijdstip worden verwerkt dat zij worden gevraagd, kunt u rapportparameters voor directe resultaten aanpassen. Adobe raadt een van de volgende optimalisaties aan voor afmetingen met een hoge cardinaliteit:
 
-* Gebruik a [ segment ](/help/components/filters/create-filters.md). Segmenten worden toegepast op het moment dat elke server een subset van gegevens verwerkt.
+* Gebruik a [ segment ](/help/components/segments/seg-create.md). Segmenten worden toegepast op het moment dat elke server een subset van gegevens verwerkt.
 * Gebruik een zoekopdracht. Dimension-items die zijn uitgesloten van de zoekterm worden verwijderd uit de rapportresultaten, waardoor de kans groter is dat u de gewenste dimensie-items ziet.
 * Gebruik een dimensie van de raadplegingsdataset. De dimensies van de dataset van de opzoekopdracht combineren de dimensies van de gebeurtenisdataset, die het aantal unieke teruggekeerde waarden beperken.
 * Gebruik [ omvatten/uitsluiten ](/help/data-views/component-settings/include-exclude-values.md) component die in de manager van de gegevensmening plaatst.

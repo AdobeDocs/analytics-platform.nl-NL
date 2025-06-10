@@ -4,9 +4,9 @@ title: Aletten beheren
 feature: Workspace Basics
 role: User, Admin
 exl-id: 174c3ebd-a77b-4403-ae9a-bb0cff4bcca6
-source-git-commit: a85efff8720d8fdf02b0d1290fedf17654be48e3
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ U kunt waarschuwingen filteren, labelen, verwijderen, hernoemen, kopiëren, insc
 
 * Selecteer **[!UICONTROL Components]** in de hoofdinterface en selecteer vervolgens **[!UICONTROL Alerts]** .
 
-De manager van het Alarm is gestructureerd als de [ manager van het Segment ](/help/components/filters/manage-filters.md) en [ Berekende metrische manager ](/help/components/calc-metrics/cm-workflow/cm-manager.md).
+De manager van het Alarm is gestructureerd als de [ manager van het Segment ](/help/components/segments/seg-manage.md) en [ Berekende metrische manager ](/help/components/calc-metrics/cm-workflow/cm-manager.md).
 
 
 ## Waarschuwingenbeheer
@@ -29,7 +29,7 @@ De manager van Alarm heeft de volgende interfaceelementen:
 
 ### Waarschuwingenlijst
 
-In de lijst met waarschuwingen ➊ alle waarschuwingen worden weergegeven die u hebt, de waarschuwingen die binnen het bereik van al uw projecten vallen en de waarschuwingen die met u zijn gedeeld. De lijst heeft de volgende kolommen:
+In de lijst met waarschuwingen ➊ worden alle waarschuwingen weergegeven die u hebt, de waarschuwingen die betrekking hebben op al uw projecten en de waarschuwingen die met u zijn gedeeld. De lijst heeft de volgende kolommen:
 
 | Kolom | Beschrijving |
 |---|---|
@@ -49,7 +49,7 @@ Gebruik ![ ColumnSetting ](/help/assets/icons/ColumnSetting.svg) om te specifice
 
 ### Actiebalk
 
-U kunt actie ondernemen bij waarschuwingen met behulp van de ➋. De actiebalk bevat de volgende handelingen:
+U kunt actie ondernemen bij waarschuwingen met de actiebalk ➋ . De actiebalk bevat de volgende handelingen:
 
 | Pictogram | Handeling | Beschrijving |
 |:---:|---|---|
@@ -66,12 +66,12 @@ U kunt actie ondernemen bij waarschuwingen met behulp van de ➋. De actiebalk b
 
 ### Actieve filterbalk
 
-De filterbalk ➌ de actieve filters weer die van het filterdeelvenster zijn toegepast op de lijst met waarschuwingen (indien aanwezig). U kunt een filter snel verwijderen gebruikend ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg). Als er meer dan één filter is opgegeven, kunt u alle filters verwijderen met **[!UICONTROL Remove all]** .
+De filterbalk ➌ geeft de actieve filters weer die van het filterdeelvenster zijn toegepast op de lijst met waarschuwingen (indien aanwezig). U kunt een filter snel verwijderen gebruikend ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg). Als er meer dan één filter is opgegeven, kunt u alle filters verwijderen met **[!UICONTROL Remove all]** .
 
 
 ### Deelvenster Filter
 
-U kunt de lijst van alarm filtreren gebruikend de ![ linker paneel➍ van de Filter ](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]**. In het filterdeelvenster worden het type filter en het aantal waarschuwingen weergegeven die aan het specifieke filter voldoen.
+U kunt de lijst van alarm filtreren gebruikend het ![ Linkerpaneel van de Filter ](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** ➍. In het filterdeelvenster worden het type filter en het aantal waarschuwingen weergegeven die aan het specifieke filter voldoen.
 
 
 1. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om het paneel van Filters te openen. Als u meer ruimte voor de lijst van Alarm nodig hebt, kunt u ![ Filter ](/help/assets/icons/Filter.svg) selecteren opnieuw om het paneel te sluiten.

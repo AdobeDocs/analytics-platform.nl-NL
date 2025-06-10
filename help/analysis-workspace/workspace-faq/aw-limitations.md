@@ -4,7 +4,7 @@ title: Bekende beperkingen in Analysis Workspace
 feature: FAQ
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 1%
@@ -31,7 +31,7 @@ Hier volgt een lijst met bekende beperkingen in Analysis Workspace en de bijbeho
 ## Segmenten
 
 * Bepaalde metriek en afmetingen kunnen niet worden gesegmenteerd, zoals [!UICONTROL Events] , [!UICONTROL Persons] , enzovoort.
-* Ad hoc segmenten die in [ worden gecreeerd paneeldropzone ](/help/analysis-workspace/c-panels/panels.md) zijn een type van snel segment. Ze worden alleen weergegeven in het linkerdeelvenster van Workspace of in Segmentbeheer als ze openbaar zijn gemaakt. Voor meer informatie, zie [ Snelle segmenten ](/help/components/filters/quick-filters.md).
+* Ad hoc segmenten die in [ worden gecreeerd paneeldropzone ](/help/analysis-workspace/c-panels/panels.md) zijn een type van snel segment. Ze worden alleen weergegeven in het linkerdeelvenster van Workspace of in Segmentbeheer als ze openbaar zijn gemaakt. Voor meer informatie, zie [ Snelle segmenten ](/help/components/segments/seg-quick.md).
 
 ## Berekende standaarden
 
