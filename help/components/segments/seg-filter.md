@@ -17,7 +17,7 @@ U kunt de lijst met segmenten filteren. Het gebruiken van een filter op segmente
 
 >[!NOTE]
 >
->De lijst van segmenten verwijst naar de [ segmentlijst ](seg-manage.md#filters-list) als deel van de [ manager van het Segment ](seg-manage.md). U kunt die lijst filtreren gebruikend het ](/help/assets/icons/Filter.svg) [ paneel van de Filter ](seg-manage.md#filter-panel), deel van die zelfde [ manager van het Segment ](seg-manage.md).![
+>De lijst van segmenten verwijst naar de [ segmentlijst ](seg-manage.md#filters-list) als deel van de [ manager van het Segment ](seg-manage.md). U kunt die lijst filtreren gebruikend het ![&#128279;](/help/assets/icons/Filter.svg) [ paneel van de Filter ](seg-manage.md#filter-panel), deel van die zelfde [ manager van het Segment ](seg-manage.md).
 >
 
 

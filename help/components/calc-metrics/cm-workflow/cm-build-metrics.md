@@ -57,7 +57,7 @@ Het dialoogvenster **[!UICONTROL Calculated metric builder]** wordt gebruikt om 
 
 ![ Berekend metrisch detailsvenster dat gebieden en opties toont die in de volgende sectie worden beschreven.](assets/calculated-metric-builder.png)
 
->[!TAB  creeer of geef berekend metrisch ] uit
+>[!TAB creeer of geef berekend metrisch  uit]
 
 ![ Berekend metrisch detailsvenster dat gebieden en opties toont die in de volgende sectie worden beschreven.](assets/create-edit-calculated-metric.png)
 
@@ -207,7 +207,7 @@ Zie [ functies van het Gebruik ](cm-using-functions.md) voor details op hoe te o
 
 Een algemene container toevoegen:
 
-* Selecteer ](/help/assets/icons/AddCircle.svg) AddCircle **[!UICONTROL Add]** van binnen een container![
+* Selecteer ![&#128279;](/help/assets/icons/AddCircle.svg) AddCircle **[!UICONTROL Add]** van binnen een container
 * Selecteer **[!UICONTROL Container]** . Er wordt een nieuwe lege generieke container toegevoegd aan de **[!UICONTROL Definition]** . U kunt een generische container gebruiken om een hiërarchie in de definitie van uw berekende metrisch te nesten of tot stand te brengen.
 
 
@@ -218,6 +218,6 @@ Om een container te schrappen, selecteer ![ dicht ](/help/assets/icons/Close.svg
 >[!MORELIKETHIS]
 >
 >[Functies gebruiken](cm-using-functions.md)
->>[Segmenten ](/help/components/segments/seg-overview.md)
+>&#x200B;>[Segmenten ](/help/components/segments/seg-overview.md)
 >
 

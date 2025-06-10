@@ -28,7 +28,7 @@ Voorbeelden van identiteiten kunnen een klant-id, account-id of e-mailadres zijn
 * ID bevat geen PII. Pas hashing op om het even wat toe die gevoelig zou kunnen zijn.
 * ID gebruikt dezelfde indeling voor alle bronnen (dezelfde lengte, dezelfde hash-methode, enz.)
 
-In datasets zoals Adobe Analytics, kan een identiteit niet op elke rij van gegevens bestaan, maar een secundaire identiteit. In dit geval, {de Analyse van het Kanaal 0} (die ook als &quot;Stitching&quot;wordt bekend) ](/help/stitching/overview.md) kan worden gebruikt om het hiaat tussen rijen te overbruggen wanneer een klant slechts door hun ECID wordt geïdentificeerd en wanneer een identiteit wordt verzameld (bijvoorbeeld, wanneer een klant voor authentiek verklaart).[
+In datasets zoals Adobe Analytics, kan een identiteit niet op elke rij van gegevens bestaan, maar een secundaire identiteit. In dit geval, {de Analyse van het Kanaal 0} (die ook als &quot;Stitching&quot;wordt bekend) [&#128279;](/help/stitching/overview.md) kan worden gebruikt om het hiaat tussen rijen te overbruggen wanneer een klant slechts door hun ECID wordt geïdentificeerd en wanneer een identiteit wordt verzameld (bijvoorbeeld, wanneer een klant voor authentiek verklaart).
 
 ### Variabelen uitlijnen
 
@@ -38,7 +38,7 @@ Een volledige algemene rapportenreeks is mogelijk niet altijd uitvoerbaar voor e
 
 * Plan vooruit om variabelen over die rapportreeksen in overeenstemming te brengen. EVar1 in rapportsuite 1 verwijst bijvoorbeeld mogelijk naar [!UICONTROL Page] . In rapportsuite 2 verwijst eVar1 mogelijk naar [!UICONTROL Internal Campaign] . Als deze variabelen in Customer Journey Analytics worden opgenomen, zullen ze zich in één eVar1-dimensie mengen, wat kan leiden tot verwarrende en onjuiste rapportage.
 
-* Gebruik de [ Prep van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html) eigenschap aan kaartvariabelen. Terwijl het het gemakkelijker maakt als alle rapportsuites het zelfde gemeenschappelijke veranderlijke ontwerp gebruiken, is het niet vereist als u de nieuwe eigenschap van de Prep van de Gegevens van Experience Platform [ ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html#mapping) gebruikt. Hiermee kunt u naar een variabele verwijzen op basis van de toegewezen waarde, die zich op het niveau van de gegevensstroom (of eigenschap) bevindt.
+* Gebruik de [ Prep van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html) eigenschap aan kaartvariabelen. Terwijl het het gemakkelijker maakt als alle rapportsuites het zelfde gemeenschappelijke veranderlijke ontwerp gebruiken, is het niet vereist als u de nieuwe eigenschap van de Prep van de Gegevens van Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html#mapping) gebruikt. Hiermee kunt u naar een variabele verwijzen op basis van de toegewezen waarde, die zich op het niveau van de gegevensstroom (of eigenschap) bevindt.
 
 Als u zich aan een globale rapportreeks wegens kwesties met [!UICONTROL Uniques Exceeded] of [!UICONTROL Low Traffic] hebt vermeden, weet dat Customer Journey Analytics geen [ kardinaliteitsgrenzen op een dimensie ](/help/components/dimensions/high-cardinality.md) heeft. Hiermee kan elke unieke waarde worden weergegeven en geteld.
 
