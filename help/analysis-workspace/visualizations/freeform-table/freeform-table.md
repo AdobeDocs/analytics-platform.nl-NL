@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de Freeform lijstvisualisatie in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [ Vrije lijst ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert de Freeform lijstvisualisatie in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [ Vrije lijst ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ Een [!UICONTROL Freeform table] maken en configureren:
 
 ## Geautomatiseerde tabellen
 
-De snelste manier om een lijst te bouwen is componenten in een leeg project, een paneel of een vrije vormlijst direct te laten vallen. Een vrije-vormlijst wordt voor u gebouwd in een geadviseerde formaat. [ bekijk het leerprogramma ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace).
+De snelste manier om een lijst te bouwen is componenten in een leeg project, een paneel of een vrije vormlijst direct te laten vallen. Een vrije-vormlijst wordt voor u gebouwd in een geadviseerde formaat. [ bekijk het leerprogramma ](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace).
 
 ![ een nieuw Comité met de bezoekencomponent die op het werk wordt gelaten vallen ruimte.](assets/automated-table.png)
 
