@@ -5,9 +5,9 @@ feature: Workspace Basics
 title: Workspace-sneltoetsen gebruiken
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
-source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
+source-git-commit: 61a7e21d3e5d586c341a5b0f12490e3da1054382
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Hotkeys (sneltoetsen) zijn beschikbaar in Analysis Workspace voor naadloze navig
 
 Op het toetsenbord kunnen de volgende symbolen worden gebruikt:
 
-- **⇧** voor **[!UICONTROL **&#x200B; verschuiving &#x200B;**]**.
-- **⌘** voor **[!UICONTROL **&#x200B; cmd &#x200B;**]** (bevel).
-- **⌃** voor **[!UICONTROL **&#x200B; ctrl &#x200B;**]** (controle).
-- **⌥** voor **[!UICONTROL **&#x200B; opt &#x200B;**]** (optie).
-- **⎇** voor **[!UICONTROL **&#x200B; alt &#x200B;**]** (afwisselend).
+- **⇧** voor **[!UICONTROL ** verschuiving **]**.
+- **⌘** voor **[!UICONTROL ** cmd **]** (bevel).
+- **⌃** voor **[!UICONTROL ** ctrl **]** (controle).
+- **⌥** voor **[!UICONTROL ** opt **]** (optie).
+- **⎇** voor **[!UICONTROL ** alt **]** (alternatief).
 
 ## Navigatiehandelingen
 
@@ -35,8 +35,8 @@ Op het toetsenbord kunnen de volgende symbolen worden gebruikt:
 | Naar deelvenster Componenten | **[!UICONTROL *opt + shift + 3 *]** | **[!UICONTROL *alt + shift + 3 *]** |
 | Alle deelvensters samenvouwen/uitvouwen | **[!UICONTROL *opt + m *]** | **[!UICONTROL *alt + m *]** |
 | Actief deelvenster samenvouwen/uitvouwen | **[!UICONTROL *opt + cmd + m *]** | **[!UICONTROL *alt + ctrl + m *]** |
-| Naar volgend deelvenster | **[!UICONTROL *opt *+ ▶︎]** | **[!UICONTROL *alt *+ ▶︎]** |
-| Naar vorig deelvenster | **[!UICONTROL *opt *+ ◀︎]** | **[!UICONTROL *alt *+ ◀︎]** |
+| Naar volgend deelvenster | **[!UICONTROL *opt *+ {2 }︎]**▶ | **[!UICONTROL *alt *+ {2 }︎]**▶ |
+| Naar vorig deelvenster | **[!UICONTROL *opt *+ {2 }︎]**◀ | **[!UICONTROL *alt *+ {2 }︎]**◀ |
 
 ## Analyse-acties
 
@@ -67,6 +67,13 @@ Op het toetsenbord kunnen de volgende symbolen worden gebruikt:
 | Nieuwe lijngrafiek | **[!UICONTROL *opt + 2 *]** | **[!UICONTROL *alt + 2 *]** |
 | Nieuwe staafdiagram | **[!UICONTROL *opt + 3 *]** | **[!UICONTROL *alt + 3 *]** |
 | Nieuw combinatiediagram | **[!UICONTROL *opt + 4 *]** | **[!UICONTROL *alt + 4 *]** |
+
+## Deelvensterhandelingen verplaatsen
+
+| Handeling | Sneltoets Mac | Sneltoetsvensters |
+| --- | --- | --- | 
+| Deelvenster omhoog verplaatsen | **[!UICONTROL *cmd + opt + omhoog *]** | **[!UICONTROL *alt + ctrl + omhoog *]** |
+| Deelvenster omlaag verplaatsen | **[!UICONTROL *cmd + opt + onderaan *]** | **[!UICONTROL *alt + ctrl + neer *]** |
 
 ## democratiseringsacties
 
