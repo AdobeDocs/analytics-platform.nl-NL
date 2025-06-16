@@ -4,9 +4,9 @@ title: Opmerkingen toevoegen en weergeven in projecten
 feature: Workspace Basics
 role: User
 exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
-source-git-commit: 02b85db81c384c78f7d388b19c8ad53d0028de43
+source-git-commit: 29db477c96ad5ca7c69a7f7055c1a7fd3c06eb04
 workflow-type: tm+mt
-source-wordcount: '1780'
+source-wordcount: '1785'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ U kunt opmerkingen bekijken in het gebied met opmerkingen in de rechtertrack of 
 
 >[!NOTE]
 >
->Een project moet worden bewaard alvorens het commentaargebied in het juiste spoor zichtbaar is. Als het project niet eerder is bewaard, moet u het project [&#128279;](/help/analysis-workspace/build-workspace-project/save-projects.md) bewaren  alvorens commentaren toe te voegen.
+>Een project moet worden bewaard alvorens het commentaargebied in het juiste spoor zichtbaar is. Als het project niet eerder is bewaard, moet u het project ](/help/analysis-workspace/build-workspace-project/save-projects.md) bewaren [ alvorens commentaren toe te voegen.
 
 
 ![ commentaren van de Mening in Analysis Workspace ](assets/workspace-comments-view.png)
@@ -51,15 +51,15 @@ Alle opmerkingen die in een Analysis Workspace-project zijn gemaakt, zijn zichtb
 
 ### Berichtenbadges in een project weergeven
 
-De commentaren die [ op een specifiek gebied van het project ](#comment-on-a-specific-area-of-the-project) worden gemaakt hebben a **commentaarbadge** ![ commentaarbadge ](assets/comment-indicator.png) die vertoningen over het gebied van het project heeft dat de commentaar tot heeft. Selecteer een badge om de opmerking weer te geven. Nadat u de badge hebt geselecteerd, kunt u de opmerking zelf selecteren om de opmerking te markeren in het opmerkingsgebied in de rechtertrack.
+De commentaren die [ op een specifiek gebied van het project ](#comment-on-a-specific-area-of-the-project) worden gemaakt hebben a **commentaarbadge** ![ commentaarbadge ](assets/comment-indicator.svg) die vertoningen over het gebied van het project heeft dat de commentaar tot heeft. Selecteer een badge om de opmerking weer te geven. Nadat u de badge hebt geselecteerd, kunt u de opmerking zelf selecteren om de opmerking te markeren in het opmerkingsgebied in de rechtertrack.
 
-De aantallen tonen op elke badge in een project en worden bevolen in de orde zij werden gecreeerd. Als de veelvoudige commentaren in het zelfde gebied van een project worden geplaatst, toont de badge 3 punten ![ veelvoud van de commentaarbadge van de puntennota ](assets/comment-indicator-multiple.png). Selecteer de badge met drie punten om alle opmerkingen in dat gebied weer te geven.
+De aantallen tonen op elke badge in een project en worden bevolen in de orde zij werden gecreeerd. Als de veelvoudige commentaren in het zelfde gebied van een project worden geplaatst, toont de badge 3 punten ![ veelvoud van de commentaarbadge van de puntennota ](assets/comment-indicator-multiple.svg). Selecteer de badge met drie punten om alle opmerkingen in dat gebied weer te geven.
 
 <!-- Insert screeshot-->
 
 Alle opmerkingbadges verbergen voor een project:
 
-1. Met het project open in Analysis Workspace, selecteer het pictogram van het commentaargebied ![ pictogram van het commentaargebied ](assets/comments-area-icon.png) in de juiste spoorlijn van Analysis Workspace.
+1. Met het project open in Analysis Workspace, selecteer het pictogram van het het gebiedsdeel van commentaren ![ pictogram van het Gebied van Commentaren ](/help/assets/icons/Comment.svg) in het juiste spoor van Analysis Workspace.
 
 1. Schakel onder aan het gebied met opmerkingen de optie **[!UICONTROL Hide placed badges]** in.
 
@@ -97,7 +97,7 @@ Als u opmerkingen wilt maken over een specifiek gebied van het project (bijvoorb
 
 Opmerkingen toevoegen aan een project in Analysis Workspace:
 
-1. Met het project open in Analysis Workspace, selecteer het pictogram van het commentaargebied ![ pictogram van het commentaargebied ](assets/comments-area-icon.png) in de juiste spoorlijn van Analysis Workspace. <!-- add screen shot -->
+1. Met het project open in Analysis Workspace, selecteer het pictogram van het het gebiedsdeel van commentaren ![ pictogram van het Gebied van Commentaren ](/help/assets/icons/Comment.svg) in het juiste spoor van Analysis Workspace. <!-- add screen shot -->
 
 1. Geef in het veld **[!UICONTROL New comment]** uw opmerking op.
 
@@ -131,7 +131,7 @@ Een andere persoon in uw opmerking opnemen:
 
 ## Een opmerking beantwoorden
 
-1. Met het project open in Analysis Workspace, selecteer het pictogram van het commentaargebied ![ pictogram van het commentaargebied ](assets/comments-area-icon.png) in de juiste spoorlijn van Analysis Workspace.
+1. Met het project open in Analysis Workspace, selecteer het pictogram van het het gebiedsdeel van commentaren ![ pictogram van het Gebied van Commentaren ](/help/assets/icons/Comment.svg) in het juiste spoor van Analysis Workspace.
 
 1. Selecteer **[!UICONTROL Reply]** naast de opmerking waarop u wilt reageren.
 
@@ -149,17 +149,17 @@ Een andere persoon in uw opmerking opnemen:
 
 ## Meldingen ontvangen over opmerkingen
 
-De eigenaars van het project en [ specifieke mensen u ](#include-others-in-a-comment) noemt ontvangen berichten die op hun het berichtmontages van Adobe Experience Cloud worden gebaseerd. Door gebrek, ontvangen zij een in-app bericht, zichtbaar van het [ het bericht van Experience Cloud ](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/account-preferences#view-notifications) pictogram ![ het berichtpictogram van Experience Cloud ](assets/experience-cloud-notification.png) in Customer Journey Analytics.
+De eigenaars van het project en [ specifieke mensen u ](#include-others-in-a-comment) noemt ontvangen berichten die op hun het berichtmontages van Adobe Experience Cloud worden gebaseerd. Door gebrek, ontvangen zij een in-app bericht, zichtbaar van het [ het bericht van Experience Cloud ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications) pictogram ![ het berichtpictogram van Experience Cloud ](assets/experience-cloud-notification.svg) in Customer Journey Analytics.
 
-Bovendien, kunnen de mensen hun het berichtmontages van Experience Cloud vormen om e-mailberichten en de berichten van Slack te ontvangen door [ te abonneren aan e-mailberichten ](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) en [ het intekenen aan de berichten van Slack ](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/account-preferences#slack).
+Bovendien, kunnen de mensen hun het berichtmontages van Experience Cloud vormen om e-mailberichten en de berichten van Slack te ontvangen door [ te abonneren aan e-mailberichten ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) en [ het intekenen aan de berichten van Slack ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack).
 
 ## Een badge voor een bestaande opmerking plaatsen
 
 Als er een opmerking beschikbaar is in het opmerkingengebied op de rechterspoorstaaf maar er nog geen badge in het project staat, kunt u de badge toevoegen.
 
-1. Met het project open in Analysis Workspace, selecteer het pictogram van het commentaargebied ![ pictogram van het commentaargebied ](assets/comments-area-icon.png) in de juiste spoorlijn van Analysis Workspace.
+1. Met het project open in Analysis Workspace, selecteer het pictogram van het het gebiedsdeel van commentaren ![ pictogram van het Gebied van Commentaren ](/help/assets/icons/Comment.svg) in het juiste spoor van Analysis Workspace.
 
-1. Selecteer het meer pictogram ![ commentaar-meer-pictogram ](assets/comment-more-icon.png) naast de commentaar waarvoor u een badge wilt plaatsen, dan selecteren **[!UICONTROL Place badge]**.
+1. Selecteer het meer pictogram ![ Meer pictogram ](/help/assets/icons/MoreSmallList.svg) naast de commentaar waarvoor u een badge wilt plaatsen, dan selecteren **[!UICONTROL Place badge]**.
 
 1. Selecteer het gebied van het project waar u de badge voor de bestaande opmerking wilt plaatsen.
 
@@ -191,9 +191,9 @@ U kunt de koppeling naar een opmerking kopiëren en de koppeling met anderen del
 
 De koppeling naar een opmerking kopiëren:
 
-1. Met het project open in Analysis Workspace, selecteer het pictogram van het commentaargebied ![ pictogram van het commentaargebied ](assets/comments-area-icon.png) in de juiste spoorlijn van Analysis Workspace.
+1. Met het project open in Analysis Workspace, selecteer het pictogram van het het gebiedsdeel van commentaren ![ pictogram van het Gebied van Commentaren ](/help/assets/icons/Comment.svg) in het juiste spoor van Analysis Workspace.
 
-1. Selecteer het meer pictogram ![ commentaar-meer-pictogram ](assets/comment-more-icon.png) naast de commentaar waarvan verbinding u wilt kopiëren, dan selecteren **[!UICONTROL Copy link]**.
+1. Selecteer het meer pictogram ![ Meer pictogram ](/help/assets/icons/MoreSmallList.svg) naast de commentaar waarvan verbinding u wilt kopiëren, dan selecteren **[!UICONTROL Copy link]**.
 
    De koppeling wordt naar het systeemklembord gekopieerd. U kunt de koppeling in een e-mail of een ander berichttype plakken.
 
@@ -203,15 +203,15 @@ U kunt de hoofdtekst van een opmerking kopiëren en deze met anderen delen.
 
 De hoofdtekst van een opmerking kopiëren:
 
-1. Met het project open in Analysis Workspace, selecteer het pictogram van het commentaargebied ![ pictogram van het commentaargebied ](assets/comments-area-icon.png) in de juiste spoorlijn van Analysis Workspace.
+1. Met het project open in Analysis Workspace, selecteer het pictogram van het het gebiedsdeel van commentaren ![ pictogram van het Gebied van Commentaren ](/help/assets/icons/Comment.svg) in het juiste spoor van Analysis Workspace.
 
-1. Selecteer het meer pictogram ![ commentaar-meer-pictogram ](assets/comment-more-icon.png) naast de commentaar die de tekst bevat u wilt kopiëren, dan selecteren **[!UICONTROL Copy body text]**.
+1. Selecteer het meer pictogram ![ Meer pictogram ](/help/assets/icons/MoreSmallList.svg) naast de commentaar die de tekst bevat u, dan selecteren **[!UICONTROL Copy body text]** wilt kopiëren.
 
    De hoofdtekst van de opmerking wordt naar het systeemklembord gekopieerd.
 
 ## Zoals een opmerking
 
-1. Met het project open in Analysis Workspace, selecteer het pictogram van het commentaargebied ![ pictogram van het commentaargebied ](assets/comments-area-icon.png) in de juiste spoorlijn van Analysis Workspace.
+1. Met het project open in Analysis Workspace, selecteer het pictogram van het het gebiedsdeel van commentaren ![ pictogram van het Gebied van Commentaren ](/help/assets/icons/Comment.svg) in het juiste spoor van Analysis Workspace.
 
 1. Selecteer **[!UICONTROL Like]** onder de opmerking die u wilt bevestigen.
 
@@ -223,9 +223,9 @@ Verwijderde opmerkingen kunnen niet worden hersteld.
 
 Een opmerking verwijderen:
 
-1. Met het project open in Analysis Workspace, selecteer het pictogram van het commentaargebied ![ pictogram van het commentaargebied ](assets/comments-area-icon.png) in de juiste spoorlijn van Analysis Workspace.
+1. Met het project open in Analysis Workspace, selecteer het pictogram van het het gebiedsdeel van commentaren ![ pictogram van het Gebied van Commentaren ](/help/assets/icons/Comment.svg) in het juiste spoor van Analysis Workspace.
 
-1. Selecteer het meer pictogram ![ commentaar-meer-pictogram ](assets/comment-more-icon.png) naast de commentaar dat u wilt schrappen, dan selecteren **[!UICONTROL Delete]**.
+1. Selecteer het meer pictogram ![ Meer pictogram ](/help/assets/icons/MoreSmallList.svg) naast de commentaar dat u wilt schrappen, dan selecteren **[!UICONTROL Delete]**.
 
 1. Selecteer nogmaals **[!UICONTROL Delete]** om de verwijdering te bevestigen.
 
@@ -235,9 +235,9 @@ Wanneer u een opmerking oplost, wordt de opmerking gemarkeerd als opgelost en ve
 
 Een opmerking oplossen:
 
-1. Met het project open in Analysis Workspace, selecteer het pictogram van het commentaargebied ![ pictogram van het commentaargebied ](assets/comments-area-icon.png) in de juiste spoorlijn van Analysis Workspace.
+1. Met het project open in Analysis Workspace, selecteer het pictogram van het het gebiedsdeel van commentaren ![ pictogram van het Gebied van Commentaren ](/help/assets/icons/Comment.svg) in het juiste spoor van Analysis Workspace.
 
-1. Selecteer het meer pictogram ![ commentaar-meer-pictogram ](assets/comment-more-icon.png) naast de commentaar dat u wilt oplossen, dan selecteren **[!UICONTROL Resolve]**.
+1. Selecteer het meer pictogram ![ Meer pictogram ](/help/assets/icons/MoreSmallList.svg) naast de commentaar dat u wilt oplossen, dan selecteren **[!UICONTROL Resolve]**.
 
 1. Selecteer nogmaals **[!UICONTROL Resolve]** om te bevestigen.
 
