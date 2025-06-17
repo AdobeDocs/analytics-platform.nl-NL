@@ -4,9 +4,9 @@ description: Beschrijft hoe het gegevensbeheer in Customer Journey Analytics wer
 exl-id: ab2b7ff2-c638-4ab4-bc86-d1701bebcb1a
 feature: Privacy
 role: Admin
-source-git-commit: 612fce23fe4cb9920c05f3253d69e543668a7cf1
+source-git-commit: 40706e3118cbaf7582d8625d307358b16f1836ac
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ In het algemeen worden instellingen met betrekking tot gegevensbeheer in Custome
 
 ## Datagovernance
 
-De integratie tussen Adobe Customer Journey Analytics en [ het Beheer van Gegevens van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=nl-NL) staat voor etikettering van gevoelige gegevens van Customer Journey Analytics en handhaving van privacybeleid toe.
+De integratie tussen Adobe Customer Journey Analytics en [ het Beheer van Gegevens van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html) staat voor etikettering van gevoelige gegevens van Customer Journey Analytics en handhaving van privacybeleid toe.
 
 De etiketten en het beleid van de privacy die op datasets werden gecreeerd die door Experience Platform worden verbruikt kunnen in het werkschema van de gegevensmeningen van Customer Journey Analytics worden aangeschept. Deze labels stoppen of waarschuwen gebruikers die metriek en/of afmetingen van gevoelige velden maken.
 
@@ -26,6 +26,12 @@ Wanneer gegevens uit Customer Journey Analytics worden geëxporteerd (via rappor
 Dankzij deze integratie kunt u de compatibiliteit eenvoudiger beheren. Gegevensstewards in uw organisatie kunnen beleid plaatsen om gebruik te beperken. Dit betekent dat uw Customer Journey Analytics-gebruikers gegevens betrouwbaarder kunnen gebruiken, in de wetenschap dat deze in overeenstemming zijn met het beleid dat wordt gedefinieerd door data stewards.
 
 [Meer informatie](/help/data-views/data-governance.md)
+
+## Privacyverzoeken
+
+Adobe behandelt privacyverzoeken in overeenstemming met de toepasselijke lokale en internationale wetgeving.
+
+Omdat Customer Journey Analytics gegevens gebruikt die in Adobe Experience Platform beschikbaar zijn, biedt Adobe [ Adobe Experience Platform Privacy Service ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) aan om gegevenstoegang en schrappingsverzoeken voor te leggen. De verzoeken zijn van toepassing op zowel de oorspronkelijke als de opgehaalde gegevensbestanden.
 
 ## GDPR
 
