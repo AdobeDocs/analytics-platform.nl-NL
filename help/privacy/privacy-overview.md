@@ -17,7 +17,7 @@ In het algemeen worden instellingen met betrekking tot gegevensbeheer in Custome
 
 ## Datagovernance
 
-De integratie tussen Adobe Customer Journey Analytics en [ het Beheer van Gegevens van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html) staat voor etikettering van gevoelige gegevens van Customer Journey Analytics en handhaving van privacybeleid toe.
+De integratie tussen Adobe Customer Journey Analytics en [ het Beheer van Gegevens van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=nl-NL) staat voor etikettering van gevoelige gegevens van Customer Journey Analytics en handhaving van privacybeleid toe.
 
 De etiketten en het beleid van de privacy die op datasets werden gecreeerd die door Experience Platform worden verbruikt kunnen in het werkschema van de gegevensmeningen van Customer Journey Analytics worden aangeschept. Deze labels stoppen of waarschuwen gebruikers die metriek en/of afmetingen van gevoelige velden maken.
 
@@ -31,7 +31,7 @@ Dankzij deze integratie kunt u de compatibiliteit eenvoudiger beheren. Gegevenss
 
 Adobe behandelt privacyverzoeken in overeenstemming met de toepasselijke lokale en internationale wetgeving.
 
-Omdat Customer Journey Analytics gegevens gebruikt die in Adobe Experience Platform beschikbaar zijn, biedt Adobe [ Adobe Experience Platform Privacy Service ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) aan om gegevenstoegang en schrappingsverzoeken voor te leggen. De verzoeken zijn van toepassing op zowel de oorspronkelijke als de opgehaalde gegevensbestanden.
+Omdat Customer Journey Analytics gegevens gebruikt die in Adobe Experience Platform beschikbaar zijn, biedt Adobe [ Adobe Experience Platform Privacy Service ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl-NL) aan om gegevenstoegang en schrappingsverzoeken voor te leggen. De verzoeken zijn van toepassing op zowel de oorspronkelijke als de opgehaalde gegevensbestanden.
 
 ## GDPR
 
