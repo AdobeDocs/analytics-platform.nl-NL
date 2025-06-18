@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 exl-id: 25710bf1-ec85-4a7d-a404-54549013cc2c
 role: Admin
-source-git-commit: 03e9fb37684f8796a18a76dc0a93c4e14e6e7640
+source-git-commit: 15a3d7b6f2ec4f37fd861315871e06ddefa5348a
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
@@ -47,11 +47,11 @@ De context van een sessie in een gegevensweergave definiëren:
 
    2. Selecteer een metrische waarde in de lijst **[!UICONTROL Drop a metric here]** eronder **[!UICONTROL Start new session with a metric]** . U kunt ook een metrische waarde slepen en neerzetten vanuit het linkerdeelvenster van de **[!UICONTROL Drop a metric field]** . De geselecteerde metrische waarde bepaalt het begin van een nieuwe zitting. U kunt meerdere metrische waarden definiëren.
 
-      U kunt om het even welk soort metrisch gebruiken om een nieuwe zitting te bepalen. Stel dat u elke keer dat een profiel uw mobiele app start, een nieuwe sessie wilt definiëren. In **[!UICONTROL Data view]** > **[!UICONTROL Components]** definieert u een component van het type metrisch, genaamd **[!UICONTROL Launches]** , op basis van een schemaveld **[!UICONTROL appInteraction]** **[!UICONTROL Name]** . U geeft verder de metrische component **[!UICONTROL Launches]** op, zodat alleen de waarde wordt geteld wanneer de waarde overeenkomt met `launch` .
+      U kunt om het even welk soort metrisch gebruiken om een nieuwe zitting te bepalen. Stel dat u elke keer dat een profiel uw mobiele app start, een nieuwe sessie wilt definiëren. In **[!UICONTROL Data view]** > **[!UICONTROL Components]** definieert u een component van het type metrisch, genaamd **[!UICONTROL Launch]** , op basis van een schemaveld **[!UICONTROL appInteraction]** **[!UICONTROL Name]** . U geeft verder de metrische component **[!UICONTROL Launch]** op, zodat alleen de waarde wordt geteld wanneer de waarde overeenkomt met `launch` .
 
       ![ de Metrische Lanceringen van de Component van de Interactie van de Toepassing ](assets/component-launches.png)
 
-      Vervolgens sleept u de sjabloon en selecteert u de metrische waarde van **[!UICONTROL Launches]** als de metrische waarde om een nieuwe sessie te definiëren.
+      Vervolgens sleept u de sjabloon en selecteert u de metrische waarde van **[!UICONTROL Launch]** als de metrische waarde om een nieuwe sessie te definiëren.
 
       ![ Lanceringen van de Montages van de Zitting ](assets/session-settings-launches-metric.png)
 

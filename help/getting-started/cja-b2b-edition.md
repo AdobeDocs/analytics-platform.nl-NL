@@ -6,7 +6,7 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B edition"
 exl-id: 89e482b8-8082-4413-8fd3-cc1331780af4
-source-git-commit: d0dfcce1a9ba2a2f3e55abc63116ed07a33c9411
+source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 0%
@@ -17,8 +17,6 @@ ht-degree: 0%
 # Customer Journey Analytics B2B edition
 
 {{b2b-edition}}
-
-{{draft-b2b}}
 
 Adobe Analytics is begonnen als een web- en digitaal analyseprogramma voor marketers, terwijl Customer Journey Analytics het bereik heeft uitgebreid tot multikanaalgegevens, offlinegegevens en platformonafhankelijke gegevens.  Beide hulpmiddelen helpen de Onderneming aan Consumentenondernemingen (B2C) hun marketing inspanningen en klantenervaring analyseren en optimaliseren. En nadruk op **op persoon-gebaseerde rapportering en analyse**: begrijp de klantenreis, waar de klant een persoon is die met uw merk over veelvoudige kanalen in wisselwerking staat.
 
@@ -45,5 +43,5 @@ Customer Journey Analytics B2B edition helpt B2B-bedrijven hun marketing-, verko
 >[!MORELIKETHIS]
 >
 >[ B2B concepten en eigenschappen ](cja-b2b-concepts-features.md)
->[B2B-handleiding voor snel starten ](cja-b2b-quick-start-guide.md)
+>>[B2B-handleiding voor snel starten ](cja-b2b-quick-start-guide.md)
 >

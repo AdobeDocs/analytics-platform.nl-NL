@@ -6,7 +6,7 @@ feature: Use Cases
 role: User
 badgePremium: label="B2B edition"
 exl-id: 509c68e1-a8cc-48ac-9e9d-50c703356dbc
-source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
+source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Productwaarde opbouwen
-
-{{draft-b2b}}
 
 U wilt B2B-productwaardeinzichten leveren aan productmanagers en CMO&#39;s of CEO&#39;s. Bijvoorbeeld door middel van een gegevensgestuurde analyse of voorspelling van de krommen. En maak deze inzichten verteerbaar via mobiele dashboards.
 

@@ -3,7 +3,7 @@ description: De Berekende Bouwer van Metriek verstrekt een canvas om Afmetingen,
 title: Berekende maatstaven samenstellen
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: ef97b36a95e5f39f7436f5e21861d1ee5a0338dd
 workflow-type: tm+mt
 source-wordcount: '1534'
 ht-degree: 0%
@@ -12,13 +12,11 @@ ht-degree: 0%
 
 # Berekende maatstaven samenstellen {#build-metrics}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_productcompatibility"
 >title="Productcompatibiliteit"
 >abstract="Geeft aan waar in Customer Journey Analytics deze berekende metrische waarde kan worden gebruikt, zoals in Analysis Workspace, Report Builder enzovoort. Sommige berekende metriek kunnen niet met experimenteren worden gebruikt."
->additional-url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="Berekende meetwaarden gebruiken in experimenten"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="Berekende meetwaarden gebruiken in experimenten"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -57,7 +55,7 @@ Het dialoogvenster **[!UICONTROL Calculated metric builder]** wordt gebruikt om 
 
 ![ Berekend metrisch detailsvenster dat gebieden en opties toont die in de volgende sectie worden beschreven.](assets/calculated-metric-builder.png)
 
->[!TAB creeer of geef berekend metrisch  uit]
+>[!TAB  creeer of geef berekend metrisch ] uit
 
 ![ Berekend metrisch detailsvenster dat gebieden en opties toont die in de volgende sectie worden beschreven.](assets/create-edit-calculated-metric.png)
 
@@ -207,7 +205,7 @@ Zie [ functies van het Gebruik ](cm-using-functions.md) voor details op hoe te o
 
 Een algemene container toevoegen:
 
-* Selecteer ![&#128279;](/help/assets/icons/AddCircle.svg) AddCircle **[!UICONTROL Add]** van binnen een container
+* Selecteer ](/help/assets/icons/AddCircle.svg) AddCircle **[!UICONTROL Add]** van binnen een container![
 * Selecteer **[!UICONTROL Container]** . Er wordt een nieuwe lege generieke container toegevoegd aan de **[!UICONTROL Definition]** . U kunt een generische container gebruiken om een hiërarchie in de definitie van uw berekende metrisch te nesten of tot stand te brengen.
 
 
@@ -218,6 +216,5 @@ Om een container te schrappen, selecteer ![ dicht ](/help/assets/icons/Close.svg
 >[!MORELIKETHIS]
 >
 >[Functies gebruiken](cm-using-functions.md)
->&#x200B;>[Segmenten ](/help/components/segments/seg-overview.md)
+>>[Segmenten ](/help/components/segments/seg-overview.md)
 >
-

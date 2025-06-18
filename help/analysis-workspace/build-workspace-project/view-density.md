@@ -4,9 +4,9 @@ title: Dichtheid weergeven
 feature: Workspace Basics
 exl-id: b02672e2-0728-472b-97fe-14637ab1c2df
 role: User
-source-git-commit: 373d0c9989fb692da23efe371c65344093801140
+source-git-commit: 15a3d7b6f2ec4f37fd861315871e06ddefa5348a
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Dit is de weergave die je gebruikt in Workspace.
 
 >[!TAB  Uitgebreid ]
 
-Dit is de weergave die je gebruikt in Workspace.
+Dit is de versie met de meest uitgebreide weergave.
 
 ![ de Uitgebreide meningsdichtheden.](assets/view-density-expanded.png)
 

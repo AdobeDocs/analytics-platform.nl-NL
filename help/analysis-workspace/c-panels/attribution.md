@@ -4,9 +4,9 @@ description: Het toewijzingspaneel in Analysis Workspace gebruiken en interprete
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: 304b8d85767d89ee60a6fb37a128194f60ca89d4
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '651'
 ht-degree: 8%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 8%
 
 >[!BEGINSHADEBOX]
 
-_Dit artikel documenteert het paneel van de Attributie in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_zie [ het paneel van de Attributie ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/attribution) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_Dit artikel documenteert het paneel van de Attributie in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_zie [ het paneel van de Attributie ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/attribution) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -92,9 +92,17 @@ De volgende visualisatie maakt deel uit van de paneeluitvoer.
 
 {{attribution-models-details}}
 
+## Container
+
+{{attribution-container}}
+
 ## Venster Opzoeken
 
 {{attribution-lookback-window}}
+
+## Voorbeeld
+
+{{attribution-example}}
 
 >[!MORELIKETHIS]
 >

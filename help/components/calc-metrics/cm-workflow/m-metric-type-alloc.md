@@ -3,9 +3,9 @@ description: Meer informatie over metrische tekst en kenmerk
 title: Metrisch type en kenmerk
 feature: Calculated Metrics
 exl-id: da73a9ba-542e-436c-bdb2-b629b5b6f760
-source-git-commit: 2b193e1ff612ab00335898164dc84afb08673fff
+source-git-commit: 304b8d85767d89ee60a6fb37a128194f60ca89d4
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ U kunt metrisch type en [ attributiemodel ](#attribution-models) voor metrisch i
 
      | Metrisch type | Definitie |
      |---|---|
-     | **[!UICONTROL Standard]** | Als een formule uit één enkele standaardmetrische norm bestaat, toont het identieke gegevens aan zijn niet-berekende-metrische tegenhanger. Standaardmetriek zijn handig om berekende metriek te maken die specifiek zijn voor elk afzonderlijk regelitem. <p>Bijvoorbeeld, ![&#128279;](/help/assets/icons/Event.svg) **[!UICONTROL Orders]** ![ de Gebeurtenis van 0&rbrace; ](/help/assets/icons/Divide.svg) verdeelt ![ Gebeurtenis ](/help/assets/icons/Event.svg) **[!UICONTROL Sessions]** neemt de orden voor dat specifieke lijnpunt en verdeelt het door het aantal zittingen voor dat specifieke lijnpunt. |
-     | **[!UICONTROL Grand total]** | Gebruik **[!UICONTROL Grand total]** voor de rapportageperiode in elk regelitem. Als een formule uit één enkel Eindtotaal metrisch bestaat, toont berekende metrisch het zelfde Grote totale aantal op elk lijnpunt. De grote totale metriek zijn nuttig wanneer u berekende metriek wilt tot stand brengen die tegen totale gegevens vergelijkt. <p>Bijvoorbeeld, ![&#128279;](/help/assets/icons/Event.svg) de Gebeurtenis van 0&rbrace; **[!UICONTROL Orders]** ![ verdeelt ](/help/assets/icons/Divide.svg) ![ Gebeurtenis ](/help/assets/icons/Event.svg) **[!UICONTROL Total Sessions]** toont het aandeel van orden tegen alle zittingen, niet alleen de zittingen aan het specifieke lijnpunt.  In dit voorbeeld, specificeert u **[!UICONTROL Grand Total]** voor de ![ Gebeurtenis ](/help/assets/icons/Event.svg) **[!UICONTROL Sessions]** metrisch in uw berekende metrisch, die het automatisch in ![ Gebeurtenis ](/help/assets/icons/Event.svg) **[!UICONTROL Total Sessions]** zal veranderen. |
+     | **[!UICONTROL Standard]** | Als een formule uit één enkele standaardmetrische norm bestaat, toont het identieke gegevens aan zijn niet-berekende-metrische tegenhanger. Standaardmetriek zijn handig om berekende metriek te maken die specifiek zijn voor elk afzonderlijk regelitem. <p>Bijvoorbeeld, ](/help/assets/icons/Event.svg) **[!UICONTROL Orders]** ![ de Gebeurtenis van 0} ](/help/assets/icons/Divide.svg) verdeelt ![ Gebeurtenis ](/help/assets/icons/Event.svg) **[!UICONTROL Sessions]** neemt de orden voor dat specifieke lijnpunt en verdeelt het door het aantal zittingen voor dat specifieke lijnpunt.![ |
+     | **[!UICONTROL Grand total]** | Gebruik **[!UICONTROL Grand total]** voor de rapportageperiode in elk regelitem. Als een formule uit één enkel Eindtotaal metrisch bestaat, toont berekende metrisch het zelfde Grote totale aantal op elk lijnpunt. De grote totale metriek zijn nuttig wanneer u berekende metriek wilt tot stand brengen die tegen totale gegevens vergelijkt. <p>Bijvoorbeeld, ](/help/assets/icons/Event.svg) de Gebeurtenis van 0} **[!UICONTROL Orders]** ![ verdeelt ](/help/assets/icons/Divide.svg) ![ Gebeurtenis ](/help/assets/icons/Event.svg) **[!UICONTROL Total Sessions]** toont het aandeel van orden tegen alle zittingen, niet alleen de zittingen aan het specifieke lijnpunt. ![ In dit voorbeeld, specificeert u **[!UICONTROL Grand Total]** voor de ![ Gebeurtenis ](/help/assets/icons/Event.svg) **[!UICONTROL Sessions]** metrisch in uw berekende metrisch, die het automatisch in ![ Gebeurtenis ](/help/assets/icons/Event.svg) **[!UICONTROL Total Sessions]** zal veranderen. |
 
    * Geef **[!UICONTROL Attribution]** op.
 
@@ -33,23 +33,23 @@ U kunt metrisch type en [ attributiemodel ](#attribution-models) voor metrisch i
          * Schakel **[!UICONTROL Use non-default attribution model]** uit om het standaard kolomkenmerkingsmodel, Last Touch, te gebruiken met een terugkijkvenster van 30 dagen.
          * Schakel **[!UICONTROL Use non-default attribution model]** in. In het dialoogvenster **[!UICONTROL Column attribution model]**
 
-            * Selecteer een **[!UICONTROL Model]** in de attributiemodellen.
-            * Selecteer een **[!UICONTROL Lookback window]** . Als u **[!UICONTROL Custom Time]** selecteert, kunt u de tijdsperiode definiëren in **[!UICONTROL Minute(s)]** tot **[!UICONTROL Quarter(s)]** . Zie [ venster van de Lookback ](#lookback-window) voor meer informatie
+            * Selecteer a **[!UICONTROL Model]** van de [ attributiemodellen ](#attribution-models).
+            * Selecteer a **[!UICONTROL Container]** van de [ container ](#container) opties.
+            * Selecteer a **[!UICONTROL Lookback window]** van de [ raadplegingsvenster ](#lookback-window) opties. Als u **[!UICONTROL Custom Time]** selecteert, kunt u de tijdsperiode definiëren in **[!UICONTROL Minute(s)]** tot **[!UICONTROL Quarter(s)]** .
 
       1. Selecteer **[!UICONTROL Apply]** om het niet-standaard toewijzingsmodel toe te passen. Selecteer Annuleren om te annuleren.
 
      Als u al een niet-standaard toewijzingsmodel hebt gedefinieerd, selecteert u **[!UICONTROL Edit]** om de selectie te wijzigen.
 
-Zie [ Voorbeeld ](#example) voor een voorbeeld om een attributiemodel en raadplegingsvenster te gebruiken.
+Zie [ Voorbeeld ](#example) voor een voorbeeld om een attributiemodel, container, en raadplegingsvenster te gebruiken.
 
 
-## Attributie {#attribution}
+## Attributiemodellen {#attribution-models}
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_nondefaultattributionmodel"
 >title="Niet-standaard toewijzingsmodel gebruiken"
 >abstract="Schakel een niet-standaard attributiemodel in voor de geselecteerde metrische waarde."
-
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attributionmodel"
@@ -131,69 +131,38 @@ Zie [ Voorbeeld ](#example) voor een voorbeeld om een attributiemodel en raadple
 >title="Algorithmic"
 >abstract="Krediet wordt dynamisch bepaald op basis van een statistisch algoritme."
 
+{{attribution-models-details}}
+
+
+## Container {#container}
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_container"
 >title="Container"
 >abstract="Selecteer een container om het gewenste bereik voor de toewijzing in te stellen."
 
+{{attribution-container}}
 
-{{attribution-models-details}}
 
-
-<!-- markdownlint-disable MD034 -->
+## Venster Opzoeken {#lookback-winwow}
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lookbackwindow"
 >title="Venster Opzoeken"
 >abstract="Deze instelling bepaalt het venster met gegevenstoewijzing dat voor elke conversie wordt toegepast."
 
-
 {{attribution-lookback-window}}
 
 
-### Voorbeeld van kenmerk {#attribution-example}
 
-Bekijk het volgende voorbeeld:
 
-1. Op 15 september arriveert een persoon via een betaalde zoekadvertentie naar uw site en verlaat hij vervolgens.
-1. Op 18 september arriveert de persoon opnieuw naar uw site via een link naar sociale media die hij van een vriend heeft gekregen. Ze voegen verschillende artikelen aan hun winkelwagentje toe, maar kopen niets.
-1. Op 24 september stuurt uw marketingteam hen een e-mail met een coupon voor sommige objecten in hun winkelwagentje. Ze passen de coupon toe, maar gaan naar verschillende andere sites om te zien of er andere coupons beschikbaar zijn. Ze vinden een andere advertentie via een advertentie en kopen uiteindelijk $50.
+## Voorbeeld
 
-Afhankelijk van het terugkijkvenster en het attributiemodel, ontvangen de kanalen verschillende kredieten. Hieronder volgen enkele voorbeelden:
-
-* Gebruikend **eerste aanraking** en venster van de a **zittingsterugblik**, kijkt de attributie slechts het derde bezoek. Tussen e-mail en display was e-mail de eerste, dus e-mail krijgt 100% krediet voor de aankoop van $50.
-
-* Gebruikend **eerste aanraking** en venster van de a **persoonraadpleging**, kijkt de attributie naar alle drie bezoeken. De betaalde zoekopdracht was de eerste, dus krijgt deze 100% krediet voor de aankoop van $50.
-
-* Gebruikend **lineair** en venster van de a **zittingsterugblik**, is het krediet verdeeld tussen e-mail en vertoning. Beide kanalen krijgen elk $25 krediet.
-Gebruikend **lineair** en het venster van de a **persoonraadpleging**, wordt het krediet verdeeld tussen betaald onderzoek, sociaal, e-mail, en vertoning. Elk kanaal krijgt $12,50 krediet voor deze aankoop.
-
-* Gebruikend **j-Gegeld** en a **persoon terugkijkvenster**, wordt het krediet verdeeld tussen betaald onderzoek, sociaal, e-mail, en vertoning.
-
-   * 60% krediet wordt gegeven aan vertoning, voor $30.
-   * 20% krediet wordt gegeven voor betaalde zoekopdrachten, voor $10.
-   * De resterende 20% is verdeeld tussen sociale media en e-mail, wat elk $5 geeft.
-
-* Gebruikend **Verval van de Tijd** en venster van de a **persoonraadpleging**, wordt het krediet verdeeld tussen betaald onderzoek, sociaal, e-mail, en vertoning. De standaardhalfwaardetijd van 7 dagen gebruiken:
-
-   * Tussenruimte van nul dagen tussen aanraakpunt weergeven en conversie. `2^(-0/7) = 1`
-   * Ruimte van nul dagen tussen aanraakpunt en conversie via e-mail. `2^(-0/7) = 1`
-   * Tussenruimte van zes dagen tussen sociale aanraakpunten en conversie. `2^(-6/7) = 0.552`
-   * Tussenruimte van negen dagen tussen betaald aanraakpunt en conversie. `2^(-9/7) = 0.41`
-   * Het normaliseren van deze waarden resulteert in het volgende:
-
-      * Weergave: 33,8%, krijgt $16,88
-      * E-mail: 33,8% ontvangt $ 16,88
-      * Sociaal: 18,6%, $ 9,32
-      * Betaalde zoekopdracht: 13,8%, krijgt $6,92
-
-Conversiegebeurtenissen die doorgaans hele getallen bevatten, worden gedeeld als het krediet tot meer dan één kanaal behoort. Als twee kanalen bijvoorbeeld een bijdrage leveren aan een bestelling met behulp van een lineair toewijzingsmodel, krijgen beide kanalen 0,5 van die volgorde. Deze gedeeltelijke metriek worden samengevat over alle mensen dan rond gemaakt aan het dichtstbijzijnde geheel voor rapportering.
-
+{{attribution-example}}
 
 >[!MORELIKETHIS]
 >
 >[ de componentenmontages van de Attributie ](/help/data-views/component-settings/attribution.md)
->[Metrische deelname ](participation-metric.md)
+>>[Metrische deelname ](participation-metric.md)
 >
 

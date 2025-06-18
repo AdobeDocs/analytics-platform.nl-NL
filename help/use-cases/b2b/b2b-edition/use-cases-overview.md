@@ -6,7 +6,7 @@ feature: Use Cases
 role: User, Admin
 badgePremium: label="B2B edition"
 exl-id: 7c16cc62-5032-44a2-92e4-4a1c320f17aa
-source-git-commit: 2fad11178853e08783b8f48671b504f50b6e0770
+source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Overzicht van B2B edition-gebruikskwesties
-
-{{draft-b2b}}
 
 In dit gedeelte van de documentatie worden enkele specifieke B2B-gebruiksgevallen beschreven die bedoeld zijn om inzicht te verschaffen in de vaak complexere B2B-aankoopreis. Bij een typische B2B-aankoop gaat het om de aankoop van groepen, kanaaloverschrijdende aanspreekpunten door verschillende belanghebbenden, mogelijkheden in verschillende stadia van de verkoopcyclus en meer.
 
