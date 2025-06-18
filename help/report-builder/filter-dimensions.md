@@ -1,14 +1,14 @@
 ---
-title: Afmetingen filteren in Report Builder
+title: Filterafmetingen in Report Builder
 description: Beschrijft hoe te om filterafmetingen in Report Builder voor Customer Journey Analytics te gebruiken
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 5730d5f3-de76-429f-81f5-ebe6b62a9480
 solution: Customer Journey Analytics
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 97c3b05d4d9661aabcb1b06db7fdf44671a29394
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '938'
 ht-degree: 1%
 
 ---
@@ -121,7 +121,7 @@ Filtercriteria instellen:
 
 U kunt maximaal 10 criteria toevoegen.
 
-### **[!UICONTROL &#x200B; Specific]**
+### **[!UICONTROL  Specific]**
 
 Met de optie **[!UICONTROL Specific]** kunt u een vaste lijst met dimensie-items maken voor elke dimensie. Gebruik het filtertype **[!UICONTROL Specific]** om de exacte afmetingen op te geven die u in het filter wilt opnemen. U kunt items in een lijst of uit een reeks cellen selecteren.
 
