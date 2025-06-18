@@ -43,5 +43,5 @@ Customer Journey Analytics B2B edition helpt B2B-bedrijven hun marketing-, verko
 >[!MORELIKETHIS]
 >
 >[ B2B concepten en eigenschappen ](cja-b2b-concepts-features.md)
->>[B2B-handleiding voor snel starten ](cja-b2b-quick-start-guide.md)
+>&#x200B;>[B2B-handleiding voor snel starten ](cja-b2b-quick-start-guide.md)
 >

@@ -49,7 +49,7 @@ U kunt een standaardattributiemodel voor bepaalde metrisch plaatsen door metrisc
 >
 >   De veelvoudige afmetingen zijn beschikbaar slechts wanneer [ het uitvoeren van gegevens aan de wolk ](/help/analysis-workspace/export/export-cloud.md).
 >
-> Voor meer informatie over toewijzing, zie {de montages van de componenten van 0} Persistence ](/help/data-views/component-settings/persistence.md).[
+> Voor meer informatie over toewijzing, zie {de montages van de componenten van 0} Persistence [&#128279;](/help/data-views/component-settings/persistence.md).
 
 Het standaardtoewijzingsmodel van een component bijwerken:
 
@@ -71,7 +71,7 @@ Het standaardtoewijzingsmodel van een component bijwerken:
 >
 > * Kopieer de metrische waarde in de gegevensweergave met elke gewenste attributie-instelling. U kunt dezelfde metrische waarde meerdere keren opnemen in een gegevensweergave, zodat elke meting een andere instelling heeft. Zorg ervoor dat u elke metrisch geschikt etiketteert zodat de analisten het verschil tussen deze metriek begrijpen wanneer het produceren van rapporten.
 >
-> * Overschrijf de metrische waarde in Analysis Workspace. In de montages van de Kolom van metrische [ ](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md), uitgezochte **[!UICONTROL Use non-default attribution model]** om het de attributiemodel van metrische metrische te veranderen en raadplegingsvenster voor dat specifieke rapport.
+> * Overschrijf de metrische waarde in Analysis Workspace. In de montages van de Kolom van metrische [&#128279;](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md), uitgezochte **[!UICONTROL Use non-default attribution model]** om het de attributiemodel van metrische metrische te veranderen en raadplegingsvenster voor dat specifieke rapport.
 
 ## Attributiemodellen {#attribution-models}
 
