@@ -5,16 +5,16 @@ solution: Customer Journey Analytics
 feature: Administration
 role: Admin
 exl-id: f093ac54-7d31-449b-a441-a65856a1d535
-source-git-commit: 277e69432e4c8a93f692486b5f281329cbfc55db
+source-git-commit: 91ac84764a186d81f3270bb3ec9673d93b11bd38
 workflow-type: tm+mt
-source-wordcount: '2061'
-ht-degree: 4%
+source-wordcount: '1871'
+ht-degree: 5%
 
 ---
 
 # Customer Journey Analytics Guardrails
 
-Dit document bevat limieten voor verschillende componenten van Customer Journey Analytics. Voor Guardrails, Scoping Parameters, en Entitlements, zie de [ Beschrijving van het Product voor Customer Journey Analytics ](https://helpx.adobe.com/nl/legal/product-descriptions/customer-journey-analytics.html) of de [ Beschrijving van het Product voor toe:voegen-op Adobe Analytics: Customer Journey Analytics ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html).
+Dit document bevat limieten voor verschillende componenten van Customer Journey Analytics. Voor Guardrails, Scoping Parameters, en Entitlements, zie de [ Beschrijving van het Product voor Customer Journey Analytics ](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html) of de [ Beschrijving van het Product voor toe:voegen-op Adobe Analytics: Customer Journey Analytics ](https://helpx.adobe.com/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html).
 
 ## Limiettypen
 
@@ -54,9 +54,6 @@ Sommige functies en de bijbehorende waarde voor de limiet zijn afhankelijk van h
 | Visualisaties per deelvenster | 25 | Door het systeem afgedwongen Guardrail | Maximum aantal [ visualisaties ](../analysis-workspace/home.md#visualizations) per paneel. |
 | Afgeleide velden per vrije-vormtabel | 5 | Door het systeem afgedwongen Guardrail | Maximum aantal verschillende afgeleide gebieden in één enkele vrije vormlijst. |
 | Opmerkingen per project <p>**Nota:** de capaciteit om op projecten te becommentariëren is in de Beperkte het Testen fase van versie en zou niet nog in uw milieu beschikbaar kunnen zijn. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het de versieproces van Customer Journey Analytics, zie [ de eigenschapversies van Customer Journey Analytics ](/help/release-notes/releases.md).</p> | 1.000 | Door het systeem afgedwongen Guardrail | Maximumaantal opmerkingen per project. |
-| Reacties per opmerking <p>**Nota:** de capaciteit om op projecten te becommentariëren is in de Beperkte het Testen fase van versie en zou niet nog in uw milieu beschikbaar kunnen zijn. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het de versieproces van Customer Journey Analytics, zie [ de eigenschapversies van Customer Journey Analytics ](/help/release-notes/releases.md).</p> | 100 | Door het systeem afgedwongen Guardrail | Maximumaantal reacties per opmerking. |
-| Afbeeldingen per opmerking <p>**Nota:** de capaciteit om op projecten te becommentariëren is in de Beperkte het Testen fase van versie en zou niet nog in uw milieu beschikbaar kunnen zijn. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het de versieproces van Customer Journey Analytics, zie [ de eigenschapversies van Customer Journey Analytics ](/help/release-notes/releases.md).</p> | 5 | Door het systeem afgedwongen Guardrail | Maximumaantal afbeeldingen per opmerking. |
-| Afbeeldingsgrootte <p>**Nota:** de capaciteit om op projecten te becommentariëren is in de Beperkte het Testen fase van versie en zou niet nog in uw milieu beschikbaar kunnen zijn. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het de versieproces van Customer Journey Analytics, zie [ de eigenschapversies van Customer Journey Analytics ](/help/release-notes/releases.md).</p> | 2 | Door het systeem afgedwongen Guardrail | Maximale uploadgrootte per afbeelding in MB voor opmerkingen in projecten |
 
 {style="table-layout:auto"}
 
@@ -97,7 +94,7 @@ Image size - 2 - System-enforced Guardrail - Maximim upload size per image in MB
 
 {style="table-layout:auto"}
 
-Zie ook de Gidsen van het Platform van Gegevens van de Klant van Experience Platform [ in real time ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=nl-NL).
+Zie ook de Gidsen van het Platform van Gegevens van de Klant van Experience Platform [ in real time ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html).
 
 
 ## Vervaldatum automatische gegevensset
@@ -117,7 +114,7 @@ Zie ook de Gidsen van het Platform van Gegevens van de Klant van Experience Plat
 | Projecten | 50.000 | Door het systeem afgedwongen Guardrail | Maximumaantal projecten voor een organisatie. |
 | Gegevens weergeven | 2.000 | Door het systeem afgedwongen Guardrail | Maximum aantal [ gegevensmeningen ](../data-views/data-views.md) voor een organisatie. |
 | Gegevens weergeven | 500 - 1000 | Door het systeem afgedwongen Guardrail | Maximumaantal gegevensweergaven voor een verbinding. De waarde is afhankelijk van het Customer Journey Analytics-pakket (zie Productbeschrijving). |
-| Gegevenssets | 100 | Door het systeem afgedwongen Guardrail | Maximum aantal [ datasets ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=nl-NL) per verbinding. |
+| Gegevenssets | 100 | Door het systeem afgedwongen Guardrail | Maximum aantal [ datasets ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html) per verbinding. |
 | Verbindingen | 1000 | Door het systeem afgedwongen Guardrail | Maximum aantal [ verbindingen ](../connections/overview.md) voor een organisatie. |
 | Verbindingstitel | 500 | Door het systeem afgedwongen Guardrail | Maximum aantal tekens voor een verbindingstitel. |
 | Metrics | 5.000 | Door het systeem afgedwongen Guardrail | Maximum aantal metriek in een gegevensmening. |
@@ -142,7 +139,7 @@ Zie ook de Gidsen van het Platform van Gegevens van de Klant van Experience Plat
 
 {style="table-layout:auto"}
 
-Zie ook Experience Platform [ Guardrails voor de Ingestie van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=nl-NL).
+Zie ook Experience Platform [ Guardrails voor de Ingestie van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html).
 
 
 ## Doelgegevens exporteren
@@ -154,7 +151,7 @@ Zie ook Experience Platform [ Guardrails voor de Ingestie van Gegevens ](https:/
 
 {style="table-layout:auto"}
 
-Zie ook de Gidsen van de Uitvoer van de Dataset van Experience Platform [&#128279;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/guardrails#dataset-exports)
+Zie ook de Gidsen van de Uitvoer van de Dataset van Experience Platform [ ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
 
 
 ## Gegevenslandingszone
@@ -219,7 +216,7 @@ Zie ook de Gidsen van de Uitvoer van de Dataset van Experience Platform [&#12827
 | Naam | Waarde | Limiettype | Beschrijving |
 |---|--:|---|---|
 | Bestandsgrootte werkboek | 5 | Door het systeem afgedwongen Guardrail | Maximale bestandsgrootte in MB van een gepland werkboek. |
-| Gegevensblokken | 1000 | Door het systeem afgedwongen Guardrail | Maximum aantal [ gegevensblokken ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html?lang=nl-NL) per werkboek. |
+| Gegevensblokken | 1000 | Door het systeem afgedwongen Guardrail | Maximum aantal [ gegevensblokken ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/manage-reportbuilder.html) per werkboek. |
 | Metrics | 20 | Door het systeem afgedwongen Guardrail | Maximum aantal metriek per gegevensblok. |
 | Datumbereik | 13 | Door het systeem afgedwongen Guardrail | Het maximum aantal maanden dat een datumbereik kan beslaan per gegevensblok. |
 | Rijen | 50.000 | Door het systeem afgedwongen Guardrail | Maximumaantal rijen per gegevensblok. |
@@ -255,7 +252,7 @@ Zie ook de Gidsen van de Uitvoer van de Dataset van Experience Platform [&#12827
 
 >[!NOTE]
 >
->De verwerkingstijden hieronder zijn Guardrails, niet contractuele service level agreements (SLA&#39;s). De latentie is afhankelijk van de configuratie van de klant, de gegevensvolumes en de toepassingen van de consument. Echte verwerkingstijden zijn vaak sneller. Raadpleeg uw Customer Journey Analytics-overeenkomst voor uw specifieke contractvoorwaarden en SLA&#39;s. Zie Experience Platform [ Grafieken voor de Ingestie van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=nl-NL) voor meer informatie.
+>De verwerkingstijden hieronder zijn Guardrails, niet contractuele service level agreements (SLA&#39;s). De latentie is afhankelijk van de configuratie van de klant, de gegevensvolumes en de toepassingen van de consument. Echte verwerkingstijden zijn vaak sneller. Raadpleeg uw Customer Journey Analytics-overeenkomst voor uw specifieke contractvoorwaarden en SLA&#39;s. Zie Experience Platform [ Grafieken voor de Ingestie van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html) voor meer informatie.
 
 | Gegevensstroom | Verwachte vertraging |
 |---|---|

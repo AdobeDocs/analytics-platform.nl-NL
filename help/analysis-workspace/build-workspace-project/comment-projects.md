@@ -4,9 +4,9 @@ title: Opmerkingen toevoegen en weergeven in projecten
 feature: Workspace Basics
 role: User
 exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
-source-git-commit: 29db477c96ad5ca7c69a7f7055c1a7fd3c06eb04
+source-git-commit: 91ac84764a186d81f3270bb3ec9673d93b11bd38
 workflow-type: tm+mt
-source-wordcount: '1785'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
@@ -30,14 +30,14 @@ U kunt opmerkingen bekijken in het gebied met opmerkingen in de rechtertrack of 
 
 >[!NOTE]
 >
->Een project moet worden bewaard alvorens het commentaargebied in het juiste spoor zichtbaar is. Als het project niet eerder is bewaard, moet u het project [&#128279;](/help/analysis-workspace/build-workspace-project/save-projects.md) bewaren  alvorens commentaren toe te voegen.
+>Een project moet worden bewaard alvorens het commentaargebied in het juiste spoor zichtbaar is. Als het project niet eerder is bewaard, moet u het project ](/help/analysis-workspace/build-workspace-project/save-projects.md) bewaren [ alvorens commentaren toe te voegen.
 
 
 ![ commentaren van de Mening in Analysis Workspace ](assets/workspace-comments-view.png)
 
 ### Opmerkingen weergeven in het gebied Opmerkingen
 
-Alle opmerkingen die in een Analysis Workspace-project zijn gemaakt, zijn zichtbaar in het commentaargebied op de rechterspoorlijn.
+Alle opmerkingen die in een Analysis Workspace-project zijn gemaakt, zijn zichtbaar in het commentaargebied op de rechterspoorlijn. Het totale aantal bestaande opmerkingen wordt weergegeven op het pictogram Opmerkingen.
 
 1. Standaard wordt het gebied met opmerkingen voor elk project in Analysis Workspace uitgebreid wanneer u een project voor de eerste keer opent.
 
@@ -131,13 +131,15 @@ Een andere persoon in uw opmerking opnemen:
 
 ## Een opmerking beantwoorden
 
-1. Met het project open in Analysis Workspace, selecteer het pictogram van het het gebiedsdeel van commentaren ![ pictogram van het Gebied van Commentaren ](/help/assets/icons/Comment.svg) in het juiste spoor van Analysis Workspace.
+1. Open in Analysis Workspace het project waaraan u een opmerking wilt toevoegen.
 
-1. Selecteer **[!UICONTROL Reply]** naast de opmerking waarop u wilt reageren.
+1. Selecteer het pictogram van het commentaargebied ![ het gebiedspictogram van Commentaren ](/help/assets/icons/Comment.svg) in het juiste spoor van Analysis Workspace, dan uitgezocht **[!UICONTROL Reply]** naast de commentaar u wilt antwoorden aan.
+
+   Als u de tekst wilt opnemen van de opmerking waarop u antwoordt en de oorspronkelijke tekst in een aanhalingsteken staat, selecteert u het pictogram met drie punten naast de specifieke opmerking of het antwoord waarop u wilt reageren en selecteert u vervolgens **[!UICONTROL Quote reply]** . Een citaatantwoord is een goede manier om aan te geven naar welke opmerking of welk antwoord uw opmerking verwijst.
 
    of
 
-   Als u de tekst wilt opnemen van de opmerking waarop u antwoordt en de oorspronkelijke tekst in een aanhalingsteken staat, selecteert u het pictogram met drie punten naast de specifieke opmerking of het antwoord waarop u wilt reageren en selecteert u vervolgens **[!UICONTROL Quote reply]** . Een citaatantwoord is een goede manier om aan te geven naar welke opmerking of welk antwoord uw opmerking verwijst.
+   Selecteer het opmerkingspictogram in het deelvenster of in de visualisatie waar de opmerking is gemaakt en selecteer vervolgens **[!UICONTROL Reply]** .
 
 1. Geef in het veld **[!UICONTROL New comment]** uw opmerking op.
 
@@ -149,9 +151,9 @@ Een andere persoon in uw opmerking opnemen:
 
 ## Meldingen ontvangen over opmerkingen
 
-De eigenaars van het project en [ specifieke mensen u ](#include-others-in-a-comment) noemt ontvangen berichten die op hun het berichtmontages van Adobe Experience Cloud worden gebaseerd. Door gebrek, ontvangen zij een in-app bericht, zichtbaar van het [ het bericht van Experience Cloud ](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/account-preferences#view-notifications) pictogram ![ het berichtpictogram van Experience Cloud ](assets/experience-cloud-notification.svg) in Customer Journey Analytics.
+De eigenaars van het project en [ specifieke mensen u ](#include-others-in-a-comment) noemt ontvangen berichten die op hun het berichtmontages van Adobe Experience Cloud worden gebaseerd. Door gebrek, ontvangen zij een in-app bericht, zichtbaar van het [ het bericht van Experience Cloud ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications) pictogram ![ het berichtpictogram van Experience Cloud ](assets/experience-cloud-notification.svg) in Customer Journey Analytics.
 
-Bovendien, kunnen de mensen hun het berichtmontages van Experience Cloud vormen om e-mailberichten en de berichten van Slack te ontvangen door [ te abonneren aan e-mailberichten ](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) en [ het intekenen aan de berichten van Slack ](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/account-preferences#slack).
+Bovendien, kunnen de mensen hun het berichtmontages van Experience Cloud vormen om e-mailberichten en de berichten van Slack te ontvangen door [ te abonneren aan e-mailberichten ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) en [ het intekenen aan de berichten van Slack ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack).
 
 ## Een badge voor een bestaande opmerking plaatsen
 
