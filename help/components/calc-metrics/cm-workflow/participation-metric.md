@@ -3,7 +3,7 @@ description: Met de Berekende metrische bouwer, kan iedereen een participatie me
 title: Deelnemings-metrisch
 feature: Calculated Metrics
 exl-id: 0d102f0f-3bcc-4f3a-93d2-c2b991c636cb
-source-git-commit: 65eafd65358d9370b452338ce1036e59b3c69d1a
+source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -16,14 +16,14 @@ De metriek van de participatie wordt gebruikt om te kwantificeren hoe de individ
 
 >[!NOTE]
 >
->De beheerders kunnen metriek met niet-gebrek attributiemodellen, zoals Deelname, als deel van a [ gegevensmening ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/data-views) tot stand brengen. Zie {de componentenmontages van 0} Attributie [&#128279;](../../../data-views/component-settings/attribution.md) voor meer details.
+>De beheerders kunnen metriek met niet-gebrek attributiemodellen, zoals Deelname, als deel van a [ gegevensmening ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views) tot stand brengen. Zie {de componentenmontages van 0} Attributie ](../../../data-views/component-settings/attribution.md) voor meer details.[
 
 De stappen tonen hieronder hoe om het even welke gebruiker met [ berekende metrische toestemming ](/help/technotes//access-control.md#user-level-access) kan tot een metrische participatie leiden.
 
 1. [ creeer een berekende metrische ](cm-workflow.md), en in [ Berekende metrieke bouwer ](cm-build-metrics.md), noem metrisch `Participation` of iets gelijkaardig.
 1. Sleep een metrische waarde met een succesgebeurtenis, bijvoorbeeld [!DNL Orders] , naar het [!UICONTROL **[!UICONTROL Definition]**] -gebied.
 1. Selecteer ![ Vistuig ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) voor metrisch.
-1. In popup die verschijnt, selecteer **[!UICONTROL Use a non-default attribution model]** om het [ attributiemodel ](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md) van die gebeurtenis aan **[!UICONTROL Participation]** te bepalen en **[!UICONTROL Session]** voor [!UICONTROL Lookback window] te selecteren. Selecteer **[!UICONTROL Apply]** om te bevestigen.
+1. In popup die verschijnt, selecteer **[!UICONTROL Use a non-default attribution model]** om het [ attributiemodel ](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md) van die gebeurtenis aan **[!UICONTROL Participation]** te bepalen en **[!UICONTROL Session]** voor [!UICONTROL Container] te selecteren. Selecteer **[!UICONTROL Apply]** om te bevestigen.
 
 
    ![ popup die van de de attributie van de Kolom als model en Zitting wordt geselecteerd voor venster van de Lookback.](assets/participation-setup.png)

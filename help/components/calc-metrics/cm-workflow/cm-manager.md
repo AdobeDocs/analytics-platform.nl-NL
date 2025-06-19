@@ -3,9 +3,9 @@ description: Met de functie Berekende metrische elementen kunt u bestanden delen
 title: Berekende metrische manager
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ U kunt berekende metriek delen, filteren, labelen, goedkeuren, hernoemen, kopië
 Het Berekende manager van metriek heeft de volgende interfaceelementen:
 
 
-![ de interface van Filters ](assets/calculated-metrics-manager.png)
+![ Berekende interface van de metriekmanager ](assets/calculated-metrics-manager.png)
 
-### Filterlijst
+### Lijst met berekende metriek
 
-In de lijst met filters ➊ worden alle berekende metriek weergegeven die u bezit of die met u hebt gedeeld. De lijst heeft de volgende kolommen:
+In de lijst met berekende metriek ➊ worden alle berekende metriek weergegeven die u bezit of die met u hebt gedeeld. De lijst heeft de volgende kolommen:
 
 <!-- I think this table incorrectly talks about quick calculated metrics -->
 
