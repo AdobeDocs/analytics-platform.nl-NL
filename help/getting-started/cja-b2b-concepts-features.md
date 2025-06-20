@@ -6,9 +6,9 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
+source-git-commit: 68f2fe684f6eb9590ab047e893fb04b1cbe1a8cd
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1469'
 ht-degree: 0%
 
 ---
@@ -60,8 +60,8 @@ De hiërarchie en de relaties tussen de containers zijn vooraf bepaald. Opportun
 
 >[!IMPORTANT]
 >
->* Als u **&#x200B;**&#x200B;de Globale container van de Rekening in een op rekening-gebaseerde verbinding hebt toegelaten, zou elk verslag in uw gebeurtenisdatasets een identiteitskaart van de Rekening en Globale identiteitskaart van de Rekening moeten bevatten. Als dat niet het geval is, wordt de record overgeslagen.
->* Als u **&#x200B;**&#x200B;niet de Globale container van de Rekening in een op rekening-gebaseerde verbinding hebt toegelaten, zou elk verslag in uw gebeurtenisdatasets een identiteitskaart van de Rekening moeten bevatten. Als dat niet het geval is, wordt de record overgeslagen.
+>* Als u **** de Globale container van de Rekening in een op rekening-gebaseerde verbinding hebt toegelaten, zou elk verslag in uw gebeurtenisdatasets een identiteitskaart van de Rekening en Globale identiteitskaart van de Rekening moeten bevatten. Als dat niet het geval is, wordt de record overgeslagen.
+>* Als u **** niet de Globale container van de Rekening in een op rekening-gebaseerde verbinding hebt toegelaten, zou elk verslag in uw gebeurtenisdatasets een identiteitskaart van de Rekening moeten bevatten. Als dat niet het geval is, wordt de record overgeslagen.
 
 U kunt de B2B-containers gebruiken voor specifieke B2B-functionaliteit in Analysis Workspace:
 
@@ -98,7 +98,7 @@ Een voorbeeld van een op een account gebaseerde verbinding in de Customer Journe
 Customer Journey Analytics B2B edition biedt de [ kaartinterface van de Verbinding ](/help/connections/create-connection.md#connection-map) aan om u van een overzicht van het verband tussen datasets in uw verbinding te voorzien.
 
 
-Net als in Customer Journey Analytics staan tijdreeksgegevens voor gebeurtenissen centraal in Customer Journey Analytics B2B edition. Het belangrijkste verschil voor een op rekening-gebaseerde verbinding is dat u een rekeningidentiteitskaart op elk verslag in uw gebeurtenisdataset in plaats van persoonsidentiteitskaart nodig hebt.
+Net als in Customer Journey Analytics staan tijdreeksgegevens voor gebeurtenissen centraal in Customer Journey Analytics B2B edition. Het belangrijkste verschil voor een op rekening-gebaseerde verbinding is dat u een rekeningsidentiteitskaart op elk verslag in uw gebeurtenisdataset in plaats van persoonsidentiteitskaart nodig hebt.
 
 Wanneer u [ datasetmontages ](/help/connections/create-connection.md#dataset-settings) voor uw op rekening-gebaseerde verbinding in Customer Journey Analytics B2B edition vormt, hangen de opties beschikbaar voor sommige montages van het [ datasettype ](/help/connections/create-connection.md#dataset-types) af. U moet bijvoorbeeld:
 
@@ -121,5 +121,5 @@ Als een recorddataset een gelijke door gebied gebruikt, wordt de recorddataset b
 
 ## Rapport over op personen en rekeningen gebaseerde gegevens
 
-Als u op persoon-gebaseerde containers (en persoonsidentiteiten) en op rekening-gebaseerde containers (en rekeningsidentiteiten) wilt rapporteren, zou u twee afzonderlijke verbinding binnen Customer Journey Analytics moeten opzetten. Bij één verbinding selecteert u Persoon als primaire id en bij één verbinding selecteert u Account als primaire id. Customer Journey Analytics biedt geen ondersteuning voor persoonlijke en op account gebaseerde rapportage vanuit één containerhiërarchie.
+Als u op persoon-gebaseerde containers (en persoonsidentiteiten) en op rekening-gebaseerde containers (en rekeningsidentiteiten) wilt rapporteren, zou u twee afzonderlijke verbinding binnen Customer Journey Analytics moeten opzetten. Eén verbinding waarbij u Person als primaire id selecteert, en één verbinding waarbij u Account als primaire id selecteert. Customer Journey Analytics biedt geen ondersteuning voor persoonlijke en op account gebaseerde rapportage vanuit één containerhiërarchie.
 
