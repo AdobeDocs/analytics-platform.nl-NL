@@ -4,9 +4,9 @@ title: Metrics
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
+source-git-commit: ec2fc88372814b01a04d4cc824181222ee55a83d
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -49,13 +49,6 @@ U kunt zien of metrisch wordt goedgekeurd ![ Goedgekeurd pictogram ](https://spe
 De volledige lijst van standaardmetriek in Customer Journey Analytics:
 {{standard-metrics}}
 
-## Metrische gegevens vergelijken met verschillende attribuutmodellen
-
-Als u het ene attributiemodel snel wilt vergelijken met het andere voor een metrische waarde, selecteert u **[!UICONTROL Compare attribution models]** in het contextmenu voor een metrische waarde.
-
-![ het paneel dat van Workspace het benadrukken vergelijkt attributiemodellen ](assets/compare-attribution.png)
-
-Met deze sneltoets kunt u het ene attributiemodel vergelijken met het andere zonder dat u het twee keer hoeft te slepen en te configureren.
 
 ## Berekende waarden maken
 
@@ -65,9 +58,7 @@ Er zijn verschillende manieren om berekende metriek te maken. De methode u kiest
 
 ### Berekende waarden maken voor alle projecten
 
-U kunt de berekende metrische bouwer gebruiken om berekende metriek tot stand te brengen. Wanneer gecreeerd op deze manier, zijn de berekende metriek beschikbaar in de componentenlijst en kunnen dan in projecten door uw organisatie worden gebruikt.
-
-Voor informatie over hoe te om tot de berekende metriebouwer toegang te hebben, zie [ berekende metriek ](/help/components/calc-metrics/cm-workflow/cm-workflow.md) creëren.
+U kunt de [ berekende metrische bouwer ](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) gebruiken [ berekende metriek ](/help/components/calc-metrics/cm-workflow/cm-workflow.md) creëren. Wanneer gecreeerd op deze manier, zijn de berekende metriek beschikbaar in de componentenlijst en kunnen dan in projecten door uw organisatie worden gebruikt.
 
 ### Berekende waarden maken voor één project
 
@@ -113,6 +104,13 @@ Om berekende metrisch voor één enkel project tot stand te brengen:
 
    * [!UICONTROL **de verandering van de Percentage**]: Creeert een nieuwe kolom die de percentageverandering tussen de twee geselecteerde kolommen toont.
 
-[ Berekende Metriek: Implementatie-minder metriek ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=nl-NL) (3:42)
+
+## Metrische gegevens vergelijken met verschillende attribuutmodellen
+
+Als u het ene attributiemodel snel wilt vergelijken met het andere voor een metrische waarde, selecteert u **[!UICONTROL Compare attribution models]** in het contextmenu voor een metrische waarde.
+
+![ het paneel dat van Workspace het benadrukken vergelijkt attributiemodellen ](assets/compare-attribution.png)
+
+Met deze sneltoets kunt u het ene attributiemodel vergelijken met het andere zonder dat u het twee keer hoeft te slepen en te configureren.
 
 

@@ -3,9 +3,9 @@ description: De Berekende Bouwer van Metriek verstrekt een canvas om Afmetingen,
 title: Berekende maatstaven samenstellen
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: ef97b36a95e5f39f7436f5e21861d1ee5a0338dd
+source-git-commit: ec2fc88372814b01a04d4cc824181222ee55a83d
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: '1466'
 ht-degree: 0%
 
 ---
@@ -16,34 +16,18 @@ ht-degree: 0%
 >id="components_calculatedmetrics_productcompatibility"
 >title="Productcompatibiliteit"
 >abstract="Geeft aan waar in Customer Journey Analytics deze berekende metrische waarde kan worden gebruikt, zoals in Analysis Workspace, Report Builder enzovoort. Sommige berekende metriek kunnen niet met experimenteren worden gebruikt."
->additional-url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="Berekende meetwaarden gebruiken in experimenten"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="Berekende meetwaarden gebruiken in experimenten"
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_externalid"
 >title="Externe id"
 >abstract="Het veranderen van Externe identiteitskaart zou kunnen beïnvloeden hoe berekende metrisch in externe bronnen zoals bedrijfsintelligentiegereedschappen verschijnt"
 
-<!-- markdownlint-enable MD034 -->
-
 Customer Journey Analytics biedt een canvas voor het slepen en neerzetten van dimensies, metriek, segmenten en functies om aangepaste metrische gegevens te maken op basis van logica in de containerhiërarchie, regels en operatoren. Met dit geïntegreerde ontwikkelprogramma kunt u eenvoudige of complexe berekende meetgegevens maken en opslaan.
-
-## Beginnen met het bouwen van een berekende metrische waarde
 
 U kunt de berekende metrische bouwer gebruiken om berekende metriek tot stand te brengen of uit te geven. Wanneer gecreeerd op deze manier, zijn de berekende metriek beschikbaar in de componentenlijst en kunnen dan in projecten door uw organisatie worden gebruikt. Alternatief, kunt u snel berekende metrisch tot stand brengen die slechts voor het project beschikbaar is waar het werd gecreeerd, zoals die in [ wordt beschreven creeer berekende metriek voor één enkel project ](/help/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) in [ Metriek ](/help/components/apply-create-metrics.md).
 
-Heb toegang tot de berekende metrische bouwer beginnen creërend berekende metrisch die in de componentenlijst beschikbaar is.
-
-1. Heb toegang tot de berekende metrische bouwer op om het even welke volgende manieren:
-
-   * Open in Analysis Workspace een project en selecteer vervolgens **[!UICONTROL Components]** > **[!UICONTROL Create metric]** .
-   * In Analysis Workspace, open een project, dan selecteer **plus** pictogram naast de [!UICONTROL **sectie van Metriek**] in de linkerspoorlijn.
-   * Ga in [!DNL Customer Journey Analytics] naar **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]** en selecteer vervolgens **[!UICONTROL + Add]** boven aan de pagina Berekende meetgegevens.
-
-1. Ga met [ Gebieden van de berekende metrische bouwer ](#areas-of-the-calculated-metrics-builder) verder.
+[ creeer berekende metrisch ](cm-workflow.md) beschrijft de verschillende opties beschikbaar om nieuwe berekende metrisch tot stand te brengen.
 
 ## Gebieden van de berekende metriebouwer
 
@@ -55,7 +39,7 @@ Het dialoogvenster **[!UICONTROL Calculated metric builder]** wordt gebruikt om 
 
 ![ Berekend metrisch detailsvenster dat gebieden en opties toont die in de volgende sectie worden beschreven.](assets/calculated-metric-builder.png)
 
->[!TAB creeer of geef berekend metrisch  uit]
+>[!TAB  creeer of geef berekend metrisch ] uit
 
 ![ Berekend metrisch detailsvenster dat gebieden en opties toont die in de volgende sectie worden beschreven.](assets/create-edit-calculated-metric.png)
 
@@ -205,7 +189,7 @@ Zie [ functies van het Gebruik ](cm-using-functions.md) voor details op hoe te o
 
 Een algemene container toevoegen:
 
-* Selecteer ![&#128279;](/help/assets/icons/AddCircle.svg) AddCircle **[!UICONTROL Add]** van binnen een container
+* Selecteer ](/help/assets/icons/AddCircle.svg) AddCircle **[!UICONTROL Add]** van binnen een container![
 * Selecteer **[!UICONTROL Container]** . Er wordt een nieuwe lege generieke container toegevoegd aan de **[!UICONTROL Definition]** . U kunt een generische container gebruiken om een hiërarchie in de definitie van uw berekende metrisch te nesten of tot stand te brengen.
 
 
@@ -216,5 +200,5 @@ Om een container te schrappen, selecteer ![ dicht ](/help/assets/icons/Close.svg
 >[!MORELIKETHIS]
 >
 >[Functies gebruiken](cm-using-functions.md)
->&#x200B;>[Segmenten ](/help/components/segments/seg-overview.md)
+>>[Segmenten ](/help/components/segments/seg-overview.md)
 >
