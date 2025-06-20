@@ -65,7 +65,7 @@ Nadat u veranderingen in de uitbreiding van Adobe Content Analytics aanbrengt, v
 >[!MORELIKETHIS]
 >
 >[ Geleide configuratie ](guided.md)
->>[Overzicht van de Codes voor gegevensverzameling ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)
+>&#x200B;>[Overzicht van de Codes voor gegevensverzameling ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)
 >
 
 
