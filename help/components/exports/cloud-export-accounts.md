@@ -5,16 +5,16 @@ title: Cloudexportaccounts configureren
 feature: Components
 exl-id: 7c9d100f-0dbd-4dd2-b20b-d2ee117f1b7a
 role: User, Admin
-source-git-commit: cb4c2721867585fd11c0929f0947436872272da6
+source-git-commit: 882e280da3f65e297abccd475d381832fd236843
 workflow-type: tm+mt
-source-wordcount: '2214'
+source-wordcount: '2230'
 ht-degree: 0%
 
 ---
 
 # Cloudexportaccounts configureren
 
-Alvorens u de rapporten van de Customer Journey Analytics naar een wolkenbestemming kunt uitvoeren zoals die in [ worden beschreven de rapporten van de Customer Journey Analytics van de Uitvoer aan de wolk ](/help/analysis-workspace/export/export-cloud.md), moet u de bestemming toevoegen en vormen waar u de gegevens wilt worden verzonden.
+Alvorens u de rapporten van Customer Journey Analytics naar een wolkenbestemming (of van Analysis Workspace, zoals die in [ worden beschreven de rapporten van Customer Journey Analytics van de Uitvoer naar de wolk ](/help/analysis-workspace/export/export-cloud.md) of van Report Builder, zoals die in [ de rapporten van de Uitvoer van Report Builder ](/help/report-builder/report-builder-export.md) worden beschreven) uitvoeren, moet u de bestemming toevoegen en vormen waar u de gegevens wilt worden verzonden.
 
 Dit proces bestaat uit het toevoegen van en het vormen van de rekening (zoals Amazon S3, het Platform van de Wolk van Google, etc.) zoals die in dit artikel wordt beschreven, en dan het toevoegen van en het vormen van de plaats binnen die rekening (zoals een omslag binnen de rekening) zoals die in [ wordt beschreven vormt wolkenuitvoerplaatsen ](/help/components/exports/cloud-export-locations.md).
 
@@ -34,7 +34,7 @@ Voor informatie over hoe te om bestaande rekeningen, met inbegrip van het bekijk
 
 1. Op het [!UICONTROL **de rekeningsnaam van de Plaats**] gebied, specificeer een naam voor de plaatsrekening. Deze naam wordt weergegeven wanneer u een locatie maakt.
 
-1. Op het **gebied van de de rekeningsbeschrijving van de Plaats 0&rbrace;, verstrek een korte beschrijving van de rekening helpen het van andere rekeningen van het zelfde rekeningtype onderscheiden.**
+1. Op het **]gebied van de de rekeningsbeschrijving van de Plaats 0}, verstrek een korte beschrijving van de rekening helpen het van andere rekeningen van het zelfde rekeningtype onderscheiden.[!UICONTROL **
 
 1. Laat de optie toe om rekening [!UICONTROL **ter beschikking te stellen van alle gebruikers in uw organisatie**] als u andere gebruikers in uw organisatie wilt toestaan om de rekening te gebruiken.
 
@@ -50,7 +50,7 @@ Voor informatie over hoe te om bestaande rekeningen, met inbegrip van het bekijk
 
 1. Ga met de sectie hieronder verder die aan het [!UICONTROL **type van Rekening**] beantwoordt u selecteerde.
 
-   * [AEP gegevenslandingszone](#aep-data-landing-zone)
+   * [AEP Data Landing Zone](#aep-data-landing-zone)
 
    * [Amazon S3 Role ARN](#amazon-s3-role-arn)
 
@@ -62,14 +62,14 @@ Voor informatie over hoe te om bestaande rekeningen, met inbegrip van het bekijk
 
    * [Snowflake](#snowflake)
 
-### AEP gegevenslandingszone
+### AEP Data Landing Zone
 
 >[!IMPORTANT]
 >
 >Houd rekening met het volgende wanneer u AEP Data Landing Zone gebruikt voor uw exportaccount:
 >
-> * Wanneer het uitvoeren van de rapporten van de Customer Journey Analytics aan de Landing Zone van Adobe Experience Platform Gegevens, zorg ervoor dat u de gegevens binnen 7 dagen downloadt, dan schrapt het uit de Gebied van Gegevens AEP. Na 7 dagen worden de gegevens automatisch verwijderd uit de AEP Data Landing Zone.
-> * AEP Data Landing Zone gebruikt opslag in Azure of AWS. Als uw organisatie een login die bedrijf gebruikt wordt wordt gevormd om Azure te gebruiken, dan gebruikt de Streek van de Landing van Gegevens AEP Azure. Als het login bedrijf wordt gevormd om AWS te gebruiken, dan gebruikt de Gebieden van de Gegevens AEP AWS.
+> * Wanneer u Customer Journey Analytics-rapporten exporteert naar Adobe Experience Platform Data Landing Zone, moet u de gegevens binnen 7 dagen downloaden en vervolgens verwijderen uit AEP Data Landing Zone. Na 7 dagen worden de gegevens automatisch verwijderd uit AEP Data Landing Zone.
+> * AEP Data Landing Zone gebruikt Azure- of AWS-opslag. Als uw organisatie een aanmeldingsbedrijf gebruikt dat is geconfigureerd om Azure te gebruiken, gebruikt de AEP Data Landing Zone Azure. Als het login bedrijf wordt gevormd om AWS te gebruiken, dan gebruikt de Gebieden van de Gegevens van AEP AWS.
 >
 
 1. Ga op een van de volgende manieren te werk om een cloud-exportaccount te maken:
@@ -80,7 +80,7 @@ Voor informatie over hoe te om bestaande rekeningen, met inbegrip van het bekijk
 
 1. Nadat u **[!UICONTROL AEP Data Landing Zone]** op het **[!UICONTROL Account type]** gebied selecteert, uitgezocht [!UICONTROL **sparen**].
 
-   Elk van de volgende dialoogvensters wordt weergegeven, afhankelijk van het feit of uw AEP Data Landing Zone is geconfigureerd voor gebruik van Azure- of AWS-opslag:
+   Afhankelijk van of uw AEP Data Landing Zone is geconfigureerd voor gebruik van Azure- of AWS-opslag, worden de volgende dialoogvensters weergegeven:
 
    * **Azure opslag:**
 
@@ -92,7 +92,7 @@ Voor informatie over hoe te om bestaande rekeningen, met inbegrip van het bekijk
 
      >[!AVAILABILITY]
      >
-     >Deze sectie is van toepassing op implementaties van Experience Platform dat op Amazon Web Services (AWS) loopt. Experience Platform dat op AWS wordt uitgevoerd, is momenteel beschikbaar voor een beperkt aantal klanten. Meer over de gesteunde infrastructuur van het Experience Platform leren, zie het [ Experience Platform multi-cloud overzicht ](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/multi-cloud).
+     >Deze sectie is van toepassing op implementaties van Experience Platform die op Amazon Web Services (AWS) worden uitgevoerd. Experience Platform die op AWS wordt uitgevoerd, is momenteel beschikbaar voor een beperkt aantal klanten. Meer over de gesteunde infrastructuur van Experience Platform leren, zie het [ multi-wolkenoverzicht van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud).
 
      De [!UICONTROL **gecreeerde Rekening**] dialoogvertoningen.
 
@@ -108,13 +108,13 @@ Voor informatie over hoe te om bestaande rekeningen, met inbegrip van het bekijk
 
       >[!NOTE]
       >
-      >Als u een AEP Data Landing Zone-account gebruikt die is gebaseerd op Azure, kunt u het eenvoudigst rapporten openen die u exporteert naar AEP Data Landing Zone door de Azure Storage Explorer te gebruiken. In de volgende stappen wordt deze methode gebruikt.
+      >Als u een AEP Data Landing Zone-account gebruikt die is gebaseerd op Azure, kunt u rapporten die u exporteert naar AEP Data Landing Zone het gemakkelijkst openen met de Azure Storage Explorer. In de volgende stappen wordt deze methode gebruikt.
 
       1. Als u niet reeds hebt, download [ Microsoft Azure de Ontdekkingsreiziger van de Opslag ](https://azure.microsoft.com/en-us/products/storage/storage-explorer/).
 
-      1. In de documentatie van Adobe Experience Platform, volg de stappen die in [ worden beschreven verbinden uw container van de Gebieden van Gegevens aan de Verkenner van de Opslag Azure ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=nl-NL#connect-your-data-landing-zone-container-to-azure-storage-explorer).
+      1. In de documentatie van Adobe Experience Platform, volg de stappen die in [ worden beschreven verbinden uw container van de Gebieden van Gegevens aan de Verkenner van de Opslag Azure ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#connect-your-data-landing-zone-container-to-azure-storage-explorer).
 
-         U kunt de taken overslaan die in de secties [ worden beschreven terugwinnen de geloofsbrieven voor uw Gegevens het Landing Zone ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=nl-NL#retrieve-dlz-credentials) en [ Gegevens het Landing van de Zone van de Update geloofsbrieven ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=nl-NL#update-dlz-credentials), omdat URI die u kopieerde deze geloofsbrieven bevat.
+         U kunt de taken overslaan die in de secties [ worden beschreven terugwinnen de geloofsbrieven voor uw Gegevens het Landing Zone ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#retrieve-dlz-credentials) en [ Gegevens het Landing van de Zone van de Update geloofsbrieven ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#update-dlz-credentials), omdat URI die u kopieerde deze geloofsbrieven bevat.
 
       1. Wanneer het volgen van de documentatie van Adobe Experience Platform en u aan het [!UICONTROL **de containerSAS URL van de Blob**] gebied komt, kleef SAS URI die u in Stap 3 kopieerde.
 
@@ -162,7 +162,7 @@ Voor informatie over hoe te om bestaande rekeningen, met inbegrip van het bekijk
 
    | Veld | Functie |
    |---------|----------|
-   | [!UICONTROL **ARN van de Rol**] | U moet een Rol ARN (de Naam van het Middel van Amazon) verstrekken die de Adobe kan gebruiken om toegang tot de rekening van Amazon S3 te krijgen. Om dit te doen, creeert u een IAM toestemmingsbeleid voor de bronrekening, maakt het beleid aan een gebruiker vast, en creeert dan een rol voor de bestemmingsrekening. Voor specifieke informatie, zie [ deze documentatie van AWS ](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
+   | [!UICONTROL **ARN van de Rol**] | U moet een Role ARN (de Naam van het Middel van Amazon) verstrekken die Adobe kan gebruiken om tot de rekening van Amazon S3 toegang te krijgen. Om dit te doen, creeert u een IAM toestemmingsbeleid voor de bronrekening, maakt het beleid aan een gebruiker vast, en creeert dan een rol voor de bestemmingsrekening. Voor specifieke informatie, zie [ deze documentatie van AWS ](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
 
    {style="table-layout:auto"}
 
@@ -172,7 +172,7 @@ Voor informatie over hoe te om bestaande rekeningen, met inbegrip van het bekijk
 
    ![ de rekening van de Uitvoer creeerde dialoog Amazon S3 Rol ARN ](assets/export-account-amazons3.png)
 
-1. Kopieer de inhoud van het [!UICONTROL **ARN van de Gebruiker**] gebied aan uw klembord. De Gebruiker ARN (de Naam van het Middel van Amazon) wordt verstrekt door Adobe. U moet deze gebruiker aan het beleid vastmaken u in Amazon S3 RolARN creeerde.
+1. Kopieer de inhoud van het [!UICONTROL **ARN van de Gebruiker**] gebied aan uw klembord. De User ARN (Amazon Resource Name) wordt opgegeven door Adobe. U moet deze gebruiker aan het beleid vastmaken u in Amazon S3 RolARN creeerde.
 
 1. Selecteer [!UICONTROL **O.K.**].
 
@@ -280,9 +280,9 @@ Voor informatie over hoe te om bestaande rekeningen, met inbegrip van het bekijk
 
    | Veld | Functie |
    |---------|----------|
-   | [!UICONTROL **identiteitskaart van de Rekening**] | Identificeer uniek een rekening van de Snowflake binnen uw organisatie, evenals door het wereldwijde netwerk van Snowflake-gesteunde wolkenplatforms en wolkengebieden. <p>U moet de account-id ophalen van uw Snowflake-account en de gegevens hier plakken.</p><p>Leren waar te om deze informatie te krijgen, zie de [ pagina van de Identificatienummers van de Rekening in de documentatie van de Snowflake ](https://docs.snowflake.com/en/user-guide/admin-account-identifier).</p> |
-   | [!UICONTROL **Gebruiker**] | De aanmeldnaam van de gebruiker die wordt gebruikt voor de verbinding. We raden u aan een nieuwe gebruiker te maken die specifiek voor Adobe wordt gebruikt. Geef hier de naam op en maak vervolgens een gebruiker in de Snowflake met dezelfde naam. U kunt een gebruiker in Snowflake tot stand brengen gebruikend het `CREATE USER` bevel.  <p>Voor meer informatie, zie de [ Gebruiker, Rol, &amp; Bevelen van de Voorrechten ](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
-   | [!UICONTROL **Rol**] | De rol die aan de gebruiker zal worden toegewezen. We raden u aan een nieuwe rol te creëren die specifiek voor Adobe zal worden gebruikt. Specificeer hier de rol, creeer dan een rol in Snowflake met de zelfde naam en geef de rol aan de gebruiker. U kunt een rol in Snowflake tot stand brengen gebruikend het `CREATE ROLE` bevel. <p>Voor meer informatie, zie de [ Gebruiker, Rol, &amp; Bevelen van de Voorrechten ](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
+   | [!UICONTROL **identiteitskaart van de Rekening**] | Uniquely identificeert een Snowflake-account binnen uw organisatie, maar ook in het wereldwijde netwerk van door Snowflake ondersteunde cloudplatforms en -regio&#39;s. <p>U moet de account-id ophalen van uw Snowflake-account en de gegevens hier plakken.</p><p>Om te leren waar te om deze informatie te krijgen, zie de [ pagina van de Identificatienummers van de Rekening in de documentatie van Snowflake ](https://docs.snowflake.com/en/user-guide/admin-account-identifier).</p> |
+   | [!UICONTROL **Gebruiker**] | De aanmeldnaam van de gebruiker die wordt gebruikt voor de verbinding. We raden u aan een nieuwe gebruiker te maken die specifiek voor Adobe wordt gebruikt. Geef hier de naam op en maak vervolgens in Snowflake een gebruiker met dezelfde naam. U kunt in Snowflake een gebruiker maken met de opdracht `CREATE USER` .  <p>Voor meer informatie, zie de [ Gebruiker, Rol, &amp; Bevelen van de Voorrechten ](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
+   | [!UICONTROL **Rol**] | De rol die aan de gebruiker zal worden toegewezen. We raden u aan een nieuwe rol te creëren die specifiek voor Adobe zal worden gebruikt. Geef hier de rol op en maak vervolgens een rol in Snowflake met dezelfde naam en geef de rol aan de gebruiker. U kunt een rol in Snowflake maken met de opdracht `CREATE ROLE` . <p>Voor meer informatie, zie de [ Gebruiker, Rol, &amp; Bevelen van de Voorrechten ](https://docs.snowflake.com/en/sql-reference/commands-user-role).</p> |
 
    {style="table-layout:auto"}
 
@@ -292,9 +292,9 @@ Voor informatie over hoe te om bestaande rekeningen, met inbegrip van het bekijk
 
    ![ gecreeerde de rekening van de Uitvoer dialoog ](assets/export-account-snowflake.png)
 
-1. Kopieer de inhoud van het [!UICONTROL **Openbare zeer belangrijke**] gebied aan uw klembord. De openbare sleutel wordt verstrekt door Adobe.
+1. Kopieer de inhoud van het [!UICONTROL **Openbare zeer belangrijke**] gebied aan uw klembord. De openbare sleutel wordt geleverd door Adobe.
 
-   Gebruik de openbare sleutel in Snowflake om met uw rekening van de Snowflake te verbinden. U moet de gebruiker associëren die u met deze openbare sleutel creeerde.
+   Gebruik de openbare sleutel in Snowflake om verbinding te maken met uw Snowflake-account. U moet de gebruiker associëren die u met deze openbare sleutel creeerde.
 
    Geef bijvoorbeeld in Snowflake de volgende opdracht op:
 
@@ -302,7 +302,7 @@ Voor informatie over hoe te om bestaande rekeningen, met inbegrip van het bekijk
    CREATE USER <your_adobe_user> RSA_PUBLIC_KEY = '<your_public_key>';
    ```
 
-   Voor meer informatie, zie de [ Zeer belangrijke pagina van de Authentificatie van het Paar &amp; van de Omwenteling van het Zeer belangrijke Paar in de documentatie van de Snowflake ](https://docs.snowflake.com/en/user-guide/key-pair-auth).
+   Voor meer informatie, zie de [ Zeer belangrijke pagina van de Authentificatie van het Paar &amp; van de Omwenteling van het Zeer belangrijke Paar in de documentatie van Snowflake ](https://docs.snowflake.com/en/user-guide/key-pair-auth).
 
 1. Selecteer [!UICONTROL **O.K.**].
 
