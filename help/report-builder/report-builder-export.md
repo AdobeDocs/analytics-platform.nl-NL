@@ -59,7 +59,7 @@ Rapporten exporteren uit Report Builder:
 
    Om het werkboek op een programma uit te voeren dat u reeds creeerde, selecteer het programma van de lijst van programma&#39;s, dan uitgezocht **[!UICONTROL Send on schedule]**.
 
-1. In het **]juiste paneel van Adobe Report Builder[!UICONTROL ** {, specificeer de volgende informatie verder creërend een nieuw programma:
+1. In het **juiste paneel van Adobe Report Builder** &lbrace;, specificeer de volgende informatie verder creërend een nieuw programma:
 
    | Veldnaam | Functie |
    |---------|----------|
