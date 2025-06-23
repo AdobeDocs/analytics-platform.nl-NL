@@ -5,9 +5,9 @@ role: User, Admin
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
-source-git-commit: 9505f21748b3d94b2398f898e5399d095ccec260
+source-git-commit: e653cbe7c1955d04830b9ed9ff6399973036ab64
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Rapporten exporteren uit Report Builder:
 
    Om het werkboek op een programma uit te voeren dat u reeds creeerde, selecteer het programma van de lijst van programma&#39;s, dan uitgezocht **[!UICONTROL Send on schedule]**.
 
-1. In het **juiste paneel van Adobe Report Builder** &lbrace;, specificeer de volgende informatie verder creërend een nieuw programma:
+1. In het **]juiste paneel van Adobe Report Builder[!UICONTROL ** {, specificeer de volgende informatie verder creërend een nieuw programma:
 
    | Veldnaam | Functie |
    |---------|----------|
@@ -119,12 +119,6 @@ Zorg ervoor dat uw gegevensblokken, uw omgeving, en uw toestemmingen aan de volg
 * **blokken van Gegevens:** Alle gegevensblokken moeten minstens één component aan een kolom, een rij, of een waarde omvatten.
 
 * **Milieu:** zorg ervoor dat de [ IP adressen ](/help/technotes/ip-addresses.md) en [ Domeinen ](/help/technotes/domains.md) die door Customer Journey Analytics worden gebruikt door de firewall van hun organisatie worden toegestaan.
-
-* **Toestemmingen:** in Adobe Admin Console, moeten de gebruikers een productprofiel worden toegewezen dat de [!UICONTROL **Volledige die toestemming heeft van de Uitvoer van de Lijst**] aan het wordt toegewezen om volledige lijsten uit te voeren. Voor informatie over het toewijzen van een toestemming aan een productprofiel in Admin Console, zie [ toestemming van Customer Journey Analytics in Admin Console ](/help/technotes/access-control.md).
-
-  >[!NOTE]
-  >
-  >  De gebruikers die de [ rol van Admin van het Product ](/help/technotes/access-control.md#product-admin-role) worden toegewezen hebben altijd toegang tot de uitvoerrapporten van Report Builder. **(Is dit van toepassing op Report Builder??)**
 
 
 
