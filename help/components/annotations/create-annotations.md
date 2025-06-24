@@ -64,7 +64,7 @@ Het dialoogvenster **[!UICONTROL Annotations builder]** wordt gebruikt om nieuwe
 
 ![ het venster van de details van de Annotatie die gebieden en opties tonen in de volgende sectie worden beschreven.](assets/annotation-builder.png)
 
->[!TAB  creeer/geef aantekening ] uit
+>[!TAB creeer/geef aantekening  uit]
 
 ![ het venster van de details van de Annotatie die gebieden en opties tonen in de volgende sectie worden beschreven.](assets/create-edit-annotation.png)
 
