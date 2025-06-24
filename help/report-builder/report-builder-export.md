@@ -5,13 +5,13 @@ role: User, Admin
 feature: Report Builder
 type: Documentation
 solution: Customer Journey Analytics
-source-git-commit: e653cbe7c1955d04830b9ed9ff6399973036ab64
+exl-id: 1d5d87d8-1920-406b-8cce-41b89b7ae70b
+source-git-commit: 5a0cb6fa221282b70df5efb58362855ff58f76b8
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%
 
 ---
-
 
 # Workbooks plannen door naar cloudinstellingen te exporteren
 
@@ -35,7 +35,7 @@ Gebruik het volgende proces bij het exporteren van werkboeken van Report Builder
 
 ![ het uitvoerproces dat in stappen 1 door 4 wordt beschreven.](assets/report-builder-export-process.png)
 
-## Een rapport exporteren vanuit Report Builder {#export-from-report-builder}
+## Een rapport exporteren vanuit Report Builder
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Rapporten exporteren uit Report Builder:
 
    Om het werkboek op een programma uit te voeren dat u reeds creeerde, selecteer het programma van de lijst van programma&#39;s, dan uitgezocht **[!UICONTROL Send on schedule]**.
 
-1. In het **juiste paneel van Adobe Report Builder** &lbrace;, specificeer de volgende informatie verder creërend een nieuw programma:
+1. In het **]juiste paneel van Adobe Report Builder[!UICONTROL ** {, specificeer de volgende informatie verder creërend een nieuw programma:
 
    | Veldnaam | Functie |
    |---------|----------|
@@ -90,7 +90,7 @@ Rapporten exporteren uit Report Builder:
 
 Nadat het gegeven van Analysis Workspace wordt uitgevoerd, kunt u uitgeven, opnieuw uitvoeren, dupliceren, markering, of bestaande uitvoer schrappen, zoals die in [ wordt beschreven beheert uitvoer ](/help/components/exports/manage-exports.md).
 
-## Voordelen van exporteren naar de cloud {#advantages}
+## Voordelen van exporteren naar de cloud
 
 Door Customer Journey Analytics-gegevens naar de cloud te exporteren, kunt u:
 
@@ -119,6 +119,3 @@ Zorg ervoor dat uw gegevensblokken, uw omgeving, en uw toestemmingen aan de volg
 * **blokken van Gegevens:** Alle gegevensblokken moeten minstens één component aan een kolom, een rij, of een waarde omvatten.
 
 * **Milieu:** zorg ervoor dat de [ IP adressen ](/help/technotes/ip-addresses.md) en [ Domeinen ](/help/technotes/domains.md) die door Customer Journey Analytics worden gebruikt door de firewall van hun organisatie worden toegestaan.
-
-
-
