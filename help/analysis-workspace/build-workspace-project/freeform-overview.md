@@ -5,9 +5,9 @@ title: Overzicht van projecten
 feature: Workspace Basics
 exl-id: 2eeb615c-57a1-4469-8d4a-8a61956bd6e6
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: 60035b8fc65627bf5ead2a50959ce9cc5fe48604
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Selecteer **[!UICONTROL Workspace]** als u projecten wilt openen in Customer Jou
 
 ## Titelgebied
 
-Vanuit ➊ titelgebied kunt u een project maken, een map maken, uw voorkeuren bewerken en een deelvenster met extra tegels weergeven of verbergen.
+Vanuit het titelgebied ➊ kunt u een project maken, een map maken, uw voorkeuren bewerken en een deelvenster met extra tegels weergeven of verbergen.
 
 * Om een linkerpaneel te tonen of te verbergen dat u toestaat om tussen **[!UICONTROL Projects]** en **[!UICONTROL Learning]** te selecteren, ![ spoorlijn ](/help/assets/icons/Rail.svg) selecteren.
 * De titel toont Projecten, naar keuze toegevoegd met een weg aan de omslag u hebt geselecteerd. Bijvoorbeeld [!UICONTROL Projects] > **[!UICONTROL Company Folder]** . U kunt afzonderlijke submaponderdelen selecteren om rechtstreeks naar de specifieke map te gaan.
@@ -46,7 +46,7 @@ Vanuit ➊ titelgebied kunt u een project maken, een map maken, uw voorkeuren be
 ## Projectlijst
 
 
-In de projectlijst ➋ alle projecten worden weergegeven die u bezit en die met u zijn gedeeld. De lijst heeft de volgende kolommen:
+In de projectlijst ➋ worden alle projecten weergegeven die u hebt en die met u zijn gedeeld. De lijst heeft de volgende kolommen:
 
 | Kolom | Beschrijving |
 | --- | --- | 
@@ -55,7 +55,7 @@ In de projectlijst ➋ alle projecten worden weergegeven die u bezit en die met 
 | **[!UICONTROL Title and description]** | Om het project uit te geven, selecteer de titelverbinding, die het [ project van Workspace ](/help/analysis-workspace/home.md) opent. De projecten die met u worden gedeeld worden vermeld met ![ Aandeel ](/help/assets/icons/ShareAlt.svg). Selecteer ![ InfoOutline ](/help/assets/icons/InfoOutline.svg) om een popup menu met meer details op het project te tonen. Selecteer ![ Meer ](/help/assets/icons/More.svg) om een contextmenu met acties te openen. Zie [ Acties ](#actions) voor meer details. |
 | **[!UICONTROL Type]** | Een project van Workspace, a ![ FolderUser ](/help/assets/icons/FolderUser.svg) omslag, of a [ Mobiele Scorecard ](/help/mobile-app/home.md). |
 | **[!UICONTROL Tags]** | De labels die op het project zijn toegepast. |
-| Gepland | Of een project gepland is om aan ontvangers te worden gemaild. De opties zijn ![ StatusGreen ](/help/assets/icons/StatusGreen.svg) **[!UICONTROL On]** of ![ StatusGray ](/help/assets/icons/StatusGray.svg) **[!UICONTROL Off]**. Zie [ projectgegevens naar anderen ](/help/analysis-workspace/export/t-schedule-report.md) verzenden. |
+| **[!UICONTROL Scheduled]** | Of een project gepland is om aan ontvangers te worden gemaild. De opties zijn ![ StatusGreen ](/help/assets/icons/StatusGreen.svg) **[!UICONTROL On]** of ![ StatusGray ](/help/assets/icons/StatusGray.svg) **[!UICONTROL Off]**. Zie [ projectgegevens naar anderen ](/help/analysis-workspace/export/t-schedule-report.md) verzenden. |
 | **[!UICONTROL Shared link (anyone)]** | Of een project met iedereen wordt gedeeld, zelfs met mensen die geen toegang tot Analysis Workspace hebben. De opties zijn ![ StatusGreen ](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Active]** of ![ StatusGray ](/help/assets/icons/StatusGray.svg) **[!UICONTROL Inactive]**. Zie [ een project met iedereen (geen vereiste login) delen ](/help/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required) in [ projecten van het Aandeel ](/help/analysis-workspace/curate-share/share-projects.md) voor meer informatie. |
 | **[!UICONTROL Project Role]** | Uw rol voor het project. Opties zijn: Bewerken, Dupliceren, Weergave. Zie [ de rollen van het Project ](/help/analysis-workspace/curate-share/curate.md) voor meer informatie. |
 | **[!UICONTROL Data view]** | De gegevensweergave waaraan het project is gekoppeld. |
@@ -98,7 +98,7 @@ U kunt acties op één of meerdere projecten nemen gebruikend contextmenu ![ Mee
 
 ## Selector tonen
 
-U kunt de vormgeving van de interface Projecten veranderen met de ➌ **[!UICONTROL Show]** . De **[!UICONTROL Show]** selecteur bepaalt welke opties op het [ gebied van de Titel ](#title-area) beschikbaar zijn en welke kolommen in de [ lijst van het Project ](#project-list) worden getoond.
+U kunt het uiterlijk van de interface Projecten veranderen met behulp van **[!UICONTROL Show]** kiezers ➌ . De **[!UICONTROL Show]** selecteur bepaalt welke opties op het [ gebied van de Titel ](#title-area) beschikbaar zijn en welke kolommen in de [ lijst van het Project ](#project-list) worden getoond.
 
 * Om de opties beschikbaar voor het [ gebied van de Titel ](#title-area) te veranderen, selecteer **[!UICONTROL Show]** **[!UICONTROL All projects]** of **[!UICONTROL Show]** **[!UICONTROL Folders & Projects]**.
 
@@ -106,7 +106,7 @@ U kunt de vormgeving van de interface Projecten veranderen met de ➌ **[!UICONT
 
 ## Deelvenster Filter
 
-U kunt de projecten en de omslagen in de [ lijst van het Project ](#project-list) filtreren gebruikend de ➍ van het filterpaneel. Om het gebruik van het filterpaneel te tonen of te verbergen ![ Filter ](/help/assets/icons/Filter.svg).
+U kunt de projecten en de omslagen in de [ lijst van het Project ](#project-list) filtreren gebruikend het filterpaneel ➍. Om het gebruik van het filterpaneel te tonen of te verbergen ![ Filter ](/help/assets/icons/Filter.svg).
 
 Het filterdeelvenster bestaat uit de volgende secties.
 
@@ -114,14 +114,14 @@ Het filterdeelvenster bestaat uit de volgende secties.
 
 | Tags | Beschrijving |
 |---|---|
-| ![ Markeringen ](/help/analysis-workspace/build-workspace-project/assets/projects-filters-tags.png){width="300"} | In de sectie **[!UICONTROL Tags]** kunt u filteren op tags. <ul><li>U gebruikt ![&#128279;](/help/assets/icons/Search.svg) *Codes van het Onderzoek* van het 1&rbrace; Onderzoek &lbrace;aan onderzoek naar markeringen u wilt gebruiken om te filtreren.</li><li>U kunt meerdere tags selecteren. Welke labels beschikbaar zijn, is afhankelijk van de selecties die in andere secties in het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**2︎⃣**: Het aantal markeringen beschikbaar voor de projecten die uit de huidige filter voortvloeien.</li><li>7︎⃣: Het aantal projecten dat aan de specifieke tag is gekoppeld.</li></ul></li></ul> |
+| ![ Markeringen ](/help/analysis-workspace/build-workspace-project/assets/projects-filters-tags.png){width="300"} | In de sectie **[!UICONTROL Tags]** kunt u filteren op tags. <ul><li>U gebruikt ](/help/assets/icons/Search.svg) *Codes van het Onderzoek* van het 1} Onderzoek {aan onderzoek naar markeringen u wilt gebruiken om te filtreren.![</li><li>U kunt meerdere tags selecteren. Welke labels beschikbaar zijn, is afhankelijk van de selecties die in andere secties in het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**2︎⃣**: Het aantal markeringen beschikbaar voor de projecten die uit de huidige filter voortvloeien.</li><li>7︎⃣: Het aantal projecten dat aan de specifieke tag is gekoppeld.</li></ul></li></ul> |
 
 
 ### Gegevens, weergave
 
 | Gegevens, weergave | Beschrijving |
 |---|---|
-| ![ de meningen van Gegevens ](/help/analysis-workspace/build-workspace-project/assets/projects-filters-dataviews.png){width="300"} | In de sectie **[!UICONTROL Data view]** kunt u filteren op gegevensweergaven. <ul><li>U gebruikt ![&#128279;](/help/assets/icons/Search.svg) *de meningen van Gegevens van het 1&rbrace; Onderzoek* aan onderzoek naar gegevensmeningen u wilt gebruiken om te filtreren.</li><li>U kunt meerdere gegevensweergaven selecteren. Welke gegevensweergaven beschikbaar zijn, is afhankelijk van de selecties die in andere secties van het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**3︎⃣**: Het aantal gegevensmeningen beschikbaar voor de projecten die uit de huidige filter voortvloeien.</li><li>4︎⃣: Het aantal projecten dat aan de specifieke gegevensweergave is gekoppeld.</li></ul></li></ul> |
+| ![ de meningen van Gegevens ](/help/analysis-workspace/build-workspace-project/assets/projects-filters-dataviews.png){width="300"} | In de sectie **[!UICONTROL Data view]** kunt u filteren op gegevensweergaven. <ul><li>U gebruikt ](/help/assets/icons/Search.svg) *de meningen van Gegevens van het 1} Onderzoek* aan onderzoek naar gegevensmeningen u wilt gebruiken om te filtreren.![</li><li>U kunt meerdere gegevensweergaven selecteren. Welke gegevensweergaven beschikbaar zijn, is afhankelijk van de selecties die in andere secties van het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**3︎⃣**: Het aantal gegevensmeningen beschikbaar voor de projecten die uit de huidige filter voortvloeien.</li><li>4︎⃣: Het aantal projecten dat aan de specifieke gegevensweergave is gekoppeld.</li></ul></li></ul> |
 
 
 ### Eigenaars
@@ -146,7 +146,7 @@ Het filterdeelvenster bestaat uit de volgende secties.
 
 ## Zoeken
 
-U gebruikt het gebied van het Onderzoek ➎ om naar projecten en omslagen te zoeken gebruikend het ![ gebied van het Onderzoek ](/help/assets/icons/Search.svg). Begin het typen en de [ projectlijst ](#project-list) filters automatisch op uw onderzoeksinput.
+U gebruikt het gebied van het Onderzoek ➎ om naar projecten en omslagen te zoeken gebruikend het ![ 2} gebied van het Onderzoek {. ](/help/assets/icons/Search.svg) Begin het typen en de [ projectlijst ](#project-list) filters automatisch op uw onderzoeksinput.
 
 In het gedeelte Zoeken worden ook de filters weergegeven die u vanuit het deelvenster Filter hebt toegepast.
 
@@ -174,16 +174,16 @@ The Projects page contains the following information:
 | [Edit preferences](/help/analysis-workspace/user-preferences.md) | Manage settings for Analysis Workspace and its related components for all new projects or panels that you create.  |
 | [Create folder](/help/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)  | Add a new folder or subfolder to the list of projects and folders. |
 | [Create project](/help/analysis-workspace/build-workspace-project/create-projects.md)  | Start a new project from scratch.  |
-|  Show more  |Reveals options for creating a blank project or mobile scorecard, [viewing training tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=nl-NL), or [viewing release notes](/help/release-notes/latest.md).  |
+|  Show more  |Reveals options for creating a blank project or mobile scorecard, [viewing training tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html), or [viewing release notes](/help/release-notes/latest.md).  |
 | Show Folders & Projects| Choose whether to show the folder structure of projects. For more information, see [About Folders in Analytics](/help/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 |  Customize table (icon)  | Allows you to customize the information that shows for each project on the Projects page.  |
 |  Name  | Name of the Workspace project.  |
-| Type | Indicates whether this is a Workspace Project, a folder, or a [Mobile Scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=nl-NL). |
+| Type | Indicates whether this is a Workspace Project, a folder, or a [Mobile Scorecard](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html). |
 |  Tags  |Tags that were applied to the project.  |
 | Scheduled | Indicates whether projects are scheduled to be emailed to recipients on a schedule. See [Send project data to others](/help/analysis-workspace/export/t-schedule-report.md). |
 | Shared link (anyone) | Projects can be shared with anyone--even with people who don't have access to Analysis Workspace. This column shows whether projects have been shared in this way. See [Share a project with anyone (no login required)](/help/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Share projects](/help/analysis-workspace/curate-share/share-projects.md) for more information. |
 | Data view | The data view that the project is associated with. |
-| [Project Role](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=nl-NL) | Indicates your role for the project - owners, edit, duplicate, view. |
+| [Project Role](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | Indicates your role for the project - owners, edit, duplicate, view. |
 |  Owner  | The person who created this project (either you or someone who shared the project with you.)  |
 |  Shared with  | Users that the project has been shared with.  |
 |  Last Modified  | Date and time when the project was last modified.  |
@@ -206,7 +206,7 @@ Within a project, the menu provides options for managing your project, adding co
 |  Insert  | Insert new panels or visualizations from this menu. You can also insert new panels and visualizations from the left panel.  |
 |  [Components](/help/components/overview.md)  | Create new segments, calculated metric, date range, or alert components from your project. You can also create new components from the left panel. If your component definitions have recently changed, Refresh Components will retrieve the latest definitions. |
 |  [Share](/help/analysis-workspace/curate-share/send-schedule-files.md)  | Curate, share and schedule PDF/CSV projects to recipients in your organization.  |
-|  Help  | Access help documentation, videos, and the Analytics [Experience League community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community). Manage the visibility of Workspace tips as well as the [debugger](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/apis/using-analysis-workspace-to-build-api-2-requests). Find details about Workspace and factors that impact project [performance](/help/technotes/optimizing-performance.md).  |
+|  Help  | Access help documentation, videos, and the Analytics [Experience League community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community). Manage the visibility of Workspace tips as well as the [debugger](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/apis/using-analysis-workspace-to-build-api-2-requests). Find details about Workspace and factors that impact project [performance](/help/technotes/optimizing-performance.md).  |
 |  Share button or Owner  | If you are in an Own or Edit for the project, the Share button in the top-right gives you one-click access to manage your project recipients. If you are in a Duplicate or View role for the project, you will see the project owner's name. |
 
 ### Project Info & Settings {#info-settings}

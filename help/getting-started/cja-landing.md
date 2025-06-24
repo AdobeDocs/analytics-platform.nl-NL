@@ -4,9 +4,9 @@ description: Customer Journey Analytics-openingspagina.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: 65b4339b4a1b27c41cfe442482a54661989d704b
+source-git-commit: 94d1bcdb2419f8c2e27bd77bb2e35b04cd30d632
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '795'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,12 @@ Met Customer Journey Analytics kunt u bepalen hoe u online en offline gegevens i
 Bekijk een glimp van de nieuwste verbeteringen in het Customer Journey Analytics-product en -documentatie! Voor een uitvoerige lijst van eigenschappen, verbeteringen, en moeilijke situaties, controleer de gedetailleerde [ Nota&#39;s van de Versie ](../release-notes/latest.md). Bezoek de [ pagina van documentupdates ](../release-notes/doc-changes.md) om met de recentste documentatieupdates bijgewerkt te blijven.
 
 >[!BEGINTABS]
+
+>[!TAB  B2B edition ]
+
+Customer Journey Analytics B2B edition helpt B2B-bedrijven hun marketing-, verkoop- en productteams op elkaar af te stemmen door inzichten van actioneerbare accounts te bieden die de inkomstengroei stimuleren. Met de rekening die bij het centrum van het gegevensmodel wordt geplaatst, richt alle analyse zich op de rekeningsreis.
+
+[![afbeelding](assets/learn-more-button.svg)](/help/getting-started/cja-b2b-edition.md)
 
 >[!TAB  Content Analytics ]
 
@@ -144,7 +150,7 @@ Begrijp hoe Customer Journey Analytics zich verhoudt tot Adobe Analytics. En hoe
   <tr style="border: 0;">
     <td>
       <img src="./assets/analytics.svg" width="35px"><br/>
-      <strong> Vergelijk met Adobe Analytics </strong><br/> <a href="/help/getting-started/aa-vs-cja/overview.md"> Overzicht </a> - <a href="/help/getting-started/aa-to-cja.md"> Evolutie </a> - <a href="/help/getting-started/aa-vs-cja/aa-data-in-cja.md"> de gegevens van Adobe Analytics van het Gebruik </a> - <a href="/help/getting-started/aa-vs-cja/cja-aa.md"> de steun van de Eigenschap </a> - <a href="/help/getting-started/aa-vs-cja/terminology.md"> Terminologie </a> - <a href="/help/getting-started/aa-vs-cja/data-processing-comparisons.md"> de verwerking van Gegevens </a>
+      <strong> Vergelijk met Adobe Analytics </strong><br/> <a href="/help/getting-started/aa-vs-cja/overview.md"> Overzicht </a> - <a href="/help/getting-started/aa-to-cja.md"> Evolutie </a> - <a href="/help/getting-started/aa-vs-cja/aa-data-in-cja.md"> de gegevens van Adobe Analytics van het Gebruik </a> - <a href="/help/getting-started/aa-vs-cja/cja-aa.md"> de steun van de Eigenschap </a> - <a href="/help/getting-started/aa-vs-cja/terminology.md"> Terminologie </a> - <a href="/help/getting-started/aa-vs-cja/data-processing-comparisons.md"> de verwerking van Gegevens </a> - <a href="/help/getting-started/cja-b2b-edition.md"> Customer Journey Analytics B2B edition </a>
     </td>
     <td>
       <img src="./assets/connections.svg" width="35px"><br/>
@@ -176,7 +182,7 @@ Begrijp hoe Customer Journey Analytics zich verhoudt tot Adobe Analytics. En hoe
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong> Customer Journey Analytics </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank"> Leerprogramma's </a> - <a href="https://helpx.adobe.com/nl/legal/product-descriptions/customer-journey-analytics.html" target="_blank"> het productbeschrijving van Customer Journey Analytics </a> - <a href="https://helpx.adobe.com/nl/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank"> de productbeschrijving van Adobe Analytics (Customer Journey Analytics toe:voegen-op) </a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank"> Customer Journey Analytics APIs </a> - <a href="/help/ai-assistant.md"> AI Medewerker </a>
+<a href="https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank"> Leerprogramma's </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html" target="_blank"> het productbeschrijving van Customer Journey Analytics </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank"> de productbeschrijving van Adobe Analytics (Customer Journey Analytics toe:voegen-op) </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics-b2b.html" target="_blank"> het productbeschrijving van B2B edition van Customer Journey Analytics </a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank"> Customer Journey Analytics APIs </a> - <a href="/help/ai-assistant.md"> AI Medewerker </a>
 </td>
 <td><strong> Ingestie van Gegevens </strong><br/> <a href="/help/data-ingestion/data-ingestion.md"> Overzicht </a> - <a href="/help/data-ingestion/analytics.md"> Analytics </a> - <a href="/help/data-ingestion/aepwebsdk.md"> SDK van het Web </a> - <a href="/help/data-ingestion/aepmobilesdk.md"> Mobiele SDK </a> - <a href="/help/data-ingestion/batch.md"> Partij </a> - <a href="/help/data-ingestion/streaming.md"> Streaming </a> - <a href="/help/data-ingestion/sources.md"> Bronnen </a> - <a href="/help/data-ingestion/serverapi.md"> Server API </a>
 </td>

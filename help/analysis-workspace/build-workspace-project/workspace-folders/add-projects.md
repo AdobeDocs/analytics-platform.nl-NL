@@ -1,13 +1,13 @@
 ---
 description: Leer hoe u mappen toevoegt of verplaatst in Workspace
 keywords: Analysis Workspace
-title: Mappen toevoegen of verplaatsen
+title: Projecten toevoegen aan of verplaatsen naar mappen
 feature: Workspace Basics
 exl-id: 4008d087-e183-4b07-bc6f-e5f30e69afd8
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 60035b8fc65627bf5ead2a50959ce9cc5fe48604
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---

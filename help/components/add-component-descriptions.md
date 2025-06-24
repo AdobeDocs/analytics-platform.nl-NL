@@ -4,7 +4,7 @@ title: Componentbeschrijvingen toevoegen
 feature: Components
 role: Admin
 exl-id: 99d531cd-50e9-4e6c-adad-a66b606fd877
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: 21935a0e9e976cd680fb036bb47f4248aaa66890
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -32,5 +32,5 @@ Voor algemene informatie over het Woordenboek van Gegevens, zie het [ overzicht 
 >[!MORELIKETHIS]
 >
 >[ de montages van de meningscomponent van Gegevens ](/help/data-views/component-settings/overview.md)
->[Items van gegevenswoordenboekcomponenten ](/help/components/data-dictionary/edit-entries-data-dictionary.md)
+>>[Items van gegevenswoordenboekcomponenten ](/help/components/data-dictionary/edit-entries-data-dictionary.md)
 >

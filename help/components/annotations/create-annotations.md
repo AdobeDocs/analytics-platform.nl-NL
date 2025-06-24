@@ -4,7 +4,7 @@ description: Annotaties maken in Workspace.
 feature: Components
 exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
 role: User, Admin
-source-git-commit: 3cbf30778ff0fbb4198db16cbbabf3d62a87d384
+source-git-commit: 21935a0e9e976cd680fb036bb47f4248aaa66890
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 0%
@@ -27,7 +27,7 @@ U kunt op de volgende manieren een aantekening maken:
 * **D**. Selecteer in een Workspace-project **[!UICONTROL Components]** in het menu en selecteer **[!UICONTROL Create annotation]** .
 * **E**.  In een Workspace-project gebruikt u de sneltoets **[!UICONTROL ctrl+shift+o]** (Windows) of **[!UICONTROL shift+command+o]** (macOS)
 
-Als u de annotatie wilt definiëren, gebruikt u de instructie [[!UICONTROL Annotation builder]](#annotation-builder) :
+Als u de annotatie wilt definiëren, gebruikt u de instructie [[!UICONTROL Annotation builder]](#annotation-builder) .
 
 <!-- Should we really mention API here. If so, we can do it all over the place in the docs...
 | **Use the [Customer Journey Analytics Annotations API](https://developer.adobe.com/cja-apis/docs/endpoints/annotations/)** | The Customer Journey Analytics Annotations APIs allow you to create, update, or retrieve annotations programmatically through Adobe Developer. These APIs use the same data and methods that Adobe uses inside the product UI. |
@@ -64,7 +64,7 @@ Het dialoogvenster **[!UICONTROL Annotations builder]** wordt gebruikt om nieuwe
 
 ![ het venster van de details van de Annotatie die gebieden en opties tonen in de volgende sectie worden beschreven.](assets/annotation-builder.png)
 
->[!TAB creeer/geef aantekening  uit]
+>[!TAB  creeer/geef aantekening ] uit
 
 ![ het venster van de details van de Annotatie die gebieden en opties tonen in de volgende sectie worden beschreven.](assets/create-edit-annotation.png)
 
