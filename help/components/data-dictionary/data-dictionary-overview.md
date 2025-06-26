@@ -1,12 +1,12 @@
 ---
-description: Met het gegevenswoordenboek in Analysis Workspace kunnen gebruikers de verschillende componenten in Analysis Workspace, waaronder het beoogde gebruik, die zijn goedgekeurd, duplicaten zijn, catalogiseren en bijhouden, enzovoort.
+description: Met het gegevenswoordenboek in Analysis Workspace kunnen gebruikers de verschillende componenten in Analysis Workspace catalogiseren en bijhouden, inclusief het beoogde gebruik, dat is goedgekeurd, duplicaten zijn enzovoort.
 title: Overzicht van gegevenswoordenboek
 feature: Components
 role: User, Admin
 exl-id: 8e4b8169-7c7f-4a58-a6c6-70efb0c86ce8
-source-git-commit: 4bf8c616965718426efe880865acb0e5054b6a31
+source-git-commit: f940e5cba11df0ff158093a503213ff1641b1c5d
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="component_datadictionary"
 >title="Gegevenswoordenboek"
->abstract="Met het gegevenswoordenboek kunnen gebruikers en beheerders de componenten in hun analyseomgeving bijhouden en beter begrijpen. <br/> de beheerders van Analytics zijn verantwoordelijk voor het krommen van informatie over elke component het Woordenboek van Gegevens aan gebruikers."
+>abstract="Met het gegevenswoordenboek kunnen gebruikers en beheerders de componenten in hun Customer Journey Analytics-omgeving volgen en beter begrijpen. <br/> de beheerders van Customer Journey Analytics zijn de oorzaak van het leiden van informatie over elke component in het Woordenboek van Gegevens."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -30,7 +30,7 @@ De beheerders van Analytics zijn verantwoordelijk voor het krommen van informati
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ het woordenboek van Gegevens voor Analyse Workspace ](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ het woordenboek van Gegevens voor Analysis Workspace ](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"} voor een demo video.
 
 {{videoaa}}
 
@@ -58,7 +58,7 @@ Voor informatie over hoe te om tot het Woordenboek van Gegevens en voor details 
 
 Met het gegevenswoordenboek kunnen systeembeheerders de componenten in hun analyseomgeving bijhouden en beheren.
 
-Hieronder vindt u een aantal manieren waarop analysebeheerders het gegevenswoordenboek kunnen gebruiken:
+Analysebeheerders kunnen het gegevenswoordenboek voor deze doeleinden gebruiken:
 
 * Identificeer dubbele componenten die moeten worden geconsolideerd.
 
@@ -89,9 +89,9 @@ Voor gedetailleerde informatie over de diverse opties beschikbaar in het Woorden
 
 ## Het gegevenswoordenboek bijwerken en beheren
 
-De beheerders van de Customer Journey Analytics zijn verantwoordelijk voor het handhaven van een gezond Woordenboek van Gegevens voor hun organisatie, zoals die in [ de Gezondheid van het Woordenboek van Gegevens van de Monitor wordt beschreven ](/help/components/data-dictionary/monitor-data-dictionary-health.md).
+De beheerders van Customer Journey Analytics zijn verantwoordelijk voor het handhaven van een gezond Woordenboek van Gegevens voor hun organisatie, zoals die in [ wordt beschreven de Gezondheid van het Woordenboek van Gegevens van de Monitor van de Woordenboek ](/help/components/data-dictionary/monitor-data-dictionary-health.md).
 
-Als deel van dit proces, kunnen de beheerders van de Customer Journey Analytics informatie over elke component in het gegevenswoordenboek uitgeven, zoals die in [ wordt beschreven geef componenteningangen in het Woordenboek van Gegevens ](/help/components/data-dictionary/edit-entries-data-dictionary.md) uit.
+Als deel van dit proces, kunnen de beheerders van Customer Journey Analytics informatie over elke component in het gegevenswoordenboek uitgeven, zoals die in [ wordt beschreven geef componenteningangen in het Woordenboek van Gegevens ](/help/components/data-dictionary/edit-entries-data-dictionary.md) uit.
 
 ## Het gegevenswoordenboek verplaatsen, minimaliseren of sluiten
 
@@ -103,10 +103,10 @@ U kunt het venster Gegevenswoordenboek op de volgende manieren bewerken:
 
   Als u Analysis Workspace sluit en weer opent, blijft het venster Gegevenswoordenboek op de locatie staan waar u het als laatste hebt verplaatst. <!--True?-->
 
-* Minimaliseren
+* Minimaliseer het venster.
 
   Als deze optie is geminimaliseerd, wordt het gegevenswoordenboek weergegeven als een blauw tabblad in de rechterbenedenhoek van Analysis Workspace.
 
   Wanneer u het blauwe tabblad selecteert, wordt het gegevenswoordenboek geopend voor de component die u het laatst hebt weergegeven.
 
-* Sluiten
+* Sluit het venster.

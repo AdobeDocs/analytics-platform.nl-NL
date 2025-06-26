@@ -4,9 +4,9 @@ title: Metrics
 feature: Components
 exl-id: fa7c5a0f-4983-40ee-b9c1-3e10aab3fc28
 role: User
-source-git-commit: 8676497c9341e3ff74d1b82ca79bc1e73caf514f
+source-git-commit: 9cdfa94ad04d3d1ce43e591fa9219146152862dc
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '735'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ In **[!UICONTROL Scheduled Projects]** kunt u terugkerende projectschema&#39;s b
 
 ## Geplande projectlijst
 
-De geplande projectlijst ➊ vertoningenkolommen voor:
+In de lijst Geplande projecten ➊ worden kolommen weergegeven voor:
 
 | Kolom | Beschrijving |
 | --- | --- |
@@ -44,7 +44,7 @@ U kunt ![ gebruiken ColumnSetting ](/help/assets/icons/ColumnSetting.svg) om te 
 
 Onderzoek naar een gepland project gebruikend ![ Onderzoek ](/help/assets/icons/Search.svg). U kunt ook zien of er filters zijn toegepast vanuit het deelvenster Filters. Om een filter te verwijderen, selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) voor een filter. Selecteer **[!UICONTROL Clear all]** als u alle filters wilt verwijderen.
 
-Als u een gepland project wilt bewerken, selecteert u de titel van het geplande project. Gebruik het dialoogvenster **[!UICONTROL Edit scheduled project]** om de planningsdetails bij te werken.
+Als u een gepland project wilt bewerken, selecteert u de titel van het geplande project. Gebruik het dialoogvenster **[!UICONTROL Edit scheduled project]** om de planningsdetails bij te werken. Zie [ dossiers naar andere ](../analysis-workspace/export/t-schedule-report.md) voor meer details verzenden.
 
 ![ geef gepland project ](assets/edit-scheduled-project.png) uit
 
@@ -68,7 +68,7 @@ Het volgende is gemeenschappelijke acties in de Geplande Manager van Projecten. 
 
 ## Filter
 
-U kunt de geplande projecten [ Geplande lijst van het Project ](#scheduled-project-list) filtreren gebruikend de ➌ van het filterpaneel. Om het gebruik van het filterpaneel te tonen of te verbergen ![ Filter ](/help/assets/icons/Filter.svg).
+U kunt de geplande projecten [ Geplande lijst van het Project ](#scheduled-project-list) filtreren gebruikend het filterpaneel ➌. Om het gebruik van het filterpaneel te tonen of te verbergen ![ Filter ](/help/assets/icons/Filter.svg).
 
 Het filterdeelvenster bestaat uit de volgende secties.
 
