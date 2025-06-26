@@ -29,7 +29,7 @@ De interacties voor alleen-lezen ontvangers zijn beperkt.
 Uitgeschakelde interacties in een alleen-weergaveproject zijn onder meer:
 
 * Verborgen linkerdeelvenster
-* Datumbereik paneelkalender. Nota: Als u kalendercontrole aan ontvangers wilt verlenen, voeg in a [ drop-down segment met datumwaaiers ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) toe.
+* Datumbereik paneelkalender. Nota: Als u kalendercontrole aan ontvangers wilt verlenen, voeg in a [ drop-down segment met datumwaaiers ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=nl-NL) toe.
 * Freeform-segmentering
 * Vrije vorm nr. van zichtbare rijen
 * Instellingen voor rij, kolom of visualisatie voor vrije vorm
