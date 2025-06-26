@@ -5,14 +5,14 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 029a7ebb10ac9daf4c4b121efa85042d6da22316
+source-git-commit: 7bf74e02db581bdf11b7efe31b62f018320c7f22
 workflow-type: tm+mt
-source-wordcount: '1911'
+source-wordcount: '2286'
 ht-degree: 0%
 
 ---
 
-# Gegevens visualiseren met Data Insights Agent in Customer Journey Analytics
+# Gegevens visualiseren met Data Insights Agent
 
 >[!AVAILABILITY]
 >
@@ -39,7 +39,7 @@ Het gebruiken van de Agent van Gegevens om gegeven-centric vragen in Analysis Wo
 | **mechanismen van de Terugkoppeling** | <ul><li>Stompelen omhoog</li><li>Miniatuur omlaag</li><li>Markering</li></ul> |  |
 
 
-## De toegang tot Data Insights Agent in Customer Journey Analytics beheren
+## Toegang tot Data Insights Agent beheren
 
 De volgende parameters regelen de toegang tot Data Insights Agent in Customer Journey Analytics:
 
@@ -49,7 +49,7 @@ De volgende parameters regelen de toegang tot Data Insights Agent in Customer Jo
 
 * **Toestemmingen**: De noodzakelijke toestemmingen moeten in [!UICONTROL Adobe Admin Console] worden verleend alvorens de gebruikers tot de Agent van Gegevens kunnen toegang hebben.
 
-  Om toestemmingen te verlenen, moet a [ admin van het productprofiel ](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) de volgende stappen in [!UICONTROL Admin Console] voltooien:
+  Om toestemmingen te verlenen, moet a [ admin van het productprofiel ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) de volgende stappen in [!UICONTROL Admin Console] voltooien:
    1. Selecteer in **[!UICONTROL Admin Console]** de tab **[!UICONTROL Products]** om de pagina **[!UICONTROL All products and services]** weer te geven.
    1. Selecteer **[!UICONTROL Customer Journey Analytics]** .
    1. Selecteer op het tabblad **[!UICONTROL Product Profiles]** de titel van het productprofiel waartoe u toegang wilt verlenen aan [!UICONTROL AI Assistant: Product Knowledge] .
@@ -229,3 +229,24 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 
 -->
 
+
+## Best practices voor configuratie
+
+Hieronder volgen de beste werkwijzen voor uw configuratie van Customer Journey Analytics (gegevensmening, berekende metriek, segmenten, en meer) om ervoor te zorgen Data Insights Agent van de correcte componenten kan de plaats bepalen en schonere antwoorden kan terugkeren zonder het moeten u voor extra informatie vragen.
+
+* **Saldo welke componenten u** nodig hebt. Voeg niet alle gebieden van uw datasets als metriek of afmetingscomponenten aan uw gegevensmening toe. Vooral degenen die u zeker niet zult gebruiken in uw analyse. Anderzijds moet u zich niet strikt beperken tot de velden die u voor uw analyse nodig hebt. Een te beperkte gegevensmening beperkt de flexibiliteit in uw analyse en de de agentenfunctionaliteit van Gegevens Insight.
+* **gebruiken altijd vriendschappelijke vertoningsnamen**. Zorg ervoor dat alle velden die u in de gegevensweergave definieert, als metriek- of dimensiecomponent, een vriendelijke componentnaam hebben. Het proces om gebieden met een vriendschappelijke naam anders te noemen is vooral relevant voor gebieden van de gegevensreeksen van de de bronschakelaar van Adobe Analytics. Deze velden hebben vaak niet-vriendelijke, niet-identificeerbare namen, zoals `eVar41` of `prop25` .
+* **Gebruik onderscheidende namen**. Afzonderlijke namen zijn vooral relevant wanneer u een veld gebruikt als metrisch en een dimensie-component in de gegevensweergave. Of wanneer u een veld in meerdere componenten gebruikt, elk met verschillende componentinstellingen.
+* **Gebruik een component noemend overeenkomst**. U kunt een component gebruiken noemend overeenkomst om componenten te groeperen. **[!UICONTROL Orders | Product]** en **[!UICONTROL Orders | Customer]** maken bijvoorbeeld onderscheid tussen verschillende volgordemetriek die mogelijk in uw gegevens voorkomen.
+* **Gebruik het Woordenboek van Gegevens**. Voeg een beschrijving en andere relevante gegevens voor componenten in het gegevenswoordenboek toe. De Insight-agent voor gegevens gebruikt momenteel geen beschrijving en tags. maar gebruikt in de toekomst wellicht de beschrijving en tags van het gegevenswoordenboek.
+* **Gebruik goedgekeurde berekende metriek**. Ga akkoord met een proces waarbij alleen goedgekeurde berekende metriek als componenten in de gegevensweergave worden gebruikt en gebruik geen experimentele berekende metriek.
+* **Deel vereiste segmenten**. Verzeker u segmenten deelt en segmenten zichtbaar maakt die voor de agentenherinneringen van Gegevens van Inzichten worden vereist.
+* **normaliseert op componentennamen over gegevensmeningen**. Als u dezelfde velden als een component in meerdere gegevensweergaven gebruikt, moet u ervoor zorgen dat u één vriendelijke naam en één id voor die component gebruikt. Één enkele naam en herkenningsteken staan de agent van Gegevens toe om gegevensmeningen te schakelen zonder context te verliezen.
+
+>[!MORELIKETHIS]
+>
+>[ montages van de Component ](/help/data-views/component-settings/overview.md)
+>>[Gegevenswoordenboek ](/help/components/data-dictionary/data-dictionary-overview.md)
+>>[Berekende metrische waarde goedkeuren ](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>>[Segmenten delen ](/help/components/segments/seg-share.md)
+>
