@@ -1,17 +1,17 @@
 ---
-description: Leer hoe Workspace totalen worden berekend.
-title: Totaal Workspace
+description: Leer hoe totalen in vrije-vormlijsten in Analysis Workspace worden berekend.
+title: Totalen
 feature: Visualizations
 exl-id: ba14b88c-44c2-45f6-b68f-f5c1263a89dd
 role: User
-source-git-commit: c10d88c27d4a3c92e02179da4a73a6a499d2a8c2
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '430'
 ht-degree: 1%
 
 ---
 
-# Totaal Workspace {#workspace-totals}
+# Totalen {#workspace-totals}
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_grandtotal"
@@ -38,7 +38,7 @@ Onder ![ Plaatsend ](/help/assets/icons/Setting.svg) **[!UICONTROL Column settin
 
 | Optie | Beschrijving |
 |---|---|
-| **[!UICONTROL Show sum of current rows as the total]** | Een som van de rijen in de tabel aan de clientzijde weergeven. Dit totaal **&#x200B;**&#x200B;dedupliceert metriek zoals zittingen of personen niet. |
+| **[!UICONTROL Show sum of current rows as the total]** | Een som van de rijen in de tabel aan de clientzijde weergeven. Dit totaal **** dedupliceert metriek zoals zittingen of personen niet. |
 | **[!UICONTROL Show grand total]** | Een som aan de serverzijde weergeven. Dit totaal dedupliceert metriek zoals sessies of personen. |
 
 Zie [ Dynamische versus statische afmetingspunten in vrije vormlijsten ](column-row-settings/manual-vs-dynamic-rows.md).
