@@ -38,7 +38,7 @@ Onder ![ Plaatsend ](/help/assets/icons/Setting.svg) **[!UICONTROL Column settin
 
 | Optie | Beschrijving |
 |---|---|
-| **[!UICONTROL Show sum of current rows as the total]** | Een som van de rijen in de tabel aan de clientzijde weergeven. Dit totaal **** dedupliceert metriek zoals zittingen of personen niet. |
+| **[!UICONTROL Show sum of current rows as the total]** | Een som van de rijen in de tabel aan de clientzijde weergeven. Dit totaal **&#x200B;**&#x200B;dedupliceert metriek zoals zittingen of personen niet. |
 | **[!UICONTROL Show grand total]** | Een som aan de serverzijde weergeven. Dit totaal dedupliceert metriek zoals sessies of personen. |
 
 Zie [ Dynamische versus statische afmetingspunten in vrije vormlijsten ](column-row-settings/manual-vs-dynamic-rows.md).
