@@ -25,12 +25,12 @@ ht-degree: 10%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van de Treemap in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_zie [ Treemap ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/treemap) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert de visualisatie van de Treemap in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [ Treemap ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/treemap) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
 
-Gebruik visualisatie a ](/help/assets/icons/GraphTree.svg) GraphTree **[!UICONTROL Treemap]** om hiërarchische (boom-gestructureerde) gegevens als reeks genestelde rechthoeken te tonen.![
+Gebruik visualisatie a ![&#128279;](/help/assets/icons/GraphTree.svg) GraphTree **[!UICONTROL Treemap]** om hiërarchische (boom-gestructureerde) gegevens als reeks genestelde rechthoeken te tonen.
 
 Elke tak van de boomstructuur krijgt een rechthoek die vervolgens als tegel naast kleinere rechthoeken wordt geplaatst die de subvertakkingen vertegenwoordigen.
 
@@ -49,8 +49,8 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ visualisatie 
 >[!MORELIKETHIS]
 >
 >[ voeg een visualisatie aan een paneel toe ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->>[Visualisatie-instellingen ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->>[Contextmenu Visualisatie ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>&#x200B;>[Visualisatie-instellingen ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>&#x200B;>[Contextmenu Visualisatie ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 

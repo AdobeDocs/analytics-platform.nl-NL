@@ -125,7 +125,7 @@ U kunt hyperlinks bewerken die zijn gemaakt voor dimensies of dimensies-items in
 
    [!UICONTROL **geeft hyperlinks voor afmetingspunten**] dialoog uit wordt getoond.
 
-1. Voor informatie over de configuratieopties om hyperlink uit te geven, zie Stap 3 in [ hyperlinks voor één of meerdere afmetingspunten ](#create-hyperlinks-for-one-or-more-dimension-items) sectie hierboven creëren, dan uitgezocht [!UICONTROL ****] toepassen wanneer u met uw updates wordt gebeëindigd.
+1. Voor informatie over de configuratieopties om hyperlink uit te geven, zie Stap 3 in [ hyperlinks voor één of meerdere afmetingspunten ](#create-hyperlinks-for-one-or-more-dimension-items) sectie hierboven creëren, dan uitgezocht [!UICONTROL **&#x200B;**] toepassen wanneer u met uw updates wordt gebeëindigd.
 
 1. [ sparen het project ](/help/analysis-workspace/build-workspace-project/save-projects.md) om uw veranderingen te bewaren.
 

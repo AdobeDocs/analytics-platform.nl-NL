@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het gemiddelde minieme het publiek van Media paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_zie [ het gemiddelde minieme publiek van Media paneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert het gemiddelde minieme het publiek van Media paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_zie [ het gemiddelde minieme publiek van Media paneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -187,6 +187,6 @@ In het deelvenster Gemiddelde minieme doelgroep van Media wordt alleen de gemidd
 >[!MORELIKETHIS]
 >
 > [ creeer een paneel ](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
-> > [Deelvenster Mediagelijktijdige viewers ](media-concurrent-viewers.md)
-> > [De playbacktijd van media bestede paneel ](media-playback-time-spent.md)
+> &#x200B;> [Deelvenster Mediagelijktijdige viewers ](media-concurrent-viewers.md)
+> &#x200B;> [De playbacktijd van media bestede paneel ](media-playback-time-spent.md)
 >

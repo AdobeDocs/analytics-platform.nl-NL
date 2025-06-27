@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # Projecten openen
 
-U kunt een project van de [ pagina van Projecten ](/help/analysis-workspace/build-workspace-project/freeform-overview.md) direct openen. Zoek uw project in de lijst. Het onderzoek van het gebruik ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#search) of het [ segmentpaneel ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel) om onderaan de lijst te versmallen.[
+U kunt een project van de [ pagina van Projecten ](/help/analysis-workspace/build-workspace-project/freeform-overview.md) direct openen. Zoek uw project in de lijst. Het onderzoek van het gebruik [&#128279;](/help/analysis-workspace/build-workspace-project/freeform-overview.md#search) of het [ segmentpaneel ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel) om onderaan de lijst te versmallen.
 
 * Selecteer de titel van uw project om het project in Analysis Workspace te openen.
 
 U kunt een project ook openen terwijl u in een ander project werkt.
 
-* Selecteer **[!UICONTROL Open]** in het menu **[!UICONTROL Project]** . U ziet een dialoog gelijkend op de [ ](/help/analysis-workspace/build-workspace-project/freeform-overview.md) pagina van Projecten.  Het onderzoek van het gebruik ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#search) of het [ segmentpaneel ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel) om onderaan de lijst te versmallen.[
+* Selecteer **[!UICONTROL Open]** in het menu **[!UICONTROL Project]** . U ziet een dialoog gelijkend op de [&#128279;](/help/analysis-workspace/build-workspace-project/freeform-overview.md) pagina van Projecten.  Het onderzoek van het gebruik [&#128279;](/help/analysis-workspace/build-workspace-project/freeform-overview.md#search) of het [ segmentpaneel ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel) om onderaan de lijst te versmallen.
 * Selecteer de titel van uw project om het project in Analysis Workspace te openen.
 
 Selecteer **[!UICONTROL Create new]** als u het project niet kunt vinden en een nieuw project wilt starten.

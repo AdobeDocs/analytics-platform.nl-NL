@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de bulletvisualisatie in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_zie [ Bullet ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert de bulletvisualisatie in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [ Bullet ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/bullet-graph) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -58,12 +58,12 @@ U kunt specifieke instellingen definiëren voor een [!UICONTROL Bullet] visualis
 
 | Instelling | Beschrijving |
 |---|---|
-| **[!UICONTROL Bullet options]** | Geef waarden op voor **[!UICONTROL High goal]** , **[!UICONTROL Mid goal]** en **[!UICONTROL Low goal]** in de [!UICONTROL Bullet] visualisatie. <br/>**[!UICONTROL High goal]**is het belangrijkste doel dat u nastreeft. Met **[!UICONTROL Low goal]**en **[!UICONTROL Mid goal]**maakt u bereiken onder het doel Hoog. Opmerking: als de optie **[!UICONTROL Percentages]**is ingeschakeld, voert u doelen in als hele getallen. Bijvoorbeeld: `20` als uw doel 20 procent is. |
+| **[!UICONTROL Bullet options]** | Geef waarden op voor **[!UICONTROL High goal]** , **[!UICONTROL Mid goal]** en **[!UICONTROL Low goal]** in de [!UICONTROL Bullet] visualisatie. <br/>**[!UICONTROL High goal]**&#x200B;is het belangrijkste doel dat u nastreeft. Met **[!UICONTROL Low goal]**&#x200B;en **[!UICONTROL Mid goal]**&#x200B;maakt u bereiken onder het doel Hoog. Opmerking: als de optie **[!UICONTROL Percentages]**&#x200B;is ingeschakeld, voert u doelen in als hele getallen. Bijvoorbeeld: `20` als uw doel 20 procent is. |
 
 >[!MORELIKETHIS]
 >
 >[ voeg een visualisatie aan een paneel toe ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->>[Visualisatie-instellingen ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->>[Contextmenu Visualisatie ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>&#x200B;>[Visualisatie-instellingen ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>&#x200B;>[Contextmenu Visualisatie ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

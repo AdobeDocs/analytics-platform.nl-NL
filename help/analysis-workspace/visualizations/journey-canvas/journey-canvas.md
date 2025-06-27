@@ -51,7 +51,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van het canvas van de Reis in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**.<br/> er is geen gelijkwaardige visualisatie in **Adobe Analytics**._
+_dit artikel documenteert de visualisatie van het canvas van de Reis in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**.<br/> er is geen gelijkwaardige visualisatie in **Adobe Analytics**._
 
 >[!ENDSHADEBOX]
 

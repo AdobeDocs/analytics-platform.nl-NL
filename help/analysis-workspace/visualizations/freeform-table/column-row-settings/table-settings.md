@@ -16,11 +16,11 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-Zie ](/help/assets/icons/VideoCheckedOut.svg) [ Rij en kolommontages 0} VideoCheckedOut in een Vrije vormlijst ](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} voor een demo video.![
+Zie ![&#128279;](/help/assets/icons/VideoCheckedOut.svg) [ Rij en kolommontages 0&rbrace; VideoCheckedOut in een Vrije vormlijst ](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
-De rijinstellingen variëren afhankelijk van de component die u naar de tabel hebt gesleept. Om tot de montages van de lijstrij toegang te hebben, selecteer ](/help/assets/icons/Setting.svg) Plaatsend **[!UICONTROL Settings]** naast een afmeting, segment, metrisch, tijdspanne, of een verdeling binnen elk van deze voorwerpen.![
+De rijinstellingen variëren afhankelijk van de component die u naar de tabel hebt gesleept. Om tot de montages van de lijstrij toegang te hebben, selecteer ![&#128279;](/help/assets/icons/Setting.svg) Plaatsend **[!UICONTROL Settings]** naast een afmeting, segment, metrisch, tijdspanne, of een verdeling binnen elk van deze voorwerpen.
 
 ![ vrije lijst die van de Vorm het pictogram van Montages voor Metriek ](assets/row-settings.png) benadrukken
 

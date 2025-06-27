@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het de gezamenlijke kijkers van Media paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_zie [ Medium gezamenlijke kijkers paneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert het de gezamenlijke kijkers van Media paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_zie [ Medium gezamenlijke kijkers paneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -130,6 +130,6 @@ In deze weergave is geen tabel voor vrije vorm beschikbaar.  Als u de gegevensbr
 >[!MORELIKETHIS]
 >
 >[ creeer een paneel ](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->>[De playbacktijd van media bestede paneel ](media-playback-time-spent.md)
->>[Mediagemiddelde minieme publiekspaneel ](average-minute-audience-panel.md)
+>&#x200B;>[De playbacktijd van media bestede paneel ](media-playback-time-spent.md)
+>&#x200B;>[Mediagemiddelde minieme publiekspaneel ](average-minute-audience-panel.md)
 >
