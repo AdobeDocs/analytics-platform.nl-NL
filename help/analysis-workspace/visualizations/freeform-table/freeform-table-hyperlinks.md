@@ -26,7 +26,7 @@ Deze functionaliteit is vooral handig bij het maken van hyperlinks voor de volge
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ hyperlinks in een vrije vormlijst ](https://video.tv.adobe.com/v/3430411/?quality=12&learn=on){target="_blank"} voor een demo video creëren.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ hyperlinks in een vrije vormlijst ](https://video.tv.adobe.com/v/3445790/?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video creëren.
 
 >[!ENDSHADEBOX]
 
