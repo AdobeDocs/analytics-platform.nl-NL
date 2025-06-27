@@ -1,11 +1,12 @@
 ---
-description: Voorbeelden bij het configureren van de visualisatie van een journaal
-title: Voorbeelden van canvas voor reizen
+description: Leer hoe u problemen kunt oplossen bij het configureren van de visualisatie van een reiscanvas.
+title: Problemen met reiscanvas oplossen
 feature: Visualizations
 role: User
-source-git-commit: 820251833eae9fed1574a0010f726b0ba6e12cd1
+exl-id: f0ac3752-9244-4d9e-807b-e6471e6aa55b
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1267'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Met de reiscanvasvisualisatie kunt u uitgebreide inzichten analyseren en verkrijgen over de reizen die u aan uw gebruikers en klanten biedt.
 
-Meer over het canvas van de Reis leren, zie {het overzicht van het 0} canvas van de Reis [&#128279;](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) en [ vormen een visualisatie van het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
+Meer over het canvas van de Reis leren, zie {het overzicht van het 0} canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) en [ vormen een visualisatie van het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).[
 
 De volgende informatie kan u helpen onbedoelde resultaten problemen oplossen u zou kunnen zien, zoals knopen die later in de reis komen die een hoger percentage of aantaltelling dan knopen tonen die vroeger in de reis komen.
 

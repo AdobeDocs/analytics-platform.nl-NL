@@ -1,50 +1,56 @@
 ---
-description: Leer hoe u de naam van projecten in mappen wijzigt
+description: Leer hoe u projecten uit Analysis Workspace kunt verwijderen.
 keywords: Analysis Workspace
-title: Projecten uit mappen verwijderen
+title: Projecten verwijderen
 feature: Workspace Basics
 exl-id: 9c3523b1-afa2-4a68-a432-972032680fc7
 role: User
-source-git-commit: 6cf6fa977a2c5dee28dcfe6f9446d294a9d9fd0f
+source-git-commit: 9506cc42e80f25f68a891f21f38d60fb4d364588
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 1%
+source-wordcount: '27'
+ht-degree: 7%
 
 ---
 
 # Projecten verwijderen
 
-<!-- Is this article still needed -->
+
+Zie [ Acties in leiden projecten ](../freeform-overview.md#actions) op hoe te om projecten uit Analysis Workspace te verwijderen.
 
 
-## Een project verplaatsen {#move-project-in-folder}
+<!-- Is this article still needed; not in the TOC anymore
 
-U kunt projecten van één omslag naar een andere omslag verplaatsen die u creeerde.
 
-1. Van binnen een projectomslag, selecteer **..** ellips naast de projectnaam.
+## Move a project {#move-project-in-folder}
 
-   ![ de ellipsieopties.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
+You can move projects from one folder to another folder that you created.
 
-1. Selecteer **Beweging aan** en selecteer dan een omslag om het project te bewegen naar.
+1. From within a project folder, select the **...** ellipsis next to the project name.
 
-   ![ het Uitgezochte venster van de Plaats.](/help/analysis-workspace/build-workspace-project/assets/move-select-location.png)
+    ![The ellipsis options.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
 
-1. Klik **Beweging**.
+1. Select **Move to** and then select a folder to move the project to.
 
-   ![ klik Beweging.](/help/analysis-workspace/build-workspace-project/assets/move-click-move.png)
+    ![The Select Location window.](/help/analysis-workspace/build-workspace-project/assets/move-select-location.png)
 
-   Een toast bevestigt dat het project werd verplaatst.
+1. Click **Move**.
 
-   ![ de bewegingsbevestiging toast. ](/help/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
+    ![Click Move.](/help/analysis-workspace/build-workspace-project/assets/move-click-move.png)
 
-## Een project verwijderen uit een projectmap {#delete-project-in-folder}
+    A toast confirms that the project was moved.
 
-Wanneer u een project uit een map verwijdert, wordt het na 180 dagen uit het systeem gewist. Tijdens de 180 dagen na schrapping, kunnen de gebruikers tot een geschrapt project via de interface van het Web nog toegang hebben als zij directe URL aan het project hebben.
+    ![The move confirmation toast. ](/help/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
 
-1. Van binnen een projectomslag, selecteer **..** ellips naast de projectnaam.
+## Delete a project from a project folder {#delete-project-in-folder}
 
-   ![ de ellipsieopties.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
+When you delete a project from a folder, it gets purged from the system after 180 days. During the 180 days after deletion, users can still access a deleted project via the Web interface if they have a direct URL to the project.
 
-1. Selecteer **Schrapping**.
+1. From within a project folder, select the **...** ellipsis next to the project name.
 
-1. In een bevestigingsvenster wordt u gevraagd de verwijdering te bevestigen.
+    ![The ellipsis options.](/help/analysis-workspace/build-workspace-project/assets/move1.png)
+
+1. Select **Delete**.
+
+1. A confirmation window asks you to confirm the deletion.
+
+-->

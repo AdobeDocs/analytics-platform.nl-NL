@@ -1,17 +1,17 @@
 ---
-title: Hyperlinks maken in een vrije-vormtabel
-description: Leer hoe u hyperlinks maakt voor dimensie-items in een vrije-vormtabel in Analysis Workspace
+title: Hyperlinks maken voor afmetingen in een vrije-vormtabel
+description: Leer hoe u hyperlinks maakt voor dimensie-items in een vrije-vormentabel in Analysis Workspace.
 feature: Visualizations
 role: User
 exl-id: 24fc2d24-b8c2-4664-8b9c-beda284f9033
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
 
-# Hyperlinks maken in een vrije-vormtabel
+# Hyperlinks maken
 
 U kunt hyperlinks maken voor dimensie-items, zodat hierop kan worden geklikt in een vrije-vormtabel in Analysis Workspace.
 
@@ -26,7 +26,7 @@ Deze functionaliteit is vooral handig bij het maken van hyperlinks voor de volge
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ hyperlinks in een vrije vormlijst ](https://video.tv.adobe.com/v/3445790/?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video creëren.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ hyperlinks in een vrije vormlijst ](https://video.tv.adobe.com/v/3430411/?quality=12&learn=on){target="_blank"} voor een demo video creëren.
 
 >[!ENDSHADEBOX]
 
@@ -125,7 +125,7 @@ U kunt hyperlinks bewerken die zijn gemaakt voor dimensies of dimensies-items in
 
    [!UICONTROL **geeft hyperlinks voor afmetingspunten**] dialoog uit wordt getoond.
 
-1. Voor informatie over de configuratieopties om hyperlink uit te geven, zie Stap 3 in [ hyperlinks voor één of meerdere afmetingspunten ](#create-hyperlinks-for-one-or-more-dimension-items) sectie hierboven creëren, dan uitgezocht [!UICONTROL **&#x200B;**] toepassen wanneer u met uw updates wordt gebeëindigd.
+1. Voor informatie over de configuratieopties om hyperlink uit te geven, zie Stap 3 in [ hyperlinks voor één of meerdere afmetingspunten ](#create-hyperlinks-for-one-or-more-dimension-items) sectie hierboven creëren, dan uitgezocht [!UICONTROL ****] toepassen wanneer u met uw updates wordt gebeëindigd.
 
 1. [ sparen het project ](/help/analysis-workspace/build-workspace-project/save-projects.md) om uw veranderingen te bewaren.
 

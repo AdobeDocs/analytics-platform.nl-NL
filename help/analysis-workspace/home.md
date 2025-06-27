@@ -1,14 +1,14 @@
 ---
 keywords: Analysis Workspace
 title: Overzicht van Analysis Workspace
-description: Overzicht van Analysis Workspace-mogelijkheden
+description: Meer informatie over Analysis Workspace, het belangrijkste hulpprogramma voor analyse voor Adobe Analytics. Gebruik projecten, deelvensters, tabellen, visualisaties en andere componenten om gegevens tot leven te brengen en uw analyse te cureren en te delen.
 feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1355'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,8 @@ Met Analysis Workspace kunt u snel analyses maken om inzichten te verzamelen en 
 
 Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ overzicht van de werkruimte van de Analyse ](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"} voor een demo video.
 
+{{videoaa}}
+
 >[!ENDSHADEBOX]
 
 ## Interface
@@ -32,7 +34,7 @@ In de volgende afbeelding en de bijbehorende tabel worden de belangrijkste eleme
 | Locatie | Naam en functie |
 |:---------:|----------|
 | A | Bevat de naam van het project, een menustructuur om tot functionaliteit, een knoop ![ Achterknoop ](/help/assets/icons/ChevronLeft.svg) toegang te hebben om terug naar uw lijst van het Project terug te keren, en a **[!UICONTROL Share]** knoop aan [ deel uw project van Workspace ](/help/analysis-workspace/curate-share/share-projects.md). <br/> selecteer de naam van uw project (bijvoorbeeld: Nieuw project) op elk ogenblik om de naam te veranderen. <br/> Uitgezochte ![ Ver ](/help/assets/icons/StarOutline.svg) om uw project als Favor ![ ](/help/assets/icons/Star.svg) te merken. |
-| B | **paneel van de Knoop:** bevat knopen voor de toegang tot van de belangrijkste [ eigenschappen ](#features) van Analysis Workspace:<ul><li>![ WebPage ](/help/assets/icons/WebPage.svg) [[!UICONTROL Panels]](/help/analysis-workspace/c-panels/panels.md)</li><li>![ Geleide Analyse ](/help/assets/icons/GuidedAnalysis.svg) [[!UICONTROL Guided Analysis]](/help/guided-analysis/overview.md)</li><li>![ GraphBarVertical ](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL Visualizations]](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![ Kromme ](/help/assets/icons/Curate.svg) [[!UICONTROL Components]](/help/components/overview.md)</li><li>![ ViewList ](/help/assets/icons/ViewList.svg) [[!UICONTROL Table of contents]](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![ Bladwijzer ](/help/assets/icons/Bookmark.svg) [[!UICONTROL Data Dictionary]](/help/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
+| B | **paneel van de Knoop:** bevat knopen om tot de belangrijkste [ eigenschappen ](#features) van Analysis Workspace toegang te hebben:<ul><li>![ WebPage ](/help/assets/icons/WebPage.svg) [[!UICONTROL Panels]](/help/analysis-workspace/c-panels/panels.md)</li><li>![ Geleide Analyse ](/help/assets/icons/GuidedAnalysis.svg) [[!UICONTROL Guided Analysis]](/help/guided-analysis/overview.md)</li><li>![ GraphBarVertical ](/help/assets/icons/GraphBarVertical.svg) [[!UICONTROL Visualizations]](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</li><li>![ Kromme ](/help/assets/icons/Curate.svg) [[!UICONTROL Components]](/help/components/overview.md)</li><li>![ ViewList ](/help/assets/icons/ViewList.svg) [[!UICONTROL Table of contents]](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md)</li><li>![ Bladwijzer ](/help/assets/icons/Bookmark.svg) [[!UICONTROL Data Dictionary]](/help/components/data-dictionary/data-dictionary-overview.md)</li></ul> |
 | C | **Linkerpaneel:** Dit gebied bevat individuele panelen, visualisaties, componenten, of lijsten. De inhoud is afhankelijk van de knop die in het deelvenster met knoppen is geselecteerd. |
 | D | **Canvas:** het belangrijkste gebied waar u inhoud van het linkerpaneel sleept om uw project te bouwen. Het project wordt dynamisch bijgewerkt terwijl u deelvensters toevoegt, visualisaties toevoegt aan deelvensters en componenten toevoegt aan visualisaties. U kunt meerdere deelvensters maken en in elk deelvenster kunt u meerdere visualisaties maken.<br/> elk paneel is gebaseerd op een geselecteerde gegevensmening. De geselecteerde gegevensweergave bepaalt de beschikbare componenten, zoals metriek en afmetingen. Zie [ Panelen - de mening van Gegevens ](/help/analysis-workspace/c-panels/panels.md#data-view) voor meer informatie. |
 
@@ -121,16 +123,16 @@ Zie de onderstaande tabellen voor een overzicht van de beschikbare menu&#39;s.
 | **[!UICONTROL Schedule file export]** | **[!UICONTROL *shift+opt+s *]** | **[!UICONTROL *shift+alt+s *]** | [ verzend het project op een programma als CSV of dossier van PDF aan andere ontvangers ](/help/analysis-workspace/curate-share/send-schedule-files.md). |
 | **[!UICONTROL Curate project data]** | **[!UICONTROL *shift+cmd+g *]** | **[!UICONTROL *shift+ctrl+g *]** | [ Kromt de projectgegevens ](/help/analysis-workspace/curate-share/curate.md). |
 
-| Help | Sneltoets Mac | Sneltoetsvensters | Beschrijving |
-|---|---|---|---|
-| **[!UICONTROL Videos]** | | | Open het Customer Journey Analytics YouTube-kanaal in een nieuw browsertabblad. |
-| **[!UICONTROL Help documentation]** | | | Open de documentatie (u leest momenteel...) in een nieuw browser lusje. |
-| **[!UICONTROL Help forum]** | | | Open het Adobe Analytics Experience League-communityforum in een nieuw browsertabblad. |
-| **[!UICONTROL Hotkeys]** | | | Een overzicht weergeven van de sneltoetsen die u kunt gebruiken in Workspace. |
-| **[!UICONTROL Enable debugger]** |  | | Schakel de foutopsporing in. Uw project wordt opnieuw geladen. |
-| **[!UICONTROL Disable debugger]** | | | Schakel de foutopsporing uit. Uw project wordt opnieuw geladen. |
-| **[!UICONTROL Performance]** | | | Een dialoogvenster weergeven met meetgegevens op de **[!UICONTROL Analysis Workspace performance]** . Gebruik **[!UICONTROL Download as CSV]** om een CSV-bestand met prestatiegegevens te downloaden. |
-| **[!UICONTROL About Workspace]** | | | Dialoogvenster **[!UICONTROL About Analysis Workspace]** weergeven met versiegegevens, toegangsniveaus voor functies en markeringen voor actieve functies. |
+| Help | Beschrijving |
+|---|---|
+| **[!UICONTROL Videos]** | Open het Customer Journey Analytics YouTube-kanaal in een nieuw browsertabblad. |
+| **[!UICONTROL Help documentation]** | Open de documentatie (u leest momenteel...) in een nieuw browser lusje. |
+| **[!UICONTROL Help forum]** | Open het Adobe Analytics Experience League-communityforum in een nieuw browsertabblad. |
+| **[!UICONTROL Hotkeys]** | Een overzicht weergeven van de sneltoetsen die u kunt gebruiken in Workspace. |
+| **[!UICONTROL Enable debugger]** | Schakel de foutopsporing in. Uw project wordt opnieuw geladen. |
+| **[!UICONTROL Disable debugger]** | Schakel de foutopsporing uit. Uw project wordt opnieuw geladen. |
+| **[!UICONTROL Performance]** | Een dialoogvenster weergeven met meetgegevens op de **[!UICONTROL Analysis Workspace performance]** . Gebruik **[!UICONTROL Download as CSV]** om een CSV-bestand met prestatiegegevens te downloaden. |
+| **[!UICONTROL About Workspace]** | Dialoogvenster **[!UICONTROL About Analysis Workspace]** weergeven met versiegegevens, toegangsniveaus voor functies en markeringen voor actieve functies. |
 
 ## Gegevensbronnen
 
@@ -162,6 +164,6 @@ Wanneer je klaar bent met het uitbouwen van het project en het is het verzamelen
 ## Aanvullende bronnen {#resources}
 
 - Het [ Leren die ](/help/getting-started/landing.md#learning) pagina in Customer Journey Analytics landen. Deze pagina is een uitstekende manier om kennis te maken met Analysis Workspace. Met name het leren van Workspace Fundamentaal. Deze sjabloon begeleidt u door algemene terminologie en stappen voor het maken van uw eerste analyse in Workspace
-- Adobe biedt honderden [ de videoopleidingsleerprogramma&#39;s van Analytics ](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/overview) aan.
-- Zie [ de versienota&#39;s van Adobe Experience Cloud ](https://experienceleague.adobe.com/nl/docs/release-notes/experience-cloud/current) voor updates over nieuwe eigenschappen.
+- Adobe biedt honderden [ de videoopleidingsleerprogramma&#39;s van Analytics ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview) aan.
+- Zie [ de versienota&#39;s van Adobe Experience Cloud ](https://experienceleague.adobe.com/en/docs/release-notes/experience-cloud/current) voor updates over nieuwe eigenschappen.
 

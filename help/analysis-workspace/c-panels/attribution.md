@@ -1,12 +1,12 @@
 ---
-title: Kenmerk, deelvenster
-description: Het toewijzingspaneel in Analysis Workspace gebruiken en interpreteren.
+title: Deelvenster Kenmerken
+description: Leer hoe u het deelvenster Kenmerken in Analysis Workspace kunt gebruiken en interpreteren.
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: 304b8d85767d89ee60a6fb37a128194f60ca89d4
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '652'
 ht-degree: 8%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 8%
 
 >[!BEGINSHADEBOX]
 
-_Dit artikel documenteert het paneel van de Attributie in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_zie [ het paneel van de Attributie ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/attribution) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_Dit artikel documenteert het paneel van de Attributie in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_zie [ het paneel van de Attributie ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/attribution) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 

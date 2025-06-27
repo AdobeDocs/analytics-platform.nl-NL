@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 9cdfa94ad04d3d1ce43e591fa9219146152862dc
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1253'
 ht-degree: 10%
 
 ---
@@ -173,12 +173,13 @@ ht-degree: 10%
       + [Projecten openen](/help/analysis-workspace/build-workspace-project/open-projects.md)
       + [Opmerkingen over projecten](/help/analysis-workspace/build-workspace-project/comment-projects.md)
       + [Projecten opslaan](../analysis-workspace/build-workspace-project/save-projects.md)
+      + [Inhoudsopgave](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Mappen in Workspace {#workspace-folders}
-         + [Mappen](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [Mappen en submappen maken](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [Overzicht](../analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [Mappen maken](../analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Mappen beheren](../analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
-         + [Projecten toevoegen aan of verplaatsen naar mappen](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-      + [Hotkeys (sneltoetsen)](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+         + [Projecten toevoegen of verplaatsen](../analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+      + [Hotkeys](../analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Kleurenpaletten](../analysis-workspace/build-workspace-project/color-palettes.md)
       + [Weergavedichtheid](../analysis-workspace/build-workspace-project/view-density.md)
    + Sjablonen {#templates}
@@ -195,8 +196,8 @@ ht-degree: 10%
             + [Kolominstellingen](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Rijinstellingen](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Dynamische en statische items](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [Tabellen filteren en sorteren](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [Totaal Workspace](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Filteren en sorteren](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [Totalen](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Cohortingtabel {#cohort-table}
          + [Overzicht](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configureren](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -228,11 +229,11 @@ ht-degree: 10%
       + [Sectiekop](/help/analysis-workspace/visualizations/section-header.md)
       + [Samenvattingsnummer en wijziging](../analysis-workspace/visualizations/summary-number-change.md)
       + [Tekst](../analysis-workspace/visualizations/text.md)
-      + [Boomstructuur](../analysis-workspace/visualizations/treemap.md)
+      + [Treemap](../analysis-workspace/visualizations/treemap.md)
       + [Venn](../analysis-workspace/visualizations/venn.md)
    + Deelvensters {#panels}
       + [Overzicht](../analysis-workspace/c-panels/panels.md)
-      + [Leeg deelvenster](../analysis-workspace/c-panels/blank-panel.md)
+      + [Leeg](../analysis-workspace/c-panels/blank-panel.md)
       + [Attributie](../analysis-workspace/c-panels/attribution.md)
       + [Experimentatie](../analysis-workspace/c-panels/experimentation.md)
       + [Vrije vorm](../analysis-workspace/c-panels/freeform-panel.md)
@@ -260,7 +261,6 @@ ht-degree: 10%
       + [Overzicht](../analysis-workspace/c-forecast/forecasting.md)
       + [Prognoses weergeven](../analysis-workspace/c-forecast/view-forecasts.md)
       + [Statistische technieken](../analysis-workspace/c-forecast/statistics-forecasting.md)
-   + [Inhoudsopgave](../analysis-workspace/build-workspace-project/project-table-of-contents.md)
    + [Gebruikersvoorkeuren](../analysis-workspace/user-preferences.md)
    + Veelgestelde vragen over Workspace en meer {#workspace-faq}
       + [Veelgestelde vragen](../analysis-workspace/workspace-faq/faq.md)

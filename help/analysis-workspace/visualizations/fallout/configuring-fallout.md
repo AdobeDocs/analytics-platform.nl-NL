@@ -1,12 +1,12 @@
 ---
-description: Leer hoe u de aanraakpunten opgeeft om een multidimensionale fallout-reeks te maken.
-title: Een fallout-visualisatie configureren
+description: Leer hoe u de aanraakpunten configureert en opgeeft om een multidimensionale uitvalvolgorde te maken.
+title: Een Fallout Visualisatie configureren
 feature: Visualizations
 exl-id: 3d888673-d7b1-45ef-bd3a-97b98466fb0e
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Als onderdeel van de visualisatie zijn specifieke opties voor contextmenu&#39;s 
 >[!MORELIKETHIS]
 >
 >[ voeg een visualisatie aan een paneel toe ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Visualisatie-instellingen ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Contextmenu Visualisatie ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Visualisatie-instellingen ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Contextmenu Visualisatie ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

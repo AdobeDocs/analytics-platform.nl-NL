@@ -1,12 +1,12 @@
 ---
-description: De rijinstellingen variëren afhankelijk van de component die u naar de tabel hebt gesleept.
+description: Leer hoe u rijinstellingen gebruikt en hoe de rijinstellingen variëren, afhankelijk van de component die u naar een vrije-vormtabel in Analysis Workspace hebt gesleept.
 title: Rijinstellingen
 feature: Visualizations
 exl-id: a9438d83-498d-4b22-9e5e-c357bd3a2680
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#128279;](/help/assets/icons/VideoCheckedOut.svg) [ Rij en kolommontages 0&rbrace; VideoCheckedOut in een Vrije vormlijst ](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ](/help/assets/icons/VideoCheckedOut.svg) [ Rij en kolommontages 0} VideoCheckedOut in een Vrije vormlijst ](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} voor een demo video.![
 
 >[!ENDSHADEBOX]
 
-De rijinstellingen variëren afhankelijk van de component die u naar de tabel hebt gesleept. Om tot de montages van de lijstrij toegang te hebben, selecteer ![&#128279;](/help/assets/icons/Setting.svg) Plaatsend **[!UICONTROL Settings]** naast een afmeting, segment, metrisch, tijdspanne, of een verdeling binnen elk van deze voorwerpen.
+De rijinstellingen variëren afhankelijk van de component die u naar de tabel hebt gesleept. Om tot de montages van de lijstrij toegang te hebben, selecteer ](/help/assets/icons/Setting.svg) Plaatsend **[!UICONTROL Settings]** naast een afmeting, segment, metrisch, tijdspanne, of een verdeling binnen elk van deze voorwerpen.![
 
 ![ vrije lijst die van de Vorm het pictogram van Montages voor Metriek ](assets/row-settings.png) benadrukken
 
@@ -90,4 +90,4 @@ De volgende aanvullende opties in contextmenu&#39;s zijn beschikbaar wanneer u e
 
 ## Rijhoogte wijzigen
 
-U kunt de weergavedichtheid van een project instellen op **[!UICONTROL Compact]** , **[!UICONTROL Comfortable]** en **[!UICONTROL Expanded]** . [ leer meer ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density).
+U kunt de [ meningsdichtheid ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density) van een project plaatsen aan **[!UICONTROL Compact]**, **[!UICONTROL Comfortable]**, en **[!UICONTROL Expanded]**.

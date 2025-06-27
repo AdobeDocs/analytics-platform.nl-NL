@@ -1,13 +1,13 @@
 ---
-description: U kunt vanuit een aanraakpunt segmenten maken, segmenten als aanraakpunt toevoegen en de belangrijkste workflows in verschillende segmenten in Analysis Workspace vergelijken.
-keywords: fallout en segmenten;segmenten in falloutanalyse;vergelijk segmenten in fallout
-title: Segmenten toepassen in een falloutanalyse
+description: Leer hoe u segmenten van een aanraakpunt kunt maken, segmenten als aanraakpunt kunt toevoegen en de belangrijkste workflows voor verschillende segmenten kunt vergelijken in een falloutanalyse in Analysis Workspace.
+keywords: fallout en segmentatie;segmenten in falloutanalyse;vergelijk segmenten in fallout
+title: Segmenten toepassen in Fallout-analyse
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,14 @@ U kunt vanuit een aanraakpunt segmenten maken, segmenten als aanraakpunt toevoeg
 
 >[!IMPORTANT]
 >
->De segmenten die als controlepunten in Vallout worden gebruikt moeten een container gebruiken die op een lager niveau dan de algemene context van de Vallout visualisatie is. Met een persoon-contextVallout, moeten de segmenten die als controlepunten worden gebruikt zitting of op gebeurtenis-gebaseerde segmenten zijn. Met een zitting-contextVallout, moeten de segmenten die als controlepunt worden gebruikt op gebeurtenis-gebaseerde segmenten zijn. Als u een ongeldige combinatie gebruikt, is de fallout 100%. Er verschijnt een waarschuwing voor de valutamarkering wanneer u een incompatibel segment toevoegt als aanraakpunt. Bepaalde ongeldige combinaties van segmentcontainercombinaties leiden tot ongeldige Fallout-diagrammen, zoals:
+>De segmenten die als controlepunten in Vallout worden gebruikt moeten een container gebruiken die op een lager niveau dan de algemene context van de Vallout visualisatie is. Met een persoon-contextVallout, moeten de segmenten die als controlepunten worden gebruikt zitting of op gebeurtenis-gebaseerde segmenten zijn. Met een zitting-contextVallout, moeten de segmenten die als controlepunt worden gebruikt op gebeurtenis-gebaseerde segmenten zijn. Als u een ongeldige combinatie gebruikt, is de fallout 100%. U ziet een waarschuwing in de Fallout visualisatie wanneer u een incompatibel segment als aanraakpunt toevoegt. Bepaalde ongeldige combinaties van segmentcontainercombinaties leiden tot ongeldige Fallout-diagrammen, zoals:
 >
->* Het gebruiken van een op persoon-gebaseerd segment als touchpoint binnen een persoon-contextVallout visualisatie
->* Het gebruiken van een op persoon-gebaseerd segment als touchpoint binnen een zitting-contextVallout visualisatie
->* Het gebruiken van een op zitting-gebaseerd segment als touchpoint binnen een zitting-contextVallout visualisatie
+>* Het gebruiken van een op persoon-gebaseerd segment als touchpoint binnen een persoon-contextVallout visualisatie.
+>* Het gebruiken van een op persoon-gebaseerd segment als touchpoint binnen een zitting-contextVallout visualisatie.
+>* Het gebruiken van een op zitting-gebaseerd segment als touchpoint binnen een zitting-contextVallout visualisatie.
+<!-- Should we add B2B context here?
+* [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Usimg a B2B container based segment as a touchpoint inside a non-container based context Fallout visualization.
+* -->
 
 ## Een segment maken van een aanraakpunt
 

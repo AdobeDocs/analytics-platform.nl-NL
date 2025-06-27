@@ -1,25 +1,25 @@
 ---
-description: Leer over de opties om projecten te openen.
+description: Leer hoe u projecten opent in Analysis Workspace.
 title: Projecten openen
 feature: Workspace Basics
 role: User
 exl-id: 5ef235e2-50d8-4202-bad7-06090102cf73
-source-git-commit: ab78583eb36d6158630724fbab9eb8148bcdbe23
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
 
 # Projecten openen
 
-U kunt een project van de [ pagina van Projecten ](/help/analysis-workspace/build-workspace-project/freeform-overview.md) direct openen. Zoek uw project in de lijst. Het onderzoek van het gebruik [&#128279;](/help/analysis-workspace/build-workspace-project/freeform-overview.md#search) of het [ segmentpaneel ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel) om onderaan de lijst te versmallen.
+U kunt een project van de [ pagina van Projecten ](/help/analysis-workspace/build-workspace-project/freeform-overview.md) direct openen. Zoek uw project in de lijst. Het onderzoek van het gebruik ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#search) of het [ segmentpaneel ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel) om onderaan de lijst te versmallen.[
 
 * Selecteer de titel van uw project om het project in Analysis Workspace te openen.
 
 U kunt een project ook openen terwijl u in een ander project werkt.
 
-* Selecteer **[!UICONTROL Open]** in het menu **[!UICONTROL Project]** . U ziet een dialoog gelijkend op de [&#128279;](/help/analysis-workspace/build-workspace-project/freeform-overview.md) pagina van Projecten.  Het onderzoek van het gebruik [&#128279;](/help/analysis-workspace/build-workspace-project/freeform-overview.md#search) of het [ segmentpaneel ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel) om onderaan de lijst te versmallen.
+* Selecteer **[!UICONTROL Open]** in het menu **[!UICONTROL Project]** . U ziet een dialoog gelijkend op de [ ](/help/analysis-workspace/build-workspace-project/freeform-overview.md) pagina van Projecten.  Het onderzoek van het gebruik ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#search) of het [ segmentpaneel ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#segment-panel) om onderaan de lijst te versmallen.[
 * Selecteer de titel van uw project om het project in Analysis Workspace te openen.
 
 Selecteer **[!UICONTROL Create new]** als u het project niet kunt vinden en een nieuw project wilt starten.

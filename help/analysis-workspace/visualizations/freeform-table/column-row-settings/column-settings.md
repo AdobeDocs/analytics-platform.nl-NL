@@ -4,21 +4,21 @@ title: Kolominstellingen
 feature: Visualizations
 exl-id: b41d8a12-e8d9-405c-ac71-6567397aec6b
 role: User
-source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '829'
 ht-degree: 7%
 
 ---
 
-# [!UICONTROL Column Settings]
+# Kolominstellingen
 
 Met [!UICONTROL Column settings] kunt u kolomopmaak configureren, waarvan sommige voorwaardelijk kunnen zijn.
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#128279;](/help/assets/icons/VideoCheckedOut.svg) [ Rij en kolommontages 0&rbrace; VideoCheckedOut in een Vrije vormlijst ](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ](/help/assets/icons/VideoCheckedOut.svg) [ Rij en kolommontages 0} VideoCheckedOut in een Vrije vormlijst ](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} voor een demo video.![
 
 {{videoaa}}
 
@@ -34,7 +34,7 @@ U kunt instellingen voor meerdere kolommen tegelijk bewerken. Selecteer veelvoud
 
 | Optie | Beschrijving |
 | --- | --- |
-| **[!UICONTROL Show total]** | Een som van de kolommen aan de clientzijde weergeven. Dit totaal **&#x200B;**&#x200B;dedupliceert metriek zoals zittingen of personen niet. |
+| **[!UICONTROL Show total]** | Een som van de kolommen aan de clientzijde weergeven. Dit totaal **** dedupliceert metriek zoals zittingen of personen niet. |
 | **[!UICONTROL Show grand total]** | Toon een server-zijsom van de kolom. Het totaal-generaal dedupliceert metriek zoals zittingen of personen. |
 | **[!UICONTROL Show sparkline]** | Een lijndiagram weergeven bij de kolomkop. |
 | **[!UICONTROL Number]** | Bepaal of een cel de numerieke waarde voor de metrische waarde weergeeft/verbergt. Als de metrische waarde bijvoorbeeld Paginaweergaven is, is de numerieke waarde het aantal paginaweergaven voor het rij-item. |
@@ -96,7 +96,7 @@ U kunt het standaardattributiemodel met voeten treden dat in [ meningen van Gege
 >
 >   De veelvoudige afmetingen zijn beschikbaar slechts wanneer [ het uitvoeren van gegevens aan de wolk ](/help/analysis-workspace/export/export-cloud.md).
 >
-> Voor meer informatie over toewijzing, zie {de montages van de componenten van 0} Persistence [&#128279;](/help/data-views/component-settings/persistence.md).
+> Voor meer informatie over toewijzing, zie {de montages van de componenten van 0} Persistence ](/help/data-views/component-settings/persistence.md).[
 
 Een niet-standaard toewijzingsmodel gebruiken voor een metrisch object in een Analysis Workspace:
 

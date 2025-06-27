@@ -1,22 +1,22 @@
 ---
-description: Meer informatie over mappen in Workspace
+description: Leer hoe u uw projecten kunt ordenen in mappen in Analysis Workspace.
 keywords: Analysis Workspace
 title: Overzicht van mappen
 feature: Workspace Basics
 exl-id: e12e271e-ce15-4535-bb48-1976395cf755
 role: User
-source-git-commit: 60035b8fc65627bf5ead2a50959ce9cc5fe48604
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
 
 # Overzicht van mappen
 
-De omslagen in Customer Journey Analytics zijn beschikbaar op de Workspace landende pagina wanneer u aan [ Show Omslagen &amp; Projecten ](../freeform-overview.md#show-selector) hebt geselecteerd.
-
 Met mappen in Workspace kunt u uw projecten ordenen en indelen. Met de omslagfunctionaliteit, kunt u omslagen en subfolders tot stand brengen om uw projecten te beheren.
+
+De omslagen in Customer Journey Analytics zijn beschikbaar op de Workspace landende pagina wanneer u aan [ Show Omslagen &amp; Projecten ](../freeform-overview.md#show-selector) hebt geselecteerd.
 
 Er zijn twee typen mappen in Workspace: de map Company en de persoonlijke mappen. Met een gedeelde bedrijfsmap kunnen beheerders inhoud maken en delen met alle Workspace-gebruikers.
 

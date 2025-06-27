@@ -1,12 +1,12 @@
 ---
-description: Een deelvenster is een verzameling tabellen en visualisaties
-title: Overzicht van deelvensters
+description: Begrijp panelen en hoe te om panelen in Analysis Workspace te gebruiken.
+title: Overzicht deelvensters
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: 746e03bc94fe3ad83ea5487a6cd3da2089695017
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2017'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ U kunt:
 
 ## Gegevens, weergave
 
-Elk paneel wordt geassocieerd met a [ gegevensmening ](/help/data-views/data-views.md), die door ![ Gegevens ](/help/assets/icons/Data.svg) wordt geïdentificeerd **[!UICONTROL *naam van gegevensmening *]**&#x200B;in het drop-down menu bij het hoogste recht van het paneel.
+Elk paneel wordt geassocieerd met a [ gegevensmening ](/help/data-views/data-views.md), die door ![ Gegevens ](/help/assets/icons/Data.svg) wordt geïdentificeerd **[!UICONTROL *naam van gegevensmening *]**in het drop-down menu bij het hoogste recht van het paneel.
 
 Wanneer u een leeg Workspace-project maakt, is de standaardgegevensweergave voor het eerste deelvenster de gegevensweergave waarmee u het laatst in Customer Journey Analytics hebt gewerkt.
 

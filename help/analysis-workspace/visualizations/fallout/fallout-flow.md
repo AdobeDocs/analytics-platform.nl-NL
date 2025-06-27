@@ -1,12 +1,12 @@
 ---
-description: Meer informatie over uitvalrapporten en visualisaties.
-title: Informatie over uitvalrapporten en visualisaties
+description: Leer hoe u de fallout-visualisatie in Analysis Workspace kunt gebruiken.
+title: Overzicht van uitval
 feature: Visualizations
 exl-id: c4338821-64ac-4345-828a-15af18a95ea6
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '357'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van de Uitval in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [ Uitval ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert de visualisatie van de Uitval in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_zie [ Uitval ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -65,7 +65,7 @@ De visualisatie van de Uitval heeft gelijkenissen met de [ visualisatie van de S
 
 ### Wanneer gebruikt u Fallout
 
-Zowel zijn de Uitval als [&#128279;](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) visualisaties van het canvas van 0&rbrace; de Reis nuttig om te analyseren:
+Zowel zijn de Uitval als ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) visualisaties van het canvas van 0} de Reis nuttig om te analyseren:[
 
 * Conversiepercentages via specifieke processen op uw site (zoals een aankoop- of registratieproces).
 * Algemene, bredere verkeersstromen: Van de mensen die de homepage bezochten, toont deze stroom hoeveel een onderzoek uitvoerden. En hoeveel van hen bekeken uiteindelijk een specifiek item.

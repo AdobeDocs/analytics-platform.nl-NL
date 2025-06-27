@@ -1,5 +1,5 @@
 ---
-source-git-commit: 256b1a3901a13ff2873a5cb5782baf26c93b8e8d
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
 source-wordcount: '4824'
 ht-degree: 0%
@@ -57,21 +57,21 @@ De beschikbare opties voor tijdvergelijking omvatten de vorige periode, 13 weken
 
 ## Adobe Analytics voor videodemonstratie {#videoaa}
 
-*Deze video toont de functionaliteit gebruikend Adobe Analytics aan. De functionaliteit is echter ook beschikbaar in Customer Journey Analytics. Houd rekening met de verschillen in terminologie tussen Adobe Analytics en Customer Journey Analytics (bijvoorbeeld &quot;bezoeken&quot; versus &quot;sessies&quot;).*
+Deze video demonstreert de functionaliteit met Adobe Analytics. De functionaliteit is echter ook beschikbaar in Customer Journey Analytics. Ben zich bewust van de verschillen in terminologie tussen Adobe Analytics en Customer Journey Analytics (bijvoorbeeld *bezoeken* tegenover *zittingen*).
 
 
 ## Sectie voor tagfilter {#tagfiltersection}
 
 | Tags | Beschrijving |
 |---|---|
-| ![ Markeringen ](/help/assets/filter-tag.png){width="300"} | In de sectie **[!UICONTROL Tags]** kunt u filteren op tags. <ul><li>U kunt ![&#128279;](/help/assets/icons/Search.svg) *Codes van het Onderzoek*  zoeken &lbrace;om naar markeringen te zoeken u kunt gebruiken om te filtreren.</li><li>U kunt meerdere tags selecteren. Welke labels beschikbaar zijn, is afhankelijk van de selecties die in andere secties in het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**(1)**: Het aantal geselecteerde markeringen (als één of meerdere markeringen worden geselecteerd).</li><li>**2︎⃣**: Het aantal markeringen beschikbaar voor de punten die uit de huidige filter voortvloeien.</li><li>7︎⃣: Het aantal items dat aan de specifieke tag is gekoppeld.</li></ul></li></ul> |
+| ![ Markeringen ](/help/assets/filter-tag.png){width="300"} | In de sectie **[!UICONTROL Tags]** kunt u filteren op tags. <ul><li>U kunt ](/help/assets/icons/Search.svg) *Codes van het Onderzoek* ![ zoeken {om naar markeringen te zoeken u kunt gebruiken om te filtreren.</li><li>U kunt meerdere tags selecteren. Welke labels beschikbaar zijn, is afhankelijk van de selecties die in andere secties in het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**(1)**: Het aantal geselecteerde markeringen (als één of meerdere markeringen worden geselecteerd).</li><li>**2︎⃣**: Het aantal markeringen beschikbaar voor de punten die uit de huidige filter voortvloeien.</li><li>7︎⃣: Het aantal items dat aan de specifieke tag is gekoppeld.</li></ul></li></ul> |
 
 
 ## Sectie Gegevensweergavefilter {#dataviewfiltersection}
 
 | Gegevens, weergave | Beschrijving |
 |---|---|
-| ![ de meningen van Gegevens ](/help/assets/filter-dataview.png){width="300"} | In de sectie **[!UICONTROL Data view]** kunt u filteren op gegevensweergaven. <ul><li>U kunt ![&#128279;](/help/assets/icons/Search.svg) *de meningen van Gegevens van het 1&rbrace; Onderzoek* &lbrace;zoeken aan onderzoek naar gegevensmeningen u kunt gebruiken om te filtreren.</li><li>U kunt meerdere gegevensweergaven selecteren. Welke gegevensweergaven beschikbaar zijn, is afhankelijk van de selecties die in andere secties van het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**(2)**: Het aantal geselecteerde gegevensmeningen (als één of meerdere gegevensmeningen worden geselecteerd).</li><li>**3︎⃣**: Het aantal gegevensmeningen beschikbaar voor de punten die uit de huidige filter voortvloeien.</li><li>4︎⃣: Het aantal items dat is gekoppeld aan de specifieke gegevensweergave.</li></ul></li></ul> |
+| ![ de meningen van Gegevens ](/help/assets/filter-dataview.png){width="300"} | In de sectie **[!UICONTROL Data view]** kunt u filteren op gegevensweergaven. <ul><li>U kunt ](/help/assets/icons/Search.svg) *de meningen van Gegevens van het 1} Onderzoek* {zoeken aan onderzoek naar gegevensmeningen u kunt gebruiken om te filtreren.![</li><li>U kunt meerdere gegevensweergaven selecteren. Welke gegevensweergaven beschikbaar zijn, is afhankelijk van de selecties die in andere secties van het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**(2)**: Het aantal geselecteerde gegevensmeningen (als één of meerdere gegevensmeningen worden geselecteerd).</li><li>**3︎⃣**: Het aantal gegevensmeningen beschikbaar voor de punten die uit de huidige filter voortvloeien.</li><li>4︎⃣: Het aantal items dat is gekoppeld aan de specifieke gegevensweergave.</li></ul></li></ul> |
 
 ## Ingeschakelde sectie voor statusfilter {#enabledstatusfiltersection}
 
@@ -89,7 +89,7 @@ De beschikbare opties voor tijdvergelijking omvatten de vorige periode, 13 weken
 
 | Eigenaar | Beschrijving |
 |---|---|
-| ![ Eigenaars ](/help/assets/filter-owners.png){width="300"} | In de sectie **[!UICONTROL Owner]** kunt u filteren op eigenaars. <ul><li>U kunt ![&#128279;](/help/assets/icons/Search.svg) *Onderzoek Eigenaars*  zoeken &lbrace;om naar eigenaars te zoeken u aan filter kunt gebruiken.</li><li>U kunt meerdere eigenaars selecteren. Welke eigenaars beschikbaar zijn, is afhankelijk van de selecties die in andere secties in het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**(2)**: Het aantal geselecteerde eigenaars (als één of meerdere eigenaars worden geselecteerd).</li><li>**3︎⃣**: Het aantal eigenaars beschikbaar voor de punten die uit de huidige filter voortvloeien.</li><li>4︎⃣: Het aantal items dat aan de specifieke eigenaar is gekoppeld.</li></ul></li></ul> |
+| ![ Eigenaars ](/help/assets/filter-owners.png){width="300"} | In de sectie **[!UICONTROL Owner]** kunt u filteren op eigenaars. <ul><li>U kunt ](/help/assets/icons/Search.svg) *Onderzoek Eigenaars* ![ zoeken {om naar eigenaars te zoeken u aan filter kunt gebruiken.</li><li>U kunt meerdere eigenaars selecteren. Welke eigenaars beschikbaar zijn, is afhankelijk van de selecties die in andere secties in het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**(2)**: Het aantal geselecteerde eigenaars (als één of meerdere eigenaars worden geselecteerd).</li><li>**3︎⃣**: Het aantal eigenaars beschikbaar voor de punten die uit de huidige filter voortvloeien.</li><li>4︎⃣: Het aantal items dat aan de specifieke eigenaar is gekoppeld.</li></ul></li></ul> |
 
 ## Sectie Overige filters {#otherfiltersfiltersection}
 
@@ -130,10 +130,10 @@ Een attribuutcontainer bepaalt het gewenste werkingsgebied voor de attributie. M
 
 * **Zitting**: Zoekt file aan het begin van de zitting waar een omzetting gebeurde. De raadplegingsvensters van de zitting respecteren de gewijzigde [ onderbreking van de Zitting ](/help/data-views/create-dataview.md#session-settings) in een gegevensmening.
 * **Persoon**: Zoekt naar omzettingen van het werkingsgebied van de persooncontainer.
-* **Globale Rekening** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative}: Zoekt naar omzettingen van het werkingsgebied van de globale rekeningscontainer.
-* **Rekeningen** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative}: Zoekt naar omzettingen van het werkingsgebied van de persooncontainer.
-* **[!BADGE &#x200B; B2B edition &#x200B;]{type=Informative} van de Kans 1&rbrace;**: Zoekt naar omzettingen van het werkingsgebied van de opportunitycontainer.
-* **het Kopen groep** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative}: Zoekt naar omzettingen van het werkingsgebied van de het kopen groepscontainer.
+* **Globale Rekening** [!BADGE  B2B edition ]{type=Informative}: Zoekt naar omzettingen van het werkingsgebied van de globale rekeningscontainer.
+* **Rekeningen** [!BADGE  B2B edition ]{type=Informative}: Zoekt naar omzettingen van het werkingsgebied van de persooncontainer.
+* **[!BADGE  B2B edition ]{type=Informative} van de Kans 1}**: Zoekt naar omzettingen van het werkingsgebied van de opportunitycontainer.
+* **het Kopen groep** [!BADGE  B2B edition ]{type=Informative}: Zoekt naar omzettingen van het werkingsgebied van de het kopen groepscontainer.
 
 ## Atributie terugzoekvenster {#attribution-lookback-window}
 
@@ -143,7 +143,7 @@ Een terugkijkvenster van de attributie is de hoeveelheid tijd een omzetting zou 
 * **30 Dagen**: Zoekt file tot 30 dagen vanaf toen de omzetting gebeurde.
 * **60 Dagen**: Zoekt file tot 60 dagen vanaf toen de omzetting gebeurde.
 * **90 Dagen**: Zoekt file tot 90 dagen vanaf toen de omzetting gebeurde.
-* **13 maanden** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative}: Zoekt file aan 13 maanden vanaf toen de omzetting gebeurde.
+* **13 maanden** [!BADGE  B2B edition ]{type=Informative}: Zoekt file aan 13 maanden vanaf toen de omzetting gebeurde.
 * **Tijd van de Douane:** staat u toe om een venster van de douaneterugblik van te plaatsen wanneer een omzetting gebeurde. U kunt het aantal minuten, uren, dagen, weken, maanden of kwartalen opgeven. Bijvoorbeeld, als een omzetting op 20 februari gebeurde, zou een terugkijkvenster van vijf dagen alle afmetingstips van 15 februari tot 20 februari in het attributiemodel evalueren.
 
 ## Voorbeeld van kenmerk {#attribution-example}
@@ -167,7 +167,7 @@ Afhankelijk van het toewijzingsmodel ontvangen container en kanalen verschillend
 
 Conversiegebeurtenissen die doorgaans hele getallen bevatten, worden gedeeld als het krediet tot meer dan één kanaal behoort. Als twee kanalen bijvoorbeeld een bijdrage leveren aan een bestelling met behulp van een lineair toewijzingsmodel, krijgen beide kanalen 0,5 van die volgorde. Deze gedeeltelijke metriek worden samengevat over alle mensen dan rond gemaakt aan het dichtstbijzijnde geheel voor rapportering.
 
-[!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} Gebruik specifieke B2B containers, zoals Rekeningen, of Kansen, en meer aangewezen raadplegingsvensters (tot 13 maanden) om boven attributiemodellen in typische B2B scenario&#39;s toe te passen.
+[!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} Gebruik specifieke B2B containers, zoals Rekeningen, of Kansen, en meer aangewezen raadplegingsvensters (tot 13 maanden) om boven attributiemodellen in typische B2B scenario&#39;s toe te passen.
 
 ## Reisvisualisatievergelijkingen {#journey-visualization-comparisons}
 
@@ -220,7 +220,7 @@ Gebruik de volgende informatie om de visualisatie te kiezen die het beste aan uw
 
 >[!AVAILABILITY]
 >
->De functionaliteit die in dit artikel wordt beschreven, en om het even welk ander artikel of functionaliteit die met [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative} wordt badged, is in de Beperkte het Testen fase van versie en zou niet nog in uw milieu beschikbaar kunnen zijn. <br/> ook, [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative} functionaliteiten en documentatie van [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative} functionaliteiten zijn onderworpen aan verandering en geen wettelijke verplichtingen kunnen uit het worden afgeleid.<br/> Deze nota zal worden verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het de versieproces van Customer Journey Analytics, zie [ de eigenschapversies van Customer Journey Analytics ](/help/release-notes/releases.md).
+>De functionaliteit die in dit artikel wordt beschreven, en om het even welk ander artikel of functionaliteit die met [!BADGE  B2B edition ]{type=Informative} wordt badged, is in de Beperkte het Testen fase van versie en zou niet nog in uw milieu beschikbaar kunnen zijn. <br/> ook, [!BADGE  B2B edition ]{type=Informative} functionaliteiten en documentatie van [!BADGE  B2B edition ]{type=Informative} functionaliteiten zijn onderworpen aan verandering en geen wettelijke verplichtingen kunnen uit het worden afgeleid.<br/> Deze nota zal worden verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het de versieproces van Customer Journey Analytics, zie [ de eigenschapversies van Customer Journey Analytics ](/help/release-notes/releases.md).
 >
 
 
@@ -228,7 +228,7 @@ Gebruik de volgende informatie om de visualisatie te kiezen die het beste aan uw
 
 >[!INFO]
 >
->In deze documentatie, zijn de specifieke B2B- artikelen of de functionaliteit, slechts beschikbaar met Customer Journey Analytics B2B edition, duidelijk met [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative}.
+>In deze documentatie, zijn de specifieke B2B- artikelen of de functionaliteit, slechts beschikbaar met Customer Journey Analytics B2B edition, duidelijk met [!BADGE  B2B edition ]{type=Informative}.
 
 
 ## Algemene instellingen voor gegevenssets {#common-dataset-settings}
@@ -275,11 +275,11 @@ Gebruik de volgende informatie om de visualisatie te kiezen die het beste aan uw
 
 | Componentnaam | Notities |
 | --- | --- |
-| [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>[!UICONTROL Accounts] | Gebaseerd op de account-id die is opgegeven in een [!UICONTROL Connection] . |
-| [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>[!UICONTROL Buying Group] | De inkoopgroepen, op basis van de groep-id voor kopen die is opgegeven in de [!UICONTROL Connection] . |
+| [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>[!UICONTROL Accounts] | Gebaseerd op de account-id die is opgegeven in een [!UICONTROL Connection] . |
+| [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>[!UICONTROL Buying Group] | De inkoopgroepen, op basis van de groep-id voor kopen die is opgegeven in de [!UICONTROL Connection] . |
 | [!UICONTROL Events] | Het aantal rijen van alle gebeurtenisdatasets in a [!UICONTROL Connection]. |
-| [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>[!UICONTROL Global Accounts] | Gebaseerd op de globale die Rekeningen ID in [!UICONTROL Connection] wordt gespecificeerd. |
-| [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>[!UICONTROL Opportunities] | De mogelijkheden, die op identiteitskaart van de Kanans worden gebaseerd die in [!UICONTROL Connection] wordt gespecificeerd. |
+| [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>[!UICONTROL Global Accounts] | Gebaseerd op de globale die Rekeningen ID in [!UICONTROL Connection] wordt gespecificeerd. |
+| [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>[!UICONTROL Opportunities] | De mogelijkheden, die op identiteitskaart van de Kanans worden gebaseerd die in [!UICONTROL Connection] wordt gespecificeerd. |
 | [!UICONTROL People] | Gebaseerd op de persoon-id die is opgegeven in een [!UICONTROL Connection] . |
 | [!UICONTROL Session Ends] | Het aantal gebeurtenissen dat de laatste gebeurtenis van een sessie was. Net als [!UICONTROL Session Starts] kan de klasse ook worden gebruikt in een segmentdefinitie om items tot aan de laatste gebeurtenis van elke sessie te segmenteren.<p>Deze component moet in uw gegevensmening voor het volgende [ berekende metrisch ](/help/components/calc-metrics/default-calcmetrics.md) worden omvat om in Workspace beschikbaar te zijn: <ul><li>Eindfrequentie sessie</li></p> |
 | [!UICONTROL Session Starts] | Het aantal gebeurtenissen dat de eerste gebeurtenis van een sessie was. Wanneer gebruikt in een segmentdefinitie (bijvoorbeeld, &quot;[!UICONTROL Session Starts] bestaat&quot;), segmenteert het neer aan enkel de eerste gebeurtenis van elke zitting.<p>Deze component moet in uw gegevensmening voor het volgende [ berekende metrisch ](/help/components/calc-metrics/default-calcmetrics.md) worden omvat om in Workspace beschikbaar te zijn: <ul><li>Beginsnelheid van sessie</li></p> |

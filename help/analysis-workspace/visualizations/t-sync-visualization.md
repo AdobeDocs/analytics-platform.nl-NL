@@ -1,49 +1,36 @@
 ---
-description: Door visualisatie te synchroniseren kunt u bepalen welke datatabel of gegevensbron overeenkomt met een visualisatie.
+description: Leer hoe te om freeform lijst of een gegevensbron aan de overeenkomstige visualisatie te synchroniseren.
 keywords: Analysis Workspace;Visualisatie synchroniseren met gegevensbron
 title: Gegevensbronnen beheren
 feature: Visualizations
 exl-id: f9e89bef-0e78-49c7-8b7b-1fefd709c0cd
 role: User
-source-git-commit: 8f9c03607130bdeaf6cb7a32d8dd465712a47ea5
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
 
 # Gegevensbronnen beheren {#manage-data-sources}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_lockselection"
 >title="Selectie vergrendelen"
 >abstract="Schakel deze instelling in om de visualisatie te vergrendelen op de geselecteerde posities of op de geselecteerde items in de gegevensbron."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_lockselection_showtable"
 >title="Tabel tonen"
 >abstract="Als u **[!UICONTROL Show table]** selecteert, wordt een nieuwe gegevensbron voor uw huidige visualisatie gegenereerd, los van de oorspronkelijke gegevensbron."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_showtable"
 >title="Tabel tonen"
 >abstract="Selecteer **[!UICONTROL Show table]** om een nieuwe gegevensbron voor uw huidige visualisatie te produceren, los van de originele gegevensbron."
 
-<!-- markdownlint-enable MD034 -->
 
-
-
-Door visualisatie te synchroniseren kunt u bepalen welke datatabel of gegevensbron overeenkomt met een visualisatie.
+Door visualisatie te synchroniseren kunt u bepalen welke vrije-vormtabel of gegevensbron overeenkomt met een visualisatie.
 
 >[!TIP]
 >

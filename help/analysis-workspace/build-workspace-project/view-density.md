@@ -1,12 +1,12 @@
 ---
-description: Leer hoe u de weergavedichtheid in Analysis Workspace kunt aanpassen.
+description: Leer hoe u de weergavedichtheid van uw project in Analysis Workspace aanpast.
 title: Dichtheid weergeven
 feature: Workspace Basics
 exl-id: b02672e2-0728-472b-97fe-14637ab1c2df
 role: User
-source-git-commit: 15a3d7b6f2ec4f37fd861315871e06ddefa5348a
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---

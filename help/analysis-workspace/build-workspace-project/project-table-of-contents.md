@@ -1,13 +1,13 @@
 ---
-description: Informatie over de functionaliteit van de inhoudsopgave in een Workspace-project
+description: Leer hoe u de inhoudsopgave in een project in Analysis Workspace kunt gebruiken om snel deelvensters en visualisaties te openen.
 keywords: Analysis Workspace
 title: Inhoudsopgave
 feature: Workspace Basics
 role: User
 exl-id: 4eb7de7a-ec40-4a59-afc4-94131e91a35f
-source-git-commit: 51a6341734163fdd6b994ae9cec53ef034959896
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '200'
 ht-degree: 1%
 
 ---

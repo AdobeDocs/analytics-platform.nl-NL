@@ -1,26 +1,26 @@
 ---
-description: Lees meer over voorbeelden van gevallen voor cohortanalyse.
+description: Lees meer over enkele voorbeelden van gevallen voor cohortanalyse.
 keywords: Analysis Workspace
-title: Gebruiksgevallen van cohortanalyse
+title: Cohortanalyse Xases gebruiken
 feature: Visualizations
 exl-id: f559d4b4-b682-4306-b111-22acb26fe0a0
 role: User
-source-git-commit: 0101986bb86c49776a044f754d912dc1bcb9422c
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Cohort analysis] gebruik gevallen
+# Gebruiksgevallen van cohortanalyse
 
-In dit artikel worden enkele voorbeelden van gebruiksscenario&#39;s voor [!UICONTROL Cohort Analysis] beschreven.
+In dit artikel worden enkele voorbeelden van gebruiksscenario&#39;s voor cohortanalyse beschreven.
 
 ## Gebruiksscenario voor betrokkenheid van apps
 
 Stel dat u wilt analyseren hoe gebruikers die uw app installeren er na verloop van tijd mee werken. Installeren ze het en gebruiken ze het nooit? Hebben ze het een tijdje gebruikt en vallen ze dan weg? Of blijven ze in de loop der tijd betrokken?
 
-U kunt een periode van zes maanden maken [!UICONTROL Cohort Analysis] :
+U kunt een cohortanalyse van zes maanden maken.
 
 **Korreligheid**: Maandelijks, van Januari 2015 door Juni 2015.
 

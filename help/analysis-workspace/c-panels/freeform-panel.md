@@ -1,12 +1,12 @@
 ---
-description: Meer informatie over vrije-vormvensters in Analysis Workspace.
+description: Leer hoe u een vrije-vormdeelvensters met een vrije-vormlijst als beginstaat voor uw Analysis Workspace-project gebruikt.
 title: Deelvenster Vrije vorm
 feature: Panels
 exl-id: 4e1d5d72-da59-419a-835e-a3c90f1362b4
 role: User
-source-git-commit: 55b312552d32070875714a77e1177bf0da5f9d87
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_Dit artikel documenteert het deelvenster Vrije vorm in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_zie [ het deelvenster Vrije vorm ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/freeform-panel) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_Dit artikel documenteert het deelvenster Vrije vorm in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_zie [ het deelvenster Vrije vorm ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/freeform-panel) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -37,6 +37,6 @@ Een **[!UICONTROL Freeform panel]** gebruiken:
 >[!MORELIKETHIS]
 >
 >[ creeer een paneel ](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->[Componenten gebruiken in Workspace ](/help/components/use-components-in-workspace.md)
->[Visualisatie voor vrije-vormtabellen ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)
+>>[Componenten gebruiken in Workspace ](/help/components/use-components-in-workspace.md)
+>>[Visualisatie voor vrije-vormtabellen ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)
 >

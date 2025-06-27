@@ -1,19 +1,17 @@
 ---
-description: Gebruik intelligente bijschriften om inzichten in de natuurlijke taal te genereren voor oppervlaktetrends binnen visualisaties.
+description: Leer hoe u intelligente bijschriften kunt gebruiken om inzichten in de natuurlijke taal te genereren voor trends in het oppervlak binnen visualisaties.
 title: Intelligente bijschriften
 feature: Visualizations
 exl-id: d32d3cda-ecbf-4ee7-a8b7-7c3c71b5df75
 role: User
-source-git-commit: af8d4f07498211931e9549cadd4746eebb9f56f4
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
 
 # Intelligente bijschriften {#intelligent-captions}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_intelligentcaptions"
@@ -30,7 +28,7 @@ Intelligente bijschriften zijn gericht op:
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Intelligente titels ](https://video.tv.adobe.com/v/3443144/?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Intelligente titels ](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -129,7 +127,7 @@ Als u liever geen intelligente bijschriften wilt weergeven, schakelt u de functi
 
 ## Intelligente bijschriften in mobiele scoreborden
 
-De intelligente titels zijn ook beschikbaar in Customer Journey Analytics [ mobiele scorecards ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions).
+De intelligente titels zijn ook beschikbaar in Customer Journey Analytics [ mobiele scorecards ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions).
 
 ## Toegang tot functies
 
@@ -139,7 +137,7 @@ De volgende parameters regelen de toegang tot intelligente bijschriften:
 
 * **Contractuele toegang**: Als u geen Intelligente titels kunt gebruiken, gelieve de beheerder van uw organisatie of de Vertegenwoordiger van de Rekening van Adobe (Admin) te contacteren. Voordat u Intelligente bijschriften kunt gebruiken in uw organisatie, moet u akkoord gaan met bepaalde wettelijke bepalingen die betrekking hebben op Generative AI.
 
-* **Toestemmingen**: In [!UICONTROL Adobe Admin Console], bepaalt de [!UICONTROL Reporting Tools] **[!UICONTROL Intelligent Captions]** toestemming toegang. Admin van het a [ productprofiel ](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) moet deze stappen in [!UICONTROL Admin Console] volgen:
+* **Toestemmingen**: In [!UICONTROL Adobe Admin Console], bepaalt de [!UICONTROL Reporting Tools] **[!UICONTROL Intelligent Captions]** toestemming toegang. Admin van het a [ productprofiel ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) moet deze stappen in [!UICONTROL Admin Console] volgen:
    1. Navigeer naar **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]** .
    1. Selecteer de titel van het productprofiel waarvoor u toegang tot de Intelligente bijschriften wilt verlenen.
    1. Selecteer **[!UICONTROL Permissions]** in het specifieke productprofiel.

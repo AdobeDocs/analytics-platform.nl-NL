@@ -1,13 +1,13 @@
 ---
-description: Geef je gegevens visueel weer in Analysis Workspace.
+description: Leer hoe u uw gegevens visueel kunt weergeven met behulp van visuele hulpmiddelen die beschikbaar zijn in Analysis Workspace.
 keywords: Analysis Workspace
 title: Overzicht van visualisaties
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1535'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 
    ![ voeg visualisatie ](assets/add-visualization.png) toe
 
-   * In het linkerpaneel, uitgezochte ![&#128279;](/help/assets/icons/GraphBarVertical.svg) GraphBarVertical **Visualizations**, dan sleep een visualisatie aan het paneel waar u de visualisatie aan wilt toevoegen.
+   * In het linkerpaneel, uitgezochte ](/help/assets/icons/GraphBarVertical.svg) GraphBarVertical **Visualizations**, dan sleep een visualisatie aan het paneel waar u de visualisatie aan wilt toevoegen.![
 
    * Voor het paneel waar u de visualisatie wilt toevoegen, selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg), dan het pictogram kiezen dat de visualisatie vertegenwoordigt die u wilt toevoegen. Houd de muisaanwijzer boven het pictogram voor elke visualisatie om de naam weer te geven.
 

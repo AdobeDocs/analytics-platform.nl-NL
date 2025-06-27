@@ -1,12 +1,12 @@
 ---
-title: Deelvenster Gemiddelde media - geluid
-description: Het mediapictogram voor een gemiddeld aantal minuten in Analysis Workspace gebruiken en interpreteren.
+title: Deelvenster Gemiddelde media-minuten publiek
+description: Leer hoe u het deelvenster Mediagemiddelde tijdens de minuten in Analysis Workspace gebruikt en interpreteert.
 feature: Panels
 role: User, Admin
 exl-id: c55b5534-a9a6-47f1-8b43-c8c0b8686c53
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1637'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het gemiddelde minieme het publiek van Media paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_zie [ het gemiddelde minieme publiek van Media paneel ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert het gemiddelde minieme het publiek van Media paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_zie [ het gemiddelde minieme publiek van Media paneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -187,6 +187,6 @@ In het deelvenster Gemiddelde minieme doelgroep van Media wordt alleen de gemidd
 >[!MORELIKETHIS]
 >
 > [ creeer een paneel ](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
-> [Deelvenster Mediagelijktijdige viewers ](media-concurrent-viewers.md)
-> [De playbacktijd van media bestede paneel ](media-playback-time-spent.md)
+> > [Deelvenster Mediagelijktijdige viewers ](media-concurrent-viewers.md)
+> > [De playbacktijd van media bestede paneel ](media-playback-time-spent.md)
 >

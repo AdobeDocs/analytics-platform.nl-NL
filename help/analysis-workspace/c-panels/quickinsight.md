@@ -1,12 +1,12 @@
 ---
-description: Quick Insights is een hulpmiddel voor nieuwe Workspace-gebruikers dat hen begeleidt bij het samenstellen van gegevenstabellen en -visualisaties
+description: Leer hoe u het deelvenster Snelle inzichten kunt gebruiken om u te begeleiden bij het samenstellen van gegevenstabellen en -visualisaties in Analysis Workspace.
 title: Deelvenster Snelle inzichten
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1074'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het Snelle paneel van Inzichten in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_zie [ Snelle Inzichten paneel ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/quickinsight) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert het Snelle paneel van Inzichten in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_zie [ Snelle Inzichten paneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -125,13 +125,13 @@ Er verschijnen andere handige tips in de [!UICONTROL Quick Insights Builder] , w
 
   ![ het Resultaat van de Bouwer van Snelle Inzichten ](assets/qibuilder-result.png)
 
-   * **[!UICONTROL Analyze]** afmetingen **[!UICONTROL Broken-Down by]** : u kunt maximaal 3 niveaus van onderverdelingen op dimensies gebruiken om naar de gegevens te gaan die u echt nodig hebt. Zie ➊, ➋ en ➌.
+   * **[!UICONTROL Analyze]** afmetingen **[!UICONTROL Broken-Down by]** : u kunt maximaal 3 niveaus van onderverdelingen op dimensies gebruiken om naar de gegevens te gaan die u echt nodig hebt. Zie ➊ , ➋ en ➌ .
 
-   * Meer metriek toevoegen **[!UICONTROL by]**: u kunt maximaal twee metriek toevoegen. Zie ➍ en ➎.
+   * Meer metriek toevoegen **[!UICONTROL by]**: u kunt maximaal twee metriek toevoegen. Zie ➍ en ➎ .
 
-   * **[!UICONTROL segment by]**: u kunt maximaal twee segmenten toevoegen. Bijvoorbeeld, voeg Boekingen als segment toe en combineer dat segment met de segmenten van Frequent Boeken en Eerste brochures u vergelijkt. Zie ➏, ➐ en ➑.
+   * **[!UICONTROL segment by]**: u kunt maximaal twee segmenten toevoegen. Bijvoorbeeld, voeg Boekingen als segment toe en combineer dat segment met de segmenten van Frequent Boeken en Eerste brochures u vergelijkt. Zie ➏ , ➐ en ➑ .
 
-   * op: U kunt het datumbereik opgeven. Zie ➒.
+   * op: U kunt het datumbereik opgeven. Zie ➒ .
 
 ## Bekende beperkingen
 

@@ -1,28 +1,28 @@
 ---
-description: Meer informatie over de interactie met het toetsenbord, de sneltoetsen en de werking van de wijs-en-klik in Analysis Workspace.
+description: Leer hoe u toetsenbordinteractie, sneltoetsen en wijs-en-klik-gedrag kunt gebruiken dat beschikbaar is in Analysis Workspace.
 keywords: Analysis Workspace
 feature: Workspace Basics
-title: Workspace-sneltoetsen gebruiken
+title: Hotkeys
 exl-id: de99a92b-701c-4cdc-a0c2-a70972a19499
 role: User
-source-git-commit: 61a7e21d3e5d586c341a5b0f12490e3da1054382
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
 
-# Hotkeys (sneltoetsen)
+# Hotkeys
 
 Hotkeys (sneltoetsen) zijn beschikbaar in Analysis Workspace voor naadloze navigatie, analyse en democratisering.
 
 Op het toetsenbord kunnen de volgende symbolen worden gebruikt:
 
-- **⇧** voor **[!UICONTROL **&#x200B; verschuiving &#x200B;**]**.
-- **⌘** voor **[!UICONTROL **&#x200B; cmd &#x200B;**]** (bevel).
-- **⌃** voor **[!UICONTROL **&#x200B; ctrl &#x200B;**]** (controle).
-- **⌥** voor **[!UICONTROL **&#x200B; opt &#x200B;**]** (optie).
-- **⎇** voor **[!UICONTROL **&#x200B; alt &#x200B;**]** (alternatief).
+- **⇧** voor **[!UICONTROL ** verschuiving **]**.
+- **⌘** voor **[!UICONTROL ** cmd **]** (bevel).
+- **⌃** voor **[!UICONTROL ** ctrl **]** (controle).
+- **⌥** voor **[!UICONTROL ** opt **]** (optie).
+- **⎇** voor **[!UICONTROL ** alt **]** (alternatief).
 
 ## Navigatiehandelingen
 

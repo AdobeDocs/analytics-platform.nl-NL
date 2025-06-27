@@ -1,12 +1,12 @@
 ---
-description: Overzicht van het reiscanvas
-title: Reiscanvas
+description: Leer hoe u het reiscanvas in Analysis Workspace kunt gebruiken.
+title: Overzicht van reiscanvas
 feature: Visualizations
 role: User
 exl-id: be03c3b2-8faf-47b8-b3ab-e953202bf488
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '1988'
+source-wordcount: '1996'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van het canvas van de Reis in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**.<br/> er is geen gelijkwaardige visualisatie in **Adobe Analytics**._
+_dit artikel documenteert de visualisatie van het canvas van de Reis in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**.<br/> er is geen gelijkwaardige visualisatie in **Adobe Analytics**._
 
 >[!ENDSHADEBOX]
 

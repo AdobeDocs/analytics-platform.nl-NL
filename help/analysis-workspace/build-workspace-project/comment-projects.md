@@ -1,10 +1,10 @@
 ---
-description: Leer hoe u commentaar kunt leveren op een project in Analysis Workspace
-title: Opmerkingen toevoegen en weergeven in projecten
+description: Leer hoe u commentaar kunt leveren op een project in Analysis Workspace.
+title: Opmerkingen toevoegen en beheren in projecten
 feature: Workspace Basics
 role: User
 exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
-source-git-commit: 91ac84764a186d81f3270bb3ec9673d93b11bd38
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 0%
@@ -30,7 +30,7 @@ U kunt opmerkingen bekijken in het gebied met opmerkingen in de rechtertrack of 
 
 >[!NOTE]
 >
->Een project moet worden bewaard alvorens het commentaargebied in het juiste spoor zichtbaar is. Als het project niet eerder is bewaard, moet u het project [&#128279;](/help/analysis-workspace/build-workspace-project/save-projects.md) bewaren  alvorens commentaren toe te voegen.
+>Een project moet worden bewaard alvorens het commentaargebied in het juiste spoor zichtbaar is. Als het project niet eerder is bewaard, moet u het project ](/help/analysis-workspace/build-workspace-project/save-projects.md) bewaren [ alvorens commentaren toe te voegen.
 
 
 ![ commentaren van de Mening in Analysis Workspace ](assets/workspace-comments-view.png)
@@ -151,9 +151,9 @@ Een andere persoon in uw opmerking opnemen:
 
 ## Meldingen ontvangen over opmerkingen
 
-De eigenaars van het project en [ specifieke mensen u ](#include-others-in-a-comment) noemt ontvangen berichten die op hun het berichtmontages van Adobe Experience Cloud worden gebaseerd. Door gebrek, ontvangen zij een in-app bericht, zichtbaar van het [ het bericht van Experience Cloud ](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/account-preferences#view-notifications) pictogram ![ het berichtpictogram van Experience Cloud ](assets/experience-cloud-notification.svg) in Customer Journey Analytics.
+De eigenaars van het project en [ specifieke mensen u ](#include-others-in-a-comment) noemt ontvangen berichten die op hun het berichtmontages van Adobe Experience Cloud worden gebaseerd. Door gebrek, ontvangen zij een in-app bericht, zichtbaar van het [ het bericht van Experience Cloud ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications) pictogram ![ het berichtpictogram van Experience Cloud ](assets/experience-cloud-notification.svg) in Customer Journey Analytics.
 
-Bovendien, kunnen de mensen hun het berichtmontages van Experience Cloud vormen om e-mailberichten en de berichten van Slack te ontvangen door [ te abonneren aan e-mailberichten ](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) en [ het intekenen aan de berichten van Slack ](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/account-preferences#slack).
+Bovendien, kunnen de mensen hun het berichtmontages van Experience Cloud vormen om e-mailberichten en de berichten van Slack te ontvangen door [ te abonneren aan e-mailberichten ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) en [ het intekenen aan de berichten van Slack ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack).
 
 ## Een badge voor een bestaande opmerking plaatsen
 

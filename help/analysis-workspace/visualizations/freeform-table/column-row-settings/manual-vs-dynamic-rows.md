@@ -1,12 +1,12 @@
 ---
-title: Dynamische of statische dimensie-items
-description: Hoe te met dynamische en statische afmetingspunten in lijsten in wisselwerking staan
+title: Dynamische en statische Dimension-items
+description: Leer hoe u dynamische en statische dimensie-items gebruikt in vrije-vormtabellen in Analysis Workspace.
 feature: Visualizations
 exl-id: 7806f535-15c7-40f4-955a-724d9752969d
 role: User
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Wanneer u bijvoorbeeld over specifieke BrowserType-items sleept, zoals Microsoft
 
 Er kunnen ook statische dimensie-items worden gemaakt als u ervoor kiest om **[!UICONTROL Display only selected rows]** te selecteren in het contextmenu voor geselecteerde rijen.
 
-De statische afmetingspunten hebben **&#x200B;**&#x200B;niet de optie van de rijfilter. In plaats daarvan, zijn a ![ LockClosed ](/help/assets/icons/LockClosed.svg) en ![ dicht ](/help/assets/icons/Close.svg) aanwezig op elk punt. Selecteer ![ dicht ](/help/assets/icons/Close.svg) om dat afmetingspunt uit de lijst te verwijderen.
+De statische afmetingspunten hebben **** niet de optie van de rijfilter. In plaats daarvan, zijn a ![ LockClosed ](/help/assets/icons/LockClosed.svg) en ![ dicht ](/help/assets/icons/Close.svg) aanwezig op elk punt. Selecteer ![ dicht ](/help/assets/icons/Close.svg) om dat afmetingspunt uit de lijst te verwijderen.
 
 ![ A Freeform Lijst die de Browser Type en de rij van Microsoft met een slotpictogramnota toont: Dit afmetingspunt is statisch en zal niet met tijd veranderen.](assets/static-items.png)
 

@@ -1,12 +1,12 @@
 ---
-description: Met een interdimensionale stroom kunt u gebruikerspaden in verschillende dimensies bekijken.
-title: Interdimensionale stromen
+description: Begrijp hoe een interdimensionale stroom u gebruikerspaden over diverse afmetingen laat onderzoeken.
+title: Inter-dimensionale stromen
 feature: Visualizations
 exl-id: 459166b1-a522-45b6-9d2c-69e3409e442e
 role: User
-source-git-commit: 1eeba4dc9de52f2890cf25794e767f199a4aa04c
+source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
