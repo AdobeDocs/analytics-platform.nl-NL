@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het Gebied en Gebied gestapelde visualisaties in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [ Gebied en gebied gestapeld ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/area) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert het Gebied en Gebied gestapelde visualisaties in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [ Gebied en gebied gestapeld ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/visualizations/area) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 

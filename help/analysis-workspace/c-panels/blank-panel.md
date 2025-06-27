@@ -26,7 +26,7 @@ ht-degree: 6%
 
 >[!BEGINSHADEBOX]
 
-_Dit artikel documenteert het Lege paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_zie [ Lege paneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_Dit artikel documenteert het Lege paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_zie [ Lege paneel ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/blank-panel) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 

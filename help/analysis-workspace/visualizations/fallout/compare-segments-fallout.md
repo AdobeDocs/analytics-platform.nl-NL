@@ -24,7 +24,7 @@ U kunt vanuit een aanraakpunt segmenten maken, segmenten als aanraakpunt toevoeg
 >* Het gebruiken van een op persoon-gebaseerd segment als touchpoint binnen een zitting-contextVallout visualisatie.
 >* Het gebruiken van een op zitting-gebaseerd segment als touchpoint binnen een zitting-contextVallout visualisatie.
 <!-- Should we add B2B context here?
-* [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Usimg a B2B container based segment as a touchpoint inside a non-container based context Fallout visualization.
+* [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Usimg a B2B container based segment as a touchpoint inside a non-container based context Fallout visualization.
 * -->
 
 ## Een segment maken van een aanraakpunt
