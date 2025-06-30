@@ -56,7 +56,7 @@ De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 
    ![ voeg visualisatie ](assets/add-visualization.png) toe
 
-   * In het linkerpaneel, uitgezochte ](/help/assets/icons/GraphBarVertical.svg) GraphBarVertical **Visualizations**, dan sleep een visualisatie aan het paneel waar u de visualisatie aan wilt toevoegen.![
+   * In het linkerpaneel, uitgezochte ![&#128279;](/help/assets/icons/GraphBarVertical.svg) GraphBarVertical **Visualizations**, dan sleep een visualisatie aan het paneel waar u de visualisatie aan wilt toevoegen.
 
    * Voor het paneel waar u de visualisatie wilt toevoegen, selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg), dan het pictogram kiezen dat de visualisatie vertegenwoordigt die u wilt toevoegen. Houd de muisaanwijzer boven het pictogram voor elke visualisatie om de naam weer te geven.
 

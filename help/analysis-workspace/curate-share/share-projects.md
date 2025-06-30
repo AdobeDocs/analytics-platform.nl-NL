@@ -86,7 +86,7 @@ Een specifieke projectrol delen met gebruikers of groepen in uw organisatie:
    Als u alleen een afzonderlijk project wilt delen, opent u het project dat u wilt delen en selecteert u **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]** .
 Als er niet-opgeslagen wijzigingen zijn, wordt u gevraagd eerst uw project op te slaan.
 
-   Het dialoogvenster Project delen wordt weergegeven. Het [!UICONTROL **Aandeel door verbinding**] en [!UICONTROL **3} secties van Montages {van de dialoogdoos is zichtbaar slechts wanneer het delen van één enkel project.**]
+   Het dialoogvenster Project delen wordt weergegeven. Het [!UICONTROL **Aandeel door verbinding**] en [!UICONTROL **3&rbrace; secties van Montages &lbrace;van de dialoogdoos is zichtbaar slechts wanneer het delen van één enkel project.**]
 
    ![ het het projectvenster van het Aandeel.](assets/share-proj-modal.png)
 
