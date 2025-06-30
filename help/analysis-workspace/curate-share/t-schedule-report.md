@@ -82,7 +82,7 @@ Een bestand volgens een schema per e-mail naar ontvangers verzenden
 
 >[!NOTE]
 >
->De optie om een gepland project te wachtwoord-beschermen verschijnt slechts voor de klanten van Customer Journey Analytics die het [&#128279;](https://business.adobe.com/solutions/industries/healthcare.html) toe:voegen-op product van het Schild van de Gezondheidszorg  hebben gekocht.
+>De optie om een gepland project te wachtwoord-beschermen verschijnt slechts voor de klanten van Customer Journey Analytics die het ](https://business.adobe.com/solutions/industries/healthcare.html) toe:voegen-op product van het Schild van de Gezondheidszorg [ hebben gekocht.
 
 Adobe gebruikt het wachtwoord om geplande projecten te coderen, of zij in .pdf of .csv formaten worden verzonden.
 
@@ -99,7 +99,7 @@ De wachtwoordvereisten voldoen aan de Adobe-standaarden, die minimaal 8 tekens v
 ### Wachtwoord-beschermt een nieuw gepland project
 
 1. Nadat u het project hebt opgeslagen, gaat u naar **[!UICONTROL Share]** > **[!UICONTROL Send file now]** of **[!UICONTROL Share]** > **[!UICONTROL Send file on schedule]** .
-1. Volg de instructies hierboven, onder [ verzenden nu dossier ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=nl-NL#now) of [ verzenden dossier op programma ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html?lang=nl-NL#schedule).
+1. Volg de instructies hierboven, onder [ verzenden nu dossier ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#now) of [ verzenden dossier op programma ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/curate-share/t-schedule-report.html#schedule).
 
 ### Wachtwoord-beschermt een bestaand gepland project
 
