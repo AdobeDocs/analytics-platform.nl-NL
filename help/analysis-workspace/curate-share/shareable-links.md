@@ -35,7 +35,7 @@ U kunt ook een koppeling delen naar een specifiek onderdeel van een project, zoa
 * Selecteer in het contextmenu van de koptekst van een deelvenster de optie **[!UICONTROL Get panel link]**
 * Selecteer **[!UICONTROL Get visualization link]** in het contextmenu van een visualisatiekop.
 
-[ bekijk de video ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) op hoe te om verbindingen tot stand te brengen en hen te gebruiken om ontvangers aan specifieke delen van uw project te drijven.
+[ bekijk de video ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=nl-NL) op hoe te om verbindingen tot stand te brengen en hen te gebruiken om ontvangers aan specifieke delen van uw project te drijven.
 
 ![ het drop-down menu nadat u de kopbal met de rechtermuisknop aanklikt met de Get gemarkeerde visualisatiekoppeling.](assets/get-visualization-link.png)
 
@@ -43,6 +43,6 @@ U kunt ook een koppeling delen naar een specifiek onderdeel van een project, zoa
 
 Eén tip voor het benutten van de verschillende koppelingsopties is om altijd een inhoudsopgave boven aan uw Workspace-project op te nemen. In de inhoudsopgave kunt u een koppeling maken naar andere relevante projecten, specifieke panels en specifieke visualisaties. Hierdoor kan de ontvanger van het project gemakkelijker navigeren.
 
-[ bekijk de video ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html) op hoe te om een Inhoudsopgave te construeren gebruikend verbindingen en de rijke tekstredacteur van Workspace.
+[ bekijk de video ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=nl-NL) op hoe te om een Inhoudsopgave te construeren gebruikend verbindingen en de rijke tekstredacteur van Workspace.
 
 ![ Inhoudsopgave van A-project.](assets/toc.png)

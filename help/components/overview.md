@@ -30,7 +30,7 @@ U kunt de volgende componenten beheren:
 * [ Intelligente alarm ](/help/components/c-intelligent-alerts/intelligent-alerts.md): Toestaan u om op veranderde percentages of specifieke gegevenspunten worden op de hoogte gebracht.
 * [ Geplande projecten ](/help/analysis-workspace/curate-share/t-schedule-report.md#scheduled-projects-manager): Beheer uw geplande projecten.
 * [ Voorkeur ](/help/analysis-workspace/user-preferences.md): Beheer de voorkeur voor Analysis Workspace.
-* [ Soorten publiek ](/help/components/audiences/audiences-overview.md): Creeer en publiceer publiek van Customer Journey Analytics aan [ Real-Time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) in Experience Platform voor het richten en verpersoonlijken.
+* [ Soorten publiek ](/help/components/audiences/audiences-overview.md): Creeer en publiceer publiek van Customer Journey Analytics aan [ Real-Time Customer Data Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/home) in Experience Platform voor het richten en verpersoonlijken.
 * [ voert ](/help/components/exports/manage-export-locations.md) uit: beheer uw de uitvoerrekening en plaatsen.
 
 
