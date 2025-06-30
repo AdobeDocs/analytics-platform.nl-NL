@@ -9,7 +9,7 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
+source-git-commit: 20a7ae368a9480697b6c07e88b557fbea425a932
 workflow-type: tm+mt
 source-wordcount: '1255'
 ht-degree: 10%
@@ -249,7 +249,7 @@ ht-degree: 10%
       + [Projecten delen](../analysis-workspace/curate-share/share-projects.md)
       + [Deelbare koppelingen maken](../analysis-workspace/curate-share/shareable-links.md)
       + [Alleen-lezen projecten](../analysis-workspace/curate-share/view-only-projects.md)
-      + [Projecten verzenden en plannen](../analysis-workspace/curate-share//t-schedule-report.md)
+      + [Projecten verzenden en plannen](../analysis-workspace/curate-share/t-schedule-report.md)
    + Exporteren {#export}
       + [Overzicht](../analysis-workspace/export/export-project-overview.md)
       + [Downloaden](../analysis-workspace/export/download-send.md)

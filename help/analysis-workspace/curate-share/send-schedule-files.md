@@ -4,14 +4,14 @@ title: Overzicht van projecten voor curven en delen
 feature: Curate and Share
 exl-id: d7f92e59-18e9-43cd-8121-3c970434aaee
 role: User
-source-git-commit: 70daf2251576bc3b473e63b3bb7c48f2d16dbffe
+source-git-commit: 6cbf18496585fc973414b79b5957f918a16c0459
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '169'
 ht-degree: 7%
 
 ---
 
-# Overzicht van Curven en delen
+# Overzicht van curveprojecten en deelprojecten
 
 U kunt projecten beheren en delen, of projecten verzenden als PDF- of CSV-bestanden naar ontvangers in uw organisatie of met anderen die de opties gebruiken die beschikbaar zijn in het menu **[!UICONTROL Share]** in Analysis Workspace of wanneer u **[!UICONTROL Share]** rechtsboven in de interface selecteert.
 
