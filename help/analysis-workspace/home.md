@@ -6,7 +6,7 @@ feature: Workspace Basics
 exl-id: 9075518e-54fe-49a6-9601-aa9468187b8f
 solution: Customer Journey Analytics
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: 9056b8b172ae7a2267bf12de4b2355d1a1364b32
 workflow-type: tm+mt
 source-wordcount: '1355'
 ht-degree: 1%
@@ -113,7 +113,7 @@ Zie de onderstaande tabellen voor een overzicht van de beschikbare menu&#39;s.
 | **[!UICONTROL Create date range...]** | **[!UICONTROL *shift+cmd+d *]** | **[!UICONTROL *shift+ctrl+d *]** | Creeer een nieuwe [ datumwaaier ](/help/components/date-ranges/overview.md). |
 | **[!UICONTROL Create annotation...]** | **[!UICONTROL *shift+cmd+o *]** | **[!UICONTROL *shift+ctrl+o *]** | Creeer een nieuwe [ aantekening ](/help/components/annotations/overview.md). |
 | **[!UICONTROL Create audience...]** | **[!UICONTROL *shift+cmd+u *]** | **[!UICONTROL *shift+ctrl+u *]** | Creeer een nieuw [ publiek ](/help/components/audiences/audiences-overview.md). |
-| **[!UICONTROL Refewsh components]** | **[!UICONTROL *opt+shift+r *]** | **[!UICONTROL *alt+shift+r *]** | Vernieuw de componenten in het project. |
+| **[!UICONTROL Refresh components]** | **[!UICONTROL *opt+shift+r *]** | **[!UICONTROL *alt+shift+r *]** | Vernieuw de componenten in het project. |
 
 | **[!UICONTROL Share]** | Sneltoets Mac | Sneltoetsvensters | Beschrijving |
 |---|---|---|---|
@@ -164,6 +164,6 @@ Wanneer je klaar bent met het uitbouwen van het project en het is het verzamelen
 ## Aanvullende bronnen {#resources}
 
 - Het [ Leren die ](/help/getting-started/landing.md#learning) pagina in Customer Journey Analytics landen. Deze pagina is een uitstekende manier om kennis te maken met Analysis Workspace. Met name het leren van Workspace Fundamentaal. Deze sjabloon begeleidt u door algemene terminologie en stappen voor het maken van uw eerste analyse in Workspace
-- Adobe biedt honderden [ de videoopleidingsleerprogramma&#39;s van Analytics ](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/overview) aan.
-- Zie [ de versienota&#39;s van Adobe Experience Cloud ](https://experienceleague.adobe.com/nl/docs/release-notes/experience-cloud/current) voor updates over nieuwe eigenschappen.
+- Adobe biedt honderden [ de videoopleidingsleerprogramma&#39;s van Analytics ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview) aan.
+- Zie [ de versienota&#39;s van Adobe Experience Cloud ](https://experienceleague.adobe.com/en/docs/release-notes/experience-cloud/current) voor updates over nieuwe eigenschappen.
 

@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1255'
 ht-degree: 10%
 
 ---
@@ -169,6 +169,7 @@ ht-degree: 10%
    + [Geavanceerde analyse uitvoeren](../analysis-workspace/perform-adv-analysis.md)
    + Projecten {#build-workspace-project}
       + [Overzicht](../analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [Snel projecten starten](/help/analysis-workspace/build-workspace-project/starter-projects.md)
       + [Projecten maken](/help/analysis-workspace/build-workspace-project/create-projects.md)
       + [Projecten openen](/help/analysis-workspace/build-workspace-project/open-projects.md)
       + [Opmerkingen over projecten](/help/analysis-workspace/build-workspace-project/comment-projects.md)
@@ -242,16 +243,16 @@ ht-degree: 10%
       + [De afspeeltijd van media is verstreken](../analysis-workspace/c-panels/media-playback-time-spent.md)
       + [Volgende of vorige item](../analysis-workspace/c-panels/next-previous.md)
       + [Snelle inzichten](../analysis-workspace/c-panels/quickinsight.md)
-   + Projecten cureren, delen en plannen {#curate-share}
+   + Curven en delen {#curate-share}
       + [Overzicht](../analysis-workspace/curate-share/send-schedule-files.md)
       + [Cursieve projecten](../analysis-workspace/curate-share/curate.md)
       + [Projecten delen](../analysis-workspace/curate-share/share-projects.md)
       + [Deelbare koppelingen maken](../analysis-workspace/curate-share/shareable-links.md)
       + [Alleen-lezen projecten](../analysis-workspace/curate-share/view-only-projects.md)
+      + [Projecten verzenden en plannen](../analysis-workspace/curate-share//t-schedule-report.md)
    + Exporteren {#export}
       + [Overzicht](../analysis-workspace/export/export-project-overview.md)
       + [Downloaden](../analysis-workspace/export/download-send.md)
-      + [Verzenden naar anderen](../analysis-workspace/export/t-schedule-report.md)
       + [Naar de cloud exporteren](../analysis-workspace/export/export-cloud.md)
    + Anomaliedetectie {#anomaly-detection}
       + [Overzicht](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)

@@ -1,13 +1,13 @@
 ---
-description: Met Curatie kunt u componenten beperken voordat u een project deelt.
+description: Leer hoe u projecten in Analysis Workspace kunt beheren. De kromming beperkt toegang tot componenten alvorens u een project deelt.
 keywords: Analysis Workspace curation
 title: Cursieve projecten
 feature: Curate and Share
 exl-id: f9636191-8414-458c-9881-8c03f3d45efb
 role: User
-source-git-commit: f940e5cba11df0ff158093a503213ff1641b1c5d
+source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 Met Curatie kunt u de componenten (afmetingen, metriek, segmenten, datumbereiken) beperken voordat u een project deelt. Wanneer een ontvanger het project opent, zien zij een beperkte reeks componenten die u voor hen hebt gebogen. Curation is een optionele maar aanbevolen stap voordat een project wordt gedeeld.
 
 >[!NOTE]
-> Productprofielen zijn het belangrijkste mechanisme dat bepaalt welke componenten een gebruiker kan zien. Zij worden beheerd door [ Adobe Experience Cloud Admin Console ](https://experienceleague.adobe.com/nl/docs/core-services/interface/administration/admin-tool-experience-cloud). Curatie is een secundair segment.
+> Productprofielen zijn het belangrijkste mechanisme dat bepaalt welke componenten een gebruiker kan zien. Zij worden beheerd door [ Adobe Experience Cloud Admin Console ](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-tool-experience-cloud). Curatie is een secundair segment.
 
 ## Projectcursus toepassen
 
@@ -54,7 +54,7 @@ In een beheerd project krijgt de ontvanger de optie **[!UICONTROL Show All]** -c
 
 | Curvetype | Admin kan | Niet-admin-projecteigenaar (of bewerkingsrol) kan zien | Niet-admin dubbele rol kan worden weergegeven |
 | --- | --- | --- | --- |
-| **Verborgen Componenten &#x200B;** van een gegevensmening **&#x200B; | Alle componenten van de gegevensweergave zijn beschikbaar voor rapportage (voor verborgen componenten moet u &#x200B;** [!UICONTROL Show all]** selecteren) | Niet beschikbaar voor rapportage | Niet beschikbaar voor rapportage |
+| **Verborgen Componenten ** van een gegevensmening** | Alle componenten van de gegevensweergave zijn beschikbaar voor rapportage (voor verborgen componenten moet u **[!UICONTROL Show all]** selecteren) | Niet beschikbaar voor rapportage | Niet beschikbaar voor rapportage |
 | **toegevoegde of verwijderde Componenten van een gegevensmening** | Alleen componenten die aan de gegevensweergave zijn toegevoegd (verborgen of niet verborgen). Beheerders kunnen geen gegevens rapporteren over velden of componenten die niet in de gegevensweergave zijn gedefinieerd. | Alleen componenten die zijn toegevoegd aan de gegevensweergave of componenten die eigendom zijn van of worden gedeeld met de gebruiker. Verborgen onderdelen zijn niet beschikbaar (zoals de cursus Virtuele rapportsuite). | Alleen componenten die aan de gegevensweergave zijn toegevoegd, worden niet verborgen en worden opgenomen in de projectcuratie. |
 | **gekromde componenten in een Project** | Alle componenten in de gegevensweergave die beschikbaar zijn voor rapportage (voor verborgen componenten moet u **[!UICONTROL Show all]** selecteren) | Alle niet-verborgen componenten van de gegevensweergave (klik op Alles tonen) | Alleen gebogen componenten, plus eventuele componenten die eigendom zijn van of gedeeld worden met de gebruiker |
 | **Gekleurd Project die een gegevensmening met verborgen componenten gebruiken** | Alle gegevenscomponenten die beschikbaar zijn voor rapportage (voor verborgen en niet-verwerkte componenten moet u **[!UICONTROL Show all]** selecteren) | Alle niet-beheerde projectcomponenten, alle niet-verborgen componenten van de gegevensmening, en om het even welke componenten die door of met de gebruiker worden bezeten worden gedeeld | Alleen gebogen componenten, plus eventuele componenten die eigendom zijn van of gedeeld worden met de gebruiker |

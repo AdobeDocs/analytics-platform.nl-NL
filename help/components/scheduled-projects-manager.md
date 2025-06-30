@@ -4,7 +4,7 @@ title: Metrics
 feature: Components
 exl-id: fa7c5a0f-4983-40ee-b9c1-3e10aab3fc28
 role: User
-source-git-commit: 9cdfa94ad04d3d1ce43e591fa9219146152862dc
+source-git-commit: 70daf2251576bc3b473e63b3bb7c48f2d16dbffe
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 1%
@@ -44,7 +44,7 @@ U kunt ![ gebruiken ColumnSetting ](/help/assets/icons/ColumnSetting.svg) om te 
 
 Onderzoek naar een gepland project gebruikend ![ Onderzoek ](/help/assets/icons/Search.svg). U kunt ook zien of er filters zijn toegepast vanuit het deelvenster Filters. Om een filter te verwijderen, selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) voor een filter. Selecteer **[!UICONTROL Clear all]** als u alle filters wilt verwijderen.
 
-Als u een gepland project wilt bewerken, selecteert u de titel van het geplande project. Gebruik het dialoogvenster **[!UICONTROL Edit scheduled project]** om de planningsdetails bij te werken. Zie [ dossiers naar andere ](../analysis-workspace/export/t-schedule-report.md) voor meer details verzenden.
+Als u een gepland project wilt bewerken, selecteert u de titel van het geplande project. Gebruik het dialoogvenster **[!UICONTROL Edit scheduled project]** om de planningsdetails bij te werken. Zie [ dossiers naar andere ](../analysis-workspace/curate-share/t-schedule-report.md) voor meer details verzenden.
 
 ![ geef gepland project ](assets/edit-scheduled-project.png) uit
 

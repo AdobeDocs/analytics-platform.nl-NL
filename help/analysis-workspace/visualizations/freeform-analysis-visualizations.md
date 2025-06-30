@@ -5,7 +5,7 @@ title: Overzicht van visualisaties
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: 9c05319ceacb7287af7f15cfe56b8048a718559d
 workflow-type: tm+mt
 source-wordcount: '1535'
 ht-degree: 1%
@@ -56,7 +56,7 @@ De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 
    ![ voeg visualisatie ](assets/add-visualization.png) toe
 
-   * In het linkerpaneel, uitgezochte ![&#128279;](/help/assets/icons/GraphBarVertical.svg) GraphBarVertical **Visualizations**, dan sleep een visualisatie aan het paneel waar u de visualisatie aan wilt toevoegen.
+   * In het linkerpaneel, uitgezochte ](/help/assets/icons/GraphBarVertical.svg) GraphBarVertical **Visualizations**, dan sleep een visualisatie aan het paneel waar u de visualisatie aan wilt toevoegen.![
 
    * Voor het paneel waar u de visualisatie wilt toevoegen, selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg), dan het pictogram kiezen dat de visualisatie vertegenwoordigt die u wilt toevoegen. Houd de muisaanwijzer boven het pictogram voor elke visualisatie om de naam weer te geven.
 
@@ -139,11 +139,11 @@ Gebruik het contextmenu (beschikbaar via een alternatieve selectie, bijvoorbeeld
 | Optie | Beschrijving |
 | --- | --- |
 | **[!UICONTROL Insert copied visualization]** | Plak (voeg) een gekopieerde visualisatie naar een andere plaats binnen het project of naar een geheel ander project. |
-| **[!UICONTROL Copy data to clipboard]** | Kopieer gegevens van de visualisatie naar het klembord. |
-| **[!UICONTROL Copy selection to clipboard]** | Kopieer de selectie van de visualisatie naar het klembord. |
-| **[!UICONTROL Download items as CSV (*afmetingsnaam *)]** | Download de dimensie-items (tot een maximum van 50.000) van de visualisatie naar uw lokale apparaat. Maximaal 50.000 dimensieitems voor de geselecteerde dimensie. |
+| **[!UICONTROL Copy data to clipboard]** | [ gegevens van het Exemplaar ](/help/analysis-workspace/export/download-send.md#copy-to-clipboard) van visualisatie op het klembord. |
+| **[!UICONTROL Copy selection to clipboard]** | [ Kopieer de selectie ](/help/analysis-workspace/export/download-send.md#copy-to-clipboard) van de visualisatie op het klembord. |
+| **[!UICONTROL Download items as CSV (*afmetingsnaam *)]** | [ Download de afmetingspunten ](/help/analysis-workspace/export/download-send.md#download-items-as-csv) (tot een maximum van 50.000) van de visualisatie aan uw lokaal apparaat. Maximaal 50.000 dimensieitems voor de geselecteerde dimensie. |
 | **[!UICONTROL Copy visualization]** | Kopieer de visualisatie, zodat u de visualisatie aan een andere plaats binnen het project, of in een volledig verschillend project kunt opnemen. |
-| **[!UICONTROL Download data CSV]** | Download de weergegeven gegevens van de visualisatie naar uw lokale apparaat. |
+| **[!UICONTROL Download data CSV]** | [ Download de getoonde gegevens ](/help/analysis-workspace/export/download-send.md#download-as-csv) van visualisatie aan uw lokaal apparaat. |
 | **[!UICONTROL Export full table]** | Exporteer de volledige tabel naar een aangegeven locatie in de cloud. Zie [ de rapporten van Customer Journey Analytics van de Uitvoer aan de wolk ](../export/export-cloud.md) |
 | **[!UICONTROL Duplicate visualization]** | Maak een exacte kopie van de visualisatie. |
 | **[!UICONTROL Edit description]** | Voeg (of bewerk) een tekstbeschrijving voor visualisatie toe. Zie [ Tekst ](text.md). |

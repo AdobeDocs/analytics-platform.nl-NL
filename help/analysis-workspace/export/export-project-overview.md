@@ -5,37 +5,37 @@ title: Projectgegevens exporteren
 feature: Curate and Share
 exl-id: 3d467050-4bf0-4bdb-b7d2-eba67fbd526d
 role: User
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 70daf2251576bc3b473e63b3bb7c48f2d16dbffe
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
 
 # Overzicht van exporteren
 
-U kunt rapporten van de Customer Journey Analytics van Analysis Workspace uitvoeren. U kunt rapporten van de Customer Journey Analytics om een aantal redenen, zoals in derdehulpmiddelen of combinatie met buitengegevens willen uitvoeren.
+U kunt (een deel van) Customer Journey Analytics-projecten exporteren uit Analysis Workspace. U kunt Customer Journey Analytics-rapporten exporteren om een aantal redenen, zoals gebruik in gereedschappen van derden of combinatie met externe gegevens.
 
 In de volgende secties worden de ondersteunde bestandstypen, de verschillende exportmethoden en de voordelen van elke methode beschreven.
 
 ## Ondersteunde bestandstypen
 
-U kunt rapporten van de Customer Journey Analytics als PDF, CSV, of JSON dossier uitvoeren.
+U kunt Customer Journey Analytics-rapporten exporteren als een PDF-, CSV- of JSON-bestand.
 
-* **PDF:** Biedt een eenvoudige manier om visuele gegevens met belanghebbenden te delen. De dossiers van PDF bevatten alle getoonde (zichtbare) lijsten en visualisaties in het project.
+* **PDF:** verstrekt een gemakkelijke manier om visuele gegevens met belanghebbenden te delen. PDF-bestanden bevatten alle weergegeven (zichtbare) tabellen en visualisaties in het project.
 
-* **CSV:** Hiermee kunt u onbewerkte gegevens weergeven in een spreadsheettoepassing, zoals Excel. CSV-bestanden bevatten gegevens zonder opmaak.
+* **CSV:** staat u toe om ruwe gegevens in een spreadsheettoepassing, zoals Excel te bekijken. CSV-bestanden bevatten gegevens zonder opmaak.
 
-* **JSON:** Biedt een open standaardbestandsindeling voor het delen van gegevens.
+* **JSON:** verstrekt een open standaarddossierformaat voor het delen van gegevens.
 
 ## Exportmethoden
 
-Er zijn verschillende methoden beschikbaar voor het exporteren vanuit Analysis Workspace. Wanneer u een exportmethode kiest, moet u bedenken wat u wilt exporteren en wie er toegang toe moet hebben.
+Er zijn verschillende methoden beschikbaar als u vanuit Analysis Workspace wilt exporteren. Wanneer u een exportmethode kiest, moet u bedenken wat u wilt exporteren en wie er toegang toe moet krijgen.
 
-| Exportmethode | Voordelen |
+| Exportmethode | Gebruik deze methode als u... |
 |---------|----------|
-| [Downloaden naar uw werkstation](/help/analysis-workspace/export/download-send.md) | Gebruik deze methode als u wilt: <ul><li>Download projecten naar uw persoonlijke werkstation.</li><li>Downloads zijn alleen ad hoc (kunnen niet worden gepland).</li> <li>Download in totaal 50.000 rijen.</li> <!--true? Are there 2 different options to download to your workstation?--> <!-- is this emailing it? --> |
-| [Verzenden naar andere gebruikers](/help/analysis-workspace/export/t-schedule-report.md) | Gebruik deze methode als u wilt: <ul><li>Geëxporteerde gegevens van Customers Journey Analytics via e-mail verzenden naar andere gebruikers in uw organisatie.</li><li>Kan ad hoc of op een programma zijn.</li> <li>Neem in totaal 50.000 rijen op.</li> <!--true?--> |
-| [Naar een cloudtoepassing verzenden](/help/analysis-workspace/export/export-cloud.md) | Gebruik deze methode als u wilt: <ul><li>Exporteer naar een gedeelde locatie, zoals Adobe Experience Platform Data Landing Zone, Google Cloud Platform, Microsoft Azure, Amazon S3 of Snowflake.</li><li>Kan ad hoc of op een programma zijn.</li><li>Sla grotere hoeveelheden gegevens over de Customer Journey Analytics op.</li><li>Exporteer volledige tabellen die duizenden of miljoenen rijen bevatten.<!-- What other things? Wiki talks about things that aren't even possible in Data Warehouse. What are they? --> </li> |
+| [ Download aan uw werkstation ](/help/analysis-workspace/export/download-send.md) | <li>Download projecten naar uw persoonlijke werkstation.</li><li>Alleen ad-hocgegevens downloaden (niet gepland).</li> <li>Download maximaal 50.000 rijen.</li> <!--true? Are there 2 different options to download to your workstation?--> <!-- is this emailing it? --> |
+| [ verzendt naar andere gebruikers ](/help/analysis-workspace/curate-share/t-schedule-report.md) | <li>E-mail geëxporteerde Customer Journey Analytics-gegevens naar andere gebruikers in uw organisatie.</li><li>Verzend de e-mail ad hoc of volgens een schema.</li> <li>Neem maximaal 50.000 rijen op in de e-mail.</li> <!--true?--> |
+| [ Uitvoer naar een wolkentoepassing ](/help/analysis-workspace/export/export-cloud.md) | <li>Exporteren naar een cloudlocatie, zoals <ul><li>Adobe Experience Platform Data Landing Zone</li><li>Google Cloud Platform</li><li>Microsoft Azure</li><li>Amazon S3</li><li>Snowflake</li></ul></li><li>Gegevens ad hoc of volgens een schema exporteren.</li><li>Grotere hoeveelheden Customer Journey Analytics-gegevens opslaan.</li><li>Exporteer volledige tabellen die duizenden of miljoenen rijen bevatten.<!-- What other things? Wiki talks about things that aren't even possible in Data Warehouse. What are they? --> </li> |
 
 {style="table-layout:auto"}
