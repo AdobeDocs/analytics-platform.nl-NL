@@ -114,14 +114,14 @@ Het filterdeelvenster bestaat uit de volgende secties.
 
 | Tags | Beschrijving |
 |---|---|
-| ![ Markeringen ](/help/analysis-workspace/build-workspace-project/assets/projects-filters-tags.png){width="300"} | In de sectie **[!UICONTROL Tags]** kunt u filteren op tags. <ul><li>U gebruikt ](/help/assets/icons/Search.svg) *Codes van het Onderzoek* van het 1} Onderzoek {aan onderzoek naar markeringen u wilt gebruiken om te filtreren.![</li><li>U kunt meerdere tags selecteren. Welke labels beschikbaar zijn, is afhankelijk van de selecties die in andere secties in het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**2︎⃣**: Het aantal markeringen beschikbaar voor de projecten die uit de huidige filter voortvloeien.</li><li>7︎⃣: Het aantal projecten dat aan de specifieke tag is gekoppeld.</li></ul></li></ul> |
+| ![ Markeringen ](/help/analysis-workspace/build-workspace-project/assets/projects-filters-tags.png){width="300"} | In de sectie **[!UICONTROL Tags]** kunt u filteren op tags. <ul><li>U gebruikt ![&#128279;](/help/assets/icons/Search.svg) *Codes van het Onderzoek* van het 1&rbrace; Onderzoek &lbrace;aan onderzoek naar markeringen u wilt gebruiken om te filtreren.</li><li>U kunt meerdere tags selecteren. Welke labels beschikbaar zijn, is afhankelijk van de selecties die in andere secties in het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**2︎⃣**: Het aantal markeringen beschikbaar voor de projecten die uit de huidige filter voortvloeien.</li><li>7︎⃣: Het aantal projecten dat aan de specifieke tag is gekoppeld.</li></ul></li></ul> |
 
 
 ### Gegevens, weergave
 
 | Gegevens, weergave | Beschrijving |
 |---|---|
-| ![ de meningen van Gegevens ](/help/analysis-workspace/build-workspace-project/assets/projects-filters-dataviews.png){width="300"} | In de sectie **[!UICONTROL Data view]** kunt u filteren op gegevensweergaven. <ul><li>U gebruikt ](/help/assets/icons/Search.svg) *de meningen van Gegevens van het 1} Onderzoek* aan onderzoek naar gegevensmeningen u wilt gebruiken om te filtreren.![</li><li>U kunt meerdere gegevensweergaven selecteren. Welke gegevensweergaven beschikbaar zijn, is afhankelijk van de selecties die in andere secties van het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**3︎⃣**: Het aantal gegevensmeningen beschikbaar voor de projecten die uit de huidige filter voortvloeien.</li><li>4︎⃣: Het aantal projecten dat aan de specifieke gegevensweergave is gekoppeld.</li></ul></li></ul> |
+| ![ de meningen van Gegevens ](/help/analysis-workspace/build-workspace-project/assets/projects-filters-dataviews.png){width="300"} | In de sectie **[!UICONTROL Data view]** kunt u filteren op gegevensweergaven. <ul><li>U gebruikt ![&#128279;](/help/assets/icons/Search.svg) *de meningen van Gegevens van het 1&rbrace; Onderzoek* aan onderzoek naar gegevensmeningen u wilt gebruiken om te filtreren.</li><li>U kunt meerdere gegevensweergaven selecteren. Welke gegevensweergaven beschikbaar zijn, is afhankelijk van de selecties die in andere secties van het filterdeelvenster zijn gemaakt.</li><li>De getallen geven aan:<ul><li>**3︎⃣**: Het aantal gegevensmeningen beschikbaar voor de projecten die uit de huidige filter voortvloeien.</li><li>4︎⃣: Het aantal projecten dat aan de specifieke gegevensweergave is gekoppeld.</li></ul></li></ul> |
 
 
 ### Eigenaars
@@ -146,7 +146,7 @@ Het filterdeelvenster bestaat uit de volgende secties.
 
 ## Zoeken
 
-U gebruikt het gebied van het Onderzoek ➎ om naar projecten en omslagen te zoeken gebruikend het ![ 2} gebied van het Onderzoek {. ](/help/assets/icons/Search.svg) Begin het typen en de [ projectlijst ](#project-list) filters automatisch op uw onderzoeksinput.
+U gebruikt het gebied van het Onderzoek ➎ om naar projecten en omslagen te zoeken gebruikend het ![ 2&rbrace; gebied van het Onderzoek &lbrace;. ](/help/assets/icons/Search.svg) Begin het typen en de [ projectlijst ](#project-list) filters automatisch op uw onderzoeksinput.
 
 In het gedeelte Zoeken worden ook de filters weergegeven die u vanuit het deelvenster Filter hebt toegepast.
 
