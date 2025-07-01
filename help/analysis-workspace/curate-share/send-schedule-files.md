@@ -4,7 +4,7 @@ title: Overzicht van projecten voor curven en delen
 feature: Curate and Share
 exl-id: d7f92e59-18e9-43cd-8121-3c970434aaee
 role: User
-source-git-commit: 6cbf18496585fc973414b79b5957f918a16c0459
+source-git-commit: c91ee21a3d4e20e3bdaeb75f2011ede6eee6cba0
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 7%
@@ -22,6 +22,6 @@ U kunt projecten beheren en delen, of projecten verzenden als PDF- of CSV-bestan
 | **[!UICONTROL Curate project data]** | Beperk de componenten (afmetingen, metriek, segmenten, datumwaaiers) beschikbaar in een project. [Meer informatie](/help/analysis-workspace/curate-share/curate.md) |
 | **[!UICONTROL Share with Workspace users]** | Een project beschikbaar stellen voor andere Analysis Workspace-gebruikers in uw organisatie. Deel met specifieke gebruikers of maak een deelbare koppeling voor snelle toegang tot een project. Gebruikers moeten zich aanmelden. [Meer informatie](/help/analysis-workspace/curate-share/share-projects.md) |
 | **[!UICONTROL Share with anyone]** | Alleen-lezen toegang verlenen tot Analysis Workspace-projecten aan mensen die geen toegang hebben tot Customer Journey Analytics. [Meer informatie](/help/analysis-workspace/curate-share/share-projects.md) |
-| **[!UICONTROL Send file]** | Verzend een project als CSV of PDF onmiddellijk naar gespecificeerde ontvangers. [Meer informatie](/help/analysis-workspace/curate-share/t-schedule-report.md) |
-| **[!UICONTROL Schedule file export]** | Verzend een project als CSV of PDF op een programma aan gespecificeerde ontvangers. [Meer informatie](/help/analysis-workspace/curate-share/t-schedule-report.md) |
+| **[!UICONTROL Send file]** | Verzend een project als CSV of PDF onmiddellijk naar gespecificeerde ontvangers. [Meer informatie](/help/analysis-workspace/export/t-schedule-report.md) |
+| **[!UICONTROL Schedule file export]** | Verzend een project als CSV of PDF op een programma aan gespecificeerde ontvangers. [Meer informatie](/help/analysis-workspace/export/t-schedule-report.md) |
 
