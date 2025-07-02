@@ -1,17 +1,17 @@
 ---
-description: Hiermee geeft u de bovenste 5-waarden weer voor afmetingen die niet bij de tijd horen (en 15 voor tijdafmetingen).
-title: Een voorvertoning weergeven van de afmetingen in Customer Journey Analytics Workspace
+description: Leer hoe u details en de bovenste waarden van een dimensie kunt bekijken in Analysis Workspace.
+title: Afmetingen voorvertoning
 feature: Dimensions
 exl-id: 3e620bfa-825c-4f25-956c-83c905c49f84
 role: User
-source-git-commit: 5b441472a21db99728d012c19f12d98f984086f5
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
 
-# Afmetingen voorvertonen in Analysis Workspace
+# Voorvertoningsafmetingen
 
 U kunt [ componenteninfo ](/help/components/use-components-in-workspace.md#component-info) voor een component gebruiken om de hoogste punten voor een afmeting te tonen.
 

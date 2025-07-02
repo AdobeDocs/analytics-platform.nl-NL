@@ -1,19 +1,19 @@
 ---
-title: Mobiele scorebordannotaties
+title: Mobiele annotaties
 description: Leer hoe u annotaties kunt weergeven in Mobile-scorecards.
 solution: Customer Journey Analytics
 feature: Components
 exl-id: c0f276b4-3514-4f93-8b6c-6896eb4da6e4
 role: User
-source-git-commit: 0e1654eae336f89e1574afadcd97e26798dc01a1
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
 
 
-# Annotaties delen in mobiele scoreborden
+# Mobiele scorecardannotaties
 
 U kunt annotaties die in Workspace zijn gemaakt, weergeven in Mobile-scorecards. Met annotaties in mobiele scorecards kunt u contextuele gegevensnuances en inzichten over uw organisatie en campagnes delen.
 
@@ -50,4 +50,4 @@ U kunt voorproefaantekening gebruikend ![ ](/help/assets/icons/PlayCircle.svg) V
 
 ![ Annotation mobile scorecard voorproef ](assets/annotations-scorecard-preview.png)
 
-Als er meer annotaties beschikbaar zijn, ziet u meerdere puntjes (・) onder aan de annotatie staan. Veeg naar links of rechts om tussen annotaties te schakelen.
+Als er meer annotaties beschikbaar zijn, ziet u meerdere puntjes (●) onder aan de annotatie. Veeg naar links of rechts om tussen annotaties te schakelen.

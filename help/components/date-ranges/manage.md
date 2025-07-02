@@ -1,12 +1,12 @@
 ---
 title: Datumbereiken beheren
-description: U kunt datumbereiken delen, hernoemen of verwijderen in Analysis Workspace.
+description: Begrijp hoe te om datumwaaiers in Analysis Workspace te beheren.
 feature: Calendar
 exl-id: 694758c4-d740-4fd7-9fb0-3ff7f6b25a3d
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Gebruik ![ ColumnSetting ](/help/assets/icons/ColumnSetting.svg) om te specifice
 
 ### Actiebalk
 
-U kunt op datumbereiken actie ondernemen met de ➋ van de actiebalk. De actiebalk bevat de volgende handelingen:
+U kunt actie uitvoeren op datumbereiken met de actiebalk ➋ . De actiebalk bevat de volgende handelingen:
 
 | Pictogram | Handeling | Beschrijving |
 |:---:|---|---|
@@ -60,11 +60,11 @@ U kunt op datumbereiken actie ondernemen met de ➋ van de actiebalk. De actieba
 
 ### Actieve filterbalk
 
-De filterbalk ➌ de actieve filters (indien aanwezig). U kunt een filter snel verwijderen gebruikend ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg). Als er meer dan één filter is opgegeven, gebruikt u **[!UICONTROL Remove all]** om alle filters te verwijderen.
+De filterbalk ➌ geeft de actieve filters weer (indien aanwezig). U kunt een filter snel verwijderen gebruikend ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg). Als er meer dan één filter is opgegeven, gebruikt u **[!UICONTROL Remove all]** om alle filters te verwijderen.
 
 ### Deelvenster Filter
 
-U kunt datumbereiken filteren met de ➍ van het linkerdeelvenster van **[!UICONTROL Filter]** . In het filterdeelvenster worden het type filter en het aantal datumbereiken weergegeven die aan het filter voldoen. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om de vertoning van het filterpaneel van een knevel te voorzien.
+U kunt datumbereiken filteren in het **[!UICONTROL Filter]** linkerdeelvenster ➍ . In het filterdeelvenster worden het type filter en het aantal datumbereiken weergegeven die aan het filter voldoen. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om de vertoning van het filterpaneel van een knevel te voorzien.
 
 De lijst met filters filteren:
 

@@ -1,10 +1,10 @@
 ---
-description: Waarschuwingen maken, bewerken of verwijderen.
-title: Aletten beheren
+description: Leer hoe u waarschuwingen beheert.
+title: Waarschuwingen beheren
 feature: Workspace Basics
 role: User, Admin
 exl-id: 174c3ebd-a77b-4403-ae9a-bb0cff4bcca6
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 0%

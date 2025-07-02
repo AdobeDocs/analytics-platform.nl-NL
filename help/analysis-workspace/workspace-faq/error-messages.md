@@ -1,13 +1,13 @@
 ---
-description: Meer informatie over de foutberichten en over het oplossen van problemen in Adobe Analysis Workspace
-title: Algemene fouten en probleemoplossing in Analysis Workspace
+description: Meer informatie over fouten en probleemoplossing voor Analysis Workspace.
+title: Fouten in probleemoplossing in Analysis Workspace
 feature: FAQ
 exl-id: 792c3b2e-bd24-4e98-b9ea-983c1189d52e
 role: User
-source-git-commit: 770320a0b16d26e0755203a3524b000db30cac82
+source-git-commit: e07b901f66a59aba1a7a517443eec73387d23c57
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 10%
+source-wordcount: '500'
+ht-degree: 11%
 
 ---
 
@@ -36,4 +36,4 @@ Wanneer het gebruiken van de Werkruimte van de Analyse, kunt u de informatie geb
 | Probleem | Hoe te om problemen op te lossen |
 |---|---|
 | Wanneer ik metrisch over sleep, zegt het *Ongeldige gegevens*. | De melding &quot;Ongeldige data&quot; betekent dat Adobe geen data kan retourneren met de combinatie van dimensies en metrics die in het rapport wordt gebruikt. Zo kunnen twee metrics die boven op elkaar zijn gestapeld, niet als data worden geretourneerd, omdat er geen manier is om twee metrics op die manier weer te geven. Plaats de metriek in plaats daarvan naast elkaar. |
-| Wanneer ik metrisch over sleep, zie ik geen daadwerkelijke gegevens - enkel nul. | Als u een werkruimterapport hebt gemaakt maar er geen gegevens zijn, kunt u een aantal dingen controleren:<ul><li>Als u een segment in uw rapport toepaste, zouden de segmentcriteria geen gegevens kunnen aanpassen. Verwijder het segment of pas de segmentdefinitie aan.</li><li>Controleer het datumbereik in de rechterbovenhoek en zorg ervoor dat het is ingesteld op een waarde die u verwacht.</li><li>Navigeer aan uw website en gebruik [ Debugger ](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=nl-NL) om te bevestigen dat het gegeven wordt verzameld.</li></ul> |
+| Wanneer ik metrisch over sleep, zie ik geen daadwerkelijke gegevens - enkel nul. | Als u een werkruimterapport hebt gemaakt maar er geen gegevens zijn, kunt u een aantal dingen controleren:<ul><li>Als u een segment in uw rapport toepaste, zouden de segmentcriteria geen gegevens kunnen aanpassen. Verwijder het segment of pas de segmentdefinitie aan.</li><li>Controleer het datumbereik in de rechterbovenhoek en zorg ervoor dat het is ingesteld op een waarde die u verwacht.</li><li>Navigeer aan uw website en gebruik [ Debugger ](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) om te bevestigen dat het gegeven wordt verzameld.</li></ul> |

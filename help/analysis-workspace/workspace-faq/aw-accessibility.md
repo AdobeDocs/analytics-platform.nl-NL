@@ -1,19 +1,19 @@
 ---
-description: Functies voor toegankelijkheidsondersteuning in Analysis Workspace
+description: Meer informatie over de toegankelijkheidsfuncties in Analysis Workspace.
 title: Toegankelijkheid in Analysis Workspace
 feature: FAQ
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
 role: User
-source-git-commit: dca8b99dad97e939e8021a681cb21ab14ca1ff87
+source-git-commit: e07b901f66a59aba1a7a517443eec73387d23c57
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
 
 # Toegankelijkheid in Analysis Workspace
 
-Meer informatie over toegankelijkheidsondersteuning vindt u in [!UICONTROL Analysis Workspace] , het belangrijkste analyseprogramma voor Customer Journey Analytics.
+Meer informatie over toegankelijkheidsondersteuning vindt u in [!UICONTROL Analysis Workspace] , het belangrijkste hulpprogramma voor analyse voor Customer Journey Analytics.
 
 Toegankelijkheid heeft betrekking op het bruikbaar maken van producten voor mensen met een visuele, auditieve, cognitieve, motorische en andere handicap. Voorbeelden van toegankelijkheidsfuncties voor softwareproducten zijn:
 
@@ -30,7 +30,7 @@ Toegankelijkheid heeft betrekking op het bruikbaar maken van producten voor mens
 Navigatie in [!UICONTROL Analysis Workspace] werkt van boven naar beneden en van links naar rechts. De volgende navigatie-elementen vergemakkelijken de toegankelijkheid:
 
 * Met de toets **[!UICONTROL Tab]** kunt u sneltoetsen gebruiken om markeringen te markeren die zich verplaatsen tussen grotere secties in Workspace. In het linkerdeelvenster kunt u met **[!UICONTROL Tab]** ook van de ene versleepbare optie naar de andere gaan.
-* De ◀︎ en ▶︎ gaan tussen afzonderlijke elementen nadat de **[!UICONTROL Tab]** -toets een element heeft gemarkeerd.
+* De }︎ ◀ en ▶ }︎ tussen afzonderlijke elementen gaan nadat met de toets **[!UICONTROL Tab]** een element is gemarkeerd.
 * Met de **[!UICONTROL F6]** -toets navigeert u naar het eerste deelvenster in het project en gaat u tussen de visualisaties in dat deelvenster. Vervolgens wordt het naar het volgende deelvenster in het project verplaatst en herhaald.
 * Focusindicatoren worden toegepast zodat gebruikers met een waargenomen toetsenbord een duidelijke indicatie hebben van welk interface-element momenteel focus heeft. De indicator is een blauwe rand voor het deelvenster dat focus heeft. En grijze achtergrond voor de onlangs geselecteerde functionaliteit en de selectie binnen de functionaliteit. In het voorbeeld zijn [!UICONTROL Components] en de pagina-dimensie onlangs geselecteerd.
 

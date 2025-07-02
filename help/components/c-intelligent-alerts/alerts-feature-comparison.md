@@ -4,9 +4,9 @@ title: Vergelijking van Customer Journey Analytics- en Adobe Analytics-functies 
 feature: Workspace Basics
 role: User, Admin
 exl-id: 04e819c4-9fb5-4459-9f8b-40d78385ed90
-source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 Het gebruik van waarschuwingen in Customer Journey Analytics is bijna hetzelfde als het gebruik van waarschuwingen in Adobe Analytics. Er zijn echter belangrijke verschillen. In de volgende secties worden de belangrijkste verschillen beschreven.
 
-## Uurwaarschuwingen zijn niet beschikbaar in Customer Journey Analytics
+## Uurwaarschuwingen zijn niet beschikbaar
 
-Uurwaarschuwingen zijn niet beschikbaar in Customer Journey Analytics zoals in Adobe Analytics. In Customer Journey Analytics kunnen waarschuwingen worden geconfigureerd voor dagelijks, wekelijks of maandelijks.
+Het uuralarm is **niet** beschikbaar in Customer Journey Analytics terwijl het uuralarm in Adobe Analytics beschikbaar is. In Customer Journey Analytics kunnen waarschuwingen worden geconfigureerd voor dagelijks, wekelijks of maandelijks.
 
-Dit komt door de verschillende manieren waarop gegevens in Adobe Experience Platform kunnen worden ingevoerd voordat ze in Customer Journey Analytics worden gemeld. De volledigheid en beschikbaarheid van gegevens kunnen niet binnen een uur betrouwbaar worden bereikt, waardoor waarschuwingen per uur onpraktisch zijn vanwege de grote kans op onvolledige gegevens. Voor meer informatie, zie [ de ingangstijden van Gegevens variëren ](#data-ingestion-times-vary-in-customer-journey-analytics).
+U kunt gegevens op verschillende manieren in Adobe Experience Platform invoeren. Dientengevolge, kan de volledigheid en de beschikbaarheid van gegevens niet betrouwbaar worden bereikt binnen de beperkingen van een uur.  De flexibiliteit van het opnemen van gegevens houdt in dat waarschuwingen per uur onpraktisch zijn vanwege de grote kans op onvolledige gegevens. Voor meer informatie, zie [ de ingangstijden van Gegevens variëren ](#data-ingestion-times-vary-in-customer-journey-analytics).
 
-## De tijd van gegevensinvoer varieert in Customer Journey Analytics
+## De tijd van gegevensinvoer varieert
 
 De tijd die nodig is voordat de gegevens zijn voltooid en beschikbaar zijn voor rapportage in Customer Journey Analytics, varieert per organisatie.
 
@@ -45,7 +45,7 @@ Voor meer informatie over hoe te om de vertraging aan te passen, en de factoren 
 
 <!-- Starting with "However," the rest of this information should probably go into the actual documentation where we document the option to adjust the delay. -->
 
-## De optie om een waarschuwing te maken van Analysis Workspace is niet beschikbaar
+## Een waarschuwing van Analysis Workspace maken is niet beschikbaar
 
 In Analysis Workspace in Adobe Analytics kunt u waarschuwingen maken van Analysis Workspace op een van de onderstaande manieren. In Customer Journey Analytics zijn de opties voor het maken van waarschuwingen van Analysis Workspace nog niet beschikbaar. In plaats daarvan, toegang tot de Waakzame Bouwer, zoals die in [ wordt beschreven leidt alarm ](/help/components/c-intelligent-alerts/alert-builder.md) tot.
 
@@ -57,4 +57,4 @@ In Adobe Analytics zijn de volgende opties beschikbaar:
 
 * Open een project in Analysis Workspace en selecteer vervolgens **[!UICONTROL Components]** > **[!UICONTROL Create alert]** .
 
-* Open een project in Analysis Workspace, dan gebruik de volgende kortere weg: **[!UICONTROL *ctrl *]**+**[!UICONTROL * verschuiving *]** + **[!UICONTROL *a *]**(Vensters) of&#x200B;**[!UICONTROL * cmd *]** + **[!UICONTROL *verschuiving *]**+**[!UICONTROL * a *]** (macOS).
+* Open een project in Analysis Workspace, dan gebruik de volgende kortere weg: **[!UICONTROL *ctrl *]**+**[!UICONTROL * verschuiving *]** + **[!UICONTROL *a *]**(Vensters) of**[!UICONTROL * cmd *]** + **[!UICONTROL *verschuiving *]**+**[!UICONTROL * a *]** (macOS).

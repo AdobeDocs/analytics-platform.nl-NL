@@ -1,12 +1,12 @@
 ---
-description: Alarm maakt korrelige controle over meldingen mogelijk, en integratie met anomaliedetectie.
+description: Begrijp hoe te om alarm te gebruiken om korrelige controle over berichten, en integratie met anomalieopsporing toe te staan.
 title: Overzicht van waarschuwingen
 feature: Workspace Basics
 role: User, Admin
 exl-id: 029be0c8-ec78-4bb7-a6cd-bb303b5ac82a
-source-git-commit: 56ac1c5a6d13a972aed90cab79cbc5f794cedc9e
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Met waarschuwingen kunt u:
 * &quot;gestapelde&quot; waarschuwingen maken die meerdere meetgegevens vastleggen in één waarschuwing
 * Berichten maken op basis van anomalieën (90%, 95%, 99%, 99,75% en 99,9% drempelwaarden; procentuele wijziging; boven/onder) (Alleen beschikbaar voor Customer Journey Analytics-klanten met een Select-, Prime- of Ultimate-pakket)
 
-Het volgende videoleerprogramma verstrekt een basisoverzicht van alarm: [ Alarm ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=nl-NL) (5:34)
+Het volgende videoleerprogramma verstrekt een basisoverzicht van alarm: [ Alarm ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
 
 ## Begrijpen hoe waarschuwingen verschillen
 

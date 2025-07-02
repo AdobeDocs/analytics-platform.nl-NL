@@ -1,12 +1,12 @@
 ---
 title: Annotaties beheren
-description: Annotaties beheren in Workspace.
+description: Annotaties beheren in Analysis Workspace.
 feature: Components
 exl-id: 12f2cc2f-477c-4f16-afdd-b0db84725b32
 role: User
-source-git-commit: 6a279ac39e6b94200ff93ac1a3796d202e6349c7
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Het annotatiebeheer heeft de volgende interface-elementen:
 
 ### Lijst met annotaties
 
-In de lijst met annotaties ➊ alle annotaties worden weergegeven die u hebt, de annotaties die zijn toegepast op al uw projecten en de annotaties die met u zijn gedeeld. De lijst heeft de volgende kolommen:
+In de lijst met annotaties ➊ worden alle annotaties weergegeven die u hebt, de annotaties die binnen het bereik van al uw projecten vallen en de annotaties die met u zijn gedeeld. De lijst heeft de volgende kolommen:
 
 | Kolom | Beschrijving |
 | --- | --- | 
@@ -50,7 +50,7 @@ Gebruik ![ ColumnSetting ](/help/assets/icons/ColumnSetting.svg) om te specifice
 
 ### Actiebalk
 
-U kunt actie ondernemen op annotaties met behulp van het ➋ op de actiebalk. De actiebalk bevat de volgende handelingen:
+U kunt actie ondernemen op annotaties met de actiebalk ➋ . De actiebalk bevat de volgende handelingen:
 
 | Pictogram | Handeling | Beschrijving |
 |:--:|---|---|
@@ -65,11 +65,11 @@ U kunt actie ondernemen op annotaties met behulp van het ➋ op de actiebalk. De
 
 ### Actieve filterbalk
 
-De filterbalk ➌ de actieve filters (indien aanwezig). U kunt een filter snel verwijderen gebruikend ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg). Als er meer dan één filter is opgegeven, kunt u alle filters verwijderen met **[!UICONTROL Remove all]** .
+De filterbalk ➌ geeft de actieve filters weer (indien aanwezig). U kunt een filter snel verwijderen gebruikend ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg). Als er meer dan één filter is opgegeven, kunt u alle filters verwijderen met **[!UICONTROL Remove all]** .
 
 ### Deelvenster Filter
 
-U kunt annotaties filteren met de ➍ van het linkerdeelvenster van **[!UICONTROL Filter]** . In het filterdeelvenster worden het type filter en het aantal annotaties weergegeven die het filter respecteren. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om de vertoning van het filterpaneel van een knevel te voorzien.
+U kunt annotaties filteren met het **[!UICONTROL Filter]** linkerdeelvenster ➍ . In het filterdeelvenster worden het type filter en het aantal annotaties weergegeven die het filter respecteren. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om de vertoning van het filterpaneel van een knevel te voorzien.
 
 De lijst met filters filteren:
 

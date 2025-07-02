@@ -1,21 +1,21 @@
 ---
-description: Afmetingen en dimensies in Analysis Workspace onderverdelen.
+description: Leer hoe u dimensies en dimensies kunt onderverdelen in Analysis Workspace.
 keywords: Analysis Workspace
-title: Afmetingen onderverdelingen
+title: Afmetingen onderbreken
 feature: Dimensions
 exl-id: 6b433db3-02c1-4deb-916e-b01c0b79889e
 solution: Customer Journey Analytics
 role: User
-source-git-commit: 60035b8fc65627bf5ead2a50959ce9cc5fe48604
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
-# Afsplitsingsafmetingen in Workspace
+# Afmetingen onderverdelingen
 
-U kunt uw gegevens op onbeperkte manieren voor uw specifieke behoeften opsplitsen; bouwt vragen gebruikend relevante metriek, dimensies, segmenten, tijdlijnen, en andere waarden van de analyseonderbreking.
+U kunt uw gegevens in Analysis Workspace op onbeperkte manieren voor uw specifieke behoeften opsplitsen; bouwt vragen gebruikend relevante metriek, dimensies, segmenten, tijdlijnen, en andere waarden van de analyseonderbreking.
 
 1. In a [ Vrije lijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), van het contextmenu van één of meerdere geselecteerde rijen, uitgezochte **[!UICONTROL Breakdown]** ![ ChevronRight ](/help/assets/icons/ChevronRight.svg).
 

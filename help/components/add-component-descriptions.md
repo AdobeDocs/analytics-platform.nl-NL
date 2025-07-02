@@ -1,12 +1,12 @@
 ---
-description: Beheerders kunnen beschrijvingen voor componenten toevoegen met de gegevensweergave.
+description: Beheerders kunnen beschrijvingen toevoegen voor componenten in de gegevensweergave of met het gegevenswoordenboek
 title: Componentbeschrijvingen toevoegen
 feature: Components
 role: Admin
 exl-id: 99d531cd-50e9-4e6c-adad-a66b606fd877
-source-git-commit: 21935a0e9e976cd680fb036bb47f4248aaa66890
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -32,5 +32,5 @@ Voor algemene informatie over het Woordenboek van Gegevens, zie het [ overzicht 
 >[!MORELIKETHIS]
 >
 >[ de montages van de meningscomponent van Gegevens ](/help/data-views/component-settings/overview.md)
->&#x200B;>[Items van gegevenswoordenboekcomponenten ](/help/components/data-dictionary/edit-entries-data-dictionary.md)
+>>[Items van gegevenswoordenboekcomponenten ](/help/components/data-dictionary/edit-entries-data-dictionary.md)
 >

@@ -1,12 +1,12 @@
 ---
 title: Annotaties maken
-description: Annotaties maken in Workspace.
+description: Annotaties maken in Analysis Workspace.
 feature: Components
 exl-id: 68fef9b3-dc47-4e56-bea6-d1c4c39fb51b
 role: User, Admin
-source-git-commit: 21935a0e9e976cd680fb036bb47f4248aaa66890
+source-git-commit: f3c9a000ae5baa19cb5a6cf0e0343de3a9685b56
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Als u de annotatie wilt definiëren, gebruikt u de instructie [[!UICONTROL Annot
 >[!CONTEXTUALHELP]
 >id="components_annotations_details"
 >title="Details van aantekening"
->abstract="Met annotaties kunt u op effectieve wijze contextuele gegevensnuances en inzichten aan uw organisatie meedelen. Met deze sjablonen kunt u kalendergebeurtenissen koppelen aan specifieke afmetingen/metriek."
+>abstract="Met annotaties kunt u op effectieve wijze contextuele gegevensnuances en inzichten aan uw organisatie meedelen. Met annotaties kunt u kalendergebeurtenissen koppelen aan specifieke afmetingen en metriek."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -50,7 +50,7 @@ Als u de annotatie wilt definiëren, gebruikt u de instructie [[!UICONTROL Annot
 >[!CONTEXTUALHELP]
 >id="components_annotations_scope"
 >title="Toepassingsgebied"
->abstract="Met het bereik kunt u aanpassen welke gegevens worden geannoteerd. Berekende metriek en segmenten zullen automatisch geen annotaties erven die worden toegepast op componenten die in hun definities worden gebruikt. U kunt nieuwe berekende metriek aan de werkingsgebiedsectie van een bestaande aantekening toevoegen. Voor nieuwe segmenten is een nieuwe annotatie vereist."
+>abstract="Met het bereik kunt u aanpassen welke gegevens worden geannoteerd. Berekende metriek en segmenten nemen automatisch geen annotaties over die worden toegepast op componenten die in hun definities worden gebruikt. U kunt nieuwe berekende metriek aan de werkingsgebiedsectie van een bestaande aantekening toevoegen. Voor nieuwe segmenten is een nieuwe annotatie vereist."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -62,11 +62,11 @@ Het dialoogvenster **[!UICONTROL Annotations builder]** wordt gebruikt om nieuwe
 
 >[!TAB  Bouwer van de Annotatie ]
 
-![ het venster van de details van de Annotatie die gebieden en opties tonen in de volgende sectie worden beschreven.](assets/annotation-builder.png)
+![ het venster van de details van de Annotatie die gebieden en opties tonen in de volgende sectie worden beschreven.](assets/annotation-builder.png){zoomable="yes"}
 
->[!TAB creeer/geef aantekening  uit]
+>[!TAB  Annotatie bewerken ]
 
-![ het venster van de details van de Annotatie die gebieden en opties tonen in de volgende sectie worden beschreven.](assets/create-edit-annotation.png)
+![ het venster van de details van de Annotatie die gebieden en opties tonen in de volgende sectie worden beschreven.](assets/create-edit-annotation.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -79,9 +79,9 @@ Het dialoogvenster **[!UICONTROL Annotations builder]** wordt gebruikt om nieuwe
    | **[!UICONTROL Title]** ![ Vereiste ](/help/assets/icons/Required.svg) | Geef de annotatie bijvoorbeeld de naam `Needs further investigation` . |
    | **[!UICONTROL Description]** | Geef een beschrijving voor de annotatie, bijvoorbeeld `We never expected such a fluctuation in numbers.` . |
    | **[!UICONTROL Tags]** | U ordent de annotatie door een of meer tags te maken of toe te passen. Begin te typen om naar bestaande tags te zoeken die u kunt selecteren. Of druk op **[!UICONTROL Enter]** om een nieuwe tag toe te voegen. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om een markering te verwijderen. |
-   | **[!UICONTROL Applied date]** ![ Vereiste ](/help/assets/icons/Required.svg) | Selecteer de datum of het datumbereik dat aanwezig moet zijn om de annotatie zichtbaar te maken. Wanneer u een annotatie maakt met de sneltoets, wordt de annotatie standaard ingesteld op een datumbereik voor alleen de dag. Wanneer u een annotatie maakt met behulp van een selectie in een visualisatie, wordt de annotatie standaard ingesteld op het datumbereik op basis van het datumbereik van het deelvenster waartoe de visualisatie behoort. |
+   | **[!UICONTROL Applied date]** ![ Vereiste ](/help/assets/icons/Required.svg) | Selecteer de datum of het datumbereik dat aanwezig moet zijn om de annotatie zichtbaar te maken. Wanneer u een annotatie maakt met de sneltoets, wordt de annotatie standaard ingesteld op een datumbereik voor alleen de dag. Wanneer u een annotatie maakt met een selectie in een visualisatie, wordt de annotatie standaard ingesteld op het datumbereik op basis van het datumbereik voor het deelvenster waartoe de visualisatie behoort. |
    | **[!UICONTROL Color]** | Pas een kleur toe op de annotatie. De annotatie wordt in het project weergegeven met de geselecteerde kleur. De kleur kan worden gebruikt om annotaties te categoriseren, zoals feestdagen, externe gebeurtenissen, problemen bij het bijhouden van wijzigingen, enzovoort. |
-   | **[!UICONTROL Scope]** | Sleep metriek van het componentenpaneel dat de annotatie teweegbrengt. Bijvoorbeeld Personen, Sessies en Gebeurtenissen. Vervolgens sleept u de afmetingen of segmenten uit het deelvenster met componenten die als segmenten fungeren om te bepalen of de annotatie moet worden weergegeven of niet. Als u geen bereik opgeeft, wordt de annotatie toegepast op al uw gegevens. <br/> u hebt twee opties:<ul><li>**[!UICONTROL Any of these metrics are present]**: sleep en zet tot 10 metriek neer die de annotatie teweegbrengen om te tonen.<br/> Bijvoorbeeld, metrische Inkomsten zijn ophouden inzamelend gegevens voor een specifieke datumwaaier. Sleep metrisch van de Opbrengst in dit vakje.</li><li>**[!UICONTROL With all of these segments]**: Sleep maximaal 10 dimensies of segmenten die segmenteren, ongeacht of de annotatie wordt weergegeven.</li></ul><p><p>**Nota:** Om het even welke die annotatie op een component wordt toegepast die dan als deel van een berekende metrische of segmentdefinitie wordt gebruikt erft automatisch niet de annotatie. De gewenste berekende metrisch moet ook aan de werkingsgebiedsectie worden toegevoegd om de aantekening te tonen. Er moet echter een nieuwe annotatie worden gemaakt voor elk segment dat u met dezelfde informatie wilt annoteren. U past bijvoorbeeld een aantekening toe op [!UICONTROL Orders] op een bepaalde dag. Vervolgens gebruikt u [!UICONTROL Orders] in een berekende metrische waarde voor hetzelfde datumbereik. De nieuwe berekende metrische waarde geeft niet automatisch de annotatie voor bestellingen weer. Voeg ook de berekende metrische waarde toe aan de bereiksectie voor de annotatie die moet worden weergegeven. |
+   | **[!UICONTROL Scope]** | Sleep metriek van het componentenpaneel dat de annotatie teweegbrengt. Bijvoorbeeld Personen, Sessies en Gebeurtenissen. Vervolgens sleept u de afmetingen of segmenten uit het deelvenster met componenten die als segmenten fungeren om te bepalen of de annotatie moet worden weergegeven of niet. Als u geen bereik opgeeft, wordt de annotatie toegepast op al uw gegevens. <br/> u hebt twee opties:<ul><li>**[!UICONTROL Any of these metrics are present]**: sleep en zet tot 10 metriek neer die de annotatie teweegbrengen om te tonen.<br/> Bijvoorbeeld, metrische Inkomsten is ophouden inzamelend gegevens voor een specifieke datumwaaier. Sleep metrisch van de Opbrengst in dit vakje.</li><li>**[!UICONTROL With all of these segments]**: Sleep maximaal 10 dimensies of segmenten die segmenteren, ongeacht of de annotatie wordt weergegeven.</li></ul><p><p>**Nota:** Om het even welke die annotatie op een component wordt toegepast die dan als deel van een berekende metrische of segmentdefinitie wordt gebruikt erft automatisch niet de annotatie. De gewenste berekende metrisch moet ook aan de werkingsgebiedsectie worden toegevoegd om de aantekening te tonen. Er moet echter een nieuwe annotatie worden gemaakt voor elk segment dat u met dezelfde informatie wilt annoteren. U past bijvoorbeeld een aantekening toe op [!UICONTROL Orders] op een bepaalde dag. Vervolgens gebruikt u [!UICONTROL Orders] in een berekende metrische waarde voor hetzelfde datumbereik. De nieuwe berekende metrische waarde geeft niet automatisch de annotatie voor bestellingen weer. Voeg ook de berekende metrische waarde toe aan de bereiksectie voor de annotatie die moet worden weergegeven. |
    | **[!UICONTROL Apply to all data views]** | Standaard wordt de annotatie toegepast op de gegevensweergave die wordt gegenereerd. Als u dit selectievakje inschakelt, kunt u de annotatie toepassen op alle gegevensweergaven in het bedrijf. |
 
    {style="table-layout:auto"}

@@ -1,12 +1,12 @@
 ---
 title: Datumbereiken maken
-description: Maak een datumbereik voor rapportage.
+description: Begrijp hoe u een datumbereik maakt dat u kunt gebruiken in Analysis Workspace.
 feature: Calendar
 exl-id: 3e4fa3cc-c14b-45e5-afbb-518ecfa0033e
 role: User
-source-git-commit: 60035b8fc65627bf5ead2a50959ce9cc5fe48604
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---

@@ -1,10 +1,10 @@
 ---
-title: Overzicht van datumbereiken
-description: Leer welke datumbereiken zijn en hoe u deze kunt gebruiken in rapporten.
+description: Gebruik de kalender en gegevenswaaiers om datumwaaiers in de Werkruimte van de Analyse te specificeren.
+title: Overzicht datumbereiken
 feature: Calendar
 exl-id: 99b31bd9-32f1-4da1-9e47-6d90c66282c5
 role: User
-source-git-commit: 747e77b964006404d70b500b28ec44005d65d944
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Met datumbereikcomponenten kunt u de kalenderinstellingen voor het deelvenster d
 
 +++ View a video illustrating use of calendar and date ranges
 
->[!VIDEO](https://video.tv.adobe.com/v/3445839?format=jpeg&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/24136?format=jpeg)
 
 {{videoaa}}
 +++
@@ -44,12 +44,12 @@ Of u kunt een datumbereik in een tabel met vrije vorm gebruiken als metrisch of 
 >Wanneer u datumbereiken in een tabel met vrije vorm gebruikt, overschrijven de datumbereiken de kalender die is opgegeven voor het deelvenster waartoe de tabel met vrije vorm behoort.
 >
 
-U gebruikt een datumwaaier aangezien u [ om het even welke component ](/help/components/overview.md#analysis-workspace-components) zou gebruiken. U sleept de datumwaaier van het ![&#128279;](/help/assets/icons/Calendar.svg) 2&rbrace; componentenpaneel van de Kalender  en laat vallen de component op:**[!UICONTROL Date ranges]**
+U gebruikt een datumwaaier aangezien u [ om het even welke component ](/help/components/overview.md#analysis-workspace-components) zou gebruiken. U sleept de datumwaaier van het ![ 2} componentenpaneel van de Kalender ](/help/assets/icons/Calendar.svg) en laat vallen de component op:**[!UICONTROL Date ranges]**
 
 - **[!UICONTROL Calendar]**: U ![ Schakelaar ](/help/assets/icons/Switch.svg) **[!UICONTROL Replace]** de huidige kalenderconfiguratie met de datumwaaier.
-- **Metrische kolomkopbal**: U ![ Schakelaar ](/help/assets/icons/Switch.svg) **[!UICONTROL Replace]** metrisch, ![ voegt ](/help/assets/icons/Add.svg)**[!UICONTROL Add]**&#x200B;de datumwaaier als metrisch toe, of ![ filter ](/help/assets/icons/Filter.svg)**[!UICONTROL Filter]**&#x200B;metrisch gebruikend de component van de datumwaaier.
-- **de kolomkopbal van het Dimension**: U ![ Schakelaar ](/help/assets/icons/Switch.svg) **[!UICONTROL Replace]** de huidige afmetingen. De nieuwe dimensie is nu **[!UICONTROL Date ranges]** . Zodra de afmeting de waaiers van de Datum is, kunt u ![&#128279;](/help/assets/icons/Add.svg)**[!UICONTROL Add]**&#x200B;extra datumwaaiers als afmetingspunten toevoegen .
-- **punt van het Dimension**: U ![ Uitsplitsing ](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** het specifieke afmetingspunt door de datumwaaier.
+- **Metrische kolomkopbal**: U ![ Schakelaar ](/help/assets/icons/Switch.svg) **[!UICONTROL Replace]** metrisch, ![ voegt ](/help/assets/icons/Add.svg)**[!UICONTROL Add]**de datumwaaier als metrisch toe, of ![ filter ](/help/assets/icons/Filter.svg)**[!UICONTROL Filter]**metrisch gebruikend de component van de datumwaaier.
+- **de kolomkopbal van Dimension**: U ![ Schakelaar ](/help/assets/icons/Switch.svg) **[!UICONTROL Replace]** de huidige afmetingen. De nieuwe dimensie is nu **[!UICONTROL Date ranges]** . Zodra de afmeting de waaiers van de Datum is, kunt u ![ extra datumwaaiers als afmetingspunten toevoegen ](/help/assets/icons/Add.svg)**[!UICONTROL Add]**.
+- **het punt van Dimension**: U ![ Uitsplitsing ](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** het specifieke afmetingspunt door de datumwaaier.
 
 U kunt ook rechtstreeks een kolom voor het datumbereik toevoegen in een visualisatie voor de tabel Vrije vorm:
 

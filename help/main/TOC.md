@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: a3442e4cbb949228213a606b87ff65c8c562895b
+source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1248'
 ht-degree: 10%
 
 ---
@@ -248,10 +248,10 @@ ht-degree: 10%
       + [Projecten delen](../analysis-workspace/curate-share/share-projects.md)
       + [Deelbare koppelingen maken](../analysis-workspace/curate-share/shareable-links.md)
       + [Alleen-lezen projecten](../analysis-workspace/curate-share/view-only-projects.md)
-      + [Verzenden en plannen](../analysis-workspace/export/t-schedule-report.md)
    + Exporteren {#export}
       + [Overzicht](../analysis-workspace/export/export-project-overview.md)
       + [Downloaden](../analysis-workspace/export/download-send.md)
+      + [Verzenden en plannen](../analysis-workspace/export/t-schedule-report.md)
       + [Naar de cloud exporteren](../analysis-workspace/export/export-cloud.md)
    + Anomaliedetectie {#anomaly-detection}
       + [Overzicht](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
@@ -264,7 +264,8 @@ ht-degree: 10%
    + [Gebruikersvoorkeuren](../analysis-workspace/user-preferences.md)
    + Veelgestelde vragen over Workspace en meer {#workspace-faq}
       + [Veelgestelde vragen](../analysis-workspace/workspace-faq/faq.md)
-      + [Foutberichten](../analysis-workspace/workspace-faq/error-messages.md)
+      + [Prestaties optimaliseren](../analysis-workspace/workspace-faq/optimizing-performance.md)
+      + [Fout en problemen oplossen](../analysis-workspace/workspace-faq/error-messages.md)
       + [Beperkingen](../analysis-workspace/workspace-faq/aw-limitations.md)
       + [Administratieve vereisten](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Toegankelijkheid](../analysis-workspace/workspace-faq/aw-accessibility.md)
@@ -306,21 +307,20 @@ ht-degree: 10%
 
 + Onderdelen {#cja-components}
    + [Overzicht](../components/overview.md)
-   + [Componenten in Analysis Workspace gebruiken](../components/use-components-in-workspace.md)
+   + [Componenten gebruiken](../components/use-components-in-workspace.md)
    + [Componentbeschrijvingen toevoegen](../components/add-component-descriptions.md)
    + Annotaties {#annotations}
-      + [Overzicht van annotaties](../components/annotations/overview.md)
+      + [Overzicht](../components/annotations/overview.md)
       + [Annotaties maken](../components/annotations/create-annotations.md)
       + [Annotaties beheren](../components/annotations/manage-annotations.md)
       + [Annotaties weergeven](../components/annotations/view-annotations.md)
-      + [Mobiele annotaties](../components/annotations/mobile-annotations.md)
-   + [Geplande projecten](../components/scheduled-projects-manager.md)
+      + [Mobiele scorecardannotaties](../components/annotations/mobile-annotations.md)
    + Soorten publiek {#audiences}
       + [Overzicht publiek](../components/audiences/audiences-overview.md)
       + [Soorten publiek maken en publiceren](../components/audiences/publish.md)
       + [Soorten publiek beheren](../components/audiences/manage.md)
    + Dimensies {#dimensions}
-      + [Overzicht van afmetingen](../components/dimensions/overview.md)
+      + [Overzicht](../components/dimensions/overview.md)
       + [Voorvertoningsafmetingen](../components/dimensions/view-dimensions.md)
       + [Afmetingen onderverdelingen](../components/dimensions/t-breakdown-fa.md)
       + [Afmetingen van tijd tot tijd](../components/dimensions/time-parting-dimensions.md)
@@ -343,7 +343,7 @@ ht-degree: 10%
       + [Segmenten gebruiken](/help/components/segments/seg-use.md)
    + Berekende cijfers {#cja-calcmetrics}
       + [Overzicht](../components/calc-metrics/calc-metr-overview.md)
-      + Workflow voor berekende metriek {#cm-workflow}
+      + Workflow {#cm-workflow}
          + [Berekende waarden maken](../components/calc-metrics/cm-workflow/cm-workflow.md)
          + [Berekende maatstaven samenstellen](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [Metrische gegevens zoeken](../components/calc-metrics/cm-workflow/cm-finding.md)
@@ -387,6 +387,7 @@ ht-degree: 10%
       + [Componentinformatie weergeven in gegevenswoordenboek](../components/data-dictionary/view-data-dictionary.md)
       + [Onderdeelitems bewerken in het gegevenswoordenboek](../components/data-dictionary/edit-entries-data-dictionary.md)
       + [Gezondheid gegevenswoordenboek controleren](../components/data-dictionary/monitor-data-dictionary-health.md)
+   + [Geplande projecten](../components/scheduled-projects-manager.md)
 
 + Report Builder {#cja-reportbuilder}
    + [Overzicht](../report-builder/rb-overview.md)

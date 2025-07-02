@@ -1,12 +1,12 @@
 ---
-description: Meer informatie over veelgestelde vragen over Workspace en tips voor het oplossen van problemen.
+description: Veelgestelde vragen over Workspace
 title: Veelgestelde vragen
 feature: FAQ
 exl-id: d7233b26-9887-4b71-ad46-3c6ffe27d904
 role: User
-source-git-commit: f230283c69b2d8339d7bb2e3b170de54b9497135
+source-git-commit: e07b901f66a59aba1a7a517443eec73387d23c57
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '224'
 ht-degree: 16%
 
 ---

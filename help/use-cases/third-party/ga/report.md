@@ -5,9 +5,9 @@ exl-id: a7ac3c8d-c0d9-4fc2-80d7-c2b388250586
 solution: Customer Journey Analytics
 feature: Use Cases
 role: Admin
-source-git-commit: 976f481b6886a4f260f44854a30c47ab0dad7955
+source-git-commit: e07b901f66a59aba1a7a517443eec73387d23c57
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Met behulp van een berekende maatstaf kunt u die toewijzing toepassen op uw webi
 
 ![ Berekende metrisch ](../../assets/calc-metric.png)
 
-Met Attribution IQ kunt u ook uw gegevens segmenteren. De attributie kan alleen worden weergegeven op basis van specifieke sets gebruikers, zoals gebruikers die meerdere apparaten gebruiken.
+Met kenmerk kunt u ook uw gegevens segmenteren. De attributie kan alleen worden weergegeven op basis van specifieke sets gebruikers, zoals gebruikers die meerdere apparaten gebruiken.
 
 ![ Segment ](../../assets/filter.png)
 

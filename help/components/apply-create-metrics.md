@@ -1,12 +1,12 @@
 ---
-description: Er zijn twee manieren om metriek in Analysis Workspace te gebruiken.
+description: Begrijp wat metriek zijn en hoe te om metriek in Adobe Analytics te gebruiken.
 title: Metrics
 feature: Metrics
 exl-id: 4edfb5d7-da20-4bd8-8041-387b291daf96
 role: User
-source-git-commit: ec2fc88372814b01a04d4cc824181222ee55a83d
+source-git-commit: f3c9a000ae5baa19cb5a6cf0e0343de3a9685b56
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Met cijfers kunt u gegevenspunten in Analysis Workspace kwantificeren. Deze word
 
 ## Metriek gebruiken in Analysis Workspace
 
-Metriek is flexibel in het gebruik binnen Analysis Workspace. Sleep metrisch aan een lege lijst Freeform om te zien die metrisch over de de datumperiode van het project trended. U kunt metrisch ook slepen wanneer een afmeting aanwezig is om dat metrisch vergeleken bij elk afmetingspunt te zien. Als u een metrische waarde boven op een bestaande metrische koptekst sleept, wordt deze vervangen en als u een metrische waarde naast een koptekst sleept, ziet u beide meetgegevens naast elkaar.
+Metriek is flexibel in het gebruik binnen Analysis Workspace. Sleep metrisch aan een lege lijst Freeform om te zien die metrisch over de de datumperiode van het project trended. U kunt metrisch ook slepen wanneer een afmeting aanwezig is om te zien hoe metrisch met elk afmetingspunt vergelijkt. Als u een metrische waarde boven op een bestaande metrische koptekst sleept, wordt de bestaande metrische waarde vervangen. Wanneer u een metrische waarde naast een koptekst sleept, kunt u beide meetgegevens naast elkaar zien.
 
 Voor informatie over hoe te om metriek en andere soorten componenten aan Analysis Workspace toe te voegen, zie [ de componenten van het Gebruik in Analysis Workspace ](/help/components/use-components-in-workspace.md).
 
@@ -27,17 +27,11 @@ Voor informatie over hoe te om metriek en andere soorten componenten aan Analysi
 Adobe biedt verschillende typen maateenheden voor gebruik in Analysis Workspace:
 
 
-* **Standaard metriek**: Voorbeeld van standaardmetriek zijn Mensen, Zittingen, Gebeurtenissen.
+* **Standaard metriek**: De voorbeelden van standaardmetriek zijn Mensen, Zittingen, Gebeurtenissen, [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} Rekeningen.
 
-  In tegenstelling tot Adobe Analytics, staat Customer Journey Analytics u toe om standaardmetriek op een flexibele manier binnen het werkingsgebied van een verbinding en een gegevensmening te bepalen.
+  In tegenstelling tot Adobe Analytics, staat Customer Journey Analytics u toe om standaardmetriek op een flexibele manier binnen het werkingsgebied van een verbinding en een gegevensmening te bepalen.  Zie [ Standaardmetriek ](#standard-metrics) voor de volledige lijst van standaardmetriek.
 
-   * **Mensen**: De metrische Mensen in Customer Journey Analytics is de telling verschillend van Persoon IDs. Afhankelijk van wat u als identiteitskaart van de Persoon wanneer u datasets in uw verbinding vormt, metrische Mensen verschillende dingen kunnen betekenen.
-   * **Sessies**: Metrische Sessies in Customer Journey Analytics is wat u als deel van de configuratie van de montages van Sessies in uw gegevensmening bepaalt. Zie [ montages van de Zitting ](/help/data-views/session-settings.md).
-   * **Gebeurtenissen**: De metrische Gebeurtenissen in Customer Journey Analytics worden samengesteld van de gebeurtenissen die deel van om het even welke gebeurtenisdataset uitmaken u als deel van uw verbinding hebt gevormd.
-
-  Zie [ Standaardmetriek ](#standard-metrics) voor de volledige lijst van standaardmetriek.
-
-* **Berekende metriek** ![ calculator ](/help/assets/icons/Calculator.svg): Gebruiker-bepaalde metriek die op standaardmetriek, statische aantallen, of algoritmische functies gebaseerd zijn.
+* **Berekende metriek** ![ calculator ](/help/assets/icons/Calculator.svg): [ user-defined metriek ](/help/components/calc-metrics/calc-metr-overview.md) die op standaardmetriek, statische aantallen, of algoritmische functies gebaseerd zijn.
 
 * **Berekende metrische malplaatjes** ![ AdobeLogoSmall ](/help/assets/icons/AdobeLogoSmall.svg) : Adobe-bepaalde metriek die zich zo ook aan berekende metriek gedragen. U kunt ze ongewijzigd gebruiken in Workspace-projecten of een kopie opslaan om de logica aan te passen. Zie [ Standaard berekende metriek ](calc-metrics/cm-workflow/../default-calcmetrics.md).
 
@@ -52,7 +46,7 @@ De volledige lijst van standaardmetriek in Customer Journey Analytics:
 
 ## Berekende waarden maken
 
-Met de berekende metriek kunt u eenvoudig configureren hoe de metriek op elkaar betrekking heeft, met behulp van eenvoudige operatoren of statistische functies. Zie [ Berekend metriek overzicht ](/help/components/calc-metrics/calc-metr-overview.md) voor meer informatie.
+Met berekende metriek kunt u configureren hoe metrische gegevens op elkaar betrekking hebben, met behulp van eenvoudige operatoren of statistische functies. Zie [ Berekend metriek overzicht ](/help/components/calc-metrics/calc-metr-overview.md) voor meer informatie.
 
 Er zijn verschillende manieren om berekende metriek te maken. De methode u kiest bepaalt of berekende metrisch van de componentenlijst over alle projecten, of slechts in het project beschikbaar is waar het werd gecreeerd.
 
@@ -82,15 +76,15 @@ Om berekende metrisch voor één enkel project tot stand te brengen:
 
    Wanneer u één kolom selecteert, zijn de volgende opties beschikbaar:
 
-   * [!UICONTROL **Gemiddeld**]: Creeert een nieuwe kolom die de gemiddelde waarde in de reeks afmetingselementen voor de kolom toont. Dit gebruikt de [ Mean ](/help/components/calc-metrics/cm-functions.md#mean) functie.
+   * [!UICONTROL **Gemiddeld**]: Creeert een nieuwe kolom die de gemiddelde waarde in de reeks afmetingselementen voor de kolom toont. Deze kolomwaarde gebruikt de [ Mean ](/help/components/calc-metrics/cm-functions.md#mean) functie.
 
-   * [!UICONTROL **Mediaan**]: Creeert een nieuwe kolom die de mediane waarde in de reeks afmetingselementen voor de kolom toont. Dit gebruikt de [ Mediaan ](/help/components/calc-metrics/cm-functions.md#median) functie.
+   * [!UICONTROL **Mediaan**]: Creeert een nieuwe kolom die de mediane waarde in de reeks afmetingselementen voor de kolom toont. Deze kolomwaarde gebruikt de [ Mediaan ](/help/components/calc-metrics/cm-functions.md#median) functie.
 
-   * [!UICONTROL **Kolom max**]: Creeert een nieuwe kolom die de grootste waarde in de reeks afmetingselementen voor de kolom toont. Dit gebruikt de [ Maximale functie van de Kolom ](/help/components/calc-metrics/cm-functions.md#column-maximum).
+   * [!UICONTROL **Kolom max**]: Creeert een nieuwe kolom die de grootste waarde in de reeks afmetingselementen voor de kolom toont. Deze kolomwaarde gebruikt de [ Maximale ](/help/components/calc-metrics/cm-functions.md#column-maximum) functie van de Kolom.
 
-   * [!UICONTROL **Kolom min**]: Creeert een nieuwe kolom die de kleinste waarde in de reeks afmetingselementen voor de kolom toont. Dit gebruikt de [ Minimale functie van de Kolom ](/help/components/calc-metrics/cm-functions.md#column-minimum).
+   * [!UICONTROL **Kolom min**]: Creeert een nieuwe kolom die de kleinste waarde in de reeks afmetingselementen voor de kolom toont. Deze kolomwaarde gebruikt de [ Minimale ](/help/components/calc-metrics/cm-functions.md#column-minimum) functie van de Kolom.
 
-   * [!UICONTROL **som van de Kolom**]:Creeert een nieuwe kolom die alle numerieke waarden voor metrisch binnen een kolom (over de elementen van een afmeting) toevoegt. Dit gebruikt de [ functie van de Som van de Kolom ](/help/components/calc-metrics/cm-functions.md#column-sum).
+   * [!UICONTROL **som van de Kolom**]: Creeert een nieuwe kolom die alle numerieke waarden voor metrisch binnen een kolom (over de elementen van een afmeting) toevoegt. Deze kolomwaarde gebruikt de [ Som van de Kolom ](/help/components/calc-metrics/cm-functions.md#column-sum) functie.
 
    Wanneer u twee kolommen selecteert, zijn de volgende opties beschikbaar:
 
