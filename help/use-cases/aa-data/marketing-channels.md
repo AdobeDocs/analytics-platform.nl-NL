@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Afmetingen marketingkanaal gebruiken
 
-Als uw organisatie de [ Analytics bronschakelaar ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) gebruikt om de gegevens van de rapportreeks in Customer Journey Analytics te brengen, kunt u een verbinding in Customer Journey Analytics vormen om op de dimensies van het Kanaal van de Marketing te rapporteren.
+Als uw organisatie de [ Analytics bronschakelaar ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/analytics) gebruikt om de gegevens van de rapportreeks in Customer Journey Analytics te brengen, kunt u een verbinding in Customer Journey Analytics vormen om op de dimensies van het Kanaal van de Marketing te rapporteren.
 
 >[!IMPORTANT]
 >
@@ -24,8 +24,8 @@ Als uw organisatie de [ Analytics bronschakelaar ](https://experienceleague.adob
 
 ## Vereisten
 
-* De gegevens van de Reeks van het rapport moeten reeds in Adobe Experience Platform worden ingevoerd gebruikend de [ bron van Analytics schakelaar ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics). Andere gegevensbronnen worden niet ondersteund, omdat marketingkanalen vertrouwen op verwerkingsregels in een Analytics-rapportsuite.
-* De verwerkingsregels voor marketingkanalen moeten al zijn ingesteld. Zie [ Regels van de Verwerking voor de Kanalen van de Marketing ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules) in de gids van de Componenten van Adobe Analytics.
+* De gegevens van de Reeks van het rapport moeten reeds in Adobe Experience Platform worden ingevoerd gebruikend de [ bron van Analytics schakelaar ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/analytics). Andere gegevensbronnen worden niet ondersteund, omdat marketingkanalen vertrouwen op verwerkingsregels in een Analytics-rapportsuite.
+* De verwerkingsregels voor marketingkanalen moeten al zijn ingesteld. Zie [ Regels van de Verwerking voor de Kanalen van de Marketing ](https://experienceleague.adobe.com/nl/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/marketing-channels/c-rules) in de gids van de Componenten van Adobe Analytics.
 
 ## Schema-elementen marketingkanaal
 
@@ -33,8 +33,8 @@ Zodra u de de bronschakelaar van de Analyse op een gewenste rapportreeks vestigt
 
 1. [ creeer een verbinding ](/help/connections/create-connection.md) die een dataset omvat die op de Analytics bronschakelaar wordt gebaseerd.
 2. [ creeer een gegevensmening ](/help/data-views/create-dataview.md) die de volgende afmetingen omvat:
-   * **`channel.typeAtSource`**: Equivalent aan de [ 2&rbrace; dimensie van het Kanaal van de Marketing &lbrace;.](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/marketing-channel)
-   * **`channel._id`**: Equivalent aan het [ het kanaaldetail van de Marketing ](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/marketing-detail)
+   * **`channel.typeAtSource`**: Equivalent aan de [ 2&rbrace; dimensie van het Kanaal van de Marketing &lbrace;.](https://experienceleague.adobe.com/nl/docs/analytics/components/dimensions/marketing-channel)
+   * **`channel._id`**: Equivalent aan het [ het kanaaldetail van de Marketing ](https://experienceleague.adobe.com/nl/docs/analytics/components/dimensions/marketing-detail)
 3. Geef elke dimensie het gewenste attributiemodel en de persistentie. Als u zowel eerste als laatste aanraakafmetingen wilt, sleept u elke dimensie van het marketingkanaal meerdere keren naar het gebied met componenten. Geef elke dimensie het gewenste attributiemodel en de persistentie. Adobe raadt ook aan om elke dimensie een weergavenaam te geven om het gebruik in Workspace te vergemakkelijken.
 4. Maak de gegevensweergave.
 
@@ -52,7 +52,7 @@ De afmetingen van uw marketingkanaal zijn nu beschikbaar voor gebruik in Analysi
 
 >[!NOTE]
 >
->Om de doeltreffendheid van de Marketing Kanalen voor attributie en Customer Journey Analytics te maximaliseren, zijn sommige [ herzien beste praktijken ](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/mchannel-best-practices) beschikbaar.
+>Om de doeltreffendheid van de Marketing Kanalen voor attributie en Customer Journey Analytics te maximaliseren, zijn sommige [ herzien beste praktijken ](https://experienceleague.adobe.com/nl/docs/analytics/components/marketing-channels/mchannel-best-practices) beschikbaar.
 
 De montages van het Marketing kanaal werken verschillend tussen de gegevens van het Platform en rapportsuite gegevens. Houd rekening met de volgende verschillen bij het instellen van marketingkanalen voor Customer Journey Analytics:
 
@@ -77,5 +77,5 @@ Omdat de architectuur van Adobe Experience Platform anders is dan een Adobe Anal
 * Controleer of de architecturale verschillen die hierboven zijn vermeld, geen invloed hebben op uw vergelijking. Tot deze verschillen behoren het verwijderen van kanalen die het laatste aanraakkanaal niet overschrijven, en het verwijderen van regelcriteria die het eerste resultaat zijn van een bezoek (sessie).
 * Controleer of uw verbinding dezelfde rapportsuite gebruikt als Adobe Analytics. Als uw Customer Journey Analytics-verbinding meerdere rapportsuites bevat met hun eigen regels voor het verwerken van marketingkanalen, is er geen eenvoudige manier om deze te vergelijken met Adobe Analytics. U zou een afzonderlijke verbinding voor elke rapportreeks willen tot stand brengen om gegevens te vergelijken.
 * Zorg ervoor dat u de zelfde datumwaaiers vergelijkt, en dat de tijdzone die in uw gegevensmening plaatst het zelfde als de tijdzone van de rapportreeks is.
-* Gebruik een model van de douaneattributie wanneer het bekijken van de gegevens van de rapportreeks. Bijvoorbeeld, gebruik de [ dimensie van het Kanaal van de Marketing ](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/marketing-channel) met metriek die een niet-gebrek attributiemodel gebruiken. Adobe adviseert tegen het vergelijken van de standaardafmetingen [ Eerste aanrakingskanaal ](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/first-touch-channel) of [ Laatste aanrakingskanaal ](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/last-touch-channel), omdat zij op attributie baseren die in de rapportreeks wordt verzameld. Customer Journey Analytics vertrouwt niet op de toewijzingsgegevens van een rapportsuite, maar deze worden berekend wanneer een Customer Journey Analytics-rapport wordt uitgevoerd.
+* Gebruik een model van de douaneattributie wanneer het bekijken van de gegevens van de rapportreeks. Bijvoorbeeld, gebruik de [ dimensie van het Kanaal van de Marketing ](https://experienceleague.adobe.com/nl/docs/analytics/components/dimensions/marketing-channel) met metriek die een niet-gebrek attributiemodel gebruiken. Adobe adviseert tegen het vergelijken van de standaardafmetingen [ Eerste aanrakingskanaal ](https://experienceleague.adobe.com/nl/docs/analytics/components/dimensions/first-touch-channel) of [ Laatste aanrakingskanaal ](https://experienceleague.adobe.com/nl/docs/analytics/components/dimensions/last-touch-channel), omdat zij op attributie baseren die in de rapportreeks wordt verzameld. Customer Journey Analytics vertrouwt niet op de toewijzingsgegevens van een rapportsuite, maar deze worden berekend wanneer een Customer Journey Analytics-rapport wordt uitgevoerd.
 * Sommige metriek hebben geen redelijke vergelijking wegens architecturale verschillen tussen de gegevens van de rapportreeks en van het Platform. Voorbeelden zijn bezoeken/sessies, personen/personen en voorvallen/gebeurtenissen.

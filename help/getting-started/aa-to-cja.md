@@ -32,13 +32,13 @@ In datasets zoals Adobe Analytics, kan een identiteit niet op elke rij van gegev
 
 ### Variabelen uitlijnen
 
-De meest ongecompliceerde methode om de gegevens van Adobe Analytics in Customer Journey Analytics om te zetten is a [ globale rapportreeks ](https://experienceleague.adobe.com/en/docs/analytics/implementation/prepare/global-rs) in Experience Platform in te voeren gebruikend de [ Schakelaar van Source van de Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics). Deze schakelaar brengt uw variabelen van Adobe Analytics rechtstreeks aan een XDM schema en dataset in Experience Platform in kaart, die beurtelings gemakkelijk met Customer Journey Analytics kunnen worden verbonden.
+De meest ongecompliceerde methode om de gegevens van Adobe Analytics in Customer Journey Analytics om te zetten is a [ globale rapportreeks ](https://experienceleague.adobe.com/nl/docs/analytics/implementation/prepare/global-rs) in Experience Platform in te voeren gebruikend de [ Schakelaar van Source van de Analytics ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics). Deze schakelaar brengt uw variabelen van Adobe Analytics rechtstreeks aan een XDM schema en dataset in Experience Platform in kaart, die beurtelings gemakkelijk met Customer Journey Analytics kunnen worden verbonden.
 
 Een volledige algemene rapportenreeks is mogelijk niet altijd uitvoerbaar voor een implementatie. Als u meerdere rapportsuites wilt overbrengen naar Customer Journey Analytics, hebt u twee opties:
 
 * Plan vooruit om variabelen over die rapportreeksen in overeenstemming te brengen. EVar1 in rapportsuite 1 verwijst bijvoorbeeld mogelijk naar [!UICONTROL Page] . In rapportsuite 2 verwijst eVar1 mogelijk naar [!UICONTROL Internal Campaign] . Als deze variabelen in Customer Journey Analytics worden opgenomen, vormen ze één eVar1-dimensie, wat kan leiden tot verwarring en onjuiste rapportage.
 
-* Gebruik de [ Prep van Gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/data-prep/home) eigenschap aan kaartvariabelen. Terwijl het het gemakkelijker maakt als alle rapportsuites het zelfde gemeenschappelijke veranderlijke ontwerp gebruiken, is het niet vereist als u de nieuwe eigenschap van de Prep van de Gegevens van Experience Platform [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics) gebruikt. Hiermee kunt u naar een variabele verwijzen op basis van de toegewezen waarde, die zich op het niveau van de gegevensstroom (of eigenschap) bevindt.
+* Gebruik de [ Prep van Gegevens ](https://experienceleague.adobe.com/nl/docs/experience-platform/data-prep/home) eigenschap aan kaartvariabelen. Terwijl het het gemakkelijker maakt als alle rapportsuites het zelfde gemeenschappelijke veranderlijke ontwerp gebruiken, is het niet vereist als u de nieuwe eigenschap van de Prep van de Gegevens van Experience Platform [&#128279;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics) gebruikt. Hiermee kunt u naar een variabele verwijzen op basis van de toegewezen waarde, die zich op het niveau van de gegevensstroom (of eigenschap) bevindt.
 
 Als u zich aan een globale rapportreeks wegens kwesties met [!UICONTROL Uniques Exceeded] of [!UICONTROL Low Traffic] hebt vermeden, weet dat Customer Journey Analytics geen [ kardinaliteitsgrenzen op een dimensie ](/help/components/dimensions/high-cardinality.md) heeft. Hiermee kan elke unieke waarde worden weergegeven en geteld.
 
@@ -52,7 +52,7 @@ De traditionele Adobe Analytics Marketing Channel-instellingen werken niet op de
 
 * De rapporttijd van Customer Journey Analytics
 
-Adobe heeft [ bijgewerkte beste praktijken voor de implementatie van het Kanaal van de Marketing ](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/mchannel-best-practices) gepubliceerd. Met deze bijgewerkte aanbevelingen kunt u optimaal profiteren van de mogelijkheden die Adobe Analytics al heeft met geavanceerde toewijzingsfuncties. De aanbevelingen stellen u ook op voor succes wanneer het overgaan naar Customer Journey Analytics.
+Adobe heeft [ bijgewerkte beste praktijken voor de implementatie van het Kanaal van de Marketing ](https://experienceleague.adobe.com/nl/docs/analytics/components/marketing-channels/mchannel-best-practices) gepubliceerd. Met deze bijgewerkte aanbevelingen kunt u optimaal profiteren van de mogelijkheden die Adobe Analytics al heeft met geavanceerde toewijzingsfuncties. De aanbevelingen stellen u ook op voor succes wanneer het overgaan naar Customer Journey Analytics.
 
 Met de introductie van [ Voortgekomen gebieden ](../data-views/derived-fields/derived-fields.md) als deel van de meningen van Gegevens van Customer Journey Analytics, worden de Marketing Kanalen ook gesteund op een niet-destructieve en retro-actieve manier gebruikend het [ de functiesjabloon van het Kanaal van de Marketing ](../data-views/derived-fields/derived-fields.md#function-templates).
 
@@ -66,7 +66,7 @@ De rapportage in Adobe Analytics is afhankelijk van een aanzienlijke hoeveelheid
 
 [!UICONTROL Report time processing] opent de mogelijkheid om instellingen toe te passen die retroactief zijn en om meerdere versies van variabele persistentie te maken zonder dat het nodig is om te wijzigen hoe de onderliggende gegevens worden verzameld.
 
-Deze verschuiving resulteert in enkele verschillen in de manier waarop gegevens worden gerapporteerd, vooral voor variabelen die een lang verloopvenster kunnen hebben. U kunt beginnen door te evalueren hoe rapport-tijd verwerking uw het melden kan beïnvloeden gebruikend a [ virtuele rapportreeks ](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-report-time-processing).
+Deze verschuiving resulteert in enkele verschillen in de manier waarop gegevens worden gerapporteerd, vooral voor variabelen die een lang verloopvenster kunnen hebben. U kunt beginnen door te evalueren hoe rapport-tijd verwerking uw het melden kan beïnvloeden gebruikend a [ virtuele rapportreeks ](https://experienceleague.adobe.com/nl/docs/analytics/components/virtual-report-suites/vrs-report-time-processing).
 
 ### Identificeer kritieke Segmenten en Berekende Metriek {#segments-calcmetrics}
 
@@ -82,9 +82,9 @@ Als u de overgang zo soepel mogelijk wilt laten verlopen voor gebruikers die een
 
 Hieronder volgen enkele video&#39;s die u moeten begeleiden:
 
-* [ de segmenten van Adobe Analytics van de beweging aan Customer Journey Analytics ](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/moving-adobe-analytics-segments-to-customer-journey-analytics.html)
+* [ de segmenten van Adobe Analytics van de beweging aan Customer Journey Analytics ](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/components/filters/moving-adobe-analytics-segments-to-customer-journey-analytics.html?lang=nl-NL)
 
-* [ Beweeg uw Berekende Metriek van Adobe Analytics aan Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics)
+* [ Beweeg uw Berekende Metriek van Adobe Analytics aan Customer Journey Analytics ](https://experienceleague.adobe.com/nl/docs/customer-journey-analytics-learn/tutorials/components/calc-metrics/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics)
 
 ### Andere overwegingen
 

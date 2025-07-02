@@ -24,7 +24,7 @@ Met waarschuwingen kunt u:
 * &quot;gestapelde&quot; waarschuwingen maken die meerdere meetgegevens vastleggen in één waarschuwing
 * Berichten maken op basis van anomalieën (90%, 95%, 99%, 99,75% en 99,9% drempelwaarden; procentuele wijziging; boven/onder) (Alleen beschikbaar voor Customer Journey Analytics-klanten met een Select-, Prime- of Ultimate-pakket)
 
-Het volgende videoleerprogramma verstrekt een basisoverzicht van alarm: [ Alarm ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
+Het volgende videoleerprogramma verstrekt een basisoverzicht van alarm: [ Alarm ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=nl-NL) (5:34)
 
 ## Begrijpen hoe waarschuwingen verschillen
 

@@ -62,7 +62,7 @@ Eerder zouden gehele getallen automatisch worden behandeld als metriek in Custom
 
 U kunt een numerieke dimensie gebruiken om meetgegevens in uw [!UICONTROL &#x200B; Flow] visualisatie te krijgen.
 
-1. Voor de Mening van Gegevens [ Componenten ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview) tabel, sleep het [!UICONTROL Marketing Channels] schemagebied in het [!UICONTROL Metrics] gebied onder [!UICONTROL Included components].
+1. Voor de Mening van Gegevens [ Componenten ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/create-dataview) tabel, sleep het [!UICONTROL Marketing Channels] schemagebied in het [!UICONTROL Metrics] gebied onder [!UICONTROL Included components].
 2. In Workspace-rapportering toont deze flow [!UICONTROL Marketing Channels] die doorloopt in [!UICONTROL Orders] :
 
 ![ de stroom van het Kanaal van de Marketing van e-mail aan uitgang/orden.](../assets/flow.png)
@@ -73,7 +73,7 @@ Deze mogelijkheid is specifiek van toepassing op arrayvelden. Met de functionali
 
 Gebruik bijvoorbeeld de functie voor het opnemen/uitsluiten van gegevens in de gegevensweergaven om alleen de nadruk te leggen op producten die verkopen van meer dan € 50 hebben gegenereerd. Dus als u een bestelling hebt die een productaankoop van 50 dollar en een productaankoop van 25 dollar bevat, verwijdert de functie voor het opnemen/uitsluiten de productaankoop van 25 dollar, niet de volledige bestelling.
 
-1. Voor de Mening van Gegevens [ Componenten ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview) tabel, sleep het **[!UICONTROL Revenue]** schemagebied in het **[!UICONTROL Metrics]** gebied onder [!UICONTROL Included components].
+1. Voor de Mening van Gegevens [ Componenten ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/create-dataview) tabel, sleep het **[!UICONTROL Revenue]** schemagebied in het **[!UICONTROL Metrics]** gebied onder [!UICONTROL Included components].
 1. Selecteer metrisch en vorm het volgende op de rechterkant:
 a. Selecteer onder **[!UICONTROL Format]** **[!UICONTROL Currency]** .
 b. Selecteer onder **[!UICONTROL Currency]** **[!UICONTROL USD]** .
@@ -112,11 +112,11 @@ U kunt bepalen of een zitting inderdaad de eerste-ooit zitting voor een gebruike
 
 Eén dimensie en twee metriek vereenvoudigen deze rapportage:
 
-* [ Type van Zitting ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference) - deze afmeting heeft twee waarden: [!UICONTROL New] en [!UICONTROL Returning]. Het [!UICONTROL New] lijstitem omvat al gedrag (namelijk metriek tegen deze dimensie) van een zitting die als bepaalde eerste zitting van een persoon is bepaald. Alle andere elementen worden opgenomen in het regelitem [!UICONTROL Returning] (ervan uitgaande dat alles tot een sessie behoort). Wanneer metriek geen deel uitmaken van een sessie, vallen ze voor deze dimensie in het emmertje &quot;Niet van toepassing&quot;.
+* [ Type van Zitting ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-reference) - deze afmeting heeft twee waarden: [!UICONTROL New] en [!UICONTROL Returning]. Het [!UICONTROL New] lijstitem omvat al gedrag (namelijk metriek tegen deze dimensie) van een zitting die als bepaalde eerste zitting van een persoon is bepaald. Alle andere elementen worden opgenomen in het regelitem [!UICONTROL Returning] (ervan uitgaande dat alles tot een sessie behoort). Wanneer metriek geen deel uitmaken van een sessie, vallen ze voor deze dimensie in het emmertje &quot;Niet van toepassing&quot;.
 
-* [ Eerste-tijdzittingen ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference). De metrische waarde van Eerste sessies wordt gedefinieerd als de eerste sessie van een persoon die binnen het rapportagevenster is gedefinieerd.
+* [ Eerste-tijdzittingen ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-reference). De metrische waarde van Eerste sessies wordt gedefinieerd als de eerste sessie van een persoon die binnen het rapportagevenster is gedefinieerd.
 
-* [ de zittingen van de Terugkeer ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-reference) Metrische de zittingen van de Terugkeer is het aantal zittingen die geen eerste-tijdzitting van een persoon waren.—>
+* [ de zittingen van de Terugkeer ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-reference) Metrische de zittingen van de Terugkeer is het aantal zittingen die geen eerste-tijdzitting van een persoon waren.—>
 
 De volgende onderdelen openen:
 

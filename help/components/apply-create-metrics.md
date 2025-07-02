@@ -27,7 +27,7 @@ Voor informatie over hoe te om metriek en andere soorten componenten aan Analysi
 Adobe biedt verschillende typen maateenheden voor gebruik in Analysis Workspace:
 
 
-* **Standaard metriek**: De voorbeelden van standaardmetriek zijn Mensen, Zittingen, Gebeurtenissen, [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} Rekeningen.
+* **Standaard metriek**: De voorbeelden van standaardmetriek zijn Mensen, Zittingen, Gebeurtenissen, [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} Rekeningen.
 
   In tegenstelling tot Adobe Analytics, staat Customer Journey Analytics u toe om standaardmetriek op een flexibele manier binnen het werkingsgebied van een verbinding en een gegevensmening te bepalen.  Zie [ Standaardmetriek ](#standard-metrics) voor de volledige lijst van standaardmetriek.
 
