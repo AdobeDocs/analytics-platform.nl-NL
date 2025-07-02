@@ -33,7 +33,7 @@ Zodra u de de bronschakelaar van de Analyse op een gewenste rapportreeks vestigt
 
 1. [ creeer een verbinding ](/help/connections/create-connection.md) die een dataset omvat die op de Analytics bronschakelaar wordt gebaseerd.
 2. [ creeer een gegevensmening ](/help/data-views/create-dataview.md) die de volgende afmetingen omvat:
-   * **`channel.typeAtSource`**: Equivalent aan de [ 2} dimensie van het Kanaal van de Marketing {.](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/marketing-channel)
+   * **`channel.typeAtSource`**: Equivalent aan de [ 2&rbrace; dimensie van het Kanaal van de Marketing &lbrace;.](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/marketing-channel)
    * **`channel._id`**: Equivalent aan het [ het kanaaldetail van de Marketing ](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/marketing-detail)
 3. Geef elke dimensie het gewenste attributiemodel en de persistentie. Als u zowel eerste als laatste aanraakafmetingen wilt, sleept u elke dimensie van het marketingkanaal meerdere keren naar het gebied met componenten. Geef elke dimensie het gewenste attributiemodel en de persistentie. Adobe raadt ook aan om elke dimensie een weergavenaam te geven om het gebruik in Workspace te vergemakkelijken.
 4. Maak de gegevensweergave.
