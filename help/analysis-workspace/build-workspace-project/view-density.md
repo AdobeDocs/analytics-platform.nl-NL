@@ -4,14 +4,14 @@ title: Dichtheid weergeven
 feature: Workspace Basics
 exl-id: b02672e2-0728-472b-97fe-14637ab1c2df
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
 
 ---
 
-# Dichtheid weergeven
+# Weergavedichtheid
 
 Als u de weergavedichtheid aanpast, kunt u meer gegevens op het scherm zien door de verticale opvulling van het linkerdeelvenster, vrije-vormtabellen en kleurentabellen te verminderen. Er zijn drie opties beschikbaar:
 

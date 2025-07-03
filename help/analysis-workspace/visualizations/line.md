@@ -1,10 +1,10 @@
 ---
-description: Gebruik lijnvisualisatie om trended (op tijd-gebaseerde) datasets te schilderen.
+description: Gebruik de lijnvisualisatie om (op tijd-gebaseerde) datasets visualiseren.
 title: Lijn
 feature: Visualizations
 exl-id: b68aa8dc-2c96-4c49-8d3c-d94804aab479
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -25,14 +25,14 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van de Lijn in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [ Lijn ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/visualizations/line) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert de visualisatie van de Lijn in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_zie [ Lijn ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/line) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
 
 ![ GraphTrend ](/help/assets/icons/GraphTrend.svg) **[!UICONTROL Line]** visualisatie vertegenwoordigt metriek gebruikend een lijn om te tonen hoe de waarden over een periode veranderen. Een lijnvisualisatie kan slechts worden gebruikt wanneer de tijd als afmeting wordt gebruikt.
 
-![&#128279;](assets/line-viz.png) visualisatie van de lijn 0&rbrace;
+![ visualisatie van de lijn 0}](assets/line-viz.png)
 
 
 ## Instellingen
@@ -67,7 +67,7 @@ Alle trendlines van het regressiemodel zijn geschikt gebruikend gewone minste vi
 >[!MORELIKETHIS]
 >
 >[ voeg een visualisatie aan een paneel toe ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Visualisatie-instellingen ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Contextmenu Visualisatie ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Visualisatie-instellingen ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Contextmenu Visualisatie ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

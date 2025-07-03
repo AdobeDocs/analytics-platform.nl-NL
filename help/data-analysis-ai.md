@@ -5,9 +5,9 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: e19151a7b0c3ab2f9e532034d329896768ee095f
+source-git-commit: 3c3fd6b814485871f2fd9249b0ffa9a0b24a360c
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '2298'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ De volgende parameters regelen de toegang tot Data Insights Agent in Customer Jo
 
 * **Toestemmingen**: De noodzakelijke toestemmingen moeten in [!UICONTROL Adobe Admin Console] worden verleend alvorens de gebruikers tot de Agent van Gegevens kunnen toegang hebben.
 
-  Om toestemmingen te verlenen, moet a [ admin van het productprofiel ](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) de volgende stappen in [!UICONTROL Admin Console] voltooien:
+  Om toestemmingen te verlenen, moet a [ admin van het productprofiel ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) de volgende stappen in [!UICONTROL Admin Console] voltooien:
    1. Selecteer in **[!UICONTROL Admin Console]** de tab **[!UICONTROL Products]** om de pagina **[!UICONTROL All products and services]** weer te geven.
    1. Selecteer **[!UICONTROL Customer Journey Analytics]** .
    1. Selecteer op het tabblad **[!UICONTROL Product Profiles]** de titel van het productprofiel waartoe u toegang wilt verlenen aan [!UICONTROL AI Assistant: Product Knowledge] .
@@ -229,26 +229,24 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 
 -->
 
-<!--
-## Configuration best practices
 
-Below are best practices for your Customer Journey Analytics configuration (data view, calculated metrics, segments, and more) to ensure the Data Insights Agent can locate the correct components and return cleaner answers without having you to prompt for additional information.
+## Best practices voor configuratie
 
-* **Balance what components you need**. Do not add all the fields of your datasets as metrics or dimension components to your data view. Especially, those you most certainly will not use in your analysis. On the other hand, do not strictly limit yourself only to the fields you anticipate you require for your analysis. A too limited data view restricts the flexibility in your analysis and the Data Insight's agent functionality.
-* **Always use friendly display names**. Ensure that all fields you define in your data view, either as a metrics or dimension component, do have a friendly component name. The process of renaming fields with a friendly name is especially relevant for fields from Adobe Analytics source connector datasets. These fields often have non-friendly unidentifiable names like `eVar41`, or `prop25`.
-* **Use distinctive names**. Distinctive names are especially relevant when you use a field both as a metric and a dimension component in your data view. Or when you use a field in multiple components, each with different component settings. 
-* **Use a component naming convention**. You can use a component naming convention to group components. For example, **[!UICONTROL Orders | Product]** and  **[!UICONTROL Orders | Customer]** to distinguish between different order metrics that might exist in your data.
-* **Use the Data Dictionary**. Add description and other relevant data for components in the Data Dictionary. The Data Insight agent currently does not use description and tags. but might use Data Dictionary description and tags in the future. 
-* **Use approved calculated metrics**. Agree on a process to use only approved calculated metrics as components in your data view, and avoid using experimental calculated metrics.
-* **Share required segments**. Ensure you share segments and make segments visible that are required for Data Insights agent prompts.
-* **Standardize on component names across data views**. If you use the same fields as a component in multiple data views, ensure you use a single friendly name and a single identifier for that component. A single name and identifier allows the Data Insights agent to switch data views without losing context.
+Hieronder volgen de beste werkwijzen voor uw configuratie van Customer Journey Analytics (gegevensmening, berekende metriek, segmenten, en meer) om ervoor te zorgen dat Data Insights Agent van de correcte componenten kan de plaats bepalen en schonere antwoorden terugkeren zonder u voor extra informatie te moeten vragen.
+
+* **Saldo welke componenten u** nodig hebt. Voeg niet alle gebieden van uw datasets als metriek of afmetingscomponenten aan uw gegevensmening toe. Vooral degenen die u zeker niet zult gebruiken in uw analyse. Anderzijds moet u zich niet strikt beperken tot de velden die u voor uw analyse nodig hebt. Een te beperkte gegevensweergave beperkt de flexibiliteit in de analyse en de Data Insights Agent-functionaliteit.
+* **gebruiken altijd vriendschappelijke vertoningsnamen**. Zorg ervoor dat alle velden die u in de gegevensweergave definieert, metrisch of dimensionaal, een vriendelijke componentnaam hebben. Het proces om gebieden met een vriendschappelijke naam anders te noemen is vooral relevant voor gebieden van de gegevensreeksen van de de bronschakelaar van Adobe Analytics. Deze velden hebben vaak niet-vriendelijke, niet-identificeerbare namen, zoals `eVar41` of `prop25` .
+* **Gebruik onderscheidende namen**. Afzonderlijke namen zijn vooral relevant wanneer u hetzelfde veld gebruikt als een metrische en een dimensie-component in de gegevensweergave. Of wanneer u een veld gebruikt in meerdere componenten van hetzelfde type (bijvoorbeeld in twee verschillende metriek), elk met verschillende componentinstellingen.
+* **Gebruik een component noemend overeenkomst**. U kunt een component gebruiken noemend overeenkomst om componenten te groeperen. **[!UICONTROL Orders | Product]** en **[!UICONTROL Orders | Customer]** kunnen bijvoorbeeld onderscheid maken tussen verschillende volgordemetriek die mogelijk in uw gegevens voorkomen.
+* **Gebruik het Woordenboek van Gegevens**. Voeg een beschrijving en andere relevante gegevens voor componenten in het gegevenswoordenboek toe. De Insight Agent van Gegevens gebruikt momenteel geen beschrijving en markeringen van het Woordenboek van Gegevens, maar het zou in de toekomst kunnen.
+* **Gebruik goedgekeurde berekende metriek**. Ga akkoord met een proces waarbij alleen goedgekeurde berekende metriek als componenten in de gegevensweergave worden gebruikt en gebruik geen experimentele berekende metriek.
+* **Deel vereiste segmenten**. Zorg ervoor dat u segmenten deelt en dat segmenten zichtbaar zijn die vereist zijn voor Data Insights Agent-aanwijzingen.
+* **normaliseert op componentennamen over gegevensmeningen**. Als u dezelfde velden als een component gebruikt in meerdere gegevensweergaven, moet u ervoor zorgen dat u één vriendelijke naam en één id voor die component gebruikt. Met één naam en id kan de Data Insights Agent wisselen tussen gegevensweergaven zonder context te verliezen.
 
 >[!MORELIKETHIS]
 >
->[Component settings](/help/data-views/component-settings/overview.md)
->[Data Dictionary](/help/components/data-dictionary/data-dictionary-overview.md)
->[Approve calculated metric](/help/components/calc-metrics/cm-workflow/cm-approving.md)
->[Share segments](/help/components/segments/seg-share.md)
+>[ montages van de Component ](/help/data-views/component-settings/overview.md)
+>>[Gegevenswoordenboek ](/help/components/data-dictionary/data-dictionary-overview.md)
+>>[Berekende metrische waarde goedkeuren ](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>>[Segmenten delen ](/help/components/segments/seg-share.md)
 >
-
--->

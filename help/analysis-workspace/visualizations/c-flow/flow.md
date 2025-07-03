@@ -1,12 +1,12 @@
 ---
-description: Leer hoe u de stroomvisualisatie in een Analysis Workspace kunt gebruiken.
+description: Leer hoe u de stroomvisualisatie in Analysis Workspace kunt gebruiken.
 title: Overzicht van stroom
 feature: Visualizations
 exl-id: 2ef325d9-1d82-46c9-86e3-6b2332548823
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van de Stroom in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [ Stroom ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert de visualisatie van de Stroom in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_zie [ Stroom ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 

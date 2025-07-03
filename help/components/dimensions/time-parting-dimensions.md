@@ -1,12 +1,12 @@
 ---
-description: Leer hoe tijdparterende dimensies de tijdstempel van verzamelde gebeurtenissen nemen en deze in betekenisvollere afmetingen verdelen, zoals Uur van Dag of Dag van Week.
+description: Leer hoe time-parting dimensies het tijdstempel van verzamelde gebeurtenissen opstrijken en deze gebeurtenissen opsplitsen in meer betekenisvolle dimensies, zoals Uur van Dag of Dag van Week.
 title: Afmetingen van tijd-scheiding
 feature: Dimensions
 exl-id: 5c3c2867-58de-4765-a4e1-91eac1891b38
 role: User
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---

@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Components
 exl-id: c0f276b4-3514-4f93-8b6c-6896eb4da6e4
 role: User
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Mobiele scorecardannotaties
 
-U kunt annotaties die in Workspace zijn gemaakt, weergeven in Mobile-scorecards. Met annotaties in mobiele scorecards kunt u contextuele gegevensnuances en inzichten over uw organisatie en campagnes delen.
+U kunt annotaties die in Analysis Workspace zijn gemaakt, weergeven in Mobile-scorecards. Met annotaties in mobiele scorecards kunt u contextuele gegevensnuances en inzichten over uw organisatie en campagnes delen.
 
 
 ## Annotaties weergeven in Mobile-scorecards

@@ -1,17 +1,17 @@
 ---
 description: Hoe u het palet met visualisatiekleuren wijzigt of uw eigen aangepaste kleurenpalet opgeeft.
-title: Kleurenpalet Visualisatie
+title: Kleurenpaletten voor visualisatie
 feature: Workspace Basics
 exl-id: c3c208b9-84a5-4620-ba3c-7e483215e698
 role: User
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 1%
 
 ---
 
-# Kleurenpalet Visualisatie {#visualization-color-palette}
+# Visualisatiekleurenpaletten {#visualization-color-palettes}
 
 <!-- markdownlint-disable MD034 -->
 

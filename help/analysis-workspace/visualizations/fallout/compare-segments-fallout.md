@@ -5,7 +5,7 @@ title: Segmenten toepassen in Fallout-analyse
 feature: Visualizations
 exl-id: 85b1024f-acd2-43b7-b4b1-b10961ba43e8
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -23,19 +23,20 @@ U kunt vanuit een aanraakpunt segmenten maken, segmenten als aanraakpunt toevoeg
 >* Het gebruiken van een op persoon-gebaseerd segment als touchpoint binnen een persoon-contextVallout visualisatie.
 >* Het gebruiken van een op persoon-gebaseerd segment als touchpoint binnen een zitting-contextVallout visualisatie.
 >* Het gebruiken van een op zitting-gebaseerd segment als touchpoint binnen een zitting-contextVallout visualisatie.
+
 <!-- Should we add B2B context here?
-* [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Usimg a B2B container based segment as a touchpoint inside a non-container based context Fallout visualization.
+* [!BADGE B2B Edition]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B Edition"} Usimg a B2B container based segment as a touchpoint inside a non-container based context Fallout visualization.
 * -->
 
 ## Een segment maken van een aanraakpunt
 
 1. Maak een segment van een bepaald aanraakpunt waarin u bijzonder geïnteresseerd bent en dat u op andere rapporten kunt toepassen. Klik met de rechtermuisknop op het aanraakpunt en selecteer **[!UICONTROL Create segment from touchpoint]** .
 
-   ![ het drop-down menu van het Aanraakpunt met Create segment van benadrukt aanraakpunt.](assets/fallout-createfilter.png)
+   ![ het drop-down menu van het Aanraakpunt met Create segment van benadrukt aanraakpunt.](assets/fallout-createsegment.png)
 
    [!UICONTROL Segment builder] opent, vooraf bevolkt met het vooraf gebouwde opeenvolgende segment dat aanraakpunt aanpast u selecteerde:
 
-   ![ de Bouwer van het Segment toont het pre-bevolkte en pre-gebouwde opeenvolgende segment.](assets/fallout-definefilter.png)
+   ![ de Bouwer van het Segment toont het pre-bevolkte en pre-gebouwde opeenvolgende segment.](assets/fallout-definesegment.png)
 
 1. Geef het segment een titel en een beschrijving en sla het op.
 
@@ -57,7 +58,7 @@ U kunt een onbeperkt aantal segmenten vergelijken in de Fallout-visualisatie.
 1. U sleept de drie segmenten naar de neerzetzone Segment boven aan de visualisatie.
 
 
-1. Facultatief: U kunt *Alle Bebezoeken* als standaardcontainer houden of de container schrappen.
+1. Facultatief: U kunt *Alle Personen* als standaardcontainer houden of de container schrappen.
 
    ![ de Vallout die Alle Bezoeken samen met de twee segmenten tonen die in de vorige stap worden gesleept.](assets/fallout-multiplefilters.png)
 
