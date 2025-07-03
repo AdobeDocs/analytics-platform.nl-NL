@@ -17,7 +17,7 @@ Debugger van het project helpt u en de Steun van Adobe om kwesties met uw projec
 
 >[!NOTE]
 >
->Om debugger te gebruiken, moet u **** uitgeven of **Exemplaar** [ toegang tot het project ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25744) hebben.
+>Om debugger te gebruiken, moet u **&#x200B;**&#x200B;uitgeven of **Exemplaar** [ toegang tot het project ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25744) hebben.
 >
 
 
@@ -55,7 +55,7 @@ Om debugger voor een specifieke visualisatie te gebruiken:
 
    * **[!UICONTROL Request timestamp]**
    * **[!UICONTROL Response timestamp]**
-   * **[!UICONTROL  Request time]**
+   * **[!UICONTROL &#x200B; Request time]**
    * **[!UICONTROL Queue time]**
    * **[!UICONTROL Server processing time]**
    * **[!UICONTROL Lookup time]**
@@ -75,7 +75,7 @@ Om debugger voor een specifieke visualisatie te gebruiken:
    * JSON (reactie)
    * Cursusverzoek
 
-1. Het Exemplaar van het gebruik ![ ** ](/help/assets/icons/Copy.svg) **d onderaan [!UICONTROL Copy to clipboard] om het verzoek aan het klembord te kopiëren.**[!UICONTROL cURL Request]**
+1. Het Exemplaar van het gebruik ![ **&#x200B; ](/help/assets/icons/Copy.svg) &#x200B;** d onderaan [!UICONTROL Copy to clipboard] om het verzoek aan het klembord te kopiëren.**[!UICONTROL cURL Request]**
 1. Beweeg over om het even welke **[!UICONTROL Request]** of **[!UICONTROL Response]** tekstgebieden om ![ Exemplaar ](/help/assets/icons/Copy.svg) **[!UICONTROL Copy to clipboard]** te openbaren en te selecteren om de inhoud van dat tekstgebied (XML of JSON) aan het klembord te kopiëren.
 
 1. Uitwisseling om het even welke informatie u hebt gekopieerd en die de Steun van Adobe verzocht om de visualisaties in uw project van Analysis Workspace problemen op te lossen.

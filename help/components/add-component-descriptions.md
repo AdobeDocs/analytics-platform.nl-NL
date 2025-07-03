@@ -32,5 +32,5 @@ Voor algemene informatie over het Woordenboek van Gegevens, zie het [ overzicht 
 >[!MORELIKETHIS]
 >
 >[ de montages van de meningscomponent van Gegevens ](/help/data-views/component-settings/overview.md)
->>[Items van gegevenswoordenboekcomponenten ](/help/components/data-dictionary/edit-entries-data-dictionary.md)
+>&#x200B;>[Items van gegevenswoordenboekcomponenten ](/help/components/data-dictionary/edit-entries-data-dictionary.md)
 >

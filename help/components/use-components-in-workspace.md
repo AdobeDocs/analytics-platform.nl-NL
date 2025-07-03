@@ -60,7 +60,7 @@ Voor informatie over hoe u de sectie van de segmentdaling op een paneel kunt geb
 
 1. U kunt desgewenst dimensies en dimensie-items in Analysis Workspace opsplitsen met andere componenten. Voor meer informatie, zie [ de dimensies van de Onderbreking in Workspace ](/help/components/dimensions/t-breakdown-fa.md).
 
-Voor meer informatie over hoe te om afmetingen in Analysis Workspace te gebruiken, zie {de afmetingen van de Voorproef [, ](/help/components/dimensions/view-dimensions.md) de dimensies van de Onderbreking [, en ](/help/components/dimensions/t-breakdown-fa.md) tijd-ontledende dimensies [.](/help/components/dimensions/time-parting-dimensions.md)
+Voor meer informatie over hoe te om afmetingen in Analysis Workspace te gebruiken, zie &lbrace;de afmetingen van de Voorproef [, ](/help/components/dimensions/view-dimensions.md) de dimensies van de Onderbreking [, en ](/help/components/dimensions/t-breakdown-fa.md) tijd-ontledende dimensies [.](/help/components/dimensions/time-parting-dimensions.md)
 
 ### Metriek toevoegen aan een project
 
@@ -132,5 +132,5 @@ U kunt over om het even welke component bewegen om ![ Meer info ](/help/assets/i
 
 Gebaseerd op uw toegangsbeheer, kunt u:
 
-* Heb toegang tot de ![ 2} definitie van de Bladwijzer ](/help/assets/icons/Bookmark.svg) {voor de component.[!UICONTROL Data dictionary]
+* Heb toegang tot de ![ 2&rbrace; definitie van de Bladwijzer ](/help/assets/icons/Bookmark.svg) &lbrace;voor de component.[!UICONTROL Data dictionary]
 * Heb toegang ![ uitgeeft ](/help/assets/icons/Edit.svg) componentenbouwer of gegevensmening waar de component wordt bepaald.
