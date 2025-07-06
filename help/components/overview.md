@@ -84,7 +84,7 @@ U kunt de lijst met componenten in het linkerdeelvenster van Analysis Workspace 
 
 2. Typ in het zoekveld de naam van de component die u in het project wilt gebruiken.
 
-   Een kleur en pictogram geven het type component aan. **het pictogram van Afmetingen** Dimension ![ is oranje, ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) Segmenten **** het pictogram van het Segment ![ is blauw, ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) de waaiers van de Datum **** het de waaierpictogram van de Datum is paars, en ![ Metriek ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) **Metrisch pictogram** is groen.![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)<br/> het pictogram van Adobe ![ AdobeLogo ](/help/assets/icons/AdobeLogoSmall.svg) wijst of op een berekend metrisch malplaatje of een segmentmalplaatje. Het calculatorpictogram ![ pictogram van de Rekenmachine ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) wijst op berekende metrisch dat een beheerder in uw organisatie heeft gecreeerd.
+   Een kleur en pictogram geven het type component aan. **het pictogram van Afmetingen** Dimension ![ is oranje, ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) Segmenten **&#x200B;**&#x200B;het pictogram van het Segment ![ is blauw, ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) de waaiers van de Datum **&#x200B;**&#x200B;het de waaierpictogram van de Datum is paars, en ![ Metriek ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) **Metrisch pictogram** is groen.![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)<br/> het pictogram van Adobe ![ AdobeLogo ](/help/assets/icons/AdobeLogoSmall.svg) wijst of op een berekend metrisch malplaatje of een segmentmalplaatje. Het calculatorpictogram ![ pictogram van de Rekenmachine ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) wijst op berekende metrisch dat een beheerder in uw organisatie heeft gecreeerd.
 
 3. Selecteer de component in het keuzemenu.
 
@@ -92,7 +92,7 @@ U kunt de lijst met componenten in het linkerdeelvenster van Analysis Workspace 
 
 1. Selecteer het **pictogram van Componenten** pictogram van Componenten ![ ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in het linkerpaneel.
 
-2. Selecteer **** het pictogram van de Filter van het Woordenboek van de Filter van de Filter 1} Filter ![, of ga ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) op het onderzoeksgebied in.`#`
+2. Selecteer **&#x200B;**&#x200B;het pictogram van de Filter van het Woordenboek van de Filter van de Filter 1&rbrace; Filter ![, of ga ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) op het onderzoeksgebied in.`#`
 
 3. Selecteer een van de volgende filteropties om de lijst met componenten te filteren:
 
@@ -118,7 +118,7 @@ U kunt de lijst met componenten in het linkerdeelvenster van Analysis Workspace 
 
 2. Selecteer **het pictogram van Componenten** ![ Componenten ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in het linkerpaneel.
 
-3. Selecteer **** de componentenpictogram van de Soort van de Soort ![ ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), dan om het even welke volgende filteropties om de lijst van componenten te sorteren.
+3. Selecteer **&#x200B;**&#x200B;de componentenpictogram van de Soort van de Soort ![ ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), dan om het even welke volgende filteropties om de lijst van componenten te sorteren.
 
 De volgende sorteeropties zijn beschikbaar:
 
@@ -126,4 +126,4 @@ De volgende sorteeropties zijn beschikbaar:
 
 ## Toegangsmachtigingen
 
-In Analysis Workspace, kunnen de beheerders [ ](/help/analysis-workspace/curate-share/curate.md) leiden die de componenten aan gebruikers in het melden worden blootgesteld.
+In Analysis Workspace, kunnen de beheerders [&#128279;](/help/analysis-workspace/curate-share/curate.md) leiden die de componenten aan gebruikers in het melden worden blootgesteld.

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Algorithmic, toewijzing
 
-Het de attributenmodel van het Algorithmic [ ](models.md) in Analysis Workspace verschilt van andere modellen in die zin dat het statistische technieken gebruikt om krediet over de afmetingspunten in uw rapport of vrije vormlijst toe te wijzen. Net als alle andere attributiemodellen in Analysis Workspace, kan algoritmische attributie worden gebruikt voor elke dimensie of metrisch. Algorithmic-toewijzing ondersteunt onbeperkte segmentatie en uitsplitsingen en verdeelt 100% van de conversies naar een of meer dimensies in de tabel (ook wel &quot;fractionele&quot; attributie genoemd).
+Het de attributenmodel van het Algorithmic [&#128279;](models.md) in Analysis Workspace verschilt van andere modellen in die zin dat het statistische technieken gebruikt om krediet over de afmetingspunten in uw rapport of vrije vormlijst toe te wijzen. Net als alle andere attributiemodellen in Analysis Workspace, kan algoritmische attributie worden gebruikt voor elke dimensie of metrisch. Algorithmic-toewijzing ondersteunt onbeperkte segmentatie en uitsplitsingen en verdeelt 100% van de conversies naar een of meer dimensies in de tabel (ook wel &quot;fractionele&quot; attributie genoemd).
 
 
 >[!BEGINSHADEBOX]

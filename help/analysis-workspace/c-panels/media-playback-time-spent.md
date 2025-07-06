@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_Dit artikel documenteert de media playbacktijd besteed paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_zie [ de playbacktijd van Media besteed paneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
+_Dit artikel documenteert de media playbacktijd besteed paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_zie [ de playbacktijd van Media besteed paneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ _Dit artikel documenteert de media playbacktijd besteed paneel in_ ![ CustomerJo
 >[!NOTE]
 >
 >Het deelvenster Mediapubliek met een gemiddeld aantal minuten is alleen beschikbaar voor klanten die de invoegtoepassing voor de verzameling van streaming media voor Customer Journey Analytics hebben aangeschaft.
->>Neem contact op met uw Adobe-verkoper of Adobe-accountteam voor meer informatie.
+>&#x200B;>Neem contact op met uw Adobe-verkoper of Adobe-accountteam voor meer informatie.
 >
 
 In het deelvenster **[!UICONTROL Media playback time spent]** kunt u het afspelen in de loop van de tijd analyseren met details over de piekfrequentie en de mogelijkheid om af te breken en te vergelijken.
@@ -129,6 +129,6 @@ De enige metrische waarde die in dit deelvenster kan worden gebruikt, is Afspeel
 >[!MORELIKETHIS]
 >
 >[ creeer een paneel ](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->>[Mediagemiddelde minieme publiekspaneel ](average-minute-audience-panel.md)
->>[Deelvenster Mediagelijktijdige viewers ](media-concurrent-viewers.md)
+>&#x200B;>[Mediagemiddelde minieme publiekspaneel ](average-minute-audience-panel.md)
+>&#x200B;>[Deelvenster Mediagelijktijdige viewers ](media-concurrent-viewers.md)
 >

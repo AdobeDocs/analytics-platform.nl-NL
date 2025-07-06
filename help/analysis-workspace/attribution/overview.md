@@ -60,7 +60,7 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Attributie in
 
 >[!BEGINSHADEBOX]
 
-Zie ![ ](/help/assets/icons/VideoCheckedOut.svg) Attributie 0} VideoCheckedOut in berekende metriek [ voor een demo video.](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"}
+Zie ![ ](/help/assets/icons/VideoCheckedOut.svg) Attributie 0&rbrace; VideoCheckedOut in berekende metriek [ voor een demo video.](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"}
 
 >[!ENDSHADEBOX]
 

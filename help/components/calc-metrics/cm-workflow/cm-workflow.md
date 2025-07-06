@@ -38,10 +38,10 @@ Overweeg de volgende workflow voordat u berekende metriek maakt:
 | --- | --- |
 | Berekende meetwaarden plannen | Met name voor metriek die officieel zullen worden goedgekeurd, is planning zinvol om te schetsen welke berekende metriek op grote schaal zal worden gebruikt en hoe zij zullen worden bepaald. |
 | [ bouwt ](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) berekende metriek | U kunt berekende en geavanceerde berekende maatstaven maken en bewerken voor gebruik in [!DNL Customer Journey Analytics] -componenten. |
-| [ berekende metriek van de markering 0}](cm-tagging.md) | Berekende maatstaven voor eenvoudige organisatie en delen. Zie hoe u labels kunt plannen en toewijzen voor eenvoudige en geavanceerde zoekopdrachten en organisatie. |
+| [ berekende metriek van de markering 0&rbrace;](cm-tagging.md) | Berekende maatstaven voor eenvoudige organisatie en delen. Zie hoe u labels kunt plannen en toewijzen voor eenvoudige en geavanceerde zoekopdrachten en organisatie. |
 | [ keur ](cm-approving.md) berekende metriek goed | Goedkeuren van berekende maatstaven om deze canonicaal te maken. |
 | Berekende meetwaarden gebruiken | Gebruik de berekende metriek in uw projecten. |
 | [ Deel ](cm-sharing.md) berekende metriek | Deel uw berekende metriek met andere individuen, groepen, of organisaties. |
-| [ berekende metriek van de Filter 0} {](cm-filter.md) | Filter berekende metriek op markeringen, eigenaars, en andere filters (toon allen, Mijne, Gedeeld met me, Favorieten, en Goedgekeurd.) |
+| [ berekende metriek van de Filter 0&rbrace; &lbrace;](cm-filter.md) | Filter berekende metriek op markeringen, eigenaars, en andere filters (toon allen, Mijne, Gedeeld met me, Favorieten, en Goedgekeurd.) |
 | Markeer berekende metriek als [ favorieten ](cm-finding.md) | Metrische gegevens als favorieten markeren is een andere manier om ze te ordenen voor gebruiksgemak. |
 

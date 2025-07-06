@@ -39,7 +39,7 @@ Het dialoogvenster **[!UICONTROL Calculated metric builder]** wordt gebruikt om 
 
 ![ Berekend metrisch detailsvenster dat gebieden en opties toont die in de volgende sectie worden beschreven.](assets/calculated-metric-builder.png)
 
->[!TAB  creeer of geef berekend metrisch ] uit
+>[!TAB creeer of geef berekend metrisch  uit]
 
 ![ Berekend metrisch detailsvenster dat gebieden en opties toont die in de volgende sectie worden beschreven.](assets/create-edit-calculated-metric.png)
 
@@ -200,5 +200,5 @@ Om een container te schrappen, selecteer ![ dicht ](/help/assets/icons/Close.svg
 >[!MORELIKETHIS]
 >
 >[Functies gebruiken](cm-using-functions.md)
->>[Segmenten ](/help/components/segments/seg-overview.md)
+>&#x200B;>[Segmenten ](/help/components/segments/seg-overview.md)
 >

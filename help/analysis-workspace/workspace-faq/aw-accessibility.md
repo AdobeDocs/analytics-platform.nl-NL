@@ -30,7 +30,7 @@ Toegankelijkheid heeft betrekking op het bruikbaar maken van producten voor mens
 Navigatie in [!UICONTROL Analysis Workspace] werkt van boven naar beneden en van links naar rechts. De volgende navigatie-elementen vergemakkelijken de toegankelijkheid:
 
 * Met de toets **[!UICONTROL Tab]** kunt u sneltoetsen gebruiken om markeringen te markeren die zich verplaatsen tussen grotere secties in Workspace. In het linkerdeelvenster kunt u met **[!UICONTROL Tab]** ook van de ene versleepbare optie naar de andere gaan.
-* De }︎ ◀ en ▶ }︎ tussen afzonderlijke elementen gaan nadat met de toets **[!UICONTROL Tab]** een element is gemarkeerd.
+* De &rbrace;︎ ◀ en ▶ &rbrace;︎ tussen afzonderlijke elementen gaan nadat met de toets **[!UICONTROL Tab]** een element is gemarkeerd.
 * Met de **[!UICONTROL F6]** -toets navigeert u naar het eerste deelvenster in het project en gaat u tussen de visualisaties in dat deelvenster. Vervolgens wordt het naar het volgende deelvenster in het project verplaatst en herhaald.
 * Focusindicatoren worden toegepast zodat gebruikers met een waargenomen toetsenbord een duidelijke indicatie hebben van welk interface-element momenteel focus heeft. De indicator is een blauwe rand voor het deelvenster dat focus heeft. En grijze achtergrond voor de onlangs geselecteerde functionaliteit en de selectie binnen de functionaliteit. In het voorbeeld zijn [!UICONTROL Components] en de pagina-dimensie onlangs geselecteerd.
 

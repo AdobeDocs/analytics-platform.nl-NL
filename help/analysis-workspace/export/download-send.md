@@ -38,8 +38,8 @@ Een project downloaden als een PDF-bestand:
 1. Selecteer **[!UICONTROL Project]** > **[!UICONTROL Download PDF]** .
 Een groene bar met het bericht ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Your download has been requested. Please wait.]** wordt getoond.
 
-1. Zodra uw download klaar is, is een groene bar met het bericht ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL *Naam van het project *PDF klaar.]**wordt weergegeven.
-Selecteer**[!UICONTROL Download]**om de PDF te downloaden. Hoe de PDF precies wordt weergegeven of gedownload is afhankelijk van uw browserconfiguratie voor het verwerken van PDF-documenten.
+1. Zodra uw download klaar is, is een groene bar met het bericht ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL *Naam van het project *PDF klaar.]**&#x200B;wordt weergegeven.
+Selecteer&#x200B;**[!UICONTROL Download]**&#x200B;om de PDF te downloaden. Hoe de PDF precies wordt weergegeven of gedownload is afhankelijk van uw browserconfiguratie voor het verwerken van PDF-documenten.
 
 
 Een project downloaden als een CSV-bestand:
@@ -107,8 +107,8 @@ De volgende functies van een vrije-vormtabel worden toegepast op het gedownloade
 
 Terwijl het bestand wordt gedownload, worden de volgende meldingen weergegeven:
 
-* Een blauwe **[!UICONTROL _naam van de Lijst _-_ Dimension _.csv is gevraagd._ x _% volledig]**die op de vooruitgang wijzen. Selecteer **[!UICONTROL Cancel download]**als u het downloaden wilt annuleren. Selecteer ![ CrossSize100 ](/help/assets/icons/CrossSize100.svg) als u het bericht wilt sluiten, dat niet de download annuleert.
-* Een groene **[!UICONTROL _naam van de Lijst _-_ Dimension _.csv is gedownload]**voltooiingsbericht zodra de dossierdownload wordt voltooid. Het bestand wordt gedownload naar de downloadmap die voor uw browser is geconfigureerd.
+* Een blauwe **[!UICONTROL _naam van de Lijst _-_ Dimension _.csv is gevraagd._ x _% volledig]**&#x200B;die op de vooruitgang wijzen. Selecteer **[!UICONTROL Cancel download]**&#x200B;als u het downloaden wilt annuleren. Selecteer ![ CrossSize100 ](/help/assets/icons/CrossSize100.svg) als u het bericht wilt sluiten, dat niet de download annuleert.
+* Een groene **[!UICONTROL _naam van de Lijst _-_ Dimension _.csv is gedownload]**&#x200B;voltooiingsbericht zodra de dossierdownload wordt voltooid. Het bestand wordt gedownload naar de downloadmap die voor uw browser is geconfigureerd.
 
 Als u meer dan één download tegelijk aanvraagt, ontvangt u een melding dat elke extra download in de wachtrij wordt geplaatst totdat de vorige download is voltooid.
 

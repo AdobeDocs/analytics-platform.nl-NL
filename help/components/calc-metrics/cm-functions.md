@@ -26,7 +26,7 @@ De [ Berekende metrieke bouwer ](cm-workflow/cm-build-metrics.md) laat u statist
 
 Een tabelfunctie is een functie waarbij de uitvoer voor elke rij van de tabel hetzelfde is. Een rijfunctie is een functie waarbij de uitvoer voor elke rij van de tabel anders is.
 
-Waar toepasselijk en relevant, is een functie geannoteerd met het type van functie: [!BADGE  Lijst ]{type="Neutral"} of [!BADGE  Rij ]{type="Neutral"}
+Waar toepasselijk en relevant, is een functie geannoteerd met het type van functie: [!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} of [!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 ## Wat betekent de parameter include-zeros?
 
@@ -52,7 +52,7 @@ Een alternatief scenario is dat u twee metriek van rente hebt en één een hoger
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ABSOLUTE VALUE(metric)]**
 
-[!BADGE  Rij ]{type="Neutral"} keert de absolute waarde van een aantal terug. De absolute waarde van een getal is het getal met een positieve waarde.
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert de absolute waarde van een aantal terug. De absolute waarde van een getal is het getal met een positieve waarde.
 
 | Argument | Beschrijving |
 |---|---|
@@ -137,7 +137,7 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL COUNT(metric)]**
 
-[!BADGE  Lijst ]{type="Neutral"} keert het aantal, of de telling, van niet-nul waarden voor metrisch binnen een kolom (het aantal unieke die elementen terug binnen een dimensie worden gemeld).
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} keert het aantal, of de telling, van niet-nul waarden voor metrisch binnen een kolom (het aantal unieke die elementen terug binnen een dimensie worden gemeld).
 
 | Argument | Beschrijving |
 |---|---|
@@ -157,7 +157,7 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENT(metric)]**
 
-[!BADGE  Keert de Rij ]{type="Neutral"} terug wordt opgeheven aan de macht van een bepaald aantal. De constante e is gelijk aan 2,71828182845904, de basis van de natuurlijke logaritme. EXPONENT is het omgekeerde van LN, de natuurlijke logaritme van een getal.
+[!BADGE &#x200B; Keert de Rij &#x200B;]{type="Neutral"} terug wordt opgeheven aan de macht van een bepaald aantal. De constante e is gelijk aan 2,71828182845904, de basis van de natuurlijke logaritme. EXPONENT is het omgekeerde van LN, de natuurlijke logaritme van een getal.
 
 | Argument | Beschrijving |
 |---|---|
@@ -178,7 +178,7 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL MEAN(metric, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"} keert het rekenkundig gemiddelde, of het gemiddelde, voor metrisch in een kolom terug.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} keert het rekenkundig gemiddelde, of het gemiddelde, voor metrisch in een kolom terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -200,7 +200,7 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL MEDIAN(metric, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"} keert mediaan voor metrisch in een kolom terug. De mediaan is het getal in het midden van een reeks getallen. De helft van de getallen heeft waarden die groter zijn dan of gelijk zijn aan de mediaan, en de helft is kleiner dan of gelijk aan de mediaan.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} keert mediaan voor metrisch in een kolom terug. De mediaan is het getal in het midden van een reeks getallen. De helft van de getallen heeft waarden die groter zijn dan of gelijk zijn aan de mediaan, en de helft is kleiner dan of gelijk aan de mediaan.
 
 | Argument | Beschrijving |
 |---|---|
@@ -259,7 +259,7 @@ MODULO(MODULO(x,y)+y,y)
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL PERCENTILE(metric, k, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"} keert het nde percentiel terug, dat een waarde tussen 0 en 100 is. Wanneer n &lt; 0, gebruikt de functie nul. Wanneer n > 100, keert de functie 100 terug.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} keert het nde percentiel terug, dat een waarde tussen 0 en 100 is. Wanneer n &lt; 0, gebruikt de functie nul. Wanneer n > 100, keert de functie 100 terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -304,7 +304,7 @@ Retourneert x opgevoerd naar de y-macht.
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUARTILE(metric, quartile, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"} keert de kwartiel van waarden voor metrisch terug. Bijvoorbeeld, kunnen de kwartielen worden gebruikt om de hoogste 25% van producten te vinden die de meeste opbrengst drijven. [ MINIMUM VAN DE KOLOM ](#column-minimum), [ GEMIDDELD ](#median), en [ MAXIMUM VAN DE KOLOM ](#column-maximum) keren de zelfde waarde terug zoals [ KWALITEIT ](#quartile) wanneer kwartiel aan `0` (nul) gelijk is, `2`, en `4`, respectievelijk.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} keert de kwartiel van waarden voor metrisch terug. Bijvoorbeeld, kunnen de kwartielen worden gebruikt om de hoogste 25% van producten te vinden die de meeste opbrengst drijven. [ MINIMUM VAN DE KOLOM ](#column-minimum), [ GEMIDDELD ](#median), en [ MAXIMUM VAN DE KOLOM ](#column-maximum) keren de zelfde waarde terug zoals [ KWALITEIT ](#quartile) wanneer kwartiel aan `0` (nul) gelijk is, `2`, en `4`, respectievelijk.
 
 | Argument | Beschrijving |
 |---|---|
@@ -435,7 +435,7 @@ Som van de kolommen van elke rij.
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL SQUARE ROOT(metric, include_zeros)]**
 
-[!BADGE  Rij ]{type="Neutral"} keert de positieve vierkantswortel van een aantal terug. De vierkantswortel van een getal is de waarde van dat getal dat tot de macht 1/2 wordt verheven.
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert de positieve vierkantswortel van een aantal terug. De vierkantswortel van een getal is de waarde van dat getal dat tot de macht 1/2 wordt verheven.
 
 | Argument | Beschrijving |
 |---|---|
@@ -455,7 +455,7 @@ Som van de kolommen van elke rij.
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL STANDARD DEVIATION(metric, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"} keert de standaardafwijking, of de vierkantswortel van de variantie terug, die op een steekproefpopulatie van gegevens wordt gebaseerd.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} keert de standaardafwijking, of de vierkantswortel van de variantie terug, die op een steekproefpopulatie van gegevens wordt gebaseerd.
 
 | Argument | Beschrijving |
 |---|---|
@@ -476,7 +476,7 @@ Som van de kolommen van elke rij.
 
 ![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANCE(metric, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"} keert de variantie terug die op een steekproefpopulatie van gegevens wordt gebaseerd.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} keert de variantie terug die op een steekproefpopulatie van gegevens wordt gebaseerd.
 
 | Argument | Beschrijving |
 |---|---|
