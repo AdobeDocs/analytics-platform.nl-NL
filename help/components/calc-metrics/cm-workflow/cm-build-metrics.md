@@ -1,11 +1,11 @@
 ---
-description: De Berekende Bouwer van Metriek verstrekt een canvas om Afmetingen, Metriek, Segmenten, en Functies te slepen en te laten vallen om douanemetriek tot stand te brengen die op de logica van de containerhiërarchie, regels, en exploitanten wordt gebaseerd. Met dit geïntegreerde ontwikkelingshulpmiddel kunt u eenvoudige berekende metriek of complexe, berekende metriek bouwen en opslaan.
-title: Berekende maatstaven samenstellen
+description: Leer over de berekende metriek bouwer die een canvas verstrekt om dimensies, metriek, segmenten, en functies te slepen en te laten vallen om douanemetriek tot stand te brengen die op containerhiërarchische logica, regels, en exploitanten wordt gebaseerd.
+title: Metrische gegevens samenstellen
 feature: Calculated Metrics
 exl-id: 4d03a51d-c676-483c-98e2-d7283e8d71b0
-source-git-commit: ec2fc88372814b01a04d4cc824181222ee55a83d
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1451'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 >id="components_calculatedmetrics_productcompatibility"
 >title="Productcompatibiliteit"
 >abstract="Geeft aan waar in Customer Journey Analytics deze berekende metrische waarde kan worden gebruikt, zoals in Analysis Workspace, Report Builder enzovoort. Sommige berekende metriek kunnen niet met experimenteren worden gebruikt."
->additional-url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="Berekende meetwaarden gebruiken in experimenten"
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="Berekende meetwaarden gebruiken in experimenten"
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_externalid"
@@ -39,7 +39,7 @@ Het dialoogvenster **[!UICONTROL Calculated metric builder]** wordt gebruikt om 
 
 ![ Berekend metrisch detailsvenster dat gebieden en opties toont die in de volgende sectie worden beschreven.](assets/calculated-metric-builder.png)
 
->[!TAB creeer of geef berekend metrisch  uit]
+>[!TAB  creeer of geef berekend metrisch ] uit
 
 ![ Berekend metrisch detailsvenster dat gebieden en opties toont die in de volgende sectie worden beschreven.](assets/create-edit-calculated-metric.png)
 
@@ -189,7 +189,7 @@ Zie [ functies van het Gebruik ](cm-using-functions.md) voor details op hoe te o
 
 Een algemene container toevoegen:
 
-* Selecteer ![&#128279;](/help/assets/icons/AddCircle.svg) AddCircle **[!UICONTROL Add]** van binnen een container
+* Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) van binnen een container **[!UICONTROL Add]**
 * Selecteer **[!UICONTROL Container]** . Er wordt een nieuwe lege generieke container toegevoegd aan de **[!UICONTROL Definition]** . U kunt een generische container gebruiken om een hiërarchie in de definitie van uw berekende metrisch te nesten of tot stand te brengen.
 
 
@@ -200,5 +200,5 @@ Om een container te schrappen, selecteer ![ dicht ](/help/assets/icons/Close.svg
 >[!MORELIKETHIS]
 >
 >[Functies gebruiken](cm-using-functions.md)
->&#x200B;>[Segmenten ](/help/components/segments/seg-overview.md)
+>>[Segmenten ](/help/components/segments/seg-overview.md)
 >

@@ -1,11 +1,11 @@
 ---
 title: Overzicht van componenten
-description: Leer welke componenten Customer Journey Analytics aanbiedt en hoe u deze kunt gebruiken voor rapportage.
+description: Leer welke componenten Adobe Analytics aanbiedt en hoe u component kunt gebruiken in Analysis Workspace.
 exl-id: f9b0b3c2-7c88-4bef-af33-0d309cafe799
 solution: Customer Journey Analytics
 feature: Components
 role: User
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 2%
@@ -30,7 +30,7 @@ U kunt de volgende componenten beheren:
 * [ Intelligente alarm ](/help/components/c-intelligent-alerts/intelligent-alerts.md): Toestaan u om op veranderde percentages of specifieke gegevenspunten worden op de hoogte gebracht.
 * [ Geplande projecten ](/help/analysis-workspace/export/t-schedule-report.md#scheduled-projects-manager): Beheer uw geplande projecten.
 * [ Voorkeur ](/help/analysis-workspace/user-preferences.md): Beheer de voorkeur voor Analysis Workspace.
-* [ Soorten publiek ](/help/components/audiences/audiences-overview.md): Creeer en publiceer publiek van Customer Journey Analytics aan [ Real-Time Customer Data Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/home) in Experience Platform voor het richten en verpersoonlijken.
+* [ Soorten publiek ](/help/components/audiences/audiences-overview.md): Creeer en publiceer publiek van Customer Journey Analytics aan [ Real-Time Customer Data Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) in Experience Platform voor het richten en verpersoonlijken.
 * [ voert ](/help/components/exports/manage-export-locations.md) uit: beheer uw de uitvoerrekening en plaatsen.
 
 
@@ -84,7 +84,7 @@ U kunt de lijst met componenten in het linkerdeelvenster van Analysis Workspace 
 
 2. Typ in het zoekveld de naam van de component die u in het project wilt gebruiken.
 
-   Een kleur en pictogram geven het type component aan. **het pictogram van Afmetingen** Dimension ![ is oranje, ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) Segmenten **&#x200B;**&#x200B;het pictogram van het Segment ![ is blauw, ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) de waaiers van de Datum **&#x200B;**&#x200B;het de waaierpictogram van de Datum is paars, en ![ Metriek ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) **Metrisch pictogram** is groen.![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)<br/> het pictogram van Adobe ![ AdobeLogo ](/help/assets/icons/AdobeLogoSmall.svg) wijst of op een berekend metrisch malplaatje of een segmentmalplaatje. Het calculatorpictogram ![ pictogram van de Rekenmachine ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) wijst op berekende metrisch dat een beheerder in uw organisatie heeft gecreeerd.
+   Een kleur en pictogram geven het type component aan. **het pictogram van Afmetingen** Dimension ![ is oranje, ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) Segmenten **** het pictogram van het Segment ![ is blauw, ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) de waaiers van de Datum **** het de waaierpictogram van de Datum is paars, en ![ Metriek ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) **Metrisch pictogram** is groen.![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)<br/> het pictogram van Adobe ![ AdobeLogo ](/help/assets/icons/AdobeLogoSmall.svg) wijst of op een berekend metrisch malplaatje of een segmentmalplaatje. Het calculatorpictogram ![ pictogram van de Rekenmachine ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) wijst op berekende metrisch dat een beheerder in uw organisatie heeft gecreeerd.
 
 3. Selecteer de component in het keuzemenu.
 
@@ -92,7 +92,7 @@ U kunt de lijst met componenten in het linkerdeelvenster van Analysis Workspace 
 
 1. Selecteer het **pictogram van Componenten** pictogram van Componenten ![ ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in het linkerpaneel.
 
-2. Selecteer **&#x200B;**&#x200B;het pictogram van de Filter van het Woordenboek van de Filter van de Filter 1&rbrace; Filter ![, of ga ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) op het onderzoeksgebied in.`#`
+2. Selecteer **** het pictogram van de Filter van het Woordenboek van de Filter van de Filter 1} Filter ![, of ga ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) op het onderzoeksgebied in.`#`
 
 3. Selecteer een van de volgende filteropties om de lijst met componenten te filteren:
 
@@ -118,7 +118,7 @@ U kunt de lijst met componenten in het linkerdeelvenster van Analysis Workspace 
 
 2. Selecteer **het pictogram van Componenten** ![ Componenten ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in het linkerpaneel.
 
-3. Selecteer **&#x200B;**&#x200B;de componentenpictogram van de Soort van de Soort ![ ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), dan om het even welke volgende filteropties om de lijst van componenten te sorteren.
+3. Selecteer **** de componentenpictogram van de Soort van de Soort ![ ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), dan om het even welke volgende filteropties om de lijst van componenten te sorteren.
 
 De volgende sorteeropties zijn beschikbaar:
 
@@ -126,4 +126,4 @@ De volgende sorteeropties zijn beschikbaar:
 
 ## Toegangsmachtigingen
 
-In Analysis Workspace, kunnen de beheerders [&#128279;](/help/analysis-workspace/curate-share/curate.md) leiden die de componenten aan gebruikers in het melden worden blootgesteld.
+In Analysis Workspace, kunnen de beheerders [ ](/help/analysis-workspace/curate-share/curate.md) leiden die de componenten aan gebruikers in het melden worden blootgesteld.

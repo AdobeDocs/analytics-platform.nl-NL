@@ -1,17 +1,17 @@
 ---
-description: Voor de prognose in Analysis Workspace wordt een reeks geavanceerde statistische technieken gebruikt om de voorspelde waarden te bepalen.
-title: Statistische technieken voor prognoses
+description: Leer hoe voorspellingen in Analysis Workspace een reeks geavanceerde statistische technieken gebruiken om de voorspelde waarden te bepalen.
+title: Statistische technieken
 feature: Visualizations
 role: User
-source-git-commit: 1bd24ee1163e4615bf5626c51aec9f167352f2f6
+exl-id: f042a6dd-6af5-4bdd-afc9-07546d8ded6e
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
 
-
-# Statistische technieken voor de prognose
+# Statistische technieken
 
 De dienst van het voorspellen steunt momenteel Profeet en is getoond om efficiënt en betrouwbaar voor de meeste gegevens te werken. Prophet is een veelgebruikt opensource-prognosepakket dat door Meta is ontwikkeld. Het ontleedt gegevens in tendensen, seizoensinvloeden, en gebeurteniscomponenten. Het Prophet model is efficiënt en schalen goed aan vele het voorspellen toepassingen. Bovendien werkt het model krachtig tegen uitschieters en ontbrekende gegevens.
 
@@ -54,7 +54,6 @@ De dienst maakt geen veronderstellingen over gebruikersgegevens. Bijvoorbeeld, v
 
 ## Verwijzingen
 
-1. Taylor, Sean J., en Benjamin Letham: *Prognoses op schaal.* The American Statisticus 72.1 (2018): 37-45.
-1. Triebe, Oskar, et al.: *Neuralprophet: Verklarende prognose op schaal.* arXiv preprint arXiv:211.15397(2021).
-1. Zhang en Arbor: *Nauwkeurige detectie van tijdreeksen.* Amerikaanse octrooiaanvraag #18/057883.
-
+1. Taylor, Sean J., en Benjamin Letham: *Voorspelling op schaal.* De Amerikaanse statisticus 72.1 (2018): 37-45.
+1. Triebe, Oskar, et al.: *Neuralprophet: Verklarend het voorspellen bij schaal.* arXiv preprint arXiv:2111.15397(2021).
+1. Zhang en Arbor: *tijd-reeksen anomalieopsporing.* Amerikaanse octrooiaanvraag #18/057883.

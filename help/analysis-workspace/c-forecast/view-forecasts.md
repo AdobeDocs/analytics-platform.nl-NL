@@ -1,17 +1,17 @@
 ---
 description: Leer hoe u prognoses in een tabel of in een lijndiagram bekijkt.
-title: De prognoses in Analysis Workspace bekijken
+title: Prognoses weergeven
 feature: Visualizations
 role: User
 exl-id: 4a8b602c-e6aa-4a46-bba9-642387e6af88
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
 
-# Prognoses weergeven in Analysis Workspace
+# Prognoses weergeven
 
 U kunt prognoses in een vrije-vormlijst of in een lijngrafiek bekijken.
 

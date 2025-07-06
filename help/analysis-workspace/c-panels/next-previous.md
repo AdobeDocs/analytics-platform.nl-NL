@@ -1,12 +1,12 @@
 ---
-description: Begrijp hoe te om het Volgende of vorige puntenpaneel te gebruiken dat de volgende of vorige afmetingspunten voor een specifieke afmeting toont.
+description: Begrijp hoe te om het Volgende of vorige puntenpaneel te gebruiken dat de volgende of vorige punten voor een specifieke afmeting toont.
 title: Deelvenster Volgende of Vorige item
 feature: Panels
 role: User, Admin
 exl-id: a5f6ce97-6720-4129-9ece-e2e834289d45
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het Volgende of vorige puntenpaneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_zie [ Volgende of vorig puntenpaneel ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/next-previous) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert het Volgende of vorige puntenpaneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_zie [ Volgende of vorig puntenpaneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/next-previous) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -58,7 +58,7 @@ U kunt het deelvenster [!UICONTROL Next or previous item] configureren met de vo
 | **[!UICONTROL Dimension]** | Selecteer de dimensie waarvoor u volgende of vorige punten wilt onderzoeken. |
 | **[!UICONTROL Dimension item]** | Selecteer het specifieke dimensie-item in het midden van uw volgende/vorige vraag. |
 | **[!UICONTROL Direction]** | Geef op of u naar het dimensie-item [!UICONTROL Next] of [!UICONTROL Previous] zoekt. |
-| **[!UICONTROL Container]** | Selecteer de container, **[!UICONTROL Global Account]** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Account]** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Buying Group]** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Opportunity]** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Session]** of **[!UICONTROL Person]**, om het werkingsgebied van uw onderzoek te bepalen. |
+| **[!UICONTROL Container]** | Selecteer de container, **[!UICONTROL Global Account]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Account]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Buying Group]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Opportunity]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Session]** of **[!UICONTROL Person]**, om het werkingsgebied van uw onderzoek te bepalen. |
 
 {style="table-layout:auto"}
 

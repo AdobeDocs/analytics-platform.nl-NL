@@ -1,9 +1,9 @@
 ---
-description: Met de functie Berekende metrische elementen kunt u bestanden delen, filteren, labelen, goedkeuren, kopiëren, verwijderen en markeren als favorieten.
-title: Berekende metrische manager
+description: Leer hoe u berekende metriek deelt, filtert, labelt, goedkeurt, kopieert, verwijdert en markeert als favorieten.
+title: Berekende waarden beheren
 feature: Calculated Metrics
 exl-id: 8b257ecc-a596-4b34-ac26-eda16835f1ba
-source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%

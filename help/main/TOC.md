@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1269'
 ht-degree: 10%
 
 ---
@@ -234,7 +234,7 @@ ht-degree: 10%
       + [Venn](../analysis-workspace/visualizations/venn.md)
    + Deelvensters {#panels}
       + [Overzicht](../analysis-workspace/c-panels/panels.md)
-      + [Leeg](../analysis-workspace/c-panels/blank-panel.md)
+      + [Leeg deelvenster](../analysis-workspace/c-panels/blank-panel.md)
       + [Attributie](../analysis-workspace/c-panels/attribution.md)
       + [Experimentatie](../analysis-workspace/c-panels/experimentation.md)
       + [Vrije vorm](../analysis-workspace/c-panels/freeform-panel.md)
@@ -254,6 +254,12 @@ ht-degree: 10%
       + [Downloaden](../analysis-workspace/export/download-send.md)
       + [Verzenden en plannen](../analysis-workspace/export/t-schedule-report.md)
       + [Naar de cloud exporteren](../analysis-workspace/export/export-cloud.md)
+   + Attributie {#attribution}
+      + [Overzicht van kenmerken](../analysis-workspace/attribution/overview.md)
+      + [Venster Model, container en lookback](../analysis-workspace/attribution/models.md)
+      + [Algorithmic, toewijzing](../analysis-workspace/attribution/algorithmic.md)
+      + [Aanbevolen procedures](../analysis-workspace/attribution/best-practices.md)
+      + [Veelgestelde vragen](../analysis-workspace/attribution/faq.md)
    + Anomaliedetectie {#anomaly-detection}
       + [Overzicht](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [anomalieën weergeven](../analysis-workspace/c-anomaly-detection/view-anomalies.md)
@@ -268,7 +274,7 @@ ht-degree: 10%
       + [Prestaties optimaliseren](../analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Fout en problemen oplossen](../analysis-workspace/workspace-faq/error-messages.md)
       + [Beperkingen](../analysis-workspace/workspace-faq/aw-limitations.md)
-      + [Administratieve vereisten](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
+      + [Vereisten](../analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Toegankelijkheid](../analysis-workspace/workspace-faq/aw-accessibility.md)
 
 + Content Analytics {#content-analytics}
@@ -336,7 +342,7 @@ ht-degree: 10%
       + [Segmenten delen](/help/components/segments/seg-share.md)
       + [Tagsegmenten](/help/components/segments/seg-tag.md)
       + [De lijst met segmenten filteren](/help/components/segments/seg-filter.md)
-      + [Segmenten markeren als favorieten](/help/components/segments/seg-favorite.md)
+      + [Segmenten markeren als favoriet](/help/components/segments/seg-favorite.md)
       + [Segmenten goedkeuren](/help/components/segments/seg-approve.md)
       + [Segmenten kopiëren](/help/components/segments/seg-copy.md)
       + [Segmenten beheren](/help/components/segments/seg-manage.md)
@@ -346,14 +352,16 @@ ht-degree: 10%
       + [Overzicht](../components/calc-metrics/calc-metr-overview.md)
       + Workflow {#cm-workflow}
          + [Berekende waarden maken](../components/calc-metrics/cm-workflow/cm-workflow.md)
-         + [Berekende maatstaven samenstellen](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
          + [Metrische gegevens zoeken](../components/calc-metrics/cm-workflow/cm-finding.md)
+         + [Berekende maatstaven samenstellen](../components/calc-metrics/cm-workflow/cm-build-metrics.md)
+         + [Een eenvoudig voorbeeld](../components/calc-metrics/cm-workflow/cm-pvv.md)
+         + [Een complexer voorbeeld](../components/calc-metrics/cm-workflow/cm-orders-participation.md)
          + [Type en attributie metrisch](../components/calc-metrics/cm-workflow/m-metric-type-alloc.md)
-         + [Een metrische deelname maken](../components/calc-metrics/cm-workflow/participation-metric.md)
+         + [Metrische gegevens voor deelname](../components/calc-metrics/cm-workflow/participation-metric.md)
          + [Gesegmenteerde metriek](../components/calc-metrics/cm-workflow/metrics-with-segments.md)
          + [Segmenten stapelen en vervangen](../components/calc-metrics/cm-workflow/cm-stack-seg.md)
          + [Berekende maateenheden filteren](../components/calc-metrics/cm-workflow/cm-filter.md)
-         + [Berekende metriek markeren als favorieten](../components/calc-metrics/cm-workflow/cm-favorite.md)
+         + [Berekende metriek markeren als favoriet](../components/calc-metrics/cm-workflow/cm-favorite.md)
          + [Berekende cijfers kopiëren](../components/calc-metrics/cm-workflow/cm-copy.md)
          + [Functies gebruiken](../components/calc-metrics/cm-workflow/cm-using-functions.md)
          + [Berekende maatstaven voor tags](../components/calc-metrics/cm-workflow/cm-tagging.md)

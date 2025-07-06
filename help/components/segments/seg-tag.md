@@ -1,12 +1,12 @@
 ---
-description: U kunt segmenten labelen om ze te ordenen.
-title: Tagsegmenten
+description: Begrijp hoe te om segmenten te etiketteren om u toe te staan om segmenten te organiseren.
+title: Segmenten labelen
 feature: Filters, Segments
 exl-id: d3b8d9f7-11a4-4eac-8c22-5c86601ec7f3
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---

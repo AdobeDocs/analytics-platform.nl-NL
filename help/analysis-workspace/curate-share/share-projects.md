@@ -5,7 +5,7 @@ title: Projecten delen
 feature: Curate and Share
 exl-id: ac4ed73a-e890-46cc-be08-4ccedf66b47d
 role: User
-source-git-commit: 084c995658a5cf698d253f1c15229f621a8c55d5
+source-git-commit: 8e10818efa7da54b0802c56e5388e6c7ef7fd8b6
 workflow-type: tm+mt
 source-wordcount: '1989'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 U kunt een Analysis Workspace-project delen met de volgende typen personen:
 
-* Gebruikers en groepen in uw organisatie die toegang hebben tot Adobe Customer Journey Analytics
+* Gebruikers en groepen in uw organisatie die toegang hebben tot Customer Journey Analytics
 
   U kunt de toegang Bewerken, Dupliceren of Weergeven delen
 
@@ -61,15 +61,15 @@ U kunt een specifieke rol met gebruikers of groepen delen, of u kunt een verbind
 
 Wanneer het delen van een specifieke projectrol met gebruikers en groepen in uw organisatie, overweeg het volgende:
 
-* Projectrollen (**[!UICONTROL Edit original]**, **[!UICONTROL Edit copy]** en **[!UICONTROL Read only]**) zijn gekoppeld aan de gebruiker en specifieke project-id. De rollen van het project zijn onafhankelijk van gebruikerstoestemmingen die in de [ worden beheerd Adobe Experience Cloud admin console ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=nl-NL).
+* Projectrollen (**[!UICONTROL Edit original]**, **[!UICONTROL Edit copy]** en **[!UICONTROL Read only]**) zijn gekoppeld aan de gebruiker en specifieke project-id. De rollen van het project zijn onafhankelijk van gebruikerstoestemmingen die in [ Adobe Experience Cloud Admin Console ](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-getting-started) worden beheerd.
 
-* In Customer Journey Analytics, worden de groepen bepaald door productprofielen in de [ admin console van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=nl-NL). Beheerders kunnen gegevens delen met elke groep, inclusief Alles. Niet-beheerders kunnen delen met elke groep waarvan zij lid zijn, met uitzondering van &quot;Alle&quot;.
+* In Customer Journey Analytics, worden de groepen bepaald door productprofielen in [ Admin Console van Adobe Experience Cloud ](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-getting-started). Admins kan aan om het even welke groep delen, met inbegrip van *allen*. De niet-admins kunnen aan om het even welke groep delen zij een lid van zijn, behalve *allen*.
 
-* Een gebruiker die in veelvoudige rollen wordt geplaatst krijgt altijd de hoogste ervaring. Dit kan voorkomen als een gebruiker zowel als individu als deel van een groep wordt toegevoegd. Als een gebruiker bijvoorbeeld de **[!UICONTROL Edit original]** rol als individu en de **[!UICONTROL Read only]** rol als lid van een groep krijgt, krijgt hij een **[!UICONTROL Edit original]** project beleving.
+* Een gebruiker die in veelvoudige rollen wordt geplaatst krijgt altijd de hoogste ervaring. Dit scenario zou kunnen voorkomen als een gebruiker zowel als individueel als als deel van een groep wordt toegevoegd. Als een gebruiker bijvoorbeeld de **[!UICONTROL Edit original]** rol als individu en de **[!UICONTROL Read only]** rol als lid van een groep krijgt, ontvangt de gebruiker een **[!UICONTROL Edit original]** project beleving.
 
 * Beheerders die in de rol **[!UICONTROL Edit copy]** of **[!UICONTROL Read only]** zijn geplaatst, krijgen die beperkte ervaring wanneer ze een project openen. Een beheerder kan zijn rol in **[!UICONTROL Edit original]** veranderen door het project met zichzelf te delen en de rol Edit toe te kennen, zoals beschreven in de volgende procedure.
 
-* Als de veelvoudige projecten worden geselecteerd om worden gedeeld, zullen de ontvangers aan de bestaande lijst van ontvangers voor elk project worden toegevoegd.
+* Als u veelvoudige te delen projecten selecteert, worden de ontvangers toegevoegd aan de bestaande lijst van ontvangers voor elk project.
 
   Project A wordt bijvoorbeeld al gedeeld met ontvangers 1, 2 en 3, terwijl Project B al wordt gedeeld met ontvangers 4, 5 en 6.
 
@@ -86,15 +86,15 @@ Een specifieke projectrol delen met gebruikers of groepen in uw organisatie:
    Als u alleen een afzonderlijk project wilt delen, opent u het project dat u wilt delen en selecteert u **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]** .
 Als er niet-opgeslagen wijzigingen zijn, wordt u gevraagd eerst uw project op te slaan.
 
-   Het dialoogvenster Project delen wordt weergegeven. Het [!UICONTROL **Aandeel door verbinding**] en [!UICONTROL **3&rbrace; secties van Montages &lbrace;van de dialoogdoos is zichtbaar slechts wanneer het delen van één enkel project.**]
+   Het dialoogvenster Project delen wordt weergegeven. Het [!UICONTROL **Aandeel door verbinding**] en [!UICONTROL **3} secties van Montages {van de dialoogdoos is zichtbaar slechts wanneer het delen van één enkel project.**]
 
    ![ het het projectvenster van het Aandeel.](assets/share-proj-modal.png)
 
 1. Voeg ontvangers of groepen ontvangers toe aan een van de opgegeven rolvelden:
 
-   **geeft origineel uit:** Ontvangers kunnen **[!UICONTROL Save]** veranderingen in een project en een functie als medeeigenaars. Deze rol is nuttig als u een project met andere collega&#39;s wilt cobeheren; dit omvat het uitgeven, schrappen, en het wijzigen van ontvankelijke lijsten voor een gedeeld project. <br> Nota: Analysis Workspace steunt momenteel geen levende samenwerking, zodat wordt geadviseerd dat slechts één gebruiker een project in een bepaalde tijd uitgeeft. Als projecten tegelijkertijd worden opgeslagen, blijft de laatste versie behouden.
+   **geeft origineel uit:** Ontvangers kunnen **[!UICONTROL Save]** veranderingen in een project en een functie als medeeigenaars. Deze rol is nuttig als u een project met andere collega&#39;s wilt cobeheren. Deze rol omvat het uitgeven, het schrappen, en het wijzigen van ontvankelijke lijsten voor een gedeeld project. <br> Nota: Analysis Workspace steunt momenteel geen levende samenwerking, zodat wordt geadviseerd dat slechts één gebruiker een project in een bepaalde tijd uitgeeft. Als projecten tegelijkertijd worden opgeslagen, blijft de laatste versie behouden.
 
-   **geef exemplaar uit:** Ontvangers kunnen **[!UICONTROL Save as]** en hebben toegang tot het linkerpaneel. Projectinteracties zijn in deze rol niet beperkt. Deze rol is nuttig als u een project aan gebruikers wilt delen die de gegevens van uw organisatie en hoe te om Analysis Workspace begrijpen, maar u wilt niet uw project veranderen.
+   **geef exemplaar uit:** Ontvangers kunnen **[!UICONTROL Save as]** en hebben toegang tot het linkerpaneel. Projectinteracties zijn niet beperkt tot deze rol. Deze rol is nuttig als u een project aan gebruikers wilt delen die de gegevens van uw organisatie en hoe te om Analysis Workspace begrijpen. Maar u wilt deze gebruikers niet uw project wijzigen.
 
    **las slechts:** Ontvangers kunnen niet **[!UICONTROL Save]** of **[!UICONTROL Save as]** en hebben geen toegang tot het linkerpaneel. De interactie tussen projecten is ook beperkt. Deze rol is nuttig als u een project aan gebruikers wilt delen die minder vertrouwd met de gegevensstructuur van uw organisatie, Analysis Workspace of Customer Journey Analytics in het algemeen zijn. U wilt echter nog steeds dat ze gegevens en inzichten in een veilige omgeving gebruiken. Leer meer over [ las slechts projectervaring ](/help/analysis-workspace/curate-share/view-only-projects.md).
 
@@ -137,7 +137,7 @@ De projectkoppeling delen met gebruikers in uw organisatie:
 >abstract="Uw organisatie vereist dat gebruikers zich aanmelden bij de Experience Cloud om deze koppeling te kunnen gebruiken."
 
 
-U kunt [ read-only toegang ](/help/analysis-workspace/curate-share/view-only-projects.md) tot de projecten van Analysis Workspace aan mensen verlenen die geen toegang tot Customer Journey Analytics hebben. Dit kan het volgende omvatten:
+U kunt [ read-only toegang ](/help/analysis-workspace/curate-share/view-only-projects.md) tot de projecten van Analysis Workspace aan mensen verlenen die geen toegang tot Customer Journey Analytics hebben. Deze verleende toegang kan omvatten:
 
 * Personen buiten uw organisatie
 
@@ -149,11 +149,11 @@ U kunt [ read-only toegang ](/help/analysis-workspace/curate-share/view-only-pro
 >
 >* De capaciteit om een project op deze manier te delen kan door de beheerder van Customer Journey Analytics worden onbruikbaar gemaakt, zoals die in [ Voorkeur ](/help/analysis-workspace/user-preferences.md) wordt beschreven. Als u een project niet kunt delen zoals in deze sectie wordt beschreven, heeft uw beheerder van Customer Journey Analytics deze mogelijkheid onbruikbaar gemaakt.
 >
->* Projecten met meer dan 50 uitgebreide visualisaties kunnen niet worden gedeeld met mensen die geen toegang hebben tot Customer Journey Analytics.
+>* Projecten met meer dan 50 uitgebreide visualisaties kunnen alleen worden gedeeld met personen die toegang hebben tot Customer Journey Analytics.
 >
 >* De gebruikers u met deelt kunnen om het even welke segmenten bekijken die op het project tijdens [ curatie ](curate.md) werden toegepast.
 > 
->* Gebruikers met wie u deelt, kunnen het datumbereik van het project wijzigen. De datumwaaier u voor het project plaatst wordt getoond door gebrek.
+>* Gebruikers met wie u deelt, kunnen het datumbereik van het project wijzigen. De datumwaaier die u voor het project plaatst wordt getoond door gebrek.
 >
 >* Een project zou ontoegankelijk kunnen worden als vele gebruikers proberen om tot een bepaalde verbinding tezelfdertijd toegang te hebben. Standaard hebben meer dan 190 personen elke 5 minuten toegang tot één koppeling. Als uw organisatie deze limiet heeft bereikt, wacht u 5 minuten en probeert u de koppeling opnieuw te openen.
 >
@@ -161,7 +161,7 @@ U kunt [ read-only toegang ](/help/analysis-workspace/curate-share/view-only-pro
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Aandeel met iedereen ](https://video.tv.adobe.com/v/3452460/?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Aandeel met iedereen ](https://video.tv.adobe.com/v/3420093/?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -192,7 +192,7 @@ Een Analysis Workspace-project met iedereen delen:
 
       * Als deze optie niet wordt weergegeven, heeft uw Customer Journey Analytics-beheerder deze functie niet ingeschakeld.
 
-      * Als deze optie is ingeschakeld en u kunt deze niet uitschakelen, betekent dit dat uw Customer Journey Analytics-beheerder Experience Cloud-verificatie vereist voor iedereen die Analysis Workspace-projecten opent. Dit is altijd het geval voor organisaties die een vergunning hebben voor het gezondheidsschild.
+      * Als deze optie is ingeschakeld en u kunt deze niet uitschakelen, betekent de vergrendelde optie dat uw Customer Journey Analytics-beheerder Experience Cloud-verificatie vereist voor iedereen die Analysis Workspace-projecten opent. Dit is altijd het geval voor organisaties die een vergunning hebben voor het gezondheidsschild.
 
 1. Naast het **[!UICONTROL Share with anyone (no login required)]** gebied, uitgezochte ![ Verbinding ](/help/assets/icons/Link.svg) om de verbinding aan uw systeemklembord te kopiëren.
 
@@ -228,6 +228,6 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Deel ingebedd
 | Vraag | Antwoord |
 |---|---|
 | Wat gebeurt er als twee editors tegelijkertijd een project opslaan? | De wijzigingen worden niet samengevoegd en de laatst opgeslagen projectversie blijft behouden. Analysis Workspace biedt momenteel geen ondersteuning voor live samenwerken. |
-| Als beheerder, welke projectervaring zal ik zien? | Beheerders die in een **[!UICONTROL Edit copy]** - of **[!UICONTROL Read only]** -rol zijn geplaatst, krijgen die beperkte ervaring wanneer ze een project openen. Een beheerder kan zijn rol desgewenst op elk gewenst moment tot **[!UICONTROL Edit original]** uitbreiden via **[!UICONTROL Components]>[!UICONTROL Projects]** . |
-| Wat gebeurt er als een ontvanger in één rol als individu en een andere rol als lid van een groep wordt geplaatst? | Als een ontvanger in veelvoudige rollen wordt geplaatst, zullen zij altijd de hogere ervaring ontvangen. Als een ontvanger bijvoorbeeld de **[!UICONTROL Edit original]** -rol als individu krijgt en de **[!UICONTROL Can view]** -rol als lid van een groep, krijgt hij of zij een **[!UICONTROL Edit original]** -projectervaring. |
-| Welke ervaring krijgt een ontvanger als hij of zij een projectverbinding opent? | Ontvangers krijgen de rol die u hen in de deelmodus hebt geplaatst. Als een ontvanger geen rol wordt toegewezen en een koppeling naar het project ontvangt (**[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]** , selecteert u **[!UICONTROL Copy]** naast het veld **[!UICONTROL Share by link]** ), worden deze standaard in een rol geplaatst. Beheerders ontvangen **[!UICONTROL Edit original]** en niet-beheerders ontvangen **[!UICONTROL Edit copy]** . |
+| Als beheerder, welke projectervaring zie ik? | Beheerders die in een **[!UICONTROL Edit copy]** - of **[!UICONTROL Read only]** -rol worden geplaatst, ontvangen die beperkte ervaring wanneer ze een project openen. Een beheerder kan zijn rol desgewenst op elk gewenst moment tot **[!UICONTROL Edit original]** uitbreiden via **[!UICONTROL Components]>[!UICONTROL Projects]** . |
+| Wat gebeurt er als een ontvanger in één rol als individu en een andere rol als lid van een groep wordt geplaatst? | Als een ontvanger in veelvoudige rollen wordt geplaatst, ontvangen zij altijd de hogere ervaring. Als een ontvanger bijvoorbeeld de **[!UICONTROL Edit original]** rol als individu en de **[!UICONTROL Can view]** rol als lid van een groep krijgt, ontvangt de gebruiker een **[!UICONTROL Edit original]** project beleving. |
+| Welke ervaring krijgt een ontvanger als hij of zij een projectverbinding opent? | Ontvangers ontvangen de rol die u hen in de deelmodus hebt geplaatst. Als een ontvanger geen rol wordt toegewezen en een koppeling naar het project ontvangt (**[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]** en vervolgens **[!UICONTROL Copy]** selecteert naast het veld **[!UICONTROL Share by link]** ), wordt de ontvanger in een standaardrol geplaatst. Beheerders ontvangen **[!UICONTROL Edit original]** en niet-beheerders ontvangen **[!UICONTROL Edit copy]** rollen. |

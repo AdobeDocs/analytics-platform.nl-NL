@@ -1,10 +1,10 @@
 ---
-description: Leer hoe u het deelvenster Snelle inzichten kunt gebruiken om u te begeleiden bij het samenstellen van gegevenstabellen en -visualisaties in Analysis Workspace.
+description: Leer hoe u het deelvenster Snelle inzichten kunt gebruiken om u te begeleiden bij het maken van vrije-vormtabellen en -visualisaties in Analysis Workspace.
 title: Deelvenster Snelle inzichten
 feature: Panels
 exl-id: 09ebc3af-34ac-4f1f-8a5d-90da008f8697
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het Snelle paneel van Inzichten in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_zie [ Snelle Inzichten paneel ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/quickinsight) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert het Snelle paneel van Inzichten in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_zie [ Snelle Inzichten paneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ Wanneer u deze [!UICONTROL Analysis Workspace] voor het eerst gebruikt, vraagt u
 * waar moet een segment worden gemaakt?
 * en meer.
 
-Om met deze vragen te helpen, [!UICONTROL Quick insights] hefboomwerkingen een algoritme dat u met de populairste dimensies, metriek, segmenten, en datumwaaiers uw bedrijfgebruik voorstelt. Dit algoritme is gebaseerd op het gebruik van gegevenscomponenten in [!UICONTROL Analysis Workspace] door uw eigen bedrijf. In feite ziet u afmetingen, metriek, en segment geëtiketteerd met [!UICONTROL POPULAR] in het drop-down menu, zoals hier getoond:
+Voor deze vragen gebruikt [!UICONTROL Quick insights] een algoritme dat u de populairste afmetingen, metriek, segmenten en datumbereiken voorstelt die uw bedrijf gebruikt. Dit algoritme is gebaseerd op het gebruik van gegevenscomponenten in [!UICONTROL Analysis Workspace] door uw eigen bedrijf. In feite ziet u afmetingen, metriek, en segment geëtiketteerd met [!UICONTROL POPULAR] in het drop-down menu, zoals hier getoond:
 
 ![ het Snelle paneel van Inzichten.](assets/popular-tag.png)
 
@@ -94,7 +94,7 @@ U kunt de bouwstenen op drie manieren specificeren:
 
 * Componenten slepen en neerzetten vanuit het linkerdeelvenster.
 * Begin in één van de bouwsteengebieden te typen. Wanneer invoer wordt gevonden, vult het bouwsteengebied met mogelijke waarden automatisch.
-* Specificeer een bouwsteendrop-down menu (bijvoorbeeld `Country` in **[!UICONTROL Analyze]**) en onderzoek de lijst van mogelijke waarde (gebruikend ![ ChevronRight ](/help/assets/icons/ChevronRight.svg)) voor de waarde u (bijvoorbeeld, **[!UICONTROL Country code]**) wilt gebruiken.
+* Specificeer een bouwsteendrop-down menu (bijvoorbeeld Land in **[!UICONTROL Analyze]**) en **[!UICONTROL search]** de lijst van mogelijke waarde (gebruikend ![ ChevronRight ](/help/assets/icons/ChevronRight.svg)) voor de waarde u (bijvoorbeeld, **[!UICONTROL Country code]**) wilt gebruiken.
 
 Selecteer **[!UICONTROL Clear]** om alle invoervelden te wissen.
 

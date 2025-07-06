@@ -1,11 +1,11 @@
 ---
-description: Beschrijft het sorteren en het filtreren, de twee belangrijkste manieren om uw metriek te vinden.
-title: Metrische gegevens zoeken
+description: Leer hoe u metriek kunt zoeken.
+title: Metrisch zoeken
 feature: Calculated Metrics
 exl-id: 34d2563a-7cd2-4f22-9ad0-6a3dab8d84ea
-source-git-commit: 46242b86d4a7c0e60a468885fcbaa73c575dfb74
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '43'
 ht-degree: 0%
 
 ---

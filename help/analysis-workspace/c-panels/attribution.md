@@ -4,9 +4,9 @@ description: Leer hoe u het deelvenster Kenmerken in Analysis Workspace kunt geb
 feature: Panels
 exl-id: 7fdec05b-5d99-48d1-ac1b-c243cb64e487
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '655'
 ht-degree: 8%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 8%
 
 >[!BEGINSHADEBOX]
 
-_Dit artikel documenteert het paneel van de Attributie in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_zie [ het paneel van de Attributie ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/attribution) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_Dit artikel documenteert het paneel van de Attributie in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_zie [ het paneel van de Attributie ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/attribution) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -66,7 +66,7 @@ U kunt het deelvenster Kenmerken configureren met de volgende invoerinstellingen
 
    ![ het het paneelvenster van de Attributie dat verscheidene geselecteerde afmetingen en metriek toont.](assets/attribution-panel.png)
 
-1. Selecteer één of meerdere [ attributiemodellen ](#attribution-models) van **[!UICONTROL Included models]** en a [ raadplegingsvenster ](#lookback-window) van **[!UICONTROL Lookback window]** dat u voor vergelijking wilt gebruiken.
+1. Selecteer één of meerdere [ attributiemodellen ](#attribution-models) van **[!UICONTROL Included models]**, de [ container ](#container) van **[!UICONTROL Container]**, en a [ raadplegingsvenster ](#lookback-window) van **[!UICONTROL Lookback window]** dat u voor vergelijking wilt gebruiken.
 
 1. Selecteer **[!UICONTROL Build]** om de visualisaties in het deelvenster samen te stellen.
 
@@ -88,7 +88,7 @@ De volgende visualisatie maakt deel uit van de paneeluitvoer.
 * **Getweende Prestaties**: Toont de trend van toegeschreven omzettingen voor het hoogste afmetingspunt. Als u andere rijen in de aangrenzende tabel Freeform selecteert, wordt de visualisatie bijgewerkt met uw selectie.
 * **Stroom**: Laat u zien welke kanalen met het meest algemeen in wisselwerking staan, en in welke orde over de reis van een persoon.
 
-## Attributiemodellen
+## Attributiemodel
 
 {{attribution-models-details}}
 

@@ -1,12 +1,12 @@
 ---
-description: Filteren op tags, eigenaars en andere filters (Alles weergeven, Mijne, Gedeeld met mij, Favorieten en Goedgekeurd.)
-title: De lijst met segmenten filteren
+description: Leer hoe u segmenten filtert op tags, eigenaars en andere filters.
+title: Segmenten filteren
 feature: Filters, Segments
 exl-id: 25e617da-8249-4332-970a-c2ef00bf42e3
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ U kunt de lijst met segmenten filteren. Het gebruiken van een filter op segmente
 
 >[!NOTE]
 >
->De lijst van segmenten verwijst naar de [ segmentlijst ](seg-manage.md#filters-list) als deel van de [ manager van het Segment ](seg-manage.md). U kunt die lijst filtreren gebruikend het ![&#128279;](/help/assets/icons/Filter.svg) [ paneel van de Filter ](seg-manage.md#filter-panel), deel van die zelfde [ manager van het Segment ](seg-manage.md).
+>De lijst van segmenten verwijst naar de [ segmentlijst ](seg-manage.md#filters-list) als deel van de [ manager van het Segment ](seg-manage.md). U kunt die lijst filtreren gebruikend het ![ ](/help/assets/icons/Filter.svg) paneel van de Filter [, deel van die zelfde ](seg-manage.md#filter-panel) manager van het Segment [.](seg-manage.md)
 >
 
 

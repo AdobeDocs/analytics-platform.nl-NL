@@ -1,11 +1,11 @@
 ---
-description: Met de Berekende metrische bouwer, kan iedereen een participatie metrisch tot stand brengen.
-title: Deelnemings-metrisch
+description: Leer hoe u een metrische deelname maakt.
+title: Deelnamemetrisch
 feature: Calculated Metrics
 exl-id: 0d102f0f-3bcc-4f3a-93d2-c2b991c636cb
-source-git-commit: b3c7ceedec7b3f6a916e97bab38fd55f1d6c7f51
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ De metriek van de participatie wordt gebruikt om te kwantificeren hoe de individ
 
 >[!NOTE]
 >
->De beheerders kunnen metriek met niet-gebrek attributiemodellen, zoals Deelname, als deel van a [ gegevensmening ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/data-views) tot stand brengen. Zie {de componentenmontages van 0} Attributie [&#128279;](../../../data-views/component-settings/attribution.md) voor meer details.
+>De beheerders kunnen metriek met niet-gebrek attributiemodellen, zoals Deelname, als deel van a [ gegevensmening ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views) tot stand brengen. Zie {de componentenmontages van 0} Attributie [ voor meer details.](../../../data-views/component-settings/attribution.md)
 
 De stappen tonen hieronder hoe om het even welke gebruiker met [ berekende metrische toestemming ](/help/technotes//access-control.md#user-level-access) kan tot een metrische participatie leiden.
 

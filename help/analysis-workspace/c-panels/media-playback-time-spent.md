@@ -1,10 +1,10 @@
 ---
 title: Deelvenster Tijd van afspelen van media
-description: Leer hoe u het deelvenster Media Playback Time Spent in Analysis Workspace kunt gebruiken en interpreteren.
+description: Leer het deelvenster Media Playback Time Spent in Analysis Workspace gebruiken en interpreteren.
 feature: Panels
 exl-id: de0fdbea-71f0-445b-a1e4-c7e895f142d4
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: ce4a21b1a1e89f14316a92fbdce38281db61e666
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_Dit artikel documenteert de media playbacktijd besteed paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_zie [ de playbacktijd van Media besteed paneel ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_Dit artikel documenteert de media playbacktijd besteed paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_zie [ de playbacktijd van Media besteed paneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ _Dit artikel documenteert de media playbacktijd besteed paneel in_ ![ CustomerJo
 >[!NOTE]
 >
 >Het deelvenster Mediapubliek met een gemiddeld aantal minuten is alleen beschikbaar voor klanten die de invoegtoepassing voor de verzameling van streaming media voor Customer Journey Analytics hebben aangeschaft.
->&#x200B;>Neem contact op met uw Adobe-verkoper of Adobe-accountteam voor meer informatie.
+>>Neem contact op met uw Adobe-verkoper of Adobe-accountteam voor meer informatie.
 >
 
 In het deelvenster **[!UICONTROL Media playback time spent]** kunt u het afspelen in de loop van de tijd analyseren met details over de piekfrequentie en de mogelijkheid om af te breken en te vergelijken.
@@ -129,6 +129,6 @@ De enige metrische waarde die in dit deelvenster kan worden gebruikt, is Afspeel
 >[!MORELIKETHIS]
 >
 >[ creeer een paneel ](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Mediagemiddelde minieme publiekspaneel ](average-minute-audience-panel.md)
->&#x200B;>[Deelvenster Mediagelijktijdige viewers ](media-concurrent-viewers.md)
+>>[Mediagemiddelde minieme publiekspaneel ](average-minute-audience-panel.md)
+>>[Deelvenster Mediagelijktijdige viewers ](media-concurrent-viewers.md)
 >

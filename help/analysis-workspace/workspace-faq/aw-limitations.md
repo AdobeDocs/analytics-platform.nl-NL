@@ -1,17 +1,17 @@
 ---
 description: Meer informatie over bekende beperkingen in Adobe Analysis Workspace en de bijbehorende componenten
-title: Bekende beperkingen in Analysis Workspace
-feature: FAQ
+title: Bekende beperkingen
+feature: Workspace Basics
 exl-id: 334cfe24-a4b2-43be-94df-5a2df90612f0
 role: User
-source-git-commit: e07b901f66a59aba1a7a517443eec73387d23c57
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '271'
 ht-degree: 1%
 
 ---
 
-# Bekende beperkingen in Analysis Workspace
+# Bekende beperkingen
 
 Hier volgt een lijst met bekende beperkingen in Analysis Workspace en de bijbehorende componenten:
 

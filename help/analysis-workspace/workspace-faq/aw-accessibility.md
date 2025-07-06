@@ -1,12 +1,12 @@
 ---
 description: Meer informatie over de toegankelijkheidsfuncties in Analysis Workspace.
 title: Toegankelijkheid in Analysis Workspace
-feature: FAQ
+feature: Workspace Basics
 exl-id: 1616c625-8914-4ede-815d-e8d62e796ea5
 role: User
-source-git-commit: e07b901f66a59aba1a7a517443eec73387d23c57
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Toegankelijkheid heeft betrekking op het bruikbaar maken van producten voor mens
 Navigatie in [!UICONTROL Analysis Workspace] werkt van boven naar beneden en van links naar rechts. De volgende navigatie-elementen vergemakkelijken de toegankelijkheid:
 
 * Met de toets **[!UICONTROL Tab]** kunt u sneltoetsen gebruiken om markeringen te markeren die zich verplaatsen tussen grotere secties in Workspace. In het linkerdeelvenster kunt u met **[!UICONTROL Tab]** ook van de ene versleepbare optie naar de andere gaan.
-* De &rbrace;︎ ◀ en ▶ &rbrace;︎ tussen afzonderlijke elementen gaan nadat met de toets **[!UICONTROL Tab]** een element is gemarkeerd.
+* De }︎ ◀ en ▶ }︎ tussen afzonderlijke elementen gaan nadat met de toets **[!UICONTROL Tab]** een element is gemarkeerd.
 * Met de **[!UICONTROL F6]** -toets navigeert u naar het eerste deelvenster in het project en gaat u tussen de visualisaties in dat deelvenster. Vervolgens wordt het naar het volgende deelvenster in het project verplaatst en herhaald.
 * Focusindicatoren worden toegepast zodat gebruikers met een waargenomen toetsenbord een duidelijke indicatie hebben van welk interface-element momenteel focus heeft. De indicator is een blauwe rand voor het deelvenster dat focus heeft. En grijze achtergrond voor de onlangs geselecteerde functionaliteit en de selectie binnen de functionaliteit. In het voorbeeld zijn [!UICONTROL Components] en de pagina-dimensie onlangs geselecteerd.
 
@@ -54,7 +54,7 @@ Navigatie in [!UICONTROL Analysis Workspace] werkt van boven naar beneden en van
 
 ### Sneltoetsen (sneltoetsen)
 
-[!UICONTROL Analysis Workspace] biedt een rijke reeks [ toetsenbordkortere weg ](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) voor een naadloze werkschema aan.
+[!UICONTROL Analysis Workspace] biedt een rijke reeks [ toetsenbordkortere weg (hotkeys) ](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) voor een naadloze werkschema aan.
 
 ## Ondersteuning voor schermlezers en schermvergrotingen
 

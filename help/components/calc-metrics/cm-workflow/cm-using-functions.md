@@ -1,11 +1,11 @@
 ---
-description: Met functies kunt u uw gegevens filteren/sorteren en statistische analyses uitvoeren.
+description: Leer hoe u functies kunt gebruiken om uw gegevens te filteren en te sorteren en statistische analyses uit te voeren.
 title: Functies gebruiken
 feature: Calculated Metrics
 exl-id: 7a41aa4e-90c6-4242-a801-2eef6b524cfe
-source-git-commit: 53069702055e0adf7abf9061c592fb15772ded73
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---

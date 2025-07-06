@@ -1,9 +1,9 @@
 ---
-description: De opeenvolgende segmenten zijn segmenten die de exploitant THEN gebruiken om de opeenvolging van segmentvoorwaarden te bepalen.
-title: Sequentiële segmenten
+description: Leer over opeenvolgende segmenten die de exploitant THEN gebruiken om een opeenvolging van segmentvoorwaarden te bepalen.
+title: SequentialSsegments
 feature: Filters, Segments
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: 8e10818efa7da54b0802c56e5388e6c7ef7fd8b6
 workflow-type: tm+mt
 source-wordcount: '2342'
 ht-degree: 1%
@@ -82,7 +82,7 @@ Identificeer alle zittingen waar een persoon één pagina vóór een andere pagi
 
 ## [!UICONTROL After] en [!UICONTROL Within]
 
-U kunt ![&#128279;](/help/assets/icons/Clock.svg) Klok **[!UICONTROL After]** en ![ Klok ](/help/assets/icons/Clock.svg) gebruiken **[!UICONTROL Within]** de **[!UICONTROL Then]** exploitant om extra [ tijdbeperkingen ](#time-constraints) of [ beperkingen voor Gebeurtenissen, Zittingen of Dimensies ](#event-session-and-dimension-constraints) te bepalen.
+U kunt ![ Klok ](/help/assets/icons/Clock.svg) en **[!UICONTROL After]** Klok ![ gebruiken ](/help/assets/icons/Clock.svg) de **[!UICONTROL Within]** exploitant om extra **[!UICONTROL Then]** tijdbeperkingen [ of ](#time-constraints) beperkingen voor Gebeurtenissen, Zittingen of Dimensies [ te bepalen.](#event-session-and-dimension-constraints)
 
 ### Tijdbeperkingen
 
@@ -91,7 +91,7 @@ Tijdsbeperkingen toepassen op de operator **[!UICONTROL Then]** :
 1. Selecteer ![ Klok ](/help/assets/icons/Clock.svg).
 1. Selecteer **[!UICONTROL Within]** of **[!UICONTROL After]** in het contextmenu.
 1. Geef een tijdsperiode op (**[!UICONTROL Minute]**, **[!UICONTROL Hour]** tot **[!UICONTROL Years]** ).
-1. Selecteer ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *aantal *]**&#x200B;om popup te openen die u toestaat om binnen te typen of een aantal te specificeren gebruikend **[!UICONTROL -]**&#x200B;of **[!UICONTROL +]**.
+1. Selecteer ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *aantal *]**om popup te openen die u toestaat om binnen te typen of een aantal te specificeren gebruikend **[!UICONTROL -]**of **[!UICONTROL +]**.
 
 Om een tijdbeperking te verwijderen, gebruik ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg).
 
@@ -296,7 +296,7 @@ Identificeer personen die een pagina bezochten toen uitdrukkelijk geen reeks and
 
 #### [!UICONTROL Exclude] [!UICONTROL Or]
 
-Identificeer personen die een pagina bezochten toen uitdrukkelijk geen pagina van een reeks pagina&#39;s bezocht, maar opnieuw een andere pagina bezocht. Bijvoorbeeld, de personen die de Homepage bezochten, bezochten niet de Mannen en de Vrouwen pagina, maar bezochten de Kinderen pagina.
+Identificeer personen die een pagina bezochten toen uitdrukkelijk geen pagina van een reeks pagina&#39;s bezocht, maar opnieuw een andere pagina bezocht. Bijvoorbeeld personen die de startpagina hebben bezocht en de pagina Mannen en Vrouwen niet hebben bezocht, maar wel de pagina Kinderen hebben bezocht.
 
 ![ Logische groep sluit uit en ](assets/logicgroup-exclude-or.png)
 

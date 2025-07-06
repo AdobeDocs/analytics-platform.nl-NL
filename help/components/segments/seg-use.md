@@ -1,15 +1,15 @@
 ---
-description: Hoe te om segmenten aan een rapport te gebruiken.
+description: Leer hoe u segmenten in Analysis Workspace kunt gebruiken.
 title: Segmenten gebruiken
 feature: Filters, Segments
 role: User
-source-git-commit: ae18137812eeab00bf0395e07e2eea445f92838d
+exl-id: 3d54dd03-96bf-4551-a523-fb6729eb09cb
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
-
 
 # Segmenten gebruiken
 

@@ -1,11 +1,11 @@
 ---
-description: Filteren op tags, gegevensweergave, eigenaars en andere filters (Alles weergeven, Mijns inziens, Gedeeld met mij, Favorieten en Goedgekeurd.)
-title: Berekende maateenheden filteren
+description: Leer hoe u berekende metriek filtert op tags, gegevensweergave, eigenaars en andere filters.
+title: De lijst met berekende metingen filteren
 feature: Calculated Metrics
 exl-id: 902da464-14de-45b9-bd92-d2db064cb095
-source-git-commit: 1907d94a0f53ee65a3839d879da6c06092f75e0f
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---

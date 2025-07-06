@@ -1,13 +1,14 @@
 ---
-title: Overzicht van berekende metriek
-description: Leer over gesegmenteerde metriek die in rapportruntime worden afgeleid.
+description: Meer informatie over berekende metriek die u kunt maken op basis van bestaande metriek.
+keywords: Berekende standaarden
+title: Overzicht van berekende statistieken
 feature: Calculated Metrics
 exl-id: c9205c95-8b01-4177-a89c-038886f41d3d
 role: User
-source-git-commit: ce18545a0ee597ee448fa55d83bdece54c7c849c
+source-git-commit: c209341400bf4e0c00719075f0fc82f81ca9dbb4
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 0%
+source-wordcount: '214'
+ht-degree: 1%
 
 ---
 
@@ -27,10 +28,10 @@ Een typisch werkschema voor berekende metriek bestaat uit deze taken
 
 | Taak | Beschrijving |
 | --- | --- |
-| Plan | Vooral, voor metriek die officieel zal worden goedgekeurd ![ Vinkje ](/help/assets/icons/Checkmark.svg), plant zorgvuldig en structureer de berekende metriek u verwacht dat vaak wordt gebruikt. |
+| Plan | Vooral, voor metriek die officieel zal worden goedgekeurd ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg), plant zorgvuldig en structureer de berekende metriek u verwacht dat vaak wordt gebruikt. |
 | [ bouwt ](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) | Samenstellen, wijzigen en berekende metriek opslaan. |
 | [ toepassen ](/help/components/use-components-in-workspace.md) | Pas berekende metriek direct binnen uw projecten van Workspace toe. |
-| [ leiden ](/help/components/calc-metrics/cm-workflow/cm-manager.md) | Berekende meetwaarden beheren. U kunt [ markering ](/help/components/calc-metrics/cm-workflow/cm-tagging.md) goedkeuren, [&#128279;](/help/components/calc-metrics/cm-workflow/cm-approving.md), [ goedkeuren ](/help/components/calc-metrics/cm-workflow/cm-approving.md), [ filter ](/help/components/calc-metrics/cm-workflow/cm-filter.md), [ gunt ](/help/components/calc-metrics/cm-workflow/cm-favorite.md) of [ unfavor ](/help/components/calc-metrics/cm-workflow/cm-favorite.md), [ aandeel ](/help/components/calc-metrics/cm-workflow/cm-sharing.md), of [ exemplaar ](/help/components/calc-metrics/cm-workflow/cm-copy.md) één of meerdere berekende metriek. |
+| [ leiden ](/help/components/calc-metrics/cm-workflow/cm-manager.md) | Berekende meetwaarden beheren. U kunt [ markering ](/help/components/calc-metrics/cm-workflow/cm-tagging.md) goedkeuren, [ ](/help/components/calc-metrics/cm-workflow/cm-approving.md), [ goedkeuren ](/help/components/calc-metrics/cm-workflow/cm-approving.md), [ filter ](/help/components/calc-metrics/cm-workflow/cm-filter.md), [ gunt ](/help/components/calc-metrics/cm-workflow/cm-favorite.md) of [ unfavor ](/help/components/calc-metrics/cm-workflow/cm-favorite.md), [ aandeel ](/help/components/calc-metrics/cm-workflow/cm-sharing.md), of [ exemplaar ](/help/components/calc-metrics/cm-workflow/cm-copy.md) één of meerdere berekende metriek. |
 
 Zie [ berekende metriek ](/help/components/calc-metrics/cm-workflow/cm-workflow.md) voor de diverse beschikbare opties tot stand brengen berekende metriek. U bouwt, wijzigt, en bewaart de definitie van de berekende metriek in de [ Berekende metriek bouwer ](cm-workflow/cm-build-metrics.md).
 
