@@ -16,7 +16,7 @@ De metriek van de participatie wordt gebruikt om te kwantificeren hoe de individ
 
 >[!NOTE]
 >
->De beheerders kunnen metriek met niet-gebrek attributiemodellen, zoals Deelname, als deel van a [ gegevensmening ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views) tot stand brengen. Zie {de componentenmontages van 0} Attributie [ voor meer details.](../../../data-views/component-settings/attribution.md)
+>De beheerders kunnen metriek met niet-gebrek attributiemodellen, zoals Deelname, als deel van a [ gegevensmening ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/data-views) tot stand brengen. Zie {de componentenmontages van 0} Attributie [ voor meer details.](../../../data-views/component-settings/attribution.md)
 
 De stappen tonen hieronder hoe om het even welke gebruiker met [ berekende metrische toestemming ](/help/technotes//access-control.md#user-level-access) kan tot een metrische participatie leiden.
 

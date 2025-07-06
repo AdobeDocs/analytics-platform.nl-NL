@@ -61,9 +61,9 @@ U kunt een specifieke rol met gebruikers of groepen delen, of u kunt een verbind
 
 Wanneer het delen van een specifieke projectrol met gebruikers en groepen in uw organisatie, overweeg het volgende:
 
-* Projectrollen (**[!UICONTROL Edit original]**, **[!UICONTROL Edit copy]** en **[!UICONTROL Read only]**) zijn gekoppeld aan de gebruiker en specifieke project-id. De rollen van het project zijn onafhankelijk van gebruikerstoestemmingen die in [ Adobe Experience Cloud Admin Console ](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-getting-started) worden beheerd.
+* Projectrollen (**[!UICONTROL Edit original]**, **[!UICONTROL Edit copy]** en **[!UICONTROL Read only]**) zijn gekoppeld aan de gebruiker en specifieke project-id. De rollen van het project zijn onafhankelijk van gebruikerstoestemmingen die in [ Adobe Experience Cloud Admin Console ](https://experienceleague.adobe.com/nl/docs/core-services/interface/administration/admin-getting-started) worden beheerd.
 
-* In Customer Journey Analytics, worden de groepen bepaald door productprofielen in [ Admin Console van Adobe Experience Cloud ](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-getting-started). Admins kan aan om het even welke groep delen, met inbegrip van *allen*. De niet-admins kunnen aan om het even welke groep delen zij een lid van zijn, behalve *allen*.
+* In Customer Journey Analytics, worden de groepen bepaald door productprofielen in [ Admin Console van Adobe Experience Cloud ](https://experienceleague.adobe.com/nl/docs/core-services/interface/administration/admin-getting-started). Admins kan aan om het even welke groep delen, met inbegrip van *allen*. De niet-admins kunnen aan om het even welke groep delen zij een lid van zijn, behalve *allen*.
 
 * Een gebruiker die in veelvoudige rollen wordt geplaatst krijgt altijd de hoogste ervaring. Dit scenario zou kunnen voorkomen als een gebruiker zowel als individueel als als deel van een groep wordt toegevoegd. Als een gebruiker bijvoorbeeld de **[!UICONTROL Edit original]** rol als individu en de **[!UICONTROL Read only]** rol als lid van een groep krijgt, ontvangt de gebruiker een **[!UICONTROL Edit original]** project beleving.
 

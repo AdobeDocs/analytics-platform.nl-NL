@@ -165,7 +165,7 @@ Gebeurteniscontainers bevatten op waarde gebaseerde uitsplitsingen van één pag
 
 ### B2B-containers
 
-[!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
+[!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
 
 Wanneer u toegang tot [ Customer Journey Analytics B2B edition ](/help/getting-started/cja-b2b-edition.md) hebt, zijn de extra containers voor gebruik in segmenten beschikbaar. U kunt meer details over het gebruik van deze extra containers in [ B2B concepten en eigenschappen ](/help/getting-started/cja-b2b-concepts-features.md) vinden.
 
