@@ -4,9 +4,9 @@ title: Vergelijking van Customer Journey Analytics- en Adobe Analytics-functies 
 feature: Workspace Basics
 role: User, Admin
 exl-id: 04e819c4-9fb5-4459-9f8b-40d78385ed90
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: 9e07dfc84bc06aef987d99c225cefb4e0406f552
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -45,16 +45,8 @@ Voor meer informatie over hoe te om de vertraging aan te passen, en de factoren 
 
 <!-- Starting with "However," the rest of this information should probably go into the actual documentation where we document the option to adjust the delay. -->
 
-## Een waarschuwing van Analysis Workspace maken is niet beschikbaar
+## Een waarschuwing maken
 
-In Analysis Workspace in Adobe Analytics kunt u waarschuwingen maken van Analysis Workspace op een van de onderstaande manieren. In Customer Journey Analytics zijn de opties voor het maken van waarschuwingen van Analysis Workspace nog niet beschikbaar. In plaats daarvan, toegang tot de Waakzame Bouwer, zoals die in [ wordt beschreven leidt alarm ](/help/components/c-intelligent-alerts/alert-builder.md) tot.
+In Analysis Workspace in Adobe Analytics, kunt u alarm van Analysis Workspace op veelvoudige manieren [ tot stand brengen. ](https://experienceleague.adobe.com/en/docs/analytics/components/alerts/alert-builder) In Customer Journey Analytics, kunt u slechts [ een alarm ](alert-builder.md) in Analysis Workspace van een selectie in een vrije vormlijst tot stand brengen.
 
-In Adobe Analytics zijn de volgende opties beschikbaar:
-
-* Selecteer een of meer regelitems in een vrije-vormtabel, klik met de rechtermuisknop en selecteer **[!UICONTROL Create alert from selection]** .
-
-  Dit vult onmiddellijk de waakzame bouwer vooraf in om een alarm met de correcte metriek en de segmenten tot stand te brengen.
-
-* Open een project in Analysis Workspace en selecteer vervolgens **[!UICONTROL Components]** > **[!UICONTROL Create alert]** .
-
-* Open een project in Analysis Workspace, dan gebruik de volgende kortere weg: **[!UICONTROL *ctrl *]**+**[!UICONTROL * verschuiving *]** + **[!UICONTROL *a *]**(Vensters) of&#x200B;**[!UICONTROL * cmd *]** + **[!UICONTROL *verschuiving *]**+**[!UICONTROL * a *]** (macOS).
+Zowel steunen Adobe Analytics als Customer Journey Analytics de verwezenlijking van alarm door de [ manager van de Alarm ](alert-manager.md)
