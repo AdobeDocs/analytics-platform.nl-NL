@@ -47,6 +47,6 @@ Voor meer informatie over hoe te om de vertraging aan te passen, en de factoren 
 
 ## Een waarschuwing maken
 
-In Analysis Workspace in Adobe Analytics, kunt u alarm van Analysis Workspace op veelvoudige manieren [ tot stand brengen. ](https://experienceleague.adobe.com/en/docs/analytics/components/alerts/alert-builder) In Customer Journey Analytics, kunt u slechts [ een alarm ](alert-builder.md) in Analysis Workspace van een selectie in een vrije vormlijst tot stand brengen.
+In Analysis Workspace in Adobe Analytics, kunt u alarm van Analysis Workspace op veelvoudige manieren [ tot stand brengen. ](https://experienceleague.adobe.com/nl/docs/analytics/components/alerts/alert-builder) In Customer Journey Analytics, kunt u slechts [ een alarm ](alert-builder.md) in Analysis Workspace van een selectie in een vrije vormlijst tot stand brengen.
 
 Zowel steunen Adobe Analytics als Customer Journey Analytics de verwezenlijking van alarm door de [ manager van de Alarm ](alert-manager.md)
