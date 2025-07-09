@@ -6,9 +6,9 @@ feature: Basics
 role: User, Admin
 badgePremium: label="B2B edition"
 exl-id: df2cc922-d214-49b9-8fdb-443cc1dac05b
-source-git-commit: 68f2fe684f6eb9590ab047e893fb04b1cbe1a8cd
+source-git-commit: a9c22cfd7077fd9e1ac4b9ea4ec0e016e9d2425b
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
@@ -60,8 +60,8 @@ De hiërarchie en de relaties tussen de containers zijn vooraf bepaald. Opportun
 
 >[!IMPORTANT]
 >
->* Als u **&#x200B;**&#x200B;de Globale container van de Rekening in een op rekening-gebaseerde verbinding hebt toegelaten, zou elk verslag in uw gebeurtenisdatasets een identiteitskaart van de Rekening en Globale identiteitskaart van de Rekening moeten bevatten. Als dat niet het geval is, wordt de record overgeslagen.
->* Als u **&#x200B;**&#x200B;niet de Globale container van de Rekening in een op rekening-gebaseerde verbinding hebt toegelaten, zou elk verslag in uw gebeurtenisdatasets een identiteitskaart van de Rekening moeten bevatten. Als dat niet het geval is, wordt de record overgeslagen.
+>* Als u **** de Globale container van de Rekening in een op rekening-gebaseerde verbinding hebt toegelaten, zou elk verslag in uw gebeurtenisdatasets een identiteitskaart van de Rekening en Globale identiteitskaart van de Rekening moeten bevatten. Als dat niet het geval is, wordt de record overgeslagen.
+>* Als u **** niet de Globale container van de Rekening in een op rekening-gebaseerde verbinding hebt toegelaten, zou elk verslag in uw gebeurtenisdatasets een identiteitskaart van de Rekening moeten bevatten. Als dat niet het geval is, wordt de record overgeslagen.
 
 U kunt de B2B-containers gebruiken voor specifieke B2B-functionaliteit in Analysis Workspace:
 
@@ -86,8 +86,8 @@ In Customer Journey Analytics B2B wordt onderscheid gemaakt tussen de volgende g
 
 | Gegevenstype | Tijdreeks | Containerrecords | Veldrecords |
 |---|---|---|---|
-| **Datasets** | {de datasets van de Gebeurtenis 0} **<br/>bijvoorbeeld:**<ul><li>Digitale analysemogelijkheden</li><li>CRM-gebeurtenissen</li><li>Persoonlijke gebeurtenissen</li><li>Gegevens van callcenter</li></ul> | {de datasets van het 0} Profiel **<br/>bijvoorbeeld:**<ul><li>CRM-gegevens</li><li>AJO B2B-records</li><li>CDP-records</li><ul> | **Classificaties**<br/> bijvoorbeeld:<ul><li>Campagnebestanden</li><li>Records voor marketinglijsten</li><li>Metagegevens inhoud</li><li>Productdossiers</li></ul> |
-| Vereisten | **Stempel van de Tijd**<br> Elk verslag vereist:<ul><li>Account-id</li><li>Globale account-id</li><li>Persoon-id</li></ul> | **identiteitskaart van de Rekening**<br> Vereist de Verslagen van de Rekening een containeridentiteitskaart, als:<ul><li>Account</li><li>Persoon</li><li>Opportunity</li><li>Groep voor kopen</li></ul> | **het Aanpassen van sleutel**<br> Vereist Verslagen identiteitskaart in een container of gebeurtenisdataset, als:<ul><li>Campagne-id</li><li>Inhoud-id</li><li>Product-id</li></ul> |
+| **Datasets** | {de datasets van de Gebeurtenis 0} **bijvoorbeeld:**<br/><ul><li>Digitale analysemogelijkheden</li><li>CRM-gebeurtenissen</li><li>Persoonlijke gebeurtenissen</li><li>Gegevens van callcenter</li></ul> | {de datasets van het 0} Profiel **bijvoorbeeld:**<br/><ul><li>CRM-gegevens</li><li>AJO B2B-records</li><li>CDP-records</li><ul> | **Classificaties**<br/> bijvoorbeeld:<ul><li>Campagnebestanden</li><li>Records voor marketinglijsten</li><li>Metagegevens inhoud</li><li>Productdossiers</li></ul> |
+| Vereisten | **Stempel van de Tijd**<br> Elk verslag vereist:<ul><li>Account-id</li><li>Global Account ID (optioneel)</li></ul> | **identiteitskaart van de Rekening**<br> Vereist de Verslagen van de Rekening een containeridentiteitskaart, als:<ul><li>Account</li><li>Persoon</li><li>Opportunity</li><li>Groep voor kopen</li></ul> | **het Aanpassen van sleutel**<br> Vereist Verslagen identiteitskaart in een container of gebeurtenisdataset, als:<ul><li>Campagne-id</li><li>Inhoud-id</li><li>Product-id</li></ul> |
 
 {style="table-layout:fixed"}
 
