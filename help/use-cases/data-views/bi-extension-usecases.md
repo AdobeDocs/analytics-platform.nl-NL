@@ -5,16 +5,16 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: User
 exl-id: 3d1e3b79-402d-44ff-86b3-be9fd5494e19
-source-git-commit: d222de47c57c510b2a967d26e24de4ddfa9c3185
+source-git-commit: 4b3effffe944df9aaf473c27acc5b2260acbb753
 workflow-type: tm+mt
-source-wordcount: '11960'
+source-wordcount: '11008'
 ht-degree: 0%
 
 ---
 
 # Gebruikskwesties voor extensie BI
 
-In dit artikel wordt beschreven hoe u een aantal gebruiksgevallen (15) kunt uitvoeren met de Customer Journey Analytics BI-extensie. In elke gebruikszaak wordt de Customer Journey Analytics-functionaliteit beschreven, gevolgd door details voor elk van de ondersteunde BI-gereedschappen:
+In dit artikel wordt beschreven hoe u een aantal gebruiksgevallen kunt uitvoeren met de Customer Journey Analytics BI-extensie. In elke gebruikszaak wordt de Customer Journey Analytics-functionaliteit beschreven, gevolgd door details voor elk van de ondersteunde BI-gereedschappen:
 
 * **Desktop van Power BI**. De gebruikte versie is 2.137.1102.0 64-bits (oktober 2024).
 * **Desktop van Tableau**. De gebruikte versie is 2024.1.5 (20241.24.0705.0334) 64-bits.
@@ -94,41 +94,35 @@ Wanneer u de gebruiksgevallen doorloopt, vervangt u deze voorbeeldobjecten door 
 1. Start Power BI Desktop.
    1. Selecteer **[!UICONTROL Get data from other sources]** in de hoofdinterface.
    1. In het dialoogvenster **[!UICONTROL Get Data]** :
-
       ![ gegevensbestand PowerBI PostgreSQL ](assets/powerbi-postgresql.png)
       1. Zoek en selecteer **[!UICONTROL PostgreSQL database]** .
       1. Selecteer **[!UICONTROL Connect]** .
    1. In het dialoogvenster **[!UICONTROL PostgreSQL database]** :
-
       ![ de Server en montages van het Gegevensbestand van de Desktop PowerBI ](assets/powerbi-serverdatabase.png)
       1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om de **[!UICONTROL Host]** en **[!UICONTROL Port]** waarden van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]**, die door `:` als waarde voor **[!UICONTROL Server]** wordt gescheiden. Bijvoorbeeld: `examplecompany.platform-query.adobe.io:80` .
       1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om de **[!UICONTROL Database]** waarde van het Experience Platform **[!UICONTROL Query]** **[!UICONTROL Expiring Credentials]** paneel te kopiëren en te kleven. Voeg `?FLATTEN` toe aan de waarde die u plakt. Bijvoorbeeld `prod:cja?FLATTEN` .
       1. Selecteer **[!UICONTROL DirectQuery]** als de **[!UICONTROL Data connectivity mode]** .
       1. Selecteer **[!UICONTROL OK]** .
    1. In het dialoogvenster **[!UICONTROL PostgreSQL database]** - **[!UICONTROL Database]** :
-
       ![ Gebruiker en Wachtwoord van de Desktop PowerBI ](assets/powerbi-userpassword.png)
-      1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om de **[!UICONTROL Username]** en **[!UICONTROL Password]** waarden van het Experience Platform **[!UICONTROL Query]** te kopiëren **[!UICONTROL Expiring Credentials]** paneel in **[!UICONTROL User name]** en **[!UICONTROL Password]** gebieden. Als u a [ niet-uitbreidende credentie ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect) gebruikt, gebruik het wachtwoord van uw niet-uitbreidende referentie.
+      1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om de **[!UICONTROL Username]** en **[!UICONTROL Password]** waarden van het Experience Platform **[!UICONTROL Query]** te kopiëren **[!UICONTROL Expiring Credentials]** paneel in **[!UICONTROL User name]** en **[!UICONTROL Password]** gebieden. Als u a [ niet-uitbreidende credentie ](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect) gebruikt, gebruik het wachtwoord van uw niet-uitbreidende referentie.
       1. Zorg ervoor dat het vervolgkeuzemenu voor **[!UICONTROL Select which level to apply these settings to]** is ingesteld op de **[!UICONTROL Server]** die u eerder hebt gedefinieerd.
       1. Selecteer **[!UICONTROL Connect]** .
    1. In het dialoogvenster **[!UICONTROL Navigator]** worden de gegevensweergaven opgehaald. Dit kan enige tijd duren. Zodra teruggewonnen, ziet u het volgende in de Desktop van Power BI.
-
       ![ de Gegevens van de Lading van de Desktop van Power BI ](assets/powerbi-navigator-load.png)
       1. Selecteer **[!UICONTROL public.cc_data_view]** in de lijst in het linkerdeelvenster.
       1. U hebt twee opties:
          1. Selecteer **[!UICONTROL Load]** om door te gaan en de installatie te voltooien.
          1. Selecteer **[!UICONTROL Transform Data]** . Er wordt een dialoogvenster weergegeven waarin u desgewenst transformaties kunt toepassen als onderdeel van de configuratie.
-
             ![ Gegevens van de Transformatie van de Desktop van Power BI ](assets/powerbi-transform-data.png)
             * Selecteer **[!UICONTROL Close & Apply]** .
    1. Na enige tijd wordt **[!UICONTROL public.cc_data_view]** weergegeven in het deelvenster **[!UICONTROL Data]** . Selecteer ![ ChevronRight ](/help/assets/icons/ChevronRight.svg) om afmetingen en metriek te tonen.
-
       ![ Gegevens van de Server van de Desktop van Power BI geladen ](assets/powerbi-navigator-loaded.png)
 
 
 ### Naar FLATTEN of niet
 
-Power BI Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [ genestelde gegevens ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
+Power BI Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [ genestelde gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
 
 | FLATTEN, parameter | Voorbeeld | Ondersteund | Opmerkingen |
 |---|---|:---:|---|
@@ -139,8 +133,8 @@ Power BI Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATT
 ### Meer informatie
 
 * [Vereisten](/help/data-views/bi-extension.md#prerequisites)
-* [ gids van Geloofsbrieven ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials)
-* [ verbind Power BI met de Dienst van de Vraag ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/power-bi).
+* [ gids van Geloofsbrieven ](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
+* [ verbind Power BI met de Dienst van de Vraag ](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/power-bi).
 
 
 
@@ -158,17 +152,15 @@ Power BI Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATT
 
 1. Start Tableau.
    1. Selecteer **[!UICONTROL PostgreSQL]** in de linkertrack onder **[!UICONTROL To a Server]** . Als deze optie niet beschikbaar is, selecteert u **[!UICONTROL More...]** en selecteert u **[!UICONTROL PostgreSQL]** in het menu **[!UICONTROL Installed Connectors]** .
-
       ![ Verbindingen van Tableau ](assets/tableau-connectors.png)
    1. Ga in het dialoogvenster **[!UICONTROL PostgreSQL]** op het tabblad **[!UICONTROL General]** naar:
-
       ![ Teken van Tableau binnen dialoog ](assets/tableau-signin.png)
       1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om **[!UICONTROL Host]** van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** aan **[!UICONTROL Server]**.
       1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om **[!UICONTROL Port]** van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** aan **[!UICONTROL Port]**.
       1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om **[!UICONTROL Database]** van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** aan **[!UICONTROL Database]**. Voeg `%3FFLATTEN` toe aan de waarde die u plakt. Bijvoorbeeld: `prod:cja%3FFLATTEN` .
       1. Selecteer **[!UICONTROL Username and Password]** in de vervolgkeuzelijst **[!UICONTROL Authentication]** .
       1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om **[!UICONTROL Username]** van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** aan **[!UICONTROL Username]**.
-      1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om **[!UICONTROL Password]** van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** aan **[!UICONTROL Password]**. Als u a [ niet-uitbreidende credentie ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect) gebruikt, gebruik het wachtwoord van uw niet-uitbreidende referentie.
+      1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om **[!UICONTROL Password]** van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** aan **[!UICONTROL Password]**. Als u a [ niet-uitbreidende credentie ](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect) gebruikt, gebruik het wachtwoord van uw niet-uitbreidende referentie.
       1. Controleer of **[!UICONTROL Require SSL]** is ingeschakeld.
       1. Selecteer **[!UICONTROL Sign In]** .
 
@@ -177,16 +169,14 @@ Power BI Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATT
       * De naam van de verbinding, onder **[!UICONTROL Connections]** .
       * De naam van de database, onder **[!UICONTROL Database]** .
       * Een lijst met tabellen, onder **[!UICONTROL Table]** .
-
         ![ Verbonden Tableau ](assets/tableau-connected.png)
       1. Sleep het item **[!UICONTROL cc_data_view]** en zet het neer in de hoofdweergave die **[!UICONTROL Drag tables]** hier leest.
    1. In het hoofdvenster worden de details van de gegevensweergave van **[!UICONTROL cc_data_view]** weergegeven.
-
       ![ Verbonden Tableau ](assets/tableau-validation.png)
 
 ### Naar FLATTEN of niet
 
-Tableau Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [ genestelde gegevens ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
+Tableau Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [ genestelde gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
 
 | FLATTEN, parameter | Voorbeeld | Ondersteund | Opmerkingen |
 |---|---|:---:|---|
@@ -197,8 +187,8 @@ Tableau Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTE
 ### Meer informatie
 
 * [Vereisten](/help/data-views/bi-extension.md#prerequisites)
-* [ gids van Geloofsbrieven ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials)
-* [ verbind de Desktop van Tableau aan de Dienst van de Vraag ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/tableau).
+* [ gids van Geloofsbrieven ](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
+* [ verbind de Desktop van Tableau aan de Dienst van de Vraag ](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/tableau).
 
 
 >[!TAB  Leider ]
@@ -263,7 +253,7 @@ Tableau Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTE
 
 ### Naar FLATTEN of niet
 
-De markering ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [ genestelde gegevens ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
+De markering ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [ genestelde gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
 
 | FLATTEN, parameter | Voorbeeld | Ondersteund | Opmerkingen |
 |---|---|:---:|---|
@@ -274,7 +264,7 @@ De markering ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` 
 ### Meer informatie
 
 * [Vereisten](/help/data-views/bi-extension.md#prerequisites)
-* [ gids van Geloofsbrieven ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials)
+* [ gids van Geloofsbrieven ](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
 
 
 >[!TAB  Jupyter Notitieboekje ]
@@ -340,7 +330,7 @@ De markering ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` 
 
    Voer de shell uit. Er wordt geen uitvoer weergegeven, maar de cel moet zonder waarschuwing worden uitgevoerd.
 
-   ![ Stap 4 van Config van het Notitieboekje van de Jupyer 1&rbrace;](assets/jupyter-config-step2.png)
+   ![ Stap 4 van Config van het Notitieboekje van de Jupyer 1}](assets/jupyter-config-step2.png)
 
 1. In een nieuwe vraag, ga de verklaringen in om een lijst van beschikbare gegevensmeningen te krijgen die op de verbinding worden gebaseerd.
 
@@ -370,7 +360,7 @@ De markering ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` 
 
 ### Naar FLATTEN of niet
 
-Jupyter-laptop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [ genestelde gegevens ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
+Jupyter-laptop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [ genestelde gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
 
 | FLATTEN, parameter | Voorbeeld | Ondersteund | Opmerkingen |
 |---|---|:---:|---|
@@ -381,7 +371,7 @@ Jupyter-laptop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN
 ### Meer informatie
 
 * [Vereisten](/help/data-views/bi-extension.md#prerequisites)
-* [ gids van Geloofsbrieven ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials)
+* [ gids van Geloofsbrieven ](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
 
 >[!TAB  RStudio ]
 
@@ -396,7 +386,7 @@ Jupyter-laptop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN
 
 1. Start RStudio.
 1. Creeer een nieuw dossier van de Markering R, of download [ dit voorbeeld of markeringsdossier ](assets/BI-Extension.Rmd.zip).
-1. Voer in het eerste segment de volgende instructies in tussen ` ` ``{r} ` en ` `` ` ` . Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om waarden van het Experience Platform **[!UICONTROL Query]** **[!UICONTROL Expiring Credentials]** paneel aan de waarden te kopiëren en te kleven die voor de diverse parameters, zoals `host` worden vereist, `dbname`, en `user`. Bijvoorbeeld:
+1. Voer in het eerste segment de volgende instructies in tussen ` ```{r} ` en ` ``` ` . Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om waarden van het Experience Platform **[!UICONTROL Query]** **[!UICONTROL Expiring Credentials]** paneel aan de waarden te kopiëren en te kleven die voor de diverse parameters, zoals `host` worden vereist, `dbname`, en `user`. Bijvoorbeeld:
 
    ```R
    library(rstudioapi)
@@ -417,7 +407,7 @@ Jupyter-laptop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN
 
    ![ RStudio config stap 1 ](assets/rstudio-config-step1.png)
 
-1. Maak een nieuw segment en voer de volgende instructies in tussen ` ` `` {r} ` en ` `` ` ` .
+1. Maak een nieuw segment en voer de volgende instructies in tussen ` ``` {r} ` en ` ``` ` .
 
    ```R
    con <- dbConnect(
@@ -434,7 +424,7 @@ Jupyter-laptop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN
 1. Voer het segment uit. Er wordt geen uitvoer weergegeven als de verbinding is gelukt.
 
 
-1. Maak een nieuw segment en voer de volgende instructies in tussen ` ` `` {r} ` en ` `` ` ` .
+1. Maak een nieuw segment en voer de volgende instructies in tussen ` ``` {r} ` en ` ``` ` .
 
    ```R
    views <- dbListTables(con)
@@ -444,7 +434,7 @@ Jupyter-laptop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN
 1. Voer het segment uit. U moet `character(0)` zien als de enige uitvoer.
 
 
-1. Maak een nieuw segment en voer de volgende instructies in tussen ` ` `` {r} ` en ` `` ` ` .
+1. Maak een nieuw segment en voer de volgende instructies in tussen ` ``` {r} ` en ` ``` ` .
 
    ```R
    glimpse(dv)
@@ -456,7 +446,7 @@ Jupyter-laptop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN
 
 ### Naar FLATTEN of niet
 
-RStudio ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [ genestelde gegevens ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
+RStudio ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [ genestelde gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
 
 | FLATTEN, parameter | Voorbeeld | Ondersteund | Opmerkingen |
 |---|---|:---:|---|
@@ -467,7 +457,7 @@ RStudio ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie
 ### Meer informatie
 
 * [Vereisten](/help/data-views/bi-extension.md#prerequisites)
-* [ gids van Geloofsbrieven ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials)
+* [ gids van Geloofsbrieven ](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
 
 >[!ENDTABS]
 
@@ -499,7 +489,7 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 
 1. In het deelvenster **[!UICONTROL Data]** :
    1. Selecteer **[!UICONTROL daterangeday]** .
-   1. Selecteer **[!UICONTROL ∑ occurrences]** .
+   1. Selecteer **[!UICONTROL sum occurrences]** .
 
    Er wordt een tabel weergegeven met de exemplaren voor de huidige maand. Vergroot de visualisatie voor een betere zichtbaarheid.
 
@@ -538,7 +528,7 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 
    1. Sleep **[!UICONTROL Daterangeday]** vanuit de lijst **[!UICONTROL Tables]** in het deelvenster **[!UICONTROL Data]** en zet de vermelding in het veld naast **[!UICONTROL Columns]** neer.
       * Selecteer **[!UICONTROL Day]** in de vervolgkeuzelijst **[!UICONTROL Daterangeday]** , zodat de waarde wordt bijgewerkt naar **[!UICONTROL DAY(Daterangeday)]** .
-   1. De belemmering en laat vallen **[!UICONTROL Occurrences]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**&#x200B;lijst in de **[!UICONTROL Data]**&#x200B;ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Rows]**. De waarde wordt automatisch omgezet in **[!UICONTROL SUM(Occurrences)]**.
+   1. De belemmering en laat vallen **[!UICONTROL Occurrences]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**lijst in de **[!UICONTROL Data]**ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Rows]**. De waarde wordt automatisch omgezet in **[!UICONTROL SUM(Occurrences)]**.
    1. Wijzig **[!UICONTROL Standard]** in **[!UICONTROL Entire View]** in het vervolgkeuzemenu **[!UICONTROL Fit]** op de werkbalk.
 
       Uw Tableau Desktop moet er hieronder uitzien.
@@ -574,7 +564,6 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-
       ![ filter van de Leider ](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/02/01]** .
 1. Vanaf het gedeelte **[!UICONTROL Cc Data View]** in de linkerspoorstaaf,
@@ -615,7 +604,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 >[!TAB  RStudio ]
 
-1. Voer de volgende instructies tussen ` ` ``{r} ` en ` `` ` ` in een nieuw segment in.
+1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in.
 
    ```R
    ## Daily Events
@@ -663,7 +652,7 @@ Een voorbeeldvenster **[!UICONTROL Hourly Trend]** voor het hoofdlettergebruik:
 
 >[!TAB  Desktop van Power BI ]
 
-![ AlertRed ](/help/assets/icons/AlertRed.svg) Power BI **&#x200B;**&#x200B;begrijpt niet hoe te om datum-tijd gebieden te behandelen, zodat worden de afmetingen zoals **[!UICONTROL daterangehour]** en **[!UICONTROL daterangeminute]** niet gesteund.
+![ AlertRed ](/help/assets/icons/AlertRed.svg) Power BI **** begrijpt niet hoe te om datum-tijd gebieden te behandelen, zodat worden de afmetingen zoals **[!UICONTROL daterangehour]** en **[!UICONTROL daterangeminute]** niet gesteund.
 
 >[!TAB  Desktop Tableau ]
 
@@ -676,7 +665,7 @@ Een voorbeeldvenster **[!UICONTROL Hourly Trend]** voor het hoofdlettergebruik:
 
    1. Sleep **[!UICONTROL Daterangehour]** vanuit de lijst **[!UICONTROL Tables]** in het deelvenster **[!UICONTROL Data]** en zet de vermelding in het veld naast **[!UICONTROL Columns]** neer.
       * Selecteer **[!UICONTROL More]** > **[!UICONTROL Hours]** in de vervolgkeuzelijst **[!UICONTROL Daterangeday]** , zodat de waarde wordt bijgewerkt naar **[!UICONTROL HOUR(Daterangeday)]** .
-   1. De belemmering en laat vallen **[!UICONTROL Occurrences]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**&#x200B;lijst in de **[!UICONTROL Data]**&#x200B;ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Rows]**. De waarde wordt automatisch omgezet in **[!UICONTROL SUM(Occurrences)]**.
+   1. De belemmering en laat vallen **[!UICONTROL Occurrences]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**lijst in de **[!UICONTROL Data]**ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Rows]**. De waarde wordt automatisch omgezet in **[!UICONTROL SUM(Occurrences)]**.
    1. Wijzig **[!UICONTROL Standard]** in **[!UICONTROL Entire View]** in het vervolgkeuzemenu **[!UICONTROL Fit]** op de werkbalk.
 
       Uw Tableau Desktop moet er hieronder uitzien.
@@ -713,7 +702,6 @@ Een voorbeeldvenster **[!UICONTROL Hourly Trend]** voor het hoofdlettergebruik:
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-
       ![ filter van de Leider ](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/01/02]** .
 1. Vanaf het gedeelte **[!UICONTROL Cc Data View]** in de linkerspoorstaaf,
@@ -754,7 +742,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 >[!TAB  RStudio ]
 
-1. Voer de volgende instructies tussen ` ` ``{r} ` en ` `` ` ` in een nieuw segment in.
+1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in.
 
    ```R
    ## Hourly Events
@@ -804,7 +792,7 @@ Een voorbeeldvenster **[!UICONTROL Monthly Trend]** voor het hoofdlettergebruik:
 
 1. In het deelvenster **[!UICONTROL Data]** :
    1. Selecteer **[!UICONTROL daterangemonth]** .
-   1. Selecteer **[!UICONTROL ∑ occurrences]** .
+   1. Selecteer **[!UICONTROL sum occurrences]** .
 
    Er wordt een tabel weergegeven met de exemplaren voor de huidige maand. Vergroot de visualisatie voor een betere zichtbaarheid.
 
@@ -845,7 +833,7 @@ Een voorbeeldvenster **[!UICONTROL Monthly Trend]** voor het hoofdlettergebruik:
 
    1. Sleep **[!UICONTROL Daterangeday]** vanuit de lijst **[!UICONTROL Tables]** in het deelvenster **[!UICONTROL Data]** en zet de vermelding in het veld naast **[!UICONTROL Columns]** neer.
       * Selecteer **[!UICONTROL MONTH]** in de vervolgkeuzelijst **[!UICONTROL Daterangeday]** , zodat de waarde wordt bijgewerkt naar **[!UICONTROL MONTH(Daterangeday)]** .
-   1. De belemmering en laat vallen **[!UICONTROL Occurrences]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**&#x200B;lijst in de **[!UICONTROL Data]**&#x200B;ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Rows]**. De waarde wordt automatisch omgezet in **[!UICONTROL SUM(Occurrences)]**.
+   1. De belemmering en laat vallen **[!UICONTROL Occurrences]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**lijst in de **[!UICONTROL Data]**ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Rows]**. De waarde wordt automatisch omgezet in **[!UICONTROL SUM(Occurrences)]**.
    1. Wijzig **[!UICONTROL Standard]** in **[!UICONTROL Entire View]** in het vervolgkeuzemenu **[!UICONTROL Fit]** op de werkbalk.
 
       Uw Tableau Desktop moet er hieronder uitzien.
@@ -881,7 +869,6 @@ Een voorbeeldvenster **[!UICONTROL Monthly Trend]** voor het hoofdlettergebruik:
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-
       ![ filter van de Leider ](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2024/01/01]** .
 1. Vanaf de linkerspoorstaaf **[!UICONTROL Cc Data View]** ,
@@ -922,7 +909,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 >[!TAB  RStudio ]
 
-1. Voer de volgende instructies tussen ` ` ``{r} ` en ` `` ` ` in een nieuw segment in.
+1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in.
 
    ```R
    ## Hourly Events
@@ -959,175 +946,174 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
 
 +++
 
-+++ BI-gereedschappen
+<!--
+
++++ BI tools
 
 >[!PREREQUISITES]
 >
->Verzeker u [ een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening ](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
+>Ensure you have validated [a successful connection, can list data views, and use a data view](#connect-and-validate) for the BI tool for which you want to try out this use case. 
 >
 
 >[!BEGINTABS]
 
->[!TAB  Desktop van Power BI ]
+>[!TAB Power BI Desktop] 
 
-1. In het deelvenster **[!UICONTROL Data]** :
-   1. Selecteer **[!UICONTROL daterange]** .
-   1. Selecteer **[!UICONTROL product_name]** .
-   1. Selecteer **[!UICONTROL ∑ purchase_revenue]** .
-   1. Selecteer **[!UICONTROL ∑ purchases]** .
+1. In the **[!UICONTROL Data]** pane:
+   1. Select **[!UICONTROL daterange]**.
+   1. Select **[!UICONTROL product_name]**.
+   1. Select **[!UICONTROL sum purchase_revenue]**.
+   1. Select **[!UICONTROL sum purchases]**.
+   
+   You see an empty table displaying only the column headers for the selected element. For better visibility, enlarge the visualization.
 
-   Er wordt een lege tabel weergegeven met alleen de kolomkoppen voor het geselecteerde element. Vergroot de visualisatie voor een betere zichtbaarheid.
+1. In the **[!UICONTROL Filters]** pane:
 
-1. In het deelvenster **[!UICONTROL Filters]** :
+   1. Select the **[!UICONTROL daterange is (All)]** from **[!UICONTROL Filters on this visual]**.
+   1. Select **[!UICONTROL Relative date]** as the **[!UICONTROL Filter type]**.
+   1. Define the filter to **[!UICONTROL Show items when the value]** **[!UICONTROL is in the last]** `1` **[!UICONTROL calendar years]**.
+   1. Select **[!UICONTROL Apply filter]**.
+   
+   You see the table updated with the applied **[!UICONTROL daterange]** filter.
 
-   1. Selecteer de **[!UICONTROL daterange is (All)]** van **[!UICONTROL Filters on this visual]**.
-   1. Selecteer **[!UICONTROL Relative date]** als de **[!UICONTROL Filter type]** .
-   1. Definieer het filter naar **[!UICONTROL Show items when the value]** **[!UICONTROL is in the last]** `1` **[!UICONTROL calendar years]** .
-   1. Selecteer **[!UICONTROL Apply filter]** .
+1. In the **[!UICONTROL Visualization]** pane:
 
-   De tabel wordt bijgewerkt met het toegepaste filter **[!UICONTROL daterange]** .
+   1. Use ![CrossSize75](/help/assets/icons/CrossSize75.svg) to remove **[!UICONTROL daterange]** from **[!UICONTROL Columns]**.
+   1. Drag and drop **[!UICONTROL Sum of purchases_revenue]** underneath **[!UICONTROL Sum of purchases]** in **[!UICONTROL Columns]**.
 
-1. In het deelvenster **[!UICONTROL Visualization]** :
+1. On the Table visualization:
+   
+   1. Select **[!UICONTROL Sum of purchase_revenue]** to sort the product names in descending purchase revenue order. Your Power BI Desktop should look like below.
+   
+   ![Power BI Desktop Use Case 5 Table status](assets/uc5-pbi-table.png)
 
-   1. Gebruik ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL daterange]** uit **[!UICONTROL Columns]** te verwijderen.
-   1. Sleep **[!UICONTROL Sum of purchases_revenue]** onder **[!UICONTROL Sum of purchases]** in **[!UICONTROL Columns]** .
+1. In the **[!UICONTROL Filters]** pane:
 
-1. Voor de visualisatie van de Lijst:
+   1. Select **[!UICONTROL product_name is (All)]**.
+   1. Set **[!UICONTROL Filter type]** to **[!UICONTROL Top N]**.
+   1. Define the filter to **[!UICONTROL Show items]** **[!UICONTROL Top]** `10` **[!UICONTROL By value]**.
+   1. Drag and drop **[!UICONTROL purchase_revenue]** into **[!UICONTROL By value]** **[!UICONTROL Add data fields here]**.
+   1. Select **[!UICONTROL Apply filter]**.
 
-   1. Selecteer **[!UICONTROL Sum of purchase_revenue]** om de productnamen te sorteren in aflopende volgorde van inkoopopbrengsten. Je Power BI Desktop moet er hieronder uitzien.
+   You see the table updated with values for purchase revenue in sync with the Freeform table visualization in Analysis Workspace.
 
-   ![ Hoofdlettergebruik 5 van de Lijst van het Gebruik van de Desktop van Power BI status ](assets/uc5-pbi-table.png)
+1. In the **[!UICONTROL Visualizations]** pane:
 
-1. In het deelvenster **[!UICONTROL Filters]** :
+   1. Select the **[!UICONTROL Line and stacked column chart]** visualization. 
 
-   1. Selecteer **[!UICONTROL product_name is (All)]** .
-   1. Stel **[!UICONTROL Filter type]** in op **[!UICONTROL Top N]** .
-   1. Definieer het filter naar **[!UICONTROL Show items]** **[!UICONTROL Top]** `10` **[!UICONTROL By value]** .
-   1. Sleep **[!UICONTROL purchase_revenue]** naar **[!UICONTROL By value]** **[!UICONTROL Add data fields here]** .
-   1. Selecteer **[!UICONTROL Apply filter]** .
+   A line and stacked column chart visualization replaces the table while using the same data as the table.
 
-   U ziet de tabel die is bijgewerkt met waarden voor de aankoopopbrengsten, in overeenstemming met de visualisatie van de tabel Freeform in Analysis Workspace.
+1. Drag and drop **[!UICONTROL purchases]** onto **[!UICONTROL Line y-axis]** in the **[!UICONTROL Visualizations]** pane.
 
-1. In het deelvenster **[!UICONTROL Visualizations]** :
+   The line and stacked column chart is updated. Your Power BI Desktop should look like below.
 
-   1. Selecteer de **[!UICONTROL Line and stacked column chart]** visualisatie.
+   ![Power BI Desktop Use Case 5 Graph](assets/uc5-pbi-chart.png)
 
-   Een lijn en gestapelde kolomgrafiekvisualisatie vervangen de lijst terwijl het gebruiken van de zelfde gegevens zoals de lijst.
+1. On the Line and stacked column chart visualization:
 
-1. Sleep **[!UICONTROL purchases]** naar **[!UICONTROL Line y-axis]** in het deelvenster **[!UICONTROL Visualizations]** .
+   1. Select ![More](/help/assets/icons/More.svg).
+   1. From the context menu, select **[!UICONTROL Show as a table]**.
 
-   De lijn en gestapelde kolomgrafiek worden bijgewerkt. Je Power BI Desktop moet er hieronder uitzien.
+   The main view is updated to show both a line visualization and a table.
 
-   ![ Hoofdlettergebruik 5 van het Gebruik van de Desktop van Power BI Grafiek ](assets/uc5-pbi-chart.png)
+   ![Power BI Desktop Use Case 2 Final Daily Trend visualization](assets/uc5-pbi-final.png)
 
-1. Op de Lijn en gestapelde kolomgrafiekvisualisatie:
+>[!TAB Tableau Desktop]
 
-   1. Selecteer ![ Meer ](/help/assets/icons/More.svg).
-   1. Selecteer **[!UICONTROL Show as a table]** in het contextmenu.
+1. Select the **[!UICONTROL Sheet 1]** tab at the bottom to switch from **[!UICONTROL Data source]**. In the **[!UICONTROL Sheet 1]** view:
+   1. Drag the **[!UICONTROL Daterange]** entry from the **[!UICONTROL Tables]** list in the **[!UICONTROL Data]** pane and drop the entry onto the **[!UICONTROL Filters]** shelf.
+   1. In the **[!UICONTROL Filters Field \[Daterange\]]** dialog, select **[!UICONTROL Range of Dates]** and select **[!UICONTROL Next >]**.
+   1. In the **[!UICONTROL Filter \[Daterange\]]** dialog, select **[!UICONTROL Range of dates]** and specify a period of `01/01/2023` - `31/12/2023`. Select **[!UICONTROL Apply]** and **[!UICONTROL OK]**.
 
-   De hoofdweergave wordt bijgewerkt om zowel een lijnvisualisatie als een tabel weer te geven.
+      ![Tableau Desktop Filter](assets/uc5-tableau-filter.png)
 
-   ![ Geval 2 van het Gebruik van de Desktop van Power BI Def. Dagelijkse Tendvisualisatie ](assets/uc5-pbi-final.png)
+   1. Drag and drop **[!UICONTROL Product Name]** from the **[!UICONTROL Tables]** list in the **[!UICONTROL Data]** pane and drop the entry in the field next to **[!UICONTROL Rows]**.
+   1. Drag and drop **[!UICONTROL Purchases]** from the **[!UICONTROL Tables (*Measure Names*)]** list in the **[!UICONTROL Data]** pane and drop the entry in the field next to **[!UICONTROL Rows]**. The value is automatically converted to **[!UICONTROL SUM(Purchases)]**.
+   1. Drag and drop **[!UICONTROL Purchase Revenue]** from the **[!UICONTROL Tables (*Measure Names*)]** list in the **[!UICONTROL Data]** pane and drop the entry in the field next to **[!UICONTROL Columns]** and left from **[!UICONTROL SUM(Purchases)]**. The value is automatically converted to **[!UICONTROL SUM(Purchase Revenue)]**.
+   1. To order both charts in descending purchase revenue order, hover over the **[!UICONTROL Purchase Revenue]** title and select the sort icon.
+   1. To limit the number of entries in the charts, select **[!UICONTROL SUM(Purchase Revenue)]** in **[!UICONTROL Rows]** and from the drop-down menu select **[!UICONTROL Filter]**.
+   1. In the **[!UICONTROL Filter \[Purchase Revenue\]]** dialog select **[!UICONTROL Range of values]** and enter appropriate values. For example: `1,000,000` - `2,000,000`. Select **[!UICONTROL Apply]** and **[!UICONTROL OK]**.
+   1. To convert the two bar charts to a dual combination chart, select **[!UICONTROL SUM(Purchases)]** in **[!UICONTROL Rows]** and from the drop-down menu, select **[!UICONTROL Dual Axis]**. The bar charts transform into a scatter plot.
+   1. To modify the scatter plot to a bar chart:
+      1. Select **[!UICONTROL SUM(Purchases)]** in the **[!UICONTROL Marks]** area and select **[!UICONTROL Line]** from the drop-down menu.
+      1. Select **[!UICONTROL SUM(Purchase Revenue)]** in the **[!UICONTROL Marks]** area and select **[!UICONTROL Bar]** from the drop-down menu.
 
->[!TAB  Desktop Tableau ]
+   Your Tableau Desktop should look like below.
 
-1. Selecteer de tab **[!UICONTROL Sheet 1]** onderaan om te schakelen van **[!UICONTROL Data source]** . In de weergave **[!UICONTROL Sheet 1]** :
-   1. Sleep de vermelding **[!UICONTROL Daterange]** uit de lijst **[!UICONTROL Tables]** in het deelvenster **[!UICONTROL Data]** en zet deze op de **[!UICONTROL Filters]** shelf neer.
-   1. Selecteer **[!UICONTROL Filters Field \[Daterange\]]** in het dialoogvenster **[!UICONTROL Range of Dates]** van **[!UICONTROL Next >]** .
-   1. Selecteer **[!UICONTROL Filter \[Daterange\]]** in het dialoogvenster **[!UICONTROL Range of dates]** en geef een punt op van `01/01/2023` - `31/12/2023` . Selecteer **[!UICONTROL Apply]** en **[!UICONTROL OK]** .
+   ![Tableau Desktop Graph](assets/uc5-tableau-graph.png)
 
-      ![ de Filter van de Desktop van Tableau ](assets/uc5-tableau-filter.png)
+1. Select **[!UICONTROL Duplicate]** from the **[!UICONTROL Sheet 1]** tab context menu to create a second sheet.
+1. Select **[!UICONTROL Rename]** from the **[!UICONTROL Sheet 1]** tab context menu to rename the sheet to `Data`.
+1. Select **[!UICONTROL Rename]** from the **[!UICONTROL Sheet 1 (2)]** tab context menu to rename the sheet to `Graph`.
+1. Ensure that the **[!UICONTROL Data]** sheet is selected.
+   1. Select **[!UICONTROL Show me]** at the top right and select **[!UICONTROL Text table]** (upper left top visualization) to modify the content of the two charts to a table.
+   1. To order purchase revenue in descending order, hover over **[!UICONTROL Purchase Revenue]** in the table and select ![SortOrderDown](/help/assets/icons/SortOrderDown.svg).
+   1. Select **[!UICONTROL Entire View]** from the **[!UICONTROL Fit]** drop-down menu.
 
-   1. Sleep **[!UICONTROL Product Name]** vanuit de lijst **[!UICONTROL Tables]** in het deelvenster **[!UICONTROL Data]** en zet de vermelding in het veld naast **[!UICONTROL Rows]** neer.
-   1. De belemmering en laat vallen **[!UICONTROL Purchases]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**&#x200B;lijst in de **[!UICONTROL Data]**&#x200B;ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Rows]**. De waarde wordt automatisch omgezet in **[!UICONTROL SUM(Purchases)]**.
-   1. De belemmering en laat vallen **[!UICONTROL Purchase Revenue]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**&#x200B;lijst in de **[!UICONTROL Data]**&#x200B;ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Columns]**&#x200B;en verlaten van **[!UICONTROL SUM(Purchases)]**. De waarde wordt automatisch omgezet in **[!UICONTROL SUM(Purchase Revenue)]**.
-   1. Als u beide grafieken wilt bestellen in aflopende volgorde van inkoopopbrengsten, plaatst u de muisaanwijzer op de titel van **[!UICONTROL Purchase Revenue]** en selecteert u het sorteerpictogram.
-   1. Als u het aantal items in de grafieken wilt beperken, selecteert u **[!UICONTROL SUM(Purchase Revenue)]** in **[!UICONTROL Rows]** en kiest u **[!UICONTROL Filter]** in het vervolgkeuzemenu.
-   1. Selecteer **[!UICONTROL Filter \[Purchase Revenue\]]** in het dialoogvenster **[!UICONTROL Range of values]** en voer de gewenste waarden in. Bijvoorbeeld: `1,000,000` - `2,000,000` . Selecteer **[!UICONTROL Apply]** en **[!UICONTROL OK]** .
-   1. Als u de twee staafdiagrammen wilt omzetten in een combinatieschema, selecteert u **[!UICONTROL SUM(Purchases)]** in **[!UICONTROL Rows]** en kiest u **[!UICONTROL Dual Axis]** in het keuzemenu. De staafdiagrammen worden omgezet in een spreidingsgrafiek.
-   1. U wijzigt het spreidingsperceel als volgt in een staafdiagram:
-      1. Selecteer **[!UICONTROL SUM(Purchases)]** in het **[!UICONTROL Marks]** -gebied en selecteer **[!UICONTROL Line]** in de vervolgkeuzelijst.
-      1. Selecteer **[!UICONTROL SUM(Purchase Revenue)]** in het **[!UICONTROL Marks]** -gebied en selecteer **[!UICONTROL Bar]** in de vervolgkeuzelijst.
+   Your Tableau Desktop should look like below.
 
-   Uw Tableau Desktop moet er hieronder uitzien.
+   ![Tableau Desktop Data](assets/uc5-tableau-data.png)
 
-   ![ Grafiek van de Desktop van Tableau ](assets/uc5-tableau-graph.png)
+1. Select **[!UICONTROL New Dashboard]** tab button (at the bottom) to create a new **[!UICONTROL Dashboard 1]** view. In the **[!UICONTROL Dashboard 1]** view:
+   1. Drag and drop the **[!UICONTROL Graph]** sheet from the **[!UICONTROL Sheets]** shelf onto the **[!UICONTROL Dashboard 1]** view that reads *Drop sheets here*.
+   1. Drag and drop the **[!UICONTROL Data]** sheet from the **[!UICONTROL Sheets]** shelf below the **[!UICONTROL Graph]** sheet onto the **[!UICONTROL Dashboard 1]** view.
+   1. Select the **[!UICONTROL Data]** sheet in the view and modify **[!UICONTROL Entire View]** to **[!UICONTROL Fix Width]**.
 
-1. Selecteer **[!UICONTROL Duplicate]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om een tweede blad te maken.
-1. Selecteer **[!UICONTROL Rename]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om de naam van het werkblad te wijzigen in `Data` .
-1. Selecteer **[!UICONTROL Rename]** in het contextmenu van de tab **[!UICONTROL Sheet 1 (2)]** om de naam van het werkblad te wijzigen in `Graph` .
-1. Zorg ervoor dat het **[!UICONTROL Data]** -werkblad is geselecteerd.
-   1. Selecteer **[!UICONTROL Show me]** rechtsboven en selecteer **[!UICONTROL Text table]** (visualisatie linksboven) om de inhoud van de twee grafieken aan een tabel aan te passen.
-   1. Om koopopbrengst in dalende orde te opdracht geven, houd over **[!UICONTROL Purchase Revenue]** in de lijst en selecteer ![ SortOrderDown ](/help/assets/icons/SortOrderDown.svg).
-   1. Selecteer **[!UICONTROL Entire View]** in de vervolgkeuzelijst **[!UICONTROL Fit]** .
+   Your **[!UICONTROL Dashboard 1]** view should look like below.
 
-   Uw Tableau Desktop moet er hieronder uitzien.
-
-   ![ Gegevens van de Desktop van Tableau ](assets/uc5-tableau-data.png)
-
-1. Selecteer **[!UICONTROL New Dashboard]** tabknop (onder) om een nieuwe **[!UICONTROL Dashboard 1]** -weergave te maken. In de weergave **[!UICONTROL Dashboard 1]** :
-   1. Sleep en laat vallen het **[!UICONTROL Graph]** blad van **[!UICONTROL Sheets]** plank op de **[!UICONTROL Dashboard 1]** mening die *Dropbladen hier* leest.
-   1. Sleep het **[!UICONTROL Data]** -werkblad van de **[!UICONTROL Sheets]** -plank onder het **[!UICONTROL Graph]** -werkblad naar de **[!UICONTROL Dashboard 1]** -weergave.
-   1. Selecteer het **[!UICONTROL Data]** -werkblad in de weergave en wijzig **[!UICONTROL Entire View]** in **[!UICONTROL Fix Width]** .
-
-   De weergave **[!UICONTROL Dashboard 1]** ziet er hieronder ongeveer zo uit.
-
-   ![ Dashboard 1 van de Desktop van Tableau ](assets/uc5-tableau-dashboard.png)
-
-
-
->[!TAB  Leider ]
-
-1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![ Plaatsende ](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
-1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
-1. In het dialoogvenster **[!UICONTROL Add Filter]** :
-   1. Selecteren **[!UICONTROL ‣ Cc Data View]**
-   1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-
-      ![ filter van de Leider ](assets/uc2-looker-filter.png)
-1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2024/01/01]** .
-1. Selecteer **[!UICONTROL ‣ Cc Data View]** in het gedeelte **[!UICONTROL Product Name]** links in de sectie.
-1. Vanuit het gedeelte **[!UICONTROL ‣ Custom Fields]** in de linkertrack:
-   1. Selecteer **[!UICONTROL Custom Measure]** in de vervolgkeuzelijst **[!UICONTROL + Add]** .
-   1. In het dialoogvenster **[!UICONTROL Create custom measure]** :
-      1. Selecteer **[!UICONTROL Purchase Revenue]** in de vervolgkeuzelijst **[!UICONTROL Field to measure]** .
-      1. Selecteer **[!UICONTROL Sum]** in de vervolgkeuzelijst **[!UICONTROL Measure type]** .
-      1. Voer een aangepaste veldnaam in voor **[!UICONTROL Name]** . Bijvoorbeeld: `Purchase Revenue` .
-      1. Selecteer de tab **[!UICONTROL Field details]** .
-      1. Selecteer **[!UICONTROL Decimals]** in de vervolgkeuzelijst **[!UICONTROL Format]** en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .
-
-         ![ Lager aangepast metrisch gebied ](assets/uc5-looker-customfield.png)
-      1. Selecteer **[!UICONTROL Save]** .
-   1. Selecteer **[!UICONTROL Custom Measure]** nogmaals in de vervolgkeuzelijst **[!UICONTROL + Add]** . In het dialoogvenster **[!UICONTROL Create custom]** -meting:
-      1. Selecteer **[!UICONTROL Purchases]** in de vervolgkeuzelijst **[!UICONTROL Field to measure]** .
-      1. Selecteer **[!UICONTROL Sum]** in de vervolgkeuzelijst **[!UICONTROL Measure type]** .
-      1. Voer een aangepaste veldnaam in voor **[!UICONTROL Name]** . Bijvoorbeeld: `Sum of Purchases` .
-      1. Selecteer de tab **[!UICONTROL Field details]** .
-      1. Selecteer **[!UICONTROL Decimals]** in de vervolgkeuzelijst **[!UICONTROL Format]** en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .
-      1. Selecteer **[!UICONTROL Save]** .
-   1. Beide velden worden automatisch toegevoegd aan de gegevensweergave.
-1. Selecteer **[!UICONTROL + Filter]** om nog een **[!UICONTROL Filters]** toe te voegen en de gegevens te beperken.
-1. Selecteer **[!UICONTROL Add Filter]** in het dialoogvenster **[!UICONTROL ‣ Custom Fields]** van **[!UICONTROL Purchase Revenue]** .
-1. Maak de juiste selecties en voer de voorgestelde waarden in, zodat het filter **[!UICONTROL is between inclusive]** `1000000` **[!UICONTROL AND]** `2000000` leest.
-1. Selecteer **[!UICONTROL Run]** .
-1. Selecteer **[!UICONTROL ‣ Visualization]** om de lijnvisualisatie weer te geven.
-1. Selecteer **[!UICONTROL Edit]** in **[!UICONTROL Visualization]** om de visualisatie bij te werken. In het dialoogvenster Pop-up:
-   1. Selecteer de tab **[!UICONTROL Series]** .
-   1. Schuif omlaag om **[!UICONTROL Purchases]** weer te geven en wijzig de **[!UICONTROL Type]** in **[!UICONTROL Line]** .
-   1. Selecteer de tab **[!UICONTROL Y]** .
-   1. Sleep **[!UICONTROL Purchases]** van de **[!UICONTROL Left 1]** container aan waar het **[!UICONTROL *reeksen van de Belemmering hier leest om een nieuwe linkeras *]**&#x200B;tot stand te brengen. Met deze actie maakt u een **[!UICONTROL Left 2]**-container.
-
-      ![ Leerdere visualisatieconfiguratie ](assets/uc5-looker-visualization.png)
-   1. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) naast **[!UICONTROL Edit]** om de popup dialoog te verbergen
-
-U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
-
-![ Minder resultaat dagelijkse trend ](assets/uc5-looker-result.png)
+   ![Tableau Desktop Dashboard 1](assets/uc5-tableau-dashboard.png)
 
 
->[!TAB  Jupyter Notitieboekje ]
 
-1. Voer de volgende instructies in een nieuwe cel in.
+>[!TAB Looker]
+
+1. In the **[!UICONTROL Explore]** interface of Looker, ensure you do have a clean setup. If not, select ![Setting](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
+1. Select **[!UICONTROL + Filter]** underneath **[!UICONTROL Filters]**.
+1. In the **[!UICONTROL Add Filter]** dialog:
+   1. Select **[!UICONTROL ‣ Cc Data View]**
+   1. From the list of fields, select **[!UICONTROL ‣ Daterange Date]** then **[!UICONTROL Daterange Date]**.
+      ![Looker filter](assets/uc2-looker-filter.png)
+1. Specify the **[!UICONTROL Cc Data View Daterange Date]** filter as **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2024/01/01]**.
+1. From the **[!UICONTROL ‣ Cc Data View]** section in the left rail, select **[!UICONTROL Product Name]**.
+1. From the **[!UICONTROL ‣ Custom Fields]** section in the left rail:
+   1. Select **[!UICONTROL Custom Measure]** from the **[!UICONTROL + Add]** drop-down menu. 
+   1. In the **[!UICONTROL Create custom measure]** dialog:
+      1. Select **[!UICONTROL Purchase Revenue]** from the **[!UICONTROL Field to measure]** drop-down menu.
+      1. Select **[!UICONTROL Sum]** from the **[!UICONTROL Measure type]** drop-down menu.
+      1. Enter a custom field name for **[!UICONTROL Name]**. For example: `Purchase Revenue`.
+      1. Select the **[!UICONTROL Field details]** tab.
+      1. Select **[!UICONTROL Decimals]** from the **[!UICONTROL Format]** drop-down menu and ensure `0` is entered in **[!UICONTROL Decimals]**.
+         ![Looker custom metric field](assets/uc5-looker-customfield.png)
+      1. Select **[!UICONTROL Save]**.
+   1. Select **[!UICONTROL Custom Measure]** once more from the **[!UICONTROL + Add]** drop-down menu. In the **[!UICONTROL Create custom]** measure dialog:
+      1. Select **[!UICONTROL Purchases]** from the **[!UICONTROL Field to measure]** drop-down menu.
+      1. Select **[!UICONTROL Sum]** from the **[!UICONTROL Measure type]** drop-down menu.
+      1. Enter a custom field name for **[!UICONTROL Name]**. For example: `Sum of Purchases`.
+      1. Select the **[!UICONTROL Field details]** tab.
+      1. Select **[!UICONTROL Decimals]** from the **[!UICONTROL Format]** drop-down menu and ensure `0` is entered in **[!UICONTROL Decimals]**.
+      1. Select **[!UICONTROL Save]**.
+   1. Both fields are automatically added to the Data view. 
+1. Select **[!UICONTROL + Filter]** to add another **[!UICONTROL Filters]** and to limit the data.
+1. In the **[!UICONTROL Add Filter]** dialog, select **[!UICONTROL ‣ Custom Fields]**, then **[!UICONTROL Purchase Revenue]**.
+1. Make the appropriate selections and enter the proposed values, so the filter reads **[!UICONTROL is between inclusive]** `1000000` **[!UICONTROL AND]** `2000000`.
+1. Select **[!UICONTROL Run]**.
+1. Select **[!UICONTROL ‣ Visualization]** to display the line visualization.
+1. Select **[!UICONTROL Edit]** in **[!UICONTROL Visualization]** to update the visualization. In the popup dialog:
+   1. Select the **[!UICONTROL Series]** tab.
+   1. Scroll down to see **[!UICONTROL Purchases]** and change the **[!UICONTROL Type]** to **[!UICONTROL Line]**.
+   1. Select the **[!UICONTROL Y]** tab.
+   1. Drag **[!UICONTROL Purchases]** from the **[!UICONTROL Left 1 ]** container to where it reads **[!UICONTROL *Drag series here to create a new left axis*]**. This action creates a **[!UICONTROL Left 2]** container.
+      ![Looker visualization configuration](assets/uc5-looker-visualization.png)
+   1. Select ![CrossSize75](/help/assets/icons/CrossSize75.svg) next to **[!UICONTROL Edit]** to hide the popup dialog
+
+You should see a visualization and table similar as shown below.
+
+![Looker result daily trend](assets/uc5-looker-result.png)
+
+
+>[!TAB Jupyter Notebook]
+
+1. Enter the following statements in a new cell.
 
    ```python
    import seaborn as sns
@@ -1145,18 +1131,18 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
    display(data)
    ```
 
-1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+1. Execute the cell. You should see output similar to the screenshot below.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc5-jupyter-results.png)
+   ![Jupyter Notebook Results](assets/uc5-jupyter-results.png)
 
 
->[!TAB  RStudio ]
+>[!TAB RStudio]
 
-1. Voer de volgende instructies tussen ` ` ``{r} ` en ` `` ` ` in een nieuw segment in.
+1. Enter the following statements between ` ```{r} ` and ` ``` ` in a new chunk.
 
    ```R
    library(tidyr)
-   
+
    ## Single dimension ranked
    df <- dv %>%
       filter(daterange >= "2023-01-01" & daterange < "2024-01-01") %>%
@@ -1171,13 +1157,15 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
    print(df)
    ```
 
-1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
+1. Run the chunk. You should see output similar to the screenshot below.
 
-   ![ Resultaten RStudio ](assets/uc5-rstudio-results.png)
+   ![RStudio Results](assets/uc5-rstudio-results.png)
 
 >[!ENDTABS]
 
 +++
+
+-->
 
 
 ## Meerdere dimensies gerangschikt
@@ -1213,11 +1201,11 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
    1. Selecteer **[!UICONTROL datarangeday]** .
    1. Selecteer **[!UICONTROL product_category]** .
    1. Selecteer **[!UICONTROL product_name]** .
-   1. Selecteren **[!UICONTROL ∑ purchase_revenue]**
-   1. Selecteren **[!UICONTROL ∑ purchases]**
+   1. Selecteren **[!UICONTROL sum purchase_revenue]**
+   1. Selecteren **[!UICONTROL sum purchases]**
 
 1. Als u het verticale staafdiagram wilt wijzigen in een tabel, zorgt u dat de tabel is geselecteerd en selecteert u **[!UICONTROL Matrix]** in het deelvenster **[!UICONTROL Visualizations]** .
-   * Sleep **[!UICONTROL product_name]** vanuit **[!UICONTROL Columns]** en zet het veld onder **[!UICONTROL product_categor] &#x200B;** y neer in **[!UICONTROL Rows]** in het deelvenster **[!UICONTROL Visualization]** .
+   * Sleep **[!UICONTROL product_name]** vanuit **[!UICONTROL Columns]** en zet het veld onder **[!UICONTROL product_categor] **y neer in **[!UICONTROL Rows]** in het deelvenster **[!UICONTROL Visualization]** .
 
 1. Selecteer **[!UICONTROL product_name is (All)]** in het deelvenster **[!UICONTROL Filters]** om het aantal weergegeven producten in de tabel te beperken.
 
@@ -1342,7 +1330,6 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-
       ![ filter van de Leider ](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2024/01/01]** .
 1. Vanuit het gedeelte **[!UICONTROL ‣ Cc Data View]** in de linkertrack:
@@ -1356,7 +1343,6 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
       1. Voer een aangepaste veldnaam in voor **[!UICONTROL Name]** . Bijvoorbeeld: `Sum of Purchase Revenue` .
       1. Selecteer de tab **[!UICONTROL Field details]** .
       1. Selecteer **[!UICONTROL Decimals]** in de vervolgkeuzelijst **[!UICONTROL Format]** en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .
-
          ![ Lager aangepast metrisch gebied ](assets/uc5-looker-customfield.png)
       1. Selecteer **[!UICONTROL Save]** .
    1. Selecteer **[!UICONTROL Custom Measure]** nogmaals in de vervolgkeuzelijst **[!UICONTROL + Add]** . In het dialoogvenster **[!UICONTROL Create custom]** -meting:
@@ -1414,7 +1400,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 >[!TAB  RStudio ]
 
-1. Voer de volgende instructies tussen ` ` ``{r} ` en ` `` ` ` in een nieuw segment in.
+1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in.
 
    ```R
    ## Multiple dimensions ranked
@@ -1471,7 +1457,7 @@ Vervolgens kunt u die metrische waarde gebruiken in een voorbeeldvenster van **[
 
 1. In het deelvenster **[!UICONTROL Data]** :
    1. Selecteer **[!UICONTROL datarangeday]** .
-   1. Selecteer **[!UICONTROL ∑ cm_product_name_count_distinct]** . Dit is de berekende metrische waarde die in Customer Journey Analytics is gedefinieerd.
+   1. Selecteer **[!UICONTROL sum cm_product_name_count_distinct]** . Dit is de berekende metrische waarde die in Customer Journey Analytics is gedefinieerd.
 
 1. Als u het verticale staafdiagram wilt wijzigen in een tabel, zorgt u ervoor dat het diagram is geselecteerd en selecteert u **[!UICONTROL Table]** in het deelvenster **[!UICONTROL Visualizations]** .
 
@@ -1551,13 +1537,11 @@ Alternatief, kunt u de telling verschillende functionaliteit van Desktop gebruik
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-
       ![ filter van de Leider ](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/02/01]** .
 1. Vanuit het gedeelte **[!UICONTROL ‣ Cc Data View]** in de linkertrack:
    1. Selecteer **[!UICONTROL Daterange Date]** en vervolgens **[!UICONTROL Date]** .
    1. Selecteer **[!UICONTROL Aggregate ‣ Count Distinct]** in het contextmenu **⋮ Meer** in **[!UICONTROL Product Name]** .
-
       ![ het Contextmenu van de Naam van het Product van de Leider ](assets/uc7-looker-count-distinct.png)
 1. Selecteer **[!UICONTROL Run]** .
 1. Selecteer **[!UICONTROL ‣ Visualization]** en selecteer 6︎⃣ op de werkbalk om één waardenvisualisatie weer te geven.
@@ -1585,7 +1569,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 >[!TAB  RStudio ]
 
-1. Voer de volgende instructies tussen ` ` ``{r} ` en ` `` ` ` in een nieuw segment in.
+1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in.
 
    ```R
    ## Count Distinct
@@ -1637,7 +1621,7 @@ Bedenk hoe het datumbereik dat in de visualisatie van de tabel Freeform is gedef
 1. In het deelvenster **[!UICONTROL Data]** :
    1. Selecteer **[!UICONTROL daterangemonth]** .
    1. Selecteer **[!UICONTROL daterangeName]** .
-   1. Selecteer **[!UICONTROL ∑ occurrences]** .
+   1. Selecteer **[!UICONTROL sum occurrences]** .
 
    Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this visual]** .
 
@@ -1732,7 +1716,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 >[!TAB  RStudio ]
 
-1. Voer de volgende instructies tussen ` ` ``{r} ` en ` `` ` ` in een nieuw segment in. Zorg ervoor dat u de juiste naam voor het datumbereik gebruikt. Bijvoorbeeld `Last Year 2023` .
+1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in. Zorg ervoor dat u de juiste naam voor het datumbereik gebruikt. Bijvoorbeeld `Last Year 2023` .
 
    ```R
    ## Monthly Events for Last Year
@@ -1789,7 +1773,7 @@ Vervolgens kunt u dat segment in een voorbeeldvenster van **[!UICONTROL Using Se
    1. Selecteer **[!UICONTROL daterange]** .
    1. Selecteer **[!UICONTROL filterName]** .
    1. Selecteer **[!UICONTROL product_name]** .
-   1. Selecteer **[!UICONTROL ∑ occurrences]** .
+   1. Selecteer **[!UICONTROL sum occurrences]** .
 
 Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this visual]** .
 
@@ -1833,7 +1817,6 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-
       ![ filter van de Leider ](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/02/01]** .
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** om nog een filter toe te voegen.
@@ -1901,7 +1884,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 >[!TAB  RStudio ]
 
-1. Voer de volgende instructies tussen ` ` ``{r} ` en ` `` ` ` in een nieuw segment in. Controleer of u de juiste filternaam gebruikt. Bijvoorbeeld `Fishing Products` .
+1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in. Controleer of u de juiste filternaam gebruikt. Bijvoorbeeld `Fishing Products` .
 
    ```R
    ## Dimension filtered by name
@@ -1957,7 +1940,7 @@ Vervolgens kunt u dat segment in een voorbeeldvenster van **[!UICONTROL Using Di
    1. Selecteer **[!UICONTROL daterange]** .
    1. Selecteer **[!UICONTROL product_category]** .
    1. Selecteer **[!UICONTROL product_name]** .
-   1. Selecteer **[!UICONTROL ∑ occurrences]** .
+   1. Selecteer **[!UICONTROL sum occurrences]** .
 
 Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this visual]** .
 
@@ -2005,7 +1988,6 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-
       ![ filter van de Leider ](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/02/01]** .
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** om nog een filter toe te voegen.
@@ -2067,7 +2049,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 
 >[!TAB  RStudio ]
 
-1. Voer de volgende instructies tussen ` ` ``{r} ` en ` `` ` ` in een nieuw segment in. Gebruik de juiste categorie. Bijvoorbeeld `Hunting` .
+1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in. Gebruik de juiste categorie. Bijvoorbeeld `Hunting` .
 
    ```R
    ## Dimension 1 Filtered by Dimension 2 value
@@ -2115,8 +2097,8 @@ Een voorbeeldvenster **[!UICONTROL Sort]** voor het hoofdlettergebruik:
 1. In het deelvenster **[!UICONTROL Data]** :
    1. Selecteer **[!UICONTROL daterange]** .
    1. Selecteer **[!UICONTROL product_namr]** .
-   1. Selecteer **[!UICONTROL ∑ purchase_revenue]** .
-   1. Selecteer **[!UICONTROL ∑ purchases]** .
+   1. Selecteer **[!UICONTROL sum purchase_revenue]** .
+   1. Selecteer **[!UICONTROL sum purchases]** .
 
 1. In het deelvenster **[!UICONTROL Filters]** :
    1. Selecteer **[!UICONTROL daterange is (All)]** in **[!UICONTROL Filters on this visual]** .
@@ -2259,7 +2241,6 @@ GROUP BY 1
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-
       ![ filter van de Leider ](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/02/01]** .
 1. Selecteer **[!UICONTROL ‣ Cc Data View]** in het gedeelte **[!UICONTROL Product Name]** links in de sectie.
@@ -2271,7 +2252,6 @@ GROUP BY 1
       1. Voer een aangepaste veldnaam in voor **[!UICONTROL Name]** . Bijvoorbeeld: `Sum of Purchase Revenue` .
       1. Selecteer de tab **[!UICONTROL Field details]** .
       1. Selecteer **[!UICONTROL Decimals]** in de vervolgkeuzelijst **[!UICONTROL Format]** en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .
-
          ![ Lager aangepast metrisch gebied ](assets/uc5-looker-customfield.png)
       1. Selecteer **[!UICONTROL Save]** .
 1. Selecteer **[!UICONTROL ↓]** (**[!UICONTROL Descending, Sort Order: 1]** ) in de kolom **[!UICONTROL Purchase Revenue]** .
@@ -2324,7 +2304,7 @@ De query wordt uitgevoerd door de BI-extensie zoals gedefinieerd in Jupyter Note
 
 >[!TAB  RStudio ]
 
-1. Voer de volgende instructies tussen ` ` ``{r} ` en ` `` ` ` in een nieuw segment in.
+1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in.
 
    ```R
    ## Dimension 1 Sorted
@@ -2387,7 +2367,7 @@ Een voorbeeldvenster **[!UICONTROL Limit]** voor het hoofdlettergebruik:
 1. In het deelvenster **[!UICONTROL Data]** :
    1. Selecteer **[!UICONTROL daterange]** .
    1. Selecteer **[!UICONTROL product_name]** .
-   1. Selecteer **[!UICONTROL ∑ occurrences]** .
+   1. Selecteer **[!UICONTROL sum occurrences]** .
 
 1. In het deelvenster **[!UICONTROL Filters]** :
    1. Selecteer **[!UICONTROL daterange is (All)]** in **[!UICONTROL Filters on this visual]** .
@@ -2397,7 +2377,7 @@ Een voorbeeldvenster **[!UICONTROL Limit]** voor het hoofdlettergebruik:
    1. Selecteer **[!UICONTROL product_name is (All)]** in **[!UICONTROL Filters on this visual]** .
    1. Selecteer **[!UICONTROL Top N]** als de **[!UICONTROL Filter type]** .
    1. Selecteer **[!UICONTROL Show Items]** **[!UICONTROL Top]** `5` **[!UICONTROL By value]** .
-   1. Sleep **[!UICONTROL ∑ occurrences]** vanuit het deelvenster **[!UICONTROL Data]** en zet het neer op **[!UICONTROL Add data fields here]** .
+   1. Sleep **[!UICONTROL sum occurrences]** vanuit het deelvenster **[!UICONTROL Data]** en zet het neer op **[!UICONTROL Add data fields here]** .
    1. Selecteer **[!UICONTROL Apply filter]** .
 
 1. In het deelvenster Visualisatie:
@@ -2555,7 +2535,6 @@ GROUP BY 1
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-
       ![ filter van de Leider ](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2024/01/01]** .
 1. Vanuit het gedeelte **[!UICONTROL ‣ Cc Data View]** in de linkertrack:
@@ -2610,7 +2589,7 @@ De query wordt uitgevoerd door de BI-extensie zoals gedefinieerd in Jupyter Note
 
 >[!TAB  RStudio ]
 
-1. Voer de volgende instructies tussen ` ` ``{r} ` en ` `` ` ` in een nieuw segment in.
+1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in.
 
    ```R
    ## Dimension 1 Limited
@@ -2680,7 +2659,7 @@ Metrische gegevens uit Customer Journey Analytics worden geïdentificeerd door d
 Filters die u in Customer Journey Analytics definieert, zijn beschikbaar in het veld **[!UICONTROL filterName]** . Wanneer u een **[!UICONTROL filterName]** -veld gebruikt in Power BI Desktop, kunt u opgeven welk filter u wilt gebruiken.
 
 **Berekende metriek**
-De berekende metriek die u in Customer Journey Analytics bepaalt worden geïdentificeerd door [!UICONTROL External ID] u voor berekende metrisch hebt bepaald. Berekende metrische waarde **[!UICONTROL Product Name (Count Distinct)]** heeft bijvoorbeeld [!UICONTROL External ID] **[!UICONTROL product_name_count_distinct]** en wordt weergegeven als **[!UICONTROL cm_product_name_count_distinc]**&#x200B;t in Power BI Desktop.
+De berekende metriek die u in Customer Journey Analytics bepaalt worden geïdentificeerd door [!UICONTROL External ID] u voor berekende metrisch hebt bepaald. Berekende metrische waarde **[!UICONTROL Product Name (Count Distinct)]** heeft bijvoorbeeld [!UICONTROL External ID] **[!UICONTROL product_name_count_distinct]** en wordt weergegeven als **[!UICONTROL cm_product_name_count_distinc]**t in Power BI Desktop.
 
 **waaiers van de Datum**
 Datumbereiken die u in Customer Journey Analytics definieert, zijn beschikbaar in het veld **[!UICONTROL daterangeName]** . Wanneer u een veld **[!UICONTROL daterangeName]** gebruikt, kunt u opgeven welk datumbereik u wilt gebruiken.
@@ -2765,7 +2744,6 @@ De Desktop van tableau verstrekt de functionaliteit van de douanetransformatie g
 
 1. Selecteer **[!UICONTROL Analysis]** > **[!UICONTROL Create Calculated Field]** in het hoofdmenu.
    1. Definieer **[!UICONTROL Lowercase Product Name]** met de functie `LOWER([Product Name])` .
-
       ![ Berekend Gebied van Tableau ](assets/uc14-tableau-calculated-field.png)
    1. Selecteer **[!UICONTROL OK]** .
 1. Selecteer het **[!UICONTROL Data]** blad.
@@ -2815,7 +2793,6 @@ Looker biedt aangepaste transformatiefuncties met behulp van aangepaste veldbuil
 1. Vanuit het gedeelte **[!UICONTROL ‣ Custom Fields]** in de linkertrack:
    1. Selecteer **[!UICONTROL Custom Dimension]** in de vervolgkeuzelijst **[!UICONTROL + Add]** .
    1. Voer `lower(${cc_data_view.product_name})` in het tekstgebied **[!UICONTROL Expression]** in. Wanneer u `Product Name` begint te typen, krijgt u de juiste syntaxis.
-
       ![ de transformatievoorbeeld van de Leider ](assets/uc14-looker-transformation.png)
    1. Voer `product name` in als de **[!UICONTROL Name]** .
    1. Selecteer **[!UICONTROL Save]** .
@@ -2871,7 +2848,7 @@ De Customer Journey Analytics-componenten (afmetingen, metriek, filters, bereken
 
 **de transformaties van de Douane**
 
-1. Voer de volgende instructies tussen ` ` ``{r} ` en ` `` ` ` in een nieuw segment in.
+1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in.
 
    ```R
    df <- dv %>%
@@ -3059,7 +3036,7 @@ GROUP BY 1,
   2
 ```
 
-De vraag beperkt **&#x200B;**&#x200B;niet de resultaten tot de geselecteerde productcategorie; slechts toont visualisatie de geselecteerde productcategorie.
+De vraag beperkt **** niet de resultaten tot de geselecteerde productcategorie; slechts toont visualisatie de geselecteerde productcategorie.
 
 ![ boor van Tableau omhoog ](assets/uc15-tableau-drillup2.png)
 
@@ -3130,7 +3107,7 @@ Elk van de ondersteunde BI-gereedschappen heeft een aantal bedenkingen bij het w
 * Filteren van datumbereiken via Power BI Desktop Advanced is exclusief.  Voor uw einddatum, moet u één meer dan de dag selecteren u wilt melden. Bijvoorbeeld **[!UICONTROL is on or after]** `1/1/2023` **[!UICONTROL and before]** `1/2/2023` .
 * Power BI Desktop wordt standaard ingesteld op **[!UICONTROL Import]** wanneer u een verbinding maakt. Gebruik **[!UICONTROL Direct Query]** niet.
 * Power BI Desktop stelt gegevenstransformaties beschikbaar via Power Query.  De Vraag van de macht werkt hoofdzakelijk met het type van de Invoer verbindingen zodat een vele transformaties die u als datum of koordfuncties toepast een fout werpen die u op een het typeverbinding van de Invoer moet schakelen.  Als u gegevens bij vraagtijd moet omzetten, zou u afgeleide dimensies en metriek moeten gebruiken zodat te hoeven Power BI niet om de transformaties zelf te doen.
-* De Desktop van Power BI begrijpt niet hoe te om datum-tijd typekolommen te behandelen zodat worden de **[!UICONTROL daterange*X *]**&#x200B;dimensies zoals **[!UICONTROL daterangehour]**&#x200B;en **[!UICONTROL daterangeminute]**&#x200B;niet gesteund.
+* De Desktop van Power BI begrijpt niet hoe te om datum-tijd typekolommen te behandelen zodat worden de **[!UICONTROL daterange*X *]**dimensies zoals **[!UICONTROL daterangehour]**en **[!UICONTROL daterangeminute]**niet gesteund.
 * Power BI Desktop probeert standaard meerdere verbindingen te maken met behulp van meer Query Service-sessies.  Ga binnen aan de montages van Power BI voor uw project en maak parallelle vragen onbruikbaar.
 * Power BI Desktop sorteert en beperkt alles op de client. De Desktop van Power BI heeft ook verschillende semantiek voor top *X* het filtreren die gebonden waarden omvat. U kunt dus niet dezelfde sortering en beperking maken als in Analysis Workspace.
 * Eerdere versies van de Power BI Desktop-release van oktober 2024 breken PostSQL-gegevensbronnen uit. Gebruik de versie die in dit artikel wordt vermeld.
