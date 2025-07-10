@@ -72,8 +72,8 @@ Zorg ervoor dat u het stikken niet verwart met:
 >[!MORELIKETHIS]
 >
 >[ Op gebied gebaseerde het stitching ](fbs.md)
->>[Op grafiek gebaseerde stitching ](gbs.md)
->>[Sstitching gebruiken ](use-stitching.md)
->>[Sstitching valideren ](validate.md)
->>[Veelgestelde vragen over stitching ](faq.md)
+>&#x200B;>[Op grafiek gebaseerde stitching ](gbs.md)
+>&#x200B;>[Sstitching gebruiken ](use-stitching.md)
+>&#x200B;>[Sstitching valideren ](validate.md)
+>&#x200B;>[Veelgestelde vragen over stitching ](faq.md)
 
