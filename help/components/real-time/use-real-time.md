@@ -26,7 +26,7 @@ Als u real-time rapportage wilt gebruiken, schakelt u de schakeloptie **[!UICONT
 * [Deelvenster Vrije vorm](/help/analysis-workspace/c-panels/freeform-panel.md)
 * ...
 
-Er wordt een bericht weergegeven met de tijdstempel van de meest recente vernieuwing van de gegevens. Bijvoorbeeld: [!UICONTROL  *Laatste verfrist zich bij 07:55 pm*].
+Er wordt een bericht weergegeven met de tijdstempel van de meest recente vernieuwing van de gegevens. Bijvoorbeeld: [!UICONTROL &#x200B; *Laatste verfrist zich bij 07:55 pm*].
 
 Selecteer in het keuzemenu de real-time periode waarover u wilt rapporteren. Beschikbare opties zijn:
 
