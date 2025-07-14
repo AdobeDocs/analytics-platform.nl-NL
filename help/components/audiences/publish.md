@@ -4,9 +4,9 @@ description: Leer hoe u publiek kunt publiceren vanuit Customer Journey Analytic
 exl-id: 0221f9f1-df65-4bd6-a31d-33d1a1ba0cfe
 feature: Audiences
 role: User
-source-git-commit: 38be838fccf896a12da3fbadac50e578081312ba
+source-git-commit: f3bd60d6a371a16e606d9af60e3359d8128a3c9f
 workflow-type: tm+mt
-source-wordcount: '2277'
+source-wordcount: '2298'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 
 
-Dit onderwerp bespreekt hoe te om publiek tot stand te brengen en te publiceren dat in Customer Journey Analytics wordt geïdentificeerd aan [ Real-Time Profiel van de Klant ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/home) in Adobe Experience Platform voor klant richtend en verpersoonlijking.
+Dit onderwerp bespreekt hoe te om publiek tot stand te brengen en te publiceren dat in Customer Journey Analytics wordt geïdentificeerd aan [ Real-Time Profiel van de Klant ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) in Adobe Experience Platform voor klant richtend en verpersoonlijking.
 
 Lees dit [ overzicht ](/help/components/audiences/audiences-overview.md) om met het concept van het publiek van Customer Journey Analytics vertrouwd te maken.
 
@@ -72,7 +72,7 @@ Lees dit [ overzicht ](/help/components/audiences/audiences-overview.md) om met 
    | Aanmaakmethode | Details |
    | --- | --- |
    | Vanuit de interface **[!UICONTROL Audiences]** | Selecteer **[!UICONTROL Components]** > **[!UICONTROL Audiences]** in het hoofdmenu van Customer Journey Analytics. De interface van het publiek toont. Selecteer **[!UICONTROL Create audience]** en [!UICONTROL Audience builder] wordt geopend. |
-   | Vanuit een visualisatie in Analysis Workspace | Met veel visualisaties in Analysis Workspace kunt u een publiek maken via het contextmenu. Bijvoorbeeld, kunt u **[!UICONTROL Create audience]** van het contextmenu van een punt in a [ Freeform lijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) of een knoop in [ het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) selecteren.<p>Het gebruiken van deze methode vult het segment in de bouwer van de Publiek met de dimensie of afmetingspunt vooraf in dat u selecteerde.</p><p>Met de volgende visualisaties kunt u een publiek maken via het snelmenu:</p><ul><li>[ Lijst van de Cohort ](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Uitval](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Stroom](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Vrije-vormentabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[ het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** het publiek kan berekende metriek niet omvatten. Als u probeert om een publiek tot stand te brengen dat berekende metrisch bevat, is berekende metrisch niet inbegrepen in de publieksdefinitie.</p> |
+   | Vanuit een visualisatie in Analysis Workspace | Met veel visualisaties in Analysis Workspace kunt u een publiek maken via het contextmenu. Bijvoorbeeld, kunt u **[!UICONTROL Create audience]** van het contextmenu van een punt in a [ Freeform lijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) of een knoop in [ het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) selecteren.<p>Het gebruiken van deze methode vult het segment in de bouwer van de Publiek met de dimensie of afmetingspunt vooraf in dat u selecteerde.</p><p>Met de volgende visualisaties kunt u een publiek maken via het snelmenu:</p><ul><li>[ Lijst van de Cohort ](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Uitval](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Stroom](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Vrije-vormentabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[ het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[ Kaart ](/help/analysis-workspace/visualizations/map.md#create-an-audience-from-the-map-visualization)<br/>**Nota:** Deze visualisatie is in de Beperkte het Testen fase van versie en zou niet nog in uw milieu beschikbaar kunnen zijn.</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** het publiek kan berekende metriek niet omvatten. Als u probeert om een publiek tot stand te brengen dat berekende metrisch bevat, is berekende metrisch niet inbegrepen in de publieksdefinitie.</p> |
    | Via de interface voor het maken/bewerken van segmenten | Schakel het vakje met de tekst **[!UICONTROL Create an audience from this segment]** in. Met deze methode wordt het segment vooraf gevuld. Zie [ segmenten ](/help/components/segments/seg-create.md) voor meer informatie creëren. |
 
    {style="table-layout:auto"}
@@ -86,7 +86,7 @@ Lees dit [ overzicht ](/help/components/audiences/audiences-overview.md) om met 
 1. Controleer de publieksconfiguratie en selecteer **[!UICONTROL Publish]**.
 U ontvangt een bevestigingsbericht dat het publiek wordt gepubliceerd. Publicatie duurt slechts een minuut of twee voordat dit publiek in Experience Platform verschijnt.
 
-1. Selecteer **[!UICONTROL View audience in AEP]** binnen het zelfde bericht en u wordt genomen aan [ Segment UI ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/overview) in Adobe Experience Platform. Zie hieronder voor meer informatie.
+1. Selecteer **[!UICONTROL View audience in AEP]** binnen het zelfde bericht en u wordt genomen aan [ Segment UI ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview) in Adobe Experience Platform. Zie hieronder voor meer informatie.
 
 ## Audience builder
 
@@ -116,13 +116,13 @@ Het deelvenster Gegevensvoorbeeld bevat de volgende informatie.
 | **[!UICONTROL Estimated to return]** | Dit aantal geeft u een geschat aantal terugkerende klanten over het tijdkader dat u selecteerde. Dit aantal wordt voorspeld gebruikend het historische kinnetarief voor dit publiek. |
 | **[!UICONTROL Preview metrics]** | U kunt specifieke metrisch selecteren om te zien hoe de gegevens voor dat metrisch is gebaseerd op het publiek u bepaalt.  Elke metrische vertoningen van de Voorproef een totaal voor metrisch die op het publiek wordt gebaseerd. En een percentage van het publiek baseerde metrisch van het algemene totaal van metrisch, zoals die door de gegevensmening wordt bepaald. 381 personen (de metrische waarde die u hebt geselecteerd) zijn bijvoorbeeld het resultaat van uw publieksdefinitie. Dit is 5% van het totale aantal personen dat beschikbaar is in de gegevensweergave. U kunt elke metrische waarde selecteren die beschikbaar is in de gegevensweergave. |
 | **[!UICONTROL Namespaces included]** | De specifieke naamruimten die zijn gekoppeld aan de personen in uw publiek. Voorbeelden zijn ECID, CRM-id, e-mailadressen enzovoort. |
-| **[!UICONTROL Sandbox]** | De [ zandbak van Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/sandbox/home) waarin dit publiek verblijft. Wanneer u dit publiek publiceert naar Platform, kunt u alleen met het publiek werken binnen de grenzen van deze sandbox. |
+| **[!UICONTROL Sandbox]** | De [ zandbak van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home) waarin dit publiek verblijft. Wanneer u dit publiek publiceert naar Platform, kunt u alleen met het publiek werken binnen de grenzen van deze sandbox. |
 
 {style="table-layout:auto"}
 
 ## Wat gebeurt er nadat een publiek is gemaakt en gepubliceerd? {#after-audience-created}
 
-Nadat u creeert en een publiek in Customer Journey Analytics publiceert, is het publiek beschikbaar in Experience Platform en kan in het [ Portaal van de Publiek ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/audience-portal) worden bekeken. Met het publiek beschikbaar in Experience Platform, kan het in andere toepassingen van Experience Platform, zoals Adobe Journey Optimizer worden gebruikt.
+Nadat u creeert en een publiek in Customer Journey Analytics publiceert, is het publiek beschikbaar in Experience Platform en kan in het [ Portaal van de Publiek ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal) worden bekeken. Met het publiek beschikbaar in Experience Platform, kan het in andere toepassingen van Experience Platform, zoals Adobe Journey Optimizer worden gebruikt.
 
 Er wordt alleen een Adobe Experience Platform-streamingsegment gemaakt als uw organisatie is ingesteld op streamingsegmentatie.
 
@@ -169,9 +169,9 @@ Customer Journey Analytics-publiek in platform weergeven:
 
    * Filter ![ Filter ](/help/assets/icons/Filter.svg) op **[!UICONTROL Origin]** en selecteer **[!UICONTROL Customer Journey Analytics]**.
 
-   * Gebruik het ![ 1&rbrace; onderzoeksgebied van het Onderzoek &lbrace;.](/help/assets/icons/Search.svg)
+   * Gebruik het ![ 1} onderzoeksgebied van het Onderzoek {.](/help/assets/icons/Search.svg)
 
-Voor meer informatie over het gebruiken van Soorten publiek in Platform, zie de [&#128279;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder) sectie van het publiek  in de [ gids UI van de Bouwer van het Segment ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder) in de documentatie van Experience Platform.
+Voor meer informatie over het gebruiken van Soorten publiek in Platform, zie de [ sectie van het publiek ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) in de [ gids UI van de Bouwer van het Segment ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) in de documentatie van Experience Platform.
 
 ### Begrijp discrepanties in publiekscijfers
 
@@ -238,7 +238,7 @@ Customer Journey Analytics streamt de gegevens via pijpleiding naar Real-Time Cu
 
 +++**Welke identiteiten verzendt Customer Journey Analytics over?**
 
-Welke identiteit/namespace paren die in de [ opstelling van de Verbinding ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-connections/create-connection) werden gespecificeerd. Specifiek, de stap wanneer een gebruiker het gebied selecteert zij als Persoon identiteitskaart willen gebruiken.
+Welke identiteit/namespace paren die in de [ opstelling van de Verbinding ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection) werden gespecificeerd. Specifiek, de stap wanneer een gebruiker het gebied selecteert zij als Persoon identiteitskaart willen gebruiken.
 
 +++
 
