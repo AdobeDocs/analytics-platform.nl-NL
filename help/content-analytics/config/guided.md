@@ -139,7 +139,7 @@ Uw configuratie vereist de selectie van de mening van a [ Gegevens ](/help/data-
 
    U kunt de volgende handelingen uitvoeren:
 
-   * Om naar een specifieke gegevensmening te zoeken, gebruik het ![ 1} gebied van het Onderzoek {.](/help/assets/icons/Search.svg)
+   * Om naar een specifieke gegevensmening te zoeken, gebruik het ![ 1&rbrace; gebied van het Onderzoek &lbrace;.](/help/assets/icons/Search.svg)
    * Om de lijst van beschikbare gegevensmeningen te filtreren, selecteer ![ filter ](/help/assets/icons/Filter.svg) tonen. U kunt de lijst filteren op [!UICONTROL Connection] , [!UICONTROL Owner] en [!UICONTROL Sandbox] .<br/> Verbergen van het gebruik ![ ](/help/assets/icons/Filter.svg) om de segmentruit te verbergen.**[!UICONTROL Hide segments]**
    * Om te bepalen welke kolommen in de lijst te tonen, selecteer ![ Montages van de Kolom ](/help/assets/icons/ColumnSetting.svg). Selecteer welke kolommen u wilt weergeven in het dialoogvenster **[!UICONTROL Customize table]** en selecteer **[!UICONTROL Apply]** om de wijzigingen toe te passen.
 
@@ -147,7 +147,7 @@ Uw configuratie vereist de selectie van de mening van a [ Gegevens ](/help/data-
 1. Selecteer **[!UICONTROL Save]** om de geselecteerde gegevensweergave te bevestigen. Selecteer **[!UICONTROL Cancel]** om te annuleren.
 
 
-In Customer Journey Analytics, is de a [ gegevensmening ](/help/data-views/data-views.md) gebonden aan een verbinding van Customer Journey Analytics [ ](/help/connections/overview.md). En een verbinding is gebaseerd op een zandbak binnen uw organisatie. Nadat u de configuratie hebt opgeslagen, wordt het veld **[!UICONTROL Sandbox]** automatisch gevuld met de naam van de sandbox op basis van de geselecteerde gegevensweergave.
+In Customer Journey Analytics, is de a [ gegevensmening ](/help/data-views/data-views.md) gebonden aan een verbinding van Customer Journey Analytics [&#128279;](/help/connections/overview.md). En een verbinding is gebaseerd op een zandbak binnen uw organisatie. Nadat u de configuratie hebt opgeslagen, wordt het veld **[!UICONTROL Sandbox]** automatisch gevuld met de naam van de sandbox op basis van de geselecteerde gegevensweergave.
 
 
 ### Vastleggen en definiëren van ervaring {#onboarding-experiences}
@@ -258,7 +258,7 @@ In deze sectie configureert u hoe u de gegevens van de inhoudsanalyse kunt verza
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_pages_excluded_header"
 >title="Dataverzameling"
->abstract="Wijs op welke pagina&#39;s **inbegrepen** of **** wanneer het verzamelen van gegevens voor Content Analytics zouden moeten zijn uitgesloten"
+>abstract="Wijs op welke pagina&#39;s **inbegrepen** of **&#x200B;**&#x200B;wanneer het verzamelen van gegevens voor Content Analytics zouden moeten zijn uitgesloten"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_assets_excluded_boldheader"
@@ -268,7 +268,7 @@ In deze sectie configureert u hoe u de gegevens van de inhoudsanalyse kunt verza
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_assets_excluded_header"
 >title="Dataverzameling"
->abstract="Wijs op welke activa **** of **uitgesloten** zouden moeten zijn wanneer het verzamelen van gegevens voor Content Analytics"
+>abstract="Wijs op welke activa **&#x200B;**&#x200B;of **uitgesloten** zouden moeten zijn wanneer het verzamelen van gegevens voor Content Analytics"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_experiences_edit_button"
@@ -336,7 +336,7 @@ U kunt de pagina&#39;s en elementen echter wel bewerken om deze in of uit te slu
 
 Zodra u alle noodzakelijke details hebt verstrekt, verstrekt een samenvatting details over de artefacten die worden gecreeerd of gewijzigd.
 
-* U ziet a **[!UICONTROL You're almost ready to implement _configuratienaam _voor de samenvatting van Content Analytics]**wanneer u een nieuwe configuratie uitvoert.
+* U ziet a **[!UICONTROL You're almost ready to implement _configuratienaam _voor de samenvatting van Content Analytics]**&#x200B;wanneer u een nieuwe configuratie uitvoert.
 
 * Voor bestaande uitgevoerde configuraties, ziet u de naam van de a **[!UICONTROL You have implemented _configuratie _voor de samenvatting van Content Analytics]**.
 
