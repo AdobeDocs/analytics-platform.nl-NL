@@ -4,9 +4,9 @@ title: Projecten maken
 feature: Workspace Basics
 role: User
 exl-id: cc3d3ac9-c31f-4a8d-999c-78590512b57c
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: 518bebc18611136873fce5c23dd7041afafe1220
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '450'
 ht-degree: 2%
 
 ---
@@ -81,7 +81,7 @@ Voorbeelden van instellingen:
 | Annotaties tonen | Geef op of er annotaties worden weergegeven voor dit project. |
 | [ het kleurenpalet van het Project ](/help/analysis-workspace/build-workspace-project/color-palettes.md) | U kunt het categorische kleurenpalet veranderen dat in Workspace wordt gebruikt, door uit paletten te kiezen die uit-van-de-doos die voor kleurenblindheid zijn geoptimaliseerd, of door uw douanepalet te specificeren. Deze functie is van invloed op veel dingen in Workspace, waaronder de meeste visualisaties. |
 | [Dichtheid weergeven](/help/analysis-workspace/build-workspace-project/view-density.md) | Hiermee kunt u meer gegevens op het scherm zien door de verticale opvulling van het linkerdeelvenster, vrije-vormtabellen en coderingstabellen te verminderen. |
-| Opmerkingen toestaan | **Nota:** deze functionaliteit is in de Beperkte het Testen fase van versie en zou niet nog in uw milieu beschikbaar kunnen zijn. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het de versieproces van Customer Journey Analytics, zie [ de eigenschapversies van Customer Journey Analytics ](/help/release-notes/releases.md). <p>Als deze optie is ingeschakeld, is er een opmerkingsgebied beschikbaar in de rechterspoorlijn van het project in Analysis Workspace. Voor meer informatie, zie [ commentaren in projecten ](/help/analysis-workspace/build-workspace-project/comment-projects.md) toevoegen en beheren.</p> |
+| Opmerkingen toestaan | Als deze optie is ingeschakeld, is er een opmerkingsgebied beschikbaar in de rechterspoorlijn van het project in Analysis Workspace. Voor meer informatie, zie [ commentaren in projecten ](/help/analysis-workspace/build-workspace-project/comment-projects.md) toevoegen en beheren. |
 
 
 

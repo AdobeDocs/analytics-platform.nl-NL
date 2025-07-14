@@ -4,7 +4,7 @@ title: Opmerkingen toevoegen en beheren in projecten
 feature: Workspace Basics
 role: User
 exl-id: 05f69a1c-31c2-40d8-ae8b-a084169897b1
-source-git-commit: a646d1f35308dc1f1d9f06cf94835534bd8b8da6
+source-git-commit: 518bebc18611136873fce5c23dd7041afafe1220
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 0%
@@ -12,8 +12,6 @@ ht-degree: 0%
 ---
 
 # Opmerkingen toevoegen en beheren in projecten {#comment-on-projects}
-
-{{release-limited-testing}}
 
 Met opmerkingen in Analysis Workspace kunt u inzichten delen en vragen stellen in het kader van een Analysis Workspace-project. Hierdoor kunnen discussies over de gegevens worden gestroomlijnd, waarbij gesprekken worden gevoerd binnen de context van de gegevens die worden besproken.
 
@@ -151,9 +149,9 @@ Een andere persoon in uw opmerking opnemen:
 
 ## Meldingen ontvangen over opmerkingen
 
-De eigenaars van het project en [ specifieke mensen u ](#include-others-in-a-comment) noemt ontvangen berichten die op hun het berichtmontages van Adobe Experience Cloud worden gebaseerd. Door gebrek, ontvangen zij een in-app bericht, zichtbaar van het [ het bericht van Experience Cloud ](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/account-preferences#view-notifications) pictogram ![ het berichtpictogram van Experience Cloud ](assets/experience-cloud-notification.svg) in Customer Journey Analytics.
+De eigenaars van het project en [ specifieke mensen u ](#include-others-in-a-comment) noemt ontvangen berichten die op hun het berichtmontages van Adobe Experience Cloud worden gebaseerd. Door gebrek, ontvangen zij een in-app bericht, zichtbaar van het [ het bericht van Experience Cloud ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications) pictogram ![ het berichtpictogram van Experience Cloud ](assets/experience-cloud-notification.svg) in Customer Journey Analytics.
 
-Bovendien, kunnen de mensen hun het berichtmontages van Experience Cloud vormen om e-mailberichten en de berichten van Slack te ontvangen door [ te abonneren aan e-mailberichten ](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) en [ het intekenen aan de berichten van Slack ](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/account-preferences#slack).
+Bovendien, kunnen de mensen hun het berichtmontages van Experience Cloud vormen om e-mailberichten en de berichten van Slack te ontvangen door [ te abonneren aan e-mailberichten ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#subscribe-to-in-app-and-email-notifications) en [ het intekenen aan de berichten van Slack ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack).
 
 ## Een badge voor een bestaande opmerking plaatsen
 
