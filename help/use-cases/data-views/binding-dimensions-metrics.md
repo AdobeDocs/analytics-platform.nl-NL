@@ -4,7 +4,7 @@ description: Kenmerkafmetingen voor complexe persistentieanalyse naar objectarra
 exl-id: 5e7c71e9-3f22-4aa1-a428-0bea45efb394
 feature: Use Cases
 role: User
-source-git-commit: 1590b7fbdedfacf4665d191220156c887f9c562a
+source-git-commit: db47e3414046a2222c2cb95588c4e3cc6988e6be
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 1%
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 # Afmetingen en metriek van binding gebruiken
 
-Customer Journey Analytics biedt verschillende manieren om waarden van dimensies aan te houden voorbij de hit waarop ze zijn ingesteld. Een van de persistentiemethoden die Adobe aanbiedt, wordt Binding genoemd. In vorige versies van Adobe Analytics werd dit concept ook wel &#39;merchandising&#39; genoemd.
+Customer Journey Analytics biedt verschillende manieren om waarden van dimensies aan te houden naast de hit waarop ze zijn ingesteld. Een van de persistentiemethoden die Adobe biedt, wordt Binding genoemd. In vorige versies van Adobe Analytics werd dit concept ook wel &#39;merchandising&#39; genoemd.
 
-Terwijl u bindende dimensies met top-level gebeurtenisgegevens kunt gebruiken, wordt dit concept best gebruikt wanneer het werken met [ Arrays van voorwerpen ](/help/use-cases/object-arrays.md). U kunt een dimensie aan één deel van een objecten serie zonder de dimensie op alle attributen in een bepaalde gebeurtenis toe te passen toeschrijven. U kunt bijvoorbeeld een zoekterm aan één product in de array met winkelwagentobjecten toewijzen zonder die zoekterm aan de gehele gebeurtenis te binden.
+Terwijl u bindende dimensies met top-level gebeurtenisgegevens kunt gebruiken, wordt dit concept best gebruikt wanneer het werken met [ Arrays van voorwerpen ](/help/use-cases/object-arrays.md). U kunt een dimensie aan één deel van een objecten serie zonder de dimensie op alle attributen in een bepaalde gebeurtenis toe te passen toewijzen. U kunt bijvoorbeeld een zoekterm aan één product in de array met winkelwagentobjecten toewijzen zonder die zoekterm aan de gehele gebeurtenis te binden.
 
 ## Voorbeeld 1: Gebruik bindingsdimensies om aanvullende productkenmerken aan een aankoop toe te wijzen
 
-U kunt dimensie-items binnen een objectarray aan een andere dimensie binden. Wanneer het gebonden afmetingspunt verschijnt, herinnert de Customer Journey Analytics de gebonden afmeting en omvat het in de gebeurtenis voor u. Overweeg de volgende klantenreis:
+U kunt dimensie-items binnen een objectarray aan een andere dimensie binden. Wanneer het gebonden afmetingspunt verschijnt, herinnert Customer Journey Analytics de gebonden dimensie en omvat het in de gebeurtenis voor u. Overweeg de volgende klantenreis:
 
 1. Een bezoeker bekijkt een productpagina op een wasmachine.
 
@@ -83,7 +83,7 @@ Ga naar **[!UICONTROL Data views]** en koppel de [!DNL Product Color] dimensie a
 
 ![ Bindende afmeting ](../assets/binding-dimension.png)
 
-Wanneer u dit persistentiemodel instelt, neemt de Customer Journey Analytics nota van de productnaam wanneer de productkleur wordt ingesteld. Als het dezelfde productnaam herkent in een volgende gebeurtenis voor deze persoon, wordt de productkleur ook overgedragen. Dezelfde gegevens wanneer u een productkleur bindt aan de productnaam, zien er ongeveer als volgt uit:
+Wanneer u dit persistentiemodel instelt, neemt Customer Journey Analytics de productnaam in wanneer de productkleur wordt ingesteld. Als het dezelfde productnaam herkent in een volgende gebeurtenis voor deze persoon, wordt de productkleur ook overgedragen. Dezelfde gegevens wanneer u een productkleur bindt aan de productnaam, zien er ongeveer als volgt uit:
 
 | product.color | omzet |
 | --- | --- |
@@ -354,7 +354,7 @@ Analysis Workspace wijst de tweede aflevering van Orangey toe aan de zoekterm `k
 
 ## Voorbeeld 4: browse versus search behavior in een retail setting evalueren
 
-U kunt waarden binden aan dimensies die zijn ingesteld bij vorige gebeurtenissen. Wanneer u een variabele met een bindende afmeting plaatst, houdt de Customer Journey Analytics rekening met de persisted waarde. Als dit ongewenste gedrag is, kunt u de persistentie-instellingen van de bindende dimensie aanpassen. Kijk in het volgende voorbeeld waar `product_finding_method` is ingesteld voor een gebeurtenis en vervolgens is gebonden aan de optie Cart voegt metrisch toe voor de volgende gebeurtenis.
+U kunt waarden binden aan dimensies die zijn ingesteld bij vorige gebeurtenissen. Wanneer u een variabele instelt met een bindende dimensie, houdt Customer Journey Analytics rekening met de blijvend waarde. Als dit ongewenste gedrag is, kunt u de persistentie-instellingen van de bindende dimensie aanpassen. Kijk in het volgende voorbeeld waar `product_finding_method` is ingesteld voor een gebeurtenis en vervolgens is gebonden aan de optie Cart voegt metrisch toe voor de volgende gebeurtenis.
 
 1. Een bezoeker voert een zoekopdracht naar `camera` uit. Er zijn geen producten ingesteld op deze pagina.
 
@@ -440,4 +440,4 @@ Als u `product_finding_method` echter bindt aan de optie Winkelwagentje, wordt m
 
 >[!MORELIKETHIS]
 >
->[ Bindende Dimensionen in de Mening van Gegevens ](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html?lang=nl-NL) leerprogramma.
+>[ Bindende Dimensies in de Mening van Gegevens ](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html) leerprogramma.
