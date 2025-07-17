@@ -19,7 +19,7 @@ U rapporteert, voert analyse uit en krijgt inzicht in Content Analytics binnen [
 Volledige rapportage over Content Analytics starten:
 
 1. [ creeer een nieuw ](/help/analysis-workspace/build-workspace-project/create-projects.md) of [ open een bestaand ](/help/analysis-workspace/build-workspace-project/open-projects.md) project in Workspace.
-1. Verzeker u [ selecteert een gegevensmening ](/help/analysis-workspace/c-panels/panels.md#data-view) voor Content Analytics rapporterend. Content Analytics het melden is slechts beschikbaar voor gegevensmeningen die [ ](/help/content-analytics/config/configuration.md) voor Content Analytics worden gevormd.
+1. Verzeker u [ selecteert een gegevensmening ](/help/analysis-workspace/c-panels/panels.md#data-view) voor Content Analytics rapporterend. Content Analytics het melden is slechts beschikbaar voor gegevensmeningen die [&#128279;](/help/content-analytics/config/configuration.md) voor Content Analytics worden gevormd.
 1. Sleep a ![ Lijst ](/help/assets/icons/Table.svg) [ vrije vormlijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) visualisatie op het canvas.
 1. Het gebruik [ specifieke componenten van Content Analytics ](components.md) en andere generische [ componenten ](/help/components/overview.md) (als segmenten, datumwaaiers, annotaties) om uw inzichten van de inhoudsanalyse te bouwen.
 
@@ -51,7 +51,7 @@ U opent de voorvertoning met de volgende details:
   | **[!UICONTROL Impressions (all time)]**: aantal indrukken voor de ervaring. | **[!UICONTROL Impressions (all times)]**: aantal afbeeldingen voor het element. |
   | **[!UICONTROL Assets]**: Het aantal elementen dat deze ervaring bevat. <br/> Uitgezochte ![ Uitsplitsing ](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** om de activa te inspecteren. | **[!UICONTROL Experiences]**: Aantal ervaringen waarin dit element wordt weergegeven. <br/> Uitgezochte ![ Uitsplitsing ](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** om de activa te inspecteren. |
   | **[!UICONTROL First impression]**: Datum waarop de ervaring voor het eerst wordt weergegeven. | **[!UICONTROL First impression]**: Datum waarop het element voor het eerst wordt weergegeven. |
-  | **[!UICONTROL  Most recent impression]**: Datum van de meest recente indruk van de ervaring. | **[!UICONTROL Most recent impression]**: Datum van meest recente indruk van het element. |
+  | **[!UICONTROL &#x200B; Most recent impression]**: Datum van de meest recente indruk van de ervaring. | **[!UICONTROL Most recent impression]**: Datum van meest recente indruk van het element. |
   | **[!UICONTROL Experience attributes]**: De [ attributen ](/help/content-analytics/report/components.md#experience-attributes) van de ervaring. | **[!UICONTROL Asset attributes]**: De [ attributen ](/help/content-analytics/report/components.md#asset-attributes) van de activa. |
 
 
@@ -65,7 +65,7 @@ De sjabloon gebruiken:
 
 1. Selecteer **[!UICONTROL Workspace]** in het hoofdmenu.
 1. Controleer of u een gegevensweergave hebt geselecteerd die is geconfigureerd voor Content Analytics.
-1. Zoek naar, of gebruik segmenten (**[!UICONTROL Web]** voor **[!UICONTROL Channel]** en **[!UICONTROL Engagement]** voor ** [!UICONTROL Use Case] **s) om het **[!UICONTROL Content analytics]** malplaatje te vinden en te selecteren.
+1. Zoek naar, of gebruik segmenten (**[!UICONTROL Web]** voor **[!UICONTROL Channel]** en **[!UICONTROL Engagement]** voor **&#x200B; [!UICONTROL Use Case] &#x200B;** s) om het **[!UICONTROL Content analytics]** malplaatje te vinden en te selecteren.
 1. Selecteer **[!UICONTROL Use template]** .
 1. Selecteer in het dialoogvenster **[!UICONTROL Set up your template]** een metrische waarde in het dialoogvenster **[!UICONTROL Select a conversion metric]** . Bijvoorbeeld **[!UICONTROL Asset CTR]** .
 1. Selecteer **[!UICONTROL Continue]** .
@@ -155,5 +155,5 @@ U kunt elk element onderverdelen op basis van afmetingen, zodat u beter begrijpt
 >[!MORELIKETHIS]
 >
 >[ de componenten van Content Analytics ](components.md)
->>[Sjablonen gebruiken ](/help/analysis-workspace/templates/use-templates.md#web-engagement)
+>&#x200B;>[Sjablonen gebruiken ](/help/analysis-workspace/templates/use-templates.md#web-engagement)
 >
