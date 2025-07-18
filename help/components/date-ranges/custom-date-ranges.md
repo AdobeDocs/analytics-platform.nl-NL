@@ -1,22 +1,20 @@
 ---
-description: Voorbeeld van aangepaste datumbereiken in Analysis Workspace.
+description: Leer hoe u aangepaste datumbereiken definieert in Analysis Workspace.
 keywords: Analysis Workspace
-title: Aangepaste datumbereiken
+title: Aangepaste datumbereiken voorbeeld
 feature: Calendar
 exl-id: 1a7df63a-bf18-4c38-b7e2-e83c2d278544
 role: User
-source-git-commit: 90d1c51c11f0ab4d7d61b8e115efa8257a985446
+source-git-commit: 2a152e09d4ff62a02182fc6ac085d4143105a665
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '113'
 ht-degree: 1%
 
 ---
 
 # Aangepaste datumbereiken
 
-Dit artikel bevat meer voorbeelden van aangepaste datumbereiken
-
-
+Dit artikel bevat meer voorbeelden van aangepaste datumbereiken.
 
 ## Vorige twee maanden geleden
 
