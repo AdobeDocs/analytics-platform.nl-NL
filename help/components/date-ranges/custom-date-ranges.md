@@ -5,9 +5,9 @@ title: Aangepaste datumbereiken voorbeeld
 feature: Calendar
 exl-id: 1a7df63a-bf18-4c38-b7e2-e83c2d278544
 role: User
-source-git-commit: 2a152e09d4ff62a02182fc6ac085d4143105a665
+source-git-commit: 28a657a0a93325a745dcf51c706cc488f599a6e0
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '112'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ U wilt een aangepast datumbereik definiëren dat twee maanden geleden wordt gede
 
 +++ Details
 
-U wilt een datumbereik definiëren dat de periode definieert tussen de huidige dag een week geleden en het einde van dezelfde vorige week. Als vandaag bijvoorbeeld woensdag 11 september 2024 is. U wilt een datumbereik van 4 september 2024 tot 7 september 2024. september
+U wilt een datumbereik definiëren dat de periode definieert tussen de huidige dag een week geleden en het einde van dezelfde vorige week. Als vandaag bijvoorbeeld woensdag 11 september 2024 is. U wilt een datumbereik van 4 september 2024 tot 7 september 2024.
 
 ![ het waaiervoorbeeld van de Datum ](assets/date-range-example.png)
 
