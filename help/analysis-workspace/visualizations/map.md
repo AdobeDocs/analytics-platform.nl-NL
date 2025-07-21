@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: 4163228b2ffb08a04e386e6ca31151c7143aed5c
+source-git-commit: c5d550d92a7bf201d3b9f62243540d9c4e063fc8
 workflow-type: tm+mt
-source-wordcount: '2156'
+source-wordcount: '2166'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van de Kaart in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [ Kaart ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert de visualisatie van de Kaart in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_zie [ Kaart ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -212,7 +212,9 @@ De kaartvisualisatie in Customer Journey Analytics verschilt op de volgende mani
       * Negatieve getallen tonen.
 
         Als u bijvoorbeeld een metric voor een aantal jaren plot, kan de kaart een waarde van -33% weergeven voor New York.
+
       * Met metriek die van type *percenten* zijn, groeperen zich gemiddelden samen de percentages.
+
       * Een groen en rood kleurenschema geeft positief en negatief aan.
 
    * **Extra visualiseringsmontages**: Selecteer het pictogram van Montages ![ Plaatsend ](/help/assets/icons/Setting.svg) in de visualisatiekop om extra montages voor de kaartvisualisatie te bekijken. Voor meer informatie, zie [ visualiseringsmontages ](#configure-visualization-settings) vormen.
@@ -238,7 +240,7 @@ Om montages voor de kaartvisualisatie te vormen:
    | **[!UICONTROL Styles]** | | |
    | | **[!UICONTROL Color theme]** | Hiermee geeft u het kleurenschema voor de warmtekaart en luchtbellen weer. U kunt kiezen uit Koraal, Rode tinten, Groene tinten of Vervagen. De standaardinstelling is Coral. |
    | | **[!UICONTROL Map style]** | U kunt kiezen uit Standaard, Streets, Helder, Licht, Donker en Satelliet. |
-   | | **[!UICONTROL Cluster radius]** | Hiermee groepeert u gegevenspunten die binnen het opgegeven aantal pixels liggen. De standaardwaarde is 50. |
+   | | **[!UICONTROL Cluster radius]** | Hiermee groepeert u gegevenspunten die binnen het opgegeven aantal pixels liggen. De standaardwaarde is 50.<p>Deze optie is alleen beschikbaar als **[!UICONTROL Bubbles]** is geselecteerd als de **[!UICONTROL Map type]** .</p> |
    | | **[!UICONTROL Custom max value]** | Hiermee kunt u de drempel voor de maximale waarde voor de kaart wijzigen. Als u deze waarde aanpast, wordt de schaal voor de bellen of de verwarmingswaarden (kleur en grootte) aangepast ten opzichte van de aangepaste maximale waarde die u instelt. |
    | | **[!UICONTROL Show annotations]** | Hiermee worden de annotaties weergegeven die voor deze visualisatie zijn gemaakt. |
    | | **[!UICONTROL Hide title]** | Verbergt de titel van de visualisatie. |
@@ -263,19 +265,19 @@ Als u douanedatasets met diepe precisie hebt, kunt u de kaartvisualisatie vormen
 
    1. Wijzig in het veld **[!UICONTROL Decimal places]** het aantal decimalen om het gewenste precisieniveau aan te geven:
 
-      * **0:** Nauwkeurig aan het grote gebied of landniveau in de kaartvisualisatie. Hiermee geeft u 0 decimalen weer in werkruimterapporten.
+      * **0:** Nauwkeurig aan het grote gebied of landniveau in de kaartvisualisatie. Toont 0 decimalen in Workspace-rapporten.
 
-      * **1:** Nauwkeurig aan het gebied of het grote stadsniveau in de kaartvisualisatie.  Toont 1 decimaal in de rapporten van de Werkruimte.
+      * **1:** Nauwkeurig aan het gebied of het grote stadsniveau in de kaartvisualisatie.  Toont 1 decimaal in Workspace rapporten.
 
-      * **2:** Nauwkeurig aan de stad of het postcodeniveau in de kaartvisualisatie. Toont 2 decimalen in de rapporten van de Werkruimte.
+      * **2:** Nauwkeurig aan de stad of het postcodeniveau in de kaartvisualisatie. Toont 2 decimalen in Workspace-rapporten.
 
         Dit is de standaardselectie.
 
-      * **3:** nauwkeurig aan het zeer kleine stad of buurniveau in de kaartvisualisatie. Toont 3 decimalen in werkruimterapporten.
+      * **3:** nauwkeurig aan het zeer kleine stad of buurniveau in de kaartvisualisatie. Geeft 3 decimalen weer in Workspace-rapporten.
 
-      * **4:** Nauwkeurig aan een specifiek perceel van land of bouwniveau in de kaartvisualisatie. Toont 4 decimalen in de rapporten van de Werkruimte.
+      * **4:** Nauwkeurig aan een specifiek perceel van land of bouwniveau in de kaartvisualisatie. Toont 4 decimalen in Workspace-rapporten.
 
-      * **5:** Nauwkeurig aan één enkele meter in de kaartvisualisatie. Toont 5 decimalen in de rapporten van de Werkruimte.
+      * **5:** Nauwkeurig aan één enkele meter in de kaartvisualisatie. Geeft 5 decimalen weer in Workspace-rapporten.
 
 1. Selecteer **[!UICONTROL Save and continue]** > **[!UICONTROL Save and finish]** .
 
