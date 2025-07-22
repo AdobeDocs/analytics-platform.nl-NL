@@ -538,7 +538,7 @@ De volgende sjablonen zijn beschikbaar:
 >[!CONTEXTUALHELP]
 >id="template--content-analytics"
 >title="Leer welke inhoud en inhoudskenmerken het best presteren."
->abstract="**dit kan u helpen** leren hoe uw inhoud op een korrelig niveau presteert. U kunt kijken naar de prestaties van afzonderlijke elementen of naar specifieke kenmerken. Content Analytics gebruikt AI om automatisch kenmerken te genereren en de inhoud ervan te labelen. <a href="https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics" target="_blank"> leer meer </a>.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als het bevorderen van hoog presterende activa op uw homepage, inhoud voor specifieke segmenten personaliseren om hoge het presteren attributen te omvatten, of inhoud roteren die is begonnen te worden verkoop."
+>abstract="**dit kan u helpen** leren hoe uw inhoud op een korrelig niveau presteert. U kunt kijken naar de prestaties van afzonderlijke elementen of naar specifieke kenmerken. Content Analytics gebruikt AI om automatisch kenmerken te genereren en de inhoud ervan te labelen. <a href="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/content-analytics/content-analytics" target="_blank"> leer meer </a>.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als het bevorderen van hoog presterende activa op uw homepage, inhoud voor specifieke segmenten personaliseren om hoge het presteren attributen te omvatten, of inhoud roteren die is begonnen te worden verkoop."
 
 <!-- markdownlint-enable MD034 -->
 
