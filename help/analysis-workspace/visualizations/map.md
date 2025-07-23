@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: c5d550d92a7bf201d3b9f62243540d9c4e063fc8
+source-git-commit: f0ef310f120e278685893308315902e32c54e35e
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2254'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van de Kaart in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [ Kaart ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert de visualisatie van de Kaart in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_zie [ Kaart ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -287,11 +287,13 @@ U kunt een segment maken op basis van een specifiek gebied dat u selecteert in d
 
 Een segment maken op basis van de visualisatie van de kaart:
 
-1. (Optioneel) Zoom in op het specifieke gebied van de kaart dat de gegevens bevat die u voor het segment wilt gebruiken.
+1. Zoomen of pannen naar het gebied van de kaart dat de gegevens bevat die u voor het segment wilt gebruiken.
 
-1. Klik het pictogram van de de kaartselectie van het selectiegereedschap ![ ](assets/map-selection-icon.png), dan sleep uw muis om het gewenste gebied te selecteren.
+1. Voer een van de volgende handelingen uit:
 
-1. Selecteer **[!UICONTROL Create segment from selection]** in de vervolgkeuzelijst die wordt weergegeven.
+   * **om een segment van alles tot stand te brengen die momenteel in de kaart wordt getoond:** klik overal op de kaart met de rechtermuisknop aan, dan selecteer **[!UICONTROL Create segment from current view]**.
+
+   * **om een segment voor een specifieker gebied van de kaart tot stand te brengen:** klik het pictogram van de selectiegereedschap ![ kaartselectie ](assets/map-selection-icon.png), sleep uw muis om het gewenste gebied te selecteren, dan selecteren **[!UICONTROL Create segment from selection]**.
 
 1. Gebruik de bouwer van het Segment om het nieuwe segment te bepalen. Voor meer informatie, zie [ de bouwer van het Segment ](/help/components/segments/seg-builder.md).
 
@@ -301,11 +303,13 @@ U kunt een publiek maken op basis van een specifiek gebied dat u selecteert in d
 
 Om een publiek van de kaartvisualisatie te creëren:
 
-1. (Optioneel) Zoom in op het specifieke gebied van de kaart dat de gegevens bevat die u voor het publiek wilt gebruiken.
+1. Zoomen of pannen naar het gebied van de kaart dat de gegevens bevat die u voor uw publiek wilt gebruiken.
 
-1. Klik het pictogram van de de kaartselectie van het selectiegereedschap ![ ](assets/map-selection-icon.png), dan sleep uw muis om het gewenste gebied te selecteren.
+1. Voer een van de volgende handelingen uit:
 
-1. Selecteer **[!UICONTROL Create audience from selection]** in de vervolgkeuzelijst die wordt weergegeven.
+   * **om een publiek van alles tot stand te brengen die momenteel in de kaart wordt getoond:** klik overal op de kaart met de rechtermuisknop aan, dan selecteer **[!UICONTROL Create audience from current view]**.
+
+   * **om een publiek voor een specifieker gebied van de kaart tot stand te brengen:** klik het pictogram van de selectiegereedschap ![ kaartselectie ](assets/map-selection-icon.png), sleep uw muis om het gewenste gebied te selecteren, dan selecteren **[!UICONTROL Create audience from selection]**.
 
 1. Gebruik de Audience Builder om het nieuwe publiek te definiëren. Voor meer informatie, zie [ de bouwer van het Publiek ](/help/components/audiences/publish.md#audience-builder) in [ creëren en publiceren publiek](/help/components/audiences/publish.md)
 
@@ -315,11 +319,13 @@ U kunt een trendlijngrafiekvisualisatie voor de gegevens binnen een specifiek ge
 
 U maakt als volgt een trendlijndiagram op basis van de kaartvisualisatie:
 
-1. (Optioneel) Zoom in op het specifieke gebied van de kaart dat de gegevens bevat die u wilt gebruiken voor het verlooplijndiagram.
+1. Zoomen of pannen naar het gebied van de kaart dat de gegevens bevat die u wilt gebruiken voor het uitgelijnde lijndiagram.
 
-1. Klik het pictogram van de de kaartselectie van het selectiegereedschap ![ ](assets/map-selection-icon.png), dan sleep uw muis om het gewenste gebied te selecteren.
+1. Voer een van de volgende handelingen uit:
 
-1. Selecteer **[!UICONTROL Trend]** in de vervolgkeuzelijst die wordt weergegeven.
+   * **om een trended lijngrafiek van alles tot stand te brengen die momenteel in de kaart wordt getoond:** klik overal op de kaart met de rechtermuisknop aan, dan selecteer **[!UICONTROL Trend from current view]**.
+
+   * **om een trended lijngrafiek voor een specifieker gebied van de kaart tot stand te brengen:** klik het pictogram van de selectiegereedschap ![ kaartselectie ](assets/map-selection-icon.png), sleep uw muis om het gewenste gebied te selecteren, dan selecteren **[!UICONTROL Trend]**.
 
    Een lijnvisualisatie wordt gebouwd die een trendline omvat. Voor meer informatie over deze visualisatie, zie [ Lijn ](/help/analysis-workspace/visualizations/line.md).
 
