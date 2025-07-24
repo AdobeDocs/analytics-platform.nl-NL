@@ -33,19 +33,19 @@ Rapporten over Marketo Engage-gegevens in Customer Journey Analytics:
 
 +++ &#x200B;1. Wijs Marketo-brongegevensvelden toe aan hun XDM-doelen
 
-Wijs de [ Personen ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) en [ Activiteiten ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) voorwerpen aan hun respectieve XDM gebieden van het schemadoel in kaart.
+Wijs de [ Personen ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) en [ Activiteiten ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) voorwerpen aan hun respectieve XDM gebieden van het schemadoel in kaart.
 
 +++
 
 +++ &#x200B;2. Verzamel Marketo-gegevens naar Adobe Experience Platform
 
-Gebruik de [ schakelaar van Marketo Engage ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) om gegevens van Marketo aan Experience Platform te brengen en dit gegeven bijgewerkt te houden gebruikend Platform-verbonden toepassingen.
+Gebruik de [ schakelaar van Marketo Engage ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) om gegevens van Marketo aan Experience Platform te brengen en dit gegeven bijgewerkt te houden gebruikend Platform-verbonden toepassingen.
 
 +++
 
 +++ &#x200B;3. Een verbinding met deze gegevensset instellen in Customer Journey Analytics
 
-Om over de datasets van Experience Platform te rapporteren, moet u eerst een verband tussen datasets in Experience Platform en Customer Journey Analytics vestigen. Zie [ creeer of geef een verbinding ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection) uit.
+Om over de datasets van Experience Platform te rapporteren, moet u eerst een verband tussen datasets in Experience Platform en Customer Journey Analytics vestigen. Zie [ creeer of geef een verbinding ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-connections/create-connection) uit.
 
 +++
 
