@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
 role: Admin
-source-git-commit: 82aefce30834d6400d338896dc1968e37596393e
+source-git-commit: fedb1337b32e44fc00989bace6a4d1788043f55f
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '1059'
 ht-degree: 1%
 
 ---
@@ -29,23 +29,23 @@ Zie [ rapporterend vergelijking ](#reporting-comparison) voor meer details.
 >
 
 
-Op Marketo Engage-datum melden in Customer Journey Analytics:
+Rapporten over Marketo Engage-gegevens in Customer Journey Analytics:
 
 +++ &#x200B;1. Wijs Marketo-brongegevensvelden toe aan hun XDM-doelen
 
-Wijs de [ Personen ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) en [ Activiteiten ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) voorwerpen aan hun respectieve XDM gebieden van het schemadoel in kaart.
+Wijs de [ Personen ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) en [ Activiteiten ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) voorwerpen aan hun respectieve XDM gebieden van het schemadoel in kaart.
 
 +++
 
 +++ &#x200B;2. Verzamel Marketo-gegevens naar Adobe Experience Platform
 
-Gebruik de [ schakelaar van Marketo Engage ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) om gegevens van Marketo aan Experience Platform te brengen en dit gegeven bijgewerkt te houden gebruikend Platform-verbonden toepassingen.
+Gebruik de [ schakelaar van Marketo Engage ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) om gegevens van Marketo aan Experience Platform te brengen en dit gegeven bijgewerkt te houden gebruikend Platform-verbonden toepassingen.
 
 +++
 
 +++ &#x200B;3. Een verbinding met deze gegevensset instellen in Customer Journey Analytics
 
-Om over de datasets van Experience Platform te rapporteren, moet u eerst een verband tussen datasets in Experience Platform en Customer Journey Analytics vestigen. Zie [ creeer of geef een verbinding ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-connections/create-connection) uit.
+Om over de datasets van Experience Platform te rapporteren, moet u eerst een verband tussen datasets in Experience Platform en Customer Journey Analytics vestigen. Zie [ creeer of geef een verbinding ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection) uit.
 
 +++
 
@@ -137,3 +137,6 @@ Zie hieronder voor een snelle vergelijkingstabel over rapportagefuncties tussen 
 | **de rapporten van de Douane en flexibiliteit** | Advanced BI (add-on) voor programma en account deep duves. | Zeer flexibel in hoe u aangepaste werkruimten, dashboards of rapporten maakt met gebruik van alle beschikbare gegevens. |
 | **analyse van het publiek** | Filter- en segmentprogrammalijsten, betrokkenheid en slimme lijsten. | Rijke persona- en reisvisualisaties, publiek plakken en segmenten overlappen elkaar. |
 | **Beoogde gebruikers** | Marketers, marketingbedrijven, werknemers die de vraag genereren, inkomstenambtenaren. | Analysten, gegevenswetenschappers, marketingstrategen, klantervaring professionals. |
+| **Metrische deduplicatie** | Voor rapporten over e-mailprestaties worden metrische gegevens automatisch gededupliceerd door id voor leads, campagne-id en e-mailmiddel. Als er meerdere e-mails worden gemaakt van hetzelfde e-mailmiddel en vanuit hetzelfde programma naar dezelfde lead worden verzonden, worden deze e-mails slechts als één e-mail geteld. | Zonder extra toegepaste filters en metriek, wordt e-mail die gegevens melden gemeld als totaal aantal e-mailprestaties zonder [ metrische deduplicatie ](/help/data-views/component-settings/metric-deduplication.md). |
+
+{style="table-layout:fixed"}
