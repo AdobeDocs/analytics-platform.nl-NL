@@ -21,7 +21,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >Dit is een voorlopige documentatie van nieuwe afgeleide veldfuncties die nog niet algemeen beschikbaar zijn. Gebruik deze informatie om over de nieuwe afgeleide gebiedsfuncties te leren. Deze documentatie kan nog worden gewijzigd en er kunnen geen wettelijke verplichtingen uit de huidige versie van dit artikel worden afgeleid.
->&#x200B;><br/>Zie [ Voortgekomen gebieden ](derived-fields.md) voor informatie over de afgeleide functionaliteit van gebieden in het algemeen en de huidige beschikbare vrijgegeven functies en functiesjablonen.
+>><br/>Zie [ Voortgekomen gebieden ](derived-fields.md) voor informatie over de afgeleide functionaliteit van gebieden in het algemeen en de huidige beschikbare vrijgegeven functies en functiesjablonen.
 >
 
 ## Functieverwijzing
