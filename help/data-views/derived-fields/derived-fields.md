@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Derived Fields
 exl-id: bcd172b2-cd13-421a-92c6-e8c53fa95936
 role: Admin
-source-git-commit: 2d4e8c51111427564c761a16deb27223e98cd2ec
+source-git-commit: c9560f8b11ff055040611e208f09ee3e2d7bb5da
 workflow-type: tm+mt
-source-wordcount: '8570'
+source-wordcount: '8502'
 ht-degree: 2%
 
 ---
@@ -19,31 +19,10 @@ ht-degree: 2%
 >title="Afgeleide velden"
 >abstract="Een afgeleid gebied staat u toe om gegevensmanipulaties op de vlucht, door een klantgerichte regelbouwer te bepalen. Vervolgens kunt u dat afgeleide veld gebruiken als een component (metrisch of dimensionaal) in Workspace of zelfs verder definiëren als een component in de gegevensweergave."
 
-<!-- BEGIN
-     Temporarily have these entries at the top; once functions are documented
-     move them to appropriate function section
--->
-
->[!CONTEXTUALHELP]
->id="dataview_derivedfields_datemath"
->title="Datumwiskunde"
->abstract="Deze functie biedt de mogelijkheid het verschil tussen twee datum- of datum-tijdvelden te retourneren."
-
->[!CONTEXTUALHELP]
->id="dataview_derivedfields_typecast"
->title="Typecast"
->abstract="Met deze functie kunt u het veldtype tijdens de vlucht wijzigen en het veld beschikbaar maken voor extra transformaties in Customer Journey Analytics."
-
->[!CONTEXTUALHELP]
->id="dataview_derivedfields_depth"
->title="Diepte"
->abstract="Deze functie biedt de mogelijkheid om de diepte van elk veld te retourneren, net als de functionaliteit van de standaardcomponent voor gebeurtenisdiepte."
-
-<!-- END -->
 
 Afgeleide velden zijn een belangrijk aspect van de functionaliteit voor realtime rapportage in Adobe Customer Journey Analytics. Een afgeleid gebied staat u toe om (vaak complexe) gegevensmanipulaties op de vlucht, door een klantgerichte regelbouwer te bepalen. U kunt dat afgeleid gebied als component (metrisch of afmeting) in [ Workspace ](../../analysis-workspace/home.md) dan gebruiken of zelfs het afgeleide gebied als component in [ mening van Gegevens ](../data-views.md) verder bepalen.
 
-Afgeleide velden kunnen veel tijd en moeite besparen in vergelijking met het transformeren of manipuleren van gegevens op andere locaties buiten Customer Journey Analytics. Zoals [ Prep van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=nl-NL), [ Gegevens Distiller ](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=nl-NL), of binnen uw eigen processen van de Lading van de Transformatie van de Transformatie van het Uittreksel (ETL) / van de Transformatie van de Lading van het Uittreksel (ELT).
+Afgeleide velden kunnen veel tijd en moeite besparen in vergelijking met het transformeren of manipuleren van gegevens op andere locaties buiten Customer Journey Analytics. Zoals [ Prep van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html), [ Gegevens Distiller ](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html), of binnen uw eigen processen van de Lading van de Transformatie van de Transformatie van het Uittreksel (ETL) / van de Transformatie van de Lading van het Uittreksel (ELT).
 
 De afgeleide gebieden worden bepaald binnen [ meningen van Gegevens ](../data-views.md), zijn gebaseerd op een reeks die functies als regels worden bepaald, en op beschikbare standaard en/of schemagebieden worden toegepast.
 
@@ -65,8 +44,8 @@ Wanneer u een afgeleid veld maakt of bewerkt, gebruikt u de afgeleide veldinterf
 |---------|----------|--------|
 | 1 | **Kiezer** | U gebruikt het selectiegebied om uw functie, functiesjabloon, schemaveld of standaardveld te selecteren en te slepen naar de regelbouwer. <br/> gebruik drop-down om tussen te selecteren: <br/>![ Functie ](assets/Smock_Function_18_N.svg) [!UICONTROL Functions] - lijsten beschikbare [ functies ](#function-reference), </br>![ het malplaatjepictogram van de Functie ](assets/Smock_FileTemplate_18_N.svg) [!UICONTROL Function templates] - lijsten beschikbare [ functiesjablonen ](#function-templates), <br/>![ het gebiedspictogram van het Schema ](assets/Smock_Folder_18_N.svg) [!UICONTROL Schema fields] - maakt van gebieden beschikbaar van datasetcategorieën (gebeurtenis, profiel, raadpleging) en eerder afgeleide gebieden, en <br/>![ Standaardgebiedspictogram ](assets/Smock_DragHandle_18_N.svg) [!UICONTROL Standard fields] - standaard beschikbare gebieden (zoals identiteitskaart van de Dataset van het Platform). Alleen standaardvelden met tekenreeksen en numerieke velden worden weergegeven in de kiezer. Als de functie andere gegevenstypen ondersteunt, kunnen standaardvelden met deze andere gegevenstypen worden geselecteerd voor waarden of velden binnen de regelinterface.<br/> u kunt naar functie, functiesjablonen, schema, en standaardgebieden zoeken gebruikend het ![ pictogram van het Onderzoek ](assets/Smock_Search_18_N.svg) vakje van het Onderzoek. <br/> u kunt de geselecteerde objecten lijst filtreren door ![ het pictogram van de Filter ](assets/Smock_Filter_18_N.svg) Filter te selecteren en filters in de [!UICONTROL Filter fields by] dialoog te specificeren. U kunt filters gemakkelijk verwijderen gebruikend ![ dicht pictogram ](assets/CrossSize75.svg) voor elke filter. |
 | 2 | **de bouwer van de Regel** | U bouwt uw afgeleid gebied opeenvolgend gebruikend één of meerdere regels. Een regel is een specifieke implementatie van een functie en wordt daarom altijd met slechts één functie geassocieerd. U maakt een regel door een functie naar de regelbouwer te slepen. Het functietype bepaalt de interface van de regel.<br/> zie de [ interface van de Regel ](#rule-interface) voor meer informatie. <br/> u kunt een functie bij het begin, het eind, of binnen tussen regels opnemen reeds beschikbaar in de regelbouwer. De laatste regel in de regelbouwer bepaalt de definitieve output van het afgeleide gebied. |
-| 3 | **[!UICONTROL **&#x200B; Montages van het Gebied &#x200B;**]** | U kunt het afgeleide veld een naam geven en beschrijven en het veldtype controleren. |
-| 4 | **[!UICONTROL **&#x200B; Definitieve Output &#x200B;**]** | In dit gebied wordt ter plekke een bijgewerkte voorvertoning van uitvoerwaarden weergegeven, gebaseerd op gegevens in de afgelopen 30 dagen en de wijzigingen die u aanbrengt in het afgeleide veld in de regelbuilder. |
+| 3 | **[!UICONTROL ** Montages van het Gebied **]** | U kunt het afgeleide veld een naam geven en beschrijven en het veldtype controleren. |
+| 4 | **[!UICONTROL ** Definitieve Output **]** | In dit gebied wordt ter plekke een bijgewerkte voorvertoning van uitvoerwaarden weergegeven, gebaseerd op gegevens in de afgelopen 30 dagen en de wijzigingen die u aanbrengt in het afgeleide veld in de regelbuilder. |
 
 {style="table-layout:auto"}
 
@@ -75,9 +54,9 @@ Wanneer u een afgeleid veld maakt of bewerkt, gebruikt u de afgeleide veldinterf
 Wanneer u voor het eerst toegang krijgt tot de afgeleide veldinterface, wordt de wizard [!UICONTROL Start with a field template] weergegeven.
 
 1. Selecteer de sjabloon die het beste het type veld beschrijft dat u wilt maken.
-2. Selecteer **[!UICONTROL **&#x200B; Uitgezochte &#x200B;**]** knoop om verder te gaan.
+2. Selecteer **[!UICONTROL ** Uitgezochte **]** knoop om verder te gaan.
 
-Het dialoogvenster met afgeleide velden wordt gevuld met regels (en functies) die vereist of handig zijn voor het type veld dat u hebt geselecteerd. Zie {de malplaatjes van de Functie 0} [&#128279;](#function-templates) voor meer informatie over de beschikbare malplaatjes.
+Het dialoogvenster met afgeleide velden wordt gevuld met regels (en functies) die vereist of handig zijn voor het type veld dat u hebt geselecteerd. Zie {de malplaatjes van de Functie 0} [ voor meer informatie over de beschikbare malplaatjes.](#function-templates)
 
 ## Regelinterface {#rules}
 
@@ -89,7 +68,7 @@ Wanneer u een regel in de regelbouwer bepaalt, gebruikt u de regelinterface.
 |---------|----------|--------|
 | A | **Naam van de Regel** | Door gebrek is de regelnaam **Regel X** (X die naar een opeenvolgingsaantal verwijst). Als u de naam van een regel wilt bewerken, selecteert u de naam en typt u de nieuwe naam, bijvoorbeeld `Query Parameter` . |
 | B | **Naam van de Functie** | De geselecteerde functienaam voor de regel, bijvoorbeeld [!UICONTROL URL PARSE] . Wanneer de functie de laatste in de reeks functies is en de uiteindelijke uitvoerwaarden bepaalt, wordt de functienaam gevolgd door [!UICONTROL - FINAL OUTPUT], bijvoorbeeld [!UICONTROL URL PARSE - FINAL OUTPUT] . <br/> om popup met meer informatie over de functie te tonen, selecteer ![ pictogram van de Hulp ](assets/Smock_HelpOutline_18_N.svg). |
-| C | **Beschrijving van de Regel** | U kunt desgewenst een beschrijving aan een regel toevoegen.<br/> Uitgezochte ![ Meer pictogram ](assets/More.svg), dan uitgezocht **[!UICONTROL ** voeg Beschrijving **]** toe om een beschrijving toe te voegen of **[!UICONTROL **&#x200B; geef Beschrijving &#x200B;**]** uit om een bestaande beschrijving uit te geven.<br/> gebruik de redacteur om een beschrijving in te gaan. U kunt de werkbalk gebruiken om de tekst op te maken (met de stijlkiezer, vet, cursief, onderstrepen, rechts, links, gecentreerd, kleur, nummerlijst, opsommingslijst) en om koppelingen toe te voegen aan externe informatie. <br/> om het uitgeven van de beschrijving te beëindigen, klik buiten de redacteur. |
+| C | **Beschrijving van de Regel** | U kunt desgewenst een beschrijving aan een regel toevoegen.<br/> Uitgezochte ![ Meer pictogram ](assets/More.svg), dan uitgezocht **[!UICONTROL ** voeg Beschrijving **]** toe om een beschrijving toe te voegen of **[!UICONTROL ** geef Beschrijving **]** uit om een bestaande beschrijving uit te geven.<br/> gebruik de redacteur om een beschrijving in te gaan. U kunt de werkbalk gebruiken om de tekst op te maken (met de stijlkiezer, vet, cursief, onderstrepen, rechts, links, gecentreerd, kleur, nummerlijst, opsommingslijst) en om koppelingen toe te voegen aan externe informatie. <br/> om het uitgeven van de beschrijving te beëindigen, klik buiten de redacteur. |
 | D | **Gebied van de Functie** | Definieert de logica van de functie. De interface is afhankelijk van het type functie. In het vervolgkeuzemenu voor [!UICONTROL Field] of [!UICONTROL Value] worden alle categorieën velden (regels, standaardvelden, velden) weergegeven die beschikbaar zijn, op basis van het type invoer dat de functie verwacht. U kunt ook een veld van de kiezer voor schema- en standaardvelden naar een veld of waarde slepen. Wanneer dat gesleepte gebied van een dataset van de Opzoekmachine voortkomt, wordt een functie van de Opzoeken automatisch opgenomen vóór de functie u bepaalt. <br/> zie [ Verwijzing van de Functie ](#function-reference) op gedetailleerde informatie voor elk van de gesteunde functies. |
 
 {style="table-layout:auto"}
@@ -98,36 +77,36 @@ Wanneer u een regel in de regelbouwer bepaalt, gebruikt u de regelinterface.
 
 1. Selecteer een bestaande gegevensweergave of maak een gegevensweergave. Zie [ meningen van Gegevens ](../data-views.md) voor meer informatie.
 
-2. Selecteer het **[!UICONTROL **&#x200B; lusje van Componenten &#x200B;**]** van de mening van Gegevens.
+2. Selecteer het **[!UICONTROL ** lusje van Componenten **]** van de mening van Gegevens.
 
-3. Selecteer **[!UICONTROL **&#x200B; leidt tot afgeleid gebied &#x200B;**]** van het linkerspoor.
+3. Selecteer **[!UICONTROL ** leidt tot afgeleid gebied **]** van het linkerspoor.
 
 4. Gebruik de interface [!UICONTROL Create derived field] om het afgeleide veld te definiëren. Zie [ Voortgekomen gebiedsinterface ](#derived-field-interface).
 
-   Om uw nieuw afgeleid gebied te bewaren, uitgezocht **[!UICONTROL **&#x200B; sparen &#x200B;**]**.
+   Om uw nieuw afgeleid gebied te bewaren, uitgezocht **[!UICONTROL ** sparen **]**.
 
-5. Uw nieuw afgeleid gebied wordt toegevoegd aan de [!UICONTROL Derived fields >] container, als deel van **[!UICONTROL **&#x200B; de gebieden van het Schema &#x200B;**]** in de linkerspoor van uw mening van Gegevens.
+5. Uw nieuw afgeleid gebied wordt toegevoegd aan de [!UICONTROL Derived fields >] container, als deel van **[!UICONTROL ** de gebieden van het Schema **]** in de linkerspoor van uw mening van Gegevens.
 
 
 ## Een afgeleid veld bewerken {#edit}
 
 1. Selecteer een bestaande gegevensweergave. Zie [ meningen van Gegevens ](../data-views.md) voor meer informatie.
 
-2. Selecteer het **[!UICONTROL **&#x200B; lusje van Componenten &#x200B;**]** van de mening van Gegevens.
+2. Selecteer het **[!UICONTROL ** lusje van Componenten **]** van de mening van Gegevens.
 
-3. Selecteer **[!UICONTROL **&#x200B; de gebieden van het Schema &#x200B;**]** lusje in de [!UICONTROL Connection] ruit op de linkerzijde.
+3. Selecteer **[!UICONTROL ** de gebieden van het Schema **]** lusje in de [!UICONTROL Connection] ruit op de linkerzijde.
 
-4. Selecteer **[!UICONTROL **&#x200B; Voortgekomen gebieden > &#x200B;**]** container.
+4. Selecteer **[!UICONTROL ** Voortgekomen gebieden > **]** container.
 
 5. Beweeg over het afgeleide gebied dat u wilt uitgeven, en ![ selecteren geeft pictogram ](assets/Smock_Edit_18_N.svg) uit.
 
 6. Gebruik de interface [!UICONTROL Edit derived field] om het afgeleide veld te bewerken. Zie [ Voortgekomen gebiedsinterface ](#derived-field-interface).
 
-   - Selecteer **[!UICONTROL **&#x200B; sparen &#x200B;**]** om uw bijgewerkt afgeleid gebied te bewaren.
+   - Selecteer **[!UICONTROL ** sparen **]** om uw bijgewerkt afgeleid gebied te bewaren.
 
-   - Selecteer **[!UICONTROL **&#x200B; annuleert &#x200B;**]** om het even welke veranderingen te annuleren u aan het afgeleide gebied aanbracht.
+   - Selecteer **[!UICONTROL ** annuleert **]** om het even welke veranderingen te annuleren u aan het afgeleide gebied aanbracht.
 
-   - Selecteer **[!UICONTROL **&#x200B; sparen als &#x200B;**]** om het afgeleide gebied als nieuw afgeleid gebied te bewaren. Het nieuwe afgeleide veld heeft dezelfde naam als het oorspronkelijke bewerkte afgeleide veld waaraan `(copy)` is toegevoegd.
+   - Selecteer **[!UICONTROL ** sparen als **]** om het afgeleide gebied als nieuw afgeleid gebied te bewaren. Het nieuwe afgeleide veld heeft dezelfde naam als het oorspronkelijke bewerkte afgeleide veld waaraan `(copy)` is toegevoegd.
 
 U kunt ook een afgeleid veld gebruiken als component voor afmetingen of metriek in de gegevensweergave:
 
@@ -137,11 +116,11 @@ U kunt ook een afgeleid veld gebruiken als component voor afmetingen of metriek 
 
 1. Gebruik de interface [!UICONTROL Edit derived field] om het afgeleide veld te bewerken. Zie [ Voortgekomen gebiedsinterface ](#derived-field-interface).
 
-   - Selecteer **[!UICONTROL **&#x200B; sparen &#x200B;**]** om uw bijgewerkt afgeleid gebied te bewaren.
+   - Selecteer **[!UICONTROL ** sparen **]** om uw bijgewerkt afgeleid gebied te bewaren.
 
-   - Selecteer **[!UICONTROL **&#x200B; annuleert &#x200B;**]** om het even welke veranderingen te annuleren u aan het afgeleide gebied aanbracht.
+   - Selecteer **[!UICONTROL ** annuleert **]** om het even welke veranderingen te annuleren u aan het afgeleide gebied aanbracht.
 
-   - Selecteer **[!UICONTROL **&#x200B; sparen als &#x200B;**]** om het afgeleide gebied als nieuw afgeleid gebied te bewaren. Het nieuwe afgeleide veld heeft dezelfde naam als het oorspronkelijke bewerkte afgeleide veld waaraan `(copy)` is toegevoegd.
+   - Selecteer **[!UICONTROL ** sparen als **]** om het afgeleide gebied als nieuw afgeleid gebied te bewaren. Het nieuwe afgeleide veld heeft dezelfde naam als het oorspronkelijke bewerkte afgeleide veld waaraan `(copy)` is toegevoegd.
 
 
 
@@ -149,19 +128,19 @@ U kunt ook een afgeleid veld gebruiken als component voor afmetingen of metriek 
 
 1. Selecteer een bestaande gegevensweergave. Zie [ meningen van Gegevens ](../data-views.md) voor meer informatie.
 
-2. Selecteer het **[!UICONTROL **&#x200B; lusje van Componenten &#x200B;**]** van de mening van Gegevens.
+2. Selecteer het **[!UICONTROL ** lusje van Componenten **]** van de mening van Gegevens.
 
-3. Selecteer **[!UICONTROL **&#x200B; de gebieden van het Schema &#x200B;**]** lusje in [!UICONTROL Connection] ruit.
+3. Selecteer **[!UICONTROL ** de gebieden van het Schema **]** lusje in [!UICONTROL Connection] ruit.
 
-4. Selecteer **[!UICONTROL **&#x200B; Voortgekomen gebieden > &#x200B;**]** container.
+4. Selecteer **[!UICONTROL ** Voortgekomen gebieden > **]** container.
 
 5. Beweeg over het afgeleide gebied dat u wilt schrappen, en ![ selecteren geeft pictogram ](assets/Smock_Edit_18_N.svg) uit.
 
-6. Selecteer **[!UICONTROL Delete]** in de interface van [!UICONTROL Edit derived field] .
+6. Selecteer [!UICONTROL Edit derived field] in de interface van **[!UICONTROL Delete]** .
 
    In een dialoogvenster [!UICONTROL Delete component] wordt u gevraagd de verwijdering te bevestigen. Overweeg om het even welke externe verwijzingen er aan het afgeleide gebied buiten de mening van Gegevens zouden kunnen bestaan.
 
-   - Selecteer **[!UICONTROL **&#x200B; ga &#x200B;**]** verder om het afgeleide gebied te schrappen.
+   - Selecteer **[!UICONTROL ** ga **]** verder om het afgeleide gebied te schrappen.
 
 U kunt ook een afgeleid veld gebruiken als component voor afmetingen of metriek in de gegevensweergave:
 
@@ -169,11 +148,11 @@ U kunt ook een afgeleid veld gebruiken als component voor afmetingen of metriek 
 
 1. In het paneel van de Component, selecteer het ![ uitgeven pictogram ](assets/Smock_Edit_18_N.svg) naast uw afgeleid gebied, onder de het gebiedsnaam van het Schema.
 
-1. Selecteer **[!UICONTROL Delete]** in de interface van [!UICONTROL Edit derived field] .
+1. Selecteer [!UICONTROL Edit derived field] in de interface van **[!UICONTROL Delete]** .
 
    In een dialoogvenster [!UICONTROL Delete component] wordt u gevraagd de verwijdering te bevestigen. Overweeg om het even welke externe verwijzingen er aan het afgeleide gebied buiten de mening van Gegevens zouden kunnen bestaan.
 
-   - Selecteer **[!UICONTROL **&#x200B; ga &#x200B;**]** verder om het afgeleide gebied te schrappen.
+   - Selecteer **[!UICONTROL ** ga **]** verder om het afgeleide gebied te schrappen.
 
 >[!NOTE]
 >
@@ -444,14 +423,10 @@ Voor elke ondersteunde functie vindt u hieronder meer informatie over:
 
 ### Hoofdletter als {#casewhen}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_casewhen"
 >title="Hoofdletter als"
 >abstract="Deze functie biedt de mogelijkheid om voorwaarden toe te passen op basis van gedefinieerde criteria in een of meer velden. Die criteria worden vervolgens gebruikt om de waarden in het nieuwe afgeleide veld te definiëren op basis van de volgorde van de voorwaarden."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Hiermee past u voorwaarden toe op basis van gedefinieerde criteria in een of meer velden. Deze criteria worden vervolgens gebruikt om de waarden in een nieuw afgeleid veld te definiëren op basis van de volgorde van de voorwaarden.
@@ -674,7 +649,7 @@ De volgende beperkingen zijn van toepassing en worden afgedwongen wanneer *selec
 |:---:|----|
 | **A** | Waarden u *uitgezocht* binnen zelfde [!UICONTROL If], [!UICONTROL Else If] constructie (het gebruiken [!UICONTROL And] of [!UICONTROL Or]) in een regel moet uit de zelfde container voortkomen en kan van om het even welk type (koord ![ Koord ](assets/Smock_ABC_18_N.svg), numerieke ![ Numeriek ](assets/Smock_123_18_N.svg), etc.) zijn. <br/>![ Schermafbeelding van gebiedsdeel A ](assets/dependency-a.png) |
 | **B** | Alle waarden u *plaatst* over een regel moet van de zelfde container zijn en het zelfde type of een afgeleide waarde van het zelfde type hebben. <br/> ![ Schermafbeelding van Afhankelijkheid B ](assets/dependency-b.png) |
-| **C** | De waarden u *selecteert* over [!UICONTROL If], [!UICONTROL Else If] constructs in de regel **&#x200B; moeten niet uit de zelfde container voortkomen en &#x200B;** moeten niet van het zelfde type zijn. <br/> ![ Schermafbeelding van Afhankelijkheid C ](assets/dependency-c.png) |
+| **C** | De waarden u *selecteert* over [!UICONTROL If], [!UICONTROL Else If] constructs in de regel ** moeten niet uit de zelfde container voortkomen en ** moeten niet van het zelfde type zijn. <br/> ![ Schermafbeelding van Afhankelijkheid C ](assets/dependency-c.png) |
 
 {style="table-layout:auto"}
 
@@ -684,14 +659,10 @@ De volgende beperkingen zijn van toepassing en worden afgedwongen wanneer *selec
 
 ### Classificeren {#classify}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_classify"
 >title="Classificeren"
 >abstract="Deze functie biedt de mogelijkheid een set waarden te definiëren die worden vervangen door corresponderende waarden door tekstinvoer."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Definieert een set waarden die worden vervangen door corresponderende waarden in een nieuw afgeleid veld.
@@ -913,17 +884,14 @@ U definieert een `Origin - Destination` afgeleid veld. U gebruikt de functie [!U
 
 +++
 
+<!-- DEDUPLICATE -->
 
 ### Dedupliceren {#dedup}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_deduplicate"
 >title="Dedupliceren"
 >abstract="Deze functie biedt de mogelijkheid om een veld te configureren zodat alleen waarden op sessieniveau of op persoonlijke niveau zonder herhaling worden geteld. Bovendien kan een deduplicatie-id worden gebruikt om ervoor te zorgen dat op basis van een bepaalde id (zoals een aankoop-id) slechts één waarde wordt gebruikt (de eerste of de laatste instantie)."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Hiermee wordt voorkomen dat een waarde meerdere keren wordt geteld.
@@ -1007,6 +975,7 @@ U definieert een nieuw `Tracking Code (deduplicated)` afgeleid veld. U gebruikt 
 +++
 
 
+
 <!-- FIND AND REPLACE -->
 
 ### Zoeken en vervangen {#find-and-replace}
@@ -1017,8 +986,6 @@ U definieert een nieuw `Tracking Code (deduplicated)` afgeleid veld. U gebruikt 
 >id="dataview_derivedfields_findandreplace"
 >title="Zoeken en vervangen"
 >abstract="Met deze functie kunt u alle waarden in een geselecteerd veld vinden en deze waarden vervangen door een andere waarde in een nieuw afgeleid veld."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Hiermee zoekt u alle waarden in een geselecteerd veld en vervangt u deze waarden door een andere waarde in een nieuw afgeleid veld.
@@ -1091,14 +1058,10 @@ U definieert een `Email Marketing (updated)` afgeleid veld. U gebruikt de functi
 
 ### Opzoeken {#lookup}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_lookup"
 >title="Opzoeken"
 >abstract="Deze functie verstrekt de capaciteit om gebieden van een raadplegingsdataset te gebruiken gebruikend een passende sleutel tussen datasets."
-
-<!-- markdownlint-enable MD034 -->
 
 
 De waarden van de opzoekopdracht die een gebied van een raadplegingsdataset gebruiken en keert een waarde op een nieuw afgeleid gebied of voor verdere regelverwerking terug.
@@ -1152,14 +1115,10 @@ U kunt snel een [!UICONTROL Lookup] functie in de regelbouwer opnemen, die reeds
 
 ### Kleine letters {#lowercase}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_lowercase"
 >title="Kleine letters"
 >abstract="Deze functie converteert de volledige tekenreekstekst naar kleine letters."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Hiermee zet u waarden van een veld om in kleine letters en slaat u deze op in een nieuw afgeleid veld.
@@ -1213,14 +1172,10 @@ U definieert een `Product Names` afgeleid veld. U gebruikt de functie [!UICONTRO
 
 ### Math {#math}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_math"
 >title="Math"
 >abstract="Deze functie biedt de mogelijkheid om wiskundige bewerkingen uit te voeren op een veld. De functie kan worden gebruikt om rekenkundige basisbewerkingen uit te voeren, zoals optellen, aftrekken, vermenigvuldigen en delen."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Gebruik wiskundige basisoperatoren (toevoegen, verwijderen, vermenigvuldigen, verdelen en verhogen tot een macht) op numerieke velden.
@@ -1277,7 +1232,7 @@ Een formule maken:
 
 1. Voeg de operand (bijvoorbeeld `*` toe om te vermenigvuldigen) gevolgd door een ander veld of een statische waarde. U kunt haakjes gebruiken om complexere formules te definiëren.
 
-1. Om een statische waarde (bijvoorbeeld `1.05`) op te nemen, typ de waarde en selecteer **[!UICONTROL Add *x *als statische waarde]**&#x200B;of **[!UICONTROL Add -*x* als negatieve statische waarde]** van popup menu.
+1. Om een statische waarde (bijvoorbeeld `1.05`) op te nemen, typ de waarde en selecteer **[!UICONTROL Add *x *als statische waarde]**of **[!UICONTROL Add -*x* als negatieve statische waarde]** van popup menu.
    ![ Math Meer Info 2 ](assets/math-more-info-2.png)
 
 1. Een groen controleteken ![ Vinkje ](./assets/checkmark.svg)</span> wijst erop of uw wiskundige formule geldig is, anders zult u een waarschuwing ![ Alarm ](./assets/alert.svg) en het bericht [!UICONTROL Invalid formula expression] zien.
@@ -1290,11 +1245,9 @@ Er zijn enkele belangrijke overwegingen wanneer u werkt met statische getallen i
 - Als u meerdere statische waarden gebruikt in een formule, moeten deze statische waarden met haakjes worden gegroepeerd, anders is de formule niet geldig. Bijvoorbeeld:
 
    - Deze formule retourneert een fout.
-
      ![ Math Meer Info 4 ](assets/math-more-info-4.png)
 
    - Deze formule is geldig.
-
      ![ Math Meer Info 5 ](assets/math-more-info-5.png)
 
 Gebruik de functie Math voor op raakniveau gebaseerde berekeningen. Gebruik de [ vat ](#summarize) functie voor gebeurtenis samen, zitting of persoon op werkingsgebied gebaseerde berekeningen.
@@ -1306,14 +1259,10 @@ Gebruik de functie Math voor op raakniveau gebaseerde berekeningen. Gebruik de [
 
 ### Velden samenvoegen {#merge}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_mergefields"
 >title="Velden samenvoegen"
 >abstract="Deze functie biedt de mogelijkheid om waarden te nemen van twee verschillende velden en hun respectieve waarden in één dimensie op te nemen. De regel controleert eerst of de eerste waarde is ingesteld. Zo niet, dan wordt de tweede waarde gebruikt enzovoort."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Hiermee voegt u waarden uit twee verschillende velden samen tot een nieuw afgeleid veld.
@@ -1382,14 +1331,10 @@ U moet hetzelfde type velden selecteren in een regel voor het samenvoegen van ve
 
 ### Volgende of Vorige {#next-previous}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_nextprevious"
 >title="Volgende of Vorige"
 >abstract="Met deze functie kunt u de volgende of vorige waarde bekijken die voor een bepaald veld is verzameld."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Neemt een gebied als input en lost de volgende of vorige waarde voor dat gebied binnen het werkingsgebied van de zitting of het gebruik op. Dit geldt alleen voor de velden Bezoek en Gebeurtenis.
@@ -1464,14 +1409,10 @@ U kunt alleen velden selecteren die behoren tot de tabel Visit of Event.
 
 ### Regex Replace {#regex-replace}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_regexreplace"
 >title="Regex Replace"
 >abstract="Deze functie biedt de mogelijkheid om delen van een tekenreeks te extraheren met behulp van reguliere expressies."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Hiermee vervangt u een waarde uit een veld met een reguliere expressie in een nieuw afgeleid veld.
@@ -1571,14 +1512,10 @@ U kunt deze reeksen gebruiken in [!UICONTROL Output format] om het even welk aan
 
 ### Splitsen {#split}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_split"
 >title="Splitsen"
 >abstract="Met deze functie kunt u een veld opsplitsen in meerdere velden op basis van een scheidingsteken."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Splitst een waarde van een veld in een nieuw afgeleid veld.
@@ -1673,14 +1610,10 @@ U maakt een `Second Response` afgeleid veld om de laatste waarde uit het veld [!
 
 ### Samenvatten {#summarize}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_summarize"
 >title="Samenvatten"
 >abstract="Deze functie biedt de mogelijkheid om waarden samen te voegen op het niveau van een gebeurtenis, sessie of persoon. Afhankelijk van het veldtype voor het geselecteerde veld zijn verschillende opties beschikbaar."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Hiermee past u functies van het aggregatietype toe op metriek of dimensies op gebeurtenis-, sessie- en gebruikersniveau.
@@ -1751,14 +1684,10 @@ Gebruik de functie Samenvatten voor op gebeurtenissen, sessies of personebereik 
 
 ### Verkleinen {#trim}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_trim"
 >title="Verkleinen"
 >abstract="Deze functie biedt de mogelijkheid witruimte of speciale tekens te verwijderen vanaf het begin of het einde van een tekenreeks. Ook de mogelijkheid om het aantal tekens op te geven dat voor de geretourneerde waarde moet worden gebruikt, vanaf de voorzijde of het einde van de tekenreeks."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Hiermee wordt witruimte, speciale tekens of het aantal tekens vanaf het begin of het einde van veldwaarden bijgesneden in een nieuw afgeleid veld.
@@ -1868,19 +1797,14 @@ U maakt een afgeleid veld `Store Identifier` . U gebruikt de functie [!UICONTROL
 {style="table-layout:auto"}
 +++
 
-
 <!-- URL PARSE -->
 
 ### URL-parsering {#urlparse}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="dataview_derivedfields_urlparse"
 >title="URL-parse"
 >abstract="Met deze functie kunt u verschillende delen van een URL parseren, inclusief de parameters host, path of query."
-
-<!-- markdownlint-enable MD034 -->
 
 
 Hiermee worden verschillende delen van een URL uitgeparseerd, zoals protocol-, host-, pad- of queryparameters.
@@ -1967,7 +1891,7 @@ De volgende beperkingen zijn van toepassing op de functionaliteit van het afgele
 
 - U kunt maximaal tien verschillende schemavelden gebruiken (zonder standaardvelden) bij het definiëren van regels voor een afgeleid veld.
    - Van dit maximum van tien verschillende schemagebieden, slechts worden een maximum van drie raadplegingsschema of profielschemagebieden toegestaan.
-- U kunt een maximumaantal afgeleide gebieden per verbinding van Customer Journey Analytics afhankelijk van het pakket hebben u vergunning geeft. Zie [ Beschrijving van het Product ](https://helpx.adobe.com/nl/legal/product-descriptions/customer-journey-analytics.html){target="_blank"} voor meer informatie.
+- U kunt een maximumaantal afgeleide gebieden per verbinding van Customer Journey Analytics afhankelijk van het pakket hebben u vergunning geeft. Zie [ Beschrijving van het Product ](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html){target="_blank"} voor meer informatie.
 
 
 ### Overzicht van functiebeperkingen

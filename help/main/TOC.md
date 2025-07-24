@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 24834f6a1424a885c6f7b3dcf0ad84375e21b462
+source-git-commit: 1b81b0fb81119132b6568726761e9897c2b4e47c
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1278'
 ht-degree: 10%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 10%
       + [Veelgestelde vragen](../getting-started/cja-faq.md)
       + [Vergelijk met BI-oplossingen](../getting-started/cja-vs-bi.md)
       + [AI-assistent](../ai-assistant.md)
-      + [Data Insights-agent](../data-analysis-ai.md)
+      + [Data Insights Agent](../data-analysis-ai.md)
    + Customer Journey Analytics B2B edition {#cja-b2b}
       + [Overzicht](/help/getting-started/cja-b2b-edition.md)
       + [B2B-concepten en -functies](/help/getting-started/cja-b2b-concepts-features.md)
@@ -148,6 +148,7 @@ ht-degree: 10%
    + [Standaardcomponentverwijzing](../data-views/component-reference.md)
    + [BI-extensie](../data-views/bi-extension.md)
    + [Afgeleide velden](../data-views/derived-fields/derived-fields.md)
+   + [Afgeleide velden (beperkt)](../data-views/derived-fields/derived-fields-limited.md)
    + [Samenvattingsgegevens](../data-views/summary-data.md)
    + [Labels en beleid](../data-views/data-governance.md)
    + Gedeelde metriek en dimensies{#shared-metrics-dimensions}
