@@ -7,20 +7,23 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 6e7dba80-5fb9-4554-b989-85eb54a4bd6a
-source-git-commit: 82aefce30834d6400d338896dc1968e37596393e
+source-git-commit: c26fbe37270171c80d77c96966dd21f2dd7c7ce9
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
 
-# Real-time rapportage gebruiken
+# Real-time rapportage gebruiken {#use-real-time-reporting}
+
+>[!CONTEXTUALHELP]
+>id="workspace_panel_realtime_refresh"
+>title="In real time vernieuwen"
+>abstract="Schakel deze optie in om gegevens en visualisaties in dit deelvenster in real-time te vernieuwen."
 
 {{release-limited-testing}}
 
 Als u real-time rapportage wilt gebruiken, schakelt u de schakeloptie **[!UICONTROL Real-time refresh]** in op een van de volgende deelvensters in uw Workspace-project:
-
-
 
 * [Leeg deelvenster](/help/analysis-workspace/c-panels/blank-panel.md)
 * [Vrije vorm](/help/analysis-workspace/c-panels/freeform-panel.md)
@@ -28,7 +31,7 @@ Als u real-time rapportage wilt gebruiken, schakelt u de schakeloptie **[!UICONT
 * [Volgende of vorige item](/help/analysis-workspace/c-panels/next-previous.md)
 * [Snelle inzichten](/help/analysis-workspace/c-panels/quickinsight.md)
 
-Er wordt een bericht weergegeven met de tijdstempel van de meest recente vernieuwing van de gegevens. Bijvoorbeeld: [!UICONTROL &#x200B; *Laatste verfrist zich bij 07:55 pm*].
+Er wordt een bericht weergegeven met de tijdstempel van de meest recente vernieuwing van de gegevens. Bijvoorbeeld: [!UICONTROL  *Laatste verfrist zich bij 07 :55 pm*].
 
 Selecteer in het keuzemenu de real-time periode waarover u wilt rapporteren. Beschikbare opties zijn:
 
@@ -39,6 +42,8 @@ Selecteer in het keuzemenu de real-time periode waarover u wilt rapporteren. Bes
 * [!UICONTROL Last 24 hours]
 
 Alle visualisaties in het deelvenster worden nu elke minuut bijgewerkt met maximaal 30 minuten, terwijl het browsertabblad met het deelvenster voor real-time vernieuwen actief is.
+
+Als voorbeeld, zie onder een momentopname van a **[!UICONTROL Real-time reporting panel]** die **[!UICONTROL Total Revenue / Hour]** bar visualization en **[!UICONTROL Total Revenue / Hour]** vrije vormlijst aangezien tijdbewegingen van **[!UICONTROL *06:26pm*]** aan **[!UICONTROL *06 :27 pm *]**vernieuwt.
 
 ![ In real time verfrist zich ](assets/real-time-refresh.gif)
 
