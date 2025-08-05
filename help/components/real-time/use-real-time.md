@@ -30,7 +30,7 @@ Als u real-time rapportage wilt gebruiken, schakelt u de schakeloptie **[!UICONT
 * [Attributie](/help/analysis-workspace/c-panels/attribution.md)
 * [Volgende of vorige item](/help/analysis-workspace/c-panels/next-previous.md)
 
-Er wordt een bericht weergegeven met de tijdstempel van de meest recente vernieuwing van de gegevens. Bijvoorbeeld: [!UICONTROL  *Laatste verfrist zich bij 07 :55 pm*].
+Er wordt een bericht weergegeven met de tijdstempel van de meest recente vernieuwing van de gegevens. Bijvoorbeeld: [!UICONTROL &#x200B; *Laatste verfrist zich bij 07 :55 pm*].
 
 Selecteer in het keuzemenu de real-time periode waarover u wilt rapporteren. Beschikbare opties zijn:
 
@@ -42,7 +42,7 @@ Selecteer in het keuzemenu de real-time periode waarover u wilt rapporteren. Bes
 
 Alle visualisaties in het deelvenster worden nu elke minuut bijgewerkt met maximaal 30 minuten, terwijl het browsertabblad met het deelvenster voor real-time vernieuwen actief is.
 
-Als voorbeeld, zie onder een momentopname van a **[!UICONTROL Real-time reporting panel]** die **[!UICONTROL Total Revenue / Hour]** bar visualization en **[!UICONTROL Total Revenue / Hour]** vrije vormlijst aangezien tijdbewegingen van **[!UICONTROL *06:26pm*]** aan **[!UICONTROL *06 :27 pm *]**vernieuwt.
+Als voorbeeld, zie onder een momentopname van a **[!UICONTROL Real-time reporting panel]** die **[!UICONTROL Total Revenue / Hour]** bar visualization en **[!UICONTROL Total Revenue / Hour]** vrije vormlijst aangezien tijdbewegingen van **[!UICONTROL *06:26pm*]** aan **[!UICONTROL *06 :27 pm *]**&#x200B;vernieuwt.
 
 ![ In real time verfrist zich ](assets/real-time-refresh.gif)
 
