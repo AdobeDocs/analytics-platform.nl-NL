@@ -7,9 +7,9 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: e7a7a297e303a410c73598f373219644e50ede74
+source-git-commit: 34dfbc98acecf1ca953434a7d1f0547ff45139a8
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -54,5 +54,8 @@ Houd rekening met de volgende beperking voor real-time rapportage:
 * Real-time rapportage rapporteert alleen gegevens die beschikbaar zijn over een voortschrijdende periode van 24 uur. De gegevens die deze het rollen periode van 24 uur kruisen zijn niet beschikbaar.
 * Attributie, segmentatie, berekende metriek, en meer werken slechts aan de gegevens beschikbaar binnen de rolperiode van 24 uren.
 * Real-time rapportage werkt het best op gegevens op gebeurtenis- en sessieniveau en u moet voorzichtig zijn met real-time rapportage voor gegevens op persoonniveau. <!--Need to explain this a bit better --> Aangezien alleen gebeurtenissen vanaf de schuivende periode van 24 uur beschikbaar zijn voor realtime rapporten, is de gebeurtenisgeschiedenis van een persoon ook beperkt tot dit venster. Houd rekening met de voorkeur voor gegevens op gebeurtenis- en sessieniveau wanneer u afmetingen (berekende) kiest. En wanneer u functies zoals onderbrekingen, volgende of vorige, en meer in uw real-time gebruikt verfrist toegelaten paneel.
-* U kunt het stitching met real-time rapportering niet combineren. <!-- Do we need to explain this in more detail, why? --> Zoals hierboven vermeld, gaat real-time rapportage over gebeurtenis- en sessieniveau-gegevens en niet zozeer over op personen gebaseerde gegevens.
+* U kunt het stitching met real-time rapportering niet combineren. <!-- Do we need to explain this in more detail, why? --> Real-time rapportage heeft betrekking op gegevens op gebeurtenis- en sessieniveau en is minder relevant voor gegevens op basis van personen.
 * Er zijn geen hartslagverzamelde mediummetriek beschikbaar, met uitzondering van media start en media close-metriek. Zo kunt u rapportering in real time nog gebruiken om media gebruiksgeval toe te laten.
+* Wanneer u de [ download of de uitvoeropties ](/help/analysis-workspace/export/download-send.md) gebruikt om een project te downloaden of gegevens van een vrije vormlijst uit te voeren, overweeg het volgende:
+   * Een gedownload CSV-project of geëxporteerd CSV-bestand bevat de realtime gegevens die beschikbaar zijn op het moment van downloaden of exporteren.
+   * Een gedownload PDF-project bevat niet-real-time gegevens, vergelijkbaar met de gegevens die worden weergegeven wanneer real-time vernieuwing is uitgeschakeld.
