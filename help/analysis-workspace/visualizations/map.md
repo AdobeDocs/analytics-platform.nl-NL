@@ -6,10 +6,10 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: f0ef310f120e278685893308315902e32c54e35e
+source-git-commit: bee6c3420511dc944c74e9818d77f6424fcb9cc8
 workflow-type: tm+mt
-source-wordcount: '2254'
-ht-degree: 1%
+source-wordcount: '2621'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van de Kaart in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [ Kaart ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert de visualisatie van de Kaart in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_zie [ Kaart ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +59,7 @@ De ![ Globe ](/help/assets/icons/Globe.svg) **[!UICONTROL Map]** visualisatie in
 
 In de montages van de gegevensmeningen van Customer Journey Analytics, kunnen de beheerders [ contextetiketten ](/help/data-views/component-settings/overview.md) aan een afmeting toevoegen of metrisch en de diensten van Customer Journey Analytics zoals [!UICONTROL map] visualization kunnen deze etiketten voor hun doeleinden gebruiken.
 
-#### Vereiste contextetiketten voor de kaartvisualisatie
+#### Vereiste contextlabels voor breedte- en lengtegraad in de kaartvisualisatie
 
 Contextlabels zijn vereist om de kaartvisualisatie te laten functioneren. Als de volgende contextlabels ontbreken, werkt de visualisatie van de kaart niet, omdat er geen breedte- en lengtegegevens zijn waarmee kan worden gewerkt.
 
@@ -72,13 +72,27 @@ U voegt als volgt contextlabels toe:
 
 1. Selecteer op de pagina met gegevensweergaven de gegevensweergave die de gegevens bevat die u wilt analyseren in de kaartvisualisatie.
 
-1. Selecteer het tabblad **[!UICONTROL Components]** en selecteer vervolgens de dimensie die de longitudegegevens bevat.
+1. Selecteer de tab **[!UICONTROL Components]** .
 
-1. Ga naar de sectie **[!UICONTROL Component settings]** in de rechtertrack in het veld **[!UICONTROL Context labels]** en typ `Longitude` en selecteer deze in het keuzemenu.
+1. (Voorwaardelijk) als u het Web SDK gebruikt en breedtegraad en lengtegraad hebt gevormd om in uw gegevensstroom te worden bevolkt, of als u de Verbinding van Analytics Source gebruikt om gebeurtenisgegevens te bevolken, dan zouden de breedtegraad en lengtegebieden reeds in uw schema beschikbaar moeten zijn en met de correcte contextetiketten worden bevolkt.
 
-   ![ de contextetiketten van de Breedte en van de lengtegraad ](assets/map-context-labels-lat-long.png)
+   Zoek deze **[!UICONTROL Latitude]** - en **[!UICONTROL Longitude]** schemavelden (in **[!UICONTROL Event datasets]** > **[!UICONTROL placeContext]** > **[!UICONTROL geo]** > **[!UICONTROL _schema]** ) en sleep deze naar de gegevensweergave als afmetingen, als ze nog niet aanwezig zijn.
 
-1. Herhaal dit proces om het contextlabel **[!UICONTROL Latitude]** toe te voegen aan de dimensie die de breedtegegevens bevat.
+   Wanneer deze schemagebieden als afmetingen in uw gegevensmening bestaan, worden hun contextetiketten automatisch toegepast, en de kaartvisualisatie gebruikt hen zonder enige extra configuratie.
+
+   ![ voeg breedte en lengteschemagebieden aan gegevensmening ](assets/dataview-lat-long-default.png) toe
+
+1. (Voorwaardelijk) Als u douaneafmetingen hebt die u voor breedte en lengtegegevens wilt gebruiken, kunt u de contextetiketten op de douanegebieden vormen:
+
+   1. Selecteer in de sectie **[!UICONTROL Dimensions]** de dimensie die de lengtegegevens bevat.
+
+   1. Ga naar de sectie **[!UICONTROL Component settings]** in de rechtertrack in het veld **[!UICONTROL Context labels]** en typ `Longitude` en selecteer deze in het keuzemenu.
+
+      ![ de contextetiketten van de Breedte en van de lengtegraad ](assets/map-context-labels-lat-long.png)
+
+   1. Herhaal dit proces om het contextlabel **[!UICONTROL Latitude]** toe te voegen aan de dimensie die de breedtegegevens bevat.
+
+   1. (Optioneel) Deze afmetingen zijn standaard nauwkeurig tot het niveau van de stad of postcode in de kaartvisualisatie en geven 2 decimalen weer in Workspace-rapporten. U kunt deze aanpassen om precies te zijn binnen één meter in de kaartvisualisatie en om 5 decimalen weer te geven in Workspace-rapporten. Voor meer informatie over hoe te om het precisieniveau aan te passen, zie [ nauwkeurige plaatsen voor afmetingen ](#configure-precise-locations-for-dimensions) vormen.
 
 1. Selecteer **[!UICONTROL Save and continue]** > **[!UICONTROL Save and finish]** .
 
@@ -90,7 +104,7 @@ Hieronder vindt u de sjablonen en het vereiste contextlabel. Als deze labels nie
 
 | Sjabloonnaam | Vereist contextlabel |
 |---------|----------|
-| Geo-landen | [!UICONTROL Geo: Geo Country] |
+| Geo | [!UICONTROL Geo: Geo Country] |
 | Geo-gebieden | [!UICONTROL Geo: Geo Region] |
 | Geosteden | [!UICONTROL Geo: Geo City] |
 | Geo VS-staten | [!UICONTROL Geo: Geo State] |
@@ -102,13 +116,25 @@ U voegt als volgt contextlabels toe:
 
 1. Voor de de meningspagina van Gegevens, selecteer de gegevensmening die gegevens bevat die u met vooraf gebouwde malplaatjes wilt analyseren die de kaartvisualisatie gebruiken. In deze gegevensweergave kiest u vijf dimensies, één met de landgegevens, één met de regiogegevens, één met de stadsgegevens, één met de staatsgegevens en één met de DMA-gegevens. Vervolgens labelt u die afmetingen met het bijbehorende contextlabel.
 
-1. Selecteer het tabblad **[!UICONTROL Components]** en selecteer vervolgens de dimensie die de landgegevens bevat.
+1. Selecteer de tab **[!UICONTROL Components]** .
 
-1. Ga naar de sectie **[!UICONTROL Component settings]** in de rechtertrack in het veld **[!UICONTROL Context labels]** en typ `Geo Country` en selecteer deze in het keuzemenu.
+1. (Voorwaardelijk) als u het Web SDK gebruikt en u geo gebieden hebt gevormd om in uw gegevensstroom worden bevolkt, of als u de Verbinding van Analytics Source gebruikt om gebeurtenisgegevens te bevolken, dan zouden de geo gebieden reeds in uw schema beschikbaar moeten zijn en met de correcte contextetiketten worden bevolkt.
 
-   ![ de contextetiketten van Malplaatjes ](assets/map-context-labels-templates.png)
+   Zoek de desbetreffende schemavelden, zoals **[!UICONTROL City]** , **[!UICONTROL Postal code]** , **[!UICONTROL State or province]** (in **[!UICONTROL Event datasets]** > **[!UICONTROL placeContext]** > **[!UICONTROL geo]** ) en sleep deze naar de gegevensweergave als afmetingen, als deze nog niet aanwezig zijn.
 
-1. Herhaal dit proces om het contextlabel **[!UICONTROL Geo: Geo Region]** , **[!UICONTROL Geo: Geo City]** , **[!UICONTROL Geo: Geo State]** en **[!UICONTROL Geo: Dma]** toe te voegen aan elke dimensie die de corresponderende gegevens bevat.
+   Wanneer deze schemagebieden als afmetingen in uw gegevensmening bestaan, worden hun contextetiketten automatisch toegepast, en de geo malplaatjes gebruiken hen zonder enige extra configuratie.
+
+   ![ voeg geo schemagebieden aan gegevensmening ](assets/dataview-geo-default.png) toe
+
+1. (Voorwaardelijk) Als u douaneafmetingen hebt die u voor geo gegevens wilt gebruiken, kunt u de contextetiketten op de douanegebieden vormen:
+
+   1. Selecteer de dimensie die de landgegevens bevat.
+
+   1. Ga naar de sectie **[!UICONTROL Component settings]** in de rechtertrack in het veld **[!UICONTROL Context labels]** en typ `Geo Country` en selecteer deze in het keuzemenu.
+
+      ![ de contextetiketten van Malplaatjes ](assets/map-context-labels-templates.png)
+
+   1. Herhaal dit proces om het contextlabel **[!UICONTROL Geo: Geo Region]** , **[!UICONTROL Geo: Geo City]** , **[!UICONTROL Geo: Geo State]** en **[!UICONTROL Geo: Dma]** toe te voegen aan elke dimensie die de corresponderende gegevens bevat.
 
 1. Selecteer **[!UICONTROL Save and continue]** > **[!UICONTROL Save and finish]** .
 
@@ -255,7 +281,7 @@ Als u douanedatasets met diepe precisie hebt, kunt u de kaartvisualisatie vormen
 
 1. Selecteer de tab **[!UICONTROL Components]** in de gegevensweergave.
 
-1. Selecteer de dimensie die u wilt configureren.
+1. Selecteer de dimensies die u gebruikt voor breedte en lengte die u wilt configureren. Voor meer informatie over welke afmetingen u gebruikt, zie [ Vereiste contextetiketten voor breedte en lengtegraad in de kaartvisualisatie ](#required-context-labels-for-latitude-and-longitude-in-the-map-visualization).
 
 1. Configureer het precisieniveau voor de dimensie:
 
