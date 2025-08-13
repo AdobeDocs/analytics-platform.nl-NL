@@ -5,7 +5,7 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 3c3fd6b814485871f2fd9249b0ffa9a0b24a360c
+source-git-commit: 82b36895fe5186f0133c128d434470ea7f875677
 workflow-type: tm+mt
 source-wordcount: '2298'
 ht-degree: 0%
@@ -20,22 +20,22 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->De Agent van Gegevens is beschikbaar aan in aanmerking komende klanten voor een beperkte tijd. De toegang tot de Agent van Gegevens zal op 30 november 2025 beëindigen. Als u de Data Insights Agent zonder onderbreking wilt blijven gebruiken, vraagt u uw Adobe-accountvertegenwoordiger om meer informatie over het in licentie geven van Data Insights Agent.
+>Data Insights Agent is gedurende een beperkte periode beschikbaar voor in aanmerking komende klanten. De toegang tot Data Insights Agent loopt af op 30 november 2025. Als u Data Insights Agent zonder onderbreking wilt blijven gebruiken, vraagt u uw Adobe-accountvertegenwoordiger om meer informatie over het in licentie geven van Data Insights Agent.
 
-De Agent van Gegevens, toegankelijk van de Medewerker van AI in Customer Journey Analytics, is een generatieve AI gespreksagent die snel en efficiënt vragen over uw gegevens beantwoordt. In Analysis Workspace worden relevante visualisaties gemaakt aan de hand van componenten uit uw gegevensweergave en met behulp van uw werkelijke gegevens.
+Data Insights Agent, toegankelijk van de [ Medewerker AI ](/help/ai-assistant.md) in Customer Journey Analytics, is een generatieve AI gespreksagent die snel en efficiënt vragen over uw gegevens beantwoordt. In Analysis Workspace worden relevante visualisaties gemaakt aan de hand van componenten uit uw gegevensweergave en met behulp van uw werkelijke gegevens.
 
-Het gebruiken van de Agent van Gegevens om gegeven-centric vragen in Analysis Workspace te beantwoorden kan ontelbare uren besparen die u anders manueel het bouwen van visualisaties in Analysis Workspace zou kunnen doorbrengen en zich met uw componenten van de gegevensmening vertrouwd maken.
+Als u Data Insights Agent gebruikt om gegevenscentrische vragen in Analysis Workspace te beantwoorden, bespaart u ontelbare uren die u anders handmatig zou kunnen besteden aan het maken van visualisaties in Analysis Workspace en het vertrouwd maken met de componenten van de gegevensweergave.
 
-![ Agent van de Inzichten van Gegevens binnen de Medewerker AI ](assets/cja-ai-asst-da.gif)
+![ Data Insights Agent binnen de Medewerker AI ](assets/cja-ai-asst-da.gif)
 
 ## Functies binnen bereik versus buiten bereik
 
 | Functie | Binnen bereik | Buiten bereik |
 | --- | --- | --- |
 | **Visualisatietypen** | <ul><li>Lijn</li><li>Meerdere regels</li><li>Vrije-vormtabel</li><li>Balk</li><li>Donut</li><li>Samenvattingsnummer</li></ul> | <ul><li>Stroom</li><li>Fallout</li><li>Cohortabel</li><li>Gebied, gebied gestapeld</li><li>Stapel gestapeld</li><li>Opsommingsteken</li><li>Combo</li><li>Histogram</li><li>Horizontale balk, horizontale balk gestapeld</li><li>Hoofdmetrische samenvatting</li><li>Spreiding</li><li>Samenvattingswijziging</li><li>Tekst</li><li>Treemap</li><li>Venn</li><li>Analyse met instructies: Actieve groei, Conversietrends, Betrokkenheid, impact voor eerste gebruik, Frequentie, Trechter, Net groei, impact release, Behoud, Tijdlijn, Trends</li></ul> |
-| **de acties van Workspace en agentenmogelijkheden** | <ul><li>Visualisaties maken en bijwerken<p>Hiermee genereert u een vrije-vormtabel en de bijbehorende visualisatie (zoals een lijn, balk, donut, enzovoort).<p>Bijvoorbeeld, *wat is de winst over SKUs van Februari aan Mei?*</p></li><li>Vervolgvragen stellen<p>Reageer op een vraag in de context van om het even welke vroegere herinneringen. Bijvoorbeeld:</p> <ul><li>Vraag 1: *de gebeurtenissen van de Trend van Maart.*</li><li>Vraag 2: *toon me de gegevens van Maart aan April in plaats daarvan*</li></ul> </li><li>Snelle detectie buiten bereik<p>Als u een herinnering voorlegt die buiten werkingsgebied, zoals *is dit project* uitvoeren, antwoordt de Agent van Gegevens Inzichten door u te informeren dat de vraag buiten werkingsgebied is.</p></li></ul> | <ul><li>Delen</li><li>Exporteren</li><li>Downloaden</li><li>Gebruikersvoorkeuren beheren</li><li>Gegevensweergave beheren</li><li>Analytische dashboards-app</li><li>Attributie</li><li>Samenvatting of reactie online<p>Data Insights Agent kan niet online in de chat rail reageren met een beknopt antwoord van een gebruikersprompt. De voorbeelden van uit-van-werkingsgebied herinneringen zijn, *geven me een samenvatting van de inzichten van mijn laatste herinnering* en *vatten de hoogtepunten van de lijnvisualisatie samen.*</p></li></ul> |
-| **het Verhelderen van vragen** | Als u een vraag stelt die niet genoeg context voor de Agent van Gegevens heeft om te antwoorden, of te generiek is, antwoordt de Agent van Gegevens met een het verduidelijken vraag of voorgestelde opties. <p>De volgende verduidelijkende vragen zijn voorbeelden van aan onderdelen gerelateerde vragen:</p><ul><li>Metrisch: *welke metrische &quot;opbrengst&quot;metrisch u bedoelde?*</li><li>Dimension: *welke van de hieronder &quot;gebieden&quot;wilt u zich op concentreren?*</li><li>Segment: *welk &quot;segment van de Rekening&quot;wilde u toepassen?*</li><li>De Waaier van de datum: *door &quot;vorige maand,&quot;bedoelde u de laatste volledige maand of de laatste 30 dagen?*</li></ul><p>De volgende verduidelijking is een voorbeeld van een vraag die verband houdt met dimensie-elementen:</p> <ul><li>Welke &quot;winkelnaam&quot; bedoelde je? (Bijvoorbeeld Winkel #5274, Winkel #2949, enzovoort.)</li></ul> | Het verduidelijken van vragen is beperkt tot componenten en afmetingspunten. De Agent van Gegevens kan geen dingen zoals gegevensmeningen, visualisaties, gegevensgranulariteit, vergelijking, en werkingsgebied verduidelijken. Wanneer het verduidelijken van vragen niet kan worden gebruikt, blijft de agent aan wat u het meest waarschijnlijk vraagt. Als het een onverwachte visualisatie of gegevensgranulariteit terugkeert, kunt u een vervolgvraag stellen of de visualisatie en de gegevens aanpassen. |
-| **verifieerbaarheid en correctheid van Gegevens** | De verifieerbaarheid en de correctheid van gegevens kunnen worden bevestigd door de geproduceerde vrije vormlijst en gegevensvisualisatie te bekijken. <p>Bijvoorbeeld, als u de Agent van de Inzichten van Gegevens aan *orden van de Trend* vraagt, kunt u bevestigen dat correcte metrische (&quot;orden&quot;) en datumwaaier (&quot;vorige maand&quot;) in het onlangs geproduceerde paneel, gegevensvisualisatie, en vrije vormlijst werden geselecteerd. | De Data Insights Agent reageert niet door u te informeren welke componenten of visualisaties zijn toegevoegd.</p> |
+| **de acties van Workspace en agentenmogelijkheden** | <ul><li>Visualisaties maken en bijwerken<p>Hiermee genereert u een vrije-vormtabel en de bijbehorende visualisatie (zoals een lijn, balk, donut, enzovoort).<p>Bijvoorbeeld, *wat is de winst over SKUs van Februari aan Mei?*</p></li><li>Vervolgvragen stellen<p>Reageer op een vraag in de context van om het even welke vroegere herinneringen. Bijvoorbeeld:</p> <ul><li>Vraag 1: *de gebeurtenissen van de Trend van Maart.*</li><li>Vraag 2: *toon me de gegevens van Maart aan April in plaats daarvan*</li></ul> </li><li>Snelle detectie buiten bereik<p>Als u een herinnering voorlegt die buiten werkingsgebied, zoals *is dit project* uitvoeren, antwoordt Data Insights Agent door u te informeren dat de vraag buiten werkingsgebied is.</p></li></ul> | <ul><li>Delen</li><li>Exporteren</li><li>Downloaden</li><li>Gebruikersvoorkeuren beheren</li><li>Gegevensweergave beheren</li><li>Analytische dashboards-app</li><li>Attributie</li><li>Samenvatting of reactie online<p>Data Insights Agent kan niet online in de chatrail reageren met een beknopt antwoord van een gebruikersprompt. De voorbeelden van uit-van-werkingsgebied herinneringen zijn, *geven me een samenvatting van de inzichten van mijn laatste herinnering* en *vatten de hoogtepunten van de lijnvisualisatie samen.*</p></li></ul> |
+| **het Verhelderen van vragen** | Als u een vraag stelt die niet genoeg context heeft om Data Insights Agent te beantwoorden, of te algemeen is, beantwoordt Data Insights Agent met een verduidelijkende vraag of voorgestelde opties. <p>De volgende verduidelijkende vragen zijn voorbeelden van aan onderdelen gerelateerde vragen:</p><ul><li>Metrisch: *welke metrische &quot;opbrengst&quot;metrisch u bedoelde?*</li><li>Dimension: *welke van de hieronder &quot;gebieden&quot;wilt u zich op concentreren?*</li><li>Segment: *welk &quot;segment van de Rekening&quot;wilde u toepassen?*</li><li>De Waaier van de datum: *door &quot;vorige maand,&quot;bedoelde u de laatste volledige maand of de laatste 30 dagen?*</li></ul><p>De volgende verduidelijking is een voorbeeld van een vraag die verband houdt met dimensie-elementen:</p> <ul><li>Welke &quot;winkelnaam&quot; bedoelde je? (Bijvoorbeeld Winkel #5274, Winkel #2949, enzovoort.)</li></ul> | Het verduidelijken van vragen is beperkt tot componenten en afmetingspunten. Data Insights Agent kan dingen als gegevensweergaven, visualisaties, granulariteit van gegevens, vergelijking en bereik niet verduidelijken. Wanneer het verduidelijken van vragen niet kan worden gebruikt, blijft de agent aan wat u het meest waarschijnlijk vraagt. Als het een onverwachte visualisatie of gegevensgranulariteit terugkeert, kunt u een vervolgvraag stellen of de visualisatie en de gegevens aanpassen. |
+| **verifieerbaarheid en correctheid van Gegevens** | De verifieerbaarheid en de correctheid van gegevens kunnen worden bevestigd door de geproduceerde vrije vormlijst en gegevensvisualisatie te bekijken. <p>Bijvoorbeeld, als u Data Insights Agent vraagt om *de orden van de Trend vorige maand*, kunt u bevestigen dat correcte metrische (&quot;orden&quot;) en datumwaaier (&quot;vorige maand&quot;) in het onlangs geproduceerde paneel, gegevensvisualisatie, en vrije vormlijst werden geselecteerd. | Data Insights Agent reageert niet door u te laten weten welke onderdelen of visualisaties zijn toegevoegd.</p> |
 | **mechanismen van de Terugkoppeling** | <ul><li>Stompelen omhoog</li><li>Miniatuur omlaag</li><li>Markering</li></ul> |  |
 
 
@@ -43,13 +43,13 @@ Het gebruiken van de Agent van Gegevens om gegeven-centric vragen in Analysis Wo
 
 De volgende parameters regelen de toegang tot Data Insights Agent in Customer Journey Analytics:
 
-* **de toegang van de Oplossing**: De Agent van Gegevens is beschikbaar voor alle klanten van Customer Journey Analytics als deel van een beperkt toegangsprogramma tot 30 November, 2025. Het is niet beschikbaar in Adobe Analytics.
+* **de toegang van de Oplossing**: Data Insights Agent is beschikbaar voor alle klanten van Customer Journey Analytics als deel van een beperkt toegangsprogramma tot 30 November, 2025. Het is niet beschikbaar in Adobe Analytics.
 
-* **Contractuele toegang**: Als u de Agent van Gegevens van de Inzichten in de Medewerker van AI niet kunt gebruiken, gelieve de beheerder van uw organisatie of het de rekeningsteam van Adobe te contacteren. Voordat uw organisatie Data Insights Agent kan gebruiken, moet u akkoord gaan met bepaalde juridische voorwaarden die betrekking hebben op generatieve AI.
+* **Contractuele toegang**: Als u geen Data Insights Agent in de Medewerker kunt gebruiken AI, gelieve te contacteren de beheerder van uw organisatie of het de rekeningsteam van Adobe. Voordat uw organisatie Data Insights Agent kan gebruiken, moet u akkoord gaan met bepaalde wettelijke voorwaarden die betrekking hebben op generatieve AI.
 
-* **Toestemmingen**: De noodzakelijke toestemmingen moeten in [!UICONTROL Adobe Admin Console] worden verleend alvorens de gebruikers tot de Agent van Gegevens kunnen toegang hebben.
+* **Toestemmingen**: De noodzakelijke toestemmingen moeten in [!UICONTROL Adobe Admin Console] worden verleend alvorens de gebruikers tot Data Insights Agent kunnen toegang hebben.
 
-  Om toestemmingen te verlenen, moet a [ admin van het productprofiel ](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) de volgende stappen in [!UICONTROL Admin Console] voltooien:
+  Om toestemmingen te verlenen, moet a [ admin van het productprofiel ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) de volgende stappen in [!UICONTROL Admin Console] voltooien:
    1. Selecteer in **[!UICONTROL Admin Console]** de tab **[!UICONTROL Products]** om de pagina **[!UICONTROL All products and services]** weer te geven.
    1. Selecteer **[!UICONTROL Customer Journey Analytics]** .
    1. Selecteer op het tabblad **[!UICONTROL Product Profiles]** de titel van het productprofiel waartoe u toegang wilt verlenen aan [!UICONTROL AI Assistant: Product Knowledge] .
@@ -70,13 +70,13 @@ De volgende parameters regelen de toegang tot Data Insights Agent in Customer Jo
 
       ![ voeg toestemming ](assets/ai-assistant-permissions-dataviewtools.png) toe.
 
-   1. Selecteer het tabblad **[!UICONTROL Data Views]** om de gegevensweergaven te kiezen die u wilt inschakelen voor Data Insights Agent.
+   1. Selecteer het tabblad **[!UICONTROL Data Views]** om de gegevensweergaven te kiezen die u voor Data Insights Agent wilt inschakelen.
 
       >[!IMPORTANT]
       >
       >Houd rekening met het volgende wanneer u gegevensweergaven inschakelt:
-      >* U kunt maximaal 50 gegevensweergaven inschakelen per IMS-organisatie. Als u meer dan 50 gegevensmeningen over alle productprofielen voor een bepaalde organisatie toelaat, zal de Agent van Gegevens de 50 meest gebruikte gegevensmeningen gebruiken.
-      >* De Data Insights Agent kan verwijzen naar de opgenomen gegevensweergaven ergens op dezelfde dag dat u deze inschakelt in de Admin Console.
+      >* U kunt maximaal 50 gegevensweergaven inschakelen per IMS-organisatie. Als u meer dan 50 gegevensweergaven inschakelt voor alle productprofielen voor een bepaalde organisatie, gebruikt de Data Insights Agent de 50 meest gebruikte gegevensweergaven.
+      >* De Data Insights Agent kan verwijzen naar de opgenomen gegevensweergaven op een tijdstip op dezelfde dag dat u ze inschakelt in de Admin Console.
 
    1. Onderzoek naar of rol aan de gegevensmeningen die u wilt toelaten, dan selecteren plus pictogram ![ AddCircle ](/help/assets/icons/AddCircle.svg) naast de naam van elke gegevensmening.
 
@@ -88,7 +88,7 @@ De volgende parameters regelen de toegang tot Data Insights Agent in Customer Jo
 
   Voor extra informatie over toegangsbeheer, zie [ controle van de Toegang ](/help/technotes/access-control.md#access-control).
 
-## De Agent van de Inzicht van Gegevens van de toegang in AI Medewerker
+## Data Insights Agent openen in de AI-assistent
 
 1. Ga naar [ experience.adobe.com ](https://experience.adobe.com/) en login met uw Adobe ID.
 
@@ -96,7 +96,7 @@ De volgende parameters regelen de toegang tot Data Insights Agent in Customer Jo
 
 3. Selecteer **[!UICONTROL Blank project]** in de banner bij de bovenkant van de projectpagina om een nieuw leeg project te openen.
 
-4. Zorg ervoor dat de geselecteerde gegevensmening voor het paneel een gegevensmening is die voor gebruik met de Agent van Gegevens werd toegelaten Inzichten, zoals die in [ wordt beschreven beheert toegang tot de Agent van Gegevens Inzichten in Customer Journey Analytics ](#manage-access-to-data-insights-agent-in-customer-journey-analytics).
+4. Zorg ervoor dat de geselecteerde gegevensmening voor het paneel een gegevensmening is die voor gebruik met Data Insights Agent werd toegelaten, zoals die in [ wordt beschreven beheert toegang tot Data Insights Agent in Customer Journey Analytics ](#manage-access-to-data-insights-agent-in-customer-journey-analytics).
 
 5. Selecteer het AI Assistant-chatpictogram rechtsboven op de pagina.
 
@@ -106,11 +106,11 @@ De volgende parameters regelen de toegang tot Data Insights Agent in Customer Jo
 
    * Gereedschappen voor gegevensweergave: **[!UICONTROL Data Insights Agent]**
 
-   Voor extra details, zie [ toegang tot de Agent van Gegevens beheren in Customer Journey Analytics ](#manage-access-to-data-insights-agent-in-customer-journey-analytics).
+   Voor extra details, zie [ toegang tot Data Insights Agent in Customer Journey Analytics beheren ](#manage-access-to-data-insights-agent-in-customer-journey-analytics).
 
    ![ AI Hulp pictogram ](/help/assets/ai-asst-icon.png)
 
-6. Stel in het dialoogvenster **[!UICONTROL Ask about Customer Journey Analytics]** onder aan de pagina een vraag over gegevensvisualisatie met de Data Insights Agent.
+6. Stel in het dialoogvenster **[!UICONTROL Ask about Customer Journey Analytics]** onder aan de pagina een vraag over gegevensvisualisatie met Data Insights Agent.
 
    Zie de volgende voorbeelden voor meer informatie.
 
@@ -122,7 +122,7 @@ Stel bijvoorbeeld dat u geïnteresseerd bent in de orders die uw bedrijf in juli
 
 ![ AI herinnering ](/help/assets/ai-asst-prompt1.png)
 
-**Reactie:** de Agent van Gegevens vangt inzichten door de gegevens in de gegevensmening, met inbegrip van de metriek en de componenten te bekijken. Het vertaalt de herinnering in de juiste afmetingen en metriek binnen de gegevenswaaier.
+**Reactie:** Data Insights Agent verzamelt inzichten door de gegevens in de gegevensmening, met inbegrip van de metriek en de componenten te bekijken. Het vertaalt de herinnering in de juiste afmetingen en metriek binnen de gegevenswaaier.
 
 Zoals u kunt zien, produceerde het automatisch een lijngrafiek en een vrije lijst om orden voor Juli te tonen.
 
@@ -134,13 +134,13 @@ Daarna, wilt u zien hoe uw opbrengst per regio vergelijkt.
 
 **Herinnering:** in het snelle venster, ga *&quot;Show opbrengst door gebied in.&quot;*
 
-**Reactie:** De Agent van Gegevens begrijpt intelligent dat door &quot;gebied,&quot;u &quot;klantengebied&quot;bedoelt.&quot; Het produceert een staafdiagram dat opbrengst door gebied het best toont:
+**Reactie:** Data Insights Agent begrijpt intelligent dat door &quot;gebied,&quot;u &quot;klantengebied&quot;bedoelt.&quot; Het produceert een staafdiagram dat opbrengst door gebied het best toont:
 
 ![ Grafiek van de Bar ](/help/assets/ai-asst-result2.png)
 
 ### Voorbeeld 3
 
-Naast het begrip van de opbrengsten per regio, wilt u ook gegevens voor winst per regio zien. In plaats van de vorige herinnering te herhalen, kunt u de Agent van Gegevens verzoeken om de meest recente visualisatie en vrijevormlijst bij te werken.
+Naast het begrip van de opbrengsten per regio, wilt u ook gegevens voor winst per regio zien. In plaats van de vorige vraag te herhalen, kunt u Data Insights Agent vragen om de meest recente visualisatie- en vrije-vormtabel bij te werken.
 
 **Herinnering:** in het snelle venster, type *&quot;voeg winst toe.&quot;*
 
@@ -154,13 +154,13 @@ Tot slot, kijk de opbrengst per productcategorie.
 
 **Herinnering:** in het snelle venster, ga *&quot;Deel van opbrengst door productcategorie in.&quot;*
 
-**Reactie:** opnieuw, neemt de Agent van Gegevens de meest aangewezen visualisatie, in dit geval de **[!UICONTROL Donut]** visualisatie, om de vraag te beantwoorden.
+**Reactie:** opnieuw, neemt Data Insights Agent de meest aangewezen visualisatie, in dit geval de **[!UICONTROL Donut]** visualisatie, aan om de vraag te beantwoorden.
 
 ![Cirkeldiagram](/help/assets/ai-asst-result3.png)
 
 ## Voorbeeld van vragen voor gegevensvisualisatie
 
-Hieronder volgen enkele voorbeelden van veelvoorkomende herinneringen en de visualisaties die door Data Insights Agent worden gebruikt om te reageren op deze herinneringen.
+Hieronder volgen enkele voorbeelden van veelvoorkomende vragen en de visualisaties die Data Insights Agent gebruikt om op deze vragen te reageren.
 
 | Voorbeeldprompt | Verwachte visualisatie |
 | --- | --- |
@@ -179,7 +179,7 @@ Hieronder volgen enkele voorbeelden van veelvoorkomende herinneringen en de visu
 
 ## Aankondiging van aanbevolen procedures
 
-De Agent van Gegevens verwerkt de context die door elke gebruikersherinnering wordt verstrekt en probeert om intelligent met de meest aangewezen visualisatie en de componenten in een vrije vormlijst te antwoorden.
+Data Insights Agent verwerkt de context die door elke gebruikersherinnering wordt verstrekt en probeert intelligent met de meest aangewezen visualisatie en de componenten in een vrije vormlijst te antwoorden.
 
 De reacties kunnen variëren afhankelijk van de specifieke woorden en uitdrukkingen die in de herinnering worden gebruikt, en lichte veranderingen in taal kunnen tot verschillende resultaten leiden.
 
@@ -187,13 +187,13 @@ Houd rekening met de volgende richtlijnen om de beste resultaten te bereiken:
 
 * **ben specifiek:** omvat nauwkeurige termijnen om onderaan de reactie te versmallen. Het volgende is een voorbeeld van een specifieke herinnering: &quot;De verkoop van vorige maand in Californië&quot;
 
-* **gebruik duidelijke metriek, dimensies, en segmenten:** Toevoegend specifieke metriek (zoals &quot;Opbrengst&quot;), dimensies (zoals &quot;Websitenaam&quot;), segmenten (zoals &quot;de gebruikers van iPhone&quot;), en datumwaaiers (zoals &quot;laatste drie maanden&quot;) helpt de Agent van Gegevens zich op de juiste gegevens concentreren.
+* **gebruik duidelijke metriek, dimensies, en segmenten:** Toevoegend specifieke metriek (zoals &quot;Opbrengst&quot;), dimensies (zoals &quot;Websitenaam&quot;), segmenten (zoals &quot;gebruikers van iPhone&quot;), en datumwaaiers (zoals &quot;laatste drie maanden&quot;) helpt Data Insights Agent zich op de juiste gegevens concentreren.
 
-* **stel directe vragen:** het Begeleidende vragen maakt het voor de Agent van Gegevens direct gemakkelijker om duidelijke, relevante inzichten te verstrekken. Het volgende is een voorbeeld van het stellen van een directe vraag in een vroeg stadium: &quot;Wat is de gemiddelde opbrengst per productcategorie dit jaar?&quot;
+* **stel directe vragen:** het Begrippen van vragen maakt het voor Data Insights Agent direct gemakkelijker om duidelijke, relevante inzichten te verstrekken. Het volgende is een voorbeeld van het stellen van een directe vraag in een vroeg stadium: &quot;Wat is de gemiddelde opbrengst per productcategorie dit jaar?&quot;
 
-Herzie de volgende lijst van voorbeeldtermijnen en uitdrukkingen die u in herinneringen met de Agent van Gegevens kunt gebruiken Inzichten, samen met de soorten reacties kunt verwachten u.
+Bekijk de volgende voorbeeldlijst van termen en uitdrukkingen die u in herinneringen met Data Insights Agent, samen met de soorten reacties kunt gebruiken u kunt verwachten.
 
-Deze voorbeelden worden ontworpen om u vertrouwd te maken met hoe de specifieke woorden of structuren de output van de Agent van Gegevens kunnen beïnvloeden Insight, die nauwkeurigere en waardevolle inzichten verzekeren. De Agent van de Inzichten van gegevens gebruikt generatieve AI, zodat kunnen de visualisaties of de geselecteerde gegevens lichtjes over gelijkaardige herinneringen variëren.
+Deze voorbeelden worden ontworpen om u vertrouwd te maken met hoe de specifieke woorden of structuren de output van de Agent van Gegevens kunnen beïnvloeden Insight, die nauwkeurigere en waardevolle inzichten verzekeren. Data Insights Agent gebruikt generatieve AI, zodat de visualisaties of de geselecteerde gegevens door gelijkaardige herinneringen lichtjes kunnen variëren.
 
 | Gewenst resultaat | Voorbeelden van termen en woordgroepen |
 | --- | --- |
@@ -246,7 +246,7 @@ Hieronder volgen de beste werkwijzen voor uw configuratie van Customer Journey A
 >[!MORELIKETHIS]
 >
 >[ montages van de Component ](/help/data-views/component-settings/overview.md)
->&#x200B;>[Gegevenswoordenboek ](/help/components/data-dictionary/data-dictionary-overview.md)
->&#x200B;>[Berekende metrische waarde goedkeuren ](/help/components/calc-metrics/cm-workflow/cm-approving.md)
->&#x200B;>[Segmenten delen ](/help/components/segments/seg-share.md)
+>>[Gegevenswoordenboek ](/help/components/data-dictionary/data-dictionary-overview.md)
+>>[Berekende metrische waarde goedkeuren ](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>>[Segmenten delen ](/help/components/segments/seg-share.md)
 >
