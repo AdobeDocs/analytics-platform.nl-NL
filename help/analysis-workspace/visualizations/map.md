@@ -4,9 +4,9 @@ title: Kaart
 feature: Visualizations
 role: User, Admin
 exl-id: 6656b34a-ae1e-4f9f-9c6d-13c54e49625c
-source-git-commit: 0aac2739e03044c03a2561535846f1355054f45f
+source-git-commit: 71d5326f5d80f196504178855dacdf01f60fb81c
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2612'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van de Kaart in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [ Kaart ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert de visualisatie van de Kaart in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_zie [ Kaart ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -112,13 +112,13 @@ U voegt als volgt contextlabels toe:
 
 1. Selecteer in Customer Journey Analytics **[!UICONTROL Data Management]** > **[!UICONTROL Data views]** .
 
-1. Voor de de meningspagina van Gegevens, selecteer de gegevensmening die gegevens bevat die u met vooraf gebouwde malplaatjes wilt analyseren die de kaartvisualisatie gebruiken. In deze gegevensweergave kiest u vijf dimensies, één met de landgegevens, één met de regiogegevens, één met de stadsgegevens, één met de staatsgegevens en één met de DMA-gegevens. Vervolgens labelt u die afmetingen met het bijbehorende contextlabel.
+1. Voor de de meningspagina van Gegevens, selecteer de gegevensmening die gegevens bevat die u met vooraf gebouwde malplaatjes wilt analyseren die de kaartvisualisatie gebruiken. Kies in deze gegevensweergave vijf dimensies: één met de landgegevens, één met de regiogegevens, één met de stadsgegevens, één met de staatsgegevens en één met de DMA-gegevens. Vervolgens labelt u die afmetingen met het bijbehorende contextlabel.
 
 1. Selecteer de tab **[!UICONTROL Components]** .
 
 1. (Voorwaardelijk) als u het Web SDK gebruikt en u geo gebieden hebt gevormd om in uw gegevensstroom worden bevolkt, of als u de Verbinding van Analytics Source gebruikt om gebeurtenisgegevens te bevolken, dan zouden de geo gebieden reeds in uw schema beschikbaar moeten zijn en met de correcte contextetiketten worden bevolkt.
 
-   Zoek de desbetreffende schemavelden, zoals **[!UICONTROL City]** , **[!UICONTROL Postal code]** , **[!UICONTROL State or province]** (in **[!UICONTROL Event datasets]** > **[!UICONTROL placeContext]** > **[!UICONTROL geo]** ) en sleep deze naar de gegevensweergave als afmetingen, als deze nog niet aanwezig zijn.
+   Zoek de desbetreffende schemavelden, zoals **[!UICONTROL City]** , **[!UICONTROL Postal code]** , **[!UICONTROL State or province]** (in **[!UICONTROL Event datasets]** > **[!UICONTROL placeContext]** > **[!UICONTROL geo]** ) en sleep deze naar de gegevensweergave als afmetingen als ze nog niet aanwezig zijn.
 
    Wanneer deze schemagebieden als afmetingen in uw gegevensmening bestaan, worden hun contextetiketten automatisch toegepast, en de geo malplaatjes gebruiken hen zonder enige extra configuratie.
 
@@ -153,7 +153,7 @@ De kaartvisualisatie in Customer Journey Analytics verschilt op de volgende mani
 | Een trend maken op basis van een selectie | Creeer een trended visualisatie van de lijngrafiek die op een specifiek gebied wordt gebaseerd dat u in de kaartvisualisatie selecteert. <p>Voor meer informatie, zie [ een trended lijngrafiek van de kaartvisualisatie ](#create-a-trended-line-chart-from-the-map-visualization) creëren. <!-- is this correct? --> | Kan geen trend creëren van de kaartvisualisatie. |
 | Een uitsplitsing toevoegen uit een selectie | Verdeel een specifiek afmeting punt, metrisch, segment, of datumwaaier binnen een specifiek gebied dat u in de kaartvisualisatie selecteert. <p>Voor meer informatie, zie [ een uitsplitsing van de kaartvisualisatie ](#add-a-breakdown-from-the-map-visualization) toevoegen. | Kan geen uitsplitsing toevoegen uit de kaartvisualisatie. |
 
-## Beginnen met het maken van een kaart {#begin-building-map}
+## Een kaart visualiseren {#begin-building-map}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -185,7 +185,7 @@ De kaartvisualisatie in Customer Journey Analytics verschilt op de volgende mani
 
    * **[!UICONTROL Add segment]**: (Optioneel) Selecteer een segment in de vervolgkeuzelijst Segment. Of sleep in een segment uit de lijst met segmenten.
 
-   U kunt deze informatie bijwerken nadat de visualisatie wordt gebouwd door het uitgeven pictogram ![ te selecteren geeft ](/help/assets/icons/Edit.svg) in de visualisatiekop uit.
+   U kunt deze informatie bijwerken nadat de visualisatie wordt gebouwd door het Edit pictogram ![ te selecteren geeft ](/help/assets/icons/Edit.svg) in de visualisatiekop uit.
 
 1. Selecteer **[!UICONTROL Build]** .
 
@@ -197,7 +197,7 @@ De kaartvisualisatie in Customer Journey Analytics verschilt op de volgende mani
 
 ## Een kaart visualiseren
 
-1. Als u niet reeds hebt, bouw een kaartvisualisatie zoals die in [ wordt beschreven Begin bouwend een kaartvisualisatie ](#begin-building-a-map-visualization).
+1. Als u niet reeds hebt, bouw een kaartvisualisatie zoals die in [ wordt beschreven bouwt een kaartvisualisatie ](#begin-building-a-map-visualization).
 
 1. Voer een of meer van de volgende handelingen uit in de kaartvisualisatie in Analysis Workspace:
 
@@ -250,7 +250,7 @@ De kaartvisualisatie in Customer Journey Analytics verschilt op de volgende mani
 
 Om montages voor de kaartvisualisatie te vormen:
 
-1. In Analysis Workspace, open een bestaande kaartvisualisatie, of [ begin bouwend nieuwe ](#begin-building-a-map-visualization).
+1. In Analysis Workspace, open een bestaande kaartvisualisatie, of [ bouw nieuwe ](#begin-building-a-map-visualization).
 
 1. Beweeg over de kaartvisualisatie, dan selecteer het pictogram van Montages ![ Plaatsend ](/help/assets/icons/Setting.svg) in de visualisatiekop.
 
