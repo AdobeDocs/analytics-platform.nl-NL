@@ -7,7 +7,7 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: d0067d8271b7628f0d174d1fa647ba1b4558ffb4
+source-git-commit: 804668db5e104d1a1de7d5d9ce0c92a9bb1980dc
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 0%
@@ -56,10 +56,10 @@ De illustratie benadrukt ook dat de rapportering in real time een geconsolideerd
 
 | | Dataverzameling | Latentie voor realtime rapportage | Standaardrapporteringsvertraging |
 |:---:|---|--:|--:|
-| 1 | Edge Network SDK/API&#39;s in de Edge Network | &ongeveer; &lt; 00h :06m: 30s | &ongeveer; &lt; 01h :35m: 00s |
-| 2 | Streaming connectors | &ongeveer; &lt; 00h :16m: 30s | &ongeveer; &lt; 01h :45m: 00s |
-| 3 | Adobe Analytics-bronaansluiting | &ongeveer; &lt; 00h :16m: 30s | &ongeveer; &lt; 01h :45m: 00s |
-| 4 | Andere bronschakelaars in de bronschakelaars (met inbegrip van partijgegevens) | &ongeveer; &lt; 24h :01m: 30s | &ongeveer; &lt; 25h :30m: 00s |
+| 1 | Edge Network SDK/API&#39;s in de Edge Network | &amp;ongeveer; &lt; 00h :06m: 30s | &amp;ongeveer; &lt; 01h :35m: 00s |
+| 2 | Streaming connectors | &amp;ongeveer; &lt; 00h :16m: 30s | &amp;ongeveer; &lt; 01h :45m: 00s |
+| 3 | Adobe Analytics-bronaansluiting | &amp;ongeveer; &lt; 00h :16m: 30s | &amp;ongeveer; &lt; 01h :45m: 00s |
+| 4 | Andere bronschakelaars in de bronschakelaars (met inbegrip van partijgegevens) | &amp;ongeveer; &lt; 24h :01m: 30s | &amp;ongeveer; &lt; 25h :30m: 00s |
 
 ## Beperkingen
 
