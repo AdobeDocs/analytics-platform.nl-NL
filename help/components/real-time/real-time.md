@@ -7,10 +7,10 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: b833914e7066fa660f856737d6b8a6392aae2feb
+source-git-commit: d0067d8271b7628f0d174d1fa647ba1b4558ffb4
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 1%
+source-wordcount: '732'
+ht-degree: 0%
 
 ---
 
@@ -43,29 +43,30 @@ U wilt bijvoorbeeld valideren:
 Overweeg geen rapportering in real time voor verrichtingen die gebruiksgevallen controleren. Bijvoorbeeld om de vraag te beantwoorden of een plaats behoorlijk werkt. Aangezien [ reëel-tijd verfrist knevel ](use-real-time.md) automatisch na 30 minuten onbruikbaar maakt en het rapport in real time houdt verfrissend, zou u geen rapport in real time als betrouwbare bron voor deze gebruiksgevallen moeten gebruiken.
 
 
-## Definitie
+## Latenties
 
-Het real-time aspect van real-time rapportering voor Customer Journey Analytics wordt gedefinieerd als gegevens en visualisaties die binnen ongeveer 6,5 minuten worden bijgewerkt vanaf het moment dat de onderliggende gegevens door de bijbehorende verbinding worden opgenomen.
+Hoe u gegevens verzamelt, bepaalt de real-time latentie van real-time rapportage voor Customer Journey Analytics. In de onderstaande afbeelding en tabel ziet u een benadering van de latentie voor verschillende scenario&#39;s voor gegevensverzameling bij gebruik van realtime en standaardrapportage.
 
-Diverse componenten in de opstelling van uw gegevensinzameling bepalen de rapportlatentie in real time.
+De illustratie benadrukt ook dat de rapportering in real time een geconsolideerde dataset gebruikt die volledig van de [ geconsolideerde (gecombineerde) dataset ](/help/connections/combined-dataset.md) wordt gebruikt die voor standaardrapportering wordt gebruikt. U gebruikt [ in real time verfrist knevel ](use-real-time.md) om tussen te schakelen:
+
+* Real-time rapportage over een geconsolideerde dataset die tot 24 uur aan het rollen gegevens bevat.
+* Standaard rapportering over de geconsolideerde dataset die tot 13 maanden van het rollen gegevens (of langer in het geval u de Uitgebreide Toevoeging van de Capaciteit van Gegevens hebt vergunning gegeven) bevat.
 
 ![ Echt - tijd rapporterend ](assets/real-time-reporting-latencies.svg){zoomable="yes"}
 
-| | Beschrijving | Latentie |
-|:---:|---|--:|
-| 1 | Gegevens verzameld via Edge Network SDK/API&#39;s in de Edge Network. | &lt; 500 milliseconden |
-| 2 | Gegevens die van Edge Network aan de dienst van de gegevensinzameling en bevestiging in de Hub van Experience Platform worden herhaald. | &lt; 5 minuten |
-| 3 | Gegevens die door het stromen schakelaars in de dienst van de gegevensinzameling en bevestiging in de Hub van Experience Platform worden verzameld. | &lt; 15 minuten |
-| 4 | Gegevens die door Adobe Analytics worden verzameld en door de bron van Analytics schakelaar aan de bronbewerker van schakelaars in de Hub van Experience Platform door:sturen. | &lt; 15 minuten |
-| 5 | Gegevens die door andere bronschakelaars in de bronbewerker van schakelaars in de Hub van Experience Platform worden verzameld. | &lt; 24 uur |
-| 6 | Gegevens die door de verwerker in real time voor een geconsolideerde dataset voor rapportering in real time worden verwerkt. | &lt; 90 seconden |
+| | Dataverzameling | Latentie voor realtime rapportage | Standaardrapporteringsvertraging |
+|:---:|---|--:|--:|
+| 1 | Edge Network SDK/API&#39;s in de Edge Network | &amp;ongeveer; &lt; 00h :06m: 30s | &amp;ongeveer; &lt; 01h :35m: 00s |
+| 2 | Streaming connectors | &amp;ongeveer; &lt; 00h :16m: 30s | &amp;ongeveer; &lt; 01h :45m: 00s |
+| 3 | Adobe Analytics-bronaansluiting | &amp;ongeveer; &lt; 00h :16m: 30s | &amp;ongeveer; &lt; 01h :45m: 00s |
+| 4 | Andere bronschakelaars in de bronschakelaars (met inbegrip van partijgegevens) | &amp;ongeveer; &lt; 24h :01m: 30s | &amp;ongeveer; &lt; 25h :30m: 00s |
 
 ## Beperkingen
 
 Houd rekening met de volgende beperking voor real-time rapportage:
 
-* Real-time rapportage rapporteert alleen gegevens die beschikbaar zijn over een voortschrijdende periode van 24 uur. De gegevens die deze het rollen periode van 24 uur kruisen zijn verborgen voor rapportering in real time. Zodra [ reëel-tijd ](use-real-time.md) voor een rapport gehandicapt of automatisch uitgezet verfrist is, zijn alle relevante gegevens voor een rapport beschikbaar opnieuw.
-* Attributie, segmentatie, berekende metriek, en meer werken slechts aan de gegevens beschikbaar binnen de rolperiode van 24 uren.
+* Real-time rapportage rapporteert alleen gegevens die beschikbaar zijn over een voortschrijdende periode van 24 uur. Gegevens die groter zijn dan   24-uurs oud is niet beschikbaar voor rapportering in real time. Zodra [ in real time ](use-real-time.md) voor een rapport gehandicapt of automatisch uitgezet verfrist is, zijn alle relevante gegevens beschikbaar eens meer van de [ geconsolideerde dataset ](/help/connections/combined-dataset.md) typisch gebruikt voor het melden in Customer Journey Analytics.
+* Attributie, segmentatie, berekende metriek, en meer werken slechts aan de gegevens beschikbaar binnen de rolperiode van 24 uren. Bijvoorbeeld, omvat het a *bezoekers* segment zeer weinig mensen in een rapport in real time omdat het rapport slechts mensen omvat die veelvoudige tijden in de laatste 24 uren bezochten. Een gelijkaardige beperking is van toepassing wanneer u een rapport in real time over mensen creeert die eerder op een campagne klikten die niet meer actief is.
 * Real-time rapportage werkt het best op gegevens op gebeurtenis- en sessieniveau en u moet voorzichtig zijn met real-time rapportage voor gegevens op persoonniveau. <!--Need to explain this a bit better --> Aangezien alleen gebeurtenissen vanaf de schuivende periode van 24 uur beschikbaar zijn voor realtime rapporten, is de gebeurtenisgeschiedenis van een persoon ook beperkt tot dit venster. Denk aan de voorkeur voor gegevens op gebeurtenis- en sessieniveau wanneer u een dimensie en (berekende) metriek selecteert. En wanneer u functies zoals onderbrekingen, volgende of vorige, en meer in uw real-time gebruikt verfrist toegelaten paneel.
 * U kunt het stitching met real-time rapportering niet combineren. <!-- Do we need to explain this in more detail, why? --> Real-time rapportage heeft betrekking op gegevens op gebeurtenis- en sessieniveau en is minder relevant voor op personen gebaseerde gegevens.
 * Er zijn geen hartslagverzamelde mediummetriek beschikbaar, behalve metingen voor het starten van media en het sluiten van media. Zo, kunt u rapportering in real time nog gebruiken om media gebruiksgeval toe te laten.
