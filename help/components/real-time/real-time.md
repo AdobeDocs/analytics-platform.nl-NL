@@ -7,10 +7,10 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: 2dd78dc120fc2bf48d3a59e28631e4ddf605b0c3
+source-git-commit: b34cf8d95080cb333cd497450f5881f0418b8ae9
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 0%
+source-wordcount: '723'
+ht-degree: 2%
 
 ---
 
@@ -54,12 +54,12 @@ De illustratie benadrukt ook dat de rapportering in real time een geconsolideerd
 
 ![ Echt - tijd rapporterend ](assets/real-time-reporting-latencies.svg){zoomable="yes"}
 
-| | Dataverzameling | Latentie voor realtime rapportage | Standaardrapporteringsvertraging |
+| | Dataverzameling | Real-time rapporteringslatentie <br/> (ongeveer kleiner dan) | Standaardvertraging bij rapportage <br/> (ongeveer kleiner dan) |
 |:---:|---|--:|--:|
-| 1 | Edge Network SDK/API&#39;s in de Edge Network | &ongeveer; &lt; 00h :06m: 30s | &ongeveer; &lt; 01h :35m: 00s |
-| 2 | Streaming connectors | &ongeveer; &lt; 00h :16m: 30s | &ongeveer; &lt; 01h :45m: 00s |
-| 3 | Adobe Analytics-bronaansluiting | &ongeveer; &lt; 00h :16m: 30s | &ongeveer; &lt; 01h :45m: 00s |
-| 4 | Andere bronschakelaars in de bronschakelaars (met inbegrip van partijgegevens) | &ongeveer; &lt; 24h :01m: 30s | &ongeveer; &lt; 25h :30m: 00s |
+| 1 | Edge Network SDK/API&#39;s in de Edge Network | 7 minuten | 95 minuten |
+| 2 | Streaming connectors | 17 minuten | 105 minuten |
+| 3 | Adobe Analytics-bronaansluiting | 17 minuten | 105 minuten |
+| 4 | Andere bronschakelaars in de bronschakelaars (met inbegrip van partijgegevens) | 25 uur | 25 uur |
 
 
 ## Beperkingen
