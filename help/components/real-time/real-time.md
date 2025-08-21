@@ -7,7 +7,7 @@ hidefromtoc: true
 role: User
 badgePremium: label="Beta"
 exl-id: 12fbb760-936d-4e30-958f-764febca5ae7
-source-git-commit: b34cf8d95080cb333cd497450f5881f0418b8ae9
+source-git-commit: 2461804f788b7a1417c4d7faa1d7133d8808cad5
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 2%
@@ -42,17 +42,18 @@ U wilt bijvoorbeeld valideren:
 
 Overweeg geen rapportering in real time voor verrichtingen die gebruiksgevallen controleren. Bijvoorbeeld om de vraag te beantwoorden of een plaats behoorlijk werkt. Aangezien [ reëel-tijd verfrist knevel ](use-real-time.md) automatisch na 30 minuten onbruikbaar maakt en het rapport in real time houdt verfrissend, zou u geen rapport in real time als betrouwbare bron voor deze gebruiksgevallen moeten gebruiken.
 
+## Hoe werkt het
 
-## Latenties
-
-Hoe u gegevens verzamelt, bepaalt de latentie van real-time rapportage in Customer Journey Analytics. In de onderstaande afbeelding en tabel staan benaderende latentie voor verschillende scenario&#39;s voor gegevensverzameling bij gebruik van rapportage in real time en (voor vergelijking) standaardrapportage.
-
-De illustratie benadrukt ook dat de rapportering in real time een geconsolideerde dataset gebruikt die volledig van de [ geconsolideerde (gecombineerde) dataset ](/help/connections/combined-dataset.md) wordt gebruikt die voor standaardrapportering wordt gebruikt. U gebruikt [ in real time verfrist knevel ](use-real-time.md) om tussen te schakelen:
+Real-time het melden gebruikt een geconsolideerde dataset die volledig van de [ geconsolideerde (gecombineerde) dataset ](/help/connections/combined-dataset.md) die voor standaardrapportering wordt gebruikt volledig gescheiden is. U gebruikt [ in real time verfrist knevel ](use-real-time.md) om tussen te schakelen:
 
 * Real-time rapportage over een geconsolideerde dataset die tot 24 uur aan het rollen gegevens bevat.
 * Standaard rapportering over de geconsolideerde dataset die tot 13 maanden van het rollen gegevens (of langer in het geval u de Uitgebreide Toevoeging van de Capaciteit van Gegevens hebt vergunning gegeven) bevat.
 
 ![ Echt - tijd rapporterend ](assets/real-time-reporting-latencies.svg){zoomable="yes"}
+
+### Latenties
+
+Hoe u gegevens verzamelt, bepaalt de latentie van real-time rapportage in Customer Journey Analytics. In de bovenstaande afbeelding en de onderstaande tabel worden bij benadering latentie voor verschillende scenario&#39;s voor gegevensverzameling getoond wanneer real-time en (voor vergelijking) standaardrapportage worden gebruikt.
 
 | | Dataverzameling | Real-time rapporteringslatentie <br/> (ongeveer kleiner dan) | Standaardvertraging bij rapportage <br/> (ongeveer kleiner dan) |
 |:---:|---|--:|--:|
