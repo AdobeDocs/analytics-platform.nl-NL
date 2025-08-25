@@ -5,9 +5,9 @@ title: Overzicht van visualisaties
 feature: Visualizations
 exl-id: ca9e0561-7a54-487a-9fdc-3bcf34f9bdb1
 role: User
-source-git-commit: 9c05319ceacb7287af7f15cfe56b8048a718559d
+source-git-commit: 4599a058cef79a28bd6f9b788c2b202c8235298d
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1649'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
 
    ![ voeg visualisatie ](assets/add-visualization.png) toe
 
-   * In het linkerpaneel, uitgezochte ![&#128279;](/help/assets/icons/GraphBarVertical.svg) GraphBarVertical **Visualizations**, dan sleep een visualisatie aan het paneel waar u de visualisatie aan wilt toevoegen.
+   * In het linkerpaneel, uitgezochte ![ GraphBarVertical ](/help/assets/icons/GraphBarVertical.svg) Visualizations **, dan sleep een visualisatie aan het paneel waar u de visualisatie aan wilt toevoegen.**
 
    * Voor het paneel waar u de visualisatie wilt toevoegen, selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg), dan het pictogram kiezen dat de visualisatie vertegenwoordigt die u wilt toevoegen. Houd de muisaanwijzer boven het pictogram voor elke visualisatie om de naam weer te geven.
 
@@ -67,6 +67,22 @@ De volgende visualisatietypen zijn beschikbaar in Analysis Workspace:
    * Gebruik het menu Workspace **[!UICONTROL Insert]** om een visualisatie in te voegen.
 
    * Selecteer **[!UICONTROL Visualize]** in het contextmenu in een tabel voor vrije vorm. Selecteer vervolgens de visualisatie in het submenu. Op basis van de huidige selectie in de tabel bepaalt Workspace welke visualisatie moet worden aangeboden en welke gegevens moeten worden geïnterpreteerd om de gevraagde visualisatie te maken.
+
+Wanneer u een eenvoudige visualisatie, bijvoorbeeld a [ Lijn ](line.md) van [ bar ](bar.md) visualisatie toevoegt, gebruikt de visualisatie de dichtste vrije vormlijst als gegevensbron. U kunt altijd de [ gegevensbron ](#data-source) van a uw visualisaties wijzigen.
+
+
+## Visualisaties beheren
+
+U kunt een visualisatie beheren wanneer u de muis boven de visualisatie houdt of de visualisatie selecteert.
+
+![ beheer visualisatie ](assets/manage-visualization.png)
+
+* Om een visualisatie samen te vouwen, uitgezochte ![ ChevronDown ](/help/assets/icons/ChevronDown.svg).
+* Om een doen ineenstorten visualisatie te openbaren, uitgezochte ![ ChevronLeft ](/help/assets/icons/ChevronLeft.svg).
+* Om een visualisatie te schrappen, selecteer ![ CrossSize400 ](/help/assets/icons/CrossSize400.svg). Om ongedaan te maken, selecteer **[!UICONTROL Edit]** > **[!UICONTROL Undo]** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**).
+* Om een visualisatie aan de standaardhoogte terug te keren, selecteer ![ ImageResize ](/help/assets/icons/Resize.svg).
+* Om een visualisatie binnen een paneel te bewegen, sleep en laat vallen de visualisatie wanneer a ![ Beweging ](/help/assets/icons/Move.svg) zichtbaar is (gewoonlijk wanneer u over de kopbal).
+
 
 
 ## Legenda

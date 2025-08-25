@@ -4,9 +4,9 @@ title: Overzicht deelvensters
 feature: Panels
 exl-id: be3e34a0-06c1-4200-b965-96084c2912fd
 role: User
-source-git-commit: c26fbe37270171c80d77c96966dd21f2dd7c7ce9
+source-git-commit: 4599a058cef79a28bd6f9b788c2b202c8235298d
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2065'
 ht-degree: 1%
 
 ---
@@ -75,9 +75,21 @@ U kunt:
 * Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **buiten** het laatste paneel in uw werkruimte om een ander [ Lege paneel ](blank-panel.md) toe te voegen.
 
 
+## Een deelvenster beheren
+
+U kunt een deelvenster op de volgende manieren beheren:
+
+![ beheert paneel ](assets/manage-panel.png)
+
+* Om een paneel samen te vouwen, uitgezochte ![ ChevronDown ](/help/assets/icons/ChevronDown.svg).
+* Om een doen ineenstorten paneel te openbaren, uitgezochte ![ ChevronLeft ](/help/assets/icons/ChevronLeft.svg).
+* Om een paneel te schrappen, selecteer ![ CrossSize400 ](/help/assets/icons/CrossSize200.svg). Om ongedaan te maken, selecteer **[!UICONTROL Edit]** > **[!UICONTROL Undo]** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**).
+* Om een paneel te bewegen, sleep en laat vallen het paneel wanneer de Beweging van de a ![ zichtbaar is (gewoonlijk wanneer u over de kopbal).](/help/assets/icons/Move.svg)
+
+
 ## Gegevens, weergave
 
-Elk paneel wordt geassocieerd met a [ gegevensmening ](/help/data-views/data-views.md), die door ![ Gegevens ](/help/assets/icons/Data.svg) wordt geïdentificeerd **[!UICONTROL *naam van gegevensmening *]**&#x200B;in het drop-down menu bij het hoogste recht van het paneel.
+Elk paneel wordt geassocieerd met a [ gegevensmening ](/help/data-views/data-views.md), die door ![ Gegevens ](/help/assets/icons/Data.svg) wordt geïdentificeerd **[!UICONTROL *naam van gegevensmening *]**in het drop-down menu bij het hoogste recht van het paneel.
 
 Wanneer u een leeg Workspace-project maakt, is de standaardgegevensweergave voor het eerste deelvenster de gegevensweergave waarmee u het laatst in Customer Journey Analytics hebt gewerkt.
 
