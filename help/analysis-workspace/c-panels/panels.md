@@ -89,7 +89,7 @@ U kunt een deelvenster op de volgende manieren beheren:
 
 ## Gegevens, weergave
 
-Elk paneel wordt geassocieerd met a [ gegevensmening ](/help/data-views/data-views.md), die door ![ Gegevens ](/help/assets/icons/Data.svg) wordt geïdentificeerd **[!UICONTROL *naam van gegevensmening *]**in het drop-down menu bij het hoogste recht van het paneel.
+Elk paneel wordt geassocieerd met a [ gegevensmening ](/help/data-views/data-views.md), die door ![ Gegevens ](/help/assets/icons/Data.svg) wordt geïdentificeerd **[!UICONTROL *naam van gegevensmening *]**&#x200B;in het drop-down menu bij het hoogste recht van het paneel.
 
 Wanneer u een leeg Workspace-project maakt, is de standaardgegevensweergave voor het eerste deelvenster de gegevensweergave waarmee u het laatst in Customer Journey Analytics hebt gewerkt.
 
