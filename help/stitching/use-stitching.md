@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a04c74ab-606e-45a9-a3e4-0d476c8d2426
-source-git-commit: dd285caa3d9702d3ddccdba2bc656767a9fe4684
+source-git-commit: 1ee282d0bf91c1a2f27073d0755cf404148d4d5b
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Zodra uw organisatie aan alle [ eerste vereisten ](overview.md#prerequisites) vo
 
 ## Opties selecteren
 
-Het Customer Journey Analytics-pakket waarop u recht hebt, bepaalt de beschikbare tekenreeksmethoden, opties voor de initiële duur van de backfill, het terugzoekvenster, de herhalingsfrequentie en het maximale aantal gegevenssets dat is toegestaan voor stitching. Zie de [ het productbeschrijving van Customer Journey Analytics ](https://helpx.adobe.com/nl/legal/product-descriptions/customer-journey-analytics.html) voor meer details. Bepaal de beschikbare opties voordat u ondersteuning aanvraagt.
+Het Customer Journey Analytics-pakket waarop u recht hebt, bepaalt de beschikbare tekenreeksmethoden, opties voor de initiële duur van de backfill, het terugzoekvenster, de herhalingsfrequentie en het maximale aantal gegevenssets dat is toegestaan voor stitching. Zie de [ het productbeschrijving van Customer Journey Analytics ](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html) voor meer details. Bepaal de beschikbare opties voordat u ondersteuning aanvraagt.
 
 | | Customer Journey Analytics <br/> Uitgezocht | Customer Journey Analytics <br/> Prime | Customer Journey Analytics <br/> Ultimate |
 |---|---|---|---|
@@ -36,7 +36,7 @@ Het Customer Journey Analytics-pakket waarop u recht hebt, bepaalt de beschikbar
    - De kolomnaam (identiteitspad en naamruimte) van de permanente id voor de gewenste gegevensset (de id die op elke rij wordt weergegeven).
    - Als de dataset `identityMap` ondersteunt:
       - Geef voor stitching op basis van velden de naamruimte op voor zowel de permanente als tijdelijke id&#39;s.
-      - Geef voor op grafiek gebaseerde stitching de naamruimte op voor de persistente id en de naamruimte voor identiteiten die moet worden gebruikt voor het opvragen van de identiteitsgrafiek.
+      - Geef voor op grafiek gebaseerde stitching de naamruimte op voor de permanente id en de naamruimte van de identiteit die moet worden gebruikt voor het opvragen van de identiteitsgrafiek.
    - Als de gegevensset `identityMap` niet ondersteunt:
       - Voor op veld gebaseerde stitching, de kolomnaam van transient identiteitskaart voor de gewenste dataset (persoonsidentificatie, die ook als verbinding tussen datasets in de context van een verbinding dienst doet).
       - Voor op een grafiek gebaseerde stitching, de identiteitsnaamruimte die voor het vragen van de identiteitsgrafiek moet worden gebruikt.
