@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: e5cb55e7-aed0-4598-a727-72e6488f5aa8
-source-git-commit: 1ee282d0bf91c1a2f27073d0755cf404148d4d5b
+source-git-commit: 00f6eeac173ad606885fce5567c82db8a9d107de
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1781'
 ht-degree: 2%
 
 ---
@@ -21,9 +21,9 @@ Op gebied gebaseerde stitching specificeert u een gebeurtenisdataset evenals bli
 
 ## IdentityMap
 
-Op velden gebaseerde stitching ondersteunt het gebruik van de [`identityMap` veldgroep ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/composition#identity) in de volgende scenario&#39;s:
+Op velden gebaseerde stitching ondersteunt het gebruik van de [`identityMap` veldgroep ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity) in de volgende scenario&#39;s:
 
-- Gebruik van de primaire identiteit in naamruimte `identityMap` om de persistentID te definiëren:
+- Gebruik van de primaire identiteit in `identityMap` naamruimten om de persistentID te definiëren:
    - Als meerdere primaire identiteiten in verschillende naamruimten worden gevonden, worden de identiteiten in de naamruimten lexigrafisch gesorteerd en wordt de eerste identiteit geselecteerd.
    - Wanneer meerdere primaire identiteiten in één naamruimte worden gevonden, wordt de eerste lexicografische beschikbare primaire identiteit geselecteerd.
 
@@ -60,7 +60,7 @@ Op velden gebaseerde stitching ondersteunt het gebruik van de [`identityMap` vel
    - Als er meerdere waarden voor persstentID of transientID worden gevonden in een naamruimte `identityMap` , wordt de eerste lexicografische beschikbare waarde gebruikt.
    - Naamruimten voor persistentID en transientID moeten elkaar uitsluiten.
 
-  In het onderstaande voorbeeld hebt u ECID geselecteerd als de naamruimte die u wilt gebruiken voor op velden gebaseerde stitching. Die selectie resulteert in een gesorteerde lijst van identiteiten, en tenslotte de geselecteerde identiteit.
+  In het onderstaande voorbeeld hebt u ECID geselecteerd als de naamruimte die u wilt gebruiken. Die selectie resulteert in een gesorteerde lijst van identiteiten, en tenslotte de geselecteerde identiteit.
 
   <table style="table-layout:auto">
      <tr>
@@ -94,7 +94,7 @@ Met Stitching worden minimaal twee gegevenscontroles uitgevoerd in een bepaalde 
 
 - **Levend het stitching**: pogingen om elke hit (gebeurtenis) te stikken aangezien het binnen komt. Hits van apparaten die &quot;nieuw&quot;aan de dataset (nooit voor authentiek verklaard) zijn worden typisch niet vastgemaakt op dit niveau. Hits van reeds herkende apparaten worden onmiddellijk vastgezet.
 
-- **Replay het stitching**: &quot;replay&quot;gegevens die op unieke herkenningstekens (transient IDs) worden gebaseerd het heeft geleerd. In dit stadium worden treffers van eerder onbekende apparaten (permanente id&#39;s) vastgezet (aan transient ID&#39;s). Replay wordt bepaald door twee parameters: **frequentie** en **raadplegingsvenster**. Adobe biedt de volgende combinaties van deze parameters aan:
+- **Replay het stitching**: *speelt* gegevens opnieuw die op unieke herkenningstekens (transient IDs) worden gebaseerd het heeft geleerd. In dit stadium worden treffers van eerder onbekende apparaten (permanente id&#39;s) vastgezet (aan transient ID&#39;s). Replay wordt bepaald door twee parameters: **frequentie** en **raadplegingsvenster**. Adobe biedt de volgende combinaties van deze parameters aan:
    - **Dagelijkse raadpleging op een dagelijkse frequentie**: De gegevens respeelt elke dag met een terugkijkvenster van 24 uur terug. Deze optie biedt een voordeel dat het aantal keren wordt afgespeeld, maar niet-geregistreerde bezoekers moeten zich op dezelfde dag verifiëren dat ze uw site bezoeken.
    - **wekelijkse raadpleging op een wekelijkse frequentie**: De gegevens respeelt eens per week met een wekelijks terugkijkvenster (zie [ opties ](#options)) opnieuw. Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Niet-opgeslagen gegevens van minder dan een week oud worden echter pas opnieuw verwerkt wanneer de gegevens wekelijks opnieuw worden afgespeeld.
    - **biwekelijkse raadpleging op een wekelijkse frequentie**: De gegevens respeelt eens per week met een tweewekelijkse raadplegingsvenster (zie [ opties ](#options)) opnieuw. Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Onverwachte gegevens van minder dan twee weken oud worden echter pas opnieuw verwerkt wanneer de volgende week opnieuw wordt afgespeeld.
@@ -214,7 +214,7 @@ De volgende voorwaarden zijn specifiek van toepassing op veldomstandigheden:
    - A **voorbijgaande identiteitskaart**, een herkenningsteken beschikbaar op slechts sommige rijen. Een gehashte gebruikersnaam of e-mailadres bijvoorbeeld wanneer een bezoeker de verificatie uitvoert. U kunt vrijwel elke gewenste id gebruiken. Stitching beschouwt dit gebied om de daadwerkelijke informatie van persoonidentiteitskaart te houden. Voor de beste stitching resultaten, zou een transient identiteitskaart binnen de gebeurtenissen van de dataset minstens eens voor elke blijvende identiteitskaart moeten worden verzonden. Als u van plan bent om deze dataset binnen een verbinding van Customer Journey Analytics te omvatten, is het verkieslijk dat de andere datasets ook een gelijkaardige gemeenschappelijke herkenningsteken hebben.
 
 <!--
-- Both columns (persistent ID and transient ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
+- Both columns (persistent ID and transient ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
 
 -->
 
