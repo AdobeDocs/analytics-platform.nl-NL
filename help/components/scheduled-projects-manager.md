@@ -4,9 +4,9 @@ title: Geplande projecten
 feature: Components
 exl-id: fa7c5a0f-4983-40ee-b9c1-3e10aab3fc28
 role: User
-source-git-commit: 1891f73f4326a178b293e7c3763d0d1dbc000a25
+source-git-commit: 9d293854ab1da90ea22865392daf9204679f4fd3
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Het volgende is gemeenschappelijke acties in de Geplande Manager van Projecten. 
 | Pictogram | Handeling | Beschrijving |
 |:---:|---|---|
 | ![ dicht ](/help/assets/icons/Close.svg) | **[!UICONTROL *x *geselecteerd]** | Selecteer deze optie om de selectie van uw geselecteerde geplande projecten op te heffen. |
-| ![ Schrapping ](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Verwijder de geselecteerde geplande projecten voor het project. De projecten worden niet verwijderd. |
+| ![ Schrapping ](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Verwijder de geselecteerde geplande projecten voor het project. De projecten worden niet verwijderd.  <p>Voor informatie over het schrappen van een project, zie [ Overzicht van Projecten ](/help/analysis-workspace/build-workspace-project/freeform-overview.md).</p> |
 | ![ Etiketten ](/help/assets/icons/Labels.svg) | **[!UICONTROL Tag]** | Geef labels aan de geselecteerde geplande projecten. Selecteer in **[!UICONTROL Tag Scheduled projects]** tags en selecteer **[!UICONTROL Save]** om op te slaan. |
 | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Approve]** | Goedkeuren van de geselecteerde geplande projecten. |
 | ![ FileCSV ](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Export to CSV]** | Exporteer de geselecteerde geplande projecten naar het bestand `Export Scheduled Projects List.csv` . |
