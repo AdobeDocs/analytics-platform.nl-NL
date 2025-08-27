@@ -5,18 +5,14 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 82b36895fe5186f0133c128d434470ea7f875677
+source-git-commit: c8d9eddd1ce11975dec16f715a5f5888cd4d6ffa
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2243'
 ht-degree: 0%
 
 ---
 
 # Gegevens visualiseren met Data Insights Agent
-
->[!AVAILABILITY]
->
->De functionaliteit die in dit artikel wordt beschreven, is beschikbaar voor alle in aanmerking komende klanten als onderdeel van een gefaseerde release die op 28 mei 2025 begint, en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het de versieproces van Customer Journey Analytics, zie [ de eigenschapversies van Customer Journey Analytics ](/help/release-notes/releases.md).
 
 >[!AVAILABILITY]
 >
@@ -49,7 +45,7 @@ De volgende parameters regelen de toegang tot Data Insights Agent in Customer Jo
 
 * **Toestemmingen**: De noodzakelijke toestemmingen moeten in [!UICONTROL Adobe Admin Console] worden verleend alvorens de gebruikers tot Data Insights Agent kunnen toegang hebben.
 
-  Om toestemmingen te verlenen, moet a [ admin van het productprofiel ](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) de volgende stappen in [!UICONTROL Admin Console] voltooien:
+  Om toestemmingen te verlenen, moet a [ admin van het productprofiel ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) de volgende stappen in [!UICONTROL Admin Console] voltooien:
    1. Selecteer in **[!UICONTROL Admin Console]** de tab **[!UICONTROL Products]** om de pagina **[!UICONTROL All products and services]** weer te geven.
    1. Selecteer **[!UICONTROL Customer Journey Analytics]** .
    1. Selecteer op het tabblad **[!UICONTROL Product Profiles]** de titel van het productprofiel waartoe u toegang wilt verlenen aan [!UICONTROL AI Assistant: Product Knowledge] .
@@ -246,7 +242,7 @@ Hieronder volgen de beste werkwijzen voor uw configuratie van Customer Journey A
 >[!MORELIKETHIS]
 >
 >[ montages van de Component ](/help/data-views/component-settings/overview.md)
->&#x200B;>[Gegevenswoordenboek ](/help/components/data-dictionary/data-dictionary-overview.md)
->&#x200B;>[Berekende metrische waarde goedkeuren ](/help/components/calc-metrics/cm-workflow/cm-approving.md)
->&#x200B;>[Segmenten delen ](/help/components/segments/seg-share.md)
+>>[Gegevenswoordenboek ](/help/components/data-dictionary/data-dictionary-overview.md)
+>>[Berekende metrische waarde goedkeuren ](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>>[Segmenten delen ](/help/components/segments/seg-share.md)
 >
