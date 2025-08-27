@@ -242,7 +242,7 @@ Hieronder volgen de beste werkwijzen voor uw configuratie van Customer Journey A
 >[!MORELIKETHIS]
 >
 >[ montages van de Component ](/help/data-views/component-settings/overview.md)
->>[Gegevenswoordenboek ](/help/components/data-dictionary/data-dictionary-overview.md)
->>[Berekende metrische waarde goedkeuren ](/help/components/calc-metrics/cm-workflow/cm-approving.md)
->>[Segmenten delen ](/help/components/segments/seg-share.md)
+>&#x200B;>[Gegevenswoordenboek ](/help/components/data-dictionary/data-dictionary-overview.md)
+>&#x200B;>[Berekende metrische waarde goedkeuren ](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>&#x200B;>[Segmenten delen ](/help/components/segments/seg-share.md)
 >
