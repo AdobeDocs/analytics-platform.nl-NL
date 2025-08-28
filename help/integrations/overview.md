@@ -1,13 +1,13 @@
 ---
 title: Adobe-oplossingen integreren met Customer Journey Analytics
-description: Leer hoe u gegevens van andere oplossingen en services voor Adobe kunt integreren.
+description: Leer hoe u gegevens van andere Adobe-oplossingen en -services kunt integreren.
 exl-id: f89d07e9-100e-4f82-9486-35bc9c748b19
 feature: Experience Platform Integration
 role: User, Admin
-source-git-commit: 811fce4f056a6280081901e484c3af8209f87c06
+source-git-commit: 1718379e1ea6baffef8f4da045662e95a47e1480
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 0%
+source-wordcount: '144'
+ht-degree: 4%
 
 ---
 
@@ -18,6 +18,20 @@ Adobe biedt veel producten en oplossingen die gebruikmaken van gegevens die op A
 De meeste workflows omvatten de volgende stappen:
 
 1. Gebruik de gewenste oplossing of de dienst om gegevens naar Platform als dataset te verzenden.
-2. [Verbinding maken](/help/connections/create-connection.md) in Customer Journey Analytics met de gewenste Dataset.
-3. [Een gegevensweergave maken](/help/data-views/create-dataview.md) met de gewenste afmetingen en maatstaven voor rapportage.
+2. [ creeer een verbinding ](/help/connections/create-connection.md) in Customer Journey Analytics met de gewenste Dataset.
+3. [ creeer een gegevensmening ](/help/data-views/create-dataview.md) die de gewenste afmetingen en metriek voor gebruik in het melden bevatten.
 4. Voer rapporten uit in Analysis Workspace op basis van de afmetingen en maatstaven die in de gegevensweergave zijn geconfigureerd.
+
+Hieronder volgt een lijst met enkele van de beschikbare integraties:
+
+* [Adobe Analytics](/help/integrations/aa.md)
+
+* [Target](/help/integrations/at.md)
+
+* [Adobe Advertising](/help/integrations/advertising.md)
+
+* [Journey Optimizer](/help/integrations/ajo.md)
+
+* [Beslissingsbeheer](/help/integrations/ajo-od.md)
+
+* [Customer AI](/help/integrations/customer-ai.md)
