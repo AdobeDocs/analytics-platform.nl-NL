@@ -14,4 +14,4 @@ ht-degree: 0%
 
 Adobe Advertising is geïntegreerd met Adobe Customer Journey Analytics voor tweerichtingsgegevensuitwisseling en -rapportage.
 
-Voor meer informatie, zie [ Overzicht van de integratie tussen Adobe Advertising met Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/advertising/integrations/customer-journey-analytics/overview).
+Voor meer informatie, zie [ Overzicht van de integratie tussen Adobe Advertising met Customer Journey Analytics ](https://experienceleague.adobe.com/nl/docs/advertising/integrations/customer-journey-analytics/overview).
