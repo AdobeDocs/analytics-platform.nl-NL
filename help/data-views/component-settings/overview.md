@@ -5,7 +5,7 @@ exl-id: 6300d289-d308-476e-aa4e-05cdae361bb2
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 96d6882c31a5e130219986d156c8e6eda84ec325
+source-git-commit: 9e263d638d483194424a492b0494672ef0f62e71
 workflow-type: tm+mt
 source-wordcount: '3702'
 ht-degree: 1%
@@ -105,7 +105,7 @@ In de volgende situaties kunnen contextlabels vereist zijn:
 
   **Nota**: De visualisatie van de Kaart is in de Beperkte het Testen fase van versie en zou niet nog in uw milieu beschikbaar kunnen zijn.
 
-* Wanneer u [ malplaatjes gebruikt die door Adobe ](/help/analysis-workspace/templates/use-templates.md) worden verstrekt. Sommige sjablonen van Adobe werken mogelijk niet omdat bepaalde componenten niet in de gegevensweergave staan.
+* Wanneer u [ malplaatjes gebruikt die door Adobe ](/help/analysis-workspace/templates/use-templates.md) worden verstrekt. Sommige sjablonen die door Adobe worden aangeboden, werken mogelijk niet omdat bepaalde componenten niet in de gegevensweergave staan.
 
   Voor elke ontbrekende component is er een contextlabel beschikbaar in de gegevensweergave. U moet of het passende contextetiket aan een component toevoegen die reeds in uw gegevensmening is. Of u moet een nieuwe component aan uw gegevensmening toevoegen en het contextetiket aan de component toevoegen (als niet reeds automatisch verstrekt).
 
