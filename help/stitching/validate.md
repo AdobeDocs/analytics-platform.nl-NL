@@ -60,9 +60,9 @@ Bovendien moet u twee stitching metriek toevoegen die op de aanwezigheid van waa
 
 Met beide dimensies die aan de gegevensmening worden toegevoegd, gebruik [ Vrije lijsten ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) in Analysis Workspace om de gegevens te controleren die elke dimensie heeft.
 
-In de ** [!UICONTROL Stitched Namespace dimension**] lijst, ziet u typisch twee rijen voor elke dataset. Eén rij die aangeeft wanneer het koppelingsproces de fallback-methode (ECID) moest gebruiken. De andere rij bevat gebeurtenissen die zijn gekoppeld aan de gewenste naamruimte voor de identiteit (e-mail).
+In de **&#x200B; [!UICONTROL Stitched Namespace dimension**] lijst, ziet u typisch twee rijen voor elke dataset. Eén rij die aangeeft wanneer het koppelingsproces de fallback-methode (ECID) moest gebruiken. De andere rij bevat gebeurtenissen die zijn gekoppeld aan de gewenste naamruimte voor de identiteit (e-mail).
 
-Voor de ** [!UICONTROL Stitched ID dimension**] lijst, ziet u de ruwe waarden die uit de gebeurtenissen komen. In deze tabel ziet u dat de waarden tussen de blijvende id en de gewenste persoon-id eindigen.
+Voor de **&#x200B; [!UICONTROL Stitched ID dimension**] lijst, ziet u de ruwe waarden die uit de gebeurtenissen komen. In deze tabel ziet u dat de waarden tussen de blijvende id en de gewenste persoon-id eindigen.
 
 ![ Controle vastgezette dimensies ](assets/check-data-on-stitching.png)
 
@@ -77,7 +77,7 @@ Wanneer u een verbinding maakt, moet u definiëren welk veld of welke identiteit
 1. Maak een berekende metrische waarde **[!UICONTROL Email authentication rate]** op basis van de **[!UICONTROL _Email set]** -waarde die u eerder hebt gedefinieerd. Bepaal de regel in de regelbouwer als volgt:
    ![ Het tarief van de E-mail authentificatie ](assets/calcmetric-emailauthenticationrate.png)
 
-1. Gebruik **[!UICONTROL Unauthenticated events over total]** berekende metrisch, samen met **[!UICONTROL Email authentication rate]** berekende metrisch, om a [ ](/help/analysis-workspace/visualizations/donut.md) visualisatie van de Donut te creëren. De visualisatie toont het aantal gebeurtenissen in de dataset die unauthenticated zijn en voor authentiek verklaard zijn.
+1. Gebruik **[!UICONTROL Unauthenticated events over total]** berekende metrisch, samen met **[!UICONTROL Email authentication rate]** berekende metrisch, om a [&#128279;](/help/analysis-workspace/visualizations/donut.md) visualisatie van de Donut te creëren. De visualisatie toont het aantal gebeurtenissen in de dataset die unauthenticated zijn en voor authentiek verklaard zijn.
 
    ![ de details van de Identificatie ](assets/identification-details.png)
 
