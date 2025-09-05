@@ -23,8 +23,8 @@ Hier volgen een aantal veelgestelde vragen over stitching:
 U kunt een stroomvisualisatie met de dimensie van identiteitskaart van de Dataset gebruiken.
 
 1. Login aan [ Customer Journey Analytics ](https://analytics.adobe.com) en creeer een leeg project van Workspace.
-2. Selecteer het **[!UICONTROL ** Visualisaties **]** lusje op de linkerzijde, en sleep a **[!UICONTROL ** Stroom **]** visualisatie aan het canvas op het recht.
-3. Selecteer het **[!UICONTROL ** lusje van Componenten **]** op de linkerzijde, en sleep dimensie **[!UICONTROL ** identiteitskaart van de Dataset **]** aan de centrumplaats geëtiketteerd **[!UICONTROL ** Dimension of Punt **]**.
+2. Selecteer het **[!UICONTROL ** Visualisaties **]** lusje op de linkerzijde, en sleep a **[!UICONTROL **&#x200B; Stroom &#x200B;**]** visualisatie aan het canvas op het recht.
+3. Selecteer het **[!UICONTROL ** lusje van Componenten **]** op de linkerzijde, en sleep dimensie **[!UICONTROL ** identiteitskaart van de Dataset **]** aan de centrumplaats geëtiketteerd **[!UICONTROL **&#x200B; Dimension of Punt &#x200B;**]**.
 4. Dit stroomrapport is interactief. Als u de stromen naar volgende of vorige pagina&#39;s wilt uitbreiden, selecteert u een van de waarden. Gebruik het met de rechtermuisknop aanklikken menu om kolommen uit of samen te vouwen. Binnen hetzelfde stroomrapport kunnen ook verschillende afmetingen worden gebruikt.
 
 Als u de de afmetingspunten van identiteitskaart van de dataset zou willen anders noemen, kunt u een raadplegingsdataset gebruiken.

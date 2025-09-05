@@ -213,7 +213,7 @@ De volgende voorwaarden zijn specifiek van toepassing op op grafiek gebaseerde s
 
 >[!NOTE]
 >
->U **** vereist geen vergunning van het Platform van Gegevens van de Klant in real time voor op grafiek-gebaseerd het stitching. Het **Prime** pakket of hoger van Customer Journey Analytics omvat de vereiste rechten van de Dienst van de Identiteit van Experience Platform.
+>U **&#x200B;**&#x200B;vereist geen vergunning van het Platform van Gegevens van de Klant in real time voor op grafiek-gebaseerd het stitching. Het **Prime** pakket of hoger van Customer Journey Analytics omvat de vereiste rechten van de Dienst van de Identiteit van Experience Platform.
 
 
 ## Beperkingen
