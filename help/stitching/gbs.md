@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: ea5c9114-1fc3-4686-b184-2850acb42b5c
-source-git-commit: 1ee282d0bf91c1a2f27073d0755cf404148d4d5b
+source-git-commit: c4aea74807be15af56413522d9e6fbf5f18a37a0
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,17 @@ ht-degree: 0%
 
 In grafiek gebaseerd het stitching, specificeert u een gebeurtenisdataset evenals blijvende identiteitskaart (koekje) en namespace van voorbijgaande identiteitskaart (persoonsidentiteitskaart) voor die dataset. Op grafiek gebaseerde stitching leidt tot een nieuwe kolom voor stitched identiteitskaart in de nieuwe gestikte dataset. En gebruikt dan blijvende identiteitskaart om de identiteitsgrafiek van de Dienst van de Identiteit van Experience Platform te vragen, gebruikend gespecificeerde namespace, om vastgemaakte identiteitskaart bij te werken.
 
+>[!NOTE]
+>
+>U moet ervoor zorgen de dataset [ voor de Dienst van de Identiteit ](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service) wordt toegelaten.
+>
+
+
 ![ grafiek-gebaseerd-stitching ](/help/stitching/assets/gbs.png)
 
 ## IdentityMap
 
-Op grafiek gebaseerde stitching steunt het gebruik van de [`identityMap` gebiedsgroep ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/composition#identity) in de volgende scenario&#39;s:
+Op grafiek gebaseerde stitching steunt het gebruik van de [`identityMap` gebiedsgroep ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity) in de volgende scenario&#39;s:
 
 - Gebruik van de primaire identiteit in `identityMap` naamruimten om de persistentID te definiëren:
    - Als meerdere primaire identiteiten in verschillende naamruimten worden gevonden, worden de identiteiten in de naamruimten lexigrafisch gesorteerd en wordt de eerste identiteit geselecteerd.
@@ -113,7 +119,7 @@ Bekijk de volgende twee identiteitsgrafieken voor blijvende id `246` en `3579`, 
 ![ Grafiek 246 van de Identiteit ](assets/identity-graph-246.svg)
 ![ Grafiek 3579 van de Identiteit ](assets/identity-graph-3579.svg)
 
-U kunt een identiteitsgrafiek over tijd voor een specifiek profiel bekijken gebruikend de [ Kijker van de Grafiek van de Identiteit ](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/identity-graph-viewer). Zie ook [ Dienst die van de Identiteit logica ](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/identity-linking-logic) verbindt om een beter begrip van de gebruikte logica te krijgen wanneer het verbinden van identiteiten.
+U kunt een identiteitsgrafiek over tijd voor een specifiek profiel bekijken gebruikend de [ Kijker van de Grafiek van de Identiteit ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-viewer). Zie ook [ Dienst die van de Identiteit logica ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic) verbindt om een beter begrip van de gebruikte logica te krijgen wanneer het verbinden van identiteiten.
 
 ### Stap 1: Actief stitching
 
@@ -202,12 +208,12 @@ De volgende lijst vertegenwoordigt de zelfde gegevens zoals hierboven, maar toon
 De volgende voorwaarden zijn specifiek van toepassing op op grafiek gebaseerde stitching:
 
 - De gebeurtenisdataset in Adobe Experience Platform, waarop u het stitching wilt toepassen, moet één kolom hebben die een bezoeker op elke rij, **blijvende identiteitskaart** identificeert. Bijvoorbeeld een bezoeker-id die is gegenereerd door een Adobe Analytics AppMeasurement-bibliotheek of een ECID die is gegenereerd door de Experience Platform Identity Service.
-- Ononderbroken identiteitskaart moet ook [ als identiteit ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/ui/fields/identity) in het schema worden bepaald.
-- De identiteitsgrafiek van de Dienst van de Identiteit van Experience Platform moet een namespace (bijvoorbeeld `Email`, of `Phone`) hebben u tijdens het stitching wilt gebruiken om **voorbijgaande identiteitskaart** op te lossen. Zie [ Dienst van de Identiteit van Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home) voor meer informatie.
+- Ononderbroken identiteitskaart moet ook [ als identiteit ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity) in het schema worden bepaald.
+- De identiteitsgrafiek van de Dienst van de Identiteit van Experience Platform moet een namespace (bijvoorbeeld `Email`, of `Phone`) hebben u tijdens het stitching wilt gebruiken om **voorbijgaande identiteitskaart** op te lossen. Zie [ Dienst van de Identiteit van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) voor meer informatie.
 
 >[!NOTE]
 >
->U **&#x200B;**&#x200B;vereist geen vergunning van het Platform van Gegevens van de Klant in real time voor op grafiek-gebaseerd het stitching. Het **Prime** pakket of hoger van Customer Journey Analytics omvat de vereiste rechten van de Dienst van de Identiteit van Experience Platform.
+>U **** vereist geen vergunning van het Platform van Gegevens van de Klant in real time voor op grafiek-gebaseerd het stitching. Het **Prime** pakket of hoger van Customer Journey Analytics omvat de vereiste rechten van de Dienst van de Identiteit van Experience Platform.
 
 
 ## Beperkingen
@@ -217,7 +223,7 @@ De volgende beperkingen zijn specifiek van toepassing op op grafiek gebaseerde s
 - Tijdstempels worden niet in aanmerking genomen wanneer wordt gezocht naar de tijdelijke id die de opgegeven naamruimte gebruikt. Het is dus mogelijk dat een permanente id is gekoppeld aan een tijdelijke id uit een record met een eerdere tijdstempel.
 - In scenario&#39;s voor gedeelde apparaten, waarbij de naamruimte in de grafiek meerdere identiteiten bevat, wordt de eerste lexicografische identiteit gebruikt. Als namespace grenzen en prioriteiten als deel van de versie van grafiek-verbinden regels worden gevormd, wordt de laatste voor authentiek verklaarde identiteit van de gebruiker gebruikt. Zie [ Gedeelde apparaten ](/help/use-cases/stitching/shared-devices.md) voor meer informatie.
 - Er geldt een harde limiet van drie maanden voor het terugvullen van identiteiten in de identiteitsgrafiek. Als u geen Experience Platform-toepassing gebruikt, zoals Real-time Customer Data Platform, kunt u de identiteitsgrafiek weergeven door identiteiten te herstellen.
-- De [ Garanties van de Dienst van de Identiteit ](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/guardrails) zijn van toepassing. Zie, bijvoorbeeld, de volgende [ statische grenzen ](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/guardrails#static-limits):
+- De [ Garanties van de Dienst van de Identiteit ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails) zijn van toepassing. Zie, bijvoorbeeld, de volgende [ statische grenzen ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails#static-limits):
    - Maximumaantal identiteiten in een grafiek: 50.
    - Maximum aantal koppelingen naar een identiteit voor één batch-opname: 50.
    - Maximum aantal identiteiten in een XDM-record voor grafiekopname: 20.

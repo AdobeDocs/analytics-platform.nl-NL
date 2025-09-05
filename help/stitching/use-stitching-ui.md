@@ -7,9 +7,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9a1689d9-c1b7-42fe-9682-499e49843f76
-source-git-commit: 4bca14492374939cd1ea6508c774720db61a6283
+source-git-commit: c4aea74807be15af56413522d9e6fbf5f18a37a0
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -44,9 +44,19 @@ U kunt stitching inschakelen in het gedeelte met gebeurtenisgegevens van het dia
    * Schakel **[!UICONTROL Use primary identity namespace]** in om de primaire naamruimte voor identiteit te gebruiken.
    * Selecteer een naamruimte in het vervolgkeuzemenu **[!UICONTROL Namespace]** .
 
-   Als u **[!UICONTROL Identity Graph]** selecteert voor de persoon-id, moet u een naamruimte selecteren. Hiervóór wordt een dialoogvenster **[!UICONTROL Change to identity graph]** weergegeven om te controleren of u de identiteitsgrafiek hebt ingesteld voordat u de identiteitsgrafiek voor stitching gebruikt. Selecteer **[!UICONTROL Continue]** om door te gaan.
+
+   Als u **[!UICONTROL Identity Graph]** selecteert voor de persoon-id, moet u een naamruimte selecteren.
+
+   >[!NOTE]
+   >
+   >U moet het recht hebben om de identiteitsgrafiek te gebruiken.
+   >
+
+   Vóór dat, wordt een **[!UICONTROL Change to identity graph]** dialoog getoond om u te verzekeren u de opstelling van de identiteitsgrafiek voor de dataset [ gebeëindigd hebt alvorens u de identiteitsgrafiek voor het stitching gebruikt. ](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service) Selecteer **[!UICONTROL Continue]** om door te gaan.
 
    * Selecteer een naamruimte in het vervolgkeuzemenu **[!UICONTROL Namespace]** .
 
 
-1. Selecteer een terugzoekvenster in het keuzemenu **[!UICONTROL Lookback window]** . De opties zijn **[!UICONTROL 1 day]** , **[!UICONTROL 7 days]** , **[!UICONTROL 14 days]** of **[!UICONTROL 30 days]** .
+1. Selecteer een terugzoekvenster in het keuzemenu **[!UICONTROL Lookback window]** . Welke opties beschikbaar zijn, is afhankelijk van het Customer Journey Analytics-pakket waarop u recht hebt.
+
+Zodra u sparen een verbinding die datasets bevat die voor identiteit het stitching worden toegelaten, begint het het stitching proces voor elke dataset wanneer de opname van gegevens voor die dataset begint.
