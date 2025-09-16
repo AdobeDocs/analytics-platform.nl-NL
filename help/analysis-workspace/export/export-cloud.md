@@ -5,9 +5,9 @@ title: Volledige tabellen exporteren naar de cloud
 feature: Curate and Share
 exl-id: 072eadcc-43ff-42e3-86ee-82062fa02eba
 role: User
-source-git-commit: c16fc1a239c9ce1b701b3d03539bc9696f1c6489
+source-git-commit: e3037b3981ce128f67165d6caca0b4dc5df04773
 workflow-type: tm+mt
-source-wordcount: '2229'
+source-wordcount: '2381'
 ht-degree: 1%
 
 ---
@@ -62,6 +62,43 @@ Gebruik het volgende proces bij het exporteren van volledige tabellen naar de cl
 
 <!-- markdownlint-enable MD034 -->
 
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-export-details"
+>title="Details"
+>abstract="Geef een naam op voor het exporteren. U kunt ook een beschrijving en alle tags toevoegen. Met deze informatie kunt u de exportbewerking herkennen in de exporttabel en in e-mailmeldingen."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-export-data-structure"
+>title="Gegevensstructuur"
+>abstract="Dit is de tabel voor vrije vorm die u exporteert. U kunt de gegevensstructuur wijzigen door componenten van het linkerdeelvenster naar de tabel te slepen. U kunt een filter toepassen door een component naar het filtergebied te slepen. De tabel wordt dynamisch bijgewerkt terwijl u componenten toevoegt aan het canvas."
+
+<!-- markdownlint-enable MD034 -->ß
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-export-schedule"
+>title="Schema"
+>abstract="Selecteer hoe vaak het exporteren moet plaatsvinden. Kies Nu verzenden (eenmalig) om het exporteren direct te starten. De geplande uitvoer wordt begonnen op de datum en de tijd u specificeert. "
+
+<!-- markdownlint-enable MD034 -->
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-export-destination"
+>title="Bestemming"
+>abstract="Selecteer de cloudaccount en de locatie waar u de gegevens wilt verzenden. U kunt een bestaand account en een bestaande locatie kiezen of Nieuwe account toevoegen selecteren om deze te maken. Geef gebruikers en groepen op om te informeren over mislukte of verlopen exportbewerkingen."
+
+<!-- markdownlint-enable MD034 -->
+
 >[!NOTE]
 >
 >Alvorens u gegevens uitvoert zoals die in deze sectie worden beschreven, leer meer over de volledige lijstuitvoer in [ begrijpen volledige de lijstuitvoer ](#understand-full-table-export) sectie hierboven.
@@ -89,9 +126,9 @@ Volledige tabellen exporteren uit Analysis Workspace:
    | Starten bij | De dag en tijd waarop de geplande export moet beginnen. <p>Deze optie is alleen beschikbaar wanneer u een geplande exportfrequentie kiest.</p> |
    | Einde op | De dag en tijd waarop de geplande export verloopt. De geplande export wordt niet meer uitgevoerd na de datum en tijd die u instelt. <p>Deze optie is alleen beschikbaar wanneer u een geplande exportfrequentie kiest.</p> |
    | Bestandsindeling | Geef op of de geëxporteerde gegevens de indeling .csv of .json moeten hebben. |
-   | Inclusief manifestbestand | Wanneer deze optie is ingeschakeld, wordt een manifestbestand opgenomen met alle gelukte exportbewerkingen. Met het manifestbestand kunt u bevestigen dat alle bestanden zijn geleverd. Het bevat de volgende informatie:<ul><li>Een lijst met alle geleverde bestanden</li><li>De MD5-controlesom van elk bestand</li></ul><p>De uitgevoerde gegevens zijn beschikbaar als gecomprimeerd dossier in de wolkenbestemming die u vormde, zoals die in [ wordt beschreven vormt wolkenuitvoerrekeningen ](/help/components/exports/cloud-export-accounts.md) en [ vormt wolkenuitvoerplaatsen ](/help/components/exports/cloud-export-locations.md).</p><p>De bestandsnaam van het gecomprimeerde bestand is als volgt, afhankelijk van of u CSV of JSON hebt gekozen als bestandsindeling:</p><ul><li>`cja-export-{reportInstanceId}-{idx}.csv.gz`</li><li>`cja-export-{reportInstanceId}-{idx}.json.gz`</li></ul><p>U kiest het dossierformaat in het ** [!UICONTROL *formaat van het Dossier* * &#x200B;] hierboven gebied.</p> |
+   | Inclusief manifestbestand | Wanneer deze optie is ingeschakeld, wordt een manifestbestand opgenomen met alle gelukte exportbewerkingen. Met het manifestbestand kunt u bevestigen dat alle bestanden zijn geleverd. Het bevat de volgende informatie:<ul><li>Een lijst met alle geleverde bestanden</li><li>De MD5-controlesom van elk bestand</li></ul><p>De uitgevoerde gegevens zijn beschikbaar als gecomprimeerd dossier in de wolkenbestemming die u vormde, zoals die in [ wordt beschreven vormt wolkenuitvoerrekeningen ](/help/components/exports/cloud-export-accounts.md) en [ vormt wolkenuitvoerplaatsen ](/help/components/exports/cloud-export-locations.md).</p><p>De bestandsnaam van het gecomprimeerde bestand is als volgt, afhankelijk van of u CSV of JSON hebt gekozen als bestandsindeling:</p><ul><li>`cja-export-{reportInstanceId}-{idx}.csv.gz`</li><li>`cja-export-{reportInstanceId}-{idx}.json.gz`</li></ul><p>U kiest het dossierformaat in het ** [!UICONTROL *formaat van het Dossier* * ] hierboven gebied.</p> |
    | Account | Selecteer de exportaccount voor de cloud waarin u de gegevens wilt verzenden. <p>Of als u nog geen cloudaccount hebt geconfigureerd die u wilt gebruiken, kunt u een nieuwe account configureren:<ol><li>Selecteer **[!UICONTROL Add account]** en geef vervolgens de volgende informatie op:<ul><li>**[!UICONTROL Location account name]**: geef een naam op voor het locatieaccount. Deze naam wordt weergegeven wanneer u een locatie maakt </li><li>**[!UICONTROL *ocation account description]**: geef een korte beschrijving van de account zodat deze kan worden onderscheiden van andere accounts van hetzelfde accounttype.</li><li>**[!UICONTROL Account type]**: selecteer het type cloudaccount waarnaar u exporteert. Beschikbare accounttypen zijn Amazon S3 Role ARN, Google Cloud Platform, Azure SAS, Azure RBAC, Snowflake en AEP Data Landing Zone.</li></ul><li>Als u de configuratie van uw account wilt voltooien, gaat u verder met de onderstaande koppeling die overeenkomt met de geselecteerde koppeling in **[!UICONTROL Account type]** :<ul><li>[ AEP Gegevens die Zone ](/help/components/exports/cloud-export-accounts.md#aep-data-landing-zone) aanvoeren</li><li>[ Amazon S3 Rol ARN ](/help/components/exports/cloud-export-accounts.md#amazon-s3-role-arn)</li><li>[ Google Cloud Platform ](/help/components/exports/cloud-export-accounts.md#google-cloud-platform)</li><li>[ Azure SAS ](/help/components/exports/cloud-export-accounts.md#azure-sas)</li><li>[ Azure RBAC ](/help/components/exports/cloud-export-accounts.md#azure-rbac)</li><li>[ Snowflake ](/help/components/exports/cloud-export-accounts.md#snowflake)</li></ul></ol> |
-   | Locatie | Selecteer de locatie op de account waarnaar u de exportgegevens wilt verzenden.<p>Of, als u niet reeds de plaats hebt gevormd die u op de rekening wilt gebruiken die u selecteerde, kunt u een nieuwe plaats vormen:<ol><li>Selecteer **[!UICONTROL *dd location]** en geef vervolgens de volgende informatie op: <ul><li>**[!UICONTROL Name]**: De naam van de locatie.</li><li>**[!UICONTROL Description]**: geef een korte beschrijving van de locatie om deze te onderscheiden van andere locaties op de account.</li><li>**[!UICONTROL Location account]**: selecteer de account waar u de locatie wilt maken.</li></ul><li>Om uw plaats te voltooien, ga met de verbinding hieronder verder die aan het accounttype beantwoordt dat u op het **&#x200B; [!UICONTROL Location account] &#x200B;** gebied selecteerde:<ul><li>[ AEP Gegevens die Zone ](/help/components/exports/cloud-export-locations.md#aep-data-landing-zone) aanvoeren.</li><li>[ Amazon S3 Rol ARN ](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[ Google Cloud Platform ](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[ Azure SAS ](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[ Azure RBAC ](/help/components/exports/cloud-export-locations.md#azure-rbac)</li><li>[ Snowflake ](/help/components/exports/cloud-export-locations.md#snowflake)</li></ul> |
+   | Locatie | Selecteer de locatie op de account waarnaar u de exportgegevens wilt verzenden.<p>Of, als u niet reeds de plaats hebt gevormd die u op de rekening wilt gebruiken die u selecteerde, kunt u een nieuwe plaats vormen:<ol><li>Selecteer **[!UICONTROL *dd location]** en geef vervolgens de volgende informatie op: <ul><li>**[!UICONTROL Name]**: De naam van de locatie.</li><li>**[!UICONTROL Description]**: geef een korte beschrijving van de locatie om deze te onderscheiden van andere locaties op de account.</li><li>**[!UICONTROL Location account]**: selecteer de account waar u de locatie wilt maken.</li></ul><li>Om uw plaats te voltooien, ga met de verbinding hieronder verder die aan het accounttype beantwoordt dat u op het ** [!UICONTROL Location account] **gebied selecteerde:<ul><li>[ AEP Gegevens die Zone ](/help/components/exports/cloud-export-locations.md#aep-data-landing-zone) aanvoeren.</li><li>[ Amazon S3 Rol ARN ](/help/components/exports/cloud-export-locations.md#amazon-s3-role-arn)</li><li>[ Google Cloud Platform ](/help/components/exports/cloud-export-locations.md#google-cloud-platform)</li><li>[ Azure SAS ](/help/components/exports/cloud-export-locations.md#azure-sas)</li><li>[ Azure RBAC ](/help/components/exports/cloud-export-locations.md#azure-rbac)</li><li>[ Snowflake ](/help/components/exports/cloud-export-locations.md#snowflake)</li></ul> |
 
    {style="table-layout:auto"}
 
