@@ -2,14 +2,11 @@
 description: Begrijp hoe u real-time rapporten kunt gebruiken in Analysis Workspace.
 title: Real-Time rapportage gebruiken
 feature: Real-time Reporting
-hide: true
-hidefromtoc: true
 role: User
-badgePremium: label="Beta"
 exl-id: 6e7dba80-5fb9-4554-b989-85eb54a4bd6a
-source-git-commit: 2461804f788b7a1417c4d7faa1d7133d8808cad5
+source-git-commit: d8ff5191ea96b8871f6aaba1fc28211c22a13e0d
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -30,7 +27,7 @@ Als u real-time rapportage wilt gebruiken, schakelt u de schakeloptie **[!UICONT
 * [Attributie](/help/analysis-workspace/c-panels/attribution.md)
 * [Volgende of vorige item](/help/analysis-workspace/c-panels/next-previous.md)
 
-Er wordt een bericht weergegeven met de tijdstempel van de meest recente vernieuwing van de gegevens. Bijvoorbeeld: [!UICONTROL &#x200B; *Laatste verfrist zich bij 07 :55 pm*].
+Er wordt een bericht weergegeven met de tijdstempel van de meest recente vernieuwing van de gegevens. Bijvoorbeeld: [!UICONTROL  *Laatste verfrist zich bij 07 :55 pm*].
 
 Selecteer in het keuzemenu de real-time periode waarover u wilt rapporteren. Beschikbare opties zijn:
 
@@ -42,7 +39,7 @@ Selecteer in het keuzemenu de real-time periode waarover u wilt rapporteren. Bes
 
 Alle visualisaties in het deelvenster worden nu elke minuut bijgewerkt met maximaal 30 minuten, terwijl het browsertabblad met het deelvenster voor real-time vernieuwen actief is.
 
-Als voorbeeld, zie onder een momentopname van a **[!UICONTROL Real-time reporting panel]** die **[!UICONTROL Total Revenue / Hour]** bar visualization en **[!UICONTROL Total Revenue / Hour]** vrije vormlijst aangezien tijdbewegingen van **[!UICONTROL *06:26pm*]** aan **[!UICONTROL *06 :27 pm *]**&#x200B;vernieuwt.
+Als voorbeeld, zie onder een momentopname van a **[!UICONTROL Real-time reporting panel]** die **[!UICONTROL Total Revenue / Hour]** bar visualization en **[!UICONTROL Total Revenue / Hour]** vrije vormlijst aangezien tijdbewegingen van **[!UICONTROL *06:26pm*]** aan **[!UICONTROL *06 :27 pm *]**vernieuwt.
 
 ![ In real time verfrist zich ](assets/real-time-refresh.gif)
 
