@@ -218,7 +218,7 @@ Selecteer in de stap **[!UICONTROL Authentication]** :
 
    1. Selecteer **[!UICONTROL Next]**.
 
-  Zie de documentatie van Experience Platform voor details op om te verbinden en voor authentiek te verklaren wanneer u [ Azure Databricks ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks) of [ Snowflake ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake) schakelaar gebruikt.
+  Zie de documentatie van Experience Platform voor details op om te verbinden en voor authentiek te verklaren wanneer u [ Azure Databricks ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/databases/databricks) of [ Snowflake ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/databases/snowflake) schakelaar gebruikt.
 
 
 ### Gegevens selecteren

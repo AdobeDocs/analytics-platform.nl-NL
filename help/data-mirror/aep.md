@@ -52,9 +52,9 @@ Aan opstelling gebruikt de bronschakelaar aan de gesteunde inheemse oplossingen 
 
 Voor authentificatie tegen de gesteunde gegevens pakhuis inheemse oplossing, zie de relevante documentatie van Experience Platform:
 
-* [ Azure Databricks ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)
-* [ Google BigQuery ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/bigquery)
-* [ Snowflake ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)
+* [ Azure Databricks ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/databases/databricks)
+* [ Google BigQuery ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/databases/bigquery)
+* [ Snowflake ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/databases/snowflake)
 
 
 ### Gegevens selecteren
