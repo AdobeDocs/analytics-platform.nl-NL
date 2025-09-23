@@ -151,7 +151,7 @@ Zie ook Experience Platform [ Guardrails voor de Ingestie van Gegevens ](https:/
 
 {style="table-layout:auto"}
 
-Zie ook de Gidsen van de Uitvoer van de Dataset van Experience Platform [ ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
+Zie ook de Gidsen van de Uitvoer van de Dataset van Experience Platform [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails#dataset-exports)
 
 
 ## Gegevenslandingszone
