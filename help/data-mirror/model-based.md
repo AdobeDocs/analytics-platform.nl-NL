@@ -180,7 +180,7 @@ Definieer een schema dat deze gegevens modelleert. Uw schema instellen:
 
      ![ de beschrijver van de Persoon ](assets/platform-schema-personid.png)
 
-   * Het **[!UICONTROL timestamp]** gebied wordt gevormd, samen met **[!UICONTROL personid]** gebied als ** [!UICONTROL Primary ke] **y. Het veld **[!UICONTROL timestamp]** is ook geconfigureerd als **[!UICONTROL Timestamp descriptor]** . U hoeft een veld alleen te definiëren als **[!UICONTROL Timestamp descriptor]** voor modelgegevens uit tijdreeksen.
+   * Het **[!UICONTROL timestamp]** gebied wordt gevormd, samen met **[!UICONTROL personid]** gebied als **&#x200B; [!UICONTROL Primary ke] &#x200B;** y. Het veld **[!UICONTROL timestamp]** is ook geconfigureerd als **[!UICONTROL Timestamp descriptor]** . U hoeft een veld alleen te definiëren als **[!UICONTROL Timestamp descriptor]** voor modelgegevens uit tijdreeksen.
 
      ![ de beschrijver van de tijdstempel ](assets/platform-schema-timestamp.png)
 
