@@ -5,9 +5,9 @@ exl-id: 02494ef6-cc32-43e8-84a4-6149e50b9d78
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 27e09c893c45f445d9344c1cc5132960060bf032
+source-git-commit: 3193ee46dc0fc794b9adebab916ac178322ff650
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: '2369'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Verstrekt overkoepelende montages voor de gegevensmening.
 >id="dataview_dataviewsinadobejourneyoptimizer"
 >title="Gegevensweergaven in Journey Optimizer"
 >abstract="Customer Journey Analytics moet een verbinding en gegevensweergave gebruiken die compatibel zijn met Adobe Journey Optimizer. Standaard worden automatisch een verbinding en een gegevensweergave voor dit doel gemaakt.<br/> Alternatief, kunt u deze optie toelaten om dit de standaardgegevensmening te maken die in Adobe Journey Optimizer rapportering wordt gebruikt. Wanneer toegelaten, worden alle noodzakelijke die componenten voor Journey Optimizer worden vereist toegevoegd aan deze gegevensmening, en alle noodzakelijke datasets van Journey Optimizer worden toegevoegd aan de verbinding verbonden aan deze gegevensmening."
->additional-url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/integrations/ajo#connection" text="Welke componenten en datasets worden toegevoegd."
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#connection" text="Welke componenten en datasets worden toegevoegd."
 
 
 Bevat instellingen die van toepassing zijn bij gebruik van Adobe Journey Optimizer in aanvulling op Customer Journey Analytics.
@@ -100,10 +100,10 @@ Hiermee geeft u de naam van containers voor de gegevensweergave aan. De namen va
 
 | Instelling | Beschrijving |
 | --- | --- |
-| [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Global Account container name]** | `Global Account` (standaardwaarde). De container [!UICONTROL Global Account] bevat elke sessie en gebeurtenis voor globale accounts binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt, kunt u de naam van de container hier wijzigen. |
-| [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Account container name]** | `Account` (standaardwaarde). De container [!UICONTROL Account] bevat elke sessie en gebeurtenis voor accounts binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt, kunt u de naam van de container hier wijzigen. |
-| [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Opportunity container name]** | `Opportunity` (standaardwaarde). De container [!UICONTROL Opportunity] bevat elke sessie en gebeurtenis voor mogelijkheden binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt, kunt u de naam van de container hier wijzigen. |
-| [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Buying group container name]** | `Buying Group` (standaardwaarde). De container [!UICONTROL Buying group] bevat elke sessie en gebeurtenis voor het aanschaffen van groepen binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt, kunt u de naam van de container hier wijzigen. |
+| [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Global Account container name]** | `Global Account` (standaardwaarde). De container [!UICONTROL Global Account] bevat elke sessie en gebeurtenis voor globale accounts binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt, kunt u de naam van de container hier wijzigen. |
+| [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Account container name]** | `Account` (standaardwaarde). De container [!UICONTROL Account] bevat elke sessie en gebeurtenis voor accounts binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt, kunt u de naam van de container hier wijzigen. |
+| [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Opportunity container name]** | `Opportunity` (standaardwaarde). De container [!UICONTROL Opportunity] bevat elke sessie en gebeurtenis voor mogelijkheden binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt, kunt u de naam van de container hier wijzigen. |
+| [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Buying group container name]** | `Buying Group` (standaardwaarde). De container [!UICONTROL Buying group] bevat elke sessie en gebeurtenis voor het aanschaffen van groepen binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt, kunt u de naam van de container hier wijzigen. |
 | **[!UICONTROL Person container name]** | `Person` (standaardwaarde). De container [!UICONTROL Person] bevat elke sessie en gebeurtenis voor personen binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt (bijvoorbeeld &quot;Bezoeker&quot; of &quot;Gebruiker&quot;), kunt u de naam van de container hier wijzigen. |
 | **[!UICONTROL Session container name]** | `Session` (standaardwaarde). Met de container [!UICONTROL Session] kunt u paginainteracties, campagnes of conversies voor een bepaalde sessie identificeren. U kunt de naam van deze container wijzigen in &#39;Visit&#39; of in een andere term die uw organisatie verkiest. |
 | **[!UICONTROL Event container name]** | `Event` (standaardwaarde). De container [!UICONTROL Event] definieert individuele gebeurtenissen in een dataset. Als uw organisatie een andere term gebruikt (bijvoorbeeld &quot;Hits&quot; of &quot;Paginaweergaven&quot;), kunt u de naam van de container hier wijzigen. |
@@ -132,13 +132,13 @@ Vervolgens kunt u de componenten van een gegevensweergave instellen. Dit beteken
 >
 >Tot 5.000 metriek en 5.000 dimensies kunnen aan één enkele gegevensmening worden toegevoegd.
 
-1. Selecteer de tab **[!UICONTROL Components]** .
+1. Selecteer het tabblad **[!UICONTROL Components]**. 
 
    ![ Componenten tabel ](assets/dataview-components.png)
 
-   U ziet de [!UICONTROL Connection] linksboven, die de gegevenssets en de [!UICONTROL Schema fields] verderop bevat.  De reeds inbegrepen componenten zijn standaardcomponenten (systeem geproduceerd) die voor alle gegevensmeningen (zoals Gebeurtenissen, Mensen, de metriek van zittingen, en Minuut, Kwart, Week afmetingen) worden vereist. Adobe past standaard ook het filter **[!UICONTROL Contains data]** en **[!UICONTROL is not deprecated]** toe, zodat alleen Schema-velden worden weergegeven die gegevens bevatten en die niet zijn afgekeurd.
+   U ziet de [!UICONTROL Connection] linksboven, die de gegevenssets en de [!UICONTROL Schema fields] verderop bevat.  De reeds inbegrepen componenten zijn standaardcomponenten (systeem geproduceerd) die voor alle gegevensmeningen (zoals Gebeurtenissen, Mensen, de metriek van zittingen, en Minuut, Kwart, Week afmetingen) worden vereist. Adobe past standaard ook het filter **[!UICONTROL Contains data]** en **[!UICONTROL is not deprecated]** toe, zodat alleen Schema-velden worden weergegeven die gegevens bevatten en niet worden afgekeurd.
 
-1. Onderzoek naar een schemagebied gebruikend ![ het pictogram van het Onderzoek ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL Search schema fields]** of vind een gebied door zich in om het even welke datasetinzamelingen, als ![ pictogram van de Omslag ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg) **[!UICONTROL Event datasets]** te bewegen.<br/> Alternatief, kunt u een afgeleid gebied tot stand brengen gebruikend ![ het pictogram van Gegevens ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **leidt tot afgeleid gebied**. Zie [ Afgeleide gebieden ](./derived-fields/derived-fields.md) voor meer informatie.
+1. Onderzoek naar een schemagebied gebruikend ![ het pictogram van het Onderzoek ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL Search schema fields]** of vind een gebied door zich in om het even welke datasetinzamelingen, als ![ Omslag ](/help/assets/icons/Folder.svg) **[!UICONTROL Event datasets]** of ![ Omslag ](/help/assets/icons/Folder.svg) **[!UICONTROL Lookup datasets]** te bewegen. Voor gebeurtenisdatasets, zijn de afzonderlijke inzamelingen voor ![ Omslag ](/help/assets/icons/Folder.svg) **[!UICONTROL XDM fields]** en ![ Omslag ](/help/assets/icons/Folder.svg) **[!UICONTROL Adhoc and model-based fields]** beschikbaar.<br/> Alternatief, kunt u een afgeleid gebied tot stand brengen gebruikend ![ het pictogram van Gegevens ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **leidt tot afgeleid gebied**. Zie [ Afgeleide gebieden ](./derived-fields/derived-fields.md) voor meer informatie.
 
 1. Wanneer u uw specifiek schemagebied vond of uw afgeleid gebied bepaalde, sleep dat gebied, zoals ![ pictogram van het Handvat ](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL Page Name]**, van het linkerspoor in **[!UICONTROL Metrics]** of **[!UICONTROL Dimensions]** sectie onder **[!UICONTROL Included components]**.
 U kunt het zelfde schemagebied in de dimensies of metrieksecties veelvoudige tijden slepen en de zelfde afmeting of metrisch op verschillende manieren vormen. Bijvoorbeeld, van het pageName gebied, kunt u een dimensie tot stand brengen die `Product Pages` wordt genoemd, en een andere wordt genoemd `Error pages`, door verschillende [ montages van de Component ](component-settings/overview.md) op het recht te gebruiken.
@@ -167,7 +167,7 @@ Het dupliceren van metriek of afmetingen en het vervolgens wijzigen van specifie
 
 ### Filterschemavelden of -gegevenssets
 
-U kunt &lbrace;het pictogram van de Filter ![ schemagebieden in het linkerspoor door ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg), [!UICONTROL data type], [!UICONTROL datasets], en [!UICONTROL data governance] criteria ([!UICONTROL other], [!UICONTROL contains data], en [!UICONTROL is identity]) filtreren:[!UICONTROL is not deprecated]
+U kunt {het pictogram van de Filter ![ schemagebieden in het linkerspoor door ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg), [!UICONTROL data type], [!UICONTROL datasets], en [!UICONTROL data governance] criteria ([!UICONTROL other], [!UICONTROL contains data], en [!UICONTROL is identity]) filtreren:[!UICONTROL is not deprecated]
 
 ![ de gebieden van de Filter ](assets/dataview-components-filter.png)
 
@@ -183,50 +183,50 @@ U kunt &lbrace;het pictogram van de Filter ![ schemagebieden in het linkerspoor 
 >id="dataview_includedcomponents_filter_datagovernance_custom"
 >title="Aangepaste labels"
 >abstract="Naast de labels die Adobe biedt, kunt u ook uw eigen aangepaste labels voor uw organisatie definiëren."
->additional-url="https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_contract"
 >title="Contractlabels"
 >abstract="De etiketten van het contract (C) worden gebruikt om gegevens te categoriseren die contractuele verplichtingen hebben of met het beleid van het gegevensbeheer van uw organisatie verwant zijn."
->additional-url="https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_identity"
 >title="Identiteitslabels"
 >abstract="De etiketten van de identiteit (I) worden gebruikt om gegevens te categoriseren die een specifieke persoon kunnen identificeren of contacteren."
->additional-url="https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_sensitive"
 >title="Gevoelige labels"
 >abstract="Gevoelige labels (S) worden gebruikt om gegevens te categoriseren die u en uw organisatie als gevoelig beschouwen."
->additional-url="https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
 
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_partnerecosystem"
 >title="Partnerecosysteem"
 >abstract="De etiketten van het Ecosysteem van de partner (P) worden gebruikt om gegevens te categoriseren die met derdepartners worden gedeeld."
->additional-url="https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_policies"
 >title="Beleid"
 >abstract="Om gegevensgebruikslabels effectief te steunen gegevensnaleving, moet het beleid van het gegevensgebruik worden uitgevoerd. Beleid voor gegevensgebruik is regels die het soort marketingacties beschrijven dat u mag uitvoeren op gegevens in Experience Platform of waarvan u een beperking hebt ingesteld. De filters van Beleid passen het toegelaten beleid op de Mening van Gegevens toe."
->additional-url="https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
 
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_responsibleengagement"
 >title="Verantwoordelijke betrokkenheidslabels"
 >abstract="Verantwoordelijke labels voor betrokkenheid worden gebruikt om verantwoordelijke betrokkenheid te ondersteunen."
->additional-url="https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
 
 
 **[!UICONTROL Included components]** bevat de lijst met **[!UICONTROL Metrics]** en **[!UICONTROL Dimensions]** die u configureert voor de gegevensweergave.
 
-* Om naar componenten te zoeken, gebruik ![ ](/help/assets/icons/Search.svg) componenten van het 1&rbrace; Onderzoek **[!UICONTROL _._]**
+* Om naar componenten te zoeken, gebruik ![ ](/help/assets/icons/Search.svg) componenten van het 1} Onderzoek **[!UICONTROL _._]**
 * Om de vermelde inbegrepen componenten te filtreren, selecteer ![ Filter ](/help/assets/icons/Filter.svg).
 
   ![ omvat de dialoog van de componentenfilter ](assets/dataview_includedcomponents_filter.png)
@@ -244,7 +244,7 @@ U kunt &lbrace;het pictogram van de Filter ![ schemagebieden in het linkerspoor 
 
 ## Instellingen {#dataview-settings}
 
-1. Selecteer de tab **[!UICONTROL Settings]** .
+1. Selecteer het tabblad **[!UICONTROL Settings]**. 
 
    ![ de meningsmontages van Gegevens ](assets/dataview-settings.png)
 

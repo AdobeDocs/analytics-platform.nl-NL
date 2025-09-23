@@ -9,10 +9,10 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 1718379e1ea6baffef8f4da045662e95a47e1480
+source-git-commit: 06c5a73e5c0c900782bb284ffef9f88c387ba9cc
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 10%
+source-wordcount: '1299'
+ht-degree: 11%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 10%
    + [Gebruikershandleiding voor Adobe Analytics-gebruikers](../getting-started/aa-to-cja-user.md)
 
 + Gegevensinvoer {#cja-data-ingestion}
-   + [Overzicht van gegevensinvoer](../data-ingestion/data-ingestion.md)
+   + [Overzicht](../data-ingestion/data-ingestion.md)
    + Hulplijnen voor snel starten samenstellen en gebruiken{#ingest-use-guides}
       + [Adobe Analytics](../data-ingestion/analytics.md)
       + Experience Platform Edge Network {#edge-network}
@@ -120,6 +120,15 @@ ht-degree: 10%
       + [Batchgegevens](../data-ingestion/batch.md)
       + [Streaming gegevens](../data-ingestion/streaming.md)
       + [Source-connectors](../data-ingestion/sources.md)
+      + [Ad-hocgegevens](/help/data-ingestion/adhoc.md)
+
++ Gegevensspiegel {#cja-data-mirror}
+   + [Overzicht](/help/data-mirror/data-mirror.md)
+   + Configureren {#configure}
+      + [Native oplossingen voor gegevenspakhuis](/help/data-mirror/datawarehouse.md)
+      + [Experience Platform](/help/data-mirror/aep.md)
+      + [Customer Journey Analytics](/help/data-mirror/cja.md)
+   + [Data Mirror-handleiding voor snel starten](/help/data-mirror/model-based.md)
 
 + Verbindingen {#cja-connections}
    + [Overzicht van verbindingen](../connections/overview.md)
@@ -258,7 +267,7 @@ ht-degree: 10%
       + [Overzicht van kenmerken](../analysis-workspace/attribution/overview.md)
       + [Venster Model, container en lookback](../analysis-workspace/attribution/models.md)
       + [Algorithmic, toewijzing](../analysis-workspace/attribution/algorithmic.md)
-      + [Aanbevolen procedures](../analysis-workspace/attribution/best-practices.md)
+      + [Best practices](../analysis-workspace/attribution/best-practices.md)
       + [Veelgestelde vragen](../analysis-workspace/attribution/faq.md)
    + Anomaliedetectie {#anomaly-detection}
       + [Overzicht](../analysis-workspace/c-anomaly-detection/anomaly-detection.md)
