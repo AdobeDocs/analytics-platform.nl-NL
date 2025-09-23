@@ -7,15 +7,17 @@ role: Admin
 hide: true
 hidefromtoc: true
 badgePremium: label="Beta"
-source-git-commit: 9bd124ad651274b48052edc56bfb72358aa2d79a
+exl-id: 17f72954-085c-46a8-bc28-6af0a4eb159a
+source-git-commit: a6cdade9790ef4bc222eb5979b7370f7403b5ad5
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2007'
 ht-degree: 2%
 
 ---
 
-
 # Spiegelen en op modellen gebaseerde gegevens gebruiken
+
+{{release-limited-testing}}
 
 Deze snelle begingids verklaart hoe te om [ Experience Platform Data Mirror voor Customer Journey Analytics ](data-mirror.md) vermogen te gebruiken om model-gebaseerde gegevens van een inheemse oplossing van het gegevenspakhuis in Adobe Experience Platform te weerspiegelen. Gebruik die gegevens in Customer Journey Analytics.
 
@@ -180,7 +182,7 @@ Definieer een schema dat deze gegevens modelleert. Uw schema instellen:
 
      ![ de beschrijver van de Persoon ](assets/platform-schema-personid.png)
 
-   * Het **[!UICONTROL timestamp]** gebied wordt gevormd, samen met **[!UICONTROL personid]** gebied als **&#x200B; [!UICONTROL Primary ke] &#x200B;** y. Het veld **[!UICONTROL timestamp]** is ook geconfigureerd als **[!UICONTROL Timestamp descriptor]** . U hoeft een veld alleen te definiëren als **[!UICONTROL Timestamp descriptor]** voor modelgegevens uit tijdreeksen.
+   * Het veld **[!UICONTROL timestamp]** wordt geconfigureerd, samen met het veld **[!UICONTROL personid]** als **[!UICONTROL Primary key]** . Het veld **[!UICONTROL timestamp]** wordt ook geconfigureerd als **[!UICONTROL Timestamp descriptor]** . U hoeft een veld alleen te definiëren als **[!UICONTROL Timestamp descriptor]** voor modelgegevens uit tijdreeksen.
 
      ![ de beschrijver van de tijdstempel ](assets/platform-schema-timestamp.png)
 
@@ -218,7 +220,7 @@ Selecteer in de stap **[!UICONTROL Authentication]** :
 
    1. Selecteer **[!UICONTROL Next]**.
 
-  Zie de documentatie van Experience Platform voor details op om te verbinden en voor authentiek te verklaren wanneer u [ Azure Databricks ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/databases/databricks) of [ Snowflake ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/databases/snowflake) schakelaar gebruikt.
+  Zie de documentatie van Experience Platform voor details op om te verbinden en voor authentiek te verklaren wanneer u [ Azure Databricks ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks) of [ Snowflake ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake) schakelaar gebruikt.
 
 
 ### Gegevens selecteren

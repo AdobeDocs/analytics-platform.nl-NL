@@ -7,7 +7,8 @@ role: Admin
 hide: true
 hidefromtoc: true
 badgePremium: label="Beta"
-source-git-commit: 9bd124ad651274b48052edc56bfb72358aa2d79a
+exl-id: 92cffcc5-d7a7-47f5-869d-1fc665594bf4
+source-git-commit: b585187f112c2081a8e51bd84d9f95e75ceebdc3
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
@@ -15,6 +16,8 @@ ht-degree: 0%
 ---
 
 # Systeemeigen oplossingen voor gegevenspakhuis configureren
+
+{{release-limited-testing}}
 
 Om Experience Platform Data Mirror for Customer Journey Analytics te ondersteunen, moeten de gegevens die u wilt gebruiken van de drie ondersteunde native oplossingen voor gegevensopslagruimten ([[!DNL Azure Databricks]](#azure-databricks), [[!DNL Google BigQuery]](#google-bigquery), [[!DNL Snowflake]](#snowflake) ) zijn ingeschakeld voor het vastleggen van wijzigingsgegevens.
 
@@ -53,8 +56,8 @@ Voor meer informatie, lees de [[!DNL Azure Databricks]  gids bij het toelaten va
 
 Lees de volgende documentatie voor stappen over het inschakelen van het vastleggen van wijzigingsgegevens voor uw [!DNL Azure Databricks] bronverbinding:
 
-* [ creeer a [!DNL Azure Databricks]  basisverbinding ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/api-tutorials/create/databases/databricks).
-* [ creeer een bronverbinding voor een gegevensbestand ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
+* [ creeer a [!DNL Azure Databricks]  basisverbinding ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/create/databases/databricks).
+* [ creeer een bronverbinding voor een gegevensbestand ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
 
 ## [!DNL Google BigQuery]
 
@@ -64,8 +67,8 @@ Voor meer informatie, lees de gids over [ de taalverklaringen van de gegevensdef
 
 Lees de volgende documentatie voor stappen over het inschakelen van het vastleggen van wijzigingsgegevens voor uw [!DNL Google BigQuery] bronverbinding:
 
-* [ creeer a [!DNL Google BigQuery]  basisverbinding ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/api-tutorials/create/databases/bigquery).
-* [ creeer een bronverbinding voor een gegevensbestand ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
+* [ creeer a [!DNL Google BigQuery]  basisverbinding ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/create/databases/bigquery).
+* [ creeer een bronverbinding voor een gegevensbestand ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
 
 ## [!DNL Snowflake]
 
@@ -81,11 +84,11 @@ Voor meer informatie, lees de [[!DNL Snowflake]  gids bij het gebruiken van de v
 
 Lees de volgende documentatie voor stappen over het inschakelen van het vastleggen van wijzigingsgegevens voor uw [!DNL Snowflake] bronverbinding:
 
-* [ creeer a [!DNL Snowflake]  basisverbinding ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/api-tutorials/create/databases/snowflake).
-* [ creeer een bronverbinding voor een gegevensbestand ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
+* [ creeer a [!DNL Snowflake]  basisverbinding ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/create/databases/snowflake).
+* [ creeer een bronverbinding voor een gegevensbestand ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
 
 
 >[!MORELIKETHIS]
 >
->[ Data Mirror snelle startgids: Spiegel en gebruik op model-gebaseerde gegevens ](data-mirror.md)
+>[ Data Mirror snelle startgids: Spiegel en gebruik op model-gebaseerde gegevens ](model-based.md)
 >

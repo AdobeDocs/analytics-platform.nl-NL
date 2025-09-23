@@ -7,9 +7,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 badgePremium: label="Beta"
-source-git-commit: 9bd124ad651274b48052edc56bfb72358aa2d79a
+exl-id: f40e1263-1f4a-416c-a045-15fbe68ce509
+source-git-commit: a6cdade9790ef4bc222eb5979b7370f7403b5ad5
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '399'
 ht-degree: 1%
 
 ---
@@ -44,7 +45,7 @@ Zie ook de Experience Platform documentatie op Data Mirror.
 
 >[!NOTE]
 >
->Het vermogen van Experience Platform Data Mirror voor Customer Journey Analytics is beschikbaar in a **openbare bèta** tot 25 Maart, 2026. Tijdens de bètaperiode zijn CDC-updates (change data capture) beperkt tot 0,5% van de maandelijkse rijen met gegevens van uw organisatie. De maandelijkse rijen met gegevens zijn gebaseerd op uw jaarmachtigingen voor rijen met gegevens gedeeld door 12. Adobe behoudt zich het recht voor om de toegang tot de bètaversie van Experience Platform Data Mirror for Customer Journey Analytics te beëindigen als uw organisatie deze limiet overschrijdt.
+>Het vermogen van Experience Platform Data Mirror voor Customer Journey Analytics is beschikbaar in a **openbare bèta** tot 25 Maart, 2026. Tijdens de bètaperiode zijn updates voor het vastleggen van wijzigingsgegevens (CDC) beperkt tot een recht van 10 miljoen dagelijkse wijzigingsrijen voor Customer Journey Analytics. Adobe behoudt zich het recht voor om bètatoegang tot de functionaliteit van Experience Platform Data Mirror te beëindigen als uw organisatie deze limiet overschrijdt. Voor meer informatie over de functie, waaronder de gevolgen voor facturering, raadpleegt u dit gedeelte van de Experience League-documentatie.
 >
 
 De Experience Platform Data Mirror for Customer Journey Analytics-mogelijkheid is beschikbaar voor geselecteerde native oplossingen voor gegevensopslagruimten ([!DNL Azure Databricks], [!DNL Google BigQuery] en [!DNL Snowflake]). De Customer Journey Analytics-versie van de Data Mirror-functionaliteit vereist een correcte installatie en configuratie van verschillende onderdelen:
@@ -56,5 +57,5 @@ De Experience Platform Data Mirror for Customer Journey Analytics-mogelijkheid i
 
 >[!MORELIKETHIS]
 >
->[ Data Mirror snelle startgids: Spiegel en gebruik op model-gebaseerde gegevens ](data-mirror.md)
+>[ Data Mirror snelle startgids: Spiegel en gebruik op model-gebaseerde gegevens ](model-based.md)
 >
