@@ -5,9 +5,9 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 8eb57617cc089dee0df73171feb1118f35d4c960
+source-git-commit: cd92bde10b9cb473c4df791e91296a2a43b2ad84
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2390'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ De volgende parameters regelen de toegang tot Data Insights Agent in Customer Jo
 
 * **Toestemmingen**: De noodzakelijke toestemmingen moeten in [!UICONTROL Adobe Admin Console] worden verleend alvorens de gebruikers tot Data Insights Agent kunnen toegang hebben.
 
-  Om toestemmingen te verlenen, moet a [ admin van het productprofiel ](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) de volgende stappen in [!UICONTROL Admin Console] voltooien:
+  Om toestemmingen te verlenen, moet a [ admin van het productprofiel ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) de volgende stappen in [!UICONTROL Admin Console] voltooien:
    1. Selecteer in **[!UICONTROL Admin Console]** de tab **[!UICONTROL Products]** om de pagina **[!UICONTROL All products and services]** weer te geven.
    1. Selecteer **[!UICONTROL Customer Journey Analytics]**.
    1. Selecteer op het tabblad **[!UICONTROL Product Profiles]** de titel van het productprofiel waartoe u toegang wilt verlenen aan [!UICONTROL AI Assistant: Product Knowledge] .
@@ -163,6 +163,14 @@ Tot slot, kijk de opbrengst per productcategorie.
 
 ![Cirkeldiagram](/help/assets/ai-asst-result3.png)
 
+## Data Insights Agent openen in Experience Cloud-toepassingen
+
+Adobe Experience Platform Agent Orchestrator biedt u toegang tot de functionaliteit van Data Insights Agent in meerdere Adobe Experience Cloud-toepassingen, zoals Adobe Journey Optimizer en Real-Time CDP.
+
+Agent Orchestrator interpreteert uw verzoek, bepaalt welke gespecialiseerde agenten nodig zijn, en organiseert hen om de juiste reactie te leveren. Het houdt van context over multi-draai interactie bij, zodat kunt u op vroegere vragen natuurlijk voortbouwen.
+
+Voor meer informatie, zie [ Adobe Experience Platform Agent Orchestrator ](http://www.adobe.com/go/agent-orchestrator-home).
+
 ## Voorbeeld van vragen voor gegevensvisualisatie
 
 Hieronder volgen enkele voorbeelden van veelvoorkomende vragen en de visualisaties die Data Insights Agent gebruikt om op deze vragen te reageren.
@@ -251,7 +259,7 @@ Hieronder volgen de beste werkwijzen voor uw configuratie van Customer Journey A
 >[!MORELIKETHIS]
 >
 >[ montages van de Component ](/help/data-views/component-settings/overview.md)
->&#x200B;>[Gegevenswoordenboek ](/help/components/data-dictionary/data-dictionary-overview.md)
->&#x200B;>[Berekende metrische waarde goedkeuren ](/help/components/calc-metrics/cm-workflow/cm-approving.md)
->&#x200B;>[Segmenten delen ](/help/components/segments/seg-share.md)
+>>[Gegevenswoordenboek ](/help/components/data-dictionary/data-dictionary-overview.md)
+>>[Berekende metrische waarde goedkeuren ](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>>[Segmenten delen ](/help/components/segments/seg-share.md)
 >
