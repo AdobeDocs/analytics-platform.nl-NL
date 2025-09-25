@@ -100,7 +100,7 @@ In de interface **[!UICONTROL Schemas]** > **[!UICONTROL Sample Data From CSV - 
 
   >[!NOTE]
   >
-  >De workflow definieert alle velden in het schema als van het type String. U kunt dit type in een later stadium niet wijzigen. Als u meer flexibiliteit in de definitie van een ad hoc schema nodig hebt, overweeg [ gebruikend API om een ad hoc schema ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/ad-hoc) tot stand te brengen en dan [ te gebruiken creeer dataset van schema ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema) werkschema.
+  >De workflow definieert alle velden in het schema als van het type String. U kunt dit type in een later stadium niet wijzigen. Als u meer flexibiliteit in de definitie van een ad hoc schema nodig hebt, overweeg [ gebruikend API om een ad hoc schema ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/tutorials/ad-hoc) tot stand te brengen en dan [ te gebruiken creeer dataset van schema ](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#schema) werkschema.
   > 
 
 
@@ -157,7 +157,7 @@ Zie [ Ad hoc datasetmontages ](/help/connections/create-connection.md#adhoc-data
 
 >[!IMPORTANT]
 >
->Naast de algemene aanbeveling om geen ad hoc datasets en schema&#39;s voor tijdreeksgegevens te gebruiken, kunt u niet het **[!UICONTROL Create dataset from CSV]** werkschema voor tijdreeksgegevens gebruiken. Deze workflow definieert alle velden als velden van het type String die u achteraf niet kunt wijzigen. Wanneer u een op tijdreeksen gebaseerde dataset (gebeurtenis of samenvatting) aan een verbinding toevoegt, vereist dit type van dataset de definitie van minstens één gebied van type DateTime.<br/> als u vereist om ad hoc tijd-reeksen gegevens te gebruiken, overweeg [ gebruikend API om een ad hoc schema ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438) tot stand te brengen en dan [ te gebruiken creeer dataset van schema ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema) werkschema.
+>Naast de algemene aanbeveling om geen ad hoc datasets en schema&#39;s voor tijdreeksgegevens te gebruiken, kunt u niet het **[!UICONTROL Create dataset from CSV]** werkschema voor tijdreeksgegevens gebruiken. Deze workflow definieert alle velden als velden van het type String die u achteraf niet kunt wijzigen. Wanneer u een op tijdreeksen gebaseerde dataset (gebeurtenis of samenvatting) aan een verbinding toevoegt, vereist dit type van dataset de definitie van minstens één gebied van type DateTime.<br/> als u vereist om ad hoc tijd-reeksen gegevens te gebruiken, overweeg [ gebruikend API om een ad hoc schema ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438) tot stand te brengen en dan [ te gebruiken creeer dataset van schema ](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#schema) werkschema.
 
 
 Nadat u a [ verbinding ](/help/connections/overview.md) creeert, kunt u diverse beheerstaken, zoals [ uitvoeren die en datasets ](/help/connections/combined-dataset.md) combineren, [ controleren het statuut van de datasets van een verbinding en het statuut van gegevensopname ](/help/connections/manage-connections.md), en meer.
