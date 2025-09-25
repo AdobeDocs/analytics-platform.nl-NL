@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 badgePremium: label="Beta"
 exl-id: 17f72954-085c-46a8-bc28-6af0a4eb159a
-source-git-commit: a6cdade9790ef4bc222eb5979b7370f7403b5ad5
+source-git-commit: e5975a7bb60f4a2386997024c4615f95be648363
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '2004'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 {{release-limited-testing}}
 
-Deze snelle begingids verklaart hoe te om [ Experience Platform Data Mirror voor Customer Journey Analytics ](data-mirror.md) vermogen te gebruiken om model-gebaseerde gegevens van een inheemse oplossing van het gegevenspakhuis in Adobe Experience Platform te weerspiegelen. Gebruik die gegevens in Customer Journey Analytics.
+Deze snelle begingids verklaart hoe te om [ Experience Platform Data Mirror voor Customer Journey Analytics ](data-mirror.md) te gebruiken om model-gebaseerde gegevens van een inheemse oplossing van het gegevenspakhuis in Adobe Experience Platform te weerspiegelen. Gebruik die gegevens in Customer Journey Analytics.
 
 Voor dit gebruiksgeval moet u:
 
@@ -117,12 +117,12 @@ Voor Experience Platform Data Mirror for Customer Journey Analytics, moeten de l
    SET OPTIONS (enable_change_history = TRUE);
    ```
 
-De gegevens in de tabel in uw eigen gegevensopslagsysteem zijn klaar voor de Experience Platform Data Mirror for Customer Journey Analytics-mogelijkheid.
+De gegevens in de lijst in uw gegevenspakhuis inheemse oplossing zijn klaar voor Experience Platform Data Mirror voor Customer Journey Analytics.
 
 
 ## Een schema instellen
 
-Als u gegevens in Experience Platform wilt spiegelen, moet u eerst het schema voor de gegevens definiëren. Alle gegevens die u in Experience Platform wilt spiegelen en die de Experience Platform Data Mirror for Customer Journey Analytics-mogelijkheid gebruiken, moeten in overeenstemming zijn met een modelgebaseerd schema.
+Als u gegevens in Experience Platform wilt spiegelen, moet u eerst het schema voor de gegevens definiëren. Alle gegevens die u in Experience Platform wilt spiegelen en die Experience Platform Data Mirror voor Customer Journey Analytics gebruiken, moeten aan een model-gebaseerd schema in overeenstemming zijn.
 
 Definieer een schema dat deze gegevens modelleert. Uw schema instellen:
 
@@ -141,7 +141,7 @@ Definieer een schema dat deze gegevens modelleert. Uw schema instellen:
    1. Voer een **[!UICONTROL Description]** in. Bijvoorbeeld: `Sample event feed schema for a model-based schema` .
    1. Selecteer **[!UICONTROL Time series]** als de **[!UICONTROL Schema behavior]** . U selecteert **[!UICONTROL Time series]** voor op tijdreeksen gebaseerde gegevens en **[!UICONTROL Record]** voor op records gebaseerde gegevens. Het gedrag bepaalt de structuur van het schema en de eigenschappen die inbegrepen zijn.
 
-      De Experience Platform Data Mirror for Customer Journey Analytics-mogelijkheid wordt vooral gebruikt voor tijdreeksgegevens (bijvoorbeeld gebeurtenisgegevens).
+      Experience Platform Data Mirror for Customer Journey Analytics wordt meestal gebruikt voor tijdreeksgegevens (bijvoorbeeld gebeurtenisgegevens).
 
       ![ de configuratie van het Schema ](assets/model-based-create-schema.png)
 
@@ -220,7 +220,7 @@ Selecteer in de stap **[!UICONTROL Authentication]** :
 
    1. Selecteer **[!UICONTROL Next]**.
 
-  Zie de documentatie van Experience Platform voor details op om te verbinden en voor authentiek te verklaren wanneer u [ Azure Databricks ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/databases/databricks) of [ Snowflake ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/databases/snowflake) schakelaar gebruikt.
+  Zie de documentatie van Experience Platform voor details op om te verbinden en voor authentiek te verklaren wanneer u [ Azure Databricks ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks) of [ Snowflake ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake) schakelaar gebruikt.
 
 
 ### Gegevens selecteren
@@ -351,6 +351,8 @@ Uw gegevensweergave maken:
       1. Selecteer **[!UICONTROL Event datasets]**.
       1. Selecteer **[!UICONTROL Adhoc & Model-based fields]**.
       1. Sleep velden van de op een model gebaseerde schema&#39;s naar **[!UICONTROL METRICS]** of **[!UICONTROL DIMENSIONS]** .
+
+         ![ voeg model-gebaseerd gebied als componenten ](assets/cja-add-dataset-folder-dv.png) toe
 
    1. Definieer afgeleide velden voor velden die niet het juiste type hebben, die niet de juiste indeling hebben of die u om andere redenen wilt wijzigen. Bijvoorbeeld voor **[!UICONTROL Revenue Amount]** .
 

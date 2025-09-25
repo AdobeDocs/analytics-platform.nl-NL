@@ -6,27 +6,25 @@ feature: Basics
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 9bd124ad651274b48052edc56bfb72358aa2d79a
+exl-id: 17b5842f-dc81-481f-8b21-dc90a133adcf
+source-git-commit: e5975a7bb60f4a2386997024c4615f95be648363
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1435'
 ht-degree: 1%
 
 ---
 
-
 # Ad-hocgegevens invoegen en gebruiken
 
-In deze snelstartgids wordt uitgelegd hoe u ad-hocgegevens kunt invoeren in Adobe Experience Platform en deze gegevens vervolgens kunt gebruiken in Customer Journey Analytics.
+In deze snelstartgids wordt uitgelegd hoe u ad-hocgegevens kunt invoeren in Experience Platform en deze gegevens vervolgens kunt gebruiken in Customer Journey Analytics.
 
 Hiervoor moet u:
 
-- **creeer een dataset met een Csv- dossier** in Experience Platform om het model (schema) van de gegevens te bepalen die u wilt verzamelen en waar te om de gegevens (dataset) te verzamelen.
+- **creeer een dataset met een Csv- dossier** in Experience Platform. Deze workflow definieert het model (schema) van de gegevens die u wilt verzamelen en waar u de gegevens (gegevensset) wilt verzamelen.
 
-- **gebruik een bronschakelaar** in Experience Platform om uw gegevens in gevormde dataset te krijgen.
+- **opstelling een verbinding** in Customer Journey Analytics. Deze verbinding moet (ten minste) uw Experience Platform-gegevensset ad hoc bevatten.
 
-- **opstelling een verbinding** in Customer Journey Analytics. Deze verbinding zou (minstens) uw dataset van Adobe Experience Platform moeten omvatten.
-
-- **opstelling een gegevensmening** in Customer Journey Analytics om metriek en afmeting te bepalen die u in Analysis Workspace wilt gebruiken.
+- **opstelling een gegevensmening** in Customer Journey Analytics om metriek en afmeting van de gebieden in uw ad hoc gegevens te bepalen die u in Analysis Workspace wilt gebruiken.
 
 - **opstelling een project** in Customer Journey Analytics om uw rapporten en visualisaties te bouwen.
 
@@ -34,7 +32,7 @@ Hiervoor moet u:
 
 >[!NOTE]
 >
->Deze handleiding voor snel starten is een vereenvoudigde handleiding voor het innemen van ad-hocgegevens in Adobe Experience Platform en het gebruiken ervan in Customer Journey Analytics. Het wordt ten zeerste aanbevolen de aanvullende informatie te bestuderen wanneer deze wordt vermeld.
+>Deze handleiding voor snel starten is een vereenvoudigde handleiding voor het innemen van ad-hocgegevens in Experience Platform en het gebruik van die ad-hocgegevens in Customer Journey Analytics. Het wordt ten zeerste aanbevolen de aanvullende informatie te bestuderen wanneer deze wordt vermeld.
 
 
 ## Een gegevensset maken met een CSV-bestand
@@ -53,14 +51,14 @@ Voor dit snelle begin, wilt u een Csv- dossier gebruiken dat raadplegingsgegeven
 >
 >Gebruik speciale gegevenssets en schema&#39;s voor op records gebaseerde gegevens (opzoeken, profiel). Ad hoc datasets en schema&#39;s zijn minder geschikt en zouden niet voor tijdreeksgegevens (gebeurtenis, samenvatting) moeten worden overwogen.
 
-U hoeft geen XDM-schema voor ad-hocgegevens te maken. Adobe Experience Platform ondersteunt een workflow die op basis van de gegevens in het CSV-bestand:
+U hoeft geen XDM-schema voor ad-hocgegevens te maken. Experience Platform ondersteunt een workflow die op basis van de gegevens in het CSV-bestand:
 
-1. Hiermee maakt u een ad-hocschema dat voldoet aan de kolommen van het CSV-bestand.
-1. Hiermee maakt u een gegevensset op basis van het ad-hocschema dat de gegevens uit het CSV-bestand bevat.
+1. Hiermee maakt u automatisch een ad-hocschema. Dat schema voldoet aan de kolommen van het CSV-bestand.
+1. Maakt een dataset die de gegevens van het CSV-bestand bevat.
 
 De workflow starten:
 
-1. Selecteer **[!UICONTROL Workflows]** in de gebruikersinterface van Adobe Experience Platform in de linkerrails.
+1. Selecteer **[!UICONTROL Workflows]** in de Experience Platform-interface in de linkertrack.
 1. Selecteer ![ DataAdd ](/help/assets/icons/DataAdd.svg) **[!UICONTROL Create dataset from CSV file]**.
 1. Selecteer **[!UICONTROL Launch]** in het rechterdeelvenster.
 1. Kies in de wizard **[!UICONTROL Workflows]** > **[!UICONTROL Create dataset from CSV file]** :
@@ -80,15 +78,15 @@ De workflow starten:
 
       1. Selecteer **[!UICONTROL Finish]**.
 
-De gegevens worden voorbereid en geüpload. Nadat de gegevens zijn geüpload, wordt u omgeleid naar **[!UICONTROL Datasets]** in de gebruikersinterface van Adobe Experience Platform.<br/> u ziet **[!UICONTROL Dataset activity]** voor uw **[!UICONTROL Sample Data from CSV]** dataset met de status ![ StatusOrange ](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Processing]**.
+Nadat de gegevens zijn voorbereid en geüpload, wordt u omgeleid naar **[!UICONTROL Datasets]** in de Experience Platform-interface.<br/> u ziet **[!UICONTROL Dataset activity]** voor uw **[!UICONTROL Sample Data from CSV]** dataset met de status ![ StatusOrange ](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Processing]**.
 
 ![ activiteit van de Dataset voor ad hoc gegevens ](assets/datasets-dataset-activity.png)
 
 De ad-hocgegevens inspecteren:
 
-1. Selecteer **[!UICONTROL Datasets]** in de gebruikersinterface van Adobe Experience Platform in de linkerrails.
+1. Selecteer **[!UICONTROL Datasets]** in de Experience Platform-interface in de linkertrack.
 1. Selecteer de tab **[!UICONTROL Browse]** in **[!UICONTROL Datasets]** . U zou uw dataset moeten zien vermeld.
-1. Selecteer de naam van het schema in de kolom **[!UICONTROL Schema]** . Bijvoorbeeld: **[!UICONTROL Sample Data From CSV…]** .
+1. Selecteer de naam van het schema in de kolom **[!UICONTROL Schema]** . Bijvoorbeeld: **[!UICONTROL Sample Data From CSV…]**
 
    ![ Uitgezochte schema voor ad hoc dataset ](assets/adhoc-schema-selection.png)
 
@@ -100,13 +98,19 @@ In de interface **[!UICONTROL Schemas]** > **[!UICONTROL Sample Data From CSV - 
 
   ![ Ad hoc schema ](dataset/../assets/adhoc-schema.png)
 
+  >[!NOTE]
+  >
+  >De workflow definieert alle velden in het schema als van het type String. U kunt dit type in een later stadium niet wijzigen. Als u meer flexibiliteit in de definitie van een ad hoc schema nodig hebt, overweeg [ gebruikend API om een ad hoc schema ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/ad-hoc) tot stand te brengen en dan [ te gebruiken creeer dataset van schema ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema) werkschema.
+  > 
+
+
 
 
 ## Een verbinding instellen
 
-Als u de Adobe Experience Platform-gegevensset in Customer Journey Analytics wilt gebruiken, maakt u een verbinding die de ad-hocgegevens bevat die het resultaat zijn van de workflow.
+Om de dataset van Experience Platform in Customer Journey Analytics te gebruiken, creeert u een verbinding die de ad hoc dataset die uit het [ werkschema ](#create-a-dataset-with-a-csv-file) resulteert omvat
 
-Met een verbinding kunt u gegevenssets van Adobe Experience Platform integreren in Workspace. Om over deze datasets te rapporteren, moet u eerst een verband tussen datasets in Adobe Experience Platform en Workspace vestigen.
+Met een verbinding kunt u gegevenssets van Experience Platform integreren in Workspace. Om over deze datasets te rapporteren, moet u eerst een verband tussen datasets in Experience Platform en Workspace vestigen.
 
 Om uw verbinding tot stand te brengen:
 
@@ -126,7 +130,7 @@ Om uw verbinding tot stand te brengen:
 
 1. In de stap **[!UICONTROL Select datasets]** in **[!UICONTROL Add datasets]** :
 
-   1. Selecteer de dataset die u vroeger creeerde, bijvoorbeeld **[!UICONTROL Sample Data From CSV]**, en om het even welke andere dataset u in uw verbinding wilt omvatten.
+   1. Selecteer de dataset die u vroeger creeerde, bijvoorbeeld **[!UICONTROL Sample Data From CSV]**, en om het even welke andere dataset u in uw verbinding wilt omvatten. De ad-hocgegevenssets hebben de eigenschap **[!UICONTROL Adhoc]** [!UICONTROL Dataset type] .
 
       ![ voeg datasets ](./assets/cja-connections-adhoc-2.png) toe
 
@@ -153,7 +157,7 @@ Zie [ Ad hoc datasetmontages ](/help/connections/create-connection.md#adhoc-data
 
 >[!IMPORTANT]
 >
->Boven de algemene aanbeveling om geen ad hoc datasets en schema&#39;s voor tijd-reeksen gegevens te gebruiken, zou u **&#x200B;**&#x200B;niet **[!UICONTROL Create dataset from CSV]** werkschema voor tijd-reeksen gegevens moeten gebruiken. De workflow die het ad-hocschema genereert, definieert alle velden als velden van het type String die u achteraf niet kunt wijzigen. Wanneer u een op tijdreeksen gebaseerde dataset (gebeurtenis of samenvatting) aan een verbinding toevoegt, vereist dit type van dataset de definitie van minstens één gebied van type DateTime. <br/> als u vereist om ad hoc tijd-reeksen gegevens te gebruiken, zou u [ moeten overwegen gebruikend API om een ad hoc schema ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438) tot stand te brengen en dan [ te gebruiken creeer dataset van schema ](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#schema) werkschema.
+>Naast de algemene aanbeveling om geen ad hoc datasets en schema&#39;s voor tijdreeksgegevens te gebruiken, kunt u niet het **[!UICONTROL Create dataset from CSV]** werkschema voor tijdreeksgegevens gebruiken. Deze workflow definieert alle velden als velden van het type String die u achteraf niet kunt wijzigen. Wanneer u een op tijdreeksen gebaseerde dataset (gebeurtenis of samenvatting) aan een verbinding toevoegt, vereist dit type van dataset de definitie van minstens één gebied van type DateTime.<br/> als u vereist om ad hoc tijd-reeksen gegevens te gebruiken, overweeg [ gebruikend API om een ad hoc schema ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438) tot stand te brengen en dan [ te gebruiken creeer dataset van schema ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema) werkschema.
 
 
 Nadat u a [ verbinding ](/help/connections/overview.md) creeert, kunt u diverse beheerstaken, zoals [ uitvoeren die en datasets ](/help/connections/combined-dataset.md) combineren, [ controleren het statuut van de datasets van een verbinding en het statuut van gegevensopname ](/help/connections/manage-connections.md), en meer.
@@ -180,7 +184,17 @@ Uw gegevensweergave maken:
 
 1. In de stap **[!UICONTROL Components]** :
 
-   1. Voeg een veld met een ad-hocschema en/of standaardcomponent die u wilt opnemen toe aan de deelvakken **[!UICONTROL METRICS]** of **[!UICONTROL DIMENSIONS]** .
+   1. Voeg schemagebieden en/of standaardcomponent toe die u aan de **[!UICONTROL METRICS]** of **[!UICONTROL DIMENSIONS]** componentenvakjes wilt omvatten. Zorg ervoor dat u relevante velden uit de gegevensset toevoegt die de ad-hocgegevens bevat. U kunt als volgt toegang krijgen tot deze velden:
+
+      1. Selecteer **[!UICONTROL Event datasets]**.
+      1. Selecteer **[!UICONTROL Adhoc & Model-based fields]**.
+
+         ![ mening van Gegevens - adhoc componenten ](assets/cja-dataview-components-adhoc.png)
+
+      1. Sleep velden van de ad-hocschema&#39;s naar **[!UICONTROL METRICS]** of **[!UICONTROL DIMENSIONS]** .
+
+
+
    1. Naar keuze, gebruik [ afgeleide gebieden ](/help/data-views/derived-fields/derived-fields.md) om het even welke ad hoc gebieden van hun standaardtype en formaat van het Koord aan een ander type of formaat te wijzigen.
 
    1. Selecteer **[!UICONTROL Save and continue]**.
@@ -208,7 +222,7 @@ Uw project maken:
 
 1. Selecteer uw [ gegevensmening ](#set-up-a-data-view) van de lijst.
 
-1. Als u uw eerste rapport wilt maken, sleept u de afmetingen en metriek op de [!UICONTROL Freeform table] in de [!UICONTROL Panel] . Met inbegrip van die metriek of afmeting die op uw ad hoc gegevens worden gebaseerd.
+1. Als u uw eerste rapport wilt maken, sleept u de afmetingen en metriek op de [!UICONTROL Freeform table] in de [!UICONTROL Panel] . Met inbegrip van die metriek of dimensie die op uw ad hoc gegevens gebaseerd zijn.
 
 Zie [ overzicht van Analysis Workspace ](../analysis-workspace/home.md) voor meer informatie over hoe te om projecten tot stand te brengen en uw analyse te bouwen gebruikend componenten, visualisaties, en panelen.
 

@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 badgePremium: label="Beta"
 exl-id: f40e1263-1f4a-416c-a045-15fbe68ce509
-source-git-commit: a6cdade9790ef4bc222eb5979b7370f7403b5ad5
+source-git-commit: 3cd771669370a58230fc4806e2b7fb2fc16444b9
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '394'
 ht-degree: 1%
 
 ---
@@ -19,41 +19,36 @@ ht-degree: 1%
 
 {{release-limited-testing}}
 
-Data Mirror is een vermogen van Experience Platform dat rij-vlakke veranderingsopname van externe gegevensbestanden in het gegevenshoek gebruikend model-gebaseerde schema&#39;s toelaat. Het bewaart gegevensverhoudingen, dwingt uniciteit af, en steunt versioning zonder upstream extractie, transformatie, lading (ETL) processen te vereisen.
+Data Mirror is een vermogen van Experience Platform dat rij-vlakke veranderingsopname van externe gegevensbestanden in het gegevenshoek gebruikend model-gebaseerde schema&#39;s toelaat. Het bewaart gegevensverhoudingen, dwingt uniciteit af, en steunt versioning zonder upstream extractie, transformatie, en ladings (ETL) processen te vereisen.
 
-Met Data Mirror kunt u invoegtoepassingen, updates en verwijderingen (muteerbare gegevens) vanuit externe gegevensopslagsystemen rechtstreeks synchroniseren met native oplossingen zoals [!DNL Snowflake] , [!DNL Azure Databricks] of [!DNL Google BigQuery] in Experience Platform. Met Data Mirror kunt u de bestaande structuur en gegevensintegriteit van het databasemodel behouden wanneer u gegevens naar Experience Platform overbrengt.
-
+Met Experience Platform Data Mirror kunt u invoegtoepassingen, updates en verwijderingen (muteerbare gegevens) rechtstreeks met gegevens in Experience Platform synchroniseren vanuit externe native oplossingen voor gegevenspakken ([!DNL Snowflake], [!DNL Azure Databricks] of [!DNL Google BigQuery] ). Met Data Mirror kunt u de bestaande structuur en gegevensintegriteit van het databasemodel behouden wanneer u gegevens naar Experience Platform overbrengt.
 
 ## Capaciteiten en voordelen
 
 Data Mirror biedt de volgende essentiële mogelijkheden voor databasesynchronisatie:
 
-* **Primaire zeer belangrijke handhaving**. Zorgt voor eenduidigheid binnen gegevenssets en voorkomt dubbele records tijdens inname.
-* **row-vlakke veranderingsopname**. Ondersteunt wijzigingen in korrelige gegevens, waaronder upserts en delete met precisiecontrole.
-* **verhoudingen van het Schema**. Laat buitenlandse en primaire zeer belangrijke verhoudingen tussen datasets door beschrijvers toe.
-* **uit-van-orde gebeurtenis behandeling**. Verwerkt gebeurtenissen met versie- en tijdstempelbeschrijvingen, zelfs als deze uit de juiste volgorde komen.
-* **Directe pakhuis integratie**. Verbindt met gesteunde douane van de wolkengegevens voor veranderingssynchronisatie in real time.
+* **Primaire zeer belangrijke handhaving.** Zorgt voor unieke gegevenssets en voorkomt dubbele records tijdens inname.
+* **de verandering van het rij-niveau opname.** Ondersteunt wijzigingen in korrelgegevens, waaronder upserts en delete met precisiecontrole.
+* **relaties van het Schema.** Hiermee schakelt u externe en primaire-sleutelrelaties tussen gegevenssets in via beschrijvingen.
+* **uit-van-orde gebeurtenis behandeling.** Verwerkt veranderingsgebeurtenissen gebruikend versie en timestamp beschrijvers, zelfs wanneer zij uit opeenvolging aankomen.
+* **Directe pakhuis integratie.** Verbindt met gesteunde de pakhuizen van wolkengegevens voor veranderingssynchronisatie in real time.
 
 Gebruik Data Mirror om wijzigingen rechtstreeks van uw bronsystemen in te voeren, de schemacontegriteit af te dwingen en de gegevens beschikbaar te stellen voor analyses, reisorchestratie en compatibiliteitsworkflows. Data Mirror elimineert complexe stroomopwaartse processen ETL en versnelt implementatie door direct het weerspiegelen van bestaande gegevensbestandmodellen toe te laten. Deze verwijdering kan het gegevensbeheer verbeteren door een nauwkeurige controle op schrappingen en gegevenshygiënische activiteiten.
 
-<!-- Add link when AEP docs are ready... -->
-
 Zie ook de Experience Platform documentatie op Data Mirror.
-
 
 ## Data Mirror voor Customer Journey Analytics
 
 >[!NOTE]
 >
->Het vermogen van Experience Platform Data Mirror voor Customer Journey Analytics is beschikbaar in a **openbare bèta** tot 25 Maart, 2026. Tijdens de bètaperiode zijn updates voor het vastleggen van wijzigingsgegevens (CDC) beperkt tot een recht van 10 miljoen dagelijkse wijzigingsrijen voor Customer Journey Analytics. Adobe behoudt zich het recht voor om bètatoegang tot de functionaliteit van Experience Platform Data Mirror te beëindigen als uw organisatie deze limiet overschrijdt. Voor meer informatie over de functie, waaronder de gevolgen voor facturering, raadpleegt u dit gedeelte van de Experience League-documentatie.
+>Het vermogen van Experience Platform Data Mirror voor Customer Journey Analytics is beschikbaar in a **openbare bèta** tot 25 Maart, 2026. Tijdens de bètaperiode zijn updates voor het vastleggen van wijzigingsgegevens (CDC) beperkt tot een recht van 10 miljoen dagelijkse wijzigingsrijen voor Customer Journey Analytics. Adobe behoudt zich het recht voor om bètatoegang tot de functionaliteit van Experience Platform Data Mirror te beëindigen als uw organisatie deze limiet overschrijdt. Neem contact op met uw Adobe-accountteam als u toegang tot deze functie wilt aanvragen.
 >
 
-De Experience Platform Data Mirror for Customer Journey Analytics-mogelijkheid is beschikbaar voor geselecteerde native oplossingen voor gegevensopslagruimten ([!DNL Azure Databricks], [!DNL Google BigQuery] en [!DNL Snowflake]). De Customer Journey Analytics-versie van de Data Mirror-functionaliteit vereist een correcte installatie en configuratie van verschillende onderdelen:
+Experience Platform Data Mirror for Customer Journey Analytics is beschikbaar voor geselecteerde native oplossingen voor gegevensopslagruimten ([!DNL Azure Databricks], [!DNL Google BigQuery] en [!DNL Snowflake]). De Customer Journey Analytics-versie van Experience Platform Data Mirror vereist een correcte configuratie van de volgende toepassingen of onderdelen:
 
-* [Eigen oplossing voor gegevenspakhuis](datawarehouse.md)
+* [Native oplossingen voor gegevenspakhuis](datawarehouse.md)
 * [Experience Platform](aep.md)
 * [Customer Journey Analytics](cja.md)
-
 
 >[!MORELIKETHIS]
 >

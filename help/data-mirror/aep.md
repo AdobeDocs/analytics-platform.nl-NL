@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 badgePremium: label="Beta"
 exl-id: 87593d7d-9456-48f8-8d39-5c3d95fe51ec
-source-git-commit: b585187f112c2081a8e51bd84d9f95e75ceebdc3
+source-git-commit: 8946f1bc57cc856adeac4ee0a96799040f7e698c
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 {{release-limited-testing}}
 
-Voor de Experience Platform Data Mirror-mogelijkheid voor Customer Journey Analytics is de juiste configuratie van verschillende Experience Platform-componenten vereist:
+Experience Platform Data Mirror for Customer Journey Analytics vereist de juiste configuratie van verschillende Experience Platform-componenten:
 
 * schema
 * gegevensset
@@ -32,7 +32,7 @@ Zoek onder details die u zou moeten overwegen wanneer het vormen van elk van dez
 U moet een op model-gebaseerd schema tot stand brengen dat de gegevens pakhuis inheemse lijst modelleert u wilt weerspiegelen. Wanneer u het model-gebaseerde schema construeert, zorg ervoor dat aan de volgende vereisten wordt voldaan:
 
 * Wanneer ertoe aangezet voor het type van op model-gebaseerd schema, zorg ervoor u de handoptie selecteert.
-* Selecteer het juiste schema voor het type gegevens. De Data Mirror-mogelijkheid wordt vooral gebruikt voor tijdreeksgegevens (bijvoorbeeld gebeurtenisgegevens).
+* Selecteer het juiste schema voor het type gegevens. Experience Platform Data Mirror wordt vooral gebruikt voor tijdreeksgegevens (bijvoorbeeld gebeurtenisgegevens).
 
 * De velden in uw schema en de bijbehorende kenmerken definiëren
 * Configureer de vereiste kenmerken voor velden in een op een model gebaseerd schema:
@@ -55,9 +55,9 @@ Aan opstelling gebruikt de bronschakelaar aan de gesteunde inheemse oplossingen 
 
 Voor authentificatie tegen de gesteunde gegevens pakhuis inheemse oplossing, zie de relevante documentatie van Experience Platform:
 
-* [ Azure Databricks ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/databases/databricks)
-* [ Google BigQuery ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/databases/bigquery)
-* [ Snowflake ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/databases/snowflake)
+* [ Azure Databricks ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)
+* [ Google BigQuery ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/bigquery)
+* [ Snowflake ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)
 
 
 ### Gegevens selecteren
