@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Afgeleide velden zijn een belangrijk aspect van de functionaliteit voor realtime rapportage in Adobe Customer Journey Analytics. Een afgeleid gebied staat u toe om (vaak complexe) gegevensmanipulaties op de vlucht, door een klantgerichte regelbouwer te bepalen. U kunt dat afgeleid gebied als component (metrisch of afmeting) in [ Workspace ](../../analysis-workspace/home.md) dan gebruiken of zelfs het afgeleide gebied als component in [ mening van Gegevens ](../data-views.md) verder bepalen.
 
-Afgeleide velden kunnen veel tijd en moeite besparen in vergelijking met het transformeren of manipuleren van gegevens op andere locaties buiten Customer Journey Analytics. Zoals [ Prep van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html), [ Gegevens Distiller ](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html), of binnen uw eigen processen van de Lading van de Transformatie van de Transformatie van het Uittreksel (ETL) / van de Transformatie van de Lading van het Uittreksel (ELT).
+Afgeleide velden kunnen veel tijd en moeite besparen in vergelijking met het transformeren of manipuleren van gegevens op andere locaties buiten Customer Journey Analytics. Zoals [ Prep van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=nl-NL), [ Gegevens Distiller ](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=nl-NL), of binnen uw eigen processen van de Lading van de Transformatie van de Transformatie van het Uittreksel (ETL) / van de Transformatie van de Lading van het Uittreksel (ELT).
 
 De afgeleide gebieden worden bepaald binnen [ meningen van Gegevens ](../data-views.md), zijn gebaseerd op een reeks die functies als regels worden bepaald, en op beschikbare standaard en/of schemagebieden worden toegepast.
 
@@ -2089,7 +2089,7 @@ De volgende beperkingen zijn van toepassing op de functionaliteit van het afgele
 
 - U kunt maximaal tien verschillende schemavelden gebruiken (zonder standaardvelden) bij het definiëren van regels voor een afgeleid veld.
    - Van dit maximum van tien verschillende schemagebieden, slechts worden een maximum van drie raadplegingsschema of profielschemagebieden toegestaan.
-- U kunt een maximumaantal afgeleide gebieden per verbinding van Customer Journey Analytics afhankelijk van het pakket hebben u vergunning geeft. Zie [ Beschrijving van het Product ](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html){target="_blank"} voor meer informatie.
+- U kunt een maximumaantal afgeleide gebieden per verbinding van Customer Journey Analytics afhankelijk van het pakket hebben u vergunning geeft. Zie [ Beschrijving van het Product ](https://helpx.adobe.com/nl/legal/product-descriptions/customer-journey-analytics.html){target="_blank"} voor meer informatie.
 
 
 ### Overzicht van functiebeperkingen
