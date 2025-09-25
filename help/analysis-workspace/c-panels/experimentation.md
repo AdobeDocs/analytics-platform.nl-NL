@@ -1,47 +1,39 @@
 ---
-description: Meer informatie over hoe u de resultaten van A/B-tests kunt analyseren in het deelvenster Customer Journey Analytics Experimentation.
-title: Paneel voor experimenteren
+description: Leer hoe u de resultaten van A/B tests in het deelvenster Customer Journey Analytics Experimentation kunt analyseren.
+title: Deelvenster Experimentatie
 feature: Panels
 exl-id: e11169b4-2c73-4dd4-bca7-c26189d60631
 role: User
-source-git-commit: 7e32ae7aa757a8ca47732416f0f883033611ea94
+source-git-commit: b013518d8f1782219dd2cf9e5b5a89b877e3b92d
 workflow-type: tm+mt
-source-wordcount: '2129'
+source-wordcount: '2125'
 ht-degree: 0%
 
 ---
 
-# Paneel voor experimenteren {#experimentation-panel}
-
-<!-- markdownlint-disable MD034 -->
+# Deelvenster Experimentatie {#experimentation-panel}
 
 >[!CONTEXTUALHELP]
 >id="workspace_experimentation_button"
 >title="Experimentatie"
 >abstract="Maak een deelvenster om verschillende gebruikerservaringen, marketing of berichtvariaties te vergelijken. En om te bepalen welke variatie het beste is om een specifiek resultaat te bepalen."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_experimentation_panel"
 >title="Experimentatie"
 >abstract="Vergelijk verschillende gebruikerservaringen, marketing, of overseinenvariaties om te bepalen wat het best in het drijven van een specifiek resultaat is. Geef het experiment op, de besturingsvariant die u wilt vergelijken, de succesmetrische methode en de normalisatiemethode. Stel desgewenst boven- en ondergrenzen in voor vertrouwen."
 
-<!-- markdownlint-enable MD034 -->
-
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het paneel van de Experimentatie in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [ Analytics voor het paneel van het Doel ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) voor informatie over hoe te om de activiteiten en de ervaringen van Adobe Target in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** te analyseren._
+_dit artikel documenteert het paneel van de Experimentatie in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_zie [ Analytics voor het paneel van het Doel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) voor informatie over hoe te om de activiteiten en de ervaringen van Adobe Target in_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** te analyseren._
 
 >[!ENDSHADEBOX]
 
 
 In het deelvenster **[!UICONTROL Experimentation]** kunnen analisten verschillende gebruikerservaringen, marketing- of berichtvariaties vergelijken om te bepalen wat het beste is om een bepaald resultaat te bepalen. U kunt de lift en het vertrouwen evalueren van elk A/B-experiment vanuit elk testplatform: online, offline, vanuit Adobe-oplossingen zoals Target of Journey Optimizer, en zelfs via BYO-gegevens (uw eigen gegevens).
 
-Lees meer over de [ integratie tussen Adobe Customer Journey Analytics en Adobe Target ](https://experienceleague.adobe.com/nl/docs/target/using/integrate/cja/target-reporting-in-cja).
+Lees meer over de [ integratie tussen Adobe Customer Journey Analytics en Adobe Target ](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja).
 
 ## Toegangsbeheer {#access}
 
@@ -57,10 +49,10 @@ Als u het deelvenster voor experimenten wilt gebruiken, moet u aan de volgende v
 
 ### Verbinding maken om gegevenssets te experimenteren
 
-Het geadviseerde gegevensschema is voor de experimentatiegegevens om in een [ serie van Objecten ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/ui/fields/array) te zijn die het experiment en de variantgegevens in twee afzonderlijke dimensies bevat. Beide dimensies moeten in a **enige** objecten serie zijn. Als u uw experimentatiegegevens in één enkele afmeting (met experiment en variantgegevens in een afgebakend koord) hebt, kunt u [ substring ](/help/data-views/component-settings/substring.md) gebruiken plaatsend in gegevensmeningen om de afmeting in twee voor gebruik in het paneel te verdelen.
+Het geadviseerde gegevensschema is voor de experimentatiegegevens om in een [ serie van Objecten ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/array) te zijn die het experiment en de variantgegevens in twee afzonderlijke dimensies bevat. Beide dimensies moeten in a **enige** objecten serie zijn. Als u uw experimentatiegegevens in één enkele afmeting (met experiment en variantgegevens in een afgebakend koord) hebt, kunt u [ substring ](/help/data-views/component-settings/substring.md) gebruiken plaatsend in gegevensmeningen om de afmeting in twee voor gebruik in het paneel te verdelen.
 
 
-Nadat uw experimentatiegegevens [&#128279;](https://experienceleague.adobe.com/nl/docs/experience-platform/ingestion/home) in Adobe Experience Platform zijn opgenomen, [ creeer een verbinding in Customer Journey Analytics ](/help/connections/create-connection.md) aan één of meerdere experimentele datasets.
+Nadat uw experimentatiegegevens [ ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home) in Adobe Experience Platform zijn opgenomen, [ creeer een verbinding in Customer Journey Analytics ](/help/connections/create-connection.md) aan één of meerdere experimentele datasets.
 
 ### Contextlabels toevoegen in gegevensweergaven
 
@@ -69,17 +61,17 @@ In de montages van de gegevensmeningen van Customer Journey Analytics, kunnen be
 * [!UICONTROL Experimentation Experiment]
 * [!UICONTROL Experimentation Variant]
 
-Kies in de gegevensweergave die experimentatiegegevens bevat twee dimensies, één met de experimentatiegegevens en één met de variantgegevens. Label die afmetingen vervolgens met de **[!UICONTROL Experimentation Experiment]** en de **[!UICONTROL Experimentation Variant]** labels.
+Kies in de gegevensweergave die experimentatiegegevens bevat twee dimensies, één met de experimentatiegegevens en één met de variantgegevens. Vervolgens geeft u die afmetingen het label **[!UICONTROL Experimentation Experiment]** en **[!UICONTROL Experimentation Variant]** .
 
-![Opties voor contextlabels voor Experimenteren en Experimenteervariant.](assets/context-label.png)
+![ de etiketopties van de context voor Experimentatie en Variant van de Experimentatie.](assets/context-label.png)
 
-Als deze labels niet aanwezig zijn, werkt het deelvenster Experiment niet, omdat er geen experimenten zijn om mee te werken.
+Zonder deze labels werkt het deelvenster Experimenteren niet, omdat er geen experimenten zijn om mee te werken.
 
 ## Gebruiken
 
-Een deelvenster gebruiken **[!UICONTROL Experimentation]** :
+Een deelvenster **[!UICONTROL Experimentation]** gebruiken:
 
-1. Maak een **[!UICONTROL Experimentation]** deelvenster. Voor informatie over hoe te om een paneel tot stand te brengen, zie [ een paneel ](panels.md#create-a-panel) creëren.
+1. Maak een deelvenster **[!UICONTROL Experimentation]** . Voor informatie over hoe te om een paneel tot stand te brengen, zie [ een paneel ](panels.md#create-a-panel) creëren.
 
 
 1. Specificeer de [ input ](#panel-input) voor het paneel.
@@ -102,24 +94,24 @@ Het deelvenster Experimentatie gebruiken:
    | Instelling | Definitie |
    | --- | --- |
    | **[!UICONTROL Date Range]** | Het datumbereik voor het deelvenster Experimentatie wordt automatisch ingesteld op basis van de eerste gebeurtenis die in Customer Journey Analytics is ontvangen voor het geselecteerde experiment. Indien nodig kunt u het datumbereik beperken of uitbreiden tot een specifieker tijdsbestek. |
-   | **[!UICONTROL Experiment]** | Een reeks variaties op een ervaring die aan eindgebruikers werden blootgesteld om te bepalen welke het beste voor altijd kan worden bewaard. Een experiment bestaat uit twee of meer varianten, waarvan er één wordt beschouwd als de controlevariant. Deze instelling is vooraf ingevuld met de dimensies die zijn gelabeld met het **[!UICONTROL Experiment]** label in gegevensweergaven en de experimenteergegevens van de afgelopen 3 maanden. |
-   | **[!UICONTROL Control variant]** | Een van de twee of meer wijzigingen in de ervaring van een eindgebruiker die worden vergeleken om het betere alternatief te identificeren. Er moet één variant worden geselecteerd als besturingselement en slechts één variant kan als controlevariant worden beschouwd. Deze instelling is vooraf ingevuld met de dimensies die zijn gelabeld met het **[!UICONTROL Variant]** label in gegevensweergaven. Met deze instelling worden de variantgegevens opgehaald die aan dit experiment zijn gekoppeld. |
+   | **[!UICONTROL Experiment]** | Een reeks variaties op een ervaring die aan eindgebruikers werden blootgesteld om te bepalen welke het beste is om in onbeperkte tijd te houden. Een experiment bestaat uit twee of meer varianten, waarvan er één als de besturingsvariant wordt beschouwd. Deze instelling is vooraf gevuld met de afmetingen die in de gegevensweergaven zijn gelabeld met het label **[!UICONTROL Experiment]** en de waarde van de experimentele gegevens van de laatste zes maanden. |
+   | **[!UICONTROL Control variant]** | Een van twee of meer wijzigingen in de ervaring van een eindgebruiker die worden vergeleken om het betere alternatief te identificeren. Eén variant moet als controlevariant worden gekozen en slechts één variant kan als controlevariant worden beschouwd. Deze instelling is vooraf gevuld met de afmetingen die in de gegevensweergaven zijn gelabeld met het label **[!UICONTROL Variant]** . Deze instelling geeft de variantgegevens weer die bij dit experiment horen. |
    | **[!UICONTROL Success metrics]** ➊ | De metrische of metrische waarde waarmee een gebruiker varianten vergelijkt. De variant met het meest wenselijke resultaat voor metrische omzetting (of het hoogste of het laagste) wordt verklaard de *best presterende variant* van een experiment. U kunt maximaal vijf metriek toevoegen. |
-   | **[!UICONTROL Normalizing metric]** ➋ | De basis (**[!UICONTROL Global Account]** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Account]** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Opportunity]** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Buying Group]** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL People]**, **[!UICONTROL Sessions]**, of **[!UICONTROL Events]**) waarop een test loopt. Een test kan bijvoorbeeld de conversiesnelheden van verschillende variaties vergelijken, waarbij **[!UICONTROL Conversion rate]** wordt berekend als Paginaweergave. |
+   | **[!UICONTROL Normalizing metric]** ➋ | De basis (**[!UICONTROL Global Account]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Account]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Opportunity]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL Buying Group]** [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}, **[!UICONTROL People]**, **[!UICONTROL Sessions]**, of **[!UICONTROL Events]**) waarop een test loopt. Een test kan bijvoorbeeld de conversiesnelheden van verschillende variaties vergelijken, waarbij **[!UICONTROL Conversion rate]** wordt berekend als Paginaweergave. |
    | **[!UICONTROL Include confidence upper/lower bounds]** | Schakel deze optie in om boven- en ondergrenzen voor betrouwbaarheidsniveaus weer te geven. |
 
 
-1. Selecteer **[!UICONTROL Build]** .
+1. Selecteer **[!UICONTROL Build]**.
 
 ### Deelvensteruitvoer
 
-Het deelvenster Experimentatie bevat een uitgebreide set gegevens en visualisaties waarmee u beter kunt begrijpen hoe uw experimenten werken. Bij de bovenkant van het paneel, [&#128279;](../visualizations/summary-number-change.md) worden de summiere veranderingen van 0&rbrace; &lbrace;verstrekt om u aan de paneelmontages te herinneren u selecteerde.  U kunt het deelvenster op elk gewenst moment bewerken door het bewerkingspotlood rechtsboven te selecteren.
+Het deelvenster Experimentatie bevat een uitgebreide set gegevens en visualisaties waarmee u beter kunt begrijpen hoe uw experimenten werken. Bij de bovenkant van het paneel, [ worden de summiere veranderingen van 0} {verstrekt om u aan de paneelmontages te herinneren u selecteerde. ](../visualizations/summary-number-change.md) U kunt het deelvenster op elk gewenst moment bewerken door het bewerkingspotlood rechtsboven te selecteren.
 
 U krijgt ook een tekstsamenvatting die aangeeft of het experiment al dan niet overtuigend is en die het resultaat samenvat. De conclusie is gebaseerd op statistische betekenis (zie [ Statistische methodologie ](#adobes-statistical-methodology).) U kunt samenvattingsaantallen voor de best presterende variant met de hoogste lift en het vertrouwen zien.
 
-Voor elke successtatistiek die u hebt geselecteerd, worden een visualisatie van een [vrije-vormtabel](../visualizations/freeform-table/freeform-table.md) en een visualisatie van een conversieratiolijn [&#128279;](../visualizations/line.md) weergegeven.
+Voor elk metrisch succes selecteerde u, wordt de lijst van de a [ vrije vorm ](../visualizations/freeform-table/freeform-table.md) visualisatie en een tarief van de omzettings [ lijn ](../visualizations/line.md) visualisatie getoond.
 
-![De uitvoer van Experimenteren toont één vrije-vormtabel en één trend in het conversiepercentage.](assets/experiment-output.png)
+![ de output van de Experimentatie die één vrije lijst en één trend van de omzettingssnelheid tonen.](assets/experiment-output.png)
 
 
 >[!NOTE]
@@ -132,7 +124,7 @@ Voor elke successtatistiek die u hebt geselecteerd, worden een visualisatie van 
 
 2. **best presterende variant**: Wanneer een experiment wordt verklaard om overtuigend te zijn, wordt de variant met de hoogste omzettingspercentage geëtiketteerd als best presterende variant. Merk op dat deze variant of de controle of basislijnvariant moet zijn, of één van de varianten die de 95% *op elk ogenblik* geldige betrouwbaarheidsdrempel (met toegepaste correcties Benjamini-Hochberg) kruisen.
 
-3. **het tarief van de Omzetting**: De omzettingspercentage dat wordt getoond is een verhouding van de succes metrische waarde ➊ aan het normaliseren metrische ➋. Merk op dat deze waarde groter kan zijn dan 1, als metrisch niet binair is (1 of 0 voor elke eenheid in het experiment)
+3. **het tarief van de Omzetting**: De omrekeningskoers die wordt getoond is een verhouding van de succes metrische waarde ➊ aan normaliserende metrische waarde ➋. Merk op dat deze waarde groter kan zijn dan 1, als metrisch niet binair is (1 of 0 voor elke eenheid in het experiment)
 
 4. **Lift**: De samenvatting van het Experimentenrapport toont het Lift over Basislijn, die een maatregel van de percentageverbetering in de omzettingssnelheid van een bepaalde variant over de basislijn is. Dit is het verschil in prestaties tussen een bepaalde variant en de basislijn, gedeeld door de prestaties van de basislijn, uitgedrukt als een percentage.
 
@@ -178,15 +170,15 @@ Niet alle berekende meetgegevens zijn compatibel met het deelvenster Experimenta
 
 Berekende meetgegevens met een van de volgende meetwaarden of constanten zijn niet compatibel met het deelvenster Experimentatie:
 
-* De metriek van de basis van a [ summiere dataset ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/summary-data)
+* De metriek van de basis van a [ summiere dataset ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/summary-data)
 * De metriek van de basis die door elkaar worden verdeeld of samen worden vermenigvuldigd (bijvoorbeeld, `Revenue`/ `Orders`)
-* Constanten die worden opgeteld bij of afgetrokken van een basismetriek (bijvoorbeeld `Revenue+50`)
-* Een van de volgende basisstatistieken:
-   * Volk
+* Constanten die worden toegevoegd aan of afgetrokken van een metrische basis (bijvoorbeeld `Revenue+50`)
+* Een of meer van de volgende basismeetwaarden:
+   * Mensen
 
-Berekende metrische gegevens die niet compatibel zijn met het deelvenster Experimenteren, hebben de waarde [!UICONTROL **Overal in Customer Journey Analytics (met uitzondering van experimenteren)**] in het veld Productcompatibiliteit **bij het** maken van de berekende metrische gegevens. Zie [Metrische gegevens](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) maken voor meer informatie over het maken van een berekende metrische gegevens.
+De berekende metriek die niet compatibel met het paneel van de Experimentatie zijn hebben de waarde [!UICONTROL **overal in Customer Journey Analytics (exclusief experimenteren)**] op het [!UICONTROL **de verenigbaarheid van het Product**] gebied wanneer het creëren van berekende metrisch. Voor informatie over het creëren van berekende metrisch, zie [ metriek ](/help/components/calc-metrics/cm-workflow/cm-build-metrics.md) bouwen.
 
-## Berekende metrische gegevens gebruiken in het deelvenster Experimenteren
+## Berekende meetwaarden gebruiken in het deelvenster Experimentatie
 
 Verwijs naar deze blogpost voor informatie over [ gebruikend berekende metriek in het paneel van de Experimentatie ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119).
 
