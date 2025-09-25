@@ -102,7 +102,7 @@ Zie [ Samenvatten en gebruik het stromen gegevens ](./streaming.md) voor meer in
 
 ## Gegevens verzamelen en gebruiken met behulp van bronconnectors
 
-U hebt gegevens beschikbaar bij een bron die door een bronschakelaar wordt gesteund. Source-connectors zijn configureerbare configuraties waarmee u gegevens van Adobe, eersteklas- en externe toepassingen kunt opnemen in Adobe Experience Platform. Zie [ Source connectors overzicht ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html) voor een overzicht van beschikbare bronschakelaars. Met de bronaansluiting kunt u eenvoudig gegevens van de bron in Adobe Experience Platform opnemen en deze vervolgens gebruiken, combineren en analyseren met gegevens van andere kanalen en gegevensbronnen in Customer Journey Analytics.
+U hebt gegevens beschikbaar bij een bron die door een bronschakelaar wordt gesteund. Source-connectors zijn configureerbare configuraties waarmee u gegevens van Adobe, eersteklas- en externe toepassingen kunt opnemen in Adobe Experience Platform. Zie [ Source connectors overzicht ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=nl-NL) voor een overzicht van beschikbare bronschakelaars. Met de bronaansluiting kunt u eenvoudig gegevens van de bron in Adobe Experience Platform opnemen en deze vervolgens gebruiken, combineren en analyseren met gegevens van andere kanalen en gegevensbronnen in Customer Journey Analytics.
 
 Zie [ samenvatten en gegevens gebruiken gebruikend bronschakelaars ](./sources.md) voor meer informatie.
 
