@@ -5,9 +5,9 @@ exl-id: f4f692c9-5951-4fa2-8e9f-5eeff0f79d10
 solution: Customer Journey Analytics
 feature: Basics
 role: User, Admin
-source-git-commit: b14bc43a0cdf4901c5df171a116943beb2124991
+source-git-commit: 0f445d409d276072ac649b94c12b94d3a59e7925
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '1046'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,13 @@ Customer Journey Analytics is Adobe-oplossing voor de volgende generatie Analyti
 
 De Customer Journey Analytics-architectuur op hoog niveau wordt hier getoond:
 
-![ architectuur van Customer Journey Analytics die in deze sectie ](assets/cja-architecture.png) wordt verklaard
+![ architectuur van Customer Journey Analytics ](assets/cja-overview.svg)
+
+Deze architectuur illustreert hoe u met de analyse van de Reis van de Klant kunt:
+
+* Combineer veelvoudige datasets ![ Gegevens ](/help/assets/icons/Data.svg) in a [ verbinding ](/help/connections/overview.md).
+* Bepaal en vorm dimensies ![ Dimensies ](/help/assets/icons/Dimensions.svg) en metrieke ![ Gebeurtenis ](/help/assets/icons/Event.svg) in a [ gegevensmening ](/help/data-views/data-views.md), die op de gebieden beschikbaar van de datasets wordt gebaseerd u in uw verbinding bepaalde.
+* Bouw rapporten ![ ViewTable ](/help/assets/icons/ViewTable.svg) en visualisaties (als lijn ![ Lijn ](/help/assets/icons/GraphTrend.svg) en gebied ![ Gebied ](/help/assets/icons/GraphAreaStacked.svg)) in [ projecten ](/help/analysis-workspace/home.md) gebaseerd op de afmetingen en metriek van uw gegevensmeningen.
 
 
 >[!BEGINSHADEBOX]
@@ -81,7 +87,7 @@ Verschillende functies in Customer Journey Analytics hebben in vergelijking met 
 
 Customer Journey Analytics is één van de vele mogelijkheden die op de Adobe Experience Platform vertrouwen. Met verschillende andere mogelijkheden, die ook op Experience Platform zijn gebaseerd, kunt u optimaal profiteren van uw gegevens.
 
-Met Adobe Experience Platform kunt u klantgegevens en -inhoud van elk systeem centraliseren en standaardiseren en gegevens en computertraining toepassen om het ontwerp en de levering van persoonlijke ervaringen te verbeteren. De gegevens van de klant in het platform worden opgeslagen als datasets, die uit een schema en partijen gegevens bestaan. Voor meer detail op het platform, zie [ het Overzicht van de Architectuur van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=nl-NL).
+Met Adobe Experience Platform kunt u klantgegevens en -inhoud van elk systeem centraliseren en standaardiseren en gegevens en computertraining toepassen om het ontwerp en de levering van persoonlijke ervaringen te verbeteren. De gegevens van de klant in het platform worden opgeslagen als datasets, die uit een schema en partijen gegevens bestaan. Voor meer detail op het platform, zie [ het Overzicht van de Architectuur van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html).
 
 Van gegevensverwerking tot directe SQL-toegang, meerdere componenten van de Experience Platform zijn van centraal belang voor Customer Journey Analytics en vullen deze aan:
 

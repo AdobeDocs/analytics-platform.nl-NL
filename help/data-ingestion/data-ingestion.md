@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Basics
 exl-id: ead96b72-40f1-4ce9-8d91-c8ceea6c4458
 role: Admin
-source-git-commit: 8071e8d5e1ab7e9cfc5037d710361a4d10285704
+source-git-commit: ec56bc657961b2e4e8318ab14cd676288398462f
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -20,23 +20,30 @@ Er zijn verschillende opties voor het opnemen van gegevens in Customer Journey A
 >
 >In alle scenario&#39;s, worden de gegevens u _in Customer Journey Analytics_ wilt gebruiken eigenlijk _opgenomen_ in Adobe Experience Platform.
 
-Zie de architectuur op hoog niveau die van Customer Journey Analytics vroeger in [ wordt getoond Overzicht ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=nl-NL):
 
-![ architectuur van Customer Journey Analytics die in deze sectie wordt beschreven ](./assets/cja-architecture.png)
+De Customer Journey Analytics-architectuur op hoog niveau wordt hier getoond:
 
-De dataset in de architectuur hierboven kan uit diverse bronnen voortkomen:
+![ architectuur van Customer Journey Analytics ](/help/getting-started/assets/cja-overview.svg)
 
-- partijgegevens,
+Deze architectuur illustreert hoe u met de analyse van de Reis van de Klant kunt:
 
-- streaminggegevens,
+* Combineer veelvoudige datasets ![ Gegevens ](/help/assets/icons/Data.svg) in a [ verbinding ](/help/connections/overview.md).
+* Bepaal en vorm dimensies ![ Dimensies ](/help/assets/icons/Dimensions.svg) en metrieke ![ Gebeurtenis ](/help/assets/icons/Event.svg) in a [ gegevensmening ](/help/data-views/data-views.md), die op de gebieden beschikbaar van de datasets wordt gebaseerd u in uw verbinding bepaalde.
+* Bouw rapporten ![ ViewTable ](/help/assets/icons/ViewTable.svg) en visualisaties (als lijn ![ Lijn ](/help/assets/icons/GraphTrend.svg) en gebied ![ Gebied ](/help/assets/icons/GraphAreaStacked.svg)) in [ projecten ](/help/analysis-workspace/home.md) gebaseerd op de afmetingen en metriek van uw gegevensmeningen.
 
-- gegevens van een huidige Adobe Analytics-implementatie;
+De datasets in de architectuur kunnen uit diverse bronnen voortkomen:
 
-- gegevens van het volgen van uw website/mobiele toepassing met Adobe Experience Platform Web/Mobile SDK;
+* partijgegevens,
 
-- gegevens van het bijhouden van een bureaubladtoepassing, consolespel, set-top box of IoT-apparaat met de Adobe Experience Platform Edge Network Server-API, of
+* streaminggegevens,
 
-- gegevens die afkomstig zijn van een externe gegevensaanbieder waarvoor Adobe een bronaansluiting biedt.
+* gegevens van een huidige Adobe Analytics-implementatie;
+
+* gegevens van het volgen van uw website/mobiele toepassing met Adobe Experience Platform Web/Mobile SDK;
+
+* gegevens van het bijhouden van een bureaubladtoepassing, consolespel, set-top box of IoT-apparaat met de Adobe Experience Platform Edge Network Server-API, of
+
+* gegevens die afkomstig zijn van een externe gegevensaanbieder waarvoor Adobe een bronaansluiting biedt.
 
 Je kan veel van deze datasets hebben.
 
@@ -48,11 +55,11 @@ U kunt uw gebeurtenisgegevens binnen 90 minuten (SLT) in Customer Journey Analyt
 
 Merk op dat dit vermogen op het SKU-pakket verschilt uw bedrijf kocht:
 
-- Prioritaire Grondbeginselen van de Ingestie: 24-uur oude gegevens binnen de verwerking van 90 minuten SLT (beschikbaar voor **CJA Stichting** en Uitgezochte CJA **)**
+* Prioritaire Grondbeginselen van de Ingestie: 24-uur oude gegevens binnen 90 minuten SLT verwerking (beschikbaar voor **de Stichting van CJA** en **Uitgezochte CJA**)
 
-- Prioritaire Intermediate van de Ingestie: 72-uur oude gegevens binnen 90 minuten SLT verwerking (beschikbaar voor **CJA Prime**)
+* Prioritaire Intermediate van de Ingestie: 72-uur oude gegevens binnen 90 minuten SLT verwerking (beschikbaar voor **CJA Prime**)
 
-- Prioritaire Geavanceerde Ingestie: 1 week oude gegevens binnen 90 minuten SLT verwerking (beschikbaar voor **CJA Ultimate**)
+* Prioritaire Geavanceerde Ingestie: 1 week oude gegevens binnen 90 minuten SLT verwerking (beschikbaar voor **CJA Ultimate**)
 
 ## Gegevens van traditionele Adobe Analytics verzamelen en gebruiken
 
@@ -95,9 +102,15 @@ Zie [ Samenvatten en gebruik het stromen gegevens ](./streaming.md) voor meer in
 
 ## Gegevens verzamelen en gebruiken met behulp van bronconnectors
 
-U hebt gegevens beschikbaar bij een bron die door een bronschakelaar wordt gesteund. Source-connectors zijn configureerbare configuraties waarmee u gegevens van Adobe, eersteklas- en externe toepassingen kunt opnemen in Adobe Experience Platform. Zie [ Source connectors overzicht ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=nl-NL) voor een overzicht van beschikbare bronschakelaars. Met de bronaansluiting kunt u eenvoudig gegevens van de bron in Adobe Experience Platform opnemen en deze vervolgens gebruiken, combineren en analyseren met gegevens van andere kanalen en gegevensbronnen in Customer Journey Analytics.
+U hebt gegevens beschikbaar bij een bron die door een bronschakelaar wordt gesteund. Source-connectors zijn configureerbare configuraties waarmee u gegevens van Adobe, eersteklas- en externe toepassingen kunt opnemen in Adobe Experience Platform. Zie [ Source connectors overzicht ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html) voor een overzicht van beschikbare bronschakelaars. Met de bronaansluiting kunt u eenvoudig gegevens van de bron in Adobe Experience Platform opnemen en deze vervolgens gebruiken, combineren en analyseren met gegevens van andere kanalen en gegevensbronnen in Customer Journey Analytics.
 
 Zie [ samenvatten en gegevens gebruiken gebruikend bronschakelaars ](./sources.md) voor meer informatie.
+
+## Ad-hocgegevens invoegen en gebruiken
+
+U hebt ad-hocgegevens beschikbaar die slechts één enkele dataset in Experience Platform vereisen en niet de configuratie van een schema van de Gegevens van de Ervaring van het Model (XDM) vereisen. Dit scenario wordt bedoeld als ad hoc schema. Ad-hocschema&#39;s worden gebruikt in verschillende gegevensinsluitingsworkflows voor Experience Platform, waaronder het innemen van CSV-bestanden en het maken van bepaalde soorten bronverbindingen.
+
+Zie [ Samenvatten en ad hoc gegevens gebruiken ](./adhoc.md)
 
 >[!MORELIKETHIS]
 >
