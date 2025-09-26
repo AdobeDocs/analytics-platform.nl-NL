@@ -6,9 +6,9 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 exl-id: f40e1263-1f4a-416c-a045-15fbe68ce509
-source-git-commit: edf7bdac87d9bed48244ad80521bbbf83c48f7b6
+source-git-commit: 4b11c98d24b131eb32040943e869132c8182747f
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '427'
 ht-degree: 1%
 
 ---
@@ -33,13 +33,13 @@ Data Mirror biedt de volgende essentiële mogelijkheden voor databasesynchronisa
 
 Gebruik Data Mirror om wijzigingen rechtstreeks van uw bronsystemen in te voeren, de schemacontegriteit af te dwingen en de gegevens beschikbaar te stellen voor analyses, reisorchestratie en compatibiliteitsworkflows. Data Mirror elimineert complexe stroomopwaartse processen ETL en versnelt implementatie door direct het weerspiegelen van bestaande gegevensbestandmodellen toe te laten. Deze verwijdering kan het gegevensbeheer verbeteren door een nauwkeurige controle op schrappingen en gegevenshygiënische activiteiten.
 
-Zie ook de [ documentatie van Experience Platform op Data Mirror ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/data-mirror/overview){target="_blank"}.
+Zie ook de [ documentatie van Experience Platform op Data Mirror ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview){target="_blank"}.
 
 ## Data Mirror voor Customer Journey Analytics
 
 >[!NOTE]
 >
->Het vermogen van Experience Platform Data Mirror voor Customer Journey Analytics is beschikbaar in a **openbare bèta** tot 25 Maart, 2026. Tijdens de bètaperiode zijn updates voor het vastleggen van wijzigingsgegevens (CDC) beperkt tot een recht van 10 miljoen dagelijkse wijzigingsrijen voor Customer Journey Analytics. Adobe behoudt zich het recht voor om bètatoegang tot de functionaliteit van Experience Platform Data Mirror te beëindigen als uw organisatie deze limiet overschrijdt. Neem contact op met uw Adobe-accountteam als u toegang tot deze functie wilt aanvragen.
+>Het vermogen van Experience Platform Data Mirror voor Customer Journey Analytics is beschikbaar in a **openbare bèta** tot 25 Maart, 2026.<br/><br/> tijdens de bètaperiode:<ul><li>Wijzigingen voor CDC-updates (Change Data Capture) zijn beperkt tot een recht van 10 miljoen dagelijkse wijzigingsrijen voor Customer Journey Analytics.</li><li>Klanten kunnen per dag maximaal 2 miljoen rijen wijzigen in het Adobe Experience Platform Data Lake via bronconnectors.</li></ul><br/> Adobe behoudt zich het recht voor om bètatoegang tot de functionaliteit van Experience Platform Data Mirror te beëindigen als uw organisatie deze grenzen overschrijdt. <br/> om toegang tot dit vermogen te verzoeken, gelieve uw Adobe accountteam te contacteren.
 >
 
 Experience Platform Data Mirror for Customer Journey Analytics is beschikbaar voor geselecteerde native oplossingen voor gegevensopslagruimten ([!DNL Azure Databricks], [!DNL Google BigQuery] en [!DNL Snowflake]). De Customer Journey Analytics-versie van Experience Platform Data Mirror vereist een correcte configuratie van de volgende toepassingen of onderdelen:
@@ -51,5 +51,5 @@ Experience Platform Data Mirror for Customer Journey Analytics is beschikbaar vo
 >[!MORELIKETHIS]
 >
 >[ Data Mirror snelle startgids: Spiegel en gebruik op model-gebaseerde gegevens ](model-based.md)
->&#x200B;>[Data Mirror (de documentatie van Experience Platform) ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/data-mirror/overview)
->&#x200B;>[Model-gebaseerde schema&#39;s (de documentatie van Experience Platform) ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/model-based)
+>>[Data Mirror (de documentatie van Experience Platform) ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
+>>[Model-gebaseerde schema&#39;s (de documentatie van Experience Platform) ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
