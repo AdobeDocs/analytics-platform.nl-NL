@@ -6,7 +6,7 @@ feature: Basics
 exl-id: c258fa39-c0b6-45a1-8547-79516c15a215
 mini-toc-levels: 3
 role: Admin
-source-git-commit: b76a877d6ae20a111e5d2476a5045b34a9208ccf
+source-git-commit: a00c7b0bf4b6e7bd8b6a7949606c5de7430fae4e
 workflow-type: tm+mt
 source-wordcount: '1386'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Naast wordt toegevoegd als beheerder van het Product in het **Profiel van het Pr
   | [!UICONTROL Data Management] | [!UICONTROL View Datasets] | Alleen-lezen toegang voor gegevenssets en schema&#39;s. |
   | [!UICONTROL Identity Management] | [!UICONTROL View Identity Namespaces] | Alleen-lezen toegang voor naamruimten. |
 
-  Voor meer informatie over de toestemmingen van Experience Platform, zie [ toestemmingen voor een productprofiel ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/permissions) beheren.
+  Voor meer informatie over de toestemmingen van Experience Platform, zie [ toestemmingen voor een productprofiel ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions) beheren.
 
 
 * Als Journey Optimizer is geïntegreerd met Customer Journey Analytics waar Journey Optimizer Connections bestaat, moeten ook de rechten voor reizen worden toegevoegd aan de toegangsverbindingen:
@@ -75,7 +75,7 @@ Naast wordt toegevoegd als beheerder van het Product in het **Profiel van het Pr
   | [!UICONTROL Journeys] | [!UICONTROL View Journeys] | Alleen-lezen toegang tot reizen. |
   | [!UICONTROL Journeys] | [!UICONTROL Manage Journeys] | Reizen lezen, maken, bewerken en verwijderen. |
 
-* De datasets van de uitvoer aan [ bestemmingen ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/export-datasets)
+* De datasets van de uitvoer aan [ bestemmingen ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets)
 
   Om deze taak uit te voeren, moeten de gebruikers deel uitmaken van een **Profiel van het Product van Experience Platform** dat de volgende toestemmingen verstrekt:
 
@@ -84,13 +84,13 @@ Naast wordt toegevoegd als beheerder van het Product in het **Profiel van het Pr
   | [!UICONTROL Destinations] | [!UICONTROL Manage Destinations] | Toegang tot het lezen, creëren, en schrappen van bestemmingsverbindingen en bestemmingsrekeningen. |
   | [!UICONTROL Destinations] | [!UICONTROL Activate Destinations] | Sta gebruikers toe om segmenten aan bestaande bestemmingen te activeren. Hiermee schakelt u de toewijzingsstap in de activeringsworkflow in. Deze toestemming vereist ook de toestemming van de Doelen van de Mening die aan de gebruiker moet worden verleend die gegevens aan bestemmingen wil activeren. |
 
-  Voor meer informatie over de toestemmingen van Experience Platform, zie [ toestemmingen voor een productprofiel ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/permissions) beheren.
+  Voor meer informatie over de toestemmingen van Experience Platform, zie [ toestemmingen voor een productprofiel ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions) beheren.
 
 * Gebruik de [ uitbreiding van BI ](../data-views/bi-extension.md)
 
   Voor gebruikers om de uitbreiding van BI te gebruiken, een beheerder van het Product
 
-   * moet ervoor zorgen dat de Experience Platform-machtigingen voor de gebruiker een rol bevatten die over de bron Query Service beschikt met de opties Query&#39;s beheren en Query Service Integration beheren. Voor meer informatie over de toestemmingen van Experience Platform, zie [ toestemmingen voor een productprofiel ](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/permissions) beheren.
+   * moet ervoor zorgen dat de Experience Platform-machtigingen voor de gebruiker een rol bevatten die over de bron Query Service beschikt met de opties Query&#39;s beheren en Query Service Integration beheren. Voor meer informatie over de toestemmingen van Experience Platform, zie [ toestemmingen voor een productprofiel ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions) beheren.
 
      | Categorie | Machtiging | Beschrijving |
      |---|---|---| 
@@ -129,7 +129,7 @@ Het **[!UICONTROL Permissions]** lusje maakt deel uit van elk productprofiel in 
 | [!UICONTROL Reporting Tools] | [!UICONTROL Audience View] | Laat gebruikers [ publiek ](/help/components/audiences/audiences-overview.md) bekijken. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Audience Creation] | Laat gebruikers [ publiek ](/help/components/audiences/audiences-overview.md) tot stand brengen. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Audit Logs Access] | Dwing de toestemmingscontrole op [ API ](https://developer.adobe.com/cja-apis/docs/endpoints/auditlogs/) en de controlelogboeken UI af. |
-| [!UICONTROL Reporting Tools] | [!UICONTROL Share Project Links With Anyone] | Laat gebruikers [ projecten met iedereen delen.](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/curate-share/share-projects) |
+| [!UICONTROL Reporting Tools] | [!UICONTROL Share Project Links With Anyone] | Laat gebruikers [ projecten met iedereen delen.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/share-projects) |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Forecasting] | Laat gebruikers tot de [ Voorspelling ](../analysis-workspace/c-forecast/forecasting.md) eigenschap in Analysis Workspace toegang hebben |
 | [!UICONTROL Reporting Tools] | [!UICONTROL AI Assistant: Product Knowledge] | Laat gebruikers tot de [ Medewerker AI ](../ai-assistant.md) voor productkennis toegang hebben. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Intelligent Captions] | Laat gebruikers tot [ Intelligente titels ](/help/analysis-workspace/visualizations/intelligent-captions.md) toegang hebben. |
@@ -167,5 +167,3 @@ U wilt gebruikers slechts vanaf één dag toegang geven tot gegevens. Hieronder 
 Gebruikers die toegang hebben tot een gegevensweergave, kunnen alleen werken met de afmetingen en metriek die de beheerder in deze gegevensweergave heeft opgenomen. De beheerders kunnen [ gebruiken omvatten/uitsluiten functionaliteit ](/help/data-views/component-settings/include-exclude-values.md) of [ het knippen van de Waarde ](../data-views/component-settings/value-bucketing.md) componentenmontages in een gegevensmening om bepaalde afmetingswaarden van een gegevensmening uit te sluiten of samen te voegen.
 
 Bijvoorbeeld: U creeert metrisch genoemd *Hypertensie* in een gegevensmening van een component die individuele patiëntgegevens van de dataset bevat. U gebruikt waarde het knippen om slechts toegang tot ingesloten waarden te verlenen, zodat zien de gebruikers van de gegevens de individuele patiëntgegevens niet.
-
-
