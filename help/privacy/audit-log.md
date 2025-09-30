@@ -4,9 +4,9 @@ description: Leer hoe u Customer Journey Analytics-auditlogs kunt weergeven en b
 exl-id: 360609f2-b811-49ee-ad4a-a54ceb23bfa3
 feature: Privacy
 role: Admin
-source-git-commit: 9ed7b541ebb1a89b286040c4ea96025b08029499
+source-git-commit: 2ef96ad194f8c7acec35bd7635c650af4370531a
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '907'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 1%
 Om de transparantie en zichtbaarheid van de in het systeem uitgevoerde activiteiten te vergroten, kunt u in Adobe Customer Journey Analytics gebruikersactiviteiten voor verschillende services en mogelijkheden controleren in de vorm van &quot;auditlogs&quot;. Deze logboeken vormen een auditspoor dat kan helpen met het oplossen van problemenkwesties, en uw zaken kunnen effectief voldoen aan het beleid en de regelgevende vereisten van het collectieve gegevensbeheer, zoals de Wet van de Portabiliteit en van de Verantwoording van de Ziekteverzekering (HIPAA).
 
 In een fundamentele betekenis, vertelt een controlelogboek **wie** **uitvoerde wat** actie, en **wanneer**. Elke actie die in een logboek wordt geregistreerd bevat meta-gegevens die op het actietype, datum en tijd, e-mailidentiteitskaart van de gebruiker die de actie, en extra attributen relevant voor het actietype uitvoerde.
+
+Auditlogboeken worden 90 dagen bewaard. Daarna, worden de controlelogboeken automatisch geschrapt.
 
 Dit onderwerp behandelt controlelogboeken in Customer Journey Analytics, met inbegrip van hoe te om hen in UI te bekijken en te beheren.
 
@@ -68,7 +70,7 @@ De volgende items worden weergegeven:
    * CREATE: Er is een handeling &quot;create&quot; uitgevoerd.
    * DELETE: er is een handeling &quot;delete&quot; uitgevoerd.
    * BEWERKEN: er is een bewerking &quot;bewerken&quot; uitgevoerd.
-   * EMBARGO: Wanneer u een verzoek in de [ Rapporterende Manager van de Activiteit ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests) beperkt, wordt de actie geregistreerd in het Logboek van de Controle onder EMBARGO.
+   * EMBARGO: Wanneer u een verzoek in de [ Rapporterende Manager van de Activiteit ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests) beperkt, wordt de actie geregistreerd in het Logboek van de Controle onder EMBARGO.
    * EXPORTEREN: er is een handeling &quot;exporteren&quot; uitgevoerd.
    * ORG_CHANGE: Er is een actie tot wijziging van de organisatie uitgevoerd.
    * REFRESH: Er is een actie &quot;vernieuwen&quot; uitgevoerd.
@@ -78,7 +80,7 @@ De volgende items worden weergegeven:
    * UNSHARE: Er is een handeling &quot;unshare&quot; uitgevoerd.
 * **[!UICONTROL Date Created]**: De datum en tijd waarop de actie is uitgevoerd.
 * **[!UICONTROL Description]**: Een overzicht van de handeling.
-* **[!UICONTROL User Name]**: De gebruiker die de handeling heeft uitgevoerd. Soms ontbreekt de gebruikersnaam. Overweeg het gebruiken van de [&#128279;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/tools/product-usage/usage-overview) eigenschap van het Gebruik van het 0&rbrace; Product, aangezien het altijd de login gebruikersnaam omvat.
+* **[!UICONTROL User Name]**: De gebruiker die de handeling heeft uitgevoerd. Soms ontbreekt de gebruikersnaam. Overweeg het gebruiken van de [ eigenschap van het Gebruik van het 0} Product, aangezien het altijd de login gebruikersnaam omvat.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/product-usage/usage-overview)
 * **[!UICONTROL Email]**: Het e-mailadres van de gebruiker die de handeling heeft uitgevoerd.
 * **[!UICONTROL Component Name]**: De component waarop de gebruiker actie heeft uitgevoerd.
 * **[!UICONTROL Component Type]**: Het type component. Mogelijke waarden zijn:
@@ -109,7 +111,7 @@ De volgende items worden weergegeven:
 
 ### Controllerlogboeken filteren
 
-Selecteer het kanaalpictogram (![ filter ](assets/filter-icon.png)) om een lijst van filtercontroles te tonen om smalle resultaten te helpen. Alleen de laatste 1.000 records worden weergegeven, ongeacht de verschillende geselecteerde filters.
+Selecteer het pictogram van funnel (![ filter ](assets/filter-icon.png)) om een lijst van filtercontroles te tonen om smalle resultaten te helpen. Alleen de laatste 1.000 records worden weergegeven, ongeacht de verschillende geselecteerde filters.
 
 ![ Logboek van de Controle die de filters tonen voor de Waaier van de Datum worden getoond.](assets/filters.png)
 
