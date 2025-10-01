@@ -5,14 +5,32 @@ title: Cloudexportlocaties configureren
 feature: Components
 exl-id: 93f1cca0-95da-41a0-a4f9-5ab620a5b9da
 role: User, Admin
-source-git-commit: 882e280da3f65e297abccd475d381832fd236843
+source-git-commit: 5adcab1df932f5c8af1f140fb6707f2d56726ae3
 workflow-type: tm+mt
-source-wordcount: '1911'
+source-wordcount: '2026'
 ht-degree: 0%
 
 ---
 
-# Cloudexportlocaties configureren
+# Cloudexportlocaties configureren {#configure-cloud-export-locations}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-export-prefix"
+>title="Voorvoegsel"
+>abstract="De hoofdmap in de container waarin u de gegevens wilt plaatsen. Geef een statische mapnaam op en voeg vervolgens na de naam een schuine streep toe om de map te maken. Bijvoorbeeld: `folder_name/`"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja-export-file-name"
+>title="Bestandsnaam en pad"
+>abstract="Geef een dynamische aangepaste bestandsnaam op die moet worden gebruikt voor automatische exportbewerkingen die naar deze locatie worden verzonden. U kunt ook een dynamisch aangepast bestandspad toevoegen aan de bestandsnaam. &lt;br\>Gebruik variabelen in de bestandsnaam en het pad om ze dynamisch te maken. &lt;br\>Als u bijvoorbeeld `${yyyy}/${mm}/${dd}/my-report-${instance_id}-${idx}` opgeeft, heeft een exportbewerking die op 15 januari 2026 automatisch naar dit doel wordt verzonden het volgende bestandspad en de volgende naam: `[prefix_folder_name]/2026/01/15/my-report-[UUID]-1.csv` &lt;br\>Klik op de koppeling hieronder voor een lijst met beschikbare variabelen."
+
+<!-- markdownlint-enable MD034 -->
 
 Alvorens u de rapporten van Customer Journey Analytics naar een wolkenbestemming (of van Analysis Workspace, zoals die in [ worden beschreven de rapporten van Customer Journey Analytics van de Uitvoer naar de wolk ](/help/analysis-workspace/export/export-cloud.md) of van Report Builder, zoals die in [ de rapporten van de Uitvoer van Report Builder ](/help/report-builder/report-builder-export.md) worden beschreven) zoals in [ de rapporten van Customer Journey Analytics van de Uitvoer naar de wolk ](/help/analysis-workspace/export/export-cloud.md) worden beschreven, moet u de plaats toevoegen en vormen waar u de gegevens wilt worden verzonden.
 
