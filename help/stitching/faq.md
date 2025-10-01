@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: c4aea74807be15af56413522d9e6fbf5f18a37a0
+source-git-commit: c60c68e6065e877d0fa4a92dbfe8dd54a2dfb4fe
 workflow-type: tm+mt
-source-wordcount: '2041'
+source-wordcount: '2046'
 ht-degree: 3%
 
 ---
@@ -23,8 +23,8 @@ Hier volgen een aantal veelgestelde vragen over stitching:
 U kunt een stroomvisualisatie met de dimensie van identiteitskaart van de Dataset gebruiken.
 
 1. Login aan [ Customer Journey Analytics ](https://analytics.adobe.com) en creeer een leeg project van Workspace.
-2. Selecteer het **[!UICONTROL ** Visualisaties **]** lusje op de linkerzijde, en sleep a **[!UICONTROL **&#x200B; Stroom &#x200B;**]** visualisatie aan het canvas op het recht.
-3. Selecteer het **[!UICONTROL ** lusje van Componenten **]** op de linkerzijde, en sleep dimensie **[!UICONTROL ** identiteitskaart van de Dataset **]** aan de centrumplaats geëtiketteerd **[!UICONTROL **&#x200B; Dimension of Punt &#x200B;**]**.
+2. Selecteer het **[!UICONTROL ** Visualisaties **]** lusje op de linkerzijde, en sleep a **[!UICONTROL ** Stroom **]** visualisatie aan het canvas op het recht.
+3. Selecteer het **[!UICONTROL ** lusje van Componenten **]** op de linkerzijde, en sleep dimensie **[!UICONTROL ** identiteitskaart van de Dataset **]** aan de centrumplaats geëtiketteerd **[!UICONTROL ** Dimension of Punt **]**.
 4. Dit stroomrapport is interactief. Als u de stromen naar volgende of vorige pagina&#39;s wilt uitbreiden, selecteert u een van de waarden. Gebruik het met de rechtermuisknop aanklikken menu om kolommen uit of samen te vouwen. Binnen hetzelfde stroomrapport kunnen ook verschillende afmetingen worden gebruikt.
 
 Als u de de afmetingspunten van identiteitskaart van de dataset zou willen anders noemen, kunt u een raadplegingsdataset gebruiken.
@@ -75,7 +75,7 @@ Livestitching is ongeveer een week beschikbaar nadat Adobe stitching inschakelt.
 
 +++ Wat is het verschil tussen apparaatanalyse (een functie in traditionele Analytics) en kanaalanalyse?
 
-[ dwars-apparaat analyseert ](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=nl-NL) is een eigenschap specifiek voor traditionele Adobe Analytics die u toestaat om te begrijpen hoe de mensen over apparaten werken. Er zijn twee workflows om apparaatgegevens aan elkaar te koppelen: op het veld gebaseerde stitching en de apparaatgrafiek.
+[ dwars-apparaat analyseert ](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html) is een eigenschap specifiek voor traditionele Adobe Analytics die u toestaat om te begrijpen hoe de mensen over apparaten werken. Er zijn twee workflows om apparaatgegevens aan elkaar te koppelen: op het veld gebaseerde stitching en de apparaatgrafiek.
 
 Kanaaloverschrijdende analyse is een gebruiksgeval specifiek voor Customer Journey Analytics dat u toestaat om te begrijpen hoe de mensen over zowel apparaten als kanalen werken. Het stitches de de persoonsidentiteitskaart van een dataset, toestaand die dataset om naadloos met andere datasets worden gecombineerd. Deze functie werkt op vergelijkbare wijze in ontwerpen als op het veld gebaseerde koppelingen voor apparaatanalyse, maar de implementatie is anders vanwege de verschillende gegevensarchitectuur tussen traditionele Analytics en Customer Journey Analytics. Zie [ het Plaatsen ](overview.md) en het [ dwars-kanaalanalyse ](../use-cases/cross-channel/cross-channel.md) gebruiksgeval voor meer informatie.
 
@@ -85,7 +85,7 @@ Kanaaloverschrijdende analyse is een gebruiksgeval specifiek voor Customer Journ
 
 +++ Hoe behandelt Stitching privacyverzoeken?
 
-Adobe handelt privacyverzoeken af in overeenstemming met de lokale en internationale wetgeving. Adobe biedt [ Adobe Experience Platform Privacy Service ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl-NL) aan om verzoeken van de gegevenstoegang en schrapping voor te leggen. De verzoeken zijn van toepassing op zowel de oorspronkelijke als de opgehaalde gegevensbestanden.
+Adobe handelt privacyverzoeken af in overeenstemming met de lokale en internationale wetgeving. Adobe biedt [ Adobe Experience Platform Privacy Service ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) aan om verzoeken van de gegevenstoegang en schrapping voor te leggen. De verzoeken zijn van toepassing op zowel de oorspronkelijke als de opgehaalde gegevensbestanden.
 
 >[!IMPORTANT]
 >
@@ -205,11 +205,11 @@ Bepaalde metriek in Customer Journey Analytics lijken op metriek in traditionele
 
 | **Customer Journey Analytics stitched gegevens** | **Customer Journey Analytics unstitched gegevens** | **Adobe Analytics** | **Analytics Ultimate met CDA** |
 | ----- | ----- | ----- | ----- |
-| **Mensen** = Telling van verschillende Persoon IDs waar Stitched ID als identiteitskaart van de Persoon wordt gekozen. **Mensen** kunnen hoger of lager zijn dan **Unieke Bezoekers** in traditionele Adobe Analytics, afhankelijk van het resultaat van het stitching proces. | **Mensen** = Telling van verschillende Persoon IDs die op de kolom wordt gebaseerd die als identiteitskaart van de Persoon wordt geselecteerd. **Mensen** in Analytics bronschakelaardatasets is gelijkaardig aan **Unieke Bezoekers** in traditionele Adobe Analytics als `endUserIDs._experience.aaid.id` als identiteitskaart van de Persoon in Customer Journey Analytics wordt gebruikt. | **Unieke Bezoekers** = Telling van verschillende bezoeker IDs. **Unieke Bezoekers** kunnen niet het zelfde zijn als de telling van verschillende **ECID** s. | Zie [ Mensen ](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=nl-NL). |
-| **Sessies**: Gedefinieerd op basis van de sessiemontages in de Customer Journey Analytics gegevensweergave. Tijdens het koppelingsproces kunnen afzonderlijke sessies van meerdere apparaten in één sessie worden gecombineerd. | **Sessies**: Gedefinieerd op basis van de sessiemontages die zijn opgegeven in de gegevensweergave van Customer Journey Analytics. | **bezoeken**: Zie [ bezoeken ](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=nl-NL). | **bezoeken**: Gedefinieerd gebaseerd op de zittingsmontages die in de [ worden gespecificeerd CDA virtuele rapportreeks ](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=nl-NL). |
-| **Gebeurtenissen** = telling van rijen in de gestikte gegevens in Customer Journey Analytics. Dit metrisch is typisch dicht bij **Voorkomen** in traditionele Adobe Analytics. Opmerking: de veelgestelde vragen hierboven hebben betrekking op rijen met een lege permanente id. | **Gebeurtenissen** = telling van rijen in de unstitched gegevens in Customer Journey Analytics. Dit metrisch is typisch dicht bij **Voorkomen** in traditionele Adobe Analytics. Houd er echter rekening mee dat als er gebeurtenissen met een lege Person-id voorkomen in de niet-opgeslagen gegevens in het Experience Platform-gegevensmeer, deze gebeurtenissen niet in Customer Journey Analytics zijn opgenomen. | **Voorkomen**: Zie [ Voorkomen ](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=nl-NL). | **Voorkomen**: Zie [ Voorkomen ](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=nl-NL). |
+| **Mensen** = Telling van verschillende Persoon IDs waar Stitched ID als identiteitskaart van de Persoon wordt gekozen. **Mensen** kunnen hoger of lager zijn dan **Unieke Bezoekers** in traditionele Adobe Analytics, afhankelijk van het resultaat van het stitching proces. | **Mensen** = Telling van verschillende Persoon IDs die op de kolom wordt gebaseerd die als identiteitskaart van de Persoon wordt geselecteerd. **Mensen** in Analytics bronschakelaardatasets is gelijkaardig aan **Unieke Bezoekers** in traditionele Adobe Analytics als `endUserIDs._experience.aaid.id` als identiteitskaart van de Persoon in Customer Journey Analytics wordt gebruikt. | **Unieke Bezoekers** = Telling van verschillende bezoeker IDs. **Unieke Bezoekers** kunnen niet het zelfde zijn als de telling van verschillende **ECID** s. | Zie [ Mensen ](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html). |
+| **Sessies**: Gedefinieerd op basis van de sessiemontages in de Customer Journey Analytics gegevensweergave. Tijdens het koppelingsproces kunnen afzonderlijke sessies van meerdere apparaten in één sessie worden gecombineerd. | **Sessies**: Gedefinieerd op basis van de sessiemontages die zijn opgegeven in de gegevensweergave van Customer Journey Analytics. | **bezoeken**: Zie [ bezoeken ](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html). | **bezoeken**: Gedefinieerd gebaseerd op de zittingsmontages die in de [ worden gespecificeerd CDA virtuele rapportreeks ](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html). |
+| **Gebeurtenissen** = telling van rijen in de gestikte gegevens in Customer Journey Analytics. Dit metrisch is typisch dicht bij **Voorkomen** in traditionele Adobe Analytics. Opmerking: de veelgestelde vragen hierboven hebben betrekking op rijen met een lege permanente id. | **Gebeurtenissen** = telling van rijen in de unstitched gegevens in Customer Journey Analytics. Dit metrisch is typisch dicht bij **Voorkomen** in traditionele Adobe Analytics. Houd er echter rekening mee dat als er gebeurtenissen met een lege Person-id voorkomen in de niet-opgeslagen gegevens in het Experience Platform-gegevensmeer, deze gebeurtenissen niet in Customer Journey Analytics zijn opgenomen. | **Voorkomen**: Zie [ Voorkomen ](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html). | **Voorkomen**: Zie [ Voorkomen ](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html). |
 
-Andere cijfers kunnen vergelijkbaar zijn in Customer Journey Analytics en Adobe Analytics. Bijvoorbeeld, is de totale telling voor Adobe Analytics [ douanegebeurtenissen ](https://experienceleague.adobe.com/docs/analytics/components/metrics/custom-events.html?lang=nl-NL) 1-100 vergelijkbaar tussen traditionele Adobe Analytics en Customer Journey Analytics (of vastgemaakt of unstitched). [ Verschillen in mogelijkheden ](/help/getting-started/aa-vs-cja/cja-aa.md)) zoals gebeurtenis deduplicatie tussen Customer Journey Analytics versus Adobe Analytics kan discrepantie tussen de twee producten veroorzaken.
+Andere cijfers kunnen vergelijkbaar zijn in Customer Journey Analytics en Adobe Analytics. Bijvoorbeeld, is de totale telling voor Adobe Analytics [ douanegebeurtenissen ](https://experienceleague.adobe.com/docs/analytics/components/metrics/custom-events.html) 1-100 vergelijkbaar tussen traditionele Adobe Analytics en Customer Journey Analytics (of vastgemaakt of unstitched). [ Verschillen in mogelijkheden ](/help/getting-started/aa-vs-cja/cja-aa.md)) zoals gebeurtenis deduplicatie tussen Customer Journey Analytics versus Adobe Analytics kan discrepantie tussen de twee producten veroorzaken.
 
 +++
 
@@ -217,7 +217,7 @@ Andere cijfers kunnen vergelijkbaar zijn in Customer Journey Analytics en Adobe 
 
 +++ Kan Customer Journey Analytics de velden Identity Map gebruiken?
 
-Nee, Customer Journey Analytics kan momenteel geen identiteitskaartvelden gebruiken voor stitching.
+Ja, Customer Journey Analytics kan de gebieden van de Kaart van de Identiteit voor zowel [ gebaseerd gebied ](/help/stitching/fbs.md#identitymap) gebruiken en [ grafiek die ](/help/stitching/gbs.md#identitymap) stitching wordt gebaseerd.
 
 +++
 
@@ -229,7 +229,7 @@ Gegevens hoeven niet opnieuw in Experience Platform te worden ingevoerd, maar mo
 
 1. Opstelling de nieuwe grafiek-gebaseerde gestikte dataset.
 1. Vorm de nieuwe dataset als deel van een nieuwe verbinding in Customer Journey Analytics.
-1. Schakel de bestaande gegevensweergave om de nieuwe verbinding te gebruiken (en als zodanig de nieuwe op grafiek gebaseerde, aan elkaar gekoppelde dataset)
+1. Schakel de bestaande gegevensweergave in om de nieuwe verbinding te gebruiken (en als zodanig de nieuwe, op een grafiek gebaseerde, gekoppelde gegevensset).
 1. Verwijder de oude verbinding die de op gebied-gebaseerde verbonden dataset gebruikte.
 
 +++
@@ -273,6 +273,6 @@ curl -X POST \
 
 Als u de tag `unifiedProfile` in de aanvraag gebruikt, maar geen licentie hebt voor Real-Time Customer Data Profile, wordt een fout geretourneerd.
 
-Zie [ een dataset creëren die voor Profiel en Identiteit ](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/enable-for-profile#create-a-dataset-enabled-for-profile-and-identity) voor meer informatie wordt toegelaten.
+Zie [ een dataset creëren die voor Profiel en Identiteit ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-for-profile#create-a-dataset-enabled-for-profile-and-identity) voor meer informatie wordt toegelaten.
 
 +++ 
