@@ -21,9 +21,9 @@ In dit artikel wordt gedetailleerd uitgelegd hoe Content Analytics gegevens verz
 In het kader van dit artikel worden de volgende definities gebruikt:
 
 * **Ervaring**: Een ervaring wordt bepaald als tekstinhoud op een volledige Web-pagina. Voor gegevensverzameling registreert Content Analytics de ervaring-id die is gebaseerd op de pagina-URL. Later wordt de tekst op de pagina vastgelegd via de ophaalservice.
-* **identiteitskaart van de Ervaring**: Een unieke combinatie relevante URL (basis URL plus om het even welke parameters die inhoud op de pagina drijven) en [ ervaringsversie ](manual.md#versioning).
-   * U specificeert, als deel van de [ configuratie ](configuration.md), welke parameters voor om het even welke bepaalde volledige URL relevant zijn.
-   * U bepaalt het herkenningsteken van de a [ versie ](manual.md#versioning) aan gebruik, zodat verzamelt u behoorlijk veranderingen in uw ervaringen.
+* **identiteitskaart van de Ervaring**: Een unieke combinatie relevante URL (basis URL plus om het even welke parameters die inhoud op de pagina drijven) en [&#x200B; ervaringsversie &#x200B;](manual.md#versioning).
+   * U specificeert, als deel van de [&#x200B; configuratie &#x200B;](configuration.md), welke parameters voor om het even welke bepaalde volledige URL relevant zijn.
+   * U bepaalt het herkenningsteken van de a [&#x200B; versie &#x200B;](manual.md#versioning) aan gebruik, zodat verzamelt u behoorlijk veranderingen in uw ervaringen.
 * **Activa**: Een beeld. Content Analytics registreert de URL van het element.
 * **identiteitskaart van Activa**: URL van de activa.
 * **Relevante URL**: De basis URL plus om het even welke parameters die inhoud op de pagina drijven.
@@ -36,7 +36,7 @@ Content Analytics vereist de Experience Platform Edge Network Web SDK om gebeurt
 De Content Analytics-bibliotheek verzamelt gegevens wanneer:
 
 * Content Analytics is opgenomen in de tagbibliotheek die op de pagina is geladen.
-* De pagina URL wordt gevormd in de [ uitbreiding van Content Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview){target="_blank"}, een deel van de inbegrepen bibliotheek van Markeringen.
+* De pagina URL wordt gevormd in de [&#x200B; uitbreiding van Content Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview){target="_blank"}, een deel van de inbegrepen bibliotheek van Markeringen.
 
 
 ## Content Analytics, gebeurtenis
@@ -53,8 +53,8 @@ Een Content Analytics-gebeurtenis bestaat uit:
 
 Content Analytics-gebeurtenissen worden verzameld als een reeks van:
 
-1. [ A geregistreerde mening of klik ](#recorded-view-or-click).
-1. [ de trekker van A om een gebeurtenis van Content Analytics ](#trigger-to-send-a-content-analytics-event) te verzenden.
+1. [&#x200B; A geregistreerde mening of klik &#x200B;](#recorded-view-or-click).
+1. [&#x200B; de trekker van A om een gebeurtenis van Content Analytics &#x200B;](#trigger-to-send-a-content-analytics-event) te verzenden.
 
 Content Analytics verzamelt gegevens op deze manier om die reeks te weerspiegelen in plaats van een weergave te verzamelen of klik apart van het verzamelen van de gebeurtenis direct na die weergave of klik. Op deze manier wordt ook de hoeveelheid verzamelde gegevens verminderd.
 
@@ -105,6 +105,6 @@ Om het aantal vraag te verminderen die de pagina verlaat, verzamelt Content Anal
 
 Content Analytics-gegevens worden verzameld in datasets in Experience Platform, op basis van specifieke Content Analytics-schema&#39;s. Referentieschema&#39;s zijn openbaar:
 
-* [ Digitaal schema van Activa ](https://github.com/adobe/xdm/blob/master/components/classes/digital-asset.schema.json)
-* [ Digitaal schema van de Ervaring ](https://github.com/adobe/xdm/blob/master/components/classes/digital-experience.schema.json)
-* [ schema van de Inhoud van de Gebeurtenis van de Ervaring ](https://github.com/adobe/xdm/blob/master/components/fieldgroups/experience-event/experienceevent-content.schema.json)
+* [&#x200B; Digitaal schema van Activa &#x200B;](https://github.com/adobe/xdm/blob/master/components/classes/digital-asset.schema.json)
+* [&#x200B; Digitaal schema van de Ervaring &#x200B;](https://github.com/adobe/xdm/blob/master/components/classes/digital-experience.schema.json)
+* [&#x200B; schema van de Inhoud van de Gebeurtenis van de Ervaring &#x200B;](https://github.com/adobe/xdm/blob/master/components/fieldgroups/experience-event/experienceevent-content.schema.json)
