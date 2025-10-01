@@ -18,7 +18,7 @@ Wanneer het gebruiken van een afmeting die vele unieke waarden bevat, kan het re
 
 Wanneer u om een rapport vraagt dat een dimensie met teveel unieke waarden bevat, toont Analysis Workspace een indicator in de afmetingskopbal die verklaart dat niet alle afmetingspunten inbegrepen zijn. Bijvoorbeeld **[!UICONTROL Rows: 1-50 of more than 22,343,156]** . Het trefwoord **[!UICONTROL more than]** geeft aan dat er enige optimalisatie is toegepast op het rapport om de belangrijkste dimensie-items te retourneren.
 
-![ de lijst van de Vrije vorm in Workspace die het &quot;meer dan&quot;sleutelwoord toont om 1-50 van meer dan 22.343.156 ](assets/high-cardinality.png) te tonen
+![&#x200B; de lijst van de Vrije vorm in Workspace die het &quot;meer dan&quot;sleutelwoord toont om 1-50 van meer dan 22.343.156 &#x200B;](assets/high-cardinality.png) te tonen
 
 ## Bepalen welke dimensie-items moeten worden weergegeven
 
@@ -36,10 +36,10 @@ Hoewel sommige individuele afmetingspunten in hoge kardinaliteitsrapporten zoude
 
 De beste manier om hoge kardinaliteitsdimensies aan te passen is het aantal afmetingspunten te beperken dat een rapport verwerkt. Aangezien alle rapporten op het tijdstip worden verwerkt dat zij worden gevraagd, kunt u rapportparameters voor directe resultaten aanpassen. Adobe raadt een van de volgende optimalisaties aan voor afmetingen met een hoge cardinaliteit:
 
-* Gebruik a [ segment ](/help/components/segments/seg-create.md). Segmenten worden toegepast op het moment dat elke server een subset van gegevens verwerkt.
+* Gebruik a [&#x200B; segment &#x200B;](/help/components/segments/seg-create.md). Segmenten worden toegepast op het moment dat elke server een subset van gegevens verwerkt.
 * Gebruik een zoekopdracht. Dimension-items die zijn uitgesloten van de zoekterm worden verwijderd uit de rapportresultaten, waardoor de kans groter is dat u de gewenste dimensie-items ziet.
 * Gebruik een dimensie van de raadplegingsdataset. De dimensies van de dataset van de opzoekopdracht combineren de dimensies van de gebeurtenisdataset, die het aantal unieke teruggekeerde waarden beperken.
-* Gebruik [ omvatten/uitsluiten ](/help/data-views/component-settings/include-exclude-values.md) component die in de manager van de gegevensmening plaatst.
+* Gebruik [&#x200B; omvatten/uitsluiten &#x200B;](/help/data-views/component-settings/include-exclude-values.md) component die in de manager van de gegevensmening plaatst.
 * Verkort het datumbereik van de aanvraag. Als er zich in de loop der tijd veel unieke waarden ophopen, kan het verkorten van het datumbereik van het Workspace-rapport het aantal unieke waarden voor servers dat moet worden verwerkt, beperken.
-* Overweeg het gebruiken van [ Volledige Uitvoer van de Lijst ](/help/analysis-workspace/export/export-cloud.md) om alle rijen van de lijst terug te keren.
+* Overweeg het gebruiken van [&#x200B; Volledige Uitvoer van de Lijst &#x200B;](/help/analysis-workspace/export/export-cloud.md) om alle rijen van de lijst terug te keren.
 * Wanneer het aantal unieke waarden de primaire focus is, gebruikt u de berekende metrische functie [[!UICONTROL Approximate Count Distinct]](/help/components/calc-metrics/cm-adv-functions.md#approximate-count-distinct) .
