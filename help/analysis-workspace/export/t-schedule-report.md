@@ -103,7 +103,7 @@ De wachtwoordvereisten voldoen aan de Adobe-standaarden, die minimaal 8 tekens v
 ### Wachtwoord-beschermt een nieuw gepland project
 
 1. Nadat u het project hebt opgeslagen, gaat u naar **[!UICONTROL Share]** > **[!UICONTROL Send file now]** of **[!UICONTROL Share]** > **[!UICONTROL Send file on schedule]** .
-1. Volg de instructies hierboven, onder [&#x200B; verzenden nu dossier &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#now) of [&#x200B; verzenden dossier op programma &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#schedule).
+1. Volg de instructies hierboven, onder [&#x200B; verzenden nu dossier &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=nl-NL#now) of [&#x200B; verzenden dossier op programma &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=nl-NL#schedule).
 
 ### Wachtwoord-beschermt een bestaand gepland project
 
