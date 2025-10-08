@@ -23,9 +23,9 @@ Houd rekening met het volgende wanneer u bestanden verzendt:
 
 * Alle tags die op het project zijn toegepast, worden automatisch toegepast op het exporteren.
 
-Andere methodes om de gegevens van Customer Journey Analytics uit te voeren zijn ook beschikbaar, zoals die in [ wordt beschreven Overzicht van de Uitvoer ](/help/analysis-workspace/export/export-project-overview.md).
+Andere methodes om de gegevens van Customer Journey Analytics uit te voeren zijn ook beschikbaar, zoals die in [&#x200B; wordt beschreven Overzicht van de Uitvoer &#x200B;](/help/analysis-workspace/export/export-project-overview.md).
 
-![ verzend dossier ](assets/send-file.png)
+![&#x200B; verzend dossier &#x200B;](assets/send-file.png)
 
 ## Bestand verzenden
 
@@ -37,8 +37,8 @@ Een bestand via e-mail naar ontvangers verzenden:
    * [!UICONTROL **PDF**]: Kies deze optie als u het gedownloade dossier alle getoonde (zichtbare) lijsten en visualisaties in het project wilt bevatten.
 1. (Optioneel) Gebruik **[!UICONTROL Description]** om een beschrijving toe te voegen die u in de e-mail wilt opnemen.
 1. Voeg ontvangers of groepen toe. U kunt ook e-mailadressen invoeren.
-1. (Slechts voor de klanten van het Schild van de Gezondheidszorg) verstrek een wachtwoord aan [ wachtwoord-beschermt een gepland rapport ](#password-protect-a-new-scheduled-project).
-1. (Facultatief) selecteer **[!UICONTROL Show scheduling options]** om [ een dossieruitvoer ](#schedule-file-export) te plannen.
+1. (Slechts voor de klanten van het Schild van de Gezondheidszorg) verstrek een wachtwoord aan [&#x200B; wachtwoord-beschermt een gepland rapport &#x200B;](#password-protect-a-new-scheduled-project).
+1. (Facultatief) selecteer **[!UICONTROL Show scheduling options]** om [&#x200B; een dossieruitvoer &#x200B;](#schedule-file-export) te plannen.
 1. Klik op **[!UICONTROL Send Now]**. Selecteer **[!UICONTROL Cancel]** om te annuleren.
 
 
@@ -52,7 +52,7 @@ Een bestand volgens een schema per e-mail naar ontvangers verzenden:
    * [!UICONTROL **PDF**]: Kies deze optie als u het gedownloade dossier alle getoonde (zichtbare) lijsten en visualisaties in het project wilt bevatten.
 1. (Optioneel) Gebruik **[!UICONTROL Description]** om een beschrijving toe te voegen die u in de e-mail wilt opnemen.
 1. Voeg ontvangers of groepen toe. U kunt ook e-mailadressen invoeren.
-1. (Slechts voor de klanten van het Schild van de Gezondheidszorg) verstrek een wachtwoord aan [ wachtwoord-beschermt een gepland rapport ](#password-protect-a-new-scheduled-project).
+1. (Slechts voor de klanten van het Schild van de Gezondheidszorg) verstrek een wachtwoord aan [&#x200B; wachtwoord-beschermt een gepland rapport &#x200B;](#password-protect-a-new-scheduled-project).
 1. Zorg ervoor dat **[!UICONTROL Show scheduling options]** is geselecteerd.
 1. Selecteer een **[!UICONTROL Frequency]** . U kunt kiezen tussen:
 
@@ -66,9 +66,9 @@ Een bestand volgens een schema per e-mail naar ontvangers verzenden:
    | **[!UICONTROL Send yearly by day of the month]** | Selecteer een **[!UICONTROL Day of week]** , selecteer een **[!UICONTROL Week of month]** en selecteer een **[!UICONTROL Monthly of year]** . |
    | **[!UICONTROL Send yearly by specific date]** | Selecteer een **[!UICONTROL Month of year]** en selecteer een waarde in **[!UICONTROL Send on this day of the month]** . |
 
-1. Voer een begindatum in in **[!UICONTROL Starting on]** . Alternatief, selecteer ![ Kalender ](/help/assets/icons/Calendar.svg) om een begindatum van de kalender te kiezen.
+1. Voer een begindatum in in **[!UICONTROL Starting on]** . Alternatief, selecteer ![&#x200B; Kalender &#x200B;](/help/assets/icons/Calendar.svg) om een begindatum van de kalender te kiezen.
 
-1. Voer een einddatum in in **[!UICONTROL Ending on]** . Alternatief, selecteer ![ Kalender ](/help/assets/icons/Calendar.svg) om een einddatum van de kalender te kiezen.
+1. Voer een einddatum in in **[!UICONTROL Ending on]** . Alternatief, selecteer ![&#x200B; Kalender &#x200B;](/help/assets/icons/Calendar.svg) om een einddatum van de kalender te kiezen.
 1. Selecteer **[!UICONTROL Send on schedule]** . Selecteer **[!UICONTROL Cancel]** om te annuleren.
 
 
@@ -86,7 +86,7 @@ Een bestand volgens een schema per e-mail naar ontvangers verzenden:
 
 >[!NOTE]
 >
->De optie om een gepland project te wachtwoord-beschermen verschijnt slechts voor de klanten van Customer Journey Analytics die het [ toe:voegen-op product van het Schild van de Gezondheidszorg ](https://business.adobe.com/solutions/industries/healthcare.html) hebben gekocht.
+>De optie om een gepland project te wachtwoord-beschermen verschijnt slechts voor de klanten van Customer Journey Analytics die het [&#x200B; toe:voegen-op product van het Schild van de Gezondheidszorg &#x200B;](https://business.adobe.com/solutions/industries/healthcare.html) hebben gekocht.
 
 Adobe gebruikt het wachtwoord om geplande projecten te coderen, of zij in .pdf of .csv formaten worden verzonden.
 
@@ -103,13 +103,13 @@ De wachtwoordvereisten voldoen aan de Adobe-standaarden, die minimaal 8 tekens v
 ### Wachtwoord-beschermt een nieuw gepland project
 
 1. Nadat u het project hebt opgeslagen, gaat u naar **[!UICONTROL Share]** > **[!UICONTROL Send file now]** of **[!UICONTROL Share]** > **[!UICONTROL Send file on schedule]** .
-1. Volg de instructies hierboven, onder [ verzenden nu dossier ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#now) of [ verzenden dossier op programma ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#schedule).
+1. Volg de instructies hierboven, onder [&#x200B; verzenden nu dossier &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#now) of [&#x200B; verzenden dossier op programma &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#schedule).
 
 ### Wachtwoord-beschermt een bestaand gepland project
 
 Wanneer u wachtwoord-beschermt een bestaand gepland project, ontvangt de projecteigenaar een e-mail gelijkend op dit:
 
-![ het e-mailbericht dat van Customer Journey Analytics wachtwoordencryptie aangeeft wordt vereist voor uw organisatie.](assets/email-password.png)
+![&#x200B; het e-mailbericht dat van Customer Journey Analytics wachtwoordencryptie aangeeft wordt vereist voor uw organisatie.](assets/email-password.png)
 
 1. Meld u aan bij Customer Journey Analytics.
 1. Selecteer **[!UICONTROL View Scheduled Project]**.
@@ -120,4 +120,4 @@ Wanneer u wachtwoord-beschermt een bestaand gepland project, ontvangt de project
 
 ## Geplande projectmanager {#manager}
 
-Geplande Analysis Workspace-projecten kunnen worden beheerd vanuit de hoofdinterface via **[!UICONTROL Components]** > **[!UICONTROL Scheduled Projects]** . Voor meer informatie, zie [ Geplande projecten ](/help/components/scheduled-projects-manager.md).
+Geplande Analysis Workspace-projecten kunnen worden beheerd vanuit de hoofdinterface via **[!UICONTROL Components]** > **[!UICONTROL Scheduled Projects]** . Voor meer informatie, zie [&#x200B; Geplande projecten &#x200B;](/help/components/scheduled-projects-manager.md).
