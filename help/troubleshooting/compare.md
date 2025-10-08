@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Aangezien uw organisatie Customer Journey Analytics goedkeurt, is het mogelijk om sommige verschillen in gegevens tussen Adobe Analytics en Customer Journey Analytics op te merken. Deze verschillen zijn normaal en kunnen om verschillende redenen voorkomen. Customer Journey Analytics is ontworpen om u in staat te stellen een aantal van de beperkingen van uw gegevens in Adobe Analytics te verhelpen. Deze flexibiliteit kan enige verschillen veroorzaken in de manier waarop Customer Journey Analytics gegevens interpreteert. In dit artikel wordt uitgelegd welke verschillen er zijn in de manier waarop Customer Journey Analytics en Adobe Analytics omgaan met uw gegevens.
 
-Deze pagina veronderstelt dat u de gegevens van Adobe Analytics in Adobe Experience Platform gebruikend de [&#x200B; Bron van Analytics schakelaar &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html), dan creeerde a [&#x200B; verbinding &#x200B;](/help/connections/overview.md) en [&#x200B; gegevensmening &#x200B;](/help/data-views/data-views.md) in Customer Journey Analytics.
+Deze pagina veronderstelt dat u de gegevens van Adobe Analytics in Adobe Experience Platform gebruikend de [&#x200B; Bron van Analytics schakelaar &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=nl-NL), dan creeerde a [&#x200B; verbinding &#x200B;](/help/connections/overview.md) en [&#x200B; gegevensmening &#x200B;](/help/data-views/data-views.md) in Customer Journey Analytics.
 
 ![&#x200B; de gegevensstroom van Adobe Analytics door de gegevensschakelaar aan Adobe Experience Platform en aan de Analyse van de Reis van de Klant gebruikend de verbindingen van CJA.](assets/compare.png)
 
@@ -27,20 +27,20 @@ Houd rekening met de volgende mogelijke redenen waarom gegevens kunnen verschill
 * **de montages van de Kalender**: De reeksen van het rapport in Adobe Analytics bevatten een tijdzone en andere kalendermontages die u kunt vormen. Op dezelfde manier hebben gegevensweergaven in Customer Journey Analytics een aparte instelling die u kunt beheren. Zorg ervoor dat deze instellingen overeenkomen tussen producten als pariteit gewenst is.
 * **Extra datasets**: Customer Journey Analytics verstrekt het vermogen om veelvoudige datasets binnen één enkele verbinding te omvatten. Deze verschillen omvatten extra gebeurtenisdatasets, profieldatasets, of raadplegingsdatasets. Deze mogelijkheid is een belangrijk verschil tussen Adobe Analytics en Customer Journey Analytics, waardoor insight gegevens over meerdere kanalen kan verwerken.
 * **Gestitched datasets**: Adobe verstrekt de capaciteit om persoon IDs tussen twee datasets te analyseren, resulterend in een nieuwe dataset die verbonden IDs bevat. Deze [&#x200B; verbonden datasets &#x200B;](/help/stitching/overview.md) bevatten extra gegevens voorbij wat een het rapportreeks van Adobe Analytics aanbiedt.
-* **Gegevensbronnen**: Customer Journey Analytics omvat geen type van [&#x200B; Gegevensbronnen &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/overview) geupload aan een het rapportreeks van Adobe Analytics, met inbegrip van summiere gegevensbronnen of de gegevensbronnen van transactieID.
+* **Gegevensbronnen**: Customer Journey Analytics omvat geen type van [&#x200B; Gegevensbronnen &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/import/data-sources/overview) geupload aan een het rapportreeks van Adobe Analytics, met inbegrip van summiere gegevensbronnen of de gegevensbronnen van transactieID.
 * **Dimension en metrische montages**: Binnen een gegevensmening, bevat elke afmeting en metrisch zijn eigen montages die uw organisatie kan veranderen. Deze wijzigingen zijn van toepassing op het moment waarop het verslag wordt uitgevoerd en worden dus met terugwerkende kracht toegepast. De Dimension- en metrische instellingen in Adobe Analytics wijzigen de manier waarop gegevens worden verzameld, zodat deze wijzigingen van toepassing zijn vanaf dat punt. Als u de componentinstellingen in een van beide producten hebt gewijzigd, kunnen er rapportverschillen ontstaan. Als u zich richt op een specifieke dimensie, moet u ervoor zorgen dat de attributie- en persistentie-instellingen overeenkomen tussen Adobe Analytics en Customer Journey Analytics.
 
   >[!TIP]
   >
   >Adobe adviseert hoogst dat de dimensies in Adobe Analytics een toewijzing van &quot;[!UICONTROL Most recent (last)]&quot;gebruiken. Deze toewijzingsinstelling maakt veel meer toewijzingsflexibiliteit in Customer Journey Analytics mogelijk.
 
-* **de definitie van het Bezoek**: Naast individuele afmeting en metrische montages, bevat de gegevensmening zelf montages die fundamenteel veranderen hoe de videogegevens worden geïnterpreteerd. Bijvoorbeeld, kunt u een segment op een volledige gegevensmening (gelijkend op a [&#x200B; Virtuele rapportreeks &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-about) in Adobe Analytics) toepassen. U kunt ook de definitie van een duur van een bezoek wijzigen of automatisch een nieuw bezoek starten voor elke gewenste gebeurtenis. Al deze instellingen kunnen een aanzienlijke invloed hebben op de rapportage van verschillen tussen Customer Journey Analytics en Adobe Analytics.
+* **de definitie van het Bezoek**: Naast individuele afmeting en metrische montages, bevat de gegevensmening zelf montages die fundamenteel veranderen hoe de videogegevens worden geïnterpreteerd. Bijvoorbeeld, kunt u een segment op een volledige gegevensmening (gelijkend op a [&#x200B; Virtuele rapportreeks &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/components/virtual-report-suites/vrs-about) in Adobe Analytics) toepassen. U kunt ook de definitie van een duur van een bezoek wijzigen of automatisch een nieuw bezoek starten voor elke gewenste gebeurtenis. Al deze instellingen kunnen een aanzienlijke invloed hebben op de rapportage van verschillen tussen Customer Journey Analytics en Adobe Analytics.
 
 ## Aantal records tussen producten controleren
 
 Als alle bovenstaande instellingen er hetzelfde uitzien en u het aantal records tussen producten wilt valideren, kunt u de volgende stappen uitvoeren:
 
-1. In Adobe Experience Platform [&#x200B; de Diensten van de Vraag van 0&rbrace;, stel de volgende Totale Verslagen door timestamps vraag in werking:](https://experienceleague.adobe.com/en/docs/experience-platform/query/home)
+1. In Adobe Experience Platform [&#x200B; de Diensten van de Vraag van 0&rbrace;, stel de volgende Totale Verslagen door timestamps vraag in werking:](https://experienceleague.adobe.com/nl/docs/experience-platform/query/home)
 
    ```sql
    SELECT
@@ -55,7 +55,7 @@ Als alle bovenstaande instellingen er hetzelfde uitzien en u het aantal records 
    ORDER BY Day;
    ```
 
-1. In Adobe Analytics [&#x200B; het voer van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-overview), produceer voederdossiers voor de gewenste datumwaaier. Tel het aantal rijen in elk bestand, waarbij de volgende rijen worden geïdentificeerd en uitgesloten:
+1. In Adobe Analytics [&#x200B; het voer van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/export/analytics-data-feed/data-feed-overview), produceer voederdossiers voor de gewenste datumwaaier. Tel het aantal rijen in elk bestand, waarbij de volgende rijen worden geïdentificeerd en uitgesloten:
 
    * `exclude_hit` is niet `0` (gegevens die in beide producten van Analysis Workspace zijn uitgesloten)
    * `hit_source` is `0` , `3` , `5` , `7` , `8` , `9` of `10` (Gegevensbronnen en andere niet-raakgegevens)
