@@ -6,18 +6,22 @@ feature: Curate and Share
 mini-toc-levels: 3
 exl-id: 36b5133a-2cd3-4cf1-a6fa-93a02dba276a
 role: User
-source-git-commit: c91ee21a3d4e20e3bdaeb75f2011ede6eee6cba0
+source-git-commit: 973e999b611d578da12018e60becf48efd7a76f8
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
 
 # Projecten verzenden en plannen
 
-U kunt Customer Journey Analytics-projecten als bestanden via e-mail naar geselecteerde gebruikers verzenden. U kunt ad hoc dossiers verzenden, of u kunt projecten vormen om op een programma worden verzonden. Projecten kunnen in CSV- of PDF-indeling worden verzonden.
+U kunt Customer Journey Analytics-projecten als bestanden via e-mail naar geselecteerde gebruikers verzenden. U kunt ad hoc dossiers verzenden, of u kunt projecten vormen om op een programma worden verzonden.
 
-Alle tags die op het project zijn toegepast, worden automatisch toegepast op het exporteren.
+Houd rekening met het volgende wanneer u bestanden verzendt:
+
+* Bestanden kunnen in CSV- of PDF-indeling worden verzonden.
+
+* Alle tags die op het project zijn toegepast, worden automatisch toegepast op het exporteren.
 
 Andere methodes om de gegevens van Customer Journey Analytics uit te voeren zijn ook beschikbaar, zoals die in [ wordt beschreven Overzicht van de Uitvoer ](/help/analysis-workspace/export/export-project-overview.md).
 
@@ -40,7 +44,7 @@ Een bestand via e-mail naar ontvangers verzenden:
 
 ## Bestanden exporteren plannen {#schedule}
 
-Een bestand volgens een schema per e-mail naar ontvangers verzenden
+Een bestand volgens een schema per e-mail naar ontvangers verzenden:
 
 1. Selecteer **[!UICONTROL Share]>[!UICONTROL Schedule file export]** .
 1. Geef het bestandstype op:
@@ -82,7 +86,7 @@ Een bestand volgens een schema per e-mail naar ontvangers verzenden
 
 >[!NOTE]
 >
->De optie om een gepland project te wachtwoord-beschermen verschijnt slechts voor de klanten van Customer Journey Analytics die het [&#128279;](https://business.adobe.com/solutions/industries/healthcare.html) toe:voegen-op product van het Schild van de Gezondheidszorg  hebben gekocht.
+>De optie om een gepland project te wachtwoord-beschermen verschijnt slechts voor de klanten van Customer Journey Analytics die het [ toe:voegen-op product van het Schild van de Gezondheidszorg ](https://business.adobe.com/solutions/industries/healthcare.html) hebben gekocht.
 
 Adobe gebruikt het wachtwoord om geplande projecten te coderen, of zij in .pdf of .csv formaten worden verzonden.
 
@@ -99,7 +103,7 @@ De wachtwoordvereisten voldoen aan de Adobe-standaarden, die minimaal 8 tekens v
 ### Wachtwoord-beschermt een nieuw gepland project
 
 1. Nadat u het project hebt opgeslagen, gaat u naar **[!UICONTROL Share]** > **[!UICONTROL Send file now]** of **[!UICONTROL Share]** > **[!UICONTROL Send file on schedule]** .
-1. Volg de instructies hierboven, onder [ verzenden nu dossier ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=nl-NL#now) of [ verzenden dossier op programma ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html?lang=nl-NL#schedule).
+1. Volg de instructies hierboven, onder [ verzenden nu dossier ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#now) of [ verzenden dossier op programma ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/export/t-schedule-report.html#schedule).
 
 ### Wachtwoord-beschermt een bestaand gepland project
 
@@ -108,7 +112,7 @@ Wanneer u wachtwoord-beschermt een bestaand gepland project, ontvangt de project
 ![ het e-mailbericht dat van Customer Journey Analytics wachtwoordencryptie aangeeft wordt vereist voor uw organisatie.](assets/email-password.png)
 
 1. Meld u aan bij Customer Journey Analytics.
-1. Selecteer **[!UICONTROL View Scheduled Project]** .
+1. Selecteer **[!UICONTROL View Scheduled Project]**.
 1. Voer in het dialoogvenster **[!UICONTROL Edit scheduled project]** een wachtwoord in en voer het opnieuw in.
 1. Laat de ontvangers van het geplande project over dit wachtwoord weten. Het wachtwoord niet verspreiden onder personen die geen ontvangers zijn van het geplande project.
 
