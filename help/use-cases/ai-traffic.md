@@ -38,7 +38,7 @@ In de volgende tabel wordt aangegeven hoe de detectiemethoden kunnen worden gebr
 | **Opleiding van een model** | De agent (`GPTBot`, `ClaudeBot`, en meer) kan worden geïdentificeerd wanneer het server-zijregistreren wordt uitgevoerd. | Indeling is niet mogelijk. AI-crawlers genereren geen referentie tijdens de training. | Detectie is onmogelijk. AI-crawlers voegen geen parameters toe tijdens de training. |
 | **het doorbladeren van de Agent** | De agent (`ChatGPT-User`, `claude-web`) kan worden geïdentificeerd wanneer server-kant registreren kopballen vangt. | Classificatie is mogelijk als de agent navigeert vanaf een AI-interface met behoud van referenties. | Detectie is soms mogelijk als de AI-service trackingparameters toevoegt. |
 | **wint opgewaardeerde generatie (RAG) terug om vraag** te beantwoorden | De agent (`OAI-SearchBot`, `PerplexityBot`) kan met server-zijregistreren worden geïdentificeerd. | Een classificatie is doorgaans niet mogelijk omdat RAG-bewerkingen vaak de referentiemechanismen omzeilen. | Detectie is zelden mogelijk, tenzij dit specifiek door de AI-provider wordt geïmplementeerd. |
-| **de Gebruiker klikt door** | De agent kan niet worden geïdentificeerd. AI-agent wordt weergegeven als een normale gebruikersagent. | De classificatie is mogelijk wanneer de gebruikers verbindingen van AI interfaces ([ chatgpt.com ](https://chatgpt.com), [ claude.ai ](https://claude.ai), en meer) klikken. | Detectie is mogelijk wanneer AI-services UTM-parameters toevoegen aan uitgaande koppelingen. |
+| **de Gebruiker klikt door** | De agent kan niet worden geïdentificeerd. AI-agent wordt weergegeven als een normale gebruikersagent. | De classificatie is mogelijk wanneer de gebruikers verbindingen van AI interfaces ([&#x200B; chatgpt.com &#x200B;](https://chatgpt.com), [&#x200B; claude.ai &#x200B;](https://claude.ai), en meer) klikken. | Detectie is mogelijk wanneer AI-services UTM-parameters toevoegen aan uitgaande koppelingen. |
 | **de zichtbaarheidsvoorwaarden van het Verkeer** | Integratie van logbestanden aan de serverzijde met Customer Journey Analytics- of serverzijde vereist voor identificatie van de agent. | De classificatie is afhankelijk van het AI-platformverwijzingsbeleid en de juiste HTTP-headeroverdracht. | De opsporing vereist parameterbehoud door omleidingen en juiste URL parameterinzameling. |
 
 ### Uitdagingen
@@ -248,7 +248,7 @@ Vanaf augustus 2025 kunnen de volgende specifieke signalen voor elk van de detec
 
 ## Implementatie
 
-U kunt over LLM en het terug:geven-Gegenereerde verkeer binnen een typische opstelling van Customer Journey Analytics (verbinding, gegevensmening, werkruimteproject) door de specifieke opstelling en de configuratie van [ afgeleide gebieden ](#derived-fields), [ segmenten ](#segments), en [ werkruimteprojecten ](#workspace-project) melden.
+U kunt over LLM en het terug:geven-Gegenereerde verkeer binnen een typische opstelling van Customer Journey Analytics (verbinding, gegevensmening, werkruimteproject) door de specifieke opstelling en de configuratie van [&#x200B; afgeleide gebieden &#x200B;](#derived-fields), [&#x200B; segmenten &#x200B;](#segments), en [&#x200B; werkruimteprojecten &#x200B;](#workspace-project) melden.
 
 
 ### Afgeleide velden
@@ -257,42 +257,42 @@ Om opsporingsmethodes en opsporingssignalen te vormen gebruik afgeleide gebieden
 
 #### Identificatie van gebruikersagent voor LLM/AI
 
-Gebruik het [ Geval wanneer ](/help/data-views/derived-fields/derived-fields.md#case-when) afgeleide gebiedsfuncties om een afgeleid gebied te bepalen dat gebruikersagenten LLM/AI identificeert.
+Gebruik het [&#x200B; Geval wanneer &#x200B;](/help/data-views/derived-fields/derived-fields.md#case-when) afgeleide gebiedsfuncties om een afgeleid gebied te bepalen dat gebruikersagenten LLM/AI identificeert.
 
-![ Identificatie van de Agent van LLM/AI van de Gebruiker ](assets/aitraffic-useragents.png){zoomable="yes"}
+![&#x200B; Identificatie van de Agent van LLM/AI van de Gebruiker &#x200B;](assets/aitraffic-useragents.png){zoomable="yes"}
 
 
 #### Detectie van LLM-/AI-queryparameters
 
-Gebruik [ URL ontleedt ](/help/data-views/derived-fields/derived-fields.md#url-parse) en [ classificeer ](/help/data-views/derived-fields/derived-fields.md#classify) afgeleide gebiedsfuncties om een afgeleid gebied te bepalen dat UTM parameteropsporing ontdekt.
+Gebruik [&#x200B; URL ontleedt &#x200B;](/help/data-views/derived-fields/derived-fields.md#url-parse) en [&#x200B; classificeer &#x200B;](/help/data-views/derived-fields/derived-fields.md#classify) afgeleide gebiedsfuncties om een afgeleid gebied te bepalen dat UTM parameteropsporing ontdekt.
 
-![ LLM/AI de Detectie van de Parameter UTM ](assets/aitraffic-utmparams.png){zoomable="yes"}
+![&#x200B; LLM/AI de Detectie van de Parameter UTM &#x200B;](assets/aitraffic-utmparams.png){zoomable="yes"}
 
 
 #### LM/AI-referentie-indeling
 
 Gebruik de functies Parseren en Afgeleide velden voor URL classificeren om een afgeleid veld te definiëren waarin verwijzingen worden ingedeeld.
 
-![ LLM/AI de Classificatie van de Referentie ](assets/aitraffic-utmparams.png){zoomable="yes"}
+![&#x200B; LLM/AI de Classificatie van de Referentie &#x200B;](assets/aitraffic-utmparams.png){zoomable="yes"}
 
 
 ### Segmenten
 
 Stel specifieke segmenten in die u helpen gebeurtenissen, sessies of personen te identificeren die verwant zijn aan het verkeer dat door LLM en AI wordt gegenereerd. Bijvoorbeeld, gebruik de afgeleide gebieden die u eerder creeerde om een segment te bepalen dat LLM en AI-Gegenereerd verkeer identificeert.
 
-![ LLM en AI-Gegenereerd verkeerssegment ](assets/aitraffic-segment.png){zoomable="yes"}
+![&#x200B; LLM en AI-Gegenereerd verkeerssegment &#x200B;](assets/aitraffic-segment.png){zoomable="yes"}
 
 
 ### Workspace-project
 
 Gebruik de afgeleide gebieden en de segmenten om op LLM en af te lezen verkeer te rapporteren en te analyseren. Zie bijvoorbeeld het onderstaande geannoteerde project.
 
-![ LLM en het AI-Gegenereerde project van Workspace van het verkeer ](assets/aitraffic-workspace.png){zoomable="yes"}
+![&#x200B; LLM en het AI-Gegenereerde project van Workspace van het verkeer &#x200B;](assets/aitraffic-workspace.png){zoomable="yes"}
 
 
 
 >[!MORELIKETHIS]
 >
->Dit artikel van het gebruiksgeval is gebaseerd op het blogartikel [ Volgend en Analyserend LLM en AI-Gegenereerd Verkeer in Adobe Customer Journey Analytics ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967).
+>Dit artikel van het gebruiksgeval is gebaseerd op het blogartikel [&#x200B; Volgend en Analyserend LLM en AI-Gegenereerd Verkeer in Adobe Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967).
 >
 >
