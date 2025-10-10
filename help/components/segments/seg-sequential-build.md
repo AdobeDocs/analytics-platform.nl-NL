@@ -1,11 +1,11 @@
 ---
 description: Leer over opeenvolgende segmenten die de exploitant THEN gebruiken om een opeenvolging van segmentvoorwaarden te bepalen.
-title: SequentialSsegments
+title: Sequentiële segmenten
 feature: Filters, Segments
 exl-id: 64cb10b5-36f0-42c8-b687-ae5de5ced8b5
-source-git-commit: 8e10818efa7da54b0802c56e5388e6c7ef7fd8b6
+source-git-commit: c745e37203ac829fa0fb7d8532e6499351cb94ba
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2343'
 ht-degree: 1%
 
 ---
@@ -91,7 +91,7 @@ Tijdsbeperkingen toepassen op de operator **[!UICONTROL Then]** :
 1. Selecteer ![ Klok ](/help/assets/icons/Clock.svg).
 1. Selecteer **[!UICONTROL Within]** of **[!UICONTROL After]** in het contextmenu.
 1. Geef een tijdsperiode op (**[!UICONTROL Minute]**, **[!UICONTROL Hour]** tot **[!UICONTROL Years]** ).
-1. Selecteer ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *aantal *]**&#x200B;om popup te openen die u toestaat om binnen te typen of een aantal te specificeren gebruikend **[!UICONTROL -]**&#x200B;of **[!UICONTROL +]**.
+1. Selecteer ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *aantal *]**om popup te openen die u toestaat om binnen te typen of een aantal te specificeren gebruikend **[!UICONTROL -]**of **[!UICONTROL +]**.
 
 Om een tijdbeperking te verwijderen, gebruik ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg).
 
@@ -114,7 +114,7 @@ Identificeer personen die slechts na twee weken een pagina en vervolgens een and
 
 ![ Opeenvolging na ](assets/sequence-after.png)
 
-Als er op 1 juni 2024 om 00:01 een paginaweergave voor Home plaatsvindt, wordt de pagina Vrouwen weergegeven | De tonen komen overeen zolang de paginaweergave plaatsvindt na 15 juni 2024 00:01.
+Als een paginamening voor Home op 1 Juni, 2024, bij 00 :01 gebeurt, dan een paginamening aan pagina Vrouwen | De tonen zullen aanpassen zolang die paginamening na 15 Juni, 2024 00 :01 voorkomt.
 
 ##### [!UICONTROL Within] operator
 
@@ -122,7 +122,7 @@ Identificeer personen die een pagina en een andere pagina binnen vijf minuten he
 
 ![ Opeenvolging binnen ](assets/sequence-within.png)
 
-Als op 1 juni 2024 om 12:01 een paginaweergave voor Home plaatsvindt, wordt een paginaweergave voor Vrouwen weergegeven | De tonen komen overeen zolang de paginaweergave plaatsvindt vóór 15 juni 2024 12:16.
+Als een paginamening voor het Huis op 1 Juni, 2024, bij 12 :01 gebeurt, dan een paginamening aan pagina Vrouwen | De tonen zullen aanpassen zolang die paginamening vóór 15 Juni, 2024 12 :16 voorkomt.
 
 ##### [!UICONTROL After] but [!UICONTROL Within] operator
 
@@ -130,7 +130,7 @@ Identificeer personen die een pagina bezochten en vervolgens een andere pagina b
 
 ![ Opeenvolging na maar binnen ](assets/sequence-afterbutwithin.png)
 
-Personen die op 1 juni 2024 op de startpagina komen en die terugkeren naar de Vrouwen | Shoes page na 15 juni 2019 00:01, maar vóór 1 juli 2019 komt in aanmerking voor het segment.
+Personen die op 1 juni 2024 op de startpagina komen en die terugkeren naar de Vrouwen | De pagina van vertoningen na 15 juni, 2019 00 :01, maar vóór 1 juli 2019 komt voor het segment in aanmerking.
 
 
 ### [!UICONTROL Event] -, [!UICONTROL Session] - en [!UICONTROL Dimension] -beperkingen
