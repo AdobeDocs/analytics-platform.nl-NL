@@ -22,7 +22,7 @@ U kunt de trend van de gegevens bekijken die in een vrije vormlijst inbegrepen i
 
 In de kolomkop van vrije-vormtabellen wordt aangegeven hoe u de lijnen in de metrische kolom maakt.
 
-![ sparkline in vrije vormlijst ](assets/table-sparkline.png)
+![&#x200B; sparkline in vrije vormlijst &#x200B;](assets/table-sparkline.png)
 
 De reservekopieën zijn altijd:
 
@@ -30,11 +30,11 @@ De reservekopieën zijn altijd:
 
 * Alle zoekfiltercriteria die worden toegepast op de tabelafmetingen
 
-  Voor meer informatie, zie [ Filter en soort ](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+  Voor meer informatie, zie [&#x200B; Filter en soort &#x200B;](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 ## Lijnvisualisaties gebruiken om trendgegevens weer te geven
 
-[ visualisaties van de Lijn ](/help/analysis-workspace/visualizations/line.md) tonen de gegevens van de vrije vormlijst zij met worden verbonden.
+[&#x200B; visualisaties van de Lijn &#x200B;](/help/analysis-workspace/visualizations/line.md) tonen de gegevens van de vrije vormlijst zij met worden verbonden.
 
 ### Verbind een lijnvisualisatie met een vrije vormlijst
 
@@ -44,7 +44,7 @@ Afhankelijk van hoe en wanneer de lijnvisualisatie aan het project werd toegevoe
 
 1. Selecteer de punt naast de visualisatienaam, selecteer het **[!UICONTROL Data source]** lusje, dan selecteer de naam van de vrije vormlijst die u met de lijnvisualisatie wilt verbinden.
 
-   ![ lijn visualisatie die met vrije vormlijsten ](assets/table-line-viz.png) wordt verbonden
+   ![&#x200B; lijn visualisatie die met vrije vormlijsten &#x200B;](assets/table-line-viz.png) wordt verbonden
 
 ### Kies de gegevens die zijn opgenomen in de lijnvisualisatie
 
@@ -54,7 +54,7 @@ Om een trend van alle gegevens in de vrije vormlijst te bekijken, selecteer de s
 
 Als de dunne cel is geselecteerd, wordt de cel weergegeven als donkergrijs.
 
-![ geselecteerde sparkline ](assets/table-sparkline-selected.png)
+![&#x200B; geselecteerde sparkline &#x200B;](assets/table-sparkline-selected.png)
 
 Als de dunne cel van de verbonden tabel is geselecteerd, worden onder andere de volgende lijnen weergegeven:
 
@@ -62,7 +62,7 @@ Als de dunne cel van de verbonden tabel is geselecteerd, worden onder andere de 
 
 * Alle zoekfiltercriteria die worden toegepast op de tabelafmetingen
 
-  Voor meer informatie, zie [ Filter en soort ](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+  Voor meer informatie, zie [&#x200B; Filter en soort &#x200B;](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 Wanneer de dunne lijn van de verbonden lijst niet wordt geselecteerd, omvatten de lijnvisualisaties:
 
@@ -70,10 +70,10 @@ Wanneer de dunne lijn van de verbonden lijst niet wordt geselecteerd, omvatten d
 
 * Alle zoekfiltercriteria die op de tabelafmetingen worden toegepast, worden genegeerd
 
-  Voor meer informatie, zie [ Filter en soort ](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+  Voor meer informatie, zie [&#x200B; Filter en soort &#x200B;](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 
 ## Filtercriteria opnemen in de weergave van verbonden lijnen
 
-Voor informatie over wanneer de filtercriteria in verbonden lijnvisualisaties inbegrepen zijn, zie [ omvatten filtercriteria in trended gegevens in vonklines en lijnvisualisaties ](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#include-filter-criteria-in-trended-data-in-sparklines-and-line-visualizations)
+Voor informatie over wanneer de filtercriteria in verbonden lijnvisualisaties inbegrepen zijn, zie [&#x200B; omvatten filtercriteria in trended gegevens in vonklines en lijnvisualisaties &#x200B;](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#include-filter-criteria-in-trended-data-in-sparklines-and-line-visualizations)
 
