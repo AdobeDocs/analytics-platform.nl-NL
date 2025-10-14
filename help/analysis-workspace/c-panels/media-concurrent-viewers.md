@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het de gezamenlijke kijkers van Media paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_zie [ Medium gezamenlijke kijkers paneel ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert het de gezamenlijke kijkers van Media paneel in_ ![&#x200B; CustomerJourneyAnalytics &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_zie [&#x200B; Medium gezamenlijke kijkers paneel &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) voor_ ![&#x200B; AdobeAnalytics &#x200B;](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +55,7 @@ In Analysis Workspace is de metrische waarde voor Gelijktijdige viewers het aant
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ het gezamenlijke paneel van kijkers van Media ](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; het gezamenlijke paneel van kijkers van Media &#x200B;](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"} voor een demo video.
 
 {{videoaa}}
 
@@ -65,13 +65,13 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ het gezamenli
 
 Een deelvenster **[!UICONTROL Media concurrent viewers]** gebruiken:
 
-1. Maak een deelvenster **[!UICONTROL Media concurrent viewers]** . Voor informatie over hoe te om een paneel tot stand te brengen, zie [ een paneel ](panels.md#create-a-panel) creëren.
+1. Maak een deelvenster **[!UICONTROL Media concurrent viewers]** . Voor informatie over hoe te om een paneel tot stand te brengen, zie [&#x200B; een paneel &#x200B;](panels.md#create-a-panel) creëren.
 
 1. Selecteer een gegevensweergave voor het deelvenster waarvoor componenten zijn geconfigureerd in de verzameling Streaming media.
 
-1. Specificeer de [ input ](#panel-input) voor het paneel.
+1. Specificeer de [&#x200B; input &#x200B;](#panel-input) voor het paneel.
 
-1. Neem de [ output ](#panel-output) voor het paneel waar.
+1. Neem de [&#x200B; output &#x200B;](#panel-output) voor het paneel waar.
 
 ### Deelvensterinvoer
 
@@ -86,17 +86,17 @@ U kunt het deelvenster Mediagelijktijdige viewers configureren met de volgende i
 
 Hier volgt een voorbeeld van het deelvenster dat is geconfigureerd voor **[!UICONTROL Minute]** granularity, met **[!UICONTROL Maximum only]** -samenvattingsnummers. En gesplitst naar **[!UICONTROL Other]**, **[!UICONTROL Table]**, **[!UICONTROL Mobile Phone]**, **[!UICONTROL Gaming Console]**, **[!UICONTROL Media Player]**, **[!UICONTROL Set-top Box]**, **[!UICONTROL Television]** .
 
-![ de Medium Gelijktijdige mening die van de Reeks van Kijkers 7 van 10 dimensies, segmenten of datumwaaiers tonen.](assets/concurrent-viewers-series-breakdown.png)
+![&#x200B; de Medium Gelijktijdige mening die van de Reeks van Kijkers 7 van 10 dimensies, segmenten of datumwaaiers tonen.](assets/concurrent-viewers-series-breakdown.png)
 
 ### Deelvensteruitvoer
 
 Het deelvenster Mediagelijktijdige viewers retourneert een regeldiagram en een samenvattingsnummer met gegevens voor de maximum- en/of minimale gelijktijdige viewers.  Boven in het deelvenster ziet u een samenvattingsregel waarmee u de deelvensterinstellingen die u hebt geselecteerd, kunt herinneren.
 
-Op elk ogenblik, uitgezocht ![ geef het gezamenlijke paneel van kijkers van Media ](/help/assets/icons/Edit.svg) uit om het paneel uit te geven en opnieuw te bouwen.
+Op elk ogenblik, uitgezocht ![&#x200B; geef het gezamenlijke paneel van kijkers van Media &#x200B;](/help/assets/icons/Edit.svg) uit om het paneel uit te geven en opnieuw te bouwen.
 
 Als u een reeksindeling selecteert, worden een regel in het lijndiagram en een samenvattingsnummer voor elke regel weergegeven:
 
-![ de Gelijktijdige output van Kijkers van Media.](assets/concurrent-viewers-output.png)
+![&#x200B; de Gelijktijdige output van Kijkers van Media.](assets/concurrent-viewers-output.png)
 
 ### Gegevensbron
 
@@ -108,7 +108,7 @@ De enige metrische waarde die in dit deelvenster kan worden gebruikt, is **[!UIC
 
 In deze weergave is geen tabel voor vrije vorm beschikbaar.  Als u de gegevensbron wilt weergeven, kunt u de gegevensbron downloaden in het contextmenu voor de visualisatie van het lijndiagram en **[!UICONTROL Download data as CSV]** selecteren.  Uitsplitsingen naar reeksen worden opgenomen.
 
-![ de Gelijktijdige die uitvoeropties van kijkers met &quot;gegevens van de Download als Csv&quot;worden benadrukt.](assets/concurrent-viewers-download-csv.png)
+![&#x200B; de Gelijktijdige die uitvoeropties van kijkers met &quot;gegevens van de Download als Csv&quot;worden benadrukt.](assets/concurrent-viewers-download-csv.png)
 
 ## Veelgestelde vragen
 
@@ -129,7 +129,7 @@ In deze weergave is geen tabel voor vrije vorm beschikbaar.  Als u de gegevensbr
 
 >[!MORELIKETHIS]
 >
->[ creeer een paneel ](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[De playbacktijd van media bestede paneel ](media-playback-time-spent.md)
->&#x200B;>[Mediagemiddelde minieme publiekspaneel ](average-minute-audience-panel.md)
+>[&#x200B; creeer een paneel &#x200B;](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
+>&#x200B;>[De playbacktijd van media bestede paneel &#x200B;](media-playback-time-spent.md)
+>&#x200B;>[Mediagemiddelde minieme publiekspaneel &#x200B;](average-minute-audience-panel.md)
 >

@@ -21,19 +21,19 @@ Als u de weergavedichtheid aanpast, kunt u meer gegevens op het scherm zien door
 
 Dit is de versie met de meest versmalde weergave.
 
-![ de Compacte meningsdichtheden.](assets/view-density-compact.png)
+![&#x200B; de Compacte meningsdichtheden.](assets/view-density-compact.png)
 
 >[!TAB  Comfortable ]
 
 Dit is de weergave die je gebruikt in Workspace.
 
-![ de Uitgebreide meningsdichtheden.](assets/view-density-comfortable.png)
+![&#x200B; de Uitgebreide meningsdichtheden.](assets/view-density-comfortable.png)
 
 >[!TAB  Uitgebreid ]
 
 Dit is de versie met de meest uitgebreide weergave.
 
-![ de Uitgebreide meningsdichtheden.](assets/view-density-expanded.png)
+![&#x200B; de Uitgebreide meningsdichtheden.](assets/view-density-expanded.png)
 
 >[!ENDTABS]
 

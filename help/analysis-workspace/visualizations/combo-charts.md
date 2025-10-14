@@ -25,14 +25,14 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_Dit artikel documenteert Combo visualization in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Dit artikel documenteert Combo visualization in_ ![&#x200B; CustomerJourneyAnalytics &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
 
-_zie [ Combo ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_zie [&#x200B; Combo &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts) voor_ ![&#x200B; AdobeAnalytics &#x200B;](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
 
-De ![ kaart Combo ](/help/assets/icons/ComboChart.svg) **[!UICONTROL Combo]** visualisatie maakt het gemakkelijk om een vergelijkingsvisualisatie snel te bouwen zonder het moeten eerst een lijst bouwen. U kunt tendensen in uw gegevens in een lijn gemakkelijk bekijken/bar combinatie.
+De ![&#x200B; kaart Combo &#x200B;](/help/assets/icons/ComboChart.svg) **[!UICONTROL Combo]** visualisatie maakt het gemakkelijk om een vergelijkingsvisualisatie snel te bouwen zonder het moeten eerst een lijst bouwen. U kunt tendensen in uw gegevens in een lijn gemakkelijk bekijken/bar combinatie.
 
 Een [!UICONTROL Combo] gebruiken om:
 
@@ -50,7 +50,7 @@ Houd er rekening mee dat:
 
 ## Gebruiken
 
-1. Voeg a ![ Commentaar ](/help/assets/icons/ComboChart.svg) [!UICONTROL Combo] visualisatie toe. Zie [ een visualisatie aan een paneel ](freeform-analysis-visualizations.md#add-visualizations-to-a-panel) toevoegen
+1. Voeg a ![&#x200B; Commentaar &#x200B;](/help/assets/icons/ComboChart.svg) [!UICONTROL Combo] visualisatie toe. Zie [&#x200B; een visualisatie aan een paneel &#x200B;](freeform-analysis-visualizations.md#add-visualizations-to-a-panel) toevoegen
 
 1. Selecteer in de vervolgkeuzemenu&#39;s een afmeting voor de X-as en een afmeting voor de Y-as.
 
@@ -58,9 +58,9 @@ Houd er rekening mee dat:
 
    | Het vergelijkingstype Lijn | Definitie |
    | --- | --- |
-   | **[!UICONTROL Time comparison]** | Het meest voorkomende type vergelijking: deze periode wordt bijvoorbeeld vergeleken met 4 weken geleden. Als u [!UICONTROL Time comparison] selecteerde, maak een secundaire selectie over welke tijdspanne u wilt vergelijken.<p>![ LIne vergelijking met de geselecteerde periode van de Tijd en het secundaire selectiegebied voor de periode van de Tijd.](assets/combo-time-period.png) |
-   | **[!UICONTROL Function]** | U kunt een functie als [!UICONTROL Average] in de vergelijking introduceren. Zie de lijst van [ gesteunde functies ](#supported-functions).<p>![ LIne vergelijkingsdrop-down menu die Functies tonen en een lijst van beschikbare gesteunde functies.](assets/combo-functions.png) |
-   | **[!UICONTROL Secondary metric]** | U kunt bijvoorbeeld [!UICONTROL Revenue] met een andere metrische waarde vergelijken.<p>![ een Combo grafiek die twee metriek vergelijkt.](assets/combo-2metrics-settings.png) |
+   | **[!UICONTROL Time comparison]** | Het meest voorkomende type vergelijking: deze periode wordt bijvoorbeeld vergeleken met 4 weken geleden. Als u [!UICONTROL Time comparison] selecteerde, maak een secundaire selectie over welke tijdspanne u wilt vergelijken.<p>![&#x200B; LIne vergelijking met de geselecteerde periode van de Tijd en het secundaire selectiegebied voor de periode van de Tijd.](assets/combo-time-period.png) |
+   | **[!UICONTROL Function]** | U kunt een functie als [!UICONTROL Average] in de vergelijking introduceren. Zie de lijst van [&#x200B; gesteunde functies &#x200B;](#supported-functions).<p>![&#x200B; LIne vergelijkingsdrop-down menu die Functies tonen en een lijst van beschikbare gesteunde functies.](assets/combo-functions.png) |
+   | **[!UICONTROL Secondary metric]** | U kunt bijvoorbeeld [!UICONTROL Revenue] met een andere metrische waarde vergelijken.<p>![&#x200B; een Combo grafiek die twee metriek vergelijkt.](assets/combo-2metrics-settings.png) |
 
    {style="table-layout:auto"}
 
@@ -68,7 +68,7 @@ Houd er rekening mee dat:
 
    De uitvoer ziet er ongeveer als volgt uit:
 
-   ![ een Combo grafiek die de huidige periode in een grafiek van de bar en vergelijkingsperiode in de lijngrafiek toont ](assets/combo-output.png)
+   ![&#x200B; een Combo grafiek die de huidige periode in een grafiek van de bar en vergelijkingsperiode in de lijngrafiek toont &#x200B;](assets/combo-output.png)
 
    De huidige periode wordt weergegeven in het staafdiagram. Het lijndiagram geeft de vergelijkingsperiode weer. De punten op het lijndiagram zijn gekend als *balken*.
 
@@ -90,15 +90,15 @@ Wanneer u **[!UICONTROL Function]** als [!UICONTROL Line comparison type] select
 
 Hier is een voorbeeld van het cumulatieve gemiddelde van de metrische inkomsten:
 
-![ een Combo grafiek die het cumulatieve gemiddelde ](assets/combo-cumul-avg.png) toont
+![&#x200B; een Combo grafiek die het cumulatieve gemiddelde &#x200B;](assets/combo-cumul-avg.png) toont
 
 Hier is een voorbeeld van een combo grafiek met zowel Cumulatieve gemiddelde als Gemiddelde functies:
 
-![ A Combo grafiek die zowel cumulatieve gemiddelde als gemiddelde functies tonen.](assets/combo-three-functions.png)
+![&#x200B; A Combo grafiek die zowel cumulatieve gemiddelde als gemiddelde functies tonen.](assets/combo-three-functions.png)
 
 >[!MORELIKETHIS]
 >
->[ voeg een visualisatie aan een paneel toe ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Visualisatie-instellingen ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Contextmenu Visualisatie ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[&#x200B; voeg een visualisatie aan een paneel toe &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>&#x200B;>[Visualisatie-instellingen &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>&#x200B;>[Contextmenu Visualisatie &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

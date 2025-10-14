@@ -23,10 +23,10 @@ Wanneer u een dimensie in een vrije vormlijst laat vallen, zijn de dynamische ri
 
 Wanneer u bijvoorbeeld de afmetingen Browsertype naar de tabel sleept, worden de bovenste elementen voor Browsertype (bijvoorbeeld Microsoft, Apple, Google, enz.) dynamisch teruggezet naar de tabelrijen. Indien neergezet in een kolom, de top 5 Browser de afmetingspunten van het Type dynamisch terugkeren.
 
-De dynamische afmetingspunten hebben de optie van de rijfilter ![ Filter ](/help/assets/icons/Filter.svg) en a ![ dicht ](/help/assets/icons/Close.svg), en hebben **niet** een slot ![ LockClosed ](/help/assets/icons/LockClosed.svg) aanwezig. <!--do they have the lock icon? --> wanneer u ![ dicht ](/help/assets/icons/Close.svg) naast een dynamisch afmetingspunt klikt, wordt een filter automatisch toegepast. Voor meer informatie over het toepassen van filters op lijsten, zie [ Filter en sorteerlijsten ](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+De dynamische afmetingspunten hebben de optie van de rijfilter ![&#x200B; Filter &#x200B;](/help/assets/icons/Filter.svg) en a ![&#x200B; dicht &#x200B;](/help/assets/icons/Close.svg), en hebben **niet** een slot ![&#x200B; LockClosed &#x200B;](/help/assets/icons/LockClosed.svg) aanwezig. <!--do they have the lock icon? --> wanneer u ![&#x200B; dicht &#x200B;](/help/assets/icons/Close.svg) naast een dynamisch afmetingspunt klikt, wordt een filter automatisch toegepast. Voor meer informatie over het toepassen van filters op lijsten, zie [&#x200B; Filter en sorteerlijsten &#x200B;](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 
-![ A Freeform Lijst die het filterpictogram benadrukt.](assets/dynamic-items.png)
+![&#x200B; A Freeform Lijst die het filterpictogram benadrukt.](assets/dynamic-items.png)
 
 ## Statische dimensie-items
 
@@ -38,15 +38,15 @@ Wanneer u bijvoorbeeld over specifieke BrowserType-items sleept, zoals Microsoft
 
 Er kunnen ook statische dimensie-items worden gemaakt als u ervoor kiest om **[!UICONTROL Display only selected rows]** te selecteren in het contextmenu voor geselecteerde rijen.
 
-De statische afmetingspunten hebben **&#x200B;**&#x200B;niet de optie van de rijfilter. In plaats daarvan, zijn a ![ LockClosed ](/help/assets/icons/LockClosed.svg) en ![ dicht ](/help/assets/icons/Close.svg) aanwezig op elk punt. Selecteer ![ dicht ](/help/assets/icons/Close.svg) om dat afmetingspunt uit de lijst te verwijderen.
+De statische afmetingspunten hebben **&#x200B;**&#x200B;niet de optie van de rijfilter. In plaats daarvan, zijn a ![&#x200B; LockClosed &#x200B;](/help/assets/icons/LockClosed.svg) en ![&#x200B; dicht &#x200B;](/help/assets/icons/Close.svg) aanwezig op elk punt. Selecteer ![&#x200B; dicht &#x200B;](/help/assets/icons/Close.svg) om dat afmetingspunt uit de lijst te verwijderen.
 
-![ A Freeform Lijst die de Browser Type en de rij van Microsoft met een slotpictogramnota toont: Dit afmetingspunt is statisch en zal niet met tijd veranderen.](assets/static-items.png)
+![&#x200B; A Freeform Lijst die de Browser Type en de rij van Microsoft met een slotpictogramnota toont: Dit afmetingspunt is statisch en zal niet met tijd veranderen.](assets/static-items.png)
 
 ## Items met gemengde dimensies
 
 Dimension-items van verschillende afmetingen kunnen aan dezelfde tabel worden toegevoegd. In deze gevallen staat de rijkop op **[!UICONTROL Mixed Dimensions]** . Deze dimensie-items zijn statisch. Bijvoorbeeld, toevoegend specifieke afmetingspunten van de Browser afmeting van de Groep en andere afmetingspunten van de Browser afmeting van de Naam.
 
-![ A Freeform Lijst die de Gemengde kolom van Afmetingen benadrukt.](assets/mixed-dimensions.png)
+![&#x200B; A Freeform Lijst die de Gemengde kolom van Afmetingen benadrukt.](assets/mixed-dimensions.png)
 
 ## Totaal aantal rijen vrije vorm
 

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Adobe Analytics is begonnen als een web- en digitaal analyseprogramma voor marketers, terwijl Customer Journey Analytics het bereik heeft uitgebreid tot multikanaalgegevens, offlinegegevens en platformonafhankelijke gegevens.  Beide hulpmiddelen helpen de Onderneming aan Consumentenondernemingen (B2C) hun marketing inspanningen en klantenervaring analyseren en optimaliseren. En nadruk op **op persoon-gebaseerde rapportering en analyse**: begrijp de klantenreis, waar de klant een persoon is die met uw merk over veelvoudige kanalen in wisselwerking staat.
 
-![ B2B heldbeeld ](assets/b2b-image.png)
+![&#x200B; B2B heldbeeld &#x200B;](assets/b2b-image.png)
 Customer Journey Analytics B2B edition voegt **op rekening-gebaseerde rapportering en analyse** toe. In B2B (zaken-aan-zaken) verkoop, omvat de koopreis veelvoudige partijen, online en off-line touchpoints, en zeer belangrijke stadia alvorens een overeenkomst te sluiten. B2B-bedrijven moeten al deze interacties bijhouden in een uniforme reisweergave om hun marketinginspanningen en accountervaringen op effectieve wijze te analyseren en te optimaliseren.
 
 Typische B2B-verkoopkenmerken zijn:
@@ -43,8 +43,8 @@ Customer Journey Analytics B2B edition helpt B2B-bedrijven hun marketing-, verko
 
 >[!MORELIKETHIS]
 >
->[ B2B concepten en eigenschappen ](cja-b2b-concepts-features.md)
->&#x200B;>[B2B-handleiding voor snel starten ](cja-b2b-quick-start-guide.md)
->&#x200B;>[B2B-overgangshandleiding ](cja-b2b-transition.md)
->&#x200B;>[B2B-gebruiksgevallen ](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)
+>[&#x200B; B2B concepten en eigenschappen &#x200B;](cja-b2b-concepts-features.md)
+>&#x200B;>[B2B-handleiding voor snel starten &#x200B;](cja-b2b-quick-start-guide.md)
+>&#x200B;>[B2B-overgangshandleiding &#x200B;](cja-b2b-transition.md)
+>&#x200B;>[B2B-gebruiksgevallen &#x200B;](/help/use-cases/b2b/b2b-edition/use-cases-overview.md)
 >

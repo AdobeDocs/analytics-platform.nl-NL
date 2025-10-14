@@ -12,20 +12,20 @@ ht-degree: 0%
 
 # Berekende maatstaven delen
 
-In de [ Berekende metriekmanager ](cm-manager.md), kunt u berekende metriek delen. Afhankelijk van uw toestemmingen, kunt u berekende metriek met uw volledige organisatie, groepen, of individuele gebruikers delen:
+In de [&#x200B; Berekende metriekmanager &#x200B;](cm-manager.md), kunt u berekende metriek delen. Afhankelijk van uw toestemmingen, kunt u berekende metriek met uw volledige organisatie, groepen, of individuele gebruikers delen:
 
-* **Beheerders**: De beheerders kunnen berekende metrisch met de volledige organisatie, met groepen binnen een organisatie, en met individuele gebruikers delen. Zie de [ documentatie van Admin Console ](https://helpx.adobe.com/nl/enterprise/using/manage-products.html) voor meer informatie.
+* **Beheerders**: De beheerders kunnen berekende metrisch met de volledige organisatie, met groepen binnen een organisatie, en met individuele gebruikers delen. Zie de [&#x200B; documentatie van Admin Console &#x200B;](https://helpx.adobe.com/nl/enterprise/using/manage-products.html) voor meer informatie.
 * **niet-beheerders**: De niet-beheerders kunnen berekende metrisch slechts delen zij en slechts met individuele gebruikers hebben gecreeerd.
 
 Een of meer berekende metrische waarden delen:
 
-1. In de [ Berekende metrische manager ](cm-manager.md), selecteer één of meer van de berekende metriek u wilt delen.
-1. Van de actiebar, uitgezochte ![ Aandeel ](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]**.
+1. In de [&#x200B; Berekende metrische manager &#x200B;](cm-manager.md), selecteer één of meer van de berekende metriek u wilt delen.
+1. Van de actiebar, uitgezochte ![&#x200B; Aandeel &#x200B;](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]**.
 1. In het dialoogvenster **[!UICONTROL Share Calculated metric]** :
 
-   ![ Deel berekende metriekdialoog ](assets/share-calculated-metrics-dialog.png)
+   ![&#x200B; Deel berekende metriekdialoog &#x200B;](assets/share-calculated-metrics-dialog.png)
 
-   1. (Naar keuze) gebruik ![ Onderzoek ](/help/assets/icons/Search.svg) aan *individuen of groepen van het Onderzoek* voor en beperkt de lijst van groepen of individuen u de berekende metriek met wilt delen.
+   1. (Naar keuze) gebruik ![&#x200B; Onderzoek &#x200B;](/help/assets/icons/Search.svg) aan *individuen of groepen van het Onderzoek* voor en beperkt de lijst van groepen of individuen u de berekende metriek met wilt delen.
 
    1. Selecteer een of meer opties in de sectie **[!UICONTROL Organization]** of **[!UICONTROL Groups]** of zoek naar en selecteer een of meer personen. Welke opties beschikbaar zijn, is afhankelijk van uw rol.
 
@@ -35,7 +35,7 @@ Een of meer berekende metrische waarden delen:
 
 Hieronder vindt u een aantal aanbevolen procedures voor het delen van berekende metriek en voor het delen van berekende metrisch.
 
-* Als beheerder, deel slechts berekende metrisch met allen als u iedereen in uw organisatie wordt overtuigd is het gebruiken van berekende metrisch. U kunt ook overwegen deze berekende maatstaven te begunstigen. Zie [ Teken berekende metrisch als favoriet ](cm-favorite.md) voor meer informatie.
+* Als beheerder, deel slechts berekende metrisch met allen als u iedereen in uw organisatie wordt overtuigd is het gebruiken van berekende metrisch. U kunt ook overwegen deze berekende maatstaven te begunstigen. Zie [&#x200B; Teken berekende metrisch als favoriet &#x200B;](cm-favorite.md) voor meer informatie.
 
 * Als beheerder, deel berekende metrisch met een specifieke groep als dat berekende metrisch bedrijfswaarde voor het gebruikersdeel van die groep verstrekt.
 

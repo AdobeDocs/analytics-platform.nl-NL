@@ -20,16 +20,16 @@ Door Quantum Metric-sessiereplay te koppelen aan CJA-gegevens, kunnen klanten be
 
 Bij deze stappen wordt ervan uitgegaan dat u tags gebruikt in de gegevensverzameling van Adobe Experience Platform. U kunt deze methodes van de gegevensinzameling in een handmatige implementatie van SDK van het Web aanpassen als uw organisatie geen markeringen gebruikt.
 
-Zie de [ Metrische de markeringsuitbreiding van het Quantum ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/analytics/quantum-metric) documentatie voor meer informatie.
+Zie de [&#x200B; Metrische de markeringsuitbreiding van het Quantum &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/analytics/quantum-metric) documentatie voor meer informatie.
 
 ## Stap 1: Maak een schemaveld om de metrische sessie-id van Quantum aan te passen
 
 Voor dit gebruik is een speciaal schemaveld vereist om gegevens naar te verzenden. U kunt dit gebied in om het even welke gewenste plaats in uw schema tot stand brengen en het noemen wat u wilt. Er worden voorbeeldwaarden gegeven als uw organisatie geen voorkeur op naam of locatie heeft.
 
-1. Login aan [ experience.adobe.com ](https://experience.adobe.com).
+1. Login aan [&#x200B; experience.adobe.com &#x200B;](https://experience.adobe.com).
 1. Ga naar **[!UICONTROL Data Collection]** > **[!UICONTROL Schemas]**.
 1. Selecteer het gewenste schema in de lijst.
-1. Selecteer ![ voeg gebiedspictogram ](/help/assets/icons/AddCircle.svg) naast het gewenste voorwerp toe. Bijvoorbeeld naast `Implementation Details` .
+1. Selecteer ![&#x200B; voeg gebiedspictogram &#x200B;](/help/assets/icons/AddCircle.svg) naast het gewenste voorwerp toe. Bijvoorbeeld naast `Implementation Details` .
 1. Typ rechts in het scherm de gewenste waarde [!UICONTROL Name] . Bijvoorbeeld `qmSessionId` .
 1. Voer het gewenste [!UICONTROL Display name] in. Bijvoorbeeld `Quantum Metric session ID` .
 1. Selecteer [!UICONTROL Type] als **[!UICONTROL String]** .
@@ -39,7 +39,7 @@ Voor dit gebruik is een speciaal schemaveld vereist om gegevens naar te verzende
 
 Ga als volgt te werk om de metrische sessie-id van Quantum toe te voegen aan de gegevens die u naar Adobe Experience Platform verzendt.
 
-1. Login aan [ experience.adobe.com ](https://experience.adobe.com).
+1. Login aan [&#x200B; experience.adobe.com &#x200B;](https://experience.adobe.com).
 1. Ga naar **[!UICONTROL Data Collection]** > **[!UICONTROL Tags]**.
 1. Selecteer de gewenste eigenschap tag.
 1. Selecteer **[!UICONTROL Data Elements]** en selecteer vervolgens **[!UICONTROL Add Data Element]** .
@@ -80,21 +80,21 @@ Als uw XDM-object al is opgenomen in een configuratie voor een send-gebeurtenisa
 
 Zodra de bovenstaande wijzigingen in uw implementatie zijn gepubliceerd, bewerkt u de bestaande gegevensweergave om de sessie-id toe te voegen als een beschikbare dimensie in Customer Journey Analytics.
 
-1. Login aan [ experience.adobe.com ](https://experience.adobe.com).
+1. Login aan [&#x200B; experience.adobe.com &#x200B;](https://experience.adobe.com).
 1. Navigeer naar Customer Journey Analytics en selecteer **[!UICONTROL Data views]** in het bovenste menu.
 1. Selecteer de gewenste bestaande gegevensweergave.
 1. Zoek het veld Metrische sessie-id voor Quantum aan de linkerkant en sleep dit naar het gebied met afmetingen in het midden.
-1. In de juiste ruit, plaats [ persistentie ](/help/data-views/component-settings/persistence.md) het plaatsen aan `Session`.
+1. In de juiste ruit, plaats [&#x200B; persistentie &#x200B;](/help/data-views/component-settings/persistence.md) het plaatsen aan `Session`.
 1. Selecteer **[!UICONTROL Save]** .
 
 ## Stap 4: Vorm Analysis Workspace om de dimensie van zitting-identiteitskaart aan te passen
 
 Creeer een vrije vormlijst in Workspace en vorm het zodat de waarden van zittingidentiteitskaart rechtstreeks met Metric Quantum verbinden.
 
-1. Login aan [ experience.adobe.com ](https://experience.adobe.com).
+1. Login aan [&#x200B; experience.adobe.com &#x200B;](https://experience.adobe.com).
 1. Navigeer naar Customer Journey Analytics en selecteer **[!UICONTROL Workspace]** in het bovenste menu.
 1. Selecteer een bestaand project of maak een project.
-1. Creeer de lijst van de a [ Vrije vorm ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+1. Creeer de lijst van de a [&#x200B; Vrije vorm &#x200B;](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md).
 1. Sleep de dimensie van sessie-id naar het Workspace-canvas.
 1. Klik met de rechtermuisknop op de kolomkop voor de dimensie en selecteer vervolgens **[!UICONTROL Create hyperlinks for all dimension items]** .
 1. Selecteer **[!UICONTROL Create a custom URL]** .
@@ -106,12 +106,12 @@ Creeer een vrije vormlijst in Workspace en vorm het zodat de waarden van zitting
 
 1. Klik op **[!UICONTROL Create]**.
 
-Elke sessie-id is nu een klikbare koppeling. Zie [ hyperlinks in een vrije vormlijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) voor meer informatie bij het toevoegen van hyperlinks aan de afmetingspunten van Analysis Workspace creëren.
+Elke sessie-id is nu een klikbare koppeling. Zie [&#x200B; hyperlinks in een vrije vormlijst &#x200B;](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) voor meer informatie bij het toevoegen van hyperlinks aan de afmetingspunten van Analysis Workspace creëren.
 
-![ opnieuw spel van de Zitting ](assets/session-replay.png)
+![&#x200B; opnieuw spel van de Zitting &#x200B;](assets/session-replay.png)
 
 ## Stap 5: sessies van Customer Journey Analytics weergeven
 
 Zodra u een interessant segment hebt gevonden dat u zittingsreplay wilt onderzoeken, kunt u het op het paneel toepassen dat uw verbindingen van zittingidentiteitskaart omvat. De lijst keert alle zittingen in dat segment terug, en u kunt om het even welk van hen klikken om verder in Metrisch Quantum te onderzoeken.
 
-Zie [ de ondernemingsgids om ](https://www.quantummetric.com/resources/ebook/the-enterprise-guide-to-session-replay) op Metrisch Quantum voor meer informatie opnieuw te spelen. U kunt uw Metrische vertegenwoordiger van de klantensteun van Quantum ook contacteren of een verzoek indienen door het [ Metrische Portaal van het Verzoek van de Klant van Quantum Metrisch ](https://community.quantummetric.com/s/public-support-page).
+Zie [&#x200B; de ondernemingsgids om &#x200B;](https://www.quantummetric.com/resources/ebook/the-enterprise-guide-to-session-replay) op Metrisch Quantum voor meer informatie opnieuw te spelen. U kunt uw Metrische vertegenwoordiger van de klantensteun van Quantum ook contacteren of een verzoek indienen door het [&#x200B; Metrische Portaal van het Verzoek van de Klant van Quantum Metrisch &#x200B;](https://community.quantummetric.com/s/public-support-page).

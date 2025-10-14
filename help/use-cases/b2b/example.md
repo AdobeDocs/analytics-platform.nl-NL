@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Een voorbeeld van een op persoon gebaseerd B2B-project
 
-Dit artikel illustreert een gebruiksgeval waar u in Customer Journey Analytics over persoongegevens binnen de context van een typisch persoon-gebaseerde B2B opstelling wilt behoorlijk melden. Zulk een configuratie wordt vergemakkelijkt door [ Real-Time CDP B2B edition ](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview).  In het gebruiksgeval wordt uitgelegd hoe u op profielniveau gebaseerde B2B-gegevens in Customer Journey Analytics kunt instellen, configureren en rapporteren.
+Dit artikel illustreert een gebruiksgeval waar u in Customer Journey Analytics over persoongegevens binnen de context van een typisch persoon-gebaseerde B2B opstelling wilt behoorlijk melden. Zulk een configuratie wordt vergemakkelijkt door [&#x200B; Real-Time CDP B2B edition &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview).  In het gebruiksgeval wordt uitgelegd hoe u op profielniveau gebaseerde B2B-gegevens in Customer Journey Analytics kunt instellen, configureren en rapporteren.
 
-[!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} een afzonderlijke sectie voor rekening-gebaseerde rapporteringsgebruiksgevallen wordt gepubliceerd met de versie van [ B2B edition van Customer Journey Analytics ](/help/getting-started/cja-b2b-edition.md).
+[!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} een afzonderlijke sectie voor rekening-gebaseerde rapporteringsgebruiksgevallen wordt gepubliceerd met de versie van [&#x200B; B2B edition van Customer Journey Analytics &#x200B;](/help/getting-started/cja-b2b-edition.md).
 
 ## Verbinding
 
@@ -43,18 +43,18 @@ Definieer de verbinding zodat deze alle relevante B2B-gegevenssets van Experienc
 -->
 
 
-De verhouding tussen de B2B raadplegingsschema&#39;s, profielschema, en gebeurtenisschema wordt bepaald in de B2B opstelling binnen Experience Platform. Zie Schema&#39;s in [ Real-Time Customer Data Platform B2B edition ](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/schemas/b2b) en [ bepalen een vele-aan-één verhouding tussen twee schema&#39;s in Real-Time Customer Data Platform B2B edition ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/tutorials/relationship-b2b).
+De verhouding tussen de B2B raadplegingsschema&#39;s, profielschema, en gebeurtenisschema wordt bepaald in de B2B opstelling binnen Experience Platform. Zie Schema&#39;s in [&#x200B; Real-Time Customer Data Platform B2B edition &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/schemas/b2b) en [&#x200B; bepalen een vele-aan-één verhouding tussen twee schema&#39;s in Real-Time Customer Data Platform B2B edition &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/tutorials/relationship-b2b).
 
 
 Om een correcte opstelling van een verbinding te verzekeren die op persoon-gebaseerde raadplegingen van uw B2B gegevens steunt, gebruik de volgende illustratie voor een overzicht en volg deze stappen:
 
-![ B2B- schema&#39;s geannoteerde ](assets/b2b-schemas-annotated.svg)
+![&#x200B; B2B- schema&#39;s geannoteerde &#x200B;](assets/b2b-schemas-annotated.svg)
 
 1. Voeg datasets van de lijst hierboven aan uw verbinding toe.
 1. Voor elke opzoekgegevensset die u toevoegt aan uw verbinding, moet u de relatie met een gebeurtenisdataset expliciet definiëren met de dialoogvensters **[!UICONTROL Key]** en **[!UICONTROL Matching key]** in **[!UICONTROL Edit dataset]** .
-1. Voor elke raadplegingsdataset die u voor op persoon-gebaseerde B2B raadplegingen wilt omzetten, laat **[!UICONTROL Transform dataset]** toe om ervoor te zorgen dat de gegevens voor op persoon-gebaseerde raadplegingen worden omgezet. Zie [ datasets van de Transformatie voor B2B raadplegingen ](/help/connections/transform-datasets-b2b-lookups.md) voor extra informatie.
+1. Voor elke raadplegingsdataset die u voor op persoon-gebaseerde B2B raadplegingen wilt omzetten, laat **[!UICONTROL Transform dataset]** toe om ervoor te zorgen dat de gegevens voor op persoon-gebaseerde raadplegingen worden omgezet. Zie [&#x200B; datasets van de Transformatie voor B2B raadplegingen &#x200B;](/help/connections/transform-datasets-b2b-lookups.md) voor extra informatie.
 
-   ![ Sleutel - het Aanpassen sleutel ](assets/key-matchingkey.png)
+   ![&#x200B; Sleutel - het Aanpassen sleutel &#x200B;](assets/key-matchingkey.png)
 
    In de onderstaande tabel vindt u een voorbeeld van de waarden [!UICONTROL Person ID] , [!UICONTROL Key] en [!UICONTROL Matching key] voor elk van de gegevenssets.
 
@@ -73,7 +73,7 @@ Om een correcte opstelling van een verbinding te verzekeren die op persoon-gebas
 
 {style="table-layout:auto"}
 
-Zie [ datasets ](../../connections/create-connection.md) voor meer informatie toevoegen en vormen over hoe te om montages voor een dataset te vormen.
+Zie [&#x200B; datasets &#x200B;](../../connections/create-connection.md) voor meer informatie toevoegen en vormen over hoe te om montages voor een dataset te vormen.
 
 
 ## Gegevens, weergave
@@ -121,5 +121,5 @@ Met uw componenten die correct in de gegevensmening worden bepaald, kunt u speci
 
 Hieronder ziet u een schermafbeelding van een voorbeeldproject dat gebruikmaakt van de hierboven beschreven verbinding en gegevensweergave. De visualisatiebeschrijvingen verklaren welke van de vrije lijstvisualisatie op de getransformeerde B2B raadplegingsgegevens baseert.
 
-![ project van de Steekproef ](assets/sample-workspace-project.png)
+![&#x200B; project van de Steekproef &#x200B;](assets/sample-workspace-project.png)
 

@@ -23,14 +23,14 @@ U kunt de namen van mappen die u maakt alleen wijzigen als u een beheerder bent.
 
 De naam van mappen in Workspace wijzigen:
 
-* Selecteer een omslag die u in de [ lijst van het Project ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) wilt anders noemen.
+* Selecteer een omslag die u in de [&#x200B; lijst van het Project &#x200B;](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) wilt anders noemen.
 
-   1. Selecteer **[!UICONTROL Rename]** van de [ acties ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions) beschikbaar van het contextmenu ![ Meer ](/help/assets/icons/More.svg) van de geselecteerde omslag, of de blauwe actiebar.
+   1. Selecteer **[!UICONTROL Rename]** van de [&#x200B; acties &#x200B;](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions) beschikbaar van het contextmenu ![&#x200B; Meer &#x200B;](/help/assets/icons/More.svg) van de geselecteerde omslag, of de blauwe actiebar.
    1. In de **[!UICONTROL Rename: *de omslagnaam *]**&#x200B;dialoog, ga een nieuwe naam in en selecteer **[!UICONTROL Save]**.
 
 * In de map waarvan u de naam wilt wijzigen.
 
-   1. Selecteer **[!UICONTROL Rename folder]** van ![ Meer ](/help/assets/icons/More.svg) in het [ gebied van de Titel ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
+   1. Selecteer **[!UICONTROL Rename folder]** van ![&#x200B; Meer &#x200B;](/help/assets/icons/More.svg) in het [&#x200B; gebied van de Titel &#x200B;](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
    1. In de **[!UICONTROL Rename: *omslagnaam *]**&#x200B;dialoog gaat een nieuwe naam in en selecteert **[!UICONTROL Save]**.
 
@@ -41,16 +41,16 @@ U kunt alleen mappen verplaatsen die u maakt, tenzij u een beheerder bent. En de
 
 Mappen verplaatsen in Workspace:
 
-* Selecteer een omslag die u in de [ lijst van het Project ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) wilt bewegen.
+* Selecteer een omslag die u in de [&#x200B; lijst van het Project &#x200B;](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) wilt bewegen.
 
-   1. Selecteer **[!UICONTROL Move to]** van de [ acties ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions) beschikbaar van het contextmenu ![ Meer ](/help/assets/icons/More.svg) van de geselecteerde omslag, of de blauwe actiebar.
+   1. Selecteer **[!UICONTROL Move to]** van de [&#x200B; acties &#x200B;](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions) beschikbaar van het contextmenu ![&#x200B; Meer &#x200B;](/help/assets/icons/More.svg) van de geselecteerde omslag, of de blauwe actiebar.
    1. Selecteer in het dialoogvenster **[!UICONTROL Select Folder]** een map in het vervolgkeuzemenu **[!UICONTROL Folder]** waarnaar u de map wilt verplaatsen.
 
    1. Selecteer **[!UICONTROL Move]** .
 
 * Binnen de map die u wilt verplaatsen.
 
-   1. Selecteer **[!UICONTROL Move folder]** van ![ Meer ](/help/assets/icons/More.svg) in het [ gebied van de Titel ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
+   1. Selecteer **[!UICONTROL Move folder]** van ![&#x200B; Meer &#x200B;](/help/assets/icons/More.svg) in het [&#x200B; gebied van de Titel &#x200B;](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
    1. Selecteer in het dialoogvenster **[!UICONTROL Select Folder]** een map in het vervolgkeuzemenu **[!UICONTROL Folder]** waarnaar u de map wilt verplaatsen.
 
@@ -68,15 +68,15 @@ Wanneer u een map verwijdert, gelden de volgende richtlijnen:
 
 Mappen verwijderen in Workspace:
 
-* Selecteer één of meerdere omslagen die u in de [ lijst van het Project ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) wilt schrappen.
+* Selecteer één of meerdere omslagen die u in de [&#x200B; lijst van het Project &#x200B;](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) wilt schrappen.
 
-   1. Selecteer **[!UICONTROL Delete]** van de [ acties ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions) beschikbaar van het contextmenu ![ Meer ](/help/assets/icons/More.svg) van de geselecteerde omslag, of de blauwe actiebar.
+   1. Selecteer **[!UICONTROL Delete]** van de [&#x200B; acties &#x200B;](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions) beschikbaar van het contextmenu ![&#x200B; Meer &#x200B;](/help/assets/icons/More.svg) van de geselecteerde omslag, of de blauwe actiebar.
 
    1. Selecteer in het dialoogvenster **[!UICONTROL Are you sure?]** de optie **[!UICONTROL OK]** om de mappen te verwijderen.
 
 * Binnen de map die u wilt verwijderen.
 
-   1. Selecteer **[!UICONTROL Delete folder]** van ![ Meer ](/help/assets/icons/More.svg) in het [ gebied van de Titel ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
+   1. Selecteer **[!UICONTROL Delete folder]** van ![&#x200B; Meer &#x200B;](/help/assets/icons/More.svg) in het [&#x200B; gebied van de Titel &#x200B;](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
    1. In de **[!UICONTROL Delete *naam *omslag?]**&#x200B;selecteert u **[!UICONTROL OK]**.
 

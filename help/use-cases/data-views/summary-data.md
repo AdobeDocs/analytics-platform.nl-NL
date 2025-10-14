@@ -16,10 +16,10 @@ ht-degree: 7%
 
 Dit is handig als u wilt weten hoe u overzichtsgegevens kunt gebruiken in uw rapportage en analyse. In het gebruiksgeval worden alle stappen beschreven die vereist zijn om summiere gegevens in Customer Journey Analytics te gebruiken:
 
-- [ Samenvatting ](#ingest) gegevens en andere gegevensbronnen in Experience Platform.
-- Opstelling uw [ Verbinding ](#connection) voor de summiere gegevens en andere gegevensbronnen.
-- Vorm uw [ mening van Gegevens ](#data-view) om uw gegevensbronnen te combineren.
-- Rapport en analyseer in [ Workspace ](#workspace) op uw gecombineerde gegevens.
+- [&#x200B; Samenvatting &#x200B;](#ingest) gegevens en andere gegevensbronnen in Experience Platform.
+- Opstelling uw [&#x200B; Verbinding &#x200B;](#connection) voor de summiere gegevens en andere gegevensbronnen.
+- Vorm uw [&#x200B; mening van Gegevens &#x200B;](#data-view) om uw gegevensbronnen te combineren.
+- Rapport en analyseer in [&#x200B; Workspace &#x200B;](#workspace) op uw gecombineerde gegevens.
 
 Het gebruiksgeval verstrekt steekproefgegevens voor summiere gegevens, gebeurtenisgegevens en raadplegingsgegevens. Alle gegevens bevatten willekeurige waarden.
 
@@ -278,7 +278,7 @@ De gegevens van de opzoekopdracht zijn beschikbaar in de Dataset van de Gegevens
 | 17 | def321 | def-adgroup | 321 Campagne |
 | 18 | ghi321 | ghi-adgroup | 321 Campagne |
 
-[![ DataDownload ](/help/assets/icons/DataDownload.svg) gegevens van de de steekproefraadpleging van de Download &lbrace;](./assets/lookup-data.csv)
+[![&#x200B; DataDownload &#x200B;](/help/assets/icons/DataDownload.svg) gegevens van de de steekproefraadpleging van de Download &lbrace;](./assets/lookup-data.csv)
 +++
 
 >[!INFO]
@@ -293,24 +293,24 @@ Voor overzichtsgegevens is een overzichtsschema in Experience Platform vereist. 
 
 Een overzichtsschema maken in Experience Platform:
 
-1. Selecteer **[!UICONTROL Experience Platform]** in het menu   ![ app ](/help/assets/icons/Apps.svg)   app-switch.
+1. Selecteer **[!UICONTROL Experience Platform]** in het menu   ![&#x200B; app &#x200B;](/help/assets/icons/Apps.svg)   app-switch.
 1. Selecteer **[!UICONTROL Schemas]** in het linkerspoor.
-1. Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create schema]**.
+1. Selecteer ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create schema]**.
 1. Selecteer **[!UICONTROL Manual]** in het dialoogvenster **[!UICONTROL Create a schema]** . Gebruik vervolgens **[!UICONTROL Select]** om door te gaan.
 1. Selecteer in de stap **[!UICONTROL Select a class]** van de wizard **[!UICONTROL Schemas]** > **[!UICONTROL Create schema]** de optie **[!UICONTROL Other]** bij de opties **[!UICONTROL Select a base class for this schema]** .
-1. Van de lijst, selecteer **[!UICONTROL XDM Summary Metrics]** (of gebruik ![ Onderzoek ](/help/assets/icons/Search.svg) gebied om te zoeken) en selecteer **[!UICONTROL Next]**.
+1. Van de lijst, selecteer **[!UICONTROL XDM Summary Metrics]** (of gebruik ![&#x200B; Onderzoek &#x200B;](/help/assets/icons/Search.svg) gebied om te zoeken) en selecteer **[!UICONTROL Next]**.
 1. Voer in de stap **[!UICONTROL Name and review]** van de wizard **[!UICONTROL Schemas]** > **[!UICONTROL Create schema]** een **[!UICONTROL Schema display name]** voorbeeld `Example Summary Data Schema` en een optionele beschrijving in. Selecteer **[!UICONTROL Finish]** om deze stap te voltooien.
 
 De structuur van het basissamenvattingsschema wordt weergegeven en kan worden aangevuld met de velden voor uw samenvattingsgegevens. U voegt velden aan een schema toe met behulp van veldgroepen.
 
 U voegt als volgt een veldgroep met de velden voor de voorbeeldgegevens toe:
 
-1. Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** in **[!UICONTROL Field groups]**.
+1. Selecteer ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** in **[!UICONTROL Field groups]**.
 1. Selecteer **[!UICONTROL Create new field group]** in het dialoogvenster **[!UICONTROL Add field groups]** .
 1. Voer een **[!UICONTROL Display name]** in voor de veldgroep, bijvoorbeeld `Example Summary Data` . Geef desgewenst een beschrijving op.
 1. Selecteer **[!UICONTROL Add field groups]** .
 1. U bent terug in het gebruikersinterface van de schemastructuur. Selecteer de nieuwe **[!UICONTROL Example Summary Data]** in **[!UICONTROL Field groups]** .
-1. Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) naast de schemanaam **[!UICONTROL Example summary Data Schema]**. Er wordt een deelvenster **[!UICONTROL Field properties]** geopend waarin u details voor een veld kunt toevoegen.
+1. Selecteer ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) naast de schemanaam **[!UICONTROL Example summary Data Schema]**. Er wordt een deelvenster **[!UICONTROL Field properties]** geopend waarin u details voor een veld kunt toevoegen.
    1. Voer een **[!UICONTROL Field name]** in: `campaign_id`
    1. Voer een **[!UICONTROL Display name]** in: `campaign_id`
    1. Selecteer een **[!UICONTROL Type]** in de vervolgkeuzelijst **[!UICONTROL Select data type]** : **[!UICONTROL String]**
@@ -330,7 +330,7 @@ U voegt als volgt een veldgroep met de velden voor de voorbeeldgegevens toe:
 
 U hebt nu een schema gedefinieerd waarin het model voor uw samenvattingsgegevens wordt weergegeven. Gelijkaardig aan hieronder.
 
-![ Schema van de Gegevens van het Voorbeeld Summiere ](../assets/example-summary-schema.png)
+![&#x200B; Schema van de Gegevens van het Voorbeeld Summiere &#x200B;](../assets/example-summary-schema.png)
 
 
 
@@ -342,11 +342,11 @@ Om uw summiere gegevens in Experience Platform op te slaan, moet u eerst een dat
 
 Een gegevensset maken:
 
-1. Selecteer **[!UICONTROL Experience Platform]** in het menu   ![ app ](/help/assets/icons/Apps.svg)   app-switch.
+1. Selecteer **[!UICONTROL Experience Platform]** in het menu   ![&#x200B; app &#x200B;](/help/assets/icons/Apps.svg)   app-switch.
 1. Selecteer **[!UICONTROL Datasets]** in het linkerspoor.
-1. Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create dataset]**.
+1. Selecteer ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create dataset]**.
 1. Selecteer **[!UICONTROL Create dataset from schema]** in het scherm **[!UICONTROL Datasets]** > **[!UICONTROL Create datasets]** .
-1. In de **[!UICONTROL Select schema]** stap van de **[!UICONTROL Workflows]** > **[!UICONTROL Create dataset from schema]** tovenaar, ![ onderzoek ](/help/assets/icons/Search.svg) naar en selecteer uw **[!UICONTROL Example Summary Data Schema]**.
+1. In de **[!UICONTROL Select schema]** stap van de **[!UICONTROL Workflows]** > **[!UICONTROL Create dataset from schema]** tovenaar, ![&#x200B; onderzoek &#x200B;](/help/assets/icons/Search.svg) naar en selecteer uw **[!UICONTROL Example Summary Data Schema]**.
 1. Selecteer **[!UICONTROL Next]** .
 1. In de stap **[!UICONTROL Configure dataset]** van de wizard **[!UICONTROL Workflows]** > **[!UICONTROL Create dataset from schema]** :
    1. Voer een **[!UICONTROL Name]** in voor de gegevensset, bijvoorbeeld: `Example Summary Data Dataset` . Geef desgewenst een beschrijving op.
@@ -356,7 +356,7 @@ U ziet een scherm dat de details van uw nieuwe dataset toont.
 
 Om uw steekproefgegevens in deze dataset te uploaden:
 
-1. Selecteer **[!UICONTROL Experience Platform]** in het menu   ![ app ](/help/assets/icons/Apps.svg)   app-switch.
+1. Selecteer **[!UICONTROL Experience Platform]** in het menu   ![&#x200B; app &#x200B;](/help/assets/icons/Apps.svg)   app-switch.
 1. Selecteer **[!UICONTROL Workflows]** in het linkerspoor.
    1. Selecteer **[!UICONTROL Map CSV to XDM schema]** in de **[!UICONTROL Data ingestion]** -opties in het **[!UICONTROL Workflows]** -scherm.
    1. Selecteer **[!UICONTROL Launch]** in het deelvenster **[!UICONTROL Map CSV to XDM schema]** .
@@ -370,10 +370,10 @@ Om uw steekproefgegevens in deze dataset te uploaden:
    1. In **[!UICONTROL Sample data]** wordt een voorbeeld (10 records) van uw overzichtsgegevens weergegeven.
    1. Selecteer **[!UICONTROL Next]** .
 1. In de stap **[!UICONTROL Mapping]** van de wizard **[!UICONTROL Workflows]** > **[!UICONTROL Map CSV to XDM schema]** :
-   ![ de datasetafbeelding van het Voorbeeld ](../assets/example-dataset-mapping.png)
+   ![&#x200B; de datasetafbeelding van het Voorbeeld &#x200B;](../assets/example-dataset-mapping.png)
    1. Controleer of alle gegevensvelden van de **[!UICONTROL Source Data]** correct zijn toegewezen aan de corresponderende **[!UICONTROL Target fields]** in het schema. Voor de voorbeeldgegevens worden geen fouten gerapporteerd omdat u de velden in uw schema expliciet een naam geeft die lijkt op de veldnamen in de voorbeeldgegevens. Anders kunt u dit scherm gebruiken om de toewijzing te corrigeren.
-   1. U kunt naar keuze selecteren ![ Gaan ](/help/assets/icons/Gear.svg) **[!UICONTROL Validate]** om (opnieuw) de gegevens te bevestigen.
-   1. U kunt naar keuze selecteren ![ Voorproef ](/help/assets/icons/Preview.svg) **[!UICONTROL Preview data]** om een dialoog met een voorproef van de gegevens te openen zodra geladen in de dataset.
+   1. U kunt naar keuze selecteren ![&#x200B; Gaan &#x200B;](/help/assets/icons/Gear.svg) **[!UICONTROL Validate]** om (opnieuw) de gegevens te bevestigen.
+   1. U kunt naar keuze selecteren ![&#x200B; Voorproef &#x200B;](/help/assets/icons/Preview.svg) **[!UICONTROL Preview data]** om een dialoog met een voorproef van de gegevens te openen zodra geladen in de dataset.
    1. Selecteer **[!UICONTROL Finish]** .
 
 In **[!UICONTROL Sources]** > **[!UICONTROL Dataflow - XX/XX/XXXX, XX:XX XX]** wordt de status van het uploaden weergegeven. Vernieuw om updates van de upload te zien. Wanneer dit lukt, worden de voorbeeldgegevens geladen in Experience Platform.
@@ -386,7 +386,7 @@ In **[!UICONTROL Sources]** > **[!UICONTROL Dataflow - XX/XX/XXXX, XX:XX XX]** w
 Als u de voorbeeldgegevens in Customer Journey Analytics wilt gebruiken, maakt u een verbinding met de voorbeeldgegevensset van Experience Platform.
 
 
-1. Selecteer **[!UICONTROL Customer Journey Analytics]** in het menu   ![ app ](/help/assets/icons/Apps.svg)   app-switch.
+1. Selecteer **[!UICONTROL Customer Journey Analytics]** in het menu   ![&#x200B; app &#x200B;](/help/assets/icons/Apps.svg)   app-switch.
 1. Selecteer **[!UICONTROL Connections]** (optioneel) in **[!UICONTROL Data management]** in het bovenste menu.
 1. Selecteer **[!UICONTROL Create new connection]** .
 1. In **[!UICONTROL Connections]** > **[!UICONTROL Untitled connection]** :
@@ -395,7 +395,7 @@ Als u de voorbeeldgegevens in Customer Journey Analytics wilt gebruiken, maakt u
    1. Selecteer **[!UICONTROL less than 1 million]** in de vervolgkeuzelijst **[!UICONTROL Average number of daily events]** .
    1. Selecteer **[!UICONTROL Add datasets]** .
    1. In de stap **[!UICONTROL Select datasets]** van de wizard **[!UICONTROL Add datasets]** :
-      1. Onderzoek ![ Onderzoek ](/help/assets/icons/Search.svg) en selecteer **[!UICONTROL Example Summary Data Dataset]**, **[!UICONTROL Example Event Data Dataset]**, en **[!UICONTROL Example Lookup Data Dataset]**.
+      1. Onderzoek ![&#x200B; Onderzoek &#x200B;](/help/assets/icons/Search.svg) en selecteer **[!UICONTROL Example Summary Data Dataset]**, **[!UICONTROL Example Event Data Dataset]**, en **[!UICONTROL Example Lookup Data Dataset]**.
       1. Selecteer **[!UICONTROL Next]** .
    1. In de stap **[!UICONTROL Datasets settings]** van de wizard **[!UICONTROL Add datasets]** :
 
@@ -427,22 +427,22 @@ De gegevens uit de gegevenssets worden toegevoegd aan Customer Journey Analytics
 
 Controleer na enige tijd of de gegevens uit uw gegevenssets correct zijn geladen in Customer Journey Analytics.
 
-1. Selecteer **[!UICONTROL Customer Journey Analytics]** in het menu   ![ app ](/help/assets/icons/Apps.svg)   app-switch.
+1. Selecteer **[!UICONTROL Customer Journey Analytics]** in het menu   ![&#x200B; app &#x200B;](/help/assets/icons/Apps.svg)   app-switch.
 1. Selecteer **[!UICONTROL Connections]** (optioneel) in **[!UICONTROL Data management]** in het bovenste menu.
 1. Selecteer de verbinding, bijvoorbeeld **[!UICONTROL Example Connection Using Summary Data]** .
 1. Selecteer een geschikt datumbereik in de details **[!UICONTROL Connection]** > **[!UICONTROL Example Connection Using Summary data]** .
-   1. Selecteer ![ Kalender ](/help/assets/icons/Calendar.svg) en selecteer dan **[!UICONTROL Last 7 days]**.
+   1. Selecteer ![&#x200B; Kalender &#x200B;](/help/assets/icons/Calendar.svg) en selecteer dan **[!UICONTROL Last 7 days]**.
    1. Selecteer **[!UICONTROL Apply]** .
 
 In de lijst met **[!UICONTROL Datasets]** moeten de waarden in de kolom **[!UICONTROL Records added]** bevestigen dat gegevens uit uw gegevenssets nu deel uitmaken van Customer Journey Analytics.
 
-![ Verbinding van het Voorbeeld voor summiere gegevens ](../assets/example-connection-summary-data.png)
+![&#x200B; Verbinding van het Voorbeeld voor summiere gegevens &#x200B;](../assets/example-connection-summary-data.png)
 
 ## Gegevens, weergave
 
 Om ervoor te zorgen dat u de juiste gegevens in Workspace kunt rapporteren, wilt u een gegevensweergave maken met de relevante maatstaven en afmetingen.
 
-1. Selecteer **[!UICONTROL Customer Journey Analytics]** in het menu   ![ app ](/help/assets/icons/Apps.svg)   app-switch.
+1. Selecteer **[!UICONTROL Customer Journey Analytics]** in het menu   ![&#x200B; app &#x200B;](/help/assets/icons/Apps.svg)   app-switch.
 1. Selecteer **[!UICONTROL Data views]** (optioneel) in **[!UICONTROL Data management]** in het bovenste menu.
 1. Selecteer **[!UICONTROL Create new data view]** .
 1. In **[!UICONTROL Data views]**, ga door de tovenaar schermen om uw gegevensmening te vormen.
@@ -480,8 +480,8 @@ Om ervoor te zorgen dat u de juiste gegevens in Workspace kunt rapporteren, wilt
 
       1. Selecteer de **[!UICONTROL Tracking Code (Event)]** -dimensie in de lijst **[!UICONTROL Dimensions]** . In het deelvenster Componenten:
 
-         ![ het Volgen gegevens van de codesamenvatting ](../assets/tracking-code-summary-data.png)
-         1. Ontvouw ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Summary Data Group]**.
+         ![&#x200B; het Volgen gegevens van de codesamenvatting &#x200B;](../assets/tracking-code-summary-data.png)
+         1. Ontvouw ![&#x200B; ChevronDown &#x200B;](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Summary Data Group]**.
          1. Schakel **[!UICONTROL Create grouping]** in.
          1. Selecteer **[!UICONTROL Campaign Id]** in de vervolgkeuzelijst **[!UICONTROL Dimension]** . Deze stap zorgt ervoor dat gebeurtenisgegevens en samenvattingsgegevens correct worden gecombineerd voor rapportage.
          1. U kunt desgewenst **[!UICONTROL Hide in reporting]** inschakelen. [!UICONTROL Hide in reporting] zorgt ervoor dat de geselecteerde dimensie ([!UICONTROL Campaign Id]) verborgen is in Analysis Workspace en andere Customer Journey Analytics-rapportagegereedschappen. Als u deze optie hebt ingeschakeld, kunt u de optie verifiëren:
@@ -490,7 +490,7 @@ Om ervoor te zorgen dat u de juiste gegevens in Workspace kunt rapporteren, wilt
 
       1. Maak een nieuw afgeleid veld, bijvoorbeeld `Campaign Name (Lookup Derived Field)`, om ervoor te zorgen dat u in Workspace de dimensie Campagnenaam (Opzoeken) uit de gegevensset Gegevens opzoeken kunt gebruiken.
 
-         ![ Voortgekomen gebied voor campagnenaam ](../aa-data/../assets/summary-derived-field.png)
+         ![&#x200B; Voortgekomen gebied voor campagnenaam &#x200B;](../aa-data/../assets/summary-derived-field.png)
 
          1. Selecteer **[!UICONTROL campaign_id]** voor **[!UICONTROL Value]** .
          1. Selecteer **[!UICONTROL Example Lookup Data Dataset]** in de vervolgkeuzelijst **[!UICONTROL Lookup dataset]** .
@@ -502,29 +502,29 @@ Om ervoor te zorgen dat u de juiste gegevens in Workspace kunt rapporteren, wilt
 
       1. Selecteer de **[!UICONTROL Campaign Name (Lookup)]** -dimensie in de lijst **[!UICONTROL Dimensions]** . In het deelvenster Componenten:
 
-         ![ Afgeleide Groep van Gegevens van het Gebied Summiere ](../assets/derived-field-summary-data-group.png)
+         ![&#x200B; Afgeleide Groep van Gegevens van het Gebied Summiere &#x200B;](../assets/derived-field-summary-data-group.png)
 
-         1. Ontvouw ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Summary Data Group]**.
+         1. Ontvouw ![&#x200B; ChevronDown &#x200B;](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Summary Data Group]**.
          1. Schakel **[!UICONTROL Create grouping]** in.
-         1. Selecteer **[!UICONTROL Campaign Name (Lookup Derived Field)]** in de vervolgkeuzelijst **[!UICONTROL Dimension]** . Deze stap zorgt ervoor dat de Naam van de Campagne (Opzoeken) van de Dataset van de Gegevens van de Opzoeken van het Voorbeeld veilig in het melden (zie [ Workspace ](#workspace)) kan worden gebruikt.
+         1. Selecteer **[!UICONTROL Campaign Name (Lookup Derived Field)]** in de vervolgkeuzelijst **[!UICONTROL Dimension]** . Deze stap zorgt ervoor dat de Naam van de Campagne (Opzoeken) van de Dataset van de Gegevens van de Opzoeken van het Voorbeeld veilig in het melden (zie [&#x200B; Workspace &#x200B;](#workspace)) kan worden gebruikt.
 
       1. Selecteer de metrische waarde **[!UICONTROL Revenue]** in de lijst **[!UICONTROL Metrics]** . In het deelvenster Componenten:
 
-         ![ de summiere gegevens van de Opbrengst ](../assets/revenue-summary-data.png)
-         1. Ontvouw ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Attribution]**.
-            1. Selecteer ![ AttributeLastTouch ](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Last Touch]** van het **[!UICONTROL Attribution Model]** drop-down menu.
+         ![&#x200B; de summiere gegevens van de Opbrengst &#x200B;](../assets/revenue-summary-data.png)
+         1. Ontvouw ![&#x200B; ChevronDown &#x200B;](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Attribution]**.
+            1. Selecteer ![&#x200B; AttributeLastTouch &#x200B;](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Last Touch]** van het **[!UICONTROL Attribution Model]** drop-down menu.
             1. Selecteer **[!UICONTROL 30 Day]** in de vervolgkeuzelijst **[!UICONTROL Lookback window]** .
-         1. Ontvouw ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **Formaat**.
+         1. Ontvouw ![&#x200B; ChevronDown &#x200B;](/help/assets/icons/ChevronDown.svg) **Formaat**.
             1. Selecteer **[!UICONTROL Currency]** in de vervolgkeuzelijst **[!UICONTROL Format]** .
             1. Selecteer **[!UICONTROL 2]** in de vervolgkeuzelijst **[!UICONTROL Decimal places]** .
 
       1. Selecteer de metrische waarde **[!UICONTROL Orders]** in de lijst **[!UICONTROL Metrics]** . In het deelvenster Componenten:
 
-         ![ orden summiere gegevens ](../assets/orders-summary-data.png)
-         1. Ontvouw ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Attribution]**.
-            1. Selecteer ![ AttributeLastTouch ](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Last Touch]** van het **[!UICONTROL Attribution Model]** drop-down menu.
+         ![&#x200B; orden summiere gegevens &#x200B;](../assets/orders-summary-data.png)
+         1. Ontvouw ![&#x200B; ChevronDown &#x200B;](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Attribution]**.
+            1. Selecteer ![&#x200B; AttributeLastTouch &#x200B;](/help/assets/icons/AttributeLastTouch.svg) **[!UICONTROL Last Touch]** van het **[!UICONTROL Attribution Model]** drop-down menu.
             1. Selecteer **[!UICONTROL 30 Day]** in de vervolgkeuzelijst **[!UICONTROL Lookback window]** .
-         1. Ontvouw ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Format]**.
+         1. Ontvouw ![&#x200B; ChevronDown &#x200B;](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Format]**.
             1. Selecteer **[!UICONTROL Decimal]** in de vervolgkeuzelijst **[!UICONTROL Format]** .
             1. Selecteer **[!UICONTROL ▲ Good (green)]** in de vervolgkeuzelijst **[!UICONTROL Show upward trend as]** .
 
@@ -541,7 +541,7 @@ U hebt nu de gegevensweergave ingesteld voor een juiste rapportage over samenvat
 
 Maak een nieuw project in Analysis Workspace om uw samenvattingsgegevens te melden.
 
-1. Selecteer **[!UICONTROL Customer Journey Analytics]** in het menu   ![ app ](/help/assets/icons/Apps.svg)   app-switch.
+1. Selecteer **[!UICONTROL Customer Journey Analytics]** in het menu   ![&#x200B; app &#x200B;](/help/assets/icons/Apps.svg)   app-switch.
 1. Selecteer **[!UICONTROL Workspace]** in het bovenste menu.
 1. Selecteer **[!UICONTROL Create project]** .
 1. Selecteer **[!UICONTROL Blank Workspace project]** in het dialoogvenster met opties om een leeg Workspace-project te maken.
@@ -561,26 +561,26 @@ Er wordt een leeg canvas weergegeven met een deelvenster [!UICONTROL Freeform] ,
 U wilt de bevoegdheid gebruiken om over summiere gegevens te rapporteren en over kosten per indruk en terugkeer op ad-uitgave (ROAS) te melden. Om op deze metriek te rapporteren, moet u twee berekende metriek tot stand brengen.
 
 1. Selecteer **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]** .
-1. Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** om nieuwe berekende metrisch toe te voegen.
+1. Selecteer ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** om nieuwe berekende metrisch toe te voegen.
    1. Geef `Cost per Impression` op voor de lus **[!UICONTROL Name]** .
    1. Selecteer **[!UICONTROL Currency]** voor **[!UICONTROL Format]** .
    1. Geef `4` op voor **[!UICONTROL Decimal places]** .
-   1. Gebruik ![ Gebeurtenis ](/help/assets/icons/Event.svg) **[!UICONTROL Cost (Summary)]** **[!UICONTROL ÷]** **[!UICONTROL Impressions (Summary)]** als **[!UICONTROL Definition]**.
+   1. Gebruik ![&#x200B; Gebeurtenis &#x200B;](/help/assets/icons/Event.svg) **[!UICONTROL Cost (Summary)]** **[!UICONTROL ÷]** **[!UICONTROL Impressions (Summary)]** als **[!UICONTROL Definition]**.
    1. Selecteer **[!UICONTROL Save]** .
-1. Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** om een andere nieuwe berekende metrische waarde toe te voegen.
+1. Selecteer ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** om een andere nieuwe berekende metrische waarde toe te voegen.
    1. Geef `Return on Ad Spend` op voor de lus **[!UICONTROL Name]** .
    1. Selecteer **[!UICONTROL Currency]** voor **[!UICONTROL Format]** .
    1. Selecteer `2` voor **[!UICONTROL Decimal places]** .
-   1. Het gebruik ![ Gebeurtenis ](/help/assets/icons/Event.svg) **[!UICONTROL Revenue (Last Touch | 30 Days)]** **[!UICONTROL −]** ![ Gebeurtenis ](/help/assets/icons/Event.svg) **[!UICONTROL Cost (Summary)]** als **[!UICONTROL Definition]**.
+   1. Het gebruik ![&#x200B; Gebeurtenis &#x200B;](/help/assets/icons/Event.svg) **[!UICONTROL Revenue (Last Touch | 30 Days)]** **[!UICONTROL −]** ![&#x200B; Gebeurtenis &#x200B;](/help/assets/icons/Event.svg) **[!UICONTROL Cost (Summary)]** als **[!UICONTROL Definition]**.
    1. Selecteer **[!UICONTROL Save]** .
 
 Voeg uw berekende metriek aan uw rapport toe.
 
-1. Sleep **[!UICONTROL Cost per Impression]** ![ Rekenmachine ](/help/assets/icons/Calculator.svg) van **[!UICONTROL Metrics]** en laat vallen metrisch om als extra kolom aan de lijst Freeform toe te voegen.
-   1. Selecteer ![ plaatsende ](/help/assets/icons/Setting.svg) montages van de Kolom.
+1. Sleep **[!UICONTROL Cost per Impression]** ![&#x200B; Rekenmachine &#x200B;](/help/assets/icons/Calculator.svg) van **[!UICONTROL Metrics]** en laat vallen metrisch om als extra kolom aan de lijst Freeform toe te voegen.
+   1. Selecteer ![&#x200B; plaatsende &#x200B;](/help/assets/icons/Setting.svg) montages van de Kolom.
       1. Schakel **[!UICONTROL Percent]** uit.
-1. Sleep **[!UICONTROL Return on Ad Spend]** ![ Rekenmachine ](/help/assets/icons/Calculator.svg) van **[!UICONTROL Metrics]** en laat vallen metrisch om als extra kolom aan de lijst Freeform toe te voegen.
-   1. Selecteer ![ plaatsende ](/help/assets/icons/Setting.svg) montages van de Kolom.
+1. Sleep **[!UICONTROL Return on Ad Spend]** ![&#x200B; Rekenmachine &#x200B;](/help/assets/icons/Calculator.svg) van **[!UICONTROL Metrics]** en laat vallen metrisch om als extra kolom aan de lijst Freeform toe te voegen.
+   1. Selecteer ![&#x200B; plaatsende &#x200B;](/help/assets/icons/Setting.svg) montages van de Kolom.
       1. Schakel **[!UICONTROL Percent]** uit.
       1. Schakel **[!UICONTROL Conditional formatting]** in.
          1. Selecteer **[!UICONTROL Auto-generated]** .
@@ -591,16 +591,16 @@ Voer de volgende stappen uit als u de campagnenaam wilt rapporteren in plaats va
 
 1. Dupliceer de visualisatie van de **[!UICONTROL Summary Data Report]** Freeform-tabel.
 1. Wijzig de naam van de gedupliceerde visualisatie in `Summary Data Report (using Campaign Name)` .
-1. Vervang ![ Schakelaar ](/help/assets/icons/Switch.svg) de **[!UICONTROL Tracking Code (Event)]** dimensie met de **[!UICONTROL Campaign Name (Lookup)]** dimensie.
+1. Vervang ![&#x200B; Schakelaar &#x200B;](/help/assets/icons/Switch.svg) de **[!UICONTROL Tracking Code (Event)]** dimensie met de **[!UICONTROL Campaign Name (Lookup)]** dimensie.
 
-U kunt correct op de Naam van de Campagne (Opzoeken) wegens het afgeleide gebied melden u creeerde, en de samenvattingscomponentenconfiguratie van de gegevensgroep voor de Naam van de Campagne (Opzoeken). Zie [ mening van Gegevens ](#data-view).
+U kunt correct op de Naam van de Campagne (Opzoeken) wegens het afgeleide gebied melden u creeerde, en de samenvattingscomponentenconfiguratie van de gegevensgroep voor de Naam van de Campagne (Opzoeken). Zie [&#x200B; mening van Gegevens &#x200B;](#data-view).
 
 Uw uiteindelijke project moet er net zo uitzien als hieronder.
 
-![ Project van het Voorbeeld dat Summiere Gegevens gebruikt, die Samenvattend Comité van Gegevens met Samenvattend Rapport van Gegevens tonen ](../assets/summary-workspace.png)
+![&#x200B; Project van het Voorbeeld dat Summiere Gegevens gebruikt, die Samenvattend Comité van Gegevens met Samenvattend Rapport van Gegevens tonen &#x200B;](../assets/summary-workspace.png)
 
 
 >[!MORELIKETHIS]
 >
->[ Summiere gegevens ](/help/data-views/summary-data.md)
->[Samenvattende de componentenmontages van de gegevensgroep ](/help/data-views/component-settings/summary-data-group.md)
+>[&#x200B; Summiere gegevens &#x200B;](/help/data-views/summary-data.md)
+>[Samenvattende de componentenmontages van de gegevensgroep &#x200B;](/help/data-views/component-settings/summary-data-group.md)

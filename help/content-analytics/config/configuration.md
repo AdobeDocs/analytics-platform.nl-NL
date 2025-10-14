@@ -16,20 +16,20 @@ ht-degree: 0%
 
 In dit artikel wordt op hoog niveau beschreven hoe u Content Analytics kunt configureren.
 
-Alvorens u Content Analytics vormt, moet u de [ eerste vereisten ](#prerequisites) verzekeren wordt voldaan, hebt u de vereiste [ toegangscontrole ](#access-control), en u bent zich bewust van de [ beperkingen ](#limitations).
+Alvorens u Content Analytics vormt, moet u de [&#x200B; eerste vereisten &#x200B;](#prerequisites) verzekeren wordt voldaan, hebt u de vereiste [&#x200B; toegangscontrole &#x200B;](#access-control), en u bent zich bewust van de [&#x200B; beperkingen &#x200B;](#limitations).
 
 
 Stappen op hoog niveau
 
-![ Configuratie van Content Analytics ](../assets/aca-configuration.svg){zoomable="yes"}
+![&#x200B; Configuratie van Content Analytics &#x200B;](../assets/aca-configuration.svg){zoomable="yes"}
 
-1. Gebruik de Content Analytics [ geleide configuratie ](guided.md) tovenaar om u door alle stappen te begeleiden die worden vereist aan opstelling de eerste vereisten voor een configuratie van Content Analytics. U kunt uw configuraties op elk ogenblik bewaren en later terugkeren.
+1. Gebruik de Content Analytics [&#x200B; geleide configuratie &#x200B;](guided.md) tovenaar om u door alle stappen te begeleiden die worden vereist aan opstelling de eerste vereisten voor een configuratie van Content Analytics. U kunt uw configuraties op elk ogenblik bewaren en later terugkeren.
 1. Zodra u met de configuratiewaarden vertrouwd bent, kunt u de configuratie uitvoeren. Deze implementatie leidt tot alle vereiste artefacten, die op wat worden gebaseerd u in de tovenaar hebt gevormd.
-1. Slechts wanneer u [ manueel ](manual.md) het bezit van Markeringen publiceert, wordt uw configuratie van Content Analytics effectief opgesteld en de gegevensinzameling is begonnen.
+1. Slechts wanneer u [&#x200B; manueel &#x200B;](manual.md) het bezit van Markeringen publiceert, wordt uw configuratie van Content Analytics effectief opgesteld en de gegevensinzameling is begonnen.
 
-1. U kunt sommige minder belangrijke veranderingen in een uitgevoerde configuratie slechts aanbrengen gebruikend de [ geleide configuratie](guided.md) tovenaar. Bijvoorbeeld, verander de [ gegevensmening ](/help/data-views/data-views.md).
-1. U kunt andere veranderingen in een uitgevoerde configuratie aanbrengen gebruikend de [ uitbreiding van Adobe Content Analytics ](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/extensions/client/content-analytics/overview) in het bijbehorende bezit van Markeringen.
-1. Slechts wanneer u [ manueel ](manual.md) het bezit van Markeringen opnieuw publiceert, worden de configuratiewijzigingen effectief opgesteld en de gegevensinzameling, die op uw veranderingen wordt gebaseerd, is begonnen.
+1. U kunt sommige minder belangrijke veranderingen in een uitgevoerde configuratie slechts aanbrengen gebruikend de [&#x200B; geleide configuratie](guided.md) tovenaar. Bijvoorbeeld, verander de [&#x200B; gegevensmening &#x200B;](/help/data-views/data-views.md).
+1. U kunt andere veranderingen in een uitgevoerde configuratie aanbrengen gebruikend de [&#x200B; uitbreiding van Adobe Content Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/extensions/client/content-analytics/overview) in het bijbehorende bezit van Markeringen.
+1. Slechts wanneer u [&#x200B; manueel &#x200B;](manual.md) het bezit van Markeringen opnieuw publiceert, worden de configuratiewijzigingen effectief opgesteld en de gegevensinzameling, die op uw veranderingen wordt gebaseerd, is begonnen.
 
 
 ## Vereisten
@@ -37,12 +37,12 @@ Stappen op hoog niveau
 Voordat u Content Analytics configureert, moet u controleren of aan de volgende voorwaarden is voldaan:
 
 * U hebt de gebruikersagent en het IP-adres toegestaan voor de service voor kenmerking die in Content Analytics wordt gebruikt. Het koord van de Agent van de Gebruiker om te vormen is: <code> AdobeFeaturization/1.0</code>.
-* Als u [ SDK van het Web gebruikend JavaScript ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/install/library){target="_blank"} voor regelmatige gedragsgegevensinzameling hebt uitgevoerd, zorg ervoor u de standaardnaam <code> gebruikt.</code> voor de JavaScript-bibliotheek.
+* Als u [&#x200B; SDK van het Web gebruikend JavaScript &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/install/library){target="_blank"} voor regelmatige gedragsgegevensinzameling hebt uitgevoerd, zorg ervoor u de standaardnaam <code> gebruikt.</code> voor de JavaScript-bibliotheek.
 * U hebt een Customer Journey Analytics Product Administrator-rol, met de extra machtigingen om verbindingen te beheren en gegevensweergaven te beheren.
-* Als u overweegt om de ervaringen van Content Analytics te verzamelen, zorg u opstelling en werk [ Content Analytics versioning ](manual.md#versioning) bij die op veranderingen op uw Web-pagina&#39;s wordt gebaseerd.
-* U moet [ toestemmingen voor gegevensinzameling ](https://experienceleague.adobe.com/nl/docs/experience-platform/collection/permissions){target="_blank"} hebben:
-   * [ de toestemmingen van Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}
-   * [ de toestemmingen van de Inzameling van Gegevens van Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}
+* Als u overweegt om de ervaringen van Content Analytics te verzamelen, zorg u opstelling en werk [&#x200B; Content Analytics versioning &#x200B;](manual.md#versioning) bij die op veranderingen op uw Web-pagina&#39;s wordt gebaseerd.
+* U moet [&#x200B; toestemmingen voor gegevensinzameling &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/collection/permissions){target="_blank"} hebben:
+   * [&#x200B; de toestemmingen van Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/collection/permissions#adobe-experience-platform-permissions){target="_blank"}
+   * [&#x200B; de toestemmingen van de Inzameling van Gegevens van Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/collection/permissions#adobe-experience-platform-data-collection-permissions){target="_blank"}
 * U hebt zorgvuldig de volgende belangrijke configuratieopties overwogen:
 
    * Uw site is geschikt voor ervaringsrapporten. Een correcte rapportage van de ervaring is alleen mogelijk als aan de volgende voorwaarden is voldaan:
@@ -59,7 +59,7 @@ Voordat u Content Analytics configureert, moet u controleren of aan de volgende 
 >Er is geen Content Analytics-machtiging die u kunt configureren om Content Analytics-toegang in of uit te schakelen voor individuele gebruikers of groepen gebruikers.
 >
 
-Om een gebruiker of een groep gebruikers toegang tot Content Analytics te verlenen, moet u de gebruiker of de groep gebruikers toegang tot één of meerdere [ gegevensmeningen verstrekken die voor Content Analytics ](guided.md#data-view) worden gevormd.
+Om een gebruiker of een groep gebruikers toegang tot Content Analytics te verlenen, moet u de gebruiker of de groep gebruikers toegang tot één of meerdere [&#x200B; gegevensmeningen verstrekken die voor Content Analytics &#x200B;](guided.md#data-view) worden gevormd.
 
 Deze toegang impliceert:
 
@@ -71,11 +71,11 @@ Deze toegang impliceert:
 Het schema dat voor Content Analytics-gebeurtenisgegevens wordt gebruikt, is eigendom van het systeem. Een schema dat eigendom is van het systeem kan niet worden gewijzigd. Dit houdt in dat:
 
 * U kunt geen veldgroepen opnemen ter ondersteuning van functies zoals geolocatie, zowel detectie als het opzoeken van apparaten.
-* U kunt geen specifiek herkenningsteken toevoegen om [ op gebied-gebaseerd het stitching ](/help/stitching/fbs.md) te steunen.
+* U kunt geen specifiek herkenningsteken toevoegen om [&#x200B; op gebied-gebaseerd het stitching &#x200B;](/help/stitching/fbs.md) te steunen.
 
 >[!MORELIKETHIS]
 >
->* [ Geleide configuratie ](guided.md)
->* [ Handmatige configuratie ](manual.md)
->* [ Toegangsbeheer ](/help/technotes/access-control.md)
+>* [&#x200B; Geleide configuratie &#x200B;](guided.md)
+>* [&#x200B; Handmatige configuratie &#x200B;](manual.md)
+>* [&#x200B; Toegangsbeheer &#x200B;](/help/technotes/access-control.md)
 >

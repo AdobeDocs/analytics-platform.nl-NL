@@ -48,8 +48,8 @@ Report Builder for Customer Journey Analytics is een Microsoft Excel-invoegtoepa
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Report Builder voor Customer Journey Analytics ](https://video.tv.adobe.com/v/3452586?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Report Builder voor Customer Journey Analytics &#x200B;](https://video.tv.adobe.com/v/3452586?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
-U kunt Report Builder voor Customer Journey Analytics van de [ Winkel van Microsoft downloaden ](https://appsource.microsoft.com/en-us/product/Office365/WA200003101).
+U kunt Report Builder voor Customer Journey Analytics van de [&#x200B; Winkel van Microsoft downloaden &#x200B;](https://appsource.microsoft.com/en-us/product/Office365/WA200003101).

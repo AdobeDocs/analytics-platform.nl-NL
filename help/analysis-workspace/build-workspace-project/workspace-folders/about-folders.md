@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Met mappen in Workspace kunt u uw projecten ordenen en indelen. Met de omslagfunctionaliteit, kunt u omslagen en subfolders tot stand brengen om uw projecten te beheren.
 
-De omslagen in Customer Journey Analytics zijn beschikbaar op de Workspace landende pagina wanneer u aan [ Show Omslagen &amp; Projecten ](../freeform-overview.md#show-selector) hebt geselecteerd.
+De omslagen in Customer Journey Analytics zijn beschikbaar op de Workspace landende pagina wanneer u aan [&#x200B; Show Omslagen &amp; Projecten &#x200B;](../freeform-overview.md#show-selector) hebt geselecteerd.
 
 Er zijn twee typen mappen in Workspace: de map Company en de persoonlijke mappen. Met een gedeelde bedrijfsmap kunnen beheerders inhoud maken en delen met alle Workspace-gebruikers.
 
-Wanneer u [ selecteerde toon Omslagen &amp; Projecten ](../freeform-overview.md#show-selector), toont de het huispagina van Projecten een lijst van uw projecten samen met de omslag van het Bedrijf en om het even welke persoonlijke omslagen die u creeerde. Anders ziet u gewoon een lijst met uw projecten.
+Wanneer u [&#x200B; selecteerde toon Omslagen &amp; Projecten &#x200B;](../freeform-overview.md#show-selector), toont de het huispagina van Projecten een lijst van uw projecten samen met de omslag van het Bedrijf en om het even welke persoonlijke omslagen die u creeerde. Anders ziet u gewoon een lijst met uw projecten.
 
 
 ## Bedrijfsomslag

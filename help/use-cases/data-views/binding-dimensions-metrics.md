@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Customer Journey Analytics biedt verschillende manieren om waarden van dimensies aan te houden naast de hit waarop ze zijn ingesteld. Een van de persistentiemethoden die Adobe biedt, wordt Binding genoemd. In vorige versies van Adobe Analytics werd dit concept ook wel &#39;merchandising&#39; genoemd.
 
-Terwijl u bindende dimensies met top-level gebeurtenisgegevens kunt gebruiken, wordt dit concept best gebruikt wanneer het werken met [ Arrays van voorwerpen ](/help/use-cases/object-arrays.md). U kunt een dimensie aan één deel van een objecten serie zonder de dimensie op alle attributen in een bepaalde gebeurtenis toe te passen toewijzen. U kunt bijvoorbeeld een zoekterm aan één product in de array met winkelwagentobjecten toewijzen zonder die zoekterm aan de gehele gebeurtenis te binden.
+Terwijl u bindende dimensies met top-level gebeurtenisgegevens kunt gebruiken, wordt dit concept best gebruikt wanneer het werken met [&#x200B; Arrays van voorwerpen &#x200B;](/help/use-cases/object-arrays.md). U kunt een dimensie aan één deel van een objecten serie zonder de dimensie op alle attributen in een bepaalde gebeurtenis toe te passen toewijzen. U kunt bijvoorbeeld een zoekterm aan één product in de array met winkelwagentobjecten toewijzen zonder die zoekterm aan de gehele gebeurtenis te binden.
 
 ## Voorbeeld 1: Gebruik bindingsdimensies om aanvullende productkenmerken aan een aankoop toe te wijzen
 
@@ -81,7 +81,7 @@ Als u de omzet in kleur wilt bekijken zonder een bindende dimensie, blijft de af
 
 Ga naar **[!UICONTROL Data views]** en koppel de [!DNL Product Color] dimensie aan [!DNL Product Name] :
 
-![ Bindende afmeting ](../assets/binding-dimension.png)
+![&#x200B; Bindende afmeting &#x200B;](../assets/binding-dimension.png)
 
 Wanneer u dit persistentiemodel instelt, neemt Customer Journey Analytics de productnaam in wanneer de productkleur wordt ingesteld. Als het dezelfde productnaam herkent in een volgende gebeurtenis voor deze persoon, wordt de productkleur ook overgedragen. Dezelfde gegevens wanneer u een productkleur bindt aan de productnaam, zien er ongeveer als volgt uit:
 
@@ -254,7 +254,7 @@ Hoewel dit voorbeeld slechts één persoon omvat, kunnen veel personen die naar 
 
 U kunt nu [!DNL Search Term] aan [!DNL Product Name] binden wanneer [!DNL Searches] metrisch aanwezig is om de onderzoeksterminologie aan opbrengst correct toe te schrijven.
 
-![ Bindend metrisch ](../assets/binding-metric.png)
+![&#x200B; Bindend metrisch &#x200B;](../assets/binding-metric.png)
 
 In Analysis Workspace zou het resulterende verslag er als volgt uitzien:
 
@@ -343,7 +343,7 @@ Als u Recentste toewijzing gebruikt bij Person-vervaldatum, wordt de zoekterm `g
 
 Als u `search_term` echter bindt aan `ProfileID` , worden de zoekopdrachten van elk profiel geïsoleerd aan hun eigen profiel. De correcte zoekopdracht wordt aan het profiel toegewezen.
 
-![ de band van de Bezoeker ](../assets/binding-profileid.png)
+![&#x200B; de band van de Bezoeker &#x200B;](../assets/binding-profileid.png)
 
 Analysis Workspace wijst de tweede aflevering van Orangey toe aan de zoekterm `kids show` zonder dat er rekening wordt gehouden met zoekopdrachten vanuit andere profielen.
 
@@ -440,4 +440,4 @@ Als u `product_finding_method` echter bindt aan de optie Winkelwagentje, wordt m
 
 >[!MORELIKETHIS]
 >
->[ Bindende Dimensies in de Mening van Gegevens ](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html?lang=nl-NL) leerprogramma.
+>[&#x200B; Bindende Dimensies in de Mening van Gegevens &#x200B;](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views.html?lang=nl-NL) leerprogramma.

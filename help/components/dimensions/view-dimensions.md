@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Voorvertoningsafmetingen
 
-U kunt [ componenteninfo ](/help/components/use-components-in-workspace.md#component-info) voor een component gebruiken om de hoogste punten voor een afmeting te tonen.
+U kunt [&#x200B; componenteninfo &#x200B;](/help/components/use-components-in-workspace.md#component-info) voor een component gebruiken om de hoogste punten voor een afmeting te tonen.
 
-![ Componen info ](../assets/component-info.png)
+![&#x200B; Componen info &#x200B;](../assets/component-info.png)
 
 <!--
 Now, by default, we show dynamic values instead of static ones, with the option to turn them into static values. Other things to note:
@@ -30,7 +30,7 @@ Now, by default, we show dynamic values instead of static ones, with the option 
 
 ## Dimensie-items tonen
 
-Wanneer u ![ ChevronRight ](/help/assets/icons/ChevronRight.svg) voor een afmeting in het componentenpaneel selecteert, verschijnt een lijst van zijn afmetingspunten. In de lijst met dimensie-items worden gewoonlijk de bovenste items voor de laatste 30 dagen weergegeven. Als er meer items beschikbaar zijn, selecteert u de koppeling buiten het geselecteerde datumbereik voor het deelvenster om meer items weer te geven. Bijvoorbeeld **[!UICONTROL Show items from last month]** .
+Wanneer u ![&#x200B; ChevronRight &#x200B;](/help/assets/icons/ChevronRight.svg) voor een afmeting in het componentenpaneel selecteert, verschijnt een lijst van zijn afmetingspunten. In de lijst met dimensie-items worden gewoonlijk de bovenste items voor de laatste 30 dagen weergegeven. Als er meer items beschikbaar zijn, selecteert u de koppeling buiten het geselecteerde datumbereik voor het deelvenster om meer items weer te geven. Bijvoorbeeld **[!UICONTROL Show items from last month]** .
 
-![ toon afmetingspunten ](assets/dimension-items.png)
+![&#x200B; toon afmetingspunten &#x200B;](assets/dimension-items.png)
 

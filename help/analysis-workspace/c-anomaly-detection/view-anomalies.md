@@ -20,15 +20,15 @@ U kunt anomalieën in Analysis Workspace in een lijst of in een lijngrafiek beki
 
 U kunt anomalieën in een tijdreeks Freeform Lijst bekijken.
 
-1. Selecteer het ![ Plaatsen ](/help/assets/icons/Setting.svg) in de kolomkopbal, dan zorg ervoor dat de **[!UICONTROL Show anomalies]** optie in de lijst van opties wordt geselecteerd. Voor meer informatie, zie [ montages van de Kolom ](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
+1. Selecteer het ![&#x200B; Plaatsen &#x200B;](/help/assets/icons/Setting.svg) in de kolomkopbal, dan zorg ervoor dat de **[!UICONTROL Show anomalies]** optie in de lijst van opties wordt geselecteerd. Voor meer informatie, zie [&#x200B; montages van de Kolom &#x200B;](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
 
 1. In de tabel worden als volgt anomen weergegeven:
 
-   ![ ontdekte Anomalies ](assets/anomaly-detected.png)
+   ![&#x200B; ontdekte Anomalies &#x200B;](assets/anomaly-detected.png)
 
    Een ◥ verschijnt in de hoger-juiste hoek van elke rij waar een gegevensanomalie wordt ontdekt.
 
-   De **gekleurde verticale lijn** in elke rij ➋ wijst op de verwachte waarde. Het **gekleurde gearceerde gebied** in elke rij ➊ wijst op de daadwerkelijke waarde. Hoe de lijn (verwachte waarde) vergelijkt met het gearceerde gebied (werkelijke waarde) bepaalt of er een anomalie is. (Een observatie wordt beschouwd als anomalisch gebaseerd op de geavanceerde statistische technieken die in [ worden beschreven Statistische technieken die in anomalieopsporing ](/help/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) worden gebruikt.)
+   De **gekleurde verticale lijn** in elke rij ➋ wijst op de verwachte waarde. Het **gekleurde gearceerde gebied** in elke rij ➊ wijst op de daadwerkelijke waarde. Hoe de lijn (verwachte waarde) vergelijkt met het gearceerde gebied (werkelijke waarde) bepaalt of er een anomalie is. (Een observatie wordt beschouwd als anomalisch gebaseerd op de geavanceerde statistische technieken die in [&#x200B; worden beschreven Statistische technieken die in anomalieopsporing &#x200B;](/help/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) worden gebruikt.)
 
 1. Selecteer ◥ in de rechterbovenhoek van een rij om details over de anomalie weer te geven. Dit geeft de mate (als percentage) aan waarin de werkelijke waarde boven of onder de verwachte waarde afwijkt.
 
@@ -38,17 +38,17 @@ De grafieken van de lijn zijn de enige visualisatie die u toestaat om anomalieë
 
 Om anomalieën in een lijngrafiek te bekijken:
 
-1. Selecteer ![ Plaatsend ](/help/assets/icons/Setting.svg) in de visualisatiekop, dan zorg ervoor dat [!UICONTROL **anomalieën**] optie toont in de lijst van opties wordt geselecteerd. Voor meer informatie, zie [ Lijn ](/help/analysis-workspace/visualizations/line.md).
+1. Selecteer ![&#x200B; Plaatsend &#x200B;](/help/assets/icons/Setting.svg) in de visualisatiekop, dan zorg ervoor dat [!UICONTROL **anomalieën**] optie toont in de lijst van opties wordt geselecteerd. Voor meer informatie, zie [&#x200B; Lijn &#x200B;](/help/analysis-workspace/visualizations/line.md).
 
-1. (Facultatief) om het betrouwbaarheidsinterval toe te staan om de grafiek te schrapen, uitgezochte ![ Plaatsend ](/help/assets/icons/Setting.svg) in de visualisatiekop, dan de optie, **[!UICONTROL Allow anomalies to Scale Y-axis]**.
+1. (Facultatief) om het betrouwbaarheidsinterval toe te staan om de grafiek te schrapen, uitgezochte ![&#x200B; Plaatsend &#x200B;](/help/assets/icons/Setting.svg) in de visualisatiekop, dan de optie, **[!UICONTROL Allow anomalies to Scale Y-axis]**.
 
    Deze optie is niet standaard geselecteerd, omdat het diagram hierdoor soms minder leesbaar wordt.
 
    Anomalies worden als volgt in het lijndiagram weergegeven:
 
-   ![ Anomaly ontdekte lijnvisualisatie ](assets/anomaly-detected-line.png)
+   ![&#x200B; Anomaly ontdekte lijnvisualisatie &#x200B;](assets/anomaly-detected-line.png)
 
-   A **witte punt** verschijnt op de lijn waar een gegevensanomalie wordt ontdekt. (Een observatie wordt beschouwd als anomalisch gebaseerd op de geavanceerde statistische technieken die in [ worden beschreven Statistische technieken die in anomalieopsporing ](/help/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) worden gebruikt.)
+   A **witte punt** verschijnt op de lijn waar een gegevensanomalie wordt ontdekt. (Een observatie wordt beschouwd als anomalisch gebaseerd op de geavanceerde statistische technieken die in [&#x200B; worden beschreven Statistische technieken die in anomalieopsporing &#x200B;](/help/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) worden gebruikt.)
 
    Het **licht gearceerde gebied** is de vertrouwensband, of de verwachte waaier, waar de waarden zouden moeten voorkomen. Elke waarde die buiten dit verwachte bereik valt, is een anomalie.
 

@@ -55,7 +55,7 @@ Wanneer u besluit of en wanneer uw organisatie Adobe Analytics moet uitschakelen
 |---------|----------|
 | Gegevensvergelijking naast elkaar uitvoeren | Adobe raadt u aan uw Adobe Analytics-omgeving gedurende een bepaalde periode actief te houden nadat uw nieuwe Customer Journey Analytics-omgeving is gestart en gegevens zijn verzameld. Dit is de beste manier om uw Customer Journey Analytics-gegevens naast elkaar te vergelijken met uw Adobe Analytics-gegevens.<p>Schakel Adobe Analytics niet uit totdat u de gegevens in uw Customer Journey Analytics-omgeving goed vindt.</p><p>**Nota:** Adobe adviseert een nieuwe implementatie van het Web SDK voor uw milieu van Customer Journey Analytics, samen met de Analytics bronschakelaar voor historische gegevens. [Meer informatie](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)</p> |
 | Historische gegevens van Adobe Analytics behouden | Adobe raadt u aan om uw Adobe Analytics-omgeving met de Analytics-bronconnector op zijn plaats te houden gedurende een periode nadat uw nieuwe Customer Journey Analytics-omgeving is gestart en gegevens zijn verzameld. Dit is de beste manier om historische Adobe Analytics-gegevens naar Customer Journey Analytics te brengen.<p>Nadat u genoeg historische gegevens in Customer Journey Analytics met uw nieuwe implementatie van SDK van het Web hebt verzameld, kunt u de Analytics bronschakelaar volledig verwijderen. Doe dit wanneer u alleen kunt vertrouwen op de historische gegevens in u verzameld met de nieuwe Customer Journey Analytics Web SDK-implementatie.</p><p>**Nota:** Adobe adviseert een nieuwe implementatie van het Web SDK voor uw milieu van Customer Journey Analytics, samen met de Analytics bronschakelaar voor historische gegevens. [Meer informatie](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)</p> |
-| Gegevensfeeds of andere Adobe Analytics-functies gebruiken | Een klein aantal functies is nog niet volledig beschikbaar in Customer Journey Analytics. Als u toegang tot deze functies nodig hebt, kan het nodig zijn om Adobe Analytics in combinatie met Customer Journey Analytics te gebruiken totdat deze functies beschikbaar zijn. <p>Tot de functies die niet volledig beschikbaar zijn in Customer Journey Analytics behoren gegevensfeeds en analyse van bijdragen. Voor een volledige lijst van eigenschappen die nog niet beschikbaar zijn, zie [ de eigenschapsteun van Customer Journey Analytics ](/help/getting-started/aa-vs-cja/cja-aa.md).</p> |
+| Gegevensfeeds of andere Adobe Analytics-functies gebruiken | Een klein aantal functies is nog niet volledig beschikbaar in Customer Journey Analytics. Als u toegang tot deze functies nodig hebt, kan het nodig zijn om Adobe Analytics in combinatie met Customer Journey Analytics te gebruiken totdat deze functies beschikbaar zijn. <p>Tot de functies die niet volledig beschikbaar zijn in Customer Journey Analytics behoren gegevensfeeds en analyse van bijdragen. Voor een volledige lijst van eigenschappen die nog niet beschikbaar zijn, zie [&#x200B; de eigenschapsteun van Customer Journey Analytics &#x200B;](/help/getting-started/aa-vs-cja/cja-aa.md).</p> |
 
 ## Procedure en tijdlijn voor het uitschakelen van Adobe Analytics {#disable-adobe-analytics}
 
@@ -86,7 +86,7 @@ Wanneer u besluit of en wanneer uw organisatie Adobe Analytics moet uitschakelen
 
 <!-- markdownlint-enable MD034 -->
 
-Uw bestaande implementatie van Adobe Analytics is een zeer belangrijk deel van een succesvolle verbetering aan Customer Journey Analytics, zoals die in de sectie hierboven wordt beschreven, [ Gebruik van Adobe Analytics tijdens en na een verbetering ](#uses-of-adobe-analytics-during-and-after-an-upgrade).
+Uw bestaande implementatie van Adobe Analytics is een zeer belangrijk deel van een succesvolle verbetering aan Customer Journey Analytics, zoals die in de sectie hierboven wordt beschreven, [&#x200B; Gebruik van Adobe Analytics tijdens en na een verbetering &#x200B;](#uses-of-adobe-analytics-during-and-after-an-upgrade).
 
 Wanneer u Adobe Analytics niet meer nodig hebt voor de in de bovenstaande sectie beschreven doeleinden, gebruikt u de volgende informatie om Adobe Analytics te verwijderen:
 
@@ -100,7 +100,7 @@ Wanneer u Adobe Analytics niet meer nodig hebt voor de in de bovenstaande sectie
 
 +++ AppMeasurement
 
-   [ maak de gegevensinzameling van AppMeasurement ](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md) onbruikbaar.
+   [&#x200B; maak de gegevensinzameling van AppMeasurement &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-disable-appmeasurement.md) onbruikbaar.
 
 +++
 

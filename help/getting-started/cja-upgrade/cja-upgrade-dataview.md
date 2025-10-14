@@ -31,29 +31,29 @@ Het creëren van een gegevensmening impliceert of het creëren van metriek en di
 
 Een gegevensweergave maken:
 
-1. Login aan [ Customer Journey Analytics ](https://analytics.adobe.com) en selecteert **[!UICONTROL Data views]**, naar keuze van **[!UICONTROL Data management]**, in het hoogste menu.
+1. Login aan [&#x200B; Customer Journey Analytics &#x200B;](https://analytics.adobe.com) en selecteert **[!UICONTROL Data views]**, naar keuze van **[!UICONTROL Data management]**, in het hoogste menu.
 
 1. Selecteer **[!UICONTROL Create new data view]** . U kunt ook een bestaande gegevensweergave selecteren in de lijst met gegevensweergaven om deze te bewerken.
 
 1. Op [!UICONTROL **vorm**] lusje, specificeer een naam voor de gegevensmening en vorm zijn basismontages, componenten, en kalenderopties.
 
-   Voor gedetailleerde informatie over elk gebied, zie [&#128279;](/help/data-views/create-dataview.md#configure) vormen in [ creeer of geef een gegevensmening ](/help/data-views/create-dataview.md) uit.
+   Voor gedetailleerde informatie over elk gebied, zie [&#128279;](/help/data-views/create-dataview.md#configure) vormen in [&#x200B; creeer of geef een gegevensmening &#x200B;](/help/data-views/create-dataview.md) uit.
 
-   ![ vorm gegevensmening ](assets/dataview-configure.png)
+   ![&#x200B; vorm gegevensmening &#x200B;](assets/dataview-configure.png)
 
 1. Selecteer de [!UICONTROL **Componenten**] tabel.
 
    Het [!UICONTROL **lusje van Componenten**] is waar u de componenten van een gegevensmening plaatst, wat betekent u metriek en dimensies van schemaelementen kunt tot stand brengen. U kunt ook standaardcomponenten gebruiken.
 
-   ![ Componenten tabel ](assets/dataview-components.png)
+   ![&#x200B; Componenten tabel &#x200B;](assets/dataview-components.png)
 
 1. Van het [!UICONTROL **lusje van Componenten**], sleep schemaelementen van het linkerspoor in de [!UICONTROL **sectie van Metriek**] of de [!UICONTROL **sectie van Dimensies**]. De schema-elementen die u toevoegt, worden metriek of afmetingen in de gegevensweergave.
 
-   Voor gedetailleerde informatie over de beschikbare opties wanneer het toevoegen van componenten aan een gegevensmening, zie [ Componenten ](/help/data-views/create-dataview.md#components) in [ creeer of geef een gegevensmening ](/help/data-views/create-dataview.md) uit.
+   Voor gedetailleerde informatie over de beschikbare opties wanneer het toevoegen van componenten aan een gegevensmening, zie [&#x200B; Componenten &#x200B;](/help/data-views/create-dataview.md#components) in [&#x200B; creeer of geef een gegevensmening &#x200B;](/help/data-views/create-dataview.md) uit.
 
 1. Selecteer het [!UICONTROL **lusje van Montages**]. Van hier, kunt u segmenten vormen om op uw volledige gegevensmening van toepassing te zijn en zittingsonderbreking en metriek te vormen.
 
-   Voor gedetailleerde informatie over de opties beschikbaar wanneer het vormen van montages voor een gegevensmening, zie [ Montages ](/help/data-views/create-dataview.md#settings) in [ creeer of geef een gegevensmening ](/help/data-views/create-dataview.md) uit.
+   Voor gedetailleerde informatie over de opties beschikbaar wanneer het vormen van montages voor een gegevensmening, zie [&#x200B; Montages &#x200B;](/help/data-views/create-dataview.md#settings) in [&#x200B; creeer of geef een gegevensmening &#x200B;](/help/data-views/create-dataview.md) uit.
 
 1. Selecteer **[!UICONTROL Save]** om de configuratie voor uw gegevensweergave op te slaan.
 

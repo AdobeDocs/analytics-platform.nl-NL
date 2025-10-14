@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Operatoren
 
-Met de Segment Builder kunt u waarden voor componenten vergelijken en beperken met behulp van geselecteerde operatoren. Er zijn drie categorieën exploitanten: [ Standaard ](#standard-operators), [ Data Warehouse ](#data-warehouse-operators), en [ Afzonderlijke Telling ](#distinct-count-operators).
+Met de Segment Builder kunt u waarden voor componenten vergelijken en beperken met behulp van geselecteerde operatoren. Er zijn drie categorieën exploitanten: [&#x200B; Standaard &#x200B;](#standard-operators), [&#x200B; Data Warehouse &#x200B;](#data-warehouse-operators), en [&#x200B; Afzonderlijke Telling &#x200B;](#distinct-count-operators).
 
 Afhankelijk van de operator die u selecteert:
 
@@ -21,9 +21,9 @@ Afhankelijk van de operator die u selecteert:
 * U kunt een deel van een waarde ingaan en van een drop-down menu (als beschikbaar) selecteren.
 * Selecteer direct een waarde in de keuzelijst (indien beschikbaar).
 
-Wanneer u een waarde voor een exploitant typt die beschikbare waarden, als **[!UICONTROL equals]** valideert, en de waarde niet de waarden beschikbaar voor de component aanpast, ziet u a ![ AlertRed ](/help/assets/icons/AlertRed.svg) pictogram. U kunt of een waarde van het drop-down menu selecteren of **[!UICONTROL _drukken gaat_]** binnen om de waarde in te gaan.
+Wanneer u een waarde voor een exploitant typt die beschikbare waarden, als **[!UICONTROL equals]** valideert, en de waarde niet de waarden beschikbaar voor de component aanpast, ziet u a ![&#x200B; AlertRed &#x200B;](/help/assets/icons/AlertRed.svg) pictogram. U kunt of een waarde van het drop-down menu selecteren of **[!UICONTROL _drukken gaat_]** binnen om de waarde in te gaan.
 
-![ de gelijken van het Segment ](assets/segment-operator-equals.png)
+![&#x200B; de gelijken van het Segment &#x200B;](assets/segment-operator-equals.png)
 
 ## Jokertekens
 
@@ -52,8 +52,8 @@ Bijvoorbeeld, hebt u een paginanaam genoemd *Mijn koele product*.
 | **[!UICONTROL does not start with]** | Retourneert alle items die niet beginnen met de ingevoerde tekenreekswaarde. Dit is het omgekeerde van de operator **[!UICONTROL starts with]** . |
 | **[!UICONTROL ends with]** | Retourneert items die eindigen met de ingevoerde tekenreekswaarde. |
 | **[!UICONTROL does not end with]** | Retourneert alle items die niet eindigen met de ingevoerde tekenreekswaarde. Dit is het omgekeerde van de operator **[!UICONTROL ends with]** . |
-| **[!UICONTROL matches]** | Retourneert items die exact overeenkomen op basis van een opgegeven numerieke waarde of tekenreekswaarde. De component **[!UICONTROL matches]** is hoofdlettergevoelig in Adobe Analytics en Customer Journey Analytics. **Nota**: Gebruik deze exploitant wanneer het gebruiken van [ vervanging ](#wildcards) (het globberen) eigenschappen. Voorbeelden van globbings:<ul><li>`a*e` komt overeen met `ae` , `abcde` , `adobe` en `a whole sentence`</li><li>`adob*` komt overeen met `adobe` , `adobe analytics` en `adobo recipe`</li><li>`*dobe` komt overeen met `dobe` , `adobe` en `cute little dobe`</li></ul> |
-| **[!UICONTROL does not match]** | Retourneert alle items die niet exact overeenkomen met de ingevoerde waarde. Nota: Gebruik deze exploitant wanneer het gebruiken van [ vervanging ](#wildcards) (het globberen) eigenschappen. |
+| **[!UICONTROL matches]** | Retourneert items die exact overeenkomen op basis van een opgegeven numerieke waarde of tekenreekswaarde. De component **[!UICONTROL matches]** is hoofdlettergevoelig in Adobe Analytics en Customer Journey Analytics. **Nota**: Gebruik deze exploitant wanneer het gebruiken van [&#x200B; vervanging &#x200B;](#wildcards) (het globberen) eigenschappen. Voorbeelden van globbings:<ul><li>`a*e` komt overeen met `ae` , `abcde` , `adobe` en `a whole sentence`</li><li>`adob*` komt overeen met `adobe` , `adobe analytics` en `adobo recipe`</li><li>`*dobe` komt overeen met `dobe` , `adobe` en `cute little dobe`</li></ul> |
+| **[!UICONTROL does not match]** | Retourneert alle items die niet exact overeenkomen met de ingevoerde waarde. Nota: Gebruik deze exploitant wanneer het gebruiken van [&#x200B; vervanging &#x200B;](#wildcards) (het globberen) eigenschappen. |
 | **[!UICONTROL exists]** | Retourneert het aantal items dat bestaat. Als u bijvoorbeeld de **[!UICONTROL Pages Not Found]** -dimensie evalueert met de operator **[!UICONTROL exist]** , wordt het aantal bestaande foutpagina&#39;s geretourneerd. |
 | **[!UICONTROL does not exist]** | Retourneert alle items die niet bestaan. Als u bijvoorbeeld de **[!UICONTROL Pages Not Found]** -dimensie evalueert met de operator **[!UICONTROL does not exist]** , wordt het aantal pagina&#39;s geretourneerd waarop deze foutpagina niet bestaat. |
 
@@ -82,6 +82,6 @@ U kunt op een duidelijke telling van punten binnen een afmeting segmenteren. Voo
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Afmetingen van de Afmeting ](https://video.tv.adobe.com/v/27257?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Afmetingen van de Afmeting &#x200B;](https://video.tv.adobe.com/v/27257?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]

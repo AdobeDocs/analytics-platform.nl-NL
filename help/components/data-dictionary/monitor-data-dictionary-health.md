@@ -33,11 +33,11 @@ Om gezondheidskwesties in uw Woordenboek van Gegevens te identificeren:
 
 1. Open een Analysis Workspace-project.
 
-1. Selecteer het pictogram Gegevenswoordenboek aan de linkerkant van Analysis Workspace. (Alternatieve manieren om tot het Woordenboek van Gegevens toegang te hebben worden beschreven in &quot;toegang tot het Woordenboek van Gegevens&quot;in [ het Overzicht van het Woordenboek van Gegevens ](/help/components/data-dictionary/data-dictionary-overview.md).)
+1. Selecteer het pictogram Gegevenswoordenboek aan de linkerkant van Analysis Workspace. (Alternatieve manieren om tot het Woordenboek van Gegevens toegang te hebben worden beschreven in &quot;toegang tot het Woordenboek van Gegevens&quot;in [&#x200B; het Overzicht van het Woordenboek van Gegevens &#x200B;](/help/components/data-dictionary/data-dictionary-overview.md).)
 
    Het venster Gegevenswoordenboek wordt weergegeven.
 
-   ![ de mening van de beheerder van het Woordenboek van Gegevens die de gezondheid van het Woordenboek tonen ](assets/data-dictionary-admin.png)
+   ![&#x200B; de mening van de beheerder van het Woordenboek van Gegevens die de gezondheid van het Woordenboek tonen &#x200B;](assets/data-dictionary-admin.png)
 
 1. Controleer of de juiste gegevensweergave is geselecteerd in het keuzemenu.
 
@@ -51,4 +51,4 @@ Om gezondheidskwesties in uw Woordenboek van Gegevens te identificeren:
 
    Afhankelijk van wat u selecteert, wordt het aangewezen segment toegepast op het Woordenboek van Gegevens, en slechts worden de relevante componenten getoond.
 
-1. Bewerk een van de componenten om de status van het gegevenswoordenboek te verbeteren. Voor informatie over hoe te om een component in het Woordenboek van Gegevens uit te geven, zie [ componenteningangen in het Woordenboek van Gegevens ](/help/components/data-dictionary/edit-entries-data-dictionary.md) uitgeven.
+1. Bewerk een van de componenten om de status van het gegevenswoordenboek te verbeteren. Voor informatie over hoe te om een component in het Woordenboek van Gegevens uit te geven, zie [&#x200B; componenteningangen in het Woordenboek van Gegevens &#x200B;](/help/components/data-dictionary/edit-entries-data-dictionary.md) uitgeven.

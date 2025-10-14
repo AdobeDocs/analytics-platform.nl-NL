@@ -18,7 +18,7 @@ In sommige gevallen hebben uitvoerende gebruikers wellicht extra hulp nodig om d
 
 ## Zorg ervoor dat gebruikers van apps toegang hebben tot Adobe Analytics
 
-1. Opstelling nieuwe gebruikers in [ Experience Cloud Admin Console ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=nl-NL).
+1. Opstelling nieuwe gebruikers in [&#x200B; Experience Cloud Admin Console &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=nl-NL).
 
 1. Om scorecards te kunnen delen, moet u app gebruikers toestemmingen verlenen om tot scorecard componenten zoals Analysis Workspace, de gegevensmeningen toegang te hebben die scorecards, evenals segmenten, metriek en dimensies gebaseerd zijn.
 
@@ -51,7 +51,7 @@ Klik op de volgende koppeling (deze is ook beschikbaar in Customer Journey Analy
 
 Zodra ze zijn gedownload en geïnstalleerd, kunnen uitvoerende gebruikers zich aanmelden bij de app met hun bestaande Customer Journey Analytics-referenties; we ondersteunen zowel Adobe- als Enterprise/Federated-id&#39;s.
 
-![ Adobe Analytics dashboards welkomstscherm ](assets/welcome.png)
+![&#x200B; Adobe Analytics dashboards welkomstscherm &#x200B;](assets/welcome.png)
 
 ## Help managers toegang te krijgen tot uw scorecard
 
@@ -67,16 +67,16 @@ Zodra ze zijn gedownload en geïnstalleerd, kunnen uitvoerende gebruikers zich a
 
 1. Laat ze op de naam van het scorebord tikken om het weer te geven.
 
-   ![ kies een bedrijf ](assets/accesscard.png)
+   ![&#x200B; kies een bedrijf &#x200B;](assets/accesscard.png)
 
 
 ### Verklaar scorecard UI
 
 Verklaar aan de uitvoerende gebruiker hoe de tegels in de scorecards verschijnen u deelt.
 
-![ verklaart tegels met inbegrip van de datumwaaier, het segment, en metriek en geselecteerde dimensies ](assets/newexplain.png)
+![&#x200B; verklaart tegels met inbegrip van de datumwaaier, het segment, en metriek en geselecteerde dimensies &#x200B;](assets/newexplain.png)
 
-![ Scorecard van het Voorbeeld ](assets/intro_scorecard.png)
+![&#x200B; Scorecard van het Voorbeeld &#x200B;](assets/intro_scorecard.png)
 
 Aanvullende informatie over tegels:
 
@@ -90,7 +90,7 @@ Aanvullende informatie over tegels:
 
 1. Tik op een tegel om te tonen hoe een gedetailleerde uitsplitsing voor de tegel werkt.
 
-   ![ mening van de Onderbreking ](assets/sparkline.png)
+   ![&#x200B; mening van de Onderbreking &#x200B;](assets/sparkline.png)
 
    * Tik op een willekeurig punt op een dunne lijn om de gegevens weer te geven die aan dat punt op de lijn zijn gekoppeld.
 
@@ -98,19 +98,19 @@ Aanvullende informatie over tegels:
 
 1. Als u datumbereiken voor uw scorebord wilt wijzigen, tikt u op de Datumkop en selecteert u de combinatie van het primaire bereik en het vergelijkingsdatumbereik dat u wilt weergeven.
 
-   ![ data van de Verandering ](assets/changedate.png)
+   ![&#x200B; data van de Verandering &#x200B;](assets/changedate.png)
 
 ## Toepassingsvoorkeuren wijzigen
 
 Tik op de bovenstaande optie **[!UICONTROL Preferences]** om de voorkeuren te wijzigen. Bij de voorkeuren kunt u de biometrische aanmelding inschakelen of de app voor de donkere modus instellen, zoals hieronder wordt weergegeven:
 
-![ Donkere wijze ](assets/darkmode.png)
+![&#x200B; Donkere wijze &#x200B;](assets/darkmode.png)
 
 ## Problemen oplossen
 
 Als de uitvoerende gebruiker zich aanmeldt en een bericht ziet waarin wordt gemeld dat er niets is gedeeld:
 
-![ niets gedeelde ](assets/nothing.png)
+![&#x200B; niets gedeelde &#x200B;](assets/nothing.png)
 
 * De uitvoerende gebruiker heeft mogelijk de verkeerde Customer Journey Analytics-sandbox geselecteerd, of
 * De scorecard is mogelijk niet gedeeld met de uitvoerende gebruiker.

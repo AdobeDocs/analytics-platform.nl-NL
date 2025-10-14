@@ -27,9 +27,9 @@ ht-degree: 0%
 
 Met de functie Codes in Adobe Experience Platform kunt u code op uw site implementeren om gegevens te verzamelen. Met deze oplossing voor tagbeheer kunt u code naast andere coderingsvereisten implementeren. Tags bieden naadloze integratie met Adobe Experience Platform via de Adobe Experience Platform Web SDK-extensie.
 
-De volgende informatie beschrijft hoe u de extensie Web SDK aan uw tag kunt toevoegen. Voor supplementaire informatie, zie [ de de markeringsuitbreiding van SDK van het Web ](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) in de documentatie van Experience Platform vormen. De Web SDK omvat [!UICONTROL Adobe Experience Cloud ID Service] native, zodat te hoeven u niet om de de dienstuitbreiding van identiteitskaart aan uw markering toe te voegen.
+De volgende informatie beschrijft hoe u de extensie Web SDK aan uw tag kunt toevoegen. Voor supplementaire informatie, zie [&#x200B; de de markeringsuitbreiding van SDK van het Web &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) in de documentatie van Experience Platform vormen. De Web SDK omvat [!UICONTROL Adobe Experience Cloud ID Service] native, zodat te hoeven u niet om de de dienstuitbreiding van identiteitskaart aan uw markering toe te voegen.
 
-Nadat u [ een markering ](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md) creeert, moet u het met de uitbreiding van SDK van het Web van Adobe Experience Platform vormen. Op deze manier kunt u gegevens naar Adobe Experience Platform verzenden (via uw gegevensstroom).
+Nadat u [&#x200B; een markering &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md) creeert, moet u het met de uitbreiding van SDK van het Web van Adobe Experience Platform vormen. Op deze manier kunt u gegevens naar Adobe Experience Platform verzenden (via uw gegevensstroom).
 
 De extensie Web SDK toevoegen aan uw tag:
 
@@ -49,7 +49,7 @@ De extensie Web SDK toevoegen aan uw tag:
 
 1. Selecteer de sandbox en de eerder gemaakte gegevensstroom voor de [!UICONTROL Production Environment] en (optioneel) [!UICONTROL Staging Environment] en [!UICONTROL Development Environment] .
 
-   ![ de uitbreidingsconfiguratie van SDK van het Web van AEP ](assets/aepwebsk-extension-datastreams.png)
+   ![&#x200B; de uitbreidingsconfiguratie van SDK van het Web van AEP &#x200B;](assets/aepwebsk-extension-datastreams.png)
 
 1. Selecteer **[!UICONTROL Save]** .
 

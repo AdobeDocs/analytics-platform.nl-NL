@@ -28,16 +28,16 @@ Intelligente bijschriften zijn gericht op:
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Intelligente titels ](https://video.tv.adobe.com/v/3443144/?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Intelligente titels &#x200B;](https://video.tv.adobe.com/v/3443144/?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
 
 ## Intelligente bijschriften starten {#launch}
 
-Om auto-geproduceerde intelligente titels voor een visualisatie te lanceren, selecteer ![ Intelligente titels ](/help/assets/icons/AI.svg) bij het hoogste recht van de visualisatie. Deze selectie genereert inzichten in de natuurlijke taal.
+Om auto-geproduceerde intelligente titels voor een visualisatie te lanceren, selecteer ![&#x200B; Intelligente titels &#x200B;](/help/assets/icons/AI.svg) bij het hoogste recht van de visualisatie. Deze selectie genereert inzichten in de natuurlijke taal.
 
-![ het venster van de Analyse van de Lancering die de Intelligente titels voor de Trend van de Kijken van het Product toont. ](assets/intelligent-captions.gif)
+![&#x200B; het venster van de Analyse van de Lancering die de Intelligente titels voor de Trend van de Kijken van het Product toont. &#x200B;](assets/intelligent-captions.gif)
 
 
 Houd er rekening mee dat:
@@ -55,10 +55,10 @@ Houd er rekening mee dat:
 
 Intelligente bijschriften worden ondersteund op de volgende visualisaties:
 
-* [ Lijn ](line.md) (met inbegrip van multi-lijn)
+* [&#x200B; Lijn &#x200B;](line.md) (met inbegrip van multi-lijn)
 * [Balk](bar.md)
 * [Horizontale balk](horizontal-bar.md)
-* [ Gebied ](area.md) (met inbegrip van de veelvoudige lijnen van het Gebied)
+* [&#x200B; Gebied &#x200B;](area.md) (met inbegrip van de veelvoudige lijnen van het Gebied)
 * [Donut](donut.md)
 * [Fallout](fallout/fallout-flow.md)
 * [Stroom](c-flow/flow.md)
@@ -77,24 +77,24 @@ U kunt de volgende handelingen uitvoeren op intelligente bijschriften:
 
 U kunt de bijschriften naar een klembord kopiëren en ze in een PowerPoint of andere gereedschappen plakken. U kunt afzonderlijke bijschriften kopiëren in de weergave Eén voor één, of u kunt alle bijschriften tegelijk kopiëren in de uitgevouwen bijschriftweergave.
 
-* Om de titels te kopiëren, de uitgezochte ![ titels van het Exemplaar aan klembord ](/help/assets/icons/Copy.svg) bij het hoogste recht van de dialoog van titels.
+* Om de titels te kopiëren, de uitgezochte ![&#x200B; titels van het Exemplaar aan klembord &#x200B;](/help/assets/icons/Copy.svg) bij het hoogste recht van de dialoog van titels.
 
 ### Alle of afzonderlijke intelligente bijschriften tonen  {#show-all-or-individual}
 
 U kunt alle intelligente bijschriften tegelijk weergeven in een uitgevouwen weergave of u kunt afzonderlijke intelligente bijschriften weergeven in een één voor één weergave.
 
-* Om alle intelligente titels te tonen, uitgezochte ![ toon alle intelligente titels ](/help/assets/icons/Maximize.svg).
-* Om individuele intelligente titels, één voor één te tonen, uitgezochte ![ toont individuele intelligente titels ](/help/assets/icons/Minimize.svg).
+* Om alle intelligente titels te tonen, uitgezochte ![&#x200B; toon alle intelligente titels &#x200B;](/help/assets/icons/Maximize.svg).
+* Om individuele intelligente titels, één voor één te tonen, uitgezochte ![&#x200B; toont individuele intelligente titels &#x200B;](/help/assets/icons/Minimize.svg).
 
 ### Weergave bewerken {#edit}
 
 U kunt de weergave van bijschriften bewerken, zoals een bepaalde categorie inzichten verbergen of verbergen.
 
-1. Selecteer ![ uitgeven zicht van intelligente titels ](/help/assets/icons/EditInLight.svg) in de Intelligente dialoog van titels.
+1. Selecteer ![&#x200B; uitgeven zicht van intelligente titels &#x200B;](/help/assets/icons/EditInLight.svg) in de Intelligente dialoog van titels.
 
-1. Wissel tussen ![ zicht van de knevel ](/help/assets/icons/Visibility.svg) om specifieke insight (als **[!UICONTROL Min]**) te tonen, of ![ zicht van de knevel ](/help/assets/icons/VisibilityOff.svg) om specifieke insight (als **[!UICONTROL Spike]**) te verbergen.
+1. Wissel tussen ![&#x200B; zicht van de knevel &#x200B;](/help/assets/icons/Visibility.svg) om specifieke insight (als **[!UICONTROL Min]**) te tonen, of ![&#x200B; zicht van de knevel &#x200B;](/help/assets/icons/VisibilityOff.svg) om specifieke insight (als **[!UICONTROL Spike]**) te verbergen.
 
-   ![ geef intelligente titels ](assets/edit-intelligent-captions.png) uit
+   ![&#x200B; geef intelligente titels &#x200B;](assets/edit-intelligent-captions.png) uit
 
 1. Selecteer **[!UICONTROL Apply]**.
 
@@ -103,9 +103,9 @@ U kunt de weergave van bijschriften bewerken, zoals een bepaalde categorie inzic
 
 U kunt feedback geven over de gegenereerde intelligente bijschriften (u kunt alleen feedback geven in de uitgevouwen bijschriftweergave).
 
-1. Selecteer ![ Meer acties ](/help/assets/icons/More.svg) in de Intelligente dialoog van titels.
+1. Selecteer ![&#x200B; Meer acties &#x200B;](/help/assets/icons/More.svg) in de Intelligente dialoog van titels.
 
-1. Selecteer ![ Goede reactie ](/help/assets/icons/ThumbUpOutline.svg) **[!UICONTROL Good response]**, ![ ThumbDownOutline ](/help/assets/icons/ThumbDownOutline.svg) **[!UICONTROL Bad response]**, of ![ Vlag ](/help/assets/icons/Flag.svg) **[!UICONTROL Report]**.
+1. Selecteer ![&#x200B; Goede reactie &#x200B;](/help/assets/icons/ThumbUpOutline.svg) **[!UICONTROL Good response]**, ![&#x200B; ThumbDownOutline &#x200B;](/help/assets/icons/ThumbDownOutline.svg) **[!UICONTROL Bad response]**, of ![&#x200B; Vlag &#x200B;](/help/assets/icons/Flag.svg) **[!UICONTROL Report]**.
 
 1. Geef in het dialoogvenster **[!UICONTROL Thank you for your feedback]** uw feedback op en selecteer **[!UICONTROL Submit]** om de feedback te verzenden.
 
@@ -117,17 +117,17 @@ U kunt intelligente bijschriften exporteren als onderdeel van een PDF, zolang he
 
 Als u liever geen intelligente bijschriften wilt weergeven, schakelt u de functie uit.
 
-1. Ga naar [ de voorkeur van Visualisaties ](/help/analysis-workspace/user-preferences.md#visualizations-preferences).
+1. Ga naar [&#x200B; de voorkeur van Visualisaties &#x200B;](/help/analysis-workspace/user-preferences.md#visualizations-preferences).
 1. Schakel **[!UICONTROL Show intelligent captions]** uit.
 
-   ![ de visualisatieopties van de Lijn die de optie tonen om intelligente titels uit te schakelen.](assets/toggle-captions.png)
+   ![&#x200B; de visualisatieopties van de Lijn die de optie tonen om intelligente titels uit te schakelen.](assets/toggle-captions.png)
 
 1. Selecteer **[!UICONTROL Save]** om de voorkeur op te slaan.
 
 
 ## Intelligente bijschriften in mobiele scoreborden
 
-De intelligente titels zijn ook beschikbaar in Customer Journey Analytics [ mobiele scorecards ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions).
+De intelligente titels zijn ook beschikbaar in Customer Journey Analytics [&#x200B; mobiele scorecards &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions).
 
 ## Toegang tot functies
 
@@ -137,15 +137,15 @@ De volgende parameters regelen de toegang tot intelligente bijschriften:
 
 * **Contractuele toegang**: Als u geen Intelligente titels kunt gebruiken, gelieve de beheerder van uw organisatie of de Vertegenwoordiger van de Rekening van Adobe (Admin) te contacteren. Voordat u Intelligente bijschriften kunt gebruiken in uw organisatie, moet u akkoord gaan met bepaalde wettelijke bepalingen die betrekking hebben op Generative AI.
 
-* **Toestemmingen**: In [!UICONTROL Adobe Admin Console], bepaalt de [!UICONTROL Reporting Tools] **[!UICONTROL Intelligent Captions]** toestemming toegang. Admin van het a [ productprofiel ](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) moet deze stappen in [!UICONTROL Admin Console] volgen:
+* **Toestemmingen**: In [!UICONTROL Adobe Admin Console], bepaalt de [!UICONTROL Reporting Tools] **[!UICONTROL Intelligent Captions]** toestemming toegang. Admin van het a [&#x200B; productprofiel &#x200B;](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) moet deze stappen in [!UICONTROL Admin Console] volgen:
    1. Navigeer naar **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]** .
    1. Selecteer de titel van het productprofiel waarvoor u toegang tot de Intelligente bijschriften wilt verlenen.
    1. Selecteer **[!UICONTROL Permissions]** in het specifieke productprofiel.
-   1. Selecteer ![ uitgeven ](/help/assets/icons/Edit.svg) om uit te geven **[!UICONTROL Reporting Tools]**.
-   1. Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) om **Intelligente Bijschriften** aan **[!UICONTROL Included permission items]** toe te voegen.
+   1. Selecteer ![&#x200B; uitgeven &#x200B;](/help/assets/icons/Edit.svg) om uit te geven **[!UICONTROL Reporting Tools]**.
+   1. Selecteer ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) om **Intelligente Bijschriften** aan **[!UICONTROL Included permission items]** toe te voegen.
 
-      ![ voeg toestemming ](./assets/intelligent-captions-permissions.png) toe
+      ![&#x200B; voeg toestemming &#x200B;](./assets/intelligent-captions-permissions.png) toe
 
    1. Selecteer **[!UICONTROL Save]** om de machtigingen op te slaan.
 
-Zie [ controle van de Toegang ](/help/technotes/access-control.md#access-control) voor meer informatie.
+Zie [&#x200B; controle van de Toegang &#x200B;](/help/technotes/access-control.md#access-control) voor meer informatie.

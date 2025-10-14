@@ -18,8 +18,8 @@ Adobe biedt veel producten en oplossingen die gebruikmaken van gegevens die op A
 De meeste workflows omvatten de volgende stappen:
 
 1. Gebruik de gewenste oplossing of de dienst om gegevens naar Platform als dataset te verzenden.
-2. [ creeer een verbinding ](/help/connections/create-connection.md) in Customer Journey Analytics met de gewenste Dataset.
-3. [ creeer een gegevensmening ](/help/data-views/create-dataview.md) die de gewenste afmetingen en metriek voor gebruik in het melden bevatten.
+2. [&#x200B; creeer een verbinding &#x200B;](/help/connections/create-connection.md) in Customer Journey Analytics met de gewenste Dataset.
+3. [&#x200B; creeer een gegevensmening &#x200B;](/help/data-views/create-dataview.md) die de gewenste afmetingen en metriek voor gebruik in het melden bevatten.
 4. Voer rapporten uit in Analysis Workspace op basis van de afmetingen en maatstaven die in de gegevensweergave zijn geconfigureerd.
 
 Hieronder volgt een lijst met enkele van de beschikbare integraties:

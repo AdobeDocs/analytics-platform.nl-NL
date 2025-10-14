@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Met Metrische deduplicatie kunt u een metrische waarde configureren, zodat waarden alleen op niet-herhaalde wijze worden geteld.
 
-![ Metrische deduplicatie ](../assets/metric-deduplication.png)
+![&#x200B; Metrische deduplicatie &#x200B;](../assets/metric-deduplication.png)
 
 | Instelling | Beschrijving |
 | --- | --- |

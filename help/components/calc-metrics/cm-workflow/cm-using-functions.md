@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Met functies kunt u uw gegevens filteren, sorteren en eenvoudige en complexe statistische analyses uitvoeren.
 
-Voor een lijst van alle functies, verwijs naar [ Basisfuncties ](/help/components/calc-metrics/cm-functions.md) en [ Geavanceerde functies ](/help/components/calc-metrics/cm-adv-functions.md).
+Voor een lijst van alle functies, verwijs naar [&#x200B; Basisfuncties &#x200B;](/help/components/calc-metrics/cm-functions.md) en [&#x200B; Geavanceerde functies &#x200B;](/help/components/calc-metrics/cm-adv-functions.md).
 
 
 

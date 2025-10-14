@@ -28,7 +28,7 @@ Alle gegevensinzameling en opstelling worden automatisch gevormd voor u zodra to
 
 **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Product Usage]**
 
-Het navigeren aan deze sectie van de interface in Customer Journey Analytics neemt u aan [ montages van Gegevens ](data-settings.md) waar u deze eigenschap kunt toelaten.
+Het navigeren aan deze sectie van de interface in Customer Journey Analytics neemt u aan [&#x200B; montages van Gegevens &#x200B;](data-settings.md) waar u deze eigenschap kunt toelaten.
 
 ## Beschikbare afmetingen
 
@@ -129,7 +129,7 @@ Het gebruik van het product houdt geen individuele projectcomponenten bij wannee
 
 ## Beschikbare sjabloon
 
-Een [ malplaatje van Adobe ](/help/analysis-workspace/templates/use-templates.md) is beschikbaar dat de componenten gebruikt die automatisch van deze eigenschap worden geproduceerd.
+Een [&#x200B; malplaatje van Adobe &#x200B;](/help/analysis-workspace/templates/use-templates.md) is beschikbaar dat de componenten gebruikt die automatisch van deze eigenschap worden geproduceerd.
 
 **[!UICONTROL Adobe templates]** > **[!UICONTROL Other]** > **[!UICONTROL Product usage overview]**
 

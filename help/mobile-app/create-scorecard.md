@@ -29,7 +29,7 @@ De volgende informatie instrueert curatoren van de gegevens van Customer Journey
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ creeer mobiele scorecard ](https://video.tv.adobe.com/v/343458?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; creeer mobiele scorecard &#x200B;](https://video.tv.adobe.com/v/343458?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -40,11 +40,11 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ creeer mobiel
 
 Een scorecard van Analytics toont zeer belangrijke gegevensvisualisaties voor uitvoerende gebruikers in een tegellay-out, zoals hieronder getoond:
 
-![ het scorecardvoorbeeld van Analytics die de Mobiele Demo van de Scorecard tonen ](assets/intro_scorecard.png)
+![&#x200B; het scorecardvoorbeeld van Analytics die de Mobiele Demo van de Scorecard tonen &#x200B;](assets/intro_scorecard.png)
 
 Als curator van dit scorecard, kunt u de scorecard bouwer gebruiken om te vormen welke tegels op scorecard voor uw uitvoerende consument verschijnen. U configureert ook hoe de gedetailleerde weergaven, of de onderverdelingen, kunnen worden aangepast wanneer op de tegels wordt getikt. De scorecard bouwerinterface wordt hieronder getoond:
 
-![ Scorecard Bouwer die het nieuwe mobiele scorecardvenster toont. ](assets/scorecard_builder.png)
+![&#x200B; Scorecard Bouwer die het nieuwe mobiele scorecardvenster toont. &#x200B;](assets/scorecard_builder.png)
 
 Om scorecard tot stand te brengen, moet u het volgende doen:
 
@@ -62,7 +62,7 @@ U kunt tot het [!UICONTROL Blank Mobile Scorecard] malplaatje of toegang hebben 
 1. Klik op **[!UICONTROL Create project]** en selecteer de **[!UICONTROL Blank mobile scorecard]** -projectsjabloon.
 1. Klik op **[!UICONTROL Create]**.
 
-![ Al venster van Malplaatjes met het Lege geselecteerde Scorecard MObile.](assets/new_template.png)
+![&#x200B; Al venster van Malplaatjes met het Lege geselecteerde Scorecard MObile.](assets/new_template.png)
 
 ### Menu Gereedschappen
 
@@ -75,11 +75,11 @@ Om het scorecardmalplaatje uit te voeren:
 
 1. Geef onder **[!UICONTROL Scorecard properties]** (in de rechterrails) een **[!UICONTROL Project data view]** op waaruit u gegevens wilt gebruiken.
 
-   ![ Nieuw mobiel scorecard venster dat de selectie van de gegevensmening benadrukt ](assets/properties_save.png)
+   ![&#x200B; Nieuw mobiel scorecard venster dat de selectie van de gegevensmening benadrukt &#x200B;](assets/properties_save.png)
 
 1. Als u een nieuwe tegel aan uw scorecard wilt toevoegen, sleept u een metrische waarde uit het linkerdeelvenster en zet u deze neer in de **[!UICONTROL Drag and Drop Metrics Here]** -zone. U kunt ook een metrische waarde tussen twee tegels invoegen met behulp van een vergelijkbare workflow.
 
-   ![ Nieuw mobiel scorecardvenster met een pijl die aan metrisch (Nieuwe KPI) richten die in scorecard wordt gelaten vallen. ](assets/build_list.png)
+   ![&#x200B; Nieuw mobiel scorecardvenster met een pijl die aan metrisch (Nieuwe KPI) richten die in scorecard wordt gelaten vallen. &#x200B;](assets/build_list.png)
 
 
 1. Van elke tegel, kunt u tot een gedetailleerde mening toegang hebben die extra informatie over metrisch, zoals hoogste punten voor een lijst van verwante afmetingen toont.
@@ -90,37 +90,37 @@ Als u een gerelateerde afmeting aan een metrische waarde wilt toevoegen, sleept 
 
 U kunt bijvoorbeeld de juiste afmetingen (zoals **[!DNL Marketing Channel]** in dit voorbeeld) toevoegen aan de **[!UICONTROL Unique Visitors]** -meting door deze naar de tegel te slepen. Uitsplitsingen naar afmetingen worden weergegeven onder de sectie [!UICONTROL Drill Ins] (uitsplitsing) van de tegelspecifieke sectie **[!UICONTROL Properties]** . U kunt meerdere afmetingen aan elke tegel toevoegen.
 
-![ Nieuw mobiel scorecard venster met een pijl die van de dimensielijst aan de scorecard ruit richten.](assets/layer_dimensions.png)
+![&#x200B; Nieuw mobiel scorecard venster met een pijl die van de dimensielijst aan de scorecard ruit richten.](assets/layer_dimensions.png)
 
 ## Segmenten toepassen {#segments}
 
 Als u segmenten op afzonderlijke tegels wilt toepassen, sleept u een segment uit het linkerdeelvenster en zet u het segment direct boven op de tegel neer.
 
-Als u het segment op alle tegels in scorecard wilt toepassen, laat vallen de tegel bovenop scorecard. U kunt ook segmenten toepassen door deze te selecteren in het segmentmenu onder de datumbereiken. U [ vormt en past segmenten voor uw scorecards ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=nl-NL) toe de zelfde manier u in Customer Journey Analytics Workspace zou.
+Als u het segment op alle tegels in scorecard wilt toepassen, laat vallen de tegel bovenop scorecard. U kunt ook segmenten toepassen door deze te selecteren in het segmentmenu onder de datumbereiken. U [&#x200B; vormt en past segmenten voor uw scorecards &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=nl-NL) toe de zelfde manier u in Customer Journey Analytics Workspace zou.
 
-![ drop-down selecteur die van het Segment de bouwstijlsegmenten ](assets/segment_ui.png) benadrukt
+![&#x200B; drop-down selecteur die van het Segment de bouwstijlsegmenten &#x200B;](assets/segment_ui.png) benadrukt
 
 ## Datumbereiken toevoegen {#dates}
 
 U kunt combinaties van datumbereiken toevoegen en verwijderen die u in uw scorecard kunt selecteren door de vervolgkeuzelijst met datumbereiken te selecteren.
 
-![ Nieuwe mobiele scorecard die gisteren tegenover Zelfde dag vorige week benadrukken ](assets/new_score_card.png)
+![&#x200B; Nieuwe mobiele scorecard die gisteren tegenover Zelfde dag vorige week benadrukken &#x200B;](assets/new_score_card.png)
 
 Elke nieuwe scorecard begint met 6 datumwaaiercombinaties die zich op de gegevens van vandaag en gisteren concentreren. U kunt overbodige datumbereiken verwijderen door op de x te klikken of u kunt elke datumbereikcombinatie bewerken door op het potlood te klikken.
 
-![ Nieuwe mobiele scorecard die het potloodpictogram benadrukt ](assets/new_score_card2.png)
+![&#x200B; Nieuwe mobiele scorecard die het potloodpictogram benadrukt &#x200B;](assets/new_score_card2.png)
 
 Als u een primaire datum wilt maken of wijzigen, gebruikt u de vervolgkeuzelijst om een van de beschikbare datumbereiken te selecteren of sleept u een datumcomponent van de rechterrail naar de neerzetzone.
 
-![ Nieuwe mobiele scorecard die de waaiers van de Datum met Primaire geselecteerde datum/Gister ](assets/new_score_card3.png) benadrukt
+![&#x200B; Nieuwe mobiele scorecard die de waaiers van de Datum met Primaire geselecteerde datum/Gister &#x200B;](assets/new_score_card3.png) benadrukt
 
 Als u een vergelijkingsdatum wilt maken, kunt u een keuze maken uit handige voorinstellingen voor algemene tijdvergelijkingen in het keuzemenu. U kunt ook een datumcomponent slepen en neerzetten vanaf de rechterrail.
 
-![ Nieuwe mobiele scorecard die de waaiers van de Datum benadrukt met de datum van de Vergelijking die aan Zelfde dag vorige week wordt geplaatst selecteerde ](assets/new_score_card4.png)
+![&#x200B; Nieuwe mobiele scorecard die de waaiers van de Datum benadrukt met de datum van de Vergelijking die aan Zelfde dag vorige week wordt geplaatst selecteerde &#x200B;](assets/new_score_card4.png)
 
 Als het gewenste datumbereik nog niet is gemaakt, kunt u een nieuw datumbereik maken door op het kalenderpictogram te klikken.
 
-![ pictogram van de Kalender ](assets/new_score_card5.png)
+![&#x200B; pictogram van de Kalender &#x200B;](assets/new_score_card5.png)
 
 Hiermee gaat u naar de builder van het datumbereik waar u een nieuwe component voor het datumbereik kunt maken en opslaan.
 
@@ -128,17 +128,17 @@ Hiermee gaat u naar de builder van het datumbereik waar u een nieuwe component v
 
 Om de waaiers van de vergelijkingsdatum te omvatten, knevel **omvatten vergelijkingsdata** plaatsen.
 
-![ Nieuwe mobiele scorecard die Gisteren vs Vorige dag benadrukt en vergelijkingsdata omvat ](assets/include-comparison-dates.png)
+![&#x200B; Nieuwe mobiele scorecard die Gisteren vs Vorige dag benadrukt en vergelijkingsdata omvat &#x200B;](assets/include-comparison-dates.png)
 
 Het plaatsen is *op* door gebrek. Wissel het aan *weg* als u geen vergelijkingsdata wilt bekijken.
 
-![ Nieuwe mobiele scorecard die gisteren en omvatten vergelijkingsdata ](assets/no-comparison-dates.png) benadrukt
+![&#x200B; Nieuwe mobiele scorecard die gisteren en omvatten vergelijkingsdata &#x200B;](assets/no-comparison-dates.png) benadrukt
 
 ## Visualisaties toepassen {#viz}
 
 De dashboards van de Analyse bieden vier visualisaties die u groot insight in afmetingspunten en metriek geven. Schakel over naar een andere visualisatie door de [!UICONTROL chart type] van de tegel [!UICONTROL Properties] te wijzigen. Selecteer gewoon de rechtertegel en wijzig vervolgens het diagramtype.
 
-![ Eigenschappen van de Tegel ](assets/properties.png)
+![&#x200B; Eigenschappen van de Tegel &#x200B;](assets/properties.png)
 
 U kunt ook op het pictogram [!UICONTROL Visualizations] in de linkertrack klikken en de rechtervisualisatie naar de tegel slepen:
 
@@ -148,31 +148,31 @@ U kunt ook op het pictogram [!UICONTROL Visualizations] in de linkertrack klikke
 
 Gebruik de Summiere visualisatie van het Aantal om een groot aantal te benadrukken dat in een project belangrijk is.
 
-![ Nieuwe mobiele scorecard met Summiere aantalvisualisatie die 13.3K bezoeken ](assets/summary-number.png) benadrukt
+![&#x200B; Nieuwe mobiele scorecard met Summiere aantalvisualisatie die 13.3K bezoeken &#x200B;](assets/summary-number.png) benadrukt
 
 ### [!UICONTROL Donut]
 
 Net als bij een cirkeldiagram toont deze visualisatie gegevens als delen van een geheel. Gebruik een donutgrafiek wanneer het vergelijken van percentages van een totaal. U wilt bijvoorbeeld zien welk platform heeft bijgedragen aan het totale aantal unieke personen:
 
-![ Nieuwe movile scorecard die een visualisatie van de Donut tonen ](assets/donut-viz.png)
+![&#x200B; Nieuwe movile scorecard die een visualisatie van de Donut tonen &#x200B;](assets/donut-viz.png)
 
 ### [!UICONTROL Line]
 
 De visualisatie van de Lijn vertegenwoordigt metriek gebruikend een lijn om te tonen hoe de waarden over een periode veranderen. Een lijngrafiek toont afmetingen in tijd maar werkt met om het even welke visualisatie. U visualiseert de dimensie van de productcategorie in dit voorbeeld.
 
-![ Nieuwe mobiele scorecard die een Lijn visualisatie tonen ](assets/line.png)
+![&#x200B; Nieuwe mobiele scorecard die een Lijn visualisatie tonen &#x200B;](assets/line.png)
 
 ### [!UICONTROL Horizontal Bar]
 
 Deze visualisatie toont horizontale balken die verschillende waarden over een of meer meeteenheden vertegenwoordigen. Als u bijvoorbeeld gemakkelijk wilt zien wat uw beste producten zijn, gebruikt u [!UICONTROL Horizontal Bar] voor visualisatie van uw voorkeur.
 
-![ Nieuwe mobiele scorecard die een horizontale bar tonen ](assets/horizontal.png)
+![&#x200B; Nieuwe mobiele scorecard die een horizontale bar tonen &#x200B;](assets/horizontal.png)
 
 ## Naamscorecards {#name}
 
 Als u de scorecard een naam wilt geven, klikt u op de naamruimte linksboven in het scherm en typt u de nieuwe naam.
 
-![ Naming_Scorecards ](assets/new_name.png)
+![&#x200B; Naming_Scorecards &#x200B;](assets/new_name.png)
 
 ### Dimensie-item [!UICONTROL Unspecified] verwijderen {#remove-dims}
 
@@ -181,7 +181,7 @@ Als u [!UICONTROL Unspecified] dimensie-items uit uw gegevens wilt verwijderen, 
 1. Selecteer de juiste tegel.
 1. Selecteer onder **[!UICONTROL Drill ins]** in het rechterspoor de pijl naar rechts naast het dimensie-item waarvan u **[!UICONTROL Unspecified]** -items wilt verwijderen.
 
-   ![ Eigenschappen met pijl die aan de juist-pijl naast de afmetingsnaam richten.](assets/unspecified.png)
+   ![&#x200B; Eigenschappen met pijl die aan de juist-pijl naast de afmetingsnaam richten.](assets/unspecified.png)
 
 1. Klik op het pictogram naast **[!UICONTROL Unspecified]** om niet-opgegeven gegevens uit de rapportage te verwijderen. (U kunt ook elk ander dimensie-item verwijderen.)
 
@@ -189,7 +189,7 @@ Als u [!UICONTROL Unspecified] dimensie-items uit uw gegevens wilt verwijderen, 
 
 Wanneer u op een tegel klikt in de scorecard builder, geeft de rechterrails de eigenschappen en kenmerken weer die aan die tegel en de bijbehorende dia met details zijn gekoppeld. In dit spoor, kunt u een nieuwe **Titel** voor de tegel verstrekken en alternatief de tegel vormen door segmenten toe te passen.
 
-![ de tegel van Eigenschappen ](assets/properties-tile-new.png)
+![&#x200B; de tegel van Eigenschappen &#x200B;](assets/properties-tile-new.png)
 
 ## Gedetailleerde dia&#39;s weergeven {#view-detail-slides}
 
@@ -201,7 +201,7 @@ De onderbrekingen verfijnen uw analyse door metriek door afmetingspunten zoals h
 * Bezoeken uitgesplitst naar productcategorie (detailhandel)
 * Totaal ontvangsten uitgesplitst naar productnaam
 
-![ Breakdown_view ](assets/break_view.png)
+![&#x200B; Breakdown_view &#x200B;](assets/break_view.png)
 
 Elke dimensie die aan de tegel wordt toegevoegd, wordt weergegeven in een vervolgkeuzemenu in de gedetailleerde weergave van de app. De uitvoerende gebruiker kan dan uit de opties kiezen die in het drop-down menu worden vermeld.
 
@@ -212,7 +212,7 @@ Met aangepaste dia&#39;s kunt u zich nog meer richten op de informatie die u dee
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de detailmeningen van de Douane ](https://video.tv.adobe.com/v/3428929?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; de detailmeningen van de Douane &#x200B;](https://video.tv.adobe.com/v/3428929?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
 
 {{videoaa}}
 
@@ -220,17 +220,17 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de detailmeni
 
 U kunt de lay-out voor elke detaildia wijzigen en tekst toevoegen om beter te verklaren wat de eindgebruiker in de gegevens kan zien. U kunt het grafiektype ook veranderen gebruikend het drop-down menu.
 
-![ de detail dia van de Douane ](assets/custom-detail-slide.png)
+![&#x200B; de detail dia van de Douane &#x200B;](assets/custom-detail-slide.png)
 
 ### De dialay-out wijzigen
 
 Wijzig de dialay-out om de nadruk op de belangrijkste informatie te leggen. U kunt bijvoorbeeld de lay-out zodanig wijzigen dat alleen een grafiek of alleen een tabel wordt weergegeven. Als u de dialay-out wilt wijzigen, selecteert u een van de vooraf ontworpen indelingen.
 
-![ de lay-out van de Schuiven ](assets/layout.png)
+![&#x200B; de lay-out van de Schuiven &#x200B;](assets/layout.png)
 
 U kunt de dialay-out ook veranderen door visualiseringscomponenten van de linkerspoorstaaf op het canvas te slepen en te laten vallen. Elke detaildia kan slechts twee visualisaties tegelijk bevatten.
 
-![ verandering van de lay-out van de Schuiving ](assets/slide-layout-change.png)
+![&#x200B; verandering van de lay-out van de Schuiving &#x200B;](assets/slide-layout-change.png)
 
 ### Beschrijvende tekst toevoegen aan een dia
 
@@ -238,13 +238,13 @@ U kunt tekst toevoegen om betekenisvolle informatie te verstrekken over wat in d
 
 Als u tekst wilt toevoegen aan een detaildia, selecteert u een lay-out waarin het `T` -symbool wordt weergegeven of sleept u de component voor tekstvisualisatie naar de linkertrack. De teksteditor wordt automatisch geopend wanneer u een nieuwe tekstvisualisatie toevoegt of een dialay-out met tekst kiest. De teksteditor bevat alle standaardopties voor de opmaak van de tekst. U kunt tekststijlen toepassen, zoals alinea&#39;s, koppen en subkoppen, en vette en cursieve lettertypen toepassen. U kunt tekst uitvullen, lijsten met opsommingstekens en nummers toevoegen en koppelingen toevoegen. Wanneer u klaar bent met bewerken, selecteert u de knop Minimaliseren in de rechterbovenhoek van de teksteditor om deze te sluiten. Als u de tekst die u al hebt toegevoegd wilt bewerken, selecteert u het potloodpictogram om de teksteditor opnieuw te openen.
 
-![ verandering van de lay-out van de Schuiving ](assets/add-descriptive-text.png)
+![&#x200B; verandering van de lay-out van de Schuiving &#x200B;](assets/add-descriptive-text.png)
 
 ## Componenten verwijderen {#remove}
 
 Op dezelfde manier om een component te verwijderen die op volledige scorecard wordt toegepast, klik overal op scorecard buiten de tegels en verwijder het door **x** te klikken die verschijnt wanneer u over de component, zoals hieronder voor **getoond Eerste Bezoek van de Tijd** toont:
 
-![ Remove_components ](assets/new_remove.png)
+![&#x200B; Remove_components &#x200B;](assets/new_remove.png)
 
 ## Gegevensartikelen maken {#create-data-story}
 
@@ -257,7 +257,7 @@ Bekijk de video voor meer informatie over het maken van gegevensverhalen in mobi
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ verhalen van Gegevens voor een Mobiel scorecard project ](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; verhalen van Gegevens voor een Mobiel scorecard project &#x200B;](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on){target="_blank"} voor een demo video.
 
 {{videoaa}}
 
@@ -270,14 +270,14 @@ Bouw uw gegevensverhaal door veelvoudige detaildia&#39;s aan een tegel toe te vo
 
 1. Begin met een mobiel scorecardproject.
 1. Selecteer een tegel waarvan u een artikel wilt maken.
-   ![ creeer een gegevensverhaal ](assets/data-story1.png)
-   ![ creeer de pictogrammen van het gegevensverhaal ](assets/create-data-story.png){width=".50%"}
+   ![&#x200B; creeer een gegevensverhaal &#x200B;](assets/data-story1.png)
+   ![&#x200B; creeer de pictogrammen van het gegevensverhaal &#x200B;](assets/create-data-story.png){width=".50%"}
 1. Voeg dia&#39;s toe om uw gegevensverhaal te bouwen. De eerste dia wordt standaard gegenereerd.
 Als u nieuwe dia&#39;s wilt toevoegen, houdt u de muisaanwijzer boven een dia of klikt u op een dia en selecteert u een van de beschikbare opties:
    * Tik op + om een nieuwe dia te maken.
    * Tik op het dubbele pictogram om de bestaande dia te dupliceren.
 1. Als u een lege dia maakt, sleept u componenten vanuit de linkerrail en zet u de component neer. U kunt ook een lay-out kiezen om de dia automatisch te vullen met de gegevens uit de tegel.
-   ![ creeer een gegevensverhaal ](assets/data-story2.png)
+   ![&#x200B; creeer een gegevensverhaal &#x200B;](assets/data-story2.png)
 Tik op het prullenbakpictogram om een dia te verwijderen.
 
 ### Een gegevensartikel aanpassen {#customize-data-story}
@@ -289,29 +289,29 @@ Met gegevensartikelen kunt u alles aanpassen, zodat u informatie kunt delen die 
 1. Tik op een tegel. De geselecteerde tegel krijgt een blauwe omtrek en de eigenschappen Naast elkaar staan in het rechterdeelvenster.
 1. Wijzig de titel, het diagramtype en andere tegelopties.
 1. Sleep een component naar de tegel.
-   ![ creeer een gegevensverhaal ](assets/data-story3.png)
+   ![&#x200B; creeer een gegevensverhaal &#x200B;](assets/data-story3.png)
 Wanneer u een component, zoals een visualisatie, naar een tegel sleept, wordt de component toegepast op alle dia&#39;s met gegevensartikelen.
 1. Als u een wijziging alleen op de titel wilt toepassen, houdt u Shift ingedrukt om de wijziging toe te passen.
-   ![ creeer een gegevensverhaal ](assets/data-story4.png)
+   ![&#x200B; creeer een gegevensverhaal &#x200B;](assets/data-story4.png)
 
 >[!NOTE]
 >Dia&#39;s nemen componenten van de tegel over, maar tegels nemen geen componenten van dia&#39;s over.
 
 **om individuele dia&#39;s** aan te passen
 
-U kunt de visualisatie voor afzonderlijke dia&#39;s in een gegevensartikel wijzigen. U kunt bijvoorbeeld een horizontale balk wijzigen in een donutgrafiek voor een bepaalde dia. U kunt ook de lay-out wijzigen. Zie [ detaildia&#39;s ](#customize-detail-slide) aanpassen.
+U kunt de visualisatie voor afzonderlijke dia&#39;s in een gegevensartikel wijzigen. U kunt bijvoorbeeld een horizontale balk wijzigen in een donutgrafiek voor een bepaalde dia. U kunt ook de lay-out wijzigen. Zie [&#x200B; detaildia&#39;s &#x200B;](#customize-detail-slide) aanpassen.
 
 ### Een gegevensartikel voorvertonen {#preview-data-story}
 
-Nadat u een gegevensverhaal creeert, gebruik de **knoop van de Voorproef** om met een gegevensverhaal te bekijken en in wisselwerking te staan alsof u een toepassingsgebruiker was. Voor informatie over het voorvertonen van uw gegevensverhaal, zie [ Voorproef een scorecard ](#preview)
+Nadat u een gegevensverhaal creeert, gebruik de **knoop van de Voorproef** om met een gegevensverhaal te bekijken en in wisselwerking te staan alsof u een toepassingsgebruiker was. Voor informatie over het voorvertonen van uw gegevensverhaal, zie [&#x200B; Voorproef een scorecard &#x200B;](#preview)
 
 ### Navigeren tussen tegels en dia&#39;s {#navigate-tiles-slides}
 
 Op de navigatiebalk worden pictogrammen weergegeven die aangeven wat er op elke dia staat. Met de navigatiebalk kunt u gemakkelijk naar een bepaalde dia navigeren als u veel dia&#39;s hebt.
 
 Tik op de navigatiebalk om te schakelen tussen de tegel en de dia&#39;s.
-![ creeer een gegevensverhaal ](assets/data-story5.png)
-![ creeer een gegevensverhaal ](assets/data-story-nav.png){width="45%"}
+![&#x200B; creeer een gegevensverhaal &#x200B;](assets/data-story5.png)
+![&#x200B; creeer een gegevensverhaal &#x200B;](assets/data-story-nav.png){width="45%"}
 
 U kunt ook heen en weer navigeren met de pijlen op het toetsenbord of door een component te selecteren en deze links of rechts van het scherm te houden om te schuiven.
 
@@ -321,11 +321,11 @@ U kunt voorvertonen hoe de scorecard eruitziet en functioneert zodra deze is gep
 
 1. Klik op **[!UICONTROL Preview]** in de rechterbovenhoek van het scherm.
 
-   ![ Preview_scorecards ](assets/preview.png)
+   ![&#x200B; Preview_scorecards &#x200B;](assets/preview.png)
 
 1. Als u wilt zien hoe de scorecard er op verschillende apparaten uitziet, selecteert u een apparaat in de vervolgkeuzelijst [!UICONTROL Device preview] .
 
-   ![ Device_preview ](assets/device-preview.png)
+   ![&#x200B; Device_preview &#x200B;](assets/device-preview.png)
 
 1. Als u met de voorvertoning wilt werken, kunt u:
 
@@ -350,7 +350,7 @@ De scorecard delen met een Executive-gebruiker:
 
 1. Klik op **[!UICONTROL Share]**.
 
-![ Share_Scorecards ](assets/new_share.png)
+![&#x200B; Share_Scorecards &#x200B;](assets/new_share.png)
 
 Nadat u een scorecard hebt gedeeld, kunnen uw ontvangers tot het op hun dashboards van Analytics toegang hebben. Als u verdere veranderingen in scorecard in de scorecard bouwer aanbrengt, zullen zij automatisch in gedeelde scorecard worden bijgewerkt. De uitvoerende gebruikers zullen dan de veranderingen zien nadat het scorecard op hun app verfrist.
 
@@ -364,7 +364,7 @@ Een scorecard delen met behulp van een shareable-koppeling
 
 1. Klik op het menu **[!UICONTROL Share]** en selecteer **[!UICONTROL Share scorecard]** .
 
-   ![ Share_Scorecards ](assets/share-scorecard.png)
+   ![&#x200B; Share_Scorecards &#x200B;](assets/share-scorecard.png)
 
 1. Kopieer de koppeling en plak deze in een e-mail-, document- of IM-app.
 

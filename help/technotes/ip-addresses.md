@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Sommige firewallconfiguraties blokkeren IP-adressen die afkomstig zijn van Adobe-servers voor gegevensverzameling of servers die verantwoordelijk zijn voor de toegang tot gegevens. U kunt deze lijst met bereiken gebruiken om de firewallinstellingen van uw organisatie te wijzigen, zodat u toegang hebt en gegevens kunt verzenden vanuit uw organisatie.
 
-Deze pagina omvat ip adressen u aan uw lijst van gewenste personen moet toevoegen opdat de uitgaande systemen aan functie, zoals [ het uitvoeren gegevens aan een wolkenleverancier ](/help/analysis-workspace/export/export-cloud.md) werken.
+Deze pagina omvat ip adressen u aan uw lijst van gewenste personen moet toevoegen opdat de uitgaande systemen aan functie, zoals [&#x200B; het uitvoeren gegevens aan een wolkenleverancier &#x200B;](/help/analysis-workspace/export/export-cloud.md) werken.
 
 >[!IMPORTANT]
 >
@@ -142,6 +142,6 @@ Deze pagina omvat ip adressen u aan uw lijst van gewenste personen moet toevoege
 
 >[!MORELIKETHIS]
 >
->[ Domeinen die door Customer Journey Analytics ](domains.md) worden gebruikt
+>[&#x200B; Domeinen die door Customer Journey Analytics &#x200B;](domains.md) worden gebruikt
 >
->[ IP adressen die door Adobe Experience Cloud ](https://experienceleague.adobe.com/nl/docs/core-services/interface/data-collection/ip-addresses) worden gebruikt
+>[&#x200B; IP adressen die door Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/nl/docs/core-services/interface/data-collection/ip-addresses) worden gebruikt

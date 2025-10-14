@@ -19,7 +19,7 @@ De volgende informatie verstrekt uitvoerende gebruikers van informatie over best
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ stafmedewerkers bijstaan om tot mobiele scorecards ](https://video.tv.adobe.com/v/3444842?captions=dut){target="_blank"} voor een demo video toegang te hebben.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; stafmedewerkers bijstaan om tot mobiele scorecards &#x200B;](https://video.tv.adobe.com/v/3444842?captions=dut){target="_blank"} voor een demo video toegang te hebben.
 
 >[!ENDSHADEBOX]
 
@@ -48,17 +48,17 @@ Voer de stappen uit volgens het besturingssysteem op uw apparaat om de app te do
 
 Klik op de volgende koppeling (deze is ook beschikbaar in Customer Journey Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile app)]** ) en volg de instructies om de app te downloaden, installeren en openen:
 
-[ verbinding van iOS ](https://apple.co/2zXq0aN)
+[&#x200B; verbinding van iOS &#x200B;](https://apple.co/2zXq0aN)
 
 **voor uitvoerende gebruikers op Android:**
 
 Klik op de volgende koppeling (deze is ook beschikbaar in Customer Journey Analytics onder **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (mobile app)]** ) en volg de instructies om de app te downloaden, installeren en openen:
 
-[ verbinding van Android ](https://bit.ly/2LM38Oo)
+[&#x200B; verbinding van Android &#x200B;](https://bit.ly/2LM38Oo)
 
 Zodra ze zijn gedownload en geïnstalleerd, kunnen gebruikers zich aanmelden bij de app met hun bestaande Customer Journey Analytics-referenties.
 
-![ Customer Journey Analytics app welkomstscherm ](assets/welcome.png)
+![&#x200B; Customer Journey Analytics app welkomstscherm &#x200B;](assets/welcome.png)
 
 ## Dashboards gebruiken {#use-dashboards}
 
@@ -66,7 +66,7 @@ U kunt als volgt dashboards gebruiken:
 
 1. Meld u aan bij de app. Het aanmeldingsscherm wordt weergegeven wanneer u dashboards start. Volg de aanwijzingen op basis van uw bestaande Customer Journey Analytics-gebruikersgegevens. Wij ondersteunen zowel Adobe- als Enterprise-/federatieve id&#39;s.
 
-   ![ Teken in opeenvolging ](assets/signseq.png)
+   ![&#x200B; Teken in opeenvolging &#x200B;](assets/signseq.png)
 
 1. Kies een bedrijf. Nadat u zich hebt aangemeld bij dashboards, wordt het scherm **[!UICONTROL Choose a company]** weergegeven. Dit scherm maakt een lijst van de login bedrijven waartot u behoort. Tik op de bedrijfsnaam die is gekoppeld aan de scorecard die met u wordt gedeeld.
 
@@ -78,18 +78,18 @@ U kunt als volgt dashboards gebruiken:
 
    U kunt de scorecardlijst sorteren op scorecardtitel, organisatienaam, of onlangs bekeken. U kunt zelfs naar een specifieke scorecard zoeken.
 
-   ![ kies een bedrijf ](assets/mobile-home-screen.png)
+   ![&#x200B; kies een bedrijf &#x200B;](assets/mobile-home-screen.png)
 
    Als u zich aanmeldt en een bericht ziet waarin wordt gemeld dat er niets is gedeeld, controleert u het volgende met uw curator:
 
    * U kunt zich aanmelden bij de juiste Customer Journey Analytics-sandbox.
    * Het scorebord is met u gedeeld.
 
-   ![ niets gedeelde ](assets/nothing.png)
+   ![&#x200B; niets gedeelde &#x200B;](assets/nothing.png)
 
 1. Onderzoek hoe de tegels in Scorecard verschijnen (het eerste Scorecard wordt getoond in donkere wijze; zie **[!UICONTROL Preferences]** hieronder voor meer informatie).
 
-   ![ verklaarde Tegels ](assets/newexplain.png)
+   ![&#x200B; verklaarde Tegels &#x200B;](assets/newexplain.png)
 
    Aanvullende informatie over tegels:
 
@@ -105,24 +105,24 @@ U kunt als volgt dashboards gebruiken:
 
    Het volgende voorbeeldscorebord wordt getoond in normale wijze:
 
-   ![ Scorecard van het Voorbeeld ](assets/intro_scorecard.png)
+   ![&#x200B; Scorecard van het Voorbeeld &#x200B;](assets/intro_scorecard.png)
 
 1. Tik op een tegel om te zien hoe een gedetailleerde uitsplitsing van de tegel werkt.
 
-   ![ mening van de Schaduw ](assets/sparkline.png)
+   ![&#x200B; mening van de Schaduw &#x200B;](assets/sparkline.png)
 
 
 1. U wijzigt de datumbereiken voor uw scorebord als volgt:
 
-   ![ data van de Verandering ](assets/changedate.png)
+   ![&#x200B; data van de Verandering &#x200B;](assets/changedate.png)
 
    * U kunt de datumbereiken ook op dezelfde manier wijzigen in de bovenstaande uitsplitsingsweergave.
 
    * Afhankelijk van het interval u tikt (**Dag**, **Week**, **Maand**, of **Jaar**), zult u twee opties voor datum bereiken-of de huidige spanwijdte van tijd of onmiddellijk voorafgaand aan het zien. Tik op een van deze twee opties om het eerste bereik te selecteren. Tik in de lijst **[!UICONTROL COMPARE TO]** op een van de opties die worden weergegeven om de gegevens van deze tijdsperiode te vergelijken met de gegevens van het eerste datumbereik dat u hebt geselecteerd. Tik op **[!UICONTROL Done]** rechtsboven in het scherm. De velden **[!UICONTROL Date Ranges]** en Scorecard worden bijgewerkt met de nieuwe vergelijkingsgegevens uit de nieuwe bereiken die u hebt geselecteerd.
 
-1. Als u een segment wilt toepassen op uw scorebord, tikt u op het vervolgkeuzemenu voor segmenten en selecteert u een segment dat door de curator is geconfigureerd. [ Segmenten ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=nl-NL) in app functioneren de zelfde manier zij in Workspace doen.
+1. Als u een segment wilt toepassen op uw scorebord, tikt u op het vervolgkeuzemenu voor segmenten en selecteert u een segment dat door de curator is geconfigureerd. [&#x200B; Segmenten &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=nl-NL) in app functioneren de zelfde manier zij in Workspace doen.
 
-   ![ Segment ](assets/segment_filter.png)
+   ![&#x200B; Segment &#x200B;](assets/segment_filter.png)
 
 1. Download [!UICONTROL Scorecard] updates. Als een [!UICONTROL Scorecard] niet alle metrische gegevens of uitsplitsingen bevat waarin u wellicht geïnteresseerd bent, neemt u contact op met uw Customer Journey Analytics-team om het scorebord bij te werken. Na de update kunt u de kaart op het scherm terugtrekken om deze te vernieuwen en de onlangs toegevoegde gegevens te laden.
 
@@ -132,18 +132,18 @@ U kunt als volgt dashboards gebruiken:
    2. Tik op het **[!UICONTROL Settings]** -scherm op de optie **[!UICONTROL Feedback]** .
    3. Tik om de opties voor het geven van feedback weer te geven.
 
-      ![ het scherm van Montages ](assets/settings.png)
+      ![&#x200B; het scherm van Montages &#x200B;](assets/settings.png)
 
 1. Tik op de bovenstaande optie **[!UICONTROL Preferences]** om de voorkeuren te wijzigen. Bij de voorkeuren kunt u de biometrische aanmelding inschakelen of de app voor de donkere modus instellen, zoals hieronder wordt weergegeven:
 
-   ![ Donkere wijze ](assets/darkmode.png)
+   ![&#x200B; Donkere wijze &#x200B;](assets/darkmode.png)
 
 
 **om een insect** te melden:
 
 Tik op de optie en kies een subcategorie van de bug. Geef in het formulier voor het melden van een fout uw e-mailadres op in het bovenste veld en uw beschrijving van de fout op in het veld eronder. Een het schermschot van uw rekeningsinfo wordt automatisch in bijlage aan het bericht, maar u kunt dit schrappen als u wilt door **X** in het gehechtheidsbeeld te tikken. U hebt ook opties voor het opnemen van een scherm, het toevoegen van meer schermafbeeldingen of het bijvoegen van bestanden. Tik op het pictogram van het papieren vlak rechtsboven in het formulier om het rapport te verzenden.
 
-![ bug van het Rapport ](assets/newbug.png)
+![&#x200B; bug van het Rapport &#x200B;](assets/newbug.png)
 
 **om een verbetering** voor te stellen:
 

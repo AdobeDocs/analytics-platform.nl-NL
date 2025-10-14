@@ -38,7 +38,7 @@ U kunt bepalen hoe een bepaalde component wordt getoond door zijn formaatmontage
 
 1. Selecteer de component die u wilt vormen, breid dan de [!UICONTROL **sectie van het Formaat**] op de rechterkant van de pagina uit.
 
-   ![ montages van het Formaat ](../assets/format-settings.png)
+   ![&#x200B; montages van het Formaat &#x200B;](../assets/format-settings.png)
 
 1. Geef de volgende informatie op:
 
@@ -48,7 +48,7 @@ U kunt bepalen hoe een bepaalde component wordt getoond door zijn formaatmontage
    | **[!UICONTROL Decimal]** | Niet zichtbaar op de gegevenstypen van het schema van het Geheel. Hier kunt u het aantal decimalen opgeven dat een component weergeeft. |
    | **[!UICONTROL Date]** | Hiermee kunt u bepalen hoe het datum-tijdveld moet worden weergegeven wanneer dit als een dimensie in de rapportage wordt gebruikt. [Meer informatie](../../use-cases/data-views/data-views-usecases.md#date-and-date-time-use-cases) |
    | **[!UICONTROL Date-Time]** | Hiermee kunt u bepalen hoe het datum-tijdveld moet worden weergegeven wanneer dit als een dimensie in de rapportage wordt gebruikt. [Meer informatie](../../use-cases/data-views/data-views-usecases.md#date-and-date-time-use-cases) |
-   | **[!UICONTROL Currency]** | Hiermee kunt u bepalen in welke valuta de component moet worden weergegeven. <p>Als u globale gegevens analyseert waar de transacties in verschillende valuta voorkomen, zie [ de muntomzetting van het Gebruik ](#use-currency-conversion).</p> |
+   | **[!UICONTROL Currency]** | Hiermee kunt u bepalen in welke valuta de component moet worden weergegeven. <p>Als u globale gegevens analyseert waar de transacties in verschillende valuta voorkomen, zie [&#x200B; de muntomzetting van het Gebruik &#x200B;](#use-currency-conversion).</p> |
    | **[!UICONTROL Show upward trend as]** | Hier kunt u opgeven of een opwaartse trend voor deze component goed (groen) of slecht (rood) is. |
    | **[!UICONTROL True value]** en **[!UICONTROL False value]** | Alleen zichtbaar op gegevenstypen van een Booleaans schema. Hiermee kunt u het label van het dimensie-item aanpassen voor waarden `true` en `false` . |
 
@@ -74,11 +74,11 @@ Als bijvoorbeeld een e-commercebedrijf actief is in de VS, het Verenigd Koninkri
 >Overweeg het volgende voordat u een metrische waarde voor valutaomzetting gaat configureren:
 >
 >* De metrische waarde die u selecteert voor valutaomzetting, moet een numeriek type hebben (Dubbel, Lang, Geheel getal, Kort, Byte).
->* Stel uw Customer Journey Analytics-verbinding zo in dat deze ten minste één gebeurtenisdataset bevat die een valutacodedimensie bevat voor elke gebeurtenis die een valutawaarde bevat. Die dimensie van de muntcode gebruikt een alfabetische muntcode die aan [ ISO 4217 ](https://www.iso.org/iso-4217-currency-codes.html) norm in overeenstemming is voor het vertegenwoordigen van valuta&#39;s. Deze waarden moeten in hoofdletters worden ingevoerd, zoals USD voor $, EUR voor €, GBP voor £.
+>* Stel uw Customer Journey Analytics-verbinding zo in dat deze ten minste één gebeurtenisdataset bevat die een valutacodedimensie bevat voor elke gebeurtenis die een valutawaarde bevat. Die dimensie van de muntcode gebruikt een alfabetische muntcode die aan [&#x200B; ISO 4217 &#x200B;](https://www.iso.org/iso-4217-currency-codes.html) norm in overeenstemming is voor het vertegenwoordigen van valuta&#39;s. Deze waarden moeten in hoofdletters worden ingevoerd, zoals USD voor $, EUR voor €, GBP voor £.
 
 Om te bepalen hoe de valuta&#39;s voor bepaalde metrisch worden getoond en omgezet:
 
-1. Begin vormend metrisch waarvoor u munt als formaat wilt gebruiken, zoals hierboven beschreven, in [ vorm formaatmontages voor metrisch ](#configure-format-settings-for-a-metric).
+1. Begin vormend metrisch waarvoor u munt als formaat wilt gebruiken, zoals hierboven beschreven, in [&#x200B; vorm formaatmontages voor metrisch &#x200B;](#configure-format-settings-for-a-metric).
 
 1. Met metrisch geselecteerd, maak de volgende selecties in de [!UICONTROL **sectie van het Formaat**] op de rechterkant van de pagina:
 
@@ -92,7 +92,7 @@ Om te bepalen hoe de valuta&#39;s voor bepaalde metrisch worden getoond en omgez
 
    * In het [!UICONTROL **Uitgezochte de afmeting van de muntcode**] gebied, selecteer de afmeting die de munt vertegenwoordigt u van (de munt die uw gegevens gebaseerd is) omzet. Bijvoorbeeld, selecteer een dimensie genoemd [!UICONTROL **code van de Valuta**].
 
-     Als u geen afmeting in uw huidig gegevensschema hebt dat een gebied van de muntcode bevat, kunt u een nieuw gebied van de muntcode tot stand brengen gebruikend [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=nl-NL) de Prep van Gegevens 0&rbrace;, [ Gegevens Distiller ](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=nl-NL), of [ Voortgekomen Gebieden ](/help/data-views/derived-fields/derived-fields.md).  Data Prep is alleen geschikt voor nieuwe implementaties omdat het alleen op doorlopende basis gebeurt. Afhankelijk van de opstelling van een organisatie, kunnen de Gegevens Distiller en Afgeleide Gebieden worden gebruikt om tot de waarden van de valutacode historisch toegang te hebben.
+     Als u geen afmeting in uw huidig gegevensschema hebt dat een gebied van de muntcode bevat, kunt u een nieuw gebied van de muntcode tot stand brengen gebruikend [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=nl-NL) de Prep van Gegevens 0&rbrace;, [&#x200B; Gegevens Distiller &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=nl-NL), of [&#x200B; Voortgekomen Gebieden &#x200B;](/help/data-views/derived-fields/derived-fields.md).  Data Prep is alleen geschikt voor nieuwe implementaties omdat het alleen op doorlopende basis gebeurt. Afhankelijk van de opstelling van een organisatie, kunnen de Gegevens Distiller en Afgeleide Gebieden worden gebruikt om tot de waarden van de valutacode historisch toegang te hebben.
 
    * In het [!UICONTROL **Bekeerling en vertoningsmunt in**] gebied, kies de munt waarin u gegevens wilt worden omgezet.
 

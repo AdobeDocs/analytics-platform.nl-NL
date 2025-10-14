@@ -35,7 +35,7 @@ ht-degree: 1%
 
 De volgende informatie beschrijft de montages die een component van de gegevensmening gebruikt.
 
-![ de montages van de Component die in deze sectie ](../assets/component-settings.png) worden beschreven
+![&#x200B; de montages van de Component die in deze sectie &#x200B;](../assets/component-settings.png) worden beschreven
 
 | Instelling | Omschrijving/gebruik |
 | --- | --- |
@@ -43,14 +43,14 @@ De volgende informatie beschrijft de montages die een component van de gegevensm
 | [!UICONTROL Component name] | Vereist. Hier geeft u de vriendschappelijke naam op die in Analysis Workspace wordt weergegeven. U kunt de naam van een component wijzigen en deze een specifieke naam geven voor de gegevensweergave. |
 | [!UICONTROL Description] | Optioneel, maar aanbevolen. Verstrekt informatie over de component aan andere gebruikers. |
 | [!UICONTROL Tags] | Optioneel. Hiermee kunt u de component labelen met aangepaste of kant-en-klare tags, zodat u gemakkelijker kunt zoeken en filteren in de gebruikersinterface van Analysis Workspace. |
-| [!UICONTROL Context labels] | Optioneel. Een drop-down menu van beschikbare systeem-bepaalde [ contextetiketten ](#context-labels) die op een component kunnen worden toegepast. |
+| [!UICONTROL Context labels] | Optioneel. Een drop-down menu van beschikbare systeem-bepaalde [&#x200B; contextetiketten &#x200B;](#context-labels) die op een component kunnen worden toegepast. |
 | [!UICONTROL Schema field name] | De naam van het schemaveld. |
 | [!UICONTROL Dataset type] | Vereist. Een niet-bewerkbaar veld dat aangeeft uit welk gegevenstype de component afkomstig is (gebeurtenis, zoekopdracht of profiel). |
 | [!UICONTROL Dataset] | Een niet-bewerkbaar veld dat aangeeft van welke gegevensset de component afkomstig is. Dit veld kan meerdere gegevenssets bevatten. |
 | [!UICONTROL Schema type] | Een niet-bewerkbaar veld dat het gegevenstype van de component weergeeft. Hoewel u elk ondersteund schemaveldtype kunt gebruiken in Platform, worden niet alle veldtypen ondersteund in Customer Journey Analytics. De volgende gegevenstypen worden ondersteund: `Integer`, `Int`, `Long`, `Double`, `Float`, `Number`, `Short`, `Byte`, `String` en `Boolean`. Alleen het gegevenstype van het `String` schema is momenteel toegestaan in Lookup-gegevenssets. |
-| [!UICONTROL Component ID] | Vereist. De [ Customer Journey Analytics API ](https://www.adobe.io/cja-apis/docs) gebruikt dit gebied om de component van verwijzingen te voorzien. Elke component in een gegevensweergave moet uniek zijn. Adobe genereert automatisch een id voor elke component. U kunt echter op het bewerkingspictogram klikken en de component-id wijzigen. Wanneer u de component-id wijzigt, worden alle bestaande Workspace-projecten met deze component verbroken. Hoewel elke component een unieke id in één gegevensweergave nodig heeft, kunt u dezelfde component-id in andere gegevensweergaven gebruiken. Als u dezelfde component-id in andere gegevensweergaven gebruikt, kunt u Workspace-projecten compatibel maken in verschillende gegevensweergaven. <br/> voor profiel en raadpleging gebaseerde componenten, heeft componentenidentiteitskaart een prefix die van identiteitskaart op dataset ID wordt gebaseerd (bijvoorbeeld: `642b28fcc1f0ee1c074265a0.person.name.firstName`). Wanneer u een profiel of een op raadpleging gebaseerde component, zoals `person.name.firstName`, in uw Workspace-project opnieuw wilt gebruiken en deze component in verschillende gegevensweergaven wilt configureren, moet u ervoor zorgen dat de naam van de component-id uniek wordt gewijzigd (bijvoorbeeld: `myUniqueID.person.name.firstName` ) in de verschillende gegevensweergaven. |
+| [!UICONTROL Component ID] | Vereist. De [&#x200B; Customer Journey Analytics API &#x200B;](https://www.adobe.io/cja-apis/docs) gebruikt dit gebied om de component van verwijzingen te voorzien. Elke component in een gegevensweergave moet uniek zijn. Adobe genereert automatisch een id voor elke component. U kunt echter op het bewerkingspictogram klikken en de component-id wijzigen. Wanneer u de component-id wijzigt, worden alle bestaande Workspace-projecten met deze component verbroken. Hoewel elke component een unieke id in één gegevensweergave nodig heeft, kunt u dezelfde component-id in andere gegevensweergaven gebruiken. Als u dezelfde component-id in andere gegevensweergaven gebruikt, kunt u Workspace-projecten compatibel maken in verschillende gegevensweergaven. <br/> voor profiel en raadpleging gebaseerde componenten, heeft componentenidentiteitskaart een prefix die van identiteitskaart op dataset ID wordt gebaseerd (bijvoorbeeld: `642b28fcc1f0ee1c074265a0.person.name.firstName`). Wanneer u een profiel of een op raadpleging gebaseerde component, zoals `person.name.firstName`, in uw Workspace-project opnieuw wilt gebruiken en deze component in verschillende gegevensweergaven wilt configureren, moet u ervoor zorgen dat de naam van de component-id uniek wordt gewijzigd (bijvoorbeeld: `myUniqueID.person.name.firstName` ) in de verschillende gegevensweergaven. |
 | [!UICONTROL Path] | Vereist. Een niet-bewerkbaar veld met het schemapad waaruit de component afkomstig is. |
-| [!UICONTROL Data Usage Labels] | Alle labels voor gegevensgebruik die in Adobe Experience Platform aan deze component zijn toegewezen. [ leer meer ](/help/data-views/data-governance.md). |
+| [!UICONTROL Data Usage Labels] | Alle labels voor gegevensgebruik die in Adobe Experience Platform aan deze component zijn toegewezen. [&#x200B; leer meer &#x200B;](/help/data-views/data-governance.md). |
 | [!UICONTROL Hide component in reporting] | Hiermee kunt u de component uit de gegevensweergave voor niet-beheerders krullen. Beheerders hebben er nog steeds toegang toe door in een Analysis Workspace-project op [!UICONTROL Show All Components] te klikken. |
 
 {style="table-layout:auto"}
@@ -59,7 +59,7 @@ De volgende informatie beschrijft de montages die een component van de gegevensm
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ het type van Component montages ](https://video.tv.adobe.com/v/333112/?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; het type van Component montages &#x200B;](https://video.tv.adobe.com/v/333112/?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -86,30 +86,30 @@ Contextlabels zijn ook relevant voor de openbaarmaking van projectsjablonen. De 
 De voordelen van contextlabels zijn:
 
 * **Handigheid**: U moet niet de zelfde component in elk paneel of visualisatie opnieuw selecteren.
-* **ontgrendelt functionaliteit**: Sommige visualisaties (als [ Kaart ](/help/analysis-workspace/visualizations/map.md)) vereisen kennis over welke component breedte en lengtegraad is. Door contextlabels toe te wijzen, wordt die informatie doorgegeven aan de visualisatie.
+* **ontgrendelt functionaliteit**: Sommige visualisaties (als [&#x200B; Kaart &#x200B;](/help/analysis-workspace/visualizations/map.md)) vereisen kennis over welke component breedte en lengtegraad is. Door contextlabels toe te wijzen, wordt die informatie doorgegeven aan de visualisatie.
 * **Consistentie**: Iedereen in uw organisatie die aan één of meerdere projecten werkt die op een gegevensmening gebaseerd zijn die contextetiketten gebruikt krijgt het zelfde gedrag.
 * **Zichtbaarheid van eigenschappen en malplaatjes**: Bepaalde visualisaties en eigenschappen verschijnen slechts wanneer het juiste contextetiket wordt toegewezen. Bijvoorbeeld:
 
-   * A [ de visualisatie van de Kaart ](/help/analysis-workspace/visualizations/map.md) toont behoorlijk slechts wanneer Customer Journey Analytics weet welke componenten breedte en lengte vertegenwoordigen.
-   * De specifieke [ malplaatjes ](/help/analysis-workspace/templates/use-templates.md) zijn zichtbaar slechts wanneer de correcte contextetiketten worden toegepast en de bijbehorende componenten beschikbaar worden.
+   * A [&#x200B; de visualisatie van de Kaart &#x200B;](/help/analysis-workspace/visualizations/map.md) toont behoorlijk slechts wanneer Customer Journey Analytics weet welke componenten breedte en lengte vertegenwoordigen.
+   * De specifieke [&#x200B; malplaatjes &#x200B;](/help/analysis-workspace/templates/use-templates.md) zijn zichtbaar slechts wanneer de correcte contextetiketten worden toegepast en de bijbehorende componenten beschikbaar worden.
 
 In de volgende situaties kunnen contextlabels vereist zijn:
 
-* Om een reeks componenten te bepalen, kunt u in experimenteren gebruiken die het [ paneel van de Experimentatie gebruiken ](/help/analysis-workspace/c-panels/experimentation.md) in de projecten van Analysis Workspace.
+* Om een reeks componenten te bepalen, kunt u in experimenteren gebruiken die het [&#x200B; paneel van de Experimentatie gebruiken &#x200B;](/help/analysis-workspace/c-panels/experimentation.md) in de projecten van Analysis Workspace.
 
-  Voor meer informatie, zie [ met Journey Optimizer ](/help/integrations/ajo.md#data-view) integreren en [ Doel rapporterend ](/help/integrations/at.md).
+  Voor meer informatie, zie [&#x200B; met Journey Optimizer &#x200B;](/help/integrations/ajo.md#data-view) integreren en [&#x200B; Doel rapporterend &#x200B;](/help/integrations/at.md).
 
-* Om een reeks componenten te bepalen, kunt u binnen de [ kaart ](/help/analysis-workspace/visualizations/map.md) visualisatie in de projecten van Analysis Workspace gebruiken.
+* Om een reeks componenten te bepalen, kunt u binnen de [&#x200B; kaart &#x200B;](/help/analysis-workspace/visualizations/map.md) visualisatie in de projecten van Analysis Workspace gebruiken.
 
-  Voor meer informatie, zie [ contextetiketten in gegevensmeningen ](/help/analysis-workspace/visualizations/map.md#add-context-labels-in-data-views) in [ Kaart ](/help/analysis-workspace/visualizations/map.md) toevoegen.
+  Voor meer informatie, zie [&#x200B; contextetiketten in gegevensmeningen &#x200B;](/help/analysis-workspace/visualizations/map.md#add-context-labels-in-data-views) in [&#x200B; Kaart &#x200B;](/help/analysis-workspace/visualizations/map.md) toevoegen.
 
   **Nota**: De visualisatie van de Kaart is in de Beperkte het Testen fase van versie en zou niet nog in uw milieu beschikbaar kunnen zijn.
 
-* Om [ malplaatjes te openbaren die door Adobe ](/help/analysis-workspace/templates/use-templates.md) worden verstrekt. Sommige sjablonen die door Adobe worden aangeboden, werken mogelijk niet omdat bepaalde componenten niet in de gegevensweergave staan.
+* Om [&#x200B; malplaatjes te openbaren die door Adobe &#x200B;](/help/analysis-workspace/templates/use-templates.md) worden verstrekt. Sommige sjablonen die door Adobe worden aangeboden, werken mogelijk niet omdat bepaalde componenten niet in de gegevensweergave staan.
 
   Voor elke ontbrekende component is er een contextlabel beschikbaar in de gegevensweergave. U moet of het passende contextetiket aan een component toevoegen die reeds in uw gegevensmening is. Of u moet een nieuwe component aan uw gegevensmening toevoegen en het contextetiket aan de component toevoegen (als niet reeds automatisch verstrekt).
 
-  Voor meer informatie, zie [ ontbrekende componenten aan de gegevensmening voor een bepaalde malplaatje ](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template) in het artikel [ toevoegen en malplaatjes ](/help/analysis-workspace/templates/create-templates.md) beheren.
+  Voor meer informatie, zie [&#x200B; ontbrekende componenten aan de gegevensmening voor een bepaalde malplaatje &#x200B;](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template) in het artikel [&#x200B; toevoegen en malplaatjes &#x200B;](/help/analysis-workspace/templates/create-templates.md) beheren.
 
 
 De volgende groepen contextlabels zijn beschikbaar, elk met een lijst met specifieke contextlabels.

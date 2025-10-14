@@ -18,7 +18,7 @@ In dit artikel wordt beschreven hoe u een aantal gebruiksgevallen (15) kunt uitv
 
 * **Desktop van Power BI**. De gebruikte versie is 2.137.1102.0 64-bits (oktober 2024).
 * **Desktop van Tableau**. De gebruikte versie is 2024.1.5 (20241.24.0705.0334) 64-bits.
-* **Leider**. Online versie 25.0.23, beschikbaar door [ looker.com ](https://looker.com)
+* **Leider**. Online versie 25.0.23, beschikbaar door [&#x200B; looker.com &#x200B;](https://looker.com)
 * **Jupyter Notitieboekje**. De gebruikte versie is 7.3.2.
 * **RStudio**. De gebruikte versie is 2024.12.0, build 467.
 
@@ -70,7 +70,7 @@ De instructies verwijzen naar een voorbeeldomgeving met de volgende objecten:
 * Metrisch: **[!UICONTROL Purchase Revenue]** 🅓 en **[!UICONTROL Purchases]** 🅔 .
 * Filter: **[!UICONTROL Fishing Products]** 🅕 .
 
-![ de opstelling van de Basis van Customer Journey Analytics ](assets/cja-base.png)
+![&#x200B; de opstelling van de Basis van Customer Journey Analytics &#x200B;](assets/cja-base.png)
 
 Wanneer u de gebruiksgevallen doorloopt, vervangt u deze voorbeeldobjecten door objecten die geschikt zijn voor uw specifieke omgeving.
 
@@ -85,62 +85,62 @@ Wanneer u de gebruiksgevallen doorloopt, vervangt u deze voorbeeldobjecten door 
 1. Open de vereiste referenties en parameters via de gebruikersinterface van de Experience Platform Query Service.
 
    1. Navigeer naar uw Experience Platform-sandbox.
-   1. Selecteer ![ Vragen ](/help/assets/icons/DataSearch.svg) **[!UICONTROL Queries]** van het linkerspoor.
+   1. Selecteer ![&#x200B; Vragen &#x200B;](/help/assets/icons/DataSearch.svg) **[!UICONTROL Queries]** van het linkerspoor.
    1. Selecteer de tab **[!UICONTROL Credentials]** in de interface van **[!UICONTROL Queries]** .
    1. Selecteer `prod:cja` in de vervolgkeuzelijst **[!UICONTROL Database]** .
 
-      ![ de dienstgeloofsbrieven van de Vraag ](assets/queryservice-credentials.png)
+      ![&#x200B; de dienstgeloofsbrieven van de Vraag &#x200B;](assets/queryservice-credentials.png)
 
 1. Start Power BI Desktop.
    1. Selecteer **[!UICONTROL Get data from other sources]** in de hoofdinterface.
    1. In het dialoogvenster **[!UICONTROL Get Data]** :
 
-      ![ gegevensbestand PowerBI PostgreSQL ](assets/powerbi-postgresql.png)
+      ![&#x200B; gegevensbestand PowerBI PostgreSQL &#x200B;](assets/powerbi-postgresql.png)
       1. Zoek en selecteer **[!UICONTROL PostgreSQL database]** .
       1. Selecteer **[!UICONTROL Connect]** .
    1. In het dialoogvenster **[!UICONTROL PostgreSQL database]** :
 
-      ![ de Server en montages van het Gegevensbestand van de Desktop PowerBI ](assets/powerbi-serverdatabase.png)
-      1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om de **[!UICONTROL Host]** en **[!UICONTROL Port]** waarden van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]**, die door `:` als waarde voor **[!UICONTROL Server]** wordt gescheiden. Bijvoorbeeld: `examplecompany.platform-query.adobe.io:80` .
-      1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om de **[!UICONTROL Database]** waarde van het Experience Platform **[!UICONTROL Query]** **[!UICONTROL Expiring Credentials]** paneel te kopiëren en te kleven. Voeg `?FLATTEN` toe aan de waarde die u plakt. Bijvoorbeeld `prod:cja?FLATTEN` .
+      ![&#x200B; de Server en montages van het Gegevensbestand van de Desktop PowerBI &#x200B;](assets/powerbi-serverdatabase.png)
+      1. Gebruik ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) om de **[!UICONTROL Host]** en **[!UICONTROL Port]** waarden van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]**, die door `:` als waarde voor **[!UICONTROL Server]** wordt gescheiden. Bijvoorbeeld: `examplecompany.platform-query.adobe.io:80` .
+      1. Gebruik ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) om de **[!UICONTROL Database]** waarde van het Experience Platform **[!UICONTROL Query]** **[!UICONTROL Expiring Credentials]** paneel te kopiëren en te kleven. Voeg `?FLATTEN` toe aan de waarde die u plakt. Bijvoorbeeld `prod:cja?FLATTEN` .
       1. Selecteer **[!UICONTROL DirectQuery]** als de **[!UICONTROL Data connectivity mode]** .
       1. Selecteer **[!UICONTROL OK]** .
    1. In het dialoogvenster **[!UICONTROL PostgreSQL database]** - **[!UICONTROL Database]** :
 
-      ![ Gebruiker en Wachtwoord van de Desktop PowerBI ](assets/powerbi-userpassword.png)
-      1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om de **[!UICONTROL Username]** en **[!UICONTROL Password]** waarden van het Experience Platform **[!UICONTROL Query]** te kopiëren **[!UICONTROL Expiring Credentials]** paneel in **[!UICONTROL User name]** en **[!UICONTROL Password]** gebieden. Als u a [ niet-uitbreidende credentie ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect) gebruikt, gebruik het wachtwoord van uw niet-uitbreidende referentie.
+      ![&#x200B; Gebruiker en Wachtwoord van de Desktop PowerBI &#x200B;](assets/powerbi-userpassword.png)
+      1. Gebruik ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) om de **[!UICONTROL Username]** en **[!UICONTROL Password]** waarden van het Experience Platform **[!UICONTROL Query]** te kopiëren **[!UICONTROL Expiring Credentials]** paneel in **[!UICONTROL User name]** en **[!UICONTROL Password]** gebieden. Als u a [&#x200B; niet-uitbreidende credentie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect) gebruikt, gebruik het wachtwoord van uw niet-uitbreidende referentie.
       1. Zorg ervoor dat het vervolgkeuzemenu voor **[!UICONTROL Select which level to apply these settings to]** is ingesteld op de **[!UICONTROL Server]** die u eerder hebt gedefinieerd.
       1. Selecteer **[!UICONTROL Connect]** .
    1. In het dialoogvenster **[!UICONTROL Navigator]** worden de gegevensweergaven opgehaald. Dit kan enige tijd duren. Zodra teruggewonnen, ziet u het volgende in de Desktop van Power BI.
 
-      ![ de Gegevens van de Lading van de Desktop van Power BI ](assets/powerbi-navigator-load.png)
+      ![&#x200B; de Gegevens van de Lading van de Desktop van Power BI &#x200B;](assets/powerbi-navigator-load.png)
       1. Selecteer **[!UICONTROL public.cc_data_view]** in de lijst in het linkerdeelvenster.
       1. U hebt twee opties:
          1. Selecteer **[!UICONTROL Load]** om door te gaan en de installatie te voltooien.
          1. Selecteer **[!UICONTROL Transform Data]** . Er wordt een dialoogvenster weergegeven waarin u desgewenst transformaties kunt toepassen als onderdeel van de configuratie.
 
-            ![ Gegevens van de Transformatie van de Desktop van Power BI ](assets/powerbi-transform-data.png)
+            ![&#x200B; Gegevens van de Transformatie van de Desktop van Power BI &#x200B;](assets/powerbi-transform-data.png)
             * Selecteer **[!UICONTROL Close & Apply]** .
-   1. Na enige tijd wordt **[!UICONTROL public.cc_data_view]** weergegeven in het deelvenster **[!UICONTROL Data]** . Selecteer ![ ChevronRight ](/help/assets/icons/ChevronRight.svg) om afmetingen en metriek te tonen.
+   1. Na enige tijd wordt **[!UICONTROL public.cc_data_view]** weergegeven in het deelvenster **[!UICONTROL Data]** . Selecteer ![&#x200B; ChevronRight &#x200B;](/help/assets/icons/ChevronRight.svg) om afmetingen en metriek te tonen.
 
-      ![ Gegevens van de Server van de Desktop van Power BI geladen ](assets/powerbi-navigator-loaded.png)
+      ![&#x200B; Gegevens van de Server van de Desktop van Power BI geladen &#x200B;](assets/powerbi-navigator-loaded.png)
 
 
 ### Naar FLATTEN of niet
 
-Power BI Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [ genestelde gegevens ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
+Power BI Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [&#x200B; genestelde gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
 
 | FLATTEN, parameter | Voorbeeld | Ondersteund | Opmerkingen |
 |---|---|:---:|---|
-| Geen | `prod:cja` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
-| `?FLATTEN` | `prod:cja?FLATTEN` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | **geadviseerde optie om te gebruiken!** |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![ CloseCircle ](/help/assets/icons/CloseCircle.svg) | Fout in weergave Power BI Desktop: **[!UICONTROL We couldn't authenticate with the credentials provided. Please try again.]** |
+| Geen | `prod:cja` | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | **geadviseerde optie om te gebruiken!** |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![&#x200B; CloseCircle &#x200B;](/help/assets/icons/CloseCircle.svg) | Fout in weergave Power BI Desktop: **[!UICONTROL We couldn't authenticate with the credentials provided. Please try again.]** |
 
 ### Meer informatie
 
 * [Vereisten](/help/data-views/bi-extension.md#prerequisites)
-* [ gids van Geloofsbrieven ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials)
-* [ verbind Power BI met de Dienst van de Vraag ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/power-bi).
+* [&#x200B; gids van Geloofsbrieven &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials)
+* [&#x200B; verbind Power BI met de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/power-bi).
 
 
 
@@ -150,25 +150,25 @@ Power BI Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATT
 1. Open de vereiste referenties en parameters via de gebruikersinterface van de Experience Platform Query Service.
 
    1. Navigeer naar uw Experience Platform-sandbox.
-   1. Selecteer ![ Vragen ](/help/assets/icons/DataSearch.svg) **[!UICONTROL Queries]** van het linkerspoor.
+   1. Selecteer ![&#x200B; Vragen &#x200B;](/help/assets/icons/DataSearch.svg) **[!UICONTROL Queries]** van het linkerspoor.
    1. Selecteer de tab **[!UICONTROL Credentials]** in de interface van **[!UICONTROL Queries]** .
    1. Selecteer `prod:cja` in de vervolgkeuzelijst **[!UICONTROL Database]** .
 
-      ![ de dienstgeloofsbrieven van de Vraag ](assets/queryservice-credentials.png)
+      ![&#x200B; de dienstgeloofsbrieven van de Vraag &#x200B;](assets/queryservice-credentials.png)
 
 1. Start Tableau.
    1. Selecteer **[!UICONTROL PostgreSQL]** in de linkertrack onder **[!UICONTROL To a Server]** . Als deze optie niet beschikbaar is, selecteert u **[!UICONTROL More...]** en selecteert u **[!UICONTROL PostgreSQL]** in het menu **[!UICONTROL Installed Connectors]** .
 
-      ![ Verbindingen van Tableau ](assets/tableau-connectors.png)
+      ![&#x200B; Verbindingen van Tableau &#x200B;](assets/tableau-connectors.png)
    1. Ga in het dialoogvenster **[!UICONTROL PostgreSQL]** op het tabblad **[!UICONTROL General]** naar:
 
-      ![ Teken van Tableau binnen dialoog ](assets/tableau-signin.png)
-      1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om **[!UICONTROL Host]** van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** aan **[!UICONTROL Server]**.
-      1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om **[!UICONTROL Port]** van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** aan **[!UICONTROL Port]**.
-      1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om **[!UICONTROL Database]** van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** aan **[!UICONTROL Database]**. Voeg `%3FFLATTEN` toe aan de waarde die u plakt. Bijvoorbeeld: `prod:cja%3FFLATTEN` .
+      ![&#x200B; Teken van Tableau binnen dialoog &#x200B;](assets/tableau-signin.png)
+      1. Gebruik ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) om **[!UICONTROL Host]** van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** aan **[!UICONTROL Server]**.
+      1. Gebruik ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) om **[!UICONTROL Port]** van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** aan **[!UICONTROL Port]**.
+      1. Gebruik ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) om **[!UICONTROL Database]** van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** aan **[!UICONTROL Database]**. Voeg `%3FFLATTEN` toe aan de waarde die u plakt. Bijvoorbeeld: `prod:cja%3FFLATTEN` .
       1. Selecteer **[!UICONTROL Username and Password]** in de vervolgkeuzelijst **[!UICONTROL Authentication]** .
-      1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om **[!UICONTROL Username]** van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** aan **[!UICONTROL Username]**.
-      1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om **[!UICONTROL Password]** van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** aan **[!UICONTROL Password]**. Als u a [ niet-uitbreidende credentie ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect) gebruikt, gebruik het wachtwoord van uw niet-uitbreidende referentie.
+      1. Gebruik ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) om **[!UICONTROL Username]** van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** aan **[!UICONTROL Username]**.
+      1. Gebruik ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) om **[!UICONTROL Password]** van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** aan **[!UICONTROL Password]**. Als u a [&#x200B; niet-uitbreidende credentie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect) gebruikt, gebruik het wachtwoord van uw niet-uitbreidende referentie.
       1. Controleer of **[!UICONTROL Require SSL]** is ingeschakeld.
       1. Selecteer **[!UICONTROL Sign In]** .
 
@@ -178,27 +178,27 @@ Power BI Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATT
       * De naam van de database, onder **[!UICONTROL Database]** .
       * Een lijst met tabellen, onder **[!UICONTROL Table]** .
 
-        ![ Verbonden Tableau ](assets/tableau-connected.png)
+        ![&#x200B; Verbonden Tableau &#x200B;](assets/tableau-connected.png)
       1. Sleep het item **[!UICONTROL cc_data_view]** en zet het neer in de hoofdweergave die **[!UICONTROL Drag tables]** hier leest.
    1. In het hoofdvenster worden de details van de gegevensweergave van **[!UICONTROL cc_data_view]** weergegeven.
 
-      ![ Verbonden Tableau ](assets/tableau-validation.png)
+      ![&#x200B; Verbonden Tableau &#x200B;](assets/tableau-validation.png)
 
 ### Naar FLATTEN of niet
 
-Tableau Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [ genestelde gegevens ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
+Tableau Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [&#x200B; genestelde gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
 
 | FLATTEN, parameter | Voorbeeld | Ondersteund | Opmerkingen |
 |---|---|:---:|---|
-| Geen | `prod:cja` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
-| `?FLATTEN` | `prod:cja?FLATTEN` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | **geadviseerde optie om** te gebruiken. Opmerking: `%3FFLATTEN` is een URL-gecodeerde versie van `?FLATTEN` . |
+| Geen | `prod:cja` | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | **geadviseerde optie om** te gebruiken. Opmerking: `%3FFLATTEN` is een URL-gecodeerde versie van `?FLATTEN` . |
 
 ### Meer informatie
 
 * [Vereisten](/help/data-views/bi-extension.md#prerequisites)
-* [ gids van Geloofsbrieven ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials)
-* [ verbind de Desktop van Tableau aan de Dienst van de Vraag ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/tableau).
+* [&#x200B; gids van Geloofsbrieven &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials)
+* [&#x200B; verbind de Desktop van Tableau aan de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/tableau).
 
 
 >[!TAB  Leider ]
@@ -206,11 +206,11 @@ Tableau Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTE
 1. Open de vereiste referenties en parameters via de gebruikersinterface van de Experience Platform Query Service.
 
    1. Navigeer naar uw Experience Platform-sandbox.
-   1. Selecteer ![ Vragen ](/help/assets/icons/DataSearch.svg) **[!UICONTROL Queries]** van het linkerspoor.
+   1. Selecteer ![&#x200B; Vragen &#x200B;](/help/assets/icons/DataSearch.svg) **[!UICONTROL Queries]** van het linkerspoor.
    1. Selecteer de tab **[!UICONTROL Credentials]** in de interface van **[!UICONTROL Queries]** .
    1. Selecteer `prod:cja` in de vervolgkeuzelijst **[!UICONTROL Database]** .
 
-      ![ de dienstgeloofsbrieven van de Vraag ](assets/queryservice-credentials.png)
+      ![&#x200B; de dienstgeloofsbrieven van de Vraag &#x200B;](assets/queryservice-credentials.png)
 
 1. Aanmelden bij Looker
 
@@ -219,16 +219,16 @@ Tableau Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTE
    1. Selecteer **[!UICONTROL Add Connection]** .
    1. In de lus **[!UICONTROL Connect your database to Looker screen]** .
 
-      ![ Leider verbindt met gegevensbestand ](assets/looker-connect.png)
+      ![&#x200B; Leider verbindt met gegevensbestand &#x200B;](assets/looker-connect.png)
 
       1. Voer een **[!UICONTROL Name]** in voor uw verbinding, bijvoorbeeld `Example Looker Connection` .
       1. Zorg ervoor dat **[!UICONTROL All Projects]** is geselecteerd als de **[!UICONTROL Connection Scope]** .
       1. Selecteer **[!UICONTROL PostgreSQL 9.5+]** als Dialect.
-      1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om de **[!UICONTROL Host]** waarde van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]**, als waarde voor **[!UICONTROL Host]**. Bijvoorbeeld: `examplecompany.platform-query.adobe.io` .
-      1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om de **[!UICONTROL Port]** waarde van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]**, als waarde voor **[!UICONTROL Port]**. Bijvoorbeeld: `80` .
-      1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om de **[!UICONTROL Database]** waarde van het Experience Platform **[!UICONTROL Query]** **[!UICONTROL Expiring Credentials]** paneel als waarde voor **[!UICONTROL Database]** te kopiëren en te kleven. Voeg `%3FFLATTEN` toe aan de waarde die u plakt. Bijvoorbeeld `prod:cja%3FFLATTEN` .
-      1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om de **[!UICONTROL Username]** waarde van het Experience Platform **[!UICONTROL Query]** **[!UICONTROL Expiring Credentials]** paneel als waarde voor **[!UICONTROL Username]** te kopiëren en te kleven.
-      1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om de **[!UICONTROL Password]** waarde van het Experience Platform **[!UICONTROL Query]** **[!UICONTROL Expiring Credentials]** paneel als waarde voor **[!UICONTROL Password]** te kopiëren en te kleven.
+      1. Gebruik ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) om de **[!UICONTROL Host]** waarde van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]**, als waarde voor **[!UICONTROL Host]**. Bijvoorbeeld: `examplecompany.platform-query.adobe.io` .
+      1. Gebruik ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) om de **[!UICONTROL Port]** waarde van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]**, als waarde voor **[!UICONTROL Port]**. Bijvoorbeeld: `80` .
+      1. Gebruik ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) om de **[!UICONTROL Database]** waarde van het Experience Platform **[!UICONTROL Query]** **[!UICONTROL Expiring Credentials]** paneel als waarde voor **[!UICONTROL Database]** te kopiëren en te kleven. Voeg `%3FFLATTEN` toe aan de waarde die u plakt. Bijvoorbeeld `prod:cja%3FFLATTEN` .
+      1. Gebruik ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) om de **[!UICONTROL Username]** waarde van het Experience Platform **[!UICONTROL Query]** **[!UICONTROL Expiring Credentials]** paneel als waarde voor **[!UICONTROL Username]** te kopiëren en te kleven.
+      1. Gebruik ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) om de **[!UICONTROL Password]** waarde van het Experience Platform **[!UICONTROL Query]** **[!UICONTROL Expiring Credentials]** paneel als waarde voor **[!UICONTROL Password]** te kopiëren en te kleven.
       1. Selecteer **[!UICONTROL Expand all]** bij **[!UICONTROL Optional Settings]** .
       1. Stel **[!UICONTROL Max connections]** per knooppunt in op `5` .
       1. Controleer of **[!UICONTROL SSL]** is ingeschakeld.
@@ -246,7 +246,7 @@ Tableau Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTE
          1. Geef uw project een naam in **[!UICONTROL Create a new LookML Project for this model]** . Voor `example: example_looker_project` .
          1. Selecteer **[!UICONTROL Next]** .
       1. In **[!UICONTROL ➋ Select Tables]**:
-         1. Selecteer **[!UICONTROL public]** en zorg ervoor dat de Customer Journey Analytics-gegevensweergave is geselecteerd. Bijvoorbeeld: ![ SelectBox ](/help/assets/icons/SelectBox.svg) **[!UICONTROL cc_data_view]**.
+         1. Selecteer **[!UICONTROL public]** en zorg ervoor dat de Customer Journey Analytics-gegevensweergave is geselecteerd. Bijvoorbeeld: ![&#x200B; SelectBox &#x200B;](/help/assets/icons/SelectBox.svg) **[!UICONTROL cc_data_view]**.
          1. Selecteer **[!UICONTROL Next]** .
       1. In **[!UICONTROL ➌ Select Primary Keys]**:
          1. Selecteer **[!UICONTROL Next]** .
@@ -263,18 +263,18 @@ Tableau Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTE
 
 ### Naar FLATTEN of niet
 
-De markering ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [ genestelde gegevens ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
+De markering ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [&#x200B; genestelde gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
 
 | FLATTEN, parameter | Voorbeeld | Ondersteund | Opmerkingen |
 |---|---|:---:|---|
-| Geen | `prod:cja` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
-| `?FLATTEN` | `prod:cja?FLATTEN` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | **geadviseerde optie om** te gebruiken. Opmerking: `%3FFLATTEN` is een URL-gecodeerde versie van `?FLATTEN` . |
+| Geen | `prod:cja` | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | **geadviseerde optie om** te gebruiken. Opmerking: `%3FFLATTEN` is een URL-gecodeerde versie van `?FLATTEN` . |
 
 ### Meer informatie
 
 * [Vereisten](/help/data-views/bi-extension.md#prerequisites)
-* [ gids van Geloofsbrieven ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials)
+* [&#x200B; gids van Geloofsbrieven &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials)
 
 
 >[!TAB  Jupyter Notitieboekje ]
@@ -282,11 +282,11 @@ De markering ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` 
 1. Open de vereiste referenties en parameters via de gebruikersinterface van de Experience Platform Query Service.
 
    1. Navigeer naar uw Experience Platform-sandbox.
-   1. Selecteer ![ Vragen ](/help/assets/icons/DataSearch.svg) **[!UICONTROL Queries]** van het linkerspoor.
+   1. Selecteer ![&#x200B; Vragen &#x200B;](/help/assets/icons/DataSearch.svg) **[!UICONTROL Queries]** van het linkerspoor.
    1. Selecteer de tab **[!UICONTROL Credentials]** in de interface van **[!UICONTROL Queries]** .
    1. Selecteer `prod:cja` in de vervolgkeuzelijst **[!UICONTROL Database]** .
 
-      ![ de dienstgeloofsbrieven van de Vraag ](assets/queryservice-credentials.png)
+      ![&#x200B; de dienstgeloofsbrieven van de Vraag &#x200B;](assets/queryservice-credentials.png)
 
 1. Zorg ervoor dat u een speciale virtuele Python-omgeving hebt ingesteld voor het uitvoeren van uw Jupyter-laptopomgeving.
 1. Controleer of u de vereiste bibliotheken in uw virtuele omgeving hebt geïnstalleerd:
@@ -295,14 +295,14 @@ De markering ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` 
    * sqlalchemy: pip `install sqlalchemy` .
 
 1. Start Jupyter-laptop vanuit uw virtuele omgeving: `jupyter notebook` .
-1. Creeer een nieuwe notitieboekje, of download [ deze steekproefnotitieboekje ](assets/BI-Extension.ipynb.zip).
+1. Creeer een nieuwe notitieboekje, of download [&#x200B; deze steekproefnotitieboekje &#x200B;](assets/BI-Extension.ipynb.zip).
 1. Voer in de eerste cel de volgende gegevens in en voer deze uit:
 
    ```
    %config SqlMagic.style = '_DEPRECATED_DEFAULT'
    ```
 
-1. In een nieuwe cel, ga de config parameters voor uw verbinding in. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om waarden van het Experience Platform **[!UICONTROL Query]** **[!UICONTROL Expiring Credentials]** paneel aan de waarden te kopiëren en te kleven die voor de config parameters worden vereist. Bijvoorbeeld:
+1. In een nieuwe cel, ga de config parameters voor uw verbinding in. Gebruik ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) om waarden van het Experience Platform **[!UICONTROL Query]** **[!UICONTROL Expiring Credentials]** paneel aan de waarden te kopiëren en te kleven die voor de config parameters worden vereist. Bijvoorbeeld:
 
    ```
    import ipywidgets as widgets
@@ -326,9 +326,9 @@ De markering ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` 
    ```
 
 1. Voer de cel uit.
-1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om het wachtwoord van het Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** paneel aan het **[!UICONTROL Password]** gebied in Jupyter Notitieboekje.
+1. Gebruik ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) om het wachtwoord van het Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** paneel aan het **[!UICONTROL Password]** gebied in Jupyter Notitieboekje.
 
-   ![ Stap 1 van Config van het Notitieboekje van Jupter ](assets/jupyter-config-step1.png)
+   ![&#x200B; Stap 1 van Config van het Notitieboekje van Jupter &#x200B;](assets/jupyter-config-step1.png)
 
 1. Voer in een nieuwe cel de instructies in om de SQL-extensie, de vereiste bibliotheek en de verbinding met Customer Journey Analytics te laden.
 
@@ -340,7 +340,7 @@ De markering ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` 
 
    Voer de shell uit. Er wordt geen uitvoer weergegeven, maar de cel moet zonder waarschuwing worden uitgevoerd.
 
-   ![ Stap 4 van Config van het Notitieboekje van de Jupyer 1&rbrace;](assets/jupyter-config-step2.png)
+   ![&#x200B; Stap 4 van Config van het Notitieboekje van de Jupyer 1&rbrace;](assets/jupyter-config-step2.png)
 
 1. In een nieuwe vraag, ga de verklaringen in om een lijst van beschikbare gegevensmeningen te krijgen die op de verbinding worden gebaseerd.
 
@@ -364,39 +364,39 @@ De markering ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` 
 
    Voer de shell uit. U zou uitvoersimulator aan het hieronder opgenomen schermschot moeten zien.
 
-   ![ Stap 5 van Config van het Notitieboekje van Jupyter ](assets/jupyter-config-step3.png)
+   ![&#x200B; Stap 5 van Config van het Notitieboekje van Jupyter &#x200B;](assets/jupyter-config-step3.png)
 
    De **[!UICONTROL cc_data_view]** wordt weergegeven in de lijst met gegevensweergaven.
 
 ### Naar FLATTEN of niet
 
-Jupyter-laptop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [ genestelde gegevens ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
+Jupyter-laptop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [&#x200B; genestelde gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
 
 | FLATTEN, parameter | Voorbeeld | Ondersteund | Opmerkingen |
 |---|---|:---:|---|
-| Geen | `prod:cja` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
-| `?FLATTEN` | `prod:cja?FLATTEN` | ![ CloseCircle ](/help/assets/icons/CloseCircle.svg) | |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | **geadviseerde optie om** te gebruiken. Opmerking: `%3FFLATTEN` is een URL-gecodeerde versie van `?FLATTEN` . |
+| Geen | `prod:cja` | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![&#x200B; CloseCircle &#x200B;](/help/assets/icons/CloseCircle.svg) | |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | **geadviseerde optie om** te gebruiken. Opmerking: `%3FFLATTEN` is een URL-gecodeerde versie van `?FLATTEN` . |
 
 ### Meer informatie
 
 * [Vereisten](/help/data-views/bi-extension.md#prerequisites)
-* [ gids van Geloofsbrieven ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials)
+* [&#x200B; gids van Geloofsbrieven &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials)
 
 >[!TAB  RStudio ]
 
 1. Open de vereiste referenties en parameters via de gebruikersinterface van de Experience Platform Query Service.
 
    1. Navigeer naar uw Experience Platform-sandbox.
-   1. Selecteer ![ Vragen ](/help/assets/icons/DataSearch.svg) **[!UICONTROL Queries]** van het linkerspoor.
+   1. Selecteer ![&#x200B; Vragen &#x200B;](/help/assets/icons/DataSearch.svg) **[!UICONTROL Queries]** van het linkerspoor.
    1. Selecteer de tab **[!UICONTROL Credentials]** in de interface van **[!UICONTROL Queries]** .
    1. Selecteer `prod:cja` in de vervolgkeuzelijst **[!UICONTROL Database]** .
 
-      ![ de dienstgeloofsbrieven van de Vraag ](assets/queryservice-credentials.png)
+      ![&#x200B; de dienstgeloofsbrieven van de Vraag &#x200B;](assets/queryservice-credentials.png)
 
 1. Start RStudio.
-1. Creeer een nieuw dossier van de Markering R, of download [ dit voorbeeld of markeringsdossier ](assets/BI-Extension.Rmd.zip).
-1. Voer in het eerste segment de volgende instructies in tussen ` ` ``{r} ` en ` `` ` ` . Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om waarden van het Experience Platform **[!UICONTROL Query]** **[!UICONTROL Expiring Credentials]** paneel aan de waarden te kopiëren en te kleven die voor de diverse parameters, zoals `host` worden vereist, `dbname`, en `user`. Bijvoorbeeld:
+1. Creeer een nieuw dossier van de Markering R, of download [&#x200B; dit voorbeeld of markeringsdossier &#x200B;](assets/BI-Extension.Rmd.zip).
+1. Voer in het eerste segment de volgende instructies in tussen ` ` ``{r} ` en ` `` ` ` . Gebruik ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) om waarden van het Experience Platform **[!UICONTROL Query]** **[!UICONTROL Expiring Credentials]** paneel aan de waarden te kopiëren en te kleven die voor de diverse parameters, zoals `host` worden vereist, `dbname`, en `user`. Bijvoorbeeld:
 
    ```R
    library(rstudioapi)
@@ -413,9 +413,9 @@ Jupyter-laptop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN
    ```
 
 1. Voer het segment uit. U wordt gevraagd om **[!UICONTROL Host]** , **[!UICONTROL Database]** en **[!UICONTROL User]** . Accepteer gewoon de waarden die u hebt opgegeven als onderdeel van de vorige stap.
-1. Gebruik ![ Exemplaar ](/help/assets/icons/Copy.svg) om het wachtwoord van het Experience Platform **[!UICONTROL Query]** **[!UICONTROL Expiring Credentials]** paneel aan de **[!UICONTROL Password]** dialoogherinnering in RStudio te kopiëren en te kleven.
+1. Gebruik ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) om het wachtwoord van het Experience Platform **[!UICONTROL Query]** **[!UICONTROL Expiring Credentials]** paneel aan de **[!UICONTROL Password]** dialoogherinnering in RStudio te kopiëren en te kleven.
 
-   ![ RStudio config stap 1 ](assets/rstudio-config-step1.png)
+   ![&#x200B; RStudio config stap 1 &#x200B;](assets/rstudio-config-step1.png)
 
 1. Maak een nieuw segment en voer de volgende instructies in tussen ` ` `` {r} ` en ` `` ` ` .
 
@@ -452,22 +452,22 @@ Jupyter-laptop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN
 
 1. Voer het segment uit. U zou uitvoersimulator aan het hieronder opgenomen schermschot moeten zien.
 
-   ![ RStudio config stap 2 ](assets/rstudio-config-step2.png)
+   ![&#x200B; RStudio config stap 2 &#x200B;](assets/rstudio-config-step2.png)
 
 ### Naar FLATTEN of niet
 
-RStudio ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [ genestelde gegevens ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
+RStudio ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [&#x200B; genestelde gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
 
 | FLATTEN, parameter | Voorbeeld | Ondersteund | Opmerkingen |
 |---|---|:---:|---|
-| Geen | `prod:cja` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | |
-| `?FLATTEN` | `prod:cja?FLATTEN` | ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) | **geadviseerde optie om** te gebruiken. |
-| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![ CloseCircle ](/help/assets/icons/CloseCircle.svg) | |
+| Geen | `prod:cja` | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | |
+| `?FLATTEN` | `prod:cja?FLATTEN` | ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) | **geadviseerde optie om** te gebruiken. |
+| `%3FFLATTEN` | `prod:cja%3FFLATTEN` | ![&#x200B; CloseCircle &#x200B;](/help/assets/icons/CloseCircle.svg) | |
 
 ### Meer informatie
 
 * [Vereisten](/help/data-views/bi-extension.md#prerequisites)
-* [ gids van Geloofsbrieven ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials)
+* [&#x200B; gids van Geloofsbrieven &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials)
 
 >[!ENDTABS]
 
@@ -482,7 +482,7 @@ In dit geval wilt u een tabel en eenvoudige lijnvisualisatie weergeven met een d
 
 Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 
-![ Customer Journey Analytics het Dagelijkse paneel van de Trend ](assets/cja_daily_trend.png)
+![&#x200B; Customer Journey Analytics het Dagelijkse paneel van de Trend &#x200B;](assets/cja_daily_trend.png)
 
 +++
 
@@ -490,7 +490,7 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 
 >[!PREREQUISITES]
 >
->Verzeker u a [ succesvolle verbinding en kunt gegevensmeningen ](#connect-and-validate) voor het hulpmiddel bevestigen en gebruiken BI waarvoor u dit gebruiksgeval wilt uitproberen.
+>Verzeker u a [&#x200B; succesvolle verbinding en kunt gegevensmeningen &#x200B;](#connect-and-validate) voor het hulpmiddel bevestigen en gebruiken BI waarvoor u dit gebruiksgeval wilt uitproberen.
 >
 
 >[!BEGINTABS]
@@ -516,16 +516,16 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 
    Een lijngrafiekvisualisatie vervangt de lijst terwijl het gebruiken van de zelfde gegevens zoals de lijst. Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ Geval van het Gebruik van de Desktop van Power BI 2 de waaierfilter van de Datum ](assets/uc2-pbi-daterange.png)
+   ![&#x200B; Geval van het Gebruik van de Desktop van Power BI 2 de waaierfilter van de Datum &#x200B;](assets/uc2-pbi-daterange.png)
 
 1. Op het grafiekvisualisatie van de Lijn:
 
-   1. Selecteer ![ Meer ](/help/assets/icons/More.svg).
+   1. Selecteer ![&#x200B; Meer &#x200B;](/help/assets/icons/More.svg).
    1. Selecteer **[!UICONTROL Show as a table]** in het contextmenu.
 
    De hoofdweergave wordt bijgewerkt om zowel een lijnvisualisatie als een tabel weer te geven. Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ Geval 2 van het Gebruik van de Desktop van Power BI Def. Dagelijkse Tendvisualisatie ](assets/uc2-pbi-final.png)
+   ![&#x200B; Geval 2 van het Gebruik van de Desktop van Power BI Def. Dagelijkse Tendvisualisatie &#x200B;](assets/uc2-pbi-final.png)
 
 >[!TAB  Desktop Tableau ]
 
@@ -534,7 +534,7 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
    1. Selecteer **[!UICONTROL Filters Field \[Daterange\]]** in het dialoogvenster **[!UICONTROL Range of Dates]** van **[!UICONTROL Next >]** .
    1. Selecteer **[!UICONTROL Filter \[Daterange\]]** in het dialoogvenster **[!UICONTROL Range of dates]** en geef een punt op van `01/01/2023` - `01/02/2023` .
 
-      ![ de Filter van de Desktop van Tableau ](assets/uc2-tableau-filter.png)
+      ![&#x200B; de Filter van de Desktop van Tableau &#x200B;](assets/uc2-tableau-filter.png)
 
    1. Sleep **[!UICONTROL Daterangeday]** vanuit de lijst **[!UICONTROL Tables]** in het deelvenster **[!UICONTROL Data]** en zet de vermelding in het veld naast **[!UICONTROL Columns]** neer.
       * Selecteer **[!UICONTROL Day]** in de vervolgkeuzelijst **[!UICONTROL Daterangeday]** , zodat de waarde wordt bijgewerkt naar **[!UICONTROL DAY(Daterangeday)]** .
@@ -543,7 +543,7 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Grafiek van de Desktop van Tableau ](assets/uc2-tableau-graph.png)
+      ![&#x200B; Grafiek van de Desktop van Tableau &#x200B;](assets/uc2-tableau-graph.png)
 
 1. Selecteer **[!UICONTROL Duplicate]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om een tweede blad te maken.
 1. Selecteer **[!UICONTROL Rename]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om de naam van het werkblad te wijzigen in `Graph` .
@@ -555,7 +555,7 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Gegevens van de Desktop van Tableau ](assets/uc2-tableau-data.png)
+      ![&#x200B; Gegevens van de Desktop van Tableau &#x200B;](assets/uc2-tableau-data.png)
 
 1. Selecteer de tabknop **[!UICONTROL New Dashboard]** (onder) om een nieuwe **[!UICONTROL Dashboard 1]** -weergave te maken. In de weergave **[!UICONTROL Dashboard 1]** :
    1. Sleep en laat vallen het **[!UICONTROL Graph]** blad van **[!UICONTROL Sheets]** plank op de **[!UICONTROL Dashboard 1]** mening die *Dropbladen hier* leest.
@@ -564,18 +564,18 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Dashboard 1 van de Desktop van Tableau ](assets/uc2-tableau-dashboard.png)
+      ![&#x200B; Dashboard 1 van de Desktop van Tableau &#x200B;](assets/uc2-tableau-dashboard.png)
 
 
 >[!TAB  Leider ]
 
-1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![ Plaatsende ](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
+1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![&#x200B; Plaatsende &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
 
-      ![ filter van de Leider ](assets/uc2-looker-filter.png)
+      ![&#x200B; filter van de Leider &#x200B;](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/02/01]** .
 1. Vanaf het gedeelte **[!UICONTROL Cc Data View]** in de linkerspoorstaaf,
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en **[!UICONTROL Date]** in de lijst met **[!UICONTROL DIMENSIONS]** .
@@ -585,7 +585,7 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ Minder resultaat dagelijkse trend ](assets/uc2-looker-result.png)
+![&#x200B; Minder resultaat dagelijkse trend &#x200B;](assets/uc2-looker-result.png)
 
 
 >[!TAB  Jupyter Notitieboekje ]
@@ -610,7 +610,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc2-jupyter-results.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](assets/uc2-jupyter-results.png)
 
 
 >[!TAB  RStudio ]
@@ -633,7 +633,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](assets/uc2-rstudio-results.png)
+   ![&#x200B; Resultaten RStudio &#x200B;](assets/uc2-rstudio-results.png)
 
 >[!ENDTABS]
 
@@ -648,7 +648,7 @@ In dit gebruiksgeval wilt u een tabel en eenvoudige lijnvisualisatie weergeven m
 
 Een voorbeeldvenster **[!UICONTROL Hourly Trend]** voor het hoofdlettergebruik:
 
-![ de Uur van de Trend van Customer Journey Analytics visualisaties ](assets/cja_hourly_trend.png)
+![&#x200B; de Uur van de Trend van Customer Journey Analytics visualisaties &#x200B;](assets/cja_hourly_trend.png)
 
 +++
 
@@ -656,14 +656,14 @@ Een voorbeeldvenster **[!UICONTROL Hourly Trend]** voor het hoofdlettergebruik:
 
 >[!PREREQUISITES]
 >
->Verzeker u [ een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening ](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
+>Verzeker u [&#x200B; een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening &#x200B;](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
 >
 
 >[!BEGINTABS]
 
 >[!TAB  Desktop van Power BI ]
 
-![ AlertRed ](/help/assets/icons/AlertRed.svg) Power BI **&#x200B;**&#x200B;begrijpt niet hoe te om datum-tijd gebieden te behandelen, zodat worden de afmetingen zoals **[!UICONTROL daterangehour]** en **[!UICONTROL daterangeminute]** niet gesteund.
+![&#x200B; AlertRed &#x200B;](/help/assets/icons/AlertRed.svg) Power BI **&#x200B;**&#x200B;begrijpt niet hoe te om datum-tijd gebieden te behandelen, zodat worden de afmetingen zoals **[!UICONTROL daterangehour]** en **[!UICONTROL daterangeminute]** niet gesteund.
 
 >[!TAB  Desktop Tableau ]
 
@@ -672,7 +672,7 @@ Een voorbeeldvenster **[!UICONTROL Hourly Trend]** voor het hoofdlettergebruik:
    1. Selecteer **[!UICONTROL Filters Field \[Daterange\]]** in het dialoogvenster **[!UICONTROL Range of Dates]** van **[!UICONTROL Next >]** .
    1. Selecteer **[!UICONTROL Filter \[Daterange\]]** in het dialoogvenster **[!UICONTROL Range of dates]** en geef een punt op van `01/01/2023` - `02/01/2023` .
 
-      ![ de Filter van de Desktop van Tableau ](assets/uc3-tableau-filter.png)
+      ![&#x200B; de Filter van de Desktop van Tableau &#x200B;](assets/uc3-tableau-filter.png)
 
    1. Sleep **[!UICONTROL Daterangehour]** vanuit de lijst **[!UICONTROL Tables]** in het deelvenster **[!UICONTROL Data]** en zet de vermelding in het veld naast **[!UICONTROL Columns]** neer.
       * Selecteer **[!UICONTROL More]** > **[!UICONTROL Hours]** in de vervolgkeuzelijst **[!UICONTROL Daterangeday]** , zodat de waarde wordt bijgewerkt naar **[!UICONTROL HOUR(Daterangeday)]** .
@@ -681,7 +681,7 @@ Een voorbeeldvenster **[!UICONTROL Hourly Trend]** voor het hoofdlettergebruik:
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Grafiek van de Desktop van Tableau ](assets/uc3-tableau-graph.png)
+      ![&#x200B; Grafiek van de Desktop van Tableau &#x200B;](assets/uc3-tableau-graph.png)
 
 1. Selecteer **[!UICONTROL Duplicate]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om een tweede blad te maken.
 1. Selecteer **[!UICONTROL Rename]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om de naam van het werkblad te wijzigen in `Graph` .
@@ -693,7 +693,7 @@ Een voorbeeldvenster **[!UICONTROL Hourly Trend]** voor het hoofdlettergebruik:
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Gegevens van de Desktop van Tableau ](assets/uc3-tableau-data.png)
+      ![&#x200B; Gegevens van de Desktop van Tableau &#x200B;](assets/uc3-tableau-data.png)
 
 1. Selecteer **[!UICONTROL New Dashboard]** tabknop (onder) om een nieuwe **[!UICONTROL Dashboard 1]** -weergave te maken. In de weergave **[!UICONTROL Dashboard 1]** :
    1. Sleep en laat vallen het **[!UICONTROL Graph]** blad van **[!UICONTROL Sheets]** plank op de **[!UICONTROL Dashboard 1]** mening die *Dropbladen hier* leest.
@@ -702,19 +702,19 @@ Een voorbeeldvenster **[!UICONTROL Hourly Trend]** voor het hoofdlettergebruik:
 
       De weergave **[!UICONTROL Dashboard 1]** ziet er hieronder ongeveer zo uit.
 
-      ![ Dashboard 1 van de Desktop van Tableau ](assets/uc3-tableau-dashboard.png)
+      ![&#x200B; Dashboard 1 van de Desktop van Tableau &#x200B;](assets/uc3-tableau-dashboard.png)
 
 
 >[!TAB  Leider ]
 
 
-1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![ Plaatsende ](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
+1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![&#x200B; Plaatsende &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
 
-      ![ filter van de Leider ](assets/uc2-looker-filter.png)
+      ![&#x200B; filter van de Leider &#x200B;](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/01/02]** .
 1. Vanaf het gedeelte **[!UICONTROL Cc Data View]** in de linkerspoorstaaf,
    1. Selecteer **[!UICONTROL ‣ Daterangehour Date]** en **[!UICONTROL Time]** in de lijst met **[!UICONTROL DIMENSIONS]** .
@@ -724,7 +724,7 @@ Een voorbeeldvenster **[!UICONTROL Hourly Trend]** voor het hoofdlettergebruik:
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ Minder resultaat dagelijkse trend ](assets/uc3-looker-result.png)
+![&#x200B; Minder resultaat dagelijkse trend &#x200B;](assets/uc3-looker-result.png)
 
 
 >[!TAB  Jupyter Notitieboekje ]
@@ -749,7 +749,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc3-jupyter-results.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](assets/uc3-jupyter-results.png)
 
 
 >[!TAB  RStudio ]
@@ -772,7 +772,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](assets/uc3-rstudio-results.png)
+   ![&#x200B; Resultaten RStudio &#x200B;](assets/uc3-rstudio-results.png)
 
 >[!ENDTABS]
 
@@ -787,7 +787,7 @@ In dit gebruiksgeval, wilt u een lijst en eenvoudige lijnvisualisatie tonen die 
 
 Een voorbeeldvenster **[!UICONTROL Monthly Trend]** voor het hoofdlettergebruik:
 
-![ Customer Journey Analytics Maandelijkse visualisatie van de Trend ](assets/cja_monthly_trend.png)
+![&#x200B; Customer Journey Analytics Maandelijkse visualisatie van de Trend &#x200B;](assets/cja_monthly_trend.png)
 
 +++
 
@@ -795,7 +795,7 @@ Een voorbeeldvenster **[!UICONTROL Monthly Trend]** voor het hoofdlettergebruik:
 
 >[!PREREQUISITES]
 >
->Verzeker u [ een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening ](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
+>Verzeker u [&#x200B; een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening &#x200B;](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
 >
 
 >[!BEGINTABS]
@@ -823,16 +823,16 @@ Een voorbeeldvenster **[!UICONTROL Monthly Trend]** voor het hoofdlettergebruik:
 
    Een lijngrafiekvisualisatie vervangt de lijst terwijl het gebruiken van de zelfde gegevens zoals de lijst. Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ Geval van het Gebruik van de Desktop van Power BI 2 de waaierfilter van de Datum ](assets/uc4-pbi-filter-daterange.png)
+   ![&#x200B; Geval van het Gebruik van de Desktop van Power BI 2 de waaierfilter van de Datum &#x200B;](assets/uc4-pbi-filter-daterange.png)
 
 1. Op het grafiekvisualisatie van de Lijn:
 
-   1. Selecteer ![ Meer ](/help/assets/icons/More.svg).
+   1. Selecteer ![&#x200B; Meer &#x200B;](/help/assets/icons/More.svg).
    1. Selecteer **[!UICONTROL Show as a table]** in het contextmenu.
 
    De hoofdweergave wordt bijgewerkt om zowel een lijnvisualisatie als een tabel weer te geven. Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ Geval 2 van het Gebruik van de Desktop van Power BI Def. Dagelijkse Tendvisualisatie ](assets/uc4-pbi-filter-final.png)
+   ![&#x200B; Geval 2 van het Gebruik van de Desktop van Power BI Def. Dagelijkse Tendvisualisatie &#x200B;](assets/uc4-pbi-filter-final.png)
 
 >[!TAB  Desktop Tableau ]
 
@@ -841,7 +841,7 @@ Een voorbeeldvenster **[!UICONTROL Monthly Trend]** voor het hoofdlettergebruik:
    1. Selecteer **[!UICONTROL Filters Field \[Daterange\]]** in het dialoogvenster **[!UICONTROL Range of Dates]** van **[!UICONTROL Next >]** .
    1. Selecteer **[!UICONTROL Filter \[Daterange\]]** in het dialoogvenster **[!UICONTROL Range of dates]** en geef een punt op van `01/01/2023` - `01/01/2024` .
 
-      ![ de Filter van de Desktop van Tableau ](assets/uc4-tableau-filter.png)
+      ![&#x200B; de Filter van de Desktop van Tableau &#x200B;](assets/uc4-tableau-filter.png)
 
    1. Sleep **[!UICONTROL Daterangeday]** vanuit de lijst **[!UICONTROL Tables]** in het deelvenster **[!UICONTROL Data]** en zet de vermelding in het veld naast **[!UICONTROL Columns]** neer.
       * Selecteer **[!UICONTROL MONTH]** in de vervolgkeuzelijst **[!UICONTROL Daterangeday]** , zodat de waarde wordt bijgewerkt naar **[!UICONTROL MONTH(Daterangeday)]** .
@@ -850,7 +850,7 @@ Een voorbeeldvenster **[!UICONTROL Monthly Trend]** voor het hoofdlettergebruik:
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Grafiek van de Desktop van Tableau ](assets/uc4-tableau-graph.png)
+      ![&#x200B; Grafiek van de Desktop van Tableau &#x200B;](assets/uc4-tableau-graph.png)
 
 1. Selecteer **[!UICONTROL Duplicate]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om een tweede blad te maken.
 1. Selecteer **[!UICONTROL Rename]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om de naam van het werkblad te wijzigen in `Graph` .
@@ -862,7 +862,7 @@ Een voorbeeldvenster **[!UICONTROL Monthly Trend]** voor het hoofdlettergebruik:
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Gegevens van de Desktop van Tableau ](assets/uc4-tableau-data.png)
+      ![&#x200B; Gegevens van de Desktop van Tableau &#x200B;](assets/uc4-tableau-data.png)
 
 1. Selecteer **[!UICONTROL New Dashboard]** tabknop (onder) om een nieuwe **[!UICONTROL Dashboard 1]** -weergave te maken. In de weergave **[!UICONTROL Dashboard 1]** :
    1. Sleep en laat vallen het **[!UICONTROL Graph]** blad van **[!UICONTROL Sheets]** plank op de **[!UICONTROL Dashboard 1]** mening die *Dropbladen hier* leest.
@@ -871,18 +871,18 @@ Een voorbeeldvenster **[!UICONTROL Monthly Trend]** voor het hoofdlettergebruik:
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Dashboard 1 van de Desktop van Tableau ](assets/uc4-tableau-dashboard.png)
+      ![&#x200B; Dashboard 1 van de Desktop van Tableau &#x200B;](assets/uc4-tableau-dashboard.png)
 
 
 >[!TAB  Leider ]
 
-1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![ Plaatsende ](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
+1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![&#x200B; Plaatsende &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
 
-      ![ filter van de Leider ](assets/uc2-looker-filter.png)
+      ![&#x200B; filter van de Leider &#x200B;](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2024/01/01]** .
 1. Vanaf de linkerspoorstaaf **[!UICONTROL Cc Data View]** ,
    1. Selecteer **[!UICONTROL ‣ Daterangemonth Date]** en **[!UICONTROL Month]** in de lijst met **[!UICONTROL DIMENSIONS]** .
@@ -892,7 +892,7 @@ Een voorbeeldvenster **[!UICONTROL Monthly Trend]** voor het hoofdlettergebruik:
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ Minder resultaat dagelijkse trend ](assets/uc4-looker-result.png)
+![&#x200B; Minder resultaat dagelijkse trend &#x200B;](assets/uc4-looker-result.png)
 
 
 >[!TAB  Jupyter Notitieboekje ]
@@ -917,7 +917,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc4-jupyter-results.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](assets/uc4-jupyter-results.png)
 
 
 >[!TAB  RStudio ]
@@ -940,7 +940,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](assets/uc4-rstudio-results.png)
+   ![&#x200B; Resultaten RStudio &#x200B;](assets/uc4-rstudio-results.png)
 
 >[!ENDTABS]
 
@@ -955,7 +955,7 @@ In dit gebruiksgeval wilt u een tabel en eenvoudige streepjesvisualisatie weerge
 
 Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlettergebruik:
 
-![ Customer Journey Analytics Enige gerangschikte afmeting visualisatie ](assets/cja-single-dimension-ranked.png)
+![&#x200B; Customer Journey Analytics Enige gerangschikte afmeting visualisatie &#x200B;](assets/cja-single-dimension-ranked.png)
 
 +++
 
@@ -963,7 +963,7 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
 
 >[!PREREQUISITES]
 >
->Verzeker u [ een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening ](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
+>Verzeker u [&#x200B; een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening &#x200B;](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
 >
 
 >[!BEGINTABS]
@@ -989,14 +989,14 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
 
 1. In het deelvenster **[!UICONTROL Visualization]** :
 
-   1. Gebruik ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL daterange]** uit **[!UICONTROL Columns]** te verwijderen.
+   1. Gebruik ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL daterange]** uit **[!UICONTROL Columns]** te verwijderen.
    1. Sleep **[!UICONTROL Sum of purchases_revenue]** onder **[!UICONTROL Sum of purchases]** in **[!UICONTROL Columns]** .
 
 1. Voor de visualisatie van de Lijst:
 
    1. Selecteer **[!UICONTROL Sum of purchase_revenue]** om de productnamen te sorteren in aflopende volgorde van inkoopopbrengsten. Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ Hoofdlettergebruik 5 van de Lijst van het Gebruik van de Desktop van Power BI status ](assets/uc5-pbi-table.png)
+   ![&#x200B; Hoofdlettergebruik 5 van de Lijst van het Gebruik van de Desktop van Power BI status &#x200B;](assets/uc5-pbi-table.png)
 
 1. In het deelvenster **[!UICONTROL Filters]** :
 
@@ -1018,16 +1018,16 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
 
    De lijn en gestapelde kolomgrafiek worden bijgewerkt. Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ Hoofdlettergebruik 5 van het Gebruik van de Desktop van Power BI Grafiek ](assets/uc5-pbi-chart.png)
+   ![&#x200B; Hoofdlettergebruik 5 van het Gebruik van de Desktop van Power BI Grafiek &#x200B;](assets/uc5-pbi-chart.png)
 
 1. Op de Lijn en gestapelde kolomgrafiekvisualisatie:
 
-   1. Selecteer ![ Meer ](/help/assets/icons/More.svg).
+   1. Selecteer ![&#x200B; Meer &#x200B;](/help/assets/icons/More.svg).
    1. Selecteer **[!UICONTROL Show as a table]** in het contextmenu.
 
    De hoofdweergave wordt bijgewerkt om zowel een lijnvisualisatie als een tabel weer te geven.
 
-   ![ Geval 2 van het Gebruik van de Desktop van Power BI Def. Dagelijkse Tendvisualisatie ](assets/uc5-pbi-final.png)
+   ![&#x200B; Geval 2 van het Gebruik van de Desktop van Power BI Def. Dagelijkse Tendvisualisatie &#x200B;](assets/uc5-pbi-final.png)
 
 >[!TAB  Desktop Tableau ]
 
@@ -1036,7 +1036,7 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
    1. Selecteer **[!UICONTROL Filters Field \[Daterange\]]** in het dialoogvenster **[!UICONTROL Range of Dates]** van **[!UICONTROL Next >]** .
    1. Selecteer **[!UICONTROL Filter \[Daterange\]]** in het dialoogvenster **[!UICONTROL Range of dates]** en geef een punt op van `01/01/2023` - `31/12/2023` . Selecteer **[!UICONTROL Apply]** en **[!UICONTROL OK]** .
 
-      ![ de Filter van de Desktop van Tableau ](assets/uc5-tableau-filter.png)
+      ![&#x200B; de Filter van de Desktop van Tableau &#x200B;](assets/uc5-tableau-filter.png)
 
    1. Sleep **[!UICONTROL Product Name]** vanuit de lijst **[!UICONTROL Tables]** in het deelvenster **[!UICONTROL Data]** en zet de vermelding in het veld naast **[!UICONTROL Rows]** neer.
    1. De belemmering en laat vallen **[!UICONTROL Purchases]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**&#x200B;lijst in de **[!UICONTROL Data]**&#x200B;ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Rows]**. De waarde wordt automatisch omgezet in **[!UICONTROL SUM(Purchases)]**.
@@ -1051,19 +1051,19 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
 
    Uw Tableau Desktop moet er hieronder uitzien.
 
-   ![ Grafiek van de Desktop van Tableau ](assets/uc5-tableau-graph.png)
+   ![&#x200B; Grafiek van de Desktop van Tableau &#x200B;](assets/uc5-tableau-graph.png)
 
 1. Selecteer **[!UICONTROL Duplicate]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om een tweede blad te maken.
 1. Selecteer **[!UICONTROL Rename]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om de naam van het werkblad te wijzigen in `Data` .
 1. Selecteer **[!UICONTROL Rename]** in het contextmenu van de tab **[!UICONTROL Sheet 1 (2)]** om de naam van het werkblad te wijzigen in `Graph` .
 1. Zorg ervoor dat het **[!UICONTROL Data]** -werkblad is geselecteerd.
    1. Selecteer **[!UICONTROL Show me]** rechtsboven en selecteer **[!UICONTROL Text table]** (visualisatie linksboven) om de inhoud van de twee grafieken aan een tabel aan te passen.
-   1. Om koopopbrengst in dalende orde te opdracht geven, houd over **[!UICONTROL Purchase Revenue]** in de lijst en selecteer ![ SortOrderDown ](/help/assets/icons/SortOrderDown.svg).
+   1. Om koopopbrengst in dalende orde te opdracht geven, houd over **[!UICONTROL Purchase Revenue]** in de lijst en selecteer ![&#x200B; SortOrderDown &#x200B;](/help/assets/icons/SortOrderDown.svg).
    1. Selecteer **[!UICONTROL Entire View]** in de vervolgkeuzelijst **[!UICONTROL Fit]** .
 
    Uw Tableau Desktop moet er hieronder uitzien.
 
-   ![ Gegevens van de Desktop van Tableau ](assets/uc5-tableau-data.png)
+   ![&#x200B; Gegevens van de Desktop van Tableau &#x200B;](assets/uc5-tableau-data.png)
 
 1. Selecteer **[!UICONTROL New Dashboard]** tabknop (onder) om een nieuwe **[!UICONTROL Dashboard 1]** -weergave te maken. In de weergave **[!UICONTROL Dashboard 1]** :
    1. Sleep en laat vallen het **[!UICONTROL Graph]** blad van **[!UICONTROL Sheets]** plank op de **[!UICONTROL Dashboard 1]** mening die *Dropbladen hier* leest.
@@ -1072,19 +1072,19 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
 
    De weergave **[!UICONTROL Dashboard 1]** ziet er hieronder ongeveer zo uit.
 
-   ![ Dashboard 1 van de Desktop van Tableau ](assets/uc5-tableau-dashboard.png)
+   ![&#x200B; Dashboard 1 van de Desktop van Tableau &#x200B;](assets/uc5-tableau-dashboard.png)
 
 
 
 >[!TAB  Leider ]
 
-1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![ Plaatsende ](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
+1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![&#x200B; Plaatsende &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
 
-      ![ filter van de Leider ](assets/uc2-looker-filter.png)
+      ![&#x200B; filter van de Leider &#x200B;](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2024/01/01]** .
 1. Selecteer **[!UICONTROL ‣ Cc Data View]** in het gedeelte **[!UICONTROL Product Name]** links in de sectie.
 1. Vanuit het gedeelte **[!UICONTROL ‣ Custom Fields]** in de linkertrack:
@@ -1096,7 +1096,7 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
       1. Selecteer de tab **[!UICONTROL Field details]** .
       1. Selecteer **[!UICONTROL Decimals]** in de vervolgkeuzelijst **[!UICONTROL Format]** en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .
 
-         ![ Lager aangepast metrisch gebied ](assets/uc5-looker-customfield.png)
+         ![&#x200B; Lager aangepast metrisch gebied &#x200B;](assets/uc5-looker-customfield.png)
       1. Selecteer **[!UICONTROL Save]** .
    1. Selecteer **[!UICONTROL Custom Measure]** nogmaals in de vervolgkeuzelijst **[!UICONTROL + Add]** . In het dialoogvenster **[!UICONTROL Create custom]** -meting:
       1. Selecteer **[!UICONTROL Purchases]** in de vervolgkeuzelijst **[!UICONTROL Field to measure]** .
@@ -1117,12 +1117,12 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
    1. Selecteer de tab **[!UICONTROL Y]** .
    1. Sleep **[!UICONTROL Purchases]** van de **[!UICONTROL Left 1]** container aan waar het **[!UICONTROL *reeksen van de Belemmering hier leest om een nieuwe linkeras *]**&#x200B;tot stand te brengen. Met deze actie maakt u een **[!UICONTROL Left 2]**-container.
 
-      ![ Leerdere visualisatieconfiguratie ](assets/uc5-looker-visualization.png)
-   1. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) naast **[!UICONTROL Edit]** om de popup dialoog te verbergen
+      ![&#x200B; Leerdere visualisatieconfiguratie &#x200B;](assets/uc5-looker-visualization.png)
+   1. Selecteer ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg) naast **[!UICONTROL Edit]** om de popup dialoog te verbergen
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ Minder resultaat dagelijkse trend ](assets/uc5-looker-result.png)
+![&#x200B; Minder resultaat dagelijkse trend &#x200B;](assets/uc5-looker-result.png)
 
 
 >[!TAB  Jupyter Notitieboekje ]
@@ -1147,7 +1147,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc5-jupyter-results.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](assets/uc5-jupyter-results.png)
 
 
 >[!TAB  RStudio ]
@@ -1173,7 +1173,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](assets/uc5-rstudio-results.png)
+   ![&#x200B; Resultaten RStudio &#x200B;](assets/uc5-rstudio-results.png)
 
 >[!ENDTABS]
 
@@ -1188,7 +1188,7 @@ In dit geval wilt u een tabel weergeven die de aankoopopbrengsten en -aankopen v
 
 Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdlettergebruik:
 
-![ Veelvoudige Dimension van Customer Journey Analytics Rangschikte paneel ](assets/cja-multiple-dimension-ranked.png)
+![&#x200B; Veelvoudige Dimension van Customer Journey Analytics Rangschikte paneel &#x200B;](assets/cja-multiple-dimension-ranked.png)
 
 +++
 
@@ -1196,7 +1196,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
 >[!PREREQUISITES]
 >
->Verzeker u [ een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening ](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
+>Verzeker u [&#x200B; een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening &#x200B;](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
 >
 
 >[!BEGINTABS]
@@ -1230,7 +1230,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
 1. Selecteer **[!UICONTROL +]** op productcategorieniveau om elke categorie in de tabel op te splitsen. Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ de Meerdere Dimensies van de Desktop van Power BI Rangschikte matrixlijst ](assets/uc6-powerbi-data.png)
+   ![&#x200B; de Meerdere Dimensies van de Desktop van Power BI Rangschikte matrixlijst &#x200B;](assets/uc6-powerbi-data.png)
 
 1. Selecteer **[!UICONTROL Home]** in het bovenste menu en selecteer **[!UICONTROL New visual]** . Een nieuwe visuele wordt toegevoegd aan uw rapport.
 
@@ -1244,7 +1244,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
    Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ de Veelvoudige Dimensies van de Desktop van Power BI Rangschikte treemap ](assets/uc6-powerbi-treemap.png)
+   ![&#x200B; de Veelvoudige Dimensies van de Desktop van Power BI Rangschikte treemap &#x200B;](assets/uc6-powerbi-treemap.png)
 
 1. Selecteer **[!UICONTROL Home]** in het bovenste menu en selecteer **[!UICONTROL New visual]** . Een nieuwe visuele wordt toegevoegd aan uw rapport.
 
@@ -1261,7 +1261,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
    Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ Veelvoudige Afmetingen van de Desktop van Power BI die definitief worden gerangschikt ](assets/uc6-powerbi-final.png)
+   ![&#x200B; Veelvoudige Afmetingen van de Desktop van Power BI die definitief worden gerangschikt &#x200B;](assets/uc6-powerbi-final.png)
 
 
 >[!TAB  Desktop Tableau ]
@@ -1273,7 +1273,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ de Veelvoudige Rangschikte Filter van de Desktop van Tableau Dimension ](assets/uc6-tableau-filter.png)
+      ![&#x200B; de Veelvoudige Rangschikte Filter van de Desktop van Tableau Dimension &#x200B;](assets/uc6-tableau-filter.png)
 
    1. Sleep **[!UICONTROL Product Category]** en zet de muisknop los naast **[!UICONTROL Columns]** .
    1. Sleep **[!UICONTROL Purchase Revenue]** en zet de muisknop los naast **[!UICONTROL Rows]** . De waarde verandert in **[!UICONTROL SUM(Purchase Revenue)]** .
@@ -1286,7 +1286,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Veelvoudige Afmetingen van de Desktop van Tableau Rangschikte Categorie ](assets/uc6-tableau-category.png)
+      ![&#x200B; Veelvoudige Afmetingen van de Desktop van Tableau Rangschikte Categorie &#x200B;](assets/uc6-tableau-category.png)
 
 1. Wijzig de naam van het huidige **[!UICONTROL Sheet 1]** blad in `Category` .
 1. Selecteer **[!UICONTROL New Worksheet]** om een nieuw blad te maken en wijzig de naam in `Data` .
@@ -1305,7 +1305,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ de Veelvoudige Gegevens van Dimension van de Desktop van Tableau ](assets/uc6-tableau-data.png)
+      ![&#x200B; de Veelvoudige Gegevens van Dimension van de Desktop van Tableau &#x200B;](assets/uc6-tableau-data.png)
 
 1. Selecteer **[!UICONTROL New worksheet]** om een nieuw blad te maken en de naam ervan te wijzigen in **[!UICONTROL Treemap]** .
    1. Sleep de vermelding **[!UICONTROL Daterange]** uit de lijst **[!UICONTROL Tables]** in het deelvenster **[!UICONTROL Data]** en zet deze op de **[!UICONTROL Filters]** shelf neer.
@@ -1322,7 +1322,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ de Veelvoudige Gegevens van Dimension van de Desktop van Tableau ](assets/uc6-tableau-treemap.png)
+      ![&#x200B; de Veelvoudige Gegevens van Dimension van de Desktop van Tableau &#x200B;](assets/uc6-tableau-treemap.png)
 
 1. Selecteer **[!UICONTROL New Dashboard]** tabknop (onder) om een nieuwe **[!UICONTROL Dashboard 1]** -weergave te maken. In de weergave **[!UICONTROL Dashboard 1]** :
    1. Sleep en laat vallen het **[!UICONTROL Category]** blad van **[!UICONTROL Sheets]** plank op de **[!UICONTROL Dashboard 1]** mening die *Dropbladen hier* leest.
@@ -1332,18 +1332,18 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
    De weergave **[!UICONTROL Dashboard 1]** ziet er hieronder ongeveer zo uit.
 
-   ![ Dashboard 1 van de Desktop van Tableau ](assets/uc6-tableau-final.png)
+   ![&#x200B; Dashboard 1 van de Desktop van Tableau &#x200B;](assets/uc6-tableau-final.png)
 
 
 >[!TAB  Leider ]
 
-1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![ Plaatsende ](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
+1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![&#x200B; Plaatsende &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
 
-      ![ filter van de Leider ](assets/uc2-looker-filter.png)
+      ![&#x200B; filter van de Leider &#x200B;](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2024/01/01]** .
 1. Vanuit het gedeelte **[!UICONTROL ‣ Cc Data View]** in de linkertrack:
    1. Selecteer **[!UICONTROL Product Category]** .
@@ -1357,7 +1357,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
       1. Selecteer de tab **[!UICONTROL Field details]** .
       1. Selecteer **[!UICONTROL Decimals]** in de vervolgkeuzelijst **[!UICONTROL Format]** en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .
 
-         ![ Lager aangepast metrisch gebied ](assets/uc5-looker-customfield.png)
+         ![&#x200B; Lager aangepast metrisch gebied &#x200B;](assets/uc5-looker-customfield.png)
       1. Selecteer **[!UICONTROL Save]** .
    1. Selecteer **[!UICONTROL Custom Measure]** nogmaals in de vervolgkeuzelijst **[!UICONTROL + Add]** . In het dialoogvenster **[!UICONTROL Create custom]** -meting:
       1. Selecteer **[!UICONTROL Purchases]** in de vervolgkeuzelijst **[!UICONTROL Field to measure]** .
@@ -1376,14 +1376,14 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
    1. Schuif omlaag en selecteer **[!UICONTROL Edit Chart Config]** .
    1. Wijzig de JSON in **[!UICONTROL Chart Config (Override)]** zoals in de onderstaande schermafbeelding en selecteer vervolgens **[!UICONTROL Preview]** .
 
-      ![ Laagere virtualisatie config ](assets/uc6-looker-visualization.png)
+      ![&#x200B; Laagere virtualisatie config &#x200B;](assets/uc6-looker-visualization.png)
 
    1. Selecteer **[!UICONTROL Apply]** .
-   1. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) naast **[!UICONTROL Edit]** om de popup dialoog te verbergen
+   1. Selecteer ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg) naast **[!UICONTROL Edit]** om de popup dialoog te verbergen
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ Minder resultaat dagelijkse trend ](assets/uc6-looker-result.png)
+![&#x200B; Minder resultaat dagelijkse trend &#x200B;](assets/uc6-looker-result.png)
 
 
 >[!TAB  Jupyter Notitieboekje ]
@@ -1409,7 +1409,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc6-jupyter-results.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](assets/uc6-jupyter-results.png)
 
 
 >[!TAB  RStudio ]
@@ -1428,7 +1428,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](assets/uc6-rstudio-results.png)
+   ![&#x200B; Resultaten RStudio &#x200B;](assets/uc6-rstudio-results.png)
 
 
 >[!ENDTABS]
@@ -1444,11 +1444,11 @@ In dit geval wilt u het duidelijke aantal productnamen ophalen waarop in januari
 
 Als u een duidelijke telling van productnamen wilt rapporteren, stelt u in Customer Journey Analytics een berekende metrische waarde in met **[!UICONTROL Title]** `Product Name (Count Distinct)` en **[!UICONTROL External Id]** `product_name_count_distinct` .
 
-![ berekende de productnaam van Customer Journey Analytics (Afzonderlijke Telling) metrisch ](assets/cja-calc-metric-distinct-count-product-names.png)
+![&#x200B; berekende de productnaam van Customer Journey Analytics (Afzonderlijke Telling) metrisch &#x200B;](assets/cja-calc-metric-distinct-count-product-names.png)
 
 Vervolgens kunt u die metrische waarde gebruiken in een voorbeeldvenster van **[!UICONTROL Count Distinct Dimension Values]** voor het gebruik van hoofdletters en kleine letters:
 
-![ de Afzonderlijke Waarden van de Telling van Customer Journey Analytics ](assets/cja-count-distinct-dimension-values.png)
+![&#x200B; de Afzonderlijke Waarden van de Telling van Customer Journey Analytics &#x200B;](assets/cja-count-distinct-dimension-values.png)
 
 +++
 
@@ -1456,7 +1456,7 @@ Vervolgens kunt u die metrische waarde gebruiken in een voorbeeldvenster van **[
 
 >[!PREREQUISITES]
 >
->Verzeker u [ een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening ](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
+>Verzeker u [&#x200B; een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening &#x200B;](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
 >
 
 >[!BEGINTABS]
@@ -1477,7 +1477,7 @@ Vervolgens kunt u die metrische waarde gebruiken in een voorbeeldvenster van **[
 
    Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ de Veelvoudige Lijst van de Telling van Power BI van de Desktop Veelvoudige ](assets/uc7-powerbi-table.png)
+   ![&#x200B; de Veelvoudige Lijst van de Telling van Power BI van de Desktop Veelvoudige &#x200B;](assets/uc7-powerbi-table.png)
 
 1. Selecteer de tabelvisualisatie. Selecteer **[!UICONTROL Copy]** > **[!UICONTROL Copy visual]** in het contextmenu.
 1. Plak de visualisatie met **[!UICONTROL ctrl-v]** . De exacte kopie van de visualisatie overlapt de originele versie. Verplaats het naar rechts in het rapportgebied.
@@ -1485,14 +1485,14 @@ Vervolgens kunt u die metrische waarde gebruiken in een voorbeeldvenster van **[
 
    Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ de Veelvoudige Lijst van de Telling van Power BI van de Desktop Veelvoudige ](assets/uc7-powerbi-final.png)
+   ![&#x200B; de Veelvoudige Lijst van de Telling van Power BI van de Desktop Veelvoudige &#x200B;](assets/uc7-powerbi-final.png)
 
 U kunt ook de functie Telling gebruiken, die anders is dan Power BI.
 
 1. Selecteer de **[!UICONTROL product_name]** -dimensie.
 1. Pas de functie **[!UICONTROL Count (Distinct)]** toe op de **[!UICONTROL product_name]** dimensie in **[!UICONTROL Columns]** .
 
-   ![ de Telling van Power BI Distinct ](assets/uc7-powerbi-alternative.png)
+   ![&#x200B; de Telling van Power BI Distinct &#x200B;](assets/uc7-powerbi-alternative.png)
 
 
 
@@ -1510,7 +1510,7 @@ U kunt ook de functie Telling gebruiken, die anders is dan Power BI.
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ de Veelvoudige Rangschikte Filter van de Desktop van Tableau Dimension ](assets/uc7-tableau-data.png)
+      ![&#x200B; de Veelvoudige Rangschikte Filter van de Desktop van Tableau Dimension &#x200B;](assets/uc7-tableau-data.png)
 
 1. Selecteer **[!UICONTROL Duplicate]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om een tweede blad te maken.
 1. Selecteer **[!UICONTROL Rename]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om de naam van het werkblad te wijzigen in `Data` .
@@ -1525,7 +1525,7 @@ U kunt ook de functie Telling gebruiken, die anders is dan Power BI.
 
    Uw Tableau Desktop moet er hieronder uitzien.
 
-   ![ de Veelvoudige Rangschikte Filter van de Desktop van Tableau Dimension ](assets/uc7-tableau-card.png)
+   ![&#x200B; de Veelvoudige Rangschikte Filter van de Desktop van Tableau Dimension &#x200B;](assets/uc7-tableau-card.png)
 
 1. Selecteer **[!UICONTROL New Dashboard]** tabknop (onder) om een nieuwe **[!UICONTROL Dashboard 1]** -weergave te maken. In de weergave **[!UICONTROL Dashboard 1]** :
    1. Sleep en laat vallen het **[!UICONTROL Card]** blad van **[!UICONTROL Sheets]** plank op de **[!UICONTROL Dashboard 1]** mening die *Dropbladen hier* leest.
@@ -1533,7 +1533,7 @@ U kunt ook de functie Telling gebruiken, die anders is dan Power BI.
 
    De weergave **[!UICONTROL Dashboard 1]** ziet er hieronder ongeveer zo uit.
 
-   ![ Dashboard 1 van de Desktop van Tableau ](assets/uc7-tableau-final.png)
+   ![&#x200B; Dashboard 1 van de Desktop van Tableau &#x200B;](assets/uc7-tableau-final.png)
 
 
 Alternatief, kunt u de telling verschillende functionaliteit van Desktop gebruiken Tableau.
@@ -1541,30 +1541,30 @@ Alternatief, kunt u de telling verschillende functionaliteit van Desktop gebruik
 1. Gebruik **[!UICONTROL Product Name]** in plaats van **[!UICONTROL Cm Product Name Count Distinct]** .
 1. Pas **[!UICONTROL Measure]** > **[!UICONTROL Count (Distinct)]** on **[!UICONTROL Product Name]** toe in **[!UICONTROL Marks]** .
 
-   ![ Afzonderlijke Telling van Tableau ](assets/uc7-tableau-alternative.png)
+   ![&#x200B; Afzonderlijke Telling van Tableau &#x200B;](assets/uc7-tableau-alternative.png)
 
 
 >[!TAB  Leider ]
 
-1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![ Plaatsende ](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
+1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![&#x200B; Plaatsende &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
 
-      ![ filter van de Leider ](assets/uc2-looker-filter.png)
+      ![&#x200B; filter van de Leider &#x200B;](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/02/01]** .
 1. Vanuit het gedeelte **[!UICONTROL ‣ Cc Data View]** in de linkertrack:
    1. Selecteer **[!UICONTROL Daterange Date]** en vervolgens **[!UICONTROL Date]** .
    1. Selecteer **[!UICONTROL Aggregate ‣ Count Distinct]** in het contextmenu **⋮ Meer** in **[!UICONTROL Product Name]** .
 
-      ![ het Contextmenu van de Naam van het Product van de Leider ](assets/uc7-looker-count-distinct.png)
+      ![&#x200B; het Contextmenu van de Naam van het Product van de Leider &#x200B;](assets/uc7-looker-count-distinct.png)
 1. Selecteer **[!UICONTROL Run]** .
 1. Selecteer **[!UICONTROL ‣ Visualization]** en selecteer 6︎⃣ op de werkbalk om één waardenvisualisatie weer te geven.
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ minder duidelijke telling ](assets/uc7-looker-result.png)
+![&#x200B; minder duidelijke telling &#x200B;](assets/uc7-looker-result.png)
 
 
 >[!TAB  Jupyter Notitieboekje ]
@@ -1580,7 +1580,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc7-jupyter-results.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](assets/uc7-jupyter-results.png)
 
 
 >[!TAB  RStudio ]
@@ -1597,7 +1597,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](assets/uc7-rstudio-results.png)
+   ![&#x200B; Resultaten RStudio &#x200B;](assets/uc7-rstudio-results.png)
 
 
 >[!ENDTABS]
@@ -1613,11 +1613,11 @@ In dit geval wilt u een datumbereik gebruiken dat u in Customer Journey Analytic
 
 Als u een datumbereik wilt rapporteren, stelt u in Customer Journey Analytics een datumbereik in met **[!UICONTROL Title]** `Last Year 2023` .
 
-![ de Namen van de Datumwaaier van het Gebruik van Customer Journey Analytics aan filter ](assets/cja-daterange.png)
+![&#x200B; de Namen van de Datumwaaier van het Gebruik van Customer Journey Analytics aan filter &#x200B;](assets/cja-daterange.png)
 
 Vervolgens kunt u dat datumbereik gebruiken in een voorbeelddeelvenster **[!UICONTROL Using Date Range Names To Filter]** voor het gebruik van hoofdletters en kleine letters:
 
-![ de Afzonderlijke Waarden van de Telling van Customer Journey Analytics ](assets/cja-using-date-range-filter-names-to-filter.png)
+![&#x200B; de Afzonderlijke Waarden van de Telling van Customer Journey Analytics &#x200B;](assets/cja-using-date-range-filter-names-to-filter.png)
 
 Bedenk hoe het datumbereik dat in de visualisatie van de tabel Freeform is gedefinieerd, het datumbereik overtreft dat op het deelvenster wordt toegepast.
 
@@ -1627,7 +1627,7 @@ Bedenk hoe het datumbereik dat in de visualisatie van de tabel Freeform is gedef
 
 >[!PREREQUISITES]
 >
->Verzeker u [ een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening ](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
+>Verzeker u [&#x200B; een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening &#x200B;](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
 >
 
 >[!BEGINTABS]
@@ -1646,11 +1646,11 @@ Bedenk hoe het datumbereik dat in de visualisatie van de tabel Freeform is gedef
    1. Selecteer de **[!UICONTROL daterangeName is (All)]** van **[!UICONTROL Filters on this visual]**.
    1. Selecteer **[!UICONTROL Basic filtering]** als de **[!UICONTROL Filter type]** .
    1. Onder het veld **[!UICONTROL Search]** selecteert u **[!UICONTROL Last Year 2023]** . Dit is de naam van het datumbereik dat in Customer Journey Analytics is gedefinieerd.
-   1. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL daterangeName]** uit **[!UICONTROL Columns]** te verwijderen.
+   1. Selecteer ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL daterangeName]** uit **[!UICONTROL Columns]** te verwijderen.
 
    De tabel wordt bijgewerkt met het toegepaste filter **[!UICONTROL daterangeName]** . Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ Desktop die van Power BI de Namen van de Waaier van de Datum gebruikt om te filtreren ](assets/uc8-powerbi-final.png)
+   ![&#x200B; Desktop die van Power BI de Namen van de Waaier van de Datum gebruikt om te filtreren &#x200B;](assets/uc8-powerbi-final.png)
 
 >[!TAB  Desktop Tableau ]
 
@@ -1665,11 +1665,11 @@ Bedenk hoe het datumbereik dat in de visualisatie van de tabel Freeform is gedef
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ de Veelvoudige Rangschikte Filter van de Desktop van Tableau Dimension ](assets/uc8-tableau-final.png)
+      ![&#x200B; de Veelvoudige Rangschikte Filter van de Desktop van Tableau Dimension &#x200B;](assets/uc8-tableau-final.png)
 
 >[!TAB  Leider ]
 
-1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![ Plaatsende ](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
+1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![&#x200B; Plaatsende &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
@@ -1683,7 +1683,7 @@ Bedenk hoe het datumbereik dat in de visualisatie van de tabel Freeform is gedef
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ minder duidelijke telling ](assets/uc8-looker-result.png)
+![&#x200B; minder duidelijke telling &#x200B;](assets/uc8-looker-result.png)
 
 
 >[!TAB  Jupyter Notitieboekje ]
@@ -1703,7 +1703,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc8-jupyter-input.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](assets/uc8-jupyter-input.png)
 
 1. Selecteer **[!UICONTROL Fishing Products]** in de vervolgkeuzelijst.
 
@@ -1727,7 +1727,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc8-jupyter-results.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](assets/uc8-jupyter-results.png)
 
 
 >[!TAB  RStudio ]
@@ -1750,7 +1750,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](assets/uc8-rstudio-results.png)
+   ![&#x200B; Resultaten RStudio &#x200B;](assets/uc8-rstudio-results.png)
 
 >[!ENDTABS]
 
@@ -1766,11 +1766,11 @@ In dit geval wilt u een bestaand segment gebruiken voor de categorie visserijpro
 
 Controleer het segment dat u in Customer Journey Analytics wilt gebruiken.
 
-![ Customer Journey Analytics gebruiken de Namen van de Filter ](assets/cja-fishing-products.png)
+![&#x200B; Customer Journey Analytics gebruiken de Namen van de Filter &#x200B;](assets/cja-fishing-products.png)
 
 Vervolgens kunt u dat segment in een voorbeeldvenster van **[!UICONTROL Using Segment Names To Segment]** gebruiken voor het gebruik van hoofdletters en kleine letters:
 
-![ de Afzonderlijke Waarden van de Telling van Customer Journey Analytics ](assets/cja-using-filter-names-to-filter.png)
+![&#x200B; de Afzonderlijke Waarden van de Telling van Customer Journey Analytics &#x200B;](assets/cja-using-filter-names-to-filter.png)
 
 +++
 
@@ -1778,7 +1778,7 @@ Vervolgens kunt u dat segment in een voorbeeldvenster van **[!UICONTROL Using Se
 
 >[!PREREQUISITES]
 >
->Verzeker u [ een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening ](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
+>Verzeker u [&#x200B; een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening &#x200B;](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
 >
 
 >[!BEGINTABS]
@@ -1801,12 +1801,12 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
    1. Selecteer **[!UICONTROL daterange is (All)]** in **[!UICONTROL Filters on this visual]** .
    1. Selecteer **[!UICONTROL Advanced filtering]** als de **[!UICONTROL Filter type]** .
    1. Definieer het filter naar **[!UICONTROL Show items when the value]** **[!UICONTROL is on or after]** `1/1/2023` **[!UICONTROL And]** **[!UICONTROL is before]** `2/1/2023` .
-   1. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL filterName]** uit **[!UICONTROL Columns]** te verwijderen.
-   1. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL daterange]** uit **[!UICONTROL Columns]** te verwijderen.
+   1. Selecteer ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL filterName]** uit **[!UICONTROL Columns]** te verwijderen.
+   1. Selecteer ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL daterange]** uit **[!UICONTROL Columns]** te verwijderen.
 
    De tabel wordt bijgewerkt met het toegepaste filter **[!UICONTROL filterName]** . Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ Desktop die van Power BI de Namen van de Waaier van de Datum gebruikt om te filtreren ](assets/uc9-powerbi-final.png)
+   ![&#x200B; Desktop die van Power BI de Namen van de Waaier van de Datum gebruikt om te filtreren &#x200B;](assets/uc9-powerbi-final.png)
 
 
 >[!TAB  Desktop Tableau ]
@@ -1824,17 +1824,17 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ de Veelvoudige Rangschikte Filter van de Desktop van Tableau Dimension ](assets/uc9-tableau-final.png)
+      ![&#x200B; de Veelvoudige Rangschikte Filter van de Desktop van Tableau Dimension &#x200B;](assets/uc9-tableau-final.png)
 
 >[!TAB  Leider ]
 
-1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![ Plaatsende ](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
+1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![&#x200B; Plaatsende &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
 
-      ![ filter van de Leider ](assets/uc2-looker-filter.png)
+      ![&#x200B; filter van de Leider &#x200B;](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/02/01]** .
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** om nog een filter toe te voegen.
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
@@ -1850,7 +1850,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ minder duidelijke telling ](assets/uc9-looker-result.png)
+![&#x200B; minder duidelijke telling &#x200B;](assets/uc9-looker-result.png)
 
 
 
@@ -1871,7 +1871,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc9-jupyter-input.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](assets/uc9-jupyter-input.png)
 
 1. Selecteer **[!UICONTROL Fishing Products]** in de vervolgkeuzelijst.
 
@@ -1896,7 +1896,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc9-jupyter-results.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](assets/uc9-jupyter-results.png)
 
 
 >[!TAB  RStudio ]
@@ -1915,7 +1915,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](assets/uc9-rstudio-results.png)
+   ![&#x200B; Resultaten RStudio &#x200B;](assets/uc9-rstudio-results.png)
 
 
 >[!ENDTABS]
@@ -1932,11 +1932,11 @@ Vervolgens wilt u het nieuwe segment gebruiken om productnamen en voorvallen (vo
 
 Maak een nieuw segment met **[!UICONTROL Title]** `Hunting Products` in Customer Journey Analytics.
 
-![ de Waarden van Dimension van het Gebruik van Customer Journey Analytics aan segment ](assets/cja-hunting-products.png)
+![&#x200B; de Waarden van Dimension van het Gebruik van Customer Journey Analytics aan segment &#x200B;](assets/cja-hunting-products.png)
 
 Vervolgens kunt u dat segment in een voorbeeldvenster van **[!UICONTROL Using Dimension Values To Filter]** gebruiken voor het gebruik van hoofdletters en kleine letters:
 
-![ de Afzonderlijke Waarden van de Telling van Customer Journey Analytics ](assets/cja-using-dimension-values-to-filter.png)
+![&#x200B; de Afzonderlijke Waarden van de Telling van Customer Journey Analytics &#x200B;](assets/cja-using-dimension-values-to-filter.png)
 
 +++
 
@@ -1944,7 +1944,7 @@ Vervolgens kunt u dat segment in een voorbeeldvenster van **[!UICONTROL Using Di
 
 >[!PREREQUISITES]
 >
->Verzeker u [ een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening ](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
+>Verzeker u [&#x200B; een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening &#x200B;](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
 >
 
 >[!BEGINTABS]
@@ -1968,18 +1968,18 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
    1. Selecteer **[!UICONTROL Advanced filtering]** als de **[!UICONTROL Filter type]** .
    1. Definieer het filter naar **[!UICONTROL Show items when the value]** **[!UICONTROL is on or after]** `1/1/2023` **[!UICONTROL And]** **[!UICONTROL is before]** `2/1/2023` .
    1. Selecteer **[!UICONTROL Basic filter]** als de **[!UICONTROL Filter type]** for **[!UICONTROL product_category]** en selecteer **[!UICONTROL Hunting]** in de lijst met mogelijke waarden.
-   1. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL filterName]** uit **[!UICONTROL Columns]** te verwijderen.
-   1. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL daterange]** uit **[!UICONTROL Columns]** te verwijderen.
+   1. Selecteer ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL filterName]** uit **[!UICONTROL Columns]** te verwijderen.
+   1. Selecteer ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL daterange]** uit **[!UICONTROL Columns]** te verwijderen.
 
    De tabel wordt bijgewerkt met het toegepaste filter **[!UICONTROL product_category]** . Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ Desktop die van Power BI de Namen van de Waaier van de Datum gebruikt om te filtreren ](assets/uc10-powerbi-final.png)
+   ![&#x200B; Desktop die van Power BI de Namen van de Waaier van de Datum gebruikt om te filtreren &#x200B;](assets/uc10-powerbi-final.png)
 
 
 
 >[!TAB  Desktop Tableau ]
 
-![ AlertRed ](/help/assets/icons/AlertRed.svg) Desktop van Tableau steunt het halen van de dynamische lijst van productcategorieën van Customer Journey Analytics niet. In plaats daarvan wordt in dit geval het nieuwe filter voor **[!UICONTROL Hunting Products]** gebruikt en worden de criteria voor de filternaam gebruikt.
+![&#x200B; AlertRed &#x200B;](/help/assets/icons/AlertRed.svg) Desktop van Tableau steunt het halen van de dynamische lijst van productcategorieën van Customer Journey Analytics niet. In plaats daarvan wordt in dit geval het nieuwe filter voor **[!UICONTROL Hunting Products]** gebruikt en worden de criteria voor de filternaam gebruikt.
 
 1. Selecteer **[!UICONTROL Data Source]** onder **[!UICONTROL Data]** in de **[!UICONTROL cc_data_view(prod:cja%3FFLATTEN)]** -weergave in het contextmenu op **[!UICONTROL Refresh]** . U moet de verbinding vernieuwen om het nieuwe filter op te halen dat u net in Customer Journey Analytics hebt gedefinieerd.
 1. Selecteer de tab **[!UICONTROL Sheet 1]** onderaan om te schakelen van **[!UICONTROL Data source]** . In de weergave **[!UICONTROL Sheet 1]** :
@@ -1995,18 +1995,18 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ de Veelvoudige Rangschikte Filter van de Desktop van Tableau Dimension ](assets/uc10-tableau-final.png)
+      ![&#x200B; de Veelvoudige Rangschikte Filter van de Desktop van Tableau Dimension &#x200B;](assets/uc10-tableau-final.png)
 
 >[!TAB  Leider ]
 
-1. In de 1. Vernieuw de verbinding in de **[!UICONTROL Explore]** -interface van Looker. Selecteer ![ Plaatsend ](/help/assets/icons/Setting.svg) **[!UICONTROL Clear cache and refresh]**.
-1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![ Plaatsende ](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
+1. In de 1. Vernieuw de verbinding in de **[!UICONTROL Explore]** -interface van Looker. Selecteer ![&#x200B; Plaatsend &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Clear cache and refresh]**.
+1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![&#x200B; Plaatsende &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
 
-      ![ filter van de Leider ](assets/uc2-looker-filter.png)
+      ![&#x200B; filter van de Leider &#x200B;](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/02/01]** .
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** om nog een filter toe te voegen.
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
@@ -2014,9 +2014,9 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
    1. Selecteer **[!UICONTROL ‣ Product Category]** in de lijst met velden.
 1. Controleer **[!UICONTROL is]** als de selectie voor het filter.
 
-![ AlertRed ](/help/assets/icons/AlertRed.svg) Lijnen toont niet de lijst van mogelijke waarden voor **[!UICONTROL Product Category]**.
+![&#x200B; AlertRed &#x200B;](/help/assets/icons/AlertRed.svg) Lijnen toont niet de lijst van mogelijke waarden voor **[!UICONTROL Product Category]**.
 
-![ minder duidelijke telling ](assets/uc10-looker-result.png)
+![&#x200B; minder duidelijke telling &#x200B;](assets/uc10-looker-result.png)
 
 
 >[!TAB  Jupyter Notitieboekje ]
@@ -2036,7 +2036,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc10-jupyter-input.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](assets/uc10-jupyter-input.png)
 
 1. Selecteer **[!UICONTROL Hunting]** in de vervolgkeuzelijst.
 
@@ -2062,7 +2062,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc10-jupyter-results.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](assets/uc10-jupyter-results.png)
 
 
 >[!TAB  RStudio ]
@@ -2081,7 +2081,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](assets/uc10-rstudio-results.png)
+   ![&#x200B; Resultaten RStudio &#x200B;](assets/uc10-rstudio-results.png)
 
 >[!ENDTABS]
 
@@ -2097,7 +2097,7 @@ In dit geval wilt u in januari 2023 voor productnamen de aankoopopbrengsten en -
 
 Een voorbeeldvenster **[!UICONTROL Sort]** voor het hoofdlettergebruik:
 
-![ het paneel van de Sortering van Customer Journey Analytics ](assets/cja-sort.png)
+![&#x200B; het paneel van de Sortering van Customer Journey Analytics &#x200B;](assets/cja-sort.png)
 
 +++
 
@@ -2105,7 +2105,7 @@ Een voorbeeldvenster **[!UICONTROL Sort]** voor het hoofdlettergebruik:
 
 >[!PREREQUISITES]
 >
->Verzeker u [ een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening ](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
+>Verzeker u [&#x200B; een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening &#x200B;](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
 >
 
 >[!BEGINTABS]
@@ -2124,14 +2124,14 @@ Een voorbeeldvenster **[!UICONTROL Sort]** voor het hoofdlettergebruik:
    1. Definieer het filter naar **[!UICONTROL Show items when the value]** **[!UICONTROL is on or after]** `1/1/2023` **[!UICONTROL And]** **[!UICONTROL is before]** `2/1/2023` .
 
 1. In het deelvenster Visualisaties:
-   1. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om daterange uit Kolommen te verwijderen.
+   1. Selecteer ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg) om daterange uit Kolommen te verwijderen.
    1. Sleep **[!UICONTROL Sum of purchase_revenue]** naar de onderkant van **[!UICONTROL Column]** -items.
 
 1. Selecteer in het rapport **[!UICONTROL Sum of purchase_revenue]** om de tabel in aflopende volgorde van aankoop-inkomsten te sorteren.
 
    Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ Desktop die van Power BI de Namen van de Waaier van de Datum gebruikt om te filtreren ](assets/uc11-powerbi-final.png)
+   ![&#x200B; Desktop die van Power BI de Namen van de Waaier van de Datum gebruikt om te filtreren &#x200B;](assets/uc11-powerbi-final.png)
 
 De query die door Power BI Desktop wordt uitgevoerd met de BI-extensie bevat geen `sort` -instructie. Het ontbreken van een instructie `sort` betekent dat de sortering aan de clientzijde wordt uitgevoerd.
 
@@ -2237,7 +2237,7 @@ limit 1000001
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ de Soort van de Desktop van Tableau ](assets/uc11-tableau-final.png)
+      ![&#x200B; de Soort van de Desktop van Tableau &#x200B;](assets/uc11-tableau-final.png)
 
 De query die wordt uitgevoerd door Tableau Desktop met de BI-extensie bevat geen `sort` -instructie. Het ontbreken van deze instructie `sort` betekent dat de sortering aan de clientzijde wordt uitgevoerd.
 
@@ -2253,14 +2253,14 @@ GROUP BY 1
 
 >[!TAB  Leider ]
 
-1. Vernieuw de verbinding in de **[!UICONTROL Explore]** -interface van Looker. Selecteer ![ Plaatsend ](/help/assets/icons/Setting.svg) **[!UICONTROL Clear cache and refresh]**.
-1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![ Plaatsende ](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
+1. Vernieuw de verbinding in de **[!UICONTROL Explore]** -interface van Looker. Selecteer ![&#x200B; Plaatsend &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Clear cache and refresh]**.
+1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![&#x200B; Plaatsende &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
 
-      ![ filter van de Leider ](assets/uc2-looker-filter.png)
+      ![&#x200B; filter van de Leider &#x200B;](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/02/01]** .
 1. Selecteer **[!UICONTROL ‣ Cc Data View]** in het gedeelte **[!UICONTROL Product Name]** links in de sectie.
 1. Vanuit het gedeelte **[!UICONTROL ‣ Custom Fields]** in de linkertrack:
@@ -2272,7 +2272,7 @@ GROUP BY 1
       1. Selecteer de tab **[!UICONTROL Field details]** .
       1. Selecteer **[!UICONTROL Decimals]** in de vervolgkeuzelijst **[!UICONTROL Format]** en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .
 
-         ![ Lager aangepast metrisch gebied ](assets/uc5-looker-customfield.png)
+         ![&#x200B; Lager aangepast metrisch gebied &#x200B;](assets/uc5-looker-customfield.png)
       1. Selecteer **[!UICONTROL Save]** .
 1. Selecteer **[!UICONTROL ↓]** (**[!UICONTROL Descending, Sort Order: 1]** ) in de kolom **[!UICONTROL Purchase Revenue]** .
 1. Selecteer **[!UICONTROL Run]** .
@@ -2280,7 +2280,7 @@ GROUP BY 1
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ minder duidelijke telling ](assets/uc11-looker-result.png)
+![&#x200B; minder duidelijke telling &#x200B;](assets/uc11-looker-result.png)
 
 
 De vraag die door het gebruiken van de uitbreiding van BI wordt geproduceerd van het plukker is met inbegrip van `ORDER BY`, wat impliceert dat de soort door de uitbreiding van het plukker en van BI wordt uitgevoerd.
@@ -2317,7 +2317,7 @@ FETCH NEXT 500 ROWS ONLY
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc11-jupyter-results.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](assets/uc11-jupyter-results.png)
 
 De query wordt uitgevoerd door de BI-extensie zoals gedefinieerd in Jupyter Notebook.
 
@@ -2338,7 +2338,7 @@ De query wordt uitgevoerd door de BI-extensie zoals gedefinieerd in Jupyter Note
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](assets/uc11-rstudio-results.png)
+   ![&#x200B; Resultaten RStudio &#x200B;](assets/uc11-rstudio-results.png)
 
 De query die wordt gegenereerd door RStudio met de BI-extensie bevat `ORDER BY` . Dit houdt in dat de volgorde wordt toegepast via RStudio en de BI-extensie.
 
@@ -2369,7 +2369,7 @@ In dit geval, wilt u over de hoogste 5 voorkomen van productnamen tijdens 2023 r
 
 Een voorbeeldvenster **[!UICONTROL Limit]** voor het hoofdlettergebruik:
 
-![ het paneel van de Grens van Customer Journey Analytics ](assets/cja-limit.png)
+![&#x200B; het paneel van de Grens van Customer Journey Analytics &#x200B;](assets/cja-limit.png)
 
 +++
 
@@ -2377,7 +2377,7 @@ Een voorbeeldvenster **[!UICONTROL Limit]** voor het hoofdlettergebruik:
 
 >[!PREREQUISITES]
 >
->Verzeker u [ een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening ](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
+>Verzeker u [&#x200B; een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening &#x200B;](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
 >
 
 >[!BEGINTABS]
@@ -2401,11 +2401,11 @@ Een voorbeeldvenster **[!UICONTROL Limit]** voor het hoofdlettergebruik:
    1. Selecteer **[!UICONTROL Apply filter]** .
 
 1. In het deelvenster Visualisatie:
-   * Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om daterange uit Kolommen te verwijderen.
+   * Selecteer ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg) om daterange uit Kolommen te verwijderen.
 
    Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ Desktop die van Power BI de Namen van de Waaier van de Datum gebruikt om te filtreren ](assets/uc12-powerbi-final.png)
+   ![&#x200B; Desktop die van Power BI de Namen van de Waaier van de Datum gebruikt om te filtreren &#x200B;](assets/uc12-powerbi-final.png)
 
 De query die door Power BI Desktop wordt uitgevoerd met de BI-extensie bevat een `limit` -instructie, maar niet de instructie die wordt verwacht. De limiet van de bovenste vijf exemplaren wordt door Power BI Desktop afgedwongen met expliciete resultaten voor de productnaam.
 
@@ -2508,7 +2508,7 @@ limit 1000001
       1. Selecteer **[!UICONTROL By field:]** **[!UICONTROL Top]** `5` **[!UICONTROL by Occurrences]** **[!UICONTROL Sum]** .
       1. Selecteer **[!UICONTROL Apply]** en **[!UICONTROL OK]** .
 
-         ![ AlertRed ](/help/assets/icons/AlertRed.svg) u merkt dat de lijst verdwijnt. Het selecteren van top 5 productnamen door voorkomen werkt **niet** behoorlijk gebruikend deze filter.
+         ![&#x200B; AlertRed &#x200B;](/help/assets/icons/AlertRed.svg) u merkt dat de lijst verdwijnt. Het selecteren van top 5 productnamen door voorkomen werkt **niet** behoorlijk gebruikend deze filter.
       1. Selecteer **[!UICONTROL Product Name]** in de **[!UICONTROL Filter]** plank en van het drop-down menu uitgezocht **[!UICONTROL Remove]**. De tabel wordt opnieuw weergegeven.
    1. Selecteer **[!UICONTROL SUM(Occurrences)]** in de **[!UICONTROL Marks]** -plank. Selecteer **[!UICONTROL Filter]** in de vervolgkeuzelijst.
       1. Selecteer **[!UICONTROL Filter \[Occurrences\]]** in het dialoogvenster **[!UICONTROL At least]** .
@@ -2516,7 +2516,7 @@ limit 1000001
 
          Uw Tableau Desktop moet er hieronder uitzien.
 
-         ![ Limieten van de Desktop van Tableau ](assets/uc12-tableau-final.png)
+         ![&#x200B; Limieten van de Desktop van Tableau &#x200B;](assets/uc12-tableau-final.png)
 
 Zoals hierboven getoond, ontbreekt deze vraag die door Desktop van Tableau wordt uitgevoerd, wanneer het bepalen van Hoogste 5 voorvalenfilter op productnamen, ontbreekt.
 
@@ -2549,14 +2549,14 @@ GROUP BY 1
 
 >[!TAB  Leider ]
 
-1. Vernieuw de verbinding in de **[!UICONTROL Explore]** -interface van Looker. Selecteer ![ Plaatsend ](/help/assets/icons/Setting.svg) **[!UICONTROL Clear cache and refresh]**.
-1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![ Plaatsende ](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
+1. Vernieuw de verbinding in de **[!UICONTROL Explore]** -interface van Looker. Selecteer ![&#x200B; Plaatsend &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Clear cache and refresh]**.
+1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![&#x200B; Plaatsende &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
 
-      ![ filter van de Leider ](assets/uc2-looker-filter.png)
+      ![&#x200B; filter van de Leider &#x200B;](assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2024/01/01]** .
 1. Vanuit het gedeelte **[!UICONTROL ‣ Cc Data View]** in de linkertrack:
    1. Selecteer **[!UICONTROL Product Name]** .
@@ -2568,7 +2568,7 @@ GROUP BY 1
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ minder duidelijke telling ](assets/uc12-looker-result.png)
+![&#x200B; minder duidelijke telling &#x200B;](assets/uc12-looker-result.png)
 
 De vraag die door de uitbreiding wordt geproduceerd Loker die van BI gebruikt omvat `FETCH NEXT 5 ROWS ONLY`, wat impliceert dat de grens door Leider en de uitbreiding van BI wordt uitgevoerd.
 
@@ -2604,7 +2604,7 @@ FETCH NEXT 5 ROWS ONLY
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc12-jupyter-results.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](assets/uc12-jupyter-results.png)
 
 De query wordt uitgevoerd door de BI-extensie zoals gedefinieerd in Jupyter Notebook.
 
@@ -2625,7 +2625,7 @@ De query wordt uitgevoerd door de BI-extensie zoals gedefinieerd in Jupyter Note
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](assets/uc12-rstudio-results.png)
+   ![&#x200B; Resultaten RStudio &#x200B;](assets/uc12-rstudio-results.png)
 
 De query die wordt gegenereerd door RStudio met de BI-extensie bevat `LIMIT 5` . Dit houdt in dat de limiet wordt toegepast via RStudio en de BI-extensie.
 
@@ -2651,8 +2651,8 @@ U wilt de transformaties van de voorwerpen van Customer Journey Analytics zoals 
 
 +++ Customer Journey Analytics
 
-In Customer Journey Analytics, bepaalt u in a [ gegevensmening ](/help/data-views/data-views.md), die en hoe de componenten van uw datasets als [ dimensies ](/help/components/dimensions/overview.md) en [ metriek ](/help/components/apply-create-metrics.md) worden blootgesteld. Die definitie van dimensie en metriek wordt blootgesteld aan de hulpmiddelen van BI gebruikend de uitbreiding van BI.
-U gebruikt componenten zoals [ Filters ](/help/components/segments/seg-overview.md), [ Berekende metriek ](/help/components/calc-metrics/calc-metr-overview.md), en [ de waaiers van de Datum ](/help/components/date-ranges/overview.md) als deel van uw projecten van Workspace. Deze componenten worden ook blootgesteld aan de hulpmiddelen van BI gebruikend de uitbreiding van BI.
+In Customer Journey Analytics, bepaalt u in a [&#x200B; gegevensmening &#x200B;](/help/data-views/data-views.md), die en hoe de componenten van uw datasets als [&#x200B; dimensies &#x200B;](/help/components/dimensions/overview.md) en [&#x200B; metriek &#x200B;](/help/components/apply-create-metrics.md) worden blootgesteld. Die definitie van dimensie en metriek wordt blootgesteld aan de hulpmiddelen van BI gebruikend de uitbreiding van BI.
+U gebruikt componenten zoals [&#x200B; Filters &#x200B;](/help/components/segments/seg-overview.md), [&#x200B; Berekende metriek &#x200B;](/help/components/calc-metrics/calc-metr-overview.md), en [&#x200B; de waaiers van de Datum &#x200B;](/help/components/date-ranges/overview.md) als deel van uw projecten van Workspace. Deze componenten worden ook blootgesteld aan de hulpmiddelen van BI gebruikend de uitbreiding van BI.
 
 +++
 
@@ -2660,7 +2660,7 @@ U gebruikt componenten zoals [ Filters ](/help/components/segments/seg-overview.
 
 >[!PREREQUISITES]
 >
->Verzeker u [ een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening ](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
+>Verzeker u [&#x200B; een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening &#x200B;](#connect-and-validate) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
 >
 
 >[!BEGINTABS]
@@ -2686,18 +2686,18 @@ De berekende metriek die u in Customer Journey Analytics bepaalt worden geïdent
 Datumbereiken die u in Customer Journey Analytics definieert, zijn beschikbaar in het veld **[!UICONTROL daterangeName]** . Wanneer u een veld **[!UICONTROL daterangeName]** gebruikt, kunt u opgeven welk datumbereik u wilt gebruiken.
 
 **de transformaties van de Douane**
-De Desktop van Power BI verstrekt de functionaliteit van de douanetransformatie gebruikend [ Uitdrukkingen van de Analyse van Gegevens (DAX) ](https://learn.microsoft.com/en-us/dax/dax-overview). Als voorbeeld, wilt u de [ Enige afmeting gerangschikte ](#single-dimension-ranked) gebruiksgeval met productnamen in kleine letters uitvoeren.
+De Desktop van Power BI verstrekt de functionaliteit van de douanetransformatie gebruikend [&#x200B; Uitdrukkingen van de Analyse van Gegevens (DAX) &#x200B;](https://learn.microsoft.com/en-us/dax/dax-overview). Als voorbeeld, wilt u de [&#x200B; Enige afmeting gerangschikte &#x200B;](#single-dimension-ranked) gebruiksgeval met productnamen in kleine letters uitvoeren.
 
 1. Selecteer in de rapportweergave de streepjesvisualisatie.
 1. Selecteer **[!UICONTROL product_name]** in het venster Gegevens.
 1. Selecteer **[!UICONTROL New column]** op de werkbalk.
 1. Definieer in de formule-editor een nieuwe kolom met de naam `product_name_lower` , net als `product_name_lower = LOWER('public.cc_data_view[product_name])` .
-   ![ de Transformatie van de Desktop van Power BI aan Laag ](assets/uc14-powerbi-transformation.png)
+   ![&#x200B; de Transformatie van de Desktop van Power BI aan Laag &#x200B;](assets/uc14-powerbi-transformation.png)
 1. Selecteer de nieuwe kolom **[!UICONTROL product_name_lower]** in het deelvenster **[!UICONTROL Data]** in plaats van de kolom **[!UICONTROL product_name]** .
-1. Selecteer **[!UICONTROL Report as Table]** van ![ Meer ](/help/assets/icons/More.svg) in de lijstvisualisatie.
+1. Selecteer **[!UICONTROL Report as Table]** van ![&#x200B; Meer &#x200B;](/help/assets/icons/More.svg) in de lijstvisualisatie.
 
    Je Power BI Desktop moet er hieronder uitzien.
-   ![ Definitieve Transformatie van de Desktop van Power BI ](assets/uc14-powerbi-final.png)
+   ![&#x200B; Definitieve Transformatie van de Desktop van Power BI &#x200B;](assets/uc14-powerbi-final.png)
 
 De aangepaste transformatie resulteert in een update van SQL-query&#39;s. Zie het gebruik van de functie `lower` in het volgende SQL-voorbeeld:
 
@@ -2761,12 +2761,12 @@ De berekende metriek die u in Customer Journey Analytics bepaalt worden geïdent
 Datumbereiken die u in Customer Journey Analytics definieert, zijn beschikbaar in het veld **[!UICONTROL Daterange Name]** . Wanneer u een veld **[!UICONTROL Daterange Name]** gebruikt, kunt u opgeven welk datumbereik u wilt gebruiken.
 
 **de transformaties van de Douane**
-De Desktop van tableau verstrekt de functionaliteit van de douanetransformatie gebruikend [ Berekende Gebieden ](https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm). Als voorbeeld, wilt u de [ Enige afmeting gerangschikte ](#single-dimension-ranked) gebruiksgeval met productnamen in kleine letters uitvoeren.
+De Desktop van tableau verstrekt de functionaliteit van de douanetransformatie gebruikend [&#x200B; Berekende Gebieden &#x200B;](https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm). Als voorbeeld, wilt u de [&#x200B; Enige afmeting gerangschikte &#x200B;](#single-dimension-ranked) gebruiksgeval met productnamen in kleine letters uitvoeren.
 
 1. Selecteer **[!UICONTROL Analysis]** > **[!UICONTROL Create Calculated Field]** in het hoofdmenu.
    1. Definieer **[!UICONTROL Lowercase Product Name]** met de functie `LOWER([Product Name])` .
 
-      ![ Berekend Gebied van Tableau ](assets/uc14-tableau-calculated-field.png)
+      ![&#x200B; Berekend Gebied van Tableau &#x200B;](assets/uc14-tableau-calculated-field.png)
    1. Selecteer **[!UICONTROL OK]** .
 1. Selecteer het **[!UICONTROL Data]** blad.
    1. Sleep **[!UICONTROL Lowercase Product Name]** van **[!UICONTROL Tables]** en laat vallen de ingang in het gebied naast **[!UICONTROL Rows]**.
@@ -2775,7 +2775,7 @@ De Desktop van tableau verstrekt de functionaliteit van de douanetransformatie g
 
 Uw Tableau Desktop moet er hieronder uitzien.
 
-![ Desktop Tableau na transformatie ](assets/uc14-tableau-final.png)
+![&#x200B; Desktop Tableau na transformatie &#x200B;](assets/uc14-tableau-final.png)
 
 De aangepaste transformatie resulteert in updates van SQL-query&#39;s. Zie het gebruik van de functie `LOWER` in het volgende SQL-voorbeeld:
 
@@ -2810,19 +2810,19 @@ De berekende metriek die u in Customer Journey Analytics bepaalt worden geïdent
 Datumbereiken die u in Customer Journey Analytics definieert, zijn beschikbaar in het veld **[!UICONTROL Daterange Name]** . Wanneer u een veld **[!UICONTROL Daterange Name]** gebruikt, kunt u opgeven welk datumbereik u wilt gebruiken.
 
 **de transformaties van de Douane**
-Looker biedt aangepaste transformatiefuncties met behulp van aangepaste veldbuilders, zoals hierboven wordt weergegeven. Als voorbeeld, wilt u de [ Enige afmeting gerangschikte ](#single-dimension-ranked) gebruiksgeval met productnamen in kleine letters uitvoeren.
+Looker biedt aangepaste transformatiefuncties met behulp van aangepaste veldbuilders, zoals hierboven wordt weergegeven. Als voorbeeld, wilt u de [&#x200B; Enige afmeting gerangschikte &#x200B;](#single-dimension-ranked) gebruiksgeval met productnamen in kleine letters uitvoeren.
 
 1. Vanuit het gedeelte **[!UICONTROL ‣ Custom Fields]** in de linkertrack:
    1. Selecteer **[!UICONTROL Custom Dimension]** in de vervolgkeuzelijst **[!UICONTROL + Add]** .
    1. Voer `lower(${cc_data_view.product_name})` in het tekstgebied **[!UICONTROL Expression]** in. Wanneer u `Product Name` begint te typen, krijgt u de juiste syntaxis.
 
-      ![ de transformatievoorbeeld van de Leider ](assets/uc14-looker-transformation.png)
+      ![&#x200B; de transformatievoorbeeld van de Leider &#x200B;](assets/uc14-looker-transformation.png)
    1. Voer `product name` in als de **[!UICONTROL Name]** .
    1. Selecteer **[!UICONTROL Save]** .
 
 U dient een vergelijkbare tabel te zien zoals hieronder weergegeven.
 
-![ Lager transformatieresultaat ](assets/uc14-looker-result.png)
+![&#x200B; Lager transformatieresultaat &#x200B;](assets/uc14-looker-result.png)
 
 
 De aangepaste transformatie resulteert in updates van SQL-query&#39;s. Zie het gebruik van de functie `LOWER` in het volgende SQL-voorbeeld:
@@ -2861,7 +2861,7 @@ De Customer Journey Analytics-objecten (afmetingen, metriek, filters, berekende 
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](assets/uc13-jupyter-results.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](assets/uc13-jupyter-results.png)
 
 De query wordt uitgevoerd door de BI-extensie zoals gedefinieerd in Jupyter Notebook.
 
@@ -2885,7 +2885,7 @@ De Customer Journey Analytics-componenten (afmetingen, metriek, filters, bereken
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](assets/uc13-rstudio-results.png)
+   ![&#x200B; Resultaten RStudio &#x200B;](assets/uc13-rstudio-results.png)
 
 De query die wordt gegenereerd door RStudio met de BI-extensie bevat `lower` . Dit houdt in dat de aangepaste transformatie wordt uitgevoerd door RStudio en de BI-extensie.
 
@@ -2913,7 +2913,7 @@ U wilt begrijpen hoe de visualisaties, beschikbaar in Customer Journey Analytics
 
 +++ Customer Journey Analytics
 
-Customer Journey Analytics heeft een aantal visualisaties. Zie [ Visualisaties ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) voor een inleiding en een overzicht van alle mogelijke visualisaties.
+Customer Journey Analytics heeft een aantal visualisaties. Zie [&#x200B; Visualisaties &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) voor een inleiding en een overzicht van alle mogelijke visualisaties.
 
 +++
 
@@ -2929,40 +2929,40 @@ Voor de meeste Customer Journey Analytics-visualisaties biedt Power BI Desktop v
 
 | Pictogram | Customer Journey Analytics visualisatie | Power BI Desktop visualisatie |
 | :---: | --- | ---| 
-| ![ GraphArea ](/help/assets/icons/GraphArea.svg) | [ Gebied ](/help/analysis-workspace/visualizations/area.md) | [ grafiek van het Gebied, gestapelde gebiedsgrafiek en 100% gebiedsgrafiek ](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#area-charts-basic-layered-and-stacked) |
-| ![ GraphBarVertical ](/help/assets/icons/GraphBarVertical.svg) | [ Bar ](/help/analysis-workspace/visualizations/bar.md) | [ Gegroepeerd kolomgrafiek ](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#bar-and-column-charts) |
-| ![ GraphBarVertical ](/help/assets/icons/GraphBarVerticalStacked.svg) | [ Gestapelde Bar ](/help/analysis-workspace/visualizations/bar.md) | [ Gestapelde kolomgrafiek en 100% gestapelde kolomgrafiek ](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#bar-and-column-charts) |
-| ![ GraphBullet ](/help/assets/icons/GraphBullet.svg)</p> | [ Opsommingsteken ](/help/analysis-workspace/visualizations/bullet-graph.md) |  |
-| ![ TextNumbered ](/help/assets/icons/TextNumbered.svg) | [ Lijst van de Cohort ](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) |  |
-| ![ Combo ](/help/assets/icons/ComboChart.svg) | [ Combo ](/help/analysis-workspace/visualizations/combo-charts.md) | [ Lijn en gestapelde kolomgrafiek en Lijn en gegroepeerde kolomgrafiek ](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#combo-charts) |
-| ![ GraphDonut ](/help/assets/icons/GraphDonut.svg) | [Cirkeldiagram](/help/analysis-workspace/visualizations/donut.md) | [ grafiek van de Donut ](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#doughnut-charts) |
-| ![ ConversionFunnel ](/help/assets/icons/ConversionFunnel.svg) | [Uitval](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | [ Trechter ](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#funnel-charts). |
-| ![ GraphPathing ](/help/assets/icons/GraphPathing.svg) | [Stroom](/help/analysis-workspace/visualizations/c-flow/flow.md) | Boom ontbinden? |
-| ![ ViewTable ](/help/assets/icons/ViewTable.svg)</p> | [Vrije-vormentabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | [ Lijst ](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#tables) en [ Matrijs ](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#matrix) |
-| ![ GraphHistogram ](/help/assets/icons/Histogram.svg) | [Histogram](/help/analysis-workspace/visualizations/histogram.md) |  |
-| ![ GraphBarHorizontal ](/help/assets/icons/GraphBarHorizontal.svg) | [ Horizontale bar ](/help/analysis-workspace/visualizations/horizontal-bar.md) | [ Gegroepeerd staafdiagram ](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#bar-and-column-charts) |
-| ![ GraphBarHorizontalGestapeld ](/help/assets/icons/GraphBarHorizontalStacked.svg) | [ Horizontale gestapelde bar ](/help/analysis-workspace/visualizations/horizontal-bar.md) | [ Gestapeld staafdiagram en 100% gestapeld staafdiagram ](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#bar-and-column-charts) |
-| ![ Branch3 ](/help/assets/icons/Branch3.svg) | [ het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | [ Decomposition boom ](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#decomposition-tree) |
-| ![ KeyMetrics ](/help/assets/icons/KeyMetrics.svg) | [ Zeer belangrijke metrische samenvatting ](/help/analysis-workspace/visualizations/key-metric.md) |  |
-| ![ GraphTrend ](/help/assets/icons/GraphTrend.svg) | [Lijn](/help/analysis-workspace/visualizations/line.md) | [ grafiek van de Lijn ](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#line-charts) |
-| ![ GraphScatter ](/help/assets/icons/GraphScatter.svg) | [ Spreiding ](/help/analysis-workspace/visualizations/scatterplot.md) | [ Spreidingsgrafiek ](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#scatter) |
-| ![ PageRule ](/help/assets/icons/PageRule.svg) | [ kopbal van de Sectie ](/help/analysis-workspace/visualizations/section-header.md) | [ doos van de Tekst ](https://learn.microsoft.com/en-us/power-bi/paginated-reports/report-design/textbox/add-move-or-delete-a-text-box-report-builder-and-service) |
-| ![ MoveUpDown ](/help/assets/icons/MoveUpDown.svg) | [ Summiere verandering ](/help/analysis-workspace/visualizations/summary-number-change.md) | [ Kaart ](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#cards) |
-| ![ 123 ](/help/assets/icons/123.svg)</p> | [ Summiere aantal ](/help/analysis-workspace/visualizations/summary-number-change.md) | [ Kaart ](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#cards) |
-| ![Tekst](/help/assets/icons/Text.svg) | [Tekst](/help/analysis-workspace/visualizations/text.md) | [ doos van de Tekst ](https://learn.microsoft.com/en-us/power-bi/paginated-reports/report-design/textbox/add-move-or-delete-a-text-box-report-builder-and-service) |
-| ![ ModernGridView ](/help/assets/icons/ModernGridView.svg) | [Boomstructuur](/help/analysis-workspace/visualizations/treemap.md)<p> | [Boomstructuur](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#treemaps) |
-| ![ Type ](/help/assets/icons/TwoDots.svg) | [Venn](/help/analysis-workspace/visualizations/venn.md) | |
+| ![&#x200B; GraphArea &#x200B;](/help/assets/icons/GraphArea.svg) | [&#x200B; Gebied &#x200B;](/help/analysis-workspace/visualizations/area.md) | [&#x200B; grafiek van het Gebied, gestapelde gebiedsgrafiek en 100% gebiedsgrafiek &#x200B;](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#area-charts-basic-layered-and-stacked) |
+| ![&#x200B; GraphBarVertical &#x200B;](/help/assets/icons/GraphBarVertical.svg) | [&#x200B; Bar &#x200B;](/help/analysis-workspace/visualizations/bar.md) | [&#x200B; Gegroepeerd kolomgrafiek &#x200B;](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#bar-and-column-charts) |
+| ![&#x200B; GraphBarVertical &#x200B;](/help/assets/icons/GraphBarVerticalStacked.svg) | [&#x200B; Gestapelde Bar &#x200B;](/help/analysis-workspace/visualizations/bar.md) | [&#x200B; Gestapelde kolomgrafiek en 100% gestapelde kolomgrafiek &#x200B;](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#bar-and-column-charts) |
+| ![&#x200B; GraphBullet &#x200B;](/help/assets/icons/GraphBullet.svg)</p> | [&#x200B; Opsommingsteken &#x200B;](/help/analysis-workspace/visualizations/bullet-graph.md) |  |
+| ![&#x200B; TextNumbered &#x200B;](/help/assets/icons/TextNumbered.svg) | [&#x200B; Lijst van de Cohort &#x200B;](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) |  |
+| ![&#x200B; Combo &#x200B;](/help/assets/icons/ComboChart.svg) | [&#x200B; Combo &#x200B;](/help/analysis-workspace/visualizations/combo-charts.md) | [&#x200B; Lijn en gestapelde kolomgrafiek en Lijn en gegroepeerde kolomgrafiek &#x200B;](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#combo-charts) |
+| ![&#x200B; GraphDonut &#x200B;](/help/assets/icons/GraphDonut.svg) | [Cirkeldiagram](/help/analysis-workspace/visualizations/donut.md) | [&#x200B; grafiek van de Donut &#x200B;](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#doughnut-charts) |
+| ![&#x200B; ConversionFunnel &#x200B;](/help/assets/icons/ConversionFunnel.svg) | [Uitval](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | [&#x200B; Trechter &#x200B;](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#funnel-charts). |
+| ![&#x200B; GraphPathing &#x200B;](/help/assets/icons/GraphPathing.svg) | [Stroom](/help/analysis-workspace/visualizations/c-flow/flow.md) | Boom ontbinden? |
+| ![&#x200B; ViewTable &#x200B;](/help/assets/icons/ViewTable.svg)</p> | [Vrije-vormentabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | [&#x200B; Lijst &#x200B;](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#tables) en [&#x200B; Matrijs &#x200B;](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#matrix) |
+| ![&#x200B; GraphHistogram &#x200B;](/help/assets/icons/Histogram.svg) | [Histogram](/help/analysis-workspace/visualizations/histogram.md) |  |
+| ![&#x200B; GraphBarHorizontal &#x200B;](/help/assets/icons/GraphBarHorizontal.svg) | [&#x200B; Horizontale bar &#x200B;](/help/analysis-workspace/visualizations/horizontal-bar.md) | [&#x200B; Gegroepeerd staafdiagram &#x200B;](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#bar-and-column-charts) |
+| ![&#x200B; GraphBarHorizontalGestapeld &#x200B;](/help/assets/icons/GraphBarHorizontalStacked.svg) | [&#x200B; Horizontale gestapelde bar &#x200B;](/help/analysis-workspace/visualizations/horizontal-bar.md) | [&#x200B; Gestapeld staafdiagram en 100% gestapeld staafdiagram &#x200B;](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#bar-and-column-charts) |
+| ![&#x200B; Branch3 &#x200B;](/help/assets/icons/Branch3.svg) | [&#x200B; het canvas van de Reis &#x200B;](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | [&#x200B; Decomposition boom &#x200B;](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#decomposition-tree) |
+| ![&#x200B; KeyMetrics &#x200B;](/help/assets/icons/KeyMetrics.svg) | [&#x200B; Zeer belangrijke metrische samenvatting &#x200B;](/help/analysis-workspace/visualizations/key-metric.md) |  |
+| ![&#x200B; GraphTrend &#x200B;](/help/assets/icons/GraphTrend.svg) | [Lijn](/help/analysis-workspace/visualizations/line.md) | [&#x200B; grafiek van de Lijn &#x200B;](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#line-charts) |
+| ![&#x200B; GraphScatter &#x200B;](/help/assets/icons/GraphScatter.svg) | [&#x200B; Spreiding &#x200B;](/help/analysis-workspace/visualizations/scatterplot.md) | [&#x200B; Spreidingsgrafiek &#x200B;](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#scatter) |
+| ![&#x200B; PageRule &#x200B;](/help/assets/icons/PageRule.svg) | [&#x200B; kopbal van de Sectie &#x200B;](/help/analysis-workspace/visualizations/section-header.md) | [&#x200B; doos van de Tekst &#x200B;](https://learn.microsoft.com/en-us/power-bi/paginated-reports/report-design/textbox/add-move-or-delete-a-text-box-report-builder-and-service) |
+| ![&#x200B; MoveUpDown &#x200B;](/help/assets/icons/MoveUpDown.svg) | [&#x200B; Summiere verandering &#x200B;](/help/analysis-workspace/visualizations/summary-number-change.md) | [&#x200B; Kaart &#x200B;](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#cards) |
+| ![&#x200B; 123 &#x200B;](/help/assets/icons/123.svg)</p> | [&#x200B; Summiere aantal &#x200B;](/help/analysis-workspace/visualizations/summary-number-change.md) | [&#x200B; Kaart &#x200B;](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#cards) |
+| ![Tekst](/help/assets/icons/Text.svg) | [Tekst](/help/analysis-workspace/visualizations/text.md) | [&#x200B; doos van de Tekst &#x200B;](https://learn.microsoft.com/en-us/power-bi/paginated-reports/report-design/textbox/add-move-or-delete-a-text-box-report-builder-and-service) |
+| ![&#x200B; ModernGridView &#x200B;](/help/assets/icons/ModernGridView.svg) | [Boomstructuur](/help/analysis-workspace/visualizations/treemap.md)<p> | [Boomstructuur](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a#treemaps) |
+| ![&#x200B; Type &#x200B;](/help/assets/icons/TwoDots.svg) | [Venn](/help/analysis-workspace/visualizations/venn.md) | |
 
 
 ### Boor omlaag
 
-Power BI steunt de wijze van de a [ boor ](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill) om diepgaande details op bepaalde visualisaties te onderzoeken. In het onderstaande voorbeeld analyseert u de aankoopopbrengsten voor productcategorieën. In het contextmenu van een balk die een productcategorie voorstelt, kunt u **[!UICONTROL Drill down]** selecteren.
+Power BI steunt de wijze van de a [&#x200B; boor &#x200B;](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill) om diepgaande details op bepaalde visualisaties te onderzoeken. In het onderstaande voorbeeld analyseert u de aankoopopbrengsten voor productcategorieën. In het contextmenu van een balk die een productcategorie voorstelt, kunt u **[!UICONTROL Drill down]** selecteren.
 
-![ Power BI boor neer ](assets/uc15-powerbi-drilldown.png)
+![&#x200B; Power BI boor neer &#x200B;](assets/uc15-powerbi-drilldown.png)
 
 Met de optie Omlaag kunt u de visualisatie bijwerken met aankoopopbrengsten voor producten binnen de geselecteerde productcategorie.
 
-![ boor van Power BI omhoog ](assets/uc15-powerbi-drillup.png)
+![&#x200B; boor van Power BI omhoog &#x200B;](assets/uc15-powerbi-drillup.png)
 
 De boor neer resulteert in de volgende SQL vraag die een `WHERE` clausule gebruikt:
 
@@ -3012,40 +3012,40 @@ Voor de meeste Customer Journey Analytics-visualisaties biedt Tableau Desktop ve
 
 | Pictogram | Customer Journey Analytics visualisatie | Power BI Desktop visualisatie |
 | :---: | --- | ---| 
-| ![ GraphArea ](/help/assets/icons/GraphArea.svg) | [ Gebied ](/help/analysis-workspace/visualizations/area.md) | [ Grafiek van het Gebied ](https://help.tableau.com/current/pro/desktop/en-us/qs_area_charts.htm) |
-| ![ GraphBarVertical ](/help/assets/icons/GraphBarVertical.svg) | [ Bar ](/help/analysis-workspace/visualizations/bar.md) | [ Grafiek van de Bar ](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_bar.htm) |
-| ![ GraphBarVertical ](/help/assets/icons/GraphBarVerticalStacked.svg) | [ Gestapelde Bar ](/help/analysis-workspace/visualizations/bar.md) |  |
-| ![ GraphBullet ](/help/assets/icons/GraphBullet.svg)</p> | [ Opsommingsteken ](/help/analysis-workspace/visualizations/bullet-graph.md) | [Grafiek met opsommingstekens](https://help.tableau.com/current/pro/desktop/en-us/qs_bullet_graphs.htm) |
-| ![ TextNumbered ](/help/assets/icons/TextNumbered.svg) | [ Lijst van de Cohort ](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) |  |
-| ![ Combo ](/help/assets/icons/ComboChart.svg) | [ Combo ](/help/analysis-workspace/visualizations/combo-charts.md) | [ de Grafieken van de Combinatie ](https://help.tableau.com/current/pro/desktop/en-us/qs_combo_charts.htm) |
-| ![ GraphDonut ](/help/assets/icons/GraphDonut.svg) | [Cirkeldiagram](/help/analysis-workspace/visualizations/donut.md) | |
-| ![ ConversionFunnel ](/help/assets/icons/ConversionFunnel.svg) | [Uitval](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | |
-| ![ GraphPathing ](/help/assets/icons/GraphPathing.svg) | [Stroom](/help/analysis-workspace/visualizations/c-flow/flow.md) |  |
-| ![ ViewTable ](/help/assets/icons/ViewTable.svg)</p> | [Vrije-vormentabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | [ Lijst van de Tekst ](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_text.htm) |
-| ![ GraphHistogram ](/help/assets/icons/Histogram.svg) | [Histogram](/help/analysis-workspace/visualizations/histogram.md) | [Histogram](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_histogram.htm) |
-| ![ GraphBarHorizontal ](/help/assets/icons/GraphBarHorizontal.svg) | [ Horizontale bar ](/help/analysis-workspace/visualizations/horizontal-bar.md) | [ Grafiek van de Bar ](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_bar.htm) |
-| ![ GraphBarHorizontalGestapeld ](/help/assets/icons/GraphBarHorizontalStacked.svg) | [ Horizontale gestapelde bar ](/help/analysis-workspace/visualizations/horizontal-bar.md) | [ Grafiek van de Bar ](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_bar.htm) |
-| ![ Branch3 ](/help/assets/icons/Branch3.svg) | [ het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | |
-| ![ KeyMetrics ](/help/assets/icons/KeyMetrics.svg) | [ Zeer belangrijke metrische samenvatting ](/help/analysis-workspace/visualizations/key-metric.md) |  |
-| ![ GraphTrend ](/help/assets/icons/GraphTrend.svg) | [Lijn](/help/analysis-workspace/visualizations/line.md) | [ Grafiek van de Lijn ](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_line.htm) |
-| ![ GraphScatter ](/help/assets/icons/GraphScatter.svg) | [ Spreiding ](/help/analysis-workspace/visualizations/scatterplot.md) | [ Verstrooiingspal ](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_scatter.htm) |
-| ![ PageRule ](/help/assets/icons/PageRule.svg) | [ kopbal van de Sectie ](/help/analysis-workspace/visualizations/section-header.md) |  |
-| ![ MoveUpDown ](/help/assets/icons/MoveUpDown.svg) | [ Summiere verandering ](/help/analysis-workspace/visualizations/summary-number-change.md) | |
-| ![ 123 ](/help/assets/icons/123.svg)</p> | [ Summiere aantal ](/help/analysis-workspace/visualizations/summary-number-change.md) | |
+| ![&#x200B; GraphArea &#x200B;](/help/assets/icons/GraphArea.svg) | [&#x200B; Gebied &#x200B;](/help/analysis-workspace/visualizations/area.md) | [&#x200B; Grafiek van het Gebied &#x200B;](https://help.tableau.com/current/pro/desktop/en-us/qs_area_charts.htm) |
+| ![&#x200B; GraphBarVertical &#x200B;](/help/assets/icons/GraphBarVertical.svg) | [&#x200B; Bar &#x200B;](/help/analysis-workspace/visualizations/bar.md) | [&#x200B; Grafiek van de Bar &#x200B;](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_bar.htm) |
+| ![&#x200B; GraphBarVertical &#x200B;](/help/assets/icons/GraphBarVerticalStacked.svg) | [&#x200B; Gestapelde Bar &#x200B;](/help/analysis-workspace/visualizations/bar.md) |  |
+| ![&#x200B; GraphBullet &#x200B;](/help/assets/icons/GraphBullet.svg)</p> | [&#x200B; Opsommingsteken &#x200B;](/help/analysis-workspace/visualizations/bullet-graph.md) | [Grafiek met opsommingstekens](https://help.tableau.com/current/pro/desktop/en-us/qs_bullet_graphs.htm) |
+| ![&#x200B; TextNumbered &#x200B;](/help/assets/icons/TextNumbered.svg) | [&#x200B; Lijst van de Cohort &#x200B;](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) |  |
+| ![&#x200B; Combo &#x200B;](/help/assets/icons/ComboChart.svg) | [&#x200B; Combo &#x200B;](/help/analysis-workspace/visualizations/combo-charts.md) | [&#x200B; de Grafieken van de Combinatie &#x200B;](https://help.tableau.com/current/pro/desktop/en-us/qs_combo_charts.htm) |
+| ![&#x200B; GraphDonut &#x200B;](/help/assets/icons/GraphDonut.svg) | [Cirkeldiagram](/help/analysis-workspace/visualizations/donut.md) | |
+| ![&#x200B; ConversionFunnel &#x200B;](/help/assets/icons/ConversionFunnel.svg) | [Uitval](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | |
+| ![&#x200B; GraphPathing &#x200B;](/help/assets/icons/GraphPathing.svg) | [Stroom](/help/analysis-workspace/visualizations/c-flow/flow.md) |  |
+| ![&#x200B; ViewTable &#x200B;](/help/assets/icons/ViewTable.svg)</p> | [Vrije-vormentabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | [&#x200B; Lijst van de Tekst &#x200B;](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_text.htm) |
+| ![&#x200B; GraphHistogram &#x200B;](/help/assets/icons/Histogram.svg) | [Histogram](/help/analysis-workspace/visualizations/histogram.md) | [Histogram](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_histogram.htm) |
+| ![&#x200B; GraphBarHorizontal &#x200B;](/help/assets/icons/GraphBarHorizontal.svg) | [&#x200B; Horizontale bar &#x200B;](/help/analysis-workspace/visualizations/horizontal-bar.md) | [&#x200B; Grafiek van de Bar &#x200B;](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_bar.htm) |
+| ![&#x200B; GraphBarHorizontalGestapeld &#x200B;](/help/assets/icons/GraphBarHorizontalStacked.svg) | [&#x200B; Horizontale gestapelde bar &#x200B;](/help/analysis-workspace/visualizations/horizontal-bar.md) | [&#x200B; Grafiek van de Bar &#x200B;](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_bar.htm) |
+| ![&#x200B; Branch3 &#x200B;](/help/assets/icons/Branch3.svg) | [&#x200B; het canvas van de Reis &#x200B;](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) | |
+| ![&#x200B; KeyMetrics &#x200B;](/help/assets/icons/KeyMetrics.svg) | [&#x200B; Zeer belangrijke metrische samenvatting &#x200B;](/help/analysis-workspace/visualizations/key-metric.md) |  |
+| ![&#x200B; GraphTrend &#x200B;](/help/assets/icons/GraphTrend.svg) | [Lijn](/help/analysis-workspace/visualizations/line.md) | [&#x200B; Grafiek van de Lijn &#x200B;](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_line.htm) |
+| ![&#x200B; GraphScatter &#x200B;](/help/assets/icons/GraphScatter.svg) | [&#x200B; Spreiding &#x200B;](/help/analysis-workspace/visualizations/scatterplot.md) | [&#x200B; Verstrooiingspal &#x200B;](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_scatter.htm) |
+| ![&#x200B; PageRule &#x200B;](/help/assets/icons/PageRule.svg) | [&#x200B; kopbal van de Sectie &#x200B;](/help/analysis-workspace/visualizations/section-header.md) |  |
+| ![&#x200B; MoveUpDown &#x200B;](/help/assets/icons/MoveUpDown.svg) | [&#x200B; Summiere verandering &#x200B;](/help/analysis-workspace/visualizations/summary-number-change.md) | |
+| ![&#x200B; 123 &#x200B;](/help/assets/icons/123.svg)</p> | [&#x200B; Summiere aantal &#x200B;](/help/analysis-workspace/visualizations/summary-number-change.md) | |
 | ![Tekst](/help/assets/icons/Text.svg) | [Tekst](/help/analysis-workspace/visualizations/text.md) | |
-| ![ ModernGridView ](/help/assets/icons/ModernGridView.svg) | [Boomstructuur](/help/analysis-workspace/visualizations/treemap.md)<p> | [Boomstructuur](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_treemap.htm) |
-| ![ Type ](/help/assets/icons/TwoDots.svg) | [Venn](/help/analysis-workspace/visualizations/venn.md) | |
+| ![&#x200B; ModernGridView &#x200B;](/help/assets/icons/ModernGridView.svg) | [Boomstructuur](/help/analysis-workspace/visualizations/treemap.md)<p> | [Boomstructuur](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_treemap.htm) |
+| ![&#x200B; Type &#x200B;](/help/assets/icons/TwoDots.svg) | [Venn](/help/analysis-workspace/visualizations/venn.md) | |
 
 
 ### Boor omlaag
 
-Tableau steunt [ boor wijze ](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill) door [ hiërarchieën ](https://help.tableau.com/current/pro/desktop/en-us/qs_hierarchies.htm). In het onderstaande voorbeeld maakt u een hiërarchie wanneer u het veld **[!UICONTROL Product Name]** binnen **[!UICONTROL Tables]** selecteert en het boven **[!UICONTROL Product Category]** sleept. Vervolgens kunt u **[!UICONTROL + Drill down]** selecteren in het contextmenu van een balk die een productcategorie voorstelt.
+Tableau steunt [&#x200B; boor wijze &#x200B;](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-drill) door [&#x200B; hiërarchieën &#x200B;](https://help.tableau.com/current/pro/desktop/en-us/qs_hierarchies.htm). In het onderstaande voorbeeld maakt u een hiërarchie wanneer u het veld **[!UICONTROL Product Name]** binnen **[!UICONTROL Tables]** selecteert en het boven **[!UICONTROL Product Category]** sleept. Vervolgens kunt u **[!UICONTROL + Drill down]** selecteren in het contextmenu van een balk die een productcategorie voorstelt.
 
-![ boor van Tableau neer ](assets/uc15-tableau-drilldown.png)
+![&#x200B; boor van Tableau neer &#x200B;](assets/uc15-tableau-drilldown.png)
 
 Met de optie Omlaag kunt u de visualisatie bijwerken met aankoopopbrengsten voor producten binnen de geselecteerde productcategorie.
 
-![ boor van Tableau omhoog ](assets/uc15-tableau-drillup.png)
+![&#x200B; boor van Tableau omhoog &#x200B;](assets/uc15-tableau-drillup.png)
 
 De boor neer resulteert in de volgende SQL vraag die een GROUP DOOR clausule gebruikt:
 
@@ -3061,11 +3061,11 @@ GROUP BY 1,
 
 De vraag beperkt **&#x200B;**&#x200B;niet de resultaten tot de geselecteerde productcategorie; slechts toont visualisatie de geselecteerde productcategorie.
 
-![ boor van Tableau omhoog ](assets/uc15-tableau-drillup2.png)
+![&#x200B; boor van Tableau omhoog &#x200B;](assets/uc15-tableau-drillup2.png)
 
 U kunt ook een dashboard maken voor de boor omlaag, waarbij de ene visuele weergave het resultaat is van de selectie in een andere visuele weergave. In het onderstaande voorbeeld wordt de **[!UICONTROL Product Categories]** visualisatie gebruikt als een filter om de **[!UICONTROL Product Names]** -tabel bij te werken. Dit visualisatiefilter is alleen client en leidt niet tot een extra SQL-query.
 
-![ de visualisatiefilter van Tableau ](assets/uc15-tableau-visualizationfilter.png)
+![&#x200B; de visualisatiefilter van Tableau &#x200B;](assets/uc15-tableau-visualizationfilter.png)
 
 
 >[!TAB  Leider ]
@@ -3076,38 +3076,38 @@ Voor de meeste Customer Journey Analytics-visualisaties biedt Lader vergelijkbar
 
 | Pictogram | Customer Journey Analytics visualisatie | Power BI Desktop visualisatie |
 | :---: | --- | ---| 
-| ![ GraphArea ](/help/assets/icons/GraphArea.svg) | [ Gebied ](/help/analysis-workspace/visualizations/area.md) | [ Grafiek van het Gebied ](https://cloud.google.com/looker/docs/area-options) |
-| ![ GraphBarVertical ](/help/assets/icons/GraphBarVertical.svg) | [ Bar ](/help/analysis-workspace/visualizations/bar.md) | [ Grafiek van de Bar ](https://cloud.google.com/looker/docs/bar-options) |
-| ![ GraphBarVertical ](/help/assets/icons/GraphBarVerticalStacked.svg) | [ Gestapelde Bar ](/help/analysis-workspace/visualizations/bar.md) | [ Grafiek van de Bar ](https://cloud.google.com/looker/docs/bar-options) |
-| ![ GraphBullet ](/help/assets/icons/GraphBullet.svg)</p> | [ Opsommingsteken ](/help/analysis-workspace/visualizations/bullet-graph.md) | [Grafiek met opsommingstekens](https://cloud.google.com/looker/docs/bullet-chart) |
-| ![ TextNumbered ](/help/assets/icons/TextNumbered.svg) | [ Lijst van de Cohort ](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) |  |
-| ![ Combo ](/help/assets/icons/ComboChart.svg) | [ Combo ](/help/analysis-workspace/visualizations/combo-charts.md) | [ Aanpassen visualisaties ](https://cloud.google.com/looker/docs/creating-visualizations#customizing_visualizations_with_chart_settings) |
-| ![ GraphDonut ](/help/assets/icons/GraphDonut.svg) | [Cirkeldiagram](/help/analysis-workspace/visualizations/donut.md) | [Cirkeldiagram](https://cloud.google.com/looker/docs/donut-multiples-options) |
-| ![ ConversionFunnel ](/help/assets/icons/ConversionFunnel.svg) | [Uitval](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | [ Trechter ](https://cloud.google.com/looker/docs/funnel-options) |
-| ![ GraphPathing ](/help/assets/icons/GraphPathing.svg) | [Stroom](/help/analysis-workspace/visualizations/c-flow/flow.md) | [ Sankey ](https://cloud.google.com/looker/docs/sankey) |
-| ![ ViewTable ](/help/assets/icons/ViewTable.svg)</p> | [Vrije-vormentabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | [ Lijst ](https://cloud.google.com/looker/docs/table-options) |
-| ![ GraphHistogram ](/help/assets/icons/Histogram.svg) | [Histogram](/help/analysis-workspace/visualizations/histogram.md) | |
-| ![ GraphBarHorizontal ](/help/assets/icons/GraphBarHorizontal.svg) | [ Horizontale bar ](/help/analysis-workspace/visualizations/horizontal-bar.md) | [ Grafiek van de Bar ](https://cloud.google.com/looker/docs/bar-options) |
-| ![ GraphBarHorizontalGestapeld ](/help/assets/icons/GraphBarHorizontalStacked.svg) | [ Horizontale gestapelde bar ](/help/analysis-workspace/visualizations/horizontal-bar.md) | [ Grafiek van de Bar ](https://cloud.google.com/looker/docs/bar-options) |
-| ![ Branch3 ](/help/assets/icons/Branch3.svg) | [ het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) |  |
-| ![ KeyMetrics ](/help/assets/icons/KeyMetrics.svg) | [ Zeer belangrijke metrische samenvatting ](/help/analysis-workspace/visualizations/key-metric.md) |  |
-| ![ GraphTrend ](/help/assets/icons/GraphTrend.svg) | [Lijn](/help/analysis-workspace/visualizations/line.md) | [ Grafiek van de Lijn ](https://cloud.google.com/looker/docs/line-options) |
-| ![ GraphScatter ](/help/assets/icons/GraphScatter.svg) | [ Spreiding ](/help/analysis-workspace/visualizations/scatterplot.md) | [Spreidingsdiagram](https://cloud.google.com/looker/docs/scatter-options) |
-| ![ PageRule ](/help/assets/icons/PageRule.svg) | [ kopbal van de Sectie ](/help/analysis-workspace/visualizations/section-header.md) |  |
-| ![ MoveUpDown ](/help/assets/icons/MoveUpDown.svg) | [ Summiere verandering ](/help/analysis-workspace/visualizations/summary-number-change.md) | [ Enige Waarde ](https://cloud.google.com/looker/docs/single-value-options) |
-| ![ 123 ](/help/assets/icons/123.svg)</p> | [ Summiere aantal ](/help/analysis-workspace/visualizations/summary-number-change.md) | [ Enige Waarde ](https://cloud.google.com/looker/docs/single-value-options) |
-| ![Tekst](/help/assets/icons/Text.svg) | [Tekst](/help/analysis-workspace/visualizations/text.md) | [ Enige Waarde ](https://cloud.google.com/looker/docs/single-value-options) |
-| ![ ModernGridView ](/help/assets/icons/ModernGridView.svg) | [Boomstructuur](/help/analysis-workspace/visualizations/treemap.md) | [Boomstructuur](https://cloud.google.com/looker/docs/treemap) |
-| ![ Type ](/help/assets/icons/TwoDots.svg) | [ Diagram van de Venn ](/help/analysis-workspace/visualizations/venn.md) | [ Diagram van de Venn ](https://cloud.google.com/looker/docs/venn) |
+| ![&#x200B; GraphArea &#x200B;](/help/assets/icons/GraphArea.svg) | [&#x200B; Gebied &#x200B;](/help/analysis-workspace/visualizations/area.md) | [&#x200B; Grafiek van het Gebied &#x200B;](https://cloud.google.com/looker/docs/area-options) |
+| ![&#x200B; GraphBarVertical &#x200B;](/help/assets/icons/GraphBarVertical.svg) | [&#x200B; Bar &#x200B;](/help/analysis-workspace/visualizations/bar.md) | [&#x200B; Grafiek van de Bar &#x200B;](https://cloud.google.com/looker/docs/bar-options) |
+| ![&#x200B; GraphBarVertical &#x200B;](/help/assets/icons/GraphBarVerticalStacked.svg) | [&#x200B; Gestapelde Bar &#x200B;](/help/analysis-workspace/visualizations/bar.md) | [&#x200B; Grafiek van de Bar &#x200B;](https://cloud.google.com/looker/docs/bar-options) |
+| ![&#x200B; GraphBullet &#x200B;](/help/assets/icons/GraphBullet.svg)</p> | [&#x200B; Opsommingsteken &#x200B;](/help/analysis-workspace/visualizations/bullet-graph.md) | [Grafiek met opsommingstekens](https://cloud.google.com/looker/docs/bullet-chart) |
+| ![&#x200B; TextNumbered &#x200B;](/help/assets/icons/TextNumbered.svg) | [&#x200B; Lijst van de Cohort &#x200B;](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) |  |
+| ![&#x200B; Combo &#x200B;](/help/assets/icons/ComboChart.svg) | [&#x200B; Combo &#x200B;](/help/analysis-workspace/visualizations/combo-charts.md) | [&#x200B; Aanpassen visualisaties &#x200B;](https://cloud.google.com/looker/docs/creating-visualizations#customizing_visualizations_with_chart_settings) |
+| ![&#x200B; GraphDonut &#x200B;](/help/assets/icons/GraphDonut.svg) | [Cirkeldiagram](/help/analysis-workspace/visualizations/donut.md) | [Cirkeldiagram](https://cloud.google.com/looker/docs/donut-multiples-options) |
+| ![&#x200B; ConversionFunnel &#x200B;](/help/assets/icons/ConversionFunnel.svg) | [Uitval](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) | [&#x200B; Trechter &#x200B;](https://cloud.google.com/looker/docs/funnel-options) |
+| ![&#x200B; GraphPathing &#x200B;](/help/assets/icons/GraphPathing.svg) | [Stroom](/help/analysis-workspace/visualizations/c-flow/flow.md) | [&#x200B; Sankey &#x200B;](https://cloud.google.com/looker/docs/sankey) |
+| ![&#x200B; ViewTable &#x200B;](/help/assets/icons/ViewTable.svg)</p> | [Vrije-vormentabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) | [&#x200B; Lijst &#x200B;](https://cloud.google.com/looker/docs/table-options) |
+| ![&#x200B; GraphHistogram &#x200B;](/help/assets/icons/Histogram.svg) | [Histogram](/help/analysis-workspace/visualizations/histogram.md) | |
+| ![&#x200B; GraphBarHorizontal &#x200B;](/help/assets/icons/GraphBarHorizontal.svg) | [&#x200B; Horizontale bar &#x200B;](/help/analysis-workspace/visualizations/horizontal-bar.md) | [&#x200B; Grafiek van de Bar &#x200B;](https://cloud.google.com/looker/docs/bar-options) |
+| ![&#x200B; GraphBarHorizontalGestapeld &#x200B;](/help/assets/icons/GraphBarHorizontalStacked.svg) | [&#x200B; Horizontale gestapelde bar &#x200B;](/help/analysis-workspace/visualizations/horizontal-bar.md) | [&#x200B; Grafiek van de Bar &#x200B;](https://cloud.google.com/looker/docs/bar-options) |
+| ![&#x200B; Branch3 &#x200B;](/help/assets/icons/Branch3.svg) | [&#x200B; het canvas van de Reis &#x200B;](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) |  |
+| ![&#x200B; KeyMetrics &#x200B;](/help/assets/icons/KeyMetrics.svg) | [&#x200B; Zeer belangrijke metrische samenvatting &#x200B;](/help/analysis-workspace/visualizations/key-metric.md) |  |
+| ![&#x200B; GraphTrend &#x200B;](/help/assets/icons/GraphTrend.svg) | [Lijn](/help/analysis-workspace/visualizations/line.md) | [&#x200B; Grafiek van de Lijn &#x200B;](https://cloud.google.com/looker/docs/line-options) |
+| ![&#x200B; GraphScatter &#x200B;](/help/assets/icons/GraphScatter.svg) | [&#x200B; Spreiding &#x200B;](/help/analysis-workspace/visualizations/scatterplot.md) | [Spreidingsdiagram](https://cloud.google.com/looker/docs/scatter-options) |
+| ![&#x200B; PageRule &#x200B;](/help/assets/icons/PageRule.svg) | [&#x200B; kopbal van de Sectie &#x200B;](/help/analysis-workspace/visualizations/section-header.md) |  |
+| ![&#x200B; MoveUpDown &#x200B;](/help/assets/icons/MoveUpDown.svg) | [&#x200B; Summiere verandering &#x200B;](/help/analysis-workspace/visualizations/summary-number-change.md) | [&#x200B; Enige Waarde &#x200B;](https://cloud.google.com/looker/docs/single-value-options) |
+| ![&#x200B; 123 &#x200B;](/help/assets/icons/123.svg)</p> | [&#x200B; Summiere aantal &#x200B;](/help/analysis-workspace/visualizations/summary-number-change.md) | [&#x200B; Enige Waarde &#x200B;](https://cloud.google.com/looker/docs/single-value-options) |
+| ![Tekst](/help/assets/icons/Text.svg) | [Tekst](/help/analysis-workspace/visualizations/text.md) | [&#x200B; Enige Waarde &#x200B;](https://cloud.google.com/looker/docs/single-value-options) |
+| ![&#x200B; ModernGridView &#x200B;](/help/assets/icons/ModernGridView.svg) | [Boomstructuur](/help/analysis-workspace/visualizations/treemap.md) | [Boomstructuur](https://cloud.google.com/looker/docs/treemap) |
+| ![&#x200B; Type &#x200B;](/help/assets/icons/TwoDots.svg) | [&#x200B; Diagram van de Venn &#x200B;](/help/analysis-workspace/visualizations/venn.md) | [&#x200B; Diagram van de Venn &#x200B;](https://cloud.google.com/looker/docs/venn) |
 
 >[!TAB  Jupyter Notitieboekje ]
 
-Het vergelijken van de visualiseringsmogelijkheden van **matplotlib.pyplot**, de op staat-gebaseerde interface aan matplotlib, is voorbij het doel van dit artikel. Zie voorbeelden hierboven voor inspiratie en [ matplotlib.pyplot ](https://matplotlib.org/3.5.3/api/_as_gen/matplotlib.pyplot.html) documentatie.
+Het vergelijken van de visualiseringsmogelijkheden van **matplotlib.pyplot**, de op staat-gebaseerde interface aan matplotlib, is voorbij het doel van dit artikel. Zie voorbeelden hierboven voor inspiratie en [&#x200B; matplotlib.pyplot &#x200B;](https://matplotlib.org/3.5.3/api/_as_gen/matplotlib.pyplot.html) documentatie.
 
 
 >[!TAB  RStudio ]
 
-Het vergelijken van de visualiseringsmogelijkheden van **ggplot2**, is het pakket van de gegevensvisualisatie in R, voorbij het doel van dit artikel. Zie voorbeelden hierboven voor inspiratie en [ gplot2 ](https://ggplot2.tidyverse.org/articles/ggplot2.html) documentatie.
+Het vergelijken van de visualiseringsmogelijkheden van **ggplot2**, is het pakket van de gegevensvisualisatie in R, voorbij het doel van dit artikel. Zie voorbeelden hierboven voor inspiratie en [&#x200B; gplot2 &#x200B;](https://ggplot2.tidyverse.org/articles/ggplot2.html) documentatie.
 
 >[!ENDTABS]
 

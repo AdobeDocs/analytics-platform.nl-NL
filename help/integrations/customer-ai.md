@@ -16,7 +16,7 @@ ht-degree: 0%
 
 {{release-limited-testing}}
 
-[ AI van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=nl-NL), als deel van de Intelligente Diensten van Adobe Experience Platform, verstrekt marketers de macht om klantenvoorspellingen op het individuele niveau te produceren.
+[&#x200B; AI van de Klant &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=nl-NL), als deel van de Intelligente Diensten van Adobe Experience Platform, verstrekt marketers de macht om klantenvoorspellingen op het individuele niveau te produceren.
 
 Met behulp van invloedrijke factoren kan de AI van de Klant u vertellen wat een klant waarschijnlijk zal doen en waarom. Bovendien kunnen marketers profiteren van de voorspellingen en inzichten van de klant van AI om de ervaringen van klanten aan te passen door de meest geschikte aanbiedingen en berichten te bedienen.
 
@@ -49,7 +49,7 @@ Voer de volgende stappen uit om AI-gegevens van de klant daadwerkelijk te integr
 
 ## Stap 1: Een AI-instantie van een klant configureren
 
-Zodra u uw gegevens hebt voorbereid en al uw geloofsbrieven en schema&#39;s op zijn plaats hebt, begin door [ te volgen vormt een Instantie van de Klant AI ](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html?lang=nl-NL) gids in Adobe Experience Platform.
+Zodra u uw gegevens hebt voorbereid en al uw geloofsbrieven en schema&#39;s op zijn plaats hebt, begin door [&#x200B; te volgen vormt een Instantie van de Klant AI &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/user-guide/configure.html?lang=nl-NL) gids in Adobe Experience Platform.
 
 ## Stap 2: Een Customer Journey Analytics-verbinding met AI-gegevenssets van klanten instellen
 
@@ -59,21 +59,21 @@ In Customer Journey Analytics, kunt u één of meerdere verbindingen [&#128279;]
 >
 >Elke AI-instantie van de Klant heeft twee gegevenssets als de schakeloptie is ingeschakeld om scores voor Customer Journey Analytics tijdens de configuratie in Stap 1 in te schakelen. Eén uitvoergegevensset wordt weergegeven in de indeling Profile XDM en één in de indeling Experience Event XDM.
 
-![ de scores van CAI ](assets/cai-scores.png)
+![&#x200B; de scores van CAI &#x200B;](assets/cai-scores.png)
 
-![ creeer verbinding ](assets/create-conn.png)
+![&#x200B; creeer verbinding &#x200B;](assets/create-conn.png)
 
 Hier is een voorbeeld van een schema XDM dat Customer Journey Analytics als deel van een bestaande of nieuwe dataset zou invoeren:
 
-![ schema CAI ](assets/cai-schema.png)
+![&#x200B; schema CAI &#x200B;](assets/cai-schema.png)
 
 (Merk op dat het voorbeeld een profieldataset is; de zelfde reeks schemavoorwerp zou deel van een dataset van de Gebeurtenis van de Ervaring uitmaken die Customer Journey Analytics zou grijpen. De dataset van de Gebeurtenis van de Ervaring zou timestamps als scoredatum omvatten.) Elke klant die in dit model een score heeft behaald, heeft een scoreDate, enzovoort. geassocieerd met hen.
 
 ## Stap 3: Creeer gegevensmeningen die op deze verbindingen worden gebaseerd
 
-In Customer Journey Analytics, kunt u nu te werk gaan [ gegevensmeningen ](/help/data-views/create-dataview.md) met de dimensies (zoals score, scoredatum, waarschijnlijkheid, etc.) en metriek tot stand brengen die als deel van de verbinding werden gebracht u gevestigd.
+In Customer Journey Analytics, kunt u nu te werk gaan [&#x200B; gegevensmeningen &#x200B;](/help/data-views/create-dataview.md) met de dimensies (zoals score, scoredatum, waarschijnlijkheid, etc.) en metriek tot stand brengen die als deel van de verbinding werden gebracht u gevestigd.
 
-![ creeer het venster van de gegevensmening ](assets/create-dataview.png)
+![&#x200B; creeer het venster van de gegevensmening &#x200B;](assets/create-dataview.png)
 
 ## Stap 4: Rapport over CAI-scores in Workspace
 
@@ -83,28 +83,28 @@ Maak in Customer Journey Analytics Workspace een nieuw project en trek de visual
 
 Hier is een voorbeeld van een Workspace-project met CAI-gegevens dat de populatiescore voor een segment van gebruikers in de loop van de tijd in &#x200B; gestapelde staafdiagram trends:
 
-![ Score emmers ](assets/workspace-scores.png)
+![&#x200B; Score emmers &#x200B;](assets/workspace-scores.png)
 
 ### Tabel met redencodes
 
 Hier volgt een tabel met redencodes waarom een segment een &#x200B; met een hoge of lage dichtheid heeft:
 
-![ de codes van de Reden ](assets/reason-codes.png)
+![&#x200B; de codes van de Reden &#x200B;](assets/reason-codes.png)
 
 ### Invoerstroom voor klantgevoeligheid
 
 Dit stroomdiagram toont de ingangsstroom voor klantenneiging over verschillende het scoren looppas &#x200B;:
 
-![ Stroom van de Ingang ](assets/flow.png)
+![&#x200B; Stroom van de Ingang &#x200B;](assets/flow.png)
 
 ### Verdeling van de dichtheid
 
 In dit staafdiagram wordt de verdeling van &#x200B; voor de dichtheid getoond:
 
-![ Distributie ](assets/distribution.png)
+![&#x200B; Distributie &#x200B;](assets/distribution.png)
 
 ### Propensiteit overlapt
 
 In dit Venn-diagram ziet u de nevenoverlappingen in verschillende scoring-reeksen:
 
-![ de overlappingen van de Volheid ](assets/venn.png)
+![&#x200B; de overlappingen van de Volheid &#x200B;](assets/venn.png)

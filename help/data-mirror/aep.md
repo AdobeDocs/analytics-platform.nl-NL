@@ -27,7 +27,7 @@ Zoek onder details die u zou moeten overwegen wanneer het vormen van elk van dez
 
 ## Schema
 
-U moet a [ model-gebaseerd schema ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/model-based){target="_blank"} tot stand brengen dat modellen de gegevens pakhuis inheemse lijst u wilt spiegelen. Wanneer u het model-gebaseerde schema construeert, zorg ervoor dat aan de volgende vereisten wordt voldaan:
+U moet a [&#x200B; model-gebaseerd schema &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/model-based){target="_blank"} tot stand brengen dat modellen de gegevens pakhuis inheemse lijst u wilt spiegelen. Wanneer u het model-gebaseerde schema construeert, zorg ervoor dat aan de volgende vereisten wordt voldaan:
 
 * Wanneer ertoe aangezet voor het type van op model-gebaseerd schema, zorg ervoor u de handoptie selecteert.
 * Selecteer het juiste schema voor het type gegevens. Experience Platform Data Mirror wordt vooral gebruikt voor tijdreeksgegevens (bijvoorbeeld gebeurtenisgegevens).
@@ -42,7 +42,7 @@ U moet a [ model-gebaseerd schema ](https://experienceleague.adobe.com/nl/docs/e
 ## Gegevensset
 
 U kunt opstelling vooraf een dataset voor uw schema, of een dataset tot stand brengen wanneer u opstelling uw bronschakelaar.
-Wanneer u een dataset vooraf creeert of een dataset selecteert, verzeker u het gegevensgebruik een op model-gebaseerd [ schema ](#schema) u vroeger creeerde.
+Wanneer u een dataset vooraf creeert of een dataset selecteert, verzeker u het gegevensgebruik een op model-gebaseerd [&#x200B; schema &#x200B;](#schema) u vroeger creeerde.
 
 
 ## Source-connector
@@ -53,9 +53,9 @@ Aan opstelling gebruikt de bronschakelaar aan de gesteunde inheemse oplossingen 
 
 Voor authentificatie tegen de gesteunde gegevens pakhuis inheemse oplossing, zie de relevante documentatie van Experience Platform:
 
-* [ Azure Databricks ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/databases/databricks)
-* [ Google BigQuery ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/databases/bigquery)
-* [ Snowflake ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/databases/snowflake)
+* [&#x200B; Azure Databricks &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/databases/databricks)
+* [&#x200B; Google BigQuery &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/databases/bigquery)
+* [&#x200B; Snowflake &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/databases/snowflake)
 
 
 ### Gegevens selecteren
@@ -90,6 +90,6 @@ Zodra u de opstelling van de bronschakelaar beëindigde, wordt een dataflow gecr
 
 >[!MORELIKETHIS]
 >
->[ Data Mirror snelle startgids: Spiegel en gebruik op model-gebaseerde gegevens ](model-based.md)
->&#x200B;>[Data Mirror (de documentatie van Experience Platform) ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/data-mirror/overview)
->&#x200B;>[Model-gebaseerde schema&#39;s (de documentatie van Experience Platform) ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/model-based)
+>[&#x200B; Data Mirror snelle startgids: Spiegel en gebruik op model-gebaseerde gegevens &#x200B;](model-based.md)
+>&#x200B;>[Data Mirror (de documentatie van Experience Platform) &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/data-mirror/overview)
+>&#x200B;>[Model-gebaseerde schema&#39;s (de documentatie van Experience Platform) &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/model-based)

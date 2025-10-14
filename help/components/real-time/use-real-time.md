@@ -41,8 +41,8 @@ Alle visualisaties in het deelvenster worden nu elke minuut bijgewerkt met maxim
 
 Als voorbeeld, zie onder een momentopname van a **[!UICONTROL Real-time reporting panel]** die **[!UICONTROL Total Revenue / Hour]** bar visualization en **[!UICONTROL Total Revenue / Hour]** vrije vormlijst aangezien tijdbewegingen van **[!UICONTROL *06:26pm*]** aan **[!UICONTROL *06 :27 pm *]**&#x200B;vernieuwt.
 
-![ In real time verfrist zich ](assets/real-time-refresh.gif)
+![&#x200B; In real time verfrist zich &#x200B;](assets/real-time-refresh.gif)
 
 Na 30 minuten of zodra het browsertabblad inactief wordt, wordt de schakeloptie **[!UICONTROL Real-time refresh]** automatisch uitgeschakeld en worden real-time updates gestopt.
 
-Zodra in real time verfrist knevel gehandicapt is, keert het paneel (en alle visualisaties binnen) terug naar [ gebruik de standaard rapporteringsgegevens en eigenschappen van Customer Journey Analytics ](real-time.md#how-it-works).
+Zodra in real time verfrist knevel gehandicapt is, keert het paneel (en alle visualisaties binnen) terug naar [&#x200B; gebruik de standaard rapporteringsgegevens en eigenschappen van Customer Journey Analytics &#x200B;](real-time.md#how-it-works).

@@ -60,7 +60,7 @@ Uw schema instellen:
 
    1. Selecteer **[!UICONTROL Experience Event]** .
 
-      ![ creeer een schema dat de Gebeurtenis van de Ervaring benadrukt ](./assets/create-ee-schema-wizard-step-1.png)
+      ![&#x200B; creeer een schema dat de Gebeurtenis van de Ervaring benadrukt &#x200B;](./assets/create-ee-schema-wizard-step-1.png)
 
       >[!INFO]
       >
@@ -73,7 +73,7 @@ Uw schema instellen:
 
    1. Voer een **[!UICONTROL Schema display name]** in voor uw schema en (optioneel) een **[!UICONTROL Description]** .
 
-      ![ creeer schemavenster dat de Naam toont uw schemagebieden ](./assets/create-ee-schema-wizard-step-2.png)
+      ![&#x200B; creeer schemavenster dat de Naam toont uw schemagebieden &#x200B;](./assets/create-ee-schema-wizard-step-2.png)
 
    1. Selecteer **[!UICONTROL Finish]** .
 
@@ -81,17 +81,17 @@ Uw schema instellen:
 
    1. Selecteer **[!UICONTROL + Add]** in [!UICONTROL Field groups] .
 
-      ![ voeg gebiedsgroep ](./assets/add-field-group-button.png) toe
+      ![&#x200B; voeg gebiedsgroep &#x200B;](./assets/add-field-group-button.png) toe
 
       Veldgroepen zijn herbruikbare verzamelingen van objecten en kenmerken waarmee u het schema eenvoudig kunt uitbreiden.
 
    1. Selecteer in het dialoogvenster [!UICONTROL Add fields groups] de veldgroep **[!UICONTROL AEP Web SDK ExperienceEvent]** in de lijst.
 
-      ![ AEP Web SDK ExperienceEvent gebiedsgroup ](./assets/select-aepwebsdk-experienceevent.png)
+      ![&#x200B; AEP Web SDK ExperienceEvent gebiedsgroup &#x200B;](./assets/select-aepwebsdk-experienceevent.png)
 
       U kunt de voorvertoningsknop selecteren om een voorvertoning weer te geven van de velden die deel uitmaken van deze veldgroep, bijvoorbeeld `web > webPageDetails > name` .
 
-      ![ AEP Web SDK ExperienceEvent gebiedsgroepvoorproef ](./assets/aepwebsdk-experiencevent-preview.png)
+      ![&#x200B; AEP Web SDK ExperienceEvent gebiedsgroepvoorproef &#x200B;](./assets/aepwebsdk-experiencevent-preview.png)
 
       Selecteer **[!UICONTROL Back]** om de voorvertoning te sluiten.
 
@@ -99,15 +99,15 @@ Uw schema instellen:
 
 1. Selecteer **[!UICONTROL +]** naast de naam van het schema in het deelvenster [!UICONTROL Structure] .
 
-   ![ het Schema van het Voorbeeld voegt de knoop van het Gebied toe ](./assets/example-schema-plus.png)
+   ![&#x200B; het Schema van het Voorbeeld voegt de knoop van het Gebied toe &#x200B;](./assets/example-schema-plus.png)
 
 1. Typ in het deelvenster [!UICONTROL Field Properties] `Identification` als de naam, **[!UICONTROL Identification]** als de [!UICONTROL Display name] , selecteer **[!UICONTROL Object]** als de [!UICONTROL Type] en selecteer **[!UICONTROL ExperienceEvent Core v2.1]** als de [!UICONTROL Field Group] .
 
    >[!NOTE]
    >
-   >Als die veldgroep niet beschikbaar is, zoekt u naar een andere veldgroep met identiteitsvelden. Of [ creeer een nieuwe gebiedsgroep ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=nl-NL) en [ voeg nieuwe identiteitsgebieden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=nl-NL#define-a-identity-field) (als `ecid`, `crmId`, en anderen toe u) aan de gebiedsgroep nodig hebt en selecteer die nieuwe gebiedsgroep.
+   >Als die veldgroep niet beschikbaar is, zoekt u naar een andere veldgroep met identiteitsvelden. Of [&#x200B; creeer een nieuwe gebiedsgroep &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=nl-NL) en [&#x200B; voeg nieuwe identiteitsgebieden &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=nl-NL#define-a-identity-field) (als `ecid`, `crmId`, en anderen toe u) aan de gebiedsgroep nodig hebt en selecteer die nieuwe gebiedsgroep.
 
-   ![ Voorwerp van de Identificatie ](./assets/identification-field.png)
+   ![&#x200B; Voorwerp van de Identificatie &#x200B;](./assets/identification-field.png)
 
    Het identificatieobject voegt id-mogelijkheden toe aan uw schema. In uw geval wilt u profielen identificeren die uw site bezoeken met de Experience Cloud-id en het e-mailadres. Er zijn vele andere eigenschappen beschikbaar om de identificatie van uw persoon te volgen (bijvoorbeeld klant identiteitskaart, loyalty identiteitskaart).
 
@@ -115,7 +115,7 @@ Uw schema instellen:
 
 1. Selecteer het veld **[!UICONTROL ecid]** in het identificatieobject dat u net hebt toegevoegd en selecteer **[!UICONTROL Identity]** en **[!UICONTROL Primary Identity]** en **[!UICONTROL ECID]** in de lijst [!UICONTROL Identity namespace] in het rechterdeelvenster.
 
-   ![ specificeer ECID als identiteit ](./assets/specify-identity.png)
+   ![&#x200B; specificeer ECID als identiteit &#x200B;](./assets/specify-identity.png)
 
    U geeft de Experience Cloud Identity op als de primaire identiteit die de Adobe Experience Platform Identity-service kan gebruiken om het gedrag van profielen met dezelfde ECID te combineren (aansluiten).
 
@@ -123,7 +123,7 @@ Uw schema instellen:
 
 1. Selecteer het veld **[!UICONTROL email]** in het identificatieobject dat u net hebt toegevoegd en selecteer **[!UICONTROL Identity]** en **[!UICONTROL Email]** in de lijst [!UICONTROL Identity namespace] in het deelvenster [!UICONTROL Field Properties] .
 
-   ![ specificeer e-mail als identiteit ](./assets/specify-email-identity.png)
+   ![&#x200B; specificeer e-mail als identiteit &#x200B;](./assets/specify-email-identity.png)
 
    U geeft het e-mailadres op als een andere identiteit die de Adobe Experience Platform Identity-service kan gebruiken om het gedrag van profielen te combineren (naaien).
 
@@ -135,13 +135,13 @@ Uw schema instellen:
 
    U wordt gevraagd het schema in te schakelen voor het profiel. Zodra toegelaten, wanneer het gegeven in datasets wordt opgenomen die op dit schema worden gebaseerd, worden die gegevens samengevoegd in het Real-Time Profiel van de Klant.
 
-   Zie [ het schema voor gebruik in het Profiel van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL#profile) voor meer informatie toelaten.
+   Zie [&#x200B; het schema voor gebruik in het Profiel van de Klant in real time &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL#profile) voor meer informatie toelaten.
 
    >[!IMPORTANT]
    >
    >    Nadat u een schema hebt opgeslagen dat is ingeschakeld voor profiel, kan het niet meer worden uitgeschakeld voor profiel.
 
-   ![ laat schema voor profiel ](./assets/enable-for-profile.png) toe
+   ![&#x200B; laat schema voor profiel &#x200B;](./assets/enable-for-profile.png) toe
 
 1. Selecteer **[!UICONTROL Save]** om het schema op te slaan.
 
@@ -161,7 +161,7 @@ Als u deze profielgegevens wilt vastleggen, doet u het volgende:
 
 - Het schema inschakelen voor profiel
 
-Zie [ schema&#39;s in UI ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=nl-NL) voor meer informatie creëren en uitgeven bij het toevoegen van en het verwijderen van gebiedsgroepen en individuele gebieden aan een schema.
+Zie [&#x200B; schema&#39;s in UI &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=nl-NL) voor meer informatie creëren en uitgeven bij het toevoegen van en het verwijderen van gebiedsgroepen en individuele gebieden aan een schema.
 
 ### Een gegevensset instellen
 
@@ -173,17 +173,17 @@ Uw gegevensset instellen:
 
 2. Selecteer **[!UICONTROL Create dataset]** .
 
-   ![ creeer dataset ](./assets/create-dataset.png)
+   ![&#x200B; creeer dataset &#x200B;](./assets/create-dataset.png)
 
 3. Selecteer **[!UICONTROL Create dataset from schema]** .
 
-   ![ creeer dataset van schema ](./assets/create-dataset-from-schema.png)
+   ![&#x200B; creeer dataset van schema &#x200B;](./assets/create-dataset-from-schema.png)
 
 4. Selecteer het schema dat u eerder hebt gemaakt en selecteer **[!UICONTROL Next]** .
 
 5. Geef uw gegevensset een naam en (optioneel) geef een beschrijving op.
 
-   ![ dataset van de Naam ](./assets/name-your-datatest.png)
+   ![&#x200B; dataset van de Naam &#x200B;](./assets/name-your-datatest.png)
 
 6. Selecteer **[!UICONTROL Finish]** .
 
@@ -195,7 +195,7 @@ Uw gegevensset instellen:
    >
    >    U kunt een dataset voor profiel slechts toelaten wanneer het schema, waaraan de dataset voldoet, ook voor profiel wordt toegelaten.
 
-   ![ laat schema voor profiel ](./assets/aepwebsdk-dataset-profile.png) toe
+   ![&#x200B; laat schema voor profiel &#x200B;](./assets/aepwebsdk-dataset-profile.png) toe
 
 Zie {de gids UI van de Datasets van 0} [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=nl) voor veel meer informatie over hoe te bekijken, voorproef, tot stand brengen, een dataset schrappen.  En hoe te om een dataset voor het Profiel van de Klant in real time toe te laten.
 
@@ -213,7 +213,7 @@ Uw gegevensstroom instellen:
 
 3. Geef een naam en beschrijf de gegevensstroom. Selecteer het schema in de lijst [!UICONTROL Event Schema] .
 
-   ![ Nieuwe DataStream ](./assets/new-datastream.png)
+   ![&#x200B; Nieuwe DataStream &#x200B;](./assets/new-datastream.png)
 
 4. Selecteer **[!UICONTROL Save]** .
 
@@ -227,13 +227,13 @@ Uw gegevensstroom instellen:
 
    3. Selecteer de gegevensset in de lijst [!UICONTROL Event Dataset] .
 
-      ![ De dienst van AEP DataStream ](./assets/datastream-aep-service.png)
+      ![&#x200B; De dienst van AEP DataStream &#x200B;](./assets/datastream-aep-service.png)
 
    4. Laat de andere instellingen staan en selecteer **[!UICONTROL Save]** om de gegevensstroom op te slaan.
 
 Uw gegevensstroom is nu geconfigureerd om de gegevens die van uw website zijn verzameld door te sturen naar uw gegevensset in Adobe Experience Platform.
 
-Zie [ Overzicht van gegevensstromen ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=nl-NL) voor meer informatie over hoe te om een gegevensstroom te vormen en hoe te om gevoelige gegevens te behandelen.
+Zie [&#x200B; Overzicht van gegevensstromen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=nl-NL) voor meer informatie over hoe te om een gegevensstroom te vormen en hoe te om gevoelige gegevens te behandelen.
 
 
 
@@ -249,7 +249,7 @@ Als u code op uw site wilt implementeren om gegevens daadwerkelijk te verzamelen
 
    Geef de tag een naam, selecteer **[!UICONTROL Web]** en voer een domeinnaam in. Selecteer **[!UICONTROL Save]** om door te gaan.
 
-   ![ creeer een bezit ](./assets/create-property.png)
+   ![&#x200B; creeer een bezit &#x200B;](./assets/create-property.png)
 
 ### Uw tag configureren
 
@@ -274,11 +274,11 @@ U kunt als volgt de Adobe Experience Platform Web SDK-extensie maken en configur
 
 4. Selecteer de sandbox en de eerder gemaakte gegevensstroom voor de [!UICONTROL Production Environment] en (optioneel) [!UICONTROL Staging Environment] en [!UICONTROL Development Environment] .
 
-   ![ de uitbreidingsconfiguratie van SDK van het Web van AEP ](./assets/aepwebsk-extension-datastreams.png)
+   ![&#x200B; de uitbreidingsconfiguratie van SDK van het Web van AEP &#x200B;](./assets/aepwebsk-extension-datastreams.png)
 
    Selecteer **[!UICONTROL Save]** .
 
-Zie [ de uitbreiding van SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=nl-NL) voor meer informatie vormen.
+Zie [&#x200B; de uitbreiding van SDK van het Web van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=nl-NL) voor meer informatie vormen.
 
 De Web SDK omvat [!UICONTROL Adobe Experience Cloud ID Service] native, zodat te hoeven u niet om de de dienstuitbreiding van identiteitskaart aan uw markering toe te voegen.
 
@@ -304,11 +304,11 @@ Een gegevenselement voor de paginanaam definiëren:
 
    - Selecteer **[!UICONTROL Title]** in de lijst [!UICONTROL Attribute] .
 
-     ![ creeer het Element van de Datum gebruikend Info van de Pagina ](./assets/create-dataelement-1.png)
+     ![&#x200B; creeer het Element van de Datum gebruikend Info van de Pagina &#x200B;](./assets/create-dataelement-1.png)
 
      U had ook de waarde van een variabele in uw gegevenslaag kunnen gebruiken, bijvoorbeeld `pageName` en het gegevenstype [!UICONTROL JavaScript Variable] voor gegevenselementen om het gegevenselement te definiëren.
 
-     ![ creeer het Element van Gegevens gebruikend Variabele JavaScript ](./assets/create-dataelement-2.png)
+     ![&#x200B; creeer het Element van Gegevens gebruikend Variabele JavaScript &#x200B;](./assets/create-dataelement-2.png)
 
    - Selecteer **[!UICONTROL Save]** .
 
@@ -328,7 +328,7 @@ Een ECID-gegevenselement definiëren:
 
    - Selecteer **[!UICONTROL ECID]** in de lijst [!UICONTROL Data Element Type] .
 
-     ![ ECID het Element van Gegevens ](./assets/ecid-dataelement.png)
+     ![&#x200B; ECID het Element van Gegevens &#x200B;](./assets/ecid-dataelement.png)
 
    - Selecteer **[!UICONTROL Save]** .
 
@@ -354,14 +354,14 @@ Een XDM-objectelement definiëren:
 
    - Wijs het kenmerk `identification > core > ecid`, dat in uw schema is gedefinieerd, toe aan het gegevenselement ECID. Selecteer het cilinderpictogram om het ECID-gegevenselement gemakkelijk te kiezen in de lijst met gegevenselementen.
 
-     ![ Uitgezocht ECID het Element van Gegevens ](./assets/pick-ecid-dataelement.png)
+     ![&#x200B; Uitgezocht ECID het Element van Gegevens &#x200B;](./assets/pick-ecid-dataelement.png)
 
-     ![ het Element van Gegevens van de Kaart ECID ](./assets/map-ecid.png)
+     ![&#x200B; het Element van Gegevens van de Kaart ECID &#x200B;](./assets/map-ecid.png)
 
 
    - Wijs het kenmerk `web > webPageDetails > name`, dat in uw schema is gedefinieerd, toe aan het gegevenselement Paginanaam.
 
-     ![ het Element van de Gegevens van de Naam van de Pagina van de Kaart ](./assets/map-pagename.png)
+     ![&#x200B; het Element van de Gegevens van de Naam van de Pagina van de Kaart &#x200B;](./assets/map-pagename.png)
 
    - Selecteer **[!UICONTROL Save]** .
 
@@ -388,7 +388,7 @@ Een regel definiëren:
 
       - Selecteer **[!UICONTROL Window Loaded]** in de lijst [!UICONTROL Event Type] .
 
-        ![ Regel - de Configuratie van de Gebeurtenis ](./assets/event-windowloaded-pageview.png)
+        ![&#x200B; Regel - de Configuratie van de Gebeurtenis &#x200B;](./assets/event-windowloaded-pageview.png)
 
       - Selecteer **[!UICONTROL Keep Changes]** .
 
@@ -406,13 +406,13 @@ Een regel definiëren:
 
       - Selecteer het cilinderpictogram naast [!UICONTROL XDM data] en selecteer **[!UICONTROL XDM - Page View]** in de lijst met gegevenselementen.
 
-     ![ Regel - de Configuratie van de Actie ](./assets/action-pageview-xdm.png)
+     ![&#x200B; Regel - de Configuratie van de Actie &#x200B;](./assets/action-pageview-xdm.png)
 
       - Selecteer **[!UICONTROL Keep Changes]** .
 
    - Uw regel moet er als volgt uitzien:
 
-     ![ creeer Regel ](assets/rule-pageview.png)
+     ![&#x200B; creeer Regel &#x200B;](assets/rule-pageview.png)
 
    - Selecteer **[!UICONTROL Save]** .
 
@@ -420,7 +420,7 @@ Het bovenstaande is slechts een voorbeeld van het definiëren van een regel die 
 
 U kunt regels op verschillende manieren in uw tag gebruiken om variabelen te bewerken (met behulp van uw gegevenselementen).
 
-Zie [ Regels ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=nl-NL) voor meer informatie.
+Zie [&#x200B; Regels &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=nl-NL) voor meer informatie.
 
 ### Uw tag maken en publiceren
 
@@ -440,7 +440,7 @@ Om uw markering te bouwen en te publiceren:
 
    - Selecteer **[!UICONTROL + Add All Changed Resources]** .
 
-     ![ publiceer - creeer Bibliotheek ](./assets/create-library-aep.png)
+     ![&#x200B; publiceer - creeer Bibliotheek &#x200B;](./assets/create-library-aep.png)
 
    - Selecteer **[!UICONTROL Save & Build to Development]** .
 
@@ -448,11 +448,11 @@ Om uw markering te bouwen en te publiceren:
 
 4. U kunt **[!UICONTROL ...]** selecteren om de bibliotheek opnieuw samen te stellen of de bibliotheek naar een testomgeving of productieomgeving te verplaatsen.
 
-   ![ publiceer - bouwt Bibliotheek ](./assets/build-library.png)
+   ![&#x200B; publiceer - bouwt Bibliotheek &#x200B;](./assets/build-library.png)
 
 Adobe Experience Platform-tags ondersteunen eenvoudige tot complexe publicatieworkflows die geschikt zijn voor uw implementatie van Adobe Experience Platform Web SDK.
 
-Zie [ het Publiceren overzicht ](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=nl-NL) voor meer informatie.
+Zie [&#x200B; het Publiceren overzicht &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=nl-NL) voor meer informatie.
 
 
 ### De tagcode ophalen
@@ -471,13 +471,13 @@ De code ophalen die naar de tag verwijst:
    <script src="https://assets.adobedtm.com/2a518741ab24/.../launch-...-development.min.js" async></script>>
    ```
 
-   ![ Milieu ](./assets/environment.png)
+   ![&#x200B; Milieu &#x200B;](./assets/environment.png)
 
 3. Selecteer **[!UICONTROL Close]** .
 
 In plaats van de code voor de ontwikkelomgeving, zou u een andere omgeving (het opvoeren, de productie) kunnen selecteren die op waar wordt gebaseerd u bezig bent om het Web SDK van Adobe Experience Platform op te stellen.
 
-Zie [ Milieu&#39;s ](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=nl-NL&) voor meer informatie.
+Zie [&#x200B; Milieu&#39;s &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=nl-NL&) voor meer informatie.
 
 ## Implementeren en valideren
 
@@ -503,7 +503,7 @@ Om uw verbinding tot stand te brengen:
 
    Selecteer de juiste sandbox in de lijst [!UICONTROL Sandbox] in [!UICONTROL Data settings] en selecteer het aantal dagelijkse gebeurtenissen in de lijst [!UICONTROL Average number of daily events] .
 
-   ![ de Montages van de Verbinding ](./assets/cja-connections-1.png)
+   ![&#x200B; de Montages van de Verbinding &#x200B;](./assets/cja-connections-1.png)
 
    Selecteer **[!UICONTROL Add datasets]** .
 
@@ -511,7 +511,7 @@ Om uw verbinding tot stand te brengen:
 
    - Selecteer de dataset die u vroeger (`Example dataset`) creeerde en om het even welke andere dataset u in uw verbinding wilt omvatten.
 
-     ![ voeg datasets ](./assets/cja-connections-2b.png) toe
+     ![&#x200B; voeg datasets &#x200B;](./assets/cja-connections-2b.png) toe
 
    - Selecteer **[!UICONTROL Next]** .
 
@@ -525,13 +525,13 @@ Om uw verbinding tot stand te brengen:
 
       - Stel **[!UICONTROL Import all new data]** en **[!UICONTROL Dataset backfill existing data]** in op basis van uw voorkeuren.
 
-     ![ vorm datasets ](./assets/cja-connections-3b.png)
+     ![&#x200B; vorm datasets &#x200B;](./assets/cja-connections-3b.png)
 
    - Selecteer **[!UICONTROL Add datasets]** .
 
    Selecteer **[!UICONTROL Save]** .
 
-Zie [ Overzicht van Verbindingen ](../connections/overview.md) voor meer informatie over om een verbinding tot stand te brengen en te beheren en datasets te selecteren en te combineren.
+Zie [&#x200B; Overzicht van Verbindingen &#x200B;](../connections/overview.md) voor meer informatie over om een verbinding tot stand te brengen en te beheren en datasets te selecteren en te combineren.
 
 ## Een gegevensweergave instellen
 
@@ -549,7 +549,7 @@ Uw gegevensweergave maken:
 
    Naam en (optioneel) beschrijf uw verbinding.
 
-   ![ de mening van Gegevens vormt ](./assets/cja-dataview-1.png)
+   ![&#x200B; de mening van Gegevens vormt &#x200B;](./assets/cja-dataview-1.png)
 
    Selecteer **[!UICONTROL Save and continue]** .
 
@@ -557,17 +557,17 @@ Uw gegevensweergave maken:
 
    Voeg schemagebieden en/of standaardcomponent toe die u aan de [!UICONTROL METRICS] of [!UICONTROL DIMENSIONS] componentenvakjes wilt omvatten.
 
-   ![ de meningscomponenten van Gegevens ](./assets/cja-dataview-2.png)
+   ![&#x200B; de meningscomponenten van Gegevens &#x200B;](./assets/cja-dataview-2.png)
 
    Selecteer **[!UICONTROL Save and continue]** .
 
 5. In de stap [!UICONTROL Settings] :
 
-   ![ de meningsmontages van Gegevens ](./assets/cja-dataview-3.png)
+   ![&#x200B; de meningsmontages van Gegevens &#x200B;](./assets/cja-dataview-3.png)
 
    Laat de instellingen ongewijzigd en selecteer **[!UICONTROL Save and finish]** .
 
-Zie [ overzicht van de meningen van Gegevens ](../data-views/data-views.md) voor meer informatie over om een gegevensmening tot stand te brengen en uit te geven, welke componenten voor u aan gebruik in uw gegevensmening en hoe te segment en zittingsmontages te gebruiken beschikbaar zijn.
+Zie [&#x200B; overzicht van de meningen van Gegevens &#x200B;](../data-views/data-views.md) voor meer informatie over om een gegevensmening tot stand te brengen en uit te geven, welke componenten voor u aan gebruik in uw gegevensmening en hoe te segment en zittingsmontages te gebruiken beschikbaar zijn.
 
 
 ## Een project instellen
@@ -582,21 +582,21 @@ Uw project maken:
 
 3. Selecteer **[!UICONTROL Create project]** .
 
-   ![ Project van Workspace ](./assets/cja-projects-1.png)
+   ![&#x200B; Project van Workspace &#x200B;](./assets/cja-projects-1.png)
 
    Selecteer **[!UICONTROL Blank project]** .
 
-   ![ Workspace - Leeg Project ](./assets/cja-projects-2.png)
+   ![&#x200B; Workspace - Leeg Project &#x200B;](./assets/cja-projects-2.png)
 
 4. Selecteer de gegevensweergave in de lijst.
 
-   ![ de Uitgezochte mening van Gegevens van Workspace ](./assets/cja-projects-3.png).
+   ![&#x200B; de Uitgezochte mening van Gegevens van Workspace &#x200B;](./assets/cja-projects-3.png).
 
 5. Als u uw eerste rapport wilt maken, sleept u de afmetingen en metriek op de [!UICONTROL Freeform table] in de [!UICONTROL Panel] . Sleep bijvoorbeeld `Program Points Balance` en `Page View` als metriek en `email` als dimensie om een snel overzicht te krijgen van profielen die uw website hebben bezocht en deel uitmaken van het loyaliteitsprogramma dat loyaliteitspunten verzamelt.
 
-   ![ Workspace - Eerste Rapport ](./assets/cja-projects-5.png)
+   ![&#x200B; Workspace - Eerste Rapport &#x200B;](./assets/cja-projects-5.png)
 
-Zie [ overzicht van Analysis Workspace ](../analysis-workspace/home.md) voor meer informatie over hoe te om projecten tot stand te brengen en uw analyse te bouwen gebruikend componenten, visualisaties, en panelen.
+Zie [&#x200B; overzicht van Analysis Workspace &#x200B;](../analysis-workspace/home.md) voor meer informatie over hoe te om projecten tot stand te brengen en uw analyse te bouwen gebruikend componenten, visualisaties, en panelen.
 
 >[!SUCCESS]
 >

@@ -31,11 +31,11 @@ Hier volgt een lijst met bekende beperkingen in Analysis Workspace en de bijbeho
 ## Segmenten
 
 * Bepaalde metriek en afmetingen kunnen niet worden gesegmenteerd, zoals [!UICONTROL Events] , [!UICONTROL Persons] , enzovoort.
-* Ad hoc segmenten die in [ worden gecreeerd paneeldropzone ](/help/analysis-workspace/c-panels/panels.md) zijn een type van snel segment. Ze worden alleen weergegeven in het linkerdeelvenster van Workspace of in Segmentbeheer als ze openbaar zijn gemaakt. Voor meer informatie, zie [ Snelle segmenten ](/help/components/segments/seg-quick.md).
+* Ad hoc segmenten die in [&#x200B; worden gecreeerd paneeldropzone &#x200B;](/help/analysis-workspace/c-panels/panels.md) zijn een type van snel segment. Ze worden alleen weergegeven in het linkerdeelvenster van Workspace of in Segmentbeheer als ze openbaar zijn gemaakt. Voor meer informatie, zie [&#x200B; Snelle segmenten &#x200B;](/help/components/segments/seg-quick.md).
 
 ## Berekende standaarden
 
-* Berekende meetgegevens kunnen niet worden gebruikt in bepaalde visualisaties. Zie [ Visualisaties ](#visualizations).
+* Berekende meetgegevens kunnen niet worden gebruikt in bepaalde visualisaties. Zie [&#x200B; Visualisaties &#x200B;](#visualizations).
 * Berekende metriek kunnen niet worden gebruikt in het deelvenster [!UICONTROL Attribution] , omdat berekende metriek zelf afzonderlijke attributiemodellen kunnen bevatten.
 * Bepaalde componenten en operatoren zijn niet beschikbaar als een berekende metrische waarde wordt gemaakt vanuit Workspace (in tegenstelling tot de waarde die wordt gemaakt op basis van [!UICONTROL Components > segments]). Bijvoorbeeld [!UICONTROL IP Address] .
 

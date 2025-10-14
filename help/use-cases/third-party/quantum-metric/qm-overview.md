@@ -13,6 +13,6 @@ ht-degree: 0%
 
 Deze pagina laat zien hoe u Customer Journey Analytics (CJA) en Quantum Metric aan elkaar koppelt om optimaal te profiteren van beide producten.  De betrokken gebruiksgevallen omvatten:
 
-1. [ de Metrische zitting van de Tijdreeks keert aan gegevens in Customer Journey Analytics ](tie-session-replays.md) terug om &quot;beter te begrijpen waarom&quot;achter &quot;wat&quot;.
-1. [ voeg de Metrische fout en wrijvingsgebeurtenissen van het Quantum ](friction-events.md), zoals de vertraging en de fout van de paginalading, woekklikken en meer aan het gedragsgegevens van CJA toe om diepte aan analyse toe te voegen.
-1. Beter begrijpen pagina-vlakke overeenkomst door [ het koppelen van Quantum Metrische heatmapping met de gegevens van CJA ](heatmap.md).
+1. [&#x200B; de Metrische zitting van de Tijdreeks keert aan gegevens in Customer Journey Analytics &#x200B;](tie-session-replays.md) terug om &quot;beter te begrijpen waarom&quot;achter &quot;wat&quot;.
+1. [&#x200B; voeg de Metrische fout en wrijvingsgebeurtenissen van het Quantum &#x200B;](friction-events.md), zoals de vertraging en de fout van de paginalading, woekklikken en meer aan het gedragsgegevens van CJA toe om diepte aan analyse toe te voegen.
+1. Beter begrijpen pagina-vlakke overeenkomst door [&#x200B; het koppelen van Quantum Metrische heatmapping met de gegevens van CJA &#x200B;](heatmap.md).

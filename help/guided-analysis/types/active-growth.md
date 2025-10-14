@@ -43,13 +43,13 @@ De gevallen van het gebruik voor deze analyse omvatten:
 
 ## Interface
 
-Zie [ Interface ](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
+Zie [&#x200B; Interface &#x200B;](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
 
 ### Query-rail
 
 Met de queryrail kunt u de volgende componenten configureren:
 
-* **[!UICONTROL View]**: Schakelaar tussen deze analyse en [ Netto groei ](net-growth.md).
+* **[!UICONTROL View]**: Schakelaar tussen deze analyse en [&#x200B; Netto groei &#x200B;](net-growth.md).
 * **[!UICONTROL Events]**: De gebeurtenis die u wilt meten. Aangezien deze analyse op gebruikers is gebaseerd, wordt een gebruiker die binnen de periode eenmaal met de gebeurtenis communiceert, als een actieve gebruiker geteld. U kunt één gebeurtenis in een vraag omvatten.
 * **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. <ul><li>**[!UICONTROL Options]** include [!UICONTROL Number of users] and [!UICONTROL Percentage of users] .</li><li>&rbrack;{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} de Extra **[!UICONTROL B2B options]** van B2B edition zijn beschikbaar voor Customer Journey Analytics B2B edition: [!UICONTROL Global accounts], [!UICONTROL Accounts], [!UICONTROL Buying groups], [!UICONTROL Opportunities], [!UICONTROL Percentage of global accounts], [!UICONTROL Percentage of accounts], [!UICONTROL Percentage of buying groups], en [!UICONTROL Percentage of opportunities].</li></ul>
 * **[!UICONTROL Segments]**: Het segment waarop u gegevens wilt segmenteren. U kunt één segment in een vraag omvatten.

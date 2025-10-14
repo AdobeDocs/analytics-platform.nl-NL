@@ -24,9 +24,9 @@ Segmenten kunnen worden gebaseerd op:
 - aangepaste variabelen (formulierveld, gedefinieerde categorieën, klant-id),
 - en andere criteria.
 
-Zie [ segmenten ](/help/components/segments/seg-create.md) voor de diverse beschikbare opties creëren om segmenten tot stand te brengen. U bouwt dan, wijzigt, en bewaart de definitie van een segment in de [ bouwer van het Segment ](seg-builder.md). Alternatief, kunt u snelle segmenten tot stand brengen gebruikend de [ Snelle segmentbouwer ](seg-quick.md). En u kunt segmenten van visualisaties in Workspace ook produceren, bijvoorbeeld gebruikend de [ Vallout ](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md#context-menu) visualisatie.
+Zie [&#x200B; segmenten &#x200B;](/help/components/segments/seg-create.md) voor de diverse beschikbare opties creëren om segmenten tot stand te brengen. U bouwt dan, wijzigt, en bewaart de definitie van een segment in de [&#x200B; bouwer van het Segment &#x200B;](seg-builder.md). Alternatief, kunt u snelle segmenten tot stand brengen gebruikend de [&#x200B; Snelle segmentbouwer &#x200B;](seg-quick.md). En u kunt segmenten van visualisaties in Workspace ook produceren, bijvoorbeeld gebruikend de [&#x200B; Vallout &#x200B;](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md#context-menu) visualisatie.
 
-U gebruikt de [ manager van het Segment ](seg-manage.md) om segmenten te beheren.
+U gebruikt de [&#x200B; manager van het Segment &#x200B;](seg-manage.md) om segmenten te beheren.
 
 ## Elementen plannen
 
@@ -37,13 +37,13 @@ Vooral, als beheerder, verbetert de juiste planning van segmenten de kansen dat 
 
    - Wanneer moet ik dit segment gebruiken?
 
-- **Reikwijdte**: Welke [ container van het Segment ](#segment-containers) beste vertegenwoordigt de gegevens u na bent? Gebruik de kleinst mogelijke container.
+- **Reikwijdte**: Welke [&#x200B; container van het Segment &#x200B;](#segment-containers) beste vertegenwoordigt de gegevens u na bent? Gebruik de kleinst mogelijke container.
 
 - **Componenten**: Beslis welke componenten om in de segmentdefinitie te omvatten, en tegen welke waarden de voorwaarden zouden moeten bevestigen.
 
 - **Proces**: Overweeg een goedkeuringsproces voor uw segmenten. Er is geen goedkeuringswerkstroom in Customer Journey Analytics, maar u kunt wel een proces organiseren om te bepalen of u een segment goedkeurt of niet.
 
-- **Modulariteit**: Bepaal segmenten met modulariteit in mening. De gebruikers van uw segmenten zouden [ stapelsegmenten ](seg-builder.md#stack-filters) gemakkelijk moeten kunnen &lbrace;maken om krachtige nieuwe segmenten tot stand te brengen.
+- **Modulariteit**: Bepaal segmenten met modulariteit in mening. De gebruikers van uw segmenten zouden [&#x200B; stapelsegmenten &#x200B;](seg-builder.md#stack-filters) gemakkelijk moeten kunnen &lbrace;maken om krachtige nieuwe segmenten tot stand te brengen.
 
 
 ## Segmenttypen
@@ -52,11 +52,11 @@ U kunt drie typen segmenten maken:
 
 ### Snelle segmenten
 
-De snelle segmenten staan u toe om gegevens binnen een bepaald project van Workspace gemakkelijk te onderzoeken, zonder de behoefte om een segment in de [ Bouwer van het Segment ](/help/components/segments/seg-create.md) tot stand te brengen. U definieert het segment rechtstreeks in de Workspace-interface. Zie [ Snelle segmenten ](seg-quick.md) voor meer informatie.
+De snelle segmenten staan u toe om gegevens binnen een bepaald project van Workspace gemakkelijk te onderzoeken, zonder de behoefte om een segment in de [&#x200B; Bouwer van het Segment &#x200B;](/help/components/segments/seg-create.md) tot stand te brengen. U definieert het segment rechtstreeks in de Workspace-interface. Zie [&#x200B; Snelle segmenten &#x200B;](seg-quick.md) voor meer informatie.
 
 ### Gewone segmenten
 
-Met gewone segmenten kunt u gegevens (personen, sessies, gebeurtenissen) identificeren op basis van een of meer voorwaarden. Als u meer dan één voorwaarde hebt, gebruikt u logische operatoren als And en Of om het segment verder te definiëren. U kunt containers gebruiken om voorwaarden te groeperen en complexere segmenten te bouwen. Zie [ de bouwer van het Segment ](seg-builder.md) voor meer informatie.
+Met gewone segmenten kunt u gegevens (personen, sessies, gebeurtenissen) identificeren op basis van een of meer voorwaarden. Als u meer dan één voorwaarde hebt, gebruikt u logische operatoren als And en Of om het segment verder te definiëren. U kunt containers gebruiken om voorwaarden te groeperen en complexere segmenten te bouwen. Zie [&#x200B; de bouwer van het Segment &#x200B;](seg-builder.md) voor meer informatie.
 
 ### Sequentiële segmenten
 
@@ -64,7 +64,7 @@ Met gewone segmenten kunt u gegevens (personen, sessies, gebeurtenissen) identif
 >
 >U moet het **Uitgezochte** pakket hebben om dwars-kanaal opeenvolgende segmenten tot stand te brengen. Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Analytics-pakket u hebt.
 
-Met opeenvolgende segmenten kunt u gegevens (personen, sessies, gebeurtenissen) identificeren op basis van navigatie (paginaweergaven op uw site, interactie met scènes in uw mobiele app of via een menu in een set-top box). De opeenvolgende segmenten helpen u, bijvoorbeeld, identificeren wat een persoon houdt en wat een persoon vermijdt. U gebruikt dan logische exploitant om een opeenvolgend segment te bepalen. Zie [ Opeenvolgende segmenten ](seg-sequential-build.md) voor meer informatie.
+Met opeenvolgende segmenten kunt u gegevens (personen, sessies, gebeurtenissen) identificeren op basis van navigatie (paginaweergaven op uw site, interactie met scènes in uw mobiele app of via een menu in een set-top box). De opeenvolgende segmenten helpen u, bijvoorbeeld, identificeren wat een persoon houdt en wat een persoon vermijdt. U gebruikt dan logische exploitant om een opeenvolgend segment te bepalen. Zie [&#x200B; Opeenvolgende segmenten &#x200B;](seg-sequential-build.md) voor meer informatie.
 
 
 <!--
@@ -107,9 +107,9 @@ Segmenten zijn gebaseerd op een hiërarchie op Person-, Sessie- en Gebeurtenisni
 > - De **container van de Gebeurtenis** is gekend in Adobe Analytics als **Actief** container.
 >
 
-In een segment worden voorwaarden ingesteld voor het segmenteren van personen, sessies of gebeurtenissen op basis van voorwaarden. Voorwaarden voor personen segmenteren zijn bijvoorbeeld gebaseerd op eigenschappen van personen en navigatiemogelijkheden. Als u de gegevens verder wilt opsplitsen, kunt u segmenteren op specifieke sessies, paginaweergavegebeurtenissen, schermtikken, menuopties op een set-top box en meer. U kunt op attributen ook segmenteren die u van een CRM of loyaliteitssysteem hebt ingegeten. De [ bouwer van het Segment ](/help/components/segments/seg-builder.md) verstrekt een eenvoudige interface om deze subsets te bouwen en voorwaarden in genestelde, hiërarchische Persoon, Zitting, of de containers van de Gebeurtenis toe te passen.
+In een segment worden voorwaarden ingesteld voor het segmenteren van personen, sessies of gebeurtenissen op basis van voorwaarden. Voorwaarden voor personen segmenteren zijn bijvoorbeeld gebaseerd op eigenschappen van personen en navigatiemogelijkheden. Als u de gegevens verder wilt opsplitsen, kunt u segmenteren op specifieke sessies, paginaweergavegebeurtenissen, schermtikken, menuopties op een set-top box en meer. U kunt op attributen ook segmenteren die u van een CRM of loyaliteitssysteem hebt ingegeten. De [&#x200B; bouwer van het Segment &#x200B;](/help/components/segments/seg-builder.md) verstrekt een eenvoudige interface om deze subsets te bouwen en voorwaarden in genestelde, hiërarchische Persoon, Zitting, of de containers van de Gebeurtenis toe te passen.
 
-De containerarchitectuur die in de [ bouwer van het Segment ](/help/components/segments/seg-builder.md) wordt gebruikt bepaalt Persoon als buitenste container. Deze container bevat overkoepelende gegevens die specifiek zijn voor de persoon in sessies en gebeurtenissen zoals paginaweergaven, mobiele toepassingsschermen of menuschermen in een set-top box. Met een geneste Session-container kunt u regels instellen om de gegevens van de persoon op basis van sessies te splitsen. Met een geneste gebeurtenissencontainer kunt u de persoonlijke gegevens opsplitsen op basis van individuele interacties. Elke container laat u over de geschiedenis van een persoon, interactie melden die door zittingen worden verdeeld, of individuele gebeurtenissen onderverdelen.
+De containerarchitectuur die in de [&#x200B; bouwer van het Segment &#x200B;](/help/components/segments/seg-builder.md) wordt gebruikt bepaalt Persoon als buitenste container. Deze container bevat overkoepelende gegevens die specifiek zijn voor de persoon in sessies en gebeurtenissen zoals paginaweergaven, mobiele toepassingsschermen of menuschermen in een set-top box. Met een geneste Session-container kunt u regels instellen om de gegevens van de persoon op basis van sessies te splitsen. Met een geneste gebeurtenissencontainer kunt u de persoonlijke gegevens opsplitsen op basis van individuele interacties. Elke container laat u over de geschiedenis van een persoon, interactie melden die door zittingen worden verdeeld, of individuele gebeurtenissen onderverdelen.
 
 ### Persoonscontainer
 
@@ -146,7 +146,7 @@ Sessiecontainers bevatten waarden die zijn gebaseerd op gebeurtenissen per sessi
 - Deelnamemetriek.
 - Lineaire toegewezen metriek.
 
-Met gegevensweergaven in Customer Journey Analytics kunt u bepalen hoe lang een sessie duurt, maar ook wanneer een nieuwe sessie moet worden gemaakt. U kunt bijvoorbeeld een nieuwe mobiele-toepassingssessie definiëren op basis van elke keer dat een gebruiker uw mobiele app start. Zie [ montages van de Zitting ](/help/data-views/session-settings.md) voor meer informatie.
+Met gegevensweergaven in Customer Journey Analytics kunt u bepalen hoe lang een sessie duurt, maar ook wanneer een nieuwe sessie moet worden gemaakt. U kunt bijvoorbeeld een nieuwe mobiele-toepassingssessie definiëren op basis van elke keer dat een gebruiker uw mobiele app start. Zie [&#x200B; montages van de Zitting &#x200B;](/help/data-views/session-settings.md) voor meer informatie.
 
 ### Gebeurteniscontainer
 
@@ -167,12 +167,12 @@ Gebeurteniscontainers bevatten op waarde gebaseerde uitsplitsingen van één pag
 
 [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
 
-Wanneer u toegang tot [ Customer Journey Analytics B2B edition ](/help/getting-started/cja-b2b-edition.md) hebt, zijn de extra containers voor gebruik in segmenten beschikbaar. U kunt meer details over het gebruik van deze extra containers in [ B2B concepten en eigenschappen ](/help/getting-started/cja-b2b-concepts-features.md) vinden.
+Wanneer u toegang tot [&#x200B; Customer Journey Analytics B2B edition &#x200B;](/help/getting-started/cja-b2b-edition.md) hebt, zijn de extra containers voor gebruik in segmenten beschikbaar. U kunt meer details over het gebruik van deze extra containers in [&#x200B; B2B concepten en eigenschappen &#x200B;](/help/getting-started/cja-b2b-concepts-features.md) vinden.
 
 
 ### Logische-groepscontainer
 
-Met de Logische groep kunt u voorwaarden groeperen in één controlepunt voor opeenvolgende segmenten. Als onderdeel van de reeks wordt de logica die is gedefinieerd in de container die als [!UICONTROL Logic Group] is geïdentificeerd, geëvalueerd na een eventueel eerder opeenvolgend controlepunt en vóór een volgend opeenvolgend controlepunt. Zie [ Logische Groep ](seg-sequential-build.md#logic-group) voor meer informatie.
+Met de Logische groep kunt u voorwaarden groeperen in één controlepunt voor opeenvolgende segmenten. Als onderdeel van de reeks wordt de logica die is gedefinieerd in de container die als [!UICONTROL Logic Group] is geïdentificeerd, geëvalueerd na een eventueel eerder opeenvolgend controlepunt en vóór een volgend opeenvolgend controlepunt. Zie [&#x200B; Logische Groep &#x200B;](seg-sequential-build.md#logic-group) voor meer informatie.
 
 ### Nest containers
 
@@ -206,8 +206,8 @@ Traditional Analytics comes with numerous out-of-the-box templates and calculate
 
 >[!MORELIKETHIS]
 >
->[ creeer segmenten ](seg-create.md)
->&#x200B;>[Segmentbuilder ](seg-builder.md)
->&#x200B;>[Snelle segmenten ](seg-quick.md)
->&#x200B;>[Opeenvolgende segmenten ](seg-sequential-build.md)
->&#x200B;>[Segmenten beheren ](seg-manage.md)
+>[&#x200B; creeer segmenten &#x200B;](seg-create.md)
+>&#x200B;>[Segmentbuilder &#x200B;](seg-builder.md)
+>&#x200B;>[Snelle segmenten &#x200B;](seg-quick.md)
+>&#x200B;>[Opeenvolgende segmenten &#x200B;](seg-sequential-build.md)
+>&#x200B;>[Segmenten beheren &#x200B;](seg-manage.md)

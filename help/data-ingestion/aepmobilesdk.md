@@ -60,7 +60,7 @@ Uw schema instellen:
 
    1. Selecteer **[!UICONTROL Experience Event]** .
 
-      ![ creeer een schema ](./assets/create-ee-schema-wizard-step-1.png)
+      ![&#x200B; creeer een schema &#x200B;](./assets/create-ee-schema-wizard-step-1.png)
 
       >[!INFO]
       >
@@ -73,7 +73,7 @@ Uw schema instellen:
 
    1. Voer een **[!UICONTROL Schema display name]** in voor uw schema en (optioneel) een **[!UICONTROL Description]** .
 
-      ![ Naam uw schema ](./assets/create-ee-schema-wizard-step-2.png)
+      ![&#x200B; Naam uw schema &#x200B;](./assets/create-ee-schema-wizard-step-2.png)
 
    1. Selecteer **[!UICONTROL Finish]** .
 
@@ -81,17 +81,17 @@ Uw schema instellen:
 
    1. Selecteer **[!UICONTROL + Add]** in [!UICONTROL Field groups] .
 
-      ![ voeg gebiedsgroep ](./assets/add-field-group-button.png) toe
+      ![&#x200B; voeg gebiedsgroep &#x200B;](./assets/add-field-group-button.png) toe
 
       Veldgroepen zijn herbruikbare verzamelingen van objecten en kenmerken waarmee u het schema eenvoudig kunt uitbreiden.
 
    1. Selecteer in het dialoogvenster [!UICONTROL Add fields groups] de veldgroep **[!UICONTROL AEP Mobile SDK ExperienceEvent]** in de lijst.
 
-      ![ AEP Mobile Lifecycle Details fieldgroup ](./assets/select-aepmobilesdk-experienceevent.png)
+      ![&#x200B; AEP Mobile Lifecycle Details fieldgroup &#x200B;](./assets/select-aepmobilesdk-experienceevent.png)
 
       U kunt de voorvertoningsknop selecteren om een voorvertoning weer te geven van de velden die deel uitmaken van deze veldgroep, bijvoorbeeld `application > name` .
 
-      ![ AEP Mobile Lifecycle Details fieldgroup voorproef ](./assets/aepmobilesdk-experienceevent-preview.png)
+      ![&#x200B; AEP Mobile Lifecycle Details fieldgroup voorproef &#x200B;](./assets/aepmobilesdk-experienceevent-preview.png)
 
       Selecteer **[!UICONTROL Back]** om de voorvertoning te sluiten.
 
@@ -99,15 +99,15 @@ Uw schema instellen:
 
 1. Selecteer **[!UICONTROL +]** naast de naam van het schema in het deelvenster [!UICONTROL Structure] .
 
-   ![ het Schema van het Voorbeeld voegt de knoop van het Gebied toe ](./assets/example-mobileschema-plus.png)
+   ![&#x200B; het Schema van het Voorbeeld voegt de knoop van het Gebied toe &#x200B;](./assets/example-mobileschema-plus.png)
 
 1. Typ in het deelvenster [!UICONTROL Field Properties] `identification` als de [!UICONTROL Field name] , **[!UICONTROL Identification]** als de [!UICONTROL Display name] , selecteer **[!UICONTROL Object]** als de [!UICONTROL Type] en selecteer **[!UICONTROL ExperienceEvent Core v2.1]** als de [!UICONTROL Field Group] .
 
    >[!NOTE]
    >
-   >Als die veldgroep niet beschikbaar is, zoekt u naar een andere veldgroep met identiteitsvelden. Of [ creeer een nieuwe gebiedsgroep ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=nl-NL) en [ voeg nieuwe identiteitsgebieden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=nl-NL#define-a-identity-field) (als `ecid`, `crmId`, en anderen toe u) aan de gebiedsgroep nodig hebt en selecteer die nieuwe gebiedsgroep.
+   >Als die veldgroep niet beschikbaar is, zoekt u naar een andere veldgroep met identiteitsvelden. Of [&#x200B; creeer een nieuwe gebiedsgroep &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=nl-NL) en [&#x200B; voeg nieuwe identiteitsgebieden &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=nl-NL#define-a-identity-field) (als `ecid`, `crmId`, en anderen toe u) aan de gebiedsgroep nodig hebt en selecteer die nieuwe gebiedsgroep.
 
-   ![ Voorwerp van de Identificatie ](./assets/identification-field-mobile.png)
+   ![&#x200B; Voorwerp van de Identificatie &#x200B;](./assets/identification-field-mobile.png)
 
    Het identificatieobject voegt id-mogelijkheden toe aan uw schema. In uw geval wilt u profielen identificeren met uw mobiele app aan de hand van de Experience Cloud-id en het e-mailadres. Er zijn vele andere eigenschappen beschikbaar om de identificatie van uw persoon te volgen (bijvoorbeeld klant identiteitskaart, loyalty identiteitskaart).
 
@@ -115,7 +115,7 @@ Uw schema instellen:
 
 1. Selecteer het veld **[!UICONTROL ecid]** in het identificatieobject dat u net hebt toegevoegd en selecteer **[!UICONTROL Identity]** en **[!UICONTROL Primary Identity]** en **[!UICONTROL ECID]** in de lijst [!UICONTROL Identity namespace] in het rechterdeelvenster.
 
-   ![ specificeer ECID als identiteit ](./assets/specify-identity-mobile.png)
+   ![&#x200B; specificeer ECID als identiteit &#x200B;](./assets/specify-identity-mobile.png)
 
    U geeft de Experience Cloud Identity op als de primaire identiteit die de Adobe Experience Platform Identity-service kan gebruiken om het gedrag van profielen met dezelfde ECID te combineren (aansluiten).
 
@@ -123,7 +123,7 @@ Uw schema instellen:
 
 1. Selecteer het veld **[!UICONTROL email]** in het identificatieobject dat u net hebt toegevoegd en selecteer **[!UICONTROL Identity]** en **[!UICONTROL Email]** in de lijst [!UICONTROL Identity namespace] in het deelvenster [!UICONTROL Field Properties] .
 
-   ![ specificeer e-mail als identiteit ](./assets/specify-email-identity-mobile.png)
+   ![&#x200B; specificeer e-mail als identiteit &#x200B;](./assets/specify-email-identity-mobile.png)
 
    U geeft het e-mailadres op als een andere identiteit die de Adobe Experience Platform Identity-service kan gebruiken om het gedrag van profielen te combineren (naaien).
 
@@ -135,13 +135,13 @@ Uw schema instellen:
 
    U wordt gevraagd het schema in te schakelen voor het profiel. Zodra toegelaten, wanneer het gegeven in datasets wordt opgenomen die op dit schema worden gebaseerd, worden die gegevens samengevoegd in het Real-Time Profiel van de Klant.
 
-   Zie [ het schema voor gebruik in het Profiel van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL#profile) voor meer informatie toelaten.
+   Zie [&#x200B; het schema voor gebruik in het Profiel van de Klant in real time &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL#profile) voor meer informatie toelaten.
 
    >[!IMPORTANT]
    >
    >    Nadat u een schema hebt opgeslagen dat is ingeschakeld voor profiel, kan het niet meer worden uitgeschakeld voor profiel.
 
-   ![ laat schema voor profiel ](./assets/enable-for-profile.png) toe
+   ![&#x200B; laat schema voor profiel &#x200B;](./assets/enable-for-profile.png) toe
 
 1. Selecteer **[!UICONTROL Save]** om het schema op te slaan.
 
@@ -161,7 +161,7 @@ Als u profielgegevens wilt vastleggen, doet u het volgende:
 
 - Het schema inschakelen voor profiel
 
-Zie [ schema&#39;s in UI ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=nl-NL) voor meer informatie creëren en uitgeven bij het toevoegen van en het verwijderen van gebiedsgroepen en individuele gebieden aan een schema.
+Zie [&#x200B; schema&#39;s in UI &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=nl-NL) voor meer informatie creëren en uitgeven bij het toevoegen van en het verwijderen van gebiedsgroepen en individuele gebieden aan een schema.
 
 ### Een gegevensset instellen
 
@@ -173,17 +173,17 @@ Uw gegevensset instellen:
 
 2. Selecteer **[!UICONTROL Create dataset]** .
 
-   ![ creeer dataset ](./assets/create-dataset.png)
+   ![&#x200B; creeer dataset &#x200B;](./assets/create-dataset.png)
 
 3. Selecteer **[!UICONTROL Create dataset from schema]** .
 
-   ![ creeer dataset van schema ](./assets/create-dataset-from-schema.png)
+   ![&#x200B; creeer dataset van schema &#x200B;](./assets/create-dataset-from-schema.png)
 
 4. Selecteer het schema dat u eerder hebt gemaakt en selecteer **[!UICONTROL Next]** .
 
 5. Geef uw gegevensset een naam en (optioneel) geef een beschrijving op.
 
-   ![ dataset van de Naam ](./assets/name-your-datatest.png)
+   ![&#x200B; dataset van de Naam &#x200B;](./assets/name-your-datatest.png)
 
 6. Selecteer **[!UICONTROL Finish]** .
 
@@ -195,7 +195,7 @@ Uw gegevensset instellen:
    >
    >    U kunt een dataset voor profiel slechts toelaten wanneer het schema, waaraan de dataset voldoet, ook voor profiel wordt toegelaten.
 
-   ![ laat schema voor profiel ](./assets/aepwebsdk-dataset-profile.png) toe
+   ![&#x200B; laat schema voor profiel &#x200B;](./assets/aepwebsdk-dataset-profile.png) toe
 
 Zie {de gids UI van de Datasets van 0} [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=nl) voor veel meer informatie over hoe te bekijken, voorproef, tot stand brengen, een dataset schrappen.  En hoe te om een dataset voor het Profiel van de Klant in real time toe te laten.
 
@@ -213,7 +213,7 @@ Uw gegevensstroom instellen:
 
 3. Geef een naam en beschrijf de gegevensstroom. Selecteer het schema in de lijst [!UICONTROL Event Schema] .
 
-   ![ Nieuwe DataStream ](./assets/new-datastream.png)
+   ![&#x200B; Nieuwe DataStream &#x200B;](./assets/new-datastream.png)
 
 4. Selecteer **[!UICONTROL Save]** .
 
@@ -227,13 +227,13 @@ Uw gegevensstroom instellen:
 
    3. Selecteer de gegevensset in de lijst [!UICONTROL Event Dataset] .
 
-      ![ De dienst van AEP DataStream ](./assets/datastream-aep-service.png)
+      ![&#x200B; De dienst van AEP DataStream &#x200B;](./assets/datastream-aep-service.png)
 
    4. Laat de andere instellingen staan en selecteer **[!UICONTROL Save]** om de gegevensstroom op te slaan.
 
 Uw gegevensstroom is nu geconfigureerd om de gegevens die zijn verzameld in uw mobiele app door te sturen naar uw gegevensset in Adobe Experience Platform.
 
-Zie [ Overzicht van gegevensstromen ](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=nl-NL) voor meer informatie over hoe te om een gegevensstroom te vormen en hoe te om gevoelige gegevens te behandelen.
+Zie [&#x200B; Overzicht van gegevensstromen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=nl-NL) voor meer informatie over hoe te om een gegevensstroom te vormen en hoe te om gevoelige gegevens te behandelen.
 
 
 
@@ -249,7 +249,7 @@ Als u code op uw site wilt implementeren om gegevens te verzamelen, gebruikt u d
 
    Geef de tag een naam, selecteer **[!UICONTROL Mobile]** . Selecteer **[!UICONTROL Save]** om door te gaan.
 
-   ![ creeer een bezit ](./assets/create-mobile-property.png)
+   ![&#x200B; creeer een bezit &#x200B;](./assets/create-mobile-property.png)
 
 ### Uw tag configureren
 
@@ -272,13 +272,13 @@ U kunt als volgt de extensie Adobe Experience Platform Mobile SDK maken en confi
 
 1. Selecteer de sandbox en de eerder gemaakte gegevensstroom voor de [!UICONTROL Production Environment] en (optioneel) [!UICONTROL Staging Environment] en [!UICONTROL Development Environment] .
 
-   ![ AEP Mobile SDK uitbreidingsconfiguratie ](./assets/aepmobilesdk-extension-datastream.png)
+   ![&#x200B; AEP Mobile SDK uitbreidingsconfiguratie &#x200B;](./assets/aepmobilesdk-extension-datastream.png)
 
 1. Voer de **[!UICONTROL Edge Network domain]** onderliggende waarde [!UICONTROL Domain configuration] in. Gebruik doorgaans `<organizationName>.data.adobedc.net` .
 
 1. Selecteer **[!UICONTROL Save]** .
 
-Zie [ de uitbreiding van Adobe Experience Platform Edge Network ](https://developer.adobe.com/client-sdks/documentation/edge-network) voor meer informatie vormen.
+Zie [&#x200B; de uitbreiding van Adobe Experience Platform Edge Network &#x200B;](https://developer.adobe.com/client-sdks/documentation/edge-network) voor meer informatie vormen.
 
 U wilt ook de volgende extra extensies instellen vanuit de catalogus:
 
@@ -286,7 +286,7 @@ U wilt ook de volgende extra extensies instellen vanuit de catalogus:
 - AEP Assurance.
 - Toestemming.
 
-Zie [ een markeringsbezit ](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=nl-NL) in het Mobiele Leerprogramma van de App voor het platform van de Ervaring voor veel meer informatie over uitbreidingen en hun configuratie vormen.
+Zie [&#x200B; een markeringsbezit &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=nl-NL) in het Mobiele Leerprogramma van de App voor het platform van de Ervaring voor veel meer informatie over uitbreidingen en hun configuratie vormen.
 
 #### **Elementen van Gegevens**
 
@@ -309,7 +309,7 @@ Een gegevenselement met de naam van een drager definiëren:
    - Selecteer **[!UICONTROL Carrier Name]** in de lijst [!UICONTROL Data Element Type] .
 
 
-     ![ creeer het Element van de Datum gebruikend Info van de Pagina ](./assets/create-dataelement-mobile.png)
+     ![&#x200B; creeer het Element van de Datum gebruikend Info van de Pagina &#x200B;](./assets/create-dataelement-mobile.png)
 
    - Selecteer **[!UICONTROL Save]** .
 
@@ -342,7 +342,7 @@ Een regel definiëren:
 
       - Selecteer **[!UICONTROL Keep Changes]** .
 
-   - Klik ![ plus ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) naast [!UICONTROL Mobile Core - Foreground].
+   - Klik ![&#x200B; plus &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) naast [!UICONTROL Mobile Core - Foreground].
 
       - Selecteer **[!UICONTROL Mobile Core]** in de lijst [!UICONTROL Extension] .
 
@@ -350,7 +350,7 @@ Een regel definiëren:
 
       - Selecteer **[!UICONTROL Keep Changes]** .
 
-   - Klik ![ plus ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) toevoegen onder [!UICONTROL ACTIONS]. In het dialoogvenster [!UICONTROL Action Configuration] :
+   - Klik ![&#x200B; plus &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) toevoegen onder [!UICONTROL ACTIONS]. In het dialoogvenster [!UICONTROL Action Configuration] :
 
       - Selecteer **[!UICONTROL Adobe Experience Platform Edge Network]** in de lijst [!UICONTROL Extension] .
 
@@ -360,7 +360,7 @@ Een regel definiëren:
 
    - Uw regel moet er als volgt uitzien:
 
-     ![ creeer Regel ](assets/rule-appstatus.png)
+     ![&#x200B; creeer Regel &#x200B;](assets/rule-appstatus.png)
 
    - Selecteer **[!UICONTROL Save]** .
 
@@ -368,7 +368,7 @@ Het bovenstaande is slechts een voorbeeld van het definiëren van een regel die 
 
 U kunt regels op verschillende manieren in uw tag gebruiken om variabelen te bewerken (met behulp van uw gegevenselementen).
 
-Zie [ Regels ](https://developer.adobe.com/client-sdks/documentation/lifecycle-for-edge-network/#configure-a-rule-to-forward-lifecycle-metrics-to-platform) voor meer informatie.
+Zie [&#x200B; Regels &#x200B;](https://developer.adobe.com/client-sdks/documentation/lifecycle-for-edge-network/#configure-a-rule-to-forward-lifecycle-metrics-to-platform) voor meer informatie.
 
 ### Uw tag maken en publiceren
 
@@ -388,7 +388,7 @@ Om uw markering te bouwen en te publiceren:
 
    - Selecteer **[!UICONTROL + Add All Changed Resources]** .
 
-     ![ publiceer - creeer Bibliotheek ](./assets/build-library-mobile.png)
+     ![&#x200B; publiceer - creeer Bibliotheek &#x200B;](./assets/build-library-mobile.png)
 
    - Selecteer **[!UICONTROL Save & Build to Development]** .
 
@@ -398,7 +398,7 @@ Om uw markering te bouwen en te publiceren:
 
 Adobe Experience Platform-tags bieden ondersteuning voor eenvoudige tot complexe publicatieworkflows die geschikt zijn voor uw implementatie van de Adobe Experience Platform Edge Network.
 
-Zie [ het Publiceren overzicht ](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration) voor meer informatie.
+Zie [&#x200B; het Publiceren overzicht &#x200B;](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration) voor meer informatie.
 
 
 ### De tagcode ophalen
@@ -409,17 +409,17 @@ U kunt als volgt code-instructies opvragen waarin wordt uitgelegd hoe u uw mobie
 
 1. Selecteer **[!UICONTROL Environments]** in het linkerspoor.
 
-2. Van de lijst van milieu&#39;s, selecteer correcte installeer ![ doos ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Box_18_N.svg) knoop.
+2. Van de lijst van milieu&#39;s, selecteer correcte installeer ![&#x200B; doos &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Box_18_N.svg) knoop.
 
-   Selecteer in het dialoogvenster [!UICONTROL Mobile Install Instructions] het juiste platform ( [!UICONTROL iOS] , [!UICONTROL Android] ). Dan gebruik het exemplaar ![ exemplaar ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) knoop naast elk van de relevante codefragmenten die u aan opstelling wilt gebruiken en uw mobiele app initialiseren:
+   Selecteer in het dialoogvenster [!UICONTROL Mobile Install Instructions] het juiste platform ( [!UICONTROL iOS] , [!UICONTROL Android] ). Dan gebruik het exemplaar ![&#x200B; exemplaar &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) knoop naast elk van de relevante codefragmenten die u aan opstelling wilt gebruiken en uw mobiele app initialiseren:
 
-   ![ Milieu ](./assets/environment-mobile.png)
+   ![&#x200B; Milieu &#x200B;](./assets/environment-mobile.png)
 
 3. Selecteer **[!UICONTROL Close]** .
 
 In plaats van de code voor de ontwikkelomgeving, had u een andere omgeving (staging, productie) kunnen selecteren op basis van waar u bezig bent met het implementeren van de Adobe Experience Platform Mobile SDK.
 
-Zie [ Milieu&#39;s ](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=nl-NL&) voor meer informatie.
+Zie [&#x200B; Milieu&#39;s &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=nl-NL&) voor meer informatie.
 
 ## Implementeren en valideren
 
@@ -427,7 +427,7 @@ U kunt de code nu implementeren in uw mobiele app. Wanneer deze wordt geïmpleme
 
 Valideer uw implementatie, verbeter het waar nodig, en zodra correct, stel het in uw het opvoeren en productiemilieu gebruikend de het publiceren werkschemafunctie van Markeringen op.
 
-Zie [ Adobe Experience Cloud in mobiele apps uitvoeren zelfstudie ](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=nl-NL) voor veel meer gedetailleerde informatie.
+Zie [&#x200B; Adobe Experience Cloud in mobiele apps uitvoeren zelfstudie &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=nl-NL) voor veel meer gedetailleerde informatie.
 
 ## Een verbinding instellen
 
@@ -447,7 +447,7 @@ Om uw verbinding tot stand te brengen:
 
    Selecteer de juiste sandbox in de lijst [!UICONTROL Sandbox] in [!UICONTROL Data settings] en selecteer het aantal dagelijkse gebeurtenissen in de lijst [!UICONTROL Average number of daily events] .
 
-   ![ de Montages van de Verbinding ](./assets/cja-connections-1.png)
+   ![&#x200B; de Montages van de Verbinding &#x200B;](./assets/cja-connections-1.png)
 
    Selecteer **[!UICONTROL Add datasets]** .
 
@@ -455,7 +455,7 @@ Om uw verbinding tot stand te brengen:
 
    - Selecteer datasets die u eerder hebt gemaakt en/of andere relevante datasets die u wilt opnemen in uw verbinding (bijvoorbeeld Gegevens van gebeurtenissen voor het bijhouden van push-ervaringen en gegevens van het pushprofiel uit Adobe Journey Optimizer)
 
-     ![ voeg datasets ](./assets/cja-connections-ajopush.png) toe
+     ![&#x200B; voeg datasets &#x200B;](./assets/cja-connections-ajopush.png) toe
 
    - Selecteer **[!UICONTROL Next]** .
 
@@ -469,13 +469,13 @@ Om uw verbinding tot stand te brengen:
 
       - Stel **[!UICONTROL Import all new data]** en **[!UICONTROL Dataset backfill existing data]** in op basis van uw voorkeuren.
 
-     ![ vorm datasets ](./assets/cja-connections-ajopushid.png)
+     ![&#x200B; vorm datasets &#x200B;](./assets/cja-connections-ajopushid.png)
 
    - Selecteer **[!UICONTROL Add datasets]** .
 
    Selecteer **[!UICONTROL Save]** .
 
-Zie [ Overzicht van Verbindingen ](../connections/overview.md) voor meer informatie over om een verbinding tot stand te brengen en te beheren en datasets te selecteren en te combineren.
+Zie [&#x200B; Overzicht van Verbindingen &#x200B;](../connections/overview.md) voor meer informatie over om een verbinding tot stand te brengen en te beheren en datasets te selecteren en te combineren.
 
 ## Een gegevensweergave instellen
 
@@ -493,7 +493,7 @@ Uw gegevensweergave maken:
 
    Naam en (optioneel) beschrijf uw verbinding.
 
-   ![ de mening van Gegevens vormt ](./assets/cja-dataview-1.png)
+   ![&#x200B; de mening van Gegevens vormt &#x200B;](./assets/cja-dataview-1.png)
 
    Selecteer **[!UICONTROL Save and continue]** .
 
@@ -501,17 +501,17 @@ Uw gegevensweergave maken:
 
    Voeg schemagebieden en/of standaardcomponent toe die u aan de [!UICONTROL METRICS] of [!UICONTROL DIMENSIONS] componentenvakjes wilt omvatten.
 
-   ![ de meningscomponenten van Gegevens ](./assets/cja-dataview-2-mobile.png)
+   ![&#x200B; de meningscomponenten van Gegevens &#x200B;](./assets/cja-dataview-2-mobile.png)
 
    Selecteer **[!UICONTROL Save and continue]** .
 
 5. In de stap [!UICONTROL Settings] :
 
-   ![ de meningsmontages van Gegevens ](./assets/cja-dataview-3.png)
+   ![&#x200B; de meningsmontages van Gegevens &#x200B;](./assets/cja-dataview-3.png)
 
    Laat de instellingen ongewijzigd en selecteer **[!UICONTROL Save and finish]** .
 
-Zie [ overzicht van de meningen van Gegevens ](../data-views/data-views.md) voor meer informatie over om een gegevensmening tot stand te brengen en uit te geven, welke componenten voor u aan gebruik in uw gegevensmening en hoe te segment en zittingsmontages te gebruiken beschikbaar zijn.
+Zie [&#x200B; overzicht van de meningen van Gegevens &#x200B;](../data-views/data-views.md) voor meer informatie over om een gegevensmening tot stand te brengen en uit te geven, welke componenten voor u aan gebruik in uw gegevensmening en hoe te segment en zittingsmontages te gebruiken beschikbaar zijn.
 
 
 ## Een project instellen
@@ -526,21 +526,21 @@ Uw project maken:
 
 3. Selecteer **[!UICONTROL Create project]** .
 
-   ![ Project van Workspace ](./assets/cja-projects-1.png)
+   ![&#x200B; Project van Workspace &#x200B;](./assets/cja-projects-1.png)
 
    Selecteer **[!UICONTROL Blank project]** .
 
-   ![ Workspace - Leeg Project ](./assets/cja-projects-2.png)
+   ![&#x200B; Workspace - Leeg Project &#x200B;](./assets/cja-projects-2.png)
 
 4. Selecteer de gegevensweergave in de lijst.
 
-   ![ de Uitgezochte mening van Gegevens van Workspace ](./assets/cja-projects-3.png).
+   ![&#x200B; de Uitgezochte mening van Gegevens van Workspace &#x200B;](./assets/cja-projects-3.png).
 
 5. Als u uw eerste rapport wilt maken, sleept u de afmetingen en metriek op de [!UICONTROL Freeform table] in de [!UICONTROL Panel] . Sleep bijvoorbeeld `Events` als metriek en `Push Title` als dimensie, uitgesplitst naar `Event Type` voor een overzicht van uw pushberichten voor uw mobiele app en wat er met hen is gebeurd.
 
-   ![ Workspace - Eerste Rapport ](./assets/cja-projects-5-mobile.png)
+   ![&#x200B; Workspace - Eerste Rapport &#x200B;](./assets/cja-projects-5-mobile.png)
 
-Zie [ overzicht van Analysis Workspace ](../analysis-workspace/home.md) voor meer informatie over hoe te om projecten tot stand te brengen en uw analyse te bouwen gebruikend componenten, visualisaties, en panelen.
+Zie [&#x200B; overzicht van Analysis Workspace &#x200B;](../analysis-workspace/home.md) voor meer informatie over hoe te om projecten tot stand te brengen en uw analyse te bouwen gebruikend componenten, visualisaties, en panelen.
 
 >[!SUCCESS]
 >

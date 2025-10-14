@@ -44,7 +44,7 @@ Dit onderwerp behandelt controlelogboeken in Customer Journey Analytics, met inb
 
 Wanneer de eigenschap voor uw organisatie wordt toegelaten, worden de controlelogboeken automatisch verzameld aangezien de activiteit voorkomt. U te hoeven niet om logboekinzameling manueel toe te laten.
 
-Als u controlelogboeken wilt weergeven en exporteren, moet u de toegangsbeheermachtiging van **[!UICONTROL Audit Logs Access]** in Adobe Console hebben gekregen. Leren hoe te om individuele toestemmingen voor de eigenschappen van Customer Journey Analytics te beheren, gelieve te verwijzen naar de [ documentatie van de toegangscontrole ](../technotes/access-control.md).
+Als u controlelogboeken wilt weergeven en exporteren, moet u de toegangsbeheermachtiging van **[!UICONTROL Audit Logs Access]** in Adobe Console hebben gekregen. Leren hoe te om individuele toestemmingen voor de eigenschappen van Customer Journey Analytics te beheren, gelieve te verwijzen naar de [&#x200B; documentatie van de toegangscontrole &#x200B;](../technotes/access-control.md).
 
 ## Bekijk het controlelogboek in UI
 
@@ -52,7 +52,7 @@ Navigeer in Customer Journey Analytics naar **[!UICONTROL Tools]** > **[!UICONTR
 
 Het controlelogboek voor vandaag en gisteren wordt getoond door gebrek.
 
-![ het logboek van de Controle vandaag en gisteren benadrukkend. ](assets/audit_ui.png)
+![&#x200B; het logboek van de Controle vandaag en gisteren benadrukkend. &#x200B;](assets/audit_ui.png)
 
 U kunt selecteren welke kolommen zichtbaar zijn door naar de kolomkiezer rechtsboven te gaan.
 
@@ -60,7 +60,7 @@ U kunt selecteren welke kolommen zichtbaar zijn door naar de kolomkiezer rechtsb
 
 Dubbelklik op de knop Info (i) naast een beschrijving.
 
-![ Logboek van de Controle die de infoknoop benadrukt. ](assets/info-button-audit.png)
+![&#x200B; Logboek van de Controle die de infoknoop benadrukt. &#x200B;](assets/info-button-audit.png)
 
 De volgende items worden weergegeven:
 
@@ -70,7 +70,7 @@ De volgende items worden weergegeven:
    * CREATE: Er is een handeling &quot;create&quot; uitgevoerd.
    * DELETE: er is een handeling &quot;delete&quot; uitgevoerd.
    * BEWERKEN: er is een bewerking &quot;bewerken&quot; uitgevoerd.
-   * EMBARGO: Wanneer u een verzoek in de [ Rapporterende Manager van de Activiteit ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests) beperkt, wordt de actie geregistreerd in het Logboek van de Controle onder EMBARGO.
+   * EMBARGO: Wanneer u een verzoek in de [&#x200B; Rapporterende Manager van de Activiteit &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/reporting-activity-manager/reporting-activity-cancel-requests) beperkt, wordt de actie geregistreerd in het Logboek van de Controle onder EMBARGO.
    * EXPORTEREN: er is een handeling &quot;exporteren&quot; uitgevoerd.
    * ORG_CHANGE: Er is een actie tot wijziging van de organisatie uitgevoerd.
    * REFRESH: Er is een actie &quot;vernieuwen&quot; uitgevoerd.
@@ -80,7 +80,7 @@ De volgende items worden weergegeven:
    * UNSHARE: Er is een handeling &quot;unshare&quot; uitgevoerd.
 * **[!UICONTROL Date Created]**: De datum en tijd waarop de actie is uitgevoerd.
 * **[!UICONTROL Description]**: Een overzicht van de handeling.
-* **[!UICONTROL User Name]**: De gebruiker die de handeling heeft uitgevoerd. Soms ontbreekt de gebruikersnaam. Overweeg het gebruiken van de [ eigenschap van het Gebruik van het 0&rbrace; Product, aangezien het altijd de login gebruikersnaam omvat.](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/tools/product-usage/usage-overview)
+* **[!UICONTROL User Name]**: De gebruiker die de handeling heeft uitgevoerd. Soms ontbreekt de gebruikersnaam. Overweeg het gebruiken van de [&#x200B; eigenschap van het Gebruik van het 0&rbrace; Product, aangezien het altijd de login gebruikersnaam omvat.](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/tools/product-usage/usage-overview)
 * **[!UICONTROL Email]**: Het e-mailadres van de gebruiker die de handeling heeft uitgevoerd.
 * **[!UICONTROL Component Name]**: De component waarop de gebruiker actie heeft uitgevoerd.
 * **[!UICONTROL Component Type]**: Het type component. Mogelijke waarden zijn:
@@ -111,9 +111,9 @@ De volgende items worden weergegeven:
 
 ### Controllerlogboeken filteren
 
-Selecteer het pictogram van funnel (![ filter ](assets/filter-icon.png)) om een lijst van filtercontroles te tonen om smalle resultaten te helpen. Alleen de laatste 1.000 records worden weergegeven, ongeacht de verschillende geselecteerde filters.
+Selecteer het pictogram van funnel (![&#x200B; filter &#x200B;](assets/filter-icon.png)) om een lijst van filtercontroles te tonen om smalle resultaten te helpen. Alleen de laatste 1.000 records worden weergegeven, ongeacht de verschillende geselecteerde filters.
 
-![ Logboek van de Controle die de filters tonen voor de Waaier van de Datum worden getoond.](assets/filters.png)
+![&#x200B; Logboek van de Controle die de filters tonen voor de Waaier van de Datum worden getoond.](assets/filters.png)
 
 De volgende filters zijn beschikbaar voor controlegebeurtenissen in UI:
 
@@ -160,4 +160,4 @@ U kunt controlelogboeken in CSV of formaten downloaden JSON. Alle toegepaste fil
 
 ## De controlelogboeken beheren in de API
 
-Alle acties die u in UI kunt uitvoeren kunnen ook worden gedaan gebruikend API vraag. Zie [ Customer Journey Analytics API verwijzingsdocument ](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs) voor meer informatie.
+Alle acties die u in UI kunt uitvoeren kunnen ook worden gedaan gebruikend API vraag. Zie [&#x200B; Customer Journey Analytics API verwijzingsdocument &#x200B;](https://developer.adobe.com/cja-apis/docs/api/#tag/Audit-Logs) voor meer informatie.

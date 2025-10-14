@@ -18,15 +18,15 @@ Deze gebruiksgevallen illustreren de flexibiliteit en kracht van gegevensweergav
 
 ## Metingen voor bindingsafmetingen gebruiken
 
-Zie het [ bindende metriek van het Gebruik ](binding-dimensions-metrics.md) gebruiksgeval voor meer details.
+Zie het [&#x200B; bindende metriek van het Gebruik &#x200B;](binding-dimensions-metrics.md) gebruiksgeval voor meer details.
 
 ## Samenvattingsgegevens gebruiken
 
-Zie het [ summiere gegevens van het Gebruik ](summary-data.md) gebruiksgeval voor meer details.
+Zie het [&#x200B; summiere gegevens van het Gebruik &#x200B;](summary-data.md) gebruiksgeval voor meer details.
 
 ## Gebruikskwesties voor extensie BI
 
-Zie de [ BI uitbreidingsgebruiksgevallen ](bi-extension-usecases.md) op hoe te om een aantal gebruiksgevallen te verwezenlijken gebruikend de uitbreiding van Customer Journey Analytics BI.
+Zie de [&#x200B; BI uitbreidingsgebruiksgevallen &#x200B;](bi-extension-usecases.md) op hoe te om een aantal gebruiksgevallen te verwezenlijken gebruikend de uitbreiding van Customer Journey Analytics BI.
 
 ## Een metrische waarde maken op basis van een tekenreeksschemaveld {#string}
 
@@ -41,7 +41,7 @@ Wanneer u bijvoorbeeld een gegevensweergave maakt, kunt u een [!UICONTROL Orders
    1. Selecteer **[!UICONTROL If all criteria are met]** in **[!UICONTROL Match]** .
    1. Geef `confirmation` op. De tekst voor de **[!UICONTROL page_title]** geeft aan dat deze pagina te maken heeft met het plaatsen van een volgorde. Nadat u alle paginatitels hebt gecontroleerd waaraan aan deze criteria is voldaan, wordt voor elke instantie een `1` geteld. Het resultaat is een nieuwe metrische (geen berekende metrisch.) Metrisch die inbegrepen/uitgesloten waarden heeft kan overal worden gebruikt om het even welke andere metrisch kan worden gebruikt. Deze metriek werkt met attributie, segmenten, en overal anders kunt u standaardmetriek gebruiken.
 
-   ![ Dimension aan metrisch ](../assets/string-to-metric.gif){width=100%}
+   ![&#x200B; Dimension aan metrisch &#x200B;](../assets/string-to-metric.gif){width=100%}
 1. U kunt een attributiemodel voor deze metrische waarde, zoals [!UICONTROL Last Touch] , verder opgeven met een [!UICONTROL Lookback window] van [!UICONTROL Session] .
 U kunt ook een andere [!UICONTROL Orders] -metrische waarde maken vanuit hetzelfde veld en een ander attributiemodel opgeven. Bijvoorbeeld [!UICONTROL First Touch] en een andere [!UICONTROL Lookback window] , zoals [!UICONTROL 30 days] .
 
@@ -55,17 +55,17 @@ Eerder zouden gehele getallen automatisch worden behandeld als metriek in Custom
 
 1. Sleep het gehele getal **[!UICONTROL Duration]** naar de sectie **[!UICONTROL Dimensions]** onder [!UICONTROL Included Components] :
 1. U kunt nu **[!UICONTROL Value Bucketing]** toevoegen om deze dimensie op een gekorte manier in de rapportage te presenteren. Zonder boekingen, zou elk geval van deze dimensie als lijnpunt in Workspace rapportering verschijnen.
-   ![ Geheel aan afmeting ](../assets/integer-to-dimension.gif){width=100%}
+   ![&#x200B; Geheel aan afmeting &#x200B;](../assets/integer-to-dimension.gif){width=100%}
 
 
 ## Numerieke afmetingen gebruiken als meetwaarden in stroomdiagrammen {#numeric}
 
 U kunt een numerieke dimensie gebruiken om meetgegevens in uw [!UICONTROL &#x200B; Flow] visualisatie te krijgen.
 
-1. Voor de Mening van Gegevens [ Componenten ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/create-dataview) tabel, sleep het [!UICONTROL Marketing Channels] schemagebied in het [!UICONTROL Metrics] gebied onder [!UICONTROL Included components].
+1. Voor de Mening van Gegevens [&#x200B; Componenten &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/create-dataview) tabel, sleep het [!UICONTROL Marketing Channels] schemagebied in het [!UICONTROL Metrics] gebied onder [!UICONTROL Included components].
 2. In Workspace-rapportering toont deze flow [!UICONTROL Marketing Channels] die doorloopt in [!UICONTROL Orders] :
 
-![ de stroom van het Kanaal van de Marketing van e-mail aan uitgang/orden.](../assets/flow.png)
+![&#x200B; de stroom van het Kanaal van de Marketing van e-mail aan uitgang/orden.](../assets/flow.png)
 
 ## Filteren van subgebeurtenissen uitvoeren {#sub-event}
 
@@ -73,7 +73,7 @@ Deze mogelijkheid is specifiek van toepassing op arrayvelden. Met de functionali
 
 Gebruik bijvoorbeeld de functie voor het opnemen/uitsluiten van gegevens in de gegevensweergaven om alleen de nadruk te leggen op producten die verkopen van meer dan € 50 hebben gegenereerd. Dus als u een bestelling hebt die een productaankoop van 50 dollar en een productaankoop van 25 dollar bevat, verwijdert de functie voor het opnemen/uitsluiten de productaankoop van 25 dollar, niet de volledige bestelling.
 
-1. Voor de Mening van Gegevens [ Componenten ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/create-dataview) tabel, sleep het **[!UICONTROL Revenue]** schemagebied in het **[!UICONTROL Metrics]** gebied onder [!UICONTROL Included components].
+1. Voor de Mening van Gegevens [&#x200B; Componenten &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/create-dataview) tabel, sleep het **[!UICONTROL Revenue]** schemagebied in het **[!UICONTROL Metrics]** gebied onder [!UICONTROL Included components].
 1. Selecteer metrisch en vorm het volgende op de rechterkant:
 a. Selecteer onder **[!UICONTROL Format]** **[!UICONTROL Currency]** .
 b. Selecteer onder **[!UICONTROL Currency]** **[!UICONTROL USD]** .
@@ -88,7 +88,7 @@ Met deze nieuwe instellingen kunt u alleen inkomsten met een hoge waarde bekijke
 
 Uw bedrijf heeft mogelijk tijd besteed aan het trainen van uw gebruikers om &quot;Niet gespecificeerd&quot;voor dimensies in rapporten te verwachten. Het gebrek voor afmetingen in de meningen van Gegevens is *geen waarde*. U kunt echter per dimensie opgeven hoe geen waarde moet worden gerapporteerd. Zie de **[!UICONTROL No value]** -opties voor een dimensie-component.
 
-![ Geen waardeopties ](../assets/no-value-options.gif){width=100%}
+![&#x200B; Geen waardeopties &#x200B;](../assets/no-value-options.gif){width=100%}
 
 
 ## Meerdere metriek met verschillende attributie-instellingen maken {#attribution}
@@ -97,10 +97,10 @@ Gebruik de functie **[!UICONTROL Duplicate]** rechtsboven om een aantal metrisch
 
 Vergeet niet elke metrische naam te wijzigen om de verschillen te weerspiegelen, zoals `Total Revenue (Algorithmic)`
 
-![ Dupliceer metrisch voor verschillende attributie montages ](../assets/duplicate-metric-for-attribution.gif){width=100%}
+![&#x200B; Dupliceer metrisch voor verschillende attributie montages &#x200B;](../assets/duplicate-metric-for-attribution.gif){width=100%}
 
-Voor meer informatie over andere montages van gegevensmeningen, zie [ gegevensmeningen ](/help/data-views/create-dataview.md) creëren.
-Voor een conceptueel overzicht van gegevensmeningen, zie [ overzicht van de meningen van Gegevens ](/help/data-views/data-views.md).
+Voor meer informatie over andere montages van gegevensmeningen, zie [&#x200B; gegevensmeningen &#x200B;](/help/data-views/create-dataview.md) creëren.
+Voor een conceptueel overzicht van gegevensmeningen, zie [&#x200B; overzicht van de meningen van Gegevens &#x200B;](/help/data-views/data-views.md).
 
 ## Nieuwe sessie- en retoursessierapport {#new-repeat}
 
@@ -112,11 +112,11 @@ U kunt bepalen of een zitting inderdaad de eerste-ooit zitting voor een gebruike
 
 Eén dimensie en twee metriek vereenvoudigen deze rapportage:
 
-* [ Type van Zitting ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-reference) - deze afmeting heeft twee waarden: [!UICONTROL New] en [!UICONTROL Returning]. Het [!UICONTROL New] lijstitem omvat al gedrag (namelijk metriek tegen deze dimensie) van een zitting die als bepaalde eerste zitting van een persoon is bepaald. Alle andere elementen worden opgenomen in het regelitem [!UICONTROL Returning] (ervan uitgaande dat alles tot een sessie behoort). Wanneer metriek geen deel uitmaken van een sessie, vallen ze voor deze dimensie in het emmertje &quot;Niet van toepassing&quot;.
+* [&#x200B; Type van Zitting &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-reference) - deze afmeting heeft twee waarden: [!UICONTROL New] en [!UICONTROL Returning]. Het [!UICONTROL New] lijstitem omvat al gedrag (namelijk metriek tegen deze dimensie) van een zitting die als bepaalde eerste zitting van een persoon is bepaald. Alle andere elementen worden opgenomen in het regelitem [!UICONTROL Returning] (ervan uitgaande dat alles tot een sessie behoort). Wanneer metriek geen deel uitmaken van een sessie, vallen ze voor deze dimensie in het emmertje &quot;Niet van toepassing&quot;.
 
-* [ Eerste-tijdzittingen ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-reference). De metrische waarde van Eerste sessies wordt gedefinieerd als de eerste sessie van een persoon die binnen het rapportagevenster is gedefinieerd.
+* [&#x200B; Eerste-tijdzittingen &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-reference). De metrische waarde van Eerste sessies wordt gedefinieerd als de eerste sessie van een persoon die binnen het rapportagevenster is gedefinieerd.
 
-* [ de zittingen van de Terugkeer ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-reference) Metrische de zittingen van de Terugkeer is het aantal zittingen die geen eerste-tijdzitting van een persoon waren.—>
+* [&#x200B; de zittingen van de Terugkeer &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-reference) Metrische de zittingen van de Terugkeer is het aantal zittingen die geen eerste-tijdzitting van een persoon waren.—>
 
 De volgende onderdelen openen:
 
@@ -131,7 +131,7 @@ Nieuwe sessies worden bijna altijd correct gerapporteerd. De enige uitzonderinge
 
 ## De functionaliteit Datum en tijd gebruiken {#date}
 
-Schema&#39;s in Adobe Experience Platform bevatten [!UICONTROL Date] - en [!UICONTROL Date-Time] -velden. In Customer Journey Analytics-gegevensweergaven worden deze velden nu ondersteund. Wanneer u deze gebieden in een gegevensmening als afmeting sleept, kunt u hun [ formaat ](/help/data-views/component-settings/format.md) specificeren. Deze notatie bepaalt hoe de velden worden weergegeven in de rapportage. Bijvoorbeeld:
+Schema&#39;s in Adobe Experience Platform bevatten [!UICONTROL Date] - en [!UICONTROL Date-Time] -velden. In Customer Journey Analytics-gegevensweergaven worden deze velden nu ondersteund. Wanneer u deze gebieden in een gegevensmening als afmeting sleept, kunt u hun [&#x200B; formaat &#x200B;](/help/data-views/component-settings/format.md) specificeren. Deze notatie bepaalt hoe de velden worden weergegeven in de rapportage. Bijvoorbeeld:
 
 * Als u voor de datumnotatie **[!UICONTROL Day]** met de notatie **[!UICONTROL Month, Day, Year]** selecteert, ziet een voorbeelduitvoer in de rapportage er als volgt uit: 23 augustus 2022.
 
@@ -147,6 +147,6 @@ De data na 1 Jan, 1900 (met de enige uitzondering van 1 Jan, 1970) en datum-tijd
 
 >[!MORELIKETHIS]
 >
->[ Datum en datum-Tijd in de component die van het Formaat ](/help/data-views/component-settings/format.md) plaatsen
+>[&#x200B; Datum en datum-Tijd in de component die van het Formaat &#x200B;](/help/data-views/component-settings/format.md) plaatsen
 >
 

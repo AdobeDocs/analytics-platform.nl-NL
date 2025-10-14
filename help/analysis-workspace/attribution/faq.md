@@ -64,7 +64,7 @@ Attribution is recalculated at report runtime, so there is no difference between
 
 +++# Zijn de attributenmodellen beschikbaar in andere Analysemogelijkheden?
 
-Ja. Attributiemodellen zijn ook beschikbaar als onderdeel van de componentinstellingen voor een metrische component in een gegevensweergave. Zie [ de componentenmontages van de Attributie ](/help/data-views/component-settings/attribution.md). Voor dimensiecomponenten, kunt u persistentie gebruiken. Persistentie is de capaciteit voor een bepaalde afmetingswaarde aan metrisch voorbij de gebeurtenis toe te schrijven het wordt geplaatst. Er wordt een combinatie van toewijzing en vervaldatum gebruikt. Zie {de montages van de componenten van 0} persistentie [ voor meer informatie](/help/data-views/component-settings/persistence.md)
+Ja. Attributiemodellen zijn ook beschikbaar als onderdeel van de componentinstellingen voor een metrische component in een gegevensweergave. Zie [&#x200B; de componentenmontages van de Attributie &#x200B;](/help/data-views/component-settings/attribution.md). Voor dimensiecomponenten, kunt u persistentie gebruiken. Persistentie is de capaciteit voor een bepaalde afmetingswaarde aan metrisch voorbij de gebeurtenis toe te schrijven het wordt geplaatst. Er wordt een combinatie van toewijzing en vervaldatum gebruikt. Zie {de montages van de componenten van 0} persistentie [&#x200B; voor meer informatie](/help/data-views/component-settings/persistence.md)
 
 +++
 

@@ -34,7 +34,7 @@ Navigatie in [!UICONTROL Analysis Workspace] werkt van boven naar beneden en van
 * Met de **[!UICONTROL F6]** -toets navigeert u naar het eerste deelvenster in het project en gaat u tussen de visualisaties in dat deelvenster. Vervolgens wordt het naar het volgende deelvenster in het project verplaatst en herhaald.
 * Focusindicatoren worden toegepast zodat gebruikers met een waargenomen toetsenbord een duidelijke indicatie hebben van welk interface-element momenteel focus heeft. De indicator is een blauwe rand voor het deelvenster dat focus heeft. En grijze achtergrond voor de onlangs geselecteerde functionaliteit en de selectie binnen de functionaliteit. In het voorbeeld zijn [!UICONTROL Components] en de pagina-dimensie onlangs geselecteerd.
 
-  ![ vrije lijst die een nadrukindicator van een blauwe grens rond de lijst Freeform toont.](assets/focus-indicator.png)
+  ![&#x200B; vrije lijst die een nadrukindicator van een blauwe grens rond de lijst Freeform toont.](assets/focus-indicator.png)
 
 ### Toetsenbordnavigatie voor de menubalk
 
@@ -54,7 +54,7 @@ Navigatie in [!UICONTROL Analysis Workspace] werkt van boven naar beneden en van
 
 ### Sneltoetsen (sneltoetsen)
 
-[!UICONTROL Analysis Workspace] biedt een rijke reeks [ toetsenbordkortere weg (hotkeys) ](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) voor een naadloze werkschema aan.
+[!UICONTROL Analysis Workspace] biedt een rijke reeks [&#x200B; toetsenbordkortere weg (hotkeys) &#x200B;](/help/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) voor een naadloze werkschema aan.
 
 ## Ondersteuning voor schermlezers en schermvergrotingen
 
@@ -64,13 +64,13 @@ Een schermlezer leest tekst die op het computerscherm wordt weergegeven. Deze le
 
 [!UICONTROL Analysis Workspace] streeft naar WCAG 2.1 AA-conformiteit, inclusief vereisten voor kleurcontrast.
 
-Bovendien kunnen de gebruikers hun eigen aangewezen kleurenpalet voor een project onder **[!UICONTROL Project]** plaatsen > **[!UICONTROL Project settings]** > [ het kleurenpalet van het Project ](/help/analysis-workspace/build-workspace-project/color-palettes.md).
+Bovendien kunnen de gebruikers hun eigen aangewezen kleurenpalet voor een project onder **[!UICONTROL Project]** plaatsen > **[!UICONTROL Project settings]** > [&#x200B; het kleurenpalet van het Project &#x200B;](/help/analysis-workspace/build-workspace-project/color-palettes.md).
 
 ## Vereiste validatie
 
 Wanneer u een component, een visualisatie of een deelvenster maakt, worden de vereiste velden gevalideerd tijdens het opslaan. Als een vereist veld de validatie niet doorgeeft, wordt het veld rood weergegeven met een foutpictogram. In een schriftelijke beschrijving wordt uitgelegd wat er moet worden opgelost.
 
-![ de Bouwer van het Segment en de indicator van de foutenbevestiging.](assets/error-validation.png)
+![&#x200B; de Bouwer van het Segment en de indicator van de foutenbevestiging.](assets/error-validation.png)
 
 ## Ondersteuning voor toegankelijkheidsfuncties van besturingssystemen
 

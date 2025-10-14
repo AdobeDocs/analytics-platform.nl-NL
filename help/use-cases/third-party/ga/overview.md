@@ -19,20 +19,20 @@ Workflows worden verschaft voor zowel historische gegevens als actuele gegevensv
 
 ## Historische gegevens van Google Analytics naar Adobe Experience Platform halen
 
-Bij het verzamelen van historische gegevens (backfill) worden gegevens uit Google geëxporteerd en geïmporteerd in Adobe Experience Platform. Zie [ de gegevens van Google Analytics in Adobe Experience Platform ](backfill.md) voorstellen.
+Bij het verzamelen van historische gegevens (backfill) worden gegevens uit Google geëxporteerd en geïmporteerd in Adobe Experience Platform. Zie [&#x200B; de gegevens van Google Analytics in Adobe Experience Platform &#x200B;](backfill.md) voorstellen.
 
-Zodra u met succes historische gegevens in Platform brengt, kunt u of [ het stromen huidige gegevens ](streaming.md) vormen, of onmiddellijk beginnen rapporterend over achtergevulde gegevens in Customer Journey Analytics door [ een verbinding ](/help/connections/create-connection.md) te creëren.
+Zodra u met succes historische gegevens in Platform brengt, kunt u of [&#x200B; het stromen huidige gegevens &#x200B;](streaming.md) vormen, of onmiddellijk beginnen rapporterend over achtergevulde gegevens in Customer Journey Analytics door [&#x200B; een verbinding &#x200B;](/help/connections/create-connection.md) te creëren.
 
 ## Een bestaande Google Analytics-implementatie voor Adobe Experience Platform configureren {#configure}
 
-Bij het verzamelen van huidige (streaming) gegevens moeten gegevens naar de Adobe Experience Platform Edge Network worden verzonden, die die gegevens vervolgens doorstuurt naar Adobe Experience Platform. Zie [ opstelling die de gegevens van Google Analytics in Adobe Experience Platform stromen ](streaming.md).
+Bij het verzamelen van huidige (streaming) gegevens moeten gegevens naar de Adobe Experience Platform Edge Network worden verzonden, die die gegevens vervolgens doorstuurt naar Adobe Experience Platform. Zie [&#x200B; opstelling die de gegevens van Google Analytics in Adobe Experience Platform stromen &#x200B;](streaming.md).
 
 ## Een verbinding en gegevensweergave configureren in Customer Journey Analytics
 
-Zodra u met succes historische gegevens opneemt en/of gegevensinzameling aan Adobe Experience Platform vormt, kunt u [ een verbinding ](/help/connections/create-connection.md) tot stand brengen om Customer Journey Analytics toe te staan om die gegevens van verwijzingen te voorzien.
+Zodra u met succes historische gegevens opneemt en/of gegevensinzameling aan Adobe Experience Platform vormt, kunt u [&#x200B; een verbinding &#x200B;](/help/connections/create-connection.md) tot stand brengen om Customer Journey Analytics toe te staan om die gegevens van verwijzingen te voorzien.
 
-Gebruik de verbinding om één of meerdere [ Meningen van Gegevens ](/help/data-views/create-dataview.md) voor gebruik in Analysis Workspace tot stand te brengen.
+Gebruik de verbinding om één of meerdere [&#x200B; Meningen van Gegevens &#x200B;](/help/data-views/create-dataview.md) voor gebruik in Analysis Workspace tot stand te brengen.
 
 ## Rapporten maken
 
-Nadat u de afmetingen en metriek hebt geconfigureerd in een gegevensweergave, kunt u beginnen met het gebruik van Analysis Workspace om de gewenste rapporten te genereren. Zie [ Rapport over de gegevens van Google Analytics in Customer Journey Analytics ](report.md).
+Nadat u de afmetingen en metriek hebt geconfigureerd in een gegevensweergave, kunt u beginnen met het gebruik van Analysis Workspace om de gewenste rapporten te genereren. Zie [&#x200B; Rapport over de gegevens van Google Analytics in Customer Journey Analytics &#x200B;](report.md).

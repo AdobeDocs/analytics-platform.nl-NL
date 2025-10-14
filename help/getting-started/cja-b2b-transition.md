@@ -19,20 +19,20 @@ In deze handleiding wordt besproken hoe u van Customer Journey Analytics naar de
 
 In het artikel wordt ervan uitgegaan dat u Customer Journey Analytics al in zekere mate gebruikt:
 
-* U hebt [ verbindingen ](/help/connections/overview.md) die gegevens in Customer Journey Analytics opnemen.
-* U hebt [ gegevensmeningen ](/help/data-views/data-views.md) die de gegevens van deze verbindingen gebruiken.
-* U hebt [ projecten ](/help/analysis-workspace/home.md) met rapporten en visualisaties leveraging deze gegevensmeningen.
+* U hebt [&#x200B; verbindingen &#x200B;](/help/connections/overview.md) die gegevens in Customer Journey Analytics opnemen.
+* U hebt [&#x200B; gegevensmeningen &#x200B;](/help/data-views/data-views.md) die de gegevens van deze verbindingen gebruiken.
+* U hebt [&#x200B; projecten &#x200B;](/help/analysis-workspace/home.md) met rapporten en visualisaties leveraging deze gegevensmeningen.
 
-Als u Customer Journey Analytics niet eerder hebt gebruikt, verwijs naar de [ snelle startgids van B2B edition ](cja-b2b-quick-start-guide.md).
+Als u Customer Journey Analytics niet eerder hebt gebruikt, verwijs naar de [&#x200B; snelle startgids van B2B edition &#x200B;](cja-b2b-quick-start-guide.md).
 
-Als u een gebruiker van Adobe Analytics bent en van plan bent om Customer Journey Analytics B2B edition te gebruiken, verwijs eerst naar de [ verbetering van Adobe Analytics aan Customer Journey Analytics ](cja-upgrade/cja-upgrade-recommendations.md) documentatie.
+Als u een gebruiker van Adobe Analytics bent en van plan bent om Customer Journey Analytics B2B edition te gebruiken, verwijs eerst naar de [&#x200B; verbetering van Adobe Analytics aan Customer Journey Analytics &#x200B;](cja-upgrade/cja-upgrade-recommendations.md) documentatie.
 
 
 ## Bestaande implementatie
 
 De bestaande implementatie van Customer Journey Analytics verandert helemaal niet zodra u een licentie en provisioning hebt voor Customer Journey Analytics B2B edition.
 
-Alle bestaande verbindingen worden beschouwd als [ op persoon-gebaseerde verbindingen ](cja-b2b-concepts-features.md#connections-and-identifiers) en blijven zonder enige update werken. Alles dat op de gegevens van deze op persoon-gebaseerde verbindingen, zoals gegevensmeningen, werkruimteprojecten, segmenten, geplande uitvoer, alarm, en meer vertrouwt, blijft werken zoals oorspronkelijk gepland en voorgenomen.
+Alle bestaande verbindingen worden beschouwd als [&#x200B; op persoon-gebaseerde verbindingen &#x200B;](cja-b2b-concepts-features.md#connections-and-identifiers) en blijven zonder enige update werken. Alles dat op de gegevens van deze op persoon-gebaseerde verbindingen, zoals gegevensmeningen, werkruimteprojecten, segmenten, geplande uitvoer, alarm, en meer vertrouwt, blijft werken zoals oorspronkelijk gepland en voorgenomen.
 
 >[!IMPORTANT]
 >
@@ -51,14 +51,14 @@ Als u B2B-functies wilt implementeren in uw bestaande implementatie, moet u de v
 
 1. Bereid uw B2B-gegevens voor. Zorg ervoor dat u accountid&#39;s toevoegt en verzamelt voor alle gebeurtenisgegevens uit de tijdreeks en relevante recordgegevens. Op dezelfde manier zorg ervoor uw tijd-reeksen gebeurtenisgegevens en raadplegingsverslag andere herkenningstekens voor relevante gebeurtenissen bevat. Bijvoorbeeld: een gebeurtenis die de overgang naar een andere verkoopfase aangeeft, moet een opportuniteits-id hebben. En dat herkenningsteken zou deel van uw opportunityraadplegingsgegevens moeten uitmaken.
 
-1. [ creeer een nieuwe op rekening-gebaseerde verbinding ](/help/connections/create-connection.md#account-based-connection). Selecteer welke facultatieve containers u wilt omvatten, [ datasets ](/help/connections/create-connection.md#add-datasets) toevoegen en de [ montages voor elke dataset ](/help/connections/create-connection.md#dataset-settings) bepalen. De gelijke van het gebruik [ door container ](cja-b2b-concepts-features.md#match-by-container) voor de datasets van het raadplegingsverslag wanneer dat mogelijk is.
+1. [&#x200B; creeer een nieuwe op rekening-gebaseerde verbinding &#x200B;](/help/connections/create-connection.md#account-based-connection). Selecteer welke facultatieve containers u wilt omvatten, [&#x200B; datasets &#x200B;](/help/connections/create-connection.md#add-datasets) toevoegen en de [&#x200B; montages voor elke dataset &#x200B;](/help/connections/create-connection.md#dataset-settings) bepalen. De gelijke van het gebruik [&#x200B; door container &#x200B;](cja-b2b-concepts-features.md#match-by-container) voor de datasets van het raadplegingsverslag wanneer dat mogelijk is.
 
-1. [ creeer gegevensmeningen ](/help/data-views/create-dataview.md) die op uw nieuwe verbinding worden gebaseerd.
+1. [&#x200B; creeer gegevensmeningen &#x200B;](/help/data-views/create-dataview.md) die op uw nieuwe verbinding worden gebaseerd.
 
    * Zorg ervoor dat u alle relevante velden als metriek of afmetingen toevoegt uit de gegevens die u hebt ingevoerd.
    * Pas indien nodig componentinstellingen toe (zoals persistentie, kenmerk en meer).
    * Voeg zo nodig aanvullende afgeleide velden toe.
 
-1. [ creeer werkruimteprojecten ](/help/analysis-workspace/build-workspace-project/create-projects.md) om inzichten op uw B2B- gegevens te melden en te bereiken. Gebruik specifieke eigenschappen B2B, zoals [ containers ](cja-b2b-concepts-features.md#containers), om diepe inzichten te bereiken.
+1. [&#x200B; creeer werkruimteprojecten &#x200B;](/help/analysis-workspace/build-workspace-project/create-projects.md) om inzichten op uw B2B- gegevens te melden en te bereiken. Gebruik specifieke eigenschappen B2B, zoals [&#x200B; containers &#x200B;](cja-b2b-concepts-features.md#containers), om diepe inzichten te bereiken.
 
-   U kunt B2B (op persoon-gebaseerd) en B2B (op rekening-gebaseerde) rapporten en inzichten combineren, door het gebruik van veelvoudige [ panelen ](/help/analysis-workspace/c-panels/panels.md), in één werkruimteproject.
+   U kunt B2B (op persoon-gebaseerd) en B2B (op rekening-gebaseerde) rapporten en inzichten combineren, door het gebruik van veelvoudige [&#x200B; panelen &#x200B;](/help/analysis-workspace/c-panels/panels.md), in één werkruimteproject.

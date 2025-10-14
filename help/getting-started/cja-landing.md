@@ -19,7 +19,7 @@ Met Customer Journey Analytics kunt u bepalen hoe u online en offline gegevens i
 
 ## Wat is nieuw?
 
-Bekijk een glimp van de nieuwste verbeteringen in het Customer Journey Analytics-product en -documentatie! Voor een uitvoerige lijst van eigenschappen, verbeteringen, en moeilijke situaties, controleer de gedetailleerde [ versienota&#39;s ](../release-notes/latest.md). Bezoek de [ pagina van documentupdates ](../release-notes/doc-changes.md) om met de recentste documentatieupdates bijgewerkt te blijven.
+Bekijk een glimp van de nieuwste verbeteringen in het Customer Journey Analytics-product en -documentatie! Voor een uitvoerige lijst van eigenschappen, verbeteringen, en moeilijke situaties, controleer de gedetailleerde [&#x200B; versienota&#39;s &#x200B;](../release-notes/latest.md). Bezoek de [&#x200B; pagina van documentupdates &#x200B;](../release-notes/doc-changes.md) om met de recentste documentatieupdates bijgewerkt te blijven.
 
 >[!BEGINTABS]
 
@@ -39,7 +39,7 @@ Customer Journey Analytics B2B edition helpt B2B-bedrijven hun marketing-, verko
 
 >[!TAB  Voortgekomen gebiedsfuncties ]
 
-Nieuwe afgeleide gebiedsfuncties: [ Math van Gegevens ](/help/data-views/derived-fields/derived-fields.md#date-math), [ Diepte ](/help/data-views/derived-fields/derived-fields.md#depth), en [ Typecast ](/help/data-views/derived-fields/derived-fields.md#typecast).
+Nieuwe afgeleide gebiedsfuncties: [&#x200B; Math van Gegevens &#x200B;](/help/data-views/derived-fields/derived-fields.md#date-math), [&#x200B; Diepte &#x200B;](/help/data-views/derived-fields/derived-fields.md#depth), en [&#x200B; Typecast &#x200B;](/help/data-views/derived-fields/derived-fields.md#typecast).
 
 [![afbeelding](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
@@ -114,7 +114,7 @@ Door op grafiek-gebaseerde het stitching, kunt u de identiteitsgrafiek van de Di
 
 >[!TAB  BI uitbreiding* ]
 
-De extensie BI biedt SQL toegang tot de gegevensweergaven die u in Customer Journey Analytics hebt gedefinieerd. U kunt nu uw favoriete BI-tool (Power BI Desktop, Tableau Desktop, Loker, Juyter Notebook en RStudio) gebruiken om rapporten en dashboards te maken op basis van dezelfde gegevensweergaven die Customer Journey Analytics-gebruikers gebruiken voor hun Analysis Workspace-projecten. [ de gevallen van het Gebruik ](/help/use-cases/data-views/bi-extension-usecases.md) worden verstrekt.
+De extensie BI biedt SQL toegang tot de gegevensweergaven die u in Customer Journey Analytics hebt gedefinieerd. U kunt nu uw favoriete BI-tool (Power BI Desktop, Tableau Desktop, Loker, Juyter Notebook en RStudio) gebruiken om rapporten en dashboards te maken op basis van dezelfde gegevensweergaven die Customer Journey Analytics-gebruikers gebruiken voor hun Analysis Workspace-projecten. [&#x200B; de gevallen van het Gebruik &#x200B;](/help/use-cases/data-views/bi-extension-usecases.md) worden verstrekt.
 
 [![afbeelding](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
 

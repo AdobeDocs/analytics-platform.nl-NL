@@ -13,20 +13,20 @@ ht-degree: 0%
 
 # Segmenten delen
 
-In de [ manager van het Segment ](seg-manage.md), kunt u segmenten delen. Afhankelijk van uw toestemmingen, kunt u segmenten met uw volledige organisatie, groepen, of individuele gebruikers delen:
+In de [&#x200B; manager van het Segment &#x200B;](seg-manage.md), kunt u segmenten delen. Afhankelijk van uw toestemmingen, kunt u segmenten met uw volledige organisatie, groepen, of individuele gebruikers delen:
 
-* **Beheerders**: De beheerders kunnen segmenten met de gehele organisatie, met groepen binnen een organisatie, en met individuele gebruikers delen. Zie de [ documentatie van Admin Console ](https://helpx.adobe.com/nl/enterprise/using/manage-products.html) voor meer informatie.
+* **Beheerders**: De beheerders kunnen segmenten met de gehele organisatie, met groepen binnen een organisatie, en met individuele gebruikers delen. Zie de [&#x200B; documentatie van Admin Console &#x200B;](https://helpx.adobe.com/nl/enterprise/using/manage-products.html) voor meer informatie.
 * **niet-beheerders**: De niet-beheerders kunnen de segmenten slechts delen zij en slechts met individuele gebruikers hebben gecreeerd. |
 
 Een of meer segmenten delen:
 
-1. In de [ manager van het Segment ](seg-manage.md), selecteer één of meerdere segmenten u wilt delen.
-1. Van de actiebar, uitgezochte ![ Aandeel ](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]**.
+1. In de [&#x200B; manager van het Segment &#x200B;](seg-manage.md), selecteer één of meerdere segmenten u wilt delen.
+1. Van de actiebar, uitgezochte ![&#x200B; Aandeel &#x200B;](/help/assets/icons/ShareAlt.svg) **[!UICONTROL Share]**.
 1. In het dialoogvenster **[!UICONTROL Share Segments]** :
 
-   ![ de dialoog van het Segment van het Aandeel ](assets/share-filter-dialog.png)
+   ![&#x200B; de dialoog van het Segment van het Aandeel &#x200B;](assets/share-filter-dialog.png)
 
-   1. (Naar keuze) gebruik ![ Onderzoek ](/help/assets/icons/Search.svg) aan *individuen of groepen van het Onderzoek* voor en beperkt de lijst van groepen of individuen u het segment met wilt delen.
+   1. (Naar keuze) gebruik ![&#x200B; Onderzoek &#x200B;](/help/assets/icons/Search.svg) aan *individuen of groepen van het Onderzoek* voor en beperkt de lijst van groepen of individuen u het segment met wilt delen.
 
    1. Selecteer een of meer opties in de sectie **[!UICONTROL Organization]** of **[!UICONTROL Groups]** of zoek naar en selecteer een of meer personen. Welke opties beschikbaar zijn, is afhankelijk van uw rol.
 
@@ -36,7 +36,7 @@ Een of meer segmenten delen:
 
 Hieronder vindt u een aantal tips en trucs waarmee u segmenten kunt delen.
 
-* Als beheerder, deel slechts een segment met allen als u iedereen in uw organisatie wordt overtuigd het gebruiken van de segmenten comfortabel is. U kunt ook overwegen deze segmenten te begunstigen. Zie [ Teken een segment als favoriet ](seg-favorite.md) voor meer informatie.
+* Als beheerder, deel slechts een segment met allen als u iedereen in uw organisatie wordt overtuigd het gebruiken van de segmenten comfortabel is. U kunt ook overwegen deze segmenten te begunstigen. Zie [&#x200B; Teken een segment als favoriet &#x200B;](seg-favorite.md) voor meer informatie.
 
 * Als beheerder, deel een segment met een specifieke groep als dat segment bedrijfswaarde voor het gebruikersdeel van die groep verstrekt.
 

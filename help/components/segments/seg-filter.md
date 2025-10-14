@@ -13,22 +13,22 @@ ht-degree: 0%
 
 # De lijst met segmenten filteren
 
-U kunt de lijst met segmenten filteren. Het gebruiken van een filter op segmenten maakt het gemakkelijker om de segmenten te vinden die aan u beschikbaar zijn, en segmenten van de [ manager van het Segment ](seg-manage.md) te beheren.
+U kunt de lijst met segmenten filteren. Het gebruiken van een filter op segmenten maakt het gemakkelijker om de segmenten te vinden die aan u beschikbaar zijn, en segmenten van de [&#x200B; manager van het Segment &#x200B;](seg-manage.md) te beheren.
 
 >[!NOTE]
 >
->De lijst van segmenten verwijst naar de [ segmentlijst ](seg-manage.md#filters-list) als deel van de [ manager van het Segment ](seg-manage.md). U kunt die lijst filtreren gebruikend het ![ ](/help/assets/icons/Filter.svg) paneel van de Filter [, deel van die zelfde ](seg-manage.md#filter-panel) manager van het Segment [.](seg-manage.md)
+>De lijst van segmenten verwijst naar de [&#x200B; segmentlijst &#x200B;](seg-manage.md#filters-list) als deel van de [&#x200B; manager van het Segment &#x200B;](seg-manage.md). U kunt die lijst filtreren gebruikend het ![&#x200B; &#x200B;](/help/assets/icons/Filter.svg) paneel van de Filter [, deel van die zelfde &#x200B;](seg-manage.md#filter-panel) manager van het Segment [.](seg-manage.md)
 >
 
 
 De lijst met segmenten filteren:
 
-1. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om het paneel van Filters te openen. Als u meer ruimte voor de lijst van Filters nodig hebt, kunt u ![ Filter ](/help/assets/icons/Filter.svg) selecteren opnieuw om het paneel te sluiten.
-1. Selecteer filters van om het even welke beschikbare [ filtersecties ](#filter-sections).
+1. Selecteer ![&#x200B; Filter &#x200B;](/help/assets/icons/Filter.svg) om het paneel van Filters te openen. Als u meer ruimte voor de lijst van Filters nodig hebt, kunt u ![&#x200B; Filter &#x200B;](/help/assets/icons/Filter.svg) selecteren opnieuw om het paneel te sluiten.
+1. Selecteer filters van om het even welke beschikbare [&#x200B; filtersecties &#x200B;](#filter-sections).
 
    >[!INFO]
    >
-   >*Punten* verwijzen naar de filterpunten die in de [ lijst van de Filter ](seg-manage.md#segment-list) worden getoond.
+   >*Punten* verwijzen naar de filterpunten die in de [&#x200B; lijst van de Filter &#x200B;](seg-manage.md#segment-list) worden getoond.
    > 
 
 ## Secties filteren
@@ -53,4 +53,4 @@ De volgende filtersecties zijn beschikbaar:
 {{otherfiltersfiltersection}}
 
 
-De [ lijst van de Filter ](seg-manage.md#segment-list) wordt automatisch bijgewerkt gebaseerd op uw filterconfiguratie. U kunt de gevormde filters in de [ Actieve filterbar ](seg-manage.md#active-filter-bar) zien.
+De [&#x200B; lijst van de Filter &#x200B;](seg-manage.md#segment-list) wordt automatisch bijgewerkt gebaseerd op uw filterconfiguratie. U kunt de gevormde filters in de [&#x200B; Actieve filterbar &#x200B;](seg-manage.md#active-filter-bar) zien.

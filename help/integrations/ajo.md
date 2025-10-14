@@ -13,15 +13,15 @@ ht-degree: 0%
 
 # Journey Optimizer integreren
 
-[ Adobe Journey Optimizer ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/get-started/get-started) helpt u verbonden, contextafhankelijke, en gepersonaliseerde ervaringen leveren. Het helpt uw klanten aan de volgende stap in hun klantenreis blootstellen.
+[&#x200B; Adobe Journey Optimizer &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/get-started/get-started) helpt u verbonden, contextafhankelijke, en gepersonaliseerde ervaringen leveren. Het helpt uw klanten aan de volgende stap in hun klantenreis blootstellen.
 
 U kunt gegevens vormen die door Journey Optimizer worden geproduceerd om geavanceerde analyse in Customer Journey Analytics uit te voeren. U kunt deze integratie automatisch configureren. Indien nodig, kunt u extra, handaanpassingen aan de datasets, afmetingen, of metriek maken die in uw verbinding of gegevensmeningen beschikbaar zijn.
 
 ## Journey Optimizer-integratie automatisch configureren
 
-Journey Optimizer biedt ondersteuning voor het gebruik van Customer Journey Analytics als rapportageengine. Zie [ begonnen worden met de nieuwe Rapporterende interface ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja) in de documentatie van Journey Optimizer.
+Journey Optimizer biedt ondersteuning voor het gebruik van Customer Journey Analytics als rapportageengine. Zie [&#x200B; begonnen worden met de nieuwe Rapporterende interface &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja) in de documentatie van Journey Optimizer.
 
-Wanneer u Customer Journey Analytics die voor Journey Optimizer rapporteert hebt toegelaten, automatisch wordt de a [ verbinding ](/help/connections/overview.md) en [ gegevensmening ](/help/data-views/data-views.md) gecreeerd voor de specifieke zandbak.
+Wanneer u Customer Journey Analytics die voor Journey Optimizer rapporteert hebt toegelaten, automatisch wordt de a [&#x200B; verbinding &#x200B;](/help/connections/overview.md) en [&#x200B; gegevensmening &#x200B;](/help/data-views/data-views.md) gecreeerd voor de specifieke zandbak.
 
 ### Verbinding
 
@@ -43,11 +43,11 @@ De verbinding heeft de naam **[!UICONTROL AJO Enabled Connection (*zandbaknaam *
 
 | Naam gegevensset | Schema | Het type DataSet | Type gegevensbron | Persoon-id | Sleutel | Overeenkomende sleutel | Nieuwe gegevens importeren | Backfill-gegevens |
 |---|---|---|---|---|---|---|---|---|
-| [!UICONTROL AJO Entity Dataset] | [!UICONTROL AJO Entity Record Schema] | [!UICONTROL Lookup] | [!UICONTROL Other] | - | ` _id` | `_experience. decisioning. propositions. scopeDetails. correlationID` | ![ Groene Status ](assets/../../connections/assets/status-green.svg) op | ![ Grijs van de Status ](assets/../../connections/assets/status-gray.svg) weg |
-| [!UICONTROL Journey Step Events] | [!UICONTROL Journey Step Event schema for Journey Orchestration] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL &#x200B; IdentityMap(\<primary\>)] | - | - | ![ Groene Status ](assets/../../connections/assets/status-green.svg) op | ![ Grijs van de Status ](assets/../../connections/assets/status-gray.svg) weg |
-| [!UICONTROL AJO Email Tracking Experience Event Dataset] | [!UICONTROL AJO Email Tracking Experience Event Schema] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL IdentityMap(\<primary\>)] | - | - | ![ Groene Status ](assets/../../connections/assets/status-green.svg) op | ![ Grijs van de Status ](assets/../../connections/assets/status-gray.svg) weg |
-| [!UICONTROL AJO Message Feedback Event Dataset] | [!UICONTROL AJO Message Feedback Event Schema] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL IdentityMap(\<primary\>)] | - | - | ![ Groene Status ](assets/../../connections/assets/status-green.svg) op | ![ Grijs van de Status ](assets/../../connections/assets/status-gray.svg) weg |
-| [!UICONTROL AJO Push Tracking Experience Event Dataset] | [!UICONTROL AJO Push Tracking Experience Event Schema] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL IdentityMap(\<primary\>)] | - | - | ![ Groene Status ](assets/../../connections/assets/status-green.svg) op | ![ Grijs van de Status ](assets/../../connections/assets/status-gray.svg) weg |
+| [!UICONTROL AJO Entity Dataset] | [!UICONTROL AJO Entity Record Schema] | [!UICONTROL Lookup] | [!UICONTROL Other] | - | ` _id` | `_experience. decisioning. propositions. scopeDetails. correlationID` | ![&#x200B; Groene Status &#x200B;](assets/../../connections/assets/status-green.svg) op | ![&#x200B; Grijs van de Status &#x200B;](assets/../../connections/assets/status-gray.svg) weg |
+| [!UICONTROL Journey Step Events] | [!UICONTROL Journey Step Event schema for Journey Orchestration] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL &#x200B; IdentityMap(\<primary\>)] | - | - | ![&#x200B; Groene Status &#x200B;](assets/../../connections/assets/status-green.svg) op | ![&#x200B; Grijs van de Status &#x200B;](assets/../../connections/assets/status-gray.svg) weg |
+| [!UICONTROL AJO Email Tracking Experience Event Dataset] | [!UICONTROL AJO Email Tracking Experience Event Schema] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL IdentityMap(\<primary\>)] | - | - | ![&#x200B; Groene Status &#x200B;](assets/../../connections/assets/status-green.svg) op | ![&#x200B; Grijs van de Status &#x200B;](assets/../../connections/assets/status-gray.svg) weg |
+| [!UICONTROL AJO Message Feedback Event Dataset] | [!UICONTROL AJO Message Feedback Event Schema] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL IdentityMap(\<primary\>)] | - | - | ![&#x200B; Groene Status &#x200B;](assets/../../connections/assets/status-green.svg) op | ![&#x200B; Grijs van de Status &#x200B;](assets/../../connections/assets/status-gray.svg) weg |
+| [!UICONTROL AJO Push Tracking Experience Event Dataset] | [!UICONTROL AJO Push Tracking Experience Event Schema] | [!UICONTROL Event] | [!UICONTROL Other] | [!UICONTROL IdentityMap(\<primary\>)] | - | - | ![&#x200B; Groene Status &#x200B;](assets/../../connections/assets/status-green.svg) op | ![&#x200B; Grijs van de Status &#x200B;](assets/../../connections/assets/status-gray.svg) weg |
 
 
 ### Gegevens, weergave
@@ -67,7 +67,7 @@ De gegevensmening heeft de naam **AJO laat de Mening van Gegevens toe (*zandbakn
 
   | Compatibiliteit | Waarde |
   |---|---|
-  | [!UICONTROL Set as the default data view in Adobe Journey Optimizer] | Ingeschakeld (standaard).<br/><br/> Deze configuratieoptie staat u toe om een gegevensmening aan gebruik met Journey Optimizer, zonder de behoefte aan handconfiguratie aan te wijzen. Voor informatie hoe te om deze configuratieoptie (als niet reeds toegelaten door gebrek) toe te laten, zie de [ sectie van de Verenigbaarheid ](/help/data-views/create-dataview.md#compatibility) in [ creeer of geef een gegevensmening ](/help/data-views/create-dataview.md) uit. <br/><br/> wanneer u de optie onbruikbaar maakt, zet een dialoog u ertoe aan of u wilt blijven veranderend de standaardgegevensmening. Wanneer u **[!UICONTROL Continue]** selecteert, moet u een andere gegevensweergave selecteren als de standaardgegevensweergave. Selecteer **[!UICONTROL Confirm]** om uw selectie te bevestigen. Selecteer **[!UICONTROL Cancel]** om te annuleren en de standaardgegevensweergave te wijzigen. |
+  | [!UICONTROL Set as the default data view in Adobe Journey Optimizer] | Ingeschakeld (standaard).<br/><br/> Deze configuratieoptie staat u toe om een gegevensmening aan gebruik met Journey Optimizer, zonder de behoefte aan handconfiguratie aan te wijzen. Voor informatie hoe te om deze configuratieoptie (als niet reeds toegelaten door gebrek) toe te laten, zie de [&#x200B; sectie van de Verenigbaarheid &#x200B;](/help/data-views/create-dataview.md#compatibility) in [&#x200B; creeer of geef een gegevensmening &#x200B;](/help/data-views/create-dataview.md) uit. <br/><br/> wanneer u de optie onbruikbaar maakt, zet een dialoog u ertoe aan of u wilt blijven veranderend de standaardgegevensmening. Wanneer u **[!UICONTROL Continue]** selecteert, moet u een andere gegevensweergave selecteren als de standaardgegevensweergave. Selecteer **[!UICONTROL Confirm]** om uw selectie te bevestigen. Selecteer **[!UICONTROL Cancel]** om te annuleren en de standaardgegevensweergave te wijzigen. |
 
   | Containers | Waarde |
   |---|---|
@@ -98,15 +98,15 @@ De gegevensmening heeft de naam **AJO laat de Mening van Gegevens toe (*zandbakn
 
 ## Een gegevensweergave handmatig configureren voor gebruik met Journey Optimizer
 
-In de volgende secties wordt beschreven hoe u handmatig gegevens, gegenereerd door Journey Optimizer, kunt gebruiken om geavanceerde analyses in de Customer Journey Analytics uit te voeren. Deze handconfiguratie is noodzakelijk slechts als de [ automatische configuratieoptie ](#automatically-configure-a-customer-journey-analytics-data-view-to-be-used-with-adobe-journey-optimizer) voor uw behoeften ontoereikend is.
+In de volgende secties wordt beschreven hoe u handmatig gegevens, gegenereerd door Journey Optimizer, kunt gebruiken om geavanceerde analyses in de Customer Journey Analytics uit te voeren. Deze handconfiguratie is noodzakelijk slechts als de [&#x200B; automatische configuratieoptie &#x200B;](#automatically-configure-a-customer-journey-analytics-data-view-to-be-used-with-adobe-journey-optimizer) voor uw behoeften ontoereikend is.
 
 ### Gegevens van Journey Optimizer naar Experience Platform verzenden
 
-Adobe Experience Platform fungeert als de centrale gegevensbron en de verbinding tussen Journey Optimizer en Customer Journey Analytics. Zie [ begonnen worden met Datasets ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/data-management/datasets/get-started-datasets) in de gebruikersgids van Journey Optimizer voor stappen op hoe te om de gegevens van Journey Optimizer naar Experience Platform als dataset te verzenden.
+Adobe Experience Platform fungeert als de centrale gegevensbron en de verbinding tussen Journey Optimizer en Customer Journey Analytics. Zie [&#x200B; begonnen worden met Datasets &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/data-management/datasets/get-started-datasets) in de gebruikersgids van Journey Optimizer voor stappen op hoe te om de gegevens van Journey Optimizer naar Experience Platform als dataset te verzenden.
 
 ### Verbinding maken
 
-Zodra het gegeven van Journey Optimizer in Adobe Experience Platform is, kunt u [ een verbinding ](/help/connections/create-connection.md) creëren die op uw datasets van Journey Optimizer wordt gebaseerd. U kunt ook Journey Optimizer-gegevenssets toevoegen aan een bestaande verbinding.
+Zodra het gegeven van Journey Optimizer in Adobe Experience Platform is, kunt u [&#x200B; een verbinding &#x200B;](/help/connections/create-connection.md) creëren die op uw datasets van Journey Optimizer wordt gebaseerd. U kunt ook Journey Optimizer-gegevenssets toevoegen aan een bestaande verbinding.
 
 Selecteer en vorm de volgende datasets:
 
@@ -123,7 +123,7 @@ Selecteer en vorm de volgende datasets:
 
 ### De weergave Gegevens configureren
 
-Nadat een verbinding wordt gecreeerd, kunt u één of meerdere [ Meningen van Gegevens ](/help/data-views/create-dataview.md) tot stand brengen om de gewenste dimensies en metriek te vormen beschikbaar in Customer Journey Analytics.
+Nadat een verbinding wordt gecreeerd, kunt u één of meerdere [&#x200B; Meningen van Gegevens &#x200B;](/help/data-views/create-dataview.md) tot stand brengen om de gewenste dimensies en metriek te vormen beschikbaar in Customer Journey Analytics.
 
 >[!NOTE]
 >
@@ -132,7 +132,7 @@ Nadat een verbinding wordt gecreeerd, kunt u één of meerdere [ Meningen van Ge
 
 #### Dimensies configureren
 
-In Journey Optimizer kunt u de volgende afmetingen maken om een vergelijkbare pariteit met vergelijkbare afmetingen te bereiken. Zie [ montages van de Component ](/help/data-views/component-settings/overview.md) in de Manager van de Mening van Gegevens voor details op de opties van de afmetingsaanpassing.
+In Journey Optimizer kunt u de volgende afmetingen maken om een vergelijkbare pariteit met vergelijkbare afmetingen te bereiken. Zie [&#x200B; montages van de Component &#x200B;](/help/data-views/component-settings/overview.md) in de Manager van de Mening van Gegevens voor details op de opties van de afmetingsaanpassing.
 
 | Dimension | Beschrijving | Gegevensset(s) | Schema-element | Componentinstellingen |
 | --- | --- | --- | --- | --- |
@@ -199,7 +199,7 @@ In Journey Optimizer kunt u de volgende afmetingen maken om een vergelijkbare pa
 
 #### Metrische gegevens configureren
 
-U kunt de volgende metriek in een gegevensmening tot stand brengen om gelijke gelijkheid met gelijkaardige metriek in Journey Optimizer te bereiken. Zie [ montages van de Component ](/help/data-views/component-settings/overview.md) in de Manager van de Mening van Gegevens voor details rond metrieke aanpassingsopties.
+U kunt de volgende metriek in een gegevensmening tot stand brengen om gelijke gelijkheid met gelijkaardige metriek in Journey Optimizer te bereiken. Zie [&#x200B; montages van de Component &#x200B;](/help/data-views/component-settings/overview.md) in de Manager van de Mening van Gegevens voor details rond metrieke aanpassingsopties.
 
 | Metrisch | Beschrijving | Gegevensset(s) | Schema-element | Componentinstellingen |
 | --- | --- | --- | --- | --- |

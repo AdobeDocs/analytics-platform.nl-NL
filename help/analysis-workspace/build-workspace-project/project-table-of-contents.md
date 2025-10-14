@@ -18,7 +18,7 @@ U kunt een inhoudstafel voor een project in Analysis Workspace bekijken, die u t
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ een inhoudstafel ](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"} voor een demo video creëren.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; een inhoudstafel &#x200B;](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"} voor een demo video creëren.
 
 >[!ENDSHADEBOX]
 
@@ -33,7 +33,7 @@ De inhoudsopgave van een project weergeven:
 
 1. Ga in Analysis Workspace naar het project waar u de inhoudsopgave wilt weergeven.
 
-1. In het knooppaneel, uitgezochte ![ ViewList ](/help/assets/icons/ViewList.svg) **[!UICONTROL Table of contents]**. Zie [ overzicht van Analysis Workspace ](/help/analysis-workspace/home.md) voor meer informatie.<br/>
+1. In het knooppaneel, uitgezochte ![&#x200B; ViewList &#x200B;](/help/assets/icons/ViewList.svg) **[!UICONTROL Table of contents]**. Zie [&#x200B; overzicht van Analysis Workspace &#x200B;](/help/analysis-workspace/home.md) voor meer informatie.<br/>
 
    De **[!UICONTROL Table of contents]** voor het project wordt weergegeven en elk deelvenster wordt standaard uitgevouwen.
 
@@ -41,9 +41,9 @@ De inhoudsopgave van een project weergeven:
 
    De geselecteerde visualisatie wordt automatisch naar de geselecteerde afbeelding geschoven en kort gemarkeerd.
 
-   ![ benadrukte TOC ](assets/toc-highlighted.png)
+   ![&#x200B; benadrukte TOC &#x200B;](assets/toc-highlighted.png)
 
 
 >[!MORELIKETHIS]
 >
->* [ vereenvoudigt de Navigatie Dashboard met de Nieuwe Eigenschap van de Inhoudsopgave in Adobe Analytics ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284)
+>* [&#x200B; vereenvoudigt de Navigatie Dashboard met de Nieuwe Eigenschap van de Inhoudsopgave in Adobe Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284)

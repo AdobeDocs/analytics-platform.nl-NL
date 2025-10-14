@@ -18,18 +18,18 @@ Customer Journey Analytics is Adobe-oplossing voor de volgende generatie Analyti
 
 De Customer Journey Analytics-architectuur op hoog niveau wordt hier getoond:
 
-![ architectuur van Customer Journey Analytics ](assets/cja-overview.svg)
+![&#x200B; architectuur van Customer Journey Analytics &#x200B;](assets/cja-overview.svg)
 
 Deze architectuur illustreert hoe u met de analyse van de Reis van de Klant kunt:
 
-* Combineer veelvoudige datasets ![ Gegevens ](/help/assets/icons/Data.svg) in a [ verbinding ](/help/connections/overview.md).
-* Bepaal en vorm dimensies ![ Dimensies ](/help/assets/icons/Dimensions.svg) en metrieke ![ Gebeurtenis ](/help/assets/icons/Event.svg) in a [ gegevensmening ](/help/data-views/data-views.md), die op de gebieden beschikbaar van de datasets wordt gebaseerd u in uw verbinding bepaalde.
-* Bouw rapporten ![ ViewTable ](/help/assets/icons/ViewTable.svg) en visualisaties (als lijn ![ Lijn ](/help/assets/icons/GraphTrend.svg) en gebied ![ Gebied ](/help/assets/icons/GraphAreaStacked.svg)) in [ projecten ](/help/analysis-workspace/home.md) gebaseerd op de afmetingen en metriek van uw gegevensmeningen.
+* Combineer veelvoudige datasets ![&#x200B; Gegevens &#x200B;](/help/assets/icons/Data.svg) in a [&#x200B; verbinding &#x200B;](/help/connections/overview.md).
+* Bepaal en vorm dimensies ![&#x200B; Dimensies &#x200B;](/help/assets/icons/Dimensions.svg) en metrieke ![&#x200B; Gebeurtenis &#x200B;](/help/assets/icons/Event.svg) in a [&#x200B; gegevensmening &#x200B;](/help/data-views/data-views.md), die op de gebieden beschikbaar van de datasets wordt gebaseerd u in uw verbinding bepaalde.
+* Bouw rapporten ![&#x200B; ViewTable &#x200B;](/help/assets/icons/ViewTable.svg) en visualisaties (als lijn ![&#x200B; Lijn &#x200B;](/help/assets/icons/GraphTrend.svg) en gebied ![&#x200B; Gebied &#x200B;](/help/assets/icons/GraphAreaStacked.svg)) in [&#x200B; projecten &#x200B;](/help/analysis-workspace/home.md) gebaseerd op de afmetingen en metriek van uw gegevensmeningen.
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Analyse van de Reis van de Klant: Analytics voor de Bedrijfs van de Ervaring ](https://video.tv.adobe.com/v/30090/?quality=12&learn=on){target="_blank"} voor een introductievideo aan Customer Journey Analytics.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Analyse van de Reis van de Klant: Analytics voor de Bedrijfs van de Ervaring &#x200B;](https://video.tv.adobe.com/v/30090/?quality=12&learn=on){target="_blank"} voor een introductievideo aan Customer Journey Analytics.
 
 >[!ENDSHADEBOX]
 
@@ -45,9 +45,9 @@ Customer Journey Analytics breidt het bereik van Adobe Analytics uit door eenvou
 
 >[!TIP]
 >
->Als u Adobe Analytics hebt gebruikt en uw gegevens van Adobe Analytics in Customer Journey Analytics wilt gebruiken, zie [ Samenvatting en gebruiksgegevens van traditionele Adobe Analytics ](../data-ingestion/analytics.md) snelle begingids als deel van de [ Ingestie van Gegevens ](../data-ingestion/data-ingestion.md) sectie.
+>Als u Adobe Analytics hebt gebruikt en uw gegevens van Adobe Analytics in Customer Journey Analytics wilt gebruiken, zie [&#x200B; Samenvatting en gebruiksgegevens van traditionele Adobe Analytics &#x200B;](../data-ingestion/analytics.md) snelle begingids als deel van de [&#x200B; Ingestie van Gegevens &#x200B;](../data-ingestion/data-ingestion.md) sectie.
 
-De eerste release van Customer Journey Analytics bevat veel van de functies die in Adobe Analytics zijn opgenomen. Voor een volledige lijst, zie [ de eigenschapsteun van Customer Journey Analytics ](/help/getting-started/aa-vs-cja/cja-aa.md).
+De eerste release van Customer Journey Analytics bevat veel van de functies die in Adobe Analytics zijn opgenomen. Voor een volledige lijst, zie [&#x200B; de eigenschapsteun van Customer Journey Analytics &#x200B;](/help/getting-started/aa-vs-cja/cja-aa.md).
 
 ## Hoofdgebruik
 
@@ -70,7 +70,7 @@ Voordat u Customer Journey Analytics kunt gaan gebruiken, moet aan de volgende v
 
 ## Toegangsbeheer
 
-Zie [ Controle van de Toegang ](/help/technotes/access-control.md).
+Zie [&#x200B; Controle van de Toegang &#x200B;](/help/technotes/access-control.md).
 
 ## Terminologie-updates
 
@@ -87,30 +87,30 @@ Verschillende functies in Customer Journey Analytics hebben in vergelijking met 
 
 Customer Journey Analytics is één van de vele mogelijkheden die op de Adobe Experience Platform vertrouwen. Met verschillende andere mogelijkheden, die ook op Experience Platform zijn gebaseerd, kunt u optimaal profiteren van uw gegevens.
 
-Met Adobe Experience Platform kunt u klantgegevens en -inhoud van elk systeem centraliseren en standaardiseren en gegevens en computertraining toepassen om het ontwerp en de levering van persoonlijke ervaringen te verbeteren. De gegevens van de klant in het platform worden opgeslagen als datasets, die uit een schema en partijen gegevens bestaan. Voor meer detail op het platform, zie [ het Overzicht van de Architectuur van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=nl-NL).
+Met Adobe Experience Platform kunt u klantgegevens en -inhoud van elk systeem centraliseren en standaardiseren en gegevens en computertraining toepassen om het ontwerp en de levering van persoonlijke ervaringen te verbeteren. De gegevens van de klant in het platform worden opgeslagen als datasets, die uit een schema en partijen gegevens bestaan. Voor meer detail op het platform, zie [&#x200B; het Overzicht van de Architectuur van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=nl-NL).
 
 Van gegevensverwerking tot directe SQL-toegang, meerdere componenten van de Experience Platform zijn van centraal belang voor Customer Journey Analytics en vullen deze aan:
 
-* [ de Dienst van de Vraag van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl): Gebruik standaardSQL om gegevens van Adobe Experience Platform, zoals de oplossingsgegevens van Adobe, klant 1st-partijgegevens, of een andere gegevens van het Platform terug te winnen. Het is een serverloos hulpmiddel dat u toestaat om zich bij om het even welke datasets aan te sluiten en de vraagresultaten als nieuwe dataset voor gebruik in het melden van of voor opname in de Dienst van het Profiel te vangen. Met Experience Platform Query Service kunt u gegevensanalysecosystemen maken en zo een beeld van de consument op de verschillende communicatiekanalen creëren. Deze kanalen zouden de systemen van het Punt-van-Verkoop, Web, Mobiel, systemen van CRM, etc. kunnen omvatten.
-* [ Real-time Profiel van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl):
-* [ Dienst van de Identiteit ](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl)
+* [&#x200B; de Dienst van de Vraag van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl): Gebruik standaardSQL om gegevens van Adobe Experience Platform, zoals de oplossingsgegevens van Adobe, klant 1st-partijgegevens, of een andere gegevens van het Platform terug te winnen. Het is een serverloos hulpmiddel dat u toestaat om zich bij om het even welke datasets aan te sluiten en de vraagresultaten als nieuwe dataset voor gebruik in het melden van of voor opname in de Dienst van het Profiel te vangen. Met Experience Platform Query Service kunt u gegevensanalysecosystemen maken en zo een beeld van de consument op de verschillende communicatiekanalen creëren. Deze kanalen zouden de systemen van het Punt-van-Verkoop, Web, Mobiel, systemen van CRM, etc. kunnen omvatten.
+* [&#x200B; Real-time Profiel van de Klant &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl):
+* [&#x200B; Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl)
 
 ## Video&#39;s
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Werk met gegevens in Customer Journey Analytics ](https://video.tv.adobe.com/v/32112/?quality=12&learn=on){target="_blank"} voor een inleidende video om met gegevens in Customer Journey Analytics te werken.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Werk met gegevens in Customer Journey Analytics &#x200B;](https://video.tv.adobe.com/v/32112/?quality=12&learn=on){target="_blank"} voor een inleidende video om met gegevens in Customer Journey Analytics te werken.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Architectuur en integratie ](https://video.tv.adobe.com/v/32483/?quality=12&learn=on){target="_blank"} voor een inleidende video op de architectuur en de integratie van Customer Journey Analytics.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Architectuur en integratie &#x200B;](https://video.tv.adobe.com/v/32483/?quality=12&learn=on){target="_blank"} voor een inleidende video op de architectuur en de integratie van Customer Journey Analytics.
 
 >[!ENDSHADEBOX]
 
 >[!MORELIKETHIS]
 >
->* [ Adobe Customer Journey Analytics Crash Cursus voor Analysts ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-crash-course-for-analysts/ba-p/719261)
->* [ Optimizing Your Mindset and Adobe Customer Journey Analytics Workflow: De Modellen van het team voor Organisaties van Alle Grootte ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/optimizing-your-mindset-and-adobe-customer-journey-analytics/ba-p/721456)
->* [ de Organisatorische Gereedheid van de Bouw: Een Mensen-Eerste Gids aan het Schalen van Adobe Customer Journey Analytics ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/building-organizational-readiness-a-people-first-guide-to/ba-p/723273)
+>* [&#x200B; Adobe Customer Journey Analytics Crash Cursus voor Analysts &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-crash-course-for-analysts/ba-p/719261)
+>* [&#x200B; Optimizing Your Mindset and Adobe Customer Journey Analytics Workflow: De Modellen van het team voor Organisaties van Alle Grootte &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/optimizing-your-mindset-and-adobe-customer-journey-analytics/ba-p/721456)
+>* [&#x200B; de Organisatorische Gereedheid van de Bouw: Een Mensen-Eerste Gids aan het Schalen van Adobe Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/building-organizational-readiness-a-people-first-guide-to/ba-p/723273)

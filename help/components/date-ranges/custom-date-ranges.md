@@ -22,7 +22,7 @@ Dit artikel bevat meer voorbeelden van aangepaste datumbereiken.
 
 U wilt een aangepast datumbereik definiëren dat twee maanden geleden wordt gedefinieerd. U gebruikt een van de voorinstellingen.
 
-![ Laatste 2 maanden geleden ](assets/date-range-example-simple.png)
+![&#x200B; Laatste 2 maanden geleden &#x200B;](assets/date-range-example-simple.png)
 
 +++
 
@@ -33,7 +33,7 @@ U wilt een aangepast datumbereik definiëren dat twee maanden geleden wordt gede
 
 U wilt een datumbereik definiëren dat de periode definieert tussen de huidige dag een week geleden en het einde van dezelfde vorige week. Als vandaag bijvoorbeeld woensdag 11 september 2024 is. U wilt een datumbereik van 4 september 2024 tot 7 september 2024.
 
-![ het waaiervoorbeeld van de Datum ](assets/date-range-example.png)
+![&#x200B; het waaiervoorbeeld van de Datum &#x200B;](assets/date-range-example.png)
 
 +++
 

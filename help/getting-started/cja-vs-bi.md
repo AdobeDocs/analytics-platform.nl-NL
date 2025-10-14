@@ -24,7 +24,7 @@ In dit gedeelte van de documentatie worden de fundamentele verschillen tussen Cu
 
 Een veelvuldig obstakel voor de traditionele benadering van het analyseren van klantentransporten is dat het niet klantgericht is. Elk team verzamelt gegevens op locaties, analyseert en optimaliseert ervaringen op basis van de gegevens waartoe zij toegang hebben.
 
-![ Traditionele BI werkschema zoals die in deze sectie wordt beschreven ](./assets/biworkflow.png)
+![&#x200B; Traditionele BI werkschema zoals die in deze sectie wordt beschreven &#x200B;](./assets/biworkflow.png)
 
 Als u wilt begrijpen hoe een specifieke digitale campagne een off-line actie beïnvloedt die in een verschillende gegevenssilo wordt opgeslagen, geeft u een verzoek aan de rij van het team van BI uit. Het team van BI schrijft de vereiste vraag om de gegevens te verwerven en om te zetten. Zodra de ruwe gegevens worden teruggewonnen, leidt het team van BI tot visualisatie. De gegevens worden met u gedeeld en u besteedt tijd aan het doornemen van inzichten en het extraheren van gegevens voor activering in andere systemen.
 
@@ -32,9 +32,9 @@ Elk van deze stappen kan uren, dagen, of zelfs weken nemen. Als er vervolgvragen
 
 ## Customer Journey Analytics: gedemocratiseerde workflow voor online en offline gegevens
 
-Customer Journey Analytics biedt een omgeving voor het online en offline verbinden van kanaalgegevens op overkoepelend klantniveau, uitsluitend om inzicht te krijgen in de reis van de klant. Het vereist aanvankelijke opstelling om [&#128279;](/help/connections/overview.md) te verbinden en [ meningen ](/help/data-views/data-views.md) aan de gegevens te bepalen u relevant kwalificeert. Zodra deze gegevens echter zijn voltooid, zijn ze gemakkelijk beschikbaar voor doorlopende analyse en exploratie. U kunt geleidelijk inzicht krijgen in en inzicht krijgen in de reizen van de klant. Door gecombineerde online en off-line gegevens te democratiseren, kunt u klant-reis-gerelateerde vragen in seconden beantwoorden.
+Customer Journey Analytics biedt een omgeving voor het online en offline verbinden van kanaalgegevens op overkoepelend klantniveau, uitsluitend om inzicht te krijgen in de reis van de klant. Het vereist aanvankelijke opstelling om [&#128279;](/help/connections/overview.md) te verbinden en [&#x200B; meningen &#x200B;](/help/data-views/data-views.md) aan de gegevens te bepalen u relevant kwalificeert. Zodra deze gegevens echter zijn voltooid, zijn ze gemakkelijk beschikbaar voor doorlopende analyse en exploratie. U kunt geleidelijk inzicht krijgen in en inzicht krijgen in de reizen van de klant. Door gecombineerde online en off-line gegevens te democratiseren, kunt u klant-reis-gerelateerde vragen in seconden beantwoorden.
 
-![ het werkschema van Customer Journey Analytics zoals die in deze sectie ](./assets/cjaworkflow.png) wordt beschreven
+![&#x200B; het werkschema van Customer Journey Analytics zoals die in deze sectie &#x200B;](./assets/cjaworkflow.png) wordt beschreven
 
 U kunt Customer Journey Analytics gebruiken om vragen te stellen met de visuele Analysis Workspace-omgeving en bijna onmiddellijk inzichten te verkrijgen. De gegevens en rapporten van het dwars-kanaal zijn onmiddellijk beschikbaar, zonder SQL vereiste code. Extra query&#39;s en analyse kunnen worden uitgevoerd met een eenvoudige sleepbewerking en neerzetbewerking in de gebruikersinterface, met volledig gecorreleerde gegevens. U kunt vragen blijven stellen, geleidelijk meer details onderzoeken zoals u vereist. U kunt dan onmiddellijk actie ondernemen op de inzichten die u ontdekt, zoals het delen van publiek voor activering en orkest.
 
@@ -60,13 +60,13 @@ De rapporteringsmotor is fundamenteel voor Customer Journey Analytics om u toe t
 
 De volgende onderdelen van visualisatie zijn ingebouwd:
 
-* **Virtuele analysefuncties** zoals [ Anomaly Detectie ](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) die voorspellende algoritmen en machine het leren gebruiken om inzichten in te leveren wat ongewoon gedrag in uw gegevens drijft.
+* **Virtuele analysefuncties** zoals [&#x200B; Anomaly Detectie &#x200B;](/help/analysis-workspace/c-anomaly-detection/anomaly-detection.md) die voorspellende algoritmen en machine het leren gebruiken om inzichten in te leveren wat ongewoon gedrag in uw gegevens drijft.
 
-* **Geavanceerde analysefuncties** die specifiek op de inzichten van de klantenreis, als [ stroomdiagrammen ](/help/analysis-workspace/visualizations/c-flow/flow.md), [ het paneel van de Attributie ](/help/analysis-workspace/c-panels/attribution.md), [ fallout diagrammen ](/help/analysis-workspace/visualizations/fallout/fallout-flow.md), en [ afmetingsonderverdelingen ](/help/components/dimensions/t-breakdown-fa.md) worden geconcentreerd. Voorbeelden van out-of-the-box-visualisaties zijn:
+* **Geavanceerde analysefuncties** die specifiek op de inzichten van de klantenreis, als [&#x200B; stroomdiagrammen &#x200B;](/help/analysis-workspace/visualizations/c-flow/flow.md), [&#x200B; het paneel van de Attributie &#x200B;](/help/analysis-workspace/c-panels/attribution.md), [&#x200B; fallout diagrammen &#x200B;](/help/analysis-workspace/visualizations/fallout/fallout-flow.md), en [&#x200B; afmetingsonderverdelingen &#x200B;](/help/components/dimensions/t-breakdown-fa.md) worden geconcentreerd. Voorbeelden van out-of-the-box-visualisaties zijn:
 
-   * [ analyse van het het behoud van de Klant via cohort/latentietabellen ](/help/analysis-workspace/visualizations/cohort-table/cohort-use-cases.md), waar u eenvoudig metriek/afmetingen in een bouwer sleept en u in minder dan 30 seconden wordt gedaan,
+   * [&#x200B; analyse van het het behoud van de Klant via cohort/latentietabellen &#x200B;](/help/analysis-workspace/visualizations/cohort-table/cohort-use-cases.md), waar u eenvoudig metriek/afmetingen in een bouwer sleept en u in minder dan 30 seconden wordt gedaan,
 
-   * [ Uitval ](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md) / [ stroom ](/help/analysis-workspace/visualizations/c-flow/create-flow.md) visualisaties. In minder dan een minuut instellen.
+   * [&#x200B; Uitval &#x200B;](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md) / [&#x200B; stroom &#x200B;](/help/analysis-workspace/visualizations/c-flow/create-flow.md) visualisaties. In minder dan een minuut instellen.
 
 * **vermogen van de Segmentatie bij elke stap van uw progressieve exploratie**: wanneer u denkt het steek houdt, kunt u uw publiek terug in Experience Platform en van daar aan om het even welke gesteunde bestemmingen publiceren.
 
@@ -74,9 +74,9 @@ De volgende onderdelen van visualisatie zijn ingebouwd:
 
 * **Curation en democratisering**: De dashboards die in Customer Journey Analytics worden gecreeerd kunnen zijn:
 
-   * [ gekromde ](/help/analysis-workspace/curate-share/curate.md) aan andere individuen in de organisatie voor ononderbroken exploratie,
-   * Geëxporteerd naar Excel met behulp van [ Report Builder ](/help/report-builder/rb-overview.md) (een toegewijde plug-in),
-   * [ Gedeeld ](/help/analysis-workspace/curate-share/share-projects.md) in diverse formaten, met inbegrip van [ PDF ](/help/analysis-workspace/export/download-send.md), [ CSV ](/help/analysis-workspace/export/download-send.md) en door a [ specifieke mobiele app ](/help/mobile-app/home.md), aan die die in de definitieve rapporten en/of visualisaties geinteresseerd zijn.
+   * [&#x200B; gekromde &#x200B;](/help/analysis-workspace/curate-share/curate.md) aan andere individuen in de organisatie voor ononderbroken exploratie,
+   * Geëxporteerd naar Excel met behulp van [&#x200B; Report Builder &#x200B;](/help/report-builder/rb-overview.md) (een toegewijde plug-in),
+   * [&#x200B; Gedeeld &#x200B;](/help/analysis-workspace/curate-share/share-projects.md) in diverse formaten, met inbegrip van [&#x200B; PDF &#x200B;](/help/analysis-workspace/export/download-send.md), [&#x200B; CSV &#x200B;](/help/analysis-workspace/export/download-send.md) en door a [&#x200B; specifieke mobiele app &#x200B;](/help/mobile-app/home.md), aan die die in de definitieve rapporten en/of visualisaties geinteresseerd zijn.
 
 Het is moeilijk om de Customer Journey Analytics-visualisatiemogelijkheden te vergelijken met de BI-gereedschappen vanwege de verschillende beschikbare visualisaties. Sommige hulpmiddelen van BI hebben geavanceerdere visualisaties, maar Customer Journey Analytics concentreert zich op interactieve en interoperabele klantenreis visualisaties die u toestaan om de gegevens binnen seconden te breken terwijl niet &quot;het in rekening brengen&quot;u voor elke extra vraag.
 

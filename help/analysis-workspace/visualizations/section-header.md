@@ -26,20 +26,20 @@ ht-degree: 0%
 >[!BEGINSHADEBOX]
 
 
-_dit artikel documenteert de kopbal van de Sectie visualisatie in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [ kopbal van de Sectie ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/visualizations/section-header) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert de kopbal van de Sectie visualisatie in_ ![&#x200B; CustomerJourneyAnalytics &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [&#x200B; kopbal van de Sectie &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/visualizations/section-header) voor_ ![&#x200B; AdobeAnalytics &#x200B;](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
-Om secties binnen een paneel te identificeren en te articuleren, kunt u a ![ PageRule ](/help/assets/icons/PageRule.svg) **[!UICONTROL Section header]** visualisatie overal binnen een paneel opnemen.
+Om secties binnen een paneel te identificeren en te articuleren, kunt u a ![&#x200B; PageRule &#x200B;](/help/assets/icons/PageRule.svg) **[!UICONTROL Section header]** visualisatie overal binnen een paneel opnemen.
 
-![ kopbal van de Sectie ](/help/analysis-workspace/visualizations/assets/section-header.png)
+![&#x200B; kopbal van de Sectie &#x200B;](/help/analysis-workspace/visualizations/assets/section-header.png)
 
 Als u de tekst van de sectiekoptekst wilt wijzigen, selecteert u gewoon **[!UICONTROL Section header]** .
 
 
 >[!MORELIKETHIS]
 >
->[ voeg een visualisatie aan een paneel toe ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Visualisatie-instellingen ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Contextmenu Visualisatie ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[&#x200B; voeg een visualisatie aan een paneel toe &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>&#x200B;>[Visualisatie-instellingen &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>&#x200B;>[Contextmenu Visualisatie &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

@@ -18,10 +18,10 @@ Om op persoon-gebaseerde raadplegingen op B2B gegevens (met inbegrip van rekenin
 
 Deze transformatie is slechts beschikbaar voor datasets met gegevens voor B2B raadplegingsschema&#39;s, die op de volgende klassen worden gebaseerd:
 
-* [ XDM de Verhouding van de Persoon van de Bedrijfs Rekening ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
-* [ XDM de Verhouding van de Person van BedrijfsOpportunity ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
-* [ XDM Bedrijfs de Leden van de Lijst van de Marketing ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
-* [ XDM Bedrijfs Campagne Leden ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
+* [&#x200B; XDM de Verhouding van de Persoon van de Bedrijfs Rekening &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
+* [&#x200B; XDM de Verhouding van de Person van BedrijfsOpportunity &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
+* [&#x200B; XDM Bedrijfs de Leden van de Lijst van de Marketing &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
+* [&#x200B; XDM Bedrijfs Campagne Leden &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Deze transformatie is slechts beschikbaar voor datasets met gegevens voor B2B ra
 
 Om transformatie voor een B2B raadplegingsdataset toe te laten:
 
-![ laat transformatiedataset ](/help/connections/assets/transform.gif) toe
+![&#x200B; laat transformatiedataset &#x200B;](/help/connections/assets/transform.gif) toe
 
 * Controleer voor elke dataset de voorgestelde waarden voor **[!UICONTROL Key]** en **[!UICONTROL Matching key]**. Als u de waarden wijzigt op basis van de voorgestelde waarden, verschijnt er een waarschuwing met de vraag of u wilt doorgaan. U moet ervoor zorgen dat:
 
@@ -71,4 +71,4 @@ Niet-getransformeerde datasets, voor schema&#39;s die op de vier hierboven verme
 
 De transformatie wijzigt de dataset van elk van de vier schemaklassen (oranje in de illustratie hieronder) zodat voor elke persoonsidentificatie een (voorwerp) serie voor de relevante gegevens (rekeningen, kansen, marketing lijsten of campagnes) in de raadplegingsdatasets (roze in de illustratie hieronder) wordt gecreeerd. Deze transformatie maakt het mogelijk om correct te werken met op personen-id gebaseerde zoekopdrachten.
 
-![ B2B- schema&#39;s ](./assets/b2b-schemas.svg)
+![&#x200B; B2B- schema&#39;s &#x200B;](./assets/b2b-schemas.svg)

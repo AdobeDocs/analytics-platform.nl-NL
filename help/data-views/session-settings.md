@@ -34,7 +34,7 @@ De context van een sessie in een gegevensweergave definiëren:
 
 1. Selecteer **[!UICONTROL Data views]** (optioneel) in **[!UICONTROL Data management]** in de hoofdnavigatie van de gebruikersinterface van Customer Journey Analytics.
 
-2. Maak een nieuwe of bewerk een bestaande gegevensweergave. Zie [ creeer of geef een gegevensmening ](create-dataview.md) voor meer informatie uit.
+2. Maak een nieuwe of bewerk een bestaande gegevensweergave. Zie [&#x200B; creeer of geef een gegevensmening &#x200B;](create-dataview.md) voor meer informatie uit.
 
 3. Selecteer de tab **[!UICONTROL Settings]** . Onder [!UICONTROL Session settings] :
 
@@ -49,11 +49,11 @@ De context van een sessie in een gegevensweergave definiëren:
 
       U kunt om het even welk soort metrisch gebruiken om een nieuwe zitting te bepalen. Stel dat u elke keer dat een profiel uw mobiele app start, een nieuwe sessie wilt definiëren. In **[!UICONTROL Data view]** > **[!UICONTROL Components]** definieert u een component van het type metrisch, genaamd **[!UICONTROL Launch]** , op basis van een schemaveld **[!UICONTROL appInteraction]** **[!UICONTROL Name]** . U geeft verder de metrische component **[!UICONTROL Launch]** op, zodat alleen de waarde wordt geteld wanneer de waarde overeenkomt met `launch` .
 
-      ![ de Metrische Lanceringen van de Component van de Interactie van de Toepassing ](assets/component-launches.png)
+      ![&#x200B; de Metrische Lanceringen van de Component van de Interactie van de Toepassing &#x200B;](assets/component-launches.png)
 
       Vervolgens sleept u de sjabloon en selecteert u de metrische waarde van **[!UICONTROL Launch]** als de metrische waarde om een nieuwe sessie te definiëren.
 
-      ![ Lanceringen van de Montages van de Zitting ](assets/session-settings-launches-metric.png)
+      ![&#x200B; Lanceringen van de Montages van de Zitting &#x200B;](assets/session-settings-launches-metric.png)
 
 
 

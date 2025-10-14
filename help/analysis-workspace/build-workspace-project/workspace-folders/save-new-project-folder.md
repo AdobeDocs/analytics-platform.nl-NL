@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # Een nieuw project opslaan in een polen
 
-Zie [ projecten ](../save-projects.md#save) voor meer informatie sparen.
+Zie [&#x200B; projecten &#x200B;](../save-projects.md#save) voor meer informatie sparen.
 
 <!-- Is this article still needed; removed from TOC
 

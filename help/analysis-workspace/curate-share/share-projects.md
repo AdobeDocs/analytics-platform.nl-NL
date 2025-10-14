@@ -35,12 +35,12 @@ U kunt een Analysis Workspace-project delen met de volgende typen personen:
 
   Ontvangers hebben alleen-lezen toegang
 
-Om het even welke [ kromming ](curate.md) u voorafgaand aan het delen toepast wordt weerspiegeld wanneer de ontvangers het project openen.
+Om het even welke [&#x200B; kromming &#x200B;](curate.md) u voorafgaand aan het delen toepast wordt weerspiegeld wanneer de ontvangers het project openen.
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ het Delen van het Project in Analysis Workspace ](https://video.tv.adobe.com/v/36207/?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; het Delen van het Project in Analysis Workspace &#x200B;](https://video.tv.adobe.com/v/36207/?quality=12&learn=on){target="_blank"} voor een demo video.
 
 {{videoaa}}
 
@@ -61,9 +61,9 @@ U kunt een specifieke rol met gebruikers of groepen delen, of u kunt een verbind
 
 Wanneer het delen van een specifieke projectrol met gebruikers en groepen in uw organisatie, overweeg het volgende:
 
-* Projectrollen (**[!UICONTROL Edit original]**, **[!UICONTROL Edit copy]** en **[!UICONTROL Read only]**) zijn gekoppeld aan de gebruiker en specifieke project-id. De rollen van het project zijn onafhankelijk van gebruikerstoestemmingen die in [ Adobe Experience Cloud Admin Console ](https://experienceleague.adobe.com/nl/docs/core-services/interface/administration/admin-getting-started) worden beheerd.
+* Projectrollen (**[!UICONTROL Edit original]**, **[!UICONTROL Edit copy]** en **[!UICONTROL Read only]**) zijn gekoppeld aan de gebruiker en specifieke project-id. De rollen van het project zijn onafhankelijk van gebruikerstoestemmingen die in [&#x200B; Adobe Experience Cloud Admin Console &#x200B;](https://experienceleague.adobe.com/nl/docs/core-services/interface/administration/admin-getting-started) worden beheerd.
 
-* In Customer Journey Analytics, worden de groepen bepaald door productprofielen in [ Admin Console van Adobe Experience Cloud ](https://experienceleague.adobe.com/nl/docs/core-services/interface/administration/admin-getting-started). Admins kan aan om het even welke groep delen, met inbegrip van *allen*. De niet-admins kunnen aan om het even welke groep delen zij een lid van zijn, behalve *allen*.
+* In Customer Journey Analytics, worden de groepen bepaald door productprofielen in [&#x200B; Admin Console van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/nl/docs/core-services/interface/administration/admin-getting-started). Admins kan aan om het even welke groep delen, met inbegrip van *allen*. De niet-admins kunnen aan om het even welke groep delen zij een lid van zijn, behalve *allen*.
 
 * Een gebruiker die in veelvoudige rollen wordt geplaatst krijgt altijd de hoogste ervaring. Dit scenario zou kunnen voorkomen als een gebruiker zowel als individueel als als deel van een groep wordt toegevoegd. Als een gebruiker bijvoorbeeld de **[!UICONTROL Edit original]** rol als individu en de **[!UICONTROL Read only]** rol als lid van een groep krijgt, ontvangt de gebruiker een **[!UICONTROL Edit original]** project beleving.
 
@@ -88,7 +88,7 @@ Als er niet-opgeslagen wijzigingen zijn, wordt u gevraagd eerst uw project op te
 
    Het dialoogvenster Project delen wordt weergegeven. Het [!UICONTROL **Aandeel door verbinding**] en [!UICONTROL **3&rbrace; secties van Montages &lbrace;van de dialoogdoos is zichtbaar slechts wanneer het delen van één enkel project.**]
 
-   ![ het het projectvenster van het Aandeel.](assets/share-proj-modal.png)
+   ![&#x200B; het het projectvenster van het Aandeel.](assets/share-proj-modal.png)
 
 1. Voeg ontvangers of groepen ontvangers toe aan een van de opgegeven rolvelden:
 
@@ -96,7 +96,7 @@ Als er niet-opgeslagen wijzigingen zijn, wordt u gevraagd eerst uw project op te
 
    **geef exemplaar uit:** Ontvangers kunnen **[!UICONTROL Save as]** en hebben toegang tot het linkerpaneel. Projectinteracties zijn niet beperkt tot deze rol. Deze rol is nuttig als u een project aan gebruikers wilt delen die de gegevens van uw organisatie en hoe te om Analysis Workspace begrijpen. Maar u wilt deze gebruikers niet uw project wijzigen.
 
-   **las slechts:** Ontvangers kunnen niet **[!UICONTROL Save]** of **[!UICONTROL Save as]** en hebben geen toegang tot het linkerpaneel. De interactie tussen projecten is ook beperkt. Deze rol is nuttig als u een project aan gebruikers wilt delen die minder vertrouwd met de gegevensstructuur van uw organisatie, Analysis Workspace of Customer Journey Analytics in het algemeen zijn. U wilt echter nog steeds dat ze gegevens en inzichten in een veilige omgeving gebruiken. Leer meer over [ las slechts projectervaring ](/help/analysis-workspace/curate-share/view-only-projects.md).
+   **las slechts:** Ontvangers kunnen niet **[!UICONTROL Save]** of **[!UICONTROL Save as]** en hebben geen toegang tot het linkerpaneel. De interactie tussen projecten is ook beperkt. Deze rol is nuttig als u een project aan gebruikers wilt delen die minder vertrouwd met de gegevensstructuur van uw organisatie, Analysis Workspace of Customer Journey Analytics in het algemeen zijn. U wilt echter nog steeds dat ze gegevens en inzichten in een veilige omgeving gebruiken. Leer meer over [&#x200B; las slechts projectervaring &#x200B;](/help/analysis-workspace/curate-share/view-only-projects.md).
 
 1. (Voorwaardelijk) Als u één project deelt, kies of om de volgende opties toe te laten wanneer het delen van het project:
 
@@ -108,7 +108,7 @@ Als er niet-opgeslagen wijzigingen zijn, wordt u gevraagd eerst uw project op te
 
    of
 
-   Selecteer **[!UICONTROL Curate and Share]** om automatisch projectcuratie toe te passen. (Als het project reeds is gedeeld, uitgezochte **[!UICONTROL Curate & Update]**.) Leer meer over [ projectcuratie ](curate.md).
+   Selecteer **[!UICONTROL Curate and Share]** om automatisch projectcuratie toe te passen. (Als het project reeds is gedeeld, uitgezochte **[!UICONTROL Curate & Update]**.) Leer meer over [&#x200B; projectcuratie &#x200B;](curate.md).
 
 
 ## Een koppeling naar een project delen
@@ -117,7 +117,7 @@ Houd rekening met het volgende wanneer u een koppeling deelt zoals wordt beschre
 
 * Ontvangers die de koppeling gebruiken, moeten zich aanmelden bij Customer Journey Analytics voordat ze toegang krijgen tot het project.
 
-* Als een ontvanger geen rol wordt toegewezen en a [ aandeelbare verbinding ](/help/analysis-workspace/curate-share/shareable-links.md) aan het project (**[!UICONTROL Share]ontvangt >[!UICONTROL Get project link]**), worden zij gegeven een rol door gebrek. Beheerders ontvangen **[!UICONTROL Edit original]** en niet-beheerders ontvangen **[!UICONTROL Edit copy]** .
+* Als een ontvanger geen rol wordt toegewezen en a [&#x200B; aandeelbare verbinding &#x200B;](/help/analysis-workspace/curate-share/shareable-links.md) aan het project (**[!UICONTROL Share]ontvangt >[!UICONTROL Get project link]**), worden zij gegeven een rol door gebrek. Beheerders ontvangen **[!UICONTROL Edit original]** en niet-beheerders ontvangen **[!UICONTROL Edit copy]** .
 
 De projectkoppeling delen met gebruikers in uw organisatie:
 
@@ -125,7 +125,7 @@ De projectkoppeling delen met gebruikers in uw organisatie:
 
 1. Selecteer **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]** en selecteer vervolgens **[!UICONTROL Copy]** naast het veld **[!UICONTROL Share by link]** .
 
-   ![ het project van het Aandeel dat het Aandeel door verbindingsgebied benadrukt.](assets/share-proj-modal.png)
+   ![&#x200B; het project van het Aandeel dat het Aandeel door verbindingsgebied benadrukt.](assets/share-proj-modal.png)
 
 1. Deel de koppeling met gebruikers in uw organisatie. U kunt het bijvoorbeeld in een e-mail, op een interne website, enzovoort plakken.
 
@@ -137,7 +137,7 @@ De projectkoppeling delen met gebruikers in uw organisatie:
 >abstract="Uw organisatie vereist dat gebruikers zich aanmelden bij de Experience Cloud om deze koppeling te kunnen gebruiken."
 
 
-U kunt [ read-only toegang ](/help/analysis-workspace/curate-share/view-only-projects.md) tot de projecten van Analysis Workspace aan mensen verlenen die geen toegang tot Customer Journey Analytics hebben. Deze verleende toegang kan omvatten:
+U kunt [&#x200B; read-only toegang &#x200B;](/help/analysis-workspace/curate-share/view-only-projects.md) tot de projecten van Analysis Workspace aan mensen verlenen die geen toegang tot Customer Journey Analytics hebben. Deze verleende toegang kan omvatten:
 
 * Personen buiten uw organisatie
 
@@ -147,11 +147,11 @@ U kunt [ read-only toegang ](/help/analysis-workspace/curate-share/view-only-pro
 >
 >Houd rekening met het volgende wanneer u een Analysis Workspace-project deelt met mensen die geen toegang hebben tot Customer Journey Analytics:
 >
->* De capaciteit om een project op deze manier te delen kan door de beheerder van Customer Journey Analytics worden onbruikbaar gemaakt, zoals die in [ Voorkeur ](/help/analysis-workspace/user-preferences.md) wordt beschreven. Als u een project niet kunt delen zoals in deze sectie wordt beschreven, heeft uw beheerder van Customer Journey Analytics deze mogelijkheid onbruikbaar gemaakt.
+>* De capaciteit om een project op deze manier te delen kan door de beheerder van Customer Journey Analytics worden onbruikbaar gemaakt, zoals die in [&#x200B; Voorkeur &#x200B;](/help/analysis-workspace/user-preferences.md) wordt beschreven. Als u een project niet kunt delen zoals in deze sectie wordt beschreven, heeft uw beheerder van Customer Journey Analytics deze mogelijkheid onbruikbaar gemaakt.
 >
 >* Projecten met meer dan 50 uitgebreide visualisaties kunnen alleen worden gedeeld met personen die toegang hebben tot Customer Journey Analytics.
 >
->* De gebruikers u met deelt kunnen om het even welke segmenten bekijken die op het project tijdens [ curatie ](curate.md) werden toegepast.
+>* De gebruikers u met deelt kunnen om het even welke segmenten bekijken die op het project tijdens [&#x200B; curatie &#x200B;](curate.md) werden toegepast.
 > 
 >* Gebruikers met wie u deelt, kunnen het datumbereik van het project wijzigen. De datumwaaier die u voor het project plaatst wordt getoond door gebrek.
 >
@@ -161,7 +161,7 @@ U kunt [ read-only toegang ](/help/analysis-workspace/curate-share/view-only-pro
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Aandeel met iedereen ](https://video.tv.adobe.com/v/3452460/?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Aandeel met iedereen &#x200B;](https://video.tv.adobe.com/v/3452460/?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -180,7 +180,7 @@ Een Analysis Workspace-project met iedereen delen:
 
    Als u deze optie selecteert, wordt een koppeling naar het project gemaakt die met iedereen kan worden gedeeld. U kunt toegang tot het project op elk ogenblik onbruikbaar maken door deze optie onbruikbaar te maken.
 
-   De eigenaar van het project is ook de eigenaar van deze verbinding. De eigendom van de verbinding kan aan een andere gebruiker worden overgebracht slechts wanneer de projecteigendom wordt overgebracht, zoals die in [ wordt beschreven de gebruikersactiva van de Overdracht ](/help/tools/asset-transfer/transfer-assets.md) in de gids Admin van Analytics.
+   De eigenaar van het project is ook de eigenaar van deze verbinding. De eigendom van de verbinding kan aan een andere gebruiker worden overgebracht slechts wanneer de projecteigendom wordt overgebracht, zoals die in [&#x200B; wordt beschreven de gebruikersactiva van de Overdracht &#x200B;](/help/tools/asset-transfer/transfer-assets.md) in de gids Admin van Analytics.
 
 1. Geef op of u de volgende beveiligingsoptie wilt inschakelen (deze optie kan worden beheerd door uw Customer Journey Analytics-beheerder):
 
@@ -188,27 +188,27 @@ Een Analysis Workspace-project met iedereen delen:
 
      Wanneer deze optie wordt toegelaten, zijn de enige gebruikers die tot het project kunnen toegang hebben degenen die login aan de organisatie van Adobe Experience Cloud kunnen zijn waar het project dat u deelt werd gecreeerd. Gebruikers met wie u deelt, hoeven echter geen toegang tot Customer Journey Analytics te hebben.
 
-     De beheerders van Customer Journey Analytics kunnen deze voorkeur voor het bedrijf vormen, zoals die in [ Voorkeur ](/help/analysis-workspace/user-preferences.md) wordt beschreven. U zou de volgende scenario&#39;s, afhankelijk van kunnen ontmoeten hoe de beheerder deze optie vormde:
+     De beheerders van Customer Journey Analytics kunnen deze voorkeur voor het bedrijf vormen, zoals die in [&#x200B; Voorkeur &#x200B;](/help/analysis-workspace/user-preferences.md) wordt beschreven. U zou de volgende scenario&#39;s, afhankelijk van kunnen ontmoeten hoe de beheerder deze optie vormde:
 
       * Als deze optie niet wordt weergegeven, heeft uw Customer Journey Analytics-beheerder deze functie niet ingeschakeld.
 
       * Als deze optie is ingeschakeld en u kunt deze niet uitschakelen, betekent de vergrendelde optie dat uw Customer Journey Analytics-beheerder Experience Cloud-verificatie vereist voor iedereen die Analysis Workspace-projecten opent. Dit is altijd het geval voor organisaties die een vergunning hebben voor het gezondheidsschild.
 
-1. Naast het **[!UICONTROL Share with anyone (no login required)]** gebied, uitgezochte ![ Verbinding ](/help/assets/icons/Link.svg) om de verbinding aan uw systeemklembord te kopiëren.
+1. Naast het **[!UICONTROL Share with anyone (no login required)]** gebied, uitgezochte ![&#x200B; Verbinding &#x200B;](/help/assets/icons/Link.svg) om de verbinding aan uw systeemklembord te kopiëren.
 
 1. Deel de koppeling met de personen die u toegang tot het project wilt geven. U kunt de koppeling bijvoorbeeld in een e-mail plakken.
 
    Iedereen met wie u de koppeling deelt, kan het Analysis Workspace-project bekijken.
 
-1. (Facultatief) kunt u selecteren ![ produceer nieuw verbindingspictogram ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) om toegang uit gebruikers te verwijderen die eerder een verbinding aan het project ontvingen. Er wordt een nieuwe koppeling gegenereerd die u kunt delen met gebruikers die toegang willen krijgen tot het project.
+1. (Facultatief) kunt u selecteren ![&#x200B; produceer nieuw verbindingspictogram &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) om toegang uit gebruikers te verwijderen die eerder een verbinding aan het project ontvingen. Er wordt een nieuwe koppeling gegenereerd die u kunt delen met gebruikers die toegang willen krijgen tot het project.
 
 1. Selecteer **[!UICONTROL Close]** om het dialoogvenster Delen te sluiten. Uw wijzigingen worden automatisch opgeslagen.
 
 ## Projecten weergeven die met u worden gedeeld
 
-Wanneer iemand een project met u deelt door [ een specifieke projectrol ](#share-a-specific-project-role) te delen, kunt u tot de gedeelde projecten van het [ lusje van Projecten van op de Analytics toegang hebben die pagina ](/help/getting-started/landing.md#navigate-the-projects-tab) landen.
+Wanneer iemand een project met u deelt door [&#x200B; een specifieke projectrol &#x200B;](#share-a-specific-project-role) te delen, kunt u tot de gedeelde projecten van het [&#x200B; lusje van Projecten van op de Analytics toegang hebben die pagina &#x200B;](/help/getting-started/landing.md#navigate-the-projects-tab) landen.
 
-Wanneer iemand een project met u deelt door een verbinding (of van het [ het projectlusje van het Aandeel ](#share-a-link-to-a-project) of het gebruiken van a [ aandeel met iedereen verbinding ](#share-a-project-with-anyone-no-login-required)) te delen, moet u de verbinding gebruiken die met u werd gedeeld om tot het project toegang te hebben. De koppeling kan bijvoorbeeld zijn gedeeld in een e-mail, op een interne website, enzovoort.
+Wanneer iemand een project met u deelt door een verbinding (of van het [&#x200B; het projectlusje van het Aandeel &#x200B;](#share-a-link-to-a-project) of het gebruiken van a [&#x200B; aandeel met iedereen verbinding &#x200B;](#share-a-project-with-anyone-no-login-required)) te delen, moet u de verbinding gebruiken die met u werd gedeeld om tot het project toegang te hebben. De koppeling kan bijvoorbeeld zijn gedeeld in een e-mail, op een interne website, enzovoort.
 
 ## Ingesloten componenten delen
 
@@ -216,7 +216,7 @@ U kunt de ingesloten componenten delen die deel uitmaken van uw project.
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Deel ingebedde componenten in Analysis Workspace ](https://video.tv.adobe.com/v/24713/?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Deel ingebedde componenten in Analysis Workspace &#x200B;](https://video.tv.adobe.com/v/24713/?quality=12&learn=on){target="_blank"} voor een demo video.
 
 {{videoaa}}
 

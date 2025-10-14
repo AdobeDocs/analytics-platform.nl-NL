@@ -16,19 +16,19 @@ ht-degree: 0%
 
 {{select-package}}
 
-[!DNL Customer Journey Analytics BI extension] laat SQL toegang tot de [ gegevensmeningen ](./data-views.md) toe die u in Customer Journey Analytics hebt bepaald. Uw gegevensengineers en analisten zouden met Power BI, de Desktop van Tableau, of andere bedrijfsintelligentie en visualisatiehulpmiddelen (die verder als hulpmiddelen worden bedoeld BI) vertrouwd kunnen zijn. Ze kunnen nu rapporten en dashboards maken op basis van dezelfde gegevensweergaven die Customer Journey Analytics-gebruikers gebruiken bij het maken van hun Analysis Workspace-projecten.
+[!DNL Customer Journey Analytics BI extension] laat SQL toegang tot de [&#x200B; gegevensmeningen &#x200B;](./data-views.md) toe die u in Customer Journey Analytics hebt bepaald. Uw gegevensengineers en analisten zouden met Power BI, de Desktop van Tableau, of andere bedrijfsintelligentie en visualisatiehulpmiddelen (die verder als hulpmiddelen worden bedoeld BI) vertrouwd kunnen zijn. Ze kunnen nu rapporten en dashboards maken op basis van dezelfde gegevensweergaven die Customer Journey Analytics-gebruikers gebruiken bij het maken van hun Analysis Workspace-projecten.
 
 De Dienst van de Vraag van Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/home) is de SQL interface aan gegevens beschikbaar in het gegevensmeer van Experience Platform. Als [!DNL Customer Journey Analytics BI extension] ingeschakeld is, wordt de functionaliteit van [!DNL Query Service] uitgebreid om uw Customer Journey Analytics-gegevensweergaven als tabellen of weergaven in een [!DNL Query Service] -sessie te zien. Dit betekent dat hulpprogramma&#39;s voor bedrijfsintelligentie die [!DNL Query Service] als hun PostgresSQL-interface gebruiken, naadloos van deze uitgebreide functionaliteit profiteren.
 
 De belangrijkste voordelen zijn:
 
-* Het is niet nodig om een gelijkwaardige weergave van Customer Journey Analytics-gegevensweergaven opnieuw te maken in het BI-gereedschap zelf. <br/> zie [ meningen van Gegevens ](data-views.md) voor meer informatie over de functionaliteit van gegevensmeningen om te begrijpen wat moet worden ontspannen.
+* Het is niet nodig om een gelijkwaardige weergave van Customer Journey Analytics-gegevensweergaven opnieuw te maken in het BI-gereedschap zelf. <br/> zie [&#x200B; meningen van Gegevens &#x200B;](data-views.md) voor meer informatie over de functionaliteit van gegevensmeningen om te begrijpen wat moet worden ontspannen.
 * Meer consistentie in rapportage en analyse tussen BI-instrumenten en Customer Journey Analytics.
 * Combineer Customer Journey Analytics-gegevens met andere gegevensbronnen die al beschikbaar zijn in BI-gereedschappen.
 
 ## Vereisten
 
-Als u deze functionaliteit wilt gebruiken, kunt u verlopen of niet-verlopen referenties gebruiken om BI-gereedschappen te verbinden met de [!DNL Customer Journey Analytics BI extension] . De [ gids van Referenties ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials) verstrekt meer informatie bij het plaatsen van het verlopen van geloofsbrieven of niet-het verlopen geloofsbrieven.
+Als u deze functionaliteit wilt gebruiken, kunt u verlopen of niet-verlopen referenties gebruiken om BI-gereedschappen te verbinden met de [!DNL Customer Journey Analytics BI extension] . De [&#x200B; gids van Referenties &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials) verstrekt meer informatie bij het plaatsen van het verlopen van geloofsbrieven of niet-het verlopen geloofsbrieven.
 Hieronder vindt u aanvullende stappen voor het instellen van CJA-machtigingen
 <!---   Enable the [!UICONTROL Customer Journey Analytics BI extension] in your Experience Platform organization. -->
 
@@ -49,9 +49,9 @@ U kunt ook:
 Niet-vervallende referenties gebruiken:
 
 * Niet-vervallende gegevens maken in Experience Platform.
-* De toegang van de subsidie tot de niet-vervallende geloofsbrieven door de stappen te volgen die in [ worden vermeld het Verlopen Referenties ](#Expiring-credentials).
+* De toegang van de subsidie tot de niet-vervallende geloofsbrieven door de stappen te volgen die in [&#x200B; worden vermeld het Verlopen Referenties &#x200B;](#Expiring-credentials).
 
-Zie [ Controle van de Toegang van de Reis van de Klant ](../technotes/access-control.md) voor meer informatie, specifiek de [ extra toestemmingen van Admin van het Product ](../technotes/access-control.md#product-admin-additional-permissions) en [ de Toestemmingen van Customer Journey Analytics in Admin Console ](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console).
+Zie [&#x200B; Controle van de Toegang van de Reis van de Klant &#x200B;](../technotes/access-control.md) voor meer informatie, specifiek de [&#x200B; extra toestemmingen van Admin van het Product &#x200B;](../technotes/access-control.md#product-admin-additional-permissions) en [&#x200B; de Toestemmingen van Customer Journey Analytics in Admin Console &#x200B;](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console).
 
 
 ## Gebruik
@@ -68,11 +68,11 @@ In Adobe Experience Platform:
 
 1. Selecteer **[!UICONTROL ** Vragen **]** van **[!UICONTROL **&#x200B; GEGEVENSBEHEER &#x200B;**]** in het linkerspoor.
 
-1. Selecteer ![ creëren Vraag ](assets/Smock_AddCircle_18_N.svg) **[!UICONTROL **&#x200B; vraag &#x200B;**]** creëren.
+1. Selecteer ![&#x200B; creëren Vraag &#x200B;](assets/Smock_AddCircle_18_N.svg) **[!UICONTROL **&#x200B; vraag &#x200B;**]** creëren.
 
 1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in de vervolgkeuzelijst **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
 
-1. Om de vraag uit te voeren, typ uw SQL verklaring en selecteer ![ Spel ](assets/Smock_Play_18_N.svg) knoop (of druk `[SHIFT]` + `[ENTER]`).
+1. Om de vraag uit te voeren, typ uw SQL verklaring en selecteer ![&#x200B; Spel &#x200B;](assets/Smock_Play_18_N.svg) knoop (of druk `[SHIFT]` + `[ENTER]`).
 
 +++
 
@@ -87,7 +87,7 @@ In Adobe Experience Platform:
 
    1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in de vervolgkeuzelijst **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
 
-   1. Om het bevelkoord te kopiëren, gebruik ![ Exemplaar ](assets/Smock_Copy_18_N.svg) in de **[!UICONTROL **&#x200B; bevel PSQL &#x200B;**]** sectie.
+   1. Om het bevelkoord te kopiëren, gebruik ![&#x200B; Exemplaar &#x200B;](assets/Smock_Copy_18_N.svg) in de **[!UICONTROL **&#x200B; bevel PSQL &#x200B;**]** sectie.
 
 1. Open een opdracht- of terminalvenster.
 
@@ -95,7 +95,7 @@ In Adobe Experience Platform:
 
 +++
 
-Zie de [ gids UI van de Redacteur van de Vraag ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/user-guide) voor meer informatie.
+Zie de [&#x200B; gids UI van de Redacteur van de Vraag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/user-guide) voor meer informatie.
 
 
 ### BI-gereedschappen
@@ -112,7 +112,7 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
    1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in de vervolgkeuzelijst **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
 
-   1. Gebruik ![ Exemplaar ](assets/Smock_Copy_18_N.svg) om elk van de parameters van de geloofsbrieven van Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username], en anderen) te kopiëren wanneer nodig in Power BI.
+   1. Gebruik ![&#x200B; Exemplaar &#x200B;](assets/Smock_Copy_18_N.svg) om elk van de parameters van de geloofsbrieven van Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username], en anderen) te kopiëren wanneer nodig in Power BI.
 
 1. In Power BI:
 
@@ -128,20 +128,20 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
       1. Plak de **&#x200B;**&#x200B;parameter van het Gegevensbestand **&#x200B;**&#x200B;{van de Vragen van Experience Platform [!UICONTROL Credentials] in het **[!UICONTROL **&#x200B; 4} tekstgebied van het Gegevensbestand &lbrace;.**]**
 
-         Voeg `?FLATTEN` aan de **[!UICONTROL **&#x200B; 2&rbrace; parameter van het Gegevensbestand &lbrace;toe, zodat leest het als `prod:cja?FLATTEN` bijvoorbeeld. &#x200B;**]** Zie [ genestelde gegevensstructuren voor gebruik met de hulpmiddelen van derdeBI ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
+         Voeg `?FLATTEN` aan de **[!UICONTROL **&#x200B; 2&rbrace; parameter van het Gegevensbestand &lbrace;toe, zodat leest het als `prod:cja?FLATTEN` bijvoorbeeld. &#x200B;**]** Zie [&#x200B; genestelde gegevensstructuren voor gebruik met de hulpmiddelen van derdeBI &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
 
       1. Selecteer **[!UICONTROL DirectQuery]** wanneer hierom wordt gevraagd voor de modus **[!UICONTROL Data Connectivity]** .
 
       1. U wordt gevraagd om **[!UICONTROL Username]** en **[!UICONTROL Password]** . Gebruik de equivalente parameters van Experience Platform Queries [!UICONTROL Credentials] .
 
 
-   1. Na succesvolle login, verschijnen de lijsten van de de gegevensmening van Customer Journey Analytics in de Navigator van Power BIs **[!UICONTROL **&#x200B; **]**.
+   1. Na succesvolle login, verschijnen de lijsten van de de gegevensmening van Customer Journey Analytics in de Navigator van Power BIs **[!UICONTROL **&#x200B; &#x200B;**]**.
 
    1. Selecteer de lijsten van de gegevensmening die u **[!UICONTROL **&#x200B; Lading &#x200B;**]** wilt gebruiken en selecteren.
 
    Alle dimensies en metriek die aan een of meer geselecteerde tabellen zijn gekoppeld, worden in het rechterdeelvenster weergegeven en kunnen in uw visualisaties worden gebruikt.
 
-   Zie [ Power BI aan de Dienst van de Vraag ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/power-bi) voor meer informatie verbinden. Zie ook [ de gebruiksgevallen van het de uitbreidingsgebruik van BI ](/help/use-cases/data-views/bi-extension-usecases.md) voor een gedetailleerd voorbeeld.
+   Zie [&#x200B; Power BI aan de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/power-bi) voor meer informatie verbinden. Zie ook [&#x200B; de gebruiksgevallen van het de uitbreidingsgebruik van BI &#x200B;](/help/use-cases/data-views/bi-extension-usecases.md) voor een gedetailleerd voorbeeld.
 
 +++
 
@@ -155,7 +155,7 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
    1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in de vervolgkeuzelijst **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
 
-   1. Gebruik ![ Exemplaar ](assets/Smock_Copy_18_N.svg) om elk van de geloofsbrieven van Postgres parameters ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username], en anderen) te kopiëren wanneer nodig in de Desktop van Tableau.
+   1. Gebruik ![&#x200B; Exemplaar &#x200B;](assets/Smock_Copy_18_N.svg) om elk van de geloofsbrieven van Postgres parameters ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username], en anderen) te kopiëren wanneer nodig in de Desktop van Tableau.
 
 1. In Tableau Desktop:
 
@@ -171,7 +171,7 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
       1. Plak de **&#x200B;**&#x200B;parameter van het Gegevensbestand **&#x200B;**&#x200B;{van de Vragen van Experience Platform [!UICONTROL Credentials] in het **[!UICONTROL **&#x200B; 4} tekstgebied van het Gegevensbestand &lbrace;.**]**
 
-         Voeg `%3FFLATTEN` aan de **[!UICONTROL **&#x200B; 2&rbrace; parameter van het Gegevensbestand &lbrace;toe, zodat leest het als `prod:cja%3FFLATTEN` bijvoorbeeld. &#x200B;**]** Zie [ genestelde gegevensstructuren voor gebruik met de hulpmiddelen van derdeBI ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
+         Voeg `%3FFLATTEN` aan de **[!UICONTROL **&#x200B; 2&rbrace; parameter van het Gegevensbestand &lbrace;toe, zodat leest het als `prod:cja%3FFLATTEN` bijvoorbeeld. &#x200B;**]** Zie [&#x200B; genestelde gegevensstructuren voor gebruik met de hulpmiddelen van derdeBI &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
 
       1. Selecteer **[!UICONTROL ** Gebruikersnaam en Wachtwoord **]** van **[!UICONTROL **&#x200B; Authentificatie &#x200B;**]** lijst.
 
@@ -187,7 +187,7 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
    U kunt nu met de gegevens van de lijsten van de gegevensmening werken om uw rapporten en visualisaties te bouwen.
 
-   Zie [ Connect Tableau aan de Dienst van de Vraag ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/tableau) voor meer informatie. Zie ook [ de gebruiksgevallen van het de uitbreidingsgebruik van BI ](/help/use-cases/data-views/bi-extension-usecases.md) voor een gedetailleerd voorbeeld.
+   Zie [&#x200B; Connect Tableau aan de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/tableau) voor meer informatie. Zie ook [&#x200B; de gebruiksgevallen van het de uitbreidingsgebruik van BI &#x200B;](/help/use-cases/data-views/bi-extension-usecases.md) voor een gedetailleerd voorbeeld.
 
 +++
 
@@ -201,7 +201,7 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
    1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in de vervolgkeuzelijst **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
 
-   1. Gebruik ![ Exemplaar ](assets/Smock_Copy_18_N.svg) om elk van de parameters van de geloofsbrieven van Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username], en anderen) te kopiëren wanneer nodig in Leider.
+   1. Gebruik ![&#x200B; Exemplaar &#x200B;](assets/Smock_Copy_18_N.svg) om elk van de parameters van de geloofsbrieven van Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username], en anderen) te kopiëren wanneer nodig in Leider.
 
 1. Minder:
 
@@ -214,7 +214,7 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
    U kunt nu met de gegevens van de lijsten van de gegevensmening werken om uw rapporten en visualisaties te bouwen.
 
-   Zie [ Drager aan de Dienst van de Vraag ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/looker) voor meer informatie verbinden. Zie ook [ de gebruiksgevallen van het de uitbreidingsgebruik van BI ](/help/use-cases/data-views/bi-extension-usecases.md) voor een gedetailleerd voorbeeld.
+   Zie [&#x200B; Drager aan de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/looker) voor meer informatie verbinden. Zie ook [&#x200B; de gebruiksgevallen van het de uitbreidingsgebruik van BI &#x200B;](/help/use-cases/data-views/bi-extension-usecases.md) voor een gedetailleerd voorbeeld.
 
 +++
 
@@ -228,7 +228,7 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
    1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in de vervolgkeuzelijst **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
 
-   1. Gebruik ![ Exemplaar ](assets/Smock_Copy_18_N.svg) om elk van de parameters van de geloofsbrieven van Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username], en anderen) te kopiëren wanneer nodig in Notitie Jupyter.
+   1. Gebruik ![&#x200B; Exemplaar &#x200B;](assets/Smock_Copy_18_N.svg) om elk van de parameters van de geloofsbrieven van Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username], en anderen) te kopiëren wanneer nodig in Notitie Jupyter.
 
 1. In Jupyter-laptop:
 
@@ -238,7 +238,7 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
    Wanneer succesvol, kunt u met de gegevens werken om uw rapporten en visualisaties te bouwen.
 
-   Zie [ Verbind Jupyter Notitieboekje aan de Dienst van de Vraag ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/jupyter-notebook) voor meer informatie. Zie ook [ de gebruiksgevallen van het de uitbreidingsgebruik van BI ](/help/use-cases/data-views/bi-extension-usecases.md) voor een gedetailleerd voorbeeld.
+   Zie [&#x200B; Verbind Jupyter Notitieboekje aan de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/jupyter-notebook) voor meer informatie. Zie ook [&#x200B; de gebruiksgevallen van het de uitbreidingsgebruik van BI &#x200B;](/help/use-cases/data-views/bi-extension-usecases.md) voor een gedetailleerd voorbeeld.
 
 +++
 
@@ -252,7 +252,7 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
    1. Selecteer de `cja` -database voor uw sandbox in de lijst met databases in de vervolgkeuzelijst **[!UICONTROL Database]** . Bijvoorbeeld `prod:cja` .
 
-   1. Gebruik ![ Exemplaar ](assets/Smock_Copy_18_N.svg) om elk van de parameters van de geloofsbrieven van Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username], en anderen) te kopiëren wanneer nodig in Notitie Jupyter.
+   1. Gebruik ![&#x200B; Exemplaar &#x200B;](assets/Smock_Copy_18_N.svg) om elk van de parameters van de geloofsbrieven van Postgres ([!UICONTROL Host], [!UICONTROL Port], [!UICONTROL Database], [!UICONTROL Username], en anderen) te kopiëren wanneer nodig in Notitie Jupyter.
 
 1. In RStudio:
 
@@ -262,17 +262,17 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
    Wanneer succesvol, kunt u met de gegevens werken om uw rapporten en visualisaties te bouwen.
 
-   Zie [ Connect RStudio aan de Dienst van de Vraag ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/rstudio) voor meer informatie. Zie ook [ BI het gebruiksgevallen van het uitbreidingsgebruik ](/help/use-cases/data-views/bi-extension-usecases.md) voor een gedetailleerd voorbeeld (dat in plaats daarvan het pakket RPostgres gebruikt).
+   Zie [&#x200B; Connect RStudio aan de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/rstudio) voor meer informatie. Zie ook [&#x200B; BI het gebruiksgevallen van het uitbreidingsgebruik &#x200B;](/help/use-cases/data-views/bi-extension-usecases.md) voor een gedetailleerd voorbeeld (dat in plaats daarvan het pakket RPostgres gebruikt).
 
 +++
 
-Zie [ cliënten met de Dienst van de Vraag ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/overview) voor een overzicht van en meer informatie over de diverse beschikbare hulpmiddelen verbinden.
+Zie [&#x200B; cliënten met de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/overview) voor een overzicht van en meer informatie over de diverse beschikbare hulpmiddelen verbinden.
 
-Zie [ gevallen van het Gebruik ](/help/use-cases/data-views/bi-extension-usecases.md) op hoe te om een aantal gebruiksgevallen te verwezenlijken gebruikend de uitbreiding van Customer Journey Analytics BI.
+Zie [&#x200B; gevallen van het Gebruik &#x200B;](/help/use-cases/data-views/bi-extension-usecases.md) op hoe te om een aantal gebruiksgevallen te verwezenlijken gebruikend de uitbreiding van Customer Journey Analytics BI.
 
 ## Functionaliteit
 
-Standaard hebben uw gegevensweergaven een tabelveilige naam die is gegenereerd op basis van hun vriendelijke naam. De gegevensweergave met de naam [!UICONTROL My Web Data View] heeft bijvoorbeeld de weergavenaam `my_web_data_view` . U kunt een voorkeursnaam definiëren voor gebruik in uw BI-gereedschap voor de gegevensweergave. Zie [ de meningsmontages van Gegevens ](create-dataview.md#settings) voor meer informatie.
+Standaard hebben uw gegevensweergaven een tabelveilige naam die is gegenereerd op basis van hun vriendelijke naam. De gegevensweergave met de naam [!UICONTROL My Web Data View] heeft bijvoorbeeld de weergavenaam `my_web_data_view` . U kunt een voorkeursnaam definiëren voor gebruik in uw BI-gereedschap voor de gegevensweergave. Zie [&#x200B; de meningsmontages van Gegevens &#x200B;](create-dataview.md#settings) voor meer informatie.
 
 Als u de ID&#39;s van de gegevensweergave wilt gebruiken als tabelnamen, kunt u de optionele instelling `CJA_USE_IDS` toevoegen aan de databasenaam wanneer u verbinding maakt. `prod:cja?CJA_USE_IDS` geeft bijvoorbeeld uw gegevensweergaven weer met namen als `dv_ABC123` .
 
@@ -297,7 +297,7 @@ prod:all=> \dv
 
 ### Geneste in plaats van samengevoegd
 
-Standaard gebruikt het schema van uw gegevensweergaven geneste structuren, net als de oorspronkelijke XDM-schema&#39;s. De integratie ondersteunt ook de optie `FLATTEN` . Met deze optie kunt u afvlakken forceren van het schema voor de gegevensweergaven (en elke andere tabel in de sessie). Het afvlakken staat voor gemakkelijker gebruik in de hulpmiddelen van BI toe die geen gestructureerde schema&#39;s steunen. Zie [ Werkend met genestelde gegevensstructuren in de Dienst van de Vraag ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie.
+Standaard gebruikt het schema van uw gegevensweergaven geneste structuren, net als de oorspronkelijke XDM-schema&#39;s. De integratie ondersteunt ook de optie `FLATTEN` . Met deze optie kunt u afvlakken forceren van het schema voor de gegevensweergaven (en elke andere tabel in de sessie). Het afvlakken staat voor gemakkelijker gebruik in de hulpmiddelen van BI toe die geen gestructureerde schema&#39;s steunen. Zie [&#x200B; Werkend met genestelde gegevensstructuren in de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie.
 
 
 ### Standaardwaarden en beperkingen
@@ -311,7 +311,7 @@ De volgende extra standaardwaarden en beperkingen zijn van toepassing wanneer u 
    * Selecteer metriek uitgesplitst op een afmeting. <br/> Bijvoorbeeld, `SELECT dimension1, SUM(metric1), COUNT(*) FROM ... GROUP BY dimension1`
    * Selecteer duidelijke metrische waarden.<br/> Bijvoorbeeld, `SELECT DISTINCT dimension1 FROM ...`
 
-     Zie voor meer details [ Ondersteunde SQL ](#supported-sql).
+     Zie voor meer details [&#x200B; Ondersteunde SQL &#x200B;](#supported-sql).
 
 
 ### Ondersteunde SQL
@@ -510,8 +510,8 @@ U selecteert metrisch op zijn identiteitskaart die in een `SUM(metric)` uitdrukk
 U kunt het volgende gebruiken:
 
 * `SELECT COUNT(*)` of `COUNT(1)` om de instantie metrisch te maken.
-* `SELECT COUNT(DISTINCT dimension)` of `SELECT APPROX_COUNT_DISTINCT(dimension)` om de ongeveer verschillende waarden van een dimensie te tellen. Zie details in [ Tellend verschillende waarden ](#counting-distinct-values).
-* [ Inline berekeningen ](#inline-calculations) om metriek op de vlucht te combineren en/of wiskunde op hen te doen.
+* `SELECT COUNT(DISTINCT dimension)` of `SELECT APPROX_COUNT_DISTINCT(dimension)` om de ongeveer verschillende waarden van een dimensie te tellen. Zie details in [&#x200B; Tellend verschillende waarden &#x200B;](#counting-distinct-values).
+* [&#x200B; Inline berekeningen &#x200B;](#inline-calculations) om metriek op de vlucht te combineren en/of wiskunde op hen te doen.
 
 #### Afzonderlijke waarden tellen
 
@@ -607,11 +607,11 @@ ORDER BY -metric1 DESC
 
 | Functie | Voorbeeld | Details |
 |---|---|---|
-| [ Gegoten ](https://spark.apache.org/docs/latest/api/sql/index.html#cast) | ``CAST(`timestamp` AS STRING)`` of <br/> `` `timestamp`::string `` | Type casting wordt momenteel niet ondersteund, maar er wordt geen fout gegenereerd. De functie `CAST` wordt genegeerd. |
-| [ Tijdstempel ](https://spark.apache.org/docs/latest/api/sql/index.html#timestamp) | `` WHERE `timestamp` >= TIMESTAMP('2022-01-01 00:00:00') AND   `timestamp` < TIMESTAMP('2022-01-02 00:00:00') `` | Parseer een tijdtekenreeks als een tijdstempel voor gebruik binnen een `WHERE` -component. |
-| [ aan timestamp ](https://spark.apache.org/docs/latest/api/sql/index.html#to_timestamp) | `` WHERE `timestamp` >= TO_TIMESTAMP('01/01/2022', 'MM/dd/yyyy') AND `timestamp` < TO_TIMESTAMP('01/02/2022', 'MM/dd/yyyy') `` | Parseer een tijdtekenreeks als een tijdstempel voor gebruik binnen een `WHERE` -component en geef desgewenst een indeling voor die tijdtekenreeks. |
-| [ Datum ](https://spark.apache.org/docs/latest/api/sql/index.html#date) | `` WHERE `timestamp` >= DATE('2022-01-01') AND `timestamp` < DATE('2022-01-02') `` | Parseer een datumtekenreeks als een tijdstempel voor gebruik binnen een `WHERE` -component. |
-| [ aan datum ](https://spark.apache.org/docs/latest/api/sql/index.html#to_date) | `` WHERE `timestamp` >= TO_DATE('01/01/2022', 'MM/dd/yyyy') AND `timestamp` < TO_DATE('01/02/2022', 'MM/dd/yyyy') `` | Analyseer een datumtekenreeks als een tijdstempel voor gebruik binnen een `WHERE` -component en geef desgewenst een indeling voor die datumtekenreeks. |
+| [&#x200B; Gegoten &#x200B;](https://spark.apache.org/docs/latest/api/sql/index.html#cast) | ``CAST(`timestamp` AS STRING)`` of <br/> `` `timestamp`::string `` | Type casting wordt momenteel niet ondersteund, maar er wordt geen fout gegenereerd. De functie `CAST` wordt genegeerd. |
+| [&#x200B; Tijdstempel &#x200B;](https://spark.apache.org/docs/latest/api/sql/index.html#timestamp) | `` WHERE `timestamp` >= TIMESTAMP('2022-01-01 00:00:00') AND   `timestamp` < TIMESTAMP('2022-01-02 00:00:00') `` | Parseer een tijdtekenreeks als een tijdstempel voor gebruik binnen een `WHERE` -component. |
+| [&#x200B; aan timestamp &#x200B;](https://spark.apache.org/docs/latest/api/sql/index.html#to_timestamp) | `` WHERE `timestamp` >= TO_TIMESTAMP('01/01/2022', 'MM/dd/yyyy') AND `timestamp` < TO_TIMESTAMP('01/02/2022', 'MM/dd/yyyy') `` | Parseer een tijdtekenreeks als een tijdstempel voor gebruik binnen een `WHERE` -component en geef desgewenst een indeling voor die tijdtekenreeks. |
+| [&#x200B; Datum &#x200B;](https://spark.apache.org/docs/latest/api/sql/index.html#date) | `` WHERE `timestamp` >= DATE('2022-01-01') AND `timestamp` < DATE('2022-01-02') `` | Parseer een datumtekenreeks als een tijdstempel voor gebruik binnen een `WHERE` -component. |
+| [&#x200B; aan datum &#x200B;](https://spark.apache.org/docs/latest/api/sql/index.html#to_date) | `` WHERE `timestamp` >= TO_DATE('01/01/2022', 'MM/dd/yyyy') AND `timestamp` < TO_DATE('01/02/2022', 'MM/dd/yyyy') `` | Analyseer een datumtekenreeks als een tijdstempel voor gebruik binnen een `WHERE` -component en geef desgewenst een indeling voor die datumtekenreeks. |
 
 {style="table-layout:auto"}
 
@@ -623,7 +623,7 @@ Deze functies kunnen worden gebruikt voor afmetingen in de component `SELECT` , 
 
 | Functie | Voorbeeld | Details |
 |---|---|---|
-| [ Lager ](https://spark.apache.org/docs/latest/api/sql/index.html#lower) | ``SELECT LOWER(name) AS lower_name`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. |
+| [&#x200B; Lager &#x200B;](https://spark.apache.org/docs/latest/api/sql/index.html#lower) | ``SELECT LOWER(name) AS lower_name`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. |
 
 {style="table-layout:auto"}
 
@@ -631,18 +631,18 @@ Deze functies kunnen worden gebruikt voor afmetingen in de component `SELECT` , 
 
 | Functie | Voorbeeld | Details |
 |---|---|---|
-| [ Jaar ](https://spark.apache.org/docs/latest/api/sql/index.html#year) | ``SELECT YEAR(`timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. |
-| [ Maand ](https://spark.apache.org/docs/latest/api/sql/index.html#month) | ``SELECT MONTH(`timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. |
-| [ Dag ](https://spark.apache.org/docs/latest/api/sql/index.html#day) | ``SELECT DAY(`timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. |
-| [ Dag van week ](https://spark.apache.org/docs/latest/api/sql/index.html#dayofweek) | ``SELECT DAYOFWEEK(`timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. Gebruik de item-id in plaats van de waarde omdat u het nummer en niet de vriendschappelijke naam nodig hebt. |
-| [ Dag van jaar ](https://spark.apache.org/docs/latest/api/sql/index.html#dayofyear) | ``SELECT DAYOFYEAR(`timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. |
-| [ Week ](https://spark.apache.org/docs/latest/api/sql/index.html#week) | ``SELECT WEEK(`timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. |
-| [ Kwartaal ](https://spark.apache.org/docs/latest/api/sql/index.html#quarter) | ``SELECT QUARTER(`timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. |
-| [ Uur ](https://spark.apache.org/docs/latest/api/sql/index.html#hour) | ``SELECT HOUR(`timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. Gebruik de item-id in plaats van de waarde omdat u het nummer en niet de vriendschappelijke naam nodig hebt. |
-| [ Minuut ](https://spark.apache.org/docs/latest/api/sql/index.html#minute) | ``SELECT MINUTE(`timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. |
-| [ trekken ](https://spark.apache.org/docs/latest/api/sql/index.html#extract) | ``SELECT EXTRACT(MONTH FROM `timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. Gebruik de item-id in plaats van de waarde voor sommige onderdelen van deze functie omdat u het nummer nodig hebt en niet de vriendschappelijke naam.<br/> de gesteunde delen zijn:<br> - Trefwoorden: `YEAR`, `MONTH`, `DAYOFMONTH`, `DAYOFWEEK`, `DAYOFYEAR`, `WEEK`, `QUARTER`, `HOUR`, `MINUTE`.<br/> - Tekenreeksen: `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'` of 19&rbrace;.`'MINUTE'` |
-| [ Datum (deel) ](https://spark.apache.org/docs/latest/api/sql/index.html#date_part) | ``SELECT DATE_PART('month', `timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. Gebruik de item-id in plaats van de waarde voor sommige onderdelen van deze functie omdat u het nummer nodig hebt en niet de vriendschappelijke naam.<br/> Ondersteunde tekenreeksonderdelen zijn: `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'`, of `'MINUTE'` . |
-| [ Datum (beknot) ](https://spark.apache.org/docs/latest/api/sql/index.html#date_trunc) | ``SELECT DATE_TRUNC('quarter', `timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven.<br/> Ondersteunde tekenreeksgranulariteit is: `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'` of `'MINUTE'` . |
+| [&#x200B; Jaar &#x200B;](https://spark.apache.org/docs/latest/api/sql/index.html#year) | ``SELECT YEAR(`timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. |
+| [&#x200B; Maand &#x200B;](https://spark.apache.org/docs/latest/api/sql/index.html#month) | ``SELECT MONTH(`timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. |
+| [&#x200B; Dag &#x200B;](https://spark.apache.org/docs/latest/api/sql/index.html#day) | ``SELECT DAY(`timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. |
+| [&#x200B; Dag van week &#x200B;](https://spark.apache.org/docs/latest/api/sql/index.html#dayofweek) | ``SELECT DAYOFWEEK(`timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. Gebruik de item-id in plaats van de waarde omdat u het nummer en niet de vriendschappelijke naam nodig hebt. |
+| [&#x200B; Dag van jaar &#x200B;](https://spark.apache.org/docs/latest/api/sql/index.html#dayofyear) | ``SELECT DAYOFYEAR(`timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. |
+| [&#x200B; Week &#x200B;](https://spark.apache.org/docs/latest/api/sql/index.html#week) | ``SELECT WEEK(`timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. |
+| [&#x200B; Kwartaal &#x200B;](https://spark.apache.org/docs/latest/api/sql/index.html#quarter) | ``SELECT QUARTER(`timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. |
+| [&#x200B; Uur &#x200B;](https://spark.apache.org/docs/latest/api/sql/index.html#hour) | ``SELECT HOUR(`timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. Gebruik de item-id in plaats van de waarde omdat u het nummer en niet de vriendschappelijke naam nodig hebt. |
+| [&#x200B; Minuut &#x200B;](https://spark.apache.org/docs/latest/api/sql/index.html#minute) | ``SELECT MINUTE(`timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. |
+| [&#x200B; trekken &#x200B;](https://spark.apache.org/docs/latest/api/sql/index.html#extract) | ``SELECT EXTRACT(MONTH FROM `timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. Gebruik de item-id in plaats van de waarde voor sommige onderdelen van deze functie omdat u het nummer nodig hebt en niet de vriendschappelijke naam.<br/> de gesteunde delen zijn:<br> - Trefwoorden: `YEAR`, `MONTH`, `DAYOFMONTH`, `DAYOFWEEK`, `DAYOFYEAR`, `WEEK`, `QUARTER`, `HOUR`, `MINUTE`.<br/> - Tekenreeksen: `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'` of 19&rbrace;.`'MINUTE'` |
+| [&#x200B; Datum (deel) &#x200B;](https://spark.apache.org/docs/latest/api/sql/index.html#date_part) | ``SELECT DATE_PART('month', `timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven. Gebruik de item-id in plaats van de waarde voor sommige onderdelen van deze functie omdat u het nummer nodig hebt en niet de vriendschappelijke naam.<br/> Ondersteunde tekenreeksonderdelen zijn: `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'`, of `'MINUTE'` . |
+| [&#x200B; Datum (beknot) &#x200B;](https://spark.apache.org/docs/latest/api/sql/index.html#date_trunc) | ``SELECT DATE_TRUNC('quarter', `timestamp`)`` | Genereer een dynamische dimensie-id op het veld dat wordt doorgegeven.<br/> Ondersteunde tekenreeksgranulariteit is: `'YEAR'`, `'Y'`, `'MONTH'`, `'M'`, `'DAYOFMONTH'`, `'DAY'`, `'D'`, `'DAYOFWEEK'`, `'DOW'`, `'DAYOFYEAR'`, `'DOY'`, `'WEEK'`, `'WOY`&#39;, `'W'`, `'QUARTER'`, `'QOY'`, `'Q'`, `'HOUR'` of `'MINUTE'` . |
 
 {style="table-layout:auto"}
 

@@ -15,7 +15,7 @@ ht-degree: 7%
 
 U kunt projecten beheren en delen, of projecten verzenden als PDF- of CSV-bestanden naar ontvangers in uw organisatie of met anderen die de opties gebruiken die beschikbaar zijn in het menu **[!UICONTROL Share]** in Analysis Workspace of wanneer u **[!UICONTROL Share]** rechtsboven in de interface selecteert.
 
-![ de opties van het Aandeel ](assets/share-options.png)
+![&#x200B; de opties van het Aandeel &#x200B;](assets/share-options.png)
 
 | Optie | Beschrijving |
 |---|---|

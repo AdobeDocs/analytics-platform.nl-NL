@@ -21,7 +21,7 @@ Afhankelijk van de in het verslag gebruikte datum van granulariteit worden drie 
 
 Voor dagelijkse granularity- rapporten, overweegt het algoritme verscheidene belangrijke factoren om de nauwkeurigste mogelijke resultaten te leveren. Ten eerste bepaalt het algoritme welk type model moet worden toegepast op basis van beschikbare gegevens waarvan het algoritme kiest tussen een van twee klassen - een op tijdreeksen gebaseerd model of een uitbijsteringsmodel (functionele segmentering genoemd).
 
-De modelselectie van de tijdreeksen is gebaseerd op de volgende combinaties voor type van fout, trend, en seizoonaliteit (ETS) zoals die door [ wordt beschreven Hyndman et al. (2008) ](https://idp.springer.com/authorize?response_type=cookie&client_id=springerlink&redirect_uri=https%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%2F978-3-540-71918-2). Specifiek, probeert het algoritme de volgende combinaties:
+De modelselectie van de tijdreeksen is gebaseerd op de volgende combinaties voor type van fout, trend, en seizoonaliteit (ETS) zoals die door [&#x200B; wordt beschreven Hyndman et al. (2008) &#x200B;](https://idp.springer.com/authorize?response_type=cookie&client_id=springerlink&redirect_uri=https%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%2F978-3-540-71918-2). Specifiek, probeert het algoritme de volgende combinaties:
 
 1. ANA (additieve fout, geen trend, additieve seizoensgebondenheid)
 1. AAA (additieve fout, additieve trend, additieve seizoensgebondenheid)
@@ -56,7 +56,7 @@ Zodra het model is geselecteerd en de feestdagen zijn geïdentificeerd in de rap
 
 U ziet de dramatische verbetering van de prestaties op kerstdag en Nieuwjaarsdag in het volgende voorbeeld:
 
-![ twee lijngrafieken die prestatiesveranderingen met en zonder vakantieprestaties tonen.](assets/anomaly_statistics.png)
+![&#x200B; twee lijngrafieken die prestatiesveranderingen met en zonder vakantieprestaties tonen.](assets/anomaly_statistics.png)
 
 ## Anomaly-detectie voor korrelvormigheid per uur
 

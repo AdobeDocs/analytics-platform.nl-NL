@@ -27,10 +27,10 @@ Voor dit gebruiksgeval gelden twee vereisten:
 
 Voor dit gebruik is een speciaal schemaveld vereist om gegevens naar te verzenden. U kunt dit gebied in om het even welke gewenste plaats in uw schema tot stand brengen en het noemen wat u wilt. Er worden voorbeeldwaarden gegeven als uw organisatie geen voorkeur op naam of locatie heeft.
 
-1. Login aan [ experience.adobe.com ](https://experience.adobe.com).
+1. Login aan [&#x200B; experience.adobe.com &#x200B;](https://experience.adobe.com).
 1. Ga naar **[!UICONTROL Data Collection]** > **[!UICONTROL Schemas]**.
 1. Selecteer het gewenste schema in de lijst.
-1. Selecteer ![ voeg gebiedspictogram ](/help/assets/icons/AddCircle.svg) naast het gewenste voorwerp toe. Bijvoorbeeld naast `Implementation Details` .
+1. Selecteer ![&#x200B; voeg gebiedspictogram &#x200B;](/help/assets/icons/AddCircle.svg) naast het gewenste voorwerp toe. Bijvoorbeeld naast `Implementation Details` .
 1. Typ rechts in het scherm de gewenste waarde [!UICONTROL Name] . Bijvoorbeeld `qmErrorName` .
 1. Voer het gewenste [!UICONTROL Display name] in. Bijvoorbeeld `Quantum Metric error name` .
 1. Selecteer [!UICONTROL Type] als **[!UICONTROL String]** .
@@ -38,7 +38,7 @@ Voor dit gebruik is een speciaal schemaveld vereist om gegevens naar te verzende
 
 ## Stap 2: Leg wrijvingsgebeurtenissen vast met de metrische tagextensie Quantum
 
-Zie [ Metrische uitbreiding van het Quantum ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/analytics/quantum-metric) in de gids van de Doelen van Adobe Experience Platform voor instructies op hoe te opstelling uw markeringen om Metrische gegevens van het Quantum te omvatten. Het gebruik van deze uitbreiding gaat meer rijen in een bestaande dataset over.
+Zie [&#x200B; Metrische uitbreiding van het Quantum &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/analytics/quantum-metric) in de gids van de Doelen van Adobe Experience Platform voor instructies op hoe te opstelling uw markeringen om Metrische gegevens van het Quantum te omvatten. Het gebruik van deze uitbreiding gaat meer rijen in een bestaande dataset over.
 
 Gebruik labels in de gegevensverzameling van Adobe Experience Platform om de naam van de wrijvingsgebeurtenis handmatig in te stellen, zodat deze in het XDM-object kan worden opgenomen en geanalyseerd. Één manier om dit te doen is in de de douanecode van de regel:
 
@@ -49,31 +49,31 @@ return true;
 
 Voeg vervolgens het dynamisch ingestelde gegevenselement toe aan uw XDM-object:
 
-![ het schermschot van de de foutennaam van het Quantum Metrische ](assets/error-name.png)
+![&#x200B; het schermschot van de de foutennaam van het Quantum Metrische &#x200B;](assets/error-name.png)
 
 ## Stap 3: voeg één of meerdere afmetingen en metriek aan de gegevensmening in Customer Journey Analytics toe
 
 Bewerk de bestaande gegevensweergave om de sessie-id toe te voegen als een beschikbare dimensie in Customer Journey Analytics.
 
-1. Login aan [ experience.adobe.com ](https://experience.adobe.com).
+1. Login aan [&#x200B; experience.adobe.com &#x200B;](https://experience.adobe.com).
 1. Navigeer naar Customer Journey Analytics en selecteer **[!UICONTROL Data views]** (optioneel vanuit **[!UICONTROL Data management]** ) in het bovenste menu.
 1. Selecteer de gewenste bestaande gegevensweergave.
 1. Zoek de lijst met het gebeurtenisveld Quantum Metric friction aan de linkerkant en sleep deze naar het meetgebied in het midden.
-1. In de juiste ruit, plaats [ omvatten/uitsluiten waarden ](/help/data-views/component-settings/include-exclude-values.md) het plaatsen aan de gewenste wrijvingsgebeurtenissen die u wilt volgen. U kunt veelvoudige wrijvingsgebeurtenissen aan zelfde metrisch toevoegen om hen te combineren. U kunt ook een andere kopie van het veld wrijvingsgebeurtenissen naar het metrische gebied slepen om andere wrijvingsgebeurtenissen als een aparte metrische waarde bij te houden.
+1. In de juiste ruit, plaats [&#x200B; omvatten/uitsluiten waarden &#x200B;](/help/data-views/component-settings/include-exclude-values.md) het plaatsen aan de gewenste wrijvingsgebeurtenissen die u wilt volgen. U kunt veelvoudige wrijvingsgebeurtenissen aan zelfde metrisch toevoegen om hen te combineren. U kunt ook een andere kopie van het veld wrijvingsgebeurtenissen naar het metrische gebied slepen om andere wrijvingsgebeurtenissen als een aparte metrische waarde bij te houden.
 1. Klik op **[!UICONTROL Save]** als u alle gewenste afmetingen en metriek hebt gemaakt.
-1. Raadpleeg de documentatie bij Quantum Metric voor een volledige lijst met foutgebeurtenissen. Als u extra vragen hebt, contacteer uw Metrische vertegenwoordiger van de klantensteun van Quantum of voorleg een verzoek door het [ Metrische Portaal van het Verzoek van de Klant van Quantum Metrische ](https://community.quantummetric.com/s/public-support-page).
+1. Raadpleeg de documentatie bij Quantum Metric voor een volledige lijst met foutgebeurtenissen. Als u extra vragen hebt, contacteer uw Metrische vertegenwoordiger van de klantensteun van Quantum of voorleg een verzoek door het [&#x200B; Metrische Portaal van het Verzoek van de Klant van Quantum Metrische &#x200B;](https://community.quantummetric.com/s/public-support-page).
 
 ## Stap 4: Gebruik de dimensie en metriek met de rest van uw gegevens in Analysis Workspace
 
 Met Quantum Metric friction-gebeurtenisgegevens die naast de overige bezoekersgegevens worden verzameld, kunt u ze precies gebruiken zoals u dat zou doen met andere maten of metrische gegevens in Customer Journey Analytics.
 
-1. Login aan [ experience.adobe.com ](https://experience.adobe.com).
+1. Login aan [&#x200B; experience.adobe.com &#x200B;](https://experience.adobe.com).
 1. Navigeer naar Customer Journey Analytics en selecteer **[!UICONTROL Workspace]** in het bovenste menu.
 1. Selecteer een bestaand project of maak een project.
-1. Creeer de lijst van de a [ Vrije vorm ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+1. Creeer de lijst van de a [&#x200B; Vrije vorm &#x200B;](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md).
 1. Sleep de gewenste afmetingen en afmetingen naar het Workspace-canvas voor analyse.
 
-![ Grafiek van de Wrijving ](assets/friction-graph.png)
+![&#x200B; Grafiek van de Wrijving &#x200B;](assets/friction-graph.png)
 
 Mogelijke analytische ideeën zijn:
 

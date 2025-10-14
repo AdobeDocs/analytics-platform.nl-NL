@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Projecten toevoegen aan of verplaatsen naar mappen
 
-U kunt projecten aan een omslag van de [ lijst van het Project ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) direct toevoegen of verplaatsen.
+U kunt projecten aan een omslag van de [&#x200B; lijst van het Project &#x200B;](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) direct toevoegen of verplaatsen.
 
 ## Projecten naar een map verplaatsen
 
@@ -23,15 +23,15 @@ U kunt projecten aan een omslag van de [ lijst van het Project ](/help/analysis-
 >Wanneer een beheerder een project naar de Omslag van het Bedrijf verplaatst, wordt de omslag gedeeld met iedereen zelfs als de bestaande gedeelde voorrechten beperkt zijn. Wanneer een beheerder een project uit de Omslag van het Bedrijf beweegt, worden de bestaande gedeelde voorrechten opnieuw toegepast.
 >
 
-Om projecten naar een omslag van de [ lijst van het Project ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) te bewegen:
+Om projecten naar een omslag van de [&#x200B; lijst van het Project &#x200B;](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) te bewegen:
 
-1. Selecteer ![ SelectBox ](/help/assets/icons/SelectBox.svg) één of meerdere projecten die u naar een omslag wilt bewegen.
+1. Selecteer ![&#x200B; SelectBox &#x200B;](/help/assets/icons/SelectBox.svg) één of meerdere projecten die u naar een omslag wilt bewegen.
 
-1. Selecteer ![ FolderAddTo ](/help/assets/icons/FolderAddTo.svg) **Beweging aan** van de lijst van mogelijke [ acties ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions). Het dialoogvenster **[!UICONTROL Select Folder]** wordt weergegeven.
+1. Selecteer ![&#x200B; FolderAddTo &#x200B;](/help/assets/icons/FolderAddTo.svg) **Beweging aan** van de lijst van mogelijke [&#x200B; acties &#x200B;](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions). Het dialoogvenster **[!UICONTROL Select Folder]** wordt weergegeven.
 
 1. Selecteer een mapnaam in het vervolgkeuzemenu **[!UICONTROL Folder]** . In het vervolgkeuzemenu kunt u de maphiërarchie doorlopen om een submap op elk niveau te selecteren.
 
-   ![ de Uitgezochte mening van de Omslag die het drop-down menu en beschikbare subfolders toont.](/help/analysis-workspace/build-workspace-project/assets/add-projects.png)
+   ![&#x200B; de Uitgezochte mening van de Omslag die het drop-down menu en beschikbare subfolders toont.](/help/analysis-workspace/build-workspace-project/assets/add-projects.png)
 
 1. Selecteer **[!UICONTROL Move]** .
 
@@ -41,15 +41,15 @@ Om projecten naar een omslag van de [ lijst van het Project ](/help/analysis-wor
 
 ## Projecten toevoegen aan een map
 
-Om projecten aan een omslag van de [ lijst van het Project ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) toe te voegen:
+Om projecten aan een omslag van de [&#x200B; lijst van het Project &#x200B;](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) toe te voegen:
 
-1. Selecteer ![ SelectBox ](/help/assets/icons/SelectBox.svg) de omslag die u projecten aan wilt toevoegen.
+1. Selecteer ![&#x200B; SelectBox &#x200B;](/help/assets/icons/SelectBox.svg) de omslag die u projecten aan wilt toevoegen.
 
-1. Selecteer ![ ProjectAdd ](/help/assets/icons/ProjectAdd.svg) **Projecten** van de lijst van mogelijke [ acties ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions) toevoegen. Het dialoogvenster **[!UICONTROL Select Folder]** wordt weergegeven.
+1. Selecteer ![&#x200B; ProjectAdd &#x200B;](/help/assets/icons/ProjectAdd.svg) **Projecten** van de lijst van mogelijke [&#x200B; acties &#x200B;](/help/analysis-workspace/build-workspace-project/freeform-overview.md#actions) toevoegen. Het dialoogvenster **[!UICONTROL Select Folder]** wordt weergegeven.
 
 1. Selecteer één of meerdere projecten van [!UICONTROL *Uitgezochte projecten om aan omslag*] toe te voegen.
 
-   ![ de Uitgezochte mening van de Omslag die het drop-down menu en beschikbare subfolders toont.](/help/analysis-workspace/build-workspace-project/assets/add-projects-folder.png)
+   ![&#x200B; de Uitgezochte mening van de Omslag die het drop-down menu en beschikbare subfolders toont.](/help/analysis-workspace/build-workspace-project/assets/add-projects-folder.png)
 
 1. Selecteer **[!UICONTROL Add]** .
 

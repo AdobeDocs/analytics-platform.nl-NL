@@ -30,12 +30,12 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van de Stroom in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [ Stroom ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert de visualisatie van de Stroom in_ ![&#x200B; CustomerJourneyAnalytics &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [&#x200B; Stroom &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/visualizations/flow/flow) voor_ ![&#x200B; AdobeAnalytics &#x200B;](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
 
-De ![ GraphPathing ](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Flow]** visualisatie toont klantenwegen door uw websites en apps.
+De ![&#x200B; GraphPathing &#x200B;](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Flow]** visualisatie toont klantenwegen door uw websites en apps.
 
 Met de visualisatie kunt u:
 
@@ -46,7 +46,7 @@ Met de visualisatie kunt u:
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ een stroomvisualisatie ](https://video.tv.adobe.com/v/346063/?quality=12&learn=on){target="_blank"} voor een demo video creëren.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; een stroomvisualisatie &#x200B;](https://video.tv.adobe.com/v/346063/?quality=12&learn=on){target="_blank"} voor een demo video creëren.
 
 {{videoaa}}
 
@@ -55,18 +55,18 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ een stroomvis
 
 ## Interdimensionale stromen
 
-U kunt de [ stroom tussen afmetingen ](/help/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md) tonen. U kunt bijvoorbeeld pagina&#39;s en afdelingen in één diagram combineren. In dit geval, zou uw stroom van de homepage, naar de pagina van Mannen, dan naar de afdeling van Schoenen kunnen gaan.
+U kunt de [&#x200B; stroom tussen afmetingen &#x200B;](/help/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md) tonen. U kunt bijvoorbeeld pagina&#39;s en afdelingen in één diagram combineren. In dit geval, zou uw stroom van de homepage, naar de pagina van Mannen, dan naar de afdeling van Schoenen kunnen gaan.
 
 Elke kolom kan een andere dimensie hebben. Sleep een afmeting en daling in een dalingsstreek om die afmeting aan het diagram toe te voegen.
 
 >[!MORELIKETHIS]
 >
->[ vorm een stroomvisualisatie ](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
+>[&#x200B; vorm een stroomvisualisatie &#x200B;](/help/analysis-workspace/visualizations/c-flow/create-flow.md).
 >
 
 ## Kies tussen de visualisaties voor vloeiend, uitvalbaar of reiscanvas
 
-De visualisatie van de Stroom heeft gelijkenissen met de [ visualisatie van de Uitval ](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) en de [ visualisatie van het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md), maar met belangrijke verschillen.
+De visualisatie van de Stroom heeft gelijkenissen met de [&#x200B; visualisatie van de Uitval &#x200B;](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) en de [&#x200B; visualisatie van het canvas van de Reis &#x200B;](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md), maar met belangrijke verschillen.
 
 ### De verschillen begrijpen
 
@@ -82,4 +82,4 @@ Stroomvisualisaties zijn het meest geschikt voor:
 
 * Niet-lineaire ritten met meerdere toegangspunten en paden. (Gebruik het canvas Reis voor reizen met een vooraf gedefinieerde reeks pagina&#39;s.)
 
-Gebruik [ de lijst hierboven ](#understand-the-differences) om de verschillen tussen Stroom, Vallout, en het canvas van de Reis te begrijpen.
+Gebruik [&#x200B; de lijst hierboven &#x200B;](#understand-the-differences) om de verschillen tussen Stroom, Vallout, en het canvas van de Reis te begrijpen.

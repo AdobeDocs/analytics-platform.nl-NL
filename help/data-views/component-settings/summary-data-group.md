@@ -36,16 +36,16 @@ ht-degree: 0%
 
 Een summiere gegevensgroep leidt tot een vereniging tussen alle dimensies in de groepering en gebruikt om dimensies van summiere datasets met andere dimensies voor het melden te combineren.
 
-![ Summiere de componentenmontages van de gegevensgroep ](/help/data-views/assets/summary-data-group.png)
+![&#x200B; Summiere de componentenmontages van de gegevensgroep &#x200B;](/help/data-views/assets/summary-data-group.png)
 
 Een groep dimensies maken:
 
 1. Selecteer een dimensie.
-1. Selecteer ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Summary data group]**.
+1. Selecteer ![&#x200B; ChevronDown &#x200B;](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Summary data group]**.
 1. Schakel **[!UICONTROL Create grouping]** in.
 1. Selecteer in het keuzemenu **[!UICONTROL Dimension]** een dimensie die u wilt groeperen met de geselecteerde dimensie in de eerste stap. Merk op dat slechts de dimensies u reeds aan de gegevensmening hebt toegevoegd beschikbaar zijn van het drop-down menu.
-1. Schakel **[!UICONTROL Hide in reporting]** desgewenst in om de gegroepeerde dimensie te verbergen voor rapportage. Als u deze optie inschakelt, is dit vergelijkbaar met het afzonderlijk configureren van **[!UICONTROL Hide in reporting]** voor de gegroepeerde dimensie. Zie [ montages van de Component ](overview.md) voor meer informatie.
-1. Naar keuze, om extra dimensies aan de groepering toe te voegen, ![ voegt toe ](/help/assets/icons/Add.svg) **[!UICONTROL Add dimension to group]**.<br/> u kunt tot negen dimensies toevoegen, aangezien een summiere gegevensgroep een grens van tien dimensies heeft.
+1. Schakel **[!UICONTROL Hide in reporting]** desgewenst in om de gegroepeerde dimensie te verbergen voor rapportage. Als u deze optie inschakelt, is dit vergelijkbaar met het afzonderlijk configureren van **[!UICONTROL Hide in reporting]** voor de gegroepeerde dimensie. Zie [&#x200B; montages van de Component &#x200B;](overview.md) voor meer informatie.
+1. Naar keuze, om extra dimensies aan de groepering toe te voegen, ![&#x200B; voegt toe &#x200B;](/help/assets/icons/Add.svg) **[!UICONTROL Add dimension to group]**.<br/> u kunt tot negen dimensies toevoegen, aangezien een summiere gegevensgroep een grens van tien dimensies heeft.
 
 ## Zelfde componentinstellingen
 

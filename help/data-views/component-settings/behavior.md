@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Gedraginstellingen zijn zowel voor afmetingen als voor metriek beschikbaar. De beschikbaarheid van instellingen is afhankelijk van het gegevenstype van de component en het schema.
 
-![ montages van het Gedrag ](../assets/behavior-settings.png)
+![&#x200B; montages van het Gedrag &#x200B;](../assets/behavior-settings.png)
 
 ## Dimension-gedragsinstellingen
 
@@ -40,7 +40,7 @@ Gedraginstellingen zijn zowel voor afmetingen als voor metriek beschikbaar. De b
 >
 >Als u [!UICONTROL Lower case] op een dimensie van een raadplegingsdataset toelaat, kunnen de veelvoudige raadplegingswaarden voor het zelfde herkenningsteken bestaan. Als dit conflict optreedt, gebruikt Customer Journey Analytics de eerste ASCII-gesorteerde waarde (hoofdletters staan voor waarden in kleine letters). Adobe raadt u af opzoekgegevenssets te gebruiken die dezelfde waarde bevatten wanneer [!UICONTROL Lower case] is ingeschakeld.
 
-![ case-sensitive afmeting ](../assets/case-sens-workspace.png)
+![&#x200B; case-sensitive afmeting &#x200B;](../assets/case-sens-workspace.png)
 
 ## Instellingen voor metrisch gedrag
 

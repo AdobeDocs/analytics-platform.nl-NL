@@ -48,7 +48,7 @@ De gevallen van het gebruik voor deze analyse omvatten:
 
 ## Interface
 
-Zie [ Interface ](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
+Zie [&#x200B; Interface &#x200B;](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
 
 ### Query-rail
 

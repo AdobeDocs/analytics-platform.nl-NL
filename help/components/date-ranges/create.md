@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Iedereen kan een aangepast datumbereik maken. U kunt op de volgende manieren een datumbereik maken:
 
-![ creeer een aantekening ](assets/create-date-range.png)
+![&#x200B; creeer een aantekening &#x200B;](assets/create-date-range.png)
 
-* **A** - in de belangrijkste interface, selecteer **[!UICONTROL Components]** en selecteer **[!UICONTROL Date range]**. Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** van de [[!UICONTROL Date range] manager ](/help/components/date-ranges/manage.md).
+* **A** - in de belangrijkste interface, selecteer **[!UICONTROL Components]** en selecteer **[!UICONTROL Date range]**. Selecteer ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** van de [[!UICONTROL Date range] manager &#x200B;](/help/components/date-ranges/manage.md).
 * **B** - in een project van Workspace, van het contextmenu in een visualisatie, uitgezochte **[!UICONTROL Custom date range to this date range]**.
 * **C** - in een project van Workspace, selecteer **[!UICONTROL Components]** van het menu, en selecteer **[!UICONTROL Create date range]**
 * **D** - in een project van Workspace, gebruik de kortere weg **[!UICONTROL ctrl+shift+d]** (Vensters) of **[!UICONTROL shift+command+d]** (macOS).
-* **E** - in een project van Workspace, van het linkerpaneel van Componenten, uitgezocht ![ ](/help/assets/icons/Add.svg) bij ![ Kalender ](/help/assets/icons/Calendar.svg) **de waaiers van de Datum** toevoegt.
+* **E** - in een project van Workspace, van het linkerpaneel van Componenten, uitgezocht ![&#x200B; &#x200B;](/help/assets/icons/Add.svg) bij ![&#x200B; Kalender &#x200B;](/help/assets/icons/Calendar.svg) **de waaiers van de Datum** toevoegt.
 * **F** - in gesteunde visualisatie, als lijnvisualisatie, van het contextmenu op een gegevenspunt, uitgezochte **[!UICONTROL Annotate Selection]**.
 
 Als u de annotatie wilt definiëren, gebruikt u de instructie [[!UICONTROL Date range builder]](#annotation-builder) .
@@ -48,12 +48,12 @@ Als u de annotatie wilt definiëren, gebruikt u de instructie [[!UICONTROL Date 
 
 Het dialoogvenster **[!UICONTROL New date range]** of **[!UICONTROL Edit date range]** wordt gebruikt om nieuwe datumbereiken te maken of bestaande datumbereiken te bewerken.
 
-![ het venster van de details van de Annotatie die gebieden en opties tonen in de volgende sectie worden beschreven.](assets/edit-date-range.png)
+![&#x200B; het venster van de details van de Annotatie die gebieden en opties tonen in de volgende sectie worden beschreven.](assets/edit-date-range.png)
 
 
 1. Geef een **[!UICONTROL Title]** voor het datumbereik op. Bijvoorbeeld **[!UICONTROL Quarterly]** .
 1. Geef desgewenst een **[!UICONTROL Description]** op.
-1. Organiseer het segment door een of meer **[!UICONTROL Tags]** te maken of toe te passen. Begin te typen om naar bestaande tags te zoeken die u kunt selecteren. Of druk op **[!UICONTROL ENTER]** om een nieuwe tag toe te voegen. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om een markering te verwijderen. |
+1. Organiseer het segment door een of meer **[!UICONTROL Tags]** te maken of toe te passen. Begin te typen om naar bestaande tags te zoeken die u kunt selecteren. Of druk op **[!UICONTROL ENTER]** om een nieuwe tag toe te voegen. Selecteer ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg) om een markering te verwijderen. |
 1. Selecteer een **[!UICONTROL Date Range]** door eerst de begindatum en vervolgens de einddatum te selecteren.
 Alternatief, kunt u a **[!UICONTROL Preset]** van [!UICONTROL *selecteren vooraf ingesteld*] drop-down menu.
 
@@ -64,7 +64,7 @@ Alternatief, kunt u a **[!UICONTROL Preset]** van [!UICONTROL *selecteren vooraf
 
      U kunt de tekst tussen haakjes selecteren (bijvoorbeeld **[!UICONTROL fixed start - rolling quarterly]** ) om het deelvenster uit te breiden en details voor **[!UICONTROL Start]** en **[!UICONTROL End]** op te geven.
 
-     ![ de datums van het Rollinf ](assets/rolliing-dates.png)
+     ![&#x200B; de datums van het Rollinf &#x200B;](assets/rolliing-dates.png)
 
       1. Selecteer **[!UICONTROL Start of]**, **[!UICONTROL End of]** of **[!UICONTROL Fixed day]** .
       1. Wanneer u **[!UICONTROL Start of]** of **[!UICONTROL End of]** hebt geselecteerd, kunt u een volledige expressie maken. Bijvoorbeeld: **[!UICONTROL End of]** **[!UICONTROL current quarter]** **[!UICONTROL minus]** `20` **[!UICONTROL days]** . Kies de juiste waarde voor elk afzonderlijk deel van de expressie.

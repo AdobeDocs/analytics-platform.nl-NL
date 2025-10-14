@@ -19,18 +19,18 @@ Customer Journey Analytics-beheerders kunnen beschrijvingen voor componenten (af
 
 ## Gegevens, weergave
 
-U kunt een beschrijving toevoegen aan een component die u aan de gegevensweergave hebt toegevoegd. Zie [ montages van de Component ](/help/data-views/component-settings/overview.md).
+U kunt een beschrijving toevoegen aan een component die u aan de gegevensweergave hebt toegevoegd. Zie [&#x200B; montages van de Component &#x200B;](/help/data-views/component-settings/overview.md).
 
 ## Gegevenswoordenboek
 
 Met het gegevenswoordenboek in Analysis Workspace kunnen gebruikers en beheerders de componenten in hun Customer Journey Analytics-omgeving volgen en beter begrijpen. In het gegevenswoordenboek kunnen beheerders componentbeschrijvingen rechtstreeks in Analysis Workspace toevoegen.
 
-Voor informatie over het toevoegen van een componentenbeschrijving in het gegevenswoordenboek, zie [ componenteningangen in het Woordenboek van Gegevens ](/help/components/data-dictionary/edit-entries-data-dictionary.md) uitgeven.
+Voor informatie over het toevoegen van een componentenbeschrijving in het gegevenswoordenboek, zie [&#x200B; componenteningangen in het Woordenboek van Gegevens &#x200B;](/help/components/data-dictionary/edit-entries-data-dictionary.md) uitgeven.
 
-Voor algemene informatie over het Woordenboek van Gegevens, zie het [ overzicht van het Woordenboek van Gegevens ](/help/components/data-dictionary/data-dictionary-overview.md).
+Voor algemene informatie over het Woordenboek van Gegevens, zie het [&#x200B; overzicht van het Woordenboek van Gegevens &#x200B;](/help/components/data-dictionary/data-dictionary-overview.md).
 
 >[!MORELIKETHIS]
 >
->[ de montages van de meningscomponent van Gegevens ](/help/data-views/component-settings/overview.md)
->&#x200B;>[Items van gegevenswoordenboekcomponenten ](/help/components/data-dictionary/edit-entries-data-dictionary.md)
+>[&#x200B; de montages van de meningscomponent van Gegevens &#x200B;](/help/data-views/component-settings/overview.md)
+>&#x200B;>[Items van gegevenswoordenboekcomponenten &#x200B;](/help/components/data-dictionary/edit-entries-data-dictionary.md)
 >

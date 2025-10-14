@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Rapportsets combineren met verschillende schema&#39;s
 
-De [ bron van Analytics schakelaar ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=nl-NL) brengt de gegevens van de rapportreeks van Adobe Analytics in Adobe Experience Platform voor gebruik door de toepassingen van Adobe Experience Platform, zoals Real-time Customer Data Platform en Customer Journey Analytics (Customer Journey Analytics). Elke rapportreeks die in Adobe Experience Platform wordt gebracht wordt gevormd als individuele gegevensstroom van de bronverbinding, en elk dataflow land als dataset binnen het de gegevensmeer van Adobe Experience Platform. De bronschakelaar van de Analyse leidt tot één dataset per rapportreeks.
+De [&#x200B; bron van Analytics schakelaar &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=nl-NL) brengt de gegevens van de rapportreeks van Adobe Analytics in Adobe Experience Platform voor gebruik door de toepassingen van Adobe Experience Platform, zoals Real-time Customer Data Platform en Customer Journey Analytics (Customer Journey Analytics). Elke rapportreeks die in Adobe Experience Platform wordt gebracht wordt gevormd als individuele gegevensstroom van de bronverbinding, en elk dataflow land als dataset binnen het de gegevensmeer van Adobe Experience Platform. De bronschakelaar van de Analyse leidt tot één dataset per rapportreeks.
 
-De klanten van de Customer Journey Analytics gebruiken [ verbindingen ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=nl-NL) om datasets van het de gegevensmeer van Adobe Experience Platform in Customer Journey Analytics Analysis Workspace te integreren. Nochtans, wanneer het combineren van rapportsuites binnen een verbinding, schemaverschillen tussen rapportsuites moeten worden opgelost gebruikend de 1&rbrace; functionaliteit van de Prep van de Gegevens van Adobe Experience Platform [ &lbrace;. ](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=nl-NL) Het doel is ervoor te zorgen dat Adobe Analytics-variabelen zoals props en eVars een consistente betekenis hebben in de Customer Journey Analytics.
+De klanten van de Customer Journey Analytics gebruiken [&#x200B; verbindingen &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=nl-NL) om datasets van het de gegevensmeer van Adobe Experience Platform in Customer Journey Analytics Analysis Workspace te integreren. Nochtans, wanneer het combineren van rapportsuites binnen een verbinding, schemaverschillen tussen rapportsuites moeten worden opgelost gebruikend de 1&rbrace; functionaliteit van de Prep van de Gegevens van Adobe Experience Platform [&#x200B; &lbrace;. &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=nl-NL) Het doel is ervoor te zorgen dat Adobe Analytics-variabelen zoals props en eVars een consistente betekenis hebben in de Customer Journey Analytics.
 
 ## Schemaverschillen tussen rapportsuites zijn problematisch
 
@@ -32,8 +32,8 @@ Stel dat u de volgende handelingen uitvoert:
 
 - Creeer een Analytics bronverbinding (zonder gebruik van gegevens prep) die **Reeks A van het Rapport** in het gegevensmeer van Adobe Experience Platform opneemt aangezien **Dataset A**.
 - Creeer een Analytics bronverbinding (zonder gebruik van gegevens prep) die **Reeks B van het Rapport** in het gegevensmeer van Adobe Experience Platform opneemt aangezien **Dataset B**.
-- Creeer de verbinding van de a [ Customer Journey Analytics ](/help/connections/create-connection.md) geroepen **Alle Reeksen van het Rapport** die Dataset A en Dataset B. combineert.
-- Creeer de mening van de a [ gegevens van de Customer Journey Analytics ](/help/data-views/create-dataview.md) geroepen **Globale Mening** die op de Al verbinding van de Reeksen van het Rapport gebaseerd is.
+- Creeer de verbinding van de a [&#x200B; Customer Journey Analytics &#x200B;](/help/connections/create-connection.md) geroepen **Alle Reeksen van het Rapport** die Dataset A en Dataset B. combineert.
+- Creeer de mening van de a [&#x200B; gegevens van de Customer Journey Analytics &#x200B;](/help/data-views/create-dataview.md) geroepen **Globale Mening** die op de Al verbinding van de Reeksen van het Rapport gebaseerd is.
 
 Zonder het gebruik van Prep van Gegevens om de schemaverschillen tussen Dataset A en Dataset B op te lossen, zullen eVars in de Globale mening gegevensmening een mengeling van waarden bevatten:
 
@@ -52,14 +52,14 @@ Deze situatie leidt tot betekenisloze rapporten voor eVar1 en eVar2:
 
 De functionaliteit van de Prep van Gegevens van het Experience Platform is geïntegreerd met de de bronschakelaar van de Analyse en kan worden gebruikt om de schemaverschillen op te lossen die in het bovenstaande scenario worden beschreven. Dit resulteert in eVars met verenigbare betekenissen in de de gegevensmening van de Customer Journey Analytics. (De naamgevingsconventies die hieronder worden gebruikt, kunnen naar wens worden aangepast.)
 
-1. Alvorens de bronverbindingsdataflows voor de Reeks van het Rapport A en de Reeks B van het Rapport tot stand te brengen, [ creeer een nieuw schema ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=nl-NL) in Adobe Experience Platform (wij zullen het **Verenigd Schema** in ons voorbeeld roepen.) Voeg het volgende toe aan het schema:
+1. Alvorens de bronverbindingsdataflows voor de Reeks van het Rapport A en de Reeks B van het Rapport tot stand te brengen, [&#x200B; creeer een nieuw schema &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=nl-NL) in Adobe Experience Platform (wij zullen het **Verenigd Schema** in ons voorbeeld roepen.) Voeg het volgende toe aan het schema:
 
    | &quot;Unified Schema&quot; |
    | --- |
    | **XDM ExperienceEvent** klasse |
    | **Adobe Analytics ExperienceEvent Malplaatje** gebiedsgroep |
 
-1. Voeg een andere gebiedsgroep aan het schema toe of [ creeer een groep van het douanegebied ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=nl-NL#:~:text=To%20create%20a%20new%20field,section%20in%20the%20left%20rail) en voeg het aan het schema toe. Wij zullen een nieuwe gebiedsgroep tot stand brengen en het **Verenigde Gebieden** roepen. Vervolgens voegen we de volgende velden toe aan de nieuwe veldgroep:
+1. Voeg een andere gebiedsgroep aan het schema toe of [&#x200B; creeer een groep van het douanegebied &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=nl-NL#:~:text=To%20create%20a%20new%20field,section%20in%20the%20left%20rail) en voeg het aan het schema toe. Wij zullen een nieuwe gebiedsgroep tot stand brengen en het **Verenigde Gebieden** roepen. Vervolgens voegen we de volgende velden toe aan de nieuwe veldgroep:
 
    | Aangepaste veldgroep &quot;Verenigde velden&quot;  |
    | --- |

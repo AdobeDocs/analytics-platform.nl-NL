@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Door de geavanceerde technologieën in het onder toezicht houden van machine het leren en diep leren te gebruiken, staat de Persoonlijke optimalisering een bedrijfsgebruiker (marktleider) toe om bedrijfsdoelstellingen te bepalen en hun klantengegevens te gebruiken om zaken-georiënteerde modellen op te leiden om gepersonaliseerde aanbiedingen te dienen en KPIs te maximaliseren.
 
-1. Volg de informatie in [ Gepersonaliseerd optimaliseringsmodel ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/personalized-optimization-model) in de Gids van Journey Optimizer.
+1. Volg de informatie in [&#x200B; Gepersonaliseerd optimaliseringsmodel &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/personalized-optimization-model) in de Gids van Journey Optimizer.
 
 {{upgrade-final-step}}
 

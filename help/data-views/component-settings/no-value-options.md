@@ -26,7 +26,7 @@ ht-degree: 0%
 
 [!UICONTROL No value options] laat u bepalen hoe Analysis Workspace situaties behandelt waar een gebeurtenis in een dataset metrisch bevat maar de afmeting geen waarde bevatte. U kunt de naam van dit dimensie-item kiezen, het geheel verbergen of het zelfs als een werkelijke waarde behandelen.
 
-![ Geen waardeopties ](../assets/no-value-options.png)
+![&#x200B; Geen waardeopties &#x200B;](../assets/no-value-options.png)
 
 ## Instellingen {#settings}
 
@@ -48,6 +48,6 @@ Wanneer u een numerieke waarde als een afmeting gebruikt, kunt u
 
 >[!MORELIKETHIS]
 >
->[ Volledige playbook voor behandeling &quot;Geen waarde&quot;in Adobe Customer Journey Analytics ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/the-complete-playbook-for-handling-no-value-in-adobe-cja/ba-p/756696#M598).
+>[&#x200B; Volledige playbook voor behandeling &quot;Geen waarde&quot;in Adobe Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/the-complete-playbook-for-handling-no-value-in-adobe-cja/ba-p/756696#M598).
 
 

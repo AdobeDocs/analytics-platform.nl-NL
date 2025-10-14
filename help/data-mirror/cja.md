@@ -28,7 +28,7 @@ Wanneer u een model-gebaseerde dataset toevoegt die gespiegelde gegevens van een
 
 ## Gegevensweergaven
 
-Definieer velden in het op een model gebaseerde schema als componenten (maateenheden en afmetingen) in de gegevensweergave. De velden met gespiegelde gegevens zijn beschikbaar in de submap **[!UICONTROL Adhoc & Model-based fields]** van de map **[!UICONTROL Event datasets]** . De functionaliteiten van het gebruik, zoals [ afgeleide gebieden ](/help/data-views/derived-fields/derived-fields.md) of [ componentenmontages ](/help/data-views/component-settings/overview.md), om de componenten te wijzigen die op model-gebaseerde gebieden gebaseerd zijn.
+Definieer velden in het op een model gebaseerde schema als componenten (maateenheden en afmetingen) in de gegevensweergave. De velden met gespiegelde gegevens zijn beschikbaar in de submap **[!UICONTROL Adhoc & Model-based fields]** van de map **[!UICONTROL Event datasets]** . De functionaliteiten van het gebruik, zoals [&#x200B; afgeleide gebieden &#x200B;](/help/data-views/derived-fields/derived-fields.md) of [&#x200B; componentenmontages &#x200B;](/help/data-views/component-settings/overview.md), om de componenten te wijzigen die op model-gebaseerde gebieden gebaseerd zijn.
 
 
 ## Workspace-projecten
@@ -37,5 +37,5 @@ Stel Workspace-projecten in die gegevens en dimensies uit uw modelgegevens gebru
 
 >[!MORELIKETHIS]
 >
->[ Data Mirror snelle startgids: Spiegel en gebruik op model-gebaseerde gegevens ](model-based.md)
+>[&#x200B; Data Mirror snelle startgids: Spiegel en gebruik op model-gebaseerde gegevens &#x200B;](model-based.md)
 >

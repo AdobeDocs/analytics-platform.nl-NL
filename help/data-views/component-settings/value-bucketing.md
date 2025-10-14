@@ -26,7 +26,7 @@ ht-degree: 1%
 
 Wanneer u een gegevensweergave maakt of bewerkt, kunt u numerieke waarden combineren op basis van een bereik. Het is alleen beschikbaar voor dimensies die de gegevenstypen Geheel getal of Dubbel schema gebruiken.
 
-![ het emmer van de Waarde ](../assets/value-bucketing.png)
+![&#x200B; het emmer van de Waarde &#x200B;](../assets/value-bucketing.png)
 
 De waarde emmer is waardevol wanneer u reeksen samen wilt groeperen in plaats van elk uniek aantal als afzonderlijk afmetingspunt te behandelen. Een emmertje van &#39;Tussen 5 en maximaal 10&#39; wordt bijvoorbeeld in Analysis Workspace weergegeven als een regelitem &#39;5 tot 10&#39;.
 

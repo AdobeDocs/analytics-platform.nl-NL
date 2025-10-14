@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Met [!UICONTROL Reporting Activity Manager] kunnen beheerders snel problemen met de rapportcapaciteit tijdens piekrapportagetijden opsporen en verhelpen.
 
-Voor meer informatie over het Melden van de Manager van de Activiteit, met inbegrip van zeer belangrijke voordelen en toestemmingsvereisten, zie [ het Overzicht van de Manager van de Activiteit ](/help/reporting-activity-manager/reporting-activity-overview.md) melden.
+Voor meer informatie over het Melden van de Manager van de Activiteit, met inbegrip van zeer belangrijke voordelen en toestemmingsvereisten, zie [&#x200B; het Overzicht van de Manager van de Activiteit &#x200B;](/help/reporting-activity-manager/reporting-activity-overview.md) melden.
 
 ## Voor alle verbindingen {#view-all-report-suites}
 
@@ -43,19 +43,19 @@ Voor meer informatie over het Melden van de Manager van de Activiteit, met inbeg
 
    Er wordt een lijst met uw ingeschakelde basisverbindingen weergegeven.
 
-   ![ het Melden van Activiteit die de rapportrij ](assets/reporting-activity1.png) toont
+   ![&#x200B; het Melden van Activiteit die de rapportrij &#x200B;](assets/reporting-activity1.png) toont
 
 1. Om het totale aantal rapportverzoeken voor alle verbindingen in uw organisatie te bekijken, breid [!UICONTROL **uit tonen meer**] om de [!UICONTROL **Maandelijkse verzoeken van het rapport**] grafiek te bekijken.
 
    U kunt het aantal rapportverzoeken binnen uw organisatie voor de huidige maand en de vorige maand bekijken.
 
-   ![ het Melden van Activiteit die de rapportrij ](assets/reporting-activity-monthly.png) toont
+   ![&#x200B; het Melden van Activiteit die de rapportrij &#x200B;](assets/reporting-activity-monthly.png) toont
 
 1. (Optioneel) U kunt de lijst met verbindingen opzoeken of filteren:
 
    * Gebruik het zoekveld om te zoeken naar een specifieke verbinding. Typ de naam of de id van de verbinding en de lijst met updates van verbindingen terwijl u typt.
 
-   * Selecteer ![ Filter ](/help/assets/icons/Filter.svg) om de lijst van segmentopties uit te breiden. U kunt door [!UICONTROL **Favorieten**] of [!UICONTROL **Status**] filtreren.
+   * Selecteer ![&#x200B; Filter &#x200B;](/help/assets/icons/Filter.svg) om de lijst van segmentopties uit te breiden. U kunt door [!UICONTROL **Favorieten**] of [!UICONTROL **Status**] filtreren.
 
      Als u een verbinding als favoriet wilt markeren, selecteert u het sterpictogram links van de naam van de verbinding.
 
@@ -109,7 +109,7 @@ Houd de cursor boven het diagram om punten in de tijd te bekijken waar het perce
 * **x-as**: De rapporteringsgebruikscapaciteit over de laatste 2 uren.
 * **y-as**: Het percentage van het rapportgebruikscapaciteit, door minuut.
 
-  ![ gebruiks grafiek ](assets/utilization-graph.png)
+  ![&#x200B; gebruiks grafiek &#x200B;](assets/utilization-graph.png)
 
 #### Afzonderlijke gebruikersgrafiek
 
@@ -120,7 +120,7 @@ Houd de cursor boven het diagram om punten in de tijd te bekijken waar het maxim
 * **x-as**: De rapporteringsactiviteit over het laatste 2 uur tijdkader.
 * **y-as**: Het aantal gebruikers die rapportageverzoeken, door minuut hebben gemaakt.
 
-  ![ de Afzonderlijke grafiek van Gebruikers ](assets/distinct-users-graph.png)
+  ![&#x200B; de Afzonderlijke grafiek van Gebruikers &#x200B;](assets/distinct-users-graph.png)
 
 #### Verzoeken om grafiek
 
@@ -131,7 +131,7 @@ Houd de cursor boven het diagram om punten in de tijd weer te geven waar het max
 * **x-as**: Het aantal verwerkte en een rij gevormde verzoeken over het laatste 2 uur tijdkader.
 * **y-as**: Het aantal verwerkte verzoeken (in groen) en een rij gevormde verzoeken (in paars), door minuut.
 
-  ![ de Afzonderlijke grafiek van Gebruikers ](assets/requests-graph.png)
+  ![&#x200B; de Afzonderlijke grafiek van Gebruikers &#x200B;](assets/requests-graph.png)
 
 #### Grafiek in wachtrij
 
@@ -142,7 +142,7 @@ Houd de cursor boven het diagram om punten in de tijd te bekijken waar de maxima
 * **x-as**: De gemiddelde rij wacht tijd voor het melden van verzoeken over het laatste een tijdkader van 2 uur.
 * **y-as**: Het gemiddelde wacht tijd (in seconden).
 
-  ![ de Afzonderlijke grafiek van Gebruikers ](assets/queueing-graph.png)
+  ![&#x200B; de Afzonderlijke grafiek van Gebruikers &#x200B;](assets/queueing-graph.png)
 
 ### Tabel weergeven {#view-table}
 
@@ -154,11 +154,11 @@ Houd rekening met het volgende wanneer u de tabel weergeeft:
 
    * Gebruik het zoekveld om te zoeken naar een specifieke verbinding. Typ de naam of de id van de verbinding en de lijst met updates van verbindingen terwijl u typt.
 
-   * Selecteer het [!UICONTROL **pictogram van de Filter**] pictogram ![ van de Filter ](assets/filter-icon.png) om de lijst van filteropties uit te breiden. U kunt door [!UICONTROL **Status**] filtreren, [!UICONTROL **Complexiteit**], [!UICONTROL **Toepassing**], [!UICONTROL **Gebruiker**], of [!UICONTROL **Project**].
+   * Selecteer het [!UICONTROL **pictogram van de Filter**] pictogram ![&#x200B; van de Filter &#x200B;](assets/filter-icon.png) om de lijst van filteropties uit te breiden. U kunt door [!UICONTROL **Status**] filtreren, [!UICONTROL **Complexiteit**], [!UICONTROL **Toepassing**], [!UICONTROL **Gebruiker**], of [!UICONTROL **Project**].
 
    * U kunt [!UICONTROL **grafieken van de Verbergen**] selecteren om slechts de lijst te tonen.
 
-![ lijstlusjes ](assets/report-activity-tabs.png)
+![&#x200B; lijstlusjes &#x200B;](assets/report-activity-tabs.png)
 
 #### Gegevens op verzoek weergeven
 

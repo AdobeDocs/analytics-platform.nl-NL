@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Net als classificatiegegevens in Adobe Analytics zijn opzoekgegevenssets de methode voor het classificeren van gegevens in Customer Journey Analytics.
 
-Wanneer het gebruiken van de Bron van Analytics schakelaar, worden sommige standaardraadplegingsdatasets automatisch toegepast in rapporttijd. Voor meer informatie, zie [ standaardraadplegingen aan uw datasets ](/help/connections/standard-lookups.md) toevoegen.
+Wanneer het gebruiken van de Bron van Analytics schakelaar, worden sommige standaardraadplegingsdatasets automatisch toegepast in rapporttijd. Voor meer informatie, zie [&#x200B; standaardraadplegingen aan uw datasets &#x200B;](/help/connections/standard-lookups.md) toevoegen.
 
 Om gegevens in Customer Journey Analytics te classificeren wanneer het gebruiken van het Web SDK van Experience Platform, moet u een douaneschema en een raadplegingsdataset voor elke dimensie tot stand brengen die gegevens bevat die u wilt classificeren.
 
@@ -43,13 +43,13 @@ Een schema maken voor gebruik met een opzoekgegevensset in Customer Journey Anal
 
 1. Selecteer **[!UICONTROL Create schema]** .
 
-   ![ creeer schemaknoop ](assets/schema-create.png)
+   ![&#x200B; creeer schemaknoop &#x200B;](assets/schema-create.png)
 
 1. Selecteer **[!UICONTROL Manual]** . Zo kunt u handmatig velden en veldgroepen aan uw schema toevoegen. Kies **[!UICONTROL Select]** om door te gaan naar de volgende pagina van de wizard voor het maken van bestanden.
 
 1. Selecteer op de pagina **[!UICONTROL Schema details]** eerst **[!UICONTROL Other]** en vervolgens **[!UICONTROL Custom]** .
 
-   ![ creeer douane ](assets/schema-custom.png)
+   ![&#x200B; creeer douane &#x200B;](assets/schema-custom.png)
 
 1. Selecteer **[!UICONTROL Create class]** .
 
@@ -57,11 +57,11 @@ Een schema maken voor gebruik met een opzoekgegevensset in Customer Journey Anal
 
 1. Geef in het dialoogvenster **[!UICONTROL Create class]** een naam en beschrijving voor het schema op, selecteer **[!UICONTROL Record]** en selecteer vervolgens **[!UICONTROL Create]** .
 
-1. Ga met [ verder creeer een raadplegingsdataset ](#create-a-lookup-dataset).
+1. Ga met [&#x200B; verder creeer een raadplegingsdataset &#x200B;](#create-a-lookup-dataset).
 
 ## Een opzoekgegevensset maken
 
-Nadat u [ een douaneschema ](#create-a-custom-schema-to-use-with-the-lookup-dataset) creeert om voor een raadplegingsdataset te gebruiken, moet u de raadplegingsdataset tot stand brengen en het in kaart brengen aan uw schema.
+Nadat u [&#x200B; een douaneschema &#x200B;](#create-a-custom-schema-to-use-with-the-lookup-dataset) creeert om voor een raadplegingsdataset te gebruiken, moet u de raadplegingsdataset tot stand brengen en het in kaart brengen aan uw schema.
 
 Herhaal dit proces voor elke dimensie die gegevens bevat die u wilt classificeren.
 
@@ -73,7 +73,7 @@ Een opzoekgegevensset maken voor gebruik met een schema in Customer Journey Anal
 
 1. Selecteer in Adobe Experience Platform **[!UICONTROL Workflows]** in de linkertrack.
 
-   ![ creeer douane ](assets/lookup-dataset-workflows.png)
+   ![&#x200B; creeer douane &#x200B;](assets/lookup-dataset-workflows.png)
 
 1. Selecteer **[!UICONTROL Map CSV to XDM schema]** en selecteer vervolgens **[!UICONTROL Launch]** .
 
@@ -81,13 +81,13 @@ Een opzoekgegevensset maken voor gebruik met een schema in Customer Journey Anal
 
 1. Geef een naam en een beschrijving voor de gegevensset op.
 
-1. Op het **[!UICONTROL Schema]** gebied, selecteer het schema dat u voor raadplegingsdatasets creeerde, zoals die in [ wordt beschreven creeer een schema voor raadplegingsdatasets ](#create-a-schema-for-lookup-datasets).
+1. Op het **[!UICONTROL Schema]** gebied, selecteer het schema dat u voor raadplegingsdatasets creeerde, zoals die in [&#x200B; wordt beschreven creeer een schema voor raadplegingsdatasets &#x200B;](#create-a-schema-for-lookup-datasets).
 
 1. Selecteer **[!UICONTROL Next]** .
 
 1. Selecteer **[!UICONTROL Upload files]** in de sectie **[!UICONTROL Map CSV to XDM schema page]** de optie **[!UICONTROL Choose files]** en blader in het bestandssysteem naar het bestand dat de classificatiegegevens bevat voor de dimensie waarvoor u classificatiegegevens wilt toepassen. Dit kan bijvoorbeeld een spreadsheet zijn met de veld-id&#39;s en de bijbehorende veldnamen. <!-- correct? How can I better explain what this file is?-->
 
-   ![ Csv- dossier van de Kaart ](assets/lookup-map-csv.png)
+   ![&#x200B; Csv- dossier van de Kaart &#x200B;](assets/lookup-map-csv.png)
 
 1. Selecteren **[!UICONTROL Next]**
 
@@ -95,15 +95,15 @@ Een opzoekgegevensset maken voor gebruik met een schema in Customer Journey Anal
 
    Het platform verstrekt automatisch intelligente aanbevelingen voor auto-in kaart gebrachte gebieden die op het doelschema of de dataset worden gebaseerd dat u selecteerde. U kunt toewijzingsregels handmatig aanpassen aan uw gebruiksgevallen.
 
-   Voor meer informatie over het toewijzingsproces, zie [ een Csv- dossier aan een bestaand schema XDM ](https://experienceleague.adobe.com/nl/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema) in de documentatie van Experience Platform in kaart brengen.
+   Voor meer informatie over het toewijzingsproces, zie [&#x200B; een Csv- dossier aan een bestaand schema XDM &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema) in de documentatie van Experience Platform in kaart brengen.
 
 1. Selecteer **[!UICONTROL Finish]** .
 
-1. Ga met [ verder toevoegen de raadplegingsdataset aan uw verbinding in Customer Journey Analytics ](#add-the-lookup-dataset-to-your-connection-in-customer-journey-analytics).
+1. Ga met [&#x200B; verder toevoegen de raadplegingsdataset aan uw verbinding in Customer Journey Analytics &#x200B;](#add-the-lookup-dataset-to-your-connection-in-customer-journey-analytics).
 
 ## De opzoekgegevensset toevoegen aan uw verbinding in Customer Journey Analytics
 
-Nadat u [ een douaneschema ](#create-a-custom-schema-to-use-with-the-lookup-dataset) creeert en u [ een raadplegingsdataset ](#create-a-lookup-dataset) creeert, moet u de raadplegingsdataset aan uw verbinding in Customer Journey Analytics toevoegen.
+Nadat u [&#x200B; een douaneschema &#x200B;](#create-a-custom-schema-to-use-with-the-lookup-dataset) creeert en u [&#x200B; een raadplegingsdataset &#x200B;](#create-a-lookup-dataset) creeert, moet u de raadplegingsdataset aan uw verbinding in Customer Journey Analytics toevoegen.
 
 Herhaal dit proces voor elke dimensie die gegevens bevat die u wilt classificeren.
 
@@ -111,7 +111,7 @@ Om de raadplegingsdataset aan uw verbinding in Customer Journey Analytics toe te
 
 1. Selecteer in Customer Journey Analytics **[!UICONTROL Connections]** (optioneel in **[!UICONTROL Data management]** ) in het bovenste menu.
 
-1. Selecteer ![ Meer pictogram ](assets/More.svg) naast de verbinding waar u de raadplegingsdataset wilt toevoegen, dan selecteren **[!UICONTROL Edit]**.
+1. Selecteer ![&#x200B; Meer pictogram &#x200B;](assets/More.svg) naast de verbinding waar u de raadplegingsdataset wilt toevoegen, dan selecteren **[!UICONTROL Edit]**.
 
    <!-- add screenshot -->
 

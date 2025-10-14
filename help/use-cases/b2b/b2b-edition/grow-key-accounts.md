@@ -23,20 +23,20 @@ Wanneer u overweegt om zeer belangrijke rekeningen door nieuwe aanschaf of behou
 
 U wilt ad-hocconversierapporten genereren en distribueren en u wilt begrijpen hoe accounts vorderen via de verkooptrechter.
 
-De [ Vallout ](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) visualisatie laat u omzetting en drop-off tarieven tussen vooraf bepaalde stappen in een opeenvolgende reis visualiseren.
+De [&#x200B; Vallout &#x200B;](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) visualisatie laat u omzetting en drop-off tarieven tussen vooraf bepaalde stappen in een opeenvolgende reis visualiseren.
 
 ### Voorbeeld
 
 U wilt de uitval van de bovenkant van de verkooptrechter (van lood tot kans) voor rekeningen zien.
 
-1. [ creeer en vorm een Vallout ](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md) visualisatie.
-1. Selecteer ![ Plaatsend ](/help/assets/icons/Setting.svg) om **[!UICONTROL Account]** als **[!UICONTROL Fallout container]** te selecteren.
+1. [&#x200B; creeer en vorm een Vallout &#x200B;](/help/analysis-workspace/visualizations/fallout/configuring-fallout.md) visualisatie.
+1. Selecteer ![&#x200B; Plaatsend &#x200B;](/help/assets/icons/Setting.svg) om **[!UICONTROL Account]** als **[!UICONTROL Fallout container]** te selecteren.
 1. Het eerste aanraakpunt moet **[!UICONTROL All Accounts]** lezen.
 1. Voeg een nieuw aanraakpunt toe: **[!UICONTROL Lead Form: Complete exists]**.
 1. Voeg een nieuw aanraakpunt toe: **[!UICONTROL Lead Generated exists]**.
 1. Voeg een nieuw aanraakpunt toe: **[!UICONTROL MQL Qualified exists]**.
 
-   ![ B2B - kweek zeer belangrijke rekeningen - de progressie van het verkoopstadium - val ](assets/b2b-uc-grow-key-accounts-fallout.png)
+   ![&#x200B; B2B - kweek zeer belangrijke rekeningen - de progressie van het verkoopstadium - val &#x200B;](assets/b2b-uc-grow-key-accounts-fallout.png)
 
 
 ## Collaboration
@@ -45,7 +45,7 @@ U wilt communicatie tussen de verkoop, de marketing, en het productteam verbeter
 
 U kunt de volgende Customer Journey Analytics B2B edition-functies gebruiken:
 
-![ B2B gebruiksgeval - kweek zeer belangrijke rekeningen - samenwerking - aandeel ](assets/b2b-uc-grow-key-accounts-share.png)
+![&#x200B; B2B gebruiksgeval - kweek zeer belangrijke rekeningen - samenwerking - aandeel &#x200B;](assets/b2b-uc-grow-key-accounts-share.png)
 
 1. [Annotaties](/help/components/annotations/overview.md)
 1. [Intelligente waarschuwingen](/help/components/c-intelligent-alerts/intelligent-alerts.md)

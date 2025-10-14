@@ -37,18 +37,18 @@ In de containers van Customer Journey Analytics worden geproduceerd als deel van
 
 Customer Journey Analytics is gebouwd rond het concept van drie containers: Persoon, Zitting, en Gebeurtenis. Tijdens een configuratie, worden deze containers impliciet geproduceerd.
 
-U kunt opnieuw bepalen hoe deze containers worden genoemd wanneer u een gegevensmening vormt maar de hiërarchie en de verhoudingen tussen de containers wordt vooraf bepaald. De container van de Zitting wordt geproduceerd gebaseerd op hoe u een zitting in de [ montages van de Zitting ](/help/data-views/session-settings.md) in uw gegevensmening bepaalt.
+U kunt opnieuw bepalen hoe deze containers worden genoemd wanneer u een gegevensmening vormt maar de hiërarchie en de verhoudingen tussen de containers wordt vooraf bepaald. De container van de Zitting wordt geproduceerd gebaseerd op hoe u een zitting in de [&#x200B; montages van de Zitting &#x200B;](/help/data-views/session-settings.md) in uw gegevensmening bepaalt.
 
-![ B2C ](assets/b2c-containers.svg){zoomable="yes"}
+![&#x200B; B2C &#x200B;](assets/b2c-containers.svg){zoomable="yes"}
 
 
 ### B2B-containers
 
 In Customer Journey Analytics B2B edition wordt een container Account toegevoegd aan de lijst met gegenereerde containers. En u hebt de optie om de generatie van extra containers, zoals Globale Rekening, het Kopen Groep, en Kans te vormen.
 
-De hiërarchie en de relaties tussen de containers zijn vooraf bepaald. Opportunity, Buying Group en Person zijn alle containers op hetzelfde niveau van de container van de account. In die hiërarchie wordt de container van de Zitting tussen de container van de Persoon en de container van de Gebeurtenis geproduceerd gebaseerd op hoe u een zitting in de [ montages van de Zitting ](/help/data-views/session-settings.md) in uw gegevensmening bepaalt. Er worden momenteel geen extra sessiecontainers gegenereerd en ondersteund, bijvoorbeeld tussen de container Account en de container Event. Zie de onderstaande tabel voor een beschrijving en het basisgebruik van de B2B-containers.
+De hiërarchie en de relaties tussen de containers zijn vooraf bepaald. Opportunity, Buying Group en Person zijn alle containers op hetzelfde niveau van de container van de account. In die hiërarchie wordt de container van de Zitting tussen de container van de Persoon en de container van de Gebeurtenis geproduceerd gebaseerd op hoe u een zitting in de [&#x200B; montages van de Zitting &#x200B;](/help/data-views/session-settings.md) in uw gegevensmening bepaalt. Er worden momenteel geen extra sessiecontainers gegenereerd en ondersteund, bijvoorbeeld tussen de container Account en de container Event. Zie de onderstaande tabel voor een beschrijving en het basisgebruik van de B2B-containers.
 
-![ B2B ](assets/b2b-containers.svg){zoomable="yes"}
+![&#x200B; B2B &#x200B;](assets/b2b-containers.svg){zoomable="yes"}
 
 | B2B-container | Beschrijving <br/> Basis gebruiksgeval |
 |---|---|
@@ -65,17 +65,17 @@ De hiërarchie en de relaties tussen de containers zijn vooraf bepaald. Opportun
 
 U kunt de B2B-containers gebruiken voor specifieke B2B-functionaliteit in Analysis Workspace:
 
-* **Segmentatie**: [ B2B segmentcontainers ](/help/components/segments/seg-overview.md#b2b-containers) staan u toe om segmenten met een containerwerkingsgebied voorbij persoon, zitting of gebeurtenis te bouwen. Bijvoorbeeld: een account met een segment voor gebeurtenisregistratie of een Amerikaanse account met inkoopgroepen en een opportuniteitssegment voor fase 5.
+* **Segmentatie**: [&#x200B; B2B segmentcontainers &#x200B;](/help/components/segments/seg-overview.md#b2b-containers) staan u toe om segmenten met een containerwerkingsgebied voorbij persoon, zitting of gebeurtenis te bouwen. Bijvoorbeeld: een account met een segment voor gebeurtenisregistratie of een Amerikaanse account met inkoopgroepen en een opportuniteitssegment voor fase 5.
 
   >[!NOTE]
   >
   >De B2B-gebeurtenisgegevens in een op een account gebaseerde setup in Customer Journey Analytics B2B edition kunnen gegevensrijen zonder persoon of sessie bevatten. Bijvoorbeeld: een rij die de voortgang van het opportuniteitsstadium aangeeft. Wanneer u uw segment evalueert, houd in mening dat de mensen en de zittingen niet meer de juiste criteria kunnen zijn.
   >
 
-* **Attributie**: U kunt de nieuwe B2B containers in [ attributiepaneel ](/help/analysis-workspace/c-panels/attribution.md), in [ montages van de attributie component ](/help/data-views/component-settings/attribution.md) gebruiken, in [ berekende metriek ](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md), of in [ kolommen in een lijst Freeform ](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md). Accountoverzichten worden verlengd tot 13 maanden.
+* **Attributie**: U kunt de nieuwe B2B containers in [&#x200B; attributiepaneel &#x200B;](/help/analysis-workspace/c-panels/attribution.md), in [&#x200B; montages van de attributie component &#x200B;](/help/data-views/component-settings/attribution.md) gebruiken, in [&#x200B; berekende metriek &#x200B;](/help/components/calc-metrics/cm-workflow/m-metric-type-alloc.md), of in [&#x200B; kolommen in een lijst Freeform &#x200B;](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md). Accountoverzichten worden verlengd tot 13 maanden.
 
-* **Visualizations**: [ Fall uit ](/help/analysis-workspace/visualizations/fallout/fallout-flow.md), [ Stroom ](/help/analysis-workspace/visualizations/c-flow/flow.md), [ het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md), en [ de lijst van de Cohort ](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) visualisaties steunen de nieuwe B2B containers. U kunt de nieuwe containers bijvoorbeeld gebruiken om te begrijpen hoe het kopen van groepen inhoud verbruikt, of hoe opportuniteitscohorten naar het sluiten van een verkoop toe bewegen.
-U kunt de standaardcontainer voor deze visualisaties in de [ gebruikersvoorkeur ](/help/analysis-workspace/user-preferences.md#visualizations-preferences) ook plaatsen.
+* **Visualizations**: [&#x200B; Fall uit &#x200B;](/help/analysis-workspace/visualizations/fallout/fallout-flow.md), [&#x200B; Stroom &#x200B;](/help/analysis-workspace/visualizations/c-flow/flow.md), [&#x200B; het canvas van de Reis &#x200B;](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md), en [&#x200B; de lijst van de Cohort &#x200B;](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) visualisaties steunen de nieuwe B2B containers. U kunt de nieuwe containers bijvoorbeeld gebruiken om te begrijpen hoe het kopen van groepen inhoud verbruikt, of hoe opportuniteitscohorten naar het sluiten van een verkoop toe bewegen.
+U kunt de standaardcontainer voor deze visualisaties in de [&#x200B; gebruikersvoorkeur &#x200B;](/help/analysis-workspace/user-preferences.md#visualizations-preferences) ook plaatsen.
 
 Segmenten, attributie en visualisaties in combinatie met de B2B-containers ondersteunen u in diepgaande B2B-analyses en -inzichten.
 
@@ -93,14 +93,14 @@ In Customer Journey Analytics B2B wordt onderscheid gemaakt tussen de volgende g
 
 Een voorbeeld van een op een account gebaseerde verbinding in de Customer Journey Analytics B2B edition:
 
-![ Voorbeeld op rekening-gebaseerde verbinding ](assets/b2b-datasets.svg)
+![&#x200B; Voorbeeld op rekening-gebaseerde verbinding &#x200B;](assets/b2b-datasets.svg)
 
-Customer Journey Analytics B2B edition biedt de [ kaartinterface van de Verbinding ](/help/connections/create-connection.md#connection-map) aan om u van een overzicht van het verband tussen datasets in uw verbinding te voorzien.
+Customer Journey Analytics B2B edition biedt de [&#x200B; kaartinterface van de Verbinding &#x200B;](/help/connections/create-connection.md#connection-map) aan om u van een overzicht van het verband tussen datasets in uw verbinding te voorzien.
 
 
 Net als in Customer Journey Analytics staan tijdreeksgegevens voor gebeurtenissen centraal in Customer Journey Analytics B2B edition. Het belangrijkste verschil voor een op rekening-gebaseerde verbinding is dat u een rekeningsidentiteitskaart op elk verslag in uw gebeurtenisdataset in plaats van persoonsidentiteitskaart nodig hebt.
 
-Wanneer u [ datasetmontages ](/help/connections/create-connection.md#dataset-settings) voor uw op rekening-gebaseerde verbinding in Customer Journey Analytics B2B edition vormt, hangen de opties beschikbaar voor sommige montages van het [ datasettype ](/help/connections/create-connection.md#dataset-types) af. U moet bijvoorbeeld:
+Wanneer u [&#x200B; datasetmontages &#x200B;](/help/connections/create-connection.md#dataset-settings) voor uw op rekening-gebaseerde verbinding in Customer Journey Analytics B2B edition vormt, hangen de opties beschikbaar voor sommige montages van het [&#x200B; datasettype &#x200B;](/help/connections/create-connection.md#dataset-types) af. U moet bijvoorbeeld:
 
 * Specificeer herkenningstekens voor elk van de containers die u voor uw gebeurtenisdatasets hebt gevormd.
 * Definieer een accountveld of algemeen accountveld voor uw profielgegevenssets.

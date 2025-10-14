@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Met de instellingen van de component [!UICONTROL Substring] kunt u meerdere tekenreeksmanipulatiemethoden uitvoeren om de gewenste dimensie-items in rapporten op te halen.
 
-![ montages Substring ](../assets/substring-settings.png)
+![&#x200B; montages Substring &#x200B;](../assets/substring-settings.png)
 
 [!UICONTROL Substring] is alleen beschikbaar voor dimensies en is retroactief voor de gegevens waarop het is toegepast. Het is een directe gegevenstransformatie die plaatsvindt voordat segmentering of andere analysebewerkingen worden toegepast.
 
@@ -38,8 +38,8 @@ Neem een deel van een tekenreeks op basis van zijn positie naar het begin of ein
 * **[!UICONTROL String End]**: Het einde van de tekenreeks.
 * **[!UICONTROL Position]**: Een statisch aantal tekens van links of rechts, afhankelijk van de methode.
 * **[!UICONTROL String]**: Identiek aan een teken of reeks tekens om het begin of einde van een tekenreeks aan te geven. Dit vervolgkeuzemenu toont ook extra opties:
-   * **[!UICONTROL Match]**: De tekenreeks die moet overeenkomen. Als de input geen gelijke met dit gebied heeft, [ Geen waardeopties ](no-value-options.md) zijn van toepassing.
-   * **[!UICONTROL Index]**: De criteria van **[!UICONTROL Match]** kunnen meerdere keren in een tekenreeks voorkomen. Dit geheel getal bepaalt welke overeenkomst wordt gebruikt om de uitvoer te starten of te beëindigen, afhankelijk van de methode. Een index van `1` vertegenwoordigt bijvoorbeeld de eerste overeenkomst. Als de index hoger is dan het aantal beschikbare gelijken, [ Geen waardeopties ](no-value-options.md) zijn van toepassing.
+   * **[!UICONTROL Match]**: De tekenreeks die moet overeenkomen. Als de input geen gelijke met dit gebied heeft, [&#x200B; Geen waardeopties &#x200B;](no-value-options.md) zijn van toepassing.
+   * **[!UICONTROL Index]**: De criteria van **[!UICONTROL Match]** kunnen meerdere keren in een tekenreeks voorkomen. Dit geheel getal bepaalt welke overeenkomst wordt gebruikt om de uitvoer te starten of te beëindigen, afhankelijk van de methode. Een index van `1` vertegenwoordigt bijvoorbeeld de eerste overeenkomst. Als de index hoger is dan het aantal beschikbare gelijken, [&#x200B; Geen waardeopties &#x200B;](no-value-options.md) zijn van toepassing.
    * **[!UICONTROL Include String]**: Een selectievakje dat de **[!UICONTROL Match]** -tekenreeks indien ingeschakeld in de uitvoer opneemt.
 * **[!UICONTROL Length]**: Een geheel getal dat het aantal tekens opgeeft dat na de startpositie van de uitvoer moet worden opgenomen. Alleen beschikbaar in de vervolgkeuzelijst **[!UICONTROL To]** .
 
@@ -52,7 +52,7 @@ Gebruik deze methode voor velden die een scheidingsteken gebruiken om meerdere t
    * **[!UICONTROL From the Right]**: begin vanaf het einde van de lijst met scheidingstekens en tel terug.
    * **[!UICONTROL Convert to array]**: Behandel deze dimensie alsof het een element in een schema van de objectarray is.
 * **[!UICONTROL Delimiter]**: Het scheidingsteken dat in het veld wordt gebruikt.
-* **[!UICONTROL Index]**: Alleen aanwezig als het criterium Van links/rechts is. Het elementnummer alsof het zich in een array bevindt. Als de tekenreeksinvoer bijvoorbeeld `"Fox,Turtle,Rabbit,Wolf"` is met index 3, is de uitvoer `"Rabbit"` . Als de index hoger is dan het aantal afgebakende elementen, [ Geen waardeopties ](no-value-options.md) zijn van toepassing.
+* **[!UICONTROL Index]**: Alleen aanwezig als het criterium Van links/rechts is. Het elementnummer alsof het zich in een array bevindt. Als de tekenreeksinvoer bijvoorbeeld `"Fox,Turtle,Rabbit,Wolf"` is met index 3, is de uitvoer `"Rabbit"` . Als de index hoger is dan het aantal afgebakende elementen, [&#x200B; Geen waardeopties &#x200B;](no-value-options.md) zijn van toepassing.
 
 ## URL-parsering
 
@@ -64,7 +64,7 @@ Voor gebruik met velden die URL&#39;s bevatten. Met de voorbeeld-URL `https://ex
 * **[!UICONTROL Get query string value]**: Haal de waarde op uit één queryreeks. Plaats de gewenste parameter voor de querytekenreeks in het veld **[!UICONTROL Query key]** . Als de bovenstaande URL wordt gebruikt met de query-toets `"cid"` , is de uitvoer `"campaign"` .
 * **[!UICONTROL Get hash value]**: verwijder de hashwaarde van de URL. Bijvoorbeeld `"cart"` .
 
-Als de input geen geldige URL is of als de gewenste component URL niet aanwezig is, [ Geen waardeopties ](no-value-options.md) zijn van toepassing.
+Als de input geen geldige URL is of als de gewenste component URL niet aanwezig is, [&#x200B; Geen waardeopties &#x200B;](no-value-options.md) zijn van toepassing.
 
 ## Verkleinen
 
@@ -81,7 +81,7 @@ Pas reguliere expressies toe op een dimensie om de gewenste waarde op te halen.
 * **[!UICONTROL Output format]**: Een optioneel veld waarmee u tekst kunt toevoegen of de volgorde van de uitvoer van de regex-subgroep kunt wijzigen. Als dit veld leeg is, is de tekenreeksuitvoer de geëvalueerde regex-expressie.
 * **[!UICONTROL Case sensitive]**: Een selectievakje waarmee wordt afgedwongen dat de reguliere expressie hoofdlettergevoelig is als deze is ingeschakeld.
 
-Customer Journey Analytics gebruikt een subset van de Perl regex-syntaxis. Als de input niet de regelmatige uitdrukking aanpast en **[!UICONTROL Output format]** leeg is, [ Geen waardeopties ](no-value-options.md) van toepassing zijn. De volgende expressies worden ondersteund:
+Customer Journey Analytics gebruikt een subset van de Perl regex-syntaxis. Als de input niet de regelmatige uitdrukking aanpast en **[!UICONTROL Output format]** leeg is, [&#x200B; Geen waardeopties &#x200B;](no-value-options.md) van toepassing zijn. De volgende expressies worden ondersteund:
 
 | Uitdrukking | Beschrijving |
 | --- | --- |

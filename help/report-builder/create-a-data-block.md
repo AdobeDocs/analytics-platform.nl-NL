@@ -21,9 +21,9 @@ A *gegevensblok* is de lijst van gegevens die door één enkel gegevensverzoek w
 
 Vorm de aanvankelijke parameters van het gegevensblok voor de het blokplaats van Gegevens, de meningen van Gegevens, en een waaier van de Datum.
 
-1. Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create]**.
+1. Selecteer ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create]**.
 
-   ![ Schermafbeelding die de Create optie van het gegevensblok toont ](./assets/create-data-block.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de Create optie van het gegevensblok toont &#x200B;](./assets/create-data-block.png){zoomable="yes"}
 
 
 1. Stel de **[!UICONTROL Data block location]** in.
@@ -32,27 +32,27 @@ Vorm de aanvankelijke parameters van het gegevensblok voor de het blokplaats van
 
    Als u de locatie van het gegevensblok wilt opgeven, selecteert u één cel in het werkblad of voert u een celadres in, bijvoorbeeld `a3` , `\\\$a3` , `a\\\$3` of `sheet1!a2` . De opgegeven cel wordt de linkerbovenhoek van het gegevensblok wanneer de gegevens worden opgehaald.
 
-   Het gebruik ![ DataBlockSelector ](/help/assets/icons/DataBlockSelector.svg) om een plaats van het gegevensblok van de huidige geselecteerde cel in het blad te kiezen.
+   Het gebruik ![&#x200B; DataBlockSelector &#x200B;](/help/assets/icons/DataBlockSelector.svg) om een plaats van het gegevensblok van de huidige geselecteerde cel in het blad te kiezen.
 
 1. Kies de **[!UICONTROL Data views]** .
 
    Met de optie Gegevens kunt u een gegevensweergave kiezen in een vervolgkeuzelijst of naar een gegevensweergave verwijzen vanuit een cellocatie.
 
-   Selecteer ![ DataViewSelector ](/help/assets/icons/DataViewSelector.svg) om een gegevensmening van een cel tot stand te brengen.
+   Selecteer ![&#x200B; DataViewSelector &#x200B;](/help/assets/icons/DataViewSelector.svg) om een gegevensmening van een cel tot stand te brengen.
 
 1. Stel de **[!UICONTROL Date range]** in.
 
    Met de optie **[!UICONTROL Date range]** kunt u een datumbereik kiezen. Datumbereiken kunnen vast zijn of doorlopen.
 
-   Selecteer **[!UICONTROL Calendar]** om een gegevenswaaier te plukken gebruikend ![ Kalender ](/help/assets/icons/Calendar.svg) of een datumwaaier manueel in te gaan. Naar keuze, kunt u vooraf ingesteld van het **[!UICONTROL _Onderzoek kiezen stelt_]** drop-down menu vooraf in.
+   Selecteer **[!UICONTROL Calendar]** om een gegevenswaaier te plukken gebruikend ![&#x200B; Kalender &#x200B;](/help/assets/icons/Calendar.svg) of een datumwaaier manueel in te gaan. Naar keuze, kunt u vooraf ingesteld van het **[!UICONTROL _Onderzoek kiezen stelt_]** drop-down menu vooraf in.
 
    Selecteer **[!UICONTROL From cell]** om een begin- en eindgegevens te definiëren op basis van een cel in het huidige blad.
 
-   Voor informatie over de opties van de datumwaaier, zie [ Selecteer een datumwaaier ](select-date-range.md).
+   Voor informatie over de opties van de datumwaaier, zie [&#x200B; Selecteer een datumwaaier &#x200B;](select-date-range.md).
 
 1. Selecteer **[!UICONTROL Next]** .
 
-   ![ Schermafbeelding die de optie van de datumwaaier en de actieve Volgende knoop tonen.](./assets/choose_date_data_view3.png)
+   ![&#x200B; Schermafbeelding die de optie van de datumwaaier en de actieve Volgende knoop tonen.](./assets/choose_date_data_view3.png)
 
    Nadat u het gegevensblok vormt, kunt u afmetingen, metriek, en segmenten selecteren om uw gegevensblok te bouwen. De tabbladen **[!UICONTROL Dimensions]** , **[!UICONTROL Metrics]** en **[!UICONTROL Segments]** worden boven het deelvenster **[!UICONTROL Table]** weergegeven.
 
@@ -66,55 +66,55 @@ Om het gegevensblok te bouwen, selecteer rapportcomponenten, en pas dan de lay-o
 
    Selecteer een component tweemaal om de component aan een standaardsectie van de lijst toe te voegen.
 
-   - De componenten van Dimension worden toegevoegd aan ![ TableSelectRow ](/help/assets/icons/TableSelectRow.svg) **[!UICONTROL Row]** sectie of aan ![ TableSelectColumn ](/help/assets/icons/TableSelectColumn.svg) **[!UICONTROL Column]** sectie als u een afmeting reeds in de kolommen hebt.
-   - De componenten van de datum worden toegevoegd aan de ![ ](/help/assets/icons/TableSelectColumn.svg) **[!UICONTROL Column]** sectie TableSelectColumn.
-   - De componenten van het segment worden toegevoegd aan de ![ sectie van de Segmentatie ](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segments]**.
-   - De componenten van metriek worden toegevoegd aan de ![ sectie van de Gebeurtenis ](/help/assets/icons/Event.svg) **[!UICONTROL Values]**.
+   - De componenten van Dimension worden toegevoegd aan ![&#x200B; TableSelectRow &#x200B;](/help/assets/icons/TableSelectRow.svg) **[!UICONTROL Row]** sectie of aan ![&#x200B; TableSelectColumn &#x200B;](/help/assets/icons/TableSelectColumn.svg) **[!UICONTROL Column]** sectie als u een afmeting reeds in de kolommen hebt.
+   - De componenten van de datum worden toegevoegd aan de ![&#x200B; &#x200B;](/help/assets/icons/TableSelectColumn.svg) **[!UICONTROL Column]** sectie TableSelectColumn.
+   - De componenten van het segment worden toegevoegd aan de ![&#x200B; sectie van de Segmentatie &#x200B;](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segments]**.
+   - De componenten van metriek worden toegevoegd aan de ![&#x200B; sectie van de Gebeurtenis &#x200B;](/help/assets/icons/Event.svg) **[!UICONTROL Values]**.
 
 1. Rangschik de punten in de ruit van de Lijst om de lay-out van uw gegevensblok aan te passen.
 
-   De belemmering en dalingscomponenten binnen elke lijst in de ruit van de Lijst om componenten opnieuw te ordenen of ![ MeerSmall ](/help/assets/icons/MoreSmall.svg) te selecteren en ![ te selecteren ArrowUp ](/help/assets/icons/ArrowUp.svg) Beweging omhoog, ![ ArrowDown ](/help/assets/icons/ArrowDown.svg) Beweging neer, en meer om componenten binnen een lijst te bewegen.
+   De belemmering en dalingscomponenten binnen elke lijst in de ruit van de Lijst om componenten opnieuw te ordenen of ![&#x200B; MeerSmall &#x200B;](/help/assets/icons/MoreSmall.svg) te selecteren en ![&#x200B; te selecteren ArrowUp &#x200B;](/help/assets/icons/ArrowUp.svg) Beweging omhoog, ![&#x200B; ArrowDown &#x200B;](/help/assets/icons/ArrowDown.svg) Beweging neer, en meer om componenten binnen een lijst te bewegen.
 
    Wanneer u componenten aan de lijst toevoegt, wordt een voorproef van het gegevensblok getoond bij de het blokplaats van Gegevens in het aantekenvel. De lay-out van de voorvertoning van gegevensblokken wordt automatisch bijgewerkt wanneer u items in de tabel toevoegt, verplaatst of verwijdert.
 
-   ![ Schermafbeelding die de toegevoegde componenten en het bijgewerkte werkblad tonen.](./assets/image10.png)
+   ![&#x200B; Schermafbeelding die de toegevoegde componenten en het bijgewerkte werkblad tonen.](./assets/image10.png)
 
 
 1. Stel desgewenst de **[!UICONTROL Start date]** in als een dimensie om de begindatum van uw gegevensblok te identificeren. Het toevoegen van de begingegevens als dimensie is nuttig als u een regelmatig gepland rapport hebt dat een het rollen datumwaaier heeft. Of als u een onconventioneel datumbereik hebt en u moet expliciet zijn over de begindatum.
 
-   ![ het Schermafbeelding die de datum van het Begin in de lijst van dimensies toont.](./assets/start-date-dimension.png)
+   ![&#x200B; het Schermafbeelding die de datum van het Begin in de lijst van dimensies toont.](./assets/start-date-dimension.png)
 
 1. U kunt ook rij- en kolomkoppen weergeven of verbergen. Daartoe:
 
-   1. Selecteer het **[!UICONTROL Table]** ![ Plaatsende ](/help/assets/icons/Setting.svg) montagespictogram.
+   1. Selecteer het **[!UICONTROL Table]** ![&#x200B; Plaatsende &#x200B;](/help/assets/icons/Setting.svg) montagespictogram.
 
-      ![ Schermafbeelding die de de montagesoptie van de Lijst toont.](./assets/table-settings.png)
+      ![&#x200B; Schermafbeelding die de de montagesoptie van de Lijst toont.](./assets/table-settings.png)
 
    1. Schakel de optie voor **[!UICONTROL Display row and column headers]** in of uit. De kopteksten worden standaard weergegeven.
 
 1. U kunt desgewenst ook dimensielabels en metrische koppen verbergen of weergeven. Daartoe:
 
-   1. Selecteer ![ MoreSmall ](/help/assets/icons/MoreSmall.svg) op het afmetingsetiket of de kolomkopbal om het contextmenu te tonen.
+   1. Selecteer ![&#x200B; MoreSmall &#x200B;](/help/assets/icons/MoreSmall.svg) op het afmetingsetiket of de kolomkopbal om het contextmenu te tonen.
 
-      ![ het weglatingspictogram in de sectie van de Rij.](./assets/row-heading.png)
+      ![&#x200B; het weglatingspictogram in de sectie van de Rij.](./assets/row-heading.png)
 
-   1. Selecteer ![ VisibilityOff ](/help/assets/icons/VisibilityOff.svg) **[!UICONTROL Hide]** of ![ Zichtbaarheid ](/help/assets/icons/Visibility.svg) **[!UICONTROL Show]** om de afmetingsetiket of kolomkopbal van een knevel te voorzien. Alle labels worden standaard weergegeven.
+   1. Selecteer ![&#x200B; VisibilityOff &#x200B;](/help/assets/icons/VisibilityOff.svg) **[!UICONTROL Hide]** of ![&#x200B; Zichtbaarheid &#x200B;](/help/assets/icons/Visibility.svg) **[!UICONTROL Show]** om de afmetingsetiket of kolomkopbal van een knevel te voorzien. Alle labels worden standaard weergegeven.
 
 1. Selecteer **[!UICONTROL Finish]** om de configuratie van uw gegevensblok te voltooien.
 
 1. Er wordt een verwerkingsbericht **[!UICONTROL #BUSY]** weergegeven terwijl de analysegegevens worden opgehaald.
 
-   ![ Het verwerkingsbericht.](./assets/image11.png)
+   ![&#x200B; Het verwerkingsbericht.](./assets/image11.png)
 
 1. Report Builder haalt de gegevens op en geeft het voltooide gegevensblok weer in het werkblad.
 
-   ![ het voltooide gegevensblok.](./assets/image12.png)
+   ![&#x200B; het voltooide gegevensblok.](./assets/image12.png)
 
 
 >[!MORELIKETHIS]
 >
->[ selecteer een gegevensmening ](select-data-view.md)
->[Selecteer een datumbereik ](select-date-range.md)
->[Filterafmetingen ](filter-dimensions.md)
->[Werken met segmenten ](work-with-filters.md)
+>[&#x200B; selecteer een gegevensmening &#x200B;](select-data-view.md)
+>[Selecteer een datumbereik &#x200B;](select-date-range.md)
+>[Filterafmetingen &#x200B;](filter-dimensions.md)
+>[Werken met segmenten &#x200B;](work-with-filters.md)
 >

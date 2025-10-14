@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_Dit artikel documenteert de media playbacktijd besteed paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_zie [ de playbacktijd van Media besteed paneel ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_Dit artikel documenteert de media playbacktijd besteed paneel in_ ![&#x200B; CustomerJourneyAnalytics &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_zie [&#x200B; de playbacktijd van Media besteed paneel &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) voor_ ![&#x200B; AdobeAnalytics &#x200B;](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -60,7 +60,7 @@ De bestede afspeeltijd kan u helpen begrijpen:
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ bestede tijd van de media ](https://video.tv.adobe.com/v/338699){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; bestede tijd van de media &#x200B;](https://video.tv.adobe.com/v/338699){target="_blank"} voor een demo video.
 
 {{videoaa}}
 
@@ -71,13 +71,13 @@ Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ bestede tijd 
 
 Een deelvenster **[!UICONTROL Media playback time spent]** gebruiken:
 
-1. Maak een deelvenster **[!UICONTROL Media playback time spent]** . Voor informatie over hoe te om een paneel tot stand te brengen, zie [ een paneel ](panels.md#create-a-panel) creëren.
+1. Maak een deelvenster **[!UICONTROL Media playback time spent]** . Voor informatie over hoe te om een paneel tot stand te brengen, zie [&#x200B; een paneel &#x200B;](panels.md#create-a-panel) creëren.
 
 1. Selecteer een gegevensweergave voor het deelvenster waarvoor componenten zijn geconfigureerd in de verzameling Streaming media.
 
-1. Specificeer de [ input ](#panel-input) voor het paneel.
+1. Specificeer de [&#x200B; input &#x200B;](#panel-input) voor het paneel.
 
-1. Neem de [ output ](#panel-output) voor het paneel waar.
+1. Neem de [&#x200B; output &#x200B;](#panel-output) voor het paneel waar.
 
 
 ### Deelvensterinvoer
@@ -94,17 +94,17 @@ U kunt het deelvenster Tijd voor afspelen van media configureren met de volgende
 | Weergave datumvolgorde | Als u minstens twee segmenten van het datumbereik als reeksonderverdelingen hebt geplaatst, ziet u de optie om of bedekking (gebrek) of opeenvolgend te selecteren. Met Bedekking worden de lijnen weergegeven met een gemeenschappelijke beginpunt op de x-as, zodat deze parallel lopen. De lijnen met hun specifieke beginpunt op de x-as worden opeenvolgend weergegeven. Als de gegevenslijnen omhoog (bijvoorbeeld, eind segment 1 bij 8:44 pm en segment 2 begint bij 8:45 pm), dan tonen de lijnen in opeenvolging. |
 
 
-![ de tijd doorgebrachte standaardmening van playbook van Media.](assets/mpts_default_view.png)
+![&#x200B; de tijd doorgebrachte standaardmening van playbook van Media.](assets/mpts_default_view.png)
 
 ### Deelvensteruitvoer
 
 In het deelvenster Afspeeltijd van media worden een regeldiagram en samenvattingsnummers geretourneerd met gegevens over de maximale, minimale en/of totale afspeeltijd. Boven in het deelvenster ziet u een samenvattingsregel waarmee u de deelvensterinstellingen die u hebt geselecteerd, kunt herinneren.
 
-Op elk ogenblik, uitgezocht ![ geef de playbacktijd van Media uit doorbrengt paneel ](/help/assets/icons/Edit.svg) om het paneel uit te geven en opnieuw te bouwen.
+Op elk ogenblik, uitgezocht ![&#x200B; geef de playbacktijd van Media uit doorbrengt paneel &#x200B;](/help/assets/icons/Edit.svg) om het paneel uit te geven en opnieuw te bouwen.
 
 Als u reeksindeling selecteert, worden een regel in het lijndiagram en een samenvattingsnummer voor elke regel weergegeven:
 
-![ de media playbacktijd bestede output die een lijngrafiek en een samenvatting toont.](assets/mpts_outputs1.png)
+![&#x200B; de media playbacktijd bestede output die een lijngrafiek en een samenvatting toont.](assets/mpts_outputs1.png)
 
 ### Gegevensbron
 
@@ -128,7 +128,7 @@ De enige metrische waarde die in dit deelvenster kan worden gebruikt, is Afspeel
 
 >[!MORELIKETHIS]
 >
->[ creeer een paneel ](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Mediagemiddelde minieme publiekspaneel ](average-minute-audience-panel.md)
->&#x200B;>[Deelvenster Mediagelijktijdige viewers ](media-concurrent-viewers.md)
+>[&#x200B; creeer een paneel &#x200B;](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
+>&#x200B;>[Mediagemiddelde minieme publiekspaneel &#x200B;](average-minute-audience-panel.md)
+>&#x200B;>[Deelvenster Mediagelijktijdige viewers &#x200B;](media-concurrent-viewers.md)
 >

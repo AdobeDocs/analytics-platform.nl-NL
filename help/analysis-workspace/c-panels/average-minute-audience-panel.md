@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het gemiddelde minieme het publiek van Media paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_zie [ het gemiddelde minieme publiek van Media paneel ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert het gemiddelde minieme het publiek van Media paneel in_ ![&#x200B; CustomerJourneyAnalytics &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_zie [&#x200B; het gemiddelde minieme publiek van Media paneel &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) voor_ ![&#x200B; AdobeAnalytics &#x200B;](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -65,13 +65,13 @@ Het gemiddelde minieme deelvenster van het publiek van Media biedt de volgende v
 
 Een deelvenster **[!UICONTROL Media average minute audience]** gebruiken:
 
-1. Maak een deelvenster **[!UICONTROL Media average minute audience]** . Voor informatie over hoe te om een paneel tot stand te brengen, zie [ een paneel ](panels.md#create-a-panel) creëren.
+1. Maak een deelvenster **[!UICONTROL Media average minute audience]** . Voor informatie over hoe te om een paneel tot stand te brengen, zie [&#x200B; een paneel &#x200B;](panels.md#create-a-panel) creëren.
 
 1. Selecteer een gegevensweergave voor het deelvenster waarvoor componenten zijn geconfigureerd in de verzameling Streaming media.
 
-1. Specificeer de [ input ](#panel-input) voor het paneel.
+1. Specificeer de [&#x200B; input &#x200B;](#panel-input) voor het paneel.
 
-1. Neem de [ output ](#panel-output) voor het paneel waar.
+1. Neem de [&#x200B; output &#x200B;](#panel-output) voor het paneel waar.
 
 ### Deelvensterinvoer
 
@@ -85,18 +85,18 @@ Met de invoerinstellingen die in deze sectie worden beschreven, kunt u het deelv
    | [!UICONTROL **Daling een segment hier (of een andere component)**] | Net als andere deelvensters segmenteert deze instelling uw selecties op basis van segmenten die u hebt gemaakt. Deze instelling is een uitstekende manier om naar specifieke platforms, live streams of andere veelgebruikte mediasegmenten te kijken. |
    | [!UICONTROL **berekent metrisch voor**] | Kies of u het gemiddelde aantal minuten voor [**[!UICONTROL Specific content]**](#specific-content) wilt zien. Of als u het gemiddelde aantal minuten voor een [**[!UICONTROL Custom time period]**](#custom-time-period) wilt zien.<br/><br/> Uitgezochte [!UICONTROL **de tijdperiode van de Douane**]: <ul><li>Als de duur niet beschikbaar is, of </li><li>als u het gemiddelde aantal minuten voor een tijdreeks met meerdere inhoud wilt weergeven, of</li><li>voor inhoud zonder een specifieke toegewezen duur (zoals tijdens een live stream of gebeurtenis)</li></ul></li></li></ul> <p>Met deze instelling wijzigt u de workflow en de rapportuitvoer.</p> |
 
-1. Ga met [ Specifieke inhoud ](#specific-content) of [ de tijdperiode van de Douane ](#custom-time-period), afhankelijk van de optie voort u in [!UICONTROL **kiest metrisch berekenen voor**] drop-down menu.
+1. Ga met [&#x200B; Specifieke inhoud &#x200B;](#specific-content) of [&#x200B; de tijdperiode van de Douane &#x200B;](#custom-time-period), afhankelijk van de optie voort u in [!UICONTROL **kiest metrisch berekenen voor**] drop-down menu.
 
 #### Specifieke inhoud
 
-1. Als u [!UICONTROL **Specifieke inhoud**] in [!UICONTROL **selecteerde berekent metrisch voor**] drop-down menu wanneer [ vormend paneelinput ](#panel-inputs), specificeer de volgende configuratieopties:
+1. Als u [!UICONTROL **Specifieke inhoud**] in [!UICONTROL **selecteerde berekent metrisch voor**] drop-down menu wanneer [&#x200B; vormend paneelinput &#x200B;](#panel-inputs), specificeer de volgende configuratieopties:
 
    | Instelling | Beschrijving |
    |---------|------------|
    | [!UICONTROL **Meldend afmeting**] | Wanneer u specifieke inhoud selecteert, kunt u de rapportoutput selecteren om of de videonaam of de gebieden van identiteitskaart van de inhoud te gebruiken om de inhoud en zijn bijbehorend gemiddeld minipubliek te tonen. |
    | [!UICONTROL **inhoud van de Filter door (facultatief)**] | Kies hoe u de specifieke inhoud wilt filteren, afhankelijk van de gewenste weergave of de structuur van de gegevens. <ul>[!UICONTROL **toon, seizoen, episode**]: Toont uw beschikbare shows in drop-down, die u het gebruiken van een onderzoek kunt filtreren (of door de shownaam van de linkerkolom te slepen en te laten vallen). Je kunt je selectie daar beëindigen om alle seizoenen van je show te zien, of je kunt filteren op individuele seizoenen en dan op individuele afleveringen. Deze instelling geeft de gegevens voor deze shows, seizoenen of episodes voor de geselecteerde tijdsperiode weer.</li><li>[!UICONTROL **Eigen afmeting**]: Als uw shownaam onder een douaneafmeting is, kunt u het vinden of door in de afmeting (facultatieve) drop-down menu te zoeken of door het linkerkolomonderzoek te gebruiken. Het dimensie-item wordt automatisch gevuld op basis van die selectie en wordt behandeld als een aflevering.</li><li>[!UICONTROL **niets**]: Toont alle videonamen die gemiddelde minieme publieksgegevens voor de selectie hebben u hebt gekozen. (Deze optie is standaard geselecteerd.)</li></ul> |
 
-1. Ga met [ Specifieke inhoud Geavanceerde montages ](#specific-content-advanced-settings) verder om geavanceerde montages te vormen.
+1. Ga met [&#x200B; Specifieke inhoud Geavanceerde montages &#x200B;](#specific-content-advanced-settings) verder om geavanceerde montages te vormen.
 
 #### Geavanceerde instellingen voor specifieke inhoud
 
@@ -109,18 +109,18 @@ Met de invoerinstellingen die in deze sectie worden beschreven, kunt u het deelv
 
 1. Selecteer [!UICONTROL **bouwen**] om het gemiddelde minieme het publiek van Media te beëindigen.
 
-1. Ga met [ output van het Comité ](#panel-output) voor informatie over hoe te om het gemiddelde minieme het publiekspaneel van Media te gebruiken.
+1. Ga met [&#x200B; output van het Comité &#x200B;](#panel-output) voor informatie over hoe te om het gemiddelde minieme het publiekspaneel van Media te gebruiken.
 
 #### Aangepaste tijdsperiode
 
-1. Als u [!UICONTROL **de tijdsperiode van de Douane**] in [!UICONTROL **selecteerde berekent metrisch voor**] drop-down menu wanneer [ vormend paneelinput ](#panel-inputs), specificeer de volgende configuratieopties:
+1. Als u [!UICONTROL **de tijdsperiode van de Douane**] in [!UICONTROL **selecteerde berekent metrisch voor**] drop-down menu wanneer [&#x200B; vormend paneelinput &#x200B;](#panel-inputs), specificeer de volgende configuratieopties:
 
    | Opties | Beschrijving |
    |---------|------------|
    | **[!UICONTROL Granularity]** | De standaardgranulariteit is [!UICONTROL **5 - Minuut**], maar u kunt om het even welke granulariteiten kiezen die als noemer voor de tijdreeks binnen uw geselecteerde tijdspanne worden gebruikt. Als u bijvoorbeeld 12:00 tot 12:30 pm met een granulariteit van 5 minuten selecteert, wordt het gemiddelde aantal minuten voor het hele half uur en zes rijen geretourneerd met het gemiddelde aantal minuten voor elke periode van 5 minuten. Deze rijen worden gebruikt als datapoints voor de grafiek van de tijdreeks. |
    | [!UICONTROL **inhoud van de Filter door (facultatief)**] | Kies hoe u de specifieke inhoud wilt filteren, afhankelijk van de gewenste weergave of de structuur van de gegevens. <ul>[!UICONTROL **toon, seizoen, episode**]: Toont uw beschikbare shows in drop-down, die u het gebruiken van een onderzoek kunt filtreren (of door de shownaam van de linkerkolom te slepen en te laten vallen). Je kunt je selectie daar beëindigen om alle seizoenen van je show te zien, of je kunt filteren op individuele seizoenen en dan op individuele afleveringen. Deze instelling geeft de gegevens voor deze shows, seizoenen of episodes voor de geselecteerde tijdsperiode weer.</li><li>[!UICONTROL **Eigen afmeting**]: Als uw shownaam onder een douaneafmeting is, kunt u het vinden of door in het (facultatieve) menu van de afmeting te zoeken of door het linkerkolomonderzoek te gebruiken. Het dimensie-item wordt automatisch gevuld op basis van die selectie en wordt behandeld als een aflevering.</li><li>[!UICONTROL **niets**]: Toont alle videonamen die gemiddelde minieme publieksgegevens voor de selectie hebben u hebt gekozen. (Deze optie is standaard geselecteerd.)</li></ul> |
 
-1. Ga met [ Geavanceerde montages van de tijdperiode van de Douane ](#custom-time-period-advanced-settings) verder om geavanceerde montages te vormen.
+1. Ga met [&#x200B; Geavanceerde montages van de tijdperiode van de Douane &#x200B;](#custom-time-period-advanced-settings) verder om geavanceerde montages te vormen.
 
 #### Geavanceerde instellingen voor aangepaste tijdsperiode
 
@@ -132,11 +132,11 @@ Met de invoerinstellingen die in deze sectie worden beschreven, kunt u het deelv
 
 1. Selecteer [!UICONTROL **bouwen**] om het gemiddelde minieme het publiek van Media te beëindigen.
 
-1. Ga met [ output van het Comité ](#panel-output) voor informatie over hoe te om het gemiddelde minieme het publiekspaneel van Media te gebruiken.
+1. Ga met [&#x200B; output van het Comité &#x200B;](#panel-output) voor informatie over hoe te om het gemiddelde minieme het publiekspaneel van Media te gebruiken.
 
 ### Deelvensteruitvoer
 
-De paneeloutput verschilt afhankelijk van of u [!UICONTROL **Specifieke inhoud**] of [!UICONTROL **de tijdperiode van de Douane**] in [!UICONTROL **berekent metrisch voor**] drop-down menu wanneer [ vormend paneelinput ](#panel-inputs) koos.
+De paneeloutput verschilt afhankelijk van of u [!UICONTROL **Specifieke inhoud**] of [!UICONTROL **de tijdperiode van de Douane**] in [!UICONTROL **berekent metrisch voor**] drop-down menu wanneer [&#x200B; vormend paneelinput &#x200B;](#panel-inputs) koos.
 
 #### Specifieke inhoud
 
@@ -146,9 +146,9 @@ In het deelvenster Gemiddelde minieme publiek voor Media wordt het volgende gere
 * Filters en een gemiddeld aantal minuten publiek voor de afzonderlijke video&#39;s, weergegeven in een tabel
 * De tijd van de inhoud en videolengte (duur) als die geavanceerde het plaatsen werd geselecteerd
 
-Om het paneel op elk ogenblik uit te geven en te herbouwen, uitgezocht ![ geef ](/help/assets/icons/Edit.svg) in het hoogste recht uit.
+Om het paneel op elk ogenblik uit te geven en te herbouwen, uitgezocht ![&#x200B; geef &#x200B;](/help/assets/icons/Edit.svg) in het hoogste recht uit.
 
-![ Standaardmening ](assets/specific-content-panel-output.png)
+![&#x200B; Standaardmening &#x200B;](assets/specific-content-panel-output.png)
 
 #### Specifieke inhoudsgegevensbron
 
@@ -172,7 +172,7 @@ In het deelvenster Gemiddelde minieme publiek voor Media wordt het volgende gere
 
   Deze lijst toont slechts als de optie onder geavanceerde montages genoemd [!UICONTROL **berekeningswaarden in lijst**] wordt geselecteerd.
 
-Om het paneel op elk ogenblik uit te geven en te herbouwen, uitgezocht ![ geeft het gemiddelde minieme minieme publiek van Media paneel ](/help/assets/icons/Edit.svg) in het hoogste recht uit.
+Om het paneel op elk ogenblik uit te geven en te herbouwen, uitgezocht ![&#x200B; geeft het gemiddelde minieme minieme publiek van Media paneel &#x200B;](/help/assets/icons/Edit.svg) in het hoogste recht uit.
 
 
 #### Gegevensbron aangepaste tijdperiode
@@ -186,7 +186,7 @@ In het deelvenster Gemiddelde minieme doelgroep van Media wordt alleen de gemidd
 
 >[!MORELIKETHIS]
 >
-> [ creeer een paneel ](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
-> &#x200B;> [Deelvenster Mediagelijktijdige viewers ](media-concurrent-viewers.md)
-> &#x200B;> [De playbacktijd van media bestede paneel ](media-playback-time-spent.md)
+> [&#x200B; creeer een paneel &#x200B;](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
+> &#x200B;> [Deelvenster Mediagelijktijdige viewers &#x200B;](media-concurrent-viewers.md)
+> &#x200B;> [De playbacktijd van media bestede paneel &#x200B;](media-playback-time-spent.md)
 >

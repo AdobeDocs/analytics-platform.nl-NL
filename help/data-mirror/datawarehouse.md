@@ -50,23 +50,23 @@ Als u de gegevensfeed change wilt toepassen op alle nieuwe tabellen, moet u de s
 set spark.databricks.delta.properties.defaults.enableChangeDataFeed = true;
 ```
 
-Voor meer informatie, lees de [[!DNL Azure Databricks]  gids bij het toelaten van de voer van veranderingsgegevens ](https://docs.databricks.com/aws/en/delta/delta-change-data-feed#enable-change-data-feed).
+Voor meer informatie, lees de [[!DNL Azure Databricks]  gids bij het toelaten van de voer van veranderingsgegevens &#x200B;](https://docs.databricks.com/aws/en/delta/delta-change-data-feed#enable-change-data-feed).
 
 Lees de volgende documentatie voor stappen over het inschakelen van het vastleggen van wijzigingsgegevens voor uw [!DNL Azure Databricks] bronverbinding:
 
-* [ creeer a [!DNL Azure Databricks]  basisverbinding ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/api-tutorials/create/databases/databricks).
-* [ creeer een bronverbinding voor een gegevensbestand ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
+* [&#x200B; creeer a [!DNL Azure Databricks]  basisverbinding &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/api-tutorials/create/databases/databricks).
+* [&#x200B; creeer een bronverbinding voor een gegevensbestand &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
 
 ## [!DNL Google BigQuery]
 
 Als u het vastleggen van wijzigingsgegevens wilt gebruiken in de [!DNL Google BigQuery] -bronverbinding, navigeert u naar de [!DNL Google BigQuery] -pagina in de [!DNL Google Cloud] -console en stelt u `enable_change_history` in op `TRUE` . Met deze eigenschap wordt de wijzigingshistorie voor uw gegevenstabel ingeschakeld.
 
-Voor meer informatie, lees de gids over [ de taalverklaringen van de gegevensdefinitie in  [!DNL GoogleSQL] ](https://cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#table_option_list).
+Voor meer informatie, lees de gids over [&#x200B; de taalverklaringen van de gegevensdefinitie in  [!DNL GoogleSQL] &#x200B;](https://cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#table_option_list).
 
 Lees de volgende documentatie voor stappen over het inschakelen van het vastleggen van wijzigingsgegevens voor uw [!DNL Google BigQuery] bronverbinding:
 
-* [ creeer a [!DNL Google BigQuery]  basisverbinding ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/api-tutorials/create/databases/bigquery).
-* [ creeer een bronverbinding voor een gegevensbestand ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
+* [&#x200B; creeer a [!DNL Google BigQuery]  basisverbinding &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/api-tutorials/create/databases/bigquery).
+* [&#x200B; creeer een bronverbinding voor een gegevensbestand &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
 
 ## [!DNL Snowflake]
 
@@ -78,15 +78,15 @@ Schakel in [!DNL Snowflake] de optie Wijzigingen bijhouden in met de waarden `AL
 ALTER TABLE mytable SET CHANGE_TRACKING = TRUE
 ```
 
-Voor meer informatie, lees de [[!DNL Snowflake]  gids bij het gebruiken van de veranderingsclausule ](https://docs.snowflake.com/en/sql-reference/constructs/changes#usage-notes).
+Voor meer informatie, lees de [[!DNL Snowflake]  gids bij het gebruiken van de veranderingsclausule &#x200B;](https://docs.snowflake.com/en/sql-reference/constructs/changes#usage-notes).
 
 Lees de volgende documentatie voor stappen over het inschakelen van het vastleggen van wijzigingsgegevens voor uw [!DNL Snowflake] bronverbinding:
 
-* [ creeer a [!DNL Snowflake]  basisverbinding ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/api-tutorials/create/databases/snowflake).
-* [ creeer een bronverbinding voor een gegevensbestand ](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
+* [&#x200B; creeer a [!DNL Snowflake]  basisverbinding &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/api-tutorials/create/databases/snowflake).
+* [&#x200B; creeer een bronverbinding voor een gegevensbestand &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
 
 
 >[!MORELIKETHIS]
 >
->[ Data Mirror snelle startgids: Spiegel en gebruik op model-gebaseerde gegevens ](model-based.md)
+>[&#x200B; Data Mirror snelle startgids: Spiegel en gebruik op model-gebaseerde gegevens &#x200B;](model-based.md)
 >

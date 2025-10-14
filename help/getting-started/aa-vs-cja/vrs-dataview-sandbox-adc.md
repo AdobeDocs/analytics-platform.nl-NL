@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Virtuele rapportsuites, de meningen van Gegevens, de zandbakken van Adobe Experience Platform, en de de bronschakelaar van de Analyse
 
-Adobe biedt verschillende manieren om virtuele rapportageomgevingen en sandboxomgevingen te maken. Het is nuttig om de gelijkenissen en de verschillen tussen de volgende eigenschappen te begrijpen en hoe deze eigenschappen op de [ bron van Analytics schakelaar ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=nl-NL) betrekking hebben:
+Adobe biedt verschillende manieren om virtuele rapportageomgevingen en sandboxomgevingen te maken. Het is nuttig om de gelijkenissen en de verschillen tussen de volgende eigenschappen te begrijpen en hoe deze eigenschappen op de [&#x200B; bron van Analytics schakelaar &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=nl-NL) betrekking hebben:
 
 * Adobe Analytics Virtual Report-suites
 * Customer Journey Analytics-gegevensweergaven
@@ -21,7 +21,7 @@ Adobe biedt verschillende manieren om virtuele rapportageomgevingen en sandboxom
 
 ## Adobe Analytics Virtual Report-suites
 
-Voor meer informatie, zie: [ het Virtuele overzicht van de rapportreeksen ](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=nl-NL).
+Voor meer informatie, zie: [&#x200B; het Virtuele overzicht van de rapportreeksen &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=nl-NL).
 
 Een virtuele rapportsuite:
 
@@ -29,9 +29,9 @@ Een virtuele rapportsuite:
 * Kan op niet-destructieve wijze op zowel historische als nieuwe gegevens worden toegepast.
 * Staat u toe om één of vele virtuele meningen bovenop een het rapportreeks van Adobe Analytics voor gebruik door verschillende bedrijfsteams tot stand te brengen.
 * Kan worden gebruikt om de toegang tot en het beheer van verschillende soorten gegevens voor verschillende gebruikers in Adobe Analytics te regelen.
-* Verstrekt facultatieve [ rapport-tijd verwerkings ](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=nl-NL) mogelijkheden voor Adobe Analytics. In dit geval kan een virtuele rapportsuite worden gebruikt om een aangepaste definitie voor &quot;visit&quot; te maken.
+* Verstrekt facultatieve [&#x200B; rapport-tijd verwerkings &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=nl-NL) mogelijkheden voor Adobe Analytics. In dit geval kan een virtuele rapportsuite worden gebruikt om een aangepaste definitie voor &quot;visit&quot; te maken.
 * Wordt toegepast bij rapportruntime, gelijkend op segmentevaluatie. Dit is _nadat_ de gegevens binnen Adobe Analytics zijn verzameld en zijn opgeslagen.
-* Wordt vereist voor [ Analytics van het Apparaat ](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=nl-NL) in Adobe Analytics.
+* Wordt vereist voor [&#x200B; Analytics van het Apparaat &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=nl-NL) in Adobe Analytics.
 * Beschikt over hetzelfde aantal variabelen voor gebruik als standaard Analytics Report Suite (250 eVars, 250 props, 1000 events), hoewel de virtuele reekscuratie van het rapport kan beperken welke variabelen aan gebruikers worden blootgesteld.
 * Ondersteunt aangepaste kalenderopties.
 
@@ -44,7 +44,7 @@ Een virtuele rapportsuite is niet:
 
 ## Customer Journey Analytics-gegevensweergaven
 
-Voor meer informatie, zie: [ overzicht van de meningen van Gegevens ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=nl-NL).
+Voor meer informatie, zie: [&#x200B; overzicht van de meningen van Gegevens &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=nl-NL).
 
 Een gegevensweergave:
 
@@ -66,7 +66,7 @@ Een gegevensweergave doet dit niet:
 
 ## Adobe Experience Platform-sandboxen
 
-Voor meer informatie, zie: [ het overzicht van Sandboxen ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=nl).
+Voor meer informatie, zie: [&#x200B; het overzicht van Sandboxen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=nl).
 
 Een Adobe Experience Platform-sandbox:
 
@@ -81,4 +81,4 @@ Een Adobe Experience Platform-sandbox doet dit niet:
 Let op:
 
 * Gegevens van verschillende sandboxen kunnen niet worden gecombineerd in Customer Journey Analytics.
-* De schakelaar van Source Analytics verzendt rapportreeksgegevens _in_ een specifieke zandbak. Elk rapportpakket kan als bron voor één enkele zandbak worden gevormd. Zie de [ documentatie van de bronschakelaar van de Analyse ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=nl-NL) voor meer details.
+* De schakelaar van Source Analytics verzendt rapportreeksgegevens _in_ een specifieke zandbak. Elk rapportpakket kan als bron voor één enkele zandbak worden gevormd. Zie de [&#x200B; documentatie van de bronschakelaar van de Analyse &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=nl-NL) voor meer details.

@@ -23,7 +23,7 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
-De ![ 2&rbrace; analyse van de Versie ](/help/assets/icons/Release.svg) &lbrace;toont een vergelijking van hoe de belangrijkste indicatoren vóór en na een bepaalde datum presteerden. **[!UICONTROL Release impact]** De horizontale as van dit rapport is een tijdinterval, terwijl de verticale as de gewenste belangrijkste indicatoren meet. Een verticale balk in het midden van het diagram geeft de datum aan die u voor en na wilt vergelijken. Deze datum is doorgaans een opmerkelijke wijziging van het product waarop u wilt meten, zoals een update van het product of het starten van de campagne.
+De ![&#x200B; 2&rbrace; analyse van de Versie &#x200B;](/help/assets/icons/Release.svg) &lbrace;toont een vergelijking van hoe de belangrijkste indicatoren vóór en na een bepaalde datum presteerden. **[!UICONTROL Release impact]** De horizontale as van dit rapport is een tijdinterval, terwijl de verticale as de gewenste belangrijkste indicatoren meet. Een verticale balk in het midden van het diagram geeft de datum aan die u voor en na wilt vergelijken. Deze datum is doorgaans een opmerkelijke wijziging van het product waarop u wilt meten, zoals een update van het product of het starten van de campagne.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432440/?quality=12&learn=on&captions=dut)
 
@@ -38,13 +38,13 @@ De gevallen van het gebruik voor deze analyse omvatten:
 
 ## Interface
 
-Zie [ Interface ](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
+Zie [&#x200B; Interface &#x200B;](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
 
 ### Query-rail
 
 Met de queryrail kunt u de volgende componenten configureren:
 
-* **[!UICONTROL View]**: Schakelaar tussen deze analyse en [ Eerste gebruikseffect ](first-use-impact.md).
+* **[!UICONTROL View]**: Schakelaar tussen deze analyse en [&#x200B; Eerste gebruikseffect &#x200B;](first-use-impact.md).
 * **[!UICONTROL Key indicators]**: De gebeurtenissen die u per gebruiker wilt meten. Elke geselecteerde toetsindicator wordt weergegeven als een gekleurde lijn. Aan de tabel wordt een rij toegevoegd die de gebeurtenis vertegenwoordigt. U kunt maximaal drie gebeurtenissen opnemen.
 * **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. De opties zijn [!UICONTROL Events per user] , [!UICONTROL Percentage of users] , [!UICONTROL Events] , [!UICONTROL Sessions] en [!UICONTROL Users] .
 * **[!UICONTROL Factors]**: De datum die u voor en na wilt vergelijken.

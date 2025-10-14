@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Met Attributie kunt u aanpassen hoe dimensie-items krediet krijgen voor succesgebeurtenissen.
 
-![ de meningsvenster van Gegevens die de Vastgestelde attributieoptie benadrukken ](../assets/attribution-settings.png)
+![&#x200B; de meningsvenster van Gegevens die de Vastgestelde attributieoptie benadrukken &#x200B;](../assets/attribution-settings.png)
 
 Bijvoorbeeld:
 
@@ -47,7 +47,7 @@ U kunt een standaardattributiemodel voor bepaalde metrisch plaatsen door metrisc
 >
 >* **wanneer het gebruiken van de component in een rapport met *veelvoudige afmetingen*:** de attributie van de component behoudt het toewijzingsmodel wanneer een niet-gebrek attributiemodel wordt gebruikt.
 >
->   De veelvoudige afmetingen zijn beschikbaar slechts wanneer [ het uitvoeren van gegevens aan de wolk ](/help/analysis-workspace/export/export-cloud.md).
+>   De veelvoudige afmetingen zijn beschikbaar slechts wanneer [&#x200B; het uitvoeren van gegevens aan de wolk &#x200B;](/help/analysis-workspace/export/export-cloud.md).
 >
 > Voor meer informatie over toewijzing, zie {de montages van de componenten van 0} Persistence [&#128279;](/help/data-views/component-settings/persistence.md).
 
@@ -57,9 +57,9 @@ Het standaardtoewijzingsmodel van een component bijwerken:
 
 1. Selecteer de component en vouw vervolgens de sectie **[!UICONTROL Attribution]** aan de rechterkant van het scherm uit.
 
-   ![ de meningsvenster van Gegevens die de Vastgestelde attributieoptie benadrukken ](../assets/attribution-settings.png)
+   ![&#x200B; de meningsvenster van Gegevens die de Vastgestelde attributieoptie benadrukken &#x200B;](../assets/attribution-settings.png)
 
-1. Selecteer [!UICONTROL **Vastgestelde attributie**], dan selecteren het [ attributiemodel ](#attribution-models), [ container ](#container) en [ raadplegings ](#lookback-window) venster.
+1. Selecteer [!UICONTROL **Vastgestelde attributie**], dan selecteren het [&#x200B; attributiemodel &#x200B;](#attribution-models), [&#x200B; container &#x200B;](#container) en [&#x200B; raadplegings &#x200B;](#lookback-window) venster.
 
 
 

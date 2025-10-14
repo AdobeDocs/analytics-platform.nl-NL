@@ -56,7 +56,7 @@ Uw schema instellen:
 
    1. Selecteer **[!UICONTROL Individual Profile]** .
 
-      ![ creeer een schema ](./assets/create-pr-schema-wizard-step-1.png)
+      ![&#x200B; creeer een schema &#x200B;](./assets/create-pr-schema-wizard-step-1.png)
 
       >[!INFO]
       >
@@ -69,7 +69,7 @@ Uw schema instellen:
 
    1. Voer een **[!UICONTROL Schema display name]** in voor uw schema en (optioneel) een **[!UICONTROL Description]** .
 
-      ![ Naam uw schema ](./assets/create-pr-schema-wizard-step-2.png)
+      ![&#x200B; Naam uw schema &#x200B;](./assets/create-pr-schema-wizard-step-2.png)
 
    1. Selecteer **[!UICONTROL Finish]** .
 
@@ -77,17 +77,17 @@ Uw schema instellen:
 
    1. Selecteer **[!UICONTROL + Add]** in [!UICONTROL Field groups] .
 
-      ![ voeg gebiedsgroep ](./assets/add-field-group-button.png) toe
+      ![&#x200B; voeg gebiedsgroep &#x200B;](./assets/add-field-group-button.png) toe
 
       Veldgroepen zijn herbruikbare verzameling objecten en kenmerken waarmee u uw schema&#39;s eenvoudig kunt uitbreiden.
 
    1. Selecteer in het dialoogvenster [!UICONTROL Add fields groups] de veldgroep **[!UICONTROL Loyalty Details]** in de lijst.
 
-      ![ AEP Web SDK ExperienceEvent gebiedsgroup ](./assets/loyalty-fieldgroup.png)
+      ![&#x200B; AEP Web SDK ExperienceEvent gebiedsgroup &#x200B;](./assets/loyalty-fieldgroup.png)
 
       U kunt de voorvertoningsknop selecteren om een voorvertoning weer te geven van de velden die deel uitmaken van deze veldgroep.
 
-      ![ AEP Web SDK ExperienceEvent gebiedsgroepvoorproef ](./assets/loyalty-fieldgroup-preview.png)
+      ![&#x200B; AEP Web SDK ExperienceEvent gebiedsgroepvoorproef &#x200B;](./assets/loyalty-fieldgroup-preview.png)
 
       Selecteer **[!UICONTROL Back]** om de voorvertoning te sluiten.
 
@@ -95,11 +95,11 @@ Uw schema instellen:
 
 1. Selecteer **[!UICONTROL +]** naast de naam van het schema in het deelvenster [!UICONTROL Structure] .
 
-   ![ het Schema van het Voorbeeld voegt de knoop van het Gebied toe ](./assets/example-loalty-schema-plus.png)
+   ![&#x200B; het Schema van het Voorbeeld voegt de knoop van het Gebied toe &#x200B;](./assets/example-loalty-schema-plus.png)
 
 1. Typ in het deelvenster [!UICONTROL Field Properties] `Identification` als de naam, **[!UICONTROL Identification]** als de [!UICONTROL Display name] , selecteer **[!UICONTROL Object]** als de [!UICONTROL Type] en selecteer **[!UICONTROL Profile Core v2]** als de [!UICONTROL Field Group] .
 
-   ![ Voorwerp van de Identificatie ](./assets/identifcation-loyalty-field.png)
+   ![&#x200B; Voorwerp van de Identificatie &#x200B;](./assets/identifcation-loyalty-field.png)
 
    Dit identificatieobject voegt id-mogelijkheden toe aan uw schema. In uw geval, wilt u loyaliteitsinformatie identificeren gebruikend het e-mailadres in uw partijgegevens.
 
@@ -107,7 +107,7 @@ Uw schema instellen:
 
 1. Selecteer het veld **[!UICONTROL email]** in het identificatieobject dat u net hebt toegevoegd en selecteer **[!UICONTROL Identity]** en **[!UICONTROL Email]** in het deelvenster [!UICONTROL Identity namespace] in het deelvenster [!UICONTROL Field Properties] .
 
-   ![ specificeer e-mail als identiteit ](./assets/specify-email-loyalty-id.png)
+   ![&#x200B; specificeer e-mail als identiteit &#x200B;](./assets/specify-email-loyalty-id.png)
 
    U geeft het e-mailadres op als de identiteit die de Adobe Experience Platform Identity-service kan gebruiken om het gedrag van profielen te combineren (naaien).
 
@@ -117,19 +117,19 @@ Uw schema instellen:
 
    U wordt gevraagd het schema in te schakelen voor het profiel. Zodra toegelaten, wanneer het gegeven in datasets wordt opgenomen die op dit schema worden gebaseerd, worden die gegevens samengevoegd in het Real-Time Profiel van de Klant.
 
-   Zie [ het schema voor gebruik in het Profiel van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL#profile) voor meer informatie toelaten.
+   Zie [&#x200B; het schema voor gebruik in het Profiel van de Klant in real time &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL#profile) voor meer informatie toelaten.
 
    >[!IMPORTANT]
    >
    >    Nadat u een schema hebt opgeslagen dat is ingeschakeld voor profiel, kan het niet meer worden uitgeschakeld voor profiel.
 
-   ![ laat schema voor profiel ](./assets/enable-for-profile.png) toe
+   ![&#x200B; laat schema voor profiel &#x200B;](./assets/enable-for-profile.png) toe
 
 1. Selecteer **[!UICONTROL Save]** om het schema op te slaan.
 
 U hebt een minimaal schema gemaakt dat de loyaliteitsgegevens modelleert die u in Adobe Experience Platform kunt invoeren. Met het schema kunnen profielen worden geïdentificeerd aan de hand van het e-mailadres. Door het schema voor profiel toe te laten, zorgt u ervoor dat de gegevens van uw het stromen bron aan het Profiel van de Klant in real time worden toegevoegd.
 
-Zie [ schema&#39;s in UI ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=nl-NL) voor meer informatie creëren en uitgeven bij het toevoegen van en het verwijderen van gebiedsgroepen en individuele gebieden aan een schema.
+Zie [&#x200B; schema&#39;s in UI &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=nl-NL) voor meer informatie creëren en uitgeven bij het toevoegen van en het verwijderen van gebiedsgroepen en individuele gebieden aan een schema.
 
 ### Een gegevensset instellen
 
@@ -141,17 +141,17 @@ Uw gegevensset instellen:
 
 2. Selecteer **[!UICONTROL Create dataset]** .
 
-   ![ creeer dataset ](./assets/create-dataset.png)
+   ![&#x200B; creeer dataset &#x200B;](./assets/create-dataset.png)
 
 3. Selecteer **[!UICONTROL Create dataset from schema]** .
 
-   ![ creeer dataset van schema ](./assets/create-dataset-from-schema.png)
+   ![&#x200B; creeer dataset van schema &#x200B;](./assets/create-dataset-from-schema.png)
 
 4. Selecteer het schema dat u eerder hebt gemaakt en selecteer **[!UICONTROL Next]** .
 
 5. Geef uw gegevensset een naam en (optioneel) geef een beschrijving op.
 
-   ![ dataset van de Naam ](./assets/name-your-datatest.png)
+   ![&#x200B; dataset van de Naam &#x200B;](./assets/name-your-datatest.png)
 
 6. Selecteer **[!UICONTROL Finish]** .
 
@@ -163,7 +163,7 @@ Uw gegevensset instellen:
    >
    >    U kunt een dataset voor profiel slechts toelaten wanneer het schema, waaraan de dataset voldoet, ook voor profiel wordt toegelaten.
 
-   ![ laat schema voor profiel ](./assets/loyalty-dataset-profile.png) toe
+   ![&#x200B; laat schema voor profiel &#x200B;](./assets/loyalty-dataset-profile.png) toe
 
 Zie {de gids UI van de Datasets van 0} [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=nl) voor veel meer informatie over hoe te bekijken, voorproef, tot stand brengen, een dataset schrappen.  En hoe te om een dataset voor het Profiel van de Klant in real time toe te laten.
 
@@ -204,7 +204,7 @@ Een HTTP API-bronconnector maken:
 
 3. Selecteer **Opstelling** in de [!UICONTROL HTTP API] tegel.
 
-   ![ Tile van de Opstelling HTTP API ](./assets/httpapi-tile.png)
+   ![&#x200B; Tile van de Opstelling HTTP API &#x200B;](./assets/httpapi-tile.png)
 
 4. In de stap [!UICONTROL Authentication] van het [!UICONTROL Add data] -scherm:
 
@@ -214,7 +214,7 @@ Een HTTP API-bronconnector maken:
 
    Selecteer **[!UICONTROL Connect to source]** . Na een geslaagde verbinding wordt [!UICONTROL Connected] weergegeven.
 
-   ![ HTTP API Authentificatie ](./assets/httpapi-authentication.png)
+   ![&#x200B; HTTP API Authentificatie &#x200B;](./assets/httpapi-authentication.png)
 
    Selecteer **[!UICONTROL Next]** om door te gaan.
 
@@ -222,23 +222,23 @@ Een HTTP API-bronconnector maken:
 
    Selecteer **[!UICONTROL Existing dataset]**, selecteer uw dataset in de lijst van datasets, en noem uw [!UICONTROL Dataflow name].
 
-   ![ detail Dataflow ](./assets/httpapi-dataflowdetail.png)
+   ![&#x200B; detail Dataflow &#x200B;](./assets/httpapi-dataflowdetail.png)
 
    Selecteer **[!UICONTROL Next]** .
 
 6. In de stap [!UICONTROL Review] van het scherm [!UICONTROL Add data] ziet u een overzicht van de HTTP API-verbinding.
 
-   ![ detail Dataflow ](./assets/httpapi-review.png)
+   ![&#x200B; detail Dataflow &#x200B;](./assets/httpapi-review.png)
 
    Selecteer **[!UICONTROL Finish]** .
 
 7. U ziet de definitieve definitie van uw HTTP API die eindpunt stroomt.
 
-   ![ HTTP API die eindpunt stromen ](./assets/httpapi-streamingendpoint.png)
+   ![&#x200B; HTTP API die eindpunt stromen &#x200B;](./assets/httpapi-streamingendpoint.png)
 
 U kunt het stromen eindpunt URL kopiëren en het gebruiken om uw loyaliteitstoepassing te vormen om gegevens in de de loyaliteitdataset van Adobe Experience Platform te stromen.
 
-Zie [ een HTTP API die verbinding stromen gebruikend UI ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=nl-NL) voor een veel uitvoerigere leerprogramma verklaren:
+Zie [&#x200B; een HTTP API die verbinding stromen gebruikend UI &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=nl-NL) voor een veel uitvoerigere leerprogramma verklaren:
 
 - hoe verificatie moet worden gebruikt;
 - hoe te om gegevens in kaart te brengen wanneer uw inkomende gegevens niet compatibel met uw schema XDM zijn, en
@@ -263,7 +263,7 @@ Om uw verbinding tot stand te brengen:
 
    Selecteer de juiste sandbox in de lijst [!UICONTROL Sandbox] in [!UICONTROL Data settings] en selecteer het aantal dagelijkse gebeurtenissen in de lijst [!UICONTROL Average number of daily events] .
 
-   ![ de Montages van de Verbinding ](./assets/cja-connections-1.png)
+   ![&#x200B; de Montages van de Verbinding &#x200B;](./assets/cja-connections-1.png)
 
    Selecteer **[!UICONTROL Add datasets]** .
 
@@ -271,7 +271,7 @@ Om uw verbinding tot stand te brengen:
 
    - Selecteer de dataset die u vroeger (`Example Loyalty Dataset`) creeerde en om het even welke andere dataset u in uw verbinding wilt omvatten.
 
-     ![ voeg datasets ](./assets/cja-connections-2.png) toe
+     ![&#x200B; voeg datasets &#x200B;](./assets/cja-connections-2.png) toe
 
    - Selecteer **[!UICONTROL Next]** .
 
@@ -285,13 +285,13 @@ Om uw verbinding tot stand te brengen:
 
       - Stel **[!UICONTROL Import all new data]** en **[!UICONTROL Dataset backfill existing data]** in op basis van uw voorkeuren.
 
-     ![ vorm datasets ](./assets/cja-connections-3.png)
+     ![&#x200B; vorm datasets &#x200B;](./assets/cja-connections-3.png)
 
    - Selecteer **[!UICONTROL Add datasets]** .
 
    Selecteer **[!UICONTROL Save]** .
 
-Zie [ Overzicht van Verbindingen ](../connections/overview.md) voor meer informatie over om een verbinding tot stand te brengen en te beheren en datasets te selecteren en te combineren.
+Zie [&#x200B; Overzicht van Verbindingen &#x200B;](../connections/overview.md) voor meer informatie over om een verbinding tot stand te brengen en te beheren en datasets te selecteren en te combineren.
 
 ## Een gegevensweergave instellen
 
@@ -309,7 +309,7 @@ Uw gegevensweergave maken:
 
    Naam en (optioneel) beschrijf uw verbinding.
 
-   ![ de mening van Gegevens vormt ](./assets/cja-dataview-1.png)
+   ![&#x200B; de mening van Gegevens vormt &#x200B;](./assets/cja-dataview-1.png)
 
    Selecteer **[!UICONTROL Save and continue]** .
 
@@ -317,17 +317,17 @@ Uw gegevensweergave maken:
 
    Voeg schemagebieden en/of standaardcomponent toe die u aan de [!UICONTROL METRICS] of [!UICONTROL DIMENSIONS] componentenvakjes wilt omvatten.
 
-   ![ de meningscomponenten van Gegevens ](./assets/cja-dataview-2.png)
+   ![&#x200B; de meningscomponenten van Gegevens &#x200B;](./assets/cja-dataview-2.png)
 
    Selecteer **[!UICONTROL Save and continue]** .
 
 5. In de stap [!UICONTROL Settings] :
 
-   ![ de meningsmontages van Gegevens ](./assets/cja-dataview-3.png)
+   ![&#x200B; de meningsmontages van Gegevens &#x200B;](./assets/cja-dataview-3.png)
 
    Laat de instellingen ongewijzigd en selecteer **[!UICONTROL Save and finish]** .
 
-Zie [ overzicht van de meningen van Gegevens ](../data-views/data-views.md) voor meer informatie over om een gegevensmening tot stand te brengen en uit te geven, welke componenten voor u aan gebruik in uw gegevensmening en hoe te segment en zittingsmontages te gebruiken beschikbaar zijn.
+Zie [&#x200B; overzicht van de meningen van Gegevens &#x200B;](../data-views/data-views.md) voor meer informatie over om een gegevensmening tot stand te brengen en uit te geven, welke componenten voor u aan gebruik in uw gegevensmening en hoe te segment en zittingsmontages te gebruiken beschikbaar zijn.
 
 
 ## Een project instellen
@@ -342,21 +342,21 @@ Uw project maken:
 
 3. Selecteer **[!UICONTROL Create project]** .
 
-   ![ Project van Workspace ](./assets/cja-projects-1.png)
+   ![&#x200B; Project van Workspace &#x200B;](./assets/cja-projects-1.png)
 
    Selecteer **[!UICONTROL Blank project]** .
 
-   ![ Workspace - Leeg Project ](./assets/cja-projects-2.png)
+   ![&#x200B; Workspace - Leeg Project &#x200B;](./assets/cja-projects-2.png)
 
 4. Selecteer de gegevensweergave in de lijst.
 
-   ![ de Uitgezochte mening van Gegevens van Workspace ](./assets/cja-projects-3.png).
+   ![&#x200B; de Uitgezochte mening van Gegevens van Workspace &#x200B;](./assets/cja-projects-3.png).
 
 5. Als u uw eerste rapport wilt maken, sleept u de afmetingen en metriek op de [!UICONTROL Freeform table] in de [!UICONTROL Panel] . Sleep bijvoorbeeld `Program Points Balance` en `Page View` als metriek en `email` als dimensie om een snel overzicht te krijgen van profielen die uw website hebben bezocht en deel uitmaken van het loyaliteitsprogramma dat loyaliteitspunten verzamelt.
 
-   ![ Workspace - Eerste Rapport ](./assets/cja-projects-5.png)
+   ![&#x200B; Workspace - Eerste Rapport &#x200B;](./assets/cja-projects-5.png)
 
-Zie [ overzicht van Analysis Workspace ](../analysis-workspace/home.md) voor meer informatie over hoe te om projecten tot stand te brengen en uw analyse te bouwen gebruikend componenten, visualisaties, en panelen.
+Zie [&#x200B; overzicht van Analysis Workspace &#x200B;](../analysis-workspace/home.md) voor meer informatie over hoe te om projecten tot stand te brengen en uw analyse te bouwen gebruikend componenten, visualisaties, en panelen.
 
 >[!SUCCESS]
 >

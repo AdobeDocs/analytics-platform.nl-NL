@@ -60,7 +60,7 @@ Uw schema instellen:
 
    1. Selecteer **[!UICONTROL Experience Event]** .
 
-      ![ creeer een schema ](./assets/create-ee-schema-wizard-step-1.png)
+      ![&#x200B; creeer een schema &#x200B;](./assets/create-ee-schema-wizard-step-1.png)
 
       >[!INFO]
       >
@@ -73,7 +73,7 @@ Uw schema instellen:
 
    1. Voer een **[!UICONTROL Schema display name]** in voor uw schema en (optioneel) een **[!UICONTROL Description]** .
 
-      ![ Naam uw schema ](./assets/create-ee-schema-wizard-step-2.png)
+      ![&#x200B; Naam uw schema &#x200B;](./assets/create-ee-schema-wizard-step-2.png)
 
    1. Selecteer **[!UICONTROL Finish]** .
 
@@ -81,17 +81,17 @@ Uw schema instellen:
 
    1. Selecteer **[!UICONTROL + Add]** in [!UICONTROL Field groups] .
 
-      ![ voeg gebiedsgroep ](./assets/add-field-group-button.png) toe
+      ![&#x200B; voeg gebiedsgroep &#x200B;](./assets/add-field-group-button.png) toe
 
       Veldgroepen zijn herbruikbare verzamelingen van objecten en kenmerken waarmee u het schema eenvoudig kunt uitbreiden.
 
    1. Selecteer in het dialoogvenster [!UICONTROL Add fields groups] de veldgroep **[!UICONTROL Blinding Light]** in de lijst. Deze veldgroep wordt gemaakt om de voortgang van de gebruiker bij te houden bij het afspelen van een fictieve game met de naam Blinding Light op een console.
 
-      ![ Blinding Light veldgroup ](assets/schema-fieldgroup-blindinglight.png)
+      ![&#x200B; Blinding Light veldgroup &#x200B;](assets/schema-fieldgroup-blindinglight.png)
 
       U kunt de voorvertoningsknop selecteren om een voorvertoning weer te geven van de velden die deel uitmaken van deze veldgroep, bijvoorbeeld `scores > afterMatch` .
 
-      ![ Blinding Lichte gebiedsgroepvoorproef ](assets/schema-fieldgroup-blindinglight-preview.png)
+      ![&#x200B; Blinding Lichte gebiedsgroepvoorproef &#x200B;](assets/schema-fieldgroup-blindinglight-preview.png)
 
       Selecteer **[!UICONTROL Back]** om de voorvertoning te sluiten.
 
@@ -99,15 +99,15 @@ Uw schema instellen:
 
 1. Selecteer **[!UICONTROL +]** naast de naam van het schema.
 
-   ![ het Schema van het Voorbeeld voegt de knoop van het Gebied toe ](./assets/example-gamingschema-plus.png)
+   ![&#x200B; het Schema van het Voorbeeld voegt de knoop van het Gebied toe &#x200B;](./assets/example-gamingschema-plus.png)
 
 1. Typ in het deelvenster [!UICONTROL Field Properties] `identification` als de [!UICONTROL Field name] , **[!UICONTROL Identification]** als de [!UICONTROL Display name] , selecteer **[!UICONTROL Object]** als de [!UICONTROL Type] en selecteer **[!UICONTROL ExperienceEvent Core v2.1]** als de [!UICONTROL Field Group] .
 
    >[!NOTE]
    >
-   >Als die veldgroep niet beschikbaar is, zoekt u naar een andere veldgroep met identiteitsvelden. Of [ creeer een nieuwe gebiedsgroep ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=nl-NL) en [ voeg nieuwe identiteitsgebieden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=nl-NL#define-a-identity-field) (als `ecid`, `crmId`, en anderen toe u) aan de gebiedsgroep nodig hebt en selecteer die nieuwe gebiedsgroep.
+   >Als die veldgroep niet beschikbaar is, zoekt u naar een andere veldgroep met identiteitsvelden. Of [&#x200B; creeer een nieuwe gebiedsgroep &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=nl-NL) en [&#x200B; voeg nieuwe identiteitsgebieden &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=nl-NL#define-a-identity-field) (als `ecid`, `crmId`, en anderen toe u) aan de gebiedsgroep nodig hebt en selecteer die nieuwe gebiedsgroep.
 
-   ![ Voorwerp van de Identificatie ](./assets/identification-field-gaming.png)
+   ![&#x200B; Voorwerp van de Identificatie &#x200B;](./assets/identification-field-gaming.png)
 
    Het identificatieobject voegt id-mogelijkheden toe aan uw schema. In uw geval wilt u profielen die uw game afspelen identificeren aan de hand van de Experience Cloud-id en het e-mailadres dat ze gebruiken om u aan te melden bij hun gameconsole. Er zijn veel andere kenmerken beschikbaar om de identiteit van uw persoon te volgen.
 
@@ -115,7 +115,7 @@ Uw schema instellen:
 
 1. Selecteer het veld **[!UICONTROL ecid]** in het identificatieobject dat u net hebt toegevoegd en selecteer **[!UICONTROL Identity]** en **[!UICONTROL Primary Identity]** en **[!UICONTROL ECID]** in de lijst [!UICONTROL Identity namespace] in het rechterdeelvenster.
 
-   ![ specificeer ECID als identiteit ](./assets/specify-identity-gaming.png)
+   ![&#x200B; specificeer ECID als identiteit &#x200B;](./assets/specify-identity-gaming.png)
 
    U geeft de Experience Cloud Identity op als de primaire identiteit die de Adobe Experience Platform Identity-service kan gebruiken om het gedrag van profielen met dezelfde ECID te combineren (aansluiten).
 
@@ -123,7 +123,7 @@ Uw schema instellen:
 
 1. Selecteer het veld **[!UICONTROL email]** in het identificatieobject dat u net hebt toegevoegd en selecteer **[!UICONTROL Identity]** en **[!UICONTROL Email]** in de lijst [!UICONTROL Identity namespace] in het deelvenster [!UICONTROL Field Properties] .
 
-   ![ specificeer e-mail als identiteit ](./assets/specify-email-identity-gaming.png)
+   ![&#x200B; specificeer e-mail als identiteit &#x200B;](./assets/specify-email-identity-gaming.png)
 
    U geeft het e-mailadres op als een andere identiteit die de Adobe Experience Platform Identity-service kan gebruiken om het gedrag van profielen te combineren (naaien).
 
@@ -135,13 +135,13 @@ Uw schema instellen:
 
    U wordt gevraagd het schema in te schakelen voor het profiel. Zodra toegelaten, wanneer het gegeven in datasets wordt opgenomen die op dit schema worden gebaseerd, worden die gegevens samengevoegd in het Real-Time Profiel van de Klant.
 
-   Zie [ het schema voor gebruik in het Profiel van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL#profile) voor meer informatie toelaten.
+   Zie [&#x200B; het schema voor gebruik in het Profiel van de Klant in real time &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL#profile) voor meer informatie toelaten.
 
    >[!IMPORTANT]
    >
    >    Nadat u een schema hebt opgeslagen dat is ingeschakeld voor profiel, kan het niet meer worden uitgeschakeld voor profiel.
 
-   ![ laat schema voor profiel ](./assets/enable-for-profile.png) toe
+   ![&#x200B; laat schema voor profiel &#x200B;](./assets/enable-for-profile.png) toe
 
 1. Selecteer **[!UICONTROL Save]** om het schema op te slaan.
 
@@ -161,7 +161,7 @@ Als u profielgegevens wilt vastleggen, doet u het volgende:
 
 - Het schema inschakelen voor profiel
 
-Zie [ schema&#39;s in UI ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=nl-NL) voor meer informatie creëren en uitgeven bij het toevoegen van en het verwijderen van gebiedsgroepen en individuele gebieden aan een schema.
+Zie [&#x200B; schema&#39;s in UI &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=nl-NL) voor meer informatie creëren en uitgeven bij het toevoegen van en het verwijderen van gebiedsgroepen en individuele gebieden aan een schema.
 
 ### Een gegevensset instellen
 
@@ -173,17 +173,17 @@ Uw gegevensset instellen:
 
 2. Selecteer **[!UICONTROL Create dataset]** .
 
-   ![ creeer dataset ](./assets/create-dataset.png)
+   ![&#x200B; creeer dataset &#x200B;](./assets/create-dataset.png)
 
 3. Selecteer **[!UICONTROL Create dataset from schema]** .
 
-   ![ creeer dataset van schema ](./assets/create-dataset-from-schema.png)
+   ![&#x200B; creeer dataset van schema &#x200B;](./assets/create-dataset-from-schema.png)
 
 4. Selecteer het schema dat u eerder hebt gemaakt en selecteer **[!UICONTROL Next]** .
 
 5. Geef uw gegevensset een naam en (optioneel) geef een beschrijving op.
 
-   ![ dataset van de Naam ](./assets/name-your-datatest.png)
+   ![&#x200B; dataset van de Naam &#x200B;](./assets/name-your-datatest.png)
 
 6. Selecteer **[!UICONTROL Finish]** .
 
@@ -195,7 +195,7 @@ Uw gegevensset instellen:
    >
    >    U kunt een dataset voor profiel slechts toelaten wanneer het schema, waaraan de dataset voldoet, ook voor profiel wordt toegelaten.
 
-   ![ laat schema voor profiel ](./assets/aepwebsdk-dataset-profile.png) toe
+   ![&#x200B; laat schema voor profiel &#x200B;](./assets/aepwebsdk-dataset-profile.png) toe
 
 Zie {de gids UI van de Datasets van 0} [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=nl) voor veel meer informatie over hoe te bekijken, voorproef, tot stand brengen, een dataset schrappen.  En hoe te om een dataset voor het Profiel van de Klant in real time toe te laten.
 
@@ -213,7 +213,7 @@ Uw gegevensstroom instellen:
 
 3. Geef een naam en beschrijf de gegevensstroom. Selecteer het schema in de lijst [!UICONTROL Event Schema] .
 
-   ![ Nieuwe DataStream ](./assets/new-datastream.png)
+   ![&#x200B; Nieuwe DataStream &#x200B;](./assets/new-datastream.png)
 
 4. Selecteer **[!UICONTROL Save]** .
 
@@ -227,13 +227,13 @@ Uw gegevensstroom instellen:
 
    3. Selecteer de gegevensset in de lijst [!UICONTROL Event Dataset] .
 
-      ![ De dienst van AEP DataStream ](./assets/datastream-aep-service.png)
+      ![&#x200B; De dienst van AEP DataStream &#x200B;](./assets/datastream-aep-service.png)
 
    4. Laat de andere instellingen staan en selecteer **[!UICONTROL Save]** om de gegevensstroom op te slaan.
 
 Uw gegevensstroom is nu geconfigureerd om de gegevens die van uw game zijn verzameld door te sturen naar uw gegevensset in Adobe Experience Platform.
 
-Zie [ Overzicht van gegevensstromen ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=nl-NL) voor meer informatie over hoe te om een gegevensstroom te vormen en hoe te om gevoelige gegevens te behandelen.
+Zie [&#x200B; Overzicht van gegevensstromen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=nl-NL) voor meer informatie over hoe te om een gegevensstroom te vormen en hoe te om gevoelige gegevens te behandelen.
 
 ## Edge Network Server-API gebruiken
 
@@ -272,7 +272,7 @@ curl -X POST "https://server.adobedc.net/ee/v2/interact?dataStreamId={DATASTREAM
 
 In het voorbeeld POST-verzoek verwijst `{DATASTREAM_ID}` naar de id van de voorbeeldgegevensstroom die u eerder hebt geconfigureerd. `{sandbox}` is de unieke naam van de sandbox die het pad identificeert naar de aangepaste veldgroep Blinding Light.
 
-Zie [ Interactieve gegevensinzameling ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=nl-NL) en [ Niet-interactieve gegevensinzameling ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=nl-NL) voor meer informatie over hoe te om de Server API van Edge Network te gebruiken.
+Zie [&#x200B; Interactieve gegevensinzameling &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=nl-NL) en [&#x200B; Niet-interactieve gegevensinzameling &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=nl-NL) voor meer informatie over hoe te om de Server API van Edge Network te gebruiken.
 
 ## Een verbinding instellen
 
@@ -292,7 +292,7 @@ Om uw verbinding tot stand te brengen:
 
    Selecteer de juiste sandbox in de lijst [!UICONTROL Sandbox] in [!UICONTROL Data settings] en selecteer het aantal dagelijkse gebeurtenissen in de lijst [!UICONTROL Average number of daily events] .
 
-   ![ de Montages van de Verbinding ](./assets/cja-connections-1.png)
+   ![&#x200B; de Montages van de Verbinding &#x200B;](./assets/cja-connections-1.png)
 
    Selecteer **[!UICONTROL Add datasets]** .
 
@@ -316,7 +316,7 @@ Om uw verbinding tot stand te brengen:
 
    Selecteer **[!UICONTROL Save]** .
 
-Zie [ Overzicht van Verbindingen ](../connections/overview.md) voor meer informatie over om een verbinding tot stand te brengen en te beheren en datasets te selecteren en te combineren.
+Zie [&#x200B; Overzicht van Verbindingen &#x200B;](../connections/overview.md) voor meer informatie over om een verbinding tot stand te brengen en te beheren en datasets te selecteren en te combineren.
 
 ## Een gegevensweergave instellen
 
@@ -334,7 +334,7 @@ Uw gegevensweergave maken:
 
    Naam en (optioneel) beschrijf uw verbinding.
 
-   ![ de mening van Gegevens vormt ](./assets/cja-dataview-1.png)
+   ![&#x200B; de mening van Gegevens vormt &#x200B;](./assets/cja-dataview-1.png)
 
    Selecteer **[!UICONTROL Save and continue]** .
 
@@ -346,11 +346,11 @@ Uw gegevensweergave maken:
 
 5. In de stap [!UICONTROL Settings] :
 
-   ![ de meningsmontages van Gegevens ](./assets/cja-dataview-3.png)
+   ![&#x200B; de meningsmontages van Gegevens &#x200B;](./assets/cja-dataview-3.png)
 
    Laat de instellingen ongewijzigd en selecteer **[!UICONTROL Save and finish]** .
 
-Zie [ overzicht van de meningen van Gegevens ](../data-views/data-views.md) voor meer informatie over om een gegevensmening tot stand te brengen en uit te geven, welke componenten voor u aan gebruik in uw gegevensmening en hoe te segment en zittingsmontages te gebruiken beschikbaar zijn.
+Zie [&#x200B; overzicht van de meningen van Gegevens &#x200B;](../data-views/data-views.md) voor meer informatie over om een gegevensmening tot stand te brengen en uit te geven, welke componenten voor u aan gebruik in uw gegevensmening en hoe te segment en zittingsmontages te gebruiken beschikbaar zijn.
 
 
 ## Een project instellen
@@ -365,19 +365,19 @@ Uw project maken:
 
 3. Selecteer **[!UICONTROL Create project]** .
 
-   ![ Project van Workspace ](./assets/cja-projects-1.png)
+   ![&#x200B; Project van Workspace &#x200B;](./assets/cja-projects-1.png)
 
    Selecteer **[!UICONTROL Blank project]** .
 
-   ![ Workspace - Leeg Project ](./assets/cja-projects-2.png)
+   ![&#x200B; Workspace - Leeg Project &#x200B;](./assets/cja-projects-2.png)
 
 4. Selecteer de gegevensweergave in de lijst.
 
-   ![ de Uitgezochte mening van Gegevens van Workspace ](./assets/cja-projects-3.png).
+   ![&#x200B; de Uitgezochte mening van Gegevens van Workspace &#x200B;](./assets/cja-projects-3.png).
 
 5. Als u uw eerste rapport wilt maken, sleept u de afmetingen en metriek op de [!UICONTROL Freeform table] in de [!UICONTROL Panel] .
 
-Zie [ overzicht van Analysis Workspace ](../analysis-workspace/home.md) voor meer informatie over hoe te om projecten tot stand te brengen en uw analyse te bouwen gebruikend componenten, visualisaties, en panelen.
+Zie [&#x200B; overzicht van Analysis Workspace &#x200B;](../analysis-workspace/home.md) voor meer informatie over hoe te om projecten tot stand te brengen en uw analyse te bouwen gebruikend componenten, visualisaties, en panelen.
 
 >[!SUCCESS]
 >

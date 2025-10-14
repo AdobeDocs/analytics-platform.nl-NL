@@ -25,7 +25,7 @@ Voor Asset Transfer is de toestemming van de productbeheerder voor Customer Jour
 
 1. Navigeer in CJA naar **[!UICONTROL Tools]** > **[!UICONTROL Asset Transfer]** .
 
-   ![ het menupunt van de overdracht van activa ](/help/tools/asset-transfer/assets/asset-transfer.png)
+   ![&#x200B; het menupunt van de overdracht van activa &#x200B;](/help/tools/asset-transfer/assets/asset-transfer.png)
 
 1. Zoek in het dialoogvenster **[!UICONTROL Users]** naar de gebruiker waarvan u elementen wilt overbrengen en selecteer de gebruiker.
 
@@ -36,7 +36,7 @@ Voor Asset Transfer is de toestemming van de productbeheerder voor Customer Jour
 
 1. Nadat u een gebruiker hebt geselecteerd, wordt de optie Overdrachtselementen onder aan het scherm weergegeven.
 
-   ![ optie van het de activa van de Overdracht ](/help/tools/asset-transfer/assets/after-selection.png)
+   ![&#x200B; optie van het de activa van de Overdracht &#x200B;](/help/tools/asset-transfer/assets/after-selection.png)
 
 1. Klik op **[!UICONTROL Transfer assets]**.
 
@@ -55,7 +55,7 @@ Voor Asset Transfer is de toestemming van de productbeheerder voor Customer Jour
 
 1. Om _alle_ activa in een omslag te selecteren, controleer het vakje naast **[!UICONTROL Name]** bij de bovenkant van de lijst.
 
-   ![ uitgezochte activa om over te brengen ](/help/tools/asset-transfer/assets/select-assets.png)
+   ![&#x200B; uitgezochte activa om over te brengen &#x200B;](/help/tools/asset-transfer/assets/select-assets.png)
 
 1. Klik op **[!UICONTROL Transfer]** rechtsboven nadat u alle selecties hebt gemaakt.
 
@@ -93,13 +93,13 @@ Er zijn drie mogelijke resultaten voor een overdracht:
 
 Een van de belangrijkste gevallen van overdracht van activa is tijdens de upgrade van Adobe Analytics naar Customer Journey Analytics.
 
-De [ eigenschap van de Migratie van de Component ](https://experienceleague.adobe.com/nl/docs/analytics/admin/admin-tools/component-migration/component-migration) in Adobe Analytics laat u beheer-Vertrouwde projecten aan andere beheerders migreren. Alle componenten waaruit deze projecten bestaan, worden vervolgens opnieuw gemaakt in Customer Journey Analytics en de beheerder van de ontvanger heeft al die componenten, ongeacht wie ze heeft gemaakt.
+De [&#x200B; eigenschap van de Migratie van de Component &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/admin/admin-tools/component-migration/component-migration) in Adobe Analytics laat u beheer-Vertrouwde projecten aan andere beheerders migreren. Alle componenten waaruit deze projecten bestaan, worden vervolgens opnieuw gemaakt in Customer Journey Analytics en de beheerder van de ontvanger heeft al die componenten, ongeacht wie ze heeft gemaakt.
 
 Dit hulpmiddel van de Overdracht van Activa laat later beheerders componenten aan hun rechtmatige eigenaars opnieuw toewijzen, of zij of niet worden beheerd.
 
 >[!IMPORTANT]
 >
->Terwijl u componenten kunt overbrengen gebruikend dit hulpmiddel, moet u als admin nog ervoor zorgen dat de ontvanger toegang tot de gegevensmeningen heeft die worden vereist om deze componenten te bekijken/te gebruiken. U kunt toestemmingen in [ Admin Console ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html) bekijken en toewijzen.
+>Terwijl u componenten kunt overbrengen gebruikend dit hulpmiddel, moet u als admin nog ervoor zorgen dat de ontvanger toegang tot de gegevensmeningen heeft die worden vereist om deze componenten te bekijken/te gebruiken. U kunt toestemmingen in [&#x200B; Admin Console &#x200B;](https://helpx.adobe.com/nl/enterprise/using/admin-console.html) bekijken en toewijzen.
 
 ## Exporteren naar CSV
 
@@ -109,5 +109,5 @@ Met de optie **[!UICONTROL Export to CSV]** kunnen beheerders alleen een lijst m
 
 Alle eerder verwijderde gebruikers worden samen met hun wezen onder één item voor &quot;Inactieve gebruikers&quot; weergegeven. Deze componenten kunnen naar een nieuwe ontvanger worden overgebracht. Deze functie is beschikbaar in januari.
 
-![ Inactieve gebruikers die in de activa UI van de Overdracht verschijnen ](assets/inactive-users.png)
+![&#x200B; Inactieve gebruikers die in de activa UI van de Overdracht verschijnen &#x200B;](assets/inactive-users.png)
 

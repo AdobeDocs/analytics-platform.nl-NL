@@ -21,20 +21,20 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van de Histogram in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [ Histogram ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/visualizations/histogram) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert de visualisatie van de Histogram in_ ![&#x200B; CustomerJourneyAnalytics &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [&#x200B; Histogram &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/visualizations/histogram) voor_ ![&#x200B; AdobeAnalytics &#x200B;](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
 
-De ![ visualisatie van de Histogram ](/help/assets/icons/Histogram.svg) **[!UICONTROL Histogram]** is gelijkaardig aan a [!UICONTROL Bar] visualisatie, maar het groepeert aantallen in waaiers (emmers). De analyse automatiseert het &quot;knippen&quot;van aantallen in waaiers, maar u kunt de montages in [ Geavanceerde Montages ](#advanced-settings) veranderen.
+De ![&#x200B; visualisatie van de Histogram &#x200B;](/help/assets/icons/Histogram.svg) **[!UICONTROL Histogram]** is gelijkaardig aan a [!UICONTROL Bar] visualisatie, maar het groepeert aantallen in waaiers (emmers). De analyse automatiseert het &quot;knippen&quot;van aantallen in waaiers, maar u kunt de montages in [&#x200B; Geavanceerde Montages &#x200B;](#advanced-settings) veranderen.
 
 ## Gebruiken
 
 Een histogram maken:
 
-1. Voeg a ![ Histogram ](/help/assets/icons/Histogram.svg) **[!UICONTROL Histogram]** visualisatie toe. Zie [ een visualisatie aan een paneel ](freeform-analysis-visualizations.md#add-visualizations-to-a-panel) toevoegen.
+1. Voeg a ![&#x200B; Histogram &#x200B;](/help/assets/icons/Histogram.svg) **[!UICONTROL Histogram]** visualisatie toe. Zie [&#x200B; een visualisatie aan een paneel &#x200B;](freeform-analysis-visualizations.md#add-visualizations-to-a-panel) toevoegen.
 1. Sleep metrisch van de **[!UICONTROL Metrics]** componentenlijst, of selecteer metrisch van [!UICONTROL *een metrisch*] drop-down menu toevoegen.
-1. (optioneel) Selecteer **[!UICONTROL Show advanced settings]** . Zie [ Geavanceerde montages ](#advanced-settings).
+1. (optioneel) Selecteer **[!UICONTROL Show advanced settings]** . Zie [&#x200B; Geavanceerde montages &#x200B;](#advanced-settings).
 1. Selecteer **[!UICONTROL Build]** .
 
 >[!NOTE]
@@ -62,13 +62,13 @@ Als onderdeel van de visualisatie zijn specifieke histograminstellingen beschikb
 
 | Beginemmer | Metrische emmers | Grootte van metrische emmer | Resultaat |
 |:----:|:--:|:--:|:--|
-| 1 | 5 | 2 | ![ Histogram, beginnend emmer 1, metrische emmers 5, metrische emmer grootte 2 ](assets/histogram-1-5-2.png) |
-| 0 | 3 | 5 | ![ Histogram, beginnend emmer 0, metrische emmers 3, metrische emmer grootte 5 ](assets/histogram-0-3-5.png) |
+| 1 | 5 | 2 | ![&#x200B; Histogram, beginnend emmer 1, metrische emmers 5, metrische emmer grootte 2 &#x200B;](assets/histogram-1-5-2.png) |
+| 0 | 3 | 5 | ![&#x200B; Histogram, beginnend emmer 0, metrische emmers 3, metrische emmer grootte 5 &#x200B;](assets/histogram-0-3-5.png) |
 
 >[!MORELIKETHIS]
 >
->[ voeg een visualisatie aan een paneel toe ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Visualisatie-instellingen ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Contextmenu Visualisatie ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
->&#x200B;>[Histogrammen gebruiken om onverwachte gegevenswaarden te identificeren ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)
+>[&#x200B; voeg een visualisatie aan een paneel toe &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>&#x200B;>[Visualisatie-instellingen &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>&#x200B;>[Contextmenu Visualisatie &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>&#x200B;>[Histogrammen gebruiken om onverwachte gegevenswaarden te identificeren &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)
 

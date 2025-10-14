@@ -29,7 +29,7 @@ U kunt het kleurenpalet voor visualisatie wijzigen dat in Workspace wordt gebrui
 >
 >Ondersteuning van kleurenpaletten is niet ingeschakeld voor Internet Explorer 11.
 
-![ het venster van Info &amp; van Montages van het Project.](assets/color-palettes.png)
+![&#x200B; het venster van Info &amp; van Montages van het Project.](assets/color-palettes.png)
 
 Houd rekening met het volgende:
 

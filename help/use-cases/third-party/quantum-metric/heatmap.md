@@ -24,10 +24,10 @@ U moet op het pakket van UX Ops van Metrische Quantum **van UX** gerechtigd zijn
 
 ## Stap 1: koppelingen configureren in Analysis Workspace
 
-1. Login aan [ experience.adobe.com ](https://experience.adobe.com).
+1. Login aan [&#x200B; experience.adobe.com &#x200B;](https://experience.adobe.com).
 1. Navigeer naar Customer Journey Analytics en selecteer **[!UICONTROL Workspace]** in het bovenste menu.
 1. Selecteer een bestaand project of maak een project.
-1. Creeer de lijst van de a [ Vrije vorm ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+1. Creeer de lijst van de a [&#x200B; Vrije vorm &#x200B;](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md).
 1. Sleep de pagina-URL-afmeting naar het Workspace-canvas.
 1. Klik met de rechtermuisknop op de kolomkop voor de dimensie en selecteer vervolgens **[!UICONTROL Create hyperlinks for all dimension items]** .
 1. Selecteer **[!UICONTROL Create a custom URL]** .
@@ -40,8 +40,8 @@ U moet op het pakket van UX Ops van Metrische Quantum **van UX** gerechtigd zijn
 1. Klik op **[!UICONTROL Create]**.
 1. Test een van de koppelingen om te zien of deze wordt geopend in de URL terwijl de extensie Quantum Metric zichtbaar is. Deze koppelingen worden geopend op een nieuw tabblad, zodat uw Workspace-project open blijft.
 
-![ Heatmap ](assets/heatmap.png)
+![&#x200B; Heatmap &#x200B;](assets/heatmap.png)
 
 ## Stap 2: heatmaps weergeven door op koppelingen in Customer Journey Analytics te klikken
 
-Nadat u een pagina hebt gevonden die u wilt verkennen, kunt u deze toepassen op het gewenste deelvenster. De tabel retourneert een URL waarmee u met behulp van Quantum Metric warmtekaarten, schuifdiepte en belangrijke zones voor interactie kunt verkennen. Zie [ het Metrische overzicht van het Kwartaalproduct van de heatmap ](https://www.quantummetric.com/platform/interaction-heatmaps) voor meer informatie. U kunt uw Metrische vertegenwoordiger van de klantensteun van Quantum ook contacteren of een verzoek indienen door het [ Metrische Portaal van het Verzoek van de Klant van Quantum Metrisch ](https://community.quantummetric.com/s/public-support-page).
+Nadat u een pagina hebt gevonden die u wilt verkennen, kunt u deze toepassen op het gewenste deelvenster. De tabel retourneert een URL waarmee u met behulp van Quantum Metric warmtekaarten, schuifdiepte en belangrijke zones voor interactie kunt verkennen. Zie [&#x200B; het Metrische overzicht van het Kwartaalproduct van de heatmap &#x200B;](https://www.quantummetric.com/platform/interaction-heatmaps) voor meer informatie. U kunt uw Metrische vertegenwoordiger van de klantensteun van Quantum ook contacteren of een verzoek indienen door het [&#x200B; Metrische Portaal van het Verzoek van de Klant van Quantum Metrisch &#x200B;](https://community.quantummetric.com/s/public-support-page).

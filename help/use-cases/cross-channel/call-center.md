@@ -33,7 +33,7 @@ Customer Journey Analytics biedt het waardevolle en robuuste vermogen om dataset
 
 ## Web- en callcentgegevens importeren in Platform
 
-Importeer uw gegevens naar Adobe Experience Platform. Zie [ een schema ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL) en [ Samenvatting gegevens ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=nl-NL) in de documentatie van Adobe Experience Platform creëren.
+Importeer uw gegevens naar Adobe Experience Platform. Zie [&#x200B; een schema &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL) en [&#x200B; Samenvatting gegevens &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=nl-NL) in de documentatie van Adobe Experience Platform creëren.
 
 Als u gegevens importeert in Platform, kunt u met de volgende tips insight in resulterende rapporten doen toenemen:
 
@@ -42,24 +42,24 @@ Als u gegevens importeert in Platform, kunt u met de volgende tips insight in re
 
 ## De persoon-id samenstellen
 
-Customer Journey Analytics vereist een gemeenschappelijke herkenningsteken om a [ gecombineerde dataset ](/help/connections/combined-dataset.md) te produceren.
+Customer Journey Analytics vereist een gemeenschappelijke herkenningsteken om a [&#x200B; gecombineerde dataset &#x200B;](/help/connections/combined-dataset.md) te produceren.
 
 * Als uw datasets reeds een gemeenschappelijke herkenningsteken op elke gebeurtenis over beide datasets hebben, kunt u deze stap overslaan en te werk gaan om een verbinding tot stand te brengen.
-* Als één van beiden van uw datasets een gemeenschappelijk herkenningsteken op slechts sommige gebeurtenissen hebben, kunt u gegevens samen verbinden gebruikend [ Stitching ](/help/stitching/overview.md) voor stappen om kanaalanalyse voor deze twee datasets toe te laten.
+* Als één van beiden van uw datasets een gemeenschappelijk herkenningsteken op slechts sommige gebeurtenissen hebben, kunt u gegevens samen verbinden gebruikend [&#x200B; Stitching &#x200B;](/help/stitching/overview.md) voor stappen om kanaalanalyse voor deze twee datasets toe te laten.
 
 ## Verbinding maken in Customer Journey Analytics
 
-[ creeer een verbinding ](/help/connections/create-connection.md) in Customer Journey Analytics.
+[&#x200B; creeer een verbinding &#x200B;](/help/connections/create-connection.md) in Customer Journey Analytics.
 
 * Als CCA wordt gebruikt, is een nieuwe gestikte dataset beschikbaar voor u aan gebruik. Gebruik het veld Nieuw gekoppelde id als de persoon-id.
 * Anders, kunt u zowel originele Web als vraagcentrum datasets voor gebruik in de verbinding selecteren.
 
 ## Een gegevensweergave maken
 
-Na het creëren van een verbinding, kunt u [ een gegevensmening ](/help/data-views/create-dataview.md) voor gebruik in Analysis Workspace tot stand brengen. De nuttige componenten omvatten:
+Na het creëren van een verbinding, kunt u [&#x200B; een gegevensmening &#x200B;](/help/data-views/create-dataview.md) voor gebruik in Analysis Workspace tot stand brengen. De nuttige componenten omvatten:
 
 * Een pagina-dimensie met laatste aanraking en sessieresistentie. U kunt de metriek van het vraagcentrum met de laatste pagina verbinden die een klant alvorens binnen te roepen bekeken.
-* Een vraag metrisch die een het schemagebied van het &quot;centrum van de Vraag&quot;gebruikt om voorkomen te verhogen. Het gebruik [ Metrische deduplicatie ](/help/data-views/component-settings/metric-deduplication.md) zodat verhoogt het slechts eenmaal per zitting.
+* Een vraag metrisch die een het schemagebied van het &quot;centrum van de Vraag&quot;gebruikt om voorkomen te verhogen. Het gebruik [&#x200B; Metrische deduplicatie &#x200B;](/help/data-views/component-settings/metric-deduplication.md) zodat verhoogt het slechts eenmaal per zitting.
 
 ## Visualisaties maken
 
@@ -69,10 +69,10 @@ De volgende visualisaties kunnen worden gebruikt om inzichten van uw gestikte da
 
 Deze visualisatie helpt u begrijpen hoe goed CCA gegevens samenbrengt.
 
-1. Maak twee segmenten. De variabele die in deze twee segmenten wordt gebruikt, is dezelfde hierboven vermelde variabele die de gegevensbron van elke gebeurtenis weerspiegelt. Zie [ een segment ](/help/components/segments/seg-create.md) voor meer informatie creëren.
+1. Maak twee segmenten. De variabele die in deze twee segmenten wordt gebruikt, is dezelfde hierboven vermelde variabele die de gegevensbron van elke gebeurtenis weerspiegelt. Zie [&#x200B; een segment &#x200B;](/help/components/segments/seg-create.md) voor meer informatie creëren.
    * Persoonscontainer waarin de gegevensset-id gelijk is aan uw webgegevens
    * De container van de persoon waar identiteitskaart van de Dataset uw gegevens van het vraagcentrum evenaart
-2. In Analysis Workspace, sleep de visualisatie van de a [ Venn ](/help/analysis-workspace/visualizations/venn.md) op het werkruimtekanvas.
+2. In Analysis Workspace, sleep de visualisatie van de a [&#x200B; Venn &#x200B;](/help/analysis-workspace/visualizations/venn.md) op het werkruimtekanvas.
 3. Sleep de twee nieuwe segmenten naar het **[!UICONTROL Add Segment]** -gebied en de metrische waarde Personen naar het **[!UICONTROL Add Metric]** -gebied.
 
 De resulterende Venn visualisatie toont het aantal mensen in uw dataset die zowel Web als vraagcentrumgegevens bevatten. Hoe groter de overlapping, des te meer mensen met succes werden vastgezet. De gebieden die elkaar niet overlappen vertegenwoordigen mensen die uitsluitend in één dataset of andere verblijven.
@@ -84,7 +84,7 @@ Deze vrije lijst laat u de hoogste pagina&#39;s zien die bijdragen aan vraag cen
 1. Sleep de dimensie die uw webpaginanamen bevat naar een visualisatie voor vrije-vormtabellen.
 1. Vervang metrisch met gewenste metrisch vraagcentrum dat u wilt meten.
 1. Klik op het tandwielpictogram bij de metrische koptekst. Klik op **[!UICONTROL Use non-default attribution model]**.
-1. Plaats het gewenste [ model van de Attributie ](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md). Bijvoorbeeld, een model van het Verval van de Tijd met een halfwaardetijd van 15 minuten, en een Venster van de Raadpleging van Zitting. Dit attributiemodel geeft krediet aan de pagina&#39;s die tot de vraag aan uw vraagcentrum leiden.
+1. Plaats het gewenste [&#x200B; model van de Attributie &#x200B;](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md). Bijvoorbeeld, een model van het Verval van de Tijd met een halfwaardetijd van 15 minuten, en een Venster van de Raadpleging van Zitting. Dit attributiemodel geeft krediet aan de pagina&#39;s die tot de vraag aan uw vraagcentrum leiden.
 
 Het resulterende rapport toont de hoogste pagina&#39;s die vraag aan uw vraagcentrum drijven. <!-- use case behind what we use these pages for -->
 

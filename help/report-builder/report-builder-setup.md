@@ -72,11 +72,11 @@ Als uw organisatie de toegang tot de Microsoft Store blokkeert:
 
 - Vraag uw IT- of beveiligingsteam om goedkeuring voor de Report Builder-add-in. Nadat goedkeuring is verleend, selecteert u in het dialoogvenster Office **[!UICONTROL Add-ins]** het tabblad **[!UICONTROL Admin Managed]** .
 
-  ![ Admin Beheerde lusje in de dialoog van toe:voegen-ins van het Bureau.](./assets/image1.png){zoomable="yes"}
+  ![&#x200B; Admin Beheerde lusje in de dialoog van toe:voegen-ins van het Bureau.](./assets/image1.png){zoomable="yes"}
 
-Na het installeren van toe:voegen-binnen Report Builder, wordt het ![ AdobeLogoRedonWhite ](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** pictogram getoond in het lint van Excel onder **[!UICONTROL Home]** tabel.
+Na het installeren van toe:voegen-binnen Report Builder, wordt het ![&#x200B; AdobeLogoRedonWhite &#x200B;](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** pictogram getoond in het lint van Excel onder **[!UICONTROL Home]** tabel.
 
-![ het pictogram van Report Builder in Excel ](./assets/rb_app_icon.png){zoomable="yes"}
+![&#x200B; het pictogram van Report Builder in Excel &#x200B;](./assets/rb_app_icon.png){zoomable="yes"}
 
 
 ## Aanmelden bij Report Builder
@@ -85,15 +85,15 @@ Nadat u de Report Builder for Excel-invoegtoepassing voor uw besturingssysteem h
 
 1. Open een werkboek van Excel.
 
-1. Selecteer ![ AdobeLogoRedOnWhite ](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** om Report Builder te lanceren.
+1. Selecteer ![&#x200B; AdobeLogoRedOnWhite &#x200B;](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** om Report Builder te lanceren.
 
 1. Selecteer in de werkbalk Adobe Report Builder de optie **[!UICONTROL Login]** .
 
-   ![ klik de login van Report Builder knoop.](./assets/rb_login.png){zoomable="yes"}
+   ![&#x200B; klik de login van Report Builder knoop.](./assets/rb_login.png){zoomable="yes"}
 
 1. Voer je Adobe-accountgegevens in. Je accountgegevens moeten overeenkomen met je Customer Journey Analytics-gegevens.
 
-   ![ Uw login pictogram en organisatie.](./assets/image4.png){zoomable="yes"}
+   ![&#x200B; Uw login pictogram en organisatie.](./assets/image4.png){zoomable="yes"}
 
 Nadat u zich hebt aangemeld, worden het aanmeldingspictogram en de organisatie boven in het deelvenster weergegeven
 
@@ -106,7 +106,7 @@ Wanneer u zich voor het eerst aanmeldt, wordt u aangemeld bij de standaardorgani
 
 1. Selecteer een organisatie in de lijst met beschikbare organisaties. Alleen organisaties waartoe u toegang hebt, worden vermeld.
 
-   ![ de lijst van organisaties die u kunt toegang hebben.](./assets/image5.png){zoomable="yes"}
+   ![&#x200B; de lijst van organisaties die u kunt toegang hebben.](./assets/image5.png){zoomable="yes"}
 
 ## Afmelden
 
@@ -116,6 +116,6 @@ Afmelden bij Report Builder:
 
 1. Selecteer het avatar pictogram om uw gebruikersprofiel te tonen.
 
-   ![ Uw avatar van het gebruikersprofiel en de knoop van het Teken uit.](./assets/image6.png){zoomable="yes"}
+   ![&#x200B; Uw avatar van het gebruikersprofiel en de knoop van het Teken uit.](./assets/image6.png){zoomable="yes"}
 
 1. Selecteer **[!UICONTROL Sign Out]** .

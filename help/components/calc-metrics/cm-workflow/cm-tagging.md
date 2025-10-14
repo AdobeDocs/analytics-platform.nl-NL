@@ -13,17 +13,17 @@ ht-degree: 0%
 # Berekende maatstaven voor tags
 
 
-In de [ Berekende metriekmanager ](cm-manager.md), kunt u markeringen gebruiken om berekende metriek te organiseren. Beheerders kunnen alle berekende metrisch labelen. Niet-beheerders kunnen alleen de berekende metriek die ze maken of met hen hebben gedeeld, van tags voorzien.
+In de [&#x200B; Berekende metriekmanager &#x200B;](cm-manager.md), kunt u markeringen gebruiken om berekende metriek te organiseren. Beheerders kunnen alle berekende metrisch labelen. Niet-beheerders kunnen alleen de berekende metriek die ze maken of met hen hebben gedeeld, van tags voorzien.
 
 Een of meer berekende metriek labelen:
 
-1. In de [ Berekende metriekmanager ](cm-manager.md), selecteer één of meerdere van de berekende metriek u wilt etiketteren.
-1. Van de actiebar, uitgezochte ![ Etiketten ](/help/assets/icons/Labels.svg) **[!UICONTROL Tag]**.
+1. In de [&#x200B; Berekende metriekmanager &#x200B;](cm-manager.md), selecteer één of meerdere van de berekende metriek u wilt etiketteren.
+1. Van de actiebar, uitgezochte ![&#x200B; Etiketten &#x200B;](/help/assets/icons/Labels.svg) **[!UICONTROL Tag]**.
 1. In het dialoogvenster **[!UICONTROL Tag Calculated metrics]**
 
-   ![ Markering Berekende metrische dialoog ](assets/tag-calculated-metric-dialog.png)
+   ![&#x200B; Markering Berekende metrische dialoog &#x200B;](assets/tag-calculated-metric-dialog.png)
 
-   1. (Naar keuze) gebruik ![ Onderzoek ](/help/assets/icons/Search.svg) om naar de lijst van markeringen te zoeken en te beperken.
+   1. (Naar keuze) gebruik ![&#x200B; Onderzoek &#x200B;](/help/assets/icons/Search.svg) om naar de lijst van markeringen te zoeken en te beperken.
 
    2. Gebaseerd op de lijst met labels:
 
@@ -32,7 +32,7 @@ Een of meer berekende metriek labelen:
 
 1. Selecteer **[!UICONTROL Save]** om de labels voor de berekende metriek op te slaan. Selecteer **[!UICONTROL Cancel]** om te annuleren.
 
-Zodra bewaard, zijn de markeringen vermeld op het [!UICONTROL Tag] gebied voor geselecteerde berekende metrisch in de [ Berekende metrische bouwer ](cm-tagging.md).
+Zodra bewaard, zijn de markeringen vermeld op het [!UICONTROL Tag] gebied voor geselecteerde berekende metrisch in de [&#x200B; Berekende metrische bouwer &#x200B;](cm-tagging.md).
 
 <!--
 

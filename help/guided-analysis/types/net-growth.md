@@ -31,7 +31,7 @@ Elk gegevenspunt vertegenwoordigt de netto groei, die met de volgende formule wo
 
 Het resultaat van deze formule is een verhouding. Een netto groei van `1` vertegenwoordigt een evenwicht; het product verwierf het zelfde aantal gebruikers het. Een netto groei groter dan `1` vertegenwoordigt een positieve groei; er waren meer nieuwe gebruikers + retourgebruikers dan slapende gebruikers. Evenzo vertegenwoordigt een netto groei onder `1` een verlies; er waren meer slapende gebruikers dan nieuwe + retourgebruikers.
 
-Gelijkaardig aan de [ Actieve ](active-growth.md) analyse, worden de gebruikers bepaald als het volgende:
+Gelijkaardig aan de [&#x200B; Actieve &#x200B;](active-growth.md) analyse, worden de gebruikers bepaald als het volgende:
 
 * **[!UICONTROL New]**: De gebruiker was actief tijdens de huidige periode, maar niet eerder. Zie hoe ver de analyse terug kijkt om een nieuwe gebruiker te bepalen door over &quot;[!UICONTROL New users]&quot;in de grafieklegenda te hangen. Het terugkijkbereik wordt dynamisch bepaald op basis van het geselecteerde datumbereik en interval.
 * **[!UICONTROL Return]**: De gebruiker was actief in de huidige periode en was niet actief in de onmiddellijk vorige periode, maar was voorheen actief op een bepaald punt. Zie hoe ver de analyse terug kijkt om een terugkeergebruiker te bepalen door over &quot;[!UICONTROL Return users]&quot;in de grafieklegenda te bewegen. Het terugkijkbereik wordt dynamisch bepaald op basis van het geselecteerde datumbereik en interval.
@@ -54,13 +54,13 @@ De gevallen van het gebruik voor deze analyse omvatten:
 
 ## Interface
 
-Zie [ Interface ](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
+Zie [&#x200B; Interface &#x200B;](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
 
 ### Query-rail
 
 Met de queryrail kunt u de volgende componenten configureren:
 
-* **[!UICONTROL View]**: Schakelaar tussen deze analyse en [ Actieve groei ](active-growth.md).
+* **[!UICONTROL View]**: Schakelaar tussen deze analyse en [&#x200B; Actieve groei &#x200B;](active-growth.md).
 * **[!UICONTROL Events]**: De gebeurtenis die u wilt meten. Aangezien deze analyse op gebruikers is gebaseerd, wordt een gebruiker die binnen de periode eenmaal met de gebeurtenis communiceert, als een actieve gebruiker geteld. U kunt één gebeurtenis in een vraag omvatten.
 * **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. <ul><li>**[!UICONTROL Options]** include [!UICONTROL Number of users] and [!UICONTROL Percentage of users] .</li><li>&rbrack;{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} de Extra **[!UICONTROL B2B options]** van B2B edition zijn beschikbaar voor Customer Journey Analytics B2B edition: [!UICONTROL Global accounts], [!UICONTROL Accounts], [!UICONTROL Buying groups], [!UICONTROL Opportunities], [!UICONTROL Percentage of global accounts], [!UICONTROL Percentage of accounts], [!UICONTROL Percentage of buying groups], en [!UICONTROL Percentage of opportunities].</li></ul>
 * **[!UICONTROL Segments]**: Het segment dat u wilt meten. U kunt één segment in een vraag omvatten.

@@ -44,21 +44,21 @@ De invloed van marketing analyseren en verkennen:
 - via campagnes, kanalen en inhoud,
 - bij het kopen van groepen binnen rekeningen, de vooruitgang van de verkooppijpleiding, upsell en cross-sell kansen, en de gezondheid van de klantenrekening.
 
-Het [ gedetailleerde artikel van het gebruiksgeval ](optimize-account-marketing.md) verkent hoe Customer Journey Analytics B2B edition kan helpen om rekening marketing te optimaliseren.
+Het [&#x200B; gedetailleerde artikel van het gebruiksgeval &#x200B;](optimize-account-marketing.md) verkent hoe Customer Journey Analytics B2B edition kan helpen om rekening marketing te optimaliseren.
 
 ### Sleutelaccounts vergroten
 
 Aanraakpunten met hoge waarde vaststellen voor inkoopgroepen binnen sleutelaccounts om de volgende-best-marketing- en verkoopacties te informeren en de inkomstengroei te stimuleren. Bereken en controleer de levensduurwaarde van de klant op het rekeningsniveau.
 
-Het [ gedetailleerde artikel van het gebruiksgeval ](grow-key-accounts.md) verkent hoe Customer Journey Analytics B2B edition kan helpen om zeer belangrijke rekeningen te kweken.
+Het [&#x200B; gedetailleerde artikel van het gebruiksgeval &#x200B;](grow-key-accounts.md) verkent hoe Customer Journey Analytics B2B edition kan helpen om zeer belangrijke rekeningen te kweken.
 
 ### Productwaarde opbouwen
 
 Meet het effect van productreleases en productgebruik op klantentevredenheid op het rekening en gebruikersniveau. Zo kunt u producteigenschappen en mogelijkheden optimaliseren en de toekomstige productontwikkeling informeren.
 
-Het [ gedetailleerde artikel van het gebruiksgeval ](build-product-value.md) verkent hoe Customer Journey Analytics B2B edition kan helpen om productwaarde te bouwen.
+Het [&#x200B; gedetailleerde artikel van het gebruiksgeval &#x200B;](build-product-value.md) verkent hoe Customer Journey Analytics B2B edition kan helpen om productwaarde te bouwen.
 
 
 ## Instellen
 
-Het [ opstellingsartikel ](setup.md) bespreekt hoe te opstelling Customer Journey Analytics B2B edition om deze gebruiksgevallen te steunen.
+Het [&#x200B; opstellingsartikel &#x200B;](setup.md) bespreekt hoe te opstelling Customer Journey Analytics B2B edition om deze gebruiksgevallen te steunen.

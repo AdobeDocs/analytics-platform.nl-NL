@@ -25,7 +25,7 @@ ht-degree: 0%
 
 {{upgrade-note-step}}
 
-Alvorens Adobe Analytics onbruikbaar te maken, herzie de informatie in [ evalueert wanneer om Adobe Analytics na bevordering aan Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md) onbruikbaar te maken.
+Alvorens Adobe Analytics onbruikbaar te maken, herzie de informatie in [&#x200B; evalueert wanneer om Adobe Analytics na bevordering aan Customer Journey Analytics &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-fully-move.md) onbruikbaar te maken.
 
 * **Markeringen:** maak de uitbreiding van Adobe Analytics onbruikbaar
 

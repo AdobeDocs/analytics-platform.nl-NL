@@ -31,15 +31,15 @@ Terwijl u de stappen doorloopt om van Adobe Analytics naar Customer Journey Anal
 
 * Wanneer u het schema voor Customer Journey Analytics maakt, neemt u de veldgroep `MediaAnalytics Interaction Details` op.
 
-  Voor meer informatie over het toevoegen van deze gebiedsgroep, zie [ Opstelling het schema in Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#set-up-the-schema-in-adobe-experience-platform) in de Streaming Gids van de Inzameling van Media.
+  Voor meer informatie over het toevoegen van deze gebiedsgroep, zie [&#x200B; Opstelling het schema in Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#set-up-the-schema-in-adobe-experience-platform) in de Streaming Gids van de Inzameling van Media.
 
-  Voor informatie over het creëren van het schema, zie [ een douaneschema tot stand brengen om met Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) te gebruiken.
+  Voor informatie over het creëren van het schema, zie [&#x200B; een douaneschema tot stand brengen om met Customer Journey Analytics &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) te gebruiken.
 
 * Schakel Media Analytics in wanneer u de gegevensstroom voor Customer Journey Analytics configureert.
 
-  Voor meer informatie over het toelaten van deze optie, zie [ een gegevensstroom in Adobe Experience Platform ](https://experienceleague.adobe.com/nl/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#configure-a-datastream-in-adobe-experience-platform) in de Streaming Gids van de Inzameling van Media vormen.
+  Voor meer informatie over het toelaten van deze optie, zie [&#x200B; een gegevensstroom in Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge#configure-a-datastream-in-adobe-experience-platform) in de Streaming Gids van de Inzameling van Media vormen.
 
-  Voor informatie over het creëren van de gegevensstroom, zie [ een gegevensstroom tot stand brengen om met Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md) te gebruiken.
+  Voor informatie over het creëren van de gegevensstroom, zie [&#x200B; een gegevensstroom tot stand brengen om met Customer Journey Analytics &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md) te gebruiken.
 
   >[!NOTE]
   >
@@ -49,9 +49,9 @@ Terwijl u de stappen doorloopt om van Adobe Analytics naar Customer Journey Anal
 
   Zorg ervoor u deze schemagebieden aan de correcte waarden in het voorwerp XDM in kaart brengt.
 
-  Voor meer informatie over de vereiste gebieden, zie [ een gegevensmening in Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md) in de Streaming Gids van de Inzameling van Media creëren.
+  Voor meer informatie over de vereiste gebieden, zie [&#x200B; een gegevensmening in Customer Journey Analytics &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md) in de Streaming Gids van de Inzameling van Media creëren.
 
-  Voor informatie over het creëren van de gegevensmening, zie [ een gegevensmening in Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md) creëren.
+  Voor informatie over het creëren van de gegevensmening, zie [&#x200B; een gegevensmening in Customer Journey Analytics &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-dataview.md) creëren.
 
 <!--
 

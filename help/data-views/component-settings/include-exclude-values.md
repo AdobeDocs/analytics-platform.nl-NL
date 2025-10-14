@@ -34,7 +34,7 @@ ht-degree: 0%
 
 Met Waarden voor uitsluiten kunt u regels maken die afhankelijk zijn van de waarde van een dimensie-item. Waarden die niet voldoen aan de criteria die u instelt, worden in Analysis Workspace behandeld alsof ze nooit bestaan, hoewel de gegevens nog steeds bestaan in de onderliggende dataset.
 
-![ de meningsvenster van Gegevens die omvatten sluit waarden ](../assets/include-exclude.png) uit
+![&#x200B; de meningsvenster van Gegevens die omvatten sluit waarden &#x200B;](../assets/include-exclude.png) uit
 
 | Instelling | Omschrijving/gebruik |
 | --- | --- |

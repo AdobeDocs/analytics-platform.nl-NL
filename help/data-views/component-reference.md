@@ -18,7 +18,7 @@ De meeste dimensies en metriek in Customer Journey Analytics zijn gebaseerd op s
 
 [!UICONTROL Standard components] zijn componenten die niet uit de gebieden van het datasetschema worden geproduceerd maar in plaats daarvan systeem geproduceerd. Sommige systeemonderdelen zijn vereist om de rapportagemogelijkheden in Analysis Workspace te vergemakkelijken, terwijl andere systeemonderdelen optioneel zijn.
 
-![ Standaardcomponenten ](assets/dataview-standard-components.png)
+![&#x200B; Standaardcomponenten &#x200B;](assets/dataview-standard-components.png)
 
 ## Vereiste standaardonderdelen {#required}
 
@@ -69,5 +69,5 @@ Optionele standaardcomponenten zijn beschikbaar via **[!UICONTROL Data views]** 
 
 >[!MORELIKETHIS]
 >
->[ ontdekt de diepere Inzichten van de Klant met de Eigenschap van de Diepte van de Gebeurtenis ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947#M576)
+>[&#x200B; ontdekt de diepere Inzichten van de Klant met de Eigenschap van de Diepte van de Gebeurtenis &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947#M576)
 >

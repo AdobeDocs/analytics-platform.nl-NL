@@ -23,7 +23,7 @@ Het kiezen van het juiste toewijzingsmodel voor uw organisatie is afhankelijk va
 >[!NOTE]
 >Deze analyse moet plaatsvinden voordat u een attributiemodel kiest.
 
-Deze fase bestaat aanvankelijk uit het begrip van klantengedrag en het bepalen van omzettingsmetriek. Gebaseerd op de omzettingsmetriek, vergemakkelijken de hulpmiddelen zoals [ de Eendelen van Gegevens ](https://experienceleague.adobe.com/nl/docs/analytics/export/analytics-data-feed/data-feed-overview) (voor ruwe gegevens) of Analysis Workspace uw begrip van
+Deze fase bestaat aanvankelijk uit het begrip van klantengedrag en het bepalen van omzettingsmetriek. Gebaseerd op de omzettingsmetriek, vergemakkelijken de hulpmiddelen zoals [&#x200B; de Eendelen van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/export/analytics-data-feed/data-feed-overview) (voor ruwe gegevens) of Analysis Workspace uw begrip van
 
 * Het aantal klanten dat verschillende marketingkanalen aanraakt voordat ze hun producten converteren
 * De verhouding/de verdeling van deze gedragingen
@@ -33,7 +33,7 @@ Vervolgens zou je boven- en ondertrechter-analyse kunnen uitvoeren om je begrip 
 
 ### Analyse van de bovenfuntrechter
 
-Analyekanalen van de bovenste funnel worden gebruikt om merkbekendheid of productbekendheid te geven. Het doel van de meeste tv-advertenties is bijvoorbeeld merkbewustzijn. U zou het [ de attributiemodel van het Verval van de Tijd ](/help/analysis-workspace/attribution/models.md) kunnen gebruiken, aangezien de mensen over uw Tv en in tijd zullen vergeten.
+Analyekanalen van de bovenste funnel worden gebruikt om merkbekendheid of productbekendheid te geven. Het doel van de meeste tv-advertenties is bijvoorbeeld merkbewustzijn. U zou het [&#x200B; de attributiemodel van het Verval van de Tijd &#x200B;](/help/analysis-workspace/attribution/models.md) kunnen gebruiken, aangezien de mensen over uw Tv en in tijd zullen vergeten.
 
 ### Analyse van de ondertrechter
 
@@ -47,20 +47,20 @@ Het doel van deze stap is uw hypothesen te bevestigen.
 
 Veronderstel dat uw hypothese is: &quot;*Mijn eerste-aanrakingskanaal heeft meer invloed op omzetting dan mijn laatste-aanrakingskanaal.*&quot;
 
-In dit geval, zou u dan het [ Omgekeerde J-Vormige attributiemodel ](/help/analysis-workspace/attribution/models.md) gebruiken om deze hypothese te testen. Dit model geeft 60% van het krediet aan het eerste aanraakpunt.
+In dit geval, zou u dan het [&#x200B; Omgekeerde J-Vormige attributiemodel &#x200B;](/help/analysis-workspace/attribution/models.md) gebruiken om deze hypothese te testen. Dit model geeft 60% van het krediet aan het eerste aanraakpunt.
 
 **Voorbeeld 2**
 
 Stel dat uw hypothese als volgt is: *&quot;In een specifieke branche (zoals de reisindustrie), is het attributievenster 60 of 90 dagen, niet 30 dagen, omdat klanten veel onderzoek doen voordat ze een product kopen.*&quot;
 
-In dit geval, zou u uw [ raadplegingsvenster ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/attribution/models) in 90 dagen veranderen.
+In dit geval, zou u uw [&#x200B; raadplegingsvenster &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/attribution/models) in 90 dagen veranderen.
 
 ## Algoritmische toewijzing gebruiken
 
-Als u nog geen attributiemodel hebt dat bevredigende antwoorden aan al uw vragen verstrekt, kunt u [ algoritmische attributie ](/help/analysis-workspace/attribution/algorithmic.md) gebruiken. Omdat het erg moeilijk is om een groot aantal mogelijke hypothesen en combinaties te valideren, gebruikt algoritmische attributie ingebouwde algoritmen om krediet over dimensie-items toe te wijzen.
+Als u nog geen attributiemodel hebt dat bevredigende antwoorden aan al uw vragen verstrekt, kunt u [&#x200B; algoritmische attributie &#x200B;](/help/analysis-workspace/attribution/algorithmic.md) gebruiken. Omdat het erg moeilijk is om een groot aantal mogelijke hypothesen en combinaties te valideren, gebruikt algoritmische attributie ingebouwde algoritmen om krediet over dimensie-items toe te wijzen.
 
 ## Andere overwegingen
 
 * Misschien moet je de diensten van een data wetenschapper gebruiken in plaats van alleen op Analysis Workspace te vertrouwen.
 * U kunt vertrouwen op onbewerkte gegevens, zoals in Adobe-gegevensfeeds.
-* Overweeg gebruikend [ Customer Journey Analytics ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), bijvoorbeeld, als u uw impressiegegevens wilt overwegen.
+* Overweeg gebruikend [&#x200B; Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), bijvoorbeeld, als u uw impressiegegevens wilt overwegen.

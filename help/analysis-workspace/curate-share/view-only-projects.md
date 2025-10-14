@@ -14,22 +14,22 @@ ht-degree: 0%
 
 # Alleen-lezen projecten
 
-U kunt projecten als read-only aan ontvangers door [ delen functionaliteit ](/help/analysis-workspace/curate-share/share-projects.md). Ontvangers die zijn geplaatst in de **[!UICONTROL Read only]** -rol krijgen een beperktere ervaring met projecten.
+U kunt projecten als read-only aan ontvangers door [&#x200B; delen functionaliteit &#x200B;](/help/analysis-workspace/curate-share/share-projects.md). Ontvangers die zijn geplaatst in de **[!UICONTROL Read only]** -rol krijgen een beperktere ervaring met projecten.
 
 Dit kan gewenst zijn als u een project deelt aan gebruikers die minder vertrouwd zijn met de gegevensstructuur van uw organisatie, Analysis Workspace of Customer Journey Analytics in het algemeen, maar u toch wilt dat zij gegevens en inzichten in een veilige omgeving gebruiken.
 
-![ Aandeel als read-only ](assets/read-only-project-sender.png)
+![&#x200B; Aandeel als read-only &#x200B;](assets/read-only-project-sender.png)
 
 De interacties voor alleen-lezen ontvangers zijn beperkt.
 
-![ Aandeel als read-only ontvangen ](assets/read-only-project-receiver.png)
+![&#x200B; Aandeel als read-only ontvangen &#x200B;](assets/read-only-project-receiver.png)
 
 ## Uitgeschakelde interacties
 
 Uitgeschakelde interacties in een alleen-weergaveproject zijn onder meer:
 
 * Verborgen linkerdeelvenster
-* Datumbereik paneelkalender. Nota: Als u kalendercontrole aan ontvangers wilt verlenen, voeg in a [ drop-down segment met datumwaaiers ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=nl-NL) toe.
+* Datumbereik paneelkalender. Nota: Als u kalendercontrole aan ontvangers wilt verlenen, voeg in a [&#x200B; drop-down segment met datumwaaiers &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=nl-NL) toe.
 * Freeform-segmentering
 * Vrije vorm nr. van zichtbare rijen
 * Instellingen voor rij, kolom of visualisatie voor vrije vorm
@@ -51,6 +51,6 @@ Enkele opmerkelijkere toegelaten interactie in een mening-slechts project omvatt
 
 ## Delen met iedereen
 
-Als u een project gebruikend [ Aandeel met iedereen ](share-projects.md#share-a-project-with-anyone-no-login-required) hebt geselecteerd kan de ontvanger van de verbinding slechts het project bekijken en niet met het project in wisselwerking staan.
+Als u een project gebruikend [&#x200B; Aandeel met iedereen &#x200B;](share-projects.md#share-a-project-with-anyone-no-login-required) hebt geselecteerd kan de ontvanger van de verbinding slechts het project bekijken en niet met het project in wisselwerking staan.
 
-![ Aandeel met iedereen ervaring ](assets/share-with-anyone-receiver.png)
+![&#x200B; Aandeel met iedereen ervaring &#x200B;](assets/share-with-anyone-receiver.png)

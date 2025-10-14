@@ -61,9 +61,9 @@ ht-degree: 0%
 
 
 
-Dit onderwerp bespreekt hoe te om publiek tot stand te brengen en te publiceren dat in Customer Journey Analytics wordt geïdentificeerd aan [ Real-Time Profiel van de Klant ](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/home) in Adobe Experience Platform voor klant richtend en verpersoonlijking.
+Dit onderwerp bespreekt hoe te om publiek tot stand te brengen en te publiceren dat in Customer Journey Analytics wordt geïdentificeerd aan [&#x200B; Real-Time Profiel van de Klant &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/home) in Adobe Experience Platform voor klant richtend en verpersoonlijking.
 
-Lees dit [ overzicht ](/help/components/audiences/audiences-overview.md) om met het concept van het publiek van Customer Journey Analytics vertrouwd te maken.
+Lees dit [&#x200B; overzicht &#x200B;](/help/components/audiences/audiences-overview.md) om met het concept van het publiek van Customer Journey Analytics vertrouwd te maken.
 
 ## Een publiek maken en publiceren {#create}
 
@@ -72,37 +72,37 @@ Lees dit [ overzicht ](/help/components/audiences/audiences-overview.md) om met 
    | Aanmaakmethode | Details |
    | --- | --- |
    | Vanuit de interface **[!UICONTROL Audiences]** | Selecteer **[!UICONTROL Components]** > **[!UICONTROL Audiences]** in het hoofdmenu van Customer Journey Analytics. De interface van het publiek toont. Selecteer **[!UICONTROL Create audience]** en [!UICONTROL Audience builder] wordt geopend. |
-   | Vanuit een visualisatie in Analysis Workspace | Met veel visualisaties in Analysis Workspace kunt u een publiek maken via het contextmenu. Bijvoorbeeld, kunt u **[!UICONTROL Create audience]** van het contextmenu van een punt in a [ Freeform lijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) of een knoop in [ het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) selecteren.<p>Het gebruiken van deze methode vult het segment in de bouwer van de Publiek met de dimensie of afmetingspunt vooraf in dat u selecteerde.</p><p>Met de volgende visualisaties kunt u een publiek maken via het snelmenu:</p><ul><li>[ Lijst van de Cohort ](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Uitval](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Stroom](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Vrije-vormentabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[ het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[ Kaart ](/help/analysis-workspace/visualizations/map.md#create-an-audience-from-the-map-visualization)<br/>**Nota:** Deze visualisatie is in de Beperkte het Testen fase van versie en zou niet nog in uw milieu beschikbaar kunnen zijn.</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** het publiek kan berekende metriek niet omvatten. Als u probeert om een publiek tot stand te brengen dat berekende metrisch bevat, is berekende metrisch niet inbegrepen in de publieksdefinitie.</p> |
-   | Via de interface voor het maken/bewerken van segmenten | Schakel het vakje met de tekst **[!UICONTROL Create an audience from this segment]** in. Met deze methode wordt het segment vooraf gevuld. Zie [ segmenten ](/help/components/segments/seg-create.md) voor meer informatie creëren. |
+   | Vanuit een visualisatie in Analysis Workspace | Met veel visualisaties in Analysis Workspace kunt u een publiek maken via het contextmenu. Bijvoorbeeld, kunt u **[!UICONTROL Create audience]** van het contextmenu van een punt in a [&#x200B; Freeform lijst &#x200B;](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) of een knoop in [&#x200B; het canvas van de Reis &#x200B;](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) selecteren.<p>Het gebruiken van deze methode vult het segment in de bouwer van de Publiek met de dimensie of afmetingspunt vooraf in dat u selecteerde.</p><p>Met de volgende visualisaties kunt u een publiek maken via het snelmenu:</p><ul><li>[&#x200B; Lijst van de Cohort &#x200B;](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)</li><li>[Uitval](/help/analysis-workspace/visualizations/fallout/fallout-flow.md)</li><li>[Stroom](/help/analysis-workspace/visualizations/c-flow/flow.md)</li><li>[Vrije-vormentabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md)</li><li>[&#x200B; het canvas van de Reis &#x200B;](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)</li><li>[&#x200B; Kaart &#x200B;](/help/analysis-workspace/visualizations/map.md#create-an-audience-from-the-map-visualization)<br/>**Nota:** Deze visualisatie is in de Beperkte het Testen fase van versie en zou niet nog in uw milieu beschikbaar kunnen zijn.</li><li>[Venn](/help/analysis-workspace/visualizations/venn.md)</li></ul><p>**Nota:** het publiek kan berekende metriek niet omvatten. Als u probeert om een publiek tot stand te brengen dat berekende metrisch bevat, is berekende metrisch niet inbegrepen in de publieksdefinitie.</p> |
+   | Via de interface voor het maken/bewerken van segmenten | Schakel het vakje met de tekst **[!UICONTROL Create an audience from this segment]** in. Met deze methode wordt het segment vooraf gevuld. Zie [&#x200B; segmenten &#x200B;](/help/components/segments/seg-create.md) voor meer informatie creëren. |
 
    {style="table-layout:auto"}
 
-1. Bouw het publiek gebruikend de [ bouwer van de Publiek ](#audience-builder).
+1. Bouw het publiek gebruikend de [&#x200B; bouwer van de Publiek &#x200B;](#audience-builder).
 
-1. Interpreteer de gegevens gebruikend het [ voorproef van de Datum ](#data-preview) paneel.
+1. Interpreteer de gegevens gebruikend het [&#x200B; voorproef van de Datum &#x200B;](#data-preview) paneel.
 
-1. Selecteer **[!UICONTROL [!UICONTROL View sample IDs]]** om een voorbeeld van id&#39;s in dit publiek weer te geven. In de **[!UICONTROL Sample IDs]** dialoog kunt u ![ Onderzoek ](/help/assets/icons/Search.svg) gebruiken [!UICONTROL *steekproef IDs van het Onderzoek*] om steekproef IDs te zoeken.
+1. Selecteer **[!UICONTROL [!UICONTROL View sample IDs]]** om een voorbeeld van id&#39;s in dit publiek weer te geven. In de **[!UICONTROL Sample IDs]** dialoog kunt u ![&#x200B; Onderzoek &#x200B;](/help/assets/icons/Search.svg) gebruiken [!UICONTROL *steekproef IDs van het Onderzoek*] om steekproef IDs te zoeken.
 
 1. Controleer de publieksconfiguratie en selecteer **[!UICONTROL Publish]**.
 U ontvangt een bevestigingsbericht dat het publiek wordt gepubliceerd. Publicatie duurt slechts een minuut of twee voordat dit publiek in Experience Platform verschijnt.
 
-1. Selecteer **[!UICONTROL View audience in AEP]** binnen het zelfde bericht en u wordt genomen aan [ Segment UI ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/overview) in Adobe Experience Platform. Zie hieronder voor meer informatie.
+1. Selecteer **[!UICONTROL View audience in AEP]** binnen het zelfde bericht en u wordt genomen aan [&#x200B; Segment UI &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/overview) in Adobe Experience Platform. Zie hieronder voor meer informatie.
 
 ## Audience builder
 
 Configureer deze instellingen om uw publiek te definiëren of bij te werken.
 
-![ Schermafbeelding van creeer een publiek die montages boeien in de volgende sectie worden beschreven.](assets/create-audience.png)
+![&#x200B; Schermafbeelding van creeer een publiek die montages boeien in de volgende sectie worden beschreven.](assets/create-audience.png)
 
 | Instelling | Beschrijving |
 | --- | --- |
-| ![ Gegevens ](/help/assets/icons/Data.svg) | Selecteer de gegevensweergave die u wilt gebruiken voor het maken van een publiek. |
+| ![&#x200B; Gegevens &#x200B;](/help/assets/icons/Data.svg) | Selecteer de gegevensweergave die u wilt gebruiken voor het maken van een publiek. |
 | **[!UICONTROL Name]** | De naam van het publiek. Bijvoorbeeld: `Really Interested in Potential Car Buyers` |
 | **[!UICONTROL Tags]** | Alle tags die u aan het publiek wilt toewijzen voor organisatorische doeleinden. U kunt een of meer bestaande tags selecteren of een nieuwe tags invoeren. |
 | **[!UICONTROL Description]** | Een beschrijving van het publiek, om het van anderen te onderscheiden. Bijvoorbeeld: `Build an audience of really interested potential car buyers` |
-| **[!UICONTROL Refresh frequency]** | De frequentie waarmee u het publiek wilt vernieuwen.<p/>U kunt kiezen tussen <ul><li>**[!UICONTROL One time]** publiek: een publiek (standaard) dat niet hoeft te worden vernieuwd. Deze optie kan bijvoorbeeld handig zijn voor specifieke, eenmalige campagnes.<br/> u moet specificeren a **[!UICONTROL One time date range]**. U kunt ![ Kalender ](/help/assets/icons/Calendar.svg) gebruiken om een datumwaaier in te gaan.</li><li>Een verfrissend publiek. U kunt uit de volgende opties selecteren:<ul><li>**[!UICONTROL Every 4 hour]** s: een publiek dat om de 4 uur verfrist.</li><li>**[!UICONTROL Daily]**: een publiek dat dagelijks vernieuwt</li><li>**[!UICONTROL Weekly]** : een publiek dat wekelijks vernieuwt.</li><li>**[!UICONTROL Monthly]**: een publiek dat maandelijks vernieuwt</li></ul></li>Voor het vernieuwen van publiek moet u opgeven:<ul><li>**[!UICONTROL Refresh lookback window]**. Definieer het aantal terugzoekdagen vanaf vandaag dat een publiek wordt geëvalueerd. U kunt opties selecteren of een aangepaste tijd definiëren. Het maximum is 90 dagen.</li><li>**[!UICONTROL Expiration date]**: Definieer wanneer het publiek stopt met vernieuwen. U kunt ![ Kalender ](/help/assets/icons/Calendar.svg) gebruiken om een datum te selecteren. De standaardwaarde is 1 jaar vanaf de aanmaakdatum. Het uitbreiden van het publiek wordt gelijkaardig behandeld aan het verlopen van geplande rapporten. De beheerder krijgt een maand voordat het publiek vervalt een e-mail.</li></ul> Let op: er geldt een limiet van 75 tot 150 publieksvernieuwingen, afhankelijk van uw Customer Journey Analytics-machtiging.</li></ul> |
-| **[!UICONTROL Filter]** | Filters zijn de belangrijkste invoer voor het publiek. De belemmering en laat vallen één of meerdere segmenten van het linker![ paneel van de Segmentatie ](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segment]** op het gebied van het Segment. U kunt het ![ Onderzoek ](/help/assets/icons/Search.svg) gebruiken [!UICONTROL *segmenten van het Onderzoek*] om naar segmenten te zoeken. U kunt maximaal 20 segmenten toevoegen. Segmenten kunnen worden verbonden met **[!UICONTROL And]** - of **[!UICONTROL Or]** -operatoren.<p>Wanneer u een publiek maakt op basis van een visualisatie in Analysis Workspace (zoals een vrije-vormtabel of het canvas Reis), blijven alle segmenten die op het deelvenster of de kolom zijn toegepast, behouden. U kunt alle segmenten verwijderen die automatisch worden toegepast.</p> |
-| **[!UICONTROL Data preview]** | Selecteer ![ Info ](/help/assets/icons/Info.svg) om de [ voorproef van Gegevens ](#data-preview) voor de geselecteerde datumwaaier te tonen of te verbergen. |
+| **[!UICONTROL Refresh frequency]** | De frequentie waarmee u het publiek wilt vernieuwen.<p/>U kunt kiezen tussen <ul><li>**[!UICONTROL One time]** publiek: een publiek (standaard) dat niet hoeft te worden vernieuwd. Deze optie kan bijvoorbeeld handig zijn voor specifieke, eenmalige campagnes.<br/> u moet specificeren a **[!UICONTROL One time date range]**. U kunt ![&#x200B; Kalender &#x200B;](/help/assets/icons/Calendar.svg) gebruiken om een datumwaaier in te gaan.</li><li>Een verfrissend publiek. U kunt uit de volgende opties selecteren:<ul><li>**[!UICONTROL Every 4 hour]** s: een publiek dat om de 4 uur verfrist.</li><li>**[!UICONTROL Daily]**: een publiek dat dagelijks vernieuwt</li><li>**[!UICONTROL Weekly]** : een publiek dat wekelijks vernieuwt.</li><li>**[!UICONTROL Monthly]**: een publiek dat maandelijks vernieuwt</li></ul></li>Voor het vernieuwen van publiek moet u opgeven:<ul><li>**[!UICONTROL Refresh lookback window]**. Definieer het aantal terugzoekdagen vanaf vandaag dat een publiek wordt geëvalueerd. U kunt opties selecteren of een aangepaste tijd definiëren. Het maximum is 90 dagen.</li><li>**[!UICONTROL Expiration date]**: Definieer wanneer het publiek stopt met vernieuwen. U kunt ![&#x200B; Kalender &#x200B;](/help/assets/icons/Calendar.svg) gebruiken om een datum te selecteren. De standaardwaarde is 1 jaar vanaf de aanmaakdatum. Het uitbreiden van het publiek wordt gelijkaardig behandeld aan het verlopen van geplande rapporten. De beheerder krijgt een maand voordat het publiek vervalt een e-mail.</li></ul> Let op: er geldt een limiet van 75 tot 150 publieksvernieuwingen, afhankelijk van uw Customer Journey Analytics-machtiging.</li></ul> |
+| **[!UICONTROL Filter]** | Filters zijn de belangrijkste invoer voor het publiek. De belemmering en laat vallen één of meerdere segmenten van het linker![&#x200B; paneel van de Segmentatie &#x200B;](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segment]** op het gebied van het Segment. U kunt het ![&#x200B; Onderzoek &#x200B;](/help/assets/icons/Search.svg) gebruiken [!UICONTROL *segmenten van het Onderzoek*] om naar segmenten te zoeken. U kunt maximaal 20 segmenten toevoegen. Segmenten kunnen worden verbonden met **[!UICONTROL And]** - of **[!UICONTROL Or]** -operatoren.<p>Wanneer u een publiek maakt op basis van een visualisatie in Analysis Workspace (zoals een vrije-vormtabel of het canvas Reis), blijven alle segmenten die op het deelvenster of de kolom zijn toegepast, behouden. U kunt alle segmenten verwijderen die automatisch worden toegepast.</p> |
+| **[!UICONTROL Data preview]** | Selecteer ![&#x200B; Info &#x200B;](/help/assets/icons/Info.svg) om de [&#x200B; voorproef van Gegevens &#x200B;](#data-preview) voor de geselecteerde datumwaaier te tonen of te verbergen. |
 
 ## Gegevensvoorbeeld
 
@@ -116,13 +116,13 @@ Het deelvenster Gegevensvoorbeeld bevat de volgende informatie.
 | **[!UICONTROL Estimated to return]** | Dit aantal geeft u een geschat aantal terugkerende klanten over het tijdkader dat u selecteerde. Dit aantal wordt voorspeld gebruikend het historische kinnetarief voor dit publiek. |
 | **[!UICONTROL Preview metrics]** | U kunt specifieke metrisch selecteren om te zien hoe de gegevens voor dat metrisch is gebaseerd op het publiek u bepaalt.  Elke metrische vertoningen van de Voorproef een totaal voor metrisch die op het publiek wordt gebaseerd. En een percentage van het publiek baseerde metrisch van het algemene totaal van metrisch, zoals die door de gegevensmening wordt bepaald. 381 personen (de metrische waarde die u hebt geselecteerd) zijn bijvoorbeeld het resultaat van uw publieksdefinitie. Dit is 5% van het totale aantal personen dat beschikbaar is in de gegevensweergave. U kunt elke metrische waarde selecteren die beschikbaar is in de gegevensweergave. |
 | **[!UICONTROL Namespaces included]** | De specifieke naamruimten die zijn gekoppeld aan de personen in uw publiek. Voorbeelden zijn ECID, CRM-id, e-mailadressen enzovoort. |
-| **[!UICONTROL Sandbox]** | De [ zandbak van Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/sandbox/home) waarin dit publiek verblijft. Wanneer u dit publiek publiceert naar Platform, kunt u alleen met het publiek werken binnen de grenzen van deze sandbox. |
+| **[!UICONTROL Sandbox]** | De [&#x200B; zandbak van Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sandbox/home) waarin dit publiek verblijft. Wanneer u dit publiek publiceert naar Platform, kunt u alleen met het publiek werken binnen de grenzen van deze sandbox. |
 
 {style="table-layout:auto"}
 
 ## Wat gebeurt er nadat een publiek is gemaakt en gepubliceerd? {#after-audience-created}
 
-Nadat u creeert en een publiek in Customer Journey Analytics publiceert, is het publiek beschikbaar in Experience Platform en kan in het [ Portaal van de Publiek ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/audience-portal) worden bekeken. Met het publiek beschikbaar in Experience Platform, kan het in andere toepassingen van Experience Platform, zoals Adobe Journey Optimizer worden gebruikt.
+Nadat u creeert en een publiek in Customer Journey Analytics publiceert, is het publiek beschikbaar in Experience Platform en kan in het [&#x200B; Portaal van de Publiek &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/audience-portal) worden bekeken. Met het publiek beschikbaar in Experience Platform, kan het in andere toepassingen van Experience Platform, zoals Adobe Journey Optimizer worden gebruikt.
 
 Er wordt alleen een Adobe Experience Platform-streamingsegment gemaakt als uw organisatie is ingesteld op streamingsegmentatie.
 
@@ -136,7 +136,7 @@ Houd rekening met het volgende wanneer u werkt met soorten publiek die van Custo
 
 Op verschillende momenten vóór, tijdens en na het publiceren van de doelgroep kunnen er latentie optreden. Hier volgt een overzicht van mogelijke vertragingen.
 
-![ Latenties in publiek het publiceren zoals die in deze sectie worden beschreven.](assets/latency-diagram.svg)
+![&#x200B; Latenties in publiek het publiceren zoals die in deze sectie worden beschreven.](assets/latency-diagram.svg)
 
 |  | Latentiepunt | Latentieduur |
 | --- | --- | --- |
@@ -163,15 +163,15 @@ Customer Journey Analytics-publiek in platform weergeven:
 
 1. Voer een van de volgende handelingen uit om het publiek te zoeken dat u hebt gepubliceerd vanuit Customer Journey Analytics:
 
-   ![ optie van het publiek in het linkerpaneel ](assets/aep-audiences.png)
+   ![&#x200B; optie van het publiek in het linkerpaneel &#x200B;](assets/aep-audiences.png)
 
    * Soort de lijst door de **[!UICONTROL Origin]** kolom om publiek te bekijken dat [!UICONTROL **Customer Journey Analytics**] als oorsprong toont.
 
-   * Filter ![ Filter ](/help/assets/icons/Filter.svg) op **[!UICONTROL Origin]** en selecteer **[!UICONTROL Customer Journey Analytics]**.
+   * Filter ![&#x200B; Filter &#x200B;](/help/assets/icons/Filter.svg) op **[!UICONTROL Origin]** en selecteer **[!UICONTROL Customer Journey Analytics]**.
 
-   * Gebruik het ![ 1&rbrace; onderzoeksgebied van het Onderzoek &lbrace;.](/help/assets/icons/Search.svg)
+   * Gebruik het ![&#x200B; 1&rbrace; onderzoeksgebied van het Onderzoek &lbrace;.](/help/assets/icons/Search.svg)
 
-Voor meer informatie over het gebruiken van Soorten publiek in Platform, zie de [ sectie van het publiek ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder) in de [ gids UI van de Bouwer van het Segment ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder) in de documentatie van Experience Platform.
+Voor meer informatie over het gebruiken van Soorten publiek in Platform, zie de [&#x200B; sectie van het publiek &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder) in de [&#x200B; gids UI van de Bouwer van het Segment &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder) in de documentatie van Experience Platform.
 
 ### Begrijp discrepanties in publiekscijfers
 
@@ -238,7 +238,7 @@ Customer Journey Analytics streamt de gegevens via pijpleiding naar Real-Time Cu
 
 +++**Welke identiteiten verzendt Customer Journey Analytics over?**
 
-Welke identiteit/namespace paren die in de [ opstelling van de Verbinding ](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-connections/create-connection) werden gespecificeerd. Specifiek, de stap wanneer een gebruiker het gebied selecteert zij als Persoon identiteitskaart willen gebruiken.
+Welke identiteit/namespace paren die in de [&#x200B; opstelling van de Verbinding &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-connections/create-connection) werden gespecificeerd. Specifiek, de stap wanneer een gebruiker het gebied selecteert zij als Persoon identiteitskaart willen gebruiken.
 
 +++
 
@@ -269,4 +269,4 @@ Nee, gebruikers kunnen de vernieuwingstijd niet configureren.
 
 ## Volgende stappen
 
-* Om dit publiek te beheren, ga naar [ Beheer UI ](/help/components/audiences/manage.md).
+* Om dit publiek te beheren, ga naar [&#x200B; Beheer UI &#x200B;](/help/components/audiences/manage.md).

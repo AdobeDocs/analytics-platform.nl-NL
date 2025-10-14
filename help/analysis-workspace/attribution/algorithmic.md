@@ -18,7 +18,7 @@ Het de attributenmodel van het Algorithmic [&#128279;](models.md) in Analysis Wo
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Algorithmic attributie ](https://video.tv.adobe.com/v/36205?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Algorithmic attributie &#x200B;](https://video.tv.adobe.com/v/36205?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 

@@ -17,7 +17,7 @@ Adobe Customer Journey Analytics wordt gehost in datacenters van bedrijfsniveau 
 
 Bij provisioning wijzen klanten het gebied aan waarin hun Adobe Experience Platform-gegevens zich bevinden. De gegevens die in CJA worden ingevoerd van het Adobe Experience Platform data Lake zullen in dezelfde regio worden opgeslagen.
 
-Zie [ Regionale gegevensinzameling ](https://experienceleague.adobe.com/nl/docs/core-services/interface/data-collection/rdc) in de documentatie van Adobe Experience Cloud voor meer informatie.
+Zie [&#x200B; Regionale gegevensinzameling &#x200B;](https://experienceleague.adobe.com/nl/docs/core-services/interface/data-collection/rdc) in de documentatie van Adobe Experience Cloud voor meer informatie.
 
 ## Azure
 

@@ -29,7 +29,7 @@ In deze sectie worden gebruiksgevallen voor gegevensuitvoer beschreven en wordt 
 
 ## Inleiding
 
-Een van de unieke verschillen tussen Adobe Analytics en Customer Journey Analytics houdt verband met de verwerking van gegevens voor attributie en sessionisatie. Zie [ gegevensverwerking over Adobe Analytics en Customer Journey Analytics ](/help/getting-started/aa-vs-cja/data-processing-comparisons.md) voor meer informatie vergelijken.
+Een van de unieke verschillen tussen Adobe Analytics en Customer Journey Analytics houdt verband met de verwerking van gegevens voor attributie en sessionisatie. Zie [&#x200B; gegevensverwerking over Adobe Analytics en Customer Journey Analytics &#x200B;](/help/getting-started/aa-vs-cja/data-processing-comparisons.md) voor meer informatie vergelijken.
 
 ### Adobe Analytics: toewijzing en sessionisatie van de verzameltijd.
 
@@ -49,7 +49,7 @@ Dit is van invloed op de uitvoer van gegevens uit Adobe Analytics:
 
 In Customer Journey Analytics worden gebeurtenissen niet op volgorde verzameld en wordt een persoon-id gebruikt in plaats van een apparaat-id, zodat Customer Journey Analytics kenmerk en sessionisatie op het rapporttijdstip kan bijwerken. Dit type gegevensverzameling introduceert flexibiliteit, zoals:
 
-* Stitching kan _gegevens dagelijks of wekelijks opnieuw spelen 1&rbrace;, associerend anonieme gebeurtenissen met bekende gebeurtenissen._ Zie [ het Plaatsen ](../../stitching/overview.md) voor meer informatie.
+* Stitching kan _gegevens dagelijks of wekelijks opnieuw spelen 1&rbrace;, associerend anonieme gebeurtenissen met bekende gebeurtenissen._ Zie [&#x200B; het Plaatsen &#x200B;](../../stitching/overview.md) voor meer informatie.
 * Sessionisatie en aanhoudend waarden veranderen telkens als
    * nieuwe gegevens worden verzameld of
    * stitching voegt gebeurtenissen toe aan de geschiedenis van een persoon .

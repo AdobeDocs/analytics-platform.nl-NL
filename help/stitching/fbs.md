@@ -16,12 +16,12 @@ ht-degree: 2%
 
 Op gebied gebaseerde stitching specificeert u een gebeurtenisdataset evenals blijvende identiteitskaart (koekje) en voorbijgaande identiteitskaart (persoonsidentiteitskaart) voor die dataset. Op veld gebaseerde stitching leidt tot een nieuwe gestippelde kolom van identiteitskaart in de nieuwe gestikte dataset en werkt deze stitched ID kolom bij die op rijen wordt gebaseerd die een transient identiteitskaart voor die specifieke blijvende identiteitskaart hebben. <br/> u kunt op gebied-gebaseerde het stitching gebruiken wanneer het gebruiken van Customer Journey Analytics als standalone oplossing (die geen toegang tot de Dienst van de Identiteit van Experience Platform en bijbehorende identiteitsgrafiek heeft). Of als u de beschikbare identiteitsgrafiek niet wilt gebruiken.
 
-![ Op gebied-gebaseerde het stitching ](/help/stitching/assets/fbs.png)
+![&#x200B; Op gebied-gebaseerde het stitching &#x200B;](/help/stitching/assets/fbs.png)
 
 
 ## IdentityMap
 
-Op velden gebaseerde stitching ondersteunt het gebruik van de [`identityMap` veldgroep ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/composition#identity) in de volgende scenario&#39;s:
+Op velden gebaseerde stitching ondersteunt het gebruik van de [`identityMap` veldgroep &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/composition#identity) in de volgende scenario&#39;s:
 
 - Gebruik van de primaire identiteit in `identityMap` naamruimten om de persistentID te definiëren:
    - Als meerdere primaire identiteiten in verschillende naamruimten worden gevonden, worden de identiteiten in de naamruimten lexigrafisch gesorteerd en wordt de eerste identiteit geselecteerd.
@@ -96,9 +96,9 @@ Met Stitching worden minimaal twee gegevenscontroles uitgevoerd in een bepaalde 
 
 - **Replay het stitching**: *speelt* gegevens opnieuw die op unieke herkenningstekens (transient IDs) worden gebaseerd het heeft geleerd. In dit stadium worden treffers van eerder onbekende apparaten (permanente id&#39;s) vastgezet (aan transient ID&#39;s). Replay wordt bepaald door twee parameters: **frequentie** en **raadplegingsvenster**. Adobe biedt de volgende combinaties van deze parameters aan:
    - **Dagelijkse raadpleging op een dagelijkse frequentie**: De gegevens respeelt elke dag met een terugkijkvenster van 24 uur terug. Deze optie biedt een voordeel dat het aantal keren wordt afgespeeld, maar niet-geregistreerde bezoekers moeten zich op dezelfde dag verifiëren dat ze uw site bezoeken.
-   - **wekelijkse raadpleging op een wekelijkse frequentie**: De gegevens respeelt eens per week met een wekelijks terugkijkvenster (zie [ opties ](#options)) opnieuw. Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Niet-opgeslagen gegevens van minder dan een week oud worden echter pas opnieuw verwerkt wanneer de gegevens wekelijks opnieuw worden afgespeeld.
-   - **biwekelijkse raadpleging op een wekelijkse frequentie**: De gegevens respeelt eens per week met een tweewekelijkse raadplegingsvenster (zie [ opties ](#options)) opnieuw. Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Onverwachte gegevens van minder dan twee weken oud worden echter pas opnieuw verwerkt wanneer de volgende week opnieuw wordt afgespeeld.
-   - **Maandelijkse raadpleging op een wekelijkse frequentie**: De gegevens replay elke week met een maandelijks terugkijkvenster (zie [ opties ](#options)). Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Niet-opgeslagen gegevens van minder dan een maand oud worden echter pas opnieuw verwerkt wanneer de gegevens wekelijks opnieuw worden afgespeeld.
+   - **wekelijkse raadpleging op een wekelijkse frequentie**: De gegevens respeelt eens per week met een wekelijks terugkijkvenster (zie [&#x200B; opties &#x200B;](#options)) opnieuw. Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Niet-opgeslagen gegevens van minder dan een week oud worden echter pas opnieuw verwerkt wanneer de gegevens wekelijks opnieuw worden afgespeeld.
+   - **biwekelijkse raadpleging op een wekelijkse frequentie**: De gegevens respeelt eens per week met een tweewekelijkse raadplegingsvenster (zie [&#x200B; opties &#x200B;](#options)) opnieuw. Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Onverwachte gegevens van minder dan twee weken oud worden echter pas opnieuw verwerkt wanneer de volgende week opnieuw wordt afgespeeld.
+   - **Maandelijkse raadpleging op een wekelijkse frequentie**: De gegevens replay elke week met een maandelijks terugkijkvenster (zie [&#x200B; opties &#x200B;](#options)). Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Niet-opgeslagen gegevens van minder dan een maand oud worden echter pas opnieuw verwerkt wanneer de gegevens wekelijks opnieuw worden afgespeeld.
 
 - **Privacy**: Wanneer op privacy betrekking hebbende verzoeken worden ontvangen, naast het verwijderen van de gevraagde identiteit, moet om het even welk stitching van die identiteit over niet voor authentiek verklaarde gebeurtenissen worden ongedaan gemaakt.
 
@@ -122,17 +122,17 @@ Overweeg het volgende voorbeeld, waar het Loodje verschillende gebeurtenissen al
 
 | Gebeurtenis | Tijdstempel | Blijvende id (cookie-id) | Transient ID (aanmeldings-id) | Id met titel (na liveslot) |
 |---|---|---|---|---|
-| 1 | 2023-05-12 12 :01 | `246` ![ Juiste Pijl ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`246`** |
-| 2 | 2023-05-12 12 :02 | `246` | `Bob` ![ Juiste Pijl ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` |
-| 3 | 2023-05-12 12 :03 | `246` | `Bob` ![ Juiste Pijl ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![ Pijl neer ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) |
+| 1 | 2023-05-12 12 :01 | `246` ![&#x200B; Juiste Pijl &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`246`** |
+| 2 | 2023-05-12 12 :02 | `246` | `Bob` ![&#x200B; Juiste Pijl &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` |
+| 3 | 2023-05-12 12 :03 | `246` | `Bob` ![&#x200B; Juiste Pijl &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![&#x200B; Pijl neer &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) |
 | 4 | 2023-05-12 12 :04 | `246` | - | **`Bob`** |
-| 5 | 2023-05-12 12 :05 | `246` | `Bob` ![ Juiste Pijl ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![ Pijl neer ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) |
+| 5 | 2023-05-12 12 :05 | `246` | `Bob` ![&#x200B; Juiste Pijl &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![&#x200B; Pijl neer &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) |
 | 6 | 2023-05-12 12 :06 | `246` | - | **`Bob`** |
-| 7 | 2023-05-12 12 :07 | `246` | `Bob` ![ Juiste Pijl ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` |
-| 8 | 2023-05-12 12 :03 | `3579` ![ Juiste Pijl ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`3579`** |
-| 9 | 2023-05-12 12 :09 | `3579` ![ Juiste Pijl ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`3579`** |
-| 10 | 2023-05-12 12 :02 | `81911` ![ Juiste Pijl ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`81911`** |
-| 11 | 2023-05-12 12 :05 | `81911` | `Bob` ![ Juiste Pijl ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![ Pijl neer ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) |
+| 7 | 2023-05-12 12 :07 | `246` | `Bob` ![&#x200B; Juiste Pijl &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` |
+| 8 | 2023-05-12 12 :03 | `3579` ![&#x200B; Juiste Pijl &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`3579`** |
+| 9 | 2023-05-12 12 :09 | `3579` ![&#x200B; Juiste Pijl &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`3579`** |
+| 10 | 2023-05-12 12 :02 | `81911` ![&#x200B; Juiste Pijl &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`81911`** |
+| 11 | 2023-05-12 12 :05 | `81911` | `Bob` ![&#x200B; Juiste Pijl &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![&#x200B; Pijl neer &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) |
 | 12 | 2023-05-12 12 :12 | `81911` | - | **`Bob`** |
 | | | **3 apparaten** | | **4 mensen**:<br/>`246`, `Bob`, `3579`, `81911` |
 
@@ -157,16 +157,16 @@ In de volgende tabel worden dezelfde gegevens weergegeven als hierboven, maar wo
 | Gebeurtenis | Tijdstempel | Blijvende id (cookie-id) | Transient ID (aanmeldings-id) | Id met titel (na liveslot) | Id met titel (na opnieuw afspelen) |
 |---|---|---|---|---|---|
 | 1 | 2023-05-12 12 :01 | `246` | - | `246` | **`Bob`** |
-| 2 | 2023-05-12 12 :02 | `246` | `Bob` ![ Juiste Pijl ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` | `Bob` ![ Pijl omhoog ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) |
-| 3 | 2023-05-12 12 :03 | `246` | `Bob` ![ Juiste Pijl ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![ Pijl neer ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) | `Bob` |
+| 2 | 2023-05-12 12 :02 | `246` | `Bob` ![&#x200B; Juiste Pijl &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` | `Bob` ![&#x200B; Pijl omhoog &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) |
+| 3 | 2023-05-12 12 :03 | `246` | `Bob` ![&#x200B; Juiste Pijl &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![&#x200B; Pijl neer &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) | `Bob` |
 | 4 | 2023-05-12 12 :04 | `246` | - | **`Bob`** | `Bob` |
-| 5 | 2023-05-12 12 :05 | `246` | `Bob` ![ Juiste Pijl ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![ Pijl neer ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) | `Bob` |
+| 5 | 2023-05-12 12 :05 | `246` | `Bob` ![&#x200B; Juiste Pijl &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![&#x200B; Pijl neer &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) | `Bob` |
 | 6 | 2023-05-12 12 :06 | `246` | - | **`Bob`** | `Bob` |
-| 7 | 2023-05-12 12 :07 | `246` | `Bob` ![ Juiste Pijl ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` | `Bob` |
-| 8 | 2023-05-12 12 :03 | `3579` ![ Juiste Pijl ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`3579`** | **`3579`** |
-| 9 | 2023-05-12 12 :09 | `3579` ![ Juiste Pijl ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`3579`** | **`3579`** |
+| 7 | 2023-05-12 12 :07 | `246` | `Bob` ![&#x200B; Juiste Pijl &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` | `Bob` |
+| 8 | 2023-05-12 12 :03 | `3579` ![&#x200B; Juiste Pijl &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`3579`** | **`3579`** |
+| 9 | 2023-05-12 12 :09 | `3579` ![&#x200B; Juiste Pijl &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`3579`** | **`3579`** |
 | 10 | 2023-05-12 12 :02 | `81911` | - | `81911` | **`Bob`** |
-| 11 | 2023-05-12 12 :05 | `81911` | `Bob` ![ Juiste Pijl ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![ Pijl neer ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) | `Bob` ![ Pijl omhoog ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) |
+| 11 | 2023-05-12 12 :05 | `81911` | `Bob` ![&#x200B; Juiste Pijl &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![&#x200B; Pijl neer &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) | `Bob` ![&#x200B; Pijl omhoog &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) |
 | 12 | 2023-05-12 12 :12 | `81911` | - | **`Bob`** | `Bob` |
 | | | **3 apparaten** | | **4 mensen**:<br/>`246`, `Bob`, `3579`, `81911` | **2 mensen**:<br/>`Bob`, `3579` |
 
@@ -189,16 +189,16 @@ De volgende lijst vertegenwoordigt de zelfde gegevens zoals hierboven, maar toon
 | Gebeurtenis | Tijdstempel | Blijvende id (cookie-id) | Transient ID (aanmeldings-id) | Id met titel (na liveslot) | Id met titel (na opnieuw afspelen) | Transient ID (aanmeldings-id) | Id met titel (na privacyverzoek) |
 |---|---|---|---|---|---|---|---|
 | 1 | 2023-05-12 12 :01 | `246` | - | `246` | **`Bob`** | - | `246` |
-| 2 | 2023-05-12 12 :02 | `246` | Loodje ![ Juiste Pijl ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` | `Bob` ![ Pijl omhoog ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> | `246` |
-| 3 | 2023-05-12 12 :03 | `246` | Loodje ![ Juiste Pijl ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![ Pijl neer ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) | `Bob` | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> | `246` |
+| 2 | 2023-05-12 12 :02 | `246` | Loodje ![&#x200B; Juiste Pijl &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` | `Bob` ![&#x200B; Pijl omhoog &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> | `246` |
+| 3 | 2023-05-12 12 :03 | `246` | Loodje ![&#x200B; Juiste Pijl &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![&#x200B; Pijl neer &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) | `Bob` | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> | `246` |
 | 4 | 2023-05-12 12 :04 | `246` | - | **`Bob`** | `Bob` | - | `246` |
-| 5 | 2023-05-12 12 :05 | `246` | Loodje ![ Juiste Pijl ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![ Pijl neer ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) | `Bob` | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> | `246` |
+| 5 | 2023-05-12 12 :05 | `246` | Loodje ![&#x200B; Juiste Pijl &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![&#x200B; Pijl neer &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) | `Bob` | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> | `246` |
 | 6 | 2023-05-12 12 :06 | `246` | - | **`Bob`** | `Bob` | - | `246` |
-| 7 | 2023-05-12 12 :07 | `246` | `Bob` ![ Juiste Pijl ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` | `Bob` | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> | `246` |
-| 8 | 2023-05-12 12 :03 | `3579` ![ Juiste Pijl ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`3579`** | **`3579`** | - | `3579` |
-| 9 | 2023-05-12 12 :09 | `3579` ![ Juiste Pijl ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`3579`** | **`3579`** | - | `3579` |
+| 7 | 2023-05-12 12 :07 | `246` | `Bob` ![&#x200B; Juiste Pijl &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` | `Bob` | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> | `246` |
+| 8 | 2023-05-12 12 :03 | `3579` ![&#x200B; Juiste Pijl &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`3579`** | **`3579`** | - | `3579` |
+| 9 | 2023-05-12 12 :09 | `3579` ![&#x200B; Juiste Pijl &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | - | **`3579`** | **`3579`** | - | `3579` |
 | 10 | 2023-05-12 12 :02 | `81911` | - | `81911` | **`Bob`** | - | `81911` |
-| 11 | 2023-05-12 12 :05 | `81911` | `Bob` ![ Juiste Pijl ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![ Pijl neer ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) | `Bob` ![ Pijl omhoog ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> | `81911` |
+| 11 | 2023-05-12 12 :05 | `81911` | `Bob` ![&#x200B; Juiste Pijl &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowRight_18_N.svg) | `Bob` ![&#x200B; Pijl neer &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) | `Bob` ![&#x200B; Pijl omhoog &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_RemoveCircle_18_N.svg"/> | `81911` |
 | 12 | 2023-05-12 12 :12 | `81911` | - | **`Bob`** | `Bob` | - | `81911` |
 | | | **3 apparaten** | | **4 mensen**:<br/> 246, `Bob`, `3579`, `81911` | **2 mensen**:<br/> Loodje, `3579` |  | **3 mensen**:<br/>`246`, `3579`, `81911` |
 
@@ -229,5 +229,5 @@ De volgende beperkingen zijn specifiek van toepassing op veldomstandigheden:
 - Bij het aanbrengen van titels worden velden niet gecombineerd of samengevoegd.
 - Het veld Tijdelijke id moet één type id (id&#39;s uit één naamruimte) bevatten. Het veld Tijdelijke id mag bijvoorbeeld geen combinatie bevatten van aanmeldings-id&#39;s en e-mailid&#39;s.
 - Als er meerdere gebeurtenissen plaatsvinden met dezelfde tijdstempel voor dezelfde permanente id, maar met verschillende waarden in het veld voor de tijdelijke id, wordt de id geselecteerd door stitching op basis van alfabetische volgorde. Dus als de blijvende id A twee gebeurtenissen heeft met dezelfde tijdstempel en een van de gebeurtenissen Bob opgeeft en de andere de Ann, selecteert de stitching Ann.
-- Wees voorzichtig met scenario&#39;s waarin de tijdelijke id&#39;s plaatsaanduidingswaarden bevatten, bijvoorbeeld `Undefined` . Zie [ Veelgestelde vragen ](faq.md) voor meer informatie.
+- Wees voorzichtig met scenario&#39;s waarin de tijdelijke id&#39;s plaatsaanduidingswaarden bevatten, bijvoorbeeld `Undefined` . Zie [&#x200B; Veelgestelde vragen &#x200B;](faq.md) voor meer informatie.
 - U kunt niet dezelfde naamruimte gebruiken, zowel de persistentID als de transientID, de naamruimten moeten elkaar uitsluiten.

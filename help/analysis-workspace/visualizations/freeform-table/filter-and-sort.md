@@ -25,7 +25,7 @@ Met filters in Analysis Workspace kunt u de belangrijkste informatie doornemen.
 
 >[!NOTE]
 >
-> Alleen items met een dynamische dimensie kunnen worden gefilterd zoals in deze sectie wordt beschreven. Statische dimensie-items kunnen niet worden gefilterd. Voor meer informatie, zie [ Dynamische versus statische afmetingspunten in vrije vormlijsten ](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
+> Alleen items met een dynamische dimensie kunnen worden gefilterd zoals in deze sectie wordt beschreven. Statische dimensie-items kunnen niet worden gefilterd. Voor meer informatie, zie [&#x200B; Dynamische versus statische afmetingspunten in vrije vormlijsten &#x200B;](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 
 U kunt verschillende methoden gebruiken om rijen vanuit een vrije-vormtabel te filteren.
 
@@ -33,19 +33,19 @@ U kunt verschillende methoden gebruiken om rijen vanuit een vrije-vormtabel te f
 - Filters toepassen op een tabel
 - publiekssegmenten gebruiken
 
-Ben zeker om te lezen hoe elke methode [ Gratis lijsttotalen ](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md) beïnvloedt.
+Ben zeker om te lezen hoe elke methode [&#x200B; Gratis lijsttotalen &#x200B;](/help/analysis-workspace/visualizations/freeform-table/workspace-totals.md) beïnvloedt.
 
 ### Specifieke rijen uitsluiten van een tabel
 
-U kunt specifieke rijen van de lijst zonder de behoefte snel uitsluiten om ![ Filter ](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** te gebruiken.
+U kunt specifieke rijen van de lijst zonder de behoefte snel uitsluiten om ![&#x200B; Filter &#x200B;](/help/assets/icons/Filter.svg) **[!UICONTROL Filter]** te gebruiken.
 
 >[!NOTE]
 >
->Wanneer u rijen uitsluit zoals beschreven in deze sectie, wordt automatisch een [!UICONTROL Always exclude items] regel toegevoegd in het [!UICONTROL Advanced] filterdialoogvenster. U kunt de toegepaste regel bekijken door het ![ pictogram van de Filter ](/help/assets/icons/Filter.svg) van de Filter, toen [**[!UICONTROL Show advanced]**](#apply-a-simple-or-advanced-filter-to-a-table) te selecteren.
+>Wanneer u rijen uitsluit zoals beschreven in deze sectie, wordt automatisch een [!UICONTROL Always exclude items] regel toegevoegd in het [!UICONTROL Advanced] filterdialoogvenster. U kunt de toegepaste regel bekijken door het ![&#x200B; pictogram van de Filter &#x200B;](/help/assets/icons/Filter.svg) van de Filter, toen [**[!UICONTROL Show advanced]**](#apply-a-simple-or-advanced-filter-to-a-table) te selecteren.
 
 Specifieke rijen uitsluiten van een tabel voor vrije vorm:
 
-1. Beweeg over de rij die u wilt uitsluiten, dan selecteren ![ dicht ](/help/assets/icons/Close.svg).
+1. Beweeg over de rij die u wilt uitsluiten, dan selecteren ![&#x200B; dicht &#x200B;](/help/assets/icons/Close.svg).
 
    Houd de ***verschuiving*** om een waaier van rijen te selecteren, of houd de ***cmd*** sleutel (op Mac) of de ***ctrl*** sleutel (op Vensters) om veelvoudige rijen te selecteren.
 
@@ -65,13 +65,13 @@ Gegevens filteren in Freeform-tabellen:
 
 1. Houd de muisaanwijzer boven de kolom met de gegevens die u wilt filteren. <!--only some types of columns show the filter... Which? Just Dimensions?-->
 
-1. Selecteer ![ Filter ](/help/assets/icons/Filter.svg) **Filter** wanneer het verschijnt.
+1. Selecteer ![&#x200B; Filter &#x200B;](/help/assets/icons/Filter.svg) **Filter** wanneer het verschijnt.
 
-   ![ vrije lijst die het pictogram van de Filter benadrukt.](assets/table-filter-icon.png)
+   ![&#x200B; vrije lijst die het pictogram van de Filter benadrukt.](assets/table-filter-icon.png)
 
    De volgende opties zijn beschikbaar in het dialoogvenster **[!UICONTROL Search]** :
 
-   ![ Eenvoudige Filter ](assets/filter-simple.png){width="500"}
+   ![&#x200B; Eenvoudige Filter &#x200B;](assets/filter-simple.png){width="500"}
 
    | Optie | Functie |
    |---------|----------|
@@ -83,23 +83,23 @@ Gegevens filteren in Freeform-tabellen:
 
    De volgende geavanceerde filteropties zijn beschikbaar:
 
-   ![ Eenvoudige Filter ](assets/filter-advanced.png){width=500}
+   ![&#x200B; Eenvoudige Filter &#x200B;](assets/filter-advanced.png){width=500}
 
    | Optie | Functie |
    |---------|----------|
    | [!UICONTROL **omvat &quot;Geen waarde&quot;**] | Selecteer deze optie om een **[!UICONTROL No value]** rij in de tabel weer te geven voor gegevens die geen waarde hebben voor de geselecteerde dimensie. Schakel deze optie uit als u de **[!UICONTROL No value]** -rij wilt verbergen. |
    | [!UICONTROL **Gelijke**] | Kies [!UICONTROL **als alle criteria**] worden voldaan om slechts gegevens te tonen die aan alle criteria voldoen die u specificeert. Deze optie resulteert doorgaans in meer verfijnde gegevens.<br/><br/> kies [!UICONTROL **als om het even welke criteria**] worden voldaan om gegevens te tonen die aan om het even welke filtercriteria voldoen die u specificeert. Deze optie resulteert doorgaans in minder verfijnde gegevens. |
-   | [!UICONTROL **Criteria**] | Selecteer een van de volgende filteropties:<br/><ul><li>[!UICONTROL **bevat de uitdrukking**] (gebrek): Slechts gegevens die de nauwkeurige uitdrukking bevatten die u specificeert zijn inbegrepen in de gefiltreerde resultaten. De woorden moeten in de orde zijn die in het [!UICONTROL **wordt gespecificeerd woord of woordgebied van het Onderzoek**].</li><li>[!UICONTROL **bevat om het even welke termijn**]: Slechts gegevens die één of meerdere woorden van de uitdrukking bevatten die u specificeert zijn inbegrepen in de gefiltreerde resultaten. </li><li>[!UICONTROL **bevat alle termijnen**]: Slechts gegevens die alle woorden van de uitdrukking bevatten die u specificeert zijn inbegrepen in de gefiltreerde resultaten. De woorden moeten niet in de orde zijn die in het [!UICONTROL **wordt gespecificeerd woord of woordgebied van het Onderzoek**].</li><li>[!UICONTROL **bevat geen termijn**]: Slechts gegevens die geen van de woorden van de uitdrukking bevatten die u specificeert zijn inbegrepen in de gefiltreerde resultaten. </li><li>[!UICONTROL **bevat niet de uitdrukking**]: Slechts gegevens die niet de nauwkeurige uitdrukking bevatten die u specificeert zijn inbegrepen in de gefiltreerde resultaten. De woorden moeten in de orde zijn die in het [!UICONTROL **wordt gespecificeerd woord of woordgebied van het Onderzoek**].</li><li>[!UICONTROL **evenaart**]: Slechts gegevens die precies de uitdrukking aanpassen die u specificeert is inbegrepen in de gefiltreerde resultaten. </li><li>[!UICONTROL **is niet gelijk**]: Slechts gegevens die niet precies de uitdrukking aanpassen die u specificeert zijn inbegrepen in de gefilterde resultaten. </li><li>[!UICONTROL **begint met**]: Slechts gegevens die met het woord of de nauwkeurige uitdrukking beginnen die u specificeert zijn inbegrepen in de gefiltreerde resultaten. </li><li>[!UICONTROL **eindigt met**]: Slechts gegevens die met het woord of de nauwkeurige uitdrukking beëindigen die u specificeert zijn inbegrepen in de gefiltreerde resultaten. </li></ul>Selecteer ![ toevoegen ](/help/assets/icons/Add.svg) [!UICONTROL **rij**] om veelvoudige filtercriteria toe te voegen. De optie u voor [!UICONTROL **selecteert Gelijke**] bepaalt **[!UICONTROL If all criteria are met]** of **[!UICONTROL If any criteria are met]**. |
+   | [!UICONTROL **Criteria**] | Selecteer een van de volgende filteropties:<br/><ul><li>[!UICONTROL **bevat de uitdrukking**] (gebrek): Slechts gegevens die de nauwkeurige uitdrukking bevatten die u specificeert zijn inbegrepen in de gefiltreerde resultaten. De woorden moeten in de orde zijn die in het [!UICONTROL **wordt gespecificeerd woord of woordgebied van het Onderzoek**].</li><li>[!UICONTROL **bevat om het even welke termijn**]: Slechts gegevens die één of meerdere woorden van de uitdrukking bevatten die u specificeert zijn inbegrepen in de gefiltreerde resultaten. </li><li>[!UICONTROL **bevat alle termijnen**]: Slechts gegevens die alle woorden van de uitdrukking bevatten die u specificeert zijn inbegrepen in de gefiltreerde resultaten. De woorden moeten niet in de orde zijn die in het [!UICONTROL **wordt gespecificeerd woord of woordgebied van het Onderzoek**].</li><li>[!UICONTROL **bevat geen termijn**]: Slechts gegevens die geen van de woorden van de uitdrukking bevatten die u specificeert zijn inbegrepen in de gefiltreerde resultaten. </li><li>[!UICONTROL **bevat niet de uitdrukking**]: Slechts gegevens die niet de nauwkeurige uitdrukking bevatten die u specificeert zijn inbegrepen in de gefiltreerde resultaten. De woorden moeten in de orde zijn die in het [!UICONTROL **wordt gespecificeerd woord of woordgebied van het Onderzoek**].</li><li>[!UICONTROL **evenaart**]: Slechts gegevens die precies de uitdrukking aanpassen die u specificeert is inbegrepen in de gefiltreerde resultaten. </li><li>[!UICONTROL **is niet gelijk**]: Slechts gegevens die niet precies de uitdrukking aanpassen die u specificeert zijn inbegrepen in de gefilterde resultaten. </li><li>[!UICONTROL **begint met**]: Slechts gegevens die met het woord of de nauwkeurige uitdrukking beginnen die u specificeert zijn inbegrepen in de gefiltreerde resultaten. </li><li>[!UICONTROL **eindigt met**]: Slechts gegevens die met het woord of de nauwkeurige uitdrukking beëindigen die u specificeert zijn inbegrepen in de gefiltreerde resultaten. </li></ul>Selecteer ![&#x200B; toevoegen &#x200B;](/help/assets/icons/Add.svg) [!UICONTROL **rij**] om veelvoudige filtercriteria toe te voegen. De optie u voor [!UICONTROL **selecteert Gelijke**] bepaalt **[!UICONTROL If all criteria are met]** of **[!UICONTROL If any criteria are met]**. |
    | [!UICONTROL **sluit altijd punten**] uit | Geef de naam op van de items die u wilt uitsluiten van de gefilterde gegevens. |
 
-1. Selecteer **[!UICONTROL Apply]** om de gegevens te filteren. Selecteer **[!UICONTROL Clear]** om alle invoer te wissen. Selecteer **[!UICONTROL Cancel]** om het dialoogvenster te annuleren en te sluiten. <br/> een gekleurde ![ Filter ](/help/assets/icons/FilterColored.svg) **pictogram van de Filter** wijst op en toont details wanneer een filter op de lijst wordt toegepast.
+1. Selecteer **[!UICONTROL Apply]** om de gegevens te filteren. Selecteer **[!UICONTROL Clear]** om alle invoer te wissen. Selecteer **[!UICONTROL Cancel]** om het dialoogvenster te annuleren en te sluiten. <br/> een gekleurde ![&#x200B; Filter &#x200B;](/help/assets/icons/FilterColored.svg) **pictogram van de Filter** wijst op en toont details wanneer een filter op de lijst wordt toegepast.
 
 ### publiekssegmenten gebruiken
 
-Zie [ Overzicht van de Segmentatie ](/help/components/segments/seg-overview.md) voor meer details.
+Zie [&#x200B; Overzicht van de Segmentatie &#x200B;](/help/components/segments/seg-overview.md) voor meer details.
 
 ## Tabellen sorteren
 
 U kunt de gegevens van een lijst Freeform door om het even welke kolom in Analysis Workspace sorteren die of een afmeting of metrisch is. Een pijl geeft aan hoe de gegevens worden gesorteerd (**↓** voor aflopend, of **↑** voor oplopend).
 
-![ Sorterend ](assets/sorting.gif)
+![&#x200B; Sorterend &#x200B;](assets/sorting.gif)

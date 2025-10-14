@@ -43,7 +43,7 @@ AI Assistant voor Customer Journey Analytics is beschikbaar voor alle productlag
 
 Data Insights Agent, dat vanuit de AI Assistant in Customer Journey Analytics toegankelijk is, is een generatieve AI-gespreksagent die snel en efficiënt vragen over uw gegevens beantwoordt. In Analysis Workspace worden relevante visualisaties gemaakt aan de hand van componenten uit uw gegevensweergave en met behulp van uw werkelijke gegevens.
 
-Voor meer informatie over het gebruiken van Data Insights Agent binnen de AI Medewerker, zie [ gegevens visualiseren met Data Insights Agent ](/help/data-analysis-ai.md).
+Voor meer informatie over het gebruiken van Data Insights Agent binnen de AI Medewerker, zie [&#x200B; gegevens visualiseren met Data Insights Agent &#x200B;](/help/data-analysis-ai.md).
 
 ## Toegang tot functies
 
@@ -53,30 +53,30 @@ De volgende parameters bepalen de toegang tot de functie AI Assistant:
 
 * **Contractuele toegang**: Als u geen AI Medewerker kunt gebruiken, gelieve de beheerder van uw organisatie of de Vertegenwoordiger van de Rekening van Adobe te contacteren. Voordat uw organisatie AI Assistant kan gebruiken, moet u akkoord gaan met bepaalde juridische voorwaarden die betrekking hebben op GenAI.
 
-* **Toestemmingen**: In [!UICONTROL Adobe Admin Console], bepaalt de [!UICONTROL Reporting Tools] **[!UICONTROL AI Assistant: Product Knowledge]** toestemming toegang tot dit hulpmiddel. Admin van het a [ productprofiel ](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) moet deze stappen in [!UICONTROL Admin Console] volgen:
+* **Toestemmingen**: In [!UICONTROL Adobe Admin Console], bepaalt de [!UICONTROL Reporting Tools] **[!UICONTROL AI Assistant: Product Knowledge]** toestemming toegang tot dit hulpmiddel. Admin van het a [&#x200B; productprofiel &#x200B;](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) moet deze stappen in [!UICONTROL Admin Console] volgen:
    1. Ga naar **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]**
    1. Selecteer de titel van het productprofiel waartoe u toegang wilt verlenen aan [!UICONTROL AI Assistant: Product Knowledge] .
    1. Selecteer **[!UICONTROL Permissions]** in het specifieke productprofiel.
-   1. Selecteer ![ uitgeven ](/help/assets/icons/Edit.svg) om uit te geven **[!UICONTROL Reporting Tools]**.
-   1. Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) om **Medewerker AI toe te voegen: De Kennis van het Product** aan **[!UICONTROL Included permission items]**.
+   1. Selecteer ![&#x200B; uitgeven &#x200B;](/help/assets/icons/Edit.svg) om uit te geven **[!UICONTROL Reporting Tools]**.
+   1. Selecteer ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) om **Medewerker AI toe te voegen: De Kennis van het Product** aan **[!UICONTROL Included permission items]**.
 
-      ![ voeg toestemming ](assets/ai-assistant-permissions.png) toe.
+      ![&#x200B; voeg toestemming &#x200B;](assets/ai-assistant-permissions.png) toe.
 
    1. Selecteer **[!UICONTROL Save]** om de machtigingen op te slaan.
 
-Zie [ controle van de Toegang ](/help/technotes/access-control.md#access-control) voor meer informatie.
+Zie [&#x200B; controle van de Toegang &#x200B;](/help/technotes/access-control.md#access-control) voor meer informatie.
 
 ## AI-assistent openen in de gebruikersinterface van Customer Journey Analytics
 
 1. Als u AI Assistant wilt starten, selecteert u het pictogram AI-assistent in de bovenste koptekst van een pagina in de gebruikersinterface van Customer Journey Analytics.
 
-   ![ AI Hulp pictogram ](assets/ai-asst1.png)
+   ![&#x200B; AI Hulp pictogram &#x200B;](assets/ai-asst1.png)
 
    Als u AI Assistant voor het eerst gebruikt, wordt een disclaimer weergegeven met bepaalde gebruiksvoorwaarden voor de assistent.
 
 1. In het meegeleverde vak stelt u een specifieke vraag over de natuurlijke taal van de AI Assistant.
 
-   ![ Vak van de Vraag ](assets/ai-asst2.png)
+   ![&#x200B; Vak van de Vraag &#x200B;](assets/ai-asst2.png)
 
 1. (Optioneel) Als u bronnen wilt weergeven, klikt u op **[!UICONTROL Show Sources]** en ziet u de documentatiebron of -bronnen die het antwoord hebben meegedeeld.
 

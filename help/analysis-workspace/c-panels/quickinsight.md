@@ -25,7 +25,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert het Snelle paneel van Inzichten in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_zie [ Snelle Inzichten paneel ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/quickinsight) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert het Snelle paneel van Inzichten in_ ![&#x200B; CustomerJourneyAnalytics &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_zie [&#x200B; Snelle Inzichten paneel &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/panels/quickinsight) voor_ ![&#x200B; AdobeAnalytics &#x200B;](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ Wanneer u deze [!UICONTROL Analysis Workspace] voor het eerst gebruikt, vraagt u
 
 Voor deze vragen gebruikt [!UICONTROL Quick insights] een algoritme dat u de populairste afmetingen, metriek, segmenten en datumbereiken voorstelt die uw bedrijf gebruikt. Dit algoritme is gebaseerd op het gebruik van gegevenscomponenten in [!UICONTROL Analysis Workspace] door uw eigen bedrijf. In feite ziet u afmetingen, metriek, en segment geëtiketteerd met [!UICONTROL POPULAR] in het drop-down menu, zoals hier getoond:
 
-![ het Snelle paneel van Inzichten.](assets/popular-tag.png)
+![&#x200B; het Snelle paneel van Inzichten.](assets/popular-tag.png)
 
 [!UICONTROL Quick Insights] helpt u
 
@@ -60,7 +60,7 @@ Hieronder volgen enkele basistermen die u bekend moet maken. Elke gegevenslijst 
 | **[!UICONTROL Dimension]** | Dimensies zijn beschrijvingen of kenmerken van metrische gegevens die in een project kunnen worden bekeken, uitgesplitst en vergeleken. Het zijn niet-numerieke waarden en datums die worden opgesplitst in dimensie-items. Bijvoorbeeld, *browser* of *pagina* is een afmeting. |
 | **[!UICONTROL Dimension item]** | Dimension-items zijn afzonderlijke waarden voor een dimensie. Bijvoorbeeld, zouden de afmetingspunten voor de browser afmeting *Chrome* zijn, *Firefox*, *Edge*, of anderen. |
 | [!UICONTROL Metric] | De metriek zijn kwantitatieve informatie over persoonactiviteit, zoals meningen, klik-door, herladingen, gemiddelde tijd besteed, eenheden, orden, opbrengst, etc. |
-| **[!UICONTROL Visualization]** | Workspace biedt [ een aantal visualisaties ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) aan om visuele vertegenwoordiging van uw gegevens te bouwen. Bijvoorbeeld staafgrafieken, donutgrafieken, histogrammen, lijngrafieken, kaarten, scatterpercelen en andere. |
+| **[!UICONTROL Visualization]** | Workspace biedt [&#x200B; een aantal visualisaties &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) aan om visuele vertegenwoordiging van uw gegevens te bouwen. Bijvoorbeeld staafgrafieken, donutgrafieken, histogrammen, lijngrafieken, kaarten, scatterpercelen en andere. |
 | **[!UICONTROL Dimension Breakdown]** | Een uitsplitsing naar dimensie is een manier om een dimensie naar andere dimensies uit te splitsen. U kunt bijvoorbeeld de VS-staten opdelen door Mobiele apparaten om de bezoeken aan mobiele apparaten per status op te halen. Of u kunt mobiele apparaten onderbreken op typen mobiele apparaten, op regio&#39;s, op interne campagnes en nog veel meer. |
 | **[!UICONTROL Segment]** | Met segmenten kunt u subsets van personen identificeren op basis van eigenschappen of interacties op websites. U kunt bijvoorbeeld [!UICONTROL People] -segmenten maken op basis van <li>kenmerken: browsertype, apparaat, aantal bezoeken, land, geslacht of</li><li>interacties: campagnes, sleutelwoordzoeker, zoekmachine, of</li><li>verlaten en binnenkomen: personen van Facebook, een bepaalde landingspagina, een verwijzend domein, of</li><li> aangepaste variabelen: formulierveld, gedefinieerde categorieën, klant-id. |
 
@@ -68,13 +68,13 @@ Hieronder volgen enkele basistermen die u bekend moet maken. Elke gegevenslijst 
 
 Een deelvenster **[!UICONTROL Quick insights]** gebruiken:
 
-1. Maak een deelvenster **[!UICONTROL Quick insights]** . Voor informatie over hoe te om een paneel tot stand te brengen, zie [ een paneel ](panels.md#create-a-panel) creëren.
+1. Maak een deelvenster **[!UICONTROL Quick insights]** . Voor informatie over hoe te om een paneel tot stand te brengen, zie [&#x200B; een paneel &#x200B;](panels.md#create-a-panel) creëren.
 
-1. Wanneer u een **[!UICONTROL Quick insights]** -deelvenster voor het eerst gebruikt, wilt u wellicht de korte [!UICONTROL Intro tutorial] doorlopen die u een aantal basisbeginselen leert. Selecteer ![ HelpOutline ](/help/assets/icons/HelpOutline.svg) naast de Snelle titel van het deelvenster Inzichten en selecteer **[!UICONTROL Intro tutorial]** van popup.
+1. Wanneer u een **[!UICONTROL Quick insights]** -deelvenster voor het eerst gebruikt, wilt u wellicht de korte [!UICONTROL Intro tutorial] doorlopen die u een aantal basisbeginselen leert. Selecteer ![&#x200B; HelpOutline &#x200B;](/help/assets/icons/HelpOutline.svg) naast de Snelle titel van het deelvenster Inzichten en selecteer **[!UICONTROL Intro tutorial]** van popup.
 
-1. Specificeer de [ input ](#panel-input) voor het paneel.
+1. Specificeer de [&#x200B; input &#x200B;](#panel-input) voor het paneel.
 
-1. Neem de [ output ](#panel-output) voor het paneel waar.
+1. Neem de [&#x200B; output &#x200B;](#panel-output) voor het paneel waar.
 
 
 ### Deelvensterinvoer
@@ -94,7 +94,7 @@ U kunt de bouwstenen op drie manieren specificeren:
 
 * Componenten slepen en neerzetten vanuit het linkerdeelvenster.
 * Begin in één van de bouwsteengebieden te typen. Wanneer invoer wordt gevonden, vult het bouwsteengebied met mogelijke waarden automatisch.
-* Specificeer een bouwsteendrop-down menu (bijvoorbeeld Land in **[!UICONTROL Analyze]**) en **[!UICONTROL search]** de lijst van mogelijke waarde (gebruikend ![ ChevronRight ](/help/assets/icons/ChevronRight.svg)) voor de waarde u (bijvoorbeeld, **[!UICONTROL Country code]**) wilt gebruiken.
+* Specificeer een bouwsteendrop-down menu (bijvoorbeeld Land in **[!UICONTROL Analyze]**) en **[!UICONTROL search]** de lijst van mogelijke waarde (gebruikend ![&#x200B; ChevronRight &#x200B;](/help/assets/icons/ChevronRight.svg)) voor de waarde u (bijvoorbeeld, **[!UICONTROL Country code]**) wilt gebruiken.
 
 Selecteer **[!UICONTROL Clear]** om alle invoervelden te wissen.
 
@@ -103,13 +103,13 @@ Selecteer **[!UICONTROL Clear]** om alle invoervelden te wissen.
 
 1. Wanneer u minstens één afmeting en één metrisch hebt toegevoegd, kunt u de resultaten zien.
 
-   ![ de Freeform lijst die de afmeting verticaal en metrisch horizontaal toont.](assets/quick-insights-output.png)
+   ![&#x200B; de Freeform lijst die de afmeting verticaal en metrisch horizontaal toont.](assets/quick-insights-output.png)
 
    * Een tabel met vrije vorm met de afmetingen (landcode) en metrisch (sessies), gesegmenteerd door websessies voor de laatste twaalf maanden.
 
-   * Een begeleidende visualisatie, in dit geval a [ staafgrafiek ](/help/analysis-workspace/visualizations/bar.md). De gegenereerde visualisatie is gebaseerd op het type gegevens dat u aan de tabel hebt toegevoegd. Op tijd gebaseerde gegevens (zoals [!UICONTROL Sessions] per dag/maand) worden standaard ingesteld op een [!UICONTROL Line] -diagram. Niet-tijdgebonden gegevens (zoals [!UICONTROL Sessions] per [!UICONTROL Device] ) worden standaard omgezet in een [!UICONTROL Bar] -grafiek. U kunt het type visualisatie wijzigen door op de vervolgkeuzepijl naast het visualisatietype te klikken.
+   * Een begeleidende visualisatie, in dit geval a [&#x200B; staafgrafiek &#x200B;](/help/analysis-workspace/visualizations/bar.md). De gegenereerde visualisatie is gebaseerd op het type gegevens dat u aan de tabel hebt toegevoegd. Op tijd gebaseerde gegevens (zoals [!UICONTROL Sessions] per dag/maand) worden standaard ingesteld op een [!UICONTROL Line] -diagram. Niet-tijdgebonden gegevens (zoals [!UICONTROL Sessions] per [!UICONTROL Device] ) worden standaard omgezet in een [!UICONTROL Bar] -grafiek. U kunt het type visualisatie wijzigen door op de vervolgkeuzepijl naast het visualisatietype te klikken.
 
-1. Probeer toevoegend sommige meer verfijningen zoals hieronder beschreven onder [ Meer uiteinden ](#more-tips)
+1. Probeer toevoegend sommige meer verfijningen zoals hieronder beschreven onder [&#x200B; Meer uiteinden &#x200B;](#more-tips)
 
 1. Mogelijk wilt u uw project opslaan met **[!UICONTROL Project > Save]** .
 
@@ -117,13 +117,13 @@ Selecteer **[!UICONTROL Clear]** om alle invoervelden te wissen.
 
 Er verschijnen andere handige tips in de [!UICONTROL Quick Insights Builder] , waarvan sommige afhankelijk zijn van de laatste handeling.
 
-* Eerst wilt u mogelijk de zelfstudie van **[!UICONTROL More tips]** voltooien. Dit leerprogramma toont omhoog 24 uren nadat u een project met minstens één afmeting en één metrisch hebt gecreeerd. Selecteer ![ HelpOutline ](/help/assets/icons/HelpOutline.svg) naast de Snelle titel van het deelvenster Inzichten en selecteer **[!UICONTROL More tips]** van popup.
+* Eerst wilt u mogelijk de zelfstudie van **[!UICONTROL More tips]** voltooien. Dit leerprogramma toont omhoog 24 uren nadat u een project met minstens één afmeting en één metrisch hebt gecreeerd. Selecteer ![&#x200B; HelpOutline &#x200B;](/help/assets/icons/HelpOutline.svg) naast de Snelle titel van het deelvenster Inzichten en selecteer **[!UICONTROL More tips]** van popup.
 
-  ![ het Snelle bericht van het Comité van Inzichten getoond nadat u het pictogram van de Hulp selecteert.](assets/qibuilder4.png)
+  ![&#x200B; het Snelle bericht van het Comité van Inzichten getoond nadat u het pictogram van de Hulp selecteert.](assets/qibuilder4.png)
 
 * U kunt meerdere dimensies en metriek analyseren, segmenten combineren of vergelijken en een datumbereik opgeven:
 
-  ![ het Resultaat van de Bouwer van Snelle Inzichten ](assets/qibuilder-result.png)
+  ![&#x200B; het Resultaat van de Bouwer van Snelle Inzichten &#x200B;](assets/qibuilder-result.png)
 
    * **[!UICONTROL Analyze]** afmetingen **[!UICONTROL Broken-Down by]** : u kunt maximaal 3 niveaus van onderverdelingen op dimensies gebruiken om naar de gegevens te gaan die u echt nodig hebt. Zie ➊ , ➋ en ➌ .
 
@@ -139,12 +139,12 @@ Als u probeert rechtstreeks in de tabel te bewerken, is het deelvenster [!UICONT
 
 U krijgt een waarschuwing voordat u iets rechtstreeks aan de tabel toevoegt:
 
-![ De de optieswaarschuwing van de Bouwer van de Wedersynchronisatie.](assets/qibuilder-outofsync.png)
+![&#x200B; De de optieswaarschuwing van de Bouwer van de Wedersynchronisatie.](assets/qibuilder-outofsync.png)
 
 Anders, veroorzaakt het bouwen direct de lijst om zich als traditionele lijst van de Vrije vorm te gedragen, zonder de nuttige eigenschappen voor nieuwe gebruikers.
 
 
 >[!MORELIKETHIS]
 >
->[ creeer een paneel ](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
+>[&#x200B; creeer een paneel &#x200B;](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
 >

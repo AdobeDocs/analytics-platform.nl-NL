@@ -25,12 +25,12 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de Spreiding visualisatie in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [ Spreiding ](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/visualizations/scatterplot) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert de Spreiding visualisatie in_ ![&#x200B; CustomerJourneyAnalytics &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [&#x200B; Spreiding &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/visualizations/scatterplot) voor_ ![&#x200B; AdobeAnalytics &#x200B;](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
 
-![ GraphScatter ](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Scatter]** visualisatie toont het verband tussen afmetingspunten en tot drie metriek. De visualisatie vereist drie componenten, en steunt het visualiseren van tot vier componenten.
+![&#x200B; GraphScatter &#x200B;](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Scatter]** visualisatie toont het verband tussen afmetingspunten en tot drie metriek. De visualisatie vereist drie componenten, en steunt het visualiseren van tot vier componenten.
 
 * De rijcomponent (doorgaans een dimensie) vertegenwoordigt elk punt in de grafiek. Verschillende rijen worden weergegeven als verschillende gekleurde stippen.
 * In de kolom uiterst links (meestal metrisch) wordt de positie van de punt op de Y-as (verticaal) aangegeven.
@@ -38,19 +38,19 @@ _dit artikel documenteert de Spreiding visualisatie in_ ![ CustomerJourneyAnalyt
 * De derde kolom bepaalt de straal van de stip.
 * Alle volgende kolommen in een vrije-vormlijst worden genegeerd door de scatterplot visualisatie.
 
-![ Voorbeeld die van het Scatterplot veelvoudige afmetingspunten tonen ](assets/scatter.png)
+![&#x200B; Voorbeeld die van het Scatterplot veelvoudige afmetingspunten tonen &#x200B;](assets/scatter.png)
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ visualisatie van het Scatterplot ](https://video.tv.adobe.com/v/334459/?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; visualisatie van het Scatterplot &#x200B;](https://video.tv.adobe.com/v/334459/?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
 
 >[!MORELIKETHIS]
 >
->[ voeg een visualisatie aan een paneel toe ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Visualisatie-instellingen ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Contextmenu Visualisatie ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[&#x200B; voeg een visualisatie aan een paneel toe &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>&#x200B;>[Visualisatie-instellingen &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>&#x200B;>[Contextmenu Visualisatie &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

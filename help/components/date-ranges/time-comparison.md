@@ -19,10 +19,10 @@ Met Datumvergelijking in Analysis Workspace kunt u elke kolom met een datumberei
 
 De analyse vereist context, en vaak wordt die context verstrekt door een vorige tijdspanne. Bijvoorbeeld, de vraag *hoeveel beter of slechter doet u nu in vergelijking met dit tijd vorig jaar?* is essentieel voor het begrijpen van uw bedrijf. De vergelijking van de datum omvat automatisch de kolom van het a *verschil*, die de percentageverandering in vergelijking met een gespecificeerde tijdspanne toont.
 
-1. Creeer de lijst van de a [ Vrije vorm ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), met om het even welke afmetingen en metriek u over een tijdspanne wilt vergelijken.
+1. Creeer de lijst van de a [&#x200B; Vrije vorm &#x200B;](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md), met om het even welke afmetingen en metriek u over een tijdspanne wilt vergelijken.
 1. Open het contextmenu voor een tabelrij en selecteer **[!UICONTROL Compare time periods]** .
 
-   ![ rij van de Lijst met de geselecteerde Punten van de Tijd van de Vergelijking ](assets/compare-time.png)
+   ![&#x200B; rij van de Lijst met de geselecteerde Punten van de Tijd van de Vergelijking &#x200B;](assets/compare-time.png)
 
    >[!NOTE]
    >
@@ -42,7 +42,7 @@ De analyse vereist context, en vaak wordt die context verstrekt door een vorige 
 
 1. De resulterende vergelijking ziet er als volgt uit:
 
-   ![ Vrije Lijst die een vergelijking van datumwaaiers en percentageverandering toont.](assets/compare-time-result.png)
+   ![&#x200B; Vrije Lijst die een vergelijking van datumwaaiers en percentageverandering toont.](assets/compare-time-result.png)
 
    Rijen in de kolom Percentage wijziging worden rood weergegeven voor negatieve waarden en groen voor positieve waarden.
 
@@ -68,7 +68,7 @@ U kunt nu een tijdsperiode toevoegen aan elke kolom in een tabel, zodat u een an
 
 1. De tijdsperiode wordt ingevoegd boven de kolom die u hebt geselecteerd:
 
-   ![ Vrije Lijst die Voorvallen voor huidige kalenderperiode en de vorige kalendermaand tonen.](assets/add-time-period-column2.png)
+   ![&#x200B; Vrije Lijst die Voorvallen voor huidige kalenderperiode en de vorige kalendermaand tonen.](assets/add-time-period-column2.png)
 
 1. U kunt zoveel tijdkolommen toevoegen als u wilt, maar u kunt ook verschillende datumbereiken combineren en met elkaar in overeenstemming brengen:
 
@@ -80,9 +80,9 @@ U kunt de datums van elke kolom uitlijnen op alle datums die op dezelfde rij beg
 
 U maakt bijvoorbeeld een vergelijking van dag tot dag voor de laatste week (die eindigt op 5 oktober 2024) en de vorige week. Standaard begint de linkerkolom met 22 september en de rechterkolom met 29 september.
 
-![ niet uitgelijnde data ](assets/not-align-dates.png)
+![&#x200B; niet uitgelijnde data &#x200B;](assets/not-align-dates.png)
 
-U kunt **[!UICONTROL Align dates from each column to all start on the same row]** in [ Montages ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md#settings-1) voor de Freeform lijstvisualisatie toelaten om kolomdata te richten om op de zelfde rij te beginnen.
+U kunt **[!UICONTROL Align dates from each column to all start on the same row]** in [&#x200B; Montages &#x200B;](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md#settings-1) voor de Freeform lijstvisualisatie toelaten om kolomdata te richten om op de zelfde rij te beginnen.
 
 ![](assets/align-dates.png)
 

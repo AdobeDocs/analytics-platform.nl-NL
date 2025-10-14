@@ -17,7 +17,7 @@ Debugger van het project helpt u en de Steun van Adobe om kwesties met uw projec
 
 >[!NOTE]
 >
->Om debugger te gebruiken, moet u **&#x200B;**&#x200B;uitgeven of **Exemplaar** [ toegang tot het project ](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-25744) hebben.
+>Om debugger te gebruiken, moet u **&#x200B;**&#x200B;uitgeven of **Exemplaar** [&#x200B; toegang tot het project &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-25744) hebben.
 >
 
 
@@ -37,19 +37,19 @@ Om debugger toe te laten:
 
 ## Foutopsporing gebruiken
 
-Wanneer u debugger hebt toegelaten, hebben alle visualisaties in uw project een extra ![ Bug ](/help/assets/icons/Bug.svg) pictogram.
+Wanneer u debugger hebt toegelaten, hebben alle visualisaties in uw project een extra ![&#x200B; Bug &#x200B;](/help/assets/icons/Bug.svg) pictogram.
 
 Om debugger voor een specifieke visualisatie te gebruiken:
 
-1. Selecteer ![ Bug ](/help/assets/icons/Bug.svg) bij de bovenkant van visualisatie.
+1. Selecteer ![&#x200B; Bug &#x200B;](/help/assets/icons/Bug.svg) bij de bovenkant van visualisatie.
 
-   ![ Debugger contextmenu ](assets/debugger-context-menu.png)
+   ![&#x200B; Debugger contextmenu &#x200B;](assets/debugger-context-menu.png)
 
 1. Selecteer de gewenste actie in het contextmenu. De beschikbare acties zijn afhankelijk van de visualisatie en geven het type foutopsporing aan dat u wilt uitvoeren. Als u bijvoorbeeld **[!UICONTROL Anomalies]** selecteert, wilt u fouten opsporen in de functionaliteit voor visualisatie.
 1. Selecteer een tijdstempel in het submenu.
 1. Er wordt een **[!UICONTROL Oberon XML]** foutopsporingsvenster geopend met informatie over de specifieke functionaliteit die door de visualisatie wordt uitgevoerd. Zie hieronder voor een voorbeeld van de uitvoer van een afwijkend verzoek.
 
-   ![ Output zuivert verzoek ](assets/debugger-oberon.png)
+   ![&#x200B; Output zuivert verzoek &#x200B;](assets/debugger-oberon.png)
 
    De details zijn:
 
@@ -67,7 +67,7 @@ Om debugger voor een specifieke visualisatie te gebruiken:
    * **[!UICONTROL cURL Request]**
    * **[!UICONTROL JSON]** **[!UICONTROL Request]** and **[!UICONTROL Response]**
 
-1. Het Exemplaar van het gebruik ![ ](/help/assets/icons/Copy.svg) om al te kopiëren zuivert informatie aan het klembord. **[!UICONTROL Copy all field to clipboard]** Plak de gegevens in de editor of het gereedschap van uw voorkeur. De informatie bestaat uit:
+1. Het Exemplaar van het gebruik ![&#x200B; &#x200B;](/help/assets/icons/Copy.svg) om al te kopiëren zuivert informatie aan het klembord. **[!UICONTROL Copy all field to clipboard]** Plak de gegevens in de editor of het gereedschap van uw voorkeur. De informatie bestaat uit:
 
    * XML (request)
    * XML (reactie)
@@ -75,8 +75,8 @@ Om debugger voor een specifieke visualisatie te gebruiken:
    * JSON (reactie)
    * Cursusverzoek
 
-1. Het Exemplaar van het gebruik ![ ](/help/assets/icons/Copy.svg) onderaan **[!UICONTROL Copy to clipboard]** om het verzoek aan het klembord te kopiëren.**[!UICONTROL cURL Request]**
-1. Beweeg over om het even welke **[!UICONTROL Request]** of **[!UICONTROL Response]** tekstgebieden om ![ Exemplaar ](/help/assets/icons/Copy.svg) **[!UICONTROL Copy to clipboard]** te openbaren en te selecteren om de inhoud van dat tekstgebied (XML of JSON) aan het klembord te kopiëren.
+1. Het Exemplaar van het gebruik ![&#x200B; &#x200B;](/help/assets/icons/Copy.svg) onderaan **[!UICONTROL Copy to clipboard]** om het verzoek aan het klembord te kopiëren.**[!UICONTROL cURL Request]**
+1. Beweeg over om het even welke **[!UICONTROL Request]** of **[!UICONTROL Response]** tekstgebieden om ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) **[!UICONTROL Copy to clipboard]** te openbaren en te selecteren om de inhoud van dat tekstgebied (XML of JSON) aan het klembord te kopiëren.
 
 1. Uitwisseling om het even welke informatie u hebt gekopieerd en die de Steun van Adobe verzocht om de visualisaties in uw project van Analysis Workspace problemen op te lossen.
 

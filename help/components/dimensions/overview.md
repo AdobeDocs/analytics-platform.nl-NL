@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Overzicht van afmetingen
 
-Dimensies zijn componenttypen in Customer Journey Analytics die worden gebruikt om gegevens te analyseren. Bijvoorbeeld, gebruikt u dimensies wanneer het bouwen van rapporten in [ Analysis Workspace ](/help/analysis-workspace/home.md) of in [ Report Builder ](/help/report-builder/rb-overview.md).
+Dimensies zijn componenttypen in Customer Journey Analytics die worden gebruikt om gegevens te analyseren. Bijvoorbeeld, gebruikt u dimensies wanneer het bouwen van rapporten in [&#x200B; Analysis Workspace &#x200B;](/help/analysis-workspace/home.md) of in [&#x200B; Report Builder &#x200B;](/help/report-builder/rb-overview.md).
 
 Customer Journey Analytics-afmetingen zijn van onbeperkt type. Waarden kunnen numeriek zijn, tekst, objecten, lijsten of mengsels van allemaal.
 
@@ -33,7 +33,7 @@ Elke dimensie vertegenwoordigt een ander deel of facet van uw site. U kunt één
 
 ## Afmetingen maken
 
-De beheerders van Customer Journey Analytics kunnen [ dimensies binnen een gegevensmening ](/help/data-views/create-dataview.md#components) tot stand brengen.
+De beheerders van Customer Journey Analytics kunnen [&#x200B; dimensies binnen een gegevensmening &#x200B;](/help/data-views/create-dataview.md#components) tot stand brengen.
 
 ## Standaardafmetingen
 
@@ -44,10 +44,10 @@ Wanneer u een gegevensweergave maakt, worden de volgende componenten standaard a
 
 ## Dimensiebeschrijvingen toevoegen
 
-Customer Journey Analytics-beheerders kunnen beschrijvingen voor afmetingen en andere componenten toevoegen in de gegevensweergave of rechtstreeks in Analysis Workspace. Voor informatie over hoe te om beschrijvingen aan afmetingen toe te voegen, zie [ componentenbeschrijvingen ](/help/components/add-component-descriptions.md) toevoegen.
+Customer Journey Analytics-beheerders kunnen beschrijvingen voor afmetingen en andere componenten toevoegen in de gegevensweergave of rechtstreeks in Analysis Workspace. Voor informatie over hoe te om beschrijvingen aan afmetingen toe te voegen, zie [&#x200B; componentenbeschrijvingen &#x200B;](/help/components/add-component-descriptions.md) toevoegen.
 
 >[!MORELIKETHIS]
 >
->[ ontdekt de diepere Inzichten van de Klant met de Eigenschap van de Diepte van de Gebeurtenis ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947#M576)
+>[&#x200B; ontdekt de diepere Inzichten van de Klant met de Eigenschap van de Diepte van de Gebeurtenis &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947#M576)
 >
 

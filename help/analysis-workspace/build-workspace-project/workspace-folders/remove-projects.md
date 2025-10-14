@@ -15,7 +15,7 @@ ht-degree: 7%
 # Projecten verwijderen
 
 
-Zie [ Acties in leiden projecten ](../freeform-overview.md#actions) op hoe te om projecten uit Analysis Workspace te verwijderen.
+Zie [&#x200B; Acties in leiden projecten &#x200B;](../freeform-overview.md#actions) op hoe te om projecten uit Analysis Workspace te verwijderen.
 
 
 <!-- Is this article still needed; not in the TOC anymore

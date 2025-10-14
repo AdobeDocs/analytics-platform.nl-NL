@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Wanneer u een nieuwe berekende metrische waarde maakt, hoeft u niet helemaal opnieuw te beginnen. U kunt bestaande berekende metrisch kopiëren die reeds een juiste definitie om van te beginnen verstrekt, dan wijzigen de versie u kopieerde.
 
-Om een berekende metriek in de [ Berekende metriekmanager ](cm-manager.md) te kopiëren:
+Om een berekende metriek in de [&#x200B; Berekende metriekmanager &#x200B;](cm-manager.md) te kopiëren:
 
-1. In de [ Berekende metrische manager ](cm-manager.md), selecteer één of meerdere van de berekende metriek u wilt kopiëren.
-1. Van de actiebar, uitgezochte ![ Exemplaar ](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]**.
+1. In de [&#x200B; Berekende metrische manager &#x200B;](cm-manager.md), selecteer één of meerdere van de berekende metriek u wilt kopiëren.
+1. Van de actiebar, uitgezochte ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]**.
 
 De nieuwe berekende metriek worden gecreeerd met de zelfde naam en het achtervoegsel `(Copy)`.

@@ -30,6 +30,6 @@ Hier volgt een voorbeeld van basisvisualisaties in Workspace. U kunt bijvoorbeel
 
 * Wijs publieksgrootte door gegevensbronnen, zoals gegevens van de advertentie, gegevens van de Customer Journey Analytics, e-mailgegevens, POS gegevens, gegevens van het vraagcentrum, en onderzoeksgegevens af.
 
-![Voorbeelden van visualisaties van basisanalytische diagrammen. ](assets/cja-basic-analysis.png)
+![Voorbeelden van visualisaties van basisanalytische diagrammen. &#x200B;](assets/cja-basic-analysis.png)
 
 ![Meer voorbeelden van visualisaties van elementaire analytische grafieken](assets/cja-basic-analysis2.png)

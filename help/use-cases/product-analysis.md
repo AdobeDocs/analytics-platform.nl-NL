@@ -31,12 +31,12 @@ Nauwkeurige productgegevens vormen de hoeksteen van een effectieve productanalys
 Met de volgende mogelijkheden in Adobe Experience Platform en Customer Journey Analytics kunt u uw productgegevens op grote schaal opnemen en beheren:
 
 * Adobe Experience Platform
-   * [ Datasets &#x200B; ](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/overview)
-   * [ Gegevens prep &#x200B; ](https://experienceleague.adobe.com/nl/docs/experience-platform/data-prep/home)
-   * [ Gegevens Distiller &#x200B; ](https://experienceleague.adobe.com/nl/docs/experience-platform/query/data-distiller/overview)
+   * [&#x200B; Datasets &#x200B; &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/overview)
+   * [&#x200B; Gegevens prep &#x200B; &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/data-prep/home)
+   * [&#x200B; Gegevens Distiller &#x200B; &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/data-distiller/overview)
 * Customer Journey Analytics
    * [&#x200B;](/help/connections/overview.md)
-   * [ meningen van Gegevens ](/help/data-views/data-views.md), met inbegrip van [ afgeleide gebieden &#x200B; ](/help/data-views/derived-fields/derived-fields.md)
+   * [&#x200B; meningen van Gegevens &#x200B;](/help/data-views/data-views.md), met inbegrip van [&#x200B; afgeleide gebieden &#x200B; &#x200B;](/help/data-views/derived-fields/derived-fields.md)
    * [Segmenten &#x200B;](/help/components/segments/seg-overview.md)
    * [Berekende cijfers](/help/components/calc-metrics/calc-metr-overview.md)
    * [Analyse met instructies &#x200B;: &#x200B;](/help/guided-analysis/types/timeline.md)
@@ -48,7 +48,7 @@ De productgroei hangt af van actioneerbare top-of-funnel inzichten die nieuwe ge
 * Bij de aankoop worden nieuwe gebruikers bijgehouden die naar uw product komen, zoals hoe ze aankomen en welke inspanningen het meest of het minst effectief zijn.
 * Activering bewaakt nieuwe gebruikers die uw eerste waardegebeurtenis gebruiken, die op basis van uw specifieke doelstellingen wordt gedefinieerd.
 
-![ Actieve groei ](/help/guided-analysis/assets/active.png)
+![&#x200B; Actieve groei &#x200B;](/help/guided-analysis/assets/active.png)
 
 Met de volgende mogelijkheden in Customer Journey Analytics kunt u zowel de overname als de activering effectief meten:
 
@@ -56,13 +56,13 @@ Met de volgende mogelijkheden in Customer Journey Analytics kunt u zowel de over
 * [Analyse met instructies: Nettogroei](/help/guided-analysis/types/net-growth.md)
 * [Analyse met instructies: trends](/help/guided-analysis//types/trends.md)
 * [&#x200B; van het deelvenster Kenmerken](/help/analysis-workspace/c-panels/attribution.md)
-* [ Vrije lijst van de Vorm ](/help/analysis-workspace/c-panels/freeform-panel.md) die de afmeting van het marketingkanaal omvat (het creëren van a [ afgeleid gebied ](/help/data-views/derived-fields/derived-fields.md))
+* [&#x200B; Vrije lijst van de Vorm &#x200B;](/help/analysis-workspace/c-panels/freeform-panel.md) die de afmeting van het marketingkanaal omvat (het creëren van a [&#x200B; afgeleid gebied &#x200B;](/help/data-views/derived-fields/derived-fields.md))
 
 ## De betrokkenheid en goedkeuring van maatregelen
 
 Door nieuwe gebruikers aan te schaffen breidt u de bovenkant van de producttrechter uit. De betrokkenheid richt zich op het verder door de trechter leiden van die gebruikers en het wegnemen van obstakels voor hun succes. Hun succes drijft direct uw bedrijfssucces.
 
-![ de analyse van de Betrokkenheid ](/help/guided-analysis/assets/feature-matrix.png)
+![&#x200B; de analyse van de Betrokkenheid &#x200B;](/help/guided-analysis/assets/feature-matrix.png)
 
 Met de volgende mogelijkheden in Customer Journey Analytics kunt u de betrokkenheid en acceptatie van producten volgen:
 
@@ -81,11 +81,11 @@ Met de volgende mogelijkheden in Customer Journey Analytics kunt u de betrokkenh
 
 Retentie meet hoeveel gebruikers na eerste aankoop en activering nog steeds met het product werken. De hoog-presterende producten handhaven een stabiele, loyale gebruikersbasis door interactie met de eigenschappen te maximaliseren die het meest met voortgezet gebruik correleerden. Een bewaarde gebruiker keert terug en in tijd met het product in wisselwerking staat, terwijl een beproefde gebruiker niet. Productteams volgen het behoud om de functies vast te stellen die aan de gang zijn, en ontwerpinterventies die ervoor zorgen dat veeleisende gebruikers overschakelen op het bewaarde gebruikersgedrag.
 
-![ Analyse van het Behoud ](/help/guided-analysis/assets/retention.png)
+![&#x200B; Analyse van het Behoud &#x200B;](/help/guided-analysis/assets/retention.png)
 
 Met de volgende mogelijkheden in Customer Journey Analytics kunt u het behoud en de klanken op effectieve wijze volgen:
 
-* [ Geleide analyse: Behoud ](/help/guided-analysis/types/retention.md) &#x200B;
+* [&#x200B; Geleide analyse: Behoud &#x200B;](/help/guided-analysis/types/retention.md) &#x200B;
 * [Analyse met instructies: Actieve groei](/help/guided-analysis/types/active-growth.md)
 * [Analyse met instructies: Nettogroei](/help/guided-analysis/types/net-growth.md)
 * [&#x200B;](/help/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
@@ -96,20 +96,20 @@ Inzichten leveren alleen waarde op wanneer ze actie stimuleren. Analytische bevi
 
 Met de volgende mogelijkheden in Experience Cloud kunt u effectief op inzichten reageren:
 
-* [ creeer en publiceer publiek ](/help/components/audiences/publish.md) &#x200B; voor activering van Customer Journey Analytics
+* [&#x200B; creeer en publiceer publiek &#x200B;](/help/components/audiences/publish.md) &#x200B; voor activering van Customer Journey Analytics
 * Het publiek activeren via Experience Cloud-producten:
-   * [ experimenten van de Looppas ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/content-experiment/get-started-experiment) in AJO en Adobe Target, en meet het effect van variaties in Customer Journey Analytics gebruikend het [ paneel van de Experimentatie ](/help/analysis-workspace/c-panels/experimentation.md)
-   * [ lever in-app overeenkomsten ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/in-app/get-started-in-app) aan gebruikers in AJO
-* [ activeer publiek ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/activation-overview) aan externe bestemmingen met Adobe Real-time CDP &#x200B;
+   * [&#x200B; experimenten van de Looppas &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/content-experiment/get-started-experiment) in AJO en Adobe Target, en meet het effect van variaties in Customer Journey Analytics gebruikend het [&#x200B; paneel van de Experimentatie &#x200B;](/help/analysis-workspace/c-panels/experimentation.md)
+   * [&#x200B; lever in-app overeenkomsten &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/in-app/get-started-in-app) aan gebruikers in AJO
+* [&#x200B; activeer publiek &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/activation-overview) aan externe bestemmingen met Adobe Real-time CDP &#x200B;
 
 ## Inzichten in de organisatie delen &#x200B;
 
 Communiceer zeer belangrijke bevindingen over teams om inspanningen te richten, samenwerking te bevorderen, en iedereen te verzekeren werkt naar gedeelde product en bedrijfsdoelstellingen.
 
-![ Geleide Analyse in Workspace ](assets/guided-analysis-workspace.png)
+![&#x200B; Geleide Analyse in Workspace &#x200B;](assets/guided-analysis-workspace.png)
 
 Met de volgende mogelijkheden in Customer Journey Analytics kunt u op effectieve wijze inzichten delen:
 
-* [ Deel ](/help/analysis-workspace/curate-share/share-projects.md) geleide analysemeningen die aan specifieke bedrijfsvragen worden aangepast, toelatend consumenten om hun volgende vraag zelf te dienen
-* Combineer geleide analyses, panelen, en visualisaties in een uitvoerig dashboard in [ Analysis Workspace ](/help/analysis-workspace/home.md)
-* Creeer a [ mobiele scorecard ](/help/mobile-app/home.md) met zeer belangrijke productinzichten voor Uitvoerenden en andere consumenten op de weg
+* [&#x200B; Deel &#x200B;](/help/analysis-workspace/curate-share/share-projects.md) geleide analysemeningen die aan specifieke bedrijfsvragen worden aangepast, toelatend consumenten om hun volgende vraag zelf te dienen
+* Combineer geleide analyses, panelen, en visualisaties in een uitvoerig dashboard in [&#x200B; Analysis Workspace &#x200B;](/help/analysis-workspace/home.md)
+* Creeer a [&#x200B; mobiele scorecard &#x200B;](/help/mobile-app/home.md) met zeer belangrijke productinzichten voor Uitvoerenden en andere consumenten op de weg

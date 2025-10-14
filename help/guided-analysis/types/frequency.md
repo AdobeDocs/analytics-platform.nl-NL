@@ -38,13 +38,13 @@ De gevallen van het gebruik voor deze analyse omvatten:
 
 ## Interface
 
-Zie [ Interface ](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
+Zie [&#x200B; Interface &#x200B;](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
 
 ### Query-rail
 
 Met de queryrail kunt u de volgende componenten configureren:
 
-* **[!UICONTROL View]**: Schakelaar tussen deze analyse en [ Trends ](trends.md).
+* **[!UICONTROL View]**: Schakelaar tussen deze analyse en [&#x200B; Trends &#x200B;](trends.md).
 * **[!UICONTROL Events]**: De gebeurtenissen die u wilt meten. Elke geselecteerde gebeurtenis wordt weergegeven als een afzonderlijke grafiek. Er wordt een rij die de trended-gebeurtenis vertegenwoordigt, aan de tabel toegevoegd. U kunt maximaal vijf gebeurtenissen opnemen.
 * **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. De opties zijn [!UICONTROL Users] , [!UICONTROL Sessions] , [!UICONTROL Percentage of users] en [!UICONTROL Percentage of sessions] . De noemer voor op percentage-gebaseerde metriek in deze analyse is gebruikers of zittingen die de geselecteerde gebeurtenissen, niet alle actieve gebruikers van het product deden.
 * **[!UICONTROL Segments]**: De segmenten die u wilt meten. Elk geselecteerd segment verdubbelt het aantal balken in het diagram en de rijen in de tabel. U kunt maximaal vijf segmenten opnemen.

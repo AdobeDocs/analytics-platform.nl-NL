@@ -28,15 +28,15 @@ Met de optie **[!UICONTROL Calendar]** kunt u statische of verschuivende datums 
 
 ### Datumbereik
 
-In het veld Datumbereik wordt het huidige datumbereik voor de gegevensblokaanvraag weergegeven. U kunt data direct ingaan of ![ Kalender ](/help/assets/icons/Calendar.svg) gebruiken om een datumwaaier te specificeren.
+In het veld Datumbereik wordt het huidige datumbereik voor de gegevensblokaanvraag weergegeven. U kunt data direct ingaan of ![&#x200B; Kalender &#x200B;](/help/assets/icons/Calendar.svg) gebruiken om een datumwaaier te specificeren.
 
-![ de waaierkalender van de Datum ](assets/date-range-calendar.png){zoomable="yes"}
+![&#x200B; de waaierkalender van de Datum &#x200B;](assets/date-range-calendar.png){zoomable="yes"}
 
 ### Voorinstellingen
 
 Selecteer een voorinstelling in het keuzemenu met voorinstellingen. U kunt ook tekst invoeren om naar voorinstellingen te zoeken.
 
-![ de waaiervoorinstellingen van de Datum ](assets/date-range-presets.png){zoomable="yes"}
+![&#x200B; de waaiervoorinstellingen van de Datum &#x200B;](assets/date-range-presets.png){zoomable="yes"}
 
 Het keuzemenu met voorinstellingen bevat een standaardset vooraf ingestelde datumbereiken en componenten voor het datumbereik voor een gegevensweergave die u hebt opgeslagen of een gegevensweergave die met u is gedeeld.
 
@@ -44,7 +44,7 @@ Het keuzemenu met voorinstellingen bevat een standaardset vooraf ingestelde datu
 
 Roldatums definiëren:
 
-![ roldatums USe ](assets/date-range-rolling-date.png){zoomable="yes"}
+![&#x200B; roldatums USe &#x200B;](assets/date-range-rolling-date.png){zoomable="yes"}
 
 1. Selecteer **[!UICONTROL Use rolling dates]** om de logica voor een roldatumdefinitie te bepalen. U kunt de tekst tussen haakjes selecteren (bijvoorbeeld **[!UICONTROL fixed start - rolling daily]** ) om het deelvenster uit te breiden en details voor **[!UICONTROL Start]** en **[!UICONTROL End]** op te geven.
 
@@ -66,7 +66,7 @@ Roldatums definiëren:
 
 Met de optie voor aangepaste expressies kunt u het datumbereik wijzigen door een aangepaste expressie te maken of een rekenkundige formule in te voeren.
 
-![ de waaieruitdrukking van de waaier van de Datum ](assets/date-range-custom-expression.png){zoomable="yes"}
+![&#x200B; de waaieruitdrukking van de waaier van de Datum &#x200B;](assets/date-range-custom-expression.png){zoomable="yes"}
 
 1. Selecteer **[!UICONTROL Use rolling dates]** .
 
@@ -74,15 +74,15 @@ Met de optie voor aangepaste expressies kunt u het datumbereik wijzigen door een
 
    Wanneer u **[!UICONTROL Use custom expression]** selecteert, worden de standaardbesturingselementen voor het schuifdatumbereik uitgeschakeld.
 
-1. Ga a [ douaneuitdrukking ](#create-a-custom-expression) in.
+1. Ga a [&#x200B; douaneuitdrukking &#x200B;](#create-a-custom-expression) in.
 
 1. Gebruik **[!UICONTROL Date preview]** om het resulterende datumbereik te verifiëren.
 
 #### Een aangepaste expressie maken
 
-1. Ga a [ datumverwijzing ](#date-references) in.
+1. Ga a [&#x200B; datumverwijzing &#x200B;](#date-references) in.
 
-1. Voeg een facultatieve [ datumexploitant ](#date-operators) toe om de datum naar het verleden of de toekomst te bewegen.
+1. Voeg een facultatieve [&#x200B; datumexploitant &#x200B;](#date-operators) toe om de datum naar het verleden of de toekomst te bewegen.
 
 U kunt een aangepaste expressie invoeren die meerdere operatoren bevat, zoals `tm-11m-1d` .
 
@@ -128,9 +128,9 @@ In de volgende tabel staan voorbeelden van datumexpressies.
 
 ## Datumbereik van cel
 
-Het datumbereik kan worden opgegeven in werkbladcellen. Kies met de optie **[!UICONTROL Date range from cell]** de begin- en einddatum van het gegevensblok in de geselecteerde cellen. Wanneer u de **[!UICONTROL From cell]** optie selecteert, toont het paneel **[!UICONTROL From]** en **[!UICONTROL To]** gebieden waar u een celplaats kunt ingaan of ![ DataBlockSelector ](/help/assets/icons/DataBlockSelector.svg) gebruiken om de huidige geselecteerde cel te kiezen.
+Het datumbereik kan worden opgegeven in werkbladcellen. Kies met de optie **[!UICONTROL Date range from cell]** de begin- en einddatum van het gegevensblok in de geselecteerde cellen. Wanneer u de **[!UICONTROL From cell]** optie selecteert, toont het paneel **[!UICONTROL From]** en **[!UICONTROL To]** gebieden waar u een celplaats kunt ingaan of ![&#x200B; DataBlockSelector &#x200B;](/help/assets/icons/DataBlockSelector.svg) gebruiken om de huidige geselecteerde cel te kiezen.
 
-![ Uitgezocht van cel Sheet1!H4 aan Sheet1!I4 ](./assets/date-range-from-cell.png){zoomable="yes"}
+![&#x200B; Uitgezocht van cel Sheet1!H4 aan Sheet1!I4 &#x200B;](./assets/date-range-from-cell.png){zoomable="yes"}
 
 
 ## Vandaag uitsluiten

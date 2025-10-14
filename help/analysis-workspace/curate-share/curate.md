@@ -17,7 +17,7 @@ ht-degree: 0%
 Met Curatie kunt u de componenten (afmetingen, metriek, segmenten, datumbereiken) beperken voordat u een project deelt. Wanneer een ontvanger het project opent, zien zij een beperkte reeks componenten die u voor hen hebt gebogen. Curation is een optionele maar aanbevolen stap voordat een project wordt gedeeld.
 
 >[!NOTE]
-> Productprofielen zijn het belangrijkste mechanisme dat bepaalt welke componenten een gebruiker kan zien. Zij worden beheerd door [ Adobe Experience Cloud Admin Console ](https://experienceleague.adobe.com/nl/docs/core-services/interface/administration/admin-tool-experience-cloud). Curatie is een secundair segment.
+> Productprofielen zijn het belangrijkste mechanisme dat bepaalt welke componenten een gebruiker kan zien. Zij worden beheerd door [&#x200B; Adobe Experience Cloud Admin Console &#x200B;](https://experienceleague.adobe.com/nl/docs/core-services/interface/administration/admin-tool-experience-cloud). Curatie is een secundair segment.
 
 ## Projectcursus toepassen
 
@@ -31,7 +31,7 @@ Als een project veelvoudige gegevensmening heeft, ziet u een gebogen dalingsdoel
 Curation can also be applied from the [!UICONTROL Share] menu by selecting **[!UICONTROL Curate and Share]**. This option automatically curates the project to the components in use in the project. You can add additional components following the steps above.
 -->
 
-![ het venster van de Componenten van de Kromme die de componenten in gebruik in het project tonen.](assets/curation-field.png)
+![&#x200B; het venster van de Componenten van de Kromme die de componenten in gebruik in het project tonen.](assets/curation-field.png)
 
 Wanneer een ontvanger een gebogen project opent, zien zij slechts de gebogen reeks componenten u hebt bepaald:
 

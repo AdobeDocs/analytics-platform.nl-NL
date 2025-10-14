@@ -22,23 +22,23 @@ Verschillende functies in Customer Journey Analytics krijgen een andere naam en 
 
 Veel van wat u op de verslaggevende kant kent is niet veranderd.
 
-* U kunt nog de macht van [ Analysis Workspace ](/help/analysis-workspace/home.md) gebruiken om uw gegevens te analyseren. Workspace werkt hetzelfde als in traditionele Adobe Analytics.
-* De zelfde versie van [ dashboards van Adobe Analytics ](/help/mobile-app/home.md) is beschikbaar, en werkt zo ook tussen Customer Journey Analytics en Adobe Analytics.
-* [ Report Builder ](/help/report-builder/rb-overview.md) heeft een nieuwe interface en loopt op Vensters van MS, MacOS, en de Webversie van Excel. (Vóór deze versie van Report Builder kon u de toepassing alleen op Mac gebruiken als u deze op VMware had uitgevoerd.) Deze versie biedt nog geen ondersteuning voor traditionele AA-gegevensaanvragen.
+* U kunt nog de macht van [&#x200B; Analysis Workspace &#x200B;](/help/analysis-workspace/home.md) gebruiken om uw gegevens te analyseren. Workspace werkt hetzelfde als in traditionele Adobe Analytics.
+* De zelfde versie van [&#x200B; dashboards van Adobe Analytics &#x200B;](/help/mobile-app/home.md) is beschikbaar, en werkt zo ook tussen Customer Journey Analytics en Adobe Analytics.
+* [&#x200B; Report Builder &#x200B;](/help/report-builder/rb-overview.md) heeft een nieuwe interface en loopt op Vensters van MS, MacOS, en de Webversie van Excel. (Vóór deze versie van Report Builder kon u de toepassing alleen op Mac gebruiken als u deze op VMware had uitgevoerd.) Deze versie biedt nog geen ondersteuning voor traditionele AA-gegevensaanvragen.
 
 ## Wijzigingen in de rapportage
 
 U hebt veel meer toegang tot kanaalgegevens om te analyseren. Bijvoorbeeld, kunt u een werkruimteproject tot stand brengen dat prestaties van veelvoudige kanalen analyseert, op voorwaarde dat deze datasets door uw organisatie worden opgenomen en in gegevensmeningen inbegrepen die door Customer Journey Analytics worden gebruikt (zie &quot;Veranderingen in gegevensarchitectuur&quot;hieronder).
 
-![ de Bronmening die van Gegevens multi-kanaal-visualisaties ](assets/cross-channel.png) tonen
+![&#x200B; de Bronmening die van Gegevens multi-kanaal-visualisaties &#x200B;](assets/cross-channel.png) tonen
 
 ## Wijzigingen in gegevensarchitectuur {#architecture}
 
 Customer Journey Analytics haalt zijn gegevens op uit Adobe Experience Platform. Met Experience Platform kunt u klantgegevens en -inhoud van elk systeem of kanaal centraliseren en standaardiseren. Met kunt u gegevenswetenschappen en computerleren toepassen om het ontwerp en de levering van persoonlijke ervaringen te verbeteren.
 
-De gegevens van de klant in Experience Platform worden opgeslagen als datasets, die uit a [ schema ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=nl-NL) en partijen gegevens bestaan. Voor meer detail op het platform, zie [ het Overzicht van de Architectuur van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=nl-NL).
+De gegevens van de klant in Experience Platform worden opgeslagen als datasets, die uit a [&#x200B; schema &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schemas-and-experience-data-model.html?lang=nl-NL) en partijen gegevens bestaan. Voor meer detail op het platform, zie [&#x200B; het Overzicht van de Architectuur van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/intro-to-platform/basic-architecture.html?lang=nl-NL).
 
-Uw Customer Journey Analytics Admin vestigt [ verbindingen ](/help/connections/create-connection.md) aan datasets in Experience Platform. Zij bouwen dan [ gegevensmeningen ](/help/data-views/data-views.md) gebruikend die verbindingen. De meningen van gegevens zijn conceptueel gelijkaardig aan virtuele rapportreeksen, en zijn de basis van rapportering in Customer Journey Analytics. Aangezien Experience Platform alle gegevens voor rapportage levert, bestaan deze sets niet meer als een container voor gegevens.
+Uw Customer Journey Analytics Admin vestigt [&#x200B; verbindingen &#x200B;](/help/connections/create-connection.md) aan datasets in Experience Platform. Zij bouwen dan [&#x200B; gegevensmeningen &#x200B;](/help/data-views/data-views.md) gebruikend die verbindingen. De meningen van gegevens zijn conceptueel gelijkaardig aan virtuele rapportreeksen, en zijn de basis van rapportering in Customer Journey Analytics. Aangezien Experience Platform alle gegevens voor rapportage levert, bestaan deze sets niet meer als een container voor gegevens.
 
 Met een verbinding kunnen uw Analytics Admin gegevenssets van Adobe Experience Platform integreren in Customer Journey Analytics.
 
@@ -58,13 +58,13 @@ Adobe biedt meerdere manieren om gegevens naar Adobe Experience Platform over te
 
 ## Wijzigingen in het concept van virtuele-rapportensuites {#data-views}
 
-[!UICONTROL Data views] neem het concept virtuele rapportreeksen aangezien zij vandaag bestaan en breid het uit om [ extra controles op de gegevens ](/help/data-views/create-dataview.md) toe te laten die door verbindingen beschikbaar worden gemaakt. Deze veranderingen maken algemene montages zoals timezone en zittingsonderbrekingsintervallen configureerbaar en retroactief. De individuele veranderlijke montages zoals attributie en vervaldatum kunnen ook op een rapport of een niveau van de gegevensmening worden aangepast. Deze instellingen zijn niet-destructief en retroactief.
+[!UICONTROL Data views] neem het concept virtuele rapportreeksen aangezien zij vandaag bestaan en breid het uit om [&#x200B; extra controles op de gegevens &#x200B;](/help/data-views/create-dataview.md) toe te laten die door verbindingen beschikbaar worden gemaakt. Deze veranderingen maken algemene montages zoals timezone en zittingsonderbrekingsintervallen configureerbaar en retroactief. De individuele veranderlijke montages zoals attributie en vervaldatum kunnen ook op een rapport of een niveau van de gegevensmening worden aangepast. Deze instellingen zijn niet-destructief en retroactief.
 
 U ziet dat de rapportsuite-kiezer in de rechterbovenhoek u nu in de beschikbare gegevensweergaven laat kiezen:
 
-![ gegeven-mening-selecteur ](assets/data-views.png)
+![&#x200B; gegeven-mening-selecteur &#x200B;](assets/data-views.png)
 
-Zie [ gevallen van het Gebruik rond gegevensmeningen ](/help/use-cases/data-views/data-views-usecases.md) voor meer informatie rond dit concept.
+Zie [&#x200B; gevallen van het Gebruik rond gegevensmeningen &#x200B;](/help/use-cases/data-views/data-views-usecases.md) voor meer informatie rond dit concept.
 
 ## Wijzigingen in het concept van eVars en props
 
@@ -76,7 +76,7 @@ Met deze flexibiliteit, kunt u in situaties lopen waarin één enkel schemagebie
 
 ## Wijzigingen van het begrip &quot;segmenten&quot;
 
-Hoewel segmenten technisch niet van Adobe Analytics naar Customer Journey Analytics worden gemigreerd, kunt u het hulpmiddel van de componentenmigratie gebruiken om uw segmenten van Adobe Analytics in Customer Journey Analytics opnieuw tot stand te brengen. Segmenten worden opnieuw gemaakt in Customer Journey Analytics op basis van de afmetingen en maatstaven die zijn toegewezen. Voor meer informatie, zie [ voorbereidingen treffen om componenten en projecten van Adobe Analytics aan Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=nl-NL) te migreren.
+Hoewel segmenten technisch niet van Adobe Analytics naar Customer Journey Analytics worden gemigreerd, kunt u het hulpmiddel van de componentenmigratie gebruiken om uw segmenten van Adobe Analytics in Customer Journey Analytics opnieuw tot stand te brengen. Segmenten worden opnieuw gemaakt in Customer Journey Analytics op basis van de afmetingen en maatstaven die zijn toegewezen. Voor meer informatie, zie [&#x200B; voorbereidingen treffen om componenten en projecten van Adobe Analytics aan Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=nl-NL) te migreren.
 
 Hoewel u [!UICONTROL segments] ([!UICONTROL segments]) nog niet kunt delen of publiceren van [!DNL Customer Journey Analytics] naar Experience Platform Unified Profile, wordt deze functionaliteit momenteel ontwikkeld.
 
@@ -93,13 +93,13 @@ Berekende metriek hebben een vergelijkbare naam tussen Adobe Analytics en Custom
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Bewegend berekende metriek van Adobe Analytics aan Customer Journey Analytics ](https://video.tv.adobe.com/v/31788?quality=12&learn=on){target="_blank"} voor een demovideo op hoe te om berekende metriek te bewegen.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Bewegend berekende metriek van Adobe Analytics aan Customer Journey Analytics &#x200B;](https://video.tv.adobe.com/v/31788?quality=12&learn=on){target="_blank"} voor een demovideo op hoe te om berekende metriek te bewegen.
 
 >[!ENDSHADEBOX]
 
 ## Wijzigingen in instellingen voor variabeletoewijzing en -vervaldatum
 
-[!UICONTROL Customer Journey Analytics] past alle variabelemontages, met inbegrip van attributie en vervaldatum, op rapporttijd toe. Deze montages verblijven nu in [ gegevensmeningen ](/help/data-views/component-settings/persistence.md), en sommige veranderlijke montages (zoals attributie) kunnen in de projecten van Workspace worden veranderd.
+[!UICONTROL Customer Journey Analytics] past alle variabelemontages, met inbegrip van attributie en vervaldatum, op rapporttijd toe. Deze montages verblijven nu in [&#x200B; gegevensmeningen &#x200B;](/help/data-views/component-settings/persistence.md), en sommige veranderlijke montages (zoals attributie) kunnen in de projecten van Workspace worden veranderd.
 
 U kunt meerdere versies van dezelfde variabele in dezelfde gegevensweergave hebben. Bijvoorbeeld, kunt u één het Volgen dimensie van de Code hebben die na 30 dagen verloopt, en een andere die aan het eind van een zitting verloopt. Beide volgcodeafmetingen gebruiken dezelfde brongegevens, maar gebruiken verschillende toewijzingsinstellingen.
 
@@ -115,15 +115,15 @@ De &quot;attributen van de Klant&quot;zijn nu genoemd geworden &quot;datasets va
 
 ## Wijzigingen in de manier waarop Adobe bezoekers identificeert
 
-Customer Journey Analytics breidt de concepten van identiteiten uit tot buiten ECIDs om het even welke identiteitskaart te omvatten u, met inbegrip van Klant identiteitskaart, Cookie identiteitskaart, Titched ID, Gebruiker - identiteitskaart, het Volgen Code, etc. wilt gebruiken. Het gebruiken van gemeenschappelijke namespace identiteitskaart over datasets, of het gebruiken van [ het Stitching ](../stitching/overview.md) hulp verbindt mensen samen over verschillende datasets. Elke gebruiker die een Workspace-project in Customer Journey Analytics instelt, moet de gebruikte id&#39;s in de datasets begrijpen. Bekijk de volgende video waarin het gebruik van identiteiten in Customer Journey Analytics wordt benadrukt
+Customer Journey Analytics breidt de concepten van identiteiten uit tot buiten ECIDs om het even welke identiteitskaart te omvatten u, met inbegrip van Klant identiteitskaart, Cookie identiteitskaart, Titched ID, Gebruiker - identiteitskaart, het Volgen Code, etc. wilt gebruiken. Het gebruiken van gemeenschappelijke namespace identiteitskaart over datasets, of het gebruiken van [&#x200B; het Stitching &#x200B;](../stitching/overview.md) hulp verbindt mensen samen over verschillende datasets. Elke gebruiker die een Workspace-project in Customer Journey Analytics instelt, moet de gebruikte id&#39;s in de datasets begrijpen. Bekijk de volgende video waarin het gebruik van identiteiten in Customer Journey Analytics wordt benadrukt
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Gebruikend identiteit in Customer Journey Analytics ](https://video.tv.adobe.com/v/30750/?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Gebruikend identiteit in Customer Journey Analytics &#x200B;](https://video.tv.adobe.com/v/30750/?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
 ## Veranderingen in het concept van laag-verkeersdimensie punt
 
-In traditionele Adobe Analytics begint een variabele die te veel unieke waarden ontvangt, de dimensie-items onder [!UICONTROL Low-Traffic] te zetten. Customer Journey Analytics heeft minder beperkingen op velden met een hoge kwaliteit. Door wijzigingen in de rapportagearchitectuur kan Analysis Workspace vele meer unieke dimensieitems rapporteren. Zie [ Hoge kardinale afmetingen ](../components/dimensions/high-cardinality.md) voor meer informatie rond hoe Customer Journey Analytics het melden voor dimensies met vele unieke waarden optimaliseert.
+In traditionele Adobe Analytics begint een variabele die te veel unieke waarden ontvangt, de dimensie-items onder [!UICONTROL Low-Traffic] te zetten. Customer Journey Analytics heeft minder beperkingen op velden met een hoge kwaliteit. Door wijzigingen in de rapportagearchitectuur kan Analysis Workspace vele meer unieke dimensieitems rapporteren. Zie [&#x200B; Hoge kardinale afmetingen &#x200B;](../components/dimensions/high-cardinality.md) voor meer informatie rond hoe Customer Journey Analytics het melden voor dimensies met vele unieke waarden optimaliseert.

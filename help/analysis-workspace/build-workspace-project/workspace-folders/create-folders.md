@@ -20,9 +20,9 @@ U kunt een nieuwe map of een submap toevoegen aan de lijst met projecten en mapp
 
 Als u een nieuwe map wilt maken,
 
-1. Verzeker u [ Omslagen &amp; Projecten ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#show-selector) hebt geselecteerd tonen.
+1. Verzeker u [&#x200B; Omslagen &amp; Projecten &#x200B;](/help/analysis-workspace/build-workspace-project/freeform-overview.md#show-selector) hebt geselecteerd tonen.
 
-1. Verzeker het [ gebied van de Titel ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area) en de [ lijst van het Project ](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) vertoning de omslag waar u een nieuwe omslag wilt tot stand brengen.
+1. Verzeker het [&#x200B; gebied van de Titel &#x200B;](/help/analysis-workspace/build-workspace-project/freeform-overview.md#title-area) en de [&#x200B; lijst van het Project &#x200B;](/help/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) vertoning de omslag waar u een nieuwe omslag wilt tot stand brengen.
 
 1. Klik **creeer omslag**.
 
@@ -30,7 +30,7 @@ Als u een nieuwe map wilt maken,
 
 1. Selecteer tags of voer nieuwe tags in in de vervolgkeuzelijst **[!UICONTROL Tags]** .
 
-   ![ creeer nieuwe omslag ](../assets/create-new-folder.png)
+   ![&#x200B; creeer nieuwe omslag &#x200B;](../assets/create-new-folder.png)
 
 1. Klik **creëren**.
 De nieuwe map wordt toegevoegd aan de huidige map.

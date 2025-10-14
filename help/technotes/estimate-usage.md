@@ -15,11 +15,11 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Gebruik de [**[!UICONTROL Usage]**&#x200B;interface ](/help/connections/manage-connections.md#usage) aan **&#x200B; mening &#x200B;** het gebruik van opgenomen en te melden rijen over alle verbindingen in Customer Journey Analytics.
+>Gebruik de [**[!UICONTROL Usage]**&#x200B;interface &#x200B;](/help/connections/manage-connections.md#usage) aan **&#x200B; mening &#x200B;** het gebruik van opgenomen en te melden rijen over alle verbindingen in Customer Journey Analytics.
 
 
 
-U kunt uw Customer Journey Analytics-gebruik beheren in de [**[!UICONTROL Connections]**-interface ](/help/connections/create-connection.md) . In deze interface kunt u de Customer Journey Analytics-gegevensbewaring definiëren als een schuifvenster in maanden (1 maand, 3 maanden, 6 maanden, enzovoort), op verbindingsniveau.
+U kunt uw Customer Journey Analytics-gebruik beheren in de [**[!UICONTROL Connections]**-interface &#x200B;](/help/connections/create-connection.md) . In deze interface kunt u de Customer Journey Analytics-gegevensbewaring definiëren als een schuifvenster in maanden (1 maand, 3 maanden, 6 maanden, enzovoort), op verbindingsniveau.
 
 Het belangrijkste voordeel is dat u alleen gegevens opslaat of rapporteert die van toepassing zijn en nuttig zijn, en oudere gegevens verwijdert die niet meer nuttig zijn. Het helpt u onder uw contractgrenzen te blijven en vermindert het risico van overleeftijdskosten.
 
@@ -30,5 +30,5 @@ Het bewaren van gegevens is gebaseerd op tijdstempels en is alleen van toepassin
 
 >[!MORELIKETHIS]
 >
->[ Bekijk uw gebruik van Customer Journey Analytics ](/help/connections/manage-connections.md#usage)
+>[&#x200B; Bekijk uw gebruik van Customer Journey Analytics &#x200B;](/help/connections/manage-connections.md#usage)
 

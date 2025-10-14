@@ -45,7 +45,7 @@ Uw gegevensstroom instellen:
 
 1. Geef een naam en beschrijf de gegevensstroom. Selecteer het schema in de lijst [!UICONTROL Event Schema] .
 
-   ![ Nieuwe DataStream ](assets/new-datastream.png)
+   ![&#x200B; Nieuwe DataStream &#x200B;](assets/new-datastream.png)
 
 1. Selecteer **[!UICONTROL Save]** .
 

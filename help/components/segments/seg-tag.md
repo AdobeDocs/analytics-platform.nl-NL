@@ -13,17 +13,17 @@ ht-degree: 0%
 
 # Tagsegmenten
 
-In de [ manager van het Segment ](seg-manage.md), kunt u markeringen gebruiken om segmenten te organiseren. Beheerders kunnen alle segmenten labelen. Niet-beheerders kunnen alleen de segmenten die ze maken of met hen zijn gedeeld, van tags voorzien.
+In de [&#x200B; manager van het Segment &#x200B;](seg-manage.md), kunt u markeringen gebruiken om segmenten te organiseren. Beheerders kunnen alle segmenten labelen. Niet-beheerders kunnen alleen de segmenten die ze maken of met hen zijn gedeeld, van tags voorzien.
 
 Een of meer segmenten labelen:
 
-1. In de [ manager van het Segment ](seg-manage.md), selecteer één of meerdere segmenten u wilt etiketteren.
-1. Van de actiebar, uitgezochte ![ Etiketten ](/help/assets/icons/Labels.svg) **[!UICONTROL Tag]**.
+1. In de [&#x200B; manager van het Segment &#x200B;](seg-manage.md), selecteer één of meerdere segmenten u wilt etiketteren.
+1. Van de actiebar, uitgezochte ![&#x200B; Etiketten &#x200B;](/help/assets/icons/Labels.svg) **[!UICONTROL Tag]**.
 1. In het dialoogvenster **[!UICONTROL Tag Segments]** :
 
-   ![ de dialoog van Segmenten van de Markering ](assets/tag-filter-dialog.png)
+   ![&#x200B; de dialoog van Segmenten van de Markering &#x200B;](assets/tag-filter-dialog.png)
 
-   1. (Naar keuze) gebruik ![ Onderzoek ](/help/assets/icons/Search.svg) om naar de lijst van markeringen te zoeken en te beperken.
+   1. (Naar keuze) gebruik ![&#x200B; Onderzoek &#x200B;](/help/assets/icons/Search.svg) om naar de lijst van markeringen te zoeken en te beperken.
 
    2. Gebaseerd op de lijst met labels:
 
@@ -32,7 +32,7 @@ Een of meer segmenten labelen:
 
 1. Selecteer **[!UICONTROL Save]** om de tags voor het segment op te slaan. Selecteer **[!UICONTROL Cancel]** om te annuleren.
 
-Zodra bewaard, zijn de markeringen vermeld op het [!UICONTROL Tag] gebied voor de geselecteerde segmenten in de [ bouwer van het Segment ](seg-builder.md).
+Zodra bewaard, zijn de markeringen vermeld op het [!UICONTROL Tag] gebied voor de geselecteerde segmenten in de [&#x200B; bouwer van het Segment &#x200B;](seg-builder.md).
 
 
 ## Suggesties

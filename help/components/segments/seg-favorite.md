@@ -15,8 +15,8 @@ ht-degree: 0%
 
 U kunt een segment markeren als favoriet. Als u segmenten als favoriet wilt markeren, kunt u de segmenten ordenen. Alle gebruikers kunnen de voorkeur geven aan segmenten.
 
-Om of een segment te begunstigen, in de [ manager van het Segment ](/help/components/segments/seg-manage.md):
+Om of een segment te begunstigen, in de [&#x200B; manager van het Segment &#x200B;](/help/components/segments/seg-manage.md):
 
-* Selecteer ![ StarOutline ](/help/assets/icons/StarOutline.svg) om, of selecteer ![ Ster ](/help/assets/icons/Star.svg) om een segment uit te kiezen.
+* Selecteer ![&#x200B; StarOutline &#x200B;](/help/assets/icons/StarOutline.svg) om, of selecteer ![&#x200B; Ster &#x200B;](/help/assets/icons/Star.svg) om een segment uit te kiezen.
 
-U kunt de lijst met segmenten sorteren op favorieten. Selecteer **[!UICONTROL Other segments]** van het ![ paneel van het Segment ](/help/assets/icons/Filter.svg) **[!UICONTROL Segment]** en selecteer **[!UICONTROL Favorites]**. Zie [ Segment de lijst van segmenten ](/help/components/segments/seg-filter.md) voor meer informatie.
+U kunt de lijst met segmenten sorteren op favorieten. Selecteer **[!UICONTROL Other segments]** van het ![&#x200B; paneel van het Segment &#x200B;](/help/assets/icons/Filter.svg) **[!UICONTROL Segment]** en selecteer **[!UICONTROL Favorites]**. Zie [&#x200B; Segment de lijst van segmenten &#x200B;](/help/components/segments/seg-filter.md) voor meer informatie.

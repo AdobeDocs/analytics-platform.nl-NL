@@ -18,11 +18,11 @@ ht-degree: 0%
 
 U kunt het stitching op één of meerdere gebeurtenisdatasets toelaten u als deel van uw verbinding hebt gevormd. Het aantal gebeurtenisdatasets dat u voor het stitching kunt toelaten wordt bepaald door het pakket van Customer Journey Analytics u vergunning hebt gegeven.
 
-U kunt het stitching als deel van de [ montages van de dataset ](/help/connections/create-connection.md#dataset-settings) voor een gebeurtenisdataset toelaten wanneer u [ een verbinding ](/help/connections/create-connection.md) creeert of wanneer u [ een verbinding ](/help/connections/manage-connections.md#edit-a-connection) uitgeeft.
+U kunt het stitching als deel van de [&#x200B; montages van de dataset &#x200B;](/help/connections/create-connection.md#dataset-settings) voor een gebeurtenisdataset toelaten wanneer u [&#x200B; een verbinding &#x200B;](/help/connections/create-connection.md) creeert of wanneer u [&#x200B; een verbinding &#x200B;](/help/connections/manage-connections.md#edit-a-connection) uitgeeft.
 
 U kunt stitching inschakelen in het gedeelte met gebeurtenisgegevens van het dialoogvenster **[!UICONTROL Add datasets]** of **[!UICONTROL Edit dataset]** :
 
-![ Identiteit die opties stitching wanneer u identiteitsstitching ](assets/identity-stitching-ui.png) toelaat
+![&#x200B; Identiteit die opties stitching wanneer u identiteitsstitching &#x200B;](assets/identity-stitching-ui.png) toelaat
 
 1. Selecteer **[!UICONTROL Enable identity stitching]** .
 
@@ -52,7 +52,7 @@ U kunt stitching inschakelen in het gedeelte met gebeurtenisgegevens van het dia
    >U moet het recht hebben om de identiteitsgrafiek te gebruiken.
    >
 
-   Vóór dat, wordt een **[!UICONTROL Change to identity graph]** dialoog getoond om u te verzekeren u de opstelling van de identiteitsgrafiek voor de dataset [ gebeëindigd hebt alvorens u de identiteitsgrafiek voor het stitching gebruikt. ](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service) Selecteer **[!UICONTROL Continue]** om door te gaan.
+   Vóór dat, wordt een **[!UICONTROL Change to identity graph]** dialoog getoond om u te verzekeren u de opstelling van de identiteitsgrafiek voor de dataset [&#x200B; gebeëindigd hebt alvorens u de identiteitsgrafiek voor het stitching gebruikt. &#x200B;](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service) Selecteer **[!UICONTROL Continue]** om door te gaan.
 
    * Selecteer een naamruimte in het vervolgkeuzemenu **[!UICONTROL Namespace]** .
 

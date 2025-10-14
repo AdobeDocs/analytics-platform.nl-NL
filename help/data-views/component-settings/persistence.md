@@ -28,15 +28,15 @@ ht-degree: 4%
 
 [!UICONTROL Persistence] is de mogelijkheid voor een bepaalde waarde van de afmeting om aan metrisch voorbij de gebeurtenis toe te schrijven het wordt geplaatst. Er wordt een combinatie van toewijzing en vervaldatum gebruikt.
 
-![ de meningsvenster van Gegevens die de opties van de Persistentie benadrukken ](../assets/persistence.png)
+![&#x200B; de meningsvenster van Gegevens die de opties van de Persistentie benadrukken &#x200B;](../assets/persistence.png)
 
 * **Toewijzing** laat u bepalen welke waarde om te houden wanneer meer dan één afmetingspunt in een tijd in één enkele kolom kan voortbestaan.
 
   >[!NOTE]
   >
-  >Als u a [ niet-gebrek attributiemodel ](/help/data-views/component-settings/attribution.md) op metrisch in een rapport hebt geplaatst, negeert het attributiemodel de toewijzing u op de afmeting voor het zelfde rapport plaatst.
+  >Als u a [&#x200B; niet-gebrek attributiemodel &#x200B;](/help/data-views/component-settings/attribution.md) op metrisch in een rapport hebt geplaatst, negeert het attributiemodel de toewijzing u op de afmeting voor het zelfde rapport plaatst.
   >
-  >Nochtans, wanneer het doen van a [ volledige lijstuitvoer ](/help/analysis-workspace/export/export-cloud.md) die veelvoudige dimensies omvat, behoudt de attributie de toewijzingsmodellen die op elke afmeting worden toegepast.
+  >Nochtans, wanneer het doen van a [&#x200B; volledige lijstuitvoer &#x200B;](/help/analysis-workspace/export/export-cloud.md) die veelvoudige dimensies omvat, behoudt de attributie de toewijzingsmodellen die op elke afmeting worden toegepast.
 
 * **Vervalsing** laat u bepalen hoe lang een afmetingspunt voorbij de gebeurtenis voortduurt het wordt geplaatst.
 
@@ -54,7 +54,7 @@ ht-degree: 4%
 
 De beschikbare toewijzingsinstellingen zijn:
 
-* **[!UICONTROL Most Recent]**: hiermee wordt de meest recente (door tijdstempel) waarde in de dimensie gehandhaafd. Alle volgende waarden die binnen de afloopperiode van de dimensie voorkomen, vervangen de eerder blijkende waarde. Als &quot;Behandel &quot;Geen Waarde&quot;als waarde&quot;op deze afmeting onder [ wordt toegelaten Geen waardeopties ](no-value-options.md), beschrijven de lege waarden eerder voortgeduurde waarden. Neem bijvoorbeeld de volgende tabel met [!UICONTROL Most recent] toewijzing en [!UICONTROL Session] vervaldatum:
+* **[!UICONTROL Most Recent]**: hiermee wordt de meest recente (door tijdstempel) waarde in de dimensie gehandhaafd. Alle volgende waarden die binnen de afloopperiode van de dimensie voorkomen, vervangen de eerder blijkende waarde. Als &quot;Behandel &quot;Geen Waarde&quot;als waarde&quot;op deze afmeting onder [&#x200B; wordt toegelaten Geen waardeopties &#x200B;](no-value-options.md), beschrijven de lege waarden eerder voortgeduurde waarden. Neem bijvoorbeeld de volgende tabel met [!UICONTROL Most recent] toewijzing en [!UICONTROL Session] vervaldatum:
 
   | Dimension | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Actief 5 |
   | --- | --- | --- | --- | --- | --- |
@@ -103,12 +103,12 @@ De beschikbare vervalinstellingen zijn:
 
 Een vervolgkeuzemenu waarmee u de persistentie van een waarde voor de dimensie kunt binden aan waarden van de dimensie in een andere dimensie. Tot de geldige opties behoren andere afmetingen die in de gegevensweergave zijn opgenomen.
 
-Zie [ Gebruikend bindende dimensies en metriek in Customer Journey Analytics ](../../use-cases/data-views/binding-dimensions-metrics.md) voor voorbeelden op hoe te om bindende dimensies effectief te gebruiken.
+Zie [&#x200B; Gebruikend bindende dimensies en metriek in Customer Journey Analytics &#x200B;](../../use-cases/data-views/binding-dimensions-metrics.md) voor voorbeelden op hoe te om bindende dimensies effectief te gebruiken.
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Bindende afmetingen ](https://video.tv.adobe.com/v/342694/?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Bindende afmetingen &#x200B;](https://video.tv.adobe.com/v/342694/?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -119,4 +119,4 @@ Een drop-down menu dat u metrisch laat kiezen die als bindende trekker dienst do
 
 Deze instelling wordt alleen weergegeven wanneer de Binding Dimension zich in de objectarray lager bevindt dan de component. Wanneer metrisch binden in een gebeurtenis aanwezig is, worden de afmetingswaarden gekopieerd van de gebeurtenis-vlakke afmeting neer aan het lagere schemaniveau van de bindende afmeting.
 
-Zie het tweede voorbeeld onder [ Gebruikend bindende dimensies en metriek in Customer Journey Analytics ](../../use-cases/data-views/binding-dimensions-metrics.md) voor meer informatie over hoe te om bindende metriek effectief te gebruiken.
+Zie het tweede voorbeeld onder [&#x200B; Gebruikend bindende dimensies en metriek in Customer Journey Analytics &#x200B;](../../use-cases/data-views/binding-dimensions-metrics.md) voor meer informatie over hoe te om bindende metriek effectief te gebruiken.
