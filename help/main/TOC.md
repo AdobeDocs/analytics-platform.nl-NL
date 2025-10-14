@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 04d3de450a9efc12637a3c4272bf3c43b0fbbe0a
+source-git-commit: a16043f1bb15deba1332ed39438214597647b9b4
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1306'
 ht-degree: 11%
 
 ---
@@ -165,7 +165,7 @@ ht-degree: 11%
 
 + Gereedschappen {#tools}
    + Asset Transfer {#asset-transfer}
-      + [&#x200B; activa van de Overdracht &#x200B;](../tools/asset-transfer/transfer-assets.md)
+      + [ activa van de Overdracht ](../tools/asset-transfer/transfer-assets.md)
    + Productgebruik {#product-usage}
       + [Overzicht](../tools/product-usage/usage-overview.md)
       + [Gegevensinstellingen](../tools/product-usage/data-settings.md)
@@ -202,12 +202,13 @@ ht-degree: 11%
       + Vrije-vormtabel {#freeform-table}
          + [Overzicht](../analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [Hyperlinks maken](/help/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
+         + [Getraalde gegevens weergeven](/help/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)
+         + [Filteren en sorteren](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [Totalen](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
          + Instellingen voor kolommen en rijen {#column-row-settings}
             + [Kolominstellingen](../analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Rijinstellingen](../analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Dynamische en statische items](../analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [Filteren en sorteren](../analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [Totalen](../analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Cohortingtabel {#cohort-table}
          + [Overzicht](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configureren](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -528,4 +529,4 @@ ht-degree: 11%
    + [Prestaties optimaliseren](../technotes/optimizing-performance.md)
    + [Gebruik beheren](../technotes/estimate-usage.md)
 
-+ [&#x200B; Customer Journey Analytics API &#x200B;](https://developer.adobe.com/cja-apis/docs/)
++ [ Customer Journey Analytics API ](https://developer.adobe.com/cja-apis/docs/)
