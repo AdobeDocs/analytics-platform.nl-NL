@@ -86,7 +86,7 @@ Een bestand volgens een schema per e-mail naar ontvangers verzenden:
 
 >[!NOTE]
 >
->De optie om een gepland project te wachtwoord-beschermen verschijnt slechts voor de klanten van Customer Journey Analytics die het [&#x200B; toe:voegen-op product van het Schild van de Gezondheidszorg &#x200B;](https://business.adobe.com/solutions/industries/healthcare.html) hebben gekocht.
+>De optie om een gepland project te wachtwoord-beschermen verschijnt slechts voor de klanten van Customer Journey Analytics die het [&#x200B; toe:voegen-op product van het Schild van de Gezondheidszorg &#x200B;](https://business.adobe.com/nl/solutions/industries/healthcare.html) hebben gekocht.
 
 Adobe gebruikt het wachtwoord om geplande projecten te coderen, of zij in .pdf of .csv formaten worden verzonden.
 
