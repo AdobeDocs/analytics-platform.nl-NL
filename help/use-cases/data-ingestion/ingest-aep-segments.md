@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: cb5a4f98-9869-4410-8df2-b2f2c1ee8c57
 role: Admin
-source-git-commit: fc62e87c3a69302c4084bf8c0f6c16520e65d60d
+source-git-commit: 477b9850f923038f399f4399e2cb6c0970964052
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1444'
 ht-degree: 0%
 
 ---
@@ -18,25 +18,25 @@ In deze gebruikszaak wordt gezocht naar een voorlopige oplossing om Experience P
 
 ## Vereisten
 
-* Toegang tot [&#x200B; Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/home), specifiek in real time het Profiel van de Klant.
-* De toegang om de schema&#39;s van Experience Platform [&#x200B; &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home) en [&#x200B; datasets &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/overview) tot stand te brengen en te beheren.
-* Toegang tot [&#x200B; de Dienst van de Vraag van Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/home) (en de capaciteit om SQL te schrijven).
+* Toegang tot [ Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home), specifiek in real time het Profiel van de Klant.
+* De toegang om de schema&#39;s van Experience Platform [ ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) en [ datasets ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview) tot stand te brengen en te beheren.
+* Toegang tot [ de Dienst van de Vraag van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/query/home) (en de capaciteit om SQL te schrijven).
 * Toegang tot een hulpmiddel dat sommige transformaties van gegevens kan uitvoeren.
-* Toegang tot Customer Journey Analytics. U moet a [&#x200B; het productadmin van Customer Journey Analytics &#x200B;](/help/technotes/access-control.md) zijn om de verbindingen en de gegevensmeningen van Customer Journey Analytics tot stand te brengen en te wijzigen.
-* [&#x200B; verifieer en toegang tot Experience Platform APIs (de Dienst API van de Catalogus en de Dienst API van de Segmentatie) &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/platform-apis/api-authentication). U moet een project in de console van de Ontwikkelaar van de organisatie en de zandbak tot stand brengen en u verzekeren u de informatie hebt die wordt vereist om API vraag met succes voor te leggen.
+* Toegang tot Customer Journey Analytics. U moet a [ het productadmin van Customer Journey Analytics ](/help/technotes/access-control.md) zijn om de verbindingen en de gegevensmeningen van Customer Journey Analytics tot stand te brengen en te wijzigen.
+* [ verifieer en toegang tot Experience Platform APIs (de Dienst API van de Catalogus en de Dienst API van de Segmentatie) ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication). U moet een project in de console van de Ontwikkelaar van de organisatie en de zandbak tot stand brengen en u verzekeren u de informatie hebt die wordt vereist om API vraag met succes voor te leggen.
 
 ## Stappen
 
 De tussenoplossing omvat de volgende stappen:
 
-1. [&#x200B; Uitgezochte publiek (UI van Experience Platform) &#x200B;](#select-audiences).
-1. [&#x200B; creeer een profiel-toegelaten dataset (Experience Platform API) &#x200B;](#create-a-profile-enabled-dataset).
-1. [&#x200B; het publiek van de Uitvoer (Experience Platform API) &#x200B;](#export-audiences).
-1. [&#x200B; zet de output (UI van Experience Platform en meer) om &#x200B;](#transform-the-output).
-1. [&#x200B; creeer een schema en dataset (Experience Platform UI) &#x200B;](#create-a-schema-and-dataset).
-1. [&#x200B; voeg of geef een verbinding (Customer Journey Analytics UI) toe uit &#x200B;](#add-or-edit-a-connection).
-1. [&#x200B; vorm een gegevensmening (Customer Journey Analytics UI) &#x200B;](#configure-a-data-view).
-1. [&#x200B; Rapport en analyseer (Customer Journey Analytics UI) &#x200B;](#report-and-analyze).
+1. [ Uitgezochte publiek (UI van Experience Platform) ](#select-audiences).
+1. [ creeer een profiel-toegelaten dataset (Experience Platform API) ](#create-a-profile-enabled-dataset).
+1. [ het publiek van de Uitvoer (Experience Platform API) ](#export-audiences).
+1. [ zet de output (UI van Experience Platform en meer) om ](#transform-the-output).
+1. [ creeer een schema en dataset (Experience Platform UI) ](#create-a-schema-and-dataset).
+1. [ voeg of geef een verbinding (Customer Journey Analytics UI) toe uit ](#add-or-edit-a-connection).
+1. [ vorm een gegevensmening (Customer Journey Analytics UI) ](#configure-a-data-view).
+1. [ Rapport en analyseer (Customer Journey Analytics UI) ](#report-and-analyze).
 
 
 ### Soorten publiek selecteren
@@ -47,16 +47,16 @@ De oplossing begint met de identificatie van het publiek dat u in Customer Journ
 
 In de gebruikersinterface van Experience Platform:
 
-1. Selecteer **[!UICONTROL Customer]** > ![&#x200B; SegmentAudience &#x200B;](/help/assets/icons2/SegmentAudience.svg) **[!UICONTROL Audiences]**.
+1. Selecteer **[!UICONTROL Customer]** > ![ SegmentAudience ](/help/assets/icons2/SegmentAudience.svg) **[!UICONTROL Audiences]**.
 1. Selecteer **[!UICONTROL Browse]** en zoek naar het publiek dat u in Customer Journey Analytics wilt opnemen en gebruiken. Noteer **[!UICONTROL Audience Id]** voor elk publiek voor later gebruik.
 
-   ![&#x200B; Soorten publiek &#x200B;](assets/audiences.png)
+   ![ Soorten publiek ](assets/audiences.png)
 
 +++
 
 ### Een voor profielen geschikte dataset maken
 
-U moet een dataset tot stand brengen die op het op kern-gebaseerde **[!UICONTROL XDM Individual Profile]** schema wordt gebaseerd. U kunt niet dat kern gebaseerd Individueel Profiel XDM als schema selecteren wanneer u een dataset in Experience Platform UI creeert. In plaats daarvan, gebruik de [&#x200B; Dienst API van de Catalogus om een dataset &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/create#create-a-dataset) tot stand te brengen die op het `_xdm.context.profile__union` schema wordt gebaseerd.
+U moet een dataset tot stand brengen die op het op kern-gebaseerde **[!UICONTROL XDM Individual Profile]** schema wordt gebaseerd. U kunt niet dat kern gebaseerd Individueel Profiel XDM als schema selecteren wanneer u een dataset in Experience Platform UI creeert. In plaats daarvan, gebruik de [ Dienst API van de Catalogus om een dataset ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/create#create-a-dataset) tot stand te brengen die op het `_xdm.context.profile__union` schema wordt gebaseerd.
 
 +++ Gegevenssetaanvraag maken
 
@@ -102,7 +102,7 @@ Waarbij:
 
 ### Soorten publiek exporteren
 
-Exporteer het geselecteerde publiek naar de gegevensset die u net hebt gemaakt. Gebruik de [&#x200B; Dienst API van de Segmentatie om een uitvoerbaan &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/api/export-jobs#create) tot stand te brengen die het publiek in de dataset verzendt.
+Exporteer het geselecteerde publiek naar de gegevensset die u net hebt gemaakt. Gebruik de [ Dienst API van de Segmentatie om een uitvoerbaan ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/export-jobs#create) tot stand te brengen die het publiek in de dataset verzendt.
 
 +++ Aanvraag voor exporttaak
 
@@ -170,7 +170,7 @@ Wanneer
 
 +++
 
-Gebruik de [&#x200B; Dienst API van de Segmentatie om het statuut van de uitvoerbaan &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/api/export-jobs#get) te controleren.
+Gebruik de [ Dienst API van de Segmentatie om het statuut van de uitvoerbaan ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/export-jobs#get) te controleren.
 
 +++ Een specifieke aanvraag voor een exporttaak ophalen
 
@@ -204,12 +204,12 @@ Nadat de uitvoerbaan is geslaagd, verifieer of de dataset met succes ingebedde p
 
 In de gebruikersinterface van Experience Platform:
 
-1. Selecteer **[!UICONTROL Data Management]** > ![&#x200B; Gegevens &#x200B;](/help/assets/icons2/Data.svg) **[!UICONTROL Datasets]**.
+1. Selecteer **[!UICONTROL Data Management]** > ![ Gegevens ](/help/assets/icons2/Data.svg) **[!UICONTROL Datasets]**.
 1. Selecteer de gegevensset die u hebt gemaakt, bijvoorbeeld: **[!UICONTROL Segment Export Job Dataset for CJA]** .
 
-   ![&#x200B; de activiteit van de Dataset &#x200B;](assets/dataset-activity.png)
+   ![ de activiteit van de Dataset ](assets/dataset-activity.png)
 
-1. Verifieer de opgenomen partijen. Als de dataset ontbroken partijen bevat, gebruik **[!UICONTROL Data Management]** > ![&#x200B; Controle &#x200B;](/help/assets/icons2/Monitoring.svg) **[!UICONTROL Monitoring]** om te zien wat de reden is. U hebt bijvoorbeeld een veldnaam gebruikt die niet in het schema voorkomt.
+1. Verifieer de opgenomen partijen. Als de dataset ontbroken partijen bevat, gebruik **[!UICONTROL Data Management]** > ![ Controle ](/help/assets/icons2/Monitoring.svg) **[!UICONTROL Monitoring]** om te zien wat de reden is. U hebt bijvoorbeeld een veldnaam gebruikt die niet in het schema voorkomt.
 1. Kopieer **[!UICONTROL Table name]** van de dataset. Bijvoorbeeld: **[!UICONTROL segment_export_job_dataset_for_cja]** .  U gebruikt die naam in de volgende stap.
 
 +++
@@ -225,8 +225,8 @@ Gebruik een PSQL-client die verbinding maakt met de Experience Platform Query Se
 
 In de gebruikersinterface van Experience Platform:
 
-1. Selecteer **[!UICONTROL Data Management]** > ![&#x200B; DataSearch &#x200B;](/help/assets/icons2/DataSearch.svg) **[!UICONTROL Queries]**.
-1. Selecteer ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Credentials]**.
+1. Selecteer **[!UICONTROL Data Management]** > ![ DataSearch ](/help/assets/icons2/DataSearch.svg) **[!UICONTROL Queries]**.
+1. Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Credentials]**.
 
 Gebruik de referenties om uw PSQL-client te configureren voor verbinding met de Customer Journey Analytics Query Service.
 
@@ -244,6 +244,7 @@ WHERE value.status = 'realized' AND (key = '{AUDIENCE_ID_1}' OR key = 'AUDIENCE_
 Waarbij:
 
 * `IDENTITY_TO_USE_AS_PERSON_ID` is een van de velden die u hebt gedefinieerd als onderdeel van de exporttaak. Bijvoorbeeld: `_demoemea.identification.core.email` .
+* `DATASET_TABLE_NAME` is de tabelnaam van de gegevensset.
 * `AUDIENCE_ID_x` is het publiek dat u hebt gedefinieerd als onderdeel van de exporttaak. U moet deze doelgroepen opnieuw opgeven omdat de specificatie in de exporttaak een filter op rijniveau is. Die rij-vlakke filter keert profielen voor de gespecificeerde segmenten met alle segmentlidmaatschap voor elk van de profielen terug.
 
 
@@ -325,8 +326,8 @@ Het schema maken:
 
 In de gebruikersinterface van Experience Platform:
 
-1. Selecteer **[!UICONTROL Data Management]** > ![&#x200B; Schema &#x200B;](/help/assets/icons2/Schema.svg) **[!UICONTROL Schemas]**.
-1. Selecteer ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create schema]**. Selecteer **[!UICONTROL Standard]** in de vervolgkeuzelijst.
+1. Selecteer **[!UICONTROL Data Management]** > ![ Schema ](/help/assets/icons2/Schema.svg) **[!UICONTROL Schemas]**.
+1. Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create schema]**. Selecteer **[!UICONTROL Standard]** in de vervolgkeuzelijst.
 1. Selecteer **[!UICONTROL Manual]** in het dialoogvenster **[!UICONTROL Create a schema]** en gebruik **[!UICONTROL Select]** om door te gaan.
 1. In de wizard **[!UICONTROL Create schema]** voert u in de stap **[!UICONTROL Select a class]** de volgende handelingen uit:
    1. Selecteer **[!UICONTROL Individual Profile]**.
@@ -336,9 +337,9 @@ In de gebruikersinterface van Experience Platform:
    1. (optioneel) Voer een **[!UICONTROL Description]** in.
    1. Selecteer **[!UICONTROL Finish]**.
 1. Stel uw schema zo in dat het een aangepaste veldgroep bevat (bijvoorbeeld **[!UICONTROL Audience Membership]** ) die twee velden met de naam **[!UICONTROL audienceMembershipId]** en **[!UICONTROL audienceMembershipName]** bevat.
-1. Zorg ervoor dat het veld **[!UICONTROL personID]** een **[!UICONTROL Identity]** , **[!UICONTROL Primary Identity]** is en **[!UICONTROL Email]** heeft als de I **&#x200B; [!UICONTROL dentity namespace]**.
+1. Zorg ervoor dat het veld **[!UICONTROL personID]** een **[!UICONTROL Identity]** , **[!UICONTROL Primary Identity]** is en **[!UICONTROL Email]** heeft als de I** [!UICONTROL dentity namespace]**.
 
-   ![&#x200B; Segment voor de uitvoer &#x200B;](assets/segment-for-export.png)
+   ![ Segment voor de uitvoer ](assets/segment-for-export.png)
 
 1. **[!UICONTROL Apply]** alle wijzigingen. Selecteer **[!UICONTROL Save]** om het schema op te slaan.
 
@@ -350,8 +351,8 @@ Maak een dataset en gebruik die dataset om de getransformeerde JSON-gegevens in 
 
 In de gebruikersinterface van Experience Platform:
 
-1. Selecteer **[!UICONTROL Data Management]** > ![&#x200B; Schema &#x200B;](/help/assets/icons2/Schema.svg) **[!UICONTROL Datasets]**.
-1. Selecteer ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create dataset]**.
+1. Selecteer **[!UICONTROL Data Management]** > ![ Gegevens ](/help/assets/icons2/Data.svg) **[!UICONTROL Datasets]**.
+1. Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create dataset]**.
 1. Selecteer **[!UICONTROL Create dataset from schema]**.
 1. In de wizard **[!UICONTROL Create dataset from schema]** voert u in de stap **[!UICONTROL Select schema]** de volgende handelingen uit:
    1. Selecteer het schema dat u zojuist hebt gemaakt. Bijvoorbeeld: **[!UICONTROL Audience Export for CJA Schema]** .
@@ -361,7 +362,7 @@ In de gebruikersinterface van Experience Platform:
    1. (optioneel) Voer een **[!UICONTROL Description]** in voor de gegevensset.
    1. Selecteer **[!UICONTROL Finish]**.
 1. In **[!UICONTROL Datasets]** > **[!UICONTROL _naam van de dataset_]**, sleep het getransformeerde JSON- gegevensdossier en laat vallen het dossier op **[!UICONTROL Drag and drop files]**. Met deze handeling wordt de opname van de geëxporteerde JSON-gegevens in de gegevensset gestart.
-1. Verifieer de opgenomen partijen. Als de dataset ontbroken partijen bevat, gebruik **[!UICONTROL Data Management]** > ![&#x200B; Controle &#x200B;](/help/assets/icons2/Monitoring.svg) **[!UICONTROL Monitoring]** om te zien wat de reden is. U hebt bijvoorbeeld een veldnaam in de JSON gedefinieerd die niet in het schema bestaat.
+1. Verifieer de opgenomen partijen. Als de dataset ontbroken partijen bevat, gebruik **[!UICONTROL Data Management]** > ![ Controle ](/help/assets/icons2/Monitoring.svg) **[!UICONTROL Monitoring]** om te zien wat de reden is. U hebt bijvoorbeeld een veldnaam in de JSON gedefinieerd die niet in het schema bestaat.
 
 
 +++
@@ -375,12 +376,12 @@ Zodra de getransformeerde JSON-gegevens met de publieksgegevens van Experience P
 In de gebruikersinterface van Customer Journey Analytics:
 
 1. Selecteer **[!UICONTROL Data Management]** > **[!UICONTROL Connections]** .
-1. Maak een nieuwe verbinding/ Define **[!UICONTROL Connection settings]** en **[!UICONTROL Data settings]** . Of selecteer een bestaande verbinding en gebruik ![&#x200B; geeft &#x200B;](/help/assets/icons/Edit.svg) **[!UICONTROL Edit Connection]** uit om de verbinding uit te geven.
-1. Selecteer ![&#x200B; DataAdd &#x200B;](/help/assets/icons/DataAdd.svg) **[!UICONTROL Add datasets]**.
+1. Maak een nieuwe verbinding/ Define **[!UICONTROL Connection settings]** en **[!UICONTROL Data settings]** . Of selecteer een bestaande verbinding en gebruik ![ geeft ](/help/assets/icons/Edit.svg) **[!UICONTROL Edit Connection]** uit om de verbinding uit te geven.
+1. Selecteer ![ DataAdd ](/help/assets/icons/DataAdd.svg) **[!UICONTROL Add datasets]**.
 1. Selecteer de dataset die u creeerde en waarin u de getransformeerde JSON gegevens opnam.
 1. Vorm de dataset. Bijvoorbeeld:
 
-   ![&#x200B; Verbinding - Dataset met uitgevoerde publieksgegevens &#x200B;](assets/connection-add-dataset.png)
+   ![ Verbinding - Dataset met uitgevoerde publieksgegevens ](assets/connection-add-dataset.png)
 
 1. **[!UICONTROL Save]** de verbinding.
 
@@ -396,7 +397,7 @@ Configureer een gegevensweergave voor de verbinding die u net hebt gemaakt of be
 1. Bewerk een bestaande gegevensweergave of maak een nieuwe gegevensweergave.
 1. Controleer in het tabblad **[!UICONTROL Components]** van de gegevensweergave of **[!UICONTROL Audience Membership Id]** en **[!UICONTROL Audience Membership Name]** zijn toegevoegd als dimensie-componenten.
 
-   ![&#x200B; de meningscomponenten van Gegevens &#x200B;](assets/dataview-components.png)
+   ![ de meningscomponenten van Gegevens ](assets/dataview-components.png)
 
 1. Selecteer **[!UICONTROL Save and Continue]** om de gegevensweergave op te slaan.
 
@@ -412,7 +413,7 @@ Tot slot gebruikt u Analysis Workspace om gegevens over Experience Platform-doel
 
 ## Step 1: Select audiences in Real-time Customer Profile {#audience}
 
-Experience Platform [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl-NL) lets you see a holistic view of each individual customer by combining data from multiple channels, including online, offline, CRM, and third party. 
+Experience Platform [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html) lets you see a holistic view of each individual customer by combining data from multiple channels, including online, offline, CRM, and third party. 
 
 You likely already have audiences in RTCP that may have come from various sources. Select one or more audiences to ingest into Customer Journey Analytics. For example, WKND Fly Platinum and Gold Fly Club Members.
 
@@ -421,19 +422,19 @@ You likely already have audiences in RTCP that may have come from various source
 
 ## Step 2: Create a Profile Union dataset for the export
 
-In order to export the audience to a dataset that you can ingest in Customer Journey Analytics as profiles, create a dataset whose schema is a Profile [Union schema](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=nl-NL#understanding-union-schemas).
+In order to export the audience to a dataset that you can ingest in Customer Journey Analytics as profiles, create a dataset whose schema is a Profile [Union schema](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html#understanding-union-schemas).
 
 Union schemas are composed of multiple schemas that share the same class and have been enabled for Profile. The union schema enables you to see an amalgamation of all of the fields contained within schemas sharing the same class. Real-time Customer Profile uses the union schema to create a holistic view of each individual customer.
 
 ## Step 3: Export an audience to the Profile Union dataset via API call {#export}
 
-Before you can bring an audience into Customer Journey Analytics, you need to export it to an Adobe Experience Platform dataset. This can only be done using the Segmentation API, and specifically the [Export Jobs API Endpoint](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=nl-NL). 
+Before you can bring an audience into Customer Journey Analytics, you need to export it to an Adobe Experience Platform dataset. This can only be done using the Segmentation API, and specifically the [Export Jobs API Endpoint](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html). 
 
 You can create an export job using the audience ID of your choice, and put the results in the Profile Union Adobe Experience Platform dataset you created in Step 2. Although you can export various attributes/events for the audience, you only need to export the specific profile ID field that matches the person ID field used in the Customer Journey Analytics connection you will be leveraging (see below in Step 5).
 
 ## Step 4: Edit the export output 
 
-The results of the export job need to be transformed into a separate Profile dataset in order to be ingested into Customer Journey Analytics.  This transformation can be done with [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl-NL), or another transformation tool of your choice. We only need the Profile ID (that will match the Person ID in Customer Journey Analytics) and one or more audience ID(s) to do the reporting in Customer Journey Analytics.
+The results of the export job need to be transformed into a separate Profile dataset in order to be ingested into Customer Journey Analytics.  This transformation can be done with [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html), or another transformation tool of your choice. We only need the Profile ID (that will match the Person ID in Customer Journey Analytics) and one or more audience ID(s) to do the reporting in Customer Journey Analytics.
 
 The standard export job, however, contains more data and so we need to edit this output to remove extraneous data, as well as move some things around.  Also, you need to create a schema/dataset first before you add the transformed data to it.
 
@@ -481,6 +482,6 @@ You can now report on `audienceMembershipId`, `audienceMembershipIdName` and `pe
 * U moet dit proces uitvoeren op een reguliere cadence, zodat de publieksgegevens in Customer Journey Analytics voortdurend worden vernieuwd.
 * U kunt meerdere soorten publiek importeren binnen één Customer Journey Analytics-verbinding. Dit vergroot de complexiteit van het proces, maar het is mogelijk. Dit werkt alleen als u enkele wijzigingen aanbrengt in het bovenstaande proces:
    1. Voer dit proces voor elk gewenst publiek in uw publieksinzameling binnen RTCP uit.
-   1. Customer Journey Analytics ondersteunt arrays/objectarrays in profielgegevenssets. Het gebruiken van een [&#x200B; serie van voorwerpen &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=nl-NL) voor `audienceMembershipId` of `audienceMembershipIdName` is de beste optie.
+   1. Customer Journey Analytics ondersteunt arrays/objectarrays in profielgegevenssets. Het gebruiken van een [ serie van voorwerpen ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html) voor `audienceMembershipId` of `audienceMembershipIdName` is de beste optie.
    1. Maak in uw gegevensweergave een nieuwe dimensie met behulp van de subtekenreekstransformatie in het veld `audienceMembershipId` om de tekenreeks met door komma&#39;s gescheiden waarden om te zetten in een array. NOTA: er is momenteel een grens van 10 waarden in de serie.
    1. U kunt nu over deze nieuwe dimensie `audienceMembershipIds` rapporteren in Customer Journey Analytics Workspace.
