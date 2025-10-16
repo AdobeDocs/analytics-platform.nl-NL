@@ -18,12 +18,12 @@ In deze gebruikszaak wordt gezocht naar een voorlopige oplossing om Experience P
 
 ## Vereisten
 
-* Toegang tot [&#x200B; Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home), specifiek in real time het Profiel van de Klant.
-* De toegang om de schema&#39;s van Experience Platform [&#x200B; &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) en [&#x200B; datasets &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview) tot stand te brengen en te beheren.
-* Toegang tot [&#x200B; de Dienst van de Vraag van Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/home) (en de capaciteit om SQL te schrijven).
+* Toegang tot [&#x200B; Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/home), specifiek in real time het Profiel van de Klant.
+* De toegang om de schema&#39;s van Experience Platform [&#x200B; &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home) en [&#x200B; datasets &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/overview) tot stand te brengen en te beheren.
+* Toegang tot [&#x200B; de Dienst van de Vraag van Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/home) (en de capaciteit om SQL te schrijven).
 * Toegang tot een hulpmiddel dat sommige transformaties van gegevens kan uitvoeren.
 * Toegang tot Customer Journey Analytics. U moet a [&#x200B; het productadmin van Customer Journey Analytics &#x200B;](/help/technotes/access-control.md) zijn om de verbindingen en de gegevensmeningen van Customer Journey Analytics tot stand te brengen en te wijzigen.
-* [&#x200B; verifieer en toegang tot Experience Platform APIs (de Dienst API van de Catalogus en de Dienst API van de Segmentatie) &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication). U moet een project in de console van de Ontwikkelaar van de organisatie en de zandbak tot stand brengen en u verzekeren u de informatie hebt die wordt vereist om API vraag met succes voor te leggen.
+* [&#x200B; verifieer en toegang tot Experience Platform APIs (de Dienst API van de Catalogus en de Dienst API van de Segmentatie) &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/platform-apis/api-authentication). U moet een project in de console van de Ontwikkelaar van de organisatie en de zandbak tot stand brengen en u verzekeren u de informatie hebt die wordt vereist om API vraag met succes voor te leggen.
 
 ## Stappen
 
@@ -56,7 +56,7 @@ In de gebruikersinterface van Experience Platform:
 
 ### Een voor profielen geschikte dataset maken
 
-U moet een dataset tot stand brengen die op het op kern-gebaseerde **[!UICONTROL XDM Individual Profile]** schema wordt gebaseerd. U kunt niet dat kern gebaseerd Individueel Profiel XDM als schema selecteren wanneer u een dataset in Experience Platform UI creeert. In plaats daarvan, gebruik de [&#x200B; Dienst API van de Catalogus om een dataset &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/create#create-a-dataset) tot stand te brengen die op het `_xdm.context.profile__union` schema wordt gebaseerd.
+U moet een dataset tot stand brengen die op het op kern-gebaseerde **[!UICONTROL XDM Individual Profile]** schema wordt gebaseerd. U kunt niet dat kern gebaseerd Individueel Profiel XDM als schema selecteren wanneer u een dataset in Experience Platform UI creeert. In plaats daarvan, gebruik de [&#x200B; Dienst API van de Catalogus om een dataset &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/create#create-a-dataset) tot stand te brengen die op het `_xdm.context.profile__union` schema wordt gebaseerd.
 
 +++ Gegevenssetaanvraag maken
 
@@ -102,7 +102,7 @@ Waarbij:
 
 ### Soorten publiek exporteren
 
-Exporteer het geselecteerde publiek naar de gegevensset die u net hebt gemaakt. Gebruik de [&#x200B; Dienst API van de Segmentatie om een uitvoerbaan &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/export-jobs#create) tot stand te brengen die het publiek in de dataset verzendt.
+Exporteer het geselecteerde publiek naar de gegevensset die u net hebt gemaakt. Gebruik de [&#x200B; Dienst API van de Segmentatie om een uitvoerbaan &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/api/export-jobs#create) tot stand te brengen die het publiek in de dataset verzendt.
 
 +++ Aanvraag voor exporttaak
 
@@ -170,7 +170,7 @@ Wanneer
 
 +++
 
-Gebruik de [&#x200B; Dienst API van de Segmentatie om het statuut van de uitvoerbaan &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/export-jobs#get) te controleren.
+Gebruik de [&#x200B; Dienst API van de Segmentatie om het statuut van de uitvoerbaan &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/api/export-jobs#get) te controleren.
 
 +++ Een specifieke aanvraag voor een exporttaak ophalen
 
@@ -413,7 +413,7 @@ Tot slot gebruikt u Analysis Workspace om gegevens over Experience Platform-doel
 
 ## Step 1: Select audiences in Real-time Customer Profile {#audience}
 
-Experience Platform [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html) lets you see a holistic view of each individual customer by combining data from multiple channels, including online, offline, CRM, and third party. 
+Experience Platform [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl-NL) lets you see a holistic view of each individual customer by combining data from multiple channels, including online, offline, CRM, and third party. 
 
 You likely already have audiences in RTCP that may have come from various sources. Select one or more audiences to ingest into Customer Journey Analytics. For example, WKND Fly Platinum and Gold Fly Club Members.
 
@@ -422,19 +422,19 @@ You likely already have audiences in RTCP that may have come from various source
 
 ## Step 2: Create a Profile Union dataset for the export
 
-In order to export the audience to a dataset that you can ingest in Customer Journey Analytics as profiles, create a dataset whose schema is a Profile [Union schema](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html#understanding-union-schemas).
+In order to export the audience to a dataset that you can ingest in Customer Journey Analytics as profiles, create a dataset whose schema is a Profile [Union schema](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=nl-NL#understanding-union-schemas).
 
 Union schemas are composed of multiple schemas that share the same class and have been enabled for Profile. The union schema enables you to see an amalgamation of all of the fields contained within schemas sharing the same class. Real-time Customer Profile uses the union schema to create a holistic view of each individual customer.
 
 ## Step 3: Export an audience to the Profile Union dataset via API call {#export}
 
-Before you can bring an audience into Customer Journey Analytics, you need to export it to an Adobe Experience Platform dataset. This can only be done using the Segmentation API, and specifically the [Export Jobs API Endpoint](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html). 
+Before you can bring an audience into Customer Journey Analytics, you need to export it to an Adobe Experience Platform dataset. This can only be done using the Segmentation API, and specifically the [Export Jobs API Endpoint](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=nl-NL). 
 
 You can create an export job using the audience ID of your choice, and put the results in the Profile Union Adobe Experience Platform dataset you created in Step 2. Although you can export various attributes/events for the audience, you only need to export the specific profile ID field that matches the person ID field used in the Customer Journey Analytics connection you will be leveraging (see below in Step 5).
 
 ## Step 4: Edit the export output 
 
-The results of the export job need to be transformed into a separate Profile dataset in order to be ingested into Customer Journey Analytics.  This transformation can be done with [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html), or another transformation tool of your choice. We only need the Profile ID (that will match the Person ID in Customer Journey Analytics) and one or more audience ID(s) to do the reporting in Customer Journey Analytics.
+The results of the export job need to be transformed into a separate Profile dataset in order to be ingested into Customer Journey Analytics.  This transformation can be done with [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl-NL), or another transformation tool of your choice. We only need the Profile ID (that will match the Person ID in Customer Journey Analytics) and one or more audience ID(s) to do the reporting in Customer Journey Analytics.
 
 The standard export job, however, contains more data and so we need to edit this output to remove extraneous data, as well as move some things around.  Also, you need to create a schema/dataset first before you add the transformed data to it.
 
@@ -482,6 +482,6 @@ You can now report on `audienceMembershipId`, `audienceMembershipIdName` and `pe
 * U moet dit proces uitvoeren op een reguliere cadence, zodat de publieksgegevens in Customer Journey Analytics voortdurend worden vernieuwd.
 * U kunt meerdere soorten publiek importeren binnen één Customer Journey Analytics-verbinding. Dit vergroot de complexiteit van het proces, maar het is mogelijk. Dit werkt alleen als u enkele wijzigingen aanbrengt in het bovenstaande proces:
    1. Voer dit proces voor elk gewenst publiek in uw publieksinzameling binnen RTCP uit.
-   1. Customer Journey Analytics ondersteunt arrays/objectarrays in profielgegevenssets. Het gebruiken van een [&#x200B; serie van voorwerpen &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html) voor `audienceMembershipId` of `audienceMembershipIdName` is de beste optie.
+   1. Customer Journey Analytics ondersteunt arrays/objectarrays in profielgegevenssets. Het gebruiken van een [&#x200B; serie van voorwerpen &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/complex-data/object-arrays.html?lang=nl-NL) voor `audienceMembershipId` of `audienceMembershipIdName` is de beste optie.
    1. Maak in uw gegevensweergave een nieuwe dimensie met behulp van de subtekenreekstransformatie in het veld `audienceMembershipId` om de tekenreeks met door komma&#39;s gescheiden waarden om te zetten in een array. NOTA: er is momenteel een grens van 10 waarden in de serie.
    1. U kunt nu over deze nieuwe dimensie `audienceMembershipIds` rapporteren in Customer Journey Analytics Workspace.
