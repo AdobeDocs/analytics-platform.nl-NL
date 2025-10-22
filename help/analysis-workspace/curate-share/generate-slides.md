@@ -6,24 +6,24 @@ feature: Curate and Share
 role: User
 hide: true
 hidefromtoc: true
-source-git-commit: f6e64e850b8c416817b76697d869c10adb9b544b
+source-git-commit: 4d7ecc3eaba93424d43d0f4c312aeec78016395f
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1431'
 ht-degree: 0%
 
 ---
 
 # Gegevensverhaal: presentaties genereren op basis van Workspace-rapporten {#generate-powerpoint}
 
-De gebruikers met [&#x200B; de noodzakelijke toestemmingen &#x200B;](#permission-requirements-to-generate-slides) kunnen .pptx presentaties van de projecten van Analysis Workspace automatisch produceren. Bij het genereren van deze diapresentaties maakt Customer Journey Analytics automatisch een artikel op basis van uw gegevens door belangrijke inzichten te identificeren en deze om te zetten in dia&#39;s die klaar zijn voor gebruik door belanghebbenden.
+De gebruikers met [ de noodzakelijke toestemmingen ](#permission-requirements-to-generate-slides) kunnen .pptx presentaties automatisch produceren die op de projecten van Analysis Workspace worden gebaseerd. Bij het genereren van deze diapresentaties maakt Customer Journey Analytics automatisch een artikel op basis van uw gegevens door belangrijke inzichten te identificeren en deze om te zetten in dia&#39;s die klaar zijn voor gebruik door belanghebbenden.
 
-Dit automatisch gegenereerde gegevensverhaal verkort de tijd, moeite en expertise die nodig is om bevindingen van een Workspace-project te onthullen. Analysten kunnen zich meer richten op gegevensexploratie, terwijl het toestaan van Customer Journey Analytics om het uitvoerende verhaal te bouwen en te formatteren en het bedrijfseffect aan belanghebbenden mee te delen.
+Dit gegenereerde gegevensverhaal verkort de tijd, moeite en expertise die nodig is om bevindingen van een Workspace-project te onthullen. Analysten kunnen zich meer richten op gegevensexploratie, terwijl het toestaan van Customer Journey Analytics om het uitvoerende verhaal te bouwen en te formatteren en het bedrijfseffect aan belanghebbenden mee te delen.
 
 ## Gegevensartikelen in diapresentaties begrijpen
 
-Analysis Workspace gebruikt generatieve AI om een verhaal te maken dat is gebaseerd op uw Workspace-gegevens, in een presentatie-indeling.
+A **gegevensverhaal** is het verhaal dat Customer Journey Analytics creeert gebaseerd op uw gegevens van Workspace. Met behulp van generatieve AI identificeert Customer Journey Analytics belangrijke thema&#39;s in de deelvensters en visualisaties die u in uw presentatie wilt opnemen. Het produceert inzichten, dan gaat door een deduplicatie en het scoring proces om een ondergroep van inzichten te identificeren om het gegevensverhaal tot stand te brengen.
 
-In de volgende secties wordt de extra waarde beschreven die gegevensartikelen bieden, de benodigde elementen van een project die u helpen het verhaal vorm te geven, en de belangrijkste elementen die in elke presentatie-uitvoer zijn opgenomen.
+De volgende secties beschrijven de extra waarde die gegevensverhalen verstrekken, de noodzakelijke elementen van een project die helpen het verhaal, en belangrijkste elementen vormen die in de .pptx presentatieoutput inbegrepen zijn.
 
 ### Aanvullende waarde die wordt verschaft door gegevensartikelen
 
@@ -37,11 +37,9 @@ Gegevensverhalen vullen een analyse voor een bepaald Workspace-project aan door:
 
 * Richtlijnen voor de vraag of gegevens in een bepaalde context goed of slecht zijn
 
-* Bepalen of bepaalde variabelen ondergewaardeerd of overgewaardeerd zijn.
+* Bepalen of bepaalde variabelen ondergewaardeerd of overgewaardeerd zijn
 
 * Verborgen trends, anomalieën en andere factoren die bijdragen tot de ontwikkeling van
-
-* Belangrijke stuurprogramma&#39;s identificeren
 
 * Het geven van ideeën voor volgende stappen
 
@@ -51,7 +49,7 @@ Analysis Workspace maakt gegevensartikelen door de volgende projectelementen in 
 
 * Interdimensionale en intermetrische relaties
 
-* De afzonderlijke elementen die de basis vormen van de analyse: afmetingen, meetwaarden, filters, vrije tabelstructuur, visualisaties en deelvensters
+* De afzonderlijke elementen die de basis vormen van de analyse (afmetingen, metriek, filters, vrije tabelstructuur, visualisaties en deelvensters)
 
 * De namen die aan de deelvensters, tabellen en visualisaties worden gegeven
 
@@ -61,9 +59,11 @@ Analysis Workspace maakt gegevensartikelen door de volgende projectelementen in 
 
 ### Presentatie-elementen van een gegevensartikel
 
-De verhalen van gegevens bestaan uit een overzichtsdia, detaildia&#39;s, en sectieverdelers.
+De artikelen van gegevens bestaan uit een titeldia, een overzichtsdia, detaildia&#39;s, en sectieverdelers.
 
-**Uitvoerende samenvatting:** geeft voorrang aan de hoogste-waardeinzichten en creeert een overkoepelend verhaal tussen 1 en 5 zinnen in lengte.
+**de dia van de Titel:** toont de titel en presentatornaam die u specificeert. De informatie toont in de spreker dat beschrijft hoe het thema en het verhaal werden gecreeerd, hoeveel inzichten werden geproduceerd en werden gebruikt, en welke panelen werden gebruikt.
+
+**Uitvoerende samenvatting:** geeft voorrang aan de hoogste-waardeinzichten en creeert een overkoepelend verhaal dat tussen 1 en 5 zinnen in lengte is.
 
 **dia&#39;s van het Detail:** produceert inzichten met betrekking tot om het even welke lijsten, panelen, of visualisaties in een project van Workspace. Inzichten bestaan uit trends, seizoensinvloeden, anomalieën en correlaties.
 
@@ -95,7 +95,7 @@ De verhalen van gegevens bestaan uit een overzichtsdia, detaildia&#39;s, en sect
 
    Het dialoogvenster Dia&#39;s genereren wordt weergegeven.
 
-   ![&#x200B; produceer de dialoog van dia&#39;s &#x200B;](assets/generate-slides.png)
+   ![ produceer de dialoog van dia&#39;s ](assets/generate-slides.png)
 
 1. Geef de volgende informatie op:
 
@@ -103,30 +103,44 @@ De verhalen van gegevens bestaan uit een overzichtsdia, detaildia&#39;s, en sect
    |---------|----------|
    | **[!UICONTROL Cover title]** | Geef een titel op voor de presentatie. Deze titel wordt weergegeven op de titeldia van de presentatie. |
    | **[!UICONTROL Include presenter name]** | Geef de naam van de presentator op. Deze naam wordt weergegeven op de titeldia van de presentatie, onder de titel van de omslag. |
-   | **[!UICONTROL Panels and visualizations to include]** | Kies de deelvensters en de visualisatie die u in de presentatie wilt opnemen. U kunt maximaal 50 visualisaties opnemen.<p>De meeste deelvensters en visualisaties worden ondersteund. Voor informatie over niet gestaafde panelen en visualisatie, zie [&#x200B; Niet gestaafde projectelementen en eigenschappen &#x200B;](#unsupported-project-elements-and-features).</p> |
-   | **[!UICONTROL Panel and visualization descriptions]** | |
-   | **[!UICONTROL Annotations]** | |
-   | **[!UICONTROL Emphasize components]** | Kies maximaal 5 metriek en 5 dimensies van uw visualisaties die u in de presentatie wilt benadrukken.<p>Wanneer geen nadruk wordt toegepast, tonen de componenten in presentaties als volgt:<ul><li>**Metriek en afmetingen:** Cursief</li><li>**de punten van Dimension:** Citatietekens</li></ul></p><p>Wanneer de nadruk wordt toegepast, tonen de componenten in presentaties als volgt:</p><ul><li>**Metriek en afmetingen:** Cursief en gewaagd</li><li>**de punten van Dimension:** Vet wanneer de overeenkomstige afmeting wordt benadrukt<p>Er wordt ook een kleur toegepast op het dimensie-item wanneer het dimensie-item in het diagram wordt gemarkeerd.</p></li></ul> |
+   | **[!UICONTROL Panels and visualizations to include]** | Kies de deelvensters en de visualisatie die u in de presentatie wilt opnemen. U kunt maximaal 50 visualisaties opnemen.<p>De meeste deelvensters en visualisaties worden ondersteund. Voor informatie over niet gestaafde panelen en visualisatie, zie [ Niet gestaafde projectelementen en eigenschappen ](#unsupported-project-elements-and-features).</p> |
+   | **[!UICONTROL Panel and visualization descriptions]** | Geef op of u deelvensters en visualisatiebeschrijvingen wilt opnemen in de gegenereerde presentatie. |
+   | **[!UICONTROL Annotations]** | Geef op of er annotaties zichtbaar zijn in de gegenereerde presentatie. Voor meer informatie over annotaties, zie [ Overzicht van Annotaties ](/help/components/annotations/overview.md). |
+   | **[!UICONTROL Emphasize components]** | Kies maximaal 5 metriek en 5 dimensies van uw visualisaties die u in de presentatie wilt benadrukken. De componenten die u kiest, krijgen een hogere positie en krijgen meer gewicht wanneer de thema&#39;s en het overkoepelende verhaal van het gegevensartikel worden gemaakt. <p>Wanneer geen nadruk wordt toegepast, tonen de componenten in presentaties als volgt:<ul><li>**Metriek en afmetingen:** Cursief</li><li>**de punten van Dimension:** Citatietekens</li></ul></p><p>Wanneer de nadruk wordt toegepast, tonen de componenten in presentaties als volgt:</p><ul><li>**Metriek en afmetingen:** Cursief en gewaagd</li><li>**de punten van Dimension:** Vet wanneer de overeenkomstige afmeting wordt benadrukt<p>Er wordt ook een kleur toegepast op het dimensie-item wanneer het dimensie-item in het diagram wordt gemarkeerd.</p></li></ul> |
 
-1. (Voorwaardelijk) Selecteer **[!UICONTROL Default theme]** als u snel dia&#39;s in minder stappen wilt genereren en als een bedrijfsthema niet vereist is voor uw presentatie.
+1. (Voorwaardelijk) Selecteer **[!UICONTROL Default theme]** als u dia&#39;s in minder stappen wilt genereren en als een bedrijfsthema niet vereist is voor uw presentatie.
 
    Kies gewoon het kleurthema van uw presentatie door de gewenste kleur te selecteren.
 
-   ![&#x200B; produceer dia&#39;s met het standaardthema &#x200B;](assets/generate-slides-default-theme.png)
+   ![ produceer dia&#39;s met het standaardthema ](assets/generate-slides-default-theme.png)
 
 1. (Voorwaardelijk) Selecteer **[!UICONTROL Upload template]** als uw diapresentatie moet overeenkomen met een bedrijfsthema. Voor deze optie moet u een aangepaste sjabloon uploaden en aangepaste stijlen toepassen.
 
-   ![&#x200B; produceer dia&#39;s met een douanemalplaatje &#x200B;](assets/generate-slides-upload-template.png)
+   ![ produceer dia&#39;s met een douanemalplaatje ](assets/generate-slides-upload-template.png)
 
    Voer een van de volgende twee handelingen uit om een aangepaste sjabloon te uploaden:
 
    * (Aanbevolen) Download een lege sjabloon en wijzig deze.
 
-      1. Download deze lege sjabloon. <!--add link-->
+      1. Download [ dit lege malplaatje ](https://d30ln29764hddd.cloudfront.net/deploy/builds/data-storytelling.2025-10-20T15:10:19/resources/components/Blank.potx?).
 
       1. Pas uw aangepaste stijlen toe op de lege sjabloon.
 
-      1. Upload de sjabloon opnieuw zonder de namen van de stramienlay-outs te wijzigen.
+      1. Upload de sjabloon opnieuw zonder de namen van de stramienlay-outs te wijzigen:
+
+         Sleep vanuit het bestandssysteem de lege sjabloon waarop uw aangepaste stijlen zijn toegepast op het neerzetgebied.
+
+         of
+
+         Selecteer **[!UICONTROL Browse]** en blader naar de lege sjabloon waarop uw aangepaste stijlen zijn toegepast vanuit het bestandssysteem.
+
+      1. In de sectie **[!UICONTROL Layout mapping]** wordt elke dialay-out die wordt gebruikt in gegenereerde presentaties, automatisch toegewezen aan een dia van het geüploade thema. Controleer de selecties om er zeker van te zijn dat deze correct zijn.
+
+         ![ afbeelding van de Lay-out ](assets/generate-slides-layout-mapping.png)
+
+      1. (Voorwaardelijk) Als een dialay-out onjuist is toegewezen, selecteert u **[!UICONTROL Change selection]** boven de dia die u hebt gekozen uit uw geüploade presentatie en kiest u de dia die overeenkomt met de lay-out.
+
+         Herhaal dit proces voor elke dia die onjuist is toegewezen.
 
    * Een aangepaste sjabloon rechtstreeks uploaden.
 
@@ -136,20 +150,23 @@ De verhalen van gegevens bestaan uit een overzichtsdia, detaildia&#39;s, en sect
 
          Selecteer **[!UICONTROL Browse]** en blader naar de aangepaste sjabloon in het bestandssysteem en selecteer deze.
 
-         Zorg ervoor dat het geüploade bestand de volgende stramienlay-outs heeft: &quot;Title_Slide&quot;, &quot;Section_Divider&quot;, &quot;Title_Text&quot;, &quot;Title_Chart&quot;, &quot;Title_Two_Content_Mixed&quot;, &quot;Title_Three_Content_Mixed&quot;
+         Zorg ervoor dat het geüploade bestand stramienindelingen heeft met de volgende namen: &quot;Title_Slide,&quot; &quot;Section_Divider,&quot; &quot;Title_Text,&quot; &quot;Title_Chart,&quot; &quot;Title_Two_Content_Mixed,&quot; &quot;Title_Three_Content_Mixed.&quot;
 
          .pptx- en .potx-bestanden van maximaal 25 MB worden ondersteund.
 
+      1. In de sectie **[!UICONTROL Layout mapping]** wordt elke dialay-out die wordt gebruikt in gegenereerde presentaties, automatisch toegewezen aan een dia van het geüploade thema. Controleer de selecties om er zeker van te zijn dat deze correct zijn.
+
+         ![ Lay-out die douanemalplaatje ](assets/generate-slides-layout-mapping-custom-template.png) in kaart brengt
+
+      1. (Voorwaardelijk) Als een dialay-out onjuist is toegewezen, selecteert u **[!UICONTROL Change selection]** boven de dia die u hebt gekozen uit uw geüploade presentatie en kiest u de dia die overeenkomt met de lay-out.
+
+         Herhaal dit proces voor elke dia die onjuist is toegewezen.
+
 1. Selecteer **[!UICONTROL Export PPT]**.
 
-1. (Geadviseerd) overzicht en geef de .ppt presentatie uit en breng om het even welke noodzakelijke veranderingen aan, zoals die in de volgende sectie worden beschreven, [&#x200B; geeft dia&#39;s van een eerder geproduceerde presentatie &#x200B;](#edit-slides-from-a-previously-generated-presentation) uit.
+   De .pptx-presentatie wordt automatisch naar uw werkstation gedownload.
 
-## Dia&#39;s uit een eerder gegenereerde presentatie bewerken
-
-
-## Een gegenereerde .pptx-presentatie downloaden
-
-
+1. (Aanbevolen) Open de .pptx-presentatie en bekijk deze. Breng de gewenste wijzigingen aan.
 
 ## Vereisten voor machtigingen om dia&#39;s te genereren
 
@@ -161,18 +178,18 @@ De verhalen van gegevens bestaan uit een overzichtsdia, detaildia&#39;s, en sect
 
 Beheerders van productprofielen waarvan organisaties licenties hebben om dia&#39;s te genereren, kunnen de toegang indien nodig uitschakelen.
 
-In [!UICONTROL Adobe Admin Console] bepaalt de machtiging [!UICONTROL Reporting Tools] **[!UICONTROL Data storytelling]** de toegang tot deze mogelijkheid. A [&#x200B; beheer van het productprofiel &#x200B;](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) moet deze stappen in [!UICONTROL Admin Console] volgen als zij toegang willen onbruikbaar maken:
+In [!UICONTROL Adobe Admin Console] bepaalt de machtiging [!UICONTROL Reporting Tools] **[!UICONTROL Data storytelling]** de toegang tot deze mogelijkheid. A [ beheer van het productprofiel ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) moet deze stappen in [!UICONTROL Admin Console] volgen als zij toegang willen onbruikbaar maken:
 1. Ga naar **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]**
 1. Selecteer de titel van het productprofiel waartoe u toegang wilt verlenen aan [!UICONTROL Data storytelling] .
 1. Selecteer **[!UICONTROL Permissions]** in het specifieke productprofiel.
-1. Selecteer ![&#x200B; uitgeven &#x200B;](/help/assets/icons/Edit.svg) om uit te geven **[!UICONTROL Reporting Tools]**.
-1. Selecteer ![&#x200B; AddCircle &#x200B;](/help/assets/icons/RemoveCircle.svg) om **het verhaal van Gegevens** uit **[!UICONTROL Included permission items]** te verwijderen.
+1. Selecteer ![ uitgeven ](/help/assets/icons/Edit.svg) om uit te geven **[!UICONTROL Reporting Tools]**.
+1. Selecteer ![ AddCircle ](/help/assets/icons/RemoveCircle.svg) om **het verhaal van Gegevens** uit **[!UICONTROL Included permission items]** te verwijderen.
 
    <!--add screenshot of permission in the admin console-->
 
 1. Selecteer **[!UICONTROL Save]** om de machtigingen op te slaan.
 
-Voor meer informatie, zie [&#x200B; gebruiker-vlakke toegang &#x200B;](/help/technotes/access-control.md#user-level-access) in [&#x200B; controle van de Toegang &#x200B;](/help/technotes/access-control.md#access-control) voor meer informatie.
+Voor meer informatie, zie [ gebruiker-vlakke toegang ](/help/technotes/access-control.md#user-level-access) in [ controle van de Toegang ](/help/technotes/access-control.md#access-control) voor meer informatie.
 
 ## Niet-ondersteunde projectelementen en -functies {#unsupported}
 
