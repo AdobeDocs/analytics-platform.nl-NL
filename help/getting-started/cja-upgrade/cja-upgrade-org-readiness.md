@@ -37,7 +37,7 @@ In de volgende tabel staan enkele belangrijke functies die u mogelijk wilt marke
 
 | Functie | Voordeel | Voorbeeld |
 |---------|----------|---------|
-| **[Opname voor alle soorten gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)** | Customer Journey Analytics wordt gecombineerd met de mogelijkheid van Experience Platform om allerlei gegevensschema&#39;s en -typen te bevatten. | Een detailhandelsorganisatie kan de volledige klantenreis zichtbaar maken door de volgende soorten gegevens in één enkele mening te integreren: <ul><li>Webklikstreamtransacties</li><li>Mobiele appentransacties</li><li>Transacties in opslagruimten</li><li>CRM- en loyaliteitsgegevens</li></ul> |
+| **[Opname voor alle soorten gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home)** | Customer Journey Analytics wordt gecombineerd met de mogelijkheid van Experience Platform om allerlei gegevensschema&#39;s en -typen te bevatten. | Een detailhandelsorganisatie kan de volledige klantenreis zichtbaar maken door de volgende soorten gegevens in één enkele mening te integreren: <ul><li>Webklikstreamtransacties</li><li>Mobiele appentransacties</li><li>Transacties in opslagruimten</li><li>CRM- en loyaliteitsgegevens</li></ul> |
 | **[Analyse van het Kanaal 1&rbrace;](/help/use-cases/cross-channel/cross-channel.md)** | Laat één enkele geconsolideerde mening van klantengedrag over diverse kanalen toe door gegevens van diverse Web, mobiele, en off-line eigenschappen te verenigen. | Een detailhandelsorganisatie die gegevens van veelvoudige kanalen verzamelt zou de volgende soort analyse kunnen uitvoeren:<p>Een winkelier klikt op een betaalde zoekadvertentie, bladert naar jeans online, ontvangt een pushmelding en koopt twee dagen later in de winkel. Dit verenigde perspectief laat nauwkeurige dwars-kanaalattributie toe, die toont hoe de digitale aanraakpunten tot in-store verkoop bijdragen. Het biedt ook ondersteuning voor nauwkeuriger segmentering, zoals het richten van klanten die online zijn gebladerd en in een winkel zijn aangeschaft met speciale aanbiedingen. Bovendien levert het duidelijke, alle-kanaalopbrengst rapportering in één dashboard, die gefragmenteerde, gesiloed inzichten vervangt met een holistisch inzicht in klantengedrag. |
 | **[rapport-tijd verwerking](/help/getting-started/aa-to-cja.md#get-comfortable-with-report-time-processing)** | Pas montages toe die retroactief zijn en tot veelvoudige versies van veranderlijke persistentie leiden zonder het moeten veranderen hoe de onderliggende gegevens worden verzameld. | Omdat Customer Journey Analytics u toestaat om metriek, dimensies, en attributiemodellen te creëren en aan te passen op de vlucht zonder het terugkrijgen van of het opwerken van gegevens, kon een detailhandelsorganisatie zien hoe een recente sociale campagne zowel online als in-store verkoop beïnvloedde zonder technische noodzaak om datasets opnieuw op te bouwen. Ze kunnen het attributiemodel direct wijzigen van laatste aanraking in eerste aanraking of aangepaste op regels gebaseerde attributie. |
 | **[Content Analytics](/help/content-analytics/content-analytics.md)** | Helpt marketers te begrijpen hoe inhoud van invloed is op de belangrijkste prestatie-indicatoren die een bedrijf heeft gedefinieerd. Naast de gedragsgegevens verzamelt Content Analytics gegevens over hoe inhoud wordt verbruikt en hoe inhoud invloed heeft. | Door web-, app-, e-mail- en zelfs in-store-gegevens te integreren, kon een detailhandelsorganisatie precies zien hoe elk stukje digitale inhoud dat ze maken bijdraagt aan de reis en conversie van de klant. <p>De detailhandelsorganisatie kon zien dat een &quot;Summer Denim Style Guide&quot; op een populair sociaal mediaplatform een grote betrokkenheid onder loyaliteitsleden stimuleert en dat deze leden 40% meer kans hebben om binnen een week denim in-store te kopen.</p> |
@@ -110,11 +110,11 @@ Voer een grondige evaluatie en audit uit van uw Adobe Analytics-implementatie, w
 
 Zie de volgende bronnen voor hulp bij het verzamelen van deze informatie:
 
-* [&#x200B; voorraad Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory)
+* [&#x200B; voorraad Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/admin/admin-tools/analytics-inventory)
 
   Verstrekt informatie over het aantal projecten, de segmenten, berekende metriek, rapportreeksen, en gebruikers binnen uw organisatie.
 
-* [&#x200B; voorbereidingen om componenten en projecten van Adobe Analytics aan Customer Journey Analytics te migreren &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration)
+* [&#x200B; voorbereidingen om componenten en projecten van Adobe Analytics aan Customer Journey Analytics te migreren &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration)
 
   Verstrekt informatie over hoe u kunt voorbereidingen treffen om componenten, projecten, en gebruikers te migreren.
 
@@ -138,11 +138,11 @@ Identificeer Champions door uw organisatie. Deze voorvechters zouden moeten zijn
 
   De volgende bronnen kunnen u helpen aan de slag te gaan:
 
-   * [&#x200B; zelfstudies van Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/overview)
+   * [&#x200B; zelfstudies van Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/customer-journey-analytics-learn/tutorials/overview)
 
-   * [&#x200B; wat is Customer Journey Analytics?](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics)
+   * [&#x200B; wat is Customer Journey Analytics?](https://experienceleague.adobe.com/nl/docs/customer-journey-analytics-learn/tutorials/cja-basics/what-is-customer-journey-analytics)
 
-   * [&#x200B; Inleiding aan Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/cja-basics/understanding-customer-journey-analytics)
+   * [&#x200B; Inleiding aan Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/customer-journey-analytics-learn/tutorials/cja-basics/understanding-customer-journey-analytics)
 
    * [Ondersteuning voor Customer Journey Analytics-functies](/help/getting-started/aa-vs-cja/cja-aa.md)
 

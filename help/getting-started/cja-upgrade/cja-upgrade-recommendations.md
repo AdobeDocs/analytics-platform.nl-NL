@@ -99,7 +99,7 @@ Elke stap biedt een verklaring op hoog niveau van een meer gedetailleerd proces.
 
    +++Handmatige implementatie (JS-bestand)
 
-   1. [&#x200B; voegt alloy.js aan uw plaats &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version%22){target="_blank"} toe.
+   1. [&#x200B; voegt alloy.js aan uw plaats &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/edge/fundamentals/installing-the-sdk#option-2-installing-the-prebuilt-standalone-version%22){target="_blank"} toe.
 
    1. Vul een XDM-object en verzend het naar de gegevensstroom.
 
@@ -135,9 +135,9 @@ Elke stap biedt een verklaring op hoog niveau van een meer gedetailleerd proces.
 
 1. [&#x200B; bevestigt dat het gegeven in de gegevensmening in Customer Journey Analytics &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-validate.md){target="_blank"} stroomt.
 
-1. In uw milieu van Adobe Analytics, [&#x200B; gebruik de Inventaris van de Analyse &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory){target="_blank"} om een uitvoerig overzicht van uw milieu van Adobe Analytics, met inbegrip van het aantal projecten en componenten, rapportreeksen, gebruikers, en meer te zien.
+1. In uw milieu van Adobe Analytics, [&#x200B; gebruik de Inventaris van de Analyse &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/admin/admin-tools/analytics-inventory){target="_blank"} om een uitvoerig overzicht van uw milieu van Adobe Analytics, met inbegrip van het aantal projecten en componenten, rapportreeksen, gebruikers, en meer te zien.
 
-1. [&#x200B; Migreer projecten en componenten &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration){target="_blank"}.
+1. [&#x200B; Migreer projecten en componenten &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration){target="_blank"}.
 
    <!-- You might not want to do this, based on the schema? Ask Zach. Will it work if you have all new schema fields? What would you want to just build from scratch. Maybe everything? -->
 
