@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: c32c57a1a62edc5b1c78ffe2b6782d575c98cfdd
+source-git-commit: 9c584bb7c66e9e6b2ef2fc49802fb6839db1d70a
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1310'
 ht-degree: 11%
 
 ---
@@ -54,6 +54,7 @@ ht-degree: 11%
       + [Gegevens verzenden naar platform](/help/getting-started/cja-upgrade/cja-upgrade-send-to-platform.md)
       + [Historische gegevens behouden](/help/getting-started/cja-upgrade/cja-upgrade-historical-data.md)
       + [Aanbevolen upgradeproces](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md)
+      + [Uw organisatie voorbereiden](/help/getting-started/cja-upgrade/cja-upgrade-org-readiness.md)
       + Architect en maak een schema {#schema}
          + [Uw schema archiveren](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md)
          + [Uw schema maken](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md)
@@ -165,7 +166,7 @@ ht-degree: 11%
 
 + Gereedschappen {#tools}
    + Asset Transfer {#asset-transfer}
-      + [&#x200B; activa van de Overdracht &#x200B;](../tools/asset-transfer/transfer-assets.md)
+      + [ activa van de Overdracht ](../tools/asset-transfer/transfer-assets.md)
    + Productgebruik {#product-usage}
       + [Overzicht](../tools/product-usage/usage-overview.md)
       + [Gegevensinstellingen](../tools/product-usage/data-settings.md)
@@ -529,4 +530,4 @@ ht-degree: 11%
    + [Prestaties optimaliseren](../technotes/optimizing-performance.md)
    + [Gebruik beheren](../technotes/estimate-usage.md)
 
-+ [&#x200B; Customer Journey Analytics API &#x200B;](https://developer.adobe.com/cja-apis/docs/)
++ [ Customer Journey Analytics API ](https://developer.adobe.com/cja-apis/docs/)
