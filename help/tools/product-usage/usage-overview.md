@@ -2,9 +2,9 @@
 title: Overzicht van productgebruik
 description: Bekijk inzichten en rapporten over hoe uw organisatie Customer Journey Analytics gebruikt.
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
-source-git-commit: a4615907f61b4d63393a9481fdd7b45b7b9b6262
+source-git-commit: 5b5d4cb17ee73415dbd77bbf0964fc3d4e513cf0
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Alle gegevensinzameling en opstelling worden automatisch gevormd voor u zodra to
 
 **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Product Usage]**
 
-Het navigeren aan deze sectie van de interface in Customer Journey Analytics neemt u aan [&#x200B; montages van Gegevens &#x200B;](data-settings.md) waar u deze eigenschap kunt toelaten.
+Het navigeren aan deze sectie van de interface in Customer Journey Analytics neemt u aan [ montages van Gegevens ](data-settings.md) waar u deze eigenschap kunt toelaten.
 
 ## Beschikbare afmetingen
 
@@ -57,6 +57,7 @@ Als u het productgebruik inschakelt, zijn de volgende afmetingen beschikbaar. Al
    * [!UICONTROL Send file on schedule]
    * [!UICONTROL Share project with anyone]
    * [!UICONTROL Share project with Workspace users]
+   * [!UICONTROL Switch data view]
 * **[!UICONTROL Attribution Model Used]**: Het type attributiemodel dat de component gebruikt. Voorbeelden van Dimension-objecten:
    * [!UICONTROL Last touch]
    * [!UICONTROL First touch]
@@ -69,7 +70,8 @@ Als u het productgebruik inschakelt, zijn de volgende afmetingen beschikbaar. Al
    * [!UICONTROL Time decay]
    * [!UICONTROL Custom]
    * [!UICONTROL Algorithmic]
-* **[!UICONTROL Component Name]**: De naam van de component die is toegevoegd, verwijderd of gewijzigd.
+* **[!UICONTROL Component ID]**: De id van de component die is toegevoegd, verwijderd of gewijzigd.
+* **[!UICONTROL Component Name]**: De vriendelijke naam van de component die is toegevoegd, verwijderd of gewijzigd.
 * **[!UICONTROL Component Type]**: Het type component dat is toegevoegd, verwijderd of gewijzigd. Voorbeelden van Dimension-objecten:
    * [!UICONTROL Dimension]
    * [!UICONTROL Metric]
@@ -78,8 +80,10 @@ Als u het productgebruik inschakelt, zijn de volgende afmetingen beschikbaar. Al
    * [!UICONTROL Date range]
    * [!UICONTROL Annotation]
    * [!UICONTROL Alert]
+* **[!UICONTROL Data View ID]**: De id van de gegevensweergave.
+* **[!UICONTROL Data View Name]**: De vriendelijke naam van de gegevensweergave.
 * **[!UICONTROL Login User]**: De gebruiker die de handeling heeft uitgevoerd.
-* **[!UICONTROL Panel Used]**: Het deelvenster waarin de component is toegevoegd, verwijderd of gewijzigd. Voorbeelden van Dimension-objecten:
+* **[!UICONTROL Panel Used]**: Het deelvenster dat is toegevoegd, verwijderd of gewijzigd. Voorbeelden van Dimension-objecten:
    * [!UICONTROL Attribution]
    * [!UICONTROL Blank panel]
    * [!UICONTROL Experimentation]
@@ -93,6 +97,7 @@ Als u het productgebruik inschakelt, zijn de volgende afmetingen beschikbaar. Al
    * [!UICONTROL User stream]
    * [!UICONTROL Retention]
    * [!UICONTROL Feature matrix]
+* **[!UICONTROL Project ID]**: De id van het project.
 * **[!UICONTROL Project Name]**: De vriendelijke naam van het project.
 * **[!UICONTROL Project Type]**: Het projecttype. Voorbeelden van Dimension-objecten:
    * `workspace-projects`
@@ -129,7 +134,7 @@ Het gebruik van het product houdt geen individuele projectcomponenten bij wannee
 
 ## Beschikbare sjabloon
 
-Een [&#x200B; malplaatje van Adobe &#x200B;](/help/analysis-workspace/templates/use-templates.md) is beschikbaar dat de componenten gebruikt die automatisch van deze eigenschap worden geproduceerd.
+Een [ malplaatje van Adobe ](/help/analysis-workspace/templates/use-templates.md) is beschikbaar dat de componenten gebruikt die automatisch van deze eigenschap worden geproduceerd.
 
 **[!UICONTROL Adobe templates]** > **[!UICONTROL Other]** > **[!UICONTROL Product usage overview]**
 
