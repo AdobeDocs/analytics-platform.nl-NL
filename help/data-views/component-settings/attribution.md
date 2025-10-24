@@ -5,9 +5,9 @@ exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
+source-git-commit: 7d354ce65f72838c007d2b9faf02848d86fd7c0f
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,6 @@ ht-degree: 0%
 
 
 Met Attributie kunt u aanpassen hoe dimensie-items krediet krijgen voor succesgebeurtenissen.
-
-![&#x200B; de meningsvenster van Gegevens die de Vastgestelde attributieoptie benadrukken &#x200B;](../assets/attribution-settings.png)
 
 Bijvoorbeeld:
 
@@ -47,9 +45,9 @@ U kunt een standaardattributiemodel voor bepaalde metrisch plaatsen door metrisc
 >
 >* **wanneer het gebruiken van de component in een rapport met *veelvoudige afmetingen*:** de attributie van de component behoudt het toewijzingsmodel wanneer een niet-gebrek attributiemodel wordt gebruikt.
 >
->   De veelvoudige afmetingen zijn beschikbaar slechts wanneer [&#x200B; het uitvoeren van gegevens aan de wolk &#x200B;](/help/analysis-workspace/export/export-cloud.md).
+>   De veelvoudige afmetingen zijn beschikbaar slechts wanneer [ het uitvoeren van gegevens aan de wolk ](/help/analysis-workspace/export/export-cloud.md).
 >
-> Voor meer informatie over toewijzing, zie {de montages van de componenten van 0} Persistence [&#128279;](/help/data-views/component-settings/persistence.md).
+> Voor meer informatie over toewijzing, zie {de montages van de componenten van 0} Persistence [.](/help/data-views/component-settings/persistence.md)
 
 Het standaardtoewijzingsmodel van een component bijwerken:
 
@@ -57,9 +55,9 @@ Het standaardtoewijzingsmodel van een component bijwerken:
 
 1. Selecteer de component en vouw vervolgens de sectie **[!UICONTROL Attribution]** aan de rechterkant van het scherm uit.
 
-   ![&#x200B; de meningsvenster van Gegevens die de Vastgestelde attributieoptie benadrukken &#x200B;](../assets/attribution-settings.png)
+   ![ de meningsvenster van Gegevens die de Vastgestelde attributieoptie benadrukken ](../assets/attribution-settings.png)
 
-1. Selecteer [!UICONTROL **Vastgestelde attributie**], dan selecteren het [&#x200B; attributiemodel &#x200B;](#attribution-models), [&#x200B; container &#x200B;](#container) en [&#x200B; raadplegings &#x200B;](#lookback-window) venster.
+1. Selecteer [!UICONTROL **Vastgestelde attributie**], dan selecteren het [ attributiemodel ](#attribution-models), [ container ](#container) en [ raadplegings ](#lookback-window) venster.
 
 
 
@@ -71,7 +69,7 @@ Het standaardtoewijzingsmodel van een component bijwerken:
 >
 > * Kopieer de metrische waarde in de gegevensweergave met elke gewenste attributie-instelling. U kunt dezelfde metrische waarde meerdere keren opnemen in een gegevensweergave, zodat elke meting een andere instelling heeft. Zorg ervoor dat u elke metrisch geschikt etiketteert zodat de analisten het verschil tussen deze metriek begrijpen wanneer het produceren van rapporten.
 >
-> * Overschrijf de metrische waarde in Analysis Workspace. In de montages van de Kolom van metrische [&#128279;](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md), uitgezochte **[!UICONTROL Use non-default attribution model]** om het de attributiemodel van metrische metrische te veranderen en raadplegingsvenster voor dat specifieke rapport.
+> * Overschrijf de metrische waarde in Analysis Workspace. In de montages van de Kolom van metrische [ ](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md), uitgezochte **[!UICONTROL Use non-default attribution model]** om het de attributiemodel van metrische metrische te veranderen en raadplegingsvenster voor dat specifieke rapport.
 
 ## Attributiemodellen {#attribution-models}
 
