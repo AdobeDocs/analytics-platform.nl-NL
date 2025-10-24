@@ -5,24 +5,24 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: e8ebf5e7-0b80-4d46-8a5f-b7ae832eda4f
 role: User
-source-git-commit: 1bfebb53fbe056ed6320380178c8b1ce8f7079f1
+source-git-commit: d1097ca5f981623283a7d02200d5023548046429
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
 
 # Een voorbeeld van een op persoon gebaseerd B2B-project
 
-Dit artikel illustreert een gebruiksgeval waar u in Customer Journey Analytics over persoongegevens binnen de context van een typisch persoon-gebaseerde B2B opstelling wilt behoorlijk melden. Zulk een configuratie wordt vergemakkelijkt door [&#x200B; Real-Time CDP B2B edition &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview).  In het gebruiksgeval wordt uitgelegd hoe u op profielniveau gebaseerde B2B-gegevens in Customer Journey Analytics kunt instellen, configureren en rapporteren.
+Dit artikel illustreert een gebruiksgeval waar u in Customer Journey Analytics over persoongegevens binnen de context van een typisch persoon-gebaseerde B2B opstelling wilt behoorlijk melden. Zulk een configuratie wordt vergemakkelijkt door [ Real-Time CDP B2B edition ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview).  In het gebruiksgeval wordt uitgelegd hoe u op profielniveau gebaseerde B2B-gegevens in Customer Journey Analytics kunt instellen, configureren en rapporteren.
 
-[!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} een afzonderlijke sectie voor rekening-gebaseerde rapporteringsgebruiksgevallen wordt gepubliceerd met de versie van [&#x200B; B2B edition van Customer Journey Analytics &#x200B;](/help/getting-started/cja-b2b-edition.md).
+[!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} een afzonderlijke sectie voor rekening-gebaseerde rapporteringsgebruiksgevallen wordt gepubliceerd met de versie van [ B2B edition van Customer Journey Analytics ](/help/getting-started/cja-b2b-edition.md).
 
 ## Verbinding
 
 Definieer de verbinding zodat deze alle relevante B2B-gegevenssets van Experience Platform bevat. Gegevensbestanden die u kunt toevoegen aan uw verbinding:
 
-| Gegevensset | Schema | Type schema | Basisklasse | Beschrijving |
+| Gegevensset (optioneel) | Schema | Type schema | Basisklasse | Beschrijving |
 |---|---|---|---|---|
 | B2B-activiteitengegevens | B2B Activiteitsschema | Gebeurtenis | XDM ExperienceEvent | Een ExperienceEvent is een feitenverslag van wat voorkwam, met inbegrip van het tijdstip en de identiteit van het betrokken individu. ExperienceEvents kunnen expliciete (direct waarneembare menselijke acties) of impliciete (opgewekte zonder directe menselijke actie) zijn en worden geregistreerd zonder aggregatie of interpretatie. De gebeurtenissen van de ervaring zijn kritiek voor tijd-domeinanalyse aangezien zij voor waarneming en analyse van veranderingen toestaan die in een bepaald venster van tijd en de vergelijking tussen veelvoudige vensters van tijd voorkomen om tendensen te volgen. |
 | B2B-persoonsgegevensset | B2B Personenschema | Profiel | Afzonderlijk XDM-profiel | Een XDM Individueel Profiel vormt een enkelvoudige vertegenwoordiging van de attributen en de belangen van zowel geïdentificeerde als gedeeltelijk geïdentificeerde individuen. Minder geïdentificeerde profielen kunnen alleen anonieme gedragssignalen bevatten, zoals browsercookies, terwijl sterk geïdentificeerde profielen gedetailleerde persoonlijke gegevens kunnen bevatten zoals naam, geboortedatum, locatie en e-mailadres. Naarmate een profiel groeit, wordt het een robuuste opslagplaats voor persoonlijke gegevens, identificatiegegevens, contactgegevens en communicatievoorkeuren voor een individu. |
@@ -43,37 +43,43 @@ Definieer de verbinding zodat deze alle relevante B2B-gegevenssets van Experienc
 -->
 
 
-De verhouding tussen de B2B raadplegingsschema&#39;s, profielschema, en gebeurtenisschema wordt bepaald in de B2B opstelling binnen Experience Platform. Zie Schema&#39;s in [&#x200B; Real-Time Customer Data Platform B2B edition &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/schemas/b2b) en [&#x200B; bepalen een vele-aan-één verhouding tussen twee schema&#39;s in Real-Time Customer Data Platform B2B edition &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/tutorials/relationship-b2b).
+De verhouding tussen de B2B raadplegingsschema&#39;s, profielschema, en gebeurtenisschema wordt bepaald in de B2B opstelling binnen Experience Platform. Zie Schema&#39;s in [ Real-Time Customer Data Platform B2B edition ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b) en [ bepalen een vele-aan-één verhouding tussen twee schema&#39;s in Real-Time Customer Data Platform B2B edition ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b).
 
 
 Om een correcte opstelling van een verbinding te verzekeren die op persoon-gebaseerde raadplegingen van uw B2B gegevens steunt, gebruik de volgende illustratie voor een overzicht en volg deze stappen:
 
-![&#x200B; B2B- schema&#39;s geannoteerde &#x200B;](assets/b2b-schemas-annotated.svg)
+![ B2B- schema&#39;s geannoteerde ](assets/b2b-schemas-annotated.svg)
 
 1. Voeg datasets van de lijst hierboven aan uw verbinding toe.
 1. Voor elke opzoekgegevensset die u toevoegt aan uw verbinding, moet u de relatie met een gebeurtenisdataset expliciet definiëren met de dialoogvensters **[!UICONTROL Key]** en **[!UICONTROL Matching key]** in **[!UICONTROL Edit dataset]** .
-1. Voor elke raadplegingsdataset die u voor op persoon-gebaseerde B2B raadplegingen wilt omzetten, laat **[!UICONTROL Transform dataset]** toe om ervoor te zorgen dat de gegevens voor op persoon-gebaseerde raadplegingen worden omgezet. Zie [&#x200B; datasets van de Transformatie voor B2B raadplegingen &#x200B;](/help/connections/transform-datasets-b2b-lookups.md) voor extra informatie.
+1. Voor elke raadplegingsdataset die u voor op persoon-gebaseerde B2B raadplegingen wilt omzetten, laat **[!UICONTROL Transform dataset]** toe om ervoor te zorgen dat de gegevens voor op persoon-gebaseerde raadplegingen worden omgezet. Zie [ datasets van de Transformatie voor B2B raadplegingen ](/help/connections/transform-datasets-b2b-lookups.md) voor extra informatie.
 
-   ![&#x200B; Sleutel - het Aanpassen sleutel &#x200B;](assets/key-matchingkey.png)
+   ![ Sleutel - het Aanpassen sleutel ](assets/key-matchingkey.png)
 
-   In de onderstaande tabel vindt u een voorbeeld van de waarden [!UICONTROL Person ID] , [!UICONTROL Key] en [!UICONTROL Matching key] voor elk van de gegevenssets.
+   In de onderstaande tabel vindt u een voorbeeld van de voorbeeldwaarden [!UICONTROL Person ID] , [!UICONTROL Key] en [!UICONTROL Matching key] voor elk van de gegevenssets.
 
-   | Gegevensset | Persoon-id | Sleutel | Overeenkomende sleutel <br/> (in gebeurtenisdataset) |
+   >[!IMPORTANT]
+   >
+   >De waarden voor **identiteitskaart van de Persoon**, **Sleutel**, en **het Aanpassen Sleutel** in de lijst hieronder zijn **voorbeeldwaarden**, en kunnen in uw specifiek milieu verschillend zijn.
+   >
+
+
+   | Gegevensset (optioneel) | Persoon-id | Sleutel <br/> | Matching sleutel <br/> (in gebeurtenisdataset) <br/> |
    |---|---|---|---| 
    | B2B-activiteitengegevens | SourceKey <br/>**personKey.sourceKey** | | |
    | B2B-persoonsgegevensset | SourceKey <br/>**b2b.personKey.sourceKey** | | |
-   | B2B-accountgegevens | | SourceKey <br/>**accountKey.sourceKey**&#x200B;❶ | SourceKey <br> (B2B Dataset van de Persoon) <br/>**b2b.accountKey.sourceKey**&#x200B;❶ |
-   | B2B-opportuniteitsgegevensset | | Source Key <br/>**opportunityKey.sourceKey**&#x200B;❷ | SourceKey <br/> (B2B Dataset van de Verhouding van de Kans) <br/>**opportunityKey.sourceKey**&#x200B;❷ |
-   | Gegevensset voor B2B-campagne | | SourceKey <br/>**campagneKey.sourceKey**&#x200B;❸ | SourceKey <br/> (B2B de Dataset van het Lid van de Campagne) <br/>**campagneKey.sourceKey**&#x200B;❸<br/> |
-   | Gegevensset voor B2B-marketinglijst | | SourceKey <br/>**marketingListKey.sourceKey**&#x200B;❹ | SourceKey <br/> (B2B de Dataset van het Lid van de Lijst van de Marketing) <br/>**marketingListKey.sourceKey**&#x200B;❹ |
-   | B2B-gegevensset betreffende de relatie van rekeningpersonen | | SourceKey <br/>**personKey.sourceKey**&#x200B;❺ | De Sleutel van Source <br/> (datasets van de Gebeurtenis) <br/>**personKey.sourceKey**&#x200B;❺ |
-   | B2B Dataset van de Betrekking van de Kans van de Persoon | | SourceKey <br/>**personKey.sourceKey** y ❻ | De Sleutel van Source <br/> (datasets van de Gebeurtenis) <br/>**personKey.sourceKey**&#x200B;❻ |
-   | Gegevensset voor B2B-campagnegelid | | SourceKey <br/>**personKey.sourceKey**&#x200B;❼ | De Sleutel van Source <br/> (datasets van de Gebeurtenis) <br/>**personKey.sourceKey**&#x200B;❼ |
-   | B2B Marketing List Member Data | | SourceKey <br/>**personKey.sourceKey**&#x200B;❽ | De Sleutel van Source <br/> (datasets van de Gebeurtenis) <br/>**personKey.sourceKey**&#x200B;❽ |
+   | B2B-accountgegevens | | SourceKey <br/>**accountKey.sourceKey**❶ | SourceKey <br> (B2B Dataset van de Persoon) <br/>**b2b.accountKey.sourceKey**❶ |
+   | B2B-opportuniteitsgegevensset | | Source Key <br/>**opportunityKey.sourceKey**❷ | SourceKey <br/> (B2B Dataset van de Verhouding van de Kans) <br/>**opportunityKey.sourceKey**❷ |
+   | Gegevensset voor B2B-campagne | | SourceKey <br/>**campagneKey.sourceKey**❸ | SourceKey <br/> (B2B de Dataset van het Lid van de Campagne) <br/>**campagneKey.sourceKey**❸<br/> |
+   | Gegevensset voor B2B-marketinglijst | | SourceKey <br/>**marketingListKey.sourceKey**❹ | SourceKey <br/> (B2B de Dataset van het Lid van de Lijst van de Marketing) <br/>**marketingListKey.sourceKey**❹ |
+   | B2B-gegevensset betreffende de relatie van rekeningpersonen | | SourceKey <br/>**personKey.sourceKey**❺ | De Sleutel van Source <br/> (datasets van de Gebeurtenis) <br/>**personKey.sourceKey**❺ |
+   | B2B Dataset van de Betrekking van de Kans van de Persoon | | SourceKey <br/>**personKey.sourceKey** y ❻ | De Sleutel van Source <br/> (datasets van de Gebeurtenis) <br/>**personKey.sourceKey**❻ |
+   | Gegevensset voor B2B-campagnegelid | | SourceKey <br/>**personKey.sourceKey**❼ | De Sleutel van Source <br/> (datasets van de Gebeurtenis) <br/>**personKey.sourceKey**❼ |
+   | B2B Marketing List Member Data | | SourceKey <br/>**personKey.sourceKey**❽ | De Sleutel van Source <br/> (datasets van de Gebeurtenis) <br/>**personKey.sourceKey**❽ |
 
 {style="table-layout:auto"}
 
-Zie [&#x200B; datasets &#x200B;](../../connections/create-connection.md) voor meer informatie toevoegen en vormen over hoe te om montages voor een dataset te vormen.
+Zie [ datasets ](../../connections/create-connection.md) voor meer informatie toevoegen en vormen over hoe te om montages voor een dataset te vormen.
 
 
 ## Gegevens, weergave
@@ -82,7 +88,12 @@ Als u toegang wilt hebben tot relevante B2B-afmetingen en maateenheden wanneer u
 
 U kunt bijvoorbeeld de volgende componenten aan de gegevensweergave toevoegen om ervoor te zorgen dat u op persoonlijk niveau op uw B2B-gegevens kunt rapporteren. De componentennamen worden soms gewijzigd voor duidelijkheid van hun originele schemanamen.
 
-+++Metrisch
++++Metrics 
+
+>[!IMPORTANT]
+>
+>De metriek en hun waarden (**naam van de Component**, **Dataset**, **het type van Dataset**, en **[!UICONTROL Schema path])** in de lijst hieronder zijn **voorbeelden**. Bepaal relevante B2B metriek (de naam van de Component, Dataset, het type van Gegevens, en de weg van het Schema) voor uw specifieke situatie.
+>
 
 | Componentnaam | Gegevensset | Gegevenstype | Schemapad |
 |---|---|---|---|
@@ -96,7 +107,12 @@ U kunt bijvoorbeeld de volgende componenten aan de gegevensweergave toevoegen om
 
 +++
 
-+++Afmetingen
++++Dimensies
+
+>[!IMPORTANT]
+>
+>De afmetingen en hun waarden (**naam van de Component**, **Dataset**, **het type van Dataset**, en **[!UICONTROL Schema path])** in de lijst hieronder zijn **voorbeelden**. Definieer de relevante B2B-afmetingen (componentnaam, Dataset, Gegevenstype en Schemapad) voor uw specifieke situatie.
+>
 
 | Componentnaam | Gegevensset | Gegevenstype | Schemapad |
 |---|---|---|---|
@@ -121,5 +137,5 @@ Met uw componenten die correct in de gegevensmening worden bepaald, kunt u speci
 
 Hieronder ziet u een schermafbeelding van een voorbeeldproject dat gebruikmaakt van de hierboven beschreven verbinding en gegevensweergave. De visualisatiebeschrijvingen verklaren welke van de vrije lijstvisualisatie op de getransformeerde B2B raadplegingsgegevens baseert.
 
-![&#x200B; project van de Steekproef &#x200B;](assets/sample-workspace-project.png)
+![ project van de Steekproef ](assets/sample-workspace-project.png)
 

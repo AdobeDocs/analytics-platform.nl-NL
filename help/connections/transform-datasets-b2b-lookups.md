@@ -5,23 +5,23 @@ solution: Customer Journey Analytics
 feature: Connections
 role: Admin
 exl-id: 7729c1b9-b3ed-4662-a446-2088389bbd97
-source-git-commit: 4ce2eb397e15dcb081f7b9695ba2332a3eb17659
+source-git-commit: d1097ca5f981623283a7d02200d5023548046429
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
 
 # Gegevenssets transformeren voor B2B-zoekopdrachten
 
-Om op persoon-gebaseerde raadplegingen op B2B gegevens (met inbegrip van rekeningen, kansen, marketing lijsten en campagnes) te steunen, is de transformatie van B2B raadplegingsdatasets vereist.
+Om op persoon-gebaseerde raadplegingen op B2B gegevens (met inbegrip van rekeningen, kansen, marketing lijsten en campagnes) te steunen, kan de omzetting van B2B raadplegingsdatasets gegevensnauwkeurigheid verbeteren.
 
 Deze transformatie is slechts beschikbaar voor datasets met gegevens voor B2B raadplegingsschema&#39;s, die op de volgende klassen worden gebaseerd:
 
-* [&#x200B; XDM de Verhouding van de Persoon van de Bedrijfs Rekening &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
-* [&#x200B; XDM de Verhouding van de Person van BedrijfsOpportunity &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
-* [&#x200B; XDM Bedrijfs de Leden van de Lijst van de Marketing &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
-* [&#x200B; XDM Bedrijfs Campagne Leden &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
+* [ XDM de Verhouding van de Persoon van de Bedrijfs Rekening ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation)
+* [ XDM de Verhouding van de Person van BedrijfsOpportunity ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation)
+* [ XDM Bedrijfs de Leden van de Lijst van de Marketing ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members)
+* [ XDM Bedrijfs Campagne Leden ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members)
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Deze transformatie is slechts beschikbaar voor datasets met gegevens voor B2B ra
 
 Om transformatie voor een B2B raadplegingsdataset toe te laten:
 
-![&#x200B; laat transformatiedataset &#x200B;](/help/connections/assets/transform.gif) toe
+![ laat transformatiedataset ](/help/connections/assets/transform.gif) toe
 
 * Controleer voor elke dataset de voorgestelde waarden voor **[!UICONTROL Key]** en **[!UICONTROL Matching key]**. Als u de waarden wijzigt op basis van de voorgestelde waarden, verschijnt er een waarschuwing met de vraag of u wilt doorgaan. U moet ervoor zorgen dat:
 
@@ -50,7 +50,7 @@ Om transformatie voor een B2B raadplegingsdataset toe te laten:
 
 * Selecteer de opties voor het importeren van nieuwe gegevens en gegevenssetbackfill.
 
-* Selecteer **[!UICONTROL Transform dataset for B2B lookups]** .
+* Selecteer **[!UICONTROL Transform dataset for B2B lookups]**.
 
   Deze optie transformeert de dataset zodat kan het voor op persoon-gebaseerde raadplegingen in scenario&#39;s B2B worden gebruikt.
 
@@ -71,4 +71,4 @@ Niet-getransformeerde datasets, voor schema&#39;s die op de vier hierboven verme
 
 De transformatie wijzigt de dataset van elk van de vier schemaklassen (oranje in de illustratie hieronder) zodat voor elke persoonsidentificatie een (voorwerp) serie voor de relevante gegevens (rekeningen, kansen, marketing lijsten of campagnes) in de raadplegingsdatasets (roze in de illustratie hieronder) wordt gecreeerd. Deze transformatie maakt het mogelijk om correct te werken met op personen-id gebaseerde zoekopdrachten.
 
-![&#x200B; B2B- schema&#39;s &#x200B;](./assets/b2b-schemas.svg)
+![ B2B- schema&#39;s ](./assets/b2b-schemas.svg)
