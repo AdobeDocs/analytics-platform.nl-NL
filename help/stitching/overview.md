@@ -36,12 +36,12 @@ Customer Journey Analytics steunt twee soorten het stitching: [&#x200B; op gebie
 
 Voordat u stitching gebruikt, moet u ervoor zorgen dat uw organisatie is voorbereid met het volgende:
 
-- Onder andere het samenvoegen van geverifieerde en niet-geverifieerde gebruikersgegevens wordt opgenomen. Zorg ervoor dat u aan de toepasselijke wetten en verordeningen, met inbegrip van het verkrijgen van noodzakelijke eindgebruikertoestemmingen voldoet, alvorens het stitching op een gebeurtenisdataset te activeren. Zie [&#x200B; identiteitsgebieden in UI &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity) voor meer informatie bepalen.
+- Onder andere het samenvoegen van geverifieerde en niet-geverifieerde gebruikersgegevens wordt opgenomen. Zorg ervoor dat u aan de toepasselijke wetten en verordeningen, met inbegrip van het verkrijgen van noodzakelijke eindgebruikertoestemmingen voldoet, alvorens het stitching op een gebeurtenisdataset te activeren. Zie [&#x200B; identiteitsgebieden in UI &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/ui/fields/identity) voor meer informatie bepalen.
 
 - Importeer de gewenste gegevens naar Adobe Experience Platform:
 
    - Voor de gegevens van Adobe Analytics, zie [&#x200B; Gebruikend de gegevens van de het rapportreeks van Adobe Analytics in Customer Journey Analytics &#x200B;](/help/getting-started/aa-vs-cja/aa-data-in-cja.md).
-   - Voor andere soorten gegevens, zie [&#x200B; een schema &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui) en [&#x200B; Samenvatting gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home) in de documentatie van Adobe Experience Platform creëren.
+   - Voor andere soorten gegevens, zie [&#x200B; een schema &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/tutorials/create-schema-ui) en [&#x200B; Samenvatting gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ingestion/home) in de documentatie van Adobe Experience Platform creëren.
 
 U profiteert van kanaalanalyse als u een of meer van uw gestikte datasets met andere datasets, zoals de gegevens van het vraagcentrum, als deel van het bepalen van uw verbinding van Customer Journey Analytics combineert. Deze verbindingsconfiguratie veronderstelt dat die andere datasets reeds een persoonsidentiteitskaart op elke rij, gelijkend op vastgemaakte identiteitskaart bevatten.
 
@@ -61,7 +61,7 @@ U kunt stitching op twee manieren inschakelen:
 >
 >- Als u de brondataset verwijdert, stopt de gestikte dataset verwerking en wordt verwijderd door het systeem.
 >
->- De etiketten van het gebruik van gegevens worden niet automatisch verspreid aan het gestikte datasetschema. Als u de etiketten van het gegevensgebruik hebt die op het schema van de brondataset worden toegepast, moet u deze etiketten van het gegevensgebruik manueel op het gestikte datasetschema toepassen. Zie [&#x200B; het Leiden de etiketten van het gegevensgebruik in Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview) voor meer informatie.
+>- De etiketten van het gebruik van gegevens worden niet automatisch verspreid aan het gestikte datasetschema. Als u de etiketten van het gegevensgebruik hebt die op het schema van de brondataset worden toegepast, moet u deze etiketten van het gegevensgebruik manueel op het gestikte datasetschema toepassen. Zie [&#x200B; het Leiden de etiketten van het gegevensgebruik in Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview) voor meer informatie.
 
 Stikken is een baanbrekende en robuuste functie, maar heeft beperkingen op de manier waarop het kan worden gebruikt.
 
