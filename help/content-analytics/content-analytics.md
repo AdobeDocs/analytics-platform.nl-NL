@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 feature: Content Analytics
 role: Admin, User
 exl-id: 0d3be50d-c635-459b-8b01-61d6d4ef0cdf
-source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
+source-git-commit: 58254cab90d907ad9675c30dfc1b835910214b3a
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Naast de verwezenlijking van dit gestructureerde meta-gegevensprofiel, verstrekt
 
 Content Analytics biedt wel meer waarde:
 
-1. Het gebruik van de inhoud **&#x200B;**: Met Content Analytics krijgt u inzicht op welke activa beelden ontvangen en waar de activa impressies ontvangen. Deze inzichten helpen u om te zien of worden de activa ondergebruikt of op uw Web-eigenschappen overgebruikt.
+1. Het gebruik van de inhoud ****: Met Content Analytics krijgt u inzicht op welke activa beelden ontvangen en waar de activa impressies ontvangen. Deze inzichten helpen u om te zien of worden de activa ondergebruikt of op uw Web-eigenschappen overgebruikt.
 1. Inhoud **overeenkomsten**: Content Analytics kan betrokkenheidsinzichten zoals het gemiddelde klikken door tarief voor activa met bepaalde attributen verstrekken. Deze inzichten helpen u om te bepalen of specifieke soorten ervaringen nog efficiënt zijn.
 1. Inhoud **reizen**: Voorts wanneer gecombineerd met alle andere gegevens beschikbaar in Experience Platform, kunt u extra inzichten op uw inhoudstrajecten verkrijgen. Of specifieke inhoud bijvoorbeeld leidt tot conversies, bovenop de betrokkenheid. En met die kennis kunt u ROI op types van inhoud bepalen.
 1. Inhoud **verpersoonlijking**: Uiteindelijk staat Content Analytics u toe om op uw inzichten te handelen en deze inzichten te gebruiken om te bepalen hoe te om geld aan inhoud uit te geven. Moet ik bijvoorbeeld specifieke typen inhoud naar specifieke doelgroepen sturen? Welke inhoud biedt me mogelijkheden tot high-personalization?
@@ -33,7 +33,7 @@ Content Analytics biedt wel meer waarde:
 
 Content Analytics hanteert de volgende sleuteltermen:
 
-![&#x200B; Assets en ervaringen &#x200B;](/help/content-analytics/assets/content-analytics-experience-asset.png)
+![ Assets en ervaringen ](/help/content-analytics/assets/content-analytics-experience-asset.png)
 
 * **Ervaring**: Een ervaring is al tekst op een Web-pagina die reproduceerbaar gebruikend URL is die door de aanvankelijke gebruiker wordt gebruikt die de Web-pagina bezocht. Elke ervaring krijgt een unieke id. Wijzigingen in de pagina die leiden tot wijzigingen in de HTML van de pagina, leiden tot een nieuwe ervaring.
 * **Activa**: Een activa is een individueel en uniek stuk van inhoud, zoals een beeld. Elk element krijgt ook een unieke id en een perceptuele id. Een perceptuele id is een id die wordt gedeeld met elementen die visueel identiek zijn. Met perceptuele id&#39;s kunt u elementen dedupliceren die een andere element-URL en dus een andere element-id hebben, maar die wel exact hetzelfde zijn.
@@ -41,21 +41,21 @@ Content Analytics hanteert de volgende sleuteltermen:
 
 ## Hoe werkt het
 
-Content Analytics gebruikt de gegevens van de de meningsmening van het Webbeeld in gebeurtenisdatasets in Experience Platform om [&#x200B; gegevens van de inhoudsgebeurtenis &#x200B;](config/datacollection.md) te verzamelen. En combineert die inhoudsgegevensverzameling met de (bestaande) implementatie van gegevensverzameling van gedragsgegevens.
+Content Analytics gebruikt de gegevens van de de meningsmening van het Webbeeld in gebeurtenisdatasets in Experience Platform om [ gegevens van de inhoudsgebeurtenis ](config/datacollection.md) te verzamelen. Deze gebeurtenissen voor het ervaren van inhoud vereisen dat de gegevens worden verzameld met de Experience Platform Edge Network (Web SDK, Server API). Gedraggegevens kunnen worden verzameld met Web SDK of de Analytics Source Connector.
 
-![&#x200B; Content Analytics - hoe het &#x200B;](assets/aca-overview.gif) werkt
+![ Content Analytics - hoe het ](assets/aca-overview.gif) werkt
 
-1. Wanneer een gebruiker een plaats bezoekt, [&#x200B; voor Content Analytics &#x200B;](config/configuration.md) wordt gevormd, registreert het Web SDK van Experience Platform indrukkingen en interactie met inhoud.
+1. Wanneer een gebruiker een plaats bezoekt, [ voor Content Analytics ](config/configuration.md) wordt gevormd, registreert het Web SDK van Experience Platform indrukkingen en interactie met inhoud.
 1. De identiteit en de featuriseringsdienst verwerken deze interactie. Dat proces bestaat uit een herwinningsdienst die de openbaar-onder ogen ziet versies van gevormde URLs herziet die de interactie bepalen. Voor al deze opgehaalde URL&#39;s identificeert de identiteitsservice de ervaringen en elementen op unieke wijze. En de featurization dienst past de diensten van AI/van ML toe om ervaringen en activa meta-gegevens en attributen te ontdekken.
-1. De resultaten van deze diensten ([&#x200B; componenten, attributen, en identiteiten &#x200B;](/help/content-analytics/report/components.md)) worden gebruikt om de relevante specifieke datasets van Content Analytics in Experience Platform bij te werken.
-1. De gegevens van Content Analytics, samen met gedragsgegevens en andere raadplegingsgegevens, kunt u in een opstelling van Customer Journey Analytics gebruiken ([&#x200B; Verbinding &#x200B;](/help/connections/overview.md), [&#x200B; mening van Gegevens &#x200B;](/help/data-views/data-views.md) en [&#x200B; Workspace &#x200B;](/help/analysis-workspace/home.md)). Die opstelling verstrekt de stichting aan de unieke macrovlakke inzichten op uw inhoud. <br/> u kunt sprongen uw rapporten en analyse van Content Analytics gebruikend het [&#x200B; malplaatje van Content Analytics &#x200B;](/help/content-analytics/report/report.md#template).
+1. De resultaten van deze diensten ([ componenten, attributen, en identiteiten ](/help/content-analytics/report/components.md)) worden gebruikt om de relevante specifieke datasets van Content Analytics in Experience Platform bij te werken.
+1. De gegevens van Content Analytics, samen met gedragsgegevens en andere raadplegingsgegevens, kunt u in een opstelling van Customer Journey Analytics gebruiken ([ Verbinding ](/help/connections/overview.md), [ mening van Gegevens ](/help/data-views/data-views.md) en [ Workspace ](/help/analysis-workspace/home.md)). Die opstelling verstrekt de stichting aan de unieke macrovlakke inzichten op uw inhoud. <br/> u kunt sprongen uw rapporten en analyse van Content Analytics gebruikend het [ malplaatje van Content Analytics ](/help/content-analytics/report/report.md#template).
 
 
 >[!NOTE]
 >
 >Content Analytics maakt gebruik van AI/ML-services die tot onjuiste of misleidende resultaten kunnen leiden. Dientengevolge, gelieve uw oordeel te gebruiken om AI/ML geproduceerde output te herzien en te bevestigen.
 >
->U kunt het **[!UICONTROL Feedback]** lusje, beschikbaar van ![&#x200B; InfoOutline &#x200B;](/help/assets/icons/InfoOutline.svg) op de belangrijkste interface gebruiken, om te verstrekken terugkoppelt op de AI/ML geproduceerde output.
+>U kunt het **[!UICONTROL Feedback]** lusje, beschikbaar van ![ InfoOutline ](/help/assets/icons/InfoOutline.svg) op de belangrijkste interface gebruiken, om te verstrekken terugkoppelt op de AI/ML geproduceerde output.
 >
 
 >[!NOTE]
@@ -66,8 +66,8 @@ Content Analytics gebruikt de gegevens van de de meningsmening van het Webbeeld 
 
 >[!MORELIKETHIS]
 >
->[&#x200B; Content Analytics die &#x200B;](report/report.md) meldt
->&#x200B;>[Content Analytics configureren &#x200B;](config/configuration.md)
->&#x200B;>[Het berekenen van stuitingen en het stuiteren tarief in Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
+>[ Content Analytics die ](report/report.md) meldt
+>>[Content Analytics configureren ](config/configuration.md)
+>>[Het berekenen van stuitingen en het stuiteren tarief in Customer Journey Analytics ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
 >
 
