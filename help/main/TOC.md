@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 9c584bb7c66e9e6b2ef2fc49802fb6839db1d70a
+source-git-commit: 3e87e9edd69229d5228de0f96d2525614172e725
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1308'
 ht-degree: 11%
 
 ---
@@ -166,7 +166,7 @@ ht-degree: 11%
 
 + Gereedschappen {#tools}
    + Asset Transfer {#asset-transfer}
-      + [&#x200B; activa van de Overdracht &#x200B;](../tools/asset-transfer/transfer-assets.md)
+      + [ activa van de Overdracht ](../tools/asset-transfer/transfer-assets.md)
    + Productgebruik {#product-usage}
       + [Overzicht](../tools/product-usage/usage-overview.md)
       + [Gegevensinstellingen](../tools/product-usage/data-settings.md)
@@ -436,9 +436,9 @@ ht-degree: 11%
 
 + Stiksel {#stitching}
    + [Overzicht](/help/stitching/overview.md)
-   + [Veldgebaseerde stitatie](/help/stitching/fbs.md)
+   + [Veldgebaseerde stitching](/help/stitching/fbs.md)
    + [Op grafiek gebaseerde stitching](/help/stitching/gbs.md)
-   + [Sstitching gebruiken](/help/stitching/use-stitching.md)
+   + [Aanbrengen aanvragen](/help/stitching/use-stitching.md)
    + [Sstitching gebruiken](/help/stitching/use-stitching-ui.md)
    + [Verstikte gegevenssets maken en beheren](/help/stitching/stitching-ui.md)
    + [Stikken valideren](/help/stitching/validate.md)
@@ -530,4 +530,4 @@ ht-degree: 11%
    + [Prestaties optimaliseren](../technotes/optimizing-performance.md)
    + [Gebruik beheren](../technotes/estimate-usage.md)
 
-+ [&#x200B; Customer Journey Analytics API &#x200B;](https://developer.adobe.com/cja-apis/docs/)
++ [ Customer Journey Analytics API ](https://developer.adobe.com/cja-apis/docs/)
