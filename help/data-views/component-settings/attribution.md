@@ -5,9 +5,9 @@ exl-id: bc7ae6e3-7c9b-4994-97ce-690f3bdcbee5
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 7d354ce65f72838c007d2b9faf02848d86fd7c0f
+source-git-commit: 2fd79da264d60bb90e1193ead2eee67602404b4c
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -33,19 +33,17 @@ Bijvoorbeeld:
 
 In sommige rapporten wilt u mogelijk de volgorde toewijzen aan Geavanceerd zoeken. In andere rapporten, zou u de orde aan Sociaal kunnen willen worden toegeschreven. Met kenmerk kunt u dit aspect van rapportage beheren.
 
-## Standaardtoewijzingsmodel van een component instellen
+## Het toewijzingsmodel van een component instellen
 
-U kunt een standaardattributiemodel voor bepaalde metrisch plaatsen door metrisch het plaatsen in de gegevensmening bij te werken. Als u dit doet, overschrijft u het attributiemodel van de maateenheid op elk moment dat het in Analysis Workspace wordt gebruikt.
+U kunt het standaardattributiemodel voor een bepaalde component wijzigen door de instelling van de component in de gegevensweergave bij te werken. Als u dit doet, overschrijft u het toewijzingsmodel van de component op elk moment dat het in Analysis Workspace wordt gebruikt.
 
 >[!NOTE]
 >
->Houd rekening met het volgende wanneer u attributie op een metrische waarde inschakelt:
+>Houd rekening met het volgende wanneer u een niet-standaard attributiemodel op een metrische waarde inschakelt:
 >
->* **wanneer het gebruiken van de component in een rapport met *één enkele afmeting*:** de attributie van de component negeert het toewijzingsmodel wanneer een niet-gebrek attributiemodel wordt gebruikt.
+>* **wanneer het gebruiken van metrisch in een rapport met *één enkele afmeting*:** de attributie van metrische treedt metrische het toewijzingsmodel met voeten dat op de afmeting wordt geplaatst. Een metrische waarde met een kenmerk &quot;first touch&quot; heeft bijvoorbeeld voorrang op een toewijzing van de &quot;meest recente&quot; dimensie.
 >
->* **wanneer het gebruiken van de component in een rapport met *veelvoudige afmetingen*:** de attributie van de component behoudt het toewijzingsmodel wanneer een niet-gebrek attributiemodel wordt gebruikt.
->
->   De veelvoudige afmetingen zijn beschikbaar slechts wanneer [&#x200B; het uitvoeren van gegevens aan de wolk &#x200B;](/help/analysis-workspace/export/export-cloud.md).
+>* **wanneer het gebruiken van metrisch in een rapport met *veelvoudige afmetingen*:** de attributie van metrische wordt toegepast bovenop het toewijzingsmodel voor elke afmeting. Bijvoorbeeld, wordt metrisch met een &quot;eerste aanraking&quot;attributie toegepast bovenop een &quot;meest recente&quot;afmetingstoewijzing.
 >
 > Voor meer informatie over toewijzing, zie {de montages van de componenten van 0} Persistence [.](/help/data-views/component-settings/persistence.md)
 
@@ -55,9 +53,9 @@ Het standaardtoewijzingsmodel van een component bijwerken:
 
 1. Selecteer de component en vouw vervolgens de sectie **[!UICONTROL Attribution]** aan de rechterkant van het scherm uit.
 
-   ![&#x200B; de meningsvenster van Gegevens die de Vastgestelde attributieoptie benadrukken &#x200B;](../assets/attribution-settings.png)
+   ![ de meningsvenster van Gegevens die de Vastgestelde attributieoptie benadrukken ](../assets/attribution-settings.png)
 
-1. Selecteer [!UICONTROL **Vastgestelde attributie**], dan selecteren het [&#x200B; attributiemodel &#x200B;](#attribution-models), [&#x200B; container &#x200B;](#container) en [&#x200B; raadplegings &#x200B;](#lookback-window) venster.
+1. Selecteer [!UICONTROL **Vastgestelde attributie**], dan selecteren het [ attributiemodel ](#attribution-models), [ container ](#container) en [ raadplegings ](#lookback-window) venster.
 
 
 
@@ -69,7 +67,7 @@ Het standaardtoewijzingsmodel van een component bijwerken:
 >
 > * Kopieer de metrische waarde in de gegevensweergave met elke gewenste attributie-instelling. U kunt dezelfde metrische waarde meerdere keren opnemen in een gegevensweergave, zodat elke meting een andere instelling heeft. Zorg ervoor dat u elke metrisch geschikt etiketteert zodat de analisten het verschil tussen deze metriek begrijpen wanneer het produceren van rapporten.
 >
-> * Overschrijf de metrische waarde in Analysis Workspace. In de montages van de Kolom van metrische [&#x200B; &#x200B;](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md), uitgezochte **[!UICONTROL Use non-default attribution model]** om het de attributiemodel van metrische metrische te veranderen en raadplegingsvenster voor dat specifieke rapport.
+> * Overschrijf de metrische waarde in Analysis Workspace. In de montages van de Kolom van metrische [ ](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md), uitgezochte **[!UICONTROL Use non-default attribution model]** om het de attributiemodel van metrische metrische te veranderen en raadplegingsvenster voor dat specifieke rapport.
 
 ## Attributiemodellen {#attribution-models}
 
