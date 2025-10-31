@@ -90,4 +90,4 @@ De volgende aanvullende opties in contextmenu&#39;s zijn beschikbaar wanneer u e
 
 ## Rijhoogte wijzigen
 
-U kunt de [&#x200B; meningsdichtheid &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density) van een project plaatsen aan **[!UICONTROL Compact]**, **[!UICONTROL Comfortable]**, en **[!UICONTROL Expanded]**.
+U kunt de [&#x200B; meningsdichtheid &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density) van een project plaatsen aan **[!UICONTROL Compact]**, **[!UICONTROL Comfortable]**, en **[!UICONTROL Expanded]**.
