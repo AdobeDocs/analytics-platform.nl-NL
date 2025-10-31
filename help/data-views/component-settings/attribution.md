@@ -53,9 +53,9 @@ Het standaardtoewijzingsmodel van een component bijwerken:
 
 1. Selecteer de component en vouw vervolgens de sectie **[!UICONTROL Attribution]** aan de rechterkant van het scherm uit.
 
-   ![ de meningsvenster van Gegevens die de Vastgestelde attributieoptie benadrukken ](../assets/attribution-settings.png)
+   ![&#x200B; de meningsvenster van Gegevens die de Vastgestelde attributieoptie benadrukken &#x200B;](../assets/attribution-settings.png)
 
-1. Selecteer [!UICONTROL **Vastgestelde attributie**], dan selecteren het [ attributiemodel ](#attribution-models), [ container ](#container) en [ raadplegings ](#lookback-window) venster.
+1. Selecteer [!UICONTROL **Vastgestelde attributie**], dan selecteren het [&#x200B; attributiemodel &#x200B;](#attribution-models), [&#x200B; container &#x200B;](#container) en [&#x200B; raadplegings &#x200B;](#lookback-window) venster.
 
 
 
@@ -67,7 +67,7 @@ Het standaardtoewijzingsmodel van een component bijwerken:
 >
 > * Kopieer de metrische waarde in de gegevensweergave met elke gewenste attributie-instelling. U kunt dezelfde metrische waarde meerdere keren opnemen in een gegevensweergave, zodat elke meting een andere instelling heeft. Zorg ervoor dat u elke metrisch geschikt etiketteert zodat de analisten het verschil tussen deze metriek begrijpen wanneer het produceren van rapporten.
 >
-> * Overschrijf de metrische waarde in Analysis Workspace. In de montages van de Kolom van metrische [ ](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md), uitgezochte **[!UICONTROL Use non-default attribution model]** om het de attributiemodel van metrische metrische te veranderen en raadplegingsvenster voor dat specifieke rapport.
+> * Overschrijf de metrische waarde in Analysis Workspace. In de montages van de Kolom van metrische [&#x200B; &#x200B;](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md), uitgezochte **[!UICONTROL Use non-default attribution model]** om het de attributiemodel van metrische metrische te veranderen en raadplegingsvenster voor dat specifieke rapport.
 
 ## Attributiemodellen {#attribution-models}
 
