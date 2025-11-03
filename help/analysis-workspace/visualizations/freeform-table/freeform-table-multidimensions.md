@@ -22,7 +22,7 @@ U kunt filters, het sorteren, het breken, en meer op vrije vormlijsten met veelv
 
 ## Samengevoegde dimensie-items
 
-Wanneer u [ veelvoudige afmetingskolommen aan een vrije vormlijst ](#add-multiple-dimension-columns) toevoegt, gedraagt elke rij van afmetingspunten zich als één enkel samengevoegd afmetingspunt. Met deze functionaliteit kunt u metrische gegevens bekijken voor specifieke combinaties van dimensies.
+Wanneer u [&#x200B; veelvoudige afmetingskolommen aan een vrije vormlijst &#x200B;](#add-multiple-dimension-columns) toevoegt, gedraagt elke rij van afmetingspunten zich als één enkel samengevoegd afmetingspunt. Met deze functionaliteit kunt u metrische gegevens bekijken voor specifieke combinaties van dimensies.
 
 Bijvoorbeeld, overweeg een vrije lijst waar de afmetingskolommen _,_ Type van Apparaat _zijn, en_ Dag van Maand _en metrisch is_ Gebeurtenissen _._ De 3 afmetingspunten in de eerste rij van deze lijst worden één enkel samengevoegd afmetingspunt dat aantoont dat er 2.056 gebeurtenissen waren die in Mumbai van mobiele telefoons op de 30e dag van de maand plaatsvonden.
 
@@ -35,7 +35,7 @@ Bijvoorbeeld, overweeg een vrije lijst waar de afmetingskolommen _,_ Type van Ap
 
 Hieronder ziet u hoe deze tabel in Analysis Workspace wordt weergegeven:
 
-![ Multidimensionaal voorbeeld ](assets/multi-dim-example.png)
+![&#x200B; Multidimensionaal voorbeeld &#x200B;](assets/multi-dim-example.png)
 
 ## Meerdere dimensiekolommen toevoegen
 
@@ -43,27 +43,27 @@ U kunt meerdere dimensiekolommen één voor één of in bulk toevoegen.
 
 1. Maak in Analysis Workspace een vrije-vormtabel.
 
-   Voor meer informatie, zie [ visualisaties aan een paneel ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) in [ overzicht van Visualisaties ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) toevoegen.
+   Voor meer informatie, zie [&#x200B; visualisaties aan een paneel &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) in [&#x200B; overzicht van Visualisaties &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) toevoegen.
 
 1. Voeg afmetingen toe aan de vrije-vormlijst. U kunt de afmetingen een voor een toevoegen of u kunt meerdere afmetingen tegelijk toevoegen.
 
    * Sleep de afmetingen een voor een naar de vrije-vormtabel. Plaats extra afmetingskolommen links of rechts van bestaande afmetingskolommen in de tabel. Een blauwe verticale **[!UICONTROL Add]** lijn geeft aan waar de nieuwe kolom wordt gemaakt.
 
-     ![ belemmering individuele afmetingen ](assets/dimensions-add-individually.png)
+     ![&#x200B; belemmering individuele afmetingen &#x200B;](assets/dimensions-add-individually.png)
 
    * Selecteer maximaal 5 dimensies in het deelvenstermenu en sleep ze naar de vrije-vormtabel. Dimensies worden van links naar rechts aan de tabel toegevoegd in de volgorde waarin u ze selecteert.
 
      Om veelvoudige afmetingen te selecteren, houd de ***sleutel van het Bevel*** (op Mac) of de ***sleutel van CTRL*** (op Vensters).
 
-     ![ belemmering veelvoudige afmetingen ](assets/dimensions-add-multiple.png)
+     ![&#x200B; belemmering veelvoudige afmetingen &#x200B;](assets/dimensions-add-multiple.png)
 
-1. Bekijk elke rij van de lijst als één enkel afmetingspunt. Voor meer informatie, zie [ Samengevoegde afmetingspunten ](#view-concatenated-dimension-items).
+1. Bekijk elke rij van de lijst als één enkel afmetingspunt. Voor meer informatie, zie [&#x200B; Samengevoegde afmetingspunten &#x200B;](#view-concatenated-dimension-items).
 
 ## Filtertabellen
 
 U kunt filters op één of meerdere afmetingskolommen in een vrije vormlijst toepassen.
 
-Voor informatie over het filtreren van lijsten, zie {de lijsten van de Filter [ in ](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#filter-tables) Filter en sorteer vrije vormlijsten [.](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+Voor informatie over het filtreren van lijsten, zie &lbrace;de lijsten van de Filter [&#x200B; in &#x200B;](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#filter-tables) Filter en sorteer vrije vormlijsten [.](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
 
 ## Tabellen sorteren {#sort-tables}
 
@@ -75,17 +75,17 @@ Standaard worden de afmetingen in oplopende volgorde gesorteerd en worden de cij
 
 ### Tabellen sorteren op één kolom
 
-Wanneer u gegevens voor één enkele kolom zoals die in deze sectie wordt beschreven sorteert, wordt om het even welk [ geavanceerd sorteren ](#sort-tables-by-multiple-columns-advanced-sorting) die op de lijst wordt toegepast verwijderd.
+Wanneer u gegevens voor één enkele kolom zoals die in deze sectie wordt beschreven sorteert, wordt om het even welk [&#x200B; geavanceerd sorteren &#x200B;](#sort-tables-by-multiple-columns-advanced-sorting) die op de lijst wordt toegepast verwijderd.
 
 Gegevens in tabellen sorteren op één kolom:
 
-1. De muis over de kopbal van de kolom u wilt sorteren, dan de **pictogram van de Soort** Soort ![ selecteren wanneer het verschijnt.](/help/assets/icons/SortOrderDown.svg)
+1. De muis over de kopbal van de kolom u wilt sorteren, dan de **pictogram van de Soort** Soort ![&#x200B; selecteren wanneer het verschijnt.](/help/assets/icons/SortOrderDown.svg)
 
-   ![ Soort drop-down menu ](assets/sort-dropdown-menu.png)
+   ![&#x200B; Soort drop-down menu &#x200B;](assets/sort-dropdown-menu.png)
 
 1. Selecteer **[!UICONTROL Ascending]** of **[!UICONTROL Descending]** .
 
-   Het sorteerpictogram blijft zichtbaar wanneer het sorteren wordt toegepast op de kolom. Een pijl wijst erop hoe het gegeven wordt gesorteerd (![ Soort ](/help/assets/icons/SortOrderUp.svg) voor het stijgen of ![ Soort ](/help/assets/icons/SortOrderDown.svg) voor het dalen).
+   Het sorteerpictogram blijft zichtbaar wanneer het sorteren wordt toegepast op de kolom. Een pijl wijst erop hoe het gegeven wordt gesorteerd (![&#x200B; Soort &#x200B;](/help/assets/icons/SortOrderUp.svg) voor het stijgen of ![&#x200B; Soort &#x200B;](/help/assets/icons/SortOrderDown.svg) voor het dalen).
 
 ### Tabellen sorteren op meerdere kolommen (geavanceerd sorteren)
 
@@ -95,23 +95,23 @@ Gegevens in tabellen sorteren op één kolom:
 
 Gegevens in tabellen sorteren op meerdere kolommen:
 
-1. De muis over de kopbal van om het even welke kolom die u wilt sorteren, selecteert dan de **pictogram van de Soort** Soort ![ wanneer het verschijnt.](/help/assets/icons/SortOrderDown.svg)
+1. De muis over de kopbal van om het even welke kolom die u wilt sorteren, selecteert dan de **pictogram van de Soort** Soort ![&#x200B; wanneer het verschijnt.](/help/assets/icons/SortOrderDown.svg)
 
-   ![ Soort drop-down menu ](assets/sort-dropdown-menu.png)
+   ![&#x200B; Soort drop-down menu &#x200B;](assets/sort-dropdown-menu.png)
 
 1. Selecteer **[!UICONTROL Advanced sorting]**.
 
-   ![ Geavanceerde sorterende dialoog ](assets/sort-advanced-dialog.png)
+   ![&#x200B; Geavanceerde sorterende dialoog &#x200B;](assets/sort-advanced-dialog.png)
 
 1. Voer in het dialoogvenster Geavanceerd sorteren een van de volgende handelingen uit:
 
    * U kunt kolommen toevoegen die nog niet worden gesorteerd door de knop **[!UICONTROL Add sort column]** te selecteren.
 
-   * Verwijder kolommen die u niet meer wilt sorteren door **te selecteren verwijder** pictogram ![ ](/help/assets/icons/Close.svg) verwijdert.
+   * Verwijder kolommen die u niet meer wilt sorteren door **te selecteren verwijder** pictogram ![&#x200B; &#x200B;](/help/assets/icons/Close.svg) verwijdert.
 
    * Sleep kolommen hoger of lager in de lijst om de sorteerprioriteit aan te passen.
 
-     Voor meer informatie, zie [ prioriteit van de Soort ](#sort-priority).
+     Voor meer informatie, zie [&#x200B; prioriteit van de Soort &#x200B;](#sort-priority).
 
    * Wijzig de sorteerwaarde door **[!UICONTROL Ascending]** of **[!UICONTROL Descending]** te selecteren in de vervolgkeuzelijst.
 
@@ -119,13 +119,13 @@ Gegevens in tabellen sorteren op meerdere kolommen:
 
 1. Selecteer **[!UICONTROL Apply]**.
 
-Het sorteerpictogram blijft zichtbaar wanneer het sorteren wordt toegepast op een kolom. Een pijl wijst erop hoe het gegeven wordt gesorteerd (![ Soort ](/help/assets/icons/SortOrderUp.svg) voor het stijgen of ![ Soort ](/help/assets/icons/SortOrderDown.svg) voor het dalen).
+Het sorteerpictogram blijft zichtbaar wanneer het sorteren wordt toegepast op een kolom. Een pijl wijst erop hoe het gegeven wordt gesorteerd (![&#x200B; Soort &#x200B;](/help/assets/icons/SortOrderUp.svg) voor het stijgen of ![&#x200B; Soort &#x200B;](/help/assets/icons/SortOrderDown.svg) voor het dalen).
 
-![ multi-sort voorbeeld ](assets/dimensions-multiple-sort.png)
+![&#x200B; multi-sort voorbeeld &#x200B;](assets/dimensions-multiple-sort.png)
 
 #### Sorteerprioriteit
 
-Wanneer u gegevens voor meerdere kolommen sorteert, worden de gegevens gesorteerd op basis van de prioriteit die u aan elke kolom toewijst. De prioritaire nummering wordt getoond naast het de rangschikkingsprioritaire pictogram van het soortpictogram ![ ](assets/sort-priority-icon.png).
+Wanneer u gegevens voor meerdere kolommen sorteert, worden de gegevens gesorteerd op basis van de prioriteit die u aan elke kolom toewijst. De prioritaire nummering wordt getoond naast het de rangschikkingsprioritaire pictogram van het soortpictogram ![&#x200B; &#x200B;](assets/sort-priority-icon.png).
 
 De kolom met de primaire prioriteit bepaalt de hoofdorde; de kolom met de secundaire prioriteit beslist de orde wanneer de rijen de zelfde waarde in de primaire kolom hebben; de kolom met de tertiaire prioriteit beslist de orde wanneer de rijen de zelfde waarde in de primaire en secundaire kolommen hebben; etc.
 
@@ -147,7 +147,7 @@ U kunt als volgt een sorteerprioriteit aan elke kolom toewijzen:
 
 Door een sorteerprioriteit toe te wijzen aan elke kolom, kunt u precies bepalen hoe de gegevens in de lijst worden getoond. In dit voorbeeld wordt de informatie eerst gesorteerd op Dag van Maand, vervolgens op Uur van Dag en ten slotte op Gebeurtenissen.
 
-![ multi-sort voorbeeld ](assets/dimensions-multiple-sort.png)
+![&#x200B; multi-sort voorbeeld &#x200B;](assets/dimensions-multiple-sort.png)
 
 ## Kolommen en onderverdelingen met meerdere dimensies
 
@@ -167,11 +167,11 @@ Met meerdere dimensiekolommen kunt u:
 
 * Omvat afmetingspunten in samengevoegde rijen slechts wanneer de afmetingspunten op elke afmetingskolom in de lijst van toepassing zijn. Hiertoe deselecteert u met het kolomfilter de instelling **[!UICONTROL Include "No value"]** voor elke dimensiekolom.
 
-  Voor meer informatie, zie [ de lijsten van de Soort door veelvoudige kolommen (het Geavanceerde sorteren) ](#sort-tables-by-multiple-columns-advanced-sorting).
+  Voor meer informatie, zie [&#x200B; de lijsten van de Soort door veelvoudige kolommen (het Geavanceerde sorteren) &#x200B;](#sort-tables-by-multiple-columns-advanced-sorting).
 
 * De gegevens van de soort door veelvoudige afmeting en metrische kolommen om meer aangepaste gegevens te zien.
 
-  Voor meer informatie, zie [ de lijsten van de Soort door veelvoudige kolommen (het Geavanceerde sorteren) ](#sort-tables-by-multiple-columns-advanced-sorting)
+  Voor meer informatie, zie [&#x200B; de lijsten van de Soort door veelvoudige kolommen (het Geavanceerde sorteren) &#x200B;](#sort-tables-by-multiple-columns-advanced-sorting)
 
 Met indelingen kunt u:
 
@@ -185,7 +185,7 @@ Bovendien kunt u meerdere dimensiekolommen binnen een verdeling toevoegen. Elke 
 
 <!-- update screenshot to show the breakdown, and include this introductory sentence: "For example, you can break down the first dimension item in this table by a new concatenated dimension item that shows... " -->
 
-![ multi-sort voorbeeld ](assets/dimensions-multiple-sort.png)
+![&#x200B; multi-sort voorbeeld &#x200B;](assets/dimensions-multiple-sort.png)
 
 Voor meer informatie over hoe te om een onderverdeling toe te voegen, zie {de afmetingen van 0} Onderbreking [.](/help/components/dimensions/t-breakdown-fa.md)
 
@@ -193,12 +193,12 @@ Voor meer informatie over hoe te om een onderverdeling toe te voegen, zie {de af
 
 Wanneer u een segment creeert dat op een afmetingspunt wordt gebaseerd dat veelvoudige afmetingskolommen overspant, is elk afmetingspunt inbegrepen in de segmentdefinitie, met en exploitanten die hen aansluiten.
 
-Voor informatie over het creëren van een segment, zie [ segmenten ](/help/components/segments/seg-create.md) creëren.
+Voor informatie over het creëren van een segment, zie [&#x200B; segmenten &#x200B;](/help/components/segments/seg-create.md) creëren.
 
 ## Niet-ondersteunde afmetingen {#unsupported}
 
 De volgende dimensiecombinaties worden niet ondersteund en Analysis Workspace verbiedt het toevoegen ervan of toont een foutbericht nadat deze zijn toegevoegd:
 
-* De veelvoudige afmetingen die van gebieden zijn die verschillende [ series van voorwerpen ](/help/use-cases/object-arrays.md) van verwijzingen voorzien die samen in de zelfde vrije vormlijst worden gebruikt.
+* De veelvoudige afmetingen die van gebieden zijn die verschillende [&#x200B; series van voorwerpen &#x200B;](/help/use-cases/object-arrays.md) van verwijzingen voorzien die samen in de zelfde vrije vormlijst worden gebruikt.
 
   Meerdere afmetingen zijn samen toegestaan in dezelfde vrije-vormtabel als ze naar dezelfde array van objecten verwijzen.
