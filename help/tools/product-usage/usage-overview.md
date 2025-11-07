@@ -2,9 +2,9 @@
 title: Overzicht van productgebruik
 description: Bekijk inzichten en rapporten over hoe uw organisatie Customer Journey Analytics gebruikt.
 exl-id: 3806ca7c-ee90-4222-9ffd-2e791c4550e5
-source-git-commit: 5b5d4cb17ee73415dbd77bbf0964fc3d4e513cf0
+source-git-commit: 22f3059ffef5df76028f36ffa00da8f98956dee1
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,15 @@ Alle gegevensinzameling en opstelling worden automatisch gevormd voor u zodra to
 
 >[!IMPORTANT]
 >
->Deze functie telt mee voor je contractuele rijlimieten in Adobe Experience Platform. Zorg ervoor dat uw organisatie de gegevens kan aanpassen die door deze eigenschap worden geproduceerd alvorens het toe te laten.
+>Als u het productgebruik inschakelt, worden gebruiksgegevens opgeslagen in uw Adobe Experience Platform-datumpigment. Zorg ervoor dat de de opslagtoewijzing van het gegevensmeer van uw organisatie de extra datasets kan aanpassen die door deze eigenschap worden geproduceerd toe te laten.
+>
+>Deze functie telt niet mee voor rijlimieten of rechten voor gebeurtenisgegevens die zijn opgegeven in Customer Journey Analytics.
 
 ## Productgebruik inschakelen
 
 **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Product Usage]**
 
-Het navigeren aan deze sectie van de interface in Customer Journey Analytics neemt u aan [&#x200B; montages van Gegevens &#x200B;](data-settings.md) waar u deze eigenschap kunt toelaten.
+Het navigeren aan deze sectie van de interface in Customer Journey Analytics neemt u aan [ montages van Gegevens ](data-settings.md) waar u deze eigenschap kunt toelaten.
 
 ## Beschikbare afmetingen
 
@@ -134,7 +136,7 @@ Het gebruik van het product houdt geen individuele projectcomponenten bij wannee
 
 ## Beschikbare sjabloon
 
-Een [&#x200B; malplaatje van Adobe &#x200B;](/help/analysis-workspace/templates/use-templates.md) is beschikbaar dat de componenten gebruikt die automatisch van deze eigenschap worden geproduceerd.
+Een [ malplaatje van Adobe ](/help/analysis-workspace/templates/use-templates.md) is beschikbaar dat de componenten gebruikt die automatisch van deze eigenschap worden geproduceerd.
 
 **[!UICONTROL Adobe templates]** > **[!UICONTROL Other]** > **[!UICONTROL Product usage overview]**
 
