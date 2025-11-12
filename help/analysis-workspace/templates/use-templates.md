@@ -4,9 +4,9 @@ title: Sjablonen gebruiken
 feature: Workspace Basics
 role: User, Admin
 exl-id: d61f215d-9089-4014-9c5a-97f5d7134f34
-source-git-commit: e8cba64e706a456861fd8392ce9260b7a1c4636b
+source-git-commit: d6477006dfa8134521516b6e0665ff487236c10a
 workflow-type: tm+mt
-source-wordcount: '20382'
+source-wordcount: '20719'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ De volgende informatie beschrijft hoe u sjablonen kunt openen en gebruiken via h
 
 1. In Analysis Workspace, selecteer [!UICONTROL **Workspace**] tabel.
 
-   ![&#x200B; lusjes van Malplaatjes &#x200B;](assets/view-prebuilt-templates-full.png)
+   ![ lusjes van Malplaatjes ](assets/view-prebuilt-templates-full.png)
 
 1. In de [!UICONTROL **sectie van Malplaatjes**], selecteer één van beiden van de volgende lusjes:
 
@@ -39,13 +39,13 @@ De volgende informatie beschrijft hoe u sjablonen kunt openen en gebruiken via h
 
    * **[!UICONTROL _login_company_name _malplaatjes]**: Toont alle bedrijfmalplaatjes die voor uw organisatie zijn gecreeerd.
 
-     Alleen beheerders kunnen bedrijfssjablonen maken. Voor informatie over hoe te om een bedrijfmalplaatje tot stand te brengen, zie [&#x200B; malplaatjes &#x200B;](/help/analysis-workspace/templates/create-templates.md) creëren en beheren.
+     Alleen beheerders kunnen bedrijfssjablonen maken. Voor informatie over hoe te om een bedrijfmalplaatje tot stand te brengen, zie [ malplaatjes ](/help/analysis-workspace/templates/create-templates.md) creëren en beheren.
 
 1. Gebruik een van de volgende opties om de weergave van de beschikbare sjablonen te wijzigen:
 
-   * Kies of om malplaatjes in een kolommening of een kaartmening te bekijken door of de kolommening ![&#x200B; ViewColumn &#x200B;](/help/assets/icons/ViewColumn.svg) of het pictogram van de kaartmening ![&#x200B; Kaart &#x200B;](/help/assets/icons/Card.svg) te selecteren.
+   * Kies of om malplaatjes in een kolommening of een kaartmening te bekijken door of de kolommening ![ ViewColumn ](/help/assets/icons/ViewColumn.svg) of het pictogram van de kaartmening ![ Kaart ](/help/assets/icons/Card.svg) te selecteren.
 
-   * Wanneer het gebruiken van de kaartmening ![&#x200B; Kaart &#x200B;](/help/assets/icons/Card.svg), kies van de volgende soortorden: **[!UICONTROL Most recently used]**, **[!UICONTROL Most popular]**, **[!UICONTROL Alphabetical]**, **[!UICONTROL Categorical]**.
+   * Wanneer het gebruiken van de kaartmening ![ Kaart ](/help/assets/icons/Card.svg), kies van de volgende soortorden: **[!UICONTROL Most recently used]**, **[!UICONTROL Most popular]**, **[!UICONTROL Alphabetical]**, **[!UICONTROL Categorical]**.
 
 1. Typ in het zoekveld de naam van de sjabloon die u wilt zoeken en selecteer deze in de lijst met sjablonen.
 
@@ -57,21 +57,21 @@ De volgende informatie beschrijft hoe u sjablonen kunt openen en gebruiken via h
    >
    >Als u met de pijltoetsen door het menu wilt navigeren, drukt u op de toets Volgende schuine streep (/) en vervolgens op de toets Pijl-omlaag. Druk op Enter om de geselecteerde sjabloon te laden.
 
-   Voor een lijst van malplaatjes die beschikbaar zijn, zie de [&#x200B; Beschikbare malplaatjes &#x200B;](#available-templates) hieronder sectie.
+   Voor een lijst van malplaatjes die beschikbaar zijn, zie de [ Beschikbare malplaatjes ](#available-templates) hieronder sectie.
 
 1. (Optioneel) U kunt sjablonen weergeven die componenten bevatten die niet beschikbaar zijn in de gegevensweergave. (Door gebrek, worden de malplaatjes getoond slechts als zij componenten gebruiken die in uw gegevensmening beschikbaar zijn.)
 
    >[!NOTE]
    >
-   >Voordat u deze sjablonen kunt gebruiken, moet een beheerder eerst de vereiste contextlabels voor deze ontbrekende componenten toevoegen aan de gegevensweergave. Voor meer informatie, zie [&#x200B; ontbrekende componenten aan de gegevensmening voor een bepaald malplaatje &#x200B;](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template) in [&#x200B; malplaatjes van het Gebruik &#x200B;](/help/analysis-workspace/templates/create-templates.md) toevoegen.
+   >Voordat u deze sjablonen kunt gebruiken, moet een beheerder eerst de vereiste contextlabels voor deze ontbrekende componenten toevoegen aan de gegevensweergave. Voor meer informatie, zie [ ontbrekende componenten aan de gegevensmening voor een bepaald malplaatje ](/help/analysis-workspace/templates/create-templates.md#add-missing-components-to-the-data-view-for-a-given-template) in [ malplaatjes van het Gebruik ](/help/analysis-workspace/templates/create-templates.md) toevoegen.
    >
-   >Voor meer informatie over contextetiketten, zie [&#x200B; montages van de Component &#x200B;](/help/data-views/component-settings/overview.md).
+   >Voor meer informatie over contextetiketten, zie [ montages van de Component ](/help/data-views/component-settings/overview.md).
 
    1. Selecteer het segmentpictogram.
 
    1. Selecteer **[!UICONTROL Not ready for use]** om sjablonen weer te geven waarvoor extra componenten nodig zijn.
 
-      ![&#x200B; Gebruik een malplaatje dat componenten &#x200B;](assets/template-not-ready.png) mist
+      ![ Gebruik een malplaatje dat componenten ](assets/template-not-ready.png) mist
 
 1. Selecteer het malplaatje om een rapport tot stand te brengen dat op het malplaatje wordt gebaseerd u koos.
 
@@ -97,11 +97,11 @@ Een sjabloon aanpassen en opslaan als project:
 
 1. Selecteer de sjabloon die u wilt weergeven. Bijvoorbeeld, onder [!UICONTROL **het populairste**], selecteer het [!UICONTROL **malplaatje van Pagina&#39;s**].
 
-   Het malplaatje van Pagina&#39;s, zoals getoond in Analysis Workspace, toont twee [&#x200B; visualisaties &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) ([&#x200B; grafiek van de Bar &#x200B;](/help/analysis-workspace/visualizations/bar.md) en [&#x200B; Samenvattingsaantal &#x200B;](/help/analysis-workspace/visualizations/summary-number-change.md)) en a [&#x200B; lijst van de Vrije vorm &#x200B;](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md). De gebruikte metrische waarde is Voorvallen.
+   Het malplaatje van Pagina&#39;s, zoals getoond in Analysis Workspace, toont twee [ visualisaties ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) ([ grafiek van de Bar ](/help/analysis-workspace/visualizations/bar.md) en [ Samenvattingsaantal ](/help/analysis-workspace/visualizations/summary-number-change.md)) en a [ lijst van de Vrije vorm ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md). De gebruikte metrische waarde is Voorvallen.
 
    <!--update screenshot. The following is AA -->
 
-   ![&#x200B; malplaatje van Pagina&#39;s &#x200B;](assets/pages-report.png)
+   ![ malplaatje van Pagina&#39;s ](assets/pages-report.png)
 
 1. Voer een van de volgende handelingen uit:
 
@@ -112,7 +112,7 @@ Een sjabloon aanpassen en opslaan als project:
 
 1. (Facultatief) sparen het malplaatje als project door [!UICONTROL **Project**] te selecteren > [!UICONTROL **sparen**].
 
-   De sjabloon wordt als een nieuw project opgeslagen; de bestaande sjabloon wordt niet gewijzigd. Voor meer informatie over het bewaren van projecten, zie [&#x200B; projecten &#x200B;](/help/analysis-workspace/build-workspace-project/save-projects.md) sparen.
+   De sjabloon wordt als een nieuw project opgeslagen; de bestaande sjabloon wordt niet gewijzigd. Voor meer informatie over het bewaren van projecten, zie [ projecten ](/help/analysis-workspace/build-workspace-project/save-projects.md) sparen.
 
 ## Beschikbare sjablonen
 
@@ -383,7 +383,7 @@ De volgende sjablonen zijn beschikbaar:
 >[!CONTEXTUALHELP]
 >id="template--content-analytics"
 >title="Leer welke inhoud en inhoudskenmerken het best presteren."
->abstract="**dit kan u helpen** leren hoe uw inhoud op een korrelig niveau presteert. U kunt kijken naar de prestaties van afzonderlijke elementen of naar specifieke kenmerken. Content Analytics gebruikt AI om automatisch kenmerken te genereren en de inhoud ervan te labelen. <a href="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/content-analytics/content-analytics" target="&quot;_blank&quot;"> leer meer </a>.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als het bevorderen van hoog presterende activa op uw homepage, inhoud voor specifieke segmenten personaliseren om hoge het presteren attributen te omvatten, of inhoud roteren die is begonnen te worden verkoop."
+>abstract="**dit kan u helpen** leren hoe uw inhoud op een korrelig niveau presteert. U kunt kijken naar de prestaties van afzonderlijke elementen of naar specifieke kenmerken. Content Analytics gebruikt AI om automatisch kenmerken te genereren en de inhoud ervan te labelen. <a href="https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics" target="&quot;_blank&quot;"> leer meer </a>.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als het bevorderen van hoog presterende activa op uw homepage, inhoud voor specifieke segmenten personaliseren om hoge het presteren attributen te omvatten, of inhoud roteren die is begonnen te worden verkoop."
 
 
 De volgende sjablonen zijn beschikbaar:
@@ -404,7 +404,7 @@ De volgende sjablonen zijn beschikbaar:
 | **pagina&#39;s van de Ingang** | Bekijk de bovenste pagina&#39;s waartoe mensen toegang hebben wanneer ze uw site voor het eerst bezoeken. <p>**dit kan u helpen** beter begrijpen welke pagina&#39;s het meeste verkeer aan uw plaats drijven of meer over de eerste impressiebezoekers op uw plaats begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer de aanvankelijke ervaring mensen op de plaats krijgen, of ervoor zorgen dat de pagina&#39;s mensen eerst zien bij het ingaan van uw plaats welkomend en de noodzakelijke verbindingen aan andere gebieden van uw plaats verstrekken.</p><p>Deze sjabloon gebruikt metrische sessies. Het gebruikt ook de Bar visualisatie en de Freeform lijstvisualisatie.</p> |
 | **Pagina&#39;s van de uitgang** | Bekijk de bovenste pagina&#39;s die mensen direct openen voordat ze uw site verlaten.<p>**dit kan u** helpen beter begrijpen welke pagina&#39;s mensen weg van de plaats leiden. </p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als gemeenschappelijke eindpagina&#39;s bijwerken om de ervaring te optimaliseren krijgen de mensen alvorens zij verlaten, of inhoud of verbindingen omvatten om mensen aan te moedigen om op uw plaats te blijven.</p><p>Deze sjabloon gebruikt metrische sessies. Het gebruikt ook de Bar visualisatie en de Freeform lijstvisualisatie.</p> |
 | **overzicht van het het gebruiksgebruik van het Product** | Bekijk hoe het Customer Journey Analytics-product binnen uw organisatie wordt gebruikt. <p>**dit kan u helpen** beter begrijpen hoeveel mensen Customer Journey Analytics gebruiken, hoe vaak zij het, en gebruikstrends in tijd gebruiken. U kunt ook het aantal projecten zien die worden gecreeerd en details over die projecten (zoals welke componenten, visualisaties, en panelen het meest algemeen worden gebruikt), en vele andere gebruiksstatistieken.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals schrapping ongebruikte projecten of componenten, of gebruikersopleiding voor populaire eigenschappen verstrekken.</p> |
-| **Content Analytics** | Leer welke inhoud en inhoudskenmerken het best presteren.<p>**dit kan u helpen** leren hoe uw inhoud op een korrelig niveau presteert. U kunt kijken naar de prestaties van afzonderlijke elementen of naar specifieke kenmerken. Content Analytics gebruikt AI om automatisch kenmerken te genereren en de inhoud ervan te labelen. Zie [&#x200B; Content Analytics &#x200B;](/help/content-analytics/content-analytics.md){target="_blank"} voor meer informatie.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als het bevorderen van hoog presterende activa op uw homepage, inhoud voor specifieke segmenten personaliseren om hoge het presteren attributen te omvatten, of inhoud roteren die is begonnen te worden verkoop.</p> |
+| **Content Analytics** | Leer welke inhoud en inhoudskenmerken het best presteren.<p>**dit kan u helpen** leren hoe uw inhoud op een korrelig niveau presteert. U kunt kijken naar de prestaties van afzonderlijke elementen of naar specifieke kenmerken. Content Analytics gebruikt AI om automatisch kenmerken te genereren en de inhoud ervan te labelen. Zie [ Content Analytics ](/help/content-analytics/content-analytics.md){target="_blank"} voor meer informatie.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als het bevorderen van hoog presterende activa op uw homepage, inhoud voor specifieke segmenten personaliseren om hoge het presteren attributen te omvatten, of inhoud roteren die is begonnen te worden verkoop.</p> |
 
 ### Web: Conversie {#web-conversion}
 
@@ -468,12 +468,12 @@ De volgende sjablonen zijn beschikbaar:
 
 | Sjabloonnaam | Waarom deze sjabloon gebruiken <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
-| [!UICONTROL **Trechter van de Productomzetting van het Product**] | Bekijk de productomzetting in een trechter-visualisatie die winkelwagentjes, kassa&#39;s en bestellingen toont. U kunt ook conversiepercentages, inkomstengemiddelden, eenheidsgemiddelden en ordergemiddelden zien.<p>**dit kan u helpen** beter begrijpen hoe de mensen door en weggaan tijdens het omzettingsproces.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw website verbeteren om een vlotter controleproces te vergemakkelijken.</p> |
+| [!UICONTROL **de omzetting van het Product funnel**] | Bekijk de productomzetting in een trechter-visualisatie die winkelwagentjes, kassa&#39;s en bestellingen toont. U kunt ook conversiepercentages, inkomstengemiddelden, eenheidsgemiddelden en ordergemiddelden zien.<p>**dit kan u helpen** beter begrijpen hoe de mensen door en weggaan tijdens het omzettingsproces.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw website verbeteren om een vlotter controleproces te vergemakkelijken.</p> |
 | **Producten** | Bepalen welke producten de drijvende kracht zijn achter de belangrijkste maatstaven, zoals de beste verkopers of de meeste weergegeven verkopers. <p>**dit kan u helpen** beter begrijpen welke producten het meest succesvol zijn.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals verhoging van financiering aan succesvolle producten en vermindering financiering aan minder succesvolle producten.</p><p>Deze malplaatje gebruikt metrische Orden en de afmeting van het Product. |
 | **Prestaties van het Product** | Bekijk welke producten het best presteren.<p>**dit kan u helpen** beter begrijpen welke producten het meest succesvol zijn.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals verhoging van financiering aan succesvolle producten en vermindering financiering aan minder succesvolle producten.</p><p>Deze sjabloon gebruikt de metriek Productweergaven, Toevoegingen voor winkelwagentjes, Bestellingen, Opbrengsten en Eenheden. Het gebruikt ook de dimensie van het Product. |
 | **de omzettingstekens van de Kar** | Bekijk het aantal keren dat mensen toetsafhandelingsgebeurtenissen hebben uitgevoerd, zoals het toevoegen van items aan hun winkelwagentje, het bekijken van hun winkelwagentje, het verwijderen van items uit hun winkelwagentje en het uitchecken. <p>**dit kan u helpen** beter begrijpen welke delen van het controleproces trechter die tot omzetting leiden en die aan kartontroeping vatbaarder zijn.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als vermindering wrijving bij bepaalde stappen van het controleproces.</p> |
 | **Houtskaarten** | Bekijk het aantal personen dat een product aan hun winkelwagentje heeft toegevoegd.<p>**dit kan u helpen** beter het aantal mensen begrijpen die een product aan hun kar, in tegenstelling tot het algemene aantal producten toevoegen die aan een kar worden toegevoegd.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als maatregel de doeltreffendheid van uw productpagina&#39;s.</p><p>In deze sjabloon wordt de metrische kaart gebruikt. |
-| {de meningen van 0} Kaart **&#x200B;**&#x200B;| Bekijk het aantal keren dat mensen hun winkelwagentje bekeken. <p>**dit kan u helpen** beter de controleervaring in een inspanning begrijpen om het tarief van de kartontroeping te verminderen, of de tijd tussen karttoevoegingen en controles onder verschillende producten te analyseren.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals aanbiedingsbevorderingen voor producten die in winkelwagentjes het langst blijven en bij het grootste risico voor verlaten zijn.</p><p>In deze sjabloon wordt de metrische weergave van winkelwagentjes gebruikt. |
+| {de meningen van 0} Kaart **** | Bekijk het aantal keren dat mensen hun winkelwagentje bekeken. <p>**dit kan u helpen** beter de controleervaring in een inspanning begrijpen om het tarief van de kartontroeping te verminderen, of de tijd tussen karttoevoegingen en controles onder verschillende producten te analyseren.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals aanbiedingsbevorderingen voor producten die in winkelwagentjes het langst blijven en bij het grootste risico voor verlaten zijn.</p><p>In deze sjabloon wordt de metrische weergave van winkelwagentjes gebruikt. |
 | **toevoegingen van de Kaart** | Bekijk het aantal keren dat mensen iets aan hun winkelwagen hebben toegevoegd. <p>**dit kan u helpen** beter het deel van de omzettrechter begrijpen waar de klanteninteresse in een product hoog genoeg is dat zij het aan hun kar toevoegen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als productaanbevelingen voor alle klanten verbeteren. Dit kan worden gedaan door te analyseren welke producten vaak aan dezelfde karretjes worden toegevoegd en door verwante producten voor te stellen op basis van producten die al in de kar staan. |
 | **de verwijderingen van de Kar** | Bekijk het aantal keren dat mensen iets uit hun winkelwagentje hebben verwijderd.<p>**dit kan u helpen** beter het deel van de omzettrechter begrijpen waar de klanten niet meer in een product geinteresseerd zijn, of het kan u helpen begrijpen waar de problemen in het controleproces zouden kunnen bestaan.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als om het even welke potentiële barrières verwijderen die in het controleproces, zoals een gecompliceerde gebruikerservaring zouden kunnen bestaan.</p><p>Deze sjabloon gebruikt de metrische gegevens voor winkelwagentjes. |
 | **de Omzetting van de Aankoop funnel** | De aanschafconversie weergeven in een trechter-visualisatie met sessies, winkelwagentjes en bestellingen. U kunt ook conversiepercentages, inkomstengemiddelden, eenheidsgemiddelden en ordergemiddelden zien.<p>**dit kan u helpen** beter begrijpen hoe de mensen door en weggaan tijdens het omzettingsproces.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw website verbeteren om een vlotter controleproces te vergemakkelijken.</p> |
@@ -777,7 +777,7 @@ De volgende sjablonen zijn beschikbaar:
 | [!UICONTROL **de kanalen van de Marketing**] > [!UICONTROL **Laatste aanrakingskanaal**] | Bekijk het meest recente marketingkanaal waarmee een bezoeker een overeenkomst heeft tijdens de aanspreekperiode van die bezoeker (standaard 30 dagen).<p>**dit kan u helpen** beter begrijpen welke marketing kanalen verkeer aan uw plaats drijven die in omzettingen resulteren.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen op gebieden die het meest effectief zijn.</p><p>Deze sjabloon gebruikt de afmeting Laatste aanraakkanaal.  </p> |
 | [!UICONTROL **de kanalen van de Marketing**] > [!UICONTROL **Laatste detail van het aanrakingskanaal**] | Details weergeven over het meest recente marketingkanaal waarmee een bezoeker tijdens de aanspreekperiode van die bezoeker overeenkomt (standaard 30 dagen)<p>**dit kan u helpen** beter begrijpen wat aan de slag aanpassing een marketing kanaal bijdroeg. Als een bezoeker bijvoorbeeld naar uw site is gekomen en het marketingkanaal &#39;Betaalde zoekopdracht&#39; heeft gevonden, kunt u met de kanaalgegevens zien welk zoekprogramma is gebruikt of naar welk trefwoord zij hebben gezocht.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen op gebieden die het meest effectief zijn. </p><p>In deze sjabloon wordt de dimensie Details laatste aanraakkanaal gebruikt. </p> |
 | [!UICONTROL **Campagnes**] > [!UICONTROL **het Volgen code**] | Geef de namen van trackingcodes op uw site weer. U kunt koppelingen met verschillende parameterwaarden voor queryreeksen op verschillende locaties op internet plaatsen.<p>**dit kan u helpen** beter begrijpen welke verbindingen het meest succesvol in het drijven van verkeer aan uw plaats waren. Tekenreeksen voor bijhouden van code worden vaak toegevoegd in e-mails, advertenties, berichten op sociale media en andere marketingactiviteiten die uw organisatie gebruikt</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen op de campagnes die de meeste opbrengst drijven.</p><p>Deze sjabloon gebruikt de dimensie Trackingcode. </p> |
-| [!UICONTROL **Campagnes**] > [!UICONTROL **de conversietrechter van de Campagne**] | Bekijk het aantal klikcontroles en kassen voor uw campagnes. <p>**dit kan u helpen** beter begrijpen hoe de marketing campagnes omzetting drijven.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als bepalen welke marketing campagnes het meeste ROI produceren.</p> |
+| [!UICONTROL **Campagnes**] > [!UICONTROL **de conversie van de Campagne funnel**] | Bekijk het aantal klikcontroles en kassen voor uw campagnes. <p>**dit kan u helpen** beter begrijpen hoe de marketing campagnes omzetting drijven.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als bepalen welke marketing campagnes het meeste ROI produceren.</p> |
 | [!UICONTROL **Campagnes**] > [!UICONTROL **prestaties van de Campagne**] | Bekijk details over hoe je marketingcampagnes presteren.<p>**dit kan u** helpen meer over de diverse succesindicatoren begrijpen verbonden aan campagnes, zoals opbrengst, productmeningen, orden, etc.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen op de campagnes die de meeste opbrengst drijven. </p><p>Deze sjabloon gebruikt metrische inkomsten, Metrische productweergaven, Metrische optellingen van kunsttoevoegingen, Metrische Orden, en metrische eenheden. Het gebruikt ook de het Volgen dimensie van de Code en de Verwijzende dimensie van het Domein. </p> |
 | **de aanwinst van het Web** | Bekijk hoe uw website bezoekers verkrijgt.<p>**dit kan u helpen** beter meer over de diverse factoren begrijpen die tot verwerving, zoals onderzoekshoofdwoorden, verwijzend domein, etc. leiden.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals nadruk marketing inspanningen in de meest efficiënte kanalen.</p><p>Deze sjabloon gebruikt de metrische waarde Bounce Rate en de metrische waarde Bounces. Het gebruikt ook de afmeting van de Motor van het Onderzoek, de afmeting van het Sleutelwoord van het Onderzoek, de afmeting van de Pagina van de Ingang, de afmeting van het Verwijzen van het Domein, het Volgen van de afmeting van de Code, en de afmeting van de Referateur.  </p> |
 | **sleutelwoorden van het Onderzoek - allen** | Bekijk de zoektrefwoorden die bezoekers gebruiken om uw site te bereiken, ongeacht of deze betaald of natuurlijk is. <p>**dit kan u helpen** beter de sleutelwoorden begrijpen mensen in onderzoeken gebruiken die in plaatsverkeer resulteren. </p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als identificeer en vul SEO hiaten tussen gebruikte sleutelwoorden en die die plaatsverkeer drijven.</p><p>Deze sjabloon gebruikt de dimensie Trefwoord zoeken. </p> |
@@ -1063,12 +1063,27 @@ De volgende sjablonen zijn beschikbaar:
 | **het overzichtsrapport van Journey Optimizer** | Bekijk een uitgebreide samenvatting van verkeers- en betrokkenheidsgegevens voor alle campagnes en reizen binnen uw omgeving.<p>**dit kan u helpen** beter de doeltreffendheid op hoog niveau van uw campagnes en reizen begrijpen. </p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw campagnes en reizen aanpassen die op de betrokkenheidsniveaus van uw doelpubliek worden gebaseerd.</p> |
 | **Journey Optimizer abonnementen** | Abonnementen en abonnementen van profielen voor bepaalde lijsten weergeven.<p>**dit kan u** helpen beter de doeltreffendheid van verschillende abonnementscampagnes en initiatieven in het drijven overeenkomst en omzettingen begrijpen.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als uw abonnementscampagnes aanpassen die op de betrokkenheidsniveaus van uw doelpubliek worden gebaseerd.</p> |
 
+### Brand Concierge {#brand-concierge-templates}
 
+>[!CONTEXTUALHELP]
+>id="template--brand-concierge-b2c"
+>title="Analyseer gebruikersbetrokkenheid door gesprekspatronen, gebruikersfeedback, en de doeltreffendheid van uw aanbevelingen."
+>abstract="**dit kan u** helpen betrokkenheidspatronen identificeren, gesprekskwaliteit evalueren, trends van de klantentevredenheid volgen, en de doeltreffendheid van verbindingsaanbevelingen meten.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals de reacties van uw AI agent verfijnen, gerichte inhoud voor frequente kwesties ontwikkelen, aanbevelingen algoritmen verbeteren, of gespecialiseerde wegen voor verschillende gebruikerssegmenten creëren."
+
+>[!CONTEXTUALHELP]
+>id="template--brand-concierge--concierge"
+>title="Volg de volledige levenscyclus van B2B vergaderingsverzoeken. Bewaak de conversiesnelheden, de prestaties van de consultant en identificeer uw meest effectieve kanalen voor de productie van lood."
+>abstract="**dit kan u** helpen vergaderingsomzettingspercentages volgen, hoog-presterende teamleden identificeren, seizoensgebonden tendensen in boekend gedrag begrijpen, en aanwijzen welke pagina&#39;s de waardevolste vergaderingsverzoeken produceren.<br/>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer uw proces van het vergaderingsverzoek, herdistribueer middelen aan high-converting pagina&#39;s, ontwikkelt gerichte opleiding voor adviseurs met lagere boekende tarieven, of voert nieuwe strategieën uit om gemiste vergaderingen te verminderen."
+
+| Sjabloonnaam | Waarom deze sjabloon gebruiken <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| --- | --- | 
+| [!UICONTROL **overzicht van Brand Concierge**] | Analyseer gebruikersbetrokkenheid door gesprekspatronen, gebruikersfeedback, en de doeltreffendheid van uw aanbevelingen. <p>**dit kan u** helpen betrokkenheidspatronen identificeren, gesprekskwaliteit evalueren, trends van de klantentevredenheid volgen, en de doeltreffendheid van verbindingsaanbevelingen meten.</p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, zoals de reacties van uw AI agent verfijnen, gerichte inhoud voor frequente kwesties ontwikkelen, aanbevelingen algoritmen verbeteren, of gespecialiseerde wegen voor verschillende gebruikerssegmenten creëren.</p> |
+| **Brand Concierge B2B Vergaderingen** | Volg de volledige levenscyclus van B2B vergaderingsverzoeken. Houd de conversiesnelheden in de gaten, evalueer de boekingsprestaties van consultants en identificeer uw meest effectieve kanalen voor het genereren van leads. <p>**dit kan u** helpen vergaderingsomzettingspercentages volgen, hoog-presterende teamleden identificeren, seizoensgebonden tendensen in boekend gedrag begrijpen, en aanwijzen welke pagina URLs de waardevolste vergaderingsverzoeken produceren. </p><p>**Gebaseerd op wat u leert, zou u** om het even welk aantal dingen kunnen doen, als optimaliseer uw proces van het vergaderingsverzoek, herdistribueer middelen aan high-converting pagina URLs, ontwikkelt gerichte opleiding voor consultants met lagere boekende tarieven, of voert nieuwe strategieën uit om gemiste vergaderingen te verminderen.</p> |
 
 
 ### B2B-sjablonen {#b2b-templates}
 
-[!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
+[!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"}
 
 
 <!-- CJA B2B Edition only -->
