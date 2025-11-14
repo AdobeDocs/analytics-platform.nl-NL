@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 2fd79da264d60bb90e1193ead2eee67602404b4c
+source-git-commit: 0c3dfd54dc0cee912cab18644fa984b2be5a26a7
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1321'
 ht-degree: 11%
 
 ---
@@ -138,7 +138,6 @@ ht-degree: 11%
    + [Gecombineerde gegevenssets voor gebeurtenissen](../connections/combined-dataset.md)
    + [Standaardzoekopdrachten](../connections/standard-lookups.md)
    + [B2B-zoekopdrachten](../connections/transform-datasets-b2b-lookups.md)
-
 + Gegevens weergeven {#cja-dataviews}
    + [Overzicht van gegevensweergaven](../data-views/data-views.md)
    + [Een gegevensweergave maken of bewerken](../data-views/create-dataview.md)
@@ -163,10 +162,12 @@ ht-degree: 11%
    + Gedeelde metriek en dimensies{#shared-metrics-dimensions}
       + [Overzicht](/help/data-views/shared-metrics-dimensions/smd-overview.md)
       + [Editor](/help/data-views/shared-metrics-dimensions/shared-component-editor.md)
-
+   + Analyse van publiek {#audience-analysis}
+      + [Overzicht](/help/connections/audience-analysis/audience-analysis-overview.md)
+      + [Soorten publiek uit RTCDP analyseren](/help/connections/audience-analysis/analyze-audiences.md)
 + Gereedschappen {#tools}
    + Asset Transfer {#asset-transfer}
-      + [&#x200B; activa van de Overdracht &#x200B;](../tools/asset-transfer/transfer-assets.md)
+      + [ activa van de Overdracht ](../tools/asset-transfer/transfer-assets.md)
    + Productgebruik {#product-usage}
       + [Overzicht](../tools/product-usage/usage-overview.md)
       + [Gegevensinstellingen](../tools/product-usage/data-settings.md)
@@ -335,10 +336,10 @@ ht-degree: 11%
       + [Annotaties beheren](../components/annotations/manage-annotations.md)
       + [Annotaties weergeven](../components/annotations/view-annotations.md)
       + [Mobiele scorecardannotaties](../components/annotations/mobile-annotations.md)
-   + Soorten publiek {#audiences}
-      + [Overzicht publiek](../components/audiences/audiences-overview.md)
+   + Publicatie door het publiek {#audiences}
+      + [Publicatieoverzicht publiek](../components/audiences/audiences-overview.md)
       + [Soorten publiek maken en publiceren](../components/audiences/publish.md)
-      + [Soorten publiek beheren](../components/audiences/manage.md)
+      + [Gepubliceerd publiek beheren](../components/audiences/manage.md)
    + Dimensies {#dimensions}
       + [Overzicht](../components/dimensions/overview.md)
       + [Voorvertoningsafmetingen](../components/dimensions/view-dimensions.md)
@@ -531,4 +532,4 @@ ht-degree: 11%
    + [Prestaties optimaliseren](../technotes/optimizing-performance.md)
    + [Gebruik beheren](../technotes/estimate-usage.md)
 
-+ [&#x200B; Customer Journey Analytics API &#x200B;](https://developer.adobe.com/cja-apis/docs/)
++ [ Customer Journey Analytics API ](https://developer.adobe.com/cja-apis/docs/)
