@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- add hidden text in this article when this feature releases: /help/components/audiences/audiences-overview.md -->
 
-U kunt de gegevens van het publiekslidmaatschap van de datasets van het Profiel van Experience Platform in een verbinding van Customer Journey Analytics opnemen. (Voor informatie over het creëren van en het publiceren van publiek dat in Customer Journey Analytics aan Adobe Experience Platform voor klant wordt ontdekt richtend en verpersoonlijking, zie [ het publiceren van het Publiek overzicht ](/help/components/audiences/audiences-overview.md))
+U kunt de gegevens van het publiekslidmaatschap van de datasets van het Profiel van Experience Platform in een verbinding van Customer Journey Analytics opnemen. (Voor informatie over het creëren van en het publiceren van publiek dat in Customer Journey Analytics aan Adobe Experience Platform voor klant wordt ontdekt richtend en verpersoonlijking, zie [&#x200B; het publiceren van het Publiek overzicht &#x200B;](/help/components/audiences/audiences-overview.md))
 
 Met de publieksgegevens beschikbaar in Customer Journey Analytics kunt u actioneerbare inzichten krijgen in het gedrag van publieksleden op verschillende kanalen.
 
