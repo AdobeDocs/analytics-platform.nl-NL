@@ -20,7 +20,7 @@ U kunt publiek tot stand brengen en publiceren dat in Customer Journey Analytics
 Het publiek publiceert een duidelijke manier om inzichten die in Customer Journey Analytics zijn gevonden, te activeren en er actie tegen te ondernemen. Deze acties kunnen het volgende omvatten:
 
 * Het publiek gebruiken voor een reis in Adobe Journey Optimizer.
-Voor meer informatie over het gebruiken van publiek dat aan Experience Platform wordt gepubliceerd, zie [&#x200B; begonnen worden met publiek &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences) in de documentatie van Journey Optimizer.
+Voor meer informatie over het gebruiken van publiek dat aan Experience Platform wordt gepubliceerd, zie [&#x200B; begonnen worden met publiek &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences) in de documentatie van Journey Optimizer.
 * Het publiek naar een derde exporteren via een Experience Platform-bestemming.
 * Het realtime-klantprofiel verrijken met nuttige kenmerken die zijn afgeleid van op gebeurtenissen gebaseerde gegevens in Customer Journey Analytics.
 * Dit alles doen met minimale vertraging na publicatie van het publiek.
@@ -45,7 +45,7 @@ Het publiek dat u in Customer Journey Analytics maakt, hoeft niet gebaseerd te z
 
 ## Beheer van gegevens en toestemming
 
-Wanneer u een publiek in Customer Journey Analytics publiceert, worden de labels en het beleid voor gegevensbeheer opgenomen die zijn gekoppeld aan de velden die worden gebruikt in het publiek.  Wanneer het publiek wordt geactiveerd in een Adobe Experience App, zijn alle bijbehorende labels en beleidsregels voor gegevensbeheer beschikbaar voor dat publiek en kan de juiste handhaving worden toegepast. [&#x200B; leer meer over toestemming &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy).
+Wanneer u een publiek in Customer Journey Analytics publiceert, worden de labels en het beleid voor gegevensbeheer opgenomen die zijn gekoppeld aan de velden die worden gebruikt in het publiek.  Wanneer het publiek wordt geactiveerd in een Adobe Experience App, zijn alle bijbehorende labels en beleidsregels voor gegevensbeheer beschikbaar voor dat publiek en kan de juiste handhaving worden toegepast. [&#x200B; leer meer over toestemming &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=nl-NL#consent-policy).
 
 ## Volgende stappen
 
