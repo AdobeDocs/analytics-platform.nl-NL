@@ -167,7 +167,7 @@ ht-degree: 11%
       + [Soorten publiek uit RTCDP analyseren](/help/connections/audience-analysis/analyze-audiences.md)
 + Gereedschappen {#tools}
    + Asset Transfer {#asset-transfer}
-      + [&#x200B; activa van de Overdracht &#x200B;](../tools/asset-transfer/transfer-assets.md)
+      + [ activa van de Overdracht ](../tools/asset-transfer/transfer-assets.md)
    + Productgebruik {#product-usage}
       + [Overzicht](../tools/product-usage/usage-overview.md)
       + [Gegevensinstellingen](../tools/product-usage/data-settings.md)
@@ -532,4 +532,4 @@ ht-degree: 11%
    + [Prestaties optimaliseren](../technotes/optimizing-performance.md)
    + [Gebruik beheren](../technotes/estimate-usage.md)
 
-+ [&#x200B; Customer Journey Analytics API &#x200B;](https://developer.adobe.com/cja-apis/docs/)
++ [ Customer Journey Analytics API ](https://developer.adobe.com/cja-apis/docs/)
