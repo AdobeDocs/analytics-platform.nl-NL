@@ -28,7 +28,7 @@ Intelligente bijschriften zijn gericht op:
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Intelligente titels &#x200B;](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Intelligente titels &#x200B;](https://video.tv.adobe.com/v/3443144/?captions=dut&quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
