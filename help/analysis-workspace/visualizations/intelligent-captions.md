@@ -127,7 +127,7 @@ Als u liever geen intelligente bijschriften wilt weergeven, schakelt u de functi
 
 ## Intelligente bijschriften in mobiele scoreborden
 
-De intelligente titels zijn ook beschikbaar in Customer Journey Analytics [&#x200B; mobiele scorecards &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions).
+De intelligente titels zijn ook beschikbaar in Customer Journey Analytics [&#x200B; mobiele scorecards &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dashboards/manage-scorecard#captions).
 
 ## Toegang tot functies
 
@@ -137,7 +137,7 @@ De volgende parameters regelen de toegang tot intelligente bijschriften:
 
 * **Contractuele toegang**: Als u geen Intelligente titels kunt gebruiken, gelieve de beheerder van uw organisatie of de Vertegenwoordiger van de Rekening van Adobe (Admin) te contacteren. Voordat u Intelligente bijschriften kunt gebruiken in uw organisatie, moet u akkoord gaan met bepaalde wettelijke bepalingen die betrekking hebben op Generative AI.
 
-* **Toestemmingen**: In [!UICONTROL Adobe Admin Console], bepaalt de [!UICONTROL Reporting Tools] **[!UICONTROL Intelligent Captions]** toestemming toegang. Admin van het a [&#x200B; productprofiel &#x200B;](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) moet deze stappen in [!UICONTROL Admin Console] volgen:
+* **Toestemmingen**: In [!UICONTROL Adobe Admin Console], bepaalt de [!UICONTROL Reporting Tools] **[!UICONTROL Intelligent Captions]** toestemming toegang. Admin van het a [&#x200B; productprofiel &#x200B;](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) moet deze stappen in [!UICONTROL Admin Console] volgen:
    1. Navigeer naar **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]** .
    1. Selecteer de titel van het productprofiel waarvoor u toegang tot de Intelligente bijschriften wilt verlenen.
    1. Selecteer **[!UICONTROL Permissions]** in het specifieke productprofiel.
