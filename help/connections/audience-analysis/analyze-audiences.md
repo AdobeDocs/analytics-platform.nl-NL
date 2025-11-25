@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Experience Platform-publiek in Customer Journey Analytics analyseren {#analyze-audiences-RTCDP}
 
-U kunt beginnen het publiek van Experience Platform in Customer Journey Analytics te analyseren nadat u [ een configuratie van de publieksanalyse ](/help/connections/audience-analysis/audience-analysis-configure.md) creeert, wanneer de publieksgegevens als nieuwe dimensies in Analysis Workspace beschikbaar zijn.
+U kunt beginnen het publiek van Experience Platform in Customer Journey Analytics te analyseren nadat u [&#x200B; een configuratie van de publieksanalyse &#x200B;](/help/connections/audience-analysis/audience-analysis-configure.md) creeert, wanneer de publieksgegevens als nieuwe dimensies in Analysis Workspace beschikbaar zijn.
 
 Een overzichtsjabloon voor het publiek is beschikbaar in Customer Journey Analytics.
 
@@ -23,7 +23,7 @@ Een overzichtsjabloon voor het publiek is beschikbaar in Customer Journey Analyt
 
 <!-- What are the names of the new dimensions? Are they customized to whatever your audience names are in AEP, or are they always the same? -->
 
-Voor informatie over hoe te om tot het overzichtsmalplaatje van het Publiek toegang te hebben, zie [ Toegang en stel een malplaatje ](/help/analysis-workspace/templates/use-templates.md#access-and-run-a-template) in werking in [ malplaatjes van het Gebruik ](/help/analysis-workspace/templates/use-templates.md).
+Voor informatie over hoe te om tot het overzichtsmalplaatje van het Publiek toegang te hebben, zie [&#x200B; Toegang en stel een malplaatje &#x200B;](/help/analysis-workspace/templates/use-templates.md#access-and-run-a-template) in werking in [&#x200B; malplaatjes van het Gebruik &#x200B;](/help/analysis-workspace/templates/use-templates.md).
 
 Het overzichtssjabloon Publiek bevat de volgende deelvensters:
 
