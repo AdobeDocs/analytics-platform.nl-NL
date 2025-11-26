@@ -20,11 +20,11 @@ In deze snelstartgids wordt uitgelegd hoe u de gegevens kunt gebruiken die door 
 >
 >U hebt een Adobe Analytics-licentie en -implementatie op een of meer van uw websites, waarbij u een van de gedocumenteerde implementatiemethoden gebruikt:
 >
->- [ voert Analyses uit gebruikend Experience Platform Edge ](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html)
+>- [&#x200B; voert Analyses uit gebruikend Experience Platform Edge &#x200B;](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/overview.html)
 >
->- [ voert Analyses uit gebruikend de uitbreiding van Adobe Analytics ](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html)
+>- [&#x200B; voert Analyses uit gebruikend de uitbreiding van Adobe Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html)
 >
->- [ voert Analyses uit gebruikend JavaScript ](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html)
+>- [&#x200B; voert Analyses uit gebruikend JavaScript &#x200B;](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html)
 
 Hiervoor moet u:
 
@@ -54,36 +54,36 @@ Een Adobe Analytics-bronaansluiting maken:
 
 3. Selecteer **[!UICONTROL Set up]** of **[!UICONTROL Add data]** in de tegel Adobe Analytics.
 
-   ![ het venster van Adobe Experience Platform met Bronnen die samen met de toepassingen van Adobe worden geselecteerd en benadrukte gegevens toevoegen.](./assets/sources-overview.png)
+   ![&#x200B; het venster van Adobe Experience Platform met Bronnen die samen met de toepassingen van Adobe worden geselecteerd en benadrukte gegevens toevoegen.](./assets/sources-overview.png)
 
-4. Selecteer **[!UICONTROL Report suite]** . Selecteer in de lijst met rapportsuites de versie die u wilt gebruiken.<br/> Alternatief, kunt u ![ Onderzoek ](/help/assets/icons/Search.svg) **[!UICONTROL _Onderzoek_]** gebruiken om naar een rapportreeks te zoeken.
+4. Selecteer **[!UICONTROL Report suite]** . Selecteer in de lijst met rapportsuites de versie die u wilt gebruiken.<br/> Alternatief, kunt u ![&#x200B; Onderzoek &#x200B;](/help/assets/icons/Search.svg) **[!UICONTROL _Onderzoek_]** gebruiken om naar een rapportreeks te zoeken.
 
-   ![ Adobe Experience Platform venster dat de lijst van de Reeksen van het Rapport toont ](./assets/report-suites.png)
+   ![&#x200B; Adobe Experience Platform venster dat de lijst van de Reeksen van het Rapport toont &#x200B;](./assets/report-suites.png)
 
    Selecteer **[!UICONTROL Next]**.
 
 5. Selecteer **[!UICONTROL Default schema]** als de [!UICONTROL Target schema] . Adobe Experience Platform leidt automatisch tot het schema en de overeenkomstige dataset om alle standaardgebieden van de geselecteerde het rapportreeks van Adobe Analytics in kaart te brengen.
 
-   ![ Adobe Experience Platform venster met het Standaard geselecteerde schema ](./assets/default-schema.png)
+   ![&#x200B; Adobe Experience Platform venster met het Standaard geselecteerde schema &#x200B;](./assets/default-schema.png)
 
    Selecteer **[!UICONTROL Next]**.
 
 6. Geef de gegevensstroom een naam en (optioneel) geef een beschrijving op.
 
-   ![ Adobe Experience Platform venster die de sectie van het detail Dataflow ](./assets/dataflow-detail.png) benadrukt
+   ![&#x200B; Adobe Experience Platform venster die de sectie van het detail Dataflow &#x200B;](./assets/dataflow-detail.png) benadrukt
 
    Selecteer **[!UICONTROL Next]**.
 
 7. Controleer de verbinding en selecteer **[!UICONTROL Finish]** .
 
-   ![ Adobe Experience Platform venster die Connect en het type van Gegevens secties voor overzicht benadrukken ](./assets/review.png)
+   ![&#x200B; Adobe Experience Platform venster die Connect en het type van Gegevens secties voor overzicht benadrukken &#x200B;](./assets/review.png)
 
 
 Zodra de verbinding wordt gecreeerd, wordt de dataflow automatisch gecreeerd om een dataset met de gegevens van Adobe Analytics van uw rapportreeks te bevolken. De gegevensstroom neemt tot 13 maanden historische gegevens voor productiestanddozen op. De back-up van niet-productie sandboxen is beperkt tot drie maanden.
 
 Wanneer de eerste opname is voltooid, zijn de gegevens van uw Adobe Analytics-rapportenpakket klaar om door Customer Journey Analytics te worden gebruikt.
 
-Zie [ een Adobe Analytics bronverbinding in UI ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) voor een veel uitvoeriger leerprogramma tot stand brengen.
+Zie [&#x200B; een Adobe Analytics bronverbinding in UI &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) voor een veel uitvoeriger leerprogramma tot stand brengen.
 
 
 ## Een verbinding instellen
@@ -104,7 +104,7 @@ Om uw verbinding tot stand te brengen:
 
    Selecteer de juiste sandbox in de lijst [!UICONTROL Sandbox] in [!UICONTROL Data settings] en selecteer het aantal dagelijkse gebeurtenissen in de lijst [!UICONTROL Average number of daily events] .
 
-   ![ de Montages van de Verbinding ](./assets/cja-connections-1.png)
+   ![&#x200B; de Montages van de Verbinding &#x200B;](./assets/cja-connections-1.png)
 
    Selecteer **[!UICONTROL Add datasets]**.
 
@@ -112,7 +112,7 @@ Om uw verbinding tot stand te brengen:
 
    - Selecteer automatisch de dataset die door de Adobe Analytics bronschakelaar en een andere dataset wordt gecreeerd die u in uw verbinding wilt omvatten.
 
-     ![ voeg datasetvenster ](./assets/cja-connections-2a.png) toe
+     ![&#x200B; voeg datasetvenster &#x200B;](./assets/cja-connections-2a.png) toe
 
    - Selecteer **[!UICONTROL Next]**.
 
@@ -126,13 +126,13 @@ Om uw verbinding tot stand te brengen:
 
       - Stel **[!UICONTROL Import all new data]** en **[!UICONTROL Dataset backfill existing data]** in op basis van uw voorkeuren.
 
-     ![ vorm datasets ](./assets/cja-connections-3a.png)
+     ![&#x200B; vorm datasets &#x200B;](./assets/cja-connections-3a.png)
 
    - Selecteer **[!UICONTROL Add datasets]**.
 
    Selecteer **[!UICONTROL Save]**.
 
-Zie [ Overzicht van Verbindingen ](../connections/overview.md) voor meer informatie over om een verbinding tot stand te brengen en te beheren en datasets te selecteren en te combineren.
+Zie [&#x200B; Overzicht van Verbindingen &#x200B;](../connections/overview.md) voor meer informatie over om een verbinding tot stand te brengen en te beheren en datasets te selecteren en te combineren.
 
 ## Een gegevensweergave instellen
 
@@ -150,7 +150,7 @@ Uw gegevensweergave maken:
 
    Naam en (optioneel) beschrijf uw verbinding.
 
-   ![ de mening van Gegevens vormt ](./assets/cja-dataview-1.png)
+   ![&#x200B; de mening van Gegevens vormt &#x200B;](./assets/cja-dataview-1.png)
 
    Selecteer **[!UICONTROL Save and continue]**.
 
@@ -158,17 +158,17 @@ Uw gegevensweergave maken:
 
    Voeg schemagebieden en/of standaardcomponent toe die u aan de [!UICONTROL METRICS] of [!UICONTROL DIMENSIONS] componentenvakjes wilt omvatten.
 
-   ![ de meningscomponenten van Gegevens ](./assets/cja-dataview-2.png)
+   ![&#x200B; de meningscomponenten van Gegevens &#x200B;](./assets/cja-dataview-2.png)
 
    Selecteer **[!UICONTROL Save and continue]**.
 
 5. In de stap [!UICONTROL Settings] :
 
-   ![ de meningsmontages van Gegevens ](./assets/cja-dataview-3.png)
+   ![&#x200B; de meningsmontages van Gegevens &#x200B;](./assets/cja-dataview-3.png)
 
    Laat de instellingen ongewijzigd en selecteer **[!UICONTROL Save and finish]** .
 
-Zie [ overzicht van de meningen van Gegevens ](../data-views/data-views.md) voor meer informatie over om een gegevensmening tot stand te brengen en uit te geven, welke componenten voor u aan gebruik in uw gegevensmening en hoe te segment en zittingsmontages te gebruiken beschikbaar zijn.
+Zie [&#x200B; overzicht van de meningen van Gegevens &#x200B;](../data-views/data-views.md) voor meer informatie over om een gegevensmening tot stand te brengen en uit te geven, welke componenten voor u aan gebruik in uw gegevensmening en hoe te segment en zittingsmontages te gebruiken beschikbaar zijn.
 
 
 ## Een project instellen
@@ -183,21 +183,21 @@ Uw project maken:
 
 3. Selecteer **[!UICONTROL Create project]**.
 
-   ![ Project van Workspace ](./assets/cja-projects-1.png)
+   ![&#x200B; Project van Workspace &#x200B;](./assets/cja-projects-1.png)
 
    Selecteer **[!UICONTROL Blank project]**.
 
-   ![ Workspace - Leeg Project ](./assets/cja-projects-2.png)
+   ![&#x200B; Workspace - Leeg Project &#x200B;](./assets/cja-projects-2.png)
 
 4. Selecteer de gegevensweergave in de lijst.
 
-   ![ de Uitgezochte mening van Gegevens van Workspace ](./assets/cja-projects-3.png).
+   ![&#x200B; de Uitgezochte mening van Gegevens van Workspace &#x200B;](./assets/cja-projects-3.png).
 
 5. Als u uw eerste rapport wilt maken, sleept u de afmetingen en metriek op de [!UICONTROL Freeform table] in de [!UICONTROL Panel] . Sleep bijvoorbeeld `Program Points Balance` en `Page View` als metriek en `email` als dimensie om een snel overzicht te krijgen van profielen die uw website hebben bezocht en deel uitmaken van het loyaliteitsprogramma dat loyaliteitspunten verzamelt.
 
-   ![ Workspace - Eerste Rapport ](./assets/cja-projects-5.png)
+   ![&#x200B; Workspace - Eerste Rapport &#x200B;](./assets/cja-projects-5.png)
 
-Zie [ overzicht van Analysis Workspace ](../analysis-workspace/home.md) voor meer informatie over hoe te om projecten tot stand te brengen en uw analyse te bouwen gebruikend componenten, visualisaties, en panelen.
+Zie [&#x200B; overzicht van Analysis Workspace &#x200B;](../analysis-workspace/home.md) voor meer informatie over hoe te om projecten tot stand te brengen en uw analyse te bouwen gebruikend componenten, visualisaties, en panelen.
 
 
 >[!SUCCESS]
