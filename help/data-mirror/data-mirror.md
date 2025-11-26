@@ -33,7 +33,7 @@ Data Mirror biedt de volgende essentiële mogelijkheden voor databasesynchronisa
 
 Gebruik Data Mirror om wijzigingen rechtstreeks van uw bronsystemen in te voeren, de schemacontegriteit af te dwingen en de gegevens beschikbaar te stellen voor analyses, reisorchestratie en compatibiliteitsworkflows. Data Mirror elimineert complexe stroomopwaartse processen ETL en versnelt implementatie door direct het weerspiegelen van bestaande gegevensbestandmodellen toe te laten. Deze verwijdering kan het gegevensbeheer verbeteren door een nauwkeurige controle op schrappingen en gegevenshygiënische activiteiten.
 
-Zie ook de [ documentatie van Experience Platform op Data Mirror ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview){target="_blank"}.
+Zie ook de [&#x200B; documentatie van Experience Platform op Data Mirror &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview){target="_blank"}.
 
 ## Data Mirror voor Customer Journey Analytics
 
@@ -50,6 +50,6 @@ Experience Platform Data Mirror for Customer Journey Analytics is beschikbaar vo
 
 >[!MORELIKETHIS]
 >
->[ Data Mirror snelle startgids: Spiegel en gebruik relationele gegevens ](relational.md)
->[Data Mirror (de documentatie van Experience Platform) ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
->[Relationele schema&#39;s (documentatie van Experience Platform) ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
+>[&#x200B; Data Mirror snelle startgids: Spiegel en gebruik relationele gegevens &#x200B;](relational.md)
+>[Data Mirror (de documentatie van Experience Platform) &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
+>[Relationele schema&#39;s (documentatie van Experience Platform) &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)

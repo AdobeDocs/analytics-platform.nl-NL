@@ -30,7 +30,7 @@ Wanneer u een relationele dataset toevoegt die gespiegelde gegevens van een inhe
 
 ## Gegevensweergaven
 
-Definieer velden uit het relationele schema als componenten (cijfers en afmetingen) in de gegevensweergave. De velden met gespiegelde gegevens zijn beschikbaar in de submap **[!UICONTROL Adhoc & relational fields]** van de map **[!UICONTROL Event datasets]** . De functionaliteiten van het gebruik, zoals [ afgeleide gebieden ](/help/data-views/derived-fields/derived-fields.md) of [ componentenmontages ](/help/data-views/component-settings/overview.md), om de componenten te wijzigen die op relationele gebieden gebaseerd zijn.
+Definieer velden uit het relationele schema als componenten (cijfers en afmetingen) in de gegevensweergave. De velden met gespiegelde gegevens zijn beschikbaar in de submap **[!UICONTROL Adhoc & relational fields]** van de map **[!UICONTROL Event datasets]** . De functionaliteiten van het gebruik, zoals [&#x200B; afgeleide gebieden &#x200B;](/help/data-views/derived-fields/derived-fields.md) of [&#x200B; componentenmontages &#x200B;](/help/data-views/component-settings/overview.md), om de componenten te wijzigen die op relationele gebieden gebaseerd zijn.
 
 
 ## Workspace-projecten
@@ -39,5 +39,5 @@ Stel Workspace-projecten in die maatstaven en dimensies uit uw relationele gegev
 
 >[!MORELIKETHIS]
 >
->[ Data Mirror snelle startgids: Spiegel en gebruik relationdgegevens ](relational.md)
+>[&#x200B; Data Mirror snelle startgids: Spiegel en gebruik relationdgegevens &#x200B;](relational.md)
 >
