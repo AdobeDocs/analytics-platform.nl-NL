@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Basics
 role: Admin
 exl-id: 17b5842f-dc81-481f-8b21-dc90a133adcf
-source-git-commit: edf7bdac87d9bed48244ad80521bbbf83c48f7b6
+source-git-commit: c9d7a4596a842ab7d949364e3469747d20ca15b4
 workflow-type: tm+mt
 source-wordcount: '1435'
 ht-degree: 1%
@@ -57,7 +57,7 @@ U hoeft geen XDM-schema voor ad-hocgegevens te maken. Experience Platform onders
 De workflow starten:
 
 1. Selecteer **[!UICONTROL Workflows]** in de Experience Platform-interface in de linkertrack.
-1. Selecteer ![&#x200B; DataAdd &#x200B;](/help/assets/icons/DataAdd.svg) **[!UICONTROL Create dataset from CSV file]**.
+1. Selecteer ![ DataAdd ](/help/assets/icons/DataAdd.svg) **[!UICONTROL Create dataset from CSV file]**.
 1. Selecteer **[!UICONTROL Launch]** in het rechterdeelvenster.
 1. Kies in de wizard **[!UICONTROL Workflows]** > **[!UICONTROL Create dataset from CSV file]** :
    1. In de stap **[!UICONTROL Configure dataset]** :
@@ -65,20 +65,20 @@ De workflow starten:
       1. Voeg een optionele **[!UICONTROL Description]** toe. Bijvoorbeeld: `Sample data from a CSV file` .
       1. Voeg een of meer optionele **[!UICONTROL Tags]** toe of selecteer een of meer bestaande **[!UICONTROL Tags]** .
 
-         ![&#x200B; vorm ad hoc dataset &#x200B;](assets/adhoc-dataset-configure.png)
+         ![ vorm ad hoc dataset ](assets/adhoc-dataset-configure.png)
 
       1. Selecteer **[!UICONTROL Next]**.
    1. In de stap **[!UICONTROL Add data]** :
       1. Selecteer **[!UICONTROL Choose Files]** om uw CSV-bestand van uw computer of netwerk te selecteren. U kunt het bestand ook van de locatie op uw computer of netwerk naar **[!UICONTROL Drag and drop files]** slepen. Het bestand wordt geüpload en **[!UICONTROL Sample data]** wordt weergegeven.
       1. Schakel **[!UICONTROL Error diagnostics]** en **[!UICONTROL Enable partial ingestion]** in of uit overeenkomstig uw voorkeuren. Wanneer u **[!UICONTROL Enable Partial ingestion]** gebruikt, kunt u een **[!UICONTROL Error threshold %]** definiëren.
 
-         ![&#x200B; voegt gegevens aan een ad hoc dataset &#x200B;](assets/adhoc-dataset-adddata.png) toe
+         ![ voegt gegevens aan een ad hoc dataset ](assets/adhoc-dataset-adddata.png) toe
 
       1. Selecteer **[!UICONTROL Finish]**.
 
-Nadat de gegevens zijn voorbereid en geüpload, wordt u omgeleid naar **[!UICONTROL Datasets]** in de Experience Platform-interface.<br/> u ziet **[!UICONTROL Dataset activity]** voor uw **[!UICONTROL Sample Data from CSV]** dataset met de status ![&#x200B; StatusOrange &#x200B;](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Processing]**.
+Nadat de gegevens zijn voorbereid en geüpload, wordt u omgeleid naar **[!UICONTROL Datasets]** in de Experience Platform-interface.<br/> u ziet **[!UICONTROL Dataset activity]** voor uw **[!UICONTROL Sample Data from CSV]** dataset met de status ![ StatusOrange ](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Processing]**.
 
-![&#x200B; activiteit van de Dataset voor ad hoc gegevens &#x200B;](assets/datasets-dataset-activity.png)
+![ activiteit van de Dataset voor ad hoc gegevens ](assets/datasets-dataset-activity.png)
 
 De ad-hocgegevens inspecteren:
 
@@ -86,7 +86,7 @@ De ad-hocgegevens inspecteren:
 1. Selecteer de tab **[!UICONTROL Browse]** in **[!UICONTROL Datasets]** . U zou uw dataset moeten zien vermeld.
 1. Selecteer de naam van het schema in de kolom **[!UICONTROL Schema]** . Bijvoorbeeld: **[!UICONTROL Sample Data From CSV…]**
 
-   ![&#x200B; Uitgezochte schema voor ad hoc dataset &#x200B;](assets/adhoc-schema-selection.png)
+   ![ Uitgezochte schema voor ad hoc dataset ](assets/adhoc-schema-selection.png)
 
 1. Selecteer de **[!UICONTROL Schema name]** in de pop-up. Bijvoorbeeld: **[!UICONTROL Sample Data From CSV - adhoc schema - XXXXXXXXXXX]** . U wordt omgeleid naar de interface **[!UICONTROL Schemas]** > **[!UICONTROL Sample Data From CSV - adhoc schema - XXXXXXXXXXX]** .
 
@@ -94,11 +94,11 @@ In de interface **[!UICONTROL Schemas]** > **[!UICONTROL Sample Data From CSV - 
 
 - Selecteer het naamobject van de bovenste huurder onder **[!UICONTROL Schemas]** > **[!UICONTROL Sample Data From CSV - adhoc schema - XXXXXXXXXXX]** om de velden in het object weer te geven. De velden in het object vertegenwoordigen de structuur van het CSV-bestand. Het schema wordt automatisch gemaakt op basis van het uploaden van de ad-hocgegevens.
 
-  ![&#x200B; Ad hoc schema &#x200B;](dataset/../assets/adhoc-schema.png)
+  ![ Ad hoc schema ](dataset/../assets/adhoc-schema.png)
 
   >[!NOTE]
   >
-  >De workflow definieert alle velden in het schema als van het type String. U kunt dit type in een later stadium niet wijzigen. Als u meer flexibiliteit in de definitie van een ad hoc schema nodig hebt, overweeg [&#x200B; gebruikend API om een ad hoc schema &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/tutorials/ad-hoc) tot stand te brengen en dan [&#x200B; te gebruiken creeer dataset van schema &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#schema) werkschema.
+  >De workflow definieert alle velden in het schema als van het type String. U kunt dit type in een later stadium niet wijzigen. Als u meer flexibiliteit in de definitie van een ad hoc schema nodig hebt, overweeg [ gebruikend API om een ad hoc schema ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/ad-hoc) tot stand te brengen en dan [ te gebruiken creeer dataset van schema ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema) werkschema.
   > 
 
 
@@ -106,7 +106,7 @@ In de interface **[!UICONTROL Schemas]** > **[!UICONTROL Sample Data From CSV - 
 
 ## Een verbinding instellen
 
-Om de dataset van Experience Platform in Customer Journey Analytics te gebruiken, creeert u een verbinding die de ad hoc dataset die uit het [&#x200B; werkschema &#x200B;](#create-a-dataset-with-a-csv-file) resulteert omvat
+Om de dataset van Experience Platform in Customer Journey Analytics te gebruiken, creeert u een verbinding die de ad hoc dataset die uit het [ werkschema ](#create-a-dataset-with-a-csv-file) resulteert omvat
 
 Met een verbinding kunt u gegevenssets van Experience Platform integreren in Workspace. Om over deze datasets te rapporteren, moet u eerst een verband tussen datasets in Experience Platform en Workspace vestigen.
 
@@ -122,7 +122,7 @@ Om uw verbinding tot stand te brengen:
 
    1. Selecteer de juiste sandbox in de lijst **[!UICONTROL Sandbox]** in **[!UICONTROL Data settings]** en selecteer het aantal dagelijkse gebeurtenissen in de lijst **[!UICONTROL Average number of daily events]** .
 
-      ![&#x200B; de Montages van de Verbinding &#x200B;](./assets/cja-connections-1.png)
+      ![ de Montages van de Verbinding ](./assets/cja-connections-1.png)
 
    1. Selecteer **[!UICONTROL Add datasets]**.
 
@@ -130,7 +130,7 @@ Om uw verbinding tot stand te brengen:
 
    1. Selecteer de dataset die u vroeger creeerde, bijvoorbeeld **[!UICONTROL Sample Data From CSV]**, en om het even welke andere dataset u in uw verbinding wilt omvatten. De ad-hocgegevenssets hebben de eigenschap **[!UICONTROL Adhoc]** [!UICONTROL Dataset type] .
 
-      ![&#x200B; voeg datasets &#x200B;](./assets/cja-connections-adhoc-2.png) toe
+      ![ voeg datasets ](./assets/cja-connections-adhoc-2.png) toe
 
    1. Selecteer **[!UICONTROL Next]**.
 
@@ -145,20 +145,20 @@ Om uw verbinding tot stand te brengen:
 
    1. Stel **[!UICONTROL Import all new data]** en **[!UICONTROL Dataset backfill existing data]** in op basis van uw voorkeuren.
 
-      ![&#x200B; vorm datasets &#x200B;](./assets/cja-connections-3-adhoc.png)
+      ![ vorm datasets ](./assets/cja-connections-3-adhoc.png)
 
    1. Selecteer **[!UICONTROL Add datasets]**.
 
    1. Selecteer **[!UICONTROL Save]**.
 
-Zie [&#x200B; Ad hoc datasetmontages &#x200B;](/help/connections/create-connection.md#adhoc-dataset) voor meer details over de montages beschikbaar voor ad hoc datasets.
+Zie [ Ad hoc datasetmontages ](/help/connections/create-connection.md#adhoc-dataset) voor meer details over de montages beschikbaar voor ad hoc datasets.
 
 >[!IMPORTANT]
 >
->Naast de algemene aanbeveling om geen ad hoc datasets en schema&#39;s voor tijdreeksgegevens te gebruiken, kunt u niet het **[!UICONTROL Create dataset from CSV]** werkschema voor tijdreeksgegevens gebruiken. Deze workflow definieert alle velden als velden van het type String die u achteraf niet kunt wijzigen. Wanneer u een op tijdreeksen gebaseerde dataset (gebeurtenis of samenvatting) aan een verbinding toevoegt, vereist dit type van dataset de definitie van minstens één gebied van type DateTime.<br/> als u vereist om ad hoc tijd-reeksen gegevens te gebruiken, overweeg [&#x200B; gebruikend API om een ad hoc schema &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438) tot stand te brengen en dan [&#x200B; te gebruiken creeer dataset van schema &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#schema) werkschema.
+>Naast de algemene aanbeveling om geen ad hoc datasets en schema&#39;s voor tijdreeksgegevens te gebruiken, kunt u niet het **[!UICONTROL Create dataset from CSV]** werkschema voor tijdreeksgegevens gebruiken. Deze workflow definieert alle velden als velden van het type String die u achteraf niet kunt wijzigen. Wanneer u een op tijdreeksen gebaseerde dataset (gebeurtenis of samenvatting) aan een verbinding toevoegt, vereist dit type van dataset de definitie van minstens één gebied van type DateTime.<br/> als u vereist om ad hoc tijd-reeksen gegevens te gebruiken, overweeg [ gebruikend API om een ad hoc schema ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/ad-hoc#token_type=bearer&expires_in=43197438) tot stand te brengen en dan [ te gebruiken creeer dataset van schema ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema) werkschema.
 
 
-Nadat u a [&#x200B; verbinding &#x200B;](/help/connections/overview.md) creeert, kunt u diverse beheerstaken, zoals [&#x200B; uitvoeren die en datasets &#x200B;](/help/connections/combined-dataset.md) combineren, [&#x200B; controleren het statuut van de datasets van een verbinding en het statuut van gegevensopname &#x200B;](/help/connections/manage-connections.md), en meer.
+Nadat u a [ verbinding ](/help/connections/overview.md) creeert, kunt u diverse beheerstaken, zoals [ uitvoeren die en datasets ](/help/connections/combined-dataset.md) combineren, [ controleren het statuut van de datasets van een verbinding en het statuut van gegevensopname ](/help/connections/manage-connections.md), en meer.
 
 ## Een gegevensweergave instellen
 
@@ -172,11 +172,11 @@ Uw gegevensweergave maken:
 
 1. In de stap **[!UICONTROL Configure]** :
 
-   1. Selecteer uw [&#x200B; verbinding &#x200B;](#set-up-a-connection) van de **[!UICONTROL Connection]** lijst.
+   1. Selecteer uw [ verbinding ](#set-up-a-connection) van de **[!UICONTROL Connection]** lijst.
 
    1. Naam en (optioneel) beschrijf uw verbinding.
 
-      ![&#x200B; de mening van Gegevens vormt &#x200B;](./assets/cja-dataview-1.png)
+      ![ de mening van Gegevens vormt ](./assets/cja-dataview-1.png)
 
    1. Selecteer **[!UICONTROL Save and continue]**.
 
@@ -185,15 +185,15 @@ Uw gegevensweergave maken:
    1. Voeg schemagebieden en/of standaardcomponent toe die u aan de **[!UICONTROL METRICS]** of **[!UICONTROL DIMENSIONS]** componentenvakjes wilt omvatten. Zorg ervoor dat u relevante velden uit de gegevensset toevoegt die de ad-hocgegevens bevat. U kunt als volgt toegang krijgen tot deze velden:
 
       1. Selecteer **[!UICONTROL Event datasets]**.
-      1. Selecteer **[!UICONTROL Adhoc & Model-based fields]**.
+      1. Selecteer **[!UICONTROL Adhoc & Relational fields]**.
 
-         ![&#x200B; mening van Gegevens - adhoc componenten &#x200B;](assets/cja-dataview-components-adhoc.png)
+         ![ mening van Gegevens - adhoc componenten ](assets/cja-dataview-components-adhoc.png)
 
       1. Sleep velden van de ad-hocschema&#39;s naar **[!UICONTROL METRICS]** of **[!UICONTROL DIMENSIONS]** .
 
 
 
-   1. Naar keuze, gebruik [&#x200B; afgeleide gebieden &#x200B;](/help/data-views/derived-fields/derived-fields.md) om het even welke ad hoc gebieden van hun standaardtype en formaat van het Koord aan een ander type of formaat te wijzigen.
+   1. Naar keuze, gebruik [ afgeleide gebieden ](/help/data-views/derived-fields/derived-fields.md) om het even welke ad hoc gebieden van hun standaardtype en formaat van het Koord aan een ander type of formaat te wijzigen.
 
    1. Selecteer **[!UICONTROL Save and continue]**.
 
@@ -201,7 +201,7 @@ Uw gegevensweergave maken:
 
    Laat de instellingen ongewijzigd en selecteer **[!UICONTROL Save and finish]** .
 
-Zie [&#x200B; overzicht van de meningen van Gegevens &#x200B;](../data-views/data-views.md) voor meer informatie over om een gegevensmening tot stand te brengen en uit te geven. En welke componenten beschikbaar voor u in uw gegevensmening en hoe te om segment en zittingsmontages te gebruiken zijn.
+Zie [ overzicht van de meningen van Gegevens ](../data-views/data-views.md) voor meer informatie over om een gegevensmening tot stand te brengen en uit te geven. En welke componenten beschikbaar voor u in uw gegevensmening en hoe te om segment en zittingsmontages te gebruiken zijn.
 
 
 ## Een project instellen
@@ -218,11 +218,11 @@ Uw project maken:
 
 1. Selecteer **[!UICONTROL Blank project]**.
 
-1. Selecteer uw [&#x200B; gegevensmening &#x200B;](#set-up-a-data-view) van de lijst.
+1. Selecteer uw [ gegevensmening ](#set-up-a-data-view) van de lijst.
 
 1. Als u uw eerste rapport wilt maken, sleept u de afmetingen en metriek op de [!UICONTROL Freeform table] in de [!UICONTROL Panel] . Met inbegrip van die metriek of dimensie die op uw ad hoc gegevens gebaseerd zijn.
 
-Zie [&#x200B; overzicht van Analysis Workspace &#x200B;](../analysis-workspace/home.md) voor meer informatie over hoe te om projecten tot stand te brengen en uw analyse te bouwen gebruikend componenten, visualisaties, en panelen.
+Zie [ overzicht van Analysis Workspace ](../analysis-workspace/home.md) voor meer informatie over hoe te om projecten tot stand te brengen en uw analyse te bouwen gebruikend componenten, visualisaties, en panelen.
 
 >[!SUCCESS]
 >

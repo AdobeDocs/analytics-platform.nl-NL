@@ -6,7 +6,7 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 exl-id: 87593d7d-9456-48f8-8d39-5c3d95fe51ec
-source-git-commit: edf7bdac87d9bed48244ad80521bbbf83c48f7b6
+source-git-commit: b2a13524760f9d466696534bc8b9691f3b4dfb8a
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%
@@ -27,13 +27,13 @@ Zoek onder details die u zou moeten overwegen wanneer het vormen van elk van dez
 
 ## Schema
 
-U moet a [&#x200B; model-gebaseerd schema &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/model-based){target="_blank"} tot stand brengen dat modellen de gegevens pakhuis inheemse lijst u wilt spiegelen. Wanneer u het model-gebaseerde schema construeert, zorg ervoor dat aan de volgende vereisten wordt voldaan:
+U moet a [ relationeel schema ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational){target="_blank"} tot stand brengen dat de inheemse lijst van het gegevenspakhuis is u wilt spiegelen. Wanneer u het relationele schema construeert, zorg ervoor dat aan de volgende vereisten wordt voldaan:
 
-* Wanneer ertoe aangezet voor het type van op model-gebaseerd schema, zorg ervoor u de handoptie selecteert.
+* Wanneer ertoe aangezet voor het type van relationeel schema, zorg ervoor u de handoptie selecteert.
 * Selecteer het juiste schema voor het type gegevens. Experience Platform Data Mirror wordt vooral gebruikt voor tijdreeksgegevens (bijvoorbeeld gebeurtenisgegevens).
 
 * De velden in uw schema en de bijbehorende kenmerken definiëren
-* Configureer de vereiste kenmerken voor velden in een op een model gebaseerd schema:
+* Configureer de vereiste kenmerken voor velden in een relationeel schema:
 
    * primaire sleutel
    * versie-id
@@ -42,7 +42,7 @@ U moet a [&#x200B; model-gebaseerd schema &#x200B;](https://experienceleague.ado
 ## Gegevensset
 
 U kunt opstelling vooraf een dataset voor uw schema, of een dataset tot stand brengen wanneer u opstelling uw bronschakelaar.
-Wanneer u een dataset vooraf creeert of een dataset selecteert, verzeker u het gegevensgebruik een op model-gebaseerd [&#x200B; schema &#x200B;](#schema) u vroeger creeerde.
+Wanneer u een dataset vooraf creeert of een dataset selecteert, verzeker u het gegevensgebruik een relationeel [ schema ](#schema) u vroeger creeerde.
 
 
 ## Source-connector
@@ -53,9 +53,9 @@ Aan opstelling gebruikt de bronschakelaar aan de gesteunde inheemse oplossingen 
 
 Voor authentificatie tegen de gesteunde gegevens pakhuis inheemse oplossing, zie de relevante documentatie van Experience Platform:
 
-* [&#x200B; Azure Databricks &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/databases/databricks)
-* [&#x200B; Google BigQuery &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/databases/bigquery)
-* [&#x200B; Snowflake &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/databases/snowflake)
+* [ Azure Databricks ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)
+* [ Google BigQuery ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/bigquery)
+* [ Snowflake ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)
 
 
 ### Gegevens selecteren
@@ -67,12 +67,12 @@ Zodra met succes verbonden met uw met gegevens pakhuis inheemse oplossing, selec
 
 Zorg ervoor dat u het vastleggen van wijzigingsgegevens inschakelt. Er wordt een informatievenster weergegeven waarin de vereisten voor het vastleggen van wijzigingsgegevens worden uitgelegd.
 
-Geef een nieuwe of bestaande gegevensset op die is gebaseerd op het model-gebaseerde schema dat u eerder hebt gemaakt. Specificeer en selecteer andere opties in de Dataflow detailinterface.
+Geef een nieuwe of bestaande gegevensset op die is gebaseerd op het relationele schema dat u eerder hebt gemaakt. Specificeer en selecteer andere opties in de Dataflow detailinterface.
 
 
 ### Toewijzing
 
-Wijs de gebieden van de lijst in de inheemse oplossing van het gegevenspakhuis aan de gebieden toe die u voor het op model-gebaseerde schema hebt gespecificeerd.
+Wijs de gebieden van de lijst in de inheemse oplossing van het gegevenspakhuis aan de gebieden toe die u voor het relationele schema hebt gespecificeerd.
 
 
 ### Planning
@@ -90,6 +90,6 @@ Zodra u de opstelling van de bronschakelaar beëindigde, wordt een dataflow gecr
 
 >[!MORELIKETHIS]
 >
->[&#x200B; Data Mirror snelle startgids: Spiegel en gebruik op model-gebaseerde gegevens &#x200B;](model-based.md)
->&#x200B;>[Data Mirror (de documentatie van Experience Platform) &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/data-mirror/overview)
->&#x200B;>[Model-gebaseerde schema&#39;s (de documentatie van Experience Platform) &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/model-based)
+>[ Data Mirror snelle startgids: Spiegel en gebruik relationele gegevens ](relational.md)
+>[Data Mirror (de documentatie van Experience Platform) ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
+>[Relationele schema&#39;s (documentatie van Experience Platform) ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)

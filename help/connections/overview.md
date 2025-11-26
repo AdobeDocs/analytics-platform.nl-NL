@@ -5,16 +5,16 @@ solution: Customer Journey Analytics
 feature: Connections
 exl-id: 012371d7-aaef-4018-95ee-5c52083e9d8f
 role: Admin
-source-git-commit: 836c793ae74185728af03636b0ba3e838f46f05d
+source-git-commit: 09a6ae258d27f8fe9c9a1fc7ed63273620c67c1b
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 0%
+source-wordcount: '249'
+ht-degree: 1%
 
 ---
 
 # Overzicht van verbindingen
 
-Via verbindingen kunnen Customer Journey Analytics-productbeheerders verbindingen tot stand brengen met verschillende [!DNL &#x200B; Experience Platform] -gegevensbronnen, zoals gebeurtenissen, opzoekacties, profielen en samenvattingsgegevenssets. Deze verbindingen laten de integratie van gegevens van een verbinding aan een afgeleide gegevensmening toe. Verbindingen vormen de basis van Customer Journey Analytics en worden gemaakt op basis van [!DNL Experience Platform] brongegevenssets.
+Met verbindingen kunnen Customer Journey Analytics-productbeheerders definiëren welke [!DNL  Experience Platform] -gegevensbronnen, zoals gebeurtenis, opzoekhandeling, profiel en samenvattingsgegevenssets, worden opgenomen. De verbindingen zijn de stichting van Customer Journey Analytics en bepalen de beschikbaarheid van gegevens (gebieden) die u in a [ gegevensmening ](/help/data-views/data-views.md) als dimensie of metriek kunt bepalen.
 
 >[!IMPORTANT]
 >
@@ -23,7 +23,7 @@ Via verbindingen kunnen Customer Journey Analytics-productbeheerders verbindinge
 
 ## Verbindingsworkflow
 
-![&#x200B; het werkschema van Verbindingen &#x200B;](assets/connection-workflow.png)
+![ het werkschema van Verbindingen ](assets/connection-workflow.png)
 
 <!-- Outdated interface 
 
@@ -39,12 +39,12 @@ Op een hoog niveau kunt u met de workflow Verbindingen:
 
 | Interface | Beschrijving |
 |:---:|---|
-| ➊ | [&#x200B; beheer uw verbindingen en algemeen gebruik &#x200B;](manage-connections.md) van Customer Journey Analytics van de manager van Verbindingen. |
-| ➋ | [&#x200B; inspecteer de details van een verbinding &#x200B;](manage-connections.md#connection-details), als datasetverslagen die worden opgenomen, overgeslagen, of geschrapt. |
-| ➌ | [&#x200B; creeer of geef de configuratie van een verbinding &#x200B;](create-connection.md#create-or-edit-a-connection), als een het rollen gegevensvenster, zandbak om te gebruiken, die datasets deel van de verbinding, en meer uitmaken. |
-| ➍ | [&#x200B; voegt datasets aan een verbinding &#x200B;](create-connection.md#add-datasets) toe. Uw verbinding zou minstens één gebeurtenis of summiere dataset moeten hebben maar kan een verscheidenheid van gebeurtenis, profiel, raadpleging, en summiere datasets bevatten. |
-| ➎ | [&#x200B; vorm de montages &#x200B;](create-connection.md#dataset-settings) voor datasets die u toevoegt. U kunt bepalen hoe te om verschillende datasets te verbinden die op een gemeenschappelijke op persoon-gebaseerde of [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} op rekening-gebaseerde herkenningsteken worden gebaseerd. |
-| ➏ | [&#x200B; geeft de montages voor een bestaande dataset &#x200B;](create-connection.md#edit-a-dataset) uit. U kunt de gegevenssetinstellingen altijd in een later stadium opnieuw bekijken. |
+| ➊ | [ beheer uw verbindingen en algemeen gebruik ](manage-connections.md) van Customer Journey Analytics van de manager van Verbindingen. |
+| ➋ | [ inspecteer de details van een verbinding ](manage-connections.md#connection-details), als datasetverslagen die worden opgenomen, overgeslagen, of geschrapt. |
+| ➌ | [ creeer of geef de configuratie van een verbinding ](create-connection.md#create-or-edit-a-connection), als een het rollen gegevensvenster, zandbak om te gebruiken, die datasets deel van de verbinding, en meer uitmaken. |
+| ➍ | [ voegt datasets aan een verbinding ](create-connection.md#add-datasets) toe. Uw verbinding zou minstens één gebeurtenis of summiere dataset moeten hebben maar kan een verscheidenheid van gebeurtenis, profiel, raadpleging, en summiere datasets bevatten. |
+| ➎ | [ vorm de montages ](create-connection.md#dataset-settings) voor datasets die u toevoegt. U kunt bepalen hoe te om verschillende datasets te verbinden die op een gemeenschappelijke op persoon-gebaseerde of [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} op rekening-gebaseerde herkenningsteken worden gebaseerd. |
+| ➏ | [ geeft de montages voor een bestaande dataset ](create-connection.md#edit-a-dataset) uit. U kunt de gegevenssetinstellingen altijd in een later stadium opnieuw bekijken. |
 
 
 
@@ -54,5 +54,5 @@ De toegang tot het beheer van verbindingen zou tot een kernbeheersgroep moeten w
 
 >[!MORELIKETHIS]
 >
->[&#x200B; controle van de Toegang &#x200B;](/help/technotes/access-control.md).
+>[ controle van de Toegang ](/help/technotes/access-control.md).
 
