@@ -54,8 +54,8 @@ Voor meer informatie, lees de [[!DNL Azure Databricks]  gids bij het toelaten va
 
 Lees de volgende documentatie voor stappen over het inschakelen van het vastleggen van wijzigingsgegevens voor uw [!DNL Azure Databricks] bronverbinding:
 
-* [&#x200B; creeer a [!DNL Azure Databricks]  basisverbinding &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/create/databases/databricks).
-* [&#x200B; creeer een bronverbinding voor een gegevensbestand &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
+* [&#x200B; creeer a [!DNL Azure Databricks]  basisverbinding &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/api-tutorials/create/databases/databricks).
+* [&#x200B; creeer een bronverbinding voor een gegevensbestand &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
 
 ## [!DNL Google BigQuery]
 
@@ -65,8 +65,8 @@ Voor meer informatie, lees de gids over [&#x200B; de taalverklaringen van de geg
 
 Lees de volgende documentatie voor stappen over het inschakelen van het vastleggen van wijzigingsgegevens voor uw [!DNL Google BigQuery] bronverbinding:
 
-* [&#x200B; creeer a [!DNL Google BigQuery]  basisverbinding &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/create/databases/bigquery).
-* [&#x200B; creeer een bronverbinding voor een gegevensbestand &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
+* [&#x200B; creeer a [!DNL Google BigQuery]  basisverbinding &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/api-tutorials/create/databases/bigquery).
+* [&#x200B; creeer een bronverbinding voor een gegevensbestand &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
 
 ## [!DNL Snowflake]
 
@@ -82,8 +82,8 @@ Voor meer informatie, lees de [[!DNL Snowflake]  gids bij het gebruiken van de v
 
 Lees de volgende documentatie voor stappen over het inschakelen van het vastleggen van wijzigingsgegevens voor uw [!DNL Snowflake] bronverbinding:
 
-* [&#x200B; creeer a [!DNL Snowflake]  basisverbinding &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/create/databases/snowflake).
-* [&#x200B; creeer een bronverbinding voor een gegevensbestand &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
+* [&#x200B; creeer a [!DNL Snowflake]  basisverbinding &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/api-tutorials/create/databases/snowflake).
+* [&#x200B; creeer een bronverbinding voor een gegevensbestand &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/api-tutorials/collect/database-nosql#create-a-source-connection).
 
 
 >[!MORELIKETHIS]
