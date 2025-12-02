@@ -21,7 +21,7 @@ Met datumbereikcomponenten kunt u de kalenderinstellingen voor het deelvenster d
 
 +++ View a video illustrating use of calendar and date ranges
 
->[!VIDEO](https://video.tv.adobe.com/v/24136?format=jpeg)
+>[!VIDEO](https://video.tv.adobe.com/v/3445839?captions=dut&format=jpeg)
 
 {{videoaa}}
 +++
