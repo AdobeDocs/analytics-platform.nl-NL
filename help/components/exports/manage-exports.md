@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Exporteren beheren
 
-Nadat u een volledige lijst zoals die in [ wordt beschreven de rapporten van Customer Journey Analytics van de Uitvoer naar de wolk ](/help/analysis-workspace/export/export-cloud.md) uitvoert, zijn de uitvoer beschikbaar op het [!UICONTROL Exports] lusje op de [!UICONTROL Exports] pagina.
+Nadat u een volledige lijst zoals die in [&#x200B; wordt beschreven de rapporten van Customer Journey Analytics van de Uitvoer naar de wolk &#x200B;](/help/analysis-workspace/export/export-cloud.md) uitvoert, zijn de uitvoer beschikbaar op het [!UICONTROL Exports] lusje op de [!UICONTROL Exports] pagina.
 
 U kunt alleen de exportbewerkingen zien die u maakt.
 
@@ -64,7 +64,7 @@ U kunt de eigenschappen, indeling, planning en locatie-informatie van een export
 
    De [!UICONTROL **volledige lijst van de Uitvoer**] dialoogvertoningen.
 
-1. Werk een van de beschikbare opties bij. Voor informatie over elke optie, zie [ Uitvoer volledige lijsten van Analysis Workspace ](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace) in [ de rapporten van Customer Journey Analytics van de Uitvoer aan de wolk ](/help/analysis-workspace/export/export-cloud.md).
+1. Werk een van de beschikbare opties bij. Voor informatie over elke optie, zie [&#x200B; Uitvoer volledige lijsten van Analysis Workspace &#x200B;](/help/analysis-workspace/export/export-cloud.md#export-full-tables-from-analysis-workspace) in [&#x200B; de rapporten van Customer Journey Analytics van de Uitvoer aan de wolk &#x200B;](/help/analysis-workspace/export/export-cloud.md).
 
 ## Een exportbewerking dupliceren
 
@@ -78,9 +78,9 @@ U kunt een bestaande exportbewerking dupliceren.
 
 1. Selecteer [!UICONTROL **Dupliceren**].
 
-   Er wordt een duplicaat van de exportbewerking gemaakt. De naam van de nieuwe exportbewerking komt overeen met de naam van de oorspronkelijke exportbewerking, waarbij _[!UICONTROL - Copy]_aan de bestandsnaam wordt toegevoegd.
+   Er wordt een duplicaat van de exportbewerking gemaakt. De naam van de nieuwe exportbewerking komt overeen met de naam van de oorspronkelijke exportbewerking, waarbij _[!UICONTROL - Copy]_&#x200B;aan de bestandsnaam wordt toegevoegd.
 
-1. (Facultatief) [ geef de nieuwe uitvoer ](#edit-an-export) uit, met inbegrip van het dossier - noem en een andere eigenschappen u wilt veranderen.
+1. (Facultatief) [&#x200B; geef de nieuwe uitvoer &#x200B;](#edit-an-export) uit, met inbegrip van het dossier - noem en een andere eigenschappen u wilt veranderen.
 
 ## Handmatig een exportbewerking starten
 
@@ -96,7 +96,7 @@ U kunt een exportbewerking handmatig starten voor een geplande exportbewerking o
 
 ## Een exportlabel geven
 
-Wanneer u labels toepast op een exportbewerking, kunt u deze tags weergeven in de kolom [!UICONTROL Tags] op de pagina van [!UICONTROL Exports] . Zie [ kolommen ](#configure-columns) voor meer informatie vormen.
+Wanneer u labels toepast op een exportbewerking, kunt u deze tags weergeven in de kolom [!UICONTROL Tags] op de pagina van [!UICONTROL Exports] . Zie [&#x200B; kolommen &#x200B;](#configure-columns) voor meer informatie vormen.
 
 1. In Customer Journey Analytics, uitgezochte [!UICONTROL **Componenten**] > [!UICONTROL **voert**] uit.
 
@@ -128,17 +128,17 @@ Selecteer een kolomkop om het exporteren op die kolom te sorteren. Standaard wor
 
 1. In Customer Journey Analytics, uitgezochte [!UICONTROL **Componenten**] > [!UICONTROL **voert**] uit.
 
-1. Op het [!UICONTROL **Uitvoer**] lusje, selecteer **aanpassen lijst** pictogram ![ aanpassen lijst ](assets/customize-table-icon.png) in het hoger-recht van de [!UICONTROL Exports] pagina.
+1. Op het [!UICONTROL **Uitvoer**] lusje, selecteer **aanpassen lijst** pictogram ![&#x200B; aanpassen lijst &#x200B;](assets/customize-table-icon.png) in het hoger-recht van de [!UICONTROL Exports] pagina.
 
    De volgende kolommen zijn beschikbaar:
 
    | Beschikbare kolom | Beschrijving |
    |---------|----------|
-   | Naam | De naam van de exportbewerking. De gebruikers geven uitvoer een naam wanneer zij tot hen, zoals die in [ worden beschreven de rapporten van Customer Journey Analytics van de Uitvoer aan de wolk ](/help/analysis-workspace/export/export-cloud.md) leiden. |
+   | Naam | De naam van de exportbewerking. De gebruikers geven uitvoer een naam wanneer zij tot hen, zoals die in [&#x200B; worden beschreven de rapporten van Customer Journey Analytics van de Uitvoer aan de wolk &#x200B;](/help/analysis-workspace/export/export-cloud.md) leiden. |
    | ID | De id wordt automatisch toegewezen aan de exportbewerking wanneer deze wordt gemaakt. <!-- True? --> |
-   | Naam gegevensweergave | De naam van de gegevensweergave die aan het exporteren is gekoppeld. De gebruikers kunnen de gegevensmening selecteren wanneer zij tot de uitvoer leiden, zoals die in [ wordt beschreven de rapporten van Customer Journey Analytics van de Uitvoer aan de wolk ](/help/analysis-workspace/export/export-cloud.md). |
-   | Status | De status van de uitvoer. Beschikbare statussen zijn [!UICONTROL Active] , [!UICONTROL Completed] en [!UICONTROL Failed] .<p> **Nota:** voor informatie over het oplossen van problemenontbroken uitvoer, zie [ ontbroken uitvoer problemen oplossen ](/help/components/exports/troubleshoot-exports.md).</p> |
-   | Tags | Hiermee geeft u alle tags weer die op het exporteren zijn toegepast. Voor informatie over hoe te om markeringen op de uitvoer toe te passen, zie [ Tags en de uitvoer ](#tag-an-export). |
+   | Naam gegevensweergave | De naam van de gegevensweergave die aan het exporteren is gekoppeld. De gebruikers kunnen de gegevensmening selecteren wanneer zij tot de uitvoer leiden, zoals die in [&#x200B; wordt beschreven de rapporten van Customer Journey Analytics van de Uitvoer aan de wolk &#x200B;](/help/analysis-workspace/export/export-cloud.md). |
+   | Status | De status van de uitvoer. Beschikbare statussen zijn [!UICONTROL Active] , [!UICONTROL Completed] en [!UICONTROL Failed] .<p> **Nota:** voor informatie over het oplossen van problemenontbroken uitvoer, zie [&#x200B; ontbroken uitvoer problemen oplossen &#x200B;](/help/components/exports/troubleshoot-exports.md).</p> |
+   | Tags | Hiermee geeft u alle tags weer die op het exporteren zijn toegepast. Voor informatie over hoe te om markeringen op de uitvoer toe te passen, zie [&#x200B; Tags en de uitvoer &#x200B;](#tag-an-export). |
    | Tabelgrootte (laatste verzending) | De grootte van de export wanneer deze voor het laatst is verzonden. |
    | Gemaakt door | De gebruiker die de exportbewerking heeft gemaakt. |
    | Gemaakt | De datum en tijd waarop de exportbewerking is gemaakt. <!-- true? --> |

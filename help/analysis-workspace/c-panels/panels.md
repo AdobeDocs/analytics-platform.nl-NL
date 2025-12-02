@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Overzicht van deelvensters {#panels-overview}
 
-A [!UICONTROL panel] is een verzameling tabellen en visualisaties. U kunt tot panelen van het top-linker pictogram in Workspace of a [ leeg paneel ](/help/analysis-workspace/c-panels/blank-panel.md) toegang hebben. Deelvensters zijn handig wanneer u uw projecten wilt ordenen op basis van tijdsperioden, gegevensweergaven of het geval waarin de analyse wordt gebruikt.
+A [!UICONTROL panel] is een verzameling tabellen en visualisaties. U kunt tot panelen van het top-linker pictogram in Workspace of a [&#x200B; leeg paneel &#x200B;](/help/analysis-workspace/c-panels/blank-panel.md) toegang hebben. Deelvensters zijn handig wanneer u uw projecten wilt ordenen op basis van tijdsperioden, gegevensweergaven of het geval waarin de analyse wordt gebruikt.
 
 ## Deelvenstertypen
 
@@ -22,19 +22,19 @@ De volgende deelvenstertypen zijn beschikbaar in Analysis Workspace voor [!UICON
 | Vensternaam | Beschrijving |
 | --- | --- |
 | [Leeg deelvenster](/help/analysis-workspace/c-panels/blank-panel.md) | Kies uit de beschikbare deelvensters en visualisaties om uw analyse te starten. |
-| [ Attributie ](attribution.md) | Vergelijk en visualiseer snel om het even welk aantal attributiemodellen gebruikend om het even welke afmeting en omzettingsmetrisch. |
-| [ Experimentatie ](experimentation.md) | Vergelijk verschillende gebruikerservaringen, marketing, of overseinenvariaties om te bepalen wat het best in het drijven van een specifiek resultaat is. |
-| [ Vrije vorm ](freeform-panel.md) | Voer onbeperkte vergelijkingen en onderverdelingen uit, dan voeg visualisaties toe om een rijk gegevensverhaal te vertellen. |
-| [ gemiddelde minieme publiek van Media ](average-minute-audience-panel.md) | Analyseer het gemiddelde minutenpubliek voor een specifiek stuk van inhoud, of over een aangepaste tijdspanne. |
-| [ Medium gezamenlijke kijkers ](media-concurrent-viewers.md) | Analyseer gelijktijdige viewers in de loop van de tijd met details over de piekconsistentie en de mogelijkheid om af te breken en te vergelijken. |
-| [ bestede tijd van de media playback ](/help/analysis-workspace/c-panels/media-playback-time-spent.md) | Analyseer de afspeeltijd die wordt doorgebracht om te begrijpen waar piekmomenten voorkomen of waar drop-outs optreden. |
-| [ Volgende of vorig punt ](next-previous.md) | Toon de volgende of vorige pagina&#39;s waarnaar mensen gaan. |
-| [ Snelle inzichten ](quickinsight.md) | Snel een vrije-vormlijst en een begeleidende visualisatie bouwen om inzichten sneller te analyseren en te ontdekken. |
+| [&#x200B; Attributie &#x200B;](attribution.md) | Vergelijk en visualiseer snel om het even welk aantal attributiemodellen gebruikend om het even welke afmeting en omzettingsmetrisch. |
+| [&#x200B; Experimentatie &#x200B;](experimentation.md) | Vergelijk verschillende gebruikerservaringen, marketing, of overseinenvariaties om te bepalen wat het best in het drijven van een specifiek resultaat is. |
+| [&#x200B; Vrije vorm &#x200B;](freeform-panel.md) | Voer onbeperkte vergelijkingen en onderverdelingen uit, dan voeg visualisaties toe om een rijk gegevensverhaal te vertellen. |
+| [&#x200B; gemiddelde minieme publiek van Media &#x200B;](average-minute-audience-panel.md) | Analyseer het gemiddelde minutenpubliek voor een specifiek stuk van inhoud, of over een aangepaste tijdspanne. |
+| [&#x200B; Medium gezamenlijke kijkers &#x200B;](media-concurrent-viewers.md) | Analyseer gelijktijdige viewers in de loop van de tijd met details over de piekconsistentie en de mogelijkheid om af te breken en te vergelijken. |
+| [&#x200B; bestede tijd van de media playback &#x200B;](/help/analysis-workspace/c-panels/media-playback-time-spent.md) | Analyseer de afspeeltijd die wordt doorgebracht om te begrijpen waar piekmomenten voorkomen of waar drop-outs optreden. |
+| [&#x200B; Volgende of vorig punt &#x200B;](next-previous.md) | Toon de volgende of vorige pagina&#39;s waarnaar mensen gaan. |
+| [&#x200B; Snelle inzichten &#x200B;](quickinsight.md) | Snel een vrije-vormlijst en een begeleidende visualisatie bouwen om inzichten sneller te analyseren en te ontdekken. |
 
 
-Deelvensters [!UICONTROL Quick insights] , [!UICONTROL Blank] en [!UICONTROL Freeform] zijn ideale startpunten voor uw analyse, terwijl [!UICONTROL Attribution] zichzelf aan geavanceerdere analyses leent. A ![ AddCircle ](/help/assets/icons/AddCircle.svg) is beschikbaar bij de bodem van uw canvas, zodat kunt u lege panelen op elk ogenblik toevoegen.
+Deelvensters [!UICONTROL Quick insights] , [!UICONTROL Blank] en [!UICONTROL Freeform] zijn ideale startpunten voor uw analyse, terwijl [!UICONTROL Attribution] zichzelf aan geavanceerdere analyses leent. A ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) is beschikbaar bij de bodem van uw canvas, zodat kunt u lege panelen op elk ogenblik toevoegen.
 
-Het gebrek beginnende paneel is het [!UICONTROL Freeform] paneel, maar u kunt het [ Lege paneel ](/help/analysis-workspace/c-panels/blank-panel.md) of [ Snelle inzichten ](/help/analysis-workspace/c-panels/quickinsight.md) ook uw gebrek maken. Zie [ Projecten &amp; de voorkeur van de Analyse ](/help/analysis-workspace/user-preferences.md#projects--analyses-preferences).
+Het gebrek beginnende paneel is het [!UICONTROL Freeform] paneel, maar u kunt het [&#x200B; Lege paneel &#x200B;](/help/analysis-workspace/c-panels/blank-panel.md) of [&#x200B; Snelle inzichten &#x200B;](/help/analysis-workspace/c-panels/quickinsight.md) ook uw gebrek maken. Zie [&#x200B; Projecten &amp; de voorkeur van de Analyse &#x200B;](/help/analysis-workspace/user-preferences.md#projects--analyses-preferences).
 
 
 ## Een deelvenster maken
@@ -42,54 +42,54 @@ Het gebrek beginnende paneel is het [!UICONTROL Freeform] paneel, maar u kunt he
 Een deelvenster maken:
 
 * Sleep een deelvenster vanuit het linkerdeelvenster van **[!UICONTROL Panels]** naar het canvas.
-* Selecteer een paneel van het [ Lege paneel ](blank-panel.md).
-* Gebruik **[!UICONTROL Insert]** in Workspace en selecteer het deelvenster. Alternatief, kunt u om het even welke [ kortere weg ](../build-workspace-project/fa-shortcut-keys.md) gebruiken om een paneel op te nemen.
+* Selecteer een paneel van het [&#x200B; Lege paneel &#x200B;](blank-panel.md).
+* Gebruik **[!UICONTROL Insert]** in Workspace en selecteer het deelvenster. Alternatief, kunt u om het even welke [&#x200B; kortere weg &#x200B;](../build-workspace-project/fa-shortcut-keys.md) gebruiken om een paneel op te nemen.
 
-  ![ creeer een paneel ](assets/create-panel.png)
+  ![&#x200B; creeer een paneel &#x200B;](assets/create-panel.png)
 
 U kunt:
 
-* Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **binnen** om het even welk paneel om een andere visualisatie toe te voegen. Er verschijnt een pop-up waarmee u een visualisatie kunt selecteren.
+* Selecteer ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) **binnen** om het even welk paneel om een andere visualisatie toe te voegen. Er verschijnt een pop-up waarmee u een visualisatie kunt selecteren.
 
-  ![ Popup die mogelijke visualisaties tonen ](assets/blank-panel.png)
+  ![&#x200B; Popup die mogelijke visualisaties tonen &#x200B;](assets/blank-panel.png)
 
   | Selecteren... | Een... |
   |---|---|
-  | ![ Lijst ](/help/assets/icons/Table.svg) | [Vrije-vormentabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) |
+  | ![&#x200B; Lijst &#x200B;](/help/assets/icons/Table.svg) | [Vrije-vormentabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) |
   | ![Lijn](/help/assets/icons/GraphTrend.svg) | [Lijn](/help/analysis-workspace/visualizations/line.md) |
-  | ![ GraphBarVertical ](/help/assets/icons/GraphBarVertical.svg) | [ Bar ](/help/analysis-workspace/visualizations/bar.md) |
-  | ![ 123 ](/help/assets/icons/123.svg) | [ Summiere aantal ](/help/analysis-workspace/visualizations/summary-number-change.md) |
+  | ![&#x200B; GraphBarVertical &#x200B;](/help/assets/icons/GraphBarVertical.svg) | [&#x200B; Bar &#x200B;](/help/analysis-workspace/visualizations/bar.md) |
+  | ![&#x200B; 123 &#x200B;](/help/assets/icons/123.svg) | [&#x200B; Summiere aantal &#x200B;](/help/analysis-workspace/visualizations/summary-number-change.md) |
   | ![Tekst](/help/assets/icons/Text.svg) | [Tekst](/help/analysis-workspace/visualizations/text.md) |
-  | ![ ConversionFunnel ](/help/assets/icons/ConversionFunnel.svg) | [Uitval](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) |
-  | ![ Werkschema ](/help/assets/icons/GraphPathing.svg) | [Stroom](/help/analysis-workspace/visualizations/c-flow/flow.md) |
-  | ![ GraphAreaStated ](/help/assets/icons/GraphAreaStacked.svg) | [ Gebied gestapeld ](/help/analysis-workspace/visualizations/area.md) |
-  | ![ TextNumbered ](/help/assets/icons/TextNumbered.svg) | [ Lijst van de Cohort ](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md) |
-  | ![ GraphBullet ](/help/assets/icons/GraphBullet.svg) | [ Opsommingsteken ](/help/analysis-workspace/visualizations/bullet-graph.md) |
-  | ![ GraphDonut ](/help/assets/icons/GraphDonut.svg) | [Cirkeldiagram](/help/analysis-workspace/visualizations/donut.md) |
-  | ![ MoveUpDown ](/help/assets/icons/MoveUpDown.svg) | [ Summiere verandering ](/help/analysis-workspace/visualizations/summary-number-change.md) |
+  | ![&#x200B; ConversionFunnel &#x200B;](/help/assets/icons/ConversionFunnel.svg) | [Uitval](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) |
+  | ![&#x200B; Werkschema &#x200B;](/help/assets/icons/GraphPathing.svg) | [Stroom](/help/analysis-workspace/visualizations/c-flow/flow.md) |
+  | ![&#x200B; GraphAreaStated &#x200B;](/help/assets/icons/GraphAreaStacked.svg) | [&#x200B; Gebied gestapeld &#x200B;](/help/analysis-workspace/visualizations/area.md) |
+  | ![&#x200B; TextNumbered &#x200B;](/help/assets/icons/TextNumbered.svg) | [&#x200B; Lijst van de Cohort &#x200B;](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md) |
+  | ![&#x200B; GraphBullet &#x200B;](/help/assets/icons/GraphBullet.svg) | [&#x200B; Opsommingsteken &#x200B;](/help/analysis-workspace/visualizations/bullet-graph.md) |
+  | ![&#x200B; GraphDonut &#x200B;](/help/assets/icons/GraphDonut.svg) | [Cirkeldiagram](/help/analysis-workspace/visualizations/donut.md) |
+  | ![&#x200B; MoveUpDown &#x200B;](/help/assets/icons/MoveUpDown.svg) | [&#x200B; Summiere verandering &#x200B;](/help/analysis-workspace/visualizations/summary-number-change.md) |
   | ![Histogram](/help/assets/icons/Histogram.svg) | [Histogram](/help/analysis-workspace/visualizations/histogram.md) |
-  | ![ GraphScatter ](/help/assets/icons/GraphScatter.svg) | [ Spreiding ](/help/analysis-workspace/visualizations/scatterplot.md) |
-  | ![ Type ](/help/assets/icons/TwoDots.svg) | [Venn](/help/analysis-workspace/visualizations/venn.md) |
-  | ![ GraphTree ](/help/assets/icons/GraphTree.svg) | [Boomstructuur](/help/analysis-workspace/visualizations/treemap.md) |
+  | ![&#x200B; GraphScatter &#x200B;](/help/assets/icons/GraphScatter.svg) | [&#x200B; Spreiding &#x200B;](/help/analysis-workspace/visualizations/scatterplot.md) |
+  | ![&#x200B; Type &#x200B;](/help/assets/icons/TwoDots.svg) | [Venn](/help/analysis-workspace/visualizations/venn.md) |
+  | ![&#x200B; GraphTree &#x200B;](/help/assets/icons/GraphTree.svg) | [Boomstructuur](/help/analysis-workspace/visualizations/treemap.md) |
 
-* Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **buiten** het laatste paneel in uw werkruimte om een ander [ Lege paneel ](blank-panel.md) toe te voegen.
+* Selecteer ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) **buiten** het laatste paneel in uw werkruimte om een ander [&#x200B; Lege paneel &#x200B;](blank-panel.md) toe te voegen.
 
 
 ## Een deelvenster beheren
 
 U kunt een deelvenster op de volgende manieren beheren:
 
-![ beheert paneel ](assets/manage-panel.png)
+![&#x200B; beheert paneel &#x200B;](assets/manage-panel.png)
 
-* Om een paneel samen te vouwen, uitgezochte ![ ChevronDown ](/help/assets/icons/ChevronDown.svg).
-* Om een doen ineenstorten paneel te openbaren, uitgezochte ![ ChevronLeft ](/help/assets/icons/ChevronLeft.svg).
-* Om een paneel te schrappen, selecteer ![ CrossSize400 ](/help/assets/icons/CrossSize200.svg). Om ongedaan te maken, selecteer **[!UICONTROL Edit]** > **[!UICONTROL Undo]** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**).
-* Om een paneel te bewegen, sleep en laat vallen het paneel wanneer de Beweging van de a ![ zichtbaar is (gewoonlijk wanneer u over de kopbal).](/help/assets/icons/Move.svg)
+* Om een paneel samen te vouwen, uitgezochte ![&#x200B; ChevronDown &#x200B;](/help/assets/icons/ChevronDown.svg).
+* Om een doen ineenstorten paneel te openbaren, uitgezochte ![&#x200B; ChevronLeft &#x200B;](/help/assets/icons/ChevronLeft.svg).
+* Om een paneel te schrappen, selecteer ![&#x200B; CrossSize400 &#x200B;](/help/assets/icons/CrossSize200.svg). Om ongedaan te maken, selecteer **[!UICONTROL Edit]** > **[!UICONTROL Undo]** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**).
+* Om een paneel te bewegen, sleep en laat vallen het paneel wanneer de Beweging van de a ![&#x200B; zichtbaar is (gewoonlijk wanneer u over de kopbal).](/help/assets/icons/Move.svg)
 
 
 ## Gegevens, weergave
 
-Elk paneel wordt geassocieerd met a [ gegevensmening ](/help/data-views/data-views.md), die door ![ Gegevens ](/help/assets/icons/Data.svg) wordt geïdentificeerd **[!UICONTROL *naam van gegevensmening *]**in het drop-down menu bij het hoogste recht van het paneel.
+Elk paneel wordt geassocieerd met a [&#x200B; gegevensmening &#x200B;](/help/data-views/data-views.md), die door ![&#x200B; Gegevens &#x200B;](/help/assets/icons/Data.svg) wordt geïdentificeerd **[!UICONTROL *naam van gegevensmening *]**&#x200B;in het drop-down menu bij het hoogste recht van het paneel.
 
 Wanneer u een leeg Workspace-project maakt, is de standaardgegevensweergave voor het eerste deelvenster de gegevensweergave waarmee u het laatst in Customer Journey Analytics hebt gewerkt.
 
@@ -112,11 +112,11 @@ De paneelkalender bepaalt de rapportdatumwaaier voor lijsten en visualisaties bi
 
 >[!NOTE]
 >
->Als de waaier van de a ![ Kalender ](/help/assets/icons/Calendar.svg) component van de Datum binnen een visualisatie of een paneel (bijvoorbeeld, als segment) wordt gebruikt, treedt de component van de datumwaaier de paneelkalender met voeten.
+>Als de waaier van de a ![&#x200B; Kalender &#x200B;](/help/assets/icons/Calendar.svg) component van de Datum binnen een visualisatie of een paneel (bijvoorbeeld, als segment) wordt gebruikt, treedt de component van de datumwaaier de paneelkalender met voeten.
 >
 
 
-![ het kalendervenster dat de geselecteerde datumwaaier toont.](assets/panel-calendar.png)
+![&#x200B; het kalendervenster dat de geselecteerde datumwaaier toont.](assets/panel-calendar.png)
 
 1. Selecteer een datumbereik door eerst de begindatum en vervolgens de einddatum te selecteren.
 Alternatief, kunt u a **[!UICONTROL Preset]** van [!UICONTROL *selecteren vooraf ingesteld*] drop-down menu.
@@ -152,22 +152,22 @@ Met de dropzone van het deelvenster kunt u segmenten en vervolgkeuzelijsten toep
 
 Sleep segmenten van het linkerdeelvenster naar de neerzetzone van het deelvenster om te beginnen met het segmenteren van het deelvenster. Herhaal dit proces om extra segmenten aan het deelvenster toe te voegen. Segmenten worden naast elkaar boven in het deelvenster weergegeven.
 
-![ het linkerpaneel toont beschikbare Metriek en de Mobiele Klant die aan de plaats van het paneeldaling wordt gesleept.](assets/segment-filter.png)
+![&#x200B; het linkerpaneel toont beschikbare Metriek en de Mobiele Klant die aan de plaats van het paneeldaling wordt gesleept.](assets/segment-filter.png)
 
 #### Snelle segmenten
 
-De niet-segmentcomponenten kunnen ook direct in de dalingsstreek worden gesleept om snelle segmenten tot stand te brengen, die u de tijd en de inspanning sparen om naar de [ bouwer van het Segment ](/help/components/segments/seg-builder.md) te gaan. Segmenten die op deze manier worden gemaakt, worden automatisch gedefinieerd als segmenten op gebeurtenisniveau. Deze definitie kan snel worden gewijzigd door ![ te selecteren geeft ](/help/assets/icons/Edit.svg) naast de segmentnaam uit.
+De niet-segmentcomponenten kunnen ook direct in de dalingsstreek worden gesleept om snelle segmenten tot stand te brengen, die u de tijd en de inspanning sparen om naar de [&#x200B; bouwer van het Segment &#x200B;](/help/components/segments/seg-builder.md) te gaan. Segmenten die op deze manier worden gemaakt, worden automatisch gedefinieerd als segmenten op gebeurtenisniveau. Deze definitie kan snel worden gewijzigd door ![&#x200B; te selecteren geeft &#x200B;](/help/assets/icons/Edit.svg) naast de segmentnaam uit.
 
 
-Voor meer informatie, zie [ Snelle segmenten ](/help/components/segments/seg-quick.md).
+Voor meer informatie, zie [&#x200B; Snelle segmenten &#x200B;](/help/components/segments/seg-quick.md).
 
-![ Ad hoc segmenten die openbaar worden gemaakt en in de dalingsstreek ](assets/adhoc-segment-filter.png) gelaten vallen
+![&#x200B; Ad hoc segmenten die openbaar worden gemaakt en in de dalingsstreek &#x200B;](assets/adhoc-segment-filter.png) gelaten vallen
 
 ### Vervolgkeuzesegmenten
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ drop-down segmenten ](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; drop-down segmenten &#x200B;](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} voor een demo video.
 
 {{videoaa}}
 
@@ -180,24 +180,24 @@ De statische drop-down segmenten laten u toe om met de gegevens op een gecontrol
 
 De statische drop-down segmenten kunnen ook worden gebruikt om vele projecten in te consolideren. Bijvoorbeeld, als u vele versies van het zelfde project met verschillende toegepaste segmenten van het Land hebt, kunt u alle versies in één enkel project consolideren en een drop-down segment van het Land toevoegen.
 
-![ statische drop-down segmenten die het &quot;directe&quot;benadrukte segment van het Kanaal van de Markt tonen. ](assets/dropdown-filter-intro.png)
+![&#x200B; statische drop-down segmenten die het &quot;directe&quot;benadrukte segment van het Kanaal van de Markt tonen. &#x200B;](assets/dropdown-filter-intro.png)
 
 ##### Statische vervolgkeuzelijsten maken
 
 * Voor drop-down segmenten die afmetingspunten gebruiken, selecteer één enkele afmeting van het linkerpaneel en laat vallen de afmeting in de gebied van het paneeldrop terwijl het houden van ⇧ (*verschuiving*). Deze actie leidt tot een drop-down segment met alle afmetingspunten die met die afmeting worden geassocieerd.
 
-  Of als u wilt dat het vervolgkeuzesegment alleen bepaalde dimensies bevat die aan een dimensie zijn gekoppeld, selecteert u het pictogram met de pijl-rechts naast de gewenste dimensie in het linkerdeelvenster. Deze actie stelt alle beschikbare afmetingspunten bloot. Selecteer veelvoudige afmetingspunten van deze lijst gebruikend ⇧+ ![ Uitgezochte ](/help/assets/icons/Select.svg) (*verschuiving* + *uitgezocht*) of ^+ ![ Uitgezochte ](/help/assets/icons/Select.svg) (*controle* + *uitgezocht*), dan laat vallen hen in de gebied van de paneeldaling **terwijl het houden van** ⇧.
+  Of als u wilt dat het vervolgkeuzesegment alleen bepaalde dimensies bevat die aan een dimensie zijn gekoppeld, selecteert u het pictogram met de pijl-rechts naast de gewenste dimensie in het linkerdeelvenster. Deze actie stelt alle beschikbare afmetingspunten bloot. Selecteer veelvoudige afmetingspunten van deze lijst gebruikend ⇧+ ![&#x200B; Uitgezochte &#x200B;](/help/assets/icons/Select.svg) (*verschuiving* + *uitgezocht*) of ^+ ![&#x200B; Uitgezochte &#x200B;](/help/assets/icons/Select.svg) (*controle* + *uitgezocht*), dan laat vallen hen in de gebied van de paneeldaling **terwijl het houden van** ⇧.
 
-* Voor drop-down segmenten die één enkel componenttype gebruiken (bijvoorbeeld, slechts dimensies, of slechts segmenten, of slechts metriek), selecteer veelvoudige punten van het zelfde type in het linkerpaneel gebruikend ⇧+ ![ Uitgezochte ](/help/assets/icons/Select.svg) of ^+ ![ Uitgezocht ](/help/assets/icons/Select.svg). Dan laat vallen de punten in het paneel dalingsstreek **terwijl het houden van** ⇧.
+* Voor drop-down segmenten die één enkel componenttype gebruiken (bijvoorbeeld, slechts dimensies, of slechts segmenten, of slechts metriek), selecteer veelvoudige punten van het zelfde type in het linkerpaneel gebruikend ⇧+ ![&#x200B; Uitgezochte &#x200B;](/help/assets/icons/Select.svg) of ^+ ![&#x200B; Uitgezocht &#x200B;](/help/assets/icons/Select.svg). Dan laat vallen de punten in het paneel dalingsstreek **terwijl het houden van** ⇧.
 
   Er wordt één vervolgkeuzesegment gemaakt met componenten die u hebt geselecteerd.
 
-* Voor drop-down segmenten die een mengeling van componententypes gebruiken (zoals 2 metriek en 3 segmenten), selecteer veelvoudige componenten gebruikend ⇧+ ![ Uitgezochte ](/help/assets/icons/Select.svg) of ^+ ![ ](/help/assets/icons/Select.svg). Daling de selectie in het paneel drop zone **terwijl het houden van** ⇧. In dit verband worden alle componenttypen behandeld als afzonderlijke vervolgkeuzelijsten. Bijvoorbeeld, als u zowel metriek als afmetingspunten in uw selectie omvat, worden twee afzonderlijke drop-down segmenten gecreeerd: één drop-down segment omvat afmetingspunten, en andere omvat metriek.
+* Voor drop-down segmenten die een mengeling van componententypes gebruiken (zoals 2 metriek en 3 segmenten), selecteer veelvoudige componenten gebruikend ⇧+ ![&#x200B; Uitgezochte &#x200B;](/help/assets/icons/Select.svg) of ^+ ![&#x200B; &#x200B;](/help/assets/icons/Select.svg). Daling de selectie in het paneel drop zone **terwijl het houden van** ⇧. In dit verband worden alle componenttypen behandeld als afzonderlijke vervolgkeuzelijsten. Bijvoorbeeld, als u zowel metriek als afmetingspunten in uw selectie omvat, worden twee afzonderlijke drop-down segmenten gecreeerd: één drop-down segment omvat afmetingspunten, en andere omvat metriek.
 
 Een drop-down segment verstrekt de volgende opties van het contextmenu:
 
 * **[!UICONTROL Delete drop-down]**: hiermee verwijdert u het vervolgkeuzesegment uit het deelvenster.
-* **[!UICONTROL Delete label]**: verwijder de tekst die boven een drop-down segment wordt getoond. Om het etiket te wijzigen, over het etiket te bewegen en ![ te selecteren geef etiket van drop-down segment ](/help/assets/icons/Edit.svg) uit.
+* **[!UICONTROL Delete label]**: verwijder de tekst die boven een drop-down segment wordt getoond. Om het etiket te wijzigen, over het etiket te bewegen en ![&#x200B; te selecteren geef etiket van drop-down segment &#x200B;](/help/assets/icons/Edit.svg) uit.
 * **[!UICONTROL Add label]**: Wanneer u een drop-down segment aan een project toevoegt, wordt een etiket automatisch geplaatst aan de componentennaam. Als u het label verwijdert, kunt u het opnieuw toevoegen met deze optie.
 * **[!UICONTROL Require selection]**: vereist dat een segment is ingesteld in het deelvenster.
 
@@ -231,7 +231,7 @@ Een dynamisch drop-down segment verstrekt de zelfde opties van het contextmenu z
 
 Extra functionaliteit voor een deelvenster is beschikbaar via een contextmenu (klik met de rechtermuisknop) in de koptekst van het deelvenster.
 
-![ de met de rechtermuisknop aanklikken opties voor een paneelkopbal.](assets/right-click-menu.png)
+![&#x200B; de met de rechtermuisknop aanklikken opties voor een paneelkopbal.](assets/right-click-menu.png)
 
 De volgende opties zijn beschikbaar:
 
@@ -251,6 +251,6 @@ De volgende opties zijn beschikbaar:
 
 ## Configuratie
 
-Sommige deelvensters (zoals [!UICONTROL Attribution] , [!UICONTROL Experimentation] , [!UICONTROL Media average minute audience] en andere) hebben een configuratiedialoogvenster dat u helpt bij het maken van de visualisatie. Het gebruik ![ geeft ](/help/assets/icons/Edit.svg) bij de bovenkant van het paneel uit om tot de configuratie toegang te hebben en te veranderen.
+Sommige deelvensters (zoals [!UICONTROL Attribution] , [!UICONTROL Experimentation] , [!UICONTROL Media average minute audience] en andere) hebben een configuratiedialoogvenster dat u helpt bij het maken van de visualisatie. Het gebruik ![&#x200B; geeft &#x200B;](/help/assets/icons/Edit.svg) bij de bovenkant van het paneel uit om tot de configuratie toegang te hebben en te veranderen.
 
-![ vorm een paneel ](/help/analysis-workspace/c-panels/assets/configure-panel.png)
+![&#x200B; vorm een paneel &#x200B;](/help/analysis-workspace/c-panels/assets/configure-panel.png)

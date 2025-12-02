@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Met de reiscanvasvisualisatie kunt u uitgebreide inzichten analyseren en verkrijgen over de reizen die u aan uw gebruikers en klanten biedt.
 
-Meer over het canvas van de Reis leren, zie {het overzicht van het 0} canvas van de Reis [ en ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) vormen een visualisatie van het canvas van de Reis [.](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
+Meer over het canvas van de Reis leren, zie {het overzicht van het 0} canvas van de Reis [&#x200B; en &#x200B;](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md) vormen een visualisatie van het canvas van de Reis [.](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
 
 De volgende informatie kan u helpen onbedoelde resultaten problemen oplossen u zou kunnen zien, zoals knopen die later in de reis komen die een hoger percentage of aantaltelling dan knopen tonen die vroeger in de reis komen.
 
@@ -35,7 +35,7 @@ Dit kan in de volgende scenario&#39;s voorkomen:
 
 Omdat het canvas van de Reizen u toestaat om het even welke metrisch als primaire metrisch te gebruiken, kan dit in knopen resulteren die later in de reis komen om een hoger percentage of aantaltelling te tonen dan knopen die vroeger in de reis komen.
 
-![ Weg met knopen met een hoger percentage dan vorige knoop ](assets/journey-canvas-higher-percentage.png)
+![&#x200B; Weg met knopen met een hoger percentage dan vorige knoop &#x200B;](assets/journey-canvas-higher-percentage.png)
 
 De reis die in de volgende scenario&#39;s wordt gebruikt wordt gevormd met deze montages:
 
@@ -51,7 +51,7 @@ Stel nu dat gebruiker A de site opnieuw bezoekt in een latere sessie. Omdat de G
 
 In dit voorbeeld speelt de containerinstelling van de reis van &quot;Persoon&quot; een kritieke rol bij het bepalen dat de gebeurtenis op het derde knooppunt (&quot;Uitchecken&quot;) wordt geteld in de volgende sessie.
 
-Als de containerinstelling was ingesteld op &quot;Sessie&quot;, zou de gebeurtenis die alleen plaatsvond op het derde knooppunt in het volgende bezoek, niet in de reis zijn geteld, omdat de tijdens de reis getoonde statistieken zouden worden beperkt tot één gedefinieerde sessie voor een bepaalde persoon. Om meer over container te leren plaatsend, zie [ beginnen met de bouw van een visualisatie van het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#begin-building-a-journey-canvas-visualization) in het artikel [ vormt een visualisatie van het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
+Als de containerinstelling was ingesteld op &quot;Sessie&quot;, zou de gebeurtenis die alleen plaatsvond op het derde knooppunt in het volgende bezoek, niet in de reis zijn geteld, omdat de tijdens de reis getoonde statistieken zouden worden beperkt tot één gedefinieerde sessie voor een bepaalde persoon. Om meer over container te leren plaatsend, zie [&#x200B; beginnen met de bouw van een visualisatie van het canvas van de Reis &#x200B;](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#begin-building-a-journey-canvas-visualization) in het artikel [&#x200B; vormt een visualisatie van het canvas van de Reis &#x200B;](/help/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
 
 <!-- The time allotted for users to move along the path is determined by the container setting. Because "Person" is selected as the container setting in this example, people who followed the journey's path in one session (moving from Node 1 to Node 2 and to Node 3) met the criteria of the journey. On any subsequent visits to the site, any event they have that matches any node on the journey is counted on that node. -->
 
@@ -65,7 +65,7 @@ Dit komt doordat gebeurtenissen alleen voor elk knooppunt worden geteld wanneer 
 
 Met het canvas Reis kunt u meerdere beginknooppunten in één rit opnemen, wat resulteert in meerdere paden. Deze wegen kunnen in een gemeenschappelijke knoop samenkomen, resulterend in knopen die later in de reis komen die een hoger percentage of aantaltelling tonen dan knopen die vroeger in de reis komen.
 
-![ Een reis met veelvoudige wegen die in één enkele knoop ](assets/journey-canvas-percentage-converge.png) samenkomen
+![&#x200B; Een reis met veelvoudige wegen die in één enkele knoop &#x200B;](assets/journey-canvas-percentage-converge.png) samenkomen
 
 <!--
 
@@ -91,7 +91,7 @@ In de volgende secties ziet u hoe de percentages voor dezelfde rit kunnen worden
 
 De knooppunten in deze rit bevatten de volgende statistieken wanneer het veld **[!UICONTROL Percentage value]** is ingesteld op **[!UICONTROL Percent of start node]** :
 
-![ Weg met knopen met een hoger percentage dan vorige knoop ](assets/journey-canvas-higher-percentage.png)
+![&#x200B; Weg met knopen met een hoger percentage dan vorige knoop &#x200B;](assets/journey-canvas-higher-percentage.png)
 
 | Knooppunt | Statistieken |
 |---------|----------|
@@ -105,7 +105,7 @@ De knooppunten in deze rit bevatten de volgende statistieken wanneer het veld **
 
 De knooppunten in deze rit bevatten de volgende statistieken wanneer het veld **[!UICONTROL Percentage value]** is ingesteld op **[!UICONTROL Percent of previous node]** :
 
-![ Weg met knopen met een hoger percentage dan vorige knoop ](assets/journey-canvas-percentage-previous.png)
+![&#x200B; Weg met knopen met een hoger percentage dan vorige knoop &#x200B;](assets/journey-canvas-percentage-previous.png)
 
 | Knooppunt | Statistieken |
 |---------|----------|
@@ -119,7 +119,7 @@ De knooppunten in deze rit bevatten de volgende statistieken wanneer het veld **
 
 De knooppunten in deze rit bevatten de volgende statistieken wanneer het veld **[!UICONTROL Percentage value]** is ingesteld op **[!UICONTROL Percent of total]** :
 
-![ Weg met knopen met een hoger percentage dan vorige knoop ](assets/journey-canvas-percentage-total.png)
+![&#x200B; Weg met knopen met een hoger percentage dan vorige knoop &#x200B;](assets/journey-canvas-percentage-total.png)
 
 | Knooppunt | Statistieken |
 |---------|----------|

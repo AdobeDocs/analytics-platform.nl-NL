@@ -18,11 +18,11 @@ Hotkeys (sneltoetsen) zijn beschikbaar in Analysis Workspace voor naadloze navig
 
 Op het toetsenbord kunnen de volgende symbolen worden gebruikt:
 
-- **⇧** voor **[!UICONTROL ** verschuiving **]**.
-- **⌘** voor **[!UICONTROL ** cmd **]** (bevel).
-- **⌃** voor **[!UICONTROL ** ctrl **]** (controle).
-- **⌥** voor **[!UICONTROL ** opt **]** (optie).
-- **⎇** voor **[!UICONTROL ** alt **]** (alternatief).
+- **⇧** voor **[!UICONTROL **&#x200B; verschuiving &#x200B;**]**.
+- **⌘** voor **[!UICONTROL **&#x200B; cmd &#x200B;**]** (bevel).
+- **⌃** voor **[!UICONTROL **&#x200B; ctrl &#x200B;**]** (controle).
+- **⌥** voor **[!UICONTROL **&#x200B; opt &#x200B;**]** (optie).
+- **⎇** voor **[!UICONTROL **&#x200B; alt &#x200B;**]** (alternatief).
 
 ## Navigatiehandelingen
 

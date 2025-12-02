@@ -18,7 +18,7 @@ De landingspagina voor Customer Journey Analytics markeert [!DNL Analysis Worksp
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ het Bestaan pagina in Analysis Workspace ](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; het Bestaan pagina in Analysis Workspace &#x200B;](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"} voor een demo video.
 
 {{videoaa}}
 
@@ -35,18 +35,18 @@ Het tabblad **[!UICONTROL Learning]** bevat praktische videolessen, zelfstudies 
 
 >[!TAB  Projecten ]
 
-![ Projecten die pagina ](assets/landing-projects.png) landen
+![&#x200B; Projecten die pagina &#x200B;](assets/landing-projects.png) landen
 
 >[!TAB  het Leren ]
 
-![ het Leren het landen pagina ](assets/landing-learning.png)
+![&#x200B; het Leren het landen pagina &#x200B;](assets/landing-learning.png)
 
 
 >[!ENDTABS]
 
 ## Projecten
 
-[!UICONTROL Projects] fungeert als de [!UICONTROL Workspace] startpagina. Op het tabblad **[!UICONTROL Projects]** worden de map Company, alle persoonlijke mappen die u hebt gemaakt, uw Workspace-projecten en mobiele scorecards weergegeven. Met deze pagina kunt u mappen, projecten en mobiele scorecards weergeven, maken en wijzigen. Zie [ Projecten ](/help/analysis-workspace/build-workspace-project/freeform-overview.md) voor meer informatie.
+[!UICONTROL Projects] fungeert als de [!UICONTROL Workspace] startpagina. Op het tabblad **[!UICONTROL Projects]** worden de map Company, alle persoonlijke mappen die u hebt gemaakt, uw Workspace-projecten en mobiele scorecards weergegeven. Met deze pagina kunt u mappen, projecten en mobiele scorecards weergeven, maken en wijzigen. Zie [&#x200B; Projecten &#x200B;](/help/analysis-workspace/build-workspace-project/freeform-overview.md) voor meer informatie.
 
 
 **[!UICONTROL Projects]** zijn aangepaste ontwerpen die gegevenscomponenten, tabellen en visualisaties combineren die u hebt gemaakt of die iemand anders met u heeft gemaakt en gedeeld. [!UICONTROL Projects] verwijst ook naar lege projecten en lege mobiele scorecards.
@@ -55,7 +55,7 @@ Het tabblad **[!UICONTROL Learning]** bevat praktische videolessen, zelfstudies 
 >
 >Verschillende van de volgende instellingen blijven aanwezig tijdens de sessie en tijdens verschillende sessies. Bijvoorbeeld het tabblad dat u hebt geselecteerd, de geselecteerde segmenten, de geselecteerde kolommen en de sorteerrichting van de kolom. De zoekresultaten zijn niet blijvend.
 
-Zie [ Projecten ](/help/analysis-workspace/build-workspace-project/freeform-overview.md) voor meer informatie.
+Zie [&#x200B; Projecten &#x200B;](/help/analysis-workspace/build-workspace-project/freeform-overview.md) voor meer informatie.
 
 <!--
 
@@ -126,16 +126,16 @@ Toegang krijgen tot de leerinhoud:
 
 De leerpagina bevat de volgende functies
 
-* **inhoud van de Filter:** Gebruik ![ Filter ](/help/assets/icons/Filter.svg) aan filter het leren inhoud door **[!UICONTROL Type]** (**[!UICONTROL Document]**, **[!UICONTROL Video]**, en **[!UICONTROL Tours & tutorials]**) en **[!UICONTROL Experience Level]** (**[!UICONTROL Beginner]**, **[!UICONTROL Intermediate]**, of **[!UICONTROL Advanced]**).
-* **vooruitgang van het Spoor:** Nadat u een stuk van inhoud selecteert, verschijnt de markering van a ![ CheckmarkCircle ](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Viewed]**. Met deze tag kunt u de voortgang van de leerinhoud volgen. U kunt de {![ ](/help/assets/icons/CheckmarkCircle.svg) markering 0} CheckmarkCircle selecteren om het uit een stuk van inhoud te verwijderen.**[!UICONTROL Viewed]**
+* **inhoud van de Filter:** Gebruik ![&#x200B; Filter &#x200B;](/help/assets/icons/Filter.svg) aan filter het leren inhoud door **[!UICONTROL Type]** (**[!UICONTROL Document]**, **[!UICONTROL Video]**, en **[!UICONTROL Tours & tutorials]**) en **[!UICONTROL Experience Level]** (**[!UICONTROL Beginner]**, **[!UICONTROL Intermediate]**, of **[!UICONTROL Advanced]**).
+* **vooruitgang van het Spoor:** Nadat u een stuk van inhoud selecteert, verschijnt de markering van a ![&#x200B; CheckmarkCircle &#x200B;](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Viewed]**. Met deze tag kunt u de voortgang van de leerinhoud volgen. U kunt de {![&#x200B; &#x200B;](/help/assets/icons/CheckmarkCircle.svg) markering 0} CheckmarkCircle selecteren om het uit een stuk van inhoud te verwijderen.**[!UICONTROL Viewed]**
 * **Mening extra inhoud:** terwijl het bekijken van om het even welke video, selecteer **[!UICONTROL Learn more]** om verwante documentinhoud op Experience League te bekijken. Of selecteer op de pagina Leren een van de volgende opties om aanvullende inhoud weer te geven:
    * **[!UICONTROL Visit YouTube]:** bekijk de volledige Analysis Workspace YouTube-afspeellijst.
    * [!UICONTROL **Bezoek Experience League**]: Bekijk de volledige reeks van de documentatie van Customer Journey Analytics op Experience League.
-* **Grondbeginselen voor nieuwe gebruikers:** De [!UICONTROL Learning Workspace Fundamentals] tour wordt geadviseerd voor nieuwe gebruikers. Deze tour leidt je rechtstreeks naar Workspace en begeleidt je door de meest voorkomende acties. Deze tour kan ook om het even welke tijd in Workspace via tooltip van het [ deelvenster Vrije vorm ](/help/analysis-workspace/c-panels/freeform-panel.md) of [ Lege paneelkopbal ](/help/analysis-workspace/c-panels/blank-panel.md) worden opnieuw gelanceerd.
+* **Grondbeginselen voor nieuwe gebruikers:** De [!UICONTROL Learning Workspace Fundamentals] tour wordt geadviseerd voor nieuwe gebruikers. Deze tour leidt je rechtstreeks naar Workspace en begeleidt je door de meest voorkomende acties. Deze tour kan ook om het even welke tijd in Workspace via tooltip van het [&#x200B; deelvenster Vrije vorm &#x200B;](/help/analysis-workspace/c-panels/freeform-panel.md) of [&#x200B; Lege paneelkopbal &#x200B;](/help/analysis-workspace/c-panels/blank-panel.md) worden opnieuw gelanceerd.
 
 ## Voorkeurspagina
 
-U kunt de gewenste openingspagina instellen. Zie [ voorkeur van de Gebruiker ](/help/analysis-workspace/user-preferences.md#general-preferences) voor meer informatie.
+U kunt de gewenste openingspagina instellen. Zie [&#x200B; voorkeur van de Gebruiker &#x200B;](/help/analysis-workspace/user-preferences.md#general-preferences) voor meer informatie.
 
 <!--
 ## Landing page FAQ {#landing-faq}

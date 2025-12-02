@@ -26,20 +26,20 @@ ht-degree: 6%
 
 >[!BEGINSHADEBOX]
 
-_Dit artikel documenteert het Lege paneel in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_.<br/>_zie [ Lege paneel ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
+_Dit artikel documenteert het Lege paneel in_ ![&#x200B; CustomerJourneyAnalytics &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_.<br/>_zie [&#x200B; Lege paneel &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel) voor_ ![&#x200B; AdobeAnalytics &#x200B;](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
 
-A **[!UICONTROL Blank panel]** toont een selectie van panelen (die door ![ WebPage ](/help/assets/icons/WebPage.svg) worden vermeld) of visualisaties die u kunt tot stand brengen om een volledig aangepaste analyse te bouwen.
+A **[!UICONTROL Blank panel]** toont een selectie van panelen (die door ![&#x200B; WebPage &#x200B;](/help/assets/icons/WebPage.svg) worden vermeld) of visualisaties die u kunt tot stand brengen om een volledig aangepaste analyse te bouwen.
 
 ## Gebruiken
 
 Een **[!UICONTROL Blank panel]** gebruiken:
 
-1. Maak een **[!UICONTROL Blank panel]** . Voor informatie over hoe te om een paneel tot stand te brengen, zie [ een paneel ](panels.md#create-a-panel) creëren.
+1. Maak een **[!UICONTROL Blank panel]** . Voor informatie over hoe te om een paneel tot stand te brengen, zie [&#x200B; een paneel &#x200B;](panels.md#create-a-panel) creëren.
 
-   ![ creeer een paneel ](assets/create-panel.png)
+   ![&#x200B; creeer een paneel &#x200B;](assets/create-panel.png)
 
 
 
@@ -49,37 +49,37 @@ Een **[!UICONTROL Blank panel]** gebruiken:
    * Wanneer u een deelvenster selecteert, gaat het lege deelvenster over naar het geselecteerde deelvenster.
    * Wanneer u een visualisatie selecteert, wordt de visualisatie toegevoegd aan het lege paneel.
 
-   Bijvoorbeeld, selecteer een visualisatie (als ![ ViewList ](/help/assets/icons/ViewList.svg) **[!UICONTROL Cohort table]**) om aan het paneel toe te voegen, of selecteer een paneel (als ![ WebPage ](/help/assets/icons/WebPage.svg) **[!UICONTROL Attribution]**) om het paneel aan een attributiepaneel te wijzigen.
+   Bijvoorbeeld, selecteer een visualisatie (als ![&#x200B; ViewList &#x200B;](/help/assets/icons/ViewList.svg) **[!UICONTROL Cohort table]**) om aan het paneel toe te voegen, of selecteer een paneel (als ![&#x200B; WebPage &#x200B;](/help/assets/icons/WebPage.svg) **[!UICONTROL Attribution]**) om het paneel aan een attributiepaneel te wijzigen.
 
 
 
 U kunt:
 
-* Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **binnen** een paneel om een andere visualisatie toe te voegen. Er verschijnt een pop-up waarmee u een visualisatie kunt selecteren.
+* Selecteer ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) **binnen** een paneel om een andere visualisatie toe te voegen. Er verschijnt een pop-up waarmee u een visualisatie kunt selecteren.
 
   | Selecteren... | Een... |
   |---|---|
-  | ![ Lijst ](/help/assets/icons/Table.svg) | [Vrije-vormentabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) |
+  | ![&#x200B; Lijst &#x200B;](/help/assets/icons/Table.svg) | [Vrije-vormentabel](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) |
   | ![Lijn](/help/assets/icons/GraphTrend.svg) | [Lijn](/help/analysis-workspace/visualizations/line.md) |
-  | ![ GraphBarVertical ](/help/assets/icons/GraphBarVertical.svg) | [ Bar ](/help/analysis-workspace/visualizations/bar.md) |
-  | ![ 123 ](/help/assets/icons/123.svg) | [ Summiere aantal ](/help/analysis-workspace/visualizations/summary-number-change.md) |
+  | ![&#x200B; GraphBarVertical &#x200B;](/help/assets/icons/GraphBarVertical.svg) | [&#x200B; Bar &#x200B;](/help/analysis-workspace/visualizations/bar.md) |
+  | ![&#x200B; 123 &#x200B;](/help/assets/icons/123.svg) | [&#x200B; Summiere aantal &#x200B;](/help/analysis-workspace/visualizations/summary-number-change.md) |
   | ![Tekst](/help/assets/icons/Text.svg) | [Tekst](/help/analysis-workspace/visualizations/text.md) |
-  | ![ ConversionFunnel ](/help/assets/icons/ConversionFunnel.svg) | [Uitval](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) |
-  | ![ Werkschema ](/help/assets/icons/GraphPathing.svg) | [Stroom](/help/analysis-workspace/visualizations/c-flow/flow.md) |
-  | ![ GraphAreaStated ](/help/assets/icons/GraphAreaStacked.svg) | [ Gebied gestapeld ](/help/analysis-workspace/visualizations/area.md) |
-  | ![ TextNumbered ](/help/assets/icons/TextNumbered.svg) | [ Lijst van de Cohort ](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md) |
-  | ![ GraphBullet ](/help/assets/icons/GraphBullet.svg) | [ Opsommingsteken ](/help/analysis-workspace/visualizations/bullet-graph.md) |
-  | ![ GraphDonut ](/help/assets/icons/GraphDonut.svg) | [Cirkeldiagram](/help/analysis-workspace/visualizations/donut.md) |
-  | ![ MoveUpDown ](/help/assets/icons/MoveUpDown.svg) | [ Summiere verandering ](/help/analysis-workspace/visualizations/summary-number-change.md) |
+  | ![&#x200B; ConversionFunnel &#x200B;](/help/assets/icons/ConversionFunnel.svg) | [Uitval](/help/analysis-workspace/visualizations/fallout/fallout-flow.md) |
+  | ![&#x200B; Werkschema &#x200B;](/help/assets/icons/GraphPathing.svg) | [Stroom](/help/analysis-workspace/visualizations/c-flow/flow.md) |
+  | ![&#x200B; GraphAreaStated &#x200B;](/help/assets/icons/GraphAreaStacked.svg) | [&#x200B; Gebied gestapeld &#x200B;](/help/analysis-workspace/visualizations/area.md) |
+  | ![&#x200B; TextNumbered &#x200B;](/help/assets/icons/TextNumbered.svg) | [&#x200B; Lijst van de Cohort &#x200B;](/help/analysis-workspace/visualizations/cohort-table/t-cohort.md) |
+  | ![&#x200B; GraphBullet &#x200B;](/help/assets/icons/GraphBullet.svg) | [&#x200B; Opsommingsteken &#x200B;](/help/analysis-workspace/visualizations/bullet-graph.md) |
+  | ![&#x200B; GraphDonut &#x200B;](/help/assets/icons/GraphDonut.svg) | [Cirkeldiagram](/help/analysis-workspace/visualizations/donut.md) |
+  | ![&#x200B; MoveUpDown &#x200B;](/help/assets/icons/MoveUpDown.svg) | [&#x200B; Summiere verandering &#x200B;](/help/analysis-workspace/visualizations/summary-number-change.md) |
   | ![Histogram](/help/assets/icons/Histogram.svg) | [Histogram](/help/analysis-workspace/visualizations/histogram.md) |
-  | ![ GraphScatter ](/help/assets/icons/GraphScatter.svg) | [ Spreiding ](/help/analysis-workspace/visualizations/scatterplot.md) |
-  | ![ Type ](/help/assets/icons/TwoDots.svg) | [Venn](/help/analysis-workspace/visualizations/venn.md) |
-  | ![ GraphTree ](/help/assets/icons/GraphTree.svg) | [Boomstructuur](/help/analysis-workspace/visualizations/treemap.md) |
+  | ![&#x200B; GraphScatter &#x200B;](/help/assets/icons/GraphScatter.svg) | [&#x200B; Spreiding &#x200B;](/help/analysis-workspace/visualizations/scatterplot.md) |
+  | ![&#x200B; Type &#x200B;](/help/assets/icons/TwoDots.svg) | [Venn](/help/analysis-workspace/visualizations/venn.md) |
+  | ![&#x200B; GraphTree &#x200B;](/help/assets/icons/GraphTree.svg) | [Boomstructuur](/help/analysis-workspace/visualizations/treemap.md) |
 
-* Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) **buiten** een paneel om een ander leeg paneel toe te voegen.
+* Selecteer ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) **buiten** een paneel om een ander leeg paneel toe te voegen.
 
 
 >[!MORELIKETHIS]
 >
->[ creeer een paneel ](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
+>[&#x200B; creeer een paneel &#x200B;](/help/analysis-workspace/c-panels/panels.md#create-a-panel)
 >

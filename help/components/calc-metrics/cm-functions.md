@@ -14,11 +14,11 @@ ht-degree: 1%
 # Basisfuncties
 
 
-De [ Berekende metrieke bouwer ](cm-workflow/cm-build-metrics.md) laat u statistische en wiskundige functies toepassen. Dit artikel documenteert alfabetische lijst van de functies en hun definities.
+De [&#x200B; Berekende metrieke bouwer &#x200B;](cm-workflow/cm-build-metrics.md) laat u statistische en wiskundige functies toepassen. Dit artikel documenteert alfabetische lijst van de functies en hun definities.
 
 >[!NOTE]
 >
->Waar [!DNL metric] wordt geïdentificeerd als een argument in een functie, zijn andere expressies van metriek ook toegestaan. Bijvoorbeeld, [ MAXIMUM VAN DE KOLOM (metriek) ](#column-maximum) staat ook voor [ MAXIMUM VAN DE KOLOM (PageViews + Visits) ](#column-maximum) toe.
+>Waar [!DNL metric] wordt geïdentificeerd als een argument in een functie, zijn andere expressies van metriek ook toegestaan. Bijvoorbeeld, [&#x200B; MAXIMUM VAN DE KOLOM (metriek) &#x200B;](#column-maximum) staat ook voor [&#x200B; MAXIMUM VAN DE KOLOM (PageViews + Visits) &#x200B;](#column-maximum) toe.
 
 
 
@@ -26,7 +26,7 @@ De [ Berekende metrieke bouwer ](cm-workflow/cm-build-metrics.md) laat u statist
 
 Een tabelfunctie is een functie waarbij de uitvoer voor elke rij van de tabel hetzelfde is. Een rijfunctie is een functie waarbij de uitvoer voor elke rij van de tabel anders is.
 
-Waar toepasselijk en relevant, is een functie geannoteerd met het type van functie: [!BADGE  Lijst ]{type="Neutral"} of [!BADGE  Rij ]{type="Neutral"}
+Waar toepasselijk en relevant, is een functie geannoteerd met het type van functie: [!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} of [!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
 
 ## Wat betekent de parameter include-zeros?
 
@@ -50,9 +50,9 @@ Een alternatief scenario is dat u twee metriek van rente hebt en één een hoger
 <!-- markdownlint-enable MD034 -->
 
 
-![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ABSOLUTE VALUE(metric)]**
+![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL ABSOLUTE VALUE(metric)]**
 
-[!BADGE  Rij ]{type="Neutral"} keert de absolute waarde van een aantal terug. De absolute waarde van een getal is het getal met een positieve waarde.
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert de absolute waarde van een aantal terug. De absolute waarde van een getal is het getal met een positieve waarde.
 
 | Argument | Beschrijving |
 |---|---|
@@ -70,7 +70,7 @@ Een alternatief scenario is dat u twee metriek van rente hebt en één een hoger
 
 <!-- markdownlint-enable MD034 -->
 
-![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN MAXIMUM(metric, include_zeros)]**
+![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN MAXIMUM(metric, include_zeros)]**
 
 Retourneert de grootste waarde in een set dimensieelementen voor een metrische kolom. MAXV evalueert verticaal binnen één enkele (metrische) kolom over afmetingselementen.
 
@@ -92,7 +92,7 @@ Retourneert de grootste waarde in een set dimensieelementen voor een metrische k
 <!-- markdownlint-enable MD034 -->
 
 
-![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN MINIMUM(metric, include_zeros)]**
+![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN MINIMUM(metric, include_zeros)]**
 
 Retourneert de laagste waarde in een set dimensieelementen voor een metrische kolom. MINV evalueert verticaal binnen één enkele kolom (metrisch) over afmetingselementen.
 
@@ -114,7 +114,7 @@ Retourneert de laagste waarde in een set dimensieelementen voor een metrische ko
 <!-- markdownlint-enable MD034 -->
 
 
-![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN SUM(metric)]**
+![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN SUM(metric)]**
 
 Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen van een afmeting) toe.
 
@@ -135,9 +135,9 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 <!-- markdownlint-enable MD034 -->
 
 
-![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL COUNT(metric)]**
+![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL COUNT(metric)]**
 
-[!BADGE  Lijst ]{type="Neutral"} keert het aantal, of de telling, van niet-nul waarden voor metrisch binnen een kolom (het aantal unieke die elementen terug binnen een dimensie worden gemeld).
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} keert het aantal, of de telling, van niet-nul waarden voor metrisch binnen een kolom (het aantal unieke die elementen terug binnen een dimensie worden gemeld).
 
 | Argument | Beschrijving |
 |---|---|
@@ -155,9 +155,9 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 
 <!-- markdownlint-enable MD034 -->
 
-![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENT(metric)]**
+![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENT(metric)]**
 
-[!BADGE  Keert de Rij ]{type="Neutral"} terug wordt opgeheven aan de macht van een bepaald aantal. De constante e is gelijk aan 2,71828182845904, de basis van de natuurlijke logaritme. EXPONENT is het omgekeerde van LN, de natuurlijke logaritme van een getal.
+[!BADGE &#x200B; Keert de Rij &#x200B;]{type="Neutral"} terug wordt opgeheven aan de macht van een bepaald aantal. De constante e is gelijk aan 2,71828182845904, de basis van de natuurlijke logaritme. EXPONENT is het omgekeerde van LN, de natuurlijke logaritme van een getal.
 
 | Argument | Beschrijving |
 |---|---|
@@ -176,9 +176,9 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 <!-- markdownlint-enable MD034 -->
 
 
-![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL MEAN(metric, include_zeros)]**
+![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL MEAN(metric, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"} keert het rekenkundig gemiddelde, of het gemiddelde, voor metrisch in een kolom terug.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} keert het rekenkundig gemiddelde, of het gemiddelde, voor metrisch in een kolom terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -198,9 +198,9 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 <!-- markdownlint-enable MD034 -->
 
 
-![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL MEDIAN(metric, include_zeros)]**
+![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL MEDIAN(metric, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"} keert mediaan voor metrisch in een kolom terug. De mediaan is het getal in het midden van een reeks getallen. De helft van de getallen heeft waarden die groter zijn dan of gelijk zijn aan de mediaan, en de helft is kleiner dan of gelijk aan de mediaan.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} keert mediaan voor metrisch in een kolom terug. De mediaan is het getal in het midden van een reeks getallen. De helft van de getallen heeft waarden die groter zijn dan of gelijk zijn aan de mediaan, en de helft is kleiner dan of gelijk aan de mediaan.
 
 | Argument | Beschrijving |
 |---|---|
@@ -220,7 +220,7 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 <!-- markdownlint-enable MD034 -->
 
 
-![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL MODULO(metric_X, metric_Y)]**
+![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL MODULO(metric_X, metric_Y)]**
 
 Retourneert de rest na het delen van x door y met behulp van Euclidean-divisie.
 
@@ -257,9 +257,9 @@ MODULO(MODULO(x,y)+y,y)
 <!-- markdownlint-enable MD034 -->
 
 
-![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL PERCENTILE(metric, k, include_zeros)]**
+![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL PERCENTILE(metric, k, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"} keert het nde percentiel terug, dat een waarde tussen 0 en 100 is. Wanneer n &lt; 0, gebruikt de functie nul. Wanneer n > 100, keert de functie 100 terug.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} keert het nde percentiel terug, dat een waarde tussen 0 en 100 is. Wanneer n &lt; 0, gebruikt de functie nul. Wanneer n > 100, keert de functie 100 terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -280,7 +280,7 @@ MODULO(MODULO(x,y)+y,y)
 
 <!-- markdownlint-enable MD034 -->
 
-![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER OPERATOR(metric_X, metrix_Y)]**
+![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL POWER OPERATOR(metric_X, metrix_Y)]**
 
 Retourneert x opgevoerd naar de y-macht.
 
@@ -302,9 +302,9 @@ Retourneert x opgevoerd naar de y-macht.
 <!-- markdownlint-enable MD034 -->
 
 
-![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUARTILE(metric, quartile, include_zeros)]**
+![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL QUARTILE(metric, quartile, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"} keert de kwartiel van waarden voor metrisch terug. Bijvoorbeeld, kunnen de kwartielen worden gebruikt om de hoogste 25% van producten te vinden die de meeste opbrengst drijven. [ MINIMUM VAN DE KOLOM ](#column-minimum), [ GEMIDDELD ](#median), en [ MAXIMUM VAN DE KOLOM ](#column-maximum) keren de zelfde waarde terug zoals [ KWALITEIT ](#quartile) wanneer kwartiel aan `0` (nul) gelijk is, `2`, en `4`, respectievelijk.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} keert de kwartiel van waarden voor metrisch terug. Bijvoorbeeld, kunnen de kwartielen worden gebruikt om de hoogste 25% van producten te vinden die de meeste opbrengst drijven. [&#x200B; MINIMUM VAN DE KOLOM &#x200B;](#column-minimum), [&#x200B; GEMIDDELD &#x200B;](#median), en [&#x200B; MAXIMUM VAN DE KOLOM &#x200B;](#column-maximum) keren de zelfde waarde terug zoals [&#x200B; KWALITEIT &#x200B;](#quartile) wanneer kwartiel aan `0` (nul) gelijk is, `2`, en `4`, respectievelijk.
 
 | Argument | Beschrijving |
 |---|---|
@@ -324,7 +324,7 @@ Retourneert x opgevoerd naar de y-macht.
 
 <!-- markdownlint-enable MD034 -->
 
-![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ROUND(metric, number)]**
+![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL ROUND(metric, number)]**
 
 Rond zonder a *aantal* parameter is het zelfde als rond met a *aantal* parameter van 0, namelijk rond aan het dichtstbijzijnde geheel.  Met a *aantal* parameter, ROUND keert de *aantal* cijfers rechts van decimaal terug.  Als *aantal* negatief is, keert het 0&#39;s links van decimaal terug.
 
@@ -353,7 +353,7 @@ ROUND( 314.15, -2) = 300
 
 <!-- markdownlint-enable MD034 -->
 
-![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ROW COUNT()]**
+![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL ROW COUNT()]**
 
 Geeft als resultaat het aantal rijen voor een bepaalde kolom (het aantal unieke elementen dat binnen een dimensie wordt gerapporteerd). *meer uniques* wordt geteld als 1.
 
@@ -369,7 +369,7 @@ Geeft als resultaat het aantal rijen voor een bepaalde kolom (het aantal unieke 
 
 <!-- markdownlint-enable MD034 -->
 
-![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ROW MAX(metric, include_zeros)]**
+![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL ROW MAX(metric, include_zeros)]**
 
 Maximaal aantal kolommen per rij.
 
@@ -390,7 +390,7 @@ Maximaal aantal kolommen per rij.
 
 <!-- markdownlint-enable MD034 -->
 
-![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ROW MIN(metric, include_zeros)]**
+![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL ROW MIN(metric, include_zeros)]**
 
 Minimaal van de kolommen van elke rij.
 
@@ -412,7 +412,7 @@ Minimaal van de kolommen van elke rij.
 
 <!-- markdownlint-enable MD034 -->
 
-![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ROW SUM(metric, include_zeros)]**
+![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL ROW SUM(metric, include_zeros)]**
 
 Som van de kolommen van elke rij.
 
@@ -433,9 +433,9 @@ Som van de kolommen van elke rij.
 <!-- markdownlint-enable MD034 -->
 
 
-![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL SQUARE ROOT(metric, include_zeros)]**
+![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL SQUARE ROOT(metric, include_zeros)]**
 
-[!BADGE  Rij ]{type="Neutral"} keert de positieve vierkantswortel van een aantal terug. De vierkantswortel van een getal is de waarde van dat getal dat tot de macht 1/2 wordt verheven.
+[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert de positieve vierkantswortel van een aantal terug. De vierkantswortel van een getal is de waarde van dat getal dat tot de macht 1/2 wordt verheven.
 
 | Argument | Beschrijving |
 |---|---|
@@ -453,9 +453,9 @@ Som van de kolommen van elke rij.
 
 <!-- markdownlint-enable MD034 -->
 
-![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL STANDARD DEVIATION(metric, include_zeros)]**
+![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL STANDARD DEVIATION(metric, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"} keert de standaardafwijking, of de vierkantswortel van de variantie terug, die op een steekproefpopulatie van gegevens wordt gebaseerd.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} keert de standaardafwijking, of de vierkantswortel van de variantie terug, die op een steekproefpopulatie van gegevens wordt gebaseerd.
 
 | Argument | Beschrijving |
 |---|---|
@@ -474,9 +474,9 @@ Som van de kolommen van elke rij.
 
 <!-- markdownlint-enable MD034 -->
 
-![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANCE(metric, include_zeros)]**
+![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANCE(metric, include_zeros)]**
 
-[!BADGE  Lijst ]{type="Neutral"} keert de variantie terug die op een steekproefpopulatie van gegevens wordt gebaseerd.
+[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} keert de variantie terug die op een steekproefpopulatie van gegevens wordt gebaseerd.
 
 | Argument | Beschrijving |
 |---|---|
@@ -488,7 +488,7 @@ De vergelijking voor VARIANCE is:
 
 ![](assets/variance_eq.png){width="100"}
 
-Waar *x* het steekproefmiddel is, [ MEAN (*metrisch*) ](#mean), en *n* is de steekproefgrootte.
+Waar *x* het steekproefmiddel is, [&#x200B; MEAN (*metrisch*) &#x200B;](#mean), en *n* is de steekproefgrootte.
 
 
 Als u een variantie wilt berekenen, bekijkt u een hele kolom met getallen. Van die lijst van aantallen berekent u eerst het gemiddelde. Zodra u het gemiddelde hebt, gaat u door elke ingang en doet het volgende:

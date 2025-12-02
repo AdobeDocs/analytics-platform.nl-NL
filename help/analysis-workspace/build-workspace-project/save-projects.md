@@ -35,7 +35,7 @@ Als u een project handmatig wilt opslaan terwijl uw project in Analysis Workspac
 
   Wanneer u uw project voor het eerst opslaat, wordt een dialoogvenster **[!UICONTROL Save]** weergegeven.
 
-  ![ sparen project ](assets/save-project.png)
+  ![&#x200B; sparen project &#x200B;](assets/save-project.png)
 
    1. Geef het volgende op:
 
@@ -51,7 +51,7 @@ Als u een project handmatig wilt opslaan terwijl uw project in Analysis Workspac
 
   Als u een project opslaat dat u hebt gedeeld, verschijnt er een waarschuwingsvenster van **[!UICONTROL Save changes to shared project]** waarin u om bevestiging wordt gevraagd.
 
-  ![ sparen gedeeld project ](assets/save-project-shared.png)
+  ![&#x200B; sparen gedeeld project &#x200B;](assets/save-project-shared.png)
 
    * Selecteer **[!UICONTROL Save]** om het project op te slaan.
    * Selecteer **[!UICONTROL Save as]** om het project op te slaan als een dubbel project met een nieuwe naam.
@@ -59,18 +59,18 @@ Als u een project handmatig wilt opslaan terwijl uw project in Analysis Workspac
 
 * **[!UICONTROL Save with notes]**
 
-  ![ sparen met nota&#39;s ](assets/save-version-notes.png)
+  ![&#x200B; sparen met nota&#39;s &#x200B;](assets/save-version-notes.png)
 
   Wanneer u uw project opslaat, voegt u notities toe over wat er in het project is gewijzigd. In het dialoogvenster Versienotities opslaan:
 
    1. Voer de **[!UICONTROL Version notes]** in het tekstgebied **[!UICONTROL Add notes]** in.
    1. Selecteer **[!UICONTROL Save]**.
 
-  De nota&#39;s worden opgeslagen met de projectversie en zijn beschikbaar wanneer u [ een vorige versie ](open-projects.md#open-previous-version) van het project opent. Een versie die met notities wordt opgeslagen, wordt automatisch één jaar lang opgeslagen.
+  De nota&#39;s worden opgeslagen met de projectversie en zijn beschikbaar wanneer u [&#x200B; een vorige versie &#x200B;](open-projects.md#open-previous-version) van het project opent. Een versie die met notities wordt opgeslagen, wordt automatisch één jaar lang opgeslagen.
 
 * **[!UICONTROL Save As]**
 
-  ![ sparen project als ](assets/save-project-as.png)
+  ![&#x200B; sparen project als &#x200B;](assets/save-project-as.png)
 
   Maak een duplicaat van uw project met een nieuwe naam. Het dialoogvenster Opslaan als wordt weergegeven.
 

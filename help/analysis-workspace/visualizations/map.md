@@ -42,17 +42,17 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van de Kaart in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_zie [ Kaart ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert de visualisatie van de Kaart in_ ![&#x200B; CustomerJourneyAnalytics &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [&#x200B; Kaart &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/map-visualization) voor_ ![&#x200B; AdobeAnalytics &#x200B;](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
-De ![ Globe ](/help/assets/icons/Globe.svg) **[!UICONTROL Map]** visualisatie in Analysis Workspace staat u toe om een visuele kaart van om het even welke metrisch (met inbegrip van berekende metriek) te bouwen. Het is nuttig om metrische gegevens over verschillende geografische gebieden te identificeren en te vergelijken.
+De ![&#x200B; Globe &#x200B;](/help/assets/icons/Globe.svg) **[!UICONTROL Map]** visualisatie in Analysis Workspace staat u toe om een visuele kaart van om het even welke metrisch (met inbegrip van berekende metriek) te bouwen. Het is nuttig om metrische gegevens over verschillende geografische gebieden te identificeren en te vergelijken.
 
 ## Vereisten
 
 ### Contextlabels toevoegen in gegevensweergaven
 
-In de montages van de gegevensmeningen van Customer Journey Analytics, kunnen de beheerders [ contextetiketten ](/help/data-views/component-settings/overview.md) aan een afmeting toevoegen of metrisch en de diensten van Customer Journey Analytics zoals [!UICONTROL map] visualization kunnen deze etiketten voor hun doeleinden gebruiken.
+In de montages van de gegevensmeningen van Customer Journey Analytics, kunnen de beheerders [&#x200B; contextetiketten &#x200B;](/help/data-views/component-settings/overview.md) aan een afmeting toevoegen of metrisch en de diensten van Customer Journey Analytics zoals [!UICONTROL map] visualization kunnen deze etiketten voor hun doeleinden gebruiken.
 
 #### Vereiste contextlabels voor breedte- en lengtegraad in de kaartvisualisatie
 
@@ -75,7 +75,7 @@ U voegt als volgt contextlabels toe:
 
    Wanneer deze schemagebieden als afmetingen in uw gegevensmening bestaan, worden hun contextetiketten automatisch toegepast, en de kaartvisualisatie gebruikt hen zonder enige extra configuratie.
 
-   ![ voeg breedte en lengteschemagebieden aan gegevensmening ](assets/dataview-lat-long-default.png) toe
+   ![&#x200B; voeg breedte en lengteschemagebieden aan gegevensmening &#x200B;](assets/dataview-lat-long-default.png) toe
 
 1. (Voorwaardelijk) Als u douaneafmetingen hebt die u voor breedte en lengtegegevens wilt gebruiken, kunt u de contextetiketten op de douanegebieden vormen:
 
@@ -83,17 +83,17 @@ U voegt als volgt contextlabels toe:
 
    1. Ga naar de sectie **[!UICONTROL Component settings]** in de rechtertrack in het veld **[!UICONTROL Context labels]** en typ `Longitude` en selecteer deze in het keuzemenu.
 
-      ![ de contextetiketten van de Breedte en van de lengtegraad ](assets/map-context-labels-lat-long.png)
+      ![&#x200B; de contextetiketten van de Breedte en van de lengtegraad &#x200B;](assets/map-context-labels-lat-long.png)
 
    1. Herhaal dit proces om het contextlabel **[!UICONTROL Latitude]** toe te voegen aan de dimensie die de breedtegegevens bevat.
 
-   1. (Optioneel) Deze afmetingen zijn standaard nauwkeurig tot het niveau van de stad of postcode in de kaartvisualisatie en geven 2 decimalen weer in Workspace-rapporten. U kunt deze aanpassen om precies te zijn binnen één meter in de kaartvisualisatie en om 5 decimalen weer te geven in Workspace-rapporten. Voor meer informatie over hoe te om het precisieniveau aan te passen, zie [ nauwkeurige plaatsen voor afmetingen ](#configure-precise-locations-for-dimensions) vormen.
+   1. (Optioneel) Deze afmetingen zijn standaard nauwkeurig tot het niveau van de stad of postcode in de kaartvisualisatie en geven 2 decimalen weer in Workspace-rapporten. U kunt deze aanpassen om precies te zijn binnen één meter in de kaartvisualisatie en om 5 decimalen weer te geven in Workspace-rapporten. Voor meer informatie over hoe te om het precisieniveau aan te passen, zie [&#x200B; nauwkeurige plaatsen voor afmetingen &#x200B;](#configure-precise-locations-for-dimensions) vormen.
 
 1. Selecteer **[!UICONTROL Save and continue]** > **[!UICONTROL Save and finish]** .
 
 #### Vereiste contextlabels voor geosjablonen
 
-Adobe verstrekt verscheidene [ pre-gebouwde malplaatjes ](/help/analysis-workspace/templates/use-templates.md#web-audience) die de kaartvisualisatie gebruiken. Als u elke sjabloon wilt gebruiken, moet u het bijbehorende contextlabel toevoegen aan een dimensie in de gegevensweergave.
+Adobe verstrekt verscheidene [&#x200B; pre-gebouwde malplaatjes &#x200B;](/help/analysis-workspace/templates/use-templates.md#web-audience) die de kaartvisualisatie gebruiken. Als u elke sjabloon wilt gebruiken, moet u het bijbehorende contextlabel toevoegen aan een dimensie in de gegevensweergave.
 
 Hieronder vindt u de sjablonen en het vereiste contextlabel. Als deze labels niet aanwezig zijn, werken de sjablonen niet, omdat er geen geo-gegevens zijn om mee te werken.
 
@@ -119,7 +119,7 @@ U voegt als volgt contextlabels toe:
 
    Wanneer deze schemagebieden als afmetingen in uw gegevensmening bestaan, worden hun contextetiketten automatisch toegepast, en de geo malplaatjes gebruiken hen zonder enige extra configuratie.
 
-   ![ voeg geo schemagebieden aan gegevensmening ](assets/dataview-geo-default.png) toe
+   ![&#x200B; voeg geo schemagebieden aan gegevensmening &#x200B;](assets/dataview-geo-default.png) toe
 
 1. (Voorwaardelijk) Als u douaneafmetingen hebt die u voor geo gegevens wilt gebruiken, kunt u de contextetiketten op de douanegebieden vormen:
 
@@ -127,7 +127,7 @@ U voegt als volgt contextlabels toe:
 
    1. Ga naar de sectie **[!UICONTROL Component settings]** in de rechtertrack in het veld **[!UICONTROL Context labels]** en typ `Geo Country` en selecteer deze in het keuzemenu.
 
-      ![ de contextetiketten van Malplaatjes ](assets/map-context-labels-templates.png)
+      ![&#x200B; de contextetiketten van Malplaatjes &#x200B;](assets/map-context-labels-templates.png)
 
    1. Herhaal dit proces om het contextlabel **[!UICONTROL Geo: Geo Region]** , **[!UICONTROL Geo: Geo City]** , **[!UICONTROL Geo: Geo State]** en **[!UICONTROL Geo: Dma]** toe te voegen aan elke dimensie die de corresponderende gegevens bevat.
 
@@ -144,11 +144,11 @@ De kaartvisualisatie in Customer Journey Analytics verschilt op de volgende mani
 | Functie | Customer Journey Analytics | Adobe Analytics |
 |---------|----------|---------|
 | Gegevensbron | Gebruik om het even welk segment beschikbaar in uw gegevensmening als gegevensbron. | Verstrekt de volgende opties: <ul><li>Mobiel lang/lang</li><li>De geografische Dimension <br/> vertegenwoordigt geo segmentatiegegevens over bezoekersplaats die op het IP van de bezoeker adres wordt gebaseerd. </li></ul> |
-| Precisie | Voor datasets met diepe precisie, kunt u de afmetingen in uw gegevensmening vormen om tot 5 decimale plaatsen te tonen. Hierdoor kan de kaartvisualisatie nauwkeurig zijn binnen één meter. <p>Voor meer informatie, zie [ nauwkeurige plaatsen voor afmetingen ](#configure-precise-locations-for-dimensions) vormen.</p> | Gegevens zijn nauwkeurig tot het niveau [!UICONTROL Country] , [!UICONTROL Region] en [!UICONTROL City] . (Het gaat niet naar het niveau van DMA of van het Postcode.) |
-| Een segment maken op basis van een selectie | Maak een segment op basis van een specifiek gebied dat u selecteert in de kaartvisualisatie. <p>Voor meer informatie, zie [ een segment van de kaartvisualisatie ](#create-a-segment-from-the-map-visualization) creëren.</p> | Creeer een segment dat op de gegevens wordt gebaseerd die in de kaartvisualisatie in het algemeen worden gemeld. |
-| Een publiek maken op basis van een selectie | Maak een publiek op basis van een specifiek gebied dat u selecteert in de kaartvisualisatie. <p>Voor meer informatie, zie [ een publiek van de kaartvisualisatie ](#create-an-audience-from-the-map-visualization) creëren. | Kan geen publiek maken op basis van de kaartvisualisatie. |
-| Een trend maken op basis van een selectie | Creeer een trended visualisatie van de lijngrafiek die op een specifiek gebied wordt gebaseerd dat u in de kaartvisualisatie selecteert. <p>Voor meer informatie, zie [ een trended lijngrafiek van de kaartvisualisatie ](#create-a-trended-line-chart-from-the-map-visualization) creëren. <!-- is this correct? --> | Kan geen trend creëren van de kaartvisualisatie. |
-| Een uitsplitsing toevoegen uit een selectie | Verdeel een specifiek afmeting punt, metrisch, segment, of datumwaaier binnen een specifiek gebied dat u in de kaartvisualisatie selecteert. <p>Voor meer informatie, zie [ een uitsplitsing van de kaartvisualisatie ](#add-a-breakdown-from-the-map-visualization) toevoegen. | Kan geen uitsplitsing toevoegen uit de kaartvisualisatie. |
+| Precisie | Voor datasets met diepe precisie, kunt u de afmetingen in uw gegevensmening vormen om tot 5 decimale plaatsen te tonen. Hierdoor kan de kaartvisualisatie nauwkeurig zijn binnen één meter. <p>Voor meer informatie, zie [&#x200B; nauwkeurige plaatsen voor afmetingen &#x200B;](#configure-precise-locations-for-dimensions) vormen.</p> | Gegevens zijn nauwkeurig tot het niveau [!UICONTROL Country] , [!UICONTROL Region] en [!UICONTROL City] . (Het gaat niet naar het niveau van DMA of van het Postcode.) |
+| Een segment maken op basis van een selectie | Maak een segment op basis van een specifiek gebied dat u selecteert in de kaartvisualisatie. <p>Voor meer informatie, zie [&#x200B; een segment van de kaartvisualisatie &#x200B;](#create-a-segment-from-the-map-visualization) creëren.</p> | Creeer een segment dat op de gegevens wordt gebaseerd die in de kaartvisualisatie in het algemeen worden gemeld. |
+| Een publiek maken op basis van een selectie | Maak een publiek op basis van een specifiek gebied dat u selecteert in de kaartvisualisatie. <p>Voor meer informatie, zie [&#x200B; een publiek van de kaartvisualisatie &#x200B;](#create-an-audience-from-the-map-visualization) creëren. | Kan geen publiek maken op basis van de kaartvisualisatie. |
+| Een trend maken op basis van een selectie | Creeer een trended visualisatie van de lijngrafiek die op een specifiek gebied wordt gebaseerd dat u in de kaartvisualisatie selecteert. <p>Voor meer informatie, zie [&#x200B; een trended lijngrafiek van de kaartvisualisatie &#x200B;](#create-a-trended-line-chart-from-the-map-visualization) creëren. <!-- is this correct? --> | Kan geen trend creëren van de kaartvisualisatie. |
+| Een uitsplitsing toevoegen uit een selectie | Verdeel een specifiek afmeting punt, metrisch, segment, of datumwaaier binnen een specifiek gebied dat u in de kaartvisualisatie selecteert. <p>Voor meer informatie, zie [&#x200B; een uitsplitsing van de kaartvisualisatie &#x200B;](#add-a-breakdown-from-the-map-visualization) toevoegen. | Kan geen uitsplitsing toevoegen uit de kaartvisualisatie. |
 
 ## Een kaart visualiseren {#begin-building-map}
 
@@ -161,13 +161,13 @@ De kaartvisualisatie in Customer Journey Analytics verschilt op de volgende mani
 
 <!-- markdownlint-enable MD034 -->
 
-1. Selecteer het [!UICONTROL **pictogram van Visualisaties**] in het linkerspoor, dan sleep de **[!UICONTROL Map]** visualisatie ![ Kaart ](/help/assets/icons/Globe.svg) in een paneel dat een vrije vormlijst bevat.
+1. Selecteer het [!UICONTROL **pictogram van Visualisaties**] in het linkerspoor, dan sleep de **[!UICONTROL Map]** visualisatie ![&#x200B; Kaart &#x200B;](/help/assets/icons/Globe.svg) in een paneel dat een vrije vormlijst bevat.
 
    of
 
-   Voeg een kaartvisualisatie op om het even welke die manieren toe in [ worden beschreven visualisaties aan een paneel ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) sectie in [ Overzicht van Visualisaties ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) toevoegen.
+   Voeg een kaartvisualisatie op om het even welke die manieren toe in [&#x200B; worden beschreven visualisaties aan een paneel &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) sectie in [&#x200B; Overzicht van Visualisaties &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) toevoegen.
 
-   ![ configuratie van de Kaart ](assets/map-configuration.png){width="50%"}
+   ![&#x200B; configuratie van de Kaart &#x200B;](assets/map-configuration.png){width="50%"}
 
 1. Specificeer de volgende basisinformatie om de kaartvisualisatie te vormen:
 
@@ -175,14 +175,14 @@ De kaartvisualisatie in Customer Journey Analytics verschilt op de volgende mani
 
      >[!IMPORTANT]
      >
-     >Als u metrisch kiest die [ toegepaste attributie ](/help/data-views/component-settings/attribution.md#attribution-models) heeft, wordt de zelfde attributie toegepast op de breedte en lengteparen binnen de huidige viewport van de kaartvisualisatie.
+     >Als u metrisch kiest die [&#x200B; toegepaste attributie &#x200B;](/help/data-views/component-settings/attribution.md#attribution-models) heeft, wordt de zelfde attributie toegepast op de breedte en lengteparen binnen de huidige viewport van de kaartvisualisatie.
      >
 
      <!-- Only choose metrics that use Last Touch as the [attribution model](/help/data-views/component-settings/attribution.md#attribution-models) (this is the default attribution model for all metrics). Choosing a metric that has an attribution model other than Last Touch results in inaccurate map data, because attribution is applied to the latitude and longitude pairs. -->
 
    * **[!UICONTROL Add segment]**: (Optioneel) Selecteer een segment in de vervolgkeuzelijst Segment. Of sleep in een segment uit de lijst met segmenten.
 
-   U kunt deze informatie bijwerken nadat de visualisatie wordt gebouwd door het Edit pictogram ![ te selecteren geeft ](/help/assets/icons/Edit.svg) in de visualisatiekop uit.
+   U kunt deze informatie bijwerken nadat de visualisatie wordt gebouwd door het Edit pictogram ![&#x200B; te selecteren geeft &#x200B;](/help/assets/icons/Edit.svg) in de visualisatiekop uit.
 
 1. Selecteer **[!UICONTROL Build]**.
 
@@ -190,11 +190,11 @@ De kaartvisualisatie in Customer Journey Analytics verschilt op de volgende mani
 
    ![](assets/map-visualization.png)
 
-1. Ga met [ Mening een kaartvisualisatie ](#view-a-map-visualization) voort en [ vorm visualisatie montages ](#configure-visualization-settings).
+1. Ga met [&#x200B; Mening een kaartvisualisatie &#x200B;](#view-a-map-visualization) voort en [&#x200B; vorm visualisatie montages &#x200B;](#configure-visualization-settings).
 
 ## Een kaart visualiseren
 
-1. Als u niet reeds hebt, bouw een kaartvisualisatie zoals die in [ wordt beschreven bouwt een kaartvisualisatie ](#begin-building-a-map-visualization).
+1. Als u niet reeds hebt, bouw een kaartvisualisatie zoals die in [&#x200B; wordt beschreven bouwt een kaartvisualisatie &#x200B;](#begin-building-a-map-visualization).
 
 1. Voer een of meer van de volgende handelingen uit in de kaartvisualisatie in Analysis Workspace:
 
@@ -204,7 +204,7 @@ De kaartvisualisatie in Customer Journey Analytics verschilt op de volgende mani
 
       * Gebruik het muiswieltje of een vergelijkbare actie op het trackpad.
 
-      * Selecteer het plusteken ![ zoom-binnen pictogram ](assets/map-zoomin-icon.png) op de kaartvisualisatie.
+      * Selecteer het plusteken ![&#x200B; zoom-binnen pictogram &#x200B;](assets/map-zoomin-icon.png) op de kaartvisualisatie.
 
      De kaart zoomt dienovereenkomstig in. De vereiste afmeting (land > land > plaats) wordt automatisch bijgewerkt op basis van het zoomniveau.
 
@@ -214,17 +214,17 @@ De kaartvisualisatie in Customer Journey Analytics verschilt op de volgende mani
 
       * Gebruik het muiswieltje of een vergelijkbare actie op het trackpad.
 
-      * Selecteer het minteken ![ zoom-uit pictogram ](assets/map-zoomout-icon.png) op de kaartvisualisatie.
+      * Selecteer het minteken ![&#x200B; zoom-uit pictogram &#x200B;](assets/map-zoomout-icon.png) op de kaartvisualisatie.
 
      De kaart zoomt dienovereenkomstig in. De vereiste afmeting (land > land > plaats) wordt automatisch bijgewerkt op basis van het zoomniveau.
 
    * **roteer**: U kunt de kaart in 2D of 3D roteren door de [!UICONTROL Ctrl] sleutel te houden terwijl het slepen van de kaart met uw muis.
 
-     Om de kaart aan zijn originele noordelijke groepering terug te stellen, selecteer het kompaspictogram ![ kompaspictogram ](assets/map-compass-icon.png).
+     Om de kaart aan zijn originele noordelijke groepering terug te stellen, selecteer het kompaspictogram ![&#x200B; kompaspictogram &#x200B;](assets/map-compass-icon.png).
 
-   * **hulpmiddel van de Selectie**: U kunt een gebied van de kaart selecteren om [ een segment ](#create-a-segment-from-the-map-visualization) tot stand te brengen, [ creeer een trend ](#create-a-trended-line-chart-from-the-map-visualization), of [ voeg een mislukking ](#add-a-breakdown-from-the-map-visualization) toe.
+   * **hulpmiddel van de Selectie**: U kunt een gebied van de kaart selecteren om [&#x200B; een segment &#x200B;](#create-a-segment-from-the-map-visualization) tot stand te brengen, [&#x200B; creeer een trend &#x200B;](#create-a-trended-line-chart-from-the-map-visualization), of [&#x200B; voeg een mislukking &#x200B;](#add-a-breakdown-from-the-map-visualization) toe.
 
-     Klik het pictogram van de de kaartselectie van het selectiegereedschap ![ ](assets/map-selection-icon.png), dan sleep uw muis om het gewenste gebied te selecteren.
+     Klik het pictogram van de de kaartselectie van het selectiegereedschap ![&#x200B; &#x200B;](assets/map-selection-icon.png), dan sleep uw muis om het gewenste gebied te selecteren.
 
    * **vergelijk**: U kunt twee of meer kaartvisualisaties in het zelfde project vergelijken door hen naast elkaar te plaatsen.
 
@@ -238,7 +238,7 @@ De kaartvisualisatie in Customer Journey Analytics verschilt op de volgende mani
 
       * Een groen en rood kleurenschema geeft positief en negatief aan.
 
-   * **Extra visualiseringsmontages**: Selecteer het pictogram van Montages ![ Plaatsend ](/help/assets/icons/Setting.svg) in de visualisatiekop om extra montages voor de kaartvisualisatie te bekijken. Voor meer informatie, zie [ visualiseringsmontages ](#configure-visualization-settings) vormen.
+   * **Extra visualiseringsmontages**: Selecteer het pictogram van Montages ![&#x200B; Plaatsend &#x200B;](/help/assets/icons/Setting.svg) in de visualisatiekop om extra montages voor de kaartvisualisatie te bekijken. Voor meer informatie, zie [&#x200B; visualiseringsmontages &#x200B;](#configure-visualization-settings) vormen.
 
 1. **sparen** het project om alle kaartmontages (coördinaten, gezoem, omwenteling) te bewaren.
 1. (Optioneel) De vrije-vormtabel onder de visualisatie kan worden gevuld door de afmetingen van de locatie en de metriek vanaf de linkerspoorstaaf te slepen.
@@ -247,9 +247,9 @@ De kaartvisualisatie in Customer Journey Analytics verschilt op de volgende mani
 
 Om montages voor de kaartvisualisatie te vormen:
 
-1. In Analysis Workspace, open een bestaande kaartvisualisatie, of [ bouw nieuwe ](#begin-building-a-map-visualization).
+1. In Analysis Workspace, open een bestaande kaartvisualisatie, of [&#x200B; bouw nieuwe &#x200B;](#begin-building-a-map-visualization).
 
-1. Beweeg over de kaartvisualisatie, dan selecteer het pictogram van Montages ![ Plaatsend ](/help/assets/icons/Setting.svg) in de visualisatiekop.
+1. Beweeg over de kaartvisualisatie, dan selecteer het pictogram van Montages ![&#x200B; Plaatsend &#x200B;](/help/assets/icons/Setting.svg) in de visualisatiekop.
 
    De volgende opties zijn beschikbaar:
 
@@ -276,13 +276,13 @@ Als u douanedatasets met diepe precisie hebt, kunt u de kaartvisualisatie vormen
 
 1. Selecteer de tab **[!UICONTROL Components]** in de gegevensweergave.
 
-1. Selecteer de dimensies die u gebruikt voor breedte en lengte die u wilt configureren. Voor meer informatie over welke afmetingen u gebruikt, zie [ Vereiste contextetiketten voor breedte en lengtegraad in de kaartvisualisatie ](#required-context-labels-for-latitude-and-longitude-in-the-map-visualization).
+1. Selecteer de dimensies die u gebruikt voor breedte en lengte die u wilt configureren. Voor meer informatie over welke afmetingen u gebruikt, zie [&#x200B; Vereiste contextetiketten voor breedte en lengtegraad in de kaartvisualisatie &#x200B;](#required-context-labels-for-latitude-and-longitude-in-the-map-visualization).
 
 1. Configureer het precisieniveau voor de dimensie:
 
    1. Met de dimensie die u wilt vormen nog geselecteerd, breid de **[!UICONTROL Format]** sectie in het juiste spoor uit.
 
-      ![ dimensie die punt met uitgevouwen formaatsectie wordt geselecteerd ](assets/map-dimension-format.png)
+      ![&#x200B; dimensie die punt met uitgevouwen formaatsectie wordt geselecteerd &#x200B;](assets/map-dimension-format.png)
 
    1. Wijzig in het veld **[!UICONTROL Decimal places]** het aantal decimalen om het gewenste precisieniveau aan te geven:
 
@@ -314,9 +314,9 @@ Een segment maken op basis van de visualisatie van de kaart:
 
    * **om een segment van alles tot stand te brengen die momenteel in de kaart wordt getoond:** klik overal op de kaart met de rechtermuisknop aan, dan selecteer **[!UICONTROL Create segment from current view]**.
 
-   * **om een segment voor een specifieker gebied van de kaart tot stand te brengen:** klik het pictogram van de selectiegereedschap ![ kaartselectie ](assets/map-selection-icon.png), sleep uw muis om het gewenste gebied te selecteren, dan selecteren **[!UICONTROL Create segment from selection]**.
+   * **om een segment voor een specifieker gebied van de kaart tot stand te brengen:** klik het pictogram van de selectiegereedschap ![&#x200B; kaartselectie &#x200B;](assets/map-selection-icon.png), sleep uw muis om het gewenste gebied te selecteren, dan selecteren **[!UICONTROL Create segment from selection]**.
 
-1. Gebruik de bouwer van het Segment om het nieuwe segment te bepalen. Voor meer informatie, zie [ de bouwer van het Segment ](/help/components/segments/seg-builder.md).
+1. Gebruik de bouwer van het Segment om het nieuwe segment te bepalen. Voor meer informatie, zie [&#x200B; de bouwer van het Segment &#x200B;](/help/components/segments/seg-builder.md).
 
 ## Een publiek maken op basis van de kaartvisualisatie
 
@@ -330,9 +330,9 @@ Om een publiek van de kaartvisualisatie te creëren:
 
    * **om een publiek van alles tot stand te brengen die momenteel in de kaart wordt getoond:** klik overal op de kaart met de rechtermuisknop aan, dan selecteer **[!UICONTROL Create audience from current view]**.
 
-   * **om een publiek voor een specifieker gebied van de kaart tot stand te brengen:** klik het pictogram van de selectiegereedschap ![ kaartselectie ](assets/map-selection-icon.png), sleep uw muis om het gewenste gebied te selecteren, dan selecteren **[!UICONTROL Create audience from selection]**.
+   * **om een publiek voor een specifieker gebied van de kaart tot stand te brengen:** klik het pictogram van de selectiegereedschap ![&#x200B; kaartselectie &#x200B;](assets/map-selection-icon.png), sleep uw muis om het gewenste gebied te selecteren, dan selecteren **[!UICONTROL Create audience from selection]**.
 
-1. Gebruik de Audience Builder om het nieuwe publiek te definiëren. Voor meer informatie, zie [ de bouwer van het Publiek ](/help/components/audiences/publish.md#audience-builder) in [ creëren en publiceren publiek](/help/components/audiences/publish.md)
+1. Gebruik de Audience Builder om het nieuwe publiek te definiëren. Voor meer informatie, zie [&#x200B; de bouwer van het Publiek &#x200B;](/help/components/audiences/publish.md#audience-builder) in [&#x200B; creëren en publiceren publiek](/help/components/audiences/publish.md)
 
 ## Een trendlijndiagram maken op basis van de kaartvisualisatie
 
@@ -346,9 +346,9 @@ U maakt als volgt een trendlijndiagram op basis van de kaartvisualisatie:
 
    * **om een trended lijngrafiek van alles tot stand te brengen die momenteel in de kaart wordt getoond:** klik overal op de kaart met de rechtermuisknop aan, dan selecteer **[!UICONTROL Trend from current view]**.
 
-   * **om een trended lijngrafiek voor een specifieker gebied van de kaart tot stand te brengen:** klik het pictogram van de selectiegereedschap ![ kaartselectie ](assets/map-selection-icon.png), sleep uw muis om het gewenste gebied te selecteren, dan selecteren **[!UICONTROL Trend]**.
+   * **om een trended lijngrafiek voor een specifieker gebied van de kaart tot stand te brengen:** klik het pictogram van de selectiegereedschap ![&#x200B; kaartselectie &#x200B;](assets/map-selection-icon.png), sleep uw muis om het gewenste gebied te selecteren, dan selecteren **[!UICONTROL Trend]**.
 
-   Een lijnvisualisatie wordt gebouwd die een trendline omvat. Voor meer informatie over deze visualisatie, zie [ Lijn ](/help/analysis-workspace/visualizations/line.md).
+   Een lijnvisualisatie wordt gebouwd die een trendline omvat. Voor meer informatie over deze visualisatie, zie [&#x200B; Lijn &#x200B;](/help/analysis-workspace/visualizations/line.md).
 
 <!--
 

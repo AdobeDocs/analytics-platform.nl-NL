@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Aanbrengen aanvragen
 
-Zodra uw organisatie aan alle [ eerste vereisten ](overview.md#prerequisites) voldoet en gemeenschappelijke [ beperkingen ](overview.md#limitations) en het stitching methode specifieke ([ op gebied-gebaseerde ](fbs.md#limitations) en [ op grafiek-gebaseerde ](gbs.md#limitations)) beperkingen begrijpt, kunt u deze stappen volgen om te verzoeken en te beginnen het stitching in Customer Journey Analytics te gebruiken.
+Zodra uw organisatie aan alle [&#x200B; eerste vereisten &#x200B;](overview.md#prerequisites) voldoet en gemeenschappelijke [&#x200B; beperkingen &#x200B;](overview.md#limitations) en het stitching methode specifieke ([&#x200B; op gebied-gebaseerde &#x200B;](fbs.md#limitations) en [&#x200B; op grafiek-gebaseerde &#x200B;](gbs.md#limitations)) beperkingen begrijpt, kunt u deze stappen volgen om te verzoeken en te beginnen het stitching in Customer Journey Analytics te gebruiken.
 
 ## Opties selecteren
 
-Het Customer Journey Analytics-pakket waarop u recht hebt, bepaalt de beschikbare tekenreeksmethoden, opties voor de initiële duur van de backfill, het terugzoekvenster, de herhalingsfrequentie en het maximale aantal gegevenssets dat is toegestaan voor stitching. Zie de [ het productbeschrijving van Customer Journey Analytics ](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html) voor meer details. Bepaal de beschikbare opties voordat u ondersteuning aanvraagt.
+Het Customer Journey Analytics-pakket waarop u recht hebt, bepaalt de beschikbare tekenreeksmethoden, opties voor de initiële duur van de backfill, het terugzoekvenster, de herhalingsfrequentie en het maximale aantal gegevenssets dat is toegestaan voor stitching. Zie de [&#x200B; het productbeschrijving van Customer Journey Analytics &#x200B;](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html) voor meer details. Bepaal de beschikbare opties voordat u ondersteuning aanvraagt.
 
 | | Customer Journey Analytics <br/> Uitgezocht | Customer Journey Analytics <br/> Prime | Customer Journey Analytics <br/> Ultimate |
 |---|---|---|---|
@@ -40,16 +40,16 @@ Het Customer Journey Analytics-pakket waarop u recht hebt, bepaalt de beschikbar
    - Als de gegevensset `identityMap` niet ondersteunt:
       - Voor op veld gebaseerde stitching, de kolomnaam van persoon ID voor de gewenste dataset (persoonsidentificatie, die ook als verbinding tussen datasets in de context van een verbinding dienst doet).
       - Voor op een grafiek gebaseerde stitching, de identiteitsnaamruimte die voor het vragen van de identiteitsgrafiek moet worden gebruikt.
-   - Uw voorkeur voor terugkijkvenster en herhalingsfrequentie. Zie uw pakket van Customer Journey Analytics voor de [ beschikbare opties ](#options).
+   - Uw voorkeur voor terugkijkvenster en herhalingsfrequentie. Zie uw pakket van Customer Journey Analytics voor de [&#x200B; beschikbare opties &#x200B;](#options).
    - Naam van sandbox.
 
 
 2. De Adobe Klantenondersteuning werkt samen met de Adobe-engineering, zodat u op uw verzoek kunt aansluiten. Als deze optie is ingeschakeld, wordt in Adobe Experience Platform een opnieuw weergegeven gegevensset met een kolom met een naadloze id weergegeven. De klantenondersteuning van Adobe kan de id van de nieuwe gegevensset opgeven.
-3. Als Adobe voor het eerst is ingeschakeld, wordt een back-up van opgeslagen gegevens gemaakt. Zie uw pakket van Customer Journey Analytics voor de [ beschikbare optie ](#options).
+3. Als Adobe voor het eerst is ingeschakeld, wordt een back-up van opgeslagen gegevens gemaakt. Zie uw pakket van Customer Journey Analytics voor de [&#x200B; beschikbare optie &#x200B;](#options).
 
-4. Als u de gestikte dataset in een dwars-kanaalanalyse wilt gebruiken, moet u de gestikte dataset aan a [ verbinding ](../connections/overview.md) in Customer Journey Analytics toevoegen. Voeg vervolgens andere gegevenssets toe die vereist zijn voor kanaalanalyse en selecteer de juiste persoon-id voor elke gegevensset.
+4. Als u de gestikte dataset in een dwars-kanaalanalyse wilt gebruiken, moet u de gestikte dataset aan a [&#x200B; verbinding &#x200B;](../connections/overview.md) in Customer Journey Analytics toevoegen. Voeg vervolgens andere gegevenssets toe die vereist zijn voor kanaalanalyse en selecteer de juiste persoon-id voor elke gegevensset.
 
-5. [ creeer een gegevensmening ](/help/data-views/create-dataview.md) die op de verbinding wordt gebaseerd.
+5. [&#x200B; creeer een gegevensmening &#x200B;](/help/data-views/create-dataview.md) die op de verbinding wordt gebaseerd.
 
 <!-- To do: Paragraph on backfill once product and marketing determine the best way forward. -->
 
