@@ -4,7 +4,7 @@ title: Projecten opslaan
 feature: Workspace Basics
 role: User
 exl-id: d751057e-6a5f-4605-abc1-9259a1f95a28
-source-git-commit: c4c8c0ff5d46ec455ca5333f79d6d8529f4cb87d
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Als u een project handmatig wilt opslaan terwijl uw project in Analysis Workspac
 
   Wanneer u uw project voor het eerst opslaat, wordt een dialoogvenster **[!UICONTROL Save]** weergegeven.
 
-  ![&#x200B; sparen project &#x200B;](assets/save-project.png)
+  ![ sparen project ](assets/save-project.png)
 
    1. Geef het volgende op:
 
@@ -51,7 +51,7 @@ Als u een project handmatig wilt opslaan terwijl uw project in Analysis Workspac
 
   Als u een project opslaat dat u hebt gedeeld, verschijnt er een waarschuwingsvenster van **[!UICONTROL Save changes to shared project]** waarin u om bevestiging wordt gevraagd.
 
-  ![&#x200B; sparen gedeeld project &#x200B;](assets/save-project-shared.png)
+  ![ sparen gedeeld project ](assets/save-project-shared.png)
 
    * Selecteer **[!UICONTROL Save]** om het project op te slaan.
    * Selecteer **[!UICONTROL Save as]** om het project op te slaan als een dubbel project met een nieuwe naam.
@@ -59,18 +59,18 @@ Als u een project handmatig wilt opslaan terwijl uw project in Analysis Workspac
 
 * **[!UICONTROL Save with notes]**
 
-  ![&#x200B; sparen met nota&#39;s &#x200B;](assets/save-version-notes.png)
+  ![ sparen met nota&#39;s ](assets/save-version-notes.png)
 
   Wanneer u uw project opslaat, voegt u notities toe over wat er in het project is gewijzigd. In het dialoogvenster Versienotities opslaan:
 
    1. Voer de **[!UICONTROL Version notes]** in het tekstgebied **[!UICONTROL Add notes]** in.
-   1. Selecteer **[!UICONTROL Save]** .
+   1. Selecteer **[!UICONTROL Save]**.
 
-  De nota&#39;s worden opgeslagen met de projectversie en zijn beschikbaar wanneer u [&#x200B; een vorige versie &#x200B;](open-projects.md#open-previous-version) van het project opent. Een versie die met notities wordt opgeslagen, wordt automatisch één jaar lang opgeslagen.
+  De nota&#39;s worden opgeslagen met de projectversie en zijn beschikbaar wanneer u [ een vorige versie ](open-projects.md#open-previous-version) van het project opent. Een versie die met notities wordt opgeslagen, wordt automatisch één jaar lang opgeslagen.
 
 * **[!UICONTROL Save As]**
 
-  ![&#x200B; sparen project als &#x200B;](assets/save-project-as.png)
+  ![ sparen project als ](assets/save-project-as.png)
 
   Maak een duplicaat van uw project met een nieuwe naam. Het dialoogvenster Opslaan als wordt weergegeven.
 
@@ -88,7 +88,7 @@ Als u een project handmatig wilt opslaan terwijl uw project in Analysis Workspac
 
 
 <!-- Cannot find this option in CJA 
-| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=nl-NL) that becomes available to your organization under **[!UICONTROL Project > New]** | 
+| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) that becomes available to your organization under **[!UICONTROL Project > New]** |
 -->
 
 ## Automatisch opslaan

@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Use Cases
 exl-id: ef8a2d08-848b-4072-b400-7b24955a085b
 role: Admin
-source-git-commit: fedb1337b32e44fc00989bace6a4d1788043f55f
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 1%
@@ -21,11 +21,11 @@ Let erop dat:
 * Marketo Engage-rapportage is het meest geschikt voor het direct meten en optimaliseren van marketingprogramma&#39;s in Marketo en is snel, voorgeschreven en markeerbaar.
 * De Analyse van de Reis van de klant verstrekt een veel bredere, klantgerichte analyseoplossing voor klantenreizen die veelvoudige kanalen, producten, en bedrijfseenheden, met inbegrip van, maar niet beperkt tot, de gegevens van Marketo overspannen.
 
-Zie [&#x200B; rapporterend vergelijking &#x200B;](#reporting-comparison) voor meer details.
+Zie [ rapporterend vergelijking ](#reporting-comparison) voor meer details.
 
 >[!NOTE]
 >
->U zou kunnen overwegen [&#x200B; Customer Journey Analytics B2B edition &#x200B;](/help/getting-started/cja-b2b-edition.md) om veel meer waarde van de gegevens van Marketo Engage te krijgen. U kunt de datasets van Marketo Engage met rekening en raadplegingsdatasets combineren. En rapporteren over het account- en opportuniteitsniveau in Customer Journey Analytics B2B edition.
+>U zou kunnen overwegen [ Customer Journey Analytics B2B edition ](/help/getting-started/cja-b2b-edition.md) om veel meer waarde van de gegevens van Marketo Engage te krijgen. U kunt de datasets van Marketo Engage met rekening en raadplegingsdatasets combineren. En rapporteren over het account- en opportuniteitsniveau in Customer Journey Analytics B2B edition.
 >
 
 
@@ -33,47 +33,47 @@ Rapporten over Marketo Engage-gegevens in Customer Journey Analytics:
 
 +++ &#x200B;1. Wijs Marketo-brongegevensvelden toe aan hun XDM-doelen
 
-Wijs de [&#x200B; Personen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) en [&#x200B; Activiteiten &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) voorwerpen aan hun respectieve XDM gebieden van het schemadoel in kaart.
+Wijs de [ Personen ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) en [ Activiteiten ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/marketo) voorwerpen aan hun respectieve XDM gebieden van het schemadoel in kaart.
 
 +++
 
 +++ &#x200B;2. Verzamel Marketo-gegevens naar Adobe Experience Platform
 
-Gebruik de [&#x200B; schakelaar van Marketo Engage &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) om gegevens van Marketo aan Experience Platform te brengen en dit gegeven bijgewerkt te houden gebruikend Platform-verbonden toepassingen.
+Gebruik de [ schakelaar van Marketo Engage ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) om gegevens van Marketo aan Experience Platform te brengen en dit gegeven bijgewerkt te houden gebruikend Platform-verbonden toepassingen.
 
 +++
 
 +++ &#x200B;3. Een verbinding met deze gegevensset instellen in Customer Journey Analytics
 
-Om over de datasets van Experience Platform te rapporteren, moet u eerst een verband tussen datasets in Experience Platform en Customer Journey Analytics vestigen. Zie [&#x200B; creeer of geef een verbinding &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-connections/create-connection) uit.
+Om over de datasets van Experience Platform te rapporteren, moet u eerst een verband tussen datasets in Experience Platform en Customer Journey Analytics vestigen. Zie [ creeer of geef een verbinding ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection) uit.
 
 +++
 
 
 +++ &#x200B;4. Maak een of meer gegevensweergaven
 
-A [&#x200B; gegevensmening &#x200B;](/help/data-views/data-views.md) is een container specifiek voor Customer Journey Analytics die u laat bepalen hoe te om gegevens van een verbinding te interpreteren. Het specificeert alle afmetingen en metriek beschikbaar in Analysis Workspace - in dit geval, metriek en dimensies specifiek voor Marketo. Het specificeert ook welke kolommen die afmetingen en metriek hun gegevens van verkrijgen. Gegevensweergaven worden gedefinieerd ter voorbereiding op rapportage in Analysis Workspace.
+A [ gegevensmening ](/help/data-views/data-views.md) is een container specifiek voor Customer Journey Analytics die u laat bepalen hoe te om gegevens van een verbinding te interpreteren. Het specificeert alle afmetingen en metriek beschikbaar in Analysis Workspace - in dit geval, metriek en dimensies specifiek voor Marketo. Het specificeert ook welke kolommen die afmetingen en metriek hun gegevens van verkrijgen. Gegevensweergaven worden gedefinieerd ter voorbereiding op rapportage in Analysis Workspace.
 
-+++
++++ 
 
 +++ &#x200B;5. Rapport in Analysis Workspace
 
 Een gebruiksgeval dat u zou kunnen onderzoeken is: hoeveel webpagina-bezoeken door leads hebt u in april-juni 2020 gehad?
 
-1. Open [&#x200B; Analytics Workspace &#x200B;](/help/analysis-workspace/home.md) en creeer een nieuw project.
+1. Open [ Analytics Workspace ](/help/analysis-workspace/home.md) en creeer een nieuw project.
 Klanten met B2B/B2P CDP kunnen in Customer Journey Analytics een B2C-analyse uitvoeren. B2B-objecten zijn nog niet beschikbaar.
 
-1. Creeer a [&#x200B; segment &#x200B;](/help/components/segments/seg-create.md) voor Web-pagina meningen als volgt - het Type van gebeurtenis = web.webpagedetails.pageViews:
+1. Creeer a [ segment ](/help/components/segments/seg-create.md) voor Web-pagina meningen als volgt - het Type van gebeurtenis = web.webpagedetails.pageViews:
 
-   ![&#x200B; het venster van de Definitie die Gebeurtenis en Type van Gebeurtenis tonen &#x200B;](../assets/marketo-filter.png)
+   ![ het venster van de Definitie die Gebeurtenis en Type van Gebeurtenis tonen ](../assets/marketo-filter.png)
 
 1. Trek in het segment dat u in de lijst van de Vrije vorm - de Mening van de Web-pagina creeerde, dan trek in de de datumwaaier van de Maand. Deze actie geeft u Webpagina bezoeken door lood elke maand:
 
-   ![&#x200B; Vrije lijst die Gebeurtenissen door Maand toont.](../assets/marketo-freeform.png)
+   ![ Vrije lijst die Gebeurtenissen door Maand toont.](../assets/marketo-freeform.png)
 
 1. Of trek in de volgende afmetingen: Person sleutel of Werk-e-mailadres. Deze actie geeft u de Webpagina bezoeken door elke lood:
 
-   ![&#x200B; vrije lijst die Gebeurtenissen en workEmail.Address en de Kijken van de Web-pagina toont.](../assets/marketo-freeform2.png)
+   ![ vrije lijst die Gebeurtenissen en workEmail.Address en de Kijken van de Web-pagina toont.](../assets/marketo-freeform2.png)
 
 Marketo Engage-gegevens in Customer Journey Analytics kunnen afwijken van wat u ziet in de rapporten in Marketo Engage.
 
@@ -115,7 +115,7 @@ Marketo Engage biedt in-app rapportages die zijn gericht op KPI&#39;s voor marke
 * **Geavanceerde analysemogelijkheden van BI (toe:voegen-op)**: Belemmering &amp; daling, punt-en-klik de bouwer van het douanerapport voor het analyseren van programma/rekening/loodgegevens (zie onlangs het Geavanceerde Overzicht van de Analyse van BI).
 * **Prebuilt dashboards**: Voor campagneprestaties, kanaaldoeltreffendheid, pijpleiding/opbrengstbijdrage.
 * **Programma en kanaalanalyse**: Attributie en ROI specifiek voor Marketo-geleide reizen.
-* **marketing-centric**: Gericht op gebruikers die transparantie in de marketing trechter nodig hebben: e-mailstaten, vormen, slimme campagnes, en opbrengsteffect.
+* **marketing-centric**: Gericht op gebruikers die transparantie in marketing funnel nodig hebben: e-mailstats, vormen, slimme campagnes, en opbrengsteffect.
 
 
 #### Gebruiksscenario&#39;s voor Marketo Engage
@@ -137,6 +137,6 @@ Zie hieronder voor een snelle vergelijkingstabel over rapportagefuncties tussen 
 | **de rapporten van de Douane en flexibiliteit** | Advanced BI (add-on) voor programma en account deep duves. | Zeer flexibel in hoe u aangepaste werkruimten, dashboards of rapporten maakt met gebruik van alle beschikbare gegevens. |
 | **analyse van het publiek** | Filter- en segmentprogrammalijsten, betrokkenheid en slimme lijsten. | Rijke persona- en reisvisualisaties, publiek plakken en segmenten overlappen elkaar. |
 | **Beoogde gebruikers** | Marketers, marketingbedrijven, werknemers die de vraag genereren, inkomstenambtenaren. | Analysten, gegevenswetenschappers, marketingstrategen, klantervaring professionals. |
-| **Metrische deduplicatie** | Voor rapporten over e-mailprestaties worden metrische gegevens automatisch gededupliceerd door id voor leads, campagne-id en e-mailmiddel. Als er meerdere e-mails worden gemaakt van hetzelfde e-mailmiddel en vanuit hetzelfde programma naar dezelfde lead worden verzonden, worden deze e-mails slechts als één e-mail geteld. | Zonder extra toegepaste filters en metriek, wordt e-mail die gegevens melden gemeld als totaal aantal e-mailprestaties zonder [&#x200B; metrische deduplicatie &#x200B;](/help/data-views/component-settings/metric-deduplication.md). |
+| **Metrische deduplicatie** | Voor rapporten over e-mailprestaties worden metrische gegevens automatisch gededupliceerd door id voor leads, campagne-id en e-mailmiddel. Als er meerdere e-mails worden gemaakt van hetzelfde e-mailmiddel en vanuit hetzelfde programma naar dezelfde lead worden verzonden, worden deze e-mails slechts als één e-mail geteld. | Zonder extra toegepaste filters en metriek, wordt e-mail die gegevens melden gemeld als totaal aantal e-mailprestaties zonder [ metrische deduplicatie ](/help/data-views/component-settings/metric-deduplication.md). |
 
 {style="table-layout:fixed"}

@@ -6,7 +6,7 @@ feature: Use Cases
 role: User, Admin
 badgePremium: label="B2B edition"
 exl-id: 7c16cc62-5032-44a2-92e4-4a1c320f17aa
-source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%
@@ -44,21 +44,21 @@ De invloed van marketing analyseren en verkennen:
 - via campagnes, kanalen en inhoud,
 - bij het kopen van groepen binnen rekeningen, de vooruitgang van de verkooppijpleiding, upsell en cross-sell kansen, en de gezondheid van de klantenrekening.
 
-Het [&#x200B; gedetailleerde artikel van het gebruiksgeval &#x200B;](optimize-account-marketing.md) verkent hoe Customer Journey Analytics B2B edition kan helpen om rekening marketing te optimaliseren.
+Het [ gedetailleerde artikel van het gebruiksgeval ](optimize-account-marketing.md) verkent hoe Customer Journey Analytics B2B edition kan helpen om rekening marketing te optimaliseren.
 
 ### Sleutelaccounts vergroten
 
 Aanraakpunten met hoge waarde vaststellen voor inkoopgroepen binnen sleutelaccounts om de volgende-best-marketing- en verkoopacties te informeren en de inkomstengroei te stimuleren. Bereken en controleer de levensduurwaarde van de klant op het rekeningsniveau.
 
-Het [&#x200B; gedetailleerde artikel van het gebruiksgeval &#x200B;](grow-key-accounts.md) verkent hoe Customer Journey Analytics B2B edition kan helpen om zeer belangrijke rekeningen te kweken.
+Het [ gedetailleerde artikel van het gebruiksgeval ](grow-key-accounts.md) verkent hoe Customer Journey Analytics B2B edition kan helpen om zeer belangrijke rekeningen te kweken.
 
 ### Productwaarde opbouwen
 
 Meet het effect van productreleases en productgebruik op klantentevredenheid op het rekening en gebruikersniveau. Zo kunt u producteigenschappen en mogelijkheden optimaliseren en de toekomstige productontwikkeling informeren.
 
-Het [&#x200B; gedetailleerde artikel van het gebruiksgeval &#x200B;](build-product-value.md) verkent hoe Customer Journey Analytics B2B edition kan helpen om productwaarde te bouwen.
+Het [ gedetailleerde artikel van het gebruiksgeval ](build-product-value.md) verkent hoe Customer Journey Analytics B2B edition kan helpen om productwaarde te bouwen.
 
 
 ## Instellen
 
-Het [&#x200B; opstellingsartikel &#x200B;](setup.md) bespreekt hoe te opstelling Customer Journey Analytics B2B edition om deze gebruiksgevallen te steunen.
+Het [ opstellingsartikel ](setup.md) bespreekt hoe te opstelling Customer Journey Analytics B2B edition om deze gebruiksgevallen te steunen.

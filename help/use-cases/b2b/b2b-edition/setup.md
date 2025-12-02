@@ -6,7 +6,7 @@ feature: Use Cases
 role: User
 badgePremium: label="B2B edition"
 exl-id: f959a77b-ccfb-43f2-93bb-b330e73d59ac
-source-git-commit: 3c13ae26a9ef48454467fc21b8faaa9e078c7f9f
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '1652'
 ht-degree: 0%
@@ -249,14 +249,14 @@ De gebeurtenisafmetingen en metriek worden gesteund door een op tijd-reeks (gebe
 
 De persoonverslagen worden gesteund door een verslag (profiel) gebaseerd schema en één of meerdere datasets die persoongegevens bevatten. Zie hieronder voor een voorbeeld van persoongegevens (die op de verwijzing van het ontwerp van de voorbeeldoplossing worden gebaseerd) typisch beschikbaar in zulk een dataset.
 
-![&#x200B; B2B persoonschema en datasets &#x200B;](assets/b2b-person-schema-datasets.png)
+![ B2B persoonschema en datasets ](assets/b2b-person-schema-datasets.png)
 
 
 ### Accountgegevens
 
 De rekeningsverslagen worden gesteund door een verslag (raadpleging) op verslag gebaseerd schema en één of meerdere datasets die rekeningsgegevens bevatten. Zie hieronder voor een voorbeeld van rekeningsgegevens (die op de verwijzing van het ontwerp van de voorbeeldoplossing worden gebaseerd) typisch beschikbaar in zulk een dataset.
 
-![&#x200B; B2B- rekeningsschema en datasets &#x200B;](assets/b2b-account-schema-datasets.png)
+![ B2B- rekeningsschema en datasets ](assets/b2b-account-schema-datasets.png)
 
 
 ### SKU-gegevens
@@ -264,41 +264,41 @@ De rekeningsverslagen worden gesteund door een verslag (raadpleging) op verslag 
 De verslagen van SKU worden gesteund door een verslag (raadpleging) gebaseerd schema en één of meerdere datasets die SKU gegevens bevatten. Zie hieronder voor een voorbeeld van gegevens van SKU (die op de verwijzing van het ontwerp van de voorbeeldoplossing worden gebaseerd) typisch beschikbaar in zulk een dataset.
 
 
-![&#x200B; B2B schema en datasets van SKU &#x200B;](assets/b2b-sku-schema-datasets.png)
+![ B2B schema en datasets van SKU ](assets/b2b-sku-schema-datasets.png)
 
 
 ## Verbinding
 
 Bepaal een op rekening-gebaseerde verbinding in Customer Journey Analytics om verslagen van de gebeurtenis, de rekening, de persoon en de datasets van SKU in te nemen en zich bij te voegen.
 
-1. [&#x200B; creeer een nieuwe verbinding &#x200B;](/help/connections/create-connection.md) in Customer Journey Analytics.
+1. [ creeer een nieuwe verbinding ](/help/connections/create-connection.md) in Customer Journey Analytics.
 1. Voer een beschrijvende naam en beschrijving in voor de verbinding.
-1. Selecteer ![&#x200B; Bouw &#x200B;](/help/assets/icons/Building.svg) **[!UICONTROL Account]** als **[!UICONTROL Primary ID]**.
+1. Selecteer ![ Bouw ](/help/assets/icons/Building.svg) **[!UICONTROL Account]** als **[!UICONTROL Primary ID]**.
 1. Selecteer alles **[!UICONTROL Optional containers]** .
 1. Selecteer de voorkeurssandbox en geef een schatting van het gemiddelde aantal dagelijkse gebeurtenissen.
 
-   ![&#x200B; B2B op rekening-gebaseerde verbinding &#x200B;](assets/b2b-connection-account-based.png)
+   ![ B2B op rekening-gebaseerde verbinding ](assets/b2b-connection-account-based.png)
 
 1. Selecteer **[!UICONTROL Add datasets]** en voeg de B2B datasets toe die de gegevens voor gebeurtenissen, rekeningen, personen en SKUs bevatten.
 
-   ![&#x200B; B2B verbinding - voeg datasets &#x200B;](assets/b2b-connection-add-datasets.png) toe
+   ![ B2B verbinding - voeg datasets ](assets/b2b-connection-add-datasets.png) toe
 
 1. Selecteer **[!UICONTROL Next]** om de montages voor elk van de geselecteerde datasets te vormen.
 1. Selecteer voor de gebeurtenisdataset de juiste velden die overeenkomen met de id&#39;s voor **[!UICONTROL Account ID]** , **[!UICONTROL Global Account ID]** , **[!UICONTROL Opportunity ID]** , **[!UICONTROL Buying Group ID]** en **[!UICONTROL Person ID]** .
 
-   ![&#x200B; B2B verbinding - voeg gebeurtenisdataset &#x200B;](assets/b2b-connection-add-datasets-event-data.png) toe
+   ![ B2B verbinding - voeg gebeurtenisdataset ](assets/b2b-connection-add-datasets-event-data.png) toe
 
 1. De rol neer om de gegevensreeks van rekeningsverslagen te vormen. Zorg ervoor dat u de juiste id (**[!UICONTROL Account_ID]**) selecteert, zodat deze overeenkomt met de account in de **[!UICONTROL Global Account]** -container. Selecteer de juiste id (**[!UICONTROL Account_ID]**) als de **[!UICONTROL Global Account field]** .
 
-   ![&#x200B; B2B verbinding - voeg rekeningsdataset &#x200B;](assets/b2b-connection-add-datasets-account-data.png) toe
+   ![ B2B verbinding - voeg rekeningsdataset ](assets/b2b-connection-add-datasets-account-data.png) toe
 
 1. De rol neer om de dataset van persoonverslagen te vormen. Zorg ervoor dat u de juiste sleutel (**[!UICONTROL Person_ID]**) selecteert, zodat deze overeenkomt met de persoon in de **[!UICONTROL Person]** -container. Selecteer de juiste identiteit (**[!UICONTROL Profile_Account_ID_Individual]**) die moet overeenkomen met het veld **[!UICONTROL Global Account]** .
 
-   ![&#x200B; B2B verbinding - voeg persoondataset &#x200B;](assets/b2b-connection-add-datasets-person-data.png) toe
+   ![ B2B verbinding - voeg persoondataset ](assets/b2b-connection-add-datasets-person-data.png) toe
 
 1. De rol neer om de de recorddataset van SKU te vormen. Zorg ervoor u de correcte sleutel (**[!UICONTROL Sku]**) selecteert. Selecteer **[!UICONTROL Match by field]** omdat er geen container is geconfigureerd of beschikbaar voor deze gegevens. Selecteer het gebied SKU in de gebeurtenisdataset (**[!UICONTROL SKU (event datasets)]**) als passende sleutel.
 
-   ![&#x200B; B2B verbinding - voeg de dataset van SKU &#x200B;](assets/b2b-connection-add-datasets-sku-data.png) toe
+   ![ B2B verbinding - voeg de dataset van SKU ](assets/b2b-connection-add-datasets-sku-data.png) toe
 
 1. Selecteer **[!UICONTROL Add datasets]** om de datasets en hun gevormde montages te bewaren.
 
@@ -312,59 +312,59 @@ Nadat de gegevens in Customer Journey Analytics worden opgenomen, wilt u een geg
 
 ### Configureren
 
-1. [&#x200B; creeer een nieuwe gegevensmening &#x200B;](/help/data-views/data-views.md) in Customer Journey Analytics.
+1. [ creeer een nieuwe gegevensmening ](/help/data-views/data-views.md) in Customer Journey Analytics.
 1. Selecteer de verbinding die u eerder hebt gemaakt (bijvoorbeeld: **[!UICONTROL B2B Demo Connection (ExL)]**).
 1. Geef een naam op voor de gegevensweergave. Bijvoorbeeld: `B2B Demo Data view (ExL)` en optioneel een beschrijving.
 1. Wijzig desgewenst de naam van de containers. Of blijf bij de standaardcontainernamen.
 
-   ![&#x200B; B2B- gegevensmening - vorm &#x200B;](assets/b2b-dataview-configure.png)
-1. Selecteer **[!UICONTROL Save and continue]** .
+   ![ B2B- gegevensmening - vorm ](assets/b2b-dataview-configure.png)
+1. Selecteer **[!UICONTROL Save and continue]**.
 
 
 
 ### Onderdelen
 
-Door gebrek, zijn alle [&#x200B; standaardcomponenten &#x200B;](/help/data-views/component-reference.md) reeds inbegrepen in uw gegevensmening. Deze standaardcomponenten omvatten de B2B specifieke metriek voor Rekeningen, het Kopen Groepen, Globale Rekeningen, en Kansen.
+Door gebrek, zijn alle [ standaardcomponenten ](/help/data-views/component-reference.md) reeds inbegrepen in uw gegevensmening. Deze standaardcomponenten omvatten de B2B specifieke metriek voor Rekeningen, het Kopen Groepen, Globale Rekeningen, en Kansen.
 
-1. Voeg alle gebeurtenisafmetingen toe die u in de [&#x200B; verwijzing van het oplossingsontwerp &#x200B;](#solution-design-reference), aan de afmetingscomponenten in uw gegevensmening hebt bepaald. Het veld **[!UICONTROL Event Name]** dat bijvoorbeeld de **[!UICONTROL Event Name]** -dimensie vertegenwoordigt. Verzeker u de afmetingscomponent door de beschikbare [&#x200B; montages van de Component &#x200B;](/help/data-views/component-settings/overview.md) vormt.
+1. Voeg alle gebeurtenisafmetingen toe die u in de [ verwijzing van het oplossingsontwerp ](#solution-design-reference), aan de afmetingscomponenten in uw gegevensmening hebt bepaald. Het veld **[!UICONTROL Event Name]** dat bijvoorbeeld de **[!UICONTROL Event Name]** -dimensie vertegenwoordigt. Verzeker u de afmetingscomponent door de beschikbare [ montages van de Component ](/help/data-views/component-settings/overview.md) vormt.
 
-   ![&#x200B; B2B- gegevensmening - componenten - gebeurtenisafmetingen &#x200B;](assets/b2b-dataview-components-event-dimensions.png)
+   ![ B2B- gegevensmening - componenten - gebeurtenisafmetingen ](assets/b2b-dataview-components-event-dimensions.png)
 
-1. Voeg alle gebeurtenismetriek toe die u in de [&#x200B; verwijzing van het oplossingsontwerp &#x200B;](#solution-design-reference) aan de metrieke componenten in uw gegevensmening hebt bepaald. Het veld **[!UICONTROL SQL Qualified]** vertegenwoordigt bijvoorbeeld de **[!UICONTROL SQL Qualified]** metrische waarde. Verzeker u de afmetingscomponent door de beschikbare [&#x200B; montages van de Component &#x200B;](/help/data-views/component-settings/overview.md) vormt.
+1. Voeg alle gebeurtenismetriek toe die u in de [ verwijzing van het oplossingsontwerp ](#solution-design-reference) aan de metrieke componenten in uw gegevensmening hebt bepaald. Het veld **[!UICONTROL SQL Qualified]** vertegenwoordigt bijvoorbeeld de **[!UICONTROL SQL Qualified]** metrische waarde. Verzeker u de afmetingscomponent door de beschikbare [ montages van de Component ](/help/data-views/component-settings/overview.md) vormt.
 
-   ![&#x200B; B2B- gegevensmening - componenten - gebeurtenismetriek &#x200B;](assets/b2b-dataview-components-event-metrics.png)
+   ![ B2B- gegevensmening - componenten - gebeurtenismetriek ](assets/b2b-dataview-components-event-metrics.png)
 
-1. Voeg alle rekeningsafmetingen toe die u in de [&#x200B; verwijzing van het oplossingsontwerp &#x200B;](#solution-design-reference) aan de afmetingscomponenten in uw gegevensmening hebt bepaald. Het veld **[!UICONTROL Industry]** dat bijvoorbeeld de **[!UICONTROL Industry]** -dimensie vertegenwoordigt. Verzeker u de afmetingscomponent door de beschikbare [&#x200B; montages van de Component &#x200B;](/help/data-views/component-settings/overview.md) vormt.
+1. Voeg alle rekeningsafmetingen toe die u in de [ verwijzing van het oplossingsontwerp ](#solution-design-reference) aan de afmetingscomponenten in uw gegevensmening hebt bepaald. Het veld **[!UICONTROL Industry]** dat bijvoorbeeld de **[!UICONTROL Industry]** -dimensie vertegenwoordigt. Verzeker u de afmetingscomponent door de beschikbare [ montages van de Component ](/help/data-views/component-settings/overview.md) vormt.
 
-   ![&#x200B; B2B- gegevensmening - componenten - rekeningsdimensies &#x200B;](assets/b2b-dataview-components-account-dimensions.png)
+   ![ B2B- gegevensmening - componenten - rekeningsdimensies ](assets/b2b-dataview-components-account-dimensions.png)
 
-1. Voeg alle rekeningsmetriek toe die u in de [&#x200B; verwijzing van het oplossingsontwerp &#x200B;](#solution-design-reference) aan de metrieke componenten in uw gegevensmening hebt bepaald. Het veld **[!UICONTROL Number_of_Employees]** vertegenwoordigt bijvoorbeeld de **[!UICONTROL Number_of_Employees]** metrische waarde. Verzeker u de afmetingscomponent door de beschikbare [&#x200B; montages van de Component &#x200B;](/help/data-views/component-settings/overview.md) vormt.
+1. Voeg alle rekeningsmetriek toe die u in de [ verwijzing van het oplossingsontwerp ](#solution-design-reference) aan de metrieke componenten in uw gegevensmening hebt bepaald. Het veld **[!UICONTROL Number_of_Employees]** vertegenwoordigt bijvoorbeeld de **[!UICONTROL Number_of_Employees]** metrische waarde. Verzeker u de afmetingscomponent door de beschikbare [ montages van de Component ](/help/data-views/component-settings/overview.md) vormt.
 
-   ![&#x200B; B2B- gegevensmening - componenten - rekeningsmetriek &#x200B;](assets/b2b-dataview-components-account-metrics.png)
+   ![ B2B- gegevensmening - componenten - rekeningsmetriek ](assets/b2b-dataview-components-account-metrics.png)
 
-1. Voeg alle persoondimensies toe die u in de [&#x200B; verwijzing van het oplossingsontwerp &#x200B;](#solution-design-reference) aan de afmetingscomponenten in uw gegevensmening hebt bepaald. Het veld **[!UICONTROL Category_1_Affinity_Level]** dat bijvoorbeeld de **[!UICONTROL Category_1_Affinity_Level]** -dimensie vertegenwoordigt. Verzeker u de afmetingscomponent door de beschikbare [&#x200B; montages van de Component &#x200B;](/help/data-views/component-settings/overview.md) vormt.
+1. Voeg alle persoondimensies toe die u in de [ verwijzing van het oplossingsontwerp ](#solution-design-reference) aan de afmetingscomponenten in uw gegevensmening hebt bepaald. Het veld **[!UICONTROL Category_1_Affinity_Level]** dat bijvoorbeeld de **[!UICONTROL Category_1_Affinity_Level]** -dimensie vertegenwoordigt. Verzeker u de afmetingscomponent door de beschikbare [ montages van de Component ](/help/data-views/component-settings/overview.md) vormt.
 
-   ![&#x200B; B2B- gegevensmening - componenten - rekeningsdimensies &#x200B;](assets/b2b-dataview-components-person-dimensions.png)
+   ![ B2B- gegevensmening - componenten - rekeningsdimensies ](assets/b2b-dataview-components-person-dimensions.png)
 
-1. Voeg al persoonmetriek toe die u in de [&#x200B; verwijzing van het oplossingsontwerp &#x200B;](#solution-design-reference) aan de metrieke componenten in uw gegevensmening hebt bepaald. Het veld **[!UICONTROL Category_1_Affinity_Score]** vertegenwoordigt bijvoorbeeld de **[!UICONTROL Category_1_Affinity_Score]** metrische waarde. Verzeker u de afmetingscomponent door de beschikbare [&#x200B; montages van de Component &#x200B;](/help/data-views/component-settings/overview.md) vormt.
+1. Voeg al persoonmetriek toe die u in de [ verwijzing van het oplossingsontwerp ](#solution-design-reference) aan de metrieke componenten in uw gegevensmening hebt bepaald. Het veld **[!UICONTROL Category_1_Affinity_Score]** vertegenwoordigt bijvoorbeeld de **[!UICONTROL Category_1_Affinity_Score]** metrische waarde. Verzeker u de afmetingscomponent door de beschikbare [ montages van de Component ](/help/data-views/component-settings/overview.md) vormt.
 
-   ![&#x200B; B2B- gegevensmening - componenten - rekeningsmetriek &#x200B;](assets/b2b-dataview-components-person-metrics.png)
+   ![ B2B- gegevensmening - componenten - rekeningsmetriek ](assets/b2b-dataview-components-person-metrics.png)
 
-1. Voeg alle afmetingen van SKU toe die u in de [&#x200B; verwijzing van het oplossingsontwerp &#x200B;](#solution-design-reference) aan de afmetingscomponenten in uw gegevensmening hebt bepaald. Het veld **[!UICONTROL Service Category]** dat bijvoorbeeld de **[!UICONTROL Service Category]** -dimensie vertegenwoordigt. Verzeker u de afmetingscomponent door de beschikbare [&#x200B; montages van de Component &#x200B;](/help/data-views/component-settings/overview.md) vormt.
+1. Voeg alle afmetingen van SKU toe die u in de [ verwijzing van het oplossingsontwerp ](#solution-design-reference) aan de afmetingscomponenten in uw gegevensmening hebt bepaald. Het veld **[!UICONTROL Service Category]** dat bijvoorbeeld de **[!UICONTROL Service Category]** -dimensie vertegenwoordigt. Verzeker u de afmetingscomponent door de beschikbare [ montages van de Component ](/help/data-views/component-settings/overview.md) vormt.
 
-   ![&#x200B; B2B- gegevensmening - componenten - rekeningsdimensies &#x200B;](assets/b2b-dataview-components-sku-dimensions.png)
+   ![ B2B- gegevensmening - componenten - rekeningsdimensies ](assets/b2b-dataview-components-sku-dimensions.png)
 
-1. Selecteer **[!UICONTROL Save and Continue]** .
+1. Selecteer **[!UICONTROL Save and Continue]**.
 
 
 ### Instellingen
 
-1. U kunt naar keuze specifieke [&#x200B; montages &#x200B;](/help/data-views/create-dataview.md#settings-1) voor de gegevensmening bepalen:
+1. U kunt naar keuze specifieke [ montages ](/help/data-views/create-dataview.md#settings-1) voor de gegevensmening bepalen:
 
    * Voeg segmenten toe aan de gegevensweergave.
    * Gebruik (berekende) metrisch om zittingsmontages te bepalen.
 
-1. Selecteer **[!UICONTROL Save and continue]** .
+1. Selecteer **[!UICONTROL Save and continue]**.
 
 
 ## Segmenten
@@ -375,13 +375,13 @@ Bijvoorbeeld:
 
 * Accounts met event registration segment.
 
-  ![&#x200B; B2B gebruiksgeval - segment - geregistreerde rekeningen &#x200B;](assets/b2b-segments-accounts-registered.png)
+  ![ B2B gebruiksgeval - segment - geregistreerde rekeningen ](assets/b2b-segments-accounts-registered.png)
 
 * De rekeningen van de V.S. bij het Kopen van Groepen en stadium 5 opportuniteitssegment.
 
-  ![&#x200B; B2B gebruiksgeval - segment - stadium 5 &#x200B;](assets/b2b-segments-stage5.png)
+  ![ B2B gebruiksgeval - segment - stadium 5 ](assets/b2b-segments-stage5.png)
 
 
 ## Overige
 
-U kunt naar keuze andere componenten voor uw gebruiksgevallen, als [&#x200B; berekende metriek &#x200B;](/help/components/calc-metrics/calc-metr-overview.md), [&#x200B; datumwaaiers &#x200B;](/help/components/date-ranges/overview.md), of [&#x200B; alarm &#x200B;](/help/components/c-intelligent-alerts/intelligent-alerts.md) bepalen.
+U kunt naar keuze andere componenten voor uw gebruiksgevallen, als [ berekende metriek ](/help/components/calc-metrics/calc-metr-overview.md), [ datumwaaiers ](/help/components/date-ranges/overview.md), of [ alarm ](/help/components/c-intelligent-alerts/intelligent-alerts.md) bepalen.

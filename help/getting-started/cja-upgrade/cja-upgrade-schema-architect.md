@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: f932110a-ca9d-40d1-9459-064ef9cd23da
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Adobe raadt u aan een XDM-schema (Custom Experience Data Model) te maken dat u k
 
 Een aangepast XDM-schema maakt een gestroomlijnd schema mogelijk dat is afgestemd op de behoeften van uw organisatie en de specifieke platformtoepassingen die u gebruikt. In tegenstelling tot het standaard Adobe Analytics-schema dat gebruikmaakt van de Adobe Analytics ExperienceEvent-veldgroep, hoeft u, wanneer wijzigingen in een aangepast XDM-schema vereist zijn, niet door duizenden ongebruikte velden te bladeren om het veld te zoeken dat moet worden bijgewerkt.
 
-Voor meer informatie over deze schemaopties, zie [&#x200B; uw schema voor Customer Journey Analytics &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md) kiezen.
+Voor meer informatie over deze schemaopties, zie [ uw schema voor Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md) kiezen.
 
 Bekijk de volgende secties terwijl u uw XDM-schema gaat ontwerpen.
 

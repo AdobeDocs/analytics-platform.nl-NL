@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: a7d14968-33a2-46a8-8e32-fb6716650d0a
-source-git-commit: 359fe2a718ccef816377083aceb2652b4a905072
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Gedeelde apparaten
 
-Dit artikel verstrekt context op gedeelde apparaten, hoe te om gegevens van gedeelde apparaten te behandelen en te verlichten gebruikend [&#x200B; het stitching &#x200B;](/help/stitching/overview.md), en gedeelde apparatenblootstelling in uw gegevens te begrijpen gebruikend de Dienst van de Vraag.
+Dit artikel verstrekt context op gedeelde apparaten, hoe te om gegevens van gedeelde apparaten te behandelen en te verlichten gebruikend [ het stitching ](/help/stitching/overview.md), en gedeelde apparatenblootstelling in uw gegevens te begrijpen gebruikend de Dienst van de Vraag.
 
 ## Wat is een gedeeld apparaat?
 
@@ -42,14 +42,14 @@ The order success (purchase) events assign the data accurately to the correct em
 
 ## Centrische analyse van personen verbeteren
 
-Het koppelingsproces verhelpt dit toewijzingsprobleem door de geselecteerde persoon-id (in de voorbeeldgegevens, de e-mail) toe te voegen aan gebeurtenissen waar die id niet bestaat. Het plaatsen hefboomwerkingen een afbeelding tussen Apparaat IDs en Persoon IDs om ervoor te zorgen dat zowel voor authentiek verklaard als niet voor authentiek verklaard verkeer in analyse kan worden gebruikt, die het persoon centric houdt. Zie [&#x200B; het Plaatsen &#x200B;](/help/stitching/overview.md) voor meer informatie.
+Het koppelingsproces verhelpt dit toewijzingsprobleem door de geselecteerde persoon-id (in de voorbeeldgegevens, de e-mail) toe te voegen aan gebeurtenissen waar die id niet bestaat. Het plaatsen hefboomwerkingen een afbeelding tussen Apparaat IDs en Persoon IDs om ervoor te zorgen dat zowel voor authentiek verklaard als niet voor authentiek verklaard verkeer in analyse kan worden gebruikt, die het persoon centric houdt. Zie [ het Plaatsen ](/help/stitching/overview.md) voor meer informatie.
 
 Bij het instellen van tekenreeksen kunnen gedeelde apparaatgegevens worden toegewezen met de kenmerk last-auth of door het apparaat gesplitste kenmerk. Alle pogingen om niet-geverifieerde gebeurtenissen aan een bekende gebruiker te hechten zijn niet-deterministisch.
 
 
 ### Attributie laatste auth
 
-Last-auth kenmerkt alle onbekende activiteit van een gedeeld apparaat aan de gebruiker die het laatst voor authentiek verklaarde. De Experience Platform Identity Service bouwt de grafiek op basis van de last-auth-attributie en wordt als zodanig gebruikt in op grafieken gebaseerde stitching. Zie [&#x200B; grafiek die van de Identiteit regels &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/identity-graph-linking-rules/identity-optimization-algorithm#identity-optimization-algorithm-details) met elkaar verbindt voor meer informatie.
+Last-auth kenmerkt alle onbekende activiteit van een gedeeld apparaat aan de gebruiker die het laatst voor authentiek verklaarde. De Experience Platform Identity Service bouwt de grafiek op basis van de last-auth-attributie en wordt als zodanig gebruikt in op grafieken gebaseerde stitching. Zie [ grafiek die van de Identiteit regels ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/identity-optimization-algorithm#identity-optimization-algorithm-details) met elkaar verbindt voor meer informatie.
 
 Wanneer kenmerk last-auth wordt gebruikt in stitching, worden id&#39;s met titel omgezet zoals in de onderstaande tabel wordt getoond.
 
@@ -90,10 +90,10 @@ When using ECID reset, Stitched IDs resolve as shown in the table below.
 
 | Timestamp | Page name | Device ID | Email | Stitched ID |
 |---|---|---|---|---|
-| 2023-05-12 12:01 | Home page | `1234` | | `ryan@a.com`| 
-| 2023-05-12 12:02 | Product page  | `1234` | |`ryan@a.com` | 
+| 2023-05-12 12:01 | Home page | `1234` | | `ryan@a.com`|
+| 2023-05-12 12:02 | Product page  | `1234` | |`ryan@a.com` |
 | 2023-05-12 12:03 | Order success | `1234` | `ryan@a.com` | `ryan@a.com` |
-| 2023-05-12 12:07 | Product page  | 5678  | | `cassidy@a.com` | 
+| 2023-05-12 12:07 | Product page  | 5678  | | `cassidy@a.com` |
 | 2023-05-12 12:08 | Order success | 5678 |  `cassidy@a.com` | `cassidy@a.com` |
 | 2023-05-13 11:08 | Home page | 5678 | | `cassidy@a.com` |
 

@@ -5,7 +5,7 @@ solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
 exl-id: 417443ae-a1ab-483b-a8fd-cff5ee8b6263
-source-git-commit: f03c82375a907821c8e3f40b32b4d4200a47323f
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 2%
@@ -55,7 +55,7 @@ Uw klikstreamgegevens op de site bevatten de volgende gebeurtenissen.
 
 ### Gecombineerde gegevens
 
-Zoals verklaard in [&#x200B; Gecombineerde gebeurtenisdataset &#x200B;](/help/connections/combined-dataset.md), wanneer het bepalen van een verbinding, leidt Customer Journey Analytics tot een algemene gecombineerde gebeurtenisdataset. Wanneer u uw gegevensmening voor afmetingen uit een summiere dataset vormt, zijn de opties beschikbaar om afmetingen te groeperen en te verbergen als voorbereiding voor het melden in Workspace. Specifiek voor summiere gegevens, wordt het summiere gegeven gecombineerd met gebeurtenisgegevens, die op de [&#x200B; worden gebaseerd samenvattingscomponent van de gegevensgroep &#x200B;](component-settings/summary-data-group.md) configuratie.
+Zoals verklaard in [ Gecombineerde gebeurtenisdataset ](/help/connections/combined-dataset.md), wanneer het bepalen van een verbinding, leidt Customer Journey Analytics tot een algemene gecombineerde gebeurtenisdataset. Wanneer u uw gegevensmening voor afmetingen uit een summiere dataset vormt, zijn de opties beschikbaar om afmetingen te groeperen en te verbergen als voorbereiding voor het melden in Workspace. Specifiek voor summiere gegevens, wordt het summiere gegeven gecombineerd met gebeurtenisgegevens, die op de [ worden gebaseerd samenvattingscomponent van de gegevensgroep ](component-settings/summary-data-group.md) configuratie.
 
 | Trackingcode | Campagnecode | Impressies | Kosten | Doorklikken | Ontvangsten |
 |---|---|--:|--:|--:|--:|
@@ -80,11 +80,11 @@ Door de samengevatte gebeurtenisgegevens te combineren met on-site clickstream-g
 
 Als u het gebruiken van een afmeting wilt melden die in een extra raadplegingsdataset (bijvoorbeeld, campagnenaam wordt bepaald), moet u deze extra stappen volgen:
 
-1. Creeer een nieuw afgeleid gebied dat de [&#128279;](/help/data-views/derived-fields/derived-fields.md#lookup) functie van de Raadpleging gebruikt om de campagnenaam van de raadplegingsdataset te zoeken. In de definitie van de [&#128279;](/help/data-views/derived-fields/derived-fields.md#lookup) functie van de Opzoeken gebruikt u de gelijke tussen campagnecode en het volgen code om de campagnenaam te zoeken.
+1. Creeer een nieuw afgeleid gebied dat de [ ](/help/data-views/derived-fields/derived-fields.md#lookup) functie van de Raadpleging gebruikt om de campagnenaam van de raadplegingsdataset te zoeken. In de definitie van de [ ](/help/data-views/derived-fields/derived-fields.md#lookup) functie van de Opzoeken gebruikt u de gelijke tussen campagnecode en het volgen code om de campagnenaam te zoeken.
 1. Voeg het nieuwe afgeleide gebied als afmetingscomponent aan uw gegevensmening toe.
 1. Vorm de de afmetingscomponent van de campagnenaam (van de raadplegingsdataset) om een summiere gegevens te hebben groeperen met het pas gecreëerde afgeleide gebied.
 
-Zie [&#x200B; Samenvatten en rapport over summiere gegevens &#x200B;](/help/use-cases/data-views/summary-data.md) gebruiksgeval voor een gedetailleerd artikel over hoe te om gebruik van te maken van, te rapporteren over, en samenvattingsgegevens in Customer Journey Analytics te analyseren.
+Zie [ Samenvatten en rapport over summiere gegevens ](/help/use-cases/data-views/summary-data.md) gebruiksgeval voor een gedetailleerd artikel over hoe te om gebruik van te maken van, te rapporteren over, en samenvattingsgegevens in Customer Journey Analytics te analyseren.
 
 
 ## Vereisten
@@ -106,7 +106,7 @@ De tijdzone van uw summiere gegevens wordt bepaald op het summiere schemaniveau 
 - Voor de dagelijkse granulariteit gaat Experience Platform uit van UTC, tenzij een tijdzoneverschuiving is opgenomen in het tijdstempel. Wanneer het toevoegen van de summiere dataset die de dagelijkse summiere gegevens bevat, negeert Customer Journey Analytics de timezone die definitie op het schema wordt geplaatst en respecteert de dag verbonden aan timestamp van de gegevens in de dataset.
 - Voor granulariteit per uur respecteert Customer Journey Analytics de tijdzone die is geconfigureerd in het overzichtsgegevensschema in Experience Platform bij het interpreteren van de tijdstempel. In de onderstaande tabel staan enkele voorbeelden van deze interpretatie.
 
-  | Tijdstempel <br/> brongegevens | Tijdzone <br/> schema | Tijdstempel <br/> Platform van de Ervaring 1&rbrace;<br/> | Tijdzone <br/> gegevens <br/> mening | De Analyse van de Stem van de Stem <br/> van de Klant <br><br/> |
+  | Tijdstempel <br/> brongegevens | Tijdzone <br/> schema | Tijdstempel <br/> Platform van de Ervaring 1}<br/> | Tijdzone <br/> gegevens <br/> mening | De Analyse van de Stem van de Stem <br/> van de Klant <br/><br> |
   |---|---|---|:---|---|
   | 2024-07-29T01 :00: 00 | *gebrek GMT* | 2024-07-29T01 :00: 00 | GMT | 2024-07-29T01 :00: 00 |
   | 2024-07-29T01 :00: 00 | *gebrek GMT* | 2024-07-29T01 :00: 00 | PST | 2024-07-28T18 :00: 00 |
@@ -116,7 +116,7 @@ De tijdzone van uw summiere gegevens wordt bepaald op het summiere schemaniveau 
   | 2024-07-29T01 :00: 00 | `America/`<br/>`Los_Angeles` | 2024-07-28T18 :00: 00 | PST | 2024-07-28T18 :00: 00 |
   | 2024-07-30T01 :00: 00-05:00 | `Australia/`<br/>`Sydney` | 2024-07-30T17 :00: 00 | CET | 2024-07-30T08 :00: 00 |
 
-  Voor tijdzones met een verschuiving van 30 minuten (bijvoorbeeld IST, India Standard Time), wordt de verschuiving van 30 minuten verwijderd bij het rapporteren van beknopte gegevens. 12:30 wordt bijvoorbeeld gerapporteerd als 12:00.
+  Voor tijdzones met een verschuiving van 30 minuten (bijvoorbeeld IST, India Standard Time), wordt de verschuiving van 30 minuten verwijderd bij het rapporteren van beknopte gegevens. Bijvoorbeeld: 12 :30 wordt gemeld als 12 :00.
 
 
 Om ervoor te zorgen, wordt juiste timezone gebruikt voor uw per uur korrelige summiere gegevens, moet u het schema verzekeren dat voor summiere gegevens wordt gebruikt juiste gevormde timezone heeft.
@@ -142,17 +142,17 @@ https://platform.adobe.io/data/foundation/schemaregistry/tenant/descriptors \
 
 | Variabele | Waarde |
 |---|---|
-| `$ACCESS_TOKEN`<br/>`$API_KEY`<br/>`$ORG_ID`<br/>`$SANDBOX_NAME` | Zie [&#x200B; verifiëren en toegang Experience Platform APIs &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/platform-apis/api-authentication) voor meer informatie over hoe te om waarden voor deze variabelen te specificeren. |
+| `$ACCESS_TOKEN`<br/>`$API_KEY`<br/>`$ORG_ID`<br/>`$SANDBOX_NAME` | Zie [ verifiëren en toegang Experience Platform APIs ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication) voor meer informatie over hoe te om waarden voor deze variabelen te specificeren. |
 | `$SCHEMA_ID` | U kunt de id van uw schema vinden in de gebruikersinterface van Experience Platform. Selecteer het overzichtsschema in de lijst met schema&#39;s en zoek **[!UICONTROL API Usage]** > **[!UICONTROL Schema ID]** in het rechterdeelvenster. Gebruik die id als waarde. |
 | `$GRANULARITY` | Geef `hour` of `day` op als waarde. |
-| `$TIMEZONE` | Specificeer de juiste waarde van het tijdzoneherkenningsteken van de TZ herkenningstekenkolom in de [&#x200B; Lijst van de tijdstreken van het karaktergegevensbestand &#x200B;](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). Bijvoorbeeld: `America/Los_Angeles` . |
+| `$TIMEZONE` | Specificeer de juiste waarde van het tijdzoneherkenningsteken van de TZ herkenningstekenkolom in de [ Lijst van de tijdstreken van het karaktergegevensbestand ](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). Bijvoorbeeld: `America/Los_Angeles` . |
 
 ## Componentinstellingen
 
-Controleer of de componentinstellingen voor een overzichtsgegevensgroep gelijk zijn. Zie [&#x200B; Samenvattende de componentenmontages van de gegevensgroep &#x200B;](component-settings/summary-data-group.md#same-component-settings) voor meer details.
+Controleer of de componentinstellingen voor een overzichtsgegevensgroep gelijk zijn. Zie [ Samenvattende de componentenmontages van de gegevensgroep ](component-settings/summary-data-group.md#same-component-settings) voor meer details.
 
 >[!MORELIKETHIS]
 >
->- Zie het [&#x200B; samenvattingsgegeven van het Gebruik &#x200B;](/help/use-cases/data-views/summary-data.md) artikel voor een gedetailleerd gebruiksgeval voorbeeld op hoe te en rapport over summiere gegevens te gebruiken.
->- Blog: [&#x200B; hoe de Summiere Gegevens de Datasets van Adobe Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635) verbeteren
+>- Zie het [ samenvattingsgegeven van het Gebruik ](/help/use-cases/data-views/summary-data.md) artikel voor een gedetailleerd gebruiksgeval voorbeeld op hoe te en rapport over summiere gegevens te gebruiken.
+>- Blog: [ hoe de Summiere Gegevens de Datasets van Adobe Customer Journey Analytics ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635) verbeteren
 

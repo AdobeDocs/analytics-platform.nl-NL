@@ -4,7 +4,7 @@ description: Leer hoe u het publiek beheert in Customer Journey Analytics
 exl-id: 0cc50f64-40b5-4245-a9bb-a60fc90f507a
 feature: Audiences
 role: User
-source-git-commit: 4717a85b9a3c7dc2cbdd8c625ebb5862cbfccd58
+source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 1%
@@ -25,34 +25,34 @@ Door eerder gemaakte soorten publiek te beheren, kunt u:
 * Insight van de winst in de **hoeveelheid tijd het nam om een publiek** van Customer Journey Analytics te produceren. En de hoeveelheid tijd die nodig was om het publiek in real-time klantplatform te laten verschijnen voor activeringsdoeleinden.
 * Zie of het publiek in Customer Journey Analytics **actief door het Platform van de Klant in real time** wordt gebruikt. Of (ideaal) Experience Platform-toepassingen die het publiek gebruiken dat door Customer Journey Analytics wordt gemaakt.
 
-Als u [&#x200B; toegang hebt van de Mening van het publiek &#x200B;](/help/technotes/access-control.md#user-level-access) &lbrace;, kunt u publiek bekijken. Als u [&#x200B; publiek hebt leidt tot &#x200B;](/help/technotes/access-control.md#user-level-access) toegang, kunt u publiek uitgeven en schrappen.
+Als u [ toegang hebt van de Mening van het publiek ](/help/technotes/access-control.md#user-level-access) {, kunt u publiek bekijken. Als u [ publiek hebt leidt tot ](/help/technotes/access-control.md#user-level-access) toegang, kunt u publiek uitgeven en schrappen.
 
 ## Soorten publiek weergeven in de lijst Soorten publiek
 
 In de lijst Soorten publiek ➊ wordt het bestaande publiek weergegeven.
 
-![&#x200B; de manager van het publiek &#x200B;](assets/audiences-manager.png)
+![ de manager van het publiek ](assets/audiences-manager.png)
 
 De lijst Publiek weergeven:
 
 1. Selecteer in Customer Journey Analytics **[!UICONTROL Components]** > **[!UICONTROL Published audiences]** .
 
-1. (Facultatief) Gebruik ![&#x200B; ColumnSetting &#x200B;](/help/assets/icons/ColumnSetting.svg) om te vormen welke kolommen aan vertoning.
+1. (Facultatief) Gebruik ![ ColumnSetting ](/help/assets/icons/ColumnSetting.svg) om te vormen welke kolommen aan vertoning.
 
-1. (Facultatief) Onderzoek naar een publiek gebruikend ![&#x200B; Onderzoek &#x200B;](/help/assets/icons/Search.svg).
+1. (Facultatief) Onderzoek naar een publiek gebruikend ![ Onderzoek ](/help/assets/icons/Search.svg).
 
    De volgende kolommen zijn beschikbaar met informatie over elk publiek:
 
    | Kolom | Beschrijving |
    | --- | --- |
-   | ![&#x200B; SelectBox &#x200B;](/help/assets/icons/SelectBox.svg) | Wanneer een of meer soorten publiek zijn geselecteerd, wordt een blauwe actiebalk onder aan de interface Soorten publiek weergegeven. Zie [&#x200B; Acties &#x200B;](#actions) voor meer details. |
+   | ![ SelectBox ](/help/assets/icons/SelectBox.svg) | Wanneer een of meer soorten publiek zijn geselecteerd, wordt een blauwe actiebalk onder aan de interface Soorten publiek weergegeven. Zie [ Acties ](#actions) voor meer details. |
    | **[!UICONTROL Title & Description]** | De titel en beschrijving die u hebt ingevoerd toen u het publiek hebt gemaakt. |
    | **[!UICONTROL Data view]** | De gegevensweergave waarin dit publiek is gemaakt. |
    | **[!UICONTROL Audience size]** | Het totale aantal mensen in dit publiek. |
    | **[!UICONTROL Owner]** | De eigenaar van het publiek - de persoon die het publiek creëerde. |
    | **[!UICONTROL Refresh frequency]** | Het vernieuwde interval dat werd gevormd toen het publiek werd gecreeerd. |
    | **[!UICONTROL Tags]** | Alle tags die op dit publiek zijn toegepast. |
-   | **[!UICONTROL Publishing status]** | Kan ![&#x200B; StatusGreen &#x200B;](/help/assets/icons/StatusGreen.svg) tonen **[!UICONTROL Ready]**, ![&#x200B; StatusGray &#x200B;](/help/assets/icons/StatusGray.svg) **[!UICONTROL In progress]**, of ![&#x200B; StatusRed &#x200B;](/help/assets/icons/StatusRed.svg) **[!UICONTROL Error]**. |
+   | **[!UICONTROL Publishing status]** | Kan ![ StatusGreen ](/help/assets/icons/StatusGreen.svg) tonen **[!UICONTROL Ready]**, ![ StatusGray ](/help/assets/icons/StatusGray.svg) **[!UICONTROL In progress]**, of ![ StatusRed ](/help/assets/icons/StatusRed.svg) **[!UICONTROL Error]**. |
    | **[!UICONTROL Last refreshed]** | Tijdstempel wanneer het publiek voor het laatst is vernieuwd. |
    | **[!UICONTROL Last modified]** | Tijdstempel wanneer het publiek voor het laatst is bewerkt of gewijzigd. |
 
@@ -70,7 +70,7 @@ Een publiek bewerken:
 
    Het dialoogvenster **[!UICONTROL Edit audience]** wordt weergegeven.
 
-1. U kunt alle beschikbare velden voor het publiek bijwerken. Voor informatie over de gebieden u kunt bijwerken, [&#x200B; de bouwer van het Publiek &#x200B;](/help/components/audiences/publish.md#audience-builder) in het artikel zien, [&#x200B; creeer en publiceer publiek &#x200B;](/help/components/audiences/publish.md).
+1. U kunt alle beschikbare velden voor het publiek bijwerken. Voor informatie over de gebieden u kunt bijwerken, [ de bouwer van het Publiek ](/help/components/audiences/publish.md#audience-builder) in het artikel zien, [ creeer en publiceer publiek ](/help/components/audiences/publish.md).
 
 1. Selecteer **[!UICONTROL Republish]**.
 
@@ -80,23 +80,23 @@ Het volgende is gemeenschappelijke acties in de Geplande Manager van Projecten. 
 
 | Pictogram | Handeling | Beschrijving |
 |:---:|---|---|
-| ![&#x200B; Etiketten &#x200B;](/help/assets/icons/Labels.svg) | **[!UICONTROL Tag]** | Label het geselecteerde publiek. In de **[!UICONTROL Update tags: *dialoog van de publieksnaam *]**, uitgezochte markeringen van het drop-down menu of type één of meerdere nieuwe markeringen. Selecteer **[!UICONTROL Save]**&#x200B;voor opslaan. |
-| ![&#x200B; Schrapping &#x200B;](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Verwijder het geselecteerde publiek. |
-| ![&#x200B; geeft &#x200B;](/help/assets/icons/Edit.svg) uit | **[!UICONTROL Rename]** | Wijzig de naam van het geselecteerde publiek. Gebruik de **[!UICONTROL Rename: *dialoog van de publieksnaam *]**&#x200B;om het publiek anders te noemen en **[!UICONTROL Save]**&#x200B;te selecteren om te bewaren. |
+| ![ Etiketten ](/help/assets/icons/Labels.svg) | **[!UICONTROL Tag]** | Label het geselecteerde publiek. In de **[!UICONTROL Update tags: *dialoog van de publieksnaam *]**, uitgezochte markeringen van het drop-down menu of type één of meerdere nieuwe markeringen. Selecteer **[!UICONTROL Save]**voor opslaan. |
+| ![ Schrapping ](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Verwijder het geselecteerde publiek. |
+| ![ geeft ](/help/assets/icons/Edit.svg) uit | **[!UICONTROL Rename]** | Wijzig de naam van het geselecteerde publiek. Gebruik de **[!UICONTROL Rename: *dialoog van de publieksnaam *]**om het publiek anders te noemen en **[!UICONTROL Save]**te selecteren om te bewaren. |
 
 De volgende acties zijn beschikbaar op de blauwe actiebalk wanneer u een of meer geplande projecten selecteert.
 
 | Pictogram | Handeling | Beschrijving |
 |:---:|---|---|
-| ![&#x200B; dicht &#x200B;](/help/assets/icons/Close.svg) | **[!UICONTROL *x *geselecteerd]** | Selecteer deze optie om de selectie van het geselecteerde publiek op te heffen. |
-| ![&#x200B; Schrapping &#x200B;](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Verwijder het geselecteerde publiek. |
-| ![&#x200B; FileCSV &#x200B;](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Export to CSV]** | Exporteer het geselecteerde publiek naar het bestand `audiences.csv` . |
+| ![ dicht ](/help/assets/icons/Close.svg) | **[!UICONTROL *x *geselecteerd]** | Selecteer deze optie om de selectie van het geselecteerde publiek op te heffen. |
+| ![ Schrapping ](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Verwijder het geselecteerde publiek. |
+| ![ FileCSV ](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Export to CSV]** | Exporteer het geselecteerde publiek naar het bestand `audiences.csv` . |
 
 ## De publiekslijst filteren
 
-U kunt de [&#x200B; lijst van Soorten publiek &#x200B;](#audiences-list) filtreren gebruikend het filterpaneel ➋. Om het gebruik van het filterpaneel te tonen of te verbergen ![&#x200B; Filter &#x200B;](/help/assets/icons/Filter.svg).
+U kunt de [ lijst van Soorten publiek ](#audiences-list) filtreren gebruikend het filterpaneel ➋. Om het gebruik van het filterpaneel te tonen of te verbergen ![ Filter ](/help/assets/icons/Filter.svg).
 
-![&#x200B; de manager van het publiek &#x200B;](assets/audiences-manager.png)
+![ de manager van het publiek ](assets/audiences-manager.png)
 
 Het filterdeelvenster bestaat uit de volgende secties.
 
@@ -104,23 +104,23 @@ Het filterdeelvenster bestaat uit de volgende secties.
 
 | Gegevens, weergave | Beschrijving |
 |---|---|
-| ![&#x200B; Eigenaars &#x200B;](/help/components/audiences/assets/audiences-filter-dataviews.png){width="300"} | In de sectie **[!UICONTROL Data view]** kunt u filteren op gegevensweergaven. <ul><li>U gebruikt ![&#x200B; Onderzoek &#x200B;](/help/assets/icons/Search.svg) om naar gegevensmeningen te zoeken u aan filter wilt gebruiken.</li><li>U kunt meerdere gegevensweergaven selecteren.</li></ul> |
+| ![ Eigenaars ](/help/components/audiences/assets/audiences-filter-dataviews.png){width="300"} | In de sectie **[!UICONTROL Data view]** kunt u filteren op gegevensweergaven. <ul><li>U gebruikt ![ Onderzoek ](/help/assets/icons/Search.svg) om naar gegevensmeningen te zoeken u aan filter wilt gebruiken.</li><li>U kunt meerdere gegevensweergaven selecteren.</li></ul> |
 
 ### Eigenaars
 
 | Eigenaar | Beschrijving |
 |---|---|
-| ![&#x200B; Eigenaars &#x200B;](/help/components/audiences/assets/audiences-filter-owner.png){width="300"} | In de sectie **[!UICONTROL Owner]** kunt u filteren op eigenaars. <ul><li>U gebruikt ![&#x200B; Onderzoek &#x200B;](/help/assets/icons/Search.svg) aan onderzoek naar eigenaars u wilt gebruiken om te filtreren.</li><li>U kunt meerdere eigenaars selecteren. </li></ul> |
+| ![ Eigenaars ](/help/components/audiences/assets/audiences-filter-owner.png){width="300"} | In de sectie **[!UICONTROL Owner]** kunt u filteren op eigenaars. <ul><li>U gebruikt ![ Onderzoek ](/help/assets/icons/Search.svg) aan onderzoek naar eigenaars u wilt gebruiken om te filtreren.</li><li>U kunt meerdere eigenaars selecteren. </li></ul> |
 
 ## Frequentie vernieuwen
 
 | Frequentie vernieuwen | Beschrijving |
 |---|---|
-| ![&#x200B; verfrist frequentie &#x200B;](/help/components/audiences/assets/audiences-filter-refreshfrequency.png){width="300"} | In de sectie **[!UICONTROL Refresh frequency]** kunt u filteren op vernieuwingsfrequentie. <ul><li>U gebruikt ![&#x200B; Onderzoek &#x200B;](/help/assets/icons/Search.svg) om naar te zoeken verfrist frequentie u wilt gebruiken om te filtreren.</li><li>Slechts verfrist de frequenties voor het publiek <br/> worden bepaald in de [&#x200B; lijst van Soorten van publiek &#x200B;](#audiences-list) worden getoond als beschikbare opties.</li></ul> |
+| ![ verfrist frequentie ](/help/components/audiences/assets/audiences-filter-refreshfrequency.png){width="300"} | In de sectie **[!UICONTROL Refresh frequency]** kunt u filteren op vernieuwingsfrequentie. <ul><li>U gebruikt ![ Onderzoek ](/help/assets/icons/Search.svg) om naar te zoeken verfrist frequentie u wilt gebruiken om te filtreren.</li><li>Slechts verfrist de frequenties voor het publiek <br/> worden bepaald in de [ lijst van Soorten van publiek ](#audiences-list) worden getoond als beschikbare opties.</li></ul> |
 
 
 ### Tags
 
 | Tags | Beschrijving |
 |---|---|
-| ![&#x200B; Markeringen &#x200B;](/help/components/audiences/assets/audiences-filter-tags.png){width="300"} | In de sectie **[!UICONTROL Tags]** kunt u filteren op tags. <ul><li>U gebruikt ![&#x200B; Onderzoek &#x200B;](/help/assets/icons/Search.svg) om naar markeringen te zoeken u wilt gebruiken om te filtreren. |
+| ![ Markeringen ](/help/components/audiences/assets/audiences-filter-tags.png){width="300"} | In de sectie **[!UICONTROL Tags]** kunt u filteren op tags. <ul><li>U gebruikt ![ Onderzoek ](/help/assets/icons/Search.svg) om naar markeringen te zoeken u wilt gebruiken om te filtreren. |
