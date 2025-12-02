@@ -88,7 +88,7 @@ Als u een project handmatig wilt opslaan terwijl uw project in Analysis Workspac
 
 
 <!-- Cannot find this option in CJA 
-| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) that becomes available to your organization under **[!UICONTROL Project > New]** |
+| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=nl-NL) that becomes available to your organization under **[!UICONTROL Project > New]** |
 -->
 
 ## Automatisch opslaan

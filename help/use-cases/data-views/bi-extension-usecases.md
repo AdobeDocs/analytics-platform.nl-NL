@@ -105,7 +105,7 @@ Wanneer u de gebruiksgevallen doorloopt, vervangt u deze voorbeeldobjecten door 
       1. Selecteer **[!UICONTROL OK]**.
    1. In het dialoogvenster **[!UICONTROL PostgreSQL database]** - **[!UICONTROL Database]** :
       ![&#x200B; Gebruiker en Wachtwoord van de Desktop PowerBI &#x200B;](assets/powerbi-userpassword.png)
-      1. Gebruik ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) om de **[!UICONTROL Username]** en **[!UICONTROL Password]** waarden van het Experience Platform **[!UICONTROL Query]** te kopiëren **[!UICONTROL Expiring Credentials]** paneel in **[!UICONTROL User name]** en **[!UICONTROL Password]** gebieden. Als u a [&#x200B; niet-uitbreidende credentie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect) gebruikt, gebruik het wachtwoord van uw niet-uitbreidende referentie.
+      1. Gebruik ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) om de **[!UICONTROL Username]** en **[!UICONTROL Password]** waarden van het Experience Platform **[!UICONTROL Query]** te kopiëren **[!UICONTROL Expiring Credentials]** paneel in **[!UICONTROL User name]** en **[!UICONTROL Password]** gebieden. Als u a [&#x200B; niet-uitbreidende credentie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect) gebruikt, gebruik het wachtwoord van uw niet-uitbreidende referentie.
       1. Zorg ervoor dat het vervolgkeuzemenu voor **[!UICONTROL Select which level to apply these settings to]** is ingesteld op de **[!UICONTROL Server]** die u eerder hebt gedefinieerd.
       1. Selecteer **[!UICONTROL Connect]**.
    1. In het dialoogvenster **[!UICONTROL Navigator]** worden de gegevensweergaven opgehaald. Dit kan enige tijd duren. Zodra teruggewonnen, ziet u het volgende in de Desktop van Power BI.
@@ -122,7 +122,7 @@ Wanneer u de gebruiksgevallen doorloopt, vervangt u deze voorbeeldobjecten door 
 
 ### Naar FLATTEN of niet
 
-Power BI Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [&#x200B; genestelde gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
+Power BI Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [&#x200B; genestelde gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
 
 | FLATTEN, parameter | Voorbeeld | Ondersteund | Opmerkingen |
 |---|---|:---:|---|
@@ -133,8 +133,8 @@ Power BI Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATT
 ### Meer informatie
 
 * [Vereisten](/help/data-views/bi-extension.md#prerequisites)
-* [&#x200B; gids van Geloofsbrieven &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
-* [&#x200B; verbind Power BI met de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/power-bi).
+* [&#x200B; gids van Geloofsbrieven &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials)
+* [&#x200B; verbind Power BI met de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/power-bi).
 
 
 
@@ -160,7 +160,7 @@ Power BI Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATT
       1. Gebruik ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) om **[!UICONTROL Database]** van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** aan **[!UICONTROL Database]**. Voeg `%3FFLATTEN` toe aan de waarde die u plakt. Bijvoorbeeld: `prod:cja%3FFLATTEN` .
       1. Selecteer **[!UICONTROL Username and Password]** in de vervolgkeuzelijst **[!UICONTROL Authentication]** .
       1. Gebruik ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) om **[!UICONTROL Username]** van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** aan **[!UICONTROL Username]**.
-      1. Gebruik ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) om **[!UICONTROL Password]** van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** aan **[!UICONTROL Password]**. Als u a [&#x200B; niet-uitbreidende credentie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect) gebruikt, gebruik het wachtwoord van uw niet-uitbreidende referentie.
+      1. Gebruik ![&#x200B; Exemplaar &#x200B;](/help/assets/icons/Copy.svg) om **[!UICONTROL Password]** van het paneel van Experience Platform **[!UICONTROL Query]** te kopiëren en te kleven **[!UICONTROL Expiring Credentials]** aan **[!UICONTROL Password]**. Als u a [&#x200B; niet-uitbreidende credentie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials?lang=en#use-credential-to-connect) gebruikt, gebruik het wachtwoord van uw niet-uitbreidende referentie.
       1. Controleer of **[!UICONTROL Require SSL]** is ingeschakeld.
       1. Selecteer **[!UICONTROL Sign In]**.
 
@@ -176,7 +176,7 @@ Power BI Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATT
 
 ### Naar FLATTEN of niet
 
-Tableau Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [&#x200B; genestelde gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
+Tableau Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [&#x200B; genestelde gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
 
 | FLATTEN, parameter | Voorbeeld | Ondersteund | Opmerkingen |
 |---|---|:---:|---|
@@ -187,8 +187,8 @@ Tableau Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTE
 ### Meer informatie
 
 * [Vereisten](/help/data-views/bi-extension.md#prerequisites)
-* [&#x200B; gids van Geloofsbrieven &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
-* [&#x200B; verbind de Desktop van Tableau aan de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/tableau).
+* [&#x200B; gids van Geloofsbrieven &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials)
+* [&#x200B; verbind de Desktop van Tableau aan de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/tableau).
 
 
 >[!TAB  Leider ]
@@ -253,7 +253,7 @@ Tableau Desktop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTE
 
 ### Naar FLATTEN of niet
 
-De markering ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [&#x200B; genestelde gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
+De markering ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [&#x200B; genestelde gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
 
 | FLATTEN, parameter | Voorbeeld | Ondersteund | Opmerkingen |
 |---|---|:---:|---|
@@ -264,7 +264,7 @@ De markering ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` 
 ### Meer informatie
 
 * [Vereisten](/help/data-views/bi-extension.md#prerequisites)
-* [&#x200B; gids van Geloofsbrieven &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
+* [&#x200B; gids van Geloofsbrieven &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials)
 
 
 >[!TAB  Jupyter Notitieboekje ]
@@ -360,7 +360,7 @@ De markering ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` 
 
 ### Naar FLATTEN of niet
 
-Jupyter-laptop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [&#x200B; genestelde gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
+Jupyter-laptop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [&#x200B; genestelde gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
 
 | FLATTEN, parameter | Voorbeeld | Ondersteund | Opmerkingen |
 |---|---|:---:|---|
@@ -371,7 +371,7 @@ Jupyter-laptop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN
 ### Meer informatie
 
 * [Vereisten](/help/data-views/bi-extension.md#prerequisites)
-* [&#x200B; gids van Geloofsbrieven &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
+* [&#x200B; gids van Geloofsbrieven &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials)
 
 >[!TAB  RStudio ]
 
@@ -446,7 +446,7 @@ Jupyter-laptop ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN
 
 ### Naar FLATTEN of niet
 
-RStudio ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [&#x200B; genestelde gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
+RStudio ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie [&#x200B; genestelde gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
 
 | FLATTEN, parameter | Voorbeeld | Ondersteund | Opmerkingen |
 |---|---|:---:|---|
@@ -457,7 +457,7 @@ RStudio ondersteunt de volgende scenario&#39;s voor de parameter `FLATTEN` . Zie
 ### Meer informatie
 
 * [Vereisten](/help/data-views/bi-extension.md#prerequisites)
-* [&#x200B; gids van Geloofsbrieven &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials)
+* [&#x200B; gids van Geloofsbrieven &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials)
 
 >[!ENDTABS]
 

@@ -142,7 +142,7 @@ https://platform.adobe.io/data/foundation/schemaregistry/tenant/descriptors \
 
 | Variabele | Waarde |
 |---|---|
-| `$ACCESS_TOKEN`<br/>`$API_KEY`<br/>`$ORG_ID`<br/>`$SANDBOX_NAME` | Zie [&#x200B; verifiëren en toegang Experience Platform APIs &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication) voor meer informatie over hoe te om waarden voor deze variabelen te specificeren. |
+| `$ACCESS_TOKEN`<br/>`$API_KEY`<br/>`$ORG_ID`<br/>`$SANDBOX_NAME` | Zie [&#x200B; verifiëren en toegang Experience Platform APIs &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/platform-apis/api-authentication) voor meer informatie over hoe te om waarden voor deze variabelen te specificeren. |
 | `$SCHEMA_ID` | U kunt de id van uw schema vinden in de gebruikersinterface van Experience Platform. Selecteer het overzichtsschema in de lijst met schema&#39;s en zoek **[!UICONTROL API Usage]** > **[!UICONTROL Schema ID]** in het rechterdeelvenster. Gebruik die id als waarde. |
 | `$GRANULARITY` | Geef `hour` of `day` op als waarde. |
 | `$TIMEZONE` | Specificeer de juiste waarde van het tijdzoneherkenningsteken van de TZ herkenningstekenkolom in de [&#x200B; Lijst van de tijdstreken van het karaktergegevensbestand &#x200B;](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). Bijvoorbeeld: `America/Los_Angeles` . |

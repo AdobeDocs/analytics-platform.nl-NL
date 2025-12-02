@@ -49,7 +49,7 @@ Bij het instellen van tekenreeksen kunnen gedeelde apparaatgegevens worden toege
 
 ### Attributie laatste auth
 
-Last-auth kenmerkt alle onbekende activiteit van een gedeeld apparaat aan de gebruiker die het laatst voor authentiek verklaarde. De Experience Platform Identity Service bouwt de grafiek op basis van de last-auth-attributie en wordt als zodanig gebruikt in op grafieken gebaseerde stitching. Zie [&#x200B; grafiek die van de Identiteit regels &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/identity-optimization-algorithm#identity-optimization-algorithm-details) met elkaar verbindt voor meer informatie.
+Last-auth kenmerkt alle onbekende activiteit van een gedeeld apparaat aan de gebruiker die het laatst voor authentiek verklaarde. De Experience Platform Identity Service bouwt de grafiek op basis van de last-auth-attributie en wordt als zodanig gebruikt in op grafieken gebaseerde stitching. Zie [&#x200B; grafiek die van de Identiteit regels &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/identity-graph-linking-rules/identity-optimization-algorithm#identity-optimization-algorithm-details) met elkaar verbindt voor meer informatie.
 
 Wanneer kenmerk last-auth wordt gebruikt in stitching, worden id&#39;s met titel omgezet zoals in de onderstaande tabel wordt getoond.
 

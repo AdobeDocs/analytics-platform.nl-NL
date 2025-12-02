@@ -92,7 +92,7 @@ Voor informatie over hoe te om bestaande rekeningen, met inbegrip van het bekijk
 
      >[!AVAILABILITY]
      >
-     >Deze sectie is van toepassing op implementaties van Experience Platform die op Amazon Web Services (AWS) worden uitgevoerd. Experience Platform die op AWS wordt uitgevoerd, is momenteel beschikbaar voor een beperkt aantal klanten. Meer over de gesteunde infrastructuur van Experience Platform leren, zie het [&#x200B; multi-wolkenoverzicht van Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud).
+     >Deze sectie is van toepassing op implementaties van Experience Platform die op Amazon Web Services (AWS) worden uitgevoerd. Experience Platform die op AWS wordt uitgevoerd, is momenteel beschikbaar voor een beperkt aantal klanten. Meer over de gesteunde infrastructuur van Experience Platform leren, zie het [&#x200B; multi-wolkenoverzicht van Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/multi-cloud).
 
      De [!UICONTROL **gecreeerde Rekening**] dialoogvertoningen.
 
@@ -112,9 +112,9 @@ Voor informatie over hoe te om bestaande rekeningen, met inbegrip van het bekijk
 
       1. Als u niet reeds hebt, download [&#x200B; Microsoft Azure de Ontdekkingsreiziger van de Opslag &#x200B;](https://azure.microsoft.com/en-us/products/storage/storage-explorer/).
 
-      1. In de documentatie van Adobe Experience Platform, volg de stappen die in [&#x200B; worden beschreven verbinden uw container van de Gebieden van Gegevens aan de Verkenner van de Opslag Azure &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#connect-your-data-landing-zone-container-to-azure-storage-explorer).
+      1. In de documentatie van Adobe Experience Platform, volg de stappen die in [&#x200B; worden beschreven verbinden uw container van de Gebieden van Gegevens aan de Verkenner van de Opslag Azure &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=nl-NL#connect-your-data-landing-zone-container-to-azure-storage-explorer).
 
-         U kunt de taken overslaan die in de secties [&#x200B; worden beschreven terugwinnen de geloofsbrieven voor uw Gegevens het Landing Zone &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#retrieve-dlz-credentials) en [&#x200B; Gegevens het Landing van de Zone van de Update geloofsbrieven &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html#update-dlz-credentials), omdat URI die u kopieerde deze geloofsbrieven bevat.
+         U kunt de taken overslaan die in de secties [&#x200B; worden beschreven terugwinnen de geloofsbrieven voor uw Gegevens het Landing Zone &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=nl-NL#retrieve-dlz-credentials) en [&#x200B; Gegevens het Landing van de Zone van de Update geloofsbrieven &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=nl-NL#update-dlz-credentials), omdat URI die u kopieerde deze geloofsbrieven bevat.
 
       1. Wanneer het volgen van de documentatie van Adobe Experience Platform en u aan het [!UICONTROL **de containerSAS URL van de Blob**] gebied komt, kleef SAS URI die u in Stap 3 kopieerde.
 

@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # Journey Optimizer integreren
 
-[&#x200B; Adobe Journey Optimizer &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started) helpt u verbonden, contextafhankelijke, en gepersonaliseerde ervaringen leveren. Het helpt uw klanten aan de volgende stap in hun klantenreis blootstellen.
+[&#x200B; Adobe Journey Optimizer &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/get-started/get-started) helpt u verbonden, contextafhankelijke, en gepersonaliseerde ervaringen leveren. Het helpt uw klanten aan de volgende stap in hun klantenreis blootstellen.
 
 U kunt door Journey Optimizer gegenereerde gegevens configureren om geavanceerde analyses uit te voeren in Customer Journey Analytics. U kunt deze integratie automatisch configureren. Indien nodig, kunt u extra, handaanpassingen aan de datasets, afmetingen, of metriek maken die in uw verbinding of gegevensmeningen beschikbaar zijn.
 
 ## Journey Optimizer-integratie automatisch configureren
 
-Journey Optimizer biedt ondersteuning voor het gebruik van Customer Journey Analytics als rapportageengine. Zie [&#x200B; begonnen worden met de nieuwe Rapporterende interface &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja) in de documentatie van Journey Optimizer.
+Journey Optimizer biedt ondersteuning voor het gebruik van Customer Journey Analytics als rapportageengine. Zie [&#x200B; begonnen worden met de nieuwe Rapporterende interface &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/reporting/channel-report/report-gs-cja) in de documentatie van Journey Optimizer.
 
 Wanneer u Customer Journey Analytics die voor Journey Optimizer rapporteert hebt toegelaten, automatisch wordt de a [&#x200B; verbinding &#x200B;](/help/connections/overview.md) en [&#x200B; gegevensmening &#x200B;](/help/data-views/data-views.md) gecreeerd voor de specifieke zandbak.
 
@@ -102,7 +102,7 @@ In de volgende secties wordt beschreven hoe u handmatig gegevens, gegenereerd do
 
 ### Gegevens verzenden van Journey Optimizer naar Experience Platform
 
-Adobe Experience Platform fungeert als de centrale gegevensbron en de verbinding tussen Journey Optimizer en Customer Journey Analytics. Zie [&#x200B; begonnen worden met Datasets &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/data-management/datasets/get-started-datasets) in de gebruikersgids van Journey Optimizer voor stappen op hoe te om de gegevens van Journey Optimizer naar Experience Platform als dataset te verzenden.
+Adobe Experience Platform fungeert als de centrale gegevensbron en de verbinding tussen Journey Optimizer en Customer Journey Analytics. Zie [&#x200B; begonnen worden met Datasets &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/data-management/datasets/get-started-datasets) in de gebruikersgids van Journey Optimizer voor stappen op hoe te om de gegevens van Journey Optimizer naar Experience Platform als dataset te verzenden.
 
 ### Verbinding maken
 
