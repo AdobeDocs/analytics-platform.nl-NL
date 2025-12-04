@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Deze configuratiehandleiding is bedoeld voor klanten die een licentie hebben verkregen voor het zelfstandige Adobe Content Analytics-pakket. In de handleiding wordt ervan uitgegaan dat u Customer Journey Analytics of een andere Experience Platform-toepassing niet hebt gebruikt of van plan bent te gebruiken buiten de mogelijkheden en functies van Content Analytics. Zie [ Content Analytics ](configuration.md) vormen als u Content Analytics als deel van een bestaande implementatie van Customer Journey Analytics wilt vormen en gebruiken.
+>Deze configuratiehandleiding is bedoeld voor klanten die een licentie hebben verkregen voor het zelfstandige Adobe Content Analytics-pakket. In de handleiding wordt ervan uitgegaan dat u Customer Journey Analytics of een andere Experience Platform-toepassing niet hebt gebruikt of van plan bent te gebruiken buiten de mogelijkheden en functies van Content Analytics. Zie [&#x200B; Content Analytics &#x200B;](configuration.md) vormen als u Content Analytics als deel van een bestaande implementatie van Customer Journey Analytics wilt vormen en gebruiken.
 >
 
 Deze configuratiegidsen u in het beleid, de configuratie en de opstelling van alle toepassingen die worden vereist om een werkende **standalone** implementatie van Content Analytics te hebben. Deze stappen bestaan uit:
@@ -45,7 +45,7 @@ U hebt een systeembeheerder of een productbeheerder nodig om u als beheerder voo
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ gebruikers voor een productprofiel ](https://video.tv.adobe.com/v/333860/?quality=12&learn=on){target="_blank"} voor een demo video beheren.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; gebruikers voor een productprofiel &#x200B;](https://video.tv.adobe.com/v/333860/?quality=12&learn=on){target="_blank"} voor een demo video beheren.
 
 
 >[!ENDSHADEBOX]
@@ -65,7 +65,7 @@ Voor zelfstandige Content Analytics moet u een productbeheerder zijn voor de vol
 
 U definieert toegang tot productbeheerders via de Admin Console:
 
-1. Toegang [ Admin Console ](https://adminconsole.adobe.com).
+1. Toegang [&#x200B; Admin Console &#x200B;](https://adminconsole.adobe.com).
 1. Selecteer **[!UICONTROL Products]**.
 1. Selecteer het specifieke product.
 1. Selecteer het tabblad **[!UICONTROL Admins]**. 
@@ -75,7 +75,7 @@ U definieert toegang tot productbeheerders via de Admin Console:
 
 U definieert toegang tot de productprofielbeheerder via de Admin Console:
 
-1. Toegang [ Admin Console ](https://adminconsole.adobe.com).
+1. Toegang [&#x200B; Admin Console &#x200B;](https://adminconsole.adobe.com).
 1. Selecteer **[!UICONTROL Products]**.
 1. Selecteer het specifieke product. Zorg ervoor dat u al toegang hebt tot de productbeheerder.
 1. Selecteer **[!UICONTROL Product profiles]**.
@@ -130,26 +130,26 @@ Binnen de interface van Toestemmingen kunt u zowel rollen als bijbehorende toest
 
 1. Toegang tot Experience Platform voor uw organisatie.
 1. Selecteer **[!UICONTROL Quick access]** in het welkomstscherm in **[!UICONTROL View all]** .
-1. Laat het speld ![ PinOn ](/help/assets/icons/PinOn.svg) voor **[!UICONTROL Permissions]** toe, zodat **[!UICONTROL Permissions]** beschikbaar binnen **[!UICONTROL Quick Access]** voor toekomstig gebruik wordt.
+1. Laat het speld ![&#x200B; PinOn &#x200B;](/help/assets/icons/PinOn.svg) voor **[!UICONTROL Permissions]** toe, zodat **[!UICONTROL Permissions]** beschikbaar binnen **[!UICONTROL Quick Access]** voor toekomstig gebruik wordt.
 1. Selecteer **[!UICONTROL Permissions]**.
-1. Selecteer ![ Gebruiker ](/help/assets/icons/User.svg) **[!UICONTROL Roles]**.
+1. Selecteer ![&#x200B; Gebruiker &#x200B;](/help/assets/icons/User.svg) **[!UICONTROL Roles]**.
 1. Selecteer de specifieke rol die u wilt verifiëren (bijvoorbeeld **[!UICONTROL Default Production All Access]**). Selecteer **[!UICONTROL View all]** om alle machtigingen weer te geven.
 1. In het **[!UICONTROL Details]** -scherm:
    1. Controleer de lijst **[!UICONTROL Resources]** in **[!UICONTROL Permissions]** .
    1. Controleer de namen van de sandboxen in **[!UICONTROL Sandboxes]** .
 
-   Om het even welke updates te maken, uitgezocht ![ geef ](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** uit.
-   1. Om een ontbrekend middel toe te voegen, **[!UICONTROL Resource name]** ![ voeg ](/help/assets/icons/Add.svg) van **[!UICONTROL Resources]** toe > **[!UICONTROL Adobe Experience Platform]** linkerspoor.
-   1. Om een ontbrekende toestemming toe te voegen, selecteer ![ ChevronDown ](/help/assets/icons/ChevronDown.svg) binnen het middel dat de toestemming in het belangrijkste paneel mist, en selecteer de ontbrekende toestemming.
+   Om het even welke updates te maken, uitgezocht ![&#x200B; geef &#x200B;](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** uit.
+   1. Om een ontbrekend middel toe te voegen, **[!UICONTROL Resource name]** ![&#x200B; voeg &#x200B;](/help/assets/icons/Add.svg) van **[!UICONTROL Resources]** toe > **[!UICONTROL Adobe Experience Platform]** linkerspoor.
+   1. Om een ontbrekende toestemming toe te voegen, selecteer ![&#x200B; ChevronDown &#x200B;](/help/assets/icons/ChevronDown.svg) binnen het middel dat de toestemming in het belangrijkste paneel mist, en selecteer de ontbrekende toestemming.
 
-      ![ interface van Toestemmingen ](/help/content-analytics/assets/aep-permissions-ui.png)
+      ![&#x200B; interface van Toestemmingen &#x200B;](/help/content-analytics/assets/aep-permissions-ui.png)
 
    Selecteer **[!UICONTROL Save]** om een update op te slaan.
 
 1. In het scherm Gebruikers of gebruikersgroepen:
    1. Verifieer de juiste individuele gebruikers of de groep gebruikers deel van deze rol uitmaken.
-      1. Selecteer ![ UserAdd ](/help/assets/icons/UserAdd.svg) Gebruikers in Gebruikers toevoegen om individuele gebruikers toe te voegen u in Admin Console hebt bepaald.
-      1. Selecteer ![ toevoegen ](/help/assets/icons/Add.svg) Groepen in de groepen van Gebruikers toevoegt om gebruikersgroepen toe te voegen u in Admin Console hebt bepaald.
+      1. Selecteer ![&#x200B; UserAdd &#x200B;](/help/assets/icons/UserAdd.svg) Gebruikers in Gebruikers toevoegen om individuele gebruikers toe te voegen u in Admin Console hebt bepaald.
+      1. Selecteer ![&#x200B; toevoegen &#x200B;](/help/assets/icons/Add.svg) Groepen in de groepen van Gebruikers toevoegt om gebruikersgroepen toe te voegen u in Admin Console hebt bepaald.
 
 
 #### Customer Journey Analytics
@@ -183,15 +183,15 @@ Voor Content Analytics moet u controleren of de volgende Customer Journey Analyt
 
 Deze machtigingen voor Customer Journey Analytics verifiëren en bijwerken:
 
-1. Toegang [ Admin Console ](https://adminconsole.adobe.com).
+1. Toegang [&#x200B; Admin Console &#x200B;](https://adminconsole.adobe.com).
 1. Selecteer **[!UICONTROL Products]**.
 1. Selecteer het **[!UICONTROL Customer Journey Analytics]** -product.
 1. Selecteer **[!UICONTROL Product profiles]**.
 1. Selecteer het standaardinrichtingsprofiel dat beschikbaar is voor Customer Journey Analytics. Bijvoorbeeld: **[!UICONTROL Customer Journey Analytics]** .
 1. Selecteer **[!UICONTROL Permissions]** in het scherm met productprofielen.
-1. Selecteer om het even welke ![ geef ](/help/assets/icons/Edit.svg) knopen uit om de toestemmingen uit te geven. In het dialoogvenster **[!UICONTROL Edit permissions for Customer Journey Analytics]** :
+1. Selecteer om het even welke ![&#x200B; geef &#x200B;](/help/assets/icons/Edit.svg) knopen uit om de toestemmingen uit te geven. In het dialoogvenster **[!UICONTROL Edit permissions for Customer Journey Analytics]** :
 
-   ![ de Toestemmingen UI van CJA ](../assets/cja-permissions-ui.png)
+   ![&#x200B; de Toestemmingen UI van CJA &#x200B;](../assets/cja-permissions-ui.png)
 
    1. Selecteer **[!UICONTROL Data Views]** en schakel **[!UICONTROL Auto-include: On]** in. Met deze schakeloptie zorgt u ervoor dat alle gegevensweergaven automatisch deel uitmaken van de **[!UICONTROL Included permission items]** .
    1. Selecteer **[!UICONTROL Reporting Tools]** en controleer of alle hierboven vermelde machtigingen deel uitmaken van de **[!UICONTROL Included permission items]** .
@@ -202,17 +202,17 @@ Deze machtigingen voor Customer Journey Analytics verifiëren en bijwerken:
 
 ## Schema en gegevensset instellen
 
-Als u gegevens van uw website wilt verzamelen, moet u eerst bepalen welk soort gegevens u wilt verzamelen, afhankelijk van Content Analytics-inzichten. En ook hoe die gegevens worden opgeslagen. Beide concepten worden verklaard in [ Opstelling een schema en dataset ](/help/data-ingestion/aepwebsdk.md#set-up-a-schema-and-dataset) in [ Samenvattingsgegevens via de 3} snelle startgids van SDK van het Web van Adobe Experience Platform {.](/help/data-ingestion/aepwebsdk.md)
+Als u gegevens van uw website wilt verzamelen, moet u eerst bepalen welk soort gegevens u wilt verzamelen, afhankelijk van Content Analytics-inzichten. En ook hoe die gegevens worden opgeslagen. Beide concepten worden verklaard in [&#x200B; Opstelling een schema en dataset &#x200B;](/help/data-ingestion/aepwebsdk.md#set-up-a-schema-and-dataset) in [&#x200B; Samenvattingsgegevens via de 3&rbrace; snelle startgids van SDK van het Web van Adobe Experience Platform &lbrace;.](/help/data-ingestion/aepwebsdk.md)
 
 
 ## Een gegevensstroom instellen
 
-U hebt gedefinieerd welke gegevens u wilt verzamelen en hoe u die gegevens wilt opslaan. De volgende stap is ervoor te zorgen dat de gegevens die van uw website worden verzameld aan de dataset worden verpletterd. U moet opstelling en een gegevensstroom vormen, die in [ Opstelling een datastream ](/help/data-ingestion/aepwebsdk.md#set-up-a-datastream) in de [ Samenvatting gegevens via de 3} snelle startgids van SDK van het Web van Adobe Experience Platform {wordt verklaard.](/help/data-ingestion/aepwebsdk.md)
+U hebt gedefinieerd welke gegevens u wilt verzamelen en hoe u die gegevens wilt opslaan. De volgende stap is ervoor te zorgen dat de gegevens die van uw website worden verzameld aan de dataset worden verpletterd. U moet opstelling en een gegevensstroom vormen, die in [&#x200B; Opstelling een datastream &#x200B;](/help/data-ingestion/aepwebsdk.md#set-up-a-datastream) in de [&#x200B; Samenvatting gegevens via de 3&rbrace; snelle startgids van SDK van het Web van Adobe Experience Platform &lbrace;wordt verklaard.](/help/data-ingestion/aepwebsdk.md)
 
 
 ## Tags gebruiken
 
-U hebt gedefinieerd welke gegevens moeten worden verzameld (schema), hoe die gegevens (dataset) moeten worden opgeslagen en hoe de verzamelde gegevens van uw website naar de gegevensset (datastream) worden gerouteerd. Als volgende stap moet u uw website van labels voorzien om regels en gegevenselementen tegen de gegevens in uw gegevenslaag op uw website te vormen. Als u uw website codeert, zorgt u ervoor dat gegevens naar de geconfigureerde gegevensstroom worden verzonden. Het etiketteren van uw website met de hulp van Markeringen wordt verklaard in [ Markeringen van het Gebruik ](/help/data-ingestion/aepwebsdk.md#use-tags) in de [ Samenvatting gegevens via de 3} snelle startgids van SDK van het Web van Adobe Experience Platform.](/help/data-ingestion/aepwebsdk.md)
+U hebt gedefinieerd welke gegevens moeten worden verzameld (schema), hoe die gegevens (dataset) moeten worden opgeslagen en hoe de verzamelde gegevens van uw website naar de gegevensset (datastream) worden gerouteerd. Als volgende stap moet u uw website van labels voorzien om regels en gegevenselementen tegen de gegevens in uw gegevenslaag op uw website te vormen. Als u uw website codeert, zorgt u ervoor dat gegevens naar de geconfigureerde gegevensstroom worden verzonden. Het etiketteren van uw website met de hulp van Markeringen wordt verklaard in [&#x200B; Markeringen van het Gebruik &#x200B;](/help/data-ingestion/aepwebsdk.md#use-tags) in de [&#x200B; Samenvatting gegevens via de 3&rbrace; snelle startgids van SDK van het Web van Adobe Experience Platform.](/help/data-ingestion/aepwebsdk.md)
 
 
 ## Implementeren en valideren
@@ -224,12 +224,12 @@ Valideer uw implementatie, verbeter het waar nodig, en zodra correct, stel het i
 
 ## Opstelling een verbinding aan uw dataset.
 
-Als u de verzamelde gegevens wilt rapporteren en die gegevens voor Content Analytics wilt configureren, moet u een verbinding instellen in Customer Journey Analytics. De verbinding verbindt met de dataset die de verzamelde gegevens bevat. Hoe te opstelling wordt een verbinding verklaard in [ Opstelling een verbinding ](../../data-ingestion/aepwebsdk.md#set-up-a-connection) in [ Samenvatting gegevens via de 3} snelle startgids van SDK van het Web van Adobe Experience Platform {.](/help/data-ingestion/aepwebsdk.md)
+Als u de verzamelde gegevens wilt rapporteren en die gegevens voor Content Analytics wilt configureren, moet u een verbinding instellen in Customer Journey Analytics. De verbinding verbindt met de dataset die de verzamelde gegevens bevat. Hoe te opstelling wordt een verbinding verklaard in [&#x200B; Opstelling een verbinding &#x200B;](../../data-ingestion/aepwebsdk.md#set-up-a-connection) in [&#x200B; Samenvatting gegevens via de 3&rbrace; snelle startgids van SDK van het Web van Adobe Experience Platform &lbrace;.](/help/data-ingestion/aepwebsdk.md)
 
 
 ## Een gegevensweergave instellen
 
-De laatste stap voordat u Content Analytics kunt configureren, is het definiëren van een gegevensweergave. Een gegevensweergave is een container specifiek voor Customer Journey Analytics waarmee u kunt bepalen hoe gegevens van een verbinding moeten worden geïnterpreteerd. In een gegevensweergave kunt u metriek en afmetingen definiëren vanuit de gegevens van een of meer datasets waarmee Customer Journey Analytics is verbonden. Hoe te opstelling wordt een gegevensmening verklaard in [ Opstelling een gegevensmening ](/help/data-ingestion/aepwebsdk.md#set-up-a-data-view) in [ Samenvatting gegevens via de 3} snelle startgids van SDK van het Web van Adobe Experience Platform {.](/help/data-ingestion/aepwebsdk.md)
+De laatste stap voordat u Content Analytics kunt configureren, is het definiëren van een gegevensweergave. Een gegevensweergave is een container specifiek voor Customer Journey Analytics waarmee u kunt bepalen hoe gegevens van een verbinding moeten worden geïnterpreteerd. In een gegevensweergave kunt u metriek en afmetingen definiëren vanuit de gegevens van een of meer datasets waarmee Customer Journey Analytics is verbonden. Hoe te opstelling wordt een gegevensmening verklaard in [&#x200B; Opstelling een gegevensmening &#x200B;](/help/data-ingestion/aepwebsdk.md#set-up-a-data-view) in [&#x200B; Samenvatting gegevens via de 3&rbrace; snelle startgids van SDK van het Web van Adobe Experience Platform &lbrace;.](/help/data-ingestion/aepwebsdk.md)
 
 
 ## Content Analytics configureren
@@ -238,7 +238,7 @@ U hebt nu alles om Content Analytics te configureren.
 
 ### Configuratie met instructies
 
-Gebruik de [ geleide configuratietovenaar ](guided.md) en selecteer de gegevensmening u als deel van [ Opstelling een stap van de gegevensmening ](#set-up-a-data-view) creeerde. Deze selectie zorgt ervoor dat Content Analytics wordt geconfigureerd en geïmplementeerd vóór de gegevens die u van uw website verzamelt.
+Gebruik de [&#x200B; geleide configuratietovenaar &#x200B;](guided.md) en selecteer de gegevensmening u als deel van [&#x200B; Opstelling een stap van de gegevensmening &#x200B;](#set-up-a-data-view) creeerde. Deze selectie zorgt ervoor dat Content Analytics wordt geconfigureerd en geïmplementeerd vóór de gegevens die u van uw website verzamelt.
 
 Houd er rekening mee dat de wizard Bewerken met instructies de volgende aanvullende specifieke Content Analytics-objecten configureert:
 
@@ -248,19 +248,19 @@ Houd er rekening mee dat de wizard Bewerken met instructies de volgende aanvulle
 
   >[!IMPORTANT]
   >
-  >Verzeker u de optie selecteert om een Nieuw bezit van Markeringen als deel van de [ stap van de inzameling van Gegevens ](guided.md#new-configuration-1) in de tovenaar tot stand te brengen.
+  >Verzeker u de optie selecteert om een Nieuw bezit van Markeringen als deel van de [&#x200B; stap van de inzameling van Gegevens &#x200B;](guided.md#new-configuration-1) in de tovenaar tot stand te brengen.
   >
 
 
 
 ### Handmatige configuratie
 
-Om Content Analytics voor uw website uit te voeren, moet u het bezit van de Markeringen van Content Analytics [ manueel ](manual.md) publiceren.
+Om Content Analytics voor uw website uit te voeren, moet u het bezit van de Markeringen van Content Analytics [&#x200B; manueel &#x200B;](manual.md) publiceren.
 
 
 ## Een project instellen
 
-Opstelling een project in Customer Journey Analytics om uw [ rapporten en visualisaties van Content Analytics ](/help/content-analytics/report/report.md) te bouwen. Alternatief, kunt u a [ malplaatje van Content Analytics ](/help/content-analytics/report/report.md#template) gebruiken om begonnen te worden.
+Opstelling een project in Customer Journey Analytics om uw [&#x200B; rapporten en visualisaties van Content Analytics &#x200B;](/help/content-analytics/report/report.md) te bouwen. Alternatief, kunt u a [&#x200B; malplaatje van Content Analytics &#x200B;](/help/content-analytics/report/report.md#template) gebruiken om begonnen te worden.
 
 
 
