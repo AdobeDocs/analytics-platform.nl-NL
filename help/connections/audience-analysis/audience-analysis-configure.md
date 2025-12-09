@@ -6,9 +6,9 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 3fb94d920b240247f13050cf091423335a3d74ec
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
@@ -51,45 +51,51 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
-De analyse van het publiek staat u toe om de gegevens van het publiekslidmaatschap van de Gegevensreeksen van het Profiel van Experience Platform in een verbinding van Customer Journey Analytics in te voeren. Soorten publiek wordt beschikbaar als nieuwe afmetingen voor gebruik in Analysis Workspace. Voor meer gedetailleerde overzichtsinformatie over publieksanalyse, zie [&#x200B; overzicht van de analyse van het publiek &#x200B;](/help/connections/audience-analysis/audience-analysis-overview.md).
+De analyse van het publiek staat u toe om de gegevens van het publiekslidmaatschap van de Gegevensreeksen van het Profiel van Experience Platform in een verbinding van Customer Journey Analytics in te voeren. Soorten publiek wordt beschikbaar als nieuwe afmetingen voor gebruik in Analysis Workspace. Voor meer gedetailleerde overzichtsinformatie over publieksanalyse, zie [ overzicht van de analyse van het publiek ](/help/connections/audience-analysis/audience-analysis-overview.md).
+
+## Een configuratie voor een publieksanalyse maken
 
 Wanneer u een configuratie voor publieksanalyse maakt, selecteert u de sandbox en voegt u het beleid samen dat is gekoppeld aan het Experience Platform-publiek dat u wilt analyseren. Customer Journey Analytics leidt tot een nieuwe raadplegingsdataset, dan voegt automatisch de raadplegingsdataset en de profieldataset aan de verbinding toe u kiest.
+
+Alleen systeembeheerders kunnen configuraties voor publieksanalyse maken.
 
 Om een configuratie van de publieksanalyse tot stand te brengen:
 
 1. Selecteer in Customer Journey Analytics **[!UICONTROL Data Management]** > **[!UICONTROL Audience analysis configuration]** .
 
-   ![&#x200B; de hoofdpagina van de de analyseanalyse van het publiek &#x200B;](assets/audience-analysis-empty.png)
+   ![ de hoofdpagina van de de analyseanalyse van het publiek ](assets/audience-analysis-empty.png)
 
 1. Selecteer **[!UICONTROL Create configuration]**.
 
-   ![&#x200B; creeer de configuratie van de publieksanalyse &#x200B;](assets/audience-analysis-create.png)
+   ![ creeer de configuratie van de publieksanalyse ](assets/audience-analysis-create.png)
 
 1. Geef in de sectie **[!UICONTROL Details]** de volgende informatie op:
 
    | Veld | Beschrijving |
    |---------|----------|
    | **[!UICONTROL Name]** | Geef een naam voor de configuratie op. |
-   | **[!UICONTROL Sandbox]** | Selecteer de zandbak die de profieldataset bevat die u aan uw verbinding wilt toevoegen. <p>Adobe Experience Platform verstrekt [&#x200B; zandbakken &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sandbox/home) die één enkele instantie van het Platform in afzonderlijke virtuele milieu&#39;s verdelen helpen digitale ervaringstoepassingen ontwikkelen en evolueren. U kunt sandboxen zien als &#39;gegevenssilo&#39;s&#39; die gegevenssets bevatten. Sandboxen worden gebruikt om toegang tot datasets te controleren.</p> |
+   | **[!UICONTROL Sandbox]** | Selecteer de Experience Platform-sandbox die de profielgegevensset bevat die u aan de verbinding wilt toevoegen. <p>Adobe Experience Platform verstrekt [ zandbakken ](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home) die één enkele instantie van het Platform in afzonderlijke virtuele milieu&#39;s verdelen helpen digitale ervaringstoepassingen ontwikkelen en evolueren. U kunt sandboxen zien als &#39;gegevenssilo&#39;s&#39; die gegevenssets bevatten. Sandboxen worden gebruikt om toegang tot datasets te controleren.</p> |
 
 1. Geef in de sectie **[!UICONTROL Profile dataset]** de volgende informatie op:
 
    | Veld | Beschrijving |
    |---------|----------|
    | **[!UICONTROL Merge policy]** | Selecteer het samenvoegbeleid dat aan de profieldataset beantwoordt die u voor publieksanalyse wilt gebruiken. <p>Het Beleid van de fusie bepaalt hoe Adobe Experience Platform profielgegevens van veelvoudige datasets in verenigde klantenprofielen combineert die voor publieksverwezenlijking worden gebruikt. Het samenvoegbeleid dat u selecteert, bepaalt welke profielkenmerken worden opgenomen in uw publiek. Elke dag wordt een momentopname van deze gegevens gegenereerd in Experience Platform. Deze momentopname biedt een statische weergave van de gegevens op een bepaald tijdstip en bevat geen gebeurtenisgegevens.</p><p>Selecteer het **[!UICONTROL Default Timebased]** samenvoegbeleid als er meerdere samenvoegbeleidsregels worden weergegeven en u niet zeker weet welke beleid u wilt kiezen. U kunt uw gegevensteam ook raadplegen om beter te begrijpen welk publiek met elk fusiebeleid wordt geassocieerd.</p> |
-   | **[!UICONTROL Profile dataset]** | De profieldataset die met het samenvoegbeleid wordt geassocieerd u selecteerde. Deze profielgegevensset bevat de Experience Platform-publieksgegevens die u wilt analyseren. Deze profieldataset wordt toegevoegd aan de verbinding die u selecteert.<p>Nadat u een samenvoegbeleid hebt gekozen, wordt het exporteren van de profielmomentopname weergegeven. Bijvoorbeeld: `Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f` .</p><p>Voor meer informatie, zie [&#x200B; de attributendatasets van het Profiel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/dashboards/query#profile-attribute-datasets) in de Gids van de Dashboards van Experience Platform.</p> |
+   | **[!UICONTROL Profile dataset]** | De profieldataset die met het samenvoegbeleid wordt geassocieerd u selecteerde. Deze profielgegevensset bevat de Experience Platform-publieksgegevens die u wilt analyseren. Deze profieldataset wordt toegevoegd aan de verbinding die u selecteert.<p>Nadat u een samenvoegbeleid hebt gekozen, wordt het exporteren van de profielmomentopname weergegeven. Bijvoorbeeld: `Profile-Snapshot-Export-abbc7093-80f4-4b49-b96e-e743397d763f` .</p><p>Voor meer informatie, zie [ de attributendatasets van het Profiel ](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/query#profile-attribute-datasets) in de Gids van de Dashboards van Experience Platform.</p> |
 
 1. Klik in de sectie **[!UICONTROL Connection]** op **[!UICONTROL Select a connection]** .
 
 1. Selecteer in het dialoogvenster Verbindingen het selectievakje naast de verbinding waar u de profielgegevensset wilt toevoegen en selecteer vervolgens **[!UICONTROL Use connection]** .
 
+   Een verbinding kan met slechts één configuratie van de publieksanalyse worden geassocieerd.
+
 1. Geef de volgende informatie op om de verbinding te configureren:
 
    | Veld | Beschrijving |
    |---------|----------|
-   | **[!UICONTROL Person ID]** | Selecteer een veld in het schema dat de persoon-id vertegenwoordigt. De selectie is beperkt tot de lijst met velden in het schema die zijn gemarkeerd als Identiteit en die wel een naamruimte voor identiteit hebben.<p>Als er geen persoon-id&#39;s zijn waaruit u kunt kiezen, betekent dit dat een of meer personen-id&#39;s niet zijn gedefinieerd in het schema. Zie [&#x200B; identiteitsgebieden in UI &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/ui/fields/identity) voor meer informatie bepalen.</p> |
+   | **[!UICONTROL Person ID]** | Selecteer een veld in het schema dat de persoon-id vertegenwoordigt. De selectie is beperkt tot de lijst met velden in het schema die zijn gemarkeerd als Identiteit en die wel een naamruimte voor identiteit hebben.<p>Als er geen persoon-id&#39;s zijn waaruit u kunt kiezen, betekent dit dat een of meer personen-id&#39;s niet zijn gedefinieerd in het schema. Zie [ identiteitsgebieden in UI ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity) voor meer informatie bepalen.</p> |
    | **[!UICONTROL Use primary identity namespace]** | Deze optie geeft aan of u **[!UICONTROL Identity Map]** selecteert voor de persoon-id.<p>Schakel deze optie in als u wilt dat Customer Journey Analytics de identiteit vindt in de identiteitskaart die is gemarkeerd met een kenmerk primary=true en die identiteit gebruikt als Persoon-id voor die rij. Deze identiteit is de primaire sleutel die in Experience Platform voor het verdelen wordt gebruikt. En deze identiteit is ook de belangrijkste kandidaat voor gebruik als identiteitskaart van de Persoon van Customer Journey Analytics (afhankelijk van hoe de dataset in een verbinding van Customer Journey Analytics wordt gevormd).</p> |
-   | **[!UICONTROL Identity namespace]** | Deze optie geeft aan of u **[!UICONTROL Identity Map]** selecteert voor de persoon-id. Deze optie is uitgeschakeld als u de primaire-id-naamruimte gebruikt. <p>Identiteitsnaamruimten zijn een component van de [&#x200B; Dienst van de Identiteit van Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/namespaces). Naamruimten dienen als indicatoren voor de context waarop een identiteit betrekking heeft. Als u een naamruimte opgeeft, zoekt Customer Journey Analytics in elke rij naar Identiteitskaart voor deze naamruimtesleutel en wordt de identiteit onder die naamruimte gebruikt als Persoon-id voor die rij. Aangezien Customer Journey Analytics niet alle rijen volledig kan aftasten dataset om te bepalen welke namespaces aanwezig zijn, worden alle mogelijke namespaces getoond in het drop-down menu. Weet welke naamruimten in de gegevens zijn opgegeven; deze naamruimten worden niet automatisch gedetecteerd.</p> |
+   | **[!UICONTROL Identity namespace]** | Deze optie geeft aan of u **[!UICONTROL Identity Map]** selecteert voor de persoon-id. Deze optie is uitgeschakeld als u de primaire-id-naamruimte gebruikt. <p>Identiteitsnaamruimten zijn een component van de [ Dienst van de Identiteit van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces). Naamruimten dienen als indicatoren voor de context waarop een identiteit betrekking heeft. Als u een naamruimte opgeeft, zoekt Customer Journey Analytics in elke rij naar Identiteitskaart voor deze naamruimtesleutel en wordt de identiteit onder die naamruimte gebruikt als Persoon-id voor die rij. Aangezien Customer Journey Analytics niet alle rijen volledig kan aftasten dataset om te bepalen welke namespaces aanwezig zijn, worden alle mogelijke namespaces getoond in het drop-down menu. Weet welke naamruimten in de gegevens zijn opgegeven; deze naamruimten worden niet automatisch gedetecteerd.</p> |
 
 1. Klik in de sectie **[!UICONTROL Data views]** op **[!UICONTROL Select data views]** .
 
@@ -100,5 +106,35 @@ Om een configuratie van de publieksanalyse tot stand te brengen:
 1. Selecteer **[!UICONTROL Create]** om de configuratie te maken.
 
    Omdat de profieldataset één keer per dag wordt bijgewerkt, zijn het publiek beschikbaar in de gegevensmeningen van Customer Journey Analytics op de dag nadat u de configuratie van de publieksanalyse creeert.
+
+1. Na 24 uren, {de afmetingen van het 0} meningspubliek in de gegevensmening [ om te verifiëren dat de publieksafmetingen in de gegevensmeningen beschikbaar zijn die u selecteerde.](#view-audience-dimensions-in-the-data-view)
+
+## De afmetingen van het publiek weergeven in de gegevensweergave
+
+Nadat u [ creeert een configuratie van de publieksanalyse ](#create-an-audience-analysis-configuration), kunt u verifiëren dat de publieksafmetingen aan de gegevensmeningen werden toegevoegd die u tijdens de configuratie selecteerde.
+
+Als u de afmetingen van het publiek in de gegevensweergave wilt weergeven, moet u een beheerder van het productprofiel zijn voor het productprofiel waaraan de gegevensweergave is toegewezen. Voor meer informatie, zie [ controle van de Toegang ](/help/technotes/access-control.md).
+
+U kunt als volgt de afmetingen van de publieksanalyse weergeven in de gegevensweergave:
+
+1. Selecteer in Customer Journey Analytics **[!UICONTROL Data Mangement]** > **[!UICONTROL Data views]** .
+
+1. In de sectie **[!UICONTROL Dimensions]** moeten nu de volgende afmetingen beschikbaar zijn:
+
+   * **[!UICONTROL Audience Name]**
+
+   * **[!UICONTROL Audience Origin]**
+
+   * **[!UICONTROL Exited Audience Origin]**
+
+   * **[!UICONTROL Exited Audience Name]**
+
+   Merk op dat elk van deze dimensies aan de profieldataset werd toegevoegd die met het fusiebeleid wordt geassocieerd dat u tijdens de configuratie van de publieksanalyse selecteerde, en elk werd toegevoegd aan de nieuwe raadplegingsdataset die werd gecreeerd.
+
+   {de afmetingen van het 0} publiek beschikbaar in de gegevensmening ![](assets/audience-analysis-dataview-dataset.png)
+
+1. Gebruik de analysen voor het publiek in Analysis Workspace.
+
+   Gebruikers die toegang hebben tot de gegevensweergave in Analysis Workspace, kunnen de nieuwe afmetingen zien en deze gebruiken in hun analyses. Voor informatie over hoe te om de dimensies van de publieksanalyse in Analysis Workspace te gebruiken, zie [ het publiek van Experience Platform in Customer Journey Analytics ](/help/connections/audience-analysis/analyze-audiences.md) analyseren.
 
 
