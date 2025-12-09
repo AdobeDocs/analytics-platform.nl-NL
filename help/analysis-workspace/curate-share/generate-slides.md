@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- also remove lmited testing note from: /help/technotes/access-control.md -->
 
-De gebruikers met [ de noodzakelijke toestemmingen ](#permission-requirements-to-generate-slides) kunnen .pptx presentaties automatisch produceren die op de projecten van Analysis Workspace worden gebaseerd. Bij het genereren van deze diapresentaties maakt Customer Journey Analytics automatisch een artikel op basis van uw gegevens door belangrijke inzichten te identificeren en deze om te zetten in dia&#39;s die klaar zijn voor gebruik door belanghebbenden.
+De gebruikers met [&#x200B; de noodzakelijke toestemmingen &#x200B;](#permission-requirements-to-generate-slides) kunnen .pptx presentaties automatisch produceren die op de projecten van Analysis Workspace worden gebaseerd. Bij het genereren van deze diapresentaties maakt Customer Journey Analytics automatisch een artikel op basis van uw gegevens door belangrijke inzichten te identificeren en deze om te zetten in dia&#39;s die klaar zijn voor gebruik door belanghebbenden.
 
 Dit gegenereerde gegevensverhaal verkort de tijd, moeite en expertise die nodig is om bevindingen van een Workspace-project te onthullen. Analysten kunnen zich meer richten op gegevensexploratie, terwijl het toestaan van Customer Journey Analytics om het uitvoerende verhaal te bouwen en te formatteren en het bedrijfseffect aan belanghebbenden mee te delen.
 
@@ -97,7 +97,7 @@ De artikelen van gegevens bestaan uit een titeldia, een overzichtsdia, detaildia
 
    Het dialoogvenster Dia&#39;s genereren wordt weergegeven.
 
-   ![ produceer de dialoog van dia&#39;s ](assets/generate-slides.png)
+   ![&#x200B; produceer de dialoog van dia&#39;s &#x200B;](assets/generate-slides.png)
 
 1. Geef de volgende informatie op:
 
@@ -105,7 +105,7 @@ De artikelen van gegevens bestaan uit een titeldia, een overzichtsdia, detaildia
    |---------|----------|
    | **[!UICONTROL Cover title]** | Geef een titel op voor de presentatie. Deze titel wordt weergegeven op de titeldia van de presentatie. |
    | **[!UICONTROL Include presenter name]** | Geef de naam van de presentator op. Deze naam wordt weergegeven op de titeldia van de presentatie, onder de titel van de omslag. |
-   | **[!UICONTROL Panels and visualizations to include]** | Kies de deelvensters en de visualisatie die u in de presentatie wilt opnemen. U kunt maximaal 50 visualisaties opnemen.<p>Als een visualisatie grijs wordt weergegeven, wordt deze gevolgd door de tekst **[!UICONTROL (unsupported)]** of **[!UICONTROL (restricted data)]** .</p><ul><li>**Niet gestaafd**: De meeste panelen en visualisaties worden gesteund. Voor informatie over niet gestaafde panelen en visualisatie, zie [ Niet gestaafde projectelementen en eigenschappen ](#unsupported-project-elements-and-features).</li><li>**Beperkte gegevens**: De visualisatie bevat een component die van wordt uitgevoerd door een beleid van het gegevensbeheer wordt beperkt dat door uw organisatie wordt afgedwongen. Neem contact op met de systeembeheerder om te zien welke componenten niet mogen worden geëxporteerd en verwijder vervolgens de beperkte componenten voordat u dia&#39;s genereert.</li></ul> |
+   | **[!UICONTROL Panels and visualizations to include]** | Kies de deelvensters en de visualisatie die u in de presentatie wilt opnemen. U kunt maximaal 50 visualisaties opnemen.<p>Als een visualisatie grijs wordt weergegeven, wordt deze gevolgd door de tekst **[!UICONTROL (unsupported)]** of **[!UICONTROL (restricted data)]** .</p><ul><li>**Niet gestaafd**: De meeste panelen en visualisaties worden gesteund. Voor informatie over niet gestaafde panelen en visualisatie, zie [&#x200B; Niet gestaafde projectelementen en eigenschappen &#x200B;](#unsupported-project-elements-and-features).</li><li>**Beperkte gegevens**: De visualisatie bevat een component die van wordt uitgevoerd door een beleid van het gegevensbeheer wordt beperkt dat door uw organisatie wordt afgedwongen. Neem contact op met de systeembeheerder om te zien welke componenten niet mogen worden geëxporteerd en verwijder vervolgens de beperkte componenten voordat u dia&#39;s genereert.</li></ul> |
    | **[!UICONTROL Emphasize components]** | Kies de meetgegevens en de afmetingen in uw visualisaties die u wilt benadrukken in de presentatie. De componenten die u kiest, krijgen een hogere positie en krijgen meer gewicht wanneer de thema&#39;s en het overkoepelende verhaal van het gegevensartikel worden gemaakt. <p>Wanneer geen nadruk wordt toegepast, tonen de componenten in presentaties als volgt:<ul><li>**Metriek en afmetingen:** Cursief</li><li>**de punten van Dimension:** Citatietekens</li></ul></p><p>Wanneer de nadruk wordt toegepast, tonen de componenten in presentaties als volgt:</p><ul><li>**Metriek en afmetingen:** Cursief en gewaagd</li><li>**de punten van Dimension:** Vet wanneer de overeenkomstige afmeting wordt benadrukt<p>Er wordt ook een kleur toegepast op het dimensie-item wanneer het dimensie-item in het diagram wordt gemarkeerd.</p></li></ul> |
 
    <!-- add this later: - **[!UICONTROL Panel and visualization descriptions]** - Choose whether to include panel and visualization descriptions in your generated slide presentation. - 
@@ -115,19 +115,19 @@ De artikelen van gegevens bestaan uit een titeldia, een overzichtsdia, detaildia
 
    Kies gewoon het kleurthema van uw presentatie door de gewenste kleur te selecteren.
 
-   ![ produceer dia&#39;s met het standaardthema ](assets/generate-slides-default-theme.png)
+   ![&#x200B; produceer dia&#39;s met het standaardthema &#x200B;](assets/generate-slides-default-theme.png)
 
 1. (Voorwaardelijk) Selecteer **[!UICONTROL Upload template]** als uw diapresentatie moet overeenkomen met een bedrijfsthema. Voor deze optie moet u een aangepaste sjabloon uploaden en aangepaste stijlen toepassen.
 
    De meest recente aangepaste sjabloon die u uploadt, wordt lokaal opgeslagen in de cache van uw browser en is beschikbaar wanneer u toekomstige diapresentaties genereert.
 
-   ![ produceer dia&#39;s met een douanemalplaatje ](assets/generate-slides-upload-template.png)
+   ![&#x200B; produceer dia&#39;s met een douanemalplaatje &#x200B;](assets/generate-slides-upload-template.png)
 
    Voer een van de volgende twee handelingen uit om een aangepaste sjabloon te uploaden:
 
    * (Aanbevolen) Download een lege sjabloon en wijzig deze.
 
-      1. Download [ dit lege malplaatje ](https://d30ln29764hddd.cloudfront.net/deploy/builds/data-storytelling.2025-10-20T15:10:19/resources/components/Blank.potx?).
+      1. Download [&#x200B; dit lege malplaatje &#x200B;](https://d30ln29764hddd.cloudfront.net/deploy/builds/data-storytelling.2025-10-20T15:10:19/resources/components/Blank.potx?).
 
       1. Pas uw aangepaste stijlen toe op de lege sjabloon.
 
@@ -141,7 +141,7 @@ De artikelen van gegevens bestaan uit een titeldia, een overzichtsdia, detaildia
 
       1. In de sectie **[!UICONTROL Layout mapping]** wordt elke dialay-out die wordt gebruikt in gegenereerde presentaties, automatisch toegewezen aan een dia van het geüploade thema. Controleer de selecties om er zeker van te zijn dat deze correct zijn.
 
-         ![ afbeelding van de Lay-out ](assets/generate-slides-layout-mapping.png)
+         ![&#x200B; afbeelding van de Lay-out &#x200B;](assets/generate-slides-layout-mapping.png)
 
       1. (Voorwaardelijk) Als een dialay-out onjuist is toegewezen, selecteert u **[!UICONTROL Change selection]** boven de dia die u hebt gekozen uit uw geüploade presentatie en kiest u de dia die overeenkomt met de lay-out.
 
@@ -163,7 +163,7 @@ De artikelen van gegevens bestaan uit een titeldia, een overzichtsdia, detaildia
 
       1. In de sectie **[!UICONTROL Layout mapping]** wordt elke dialay-out die wordt gebruikt in gegenereerde presentaties, automatisch toegewezen aan een dia van het geüploade thema. Controleer de selecties om er zeker van te zijn dat deze correct zijn.
 
-         ![ Lay-out die douanemalplaatje ](assets/generate-slides-layout-mapping-custom-template.png) in kaart brengt
+         ![&#x200B; Lay-out die douanemalplaatje &#x200B;](assets/generate-slides-layout-mapping-custom-template.png) in kaart brengt
 
       1. (Voorwaardelijk) Als een dialay-out onjuist is toegewezen, selecteert u **[!UICONTROL Change selection]** boven de dia die u hebt gekozen uit uw geüploade presentatie en kiest u de dia die overeenkomt met de lay-out.
 
@@ -185,18 +185,18 @@ De mogelijkheid om dia&#39;s te genereren is standaard ingeschakeld voor alle ge
 
 Beheerders van productprofielen waarvan organisaties licenties hebben om dia&#39;s te genereren, kunnen de toegang indien nodig uitschakelen.
 
-In [!UICONTROL Adobe Admin Console] bepaalt de machtiging [!UICONTROL Reporting Tools] **[!UICONTROL Data storytelling]** de toegang tot deze mogelijkheid. A [ beheer van het productprofiel ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) moet deze stappen in [!UICONTROL Admin Console] volgen als zij toegang willen onbruikbaar maken:
+In [!UICONTROL Adobe Admin Console] bepaalt de machtiging [!UICONTROL Reporting Tools] **[!UICONTROL Data storytelling]** de toegang tot deze mogelijkheid. A [&#x200B; beheer van het productprofiel &#x200B;](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) moet deze stappen in [!UICONTROL Admin Console] volgen als zij toegang willen onbruikbaar maken:
 1. Ga naar **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]**
 1. Selecteer de titel van het productprofiel waartoe u toegang wilt verlenen aan [!UICONTROL Data storytelling] .
 1. Selecteer **[!UICONTROL Permissions]** in het specifieke productprofiel.
-1. Selecteer ![ uitgeven ](/help/assets/icons/Edit.svg) om uit te geven **[!UICONTROL Reporting Tools]**.
-1. Selecteer ![ AddCircle ](/help/assets/icons/RemoveCircle.svg) om **het verhaal van Gegevens** uit **[!UICONTROL Included permission items]** te verwijderen.
+1. Selecteer ![&#x200B; uitgeven &#x200B;](/help/assets/icons/Edit.svg) om uit te geven **[!UICONTROL Reporting Tools]**.
+1. Selecteer ![&#x200B; AddCircle &#x200B;](/help/assets/icons/RemoveCircle.svg) om **het verhaal van Gegevens** uit **[!UICONTROL Included permission items]** te verwijderen.
 
    <!--add screenshot of permission in the admin console-->
 
 1. Selecteer **[!UICONTROL Save]** om de machtigingen op te slaan.
 
-Voor meer informatie, zie [ gebruiker-vlakke toegang ](/help/technotes/access-control.md#user-level-access) in [ controle van de Toegang ](/help/technotes/access-control.md#access-control) voor meer informatie.
+Voor meer informatie, zie [&#x200B; gebruiker-vlakke toegang &#x200B;](/help/technotes/access-control.md#user-level-access) in [&#x200B; controle van de Toegang &#x200B;](/help/technotes/access-control.md#access-control) voor meer informatie.
 
 ## Niet-ondersteunde projectelementen en -functies {#unsupported}
 
@@ -234,7 +234,7 @@ De volgende Analysis Workspace-elementen en -functies die in een project worden 
 
 * Componenten die niet kunnen worden geëxporteerd door een beleid voor gegevensbeheer
 
-  Voor meer informatie, zie [ Problemen ontbroken uitvoer ](/help/components/exports/troubleshoot-exports.md) oplossen.
+  Voor meer informatie, zie [&#x200B; Problemen ontbroken uitvoer &#x200B;](/help/components/exports/troubleshoot-exports.md) oplossen.
 
 ## Projectelementen en -functies met beperkte ondersteuning
 
