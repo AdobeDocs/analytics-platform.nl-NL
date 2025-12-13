@@ -120,7 +120,7 @@ Customer Journey Analytics breidt de concepten van identiteiten uit tot buiten E
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Gebruikend identiteit in Customer Journey Analytics &#x200B;](https://video.tv.adobe.com/v/30750/?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Gebruikend identiteit in Customer Journey Analytics &#x200B;](https://video.tv.adobe.com/v/3477622/?captions=dut&quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
