@@ -5,16 +5,16 @@ exl-id: 778ed2de-bc04-4b09-865e-59e386227e06
 solution: Customer Journey Analytics
 feature: FAQ
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: c67225619153218e3dca1eacea204f2b033dfb14
 workflow-type: tm+mt
-source-wordcount: '2387'
+source-wordcount: '2061'
 ht-degree: 0%
 
 ---
 
 # Veelgestelde vragen
 
-Adobe Customer Journey Analytics is het product van de volgende generatie. In dit artikel worden antwoorden gegeven op veelgestelde vragen over Customer Journey Analytics. Voor meer informatie, herzie [&#x200B; de eigenschapsteun van Customer Journey Analytics &#x200B;](/help/getting-started/aa-vs-cja/cja-aa.md).
+Adobe Customer Journey Analytics is het product van de volgende generatie. In dit artikel worden antwoorden gegeven op veelgestelde vragen over Customer Journey Analytics. Voor meer informatie, herzie [ de eigenschapsteun van Customer Journey Analytics ](/help/getting-started/aa-vs-cja/cja-aa.md).
 
 ## &#x200B;1. Vereisten {#prerequisites}
 
@@ -34,7 +34,7 @@ Nr, [!UICONTROL Customer Journey Analytics] steunt om het even welke identiteits
 
 +++**wat als ik (Extraheren, Transformeren, Lading) mijn gegevens voorafgaand aan [!UICONTROL Customer Journey Analytics] moet ETL?**
 
-Customer Journey Analytics omvat [&#x200B; Prep van Gegevens &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-prep/api/overview.html?lang=nl-NL) mogelijkheden helpen uw gegevens omzetten alvorens het in het de gegevensmeer van Adobe Experience Platform te zetten. Als u ETL nodig hebt nadat het gegeven reeds is opgenomen, [&#x200B; verstrekt de Dienst van de Vraag van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=nl-NL#queries) sommige beperkte opties, hoewel er extra betrokken kosten kunnen zijn.
+Customer Journey Analytics omvat [ Prep van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/data-prep/api/overview.html) mogelijkheden helpen uw gegevens omzetten alvorens het in het de gegevensmeer van Adobe Experience Platform te zetten. Als u ETL nodig hebt nadat het gegeven reeds is opgenomen, [ verstrekt de Dienst van de Vraag van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html#queries) sommige beperkte opties, hoewel er extra betrokken kosten kunnen zijn.
 
 +++
 
@@ -43,15 +43,15 @@ Customer Journey Analytics omvat [&#x200B; Prep van Gegevens &#x200B;](https://e
 
 +++**kan [!UICONTROL Customer Journey Analytics] &quot;verbinden&quot;over apparaten of over datasets?**
 
-Ja. [!UICONTROL Customer Journey Analytics] heeft [&#x200B; Stitching &#x200B;](../stitching/overview.md) functionaliteit die over voor authentiek verklaarde en niet voor authentiek verklaarde gebeurtenissen binnen een dataset werkt. Door deze stitching kunnen afwijkende records worden omgezet in één naadloze id, voor analyse op het niveau van de persoon.
-Voorts wanneer een gemeenschappelijke namespaceidentiteitskaart (identiteitskaart van de Persoon) over datasets binnen a [&#x200B; Verbinding &#x200B;](/help/connections/overview.md) wordt gebruikt, kunt u analyse op een naadloze combinatie veelvoudige datasets in werking stellen, &quot;vastgemaakt&quot;op het persoonniveau.
+Ja. [!UICONTROL Customer Journey Analytics] heeft [ Stitching ](../stitching/overview.md) functionaliteit die over voor authentiek verklaarde en niet voor authentiek verklaarde gebeurtenissen binnen een dataset werkt. Door deze stitching kunnen afwijkende records worden omgezet in één naadloze id, voor analyse op het niveau van de persoon.
+Voorts wanneer een gemeenschappelijke namespaceidentiteitskaart (identiteitskaart van de Persoon) over datasets binnen a [ Verbinding ](/help/connections/overview.md) wordt gebruikt, kunt u analyse op een naadloze combinatie veelvoudige datasets in werking stellen, &quot;vastgemaakt&quot;op het persoonniveau.
 
 +++
 
 
 +++**stitching van anoniem gedrag aan voor authentiek verklaard gesteund gedrag?**
 
-Ja. [&#x200B; Stitching &#x200B;](../stitching/overview.md) kijkt gebruikersgegevens van zowel voor authentiek verklaarde als niet voor authentiek verklaarde zittingen om een vastgemaakte identiteitskaart te produceren.
+Ja. [ Stitching ](../stitching/overview.md) kijkt gebruikersgegevens van zowel voor authentiek verklaarde als niet voor authentiek verklaarde zittingen om een vastgemaakte identiteitskaart te produceren.
 
 +++
 
@@ -80,7 +80,7 @@ Als Adobe voor het eerst is ingeschakeld, wordt een back-up van opgeslagen gegev
 
 +++**Kan ik gegevens van verschillende [!UICONTROL Adobe Experience Platform] zandbakken in één [!UICONTROL Customer Journey Analytics] verbinding combineren?**
 
-Nee, u hebt geen toegang tot gegevens in verschillende sandboxen. U kunt alleen gegevenssets combineren die zich binnen dezelfde sandbox bevinden. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=nl-NL#select-sandbox-and-datasets)
+Nee, u hebt geen toegang tot gegevens in verschillende sandboxen. U kunt alleen gegevenssets combineren die zich binnen dezelfde sandbox bevinden. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#select-sandbox-and-datasets)
 
 +++
 
@@ -101,7 +101,7 @@ Met je recht op Customer Journey Analytics kun je gegevens invoeren in Experienc
 
 +++**hoe ik [!UICONTROL Adobe Analytics] gegevens in [!UICONTROL Customer Journey Analytics] krijg?**
 
-[!UICONTROL Adobe Analytics] gegevens kunnen met Experience Platform door de [&#x200B; Analytics bronschakelaar &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=nl-NL) worden verbonden. De meeste velden van het type [!UICONTROL Adobe Analytics] worden overgedragen in de XDM-indeling, maar andere velden zijn nog niet beschikbaar.
+[!UICONTROL Adobe Analytics] gegevens kunnen met Experience Platform door de [ Analytics bronschakelaar ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) worden verbonden. De meeste velden van het type [!UICONTROL Adobe Analytics] worden overgedragen in de XDM-indeling, maar andere velden zijn nog niet beschikbaar.
 
 +++
 
@@ -134,7 +134,7 @@ Nr, kunt u om het even welke identiteitskaart, met inbegrip van een knoeiboel va
 >
 >Er is geen vaste gegevensgrootte in Customer Journey Analytics en Adobe kan zich dus niet vastleggen op een standaardinnametijdstip. Adobe werkt actief aan het verkleinen van deze latentie door nieuwe updates en optimalisatie van inname.
 
-* Live-gegevens of -gebeurtenissen: verwerkt en opgenomen binnen 90 minuten, zodra gegevens beschikbaar zijn in Adobe Experience Platform. (Batchgrootte > 50 miljoen rijen: langer dan 90 minuten.) Als stikken ingeschakeld is, kan de inname tot 4 uur duren. Zie [&#x200B; guardrails &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/technotes/guardrails) voor meer details.
+* Live-gegevens of -gebeurtenissen: verwerkt en opgenomen binnen 90 minuten, zodra gegevens beschikbaar zijn in Adobe Experience Platform. (Batchgrootte > 50 miljoen rijen: langer dan 90 minuten.) Als stikken ingeschakeld is, kan de inname tot 4 uur duren. Zie [ guardrails ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/guardrails) voor meer details.
 * Kleine backfills: binnen zeven dagen
 * Grote achtergronden: binnen 30 dagen
 
@@ -145,28 +145,34 @@ Adobe heeft onlangs de manier gewijzigd waarop gegevens in Customer Journey Anal
 
 ## &#x200B;5. Stel het schuifvenster in voor [!UICONTROL Connection] gegevensbehoud {#data-retention}
 
-Met de instelling [**[!UICONTROL Enable rolling data window]**](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=nl-NL#create-connection) kunt u Customer Journey Analytics-gegevensbewaring definiëren als een schuivend venster in maanden (drie maanden, zes maanden enzovoort). Deze wordt ingesteld op een [!UICONTROL connection] -niveau, niet op een [!UICONTROL dataset] -niveau. Het bewaren van gegevens is gebaseerd op de tijdstempels van de gebeurtenisdataset en is slechts op gebeurtenisdatasets van toepassing. Er bestaat geen instelling voor gegevensbehoud voor profiel- of opzoekgegevenssets omdat er geen relevante tijdstempels zijn.
+Met de instelling [**[!UICONTROL Enable rolling data window]**](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html#create-connection) kunt u Customer Journey Analytics-gegevensbewaring definiëren als een schuivend venster in maanden (drie maanden, zes maanden enzovoort). Deze wordt ingesteld op een [!UICONTROL connection] -niveau, niet op een [!UICONTROL dataset] -niveau. Het bewaren van gegevens is gebaseerd op de tijdstempels van de gebeurtenisdataset en is slechts op gebeurtenisdatasets van toepassing. Er bestaat geen instelling voor gegevensbehoud voor profiel- of opzoekgegevenssets omdat er geen relevante tijdstempels zijn.
 
 Het belangrijkste voordeel is dat u alleen gegevens opslaat of rapporteert die van toepassing zijn en nuttig zijn, en oudere gegevens verwijdert die niet meer nuttig zijn. Het helpt u onder uw contractgrenzen te blijven en vermindert het risico van overleeftijdskosten.
 
-## &#x200B;6. Gevolgen van het verwijderen van gegevenscomponenten {#deletion}
+## &#x200B;6. Gevolgen van het verwijderen van objecten of componenten {#deletion}
 
-Voor gegevensschrapping, zou u over zes types van componenten moeten ongerust zijn: zandbak, schema, dataset, verbinding, gegevensmening, en het project van Workspace. Hier zijn enkele mogelijke scenario&#39;s voor het verwijderen van een van deze componenten:
+Zie [ Schrapping en terugstellingimplicaties ](/help/technotes/deletion.md) voor een overzicht van de implicaties wanneer u schrapt of Customer Journey Analytics of de voorwerpen of de componenten van Experience Platform terugstelt.
 
-| Als u... | Dit gebeurt... |
+<!-- Refer to deletion guide 
+
+For data deletion, you should be concerned about six types of components: sandbox, schema, dataset, connection, data view, and Workspace project. Here are some possible scenarios around deleting any of these components:
+
+| If you... | This happens... |
 | --- | --- |
-| Een sandbox verwijderen in [!UICONTROL Adobe Experience Platform] | Als u een sandbox verwijdert, wordt de gegevensstroom gestopt naar alle [!UICONTROL Customer Journey Analytics] -verbindingen met gegevenssets in die sandbox. Verbindingen, gegevensweergaven, metriek en afmetingen met betrekking tot deze verwijderde sandbox worden ook verwijderd. |
-| Schrap een schema in [!UICONTROL Adobe Experience Platform], maar niet de dataset/s verbonden aan dit schema | [!UICONTROL Adobe Experience Platform] staat het verwijderen van [!UICONTROL schemas] waaraan een of meer [!UICONTROL datasets] is gekoppeld, niet toe. Nochtans, kan Admin met de aangewezen reeks rechten de datasets eerst schrappen en dan het schema schrappen. |
-| Een gegevensset verwijderen uit het gegevenspeer [!UICONTROL Adobe Experience Platform] | Als u een gegevensset in het gegevensmeer van Adobe Experience Platform verwijdert, stopt u de gegevensstroom van die gegevensset naar Customer Journey Analytics-verbindingen die die gegevensset bevatten. Om het even welke gegevens van die dataset worden automatisch geschrapt van de bijbehorende verbindingen van Customer Journey Analytics. |
-| Een gegevensset verwijderen in [!UICONTROL Customer Journey Analytics] | Neem contact op met uw Adobe-accountteam om het verwijderen van een gegevensset binnen een verbinding die is opgeslagen, in beweging te brengen. |
-| Een batch uit een dataset verwijderen (in [!UICONTROL Adobe Experience Platform]) | Als een batch uit een [!UICONTROL Adobe Experience Platform] dataset wordt verwijderd, wordt dezelfde batch verwijderd uit Customer Journey Analytics-verbindingen die die specifieke batch bevatten. Customer Journey Analytics wordt in [!UICONTROL Adobe Experience Platform] op de hoogte gesteld van het verwijderen van batches. |
-| Schrap een partij **terwijl het** in [!UICONTROL Customer Journey Analytics] wordt opgenomen | Als er slechts één batch in de dataset staat, worden geen gegevens of gedeeltelijke gegevens van die batch weergegeven in [!UICONTROL Customer Journey Analytics]. De inname wordt teruggedraaid. Bijvoorbeeld, als er vijf partijen in de dataset zijn en drie van hen reeds zijn opgenomen toen de dataset werd geschrapt, verschijnen de gegevens van die drie partijen in [!UICONTROL Customer Journey Analytics]. |
-| Een verbinding verwijderen in [!UICONTROL Customer Journey Analytics] | Een foutbericht geeft aan dat:<ul><li>De gegevensweergaven die voor de verwijderde verbinding zijn gemaakt, werken niet meer.</li><li> Op dezelfde manier werken alle Workspace-projecten die afhankelijk zijn van gegevensweergaven in de verwijderde verbinding, niet meer.</li></ul> |
-| Een gegevensweergave verwijderen in [!UICONTROL Customer Journey Analytics] | Een foutbericht geeft aan dat Workspace-projecten die van deze verwijderde gegevensweergave afhankelijk zijn, niet meer werken. |
+| Delete a sandbox in [!UICONTROL Adobe Experience Platform] | Deleting a sandbox stops the data flow to any [!UICONTROL Customer Journey Analytics] connections to datasets in that sandbox. Connections, data views, metrics and dimensions related to this deleted sandbox will also be deleted. |
+| Delete a schema in [!UICONTROL Adobe Experience Platform], but not the dataset/s associated with this schema | [!UICONTROL Adobe Experience Platform] does not allow for the deletion of [!UICONTROL schemas] that have one or more [!UICONTROL datasets] associated with them. However, an Admin with the appropriate set of rights can delete the datasets first and then delete the schema. |
+| Delete a dataset in the [!UICONTROL Adobe Experience Platform] data lake | Deleting a dataset in Adobe Experience Platform data lake stops data flow from that dataset to any Customer Journey Analytics Connections that include that dataset. Any data from that dataset is automatically deleted from the associated Customer Journey Analytics connections. |
+| Delete a dataset in [!UICONTROL Customer Journey Analytics] | Contact your Adobe Account Team to set in motion the process for deleting a dataset within a connection that has been saved. |
+| Delete a batch from a dataset (in [!UICONTROL Adobe Experience Platform]) | If a batch is deleted from an [!UICONTROL Adobe Experience Platform] dataset, the same batch is removed from any Customer Journey Analytics connections that contain that specific batch. Customer Journey Analytics is notified of batch deletions in [!UICONTROL Adobe Experience Platform]. |
+| Delete a batch **while it is being ingested** into [!UICONTROL Customer Journey Analytics] | If there is only one batch in the dataset, no data or partial data from that batch appears in [!UICONTROL Customer Journey Analytics]. The ingestion is rolled back. For example, if there are five batches in the dataset and three of them have already been ingested when the dataset was deleted, data from those 3 batches appears in [!UICONTROL Customer Journey Analytics]. |
+| Delete a connection in [!UICONTROL Customer Journey Analytics] | An error message indicates that:<ul><li>Any data views created for the deleted connection will no longer work.</li><li> Similarly, any Workspace projects that depend on data views in the deleted connection stops working.</li></ul> |
+| Delete a data view in [!UICONTROL Customer Journey Analytics] | An error message indicates that any Workspace projects that depend on this deleted data view will stop working. |
+
+-->
 
 ## &#x200B;7. Overwegingen bij het samenvoegen van rapportenpakketten in Customer Journey Analytics {#merge-reportsuite}
 
-Als u van plan bent om de gegevens van Adobe Analytics door de [&#x200B; bron van Adobe Analytics schakelaar &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=nl-NL) in te voeren, overweeg deze vertakkingen wanneer het samenvoegen van twee of meer het rapportreeksen van Adobe Analytics.
+Als u van plan bent om de gegevens van Adobe Analytics door de [ bron van Adobe Analytics schakelaar ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) in te voeren, overweeg deze vertakkingen wanneer het samenvoegen van twee of meer het rapportreeksen van Adobe Analytics.
 
 | Probleem | Overwegingen |
 | --- | --- |
@@ -174,14 +180,14 @@ Als u van plan bent om de gegevens van Adobe Analytics door de [&#x200B; bron va
 | [!UICONTROL Sessions] en [!UICONTROL People] counts | Ze worden gededupliceerd door de rapportsuites. Hierdoor komen aantallen mogelijk niet overeen. |
 | Metrische deduplicatie | Hiermee dupliceert u instanties van een metrische waarde (bijvoorbeeld [!UICONTROL Orders] ) als meerdere rijen dezelfde transactie-id hebben (bijvoorbeeld [!UICONTROL Purchase ID] ). Hiermee voorkomt u dat belangrijke meetgegevens te veel worden geteld. Dientengevolge, kunnen de metriek zoals [!UICONTROL Orders] niet over rapportsuites optellen. |
 | Valuta | Valuta-conversie wordt nog niet ondersteund in Customer Journey Analytics. Als de rapportsuites u probeert samen te voegen verschillende basisvaluta&#39;s gebruiken, kunnen de problemen zich voordoen. |
-| [!UICONTROL Persistence] | [&#x200B; persistentie &#x200B;](../data-views/component-settings/persistence.md) breidt zich over rapportsuites uit, die [!UICONTROL segments], [!UICONTROL attribution], etc. beïnvloedt. Het is mogelijk dat getallen niet correct worden opgeteld. |
+| [!UICONTROL Persistence] | [ persistentie ](../data-views/component-settings/persistence.md) breidt zich over rapportsuites uit, die [!UICONTROL segments], [!UICONTROL attribution], etc. beïnvloedt. Het is mogelijk dat getallen niet correct worden opgeteld. |
 | [!UICONTROL Classifications] | [!UICONTROL Classifications] wordt niet automatisch gededupliceerd bij het samenvoegen van rapportsuites. Wanneer u meerdere classificatiebestanden combineert in één [!UICONTROL lookup] -dataset, kunnen er problemen optreden. |
 
 ## &#x200B;8. [!UICONTROL Adobe Analytics] componenten
 
 +++**Kan ik [!UICONTROL audiences] van [!DNL Customer Journey Analytics] aan Experience Platform Real-Time CDP, of andere toepassingen van Experience Cloud delen/publiceren?**
 
-U kunt [&#x200B; publiek &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/audiences/publish) creëren en publiceren dat in Customer Journey Analytics aan het Profiel van de Klant in real time in Adobe Experience Platform wordt geïdentificeerd voor klant die en verpersoonlijking richt.
+U kunt [ publiek ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish) creëren en publiceren dat in Customer Journey Analytics aan het Profiel van de Klant in real time in Adobe Experience Platform wordt geïdentificeerd voor klant die en verpersoonlijking richt.
 
 +++
 
@@ -217,7 +223,7 @@ Het hangt af van uw gebruikscase. Werk dus samen met uw Adobe-accountteam. Je hu
 
 ## &#x200B;9. De verbindingsgrootte schatten {#estimate-size}
 
-Zie [&#x200B; het gebruik van Verbindingen &#x200B;](/help/connections/manage-connections.md#usage).
+Zie [ het gebruik van Verbindingen ](/help/connections/manage-connections.md#usage).
 
 ## &#x200B;10. Over gebruiksoverschrijdingen {#overage}
 
@@ -231,18 +237,18 @@ Soms ziet u dat het totale aantal gebeurtenissen dat door de verbinding wordt op
 
 1. Verdeel deze dimensie door **[!UICONTROL Platform Dataset ID]** en u merkt twee datasets met de zelfde grootte maar verschillend **[!UICONTROL Platform Dataset IDs]**. Elke dataset heeft 3825 verslagen. Dat betekent dat [!UICONTROL Customer Journey Analytics] vijf records heeft genegeerd omdat de persoon-id&#39;s ontbreken of er tijdstempels ontbreken:
 
-   ![&#x200B; verdeling &#x200B;](assets/data-size2.png)
+   ![ verdeling ](assets/data-size2.png)
 
 1. Als u [!UICONTROL Adobe Experience Platform] incheckt, is er bovendien geen gegevensset met ID &quot;5f21c12b732044194bffc1d0&quot;, vandaar dat iemand deze specifieke gegevensset heeft verwijderd uit [!UICONTROL Adobe Experience Platform] toen de eerste verbinding werd gemaakt. Later werd het bestand opnieuw aan Customer Journey Analytics toegevoegd, maar er werd een andere [!UICONTROL Platform Dataset ID] gegenereerd door [!UICONTROL Adobe Experience Platform] .
 
-Lees meer over de [&#x200B; implicaties van dataset en verbindingsschrapping &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=nl-NL#implications-of-deleting-data-components) in [!UICONTROL Customer Journey Analytics] en [!UICONTROL Adobe Experience Platform].
+Lees meer over de [ implicaties van dataset en verbindingsschrapping ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#implications-of-deleting-data-components) in [!UICONTROL Customer Journey Analytics] en [!UICONTROL Adobe Experience Platform].
 
 
 ## &#x200B;12. Regionale gegevensverzameling
 
 De Adobe Experience Cloud maakt gebruik van regionale gegevensverzameling (Regional Data Collection, RDC), zodat de interactie tussen uw bezoekers en Adobe en niet-Adobe-oplossingen zo dicht mogelijk bij uw bezoekers plaatsvindt. Zodra de gegevens regionaal bij een Centrum van de Inzameling van Gegevens (DCC, ook als plaats van Edge, deel van het Platform Edge Network) worden verzameld, door:sturen het over een veilige verbinding aan de relevante oplossingen die op de configuratie van uw gegevensstroom en/of gebeurtenis het door:sturen worden gebaseerd.
 
-![&#x200B; stroom van Gegevens gebruikend de Netwerken van de Rand &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png?lang=nl-NL)
+![ stroom van Gegevens gebruikend de Netwerken van de Rand ](https://experienceleague.adobe.com/docs/experience-platform/assets/collection.png)
 
 Bij het regionale gegevensverzamelingsproces worden de volgende stappen uitgevoerd:
 
@@ -272,4 +278,4 @@ Wanneer de gegevens het regionale gegevenscentrum raken, bepaalt de configuratie
 Customer Journey Analytics vereist datasets van Adobe Experience Platform, zodat vereist uw datastream/gebeurtenis die configuratie door:sturen de dienst van Adobe Experience Platform om de gegevens van het regionale gegevenscentrum aan het gegevenscentrum te leiden waar uw instantie van Adobe Experience Platform wordt gevestigd. Customer Journey Analytics en zijn ondersteunende diensten en infrastructuur worden op hetzelfde Adobe Experience Platform-exemplaar ingezet.
 
 
-Zie [&#x200B; het overzicht van de inzameling van Gegevens &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/collection/home.html?lang=nl-NL) voor meer informatie over het proces van gegevensinzameling voorbij Adobe Experience Platform Edge Network en zijn regionale gegevenscentra.
+Zie [ het overzicht van de inzameling van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/collection/home.html) voor meer informatie over het proces van gegevensinzameling voorbij Adobe Experience Platform Edge Network en zijn regionale gegevenscentra.
