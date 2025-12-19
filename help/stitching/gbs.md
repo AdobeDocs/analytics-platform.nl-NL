@@ -26,7 +26,7 @@ In op grafiek-gebaseerde het stitching, specificeert u een gebeurtenisdataset ev
 
 ## IdentityMap
 
-Op grafiek-gebaseerde het stitching steunt het gebruik van de [`identityMap` gebiedsgroep &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity) in de volgende scenario&#39;s:
+Op grafiek-gebaseerde het stitching steunt het gebruik van de [`identityMap` gebiedsgroep &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/composition#identity) in de volgende scenario&#39;s:
 
 - Gebruik van de primaire identiteit in `identityMap` naamruimten om de persistentID te definiëren:
    - Als meerdere primaire identiteiten in verschillende naamruimten worden gevonden, worden de identiteiten in de naamruimten lexigrafisch gesorteerd en wordt de eerste identiteit geselecteerd.
@@ -117,7 +117,7 @@ Bekijk de volgende twee identiteitsgrafiekupdates in de loop der tijd voor bezoe
 
 ![&#x200B; Grafiek 3579 van de Identiteit &#x200B;](assets/identity-graphs.svg)
 
-U kunt een identiteitsgrafiek over tijd voor een specifiek profiel bekijken gebruikend de [&#x200B; Kijker van de Grafiek van de Identiteit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-viewer). Zie ook [&#x200B; Dienst die van de Identiteit logica &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic) verbindt om een beter begrip van de gebruikte logica te krijgen wanneer het verbinden van identiteiten.
+U kunt een identiteitsgrafiek over tijd voor een specifiek profiel bekijken gebruikend de [&#x200B; Kijker van de Grafiek van de Identiteit &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/identity-graph-viewer). Zie ook [&#x200B; Dienst die van de Identiteit logica &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/identity-linking-logic) verbindt om een beter begrip van de gebruikte logica te krijgen wanneer het verbinden van identiteiten.
 
 ### Stap 1: Actief stitching
 
@@ -206,8 +206,8 @@ De volgende lijst vertegenwoordigt de zelfde gegevens zoals hierboven, maar toon
 De volgende voorwaarden zijn specifiek van toepassing op op grafiek gebaseerde stitching:
 
 - De gebeurtenisdataset in Adobe Experience Platform, waarop u het stitching wilt toepassen, moet één kolom hebben die een profiel op elke rij, **blijvende identiteitskaart** identificeert. Bijvoorbeeld een bezoeker-id die is gegenereerd door een Adobe Analytics AppMeasurement-bibliotheek of een ECID die is gegenereerd door de Experience Platform Identity Service.
-- Ononderbroken identiteitskaart moet ook [&#x200B; als identiteit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity) in het schema worden bepaald.
-- De identiteitsgrafiek van de Dienst van de Identiteit van Experience Platform moet een namespace (bijvoorbeeld `Email`, of `Phone`) hebben u tijdens het stitching wilt gebruiken om **identiteitskaart** op te lossen. Zie [&#x200B; Dienst van de Identiteit van Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) voor meer informatie.
+- Ononderbroken identiteitskaart moet ook [&#x200B; als identiteit &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/ui/fields/identity) in het schema worden bepaald.
+- De identiteitsgrafiek van de Dienst van de Identiteit van Experience Platform moet een namespace (bijvoorbeeld `Email`, of `Phone`) hebben u tijdens het stitching wilt gebruiken om **identiteitskaart** op te lossen. Zie [&#x200B; Dienst van de Identiteit van Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home) voor meer informatie.
 
 >[!NOTE]
 >
@@ -221,7 +221,7 @@ De volgende beperkingen zijn specifiek van toepassing op op grafiek gebaseerde s
 - Tijdstempels worden niet in aanmerking genomen wanneer wordt gezocht naar de persoon-id met behulp van de opgegeven naamruimte. Het is dus mogelijk dat een permanente id wordt gekoppeld aan een persoon-id uit een record met een eerdere tijdstempel.
 - In scenario&#39;s voor gedeelde apparaten, waarbij de naamruimte in de grafiek meerdere identiteiten bevat, wordt de eerste lexicografische identiteit gebruikt. Als namespace grenzen en prioriteiten als deel van de versie van grafiek-verbinden regels worden gevormd, wordt de laatste voor authentiek verklaarde identiteit van de gebruiker gebruikt. Zie [&#x200B; Gedeelde apparaten &#x200B;](/help/use-cases/stitching/shared-devices.md) voor meer informatie.
 - Er geldt een harde limiet van drie maanden voor het terugvullen van identiteiten in de identiteitsgrafiek. Als u geen Experience Platform-toepassing gebruikt, zoals Real-time Customer Data Platform, kunt u de identiteitsgrafiek weergeven door identiteiten te herstellen.
-- De [&#x200B; Garanties van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails) zijn van toepassing. Zie, bijvoorbeeld, de volgende [&#x200B; statische grenzen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails#static-limits):
+- De [&#x200B; Garanties van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/guardrails) zijn van toepassing. Zie, bijvoorbeeld, de volgende [&#x200B; statische grenzen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/guardrails#static-limits):
    - Maximumaantal identiteiten in een grafiek: 50.
    - Maximum aantal koppelingen naar een identiteit voor één batch-opname: 50.
    - Maximum aantal identiteiten in een XDM-record voor grafiekopname: 20.
