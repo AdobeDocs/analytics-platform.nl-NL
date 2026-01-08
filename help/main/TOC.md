@@ -170,7 +170,7 @@ ht-degree: 11%
       + [Analyseren](/help/connections/audience-analysis/analyze-audiences.md)
 + Gereedschappen {#tools}
    + Asset Transfer {#asset-transfer}
-      + [ activa van de Overdracht ](../tools/asset-transfer/transfer-assets.md)
+      + [&#x200B; activa van de Overdracht &#x200B;](../tools/asset-transfer/transfer-assets.md)
    + Productgebruik {#product-usage}
       + [Overzicht](../tools/product-usage/usage-overview.md)
       + [Gegevensinstellingen](../tools/product-usage/data-settings.md)
@@ -536,4 +536,4 @@ ht-degree: 11%
    + [Prestaties optimaliseren](../technotes/optimizing-performance.md)
    + [Gebruik beheren](../technotes/estimate-usage.md)
 
-+ [ Customer Journey Analytics API ](https://developer.adobe.com/cja-apis/docs/)
++ [&#x200B; Customer Journey Analytics API &#x200B;](https://developer.adobe.com/cja-apis/docs/)

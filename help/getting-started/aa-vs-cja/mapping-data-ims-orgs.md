@@ -32,7 +32,7 @@ Met de *gegevens van de Analytics van de kaart van veelvoudige organisaties IMS*
 
 | Illustratie | Toelichting |
 |---|---|
-| ![ gegevens van de Kaart over veelvoudige organisaties IMS ](/help/getting-started/assets/map-data-across-ims-orgs.svg) | Deze afbeelding staat u toe om over rapportreeksen te rapporteren die in organisatie 1 bestaan IMS, organisatie 2 IMS, en organisatie 3 IMS van één verbinding in Customer Journey Analytics die binnen organisatie 3 wordt geleverd IMS. |
+| ![&#x200B; gegevens van de Kaart over veelvoudige organisaties IMS &#x200B;](/help/getting-started/assets/map-data-across-ims-orgs.svg) | Deze afbeelding staat u toe om over rapportreeksen te rapporteren die in organisatie 1 bestaan IMS, organisatie 2 IMS, en organisatie 3 IMS van één verbinding in Customer Journey Analytics die binnen organisatie 3 wordt geleverd IMS. |
 
 {style="table-layout:fixed"}
 
@@ -50,7 +50,7 @@ Om de *gegevens van de Analytics van de kaart van veelvoudige organisaties IMS* 
 
 Zodra de accountmanager het e-mailbericht ontvangt met het verzoek om analysegegevens van meerdere organen toe te wijzen, wordt het verzoek in Adobe gecontroleerd. De accountmanager neemt contact met u op voor aanvullende vragen, optionele training en andere informatie.
 
-Zodra goedgekeurd, wordt de gevraagde afbeelding gecreeerd en u wordt op de hoogte gebracht. De bronIMS organisatienaam wordt toegevoegd aan de naam van de rapportreeks in de [ lijst van de het rapportreeksen van Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data) in Experience Platform.
+Zodra goedgekeurd, wordt de gevraagde afbeelding gecreeerd en u wordt op de hoogte gebracht. De bronIMS organisatienaam wordt toegevoegd aan de naam van de rapportreeks in de [&#x200B; lijst van de het rapportreeksen van Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data) in Experience Platform.
 
 ## Beperkingen en risico&#39;s
 
