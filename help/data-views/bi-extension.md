@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!DNL Customer Journey Analytics BI extension] laat SQL toegang tot de [&#x200B; gegevensmeningen &#x200B;](./data-views.md) toe die u in Customer Journey Analytics hebt bepaald. Uw gegevensengineers en analisten zouden met Power BI, de Desktop van Tableau, of andere bedrijfsintelligentie en visualisatiehulpmiddelen (die verder als hulpmiddelen worden bedoeld BI) vertrouwd kunnen zijn. Ze kunnen nu rapporten en dashboards maken op basis van dezelfde gegevensweergaven die Customer Journey Analytics-gebruikers gebruiken bij het maken van hun Analysis Workspace-projecten.
 
-De Dienst van de Vraag van Adobe Experience Platform [&#x200B; &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/home) is de SQL interface aan gegevens beschikbaar in het gegevensmeer van Experience Platform. Als [!DNL Customer Journey Analytics BI extension] ingeschakeld is, wordt de functionaliteit van [!DNL Query Service] uitgebreid om uw Customer Journey Analytics-gegevensweergaven als tabellen of weergaven in een [!DNL Query Service] -sessie te zien. Dit betekent dat hulpprogramma&#39;s voor bedrijfsintelligentie die [!DNL Query Service] als hun PostgresSQL-interface gebruiken, naadloos van deze uitgebreide functionaliteit profiteren.
+De Dienst van de Vraag van Adobe Experience Platform [&#x200B; &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/home) is de SQL interface aan gegevens beschikbaar in het gegevensmeer van Experience Platform. Als [!DNL Customer Journey Analytics BI extension] ingeschakeld is, wordt de functionaliteit van [!DNL Query Service] uitgebreid om uw Customer Journey Analytics-gegevensweergaven als tabellen of weergaven in een [!DNL Query Service] -sessie te zien. Dit betekent dat hulpprogramma&#39;s voor bedrijfsintelligentie die [!DNL Query Service] als hun PostgresSQL-interface gebruiken, naadloos van deze uitgebreide functionaliteit profiteren.
 
 De belangrijkste voordelen zijn:
 
@@ -28,7 +28,7 @@ De belangrijkste voordelen zijn:
 
 ## Vereisten
 
-Als u deze functionaliteit wilt gebruiken, kunt u verlopen of niet-verlopen referenties gebruiken om BI-gereedschappen te verbinden met de [!DNL Customer Journey Analytics BI extension] . De [&#x200B; gids van Referenties &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/credentials) verstrekt meer informatie bij het plaatsen van het verlopen van geloofsbrieven of niet-het verlopen geloofsbrieven.
+Als u deze functionaliteit wilt gebruiken, kunt u verlopen of niet-verlopen referenties gebruiken om BI-gereedschappen te verbinden met de [!DNL Customer Journey Analytics BI extension] . De [&#x200B; gids van Referenties &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/credentials) verstrekt meer informatie bij het plaatsen van het verlopen van geloofsbrieven of niet-het verlopen geloofsbrieven.
 Hieronder vindt u aanvullende stappen voor het instellen van de vereiste machtigingen.
 <!---   Enable the [!UICONTROL Customer Journey Analytics BI extension] in your Experience Platform organization. -->
 
@@ -48,7 +48,7 @@ U kunt ook:
 
 Niet-vervallende referenties gebruiken:
 
-* Creeer [&#x200B; niet-vervallende geloofsbrieven in Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/bi-extension#non-expiring-credentials).
+* Creeer [&#x200B; niet-vervallende geloofsbrieven in Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/bi-extension#non-expiring-credentials).
 * De toegang van de subsidie tot de niet-vervallende geloofsbrieven door de stappen te volgen in [&#x200B; worden vermeld die geloofsbrieven &#x200B;](#Expiring-credentials) uitbreiden.
 
 Zie [&#x200B; Controle van de Toegang van de Reis van de Klant &#x200B;](../technotes/access-control.md) voor meer informatie, specifiek de [&#x200B; extra toestemmingen van Admin van het Product &#x200B;](../technotes/access-control.md#product-admin-additional-permissions) en [&#x200B; de Toestemmingen van Customer Journey Analytics in Admin Console &#x200B;](../technotes/access-control.md#customer-journey-analytics-permissions-in-admin-console).
@@ -95,7 +95,7 @@ In Adobe Experience Platform:
 
 +++
 
-Zie de [&#x200B; gids UI van de Redacteur van de Vraag &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide) voor meer informatie.
+Zie de [&#x200B; gids UI van de Redacteur van de Vraag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/user-guide) voor meer informatie.
 
 
 ### BI-gereedschappen
@@ -128,7 +128,7 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
       1. Plak de **[!UICONTROL ** parameter van het Gegevensbestand **]** {van de Vragen van Experience Platform [!UICONTROL Credentials] in het **[!UICONTROL **&#x200B; 4} tekstgebied van het Gegevensbestand &lbrace;.**]**
 
-         Voeg `?FLATTEN` aan de **[!UICONTROL **&#x200B; 2&rbrace; parameter van het Gegevensbestand &lbrace;toe, zodat leest het als &#x200B;**]** bijvoorbeeld. `prod:cja?FLATTEN` Zie [&#x200B; genestelde gegevensstructuren voor gebruik met de hulpmiddelen van derdeBI &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
+         Voeg `?FLATTEN` aan de **[!UICONTROL **&#x200B; 2&rbrace; parameter van het Gegevensbestand &lbrace;toe, zodat leest het als &#x200B;**]** bijvoorbeeld. `prod:cja?FLATTEN` Zie [&#x200B; genestelde gegevensstructuren voor gebruik met de hulpmiddelen van derdeBI &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
 
       1. Selecteer **[!UICONTROL Data Connectivity]** wanneer hierom wordt gevraagd voor de modus **[!UICONTROL DirectQuery]** .
 
@@ -141,7 +141,7 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
    Alle dimensies en metriek die aan een of meer geselecteerde tabellen zijn gekoppeld, worden in het rechterdeelvenster weergegeven en kunnen in uw visualisaties worden gebruikt.
 
-   Zie [&#x200B; Power BI aan de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/power-bi) voor meer informatie verbinden. Zie ook [&#x200B; de gebruiksgevallen van het de uitbreidingsgebruik van BI &#x200B;](/help/use-cases/data-views/bi-extension-usecases.md) voor een gedetailleerd voorbeeld.
+   Zie [&#x200B; Power BI aan de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/power-bi) voor meer informatie verbinden. Zie ook [&#x200B; de gebruiksgevallen van het de uitbreidingsgebruik van BI &#x200B;](/help/use-cases/data-views/bi-extension-usecases.md) voor een gedetailleerd voorbeeld.
 
 +++
 
@@ -171,7 +171,7 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
       1. Plak de **[!UICONTROL ** parameter van het Gegevensbestand **]** {van de Vragen van Experience Platform [!UICONTROL Credentials] in het **[!UICONTROL **&#x200B; 4} tekstgebied van het Gegevensbestand &lbrace;.**]**
 
-         Voeg `%3FFLATTEN` aan de **[!UICONTROL **&#x200B; 2&rbrace; parameter van het Gegevensbestand &lbrace;toe, zodat leest het als &#x200B;**]** bijvoorbeeld. `prod:cja%3FFLATTEN` Zie [&#x200B; genestelde gegevensstructuren voor gebruik met de hulpmiddelen van derdeBI &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
+         Voeg `%3FFLATTEN` aan de **[!UICONTROL **&#x200B; 2&rbrace; parameter van het Gegevensbestand &lbrace;toe, zodat leest het als &#x200B;**]** bijvoorbeeld. `prod:cja%3FFLATTEN` Zie [&#x200B; genestelde gegevensstructuren voor gebruik met de hulpmiddelen van derdeBI &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie afvlakken.
 
       1. Selecteer **[!UICONTROL ** Gebruikersnaam en Wachtwoord **]** van **[!UICONTROL **&#x200B; Authentificatie &#x200B;**]** lijst.
 
@@ -187,7 +187,7 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
    U kunt nu met de gegevens van de lijsten van de gegevensmening werken om uw rapporten en visualisaties te bouwen.
 
-   Zie [&#x200B; Connect Tableau aan de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/tableau) voor meer informatie. Zie ook [&#x200B; de gebruiksgevallen van het de uitbreidingsgebruik van BI &#x200B;](/help/use-cases/data-views/bi-extension-usecases.md) voor een gedetailleerd voorbeeld.
+   Zie [&#x200B; Connect Tableau aan de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/tableau) voor meer informatie. Zie ook [&#x200B; de gebruiksgevallen van het de uitbreidingsgebruik van BI &#x200B;](/help/use-cases/data-views/bi-extension-usecases.md) voor een gedetailleerd voorbeeld.
 
 +++
 
@@ -214,7 +214,7 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
    U kunt nu met de gegevens van de lijsten van de gegevensmening werken om uw rapporten en visualisaties te bouwen.
 
-   Zie [&#x200B; Drager aan de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/looker) voor meer informatie verbinden. Zie ook [&#x200B; de gebruiksgevallen van het de uitbreidingsgebruik van BI &#x200B;](/help/use-cases/data-views/bi-extension-usecases.md) voor een gedetailleerd voorbeeld.
+   Zie [&#x200B; Drager aan de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/looker) voor meer informatie verbinden. Zie ook [&#x200B; de gebruiksgevallen van het de uitbreidingsgebruik van BI &#x200B;](/help/use-cases/data-views/bi-extension-usecases.md) voor een gedetailleerd voorbeeld.
 
 +++
 
@@ -238,7 +238,7 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
    Wanneer succesvol, kunt u met de gegevens werken om uw rapporten en visualisaties te bouwen.
 
-   Zie [&#x200B; Verbind Jupyter Notitieboekje aan de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/jupyter-notebook) voor meer informatie. Zie ook [&#x200B; de gebruiksgevallen van het de uitbreidingsgebruik van BI &#x200B;](/help/use-cases/data-views/bi-extension-usecases.md) voor een gedetailleerd voorbeeld.
+   Zie [&#x200B; Verbind Jupyter Notitieboekje aan de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/jupyter-notebook) voor meer informatie. Zie ook [&#x200B; de gebruiksgevallen van het de uitbreidingsgebruik van BI &#x200B;](/help/use-cases/data-views/bi-extension-usecases.md) voor een gedetailleerd voorbeeld.
 
 +++
 
@@ -262,11 +262,11 @@ Momenteel wordt [!DNL Customer Journey Analytics BI extension] ondersteund en ge
 
    Wanneer succesvol, kunt u met de gegevens werken om uw rapporten en visualisaties te bouwen.
 
-   Zie [&#x200B; Connect RStudio aan de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/rstudio) voor meer informatie. Zie ook [&#x200B; BI het gebruiksgevallen van het uitbreidingsgebruik &#x200B;](/help/use-cases/data-views/bi-extension-usecases.md) voor een gedetailleerd voorbeeld (dat in plaats daarvan het pakket RPostgres gebruikt).
+   Zie [&#x200B; Connect RStudio aan de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/rstudio) voor meer informatie. Zie ook [&#x200B; BI het gebruiksgevallen van het uitbreidingsgebruik &#x200B;](/help/use-cases/data-views/bi-extension-usecases.md) voor een gedetailleerd voorbeeld (dat in plaats daarvan het pakket RPostgres gebruikt).
 
 +++
 
-Zie [&#x200B; cliënten met de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/overview) voor een overzicht van en meer informatie over de diverse beschikbare hulpmiddelen verbinden.
+Zie [&#x200B; cliënten met de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/overview) voor een overzicht van en meer informatie over de diverse beschikbare hulpmiddelen verbinden.
 
 Zie [&#x200B; gevallen van het Gebruik &#x200B;](/help/use-cases/data-views/bi-extension-usecases.md) op hoe te om een aantal gebruiksgevallen te verwezenlijken gebruikend de uitbreiding van Customer Journey Analytics BI.
 
@@ -297,7 +297,7 @@ prod:all=> \dv
 
 ### Geneste in plaats van samengevoegd
 
-Standaard gebruikt het schema van uw gegevensweergaven geneste structuren, net als de oorspronkelijke XDM-schema&#39;s. De integratie ondersteunt ook de optie `FLATTEN` . Met deze optie kunt u afvlakken forceren van het schema voor de gegevensweergaven (en elke andere tabel in de sessie). Het afvlakken staat voor gemakkelijker gebruik in de hulpmiddelen van BI toe die geen gestructureerde schema&#39;s steunen. Zie [&#x200B; Werkend met genestelde gegevensstructuren in de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie.
+Standaard gebruikt het schema van uw gegevensweergaven geneste structuren, net als de oorspronkelijke XDM-schema&#39;s. De integratie ondersteunt ook de optie `FLATTEN` . Met deze optie kunt u afvlakken forceren van het schema voor de gegevensweergaven (en elke andere tabel in de sessie). Het afvlakken staat voor gemakkelijker gebruik in de hulpmiddelen van BI toe die geen gestructureerde schema&#39;s steunen. Zie [&#x200B; Werkend met genestelde gegevensstructuren in de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/flatten-nested-data) voor meer informatie.
 
 
 ### Standaardwaarden en beperkingen
@@ -316,7 +316,7 @@ De volgende extra standaardwaarden en beperkingen zijn van toepassing wanneer u 
 
 ### Ondersteunde SQL
 
-Zie {SQL van de Dienst van de Vraag 1} voor de volledige verwijzing op welk type van SQL wordt gesteund.[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview)
+Zie {SQL van de Dienst van de Vraag 1} voor de volledige verwijzing op welk type van SQL wordt gesteund.[&#128279;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/sql/overview)
 
 Zie de onderstaande tabel voor voorbeelden van de SQL die u kunt gebruiken.
 
