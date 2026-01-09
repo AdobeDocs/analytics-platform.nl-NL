@@ -27,7 +27,7 @@ Afhankelijk van het Customer Journey Analytics-pakket kunt u ook waarschuwingen 
    * Veranderingen in metriek met een specifiek percentage.
    * Metrisch die boven, onder of gelijk aan een bepaalde waarde zijn. (alleen beschikbaar voor Adobe Analytics-klanten met een Select-, Prime- of Ultimate-pakket)
 
-Dit [&#x200B; videoleerprogramma &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/intelligent-alerts) verstrekt een basisoverzicht van alarm.
+Dit [&#x200B; videoleerprogramma &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/data-science/intelligent-alerts) verstrekt een basisoverzicht van alarm.
 
 
 
