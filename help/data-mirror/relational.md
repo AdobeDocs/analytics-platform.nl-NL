@@ -6,9 +6,9 @@ feature: Basics
 role: Admin
 badgePremium: label="Beta"
 exl-id: 17f72954-085c-46a8-bc28-6af0a4eb159a
-source-git-commit: 0e86227915404fe62fcd1f27e95eb3b1bb673030
+source-git-commit: cd3baec708f1811a7cbc37dfe0a9c3af75eb97c3
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2083'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 {{release-limited-testing}}
 
-Deze snelle begingids verklaart hoe te om [&#x200B; Experience Platform Data Mirror voor Customer Journey Analytics &#x200B;](data-mirror.md) te gebruiken om relationele gegevens van een inheemse oplossing van het gegevenspakhuis in Adobe Experience Platform te weerspiegelen. Gebruik die gegevens in Customer Journey Analytics.
+Deze snelle begingids verklaart hoe te om [ Experience Platform Data Mirror voor Customer Journey Analytics ](data-mirror.md) te gebruiken om relationele gegevens van een inheemse oplossing van het gegevenspakhuis in Adobe Experience Platform te weerspiegelen. Gebruik die gegevens in Customer Journey Analytics.
 
 Voor dit gebruiksgeval moet u:
 
@@ -45,7 +45,7 @@ Experience Platform Data Mirror for Customer Journey Analytics vereist relatione
 
 ## Een native oplossing voor een gegevensopslagsysteem gebruiken
 
-Deze snelstartgids gebruikt [[!DNL Google BigQuery]](datawarehouse.md#google-bigquery) als de native oplossing voor het gegevenspakhuis. Andere [&#x200B; gesteunde oplossingen &#x200B;](datawarehouse.md) zijn [[!DNL Snowflake]](datawarehouse.md#snowflake) en [[!DNL Azure Databricks]](datawarehouse.md#azure-databricks).
+Deze snelstartgids gebruikt [[!DNL Google BigQuery]](datawarehouse.md#google-bigquery) als de native oplossing voor het gegevenspakhuis. Andere [ gesteunde oplossingen ](datawarehouse.md) zijn [[!DNL Snowflake]](datawarehouse.md#snowflake) en [[!DNL Azure Databricks]](datawarehouse.md#azure-databricks).
 
 Binnen [!DNL Google BigQuery] worden de volgende voorbeeldgegevens opgeslagen en regelmatig bijgewerkt in een tabel met de naam **[!UICONTROL eventdata]** .
 
@@ -82,7 +82,7 @@ De gegevens worden opgeslagen in een gegevensbestandlijst met een bijbehorend sc
 1. Selecteer **[!UICONTROL BigQuery]** > **[!UICONTROL Studio]** .
 1. Selecteer uw project, dataset en lijst. Op het tabblad **[!UICONTROL Schema]** ziet u een overzicht van het schema voor de gebeurtenisgegevens.
 
-   ![&#x200B; Google BigQuery - Schema &#x200B;](assets/googlebg-schema.png)
+   ![ Google BigQuery - Schema ](assets/googlebg-schema.png)
 
 De gegevens inspecteren:
 
@@ -93,7 +93,7 @@ De gegevens inspecteren:
    SELECT * FROM `project.datasets.eventdata` LIMIT 100
    ```
 
-   ![&#x200B; Google BigQuery - de Vraag van de Steekproef &#x200B;](assets/googlebg-samplequery.png)
+   ![ Google BigQuery - de Vraag van de Steekproef ](assets/googlebg-samplequery.png)
 
 Voor Experience Platform Data Mirror for Customer Journey Analytics, moeten de lijsten in uw gegevenspakhuis inheemse oplossing voor veranderingsgeschiedenis worden toegelaten. Om te controleren dat de lijst voor veranderingsgeschiedenis wordt toegelaten:
 
@@ -132,7 +132,7 @@ Definieer een schema dat deze gegevens modelleert. Uw schema instellen:
 1. Als u een pop-up met de optie ziet tussen **[!UICONTROL Create manually]** of **[!UICONTROL Upload a DDL file]** te selecteren:
    1. Selecteer **[!UICONTROL select Create manually]**.
 
-      ![&#x200B; configuratie van het Schema - creeer manueel &#x200B;](assets/model-based-manual.png)
+      ![ configuratie van het Schema - creeer manueel ](assets/model-based-manual.png)
 
    1. Selecteer **[!UICONTROL Next]**.
 1. In de interface **[!UICONTROL Schemas]** > **[!UICONTROL Create relational schema]** :
@@ -142,13 +142,13 @@ Definieer een schema dat deze gegevens modelleert. Uw schema instellen:
 
       Experience Platform Data Mirror for Customer Journey Analytics wordt meestal gebruikt voor tijdreeksgegevens (bijvoorbeeld gebeurtenisgegevens).
 
-      ![&#x200B; de configuratie van het Schema &#x200B;](assets/relational-create-schema.png)
+      ![ de configuratie van het Schema ](assets/relational-create-schema.png)
 
    1. Selecteer **[!UICONTROL Finish]**.
 
 1. In de interface **[!UICONTROL Schemas]** > **[!UICONTROL Sample Event Feed Schema]** ziet u een waarschuwing dat relationele schema&#39;s inname als veranderingsrijen ondersteunen.
 
-   ![&#x200B; de configuratie van het Schema &#x200B;](assets/model-based-create-schema-empty.png)
+   ![ de configuratie van het Schema ](assets/model-based-create-schema-empty.png)
 
    Ingestie als veranderingsrijen is ook genoemd geworden verandering gegevensvangst (CDC). Voor ondersteuning van het vastleggen van wijzigingsgegevens is het schema vereist:
 
@@ -156,39 +156,45 @@ Definieer een schema dat deze gegevens modelleert. Uw schema instellen:
    * Versiebeschrijving.
    * Tijdstempelbeschrijving voor tijdreeksgegevens.
 
-1. Selecteer ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) naast **[!UICONTROL Sample Event Feed Schema]** beginnen om gebieden aan het schema toe te voegen. Voeg de volgende velden met het gegevenstype en aanvullende kenmerken toe aan het schema.
+1. Selecteer ![ AddCircle ](/help/assets/icons/AddCircle.svg) naast **[!UICONTROL Sample Event Feed Schema]** beginnen om gebieden aan het schema toe te voegen. Voeg de volgende velden met het gegevenstype en aanvullende kenmerken toe aan het schema.
 
    | Veldnaam | Weergavenaam | Type | Aanvullende kenmerken |
    |---|---|---|---|
-   | `id` | `Id` | **[!UICONTROL Integer]** | ![&#x200B; SelectBox &#x200B;](/help/assets/icons/SelectBox.svg) de beschrijver van de Versie |
+   | `id` | `Id` | **[!UICONTROL Integer]** | ![ SelectBox ](/help/assets/icons/SelectBox.svg) de beschrijver van de Versie |
    | `orders` | `Orders` | **[!UICONTROL Integer]** | |
    | `pagename` | `Page Name` | **[!UICONTROL String]** | |
-   | `personid` | `Person Id` | **[!UICONTROL String]** | ![&#x200B; Primaire sleutel SelectBox &#x200B;](/help/assets/icons/SelectBox.svg) SelectBox <br/>![&#x200B; Identiteit &#x200B;](/help/assets/icons/SelectBox.svg) Uitgezochte CRMID voor Identiteitsnaamruimte.<br/> |
+   | `personid` | `Person Id` | **[!UICONTROL String]** | ![ Primaire sleutel SelectBox ](/help/assets/icons/SelectBox.svg) SelectBox <br/>![ Identiteit ](/help/assets/icons/SelectBox.svg) Uitgezochte CRMID voor Identiteitsnaamruimte.<br/> |
    | `revenueamount` | `Revenue Amount` | **[!UICONTROL Double]** | |
-   | `timestamp` | `Timestamp` | **[!UICONTROL DateTime]** | ![&#x200B; SelectBox &#x200B;](/help/assets/icons/SelectBox.svg) de beschrijver van de tijdstempel |
+   | `timestamp` | `Timestamp` | **[!UICONTROL DateTime]** | ![ SelectBox ](/help/assets/icons/SelectBox.svg) de beschrijver van de tijdstempel |
    | `trackingcode` | `Tracking Code` | **[!UICONTROL String]** | |
 
 
-   * Het veld **[!UICONTROL id]** is geconfigureerd als **[!UICONTROL Version descriptor]** .
+   * Het veld **[!UICONTROL id]** wordt geconfigureerd als de **[!UICONTROL Version descriptor]** .
 
-     ![&#x200B; de beschrijver van de Versie &#x200B;](assets/platform-schema-id.png)
+     ![ de beschrijver van de Versie ](assets/platform-schema-id.png)
 
-   * Het veld **[!UICONTROL personid]** wordt geconfigureerd, samen met **[!UICONTROL timestamp]** als **[!UICONTROL Primary key]** . Selecteer ![&#x200B; toevoegen &#x200B;](/help/assets/icons/Add.svg) **[!UICONTROL Create composite primary key]** om een samengestelde sleutel tot stand te brengen.
+     In een echt levensscenario, zou u een geschikter gebied als [ versiedescriptor ](aep.md#schema) kunnen willen gebruiken. Bijvoorbeeld een veld dat een laatst gewijzigde tijd bijhoudt.
 
-     ![&#x200B; Samengestelde sleutel &#x200B;](assets/platform-schema-compositekey.png)
+   * Het veld **[!UICONTROL personid]** wordt geconfigureerd, samen met **[!UICONTROL timestamp]** als **[!UICONTROL Primary key]** . Selecteer ![ toevoegen ](/help/assets/icons/Add.svg) **[!UICONTROL Create composite primary key]** om een samengestelde sleutel tot stand te brengen.
+
+     ![ Samengestelde sleutel ](assets/platform-schema-compositekey.png)
 
      Het veld **[!UICONTROL personid]** wordt ook geconfigureerd als een **[!UICONTROL Identity]** , met **[!UICONTROL CRMID]** als de **[!UICONTROL Identity namespace]** .
 
-     ![&#x200B; de beschrijver van de Persoon &#x200B;](assets/platform-schema-personid.png)
+     ![ de beschrijver van de Persoon ](assets/platform-schema-personid.png)
+
+     Het veld **[!UICONTROL personid]** hoeft niet het veld **[!UICONTROL Primary key]** te zijn. In een echt levensscenario hebt u hoogstwaarschijnlijk een verschillend gebied om de primaire sleutel te volgen, los van **[!UICONTROL personid]**.
 
    * Het veld **[!UICONTROL timestamp]** wordt geconfigureerd, samen met het veld **[!UICONTROL personid]** als **[!UICONTROL Primary key]** . Het veld **[!UICONTROL timestamp]** wordt ook geconfigureerd als **[!UICONTROL Timestamp descriptor]** . U hoeft een veld alleen als **[!UICONTROL Timestamp descriptor]** te definiëren voor relationele gegevens van tijdreeksen.
 
-     ![&#x200B; de beschrijver van de tijdstempel &#x200B;](assets/platform-schema-timestamp.png)
+     ![ de beschrijver van de tijdstempel ](assets/platform-schema-timestamp.png)
 
 
    Als u **[!UICONTROL Primary key]** , **[!UICONTROL Version descriptor]** en **[!UICONTROL Timestamp descriptor]** correct hebt gedefinieerd, verdwijnt de waarschuwing boven op de schemadefinitie.
 
 1. Selecteer **[!UICONTROL Save]** om het schema op te slaan.
+
+Op gelijkaardige manier, kunt u opstelling een op verslag-Gebaseerd relationeel [ schema ](aep.md#schema). Bijvoorbeeld om profiel- en opzoekgegevens te bevatten.
 
 
 ## Een bronaansluiting gebruiken
@@ -207,19 +213,19 @@ De wizard Gegevens toevoegen begeleidt u door de volgende stappen om de gegevens
 
 Selecteer in de stap **[!UICONTROL Authentication]** :
 
-* **[!UICONTROL Existing account]** als u al een account hebt ingesteld voor Google BigQuery. Ga aan de [&#x200B; Uitgezochte gegevens &#x200B;](#select-data) stap verder.
+* **[!UICONTROL Existing account]** als u al een account hebt ingesteld voor Google BigQuery. Ga aan de [ Uitgezochte gegevens ](#select-data) stap verder.
 * **[!UICONTROL New account]** wanneer u verbinding moet maken met Google BigQuery.
    1. Geef een **[!UICONTROL Account name]** en (optioneel) **[!UICONTROL Description]** op.
    1. Selecteer uw **[!UICONTROL Authentication type]**: **[!UICONTROL Basic Authentication]** of **[!UICONTROL Service Authentication]** . Geef de vereiste invoer op op basis van uw selectie.
    1. Selecteren **[!UICONTROL Connect to source]**
 
-      ![&#x200B; Google BigQuery - Authentificatie &#x200B;](assets/googlebg-authentication.png)
+      ![ Google BigQuery - Authentificatie ](assets/googlebg-authentication.png)
 
-      Uw verbinding is geverifieerd. A ![&#x200B; CheckmarkCircleGreen &#x200B;](/help/assets/icons/CheckmarkCircleGreen.svg) **[!UICONTROL Connected]** wees op een succesvolle verbinding.
+      Uw verbinding is geverifieerd. A ![ CheckmarkCircleGreen ](/help/assets/icons/CheckmarkCircleGreen.svg) **[!UICONTROL Connected]** wees op een succesvolle verbinding.
 
    1. Selecteer **[!UICONTROL Next]**.
 
-  Zie de documentatie van Experience Platform voor details op om te verbinden en voor authentiek te verklaren wanneer u [&#x200B; Azure Databricks &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/databases/databricks) of [&#x200B; Snowflake &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/databases/snowflake) schakelaar gebruikt.
+  Zie de documentatie van Experience Platform voor details op om te verbinden en voor authentiek te verklaren wanneer u [ Azure Databricks ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks) of [ Snowflake ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake) schakelaar gebruikt.
 
 
 ### Gegevens selecteren
@@ -228,7 +234,7 @@ In de stap **[!UICONTROL Select data]** :
 
 1. Selecteer de tabel in de lijst met tabellen. Bijvoorbeeld: **[!UICONTROL eventdata]** .
 
-   ![&#x200B; Experience Platform - de Schakelaar van Source - Uitgezochte gegevens &#x200B;](assets/platform-sources-selectdata-event.png)
+   ![ Experience Platform - de Schakelaar van Source - Uitgezochte gegevens ](assets/platform-sources-selectdata-event.png)
 
    U ziet een voorbeeld van de gegevens die ter verificatie worden weergegeven.
 
@@ -244,7 +250,7 @@ In de stap **[!UICONTROL Dataflow detail]** :
 1. Voer een **[!UICONTROL Output dataset name]** in. Bijvoorbeeld: `event-data-mirror` .
 1. Selecteer het relationele schema dat u eerder van het **[!UICONTROL Schema]** drop-down menu creeerde. Bijvoorbeeld: **[!UICONTROL Sample Event Feed Schema]** .
 
-   ![&#x200B; Experience Platform - de Schakelaar van Source - Details Dataflow &#x200B;](assets/platform-sources-dataflowdetail-event.png)
+   ![ Experience Platform - de Schakelaar van Source - Details Dataflow ](assets/platform-sources-dataflowdetail-event.png)
 
 1. Geef andere details op.
 1. Selecteer **[!UICONTROL Next]**.
@@ -254,9 +260,9 @@ In de stap **[!UICONTROL Dataflow detail]** :
 
 In de stap **[!UICONTROL Mapping]** :
 
-1. Wijs de velden toe. Van het schema in Google BigQuery (**[!UICONTROL Source data]**) aan de gebieden in het schema die u in Experience Platform (**[!UICONTROL Target fields]**) hebt bepaald.
+1. Wijs de gebieden in het schema in Google BigQuery (**[!UICONTROL Source data]**) aan de gebieden in het schema toe dat u in Experience Platform (**[!UICONTROL Target fields]**) hebt bepaald.
 
-   ![&#x200B; Experience Platform - de Schakelaar van Source - Afbeelding &#x200B;](assets/platform-sources-mapping.png)
+   ![ Experience Platform - de Schakelaar van Source - Afbeelding ](assets/platform-sources-mapping.png)
 
 1. Als alle velden correct zijn toegewezen, selecteert u **[!UICONTROL Next]** om door te gaan.
 
@@ -268,7 +274,7 @@ In de stap **[!UICONTROL Scheduling]** :
 1. Geef op **[!UICONTROL Frequency]** en **[!UICONTROL Interval]** om de synchronisatie van de gespiegelde gegevens te plannen.
 1. Geef de **[!UICONTROL Start time]** voor het schema op.
 
-   ![&#x200B; Experience Platform - de Schakelaar van Source - Plannend &#x200B;](assets/platform-sources-scheduling.png)
+   ![ Experience Platform - de Schakelaar van Source - Plannend ](assets/platform-sources-scheduling.png)
 
 1. Selecteer **[!UICONTROL Next]** om door te gaan.
 
@@ -279,11 +285,11 @@ In de stap **[!UICONTROL Review]** .
 
 1. Herzie de configuratie voor de bronschakelaar.
 
-   ![&#x200B; Experience Platform - de Schakelaar van Source - Overzicht &#x200B;](assets/platform-sources-review.png)
+   ![ Experience Platform - de Schakelaar van Source - Overzicht ](assets/platform-sources-review.png)
 
 1. Selecteer **[!UICONTROL Finish]** . U wordt geleid aan gevormde dataflow.
 
-   ![&#x200B; Experience Platform - de Schakelaar van Source - Dataflow &#x200B;](assets/platform-sources-finish.png)
+   ![ Experience Platform - de Schakelaar van Source - Dataflow ](assets/platform-sources-finish.png)
 
 
 ## Een verbinding instellen
@@ -301,7 +307,7 @@ In de Customer Journey Analytics-interface:
 
       1. Selecteer de dataset die de gespiegelde gegevens bevat. Bijvoorbeeld: **[!UICONTROL event-data-mirror]** . De dataset heeft **[!UICONTROL Relational]** als **[!UICONTROL Dataset type]**.
 
-         ![&#x200B; CJA - Verbindingen - voeg dataset &#x200B;](assets/cja-add-dataset.png) toe
+         ![ CJA - Verbindingen - voeg dataset ](assets/cja-add-dataset.png) toe
 
       1. Voeg om het even welke extra datasets toe die voor de verbinding relevant zijn.
       1. Selecteer **[!UICONTROL Next]**.
@@ -317,14 +323,14 @@ In de Customer Journey Analytics-interface:
       1. Voer `Google BigQuery Event Data` in als de **[!UICONTROL Data source description]** .
       1. Geef andere details op, zoals **[!UICONTROL Import all new data]** en **[!UICONTROL Backfill all existing data]** .
 
-         ![&#x200B; CJA - Verbinding - de montages van de Dataset &#x200B;](assets/cja-add-dataset-2.png)
+         ![ CJA - Verbinding - de montages van de Dataset ](assets/cja-add-dataset-2.png)
 
       Naar keuze, specificeer details voor andere datasets.
 
    1. Selecteer **[!UICONTROL Add datasets]**.
 1. Selecteer **[!UICONTROL Save]**.
 
-Nadat u a [&#x200B; verbinding &#x200B;](/help/connections/overview.md) creeert, kunt u diverse beheerstaken uitvoeren. Zoals [&#x200B; het selecteren en het combineren van datasets &#x200B;](/help/connections/combined-dataset.md), [&#x200B; het controleren van het statuut van de datasets van een verbinding en het statuut van gegevensopname &#x200B;](/help/connections/manage-connections.md), en meer.
+Nadat u a [ verbinding ](/help/connections/overview.md) creeert, kunt u diverse beheerstaken uitvoeren. Zoals [ het selecteren en het combineren van datasets ](/help/connections/combined-dataset.md), [ het controleren van het statuut van de datasets van een verbinding en het statuut van gegevensopname ](/help/connections/manage-connections.md), en meer.
 
 
 ## Een gegevensweergave instellen
@@ -351,7 +357,7 @@ Uw gegevensweergave maken:
       1. Selecteer **[!UICONTROL Adhoc & Relational fields]**.
       1. Sleep velden van de relationele schema&#39;s naar **[!UICONTROL METRICS]** of **[!UICONTROL DIMENSIONS]** .
 
-         ![&#x200B; voegt relationele gebieden als componenten &#x200B;](assets/cja-add-dataset-folder-dv.png) toe
+         ![ voegt relationele gebieden als componenten ](assets/cja-add-dataset-folder-dv.png) toe
 
    1. Definieer afgeleide velden voor velden die niet het juiste type hebben, die niet de juiste indeling hebben of die u om andere redenen wilt wijzigen. Bijvoorbeeld voor **[!UICONTROL Revenue Amount]** .
 
@@ -359,12 +365,12 @@ Uw gegevensweergave maken:
       1. In de afgeleide gebiedsredacteur:
          1. Definieer een nieuw `Revenue Amount (Numeric)` veld, zoals hieronder.
 
-            ![&#x200B; CJA - de mening van Gegevens - Voortgekomen gebied &#x200B;](assets/cja-dataview-derived-fields.png)
+            ![ CJA - de mening van Gegevens - Voortgekomen gebied ](assets/cja-dataview-derived-fields.png)
 
          1. Selecteer **[!UICONTROL Save]**.
       1. Sleep het nieuwe, van **[!UICONTROL Revenue Amount (Numeric)]** afgeleide veld en zet het veld neer in **[!UICONTROL METRICS]** .
 
-         ![&#x200B; CJA - de mening van Gegevens - Relationele gebieden &#x200B;](assets/cja-add-dataset-folder-dv.png)
+         ![ CJA - de mening van Gegevens - Relationele gebieden ](assets/cja-add-dataset-folder-dv.png)
 
    1. Selecteer **[!UICONTROL Save and continue]**.
 
@@ -372,7 +378,7 @@ Uw gegevensweergave maken:
 
    Laat de instellingen ongewijzigd en selecteer **[!UICONTROL Save and finish]** .
 
-Zie [&#x200B; overzicht van de meningen van Gegevens &#x200B;](../data-views/data-views.md) voor meer informatie over om een gegevensmening tot stand te brengen en uit te geven. En welke componenten beschikbaar voor u in uw gegevensmening en hoe te om segment en zittingsmontages te gebruiken zijn.
+Zie [ overzicht van de meningen van Gegevens ](../data-views/data-views.md) voor meer informatie over om een gegevensmening tot stand te brengen en uit te geven. En welke componenten beschikbaar voor u in uw gegevensmening en hoe te om segment en zittingsmontages te gebruiken zijn.
 
 
 ## Een project instellen
@@ -393,15 +399,15 @@ Uw project maken:
    1. Selecteer **[!UICONTROL Create]**.
 
 
-4. In de **[!UICONTROL New project]** werkruimte, zorg ervoor dat uw [&#x200B; gegevensmening &#x200B;](#set-up-a-data-view) wordt geselecteerd. Die gegevensmening verbindt met de [&#x200B; verbinding &#x200B;](#set-up-a-connection) die de weerspiegelde gegevens bevat.
+4. In de **[!UICONTROL New project]** werkruimte, zorg ervoor dat uw [ gegevensmening ](#set-up-a-data-view) wordt geselecteerd. Die gegevensmening verbindt met de [ verbinding ](#set-up-a-connection) die de weerspiegelde gegevens bevat.
 
 5. Als u het eerste rapport wilt maken, sleept u de afmetingen en maatstaven naar het deelvenster **[!UICONTROL Freeform table]** in het deelvenster **[!UICONTROL Freeform]** . Bijvoorbeeld, sleep **[!UICONTROL Revenue Amount (Numeric)]** op **[!UICONTROL _Sleep metrisch hier_]**. En sleep **[!UICONTROL PersonId]** en zet het veld neer op de eerste kolomkop. Breng desgewenst nog andere aanpassingen aan.
 
    Het uiteindelijke resultaat is een overzicht van profielen en hun opbrengsten op basis van gespiegelde gegevens die afkomstig zijn uit een Google BigQuery-tabel.
 
-   ![&#x200B; Workspace - het Project van de steekproef &#x200B;](assets/cja-sample-project.png)
+   ![ Workspace - het Project van de steekproef ](assets/cja-sample-project.png)
 
-Zie [&#x200B; overzicht van Analysis Workspace &#x200B;](../analysis-workspace/home.md) voor meer informatie over hoe te om projecten tot stand te brengen en uw analyse te bouwen gebruikend componenten, visualisaties, en panelen.
+Zie [ overzicht van Analysis Workspace ](../analysis-workspace/home.md) voor meer informatie over hoe te om projecten tot stand te brengen en uw analyse te bouwen gebruikend componenten, visualisaties, en panelen.
 
 >[!SUCCESS]
 >
