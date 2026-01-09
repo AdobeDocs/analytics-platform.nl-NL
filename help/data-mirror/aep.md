@@ -27,7 +27,7 @@ Zoek onder details die u zou moeten overwegen wanneer het vormen van elk van dez
 
 ## Schema
 
-U moet a [ relationeel schema ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational){target="_blank"} tot stand brengen dat de inheemse lijst van het gegevenspakhuis is u wilt spiegelen. Wanneer u het relationele schema construeert, zorg ervoor dat aan de volgende vereisten wordt voldaan:
+U moet a [&#x200B; relationeel schema &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational){target="_blank"} tot stand brengen dat de inheemse lijst van het gegevenspakhuis is u wilt spiegelen. Wanneer u het relationele schema construeert, zorg ervoor dat aan de volgende vereisten wordt voldaan:
 
 * Wanneer ertoe aangezet voor het type van relationeel schema, zorg ervoor u de handoptie selecteert.
 * Selecteer het juiste schema voor het type gegevens. Experience Platform Data Mirror wordt vooral gebruikt voor tijdreeksgegevens (bijvoorbeeld gebeurtenisgegevens), maar kan ook worden gebruikt voor op records gebaseerde gegevens (opzoeken en profiel).
@@ -44,7 +44,7 @@ U moet a [ relationeel schema ](https://experienceleague.adobe.com/en/docs/exper
 ## Gegevensset
 
 U kunt opstelling vooraf een dataset voor uw schema, of een dataset tot stand brengen wanneer u opstelling uw bronschakelaar.
-Wanneer u een dataset vooraf creeert of een dataset selecteert, verzeker u het gegevensgebruik een relationeel [ schema ](#schema) u vroeger creeerde.
+Wanneer u een dataset vooraf creeert of een dataset selecteert, verzeker u het gegevensgebruik een relationeel [&#x200B; schema &#x200B;](#schema) u vroeger creeerde.
 
 
 ## Source-connector
@@ -55,9 +55,9 @@ Aan opstelling gebruikt de bronschakelaar aan de gesteunde inheemse oplossingen 
 
 Voor authentificatie tegen de gesteunde gegevens pakhuis inheemse oplossing, zie de relevante documentatie van Experience Platform:
 
-* [ Azure Databricks ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)
-* [ Google BigQuery ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/bigquery)
-* [ Snowflake ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)
+* [&#x200B; Azure Databricks &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/databricks)
+* [&#x200B; Google BigQuery &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/bigquery)
+* [&#x200B; Snowflake &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)
 
 
 ### Gegevens selecteren
@@ -92,6 +92,6 @@ Zodra u de opstelling van de bronschakelaar beëindigde, wordt een dataflow gecr
 
 >[!MORELIKETHIS]
 >
->[ Data Mirror snelle startgids: Spiegel en gebruik relationele gegevens ](relational.md)
->[Data Mirror (de documentatie van Experience Platform) ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
->[Relationele schema&#39;s (documentatie van Experience Platform) ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
+>[&#x200B; Data Mirror snelle startgids: Spiegel en gebruik relationele gegevens &#x200B;](relational.md)
+>[Data Mirror (de documentatie van Experience Platform) &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-mirror/overview)
+>[Relationele schema&#39;s (documentatie van Experience Platform) &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
