@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 902e5890-f970-4f1a-b091-9c3e51a987db
-source-git-commit: 33e962bc3834d6b7d0a49bea9aa06c67547351c1
+source-git-commit: 3dc53d6955eab3048ebf8a7c9d232b4b5739c6bd
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 0%
@@ -21,18 +21,10 @@ ht-degree: 0%
 >title="Het gewenste aangepaste schema maken in Adobe Experience Platform"
 >abstract="Gebruik de gebruikersinterface van Adobe Experience Platform om een schema te maken zodat Adobe de juiste indeling voor het opslaan van uw gegevens kent.<br><br> deze stap impliceert de daadwerkelijke verwezenlijking van het schema dat door uw organisatie wordt overeengekomen. De geschatte tijd om uw schema in de interface van Adobe Experience Platform tot stand te brengen is ongeveer één week, afhankelijk van het aantal dimensies en metriek die moeten worden gecreeerd."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-create-default-aa"
 >title="Een schema maken met de Adobe Analytics ExperienceEvent-veldgroep"
 >abstract="Met de veldgroep &#39;Adobe Analytics ExperienceEvent&#39; kunt u in Adobe Experience Platform een schema maken dat alle velden bevat die door Adobe Analytics worden gebruikt.<br><br> Creërend een schema dat op de het gebiedsgroep wordt gebaseerd van de ExperienceEvent van Adobe Analytics is eenvoudig, die slechts een paar minuten neemt om te voltooien."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="cja-upgrade-schema-profile"
@@ -45,7 +37,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Voordat u begint met het maken van uw aangepaste schema, werkt u samen met uw gegevensteam en andere belanghebbenden in uw hele organisatie om het ideale schemaontwerp van uw organisatie voor Customer Journey Analytics en de andere Adobe Experience Platform-toepassingen die u gebruikt, te identificeren. Voor meer informatie, zie [&#x200B; architect uw schema voor gebruik met Customer Journey Analytics &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md).
+>Voordat u begint met het maken van uw aangepaste schema, werkt u samen met uw gegevensteam en andere belanghebbenden in uw hele organisatie om het ideale schemaontwerp van uw organisatie voor Customer Journey Analytics en de andere Adobe Experience Platform-toepassingen die u gebruikt, te identificeren. Voor meer informatie, zie [ architect uw schema voor gebruik met Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-architect.md).
 
 In de volgende secties wordt beschreven hoe u een schema kunt maken dat u met Customer Journey Analytics kunt gebruiken. De volgende schema-opties zijn beschikbaar:
 
@@ -53,7 +45,7 @@ In de volgende secties wordt beschreven hoe u een schema kunt maken dat u met Cu
 
 * **het schema van Adobe Analytics dat de het gebiedsgroep van de ErvaringEvent van Adobe Analytics gebruikt:** vereist de toevoeging van duizenden onnodige gebieden. Eventuele toekomstige wijzigingen zijn moeilijker.
 
-Voor meer informatie over deze schemaopties, zie [&#x200B; uw schema voor Customer Journey Analytics &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md) kiezen.
+Voor meer informatie over deze schemaopties, zie [ uw schema voor Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md) kiezen.
 
 ## Het schema maken
 
@@ -65,44 +57,44 @@ Een aangepast schema maken:
 
 1. In Adobe Experience Platform selecteert u in de linkertrack **[!UICONTROL Schemas]** within [!UICONTROL DATA MANAGEMENT] .
 
-1. Selecteer **[!UICONTROL Create schema]** .
+1. Selecteer **[!UICONTROL Create schema]**.
 
 1. In de stap **[!UICONTROL Select a class]** van de wizard Schema maken:
 
-   1. Selecteer **[!UICONTROL Experience Event]** .
+   1. Selecteer **[!UICONTROL Experience Event]**.
 
-      ![&#x200B; creeer een schema dat de Gebeurtenis van de Ervaring benadrukt &#x200B;](assets/create-ee-schema-wizard-step-1.png)
+      ![ creeer een schema dat de Gebeurtenis van de Ervaring benadrukt ](assets/create-ee-schema-wizard-step-1.png)
 
       >[!INFO]
       >
       >    Een schema van de Gebeurtenis van de Ervaring wordt gebruikt om het _gedrag_ van een profiel (als scènenaam, drukknop te modelleren om aan wagentje toe te voegen). Een individueel schema van het Profiel wordt gebruikt om de profiel _attributen_ (zoals naam, e-mail, geslacht) te modelleren.
 
-   1. Selecteer **[!UICONTROL Next]** .
+   1. Selecteer **[!UICONTROL Next]**.
 
 
 1. In het gedeelte [!UICONTROL Name and review step] van de wizard [!UICONTROL Create schema] :
 
    1. Voer een **[!UICONTROL Schema display name]** in voor uw schema en (optioneel) een **[!UICONTROL Description]** .
 
-      ![&#x200B; creeer schemavenster dat de Naam toont uw schemagebieden &#x200B;](assets/create-ee-schema-wizard-step-2.png)
+      ![ creeer schemavenster dat de Naam toont uw schemagebieden ](assets/create-ee-schema-wizard-step-2.png)
 
-   1. Selecteer **[!UICONTROL Finish]** .
+   1. Selecteer **[!UICONTROL Finish]**.
 
 1. Voeg alle veldgroepen toe die velden bevatten die u in uw schema wilt opnemen.
 
    Veldgroepen zijn herbruikbare verzamelingen van objecten en kenmerken waarmee u het schema eenvoudig kunt uitbreiden.
 
-   1. Selecteer **[!UICONTROL + Add]** in de sectie **[!UICONTROL Field groups]** .
+   1. Selecteer **[!UICONTROL Field groups]** in de sectie **[!UICONTROL + Add]** .
 
-      ![&#x200B; voeg gebiedsgroep &#x200B;](assets/add-field-group-button.png) toe
+      ![ voeg gebiedsgroep ](assets/add-field-group-button.png) toe
 
    1. Selecteer in het dialoogvenster [!UICONTROL Add fields groups] de veldgroep **[!UICONTROL AEP Web SDK ExperienceEvent]** in de lijst.
 
-      ![&#x200B; AEP Web SDK ExperienceEvent veldgroup &#x200B;](assets/select-aepwebsdk-experienceevent.png)
+      ![ AEP Web SDK ExperienceEvent gebiedsgroup ](assets/select-aepwebsdk-experienceevent.png)
 
       U kunt de voorvertoningsknop selecteren om een voorvertoning weer te geven van de velden die deel uitmaken van deze veldgroep, bijvoorbeeld `web > webPageDetails > name` .
 
-      ![&#x200B; AEP Web SDK ExperienceEvent gebiedsgroepvoorproef &#x200B;](assets/aepwebsdk-experiencevent-preview.png)
+      ![ AEP Web SDK ExperienceEvent gebiedsgroepvoorproef ](assets/aepwebsdk-experiencevent-preview.png)
 
       Selecteer **[!UICONTROL Back]** om de voorvertoning te sluiten.
 
@@ -110,31 +102,31 @@ Een aangepast schema maken:
 
       Als u het standaard Adobe Analytics-schema wilt gebruiken in plaats van een aangepast XDM-schema te maken, kunt u nu de Adobe Analytics ExperienceEvent-veldgroep toevoegen. Adobe raadt echter aan een aangepast XDM-schema te maken in plaats van deze veldgroep toe te voegen.
 
-      Voor meer informatie over deze schemaopties, zie [&#x200B; uw schema voor Customer Journey Analytics &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md) kiezen.
+      Voor meer informatie over deze schemaopties, zie [ uw schema voor Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md) kiezen.
 
-   1. Selecteer **[!UICONTROL Add field groups]** .
+   1. Selecteer **[!UICONTROL Add field groups]**.
 
 1. (Optioneel) Als u aangepaste velden hebt die u in het schema wilt opnemen, maakt u een aangepaste veldgroep en voegt u de aangepaste velden toe aan de veldgroep.
 
-   1. Selecteer **[!UICONTROL + Add]** in de sectie **[!UICONTROL Field groups]** .
+   1. Selecteer **[!UICONTROL Field groups]** in de sectie **[!UICONTROL + Add]** .
 
-      ![&#x200B; voeg gebiedsgroep &#x200B;](assets/add-field-group-button.png) toe
+      ![ voeg gebiedsgroep ](assets/add-field-group-button.png) toe
 
-   1. Selecteer **[!UICONTROL Create new field group]** in het dialoogvenster [!UICONTROL Add fields groups] .
+   1. Selecteer [!UICONTROL Add fields groups] in het dialoogvenster **[!UICONTROL Create new field group]** .
 
    1. Geef een weergavenaam en optionele beschrijving op en selecteer vervolgens **[!UICONTROL Add field groups]** .
 
 1. Selecteer **[!UICONTROL +]** naast de naam van het schema in het deelvenster [!UICONTROL Structure] .
 
-   ![&#x200B; het Schema van het Voorbeeld voegt de knoop van het Gebied toe &#x200B;](assets/example-schema-plus.png)
+   ![ het Schema van het Voorbeeld voegt de knoop van het Gebied toe ](assets/example-schema-plus.png)
 
 1. Typ in het deelvenster [!UICONTROL Field Properties] `Identification` als de naam, **[!UICONTROL Identification]** als de [!UICONTROL Display name] , selecteer **[!UICONTROL Object]** als de [!UICONTROL Type] en selecteer **[!UICONTROL ExperienceEvent Core v2.1]** als de [!UICONTROL Field Group] .
 
    >[!NOTE]
    >
-   >Als die veldgroep niet beschikbaar is, zoekt u naar een andere veldgroep met identiteitsvelden. Of [&#x200B; creeer een nieuwe gebiedsgroep &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html?lang=nl-NL) en [&#x200B; voeg nieuwe identiteitsgebieden &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html?lang=nl-NL#define-a-identity-field) (als `ecid`, `crmId`, en anderen toe u) aan de gebiedsgroep nodig hebt en selecteer die nieuwe gebiedsgroep.
+   >Als die veldgroep niet beschikbaar is, zoekt u naar een andere veldgroep met identiteitsvelden. Of [ creeer een nieuwe gebiedsgroep ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/field-groups.html) en [ voeg nieuwe identiteitsgebieden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/identity.html#define-a-identity-field) (als `ecid`, `crmId`, en anderen toe u) aan de gebiedsgroep nodig hebt en selecteer die nieuwe gebiedsgroep.
 
-   ![&#x200B; Voorwerp van de Identificatie &#x200B;](assets/identification-field.png)
+   ![ Voorwerp van de Identificatie ](assets/identification-field.png)
 
    Het identificatieobject voegt id-mogelijkheden toe aan uw schema. In uw geval wilt u profielen identificeren die uw site bezoeken met de Experience Cloud-id en het e-mailadres. Er zijn vele andere eigenschappen beschikbaar om de identificatie van uw persoon te volgen (bijvoorbeeld klant identiteitskaart, loyalty identiteitskaart).
 
@@ -142,7 +134,7 @@ Een aangepast schema maken:
 
 1. Selecteer het veld **[!UICONTROL ecid]** in het identificatieobject dat u net hebt toegevoegd en selecteer **[!UICONTROL Identity]** en **[!UICONTROL Primary Identity]** en **[!UICONTROL ECID]** in de lijst [!UICONTROL Identity namespace] in het rechterdeelvenster.
 
-   ![&#x200B; specificeer ECID als identiteit &#x200B;](./assets/specify-identity.png)
+   ![ specificeer ECID als identiteit ](./assets/specify-identity.png)
 
    U geeft de Experience Cloud Identity op als de primaire identiteit die de Adobe Experience Platform Identity-service kan gebruiken om het gedrag van profielen met dezelfde ECID te combineren (aansluiten).
 
@@ -150,25 +142,25 @@ Een aangepast schema maken:
 
 1. Selecteer het veld **[!UICONTROL email]** in het identificatieobject dat u net hebt toegevoegd en selecteer **[!UICONTROL Identity]** en **[!UICONTROL Email]** in de lijst [!UICONTROL Identity namespace] in het deelvenster [!UICONTROL Field Properties] .
 
-   ![&#x200B; specificeer e-mail als identiteit &#x200B;](./assets/specify-email-identity.png)
+   ![ specificeer e-mail als identiteit ](./assets/specify-email-identity.png)
 
    U geeft het e-mailadres op als een andere identiteit die de Adobe Experience Platform Identity-service kan gebruiken om het gedrag van profielen te combineren (naaien).
 
    Selecteer **[!UICONTROL Apply]** . U ziet dat er een vingerafdrukpictogram wordt weergegeven in het e-mailkenmerk.
 
-   Selecteer **[!UICONTROL Save]** .
+   Selecteer **[!UICONTROL Save]**.
 
 1. (Optioneel) Als u Customer Journey Analytics wilt integreren met RTCDP, selecteert u het basiselement van uw schema met de naam van het schema en selecteert u vervolgens de **[!UICONTROL Profile]** -switch.
 
    U wordt gevraagd het schema in te schakelen voor het profiel. Zodra toegelaten, wanneer het gegeven in datasets wordt opgenomen die op dit schema worden gebaseerd, worden die gegevens samengevoegd in het Real-Time Profiel van de Klant.
 
-   Zie [&#x200B; het schema voor gebruik in het Profiel van de Klant in real time &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL#profile) voor meer informatie toelaten.
+   Zie [ het schema voor gebruik in het Profiel van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#profile) voor meer informatie toelaten.
 
    >[!IMPORTANT]
    >
    >Nadat u een schema voor profiel hebt ingeschakeld, kan het niet voor profiel worden uitgeschakeld.
 
-   ![&#x200B; laat schema voor profiel &#x200B;](./assets/enable-for-profile.png) toe
+   ![ laat schema voor profiel ](./assets/enable-for-profile.png) toe
 
 1. Selecteer **[!UICONTROL Save]** om het schema op te slaan.
 
@@ -188,6 +180,6 @@ Een aangepast schema maken:
 
    * Het schema inschakelen voor profiel
 
-   Zie [&#x200B; schema&#39;s in UI &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=nl-NL) voor meer informatie creëren en uitgeven bij het toevoegen van en het verwijderen van gebiedsgroepen en individuele gebieden aan een schema.
+   Zie [ schema&#39;s in UI ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html) voor meer informatie creëren en uitgeven bij het toevoegen van en het verwijderen van gebiedsgroepen en individuele gebieden aan een schema.
 
 {{upgrade-final-step}}

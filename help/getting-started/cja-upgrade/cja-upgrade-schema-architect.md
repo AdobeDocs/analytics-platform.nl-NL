@@ -1,13 +1,13 @@
 ---
 title: Uw schema archiveren voor gebruik met Customer Journey Analytics
-description: Meer informatie over het aanbevolen pad wanneer u een upgrade uitvoert van Adobe Analytics naar Customer Journey Analytics
+description: Leer hoe u een XDM-schema ontwerpt dat de flexibiliteit van Customer Journey Analytics ontgrendelt en tegelijkertijd een praktisch migratiepad vanuit Adobe Analytics ondersteunt.
 role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: f932110a-ca9d-40d1-9459-064ef9cd23da
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 3dc53d6955eab3048ebf8a7c9d232b4b5739c6bd
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -25,35 +25,112 @@ ht-degree: 0%
 
 {{upgrade-note-step}}
 
-Adobe raadt u aan een XDM-schema (Custom Experience Data Model) te maken dat u kunt gebruiken met de Web SDK wanneer u een upgrade uitvoert van Adobe Analytics naar Customer Journey Analytics. U kunt ook het standaard Adobe Analytics-schema gebruiken, dat gebruikmaakt van de Adobe Analytics ExperienceEvent-veldgroep.
+Adobe adviseert het creëren van een model van de Gegevens van de douaneervaring [ (XDM) schema voor Customer Journey Analytics wanneer het uitvoeren van ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) de Inzameling van Gegevens van Adobe Experience Platform [. ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) Dit schema maken wordt doorgaans uitgevoerd voordat implementatiewijzigingen of code worden gewijzigd. Met een aangepast schema kunt u een beknopt, organisatiespecifiek gegevenscontract ontwerpen zonder beperkingen van Adobe Analytics over te nemen of duizenden ongebruikte velden te beheren. Zie [ uw schema voor Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md) kiezen om meer over de types van schema&#39;s te leren beschikbaar aan uw organisatie.
 
-Een aangepast XDM-schema maakt een gestroomlijnd schema mogelijk dat is afgestemd op de behoeften van uw organisatie en de specifieke platformtoepassingen die u gebruikt. In tegenstelling tot het standaard Adobe Analytics-schema dat gebruikmaakt van de Adobe Analytics ExperienceEvent-veldgroep, hoeft u, wanneer wijzigingen in een aangepast XDM-schema vereist zijn, niet door duizenden ongebruikte velden te bladeren om het veld te zoeken dat moet worden bijgewerkt.
+Schema&#39;s zijn bedoeld als gepolijste versies van hoe u wilt dat uw gegevens op lange termijn gestructureerd zijn. Wijzigingen in schema&#39;s zijn duur omdat ze van invloed zijn op gegevensverzameling, validatie en downstreamservices. U kunt aan schema&#39;s in tijd toevoegen aangezien de bedrijfsvereisten toestaan; nochtans, kunnen de schemagebieden niet worden verwijderd zodra het gegeven in hen begint te stromen.
 
-Voor meer informatie over deze schemaopties, zie [&#x200B; uw schema voor Customer Journey Analytics &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md) kiezen.
+## Schema&#39;s vergelijken met gegevensweergaven
 
-Bekijk de volgende secties terwijl u uw XDM-schema gaat ontwerpen.
+De datapijplijn voor Customer Journey Analytics bevat verschillende gebieden voor gegevensverzameling en gegevensinterpretatie. Wanneer u een upgrade uitvoert vanuit Adobe Analytics, wordt vaak geprobeerd om props en eVars met hun gedrag opnieuw te maken in XDM. In plaats daarvan, gebruik SDK van het Web om de gegevens te verzamelen en [ meningen van Gegevens ](/help/data-views/data-views.md) te gebruiken om te bepalen hoe dat gegeven in rapporten wordt geïnterpreteerd.
 
-## Vermijd Adobe Analytics-beperkingen in uw XDM-schema
+| Laag | Primair doel | Wat hoort | Wat niet hoort |
+|---|---|---|---|
+| **XDM schema** | De duurzame structuur en betekenis van verzamelde gegevens definiëren | Vorm van gebeurtenis en entiteit, veldbetekenis, relaties, toegestane waarden, hergebruik via kanalen | Genummerde &quot;slots&quot; (eVar1/prop1), attributie-/persistentielogica, rapporteringsspecifieke tijdelijke oplossingen |
+| **de meningen van Gegevens** | Bepaal hoe de verzamelde gegevens zich in analyse gedragen | Componentinstellingen, kenmerk en persistentiegedrag, afgeleide velden, gefilterde meetwaarden, berekende meetwaarden | Fundamentele betekenis van velden; deze betekenis moet stabiel zijn in het schema |
 
-De onderliggende architectuur van Customer Journey Analytics biedt veel meer flexibiliteit dan Adobe Analytics. Het maken van een nieuw XDM-schema is een belangrijke manier om die flexibiliteit te ontgrendelen. Wanneer u een upgrade uitvoert naar Customer Journey Analytics, moet u voorkomen dat u overbodige Adobe Analytics-beperkingen in uw schema doorvoert.
+## Vergelijk schema&#39;s met de gegevensinzameling van Adobe Analytics
 
->[!NOTE]
+Het Experience Data Model dat Customer Journey Analytics gebruikt, biedt aanzienlijk meer flexibiliteit dan de meeste andere Analytics-oplossingen (inclusief Adobe Analytics). Het vestigen van een stevig schema is de kans van uw organisatie om het dragen van voorwaartse beperkingen te vermijden die in andere producten van Analytics bestaan.
+
+| Algemene gewoonte van Adobe Analytics | Betere benadering in XDM + CJA |
+|---|---|
+| Het ontwerpen rond genummerde groeven (`eVar1` - `eVar250`, `prop1` - `prop75`) | Maak velden met een stabiele betekenis (bijvoorbeeld `search.term` , `content.category` , `user.membershipTier` ) en gebruik deze op consistente wijze |
+| Coderingspersistentie/toewijzing/vervaldatum in het gegevensmodel | Leg duurzame feiten vast in het schema; pas attributie- en persistentiegedrag toe op het niveau van de gegevensweergave |
+| Dezelfde waarde in meerdere variabelen dupliceren om rapportgedrag te bereiken | Sla de waarde eenmaal op en maak er meerdere componenten (afmetingen/metriek) van in gegevensweergaven |
+| Het creëren van een uniek &quot;metrisch gebied&quot;voor elke telling die u zou kunnen willen | Leg de juiste feiten één keer vast (vaak als opsommingen/laarzen/tekenreeksen) en definieer metriek vervolgens als gefilterde tellingen in gegevensweergaven |
+| Variabelen ontwerpen voor rapportage vooraf oplossen | Ontwerp uw schema om feiten betrouwbaar te vangen en gegevensmeningen te gebruiken om rapporteringssemantiek op te lossen |
+
+## Een schema maken met behulp van algemene kenmerken
+
+Een verenigd schema over kanalen wordt mogelijk wanneer u een reeks herbruikbare attributen normaliseert die over vele gebeurtenissen verschijnen. Voorbeelden zijn:
+
+* **de context van de Ervaring:** plaats/app naam, milieu, scène, kanaal, merk
+* **context van de Reis:** campagne herkenningstekens, verwijzend context, experimenteerherkenningstekens
+* **de staat van de Gebruiker:** het programma geopende status, lidmaatschapsrij, accounttype
+* **de details van de Interactie:** interactienaam/type, gebied UI, elementetiket, foutencategorie
+
+De sleutel is om te standaardiseren wat het gebied ongeacht kanaal vertegenwoordigt. Vermijd het anders modelleren van het zelfde concept over kanalen tenzij zij werkelijk verschillende concepten vertegenwoordigen. Het is bijvoorbeeld verstandig om geen aparte schemavelden te hebben voor campagne-id&#39;s voor het web en voor mobiele campagne-id&#39;s. Afzonderlijke schemagebieden maken het moeilijker om kanaalterugkeer op te richten en gegevens uit te geven. Als bij het rapporteren een onderscheid wordt vereist, kunt u per kanaal segmenteren of meerdere velden aaneenschakelen om dat onderscheid te maken. U kunt hetzelfde schemaveld gebruiken in een willekeurig aantal dimensies of metriek.
+
+Een praktische manier om veelvoudige kanalen te steunen terwijl het houden van één enkele schemastrategie is a **kern + uitbreidingen** patroon te gebruiken:
+
+* **Kern:** gebieden die globaal over kanalen en teams van toepassing zijn
+* **Uitbreidingen:** kanaal- of domein-specifieke gebiedsgroepen die slechts waar nodig van toepassing zijn (Webinteractie, handel, mobiele levenscyclus, server-zijspecificaties)
+
+Dit patroon steunt één enkele organisatorische schemastrategie zonder elk team te dwingen om gebieden te bevolken die niet op hun kanaal van toepassing zijn.
+
+## Voorkeur voor standaardveldgroepen waar deze passen
+
+Adobe raadt aan gestandaardiseerde veldgroepen te gebruiken waar deze aan uw behoeften voldoen en deze uit te breiden met aangepaste velden voor organisatiespecifieke concepten.
+
+Standaard veldgroepen helpen u doorgaans:
+
+* Verminder dubbelzinnigheid door bekende veldsemantiek te gebruiken
+* Eenvoudiger uitlijnen tussen teams
+* Interoperabiliteit in Adobe Experience Platform-toepassingen ondersteunen
+
+Aangepaste velden zijn geschikt wanneer:
+
+* Uw organisatie heeft concepten die niet schitterend aan standaardgebieden
+* U hebt aanvullende kenmerken nodig om te voldoen aan de vereisten voor rapportage, governance of activering
+* U wilt een business-specific taxonomie (bijvoorbeeld, interne inhoudscategorieën) vertegenwoordigen
+
+## Bepalen waar &quot;metrische betekenis&quot; leeft
+
+In Adobe Analytics behandelen veel teams de variabele `events` als waar de metriek naartoe gaat. In Customer Journey Analytics kunt u metriek op meerdere manieren modelleren afhankelijk van wat u moet tellen en hoe u het wilt interpreteren.
+
+Wanneer het ontwerpen van een schema, houd aan feiten. Bijvoorbeeld `error.type = "validation"` , `user.isLoggedIn = true` , `checkout.step = "shipping"` . Bepaal metriek in de gegevensmening als tellingen en gefilterde tellingen over die feiten. Bijvoorbeeld:
+
+* `checkout.step` (enum/string) kan macht hebben:
+   * Afhandeling: stap voor verzending bereikt (tel waar `checkout.step == "shipping"` )
+   * &quot;Afhandeling: betalingsstap bereikt&quot;
+* `error.type` (enum/string) kan macht hebben:
+   * Validatiefouten
+   * &quot;Autorisatiefouten&quot;
+* `user.isLoggedIn` (Boolean) kan de volgende mogelijkheden inschakelen:
+   * &quot;Voor authentiek verklaarde zittingen&quot;
+   * &quot;Authenticated conversions&quot;
+
+>[!TIP]
 >
->De volgende informatie is nog niet volledig. Het zal in de nabije toekomst volledig zijn.
+>Wanneer u besluit of iets een speciaal veld of een afgeleid veld moet zijn, geeft u de voorkeur aan het vastleggen van het duurzame feit in het schema als het over het algemeen nuttig en stabiel is. U kunt afgeleide velden gebruiken om gegevens na de verzameling te corrigeren of om te vormen.
 
-| Adobe Analytics-gegevensarchitectuur | XDM-schemaarchitectuur |
-|---------|----------|
-| De individuele metriek worden toegevoegd aan de de gegevensarchitectuur van Analytics.<br/> Bijvoorbeeld, in Adobe Analytics, hebt u verschillende eVar voor elke gebeurtenis. | Maak afzonderlijke metriek in de gegevensweergave in plaats van in het XDM-schema. Dit biedt meer flexibiliteit als u later wijzigingen wilt aanbrengen.<br/> Bijvoorbeeld, in Customer Journey Analytics, hebt u één enkele gebeurtenis in het schema, en het gebruik creeert gebeurtenissen in de gegevensmening. |
-| Props en eVars zijn vereist om aangepaste variabelen te maken. |  |
+## Pariteit met Adobe Analytics behouden tijdens de overgang zonder schemabagage
 
-## Identificeer uw gegevensteam en andere belanghebbenden door uw organisatie
+Sommige organisaties moeten de rapportage van Adobe Analytics voortzetten terwijl ze een upgrade naar Customer Journey Analytics uitvoeren. U kunt pariteit handhaven zonder analytische-specifieke artefacten in uw schemaontwerp op lange termijn te introduceren gebruikend de volgende benadering:
 
->[!NOTE]
->
->Deze informatie is nog niet beschikbaar. Het zal in de nabije toekomst beschikbaar zijn.
+1. **het gebiedspaden van XDM van het Gebruik die Adobe Analytics erkent en automatisch in kaart brengt:** wanneer u erkende gebieden XDM door Edge Network naar Adobe Analytics verzendt, worden zij [ automatisch in kaart gebracht ](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping) zonder extra configuratie.
+1. **de gebieden van douane XDM van het Gebruik voor organisatie-specifieke concepten:** Om het even welke gebieden XDM die niet automatisch in kaart worden gebracht aan een variabele van de Analyse door:sturen als [ variabelen van de Contextgegevens ](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/contextdata) in Adobe Analytics.
+1. **de verwerkingsregels van Adobe Analytics van het Gebruik om die variabelen van contextgegevens aan props/eVars in kaart te brengen:** [ de regels van de Verwerking ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/processing-rules/pr-overview) laat uiteindelijk u toe om het even welk gebied van douane XDM in om het even welke eVar of steun in kaart te brengen. Dit concept ondersteunt pariteitsrapportage in Adobe Analytics terwijl uw schema schoon en gecentreerd op Customer Journey Analytics blijft.
 
-## Overweeg andere Adobe Experience Platform-toepassingen die in uw organisatie worden gebruikt
+## Belanghebbenden identificeren en eigendomsstructuur definiëren
 
->[!NOTE]
->
->Deze informatie is nog niet beschikbaar. Het zal in de nabije toekomst beschikbaar zijn.
+Het schemaontwerp slaagt wanneer de gebiedsbetekenis wordt overeengekomen en gehandhaafd. Terwijl de organisatiestructuren variëren, nemen de volgende rollen algemeen deel:
+
+* **Admin/analist van de Analyse**: bepaalt het melden van vragen, bevestigt dat de gebieden betekenisvolle concepten vertegenwoordigen, en de puntteksten van de overzichtsanalyse in gegevensmeningen.
+* **ontwikkelaar/implementatieeigenaar**: Zorgt ervoor dat de gebieden betrouwbaar kunnen worden verzameld gebruikend het Web SDK en richt zich op de gegevenslaag/app instrumentatie.
+* **architect/ingenieur van Gegevens**: verzekert schemaconconsistentie, hergebruik over domeinen, en verenigbaarheid met de stroomafwaartse diensten.
+* **Privacy/beheer belanghebbende**: De gegevensminimalisering van recensies, toestemmingsverwachtingen, en beperkingen van het gegevensgebruik.
+
+Definieer een duidelijke eigenaar voor schemawijzigingen. Een stabiel schema met gedisciplineerde veranderingscontrole verhindert stroomafwaartse breuk en vermindert rework. Overweeg een workflow of gereedschap voor het bijhouden van wijzigingen te gebruiken om verzoeken te democratiseren en wijzigingsbeheer in de loop der tijd te beheren.
+
+## Overwegingen met betrekking tot privacy en bestuur
+
+Het ontwerp van een schema moet de verwachtingen ten aanzien van privacy en governance weerspiegelen, in overeenstemming met het privacybeleid van uw organisatie. Houd rekening met de volgende punten wanneer u het schema ontwikkelt:
+
+* Verzamel alleen wat u nodig hebt om gedefinieerde gebruiksgevallen te ondersteunen.
+* Zorg ervoor dat de vereisten voor toestemming en gegevensgebruik worden weerspiegeld in uw verzamelingsstrategie. Zie [ SDK van het Web gebruiken om gegevens van de klantentoestemming ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/sdk) voor meer informatie te verwerken.
+* Bedenk hoe gevoelige gebieden worden geëtiketteerd en gecontroleerd binnen de beheersinstrumenten van Adobe Experience Platform. Zie [ Adobe Customer Journey Analytics en de Governance van Gegevens ](/help/privacy/privacy-overview.md) voor meer informatie.
+
+## Volgende stappen
+
+Zodra u een schemaarchitectuur hebt gevestigd en overeengekomen, kunt u beginnen creërend het in Adobe Experience Platform. Zie [ een douaneschema tot stand brengen om met Customer Journey Analytics ](cja-upgrade-schema-create.md) voor meer informatie te gebruiken.
