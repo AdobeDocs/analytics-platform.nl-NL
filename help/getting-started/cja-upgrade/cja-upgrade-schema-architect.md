@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: f932110a-ca9d-40d1-9459-064ef9cd23da
-source-git-commit: b94c60c9832bc699212dda97ad634e8d3260c45c
+source-git-commit: 5808de9b39d3c8fa5632755958ddb887c081b203
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 0%
@@ -25,16 +25,16 @@ ht-degree: 0%
 
 {{upgrade-note-step}}
 
-Adobe adviseert het creëren van een model van de Gegevens van de douaneervaring [&#x200B; (XDM) schema voor Customer Journey Analytics wanneer het uitvoeren van &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home) de Inzameling van Gegevens van Adobe Experience Platform [. &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/collection/home) Dit schema maken wordt doorgaans uitgevoerd voordat implementatiewijzigingen of code worden gewijzigd. Met een aangepast schema kunt u een beknopt, organisatie-specifiek gegevenscontract ontwerpen zonder beperkingen van Adobe Analytics over te nemen. Zie [&#x200B; uw schema voor Customer Journey Analytics &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md) kiezen om meer over de types van schema&#39;s te leren beschikbaar aan uw organisatie.
+Adobe adviseert het creëren van een model van de Gegevens van de douaneervaring [ (XDM) schema voor Customer Journey Analytics wanneer het uitvoeren van ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) de Inzameling van Gegevens van Adobe Experience Platform [. ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) Dit schema maken wordt doorgaans uitgevoerd voordat implementatiewijzigingen of code worden gewijzigd. Met een aangepast schema kunt u een beknopt, organisatie-specifiek gegevenscontract ontwerpen zonder beperkingen van Adobe Analytics over te nemen. Zie [ uw schema voor Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-existing.md) kiezen om meer over de types van schema&#39;s te leren beschikbaar aan uw organisatie.
 
 Schema&#39;s zijn bedoeld als gepolijste versies van hoe u wilt dat uw gegevens op lange termijn gestructureerd zijn. Wijzigingen in schema&#39;s zijn duur omdat ze van invloed zijn op gegevensverzameling, validatie en downstreamservices. U kunt aan schema&#39;s in tijd toevoegen aangezien de bedrijfsvereisten toestaan; nochtans, kunnen de schemagebieden niet worden verwijderd zodra het gegeven in hen begint te stromen.
 
 ## Schema&#39;s vergelijken met gegevensweergaven
 
-De datapijplijn voor Customer Journey Analytics bevat verschillende gebieden voor gegevensverzameling en gegevensinterpretatie. Wanneer u een upgrade uitvoert vanuit Adobe Analytics, wordt vaak geprobeerd om props en eVars met hun gedrag opnieuw te maken in XDM. In plaats daarvan, gebruik SDK van het Web om de gegevens te verzamelen en [&#x200B; meningen van Gegevens &#x200B;](/help/data-views/data-views.md) te gebruiken om te bepalen hoe dat gegeven in rapporten wordt geïnterpreteerd.
+De datapijplijn voor Customer Journey Analytics bevat verschillende gebieden voor gegevensverzameling en gegevensinterpretatie. Wanneer u een upgrade uitvoert vanuit Adobe Analytics, wordt vaak geprobeerd om props en eVars met hun gedrag opnieuw te maken in XDM. In plaats daarvan, gebruik SDK van het Web om de gegevens te verzamelen en [ meningen van Gegevens ](/help/data-views/data-views.md) te gebruiken om te bepalen hoe dat gegeven in rapporten wordt geïnterpreteerd.
 
 | Laag | Primair doel | Flexibiliteit | Wat hoort | Wat niet hoort |
-|---|---|---|---|
+|---|---|---|---|---|
 | **XDM schema** | De duurzame structuur en betekenis van verzamelde gegevens definiëren | Onbuigzaam; beschouwd als onveranderlijke gegevenspunten | Vorm van gebeurtenis en entiteit, veldbetekenis, relaties, toegestane waarden, hergebruik via kanalen | Genummerde &quot;slots&quot; (eVar1/prop1), attributie-/persistentielogica, rapporteringsspecifieke tijdelijke oplossingen |
 | **de meningen van Gegevens** | Bepaal hoe de verzamelde gegevens zich in analyse gedragen | Flexibel; kan vrij worden gewijzigd en gegevens met terugwerkende kracht herinterpreteren | Componentinstellingen, kenmerk en persistentiegedrag, afgeleide velden, gefilterde meetwaarden, berekende meetwaarden | Fundamentele betekenis van velden; deze betekenis moet stabiel zijn in het schema |
 
@@ -108,9 +108,9 @@ Wanneer het ontwerpen van een schema, houd aan feiten. Bijvoorbeeld `error.type 
 
 Sommige organisaties moeten de rapportage van Adobe Analytics voortzetten terwijl ze een upgrade naar Customer Journey Analytics uitvoeren. U kunt pariteit handhaven zonder analytische-specifieke artefacten in uw schemaontwerp op lange termijn te introduceren gebruikend de volgende benadering:
 
-1. **het gebiedspaden van XDM van het Gebruik die Adobe Analytics erkent en automatisch in kaart brengt:** wanneer u erkende gebieden XDM door Edge Network naar Adobe Analytics verzendt, worden zij [&#x200B; automatisch in kaart gebracht &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/implementation/aep-edge/xdm-var-mapping) zonder extra configuratie.
-1. **de gebieden van douane XDM van het Gebruik voor organisatie-specifieke concepten:** Om het even welke gebieden XDM die niet automatisch in kaart worden gebracht aan een variabele van de Analyse door:sturen als [&#x200B; variabelen van de Contextgegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/implementation/vars/page-vars/contextdata) in Adobe Analytics.
-1. **de verwerkingsregels van Adobe Analytics van het Gebruik om die variabelen van contextgegevens aan props/eVars in kaart te brengen:** [&#x200B; de regels van de Verwerking &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/processing-rules/pr-overview) laat uiteindelijk u toe om het even welk gebied van douane XDM in om het even welke eVar of steun in kaart te brengen. Dit concept ondersteunt pariteitsrapportage in Adobe Analytics terwijl uw schema schoon en gecentreerd op Customer Journey Analytics blijft.
+1. **het gebiedspaden van XDM van het Gebruik die Adobe Analytics erkent en automatisch in kaart brengt:** wanneer u erkende gebieden XDM door Edge Network naar Adobe Analytics verzendt, worden zij [ automatisch in kaart gebracht ](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping) zonder extra configuratie.
+1. **de gebieden van douane XDM van het Gebruik voor organisatie-specifieke concepten:** Om het even welke gebieden XDM die niet automatisch in kaart worden gebracht aan een variabele van de Analyse door:sturen als [ variabelen van de Contextgegevens ](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/contextdata) in Adobe Analytics.
+1. **de verwerkingsregels van Adobe Analytics van het Gebruik om die variabelen van contextgegevens aan props/eVars in kaart te brengen:** [ de regels van de Verwerking ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/processing-rules/pr-overview) laat uiteindelijk u toe om het even welk gebied van douane XDM in om het even welke eVar of steun in kaart te brengen. Dit concept ondersteunt pariteitsrapportage in Adobe Analytics terwijl uw schema schoon en gecentreerd op Customer Journey Analytics blijft.
 
 ## Belanghebbenden identificeren en eigendomsstructuur definiëren
 
@@ -128,9 +128,9 @@ Definieer een duidelijke eigenaar voor schemawijzigingen. Een stabiel schema met
 Het ontwerp van een schema moet de verwachtingen ten aanzien van privacy en governance weerspiegelen, in overeenstemming met het privacybeleid van uw organisatie. Houd rekening met de volgende punten wanneer u het schema ontwikkelt:
 
 * Verzamel alleen wat u nodig hebt om gedefinieerde gebruiksgevallen te ondersteunen.
-* Zorg ervoor dat de vereisten voor toestemming en gegevensgebruik worden weerspiegeld in uw verzamelingsstrategie. Zie [&#x200B; SDK van het Web gebruiken om gegevens van de klantentoestemming &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/governance-privacy-security/consent/sdk) voor meer informatie te verwerken.
-* Bedenk hoe gevoelige gebieden worden geëtiketteerd en gecontroleerd binnen de beheersinstrumenten van Adobe Experience Platform. Zie [&#x200B; Adobe Customer Journey Analytics en de Governance van Gegevens &#x200B;](/help/privacy/privacy-overview.md) voor meer informatie.
+* Zorg ervoor dat de vereisten voor toestemming en gegevensgebruik worden weerspiegeld in uw verzamelingsstrategie. Zie [ SDK van het Web gebruiken om gegevens van de klantentoestemming ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/sdk) voor meer informatie te verwerken.
+* Bedenk hoe gevoelige gebieden worden geëtiketteerd en gecontroleerd binnen de beheersinstrumenten van Adobe Experience Platform. Zie [ Adobe Customer Journey Analytics en de Governance van Gegevens ](/help/privacy/privacy-overview.md) voor meer informatie.
 
 ## Volgende stappen
 
-Zodra u een schemaarchitectuur hebt gevestigd en overeengekomen, kunt u beginnen creërend het in Adobe Experience Platform. Zie [&#x200B; een douaneschema tot stand brengen om met Customer Journey Analytics &#x200B;](cja-upgrade-schema-create.md) voor meer informatie te gebruiken.
+Zodra u een schemaarchitectuur hebt gevestigd en overeengekomen, kunt u beginnen creërend het in Adobe Experience Platform. Zie [ een douaneschema tot stand brengen om met Customer Journey Analytics ](cja-upgrade-schema-create.md) voor meer informatie te gebruiken.
