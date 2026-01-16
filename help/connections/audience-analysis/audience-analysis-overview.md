@@ -6,7 +6,7 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: ca2adce7be8a28fa72323915473a8c2283741889
+source-git-commit: 0719a981cd9d2e1480f744494c9a68fdd66c1beb
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 1%
@@ -22,13 +22,13 @@ ht-degree: 1%
 >Begrijp het verschil tussen publieksanalyse en publiek het publiceren:
 >
 >* **analyse van het publiek**: Staat u toe om de gegevens van het publiekslidmaatschap van de datasets van het Profiel van Experience Platform in een verbinding van Customer Journey Analytics in te voeren.
->* **het Publiceren van het publiek**: Staat u toe om publiek tot stand te brengen en te publiceren dat in Customer Journey Analytics aan Adobe Experience Platform voor klant het richten en verpersoonlijken wordt ontdekt. Voor informatie over publiek het publiceren, zie [&#x200B; publiek het publiceren overzicht &#x200B;](/help/components/audiences/audiences-overview.md).
+>* **het Publiceren van het publiek**: Staat u toe om publiek tot stand te brengen en te publiceren dat in Customer Journey Analytics aan Adobe Experience Platform voor klant het richten en verpersoonlijken wordt ontdekt. Voor informatie over publiek het publiceren, zie [ publiek het publiceren overzicht ](/help/components/audiences/audiences-overview.md).
 
 De analyse van het publiek staat u toe om de gegevens van het publiekslidmaatschap van de Gegevensreeksen van het Profiel van Experience Platform in een verbinding van Customer Journey Analytics in te voeren. Soorten publiek wordt beschikbaar als nieuwe afmetingen voor gebruik in Analysis Workspace.
 
 In het volgende diagram en de bijbehorende tabel ziet u een voorstelling op hoog niveau van de manier waarop een configuratie voor publieksanalyse in Customer Journey Analytics Experience Platform-publieksgegevens beschikbaar maakt in Analysis Workspace:
 
-![&#x200B; overzicht van de de analyseanalyse van het publiek &#x200B;](assets/audience-analysis-overview.png)
+![ overzicht van de de analyseanalyse van het publiek ](assets/audience-analysis-overview.png)
 
 | Getal | Functie | Functie |
 |---------|----------|---------|
@@ -52,13 +52,13 @@ Wanneer u publieksanalyse vormt, selecteert u de zandbak en voegt beleid verbond
 >
 >Het publiek is beschikbaar in de gegevensmeningen van Customer Journey Analytics op de dag nadat u de configuratie van de publieksanalyse creeert.
 
-Voor meer informatie, zie [&#x200B; publieksanalyse &#x200B;](/help/connections/audience-analysis/audience-analysis-configure.md) vormen.
+Voor meer informatie, zie [ publieksanalyse ](/help/connections/audience-analysis/audience-analysis-configure.md) vormen.
 
 ## De configuraties van de publieksanalyse beheren
 
 U kunt de configuraties van de publieksanalyse beheren nadat zij worden gecreeerd. U kunt configuraties weergeven, bewerken en verwijderen.
 
-Voor informatie over het beheren van bestaande configuraties van de publieksanalyse, zie [&#x200B; de configuraties van de publieksanalyse beheren &#x200B;](/help/connections/audience-analysis/audience-analysis-manage.md).
+Voor informatie over het beheren van bestaande configuraties van de publieksanalyse, zie [ de configuraties van de publieksanalyse beheren ](/help/connections/audience-analysis/audience-analysis-manage.md).
 
 ## Gebruikersgegevens in Customer Journey Analytics analyseren
 
@@ -70,7 +70,7 @@ U kunt bijvoorbeeld het gedrag bijhouden van individuele klanten die deel uitmaa
 
 * Leden van het publiek die uiteindelijk een in-store aankoop maakten
 
-Voor meer informatie, zie [&#x200B; het publiek van Experience Platform in Customer Journey Analytics &#x200B;](/help/connections/audience-analysis/analyze-audiences.md) analyseren.
+Voor meer informatie, zie [ het publiek van Experience Platform in Customer Journey Analytics ](/help/connections/audience-analysis/analyze-audiences.md) analyseren.
 
 ## De rol van de analyse van het publiek en toestemmingsvereisten
 
@@ -78,13 +78,13 @@ De volgende Customer Journey Analytics-rollen en Experience Platform-machtiginge
 
 | Capaciteit | Customer Journey Analytics rol- of machtigingsvereisten | Experience Platform-machtigingsvereisten |
 |---------|----------|----------|
-| [&#x200B; creeer de configuraties van de publieksanalyse &#x200B;](/help/connections/audience-analysis/audience-analysis-configure.md) | Systeembeheerder | <ul><li>Gegevensbestanden: leesmachtigingen</li><li>Schema&#39;s: lezen, schrijven</li><li>Naamruimten: lezen</li></ul> |
-| {de dimensies van de het publiek van de mening van 0} Mening in de gegevensmening [&#128279;](/help/connections/audience-analysis/audience-analysis-configure.md#view-audience-dimensions-in-the-data-view) | Beheerder van productprofielen voor het productprofiel waaraan de gegevensweergave is toegewezen <p>Voor meer informatie, zie [&#x200B; controle van de Toegang &#x200B;](/help/technotes/access-control.md).</p> | N.v.t. |
+| [ creeer de configuraties van de publieksanalyse ](/help/connections/audience-analysis/audience-analysis-configure.md) | Systeembeheerder | <ul><li>Gegevensbestanden: leesmachtigingen</li><li>Schema&#39;s: lezen, schrijven</li><li>Naamruimten: lezen</li></ul> |
+| {de dimensies van de het publiek van de mening van 0} Mening in de gegevensmening [](/help/connections/audience-analysis/audience-analysis-configure.md#view-audience-dimensions-in-the-data-view) | Beheerder van productprofielen voor het productprofiel waaraan de gegevensweergave is toegewezen <p>Voor meer informatie, zie [ controle van de Toegang ](/help/technotes/access-control.md).</p> | N.v.t. |
 | Analysedimensies voor het publiek gebruiken in Analysis Workspace | Toegang tot een gegevensweergave waar de afmetingen voor de publieksanalyse zijn toegevoegd | N.v.t. |
 
 ## Limieten voor de analyse van het publiek
 
-Overweeg de volgende grenzen wanneer [&#x200B; het vormen publieksanalyse &#x200B;](/help/connections/audience-analysis/audience-analysis-configure.md):
+Overweeg de volgende grenzen wanneer [ het vormen publieksanalyse ](/help/connections/audience-analysis/audience-analysis-configure.md):
 
 * Eén sandbox biedt ondersteuning voor maximaal 100 configuraties voor publieksanalyse.
 
