@@ -63,7 +63,7 @@ Naast het zijn toegevoegd als productbeheerder in het **Customer Journey Analyti
   | [!UICONTROL Data Management] | [!UICONTROL View Datasets] | Alleen-lezen toegang voor datasets en schema&#39;s. |
   | [!UICONTROL Identity Management] | [!UICONTROL View Identity Namespaces] | Alleen-lezen toegang voor naamruimten. |
 
-  Voor meer informatie over de toestemmingen van Experience Platform, zie [&#x200B; toestemmingen voor een productprofiel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions) beheren.
+  Voor meer informatie over de toestemmingen van Experience Platform, zie [&#x200B; toestemmingen voor een productprofiel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/permissions) beheren.
 
 
 * Als Journey Optimizer is geïntegreerd met Customer Journey Analytics waar Journey Optimizer Connections bestaat, moeten ook de rechten voor reizen worden toegevoegd aan de toegangsverbindingen:
@@ -75,7 +75,7 @@ Naast het zijn toegevoegd als productbeheerder in het **Customer Journey Analyti
   | [!UICONTROL Journeys] | [!UICONTROL View Journeys] | Alleen-lezen toegang tot reizen. |
   | [!UICONTROL Journeys] | [!UICONTROL Manage Journeys] | Reizen lezen, maken, bewerken en verwijderen. |
 
-* De datasets van de uitvoer aan [&#x200B; bestemmingen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets)
+* De datasets van de uitvoer aan [&#x200B; bestemmingen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/export-datasets)
 
   Om deze taak uit te voeren, moeten gebruikers deel uitmaken van een **Experience Platform Product Profile** dat de volgende permissies biedt:
 
@@ -84,13 +84,13 @@ Naast het zijn toegevoegd als productbeheerder in het **Customer Journey Analyti
   | [!UICONTROL Destinations] | [!UICONTROL Manage Destinations] | Toegang om bestemmingsverbindingen en bestemmingsaccounts te lezen, aan te maken en te verwijderen. |
   | [!UICONTROL Destinations] | [!UICONTROL Activate Destinations] | Sta gebruikers toe om segmenten aan bestaande bestemmingen te activeren. Hiermee schakelt u de toewijzingsstap in de activeringsworkflow in. Deze toestemming vereist ook de toestemming van de Doelen van de Mening die aan de gebruiker moet worden verleend die gegevens aan bestemmingen wil activeren. |
 
-  Voor meer informatie over de toestemmingen van Experience Platform, zie [&#x200B; toestemmingen voor een productprofiel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions) beheren.
+  Voor meer informatie over de toestemmingen van Experience Platform, zie [&#x200B; toestemmingen voor een productprofiel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/permissions) beheren.
 
 * Gebruik de [&#x200B; uitbreiding van BI &#x200B;](../data-views/bi-extension.md)
 
   Voor gebruikers om de uitbreiding van BI te gebruiken, een beheerder van het Product
 
-   * moet ervoor zorgen dat de Experience Platform-machtigingen voor de gebruiker een rol bevatten die over de bron Query Service beschikt met de opties Query&#39;s beheren en Query Service Integration beheren. Voor meer informatie over de toestemmingen van Experience Platform, zie [&#x200B; toestemmingen voor een productprofiel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/permissions) beheren.
+   * moet ervoor zorgen dat de Experience Platform-machtigingen voor de gebruiker een rol bevatten die over de bron Query Service beschikt met de opties Query&#39;s beheren en Query Service Integration beheren. Voor meer informatie over de toestemmingen van Experience Platform, zie [&#x200B; toestemmingen voor een productprofiel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/permissions) beheren.
 
      | Categorie | Machtiging | Beschrijving |
      |---|---|---|
@@ -127,10 +127,10 @@ Het **[!UICONTROL Permissions]** tabblad maakt deel uit van elk productprofiel i
 | [!UICONTROL Reporting Tools] | [!UICONTROL Labs Access] | Laat gebruikers tot het [&#x200B; lusje van Laboratoria &#x200B;](/help/labs/labs.md) in Customer Journey Analytics toegang hebben. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Annotation Creation] | Laat gebruikers [&#x200B; annotaties &#x200B;](/help/components/annotations/overview.md) tot stand brengen. Gebruikers kunnen alleen de annotaties die zij maken of gedeeld met hen delen, taggen, delen en hernoemen. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Audience View] | Laat gebruikers [&#x200B; publiek &#x200B;](/help/components/audiences/audiences-overview.md) bekijken. |
-| [!UICONTROL Reporting Tools] | [!UICONTROL Audience Creation] | Laat gebruikers [&#x200B; publiek &#x200B;](/help/components/audiences/audiences-overview.md) tot stand brengen. Vereist [&#x200B; beheert Segmenten &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) in Adobe Experience Platform. |
+| [!UICONTROL Reporting Tools] | [!UICONTROL Audience Creation] | Laat gebruikers [&#x200B; publiek &#x200B;](/help/components/audiences/audiences-overview.md) tot stand brengen. Vereist [&#x200B; beheert Segmenten &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/home) in Adobe Experience Platform. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Data storytelling] | Laat gebruikers [diapresentaties genereren op basis van Workspace-projecten.](/help/analysis-workspace/curate-share/generate-slides.md)<p>Data storytelling bevindt zich in de Limited Testing-fase van release en is mogelijk nog niet beschikbaar in jouw omgeving. Deze opmerking wordt verwijderd zodra de functionaliteit algemeen beschikbaar is. Voor informatie over het releaseproces van Customer Journey Analytics, zie [Customer Journey Analytics feature releases](/help/release-notes/releases.md).</p> |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Audit Logs Access] | Dwing de toestemmingscontrole op [&#x200B; API &#x200B;](https://developer.adobe.com/cja-apis/docs/endpoints/auditlogs/) en de controlelogboeken UI af. |
-| [!UICONTROL Reporting Tools] | [!UICONTROL Share Project Links With Anyone] | Laat gebruikers [&#x200B; projecten met iedereen delen.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/share-projects) |
+| [!UICONTROL Reporting Tools] | [!UICONTROL Share Project Links With Anyone] | Laat gebruikers [&#x200B; projecten met iedereen delen.](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/curate-share/share-projects) |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Forecasting] | Laat gebruikers tot de [&#x200B; Voorspelling &#x200B;](../analysis-workspace/c-forecast/forecasting.md) eigenschap in Analysis Workspace toegang hebben |
 | [!UICONTROL Reporting Tools] | [!UICONTROL AI Assistant: Product Knowledge] | Laat gebruikers tot de [&#x200B; Medewerker AI &#x200B;](../ai-assistant.md) voor productkennis toegang hebben. |
 | [!UICONTROL Reporting Tools] | [!UICONTROL Intelligent Captions] | Laat gebruikers tot [&#x200B; Intelligente titels &#x200B;](/help/analysis-workspace/visualizations/intelligent-captions.md) toegang hebben. |
