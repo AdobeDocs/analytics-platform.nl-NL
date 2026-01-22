@@ -17,7 +17,7 @@ Adobe Customer Journey Analytics wordt gehost in datacenters van bedrijfsniveau 
 
 Bij provisioning wijzen klanten het gebied aan waarin hun Adobe Experience Platform-gegevens zich bevinden. De gegevens die vanuit het Adobe Experience Platform data Lake in Customer Journey Analytics worden ingevoerd, worden in dezelfde regio opgeslagen.
 
-Zie [ Regionale gegevensinzameling ](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/rdc) in de documentatie van Adobe Experience Cloud voor meer informatie.
+Zie [&#x200B; Regionale gegevensinzameling &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/rdc) in de documentatie van Adobe Experience Cloud voor meer informatie.
 
 
 ## Het datacenter weergeven waar uw gegevens zijn opgeslagen
@@ -28,13 +28,13 @@ Zie [ Regionale gegevensinzameling ](https://experienceleague.adobe.com/en/docs/
 
 Om te bekijken in welk datacenter uw gegevens zijn opgeslagen:
 
-1. Login aan [ Adobe Experience Cloud ](https://experience.adobe.com).
+1. Login aan [&#x200B; Adobe Experience Cloud &#x200B;](https://experience.adobe.com).
 
-1. Selecteer **[!UICONTROL Experience Platform]** van app schakelaar ![ App ](/help/assets/icons/Apps.svg) bij het hoogste recht van de interface.
+1. Selecteer **[!UICONTROL Experience Platform]** van app schakelaar ![&#x200B; App &#x200B;](/help/assets/icons/Apps.svg) bij het hoogste recht van de interface.
 
 1. De gebiedscode voor uw toegewezen gegevenscentrum wordt getoond in het hoger-juiste gedeelte van Experience Platform.
 
-   ![ Centrum van Gegevens op Experience Platform homepage ](assets/experience-platform-data-center.png)
+   ![&#x200B; Centrum van Gegevens op Experience Platform homepage &#x200B;](assets/experience-platform-data-center.png)
 
 1. Gebruik de volgende tabel om te begrijpen met welk geografisch gebied uw regiocode is geassocieerd:
 
