@@ -180,8 +180,8 @@ De berekende metriek die niet compatibel met het paneel van de Experimentatie zi
 
 ## Berekende meetwaarden gebruiken in het deelvenster Experimentatie
 
-Verwijs naar deze blogpost voor informatie over [&#x200B; gebruikend berekende metriek in het paneel van de Experimentatie &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119).
+Verwijs naar deze blogpost voor informatie over [&#x200B; gebruikend berekende metriek in het paneel van de Experimentatie &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-derived-metrics-in-cja-s-experimentation-panel/ba-p/593119?profile.language=nl).
 
 >[!MORELIKETHIS]
->[&#x200B; het Beheersen van de Experimentatie van Adobe Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-adobe-customer-journey-analytics-experimentation-your/ba-p/732338)
+>[&#x200B; het Beheersen van de Experimentatie van Adobe Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-adobe-customer-journey-analytics-experimentation-your/ba-p/732338?profile.language=nl)
 >

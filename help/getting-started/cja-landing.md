@@ -205,4 +205,4 @@ Begrijp hoe Customer Journey Analytics zich verhoudt tot Adobe Analytics. En hoe
 
 
 <table style="table-layout:auto" class="tablelayout-is-fixed"><tbody><tr style="border: 0;"><td><img src="./assets/newsletter.png"></td><td>
-<b> blijf op de hoogte, draag aan de gemeenschap bij, en verhoog uw ervaring van Customer Journey Analytics!</b><br> Bezoek de gemeenschap van Adobe Analytics om de functionaliteit met medepraktiseraars te bespreken. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community"> sluit zich vandaag aan bij de gemeenschap!</a></td></tr></tbody></table>
+<b> blijf op de hoogte, draag aan de gemeenschap bij, en verhoog uw ervaring van Customer Journey Analytics!</b><br> Bezoek de gemeenschap van Adobe Analytics om de functionaliteit met medepraktiseraars te bespreken. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=nl"> sluit zich vandaag aan bij de gemeenschap!</a></td></tr></tbody></table>

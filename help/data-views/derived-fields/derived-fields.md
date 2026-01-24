@@ -2140,7 +2140,7 @@ De steun voor raadpleging en profielgebieden in Voortgekomen Gebieden laat u toe
 
 >[!MORELIKETHIS]
 >
->- [&#x200B; Blog: Making the most of Your Data: A Framework for Using Derived Fields in Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
->- [&#x200B; Blog: Afgeleide Gevallen van het Gebruik van Gebieden voor Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
->- [&#x200B; Blog: Adobe Customer Journey Analytics Afgeleide Verbeteringen van Gebieden &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808)
+>- [&#x200B; Blog: Making the most of Your Data: A Framework for Using Derived Fields in Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670?profile.language=nl)
+>- [&#x200B; Blog: Afgeleide Gevallen van het Gebruik van Gebieden voor Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679?profile.language=nl)
+>- [&#x200B; Blog: Adobe Customer Journey Analytics Afgeleide Verbeteringen van Gebieden &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808?profile.language=nl)
 

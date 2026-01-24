@@ -45,4 +45,4 @@ In overeenstemming met de CCPA steunt de Privacy Service verzoeken om zich te on
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; Blog: Hoe te om efficiënt bestuur in Adobe Customer Journey Analytics te handhaven &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/bg-p/adobe-analytics-blogs/page/4)
+>* [&#x200B; Blog: Hoe te om efficiënt bestuur in Adobe Customer Journey Analytics te handhaven &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/bg-p/adobe-analytics-blogs/page/4?profile.language=nl)

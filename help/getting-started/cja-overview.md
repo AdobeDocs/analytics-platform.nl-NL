@@ -111,6 +111,6 @@ Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg)
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; Adobe Customer Journey Analytics Crash Cursus voor Analysts &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-crash-course-for-analysts/ba-p/719261)
->* [&#x200B; Optimizing Your Mindset and Adobe Customer Journey Analytics Workflow: De Modellen van het team voor Organisaties van Alle Grootte &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/optimizing-your-mindset-and-adobe-customer-journey-analytics/ba-p/721456)
->* [&#x200B; de Organisatorische Gereedheid van de Bouw: Een Mensen-Eerste Gids aan het Schalen van Adobe Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/building-organizational-readiness-a-people-first-guide-to/ba-p/723273)
+>* [&#x200B; Adobe Customer Journey Analytics Crash Cursus voor Analysts &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-crash-course-for-analysts/ba-p/719261?profile.language=nl)
+>* [&#x200B; Optimizing Your Mindset and Adobe Customer Journey Analytics Workflow: De Modellen van het team voor Organisaties van Alle Grootte &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/optimizing-your-mindset-and-adobe-customer-journey-analytics/ba-p/721456?profile.language=nl)
+>* [&#x200B; de Organisatorische Gereedheid van de Bouw: Een Mensen-Eerste Gids aan het Schalen van Adobe Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/building-organizational-readiness-a-people-first-guide-to/ba-p/723273?profile.language=nl)

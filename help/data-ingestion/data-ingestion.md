@@ -114,5 +114,5 @@ Zie [&#x200B; Samenvatten en ad hoc gegevens gebruiken &#x200B;](./adhoc.md)
 
 >[!MORELIKETHIS]
 >
->Blog: [&#x200B; een Dichtere blik bij de Verwerking van Gegevens &amp; Opname in Adobe Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091)
+>Blog: [&#x200B; een Dichtere blik bij de Verwerking van Gegevens &amp; Opname in Adobe Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-closer-look-at-data-processing-amp-ingestion-in-adobe-customer/ba-p/665091?profile.language=nl)
 

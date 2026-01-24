@@ -46,4 +46,4 @@ De inhoudsopgave van een project weergeven:
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; vereenvoudigt de Navigatie Dashboard met de Nieuwe Eigenschap van de Inhoudsopgave in Adobe Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284)
+>* [&#x200B; vereenvoudigt de Navigatie Dashboard met de Nieuwe Eigenschap van de Inhoudsopgave in Adobe Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284?profile.language=nl)

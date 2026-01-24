@@ -154,5 +154,5 @@ Controleer of de componentinstellingen voor een overzichtsgegevensgroep gelijk z
 >[!MORELIKETHIS]
 >
 >- Zie het [&#x200B; samenvattingsgegeven van het Gebruik &#x200B;](/help/use-cases/data-views/summary-data.md) artikel voor een gedetailleerd gebruiksgeval voorbeeld op hoe te en rapport over summiere gegevens te gebruiken.
->- Blog: [&#x200B; hoe de Summiere Gegevens de Datasets van Adobe Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635) verbeteren
+>- Blog: [&#x200B; hoe de Summiere Gegevens de Datasets van Adobe Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-summary-data-enhances-adobe-customer-journey-analytics/ba-p/704635?profile.language=nl) verbeteren
 

@@ -48,6 +48,6 @@ Customer Journey Analytics-beheerders kunnen beschrijvingen voor afmetingen en a
 
 >[!MORELIKETHIS]
 >
->[&#x200B; ontdekt de diepere Inzichten van de Klant met de Eigenschap van de Diepte van de Gebeurtenis &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947#M576)
+>[&#x200B; ontdekt de diepere Inzichten van de Klant met de Eigenschap van de Diepte van de Gebeurtenis &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/discover-deeper-customer-insights-with-adobe-customer-journey/ba-p/753947?profile.language=nl#M576)
 >
 

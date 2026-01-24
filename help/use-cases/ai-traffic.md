@@ -297,6 +297,6 @@ Gebruik de afgeleide gebieden en de segmenten om op LLM en af te lezen verkeer t
 
 >[!MORELIKETHIS]
 >
->Dit artikel van het gebruiksgeval is gebaseerd op het blogartikel [&#x200B; Volgend en Analyserend LLM en AI-Gegenereerd Verkeer in Adobe Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967).
+>Dit artikel van het gebruiksgeval is gebaseerd op het blogartikel [&#x200B; Volgend en Analyserend LLM en AI-Gegenereerd Verkeer in Adobe Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/tracking-and-analyzing-llm-and-ai-generated-traffic-in-adobe/ba-p/771967?profile.language=nl).
 >
 >

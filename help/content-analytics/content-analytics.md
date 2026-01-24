@@ -68,6 +68,6 @@ Content Analytics gebruikt de gegevens van de de meningsmening van het Webbeeld 
 >
 >[&#x200B; Content Analytics die &#x200B;](report/report.md) meldt
 >&#x200B;>[Content Analytics configureren &#x200B;](config/configuration.md)
->&#x200B;>[Het berekenen van stuitingen en het stuiteren tarief in Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446#M454)
+>&#x200B;>[Het berekenen van stuitingen en het stuiteren tarief in Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446?profile.language=nl#M454)
 >
 

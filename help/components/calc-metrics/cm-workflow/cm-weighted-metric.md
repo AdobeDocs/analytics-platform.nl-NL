@@ -38,7 +38,7 @@ Alternatief, kunt u a [&#x200B; stuittarief bepalen gebruikend afgeleide gebiede
 
 Afgeleide gebieden maken deel uit van een mening van Gegevens die het voordeel heeft dat niet elke gebruiker de definitie van metrisch tarief met betrekking tot Stuiteren kan met voeten treden of wijzigen. Dat voordeel heeft ook een beperking ingevoerd. De gebruikers die geen toegang tot een gegevensmening hebben kunnen geen afgeleide gebieden gebruiken en moeten aan segmenten en berekende metriek een stuiteringstarief gebruiken.
 
-Zie voor meer achtergrondinformatie over hoe te om grenzen en stuittarief in Customer Journey Analytics te berekenen, dit [&#x200B; blogpost &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446).
+Zie voor meer achtergrondinformatie over hoe te om grenzen en stuittarief in Customer Journey Analytics te berekenen, dit [&#x200B; blogpost &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/calculating-bounces-amp-bounce-rate-in-adobe-customer-journey/ba-p/706446?profile.language=nl).
 
 +++
 

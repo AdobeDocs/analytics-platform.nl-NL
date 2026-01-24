@@ -48,6 +48,6 @@ Wanneer u een numerieke waarde als een afmeting gebruikt, kunt u
 
 >[!MORELIKETHIS]
 >
->[&#x200B; Volledige playbook voor behandeling &quot;Geen waarde&quot;in Adobe Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/the-complete-playbook-for-handling-no-value-in-adobe-cja/ba-p/756696#M598).
+>[&#x200B; Volledige playbook voor behandeling &quot;Geen waarde&quot;in Adobe Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/the-complete-playbook-for-handling-no-value-in-adobe-cja/ba-p/756696?profile.language=nl#M598).
 
 

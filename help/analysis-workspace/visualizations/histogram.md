@@ -70,5 +70,5 @@ Als onderdeel van de visualisatie zijn specifieke histograminstellingen beschikb
 >[&#x200B; voeg een visualisatie aan een paneel toe &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >&#x200B;>[Visualisatie-instellingen &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >&#x200B;>[Contextmenu Visualisatie &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
->&#x200B;>[Histogrammen gebruiken om onverwachte gegevenswaarden te identificeren &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)
+>&#x200B;>[Histogrammen gebruiken om onverwachte gegevenswaarden te identificeren &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=nl)
 

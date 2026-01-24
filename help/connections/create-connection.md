@@ -838,5 +838,5 @@ Deze berekening wordt gedaan voor elke dataset in de verbinding.
 >[!MORELIKETHIS]
 >
 >* [&#x200B; Overzicht van de Inname van Gegevens &#x200B;](/help/data-ingestion/data-ingestion.md)
->* Blog: [&#x200B; hoe te Gebeurtenis, Opzoeken, en de Datasets van het Profiel in Adobe Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478) gebruiken
+>* Blog: [&#x200B; hoe te Gebeurtenis, Opzoeken, en de Datasets van het Profiel in Adobe Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/how-to-leverage-event-lookup-and-profile-datasets-in-adobe/ba-p/681478?profile.language=nl) gebruiken
 
