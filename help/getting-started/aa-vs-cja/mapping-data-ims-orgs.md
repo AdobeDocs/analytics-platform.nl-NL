@@ -6,9 +6,9 @@ solution: Customer Journey Analytics
 feature: Adobe Analytics Integration,Administration
 hide: true
 hidefromtoc: true
-source-git-commit: 3c34bd50c12b370f5e9f95ac5d6357de4f63e5f6
+source-git-commit: 925da525b61c2a24156159f4029303c297e0af10
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Met de *gegevens van de Analytics van de kaart van veelvoudige organisaties IMS*
 
 | Illustratie | Toelichting |
 |---|---|
-| ![&#x200B; gegevens van de Kaart over veelvoudige organisaties IMS &#x200B;](/help/getting-started/assets/map-data-across-ims-orgs.svg) | Deze afbeelding staat u toe om over rapportreeksen te rapporteren die in organisatie 1 bestaan IMS, organisatie 2 IMS, en organisatie 3 IMS van één verbinding in Customer Journey Analytics die binnen organisatie 3 wordt geleverd IMS. |
+| ![ gegevens van de Kaart over veelvoudige organisaties IMS ](/help/getting-started/assets/map-data-across-ims-orgs.svg) | Deze afbeelding staat u toe om over rapportreeksen te rapporteren die in organisatie 1 bestaan IMS, organisatie 2 IMS, en organisatie 3 IMS van één verbinding in Customer Journey Analytics die binnen organisatie 3 wordt geleverd IMS. |
 
 {style="table-layout:fixed"}
 
@@ -46,17 +46,46 @@ Om de *gegevens van de Analytics van de kaart van veelvoudige organisaties IMS* 
    | --- |
    | *de naamvertegenwoordiger van het Bedrijf*, om de geselecteerde bestemmingsorg toegang tot de volgende organisaties IMS (lijst van bronIMS organen) te verlenen, moeten wij ervoor zorgen dat een beheerder voor elke IMS org hun goedkeuring voorlegt om toegang tot hun gegevens toe te staan. Hierdoor kunnen we ervoor zorgen dat we de toegangsrechten voor gegevens van elke betrokken IMS org hebben gerespecteerd. Om ervoor te zorgen dat wij behoorlijk goedkeuring hebben, te hebben gelieve een geregistreerd Adobe admin voor elk beheer of antwoord op deze e-mail met hun naam en IMS org die zij vertegenwoordigen, die &quot;I goedkeuren&quot;zeggen om op te geven zij hun goedkeuring geven om de gegevens van deze IMS org in de bestemmingsorg [ lijstbestemming IMS org ] te hebben verschijnen. Deze beheerder moet een beheerder zijn die in het Adobe-systeem is geregistreerd als beheerder voor die IMS org. |
 
-1. Verzend een e-mail als bestemmingsIMS organisatiebeheerder aan de de rekeningsmanager van Adobe die om de afbeelding van rapportreeksen binnen veelvoudige bronIMS organisaties aan de bestemmingsIMS organisatie verzoekt. Voeg de goedkeuringse-mails bij die u van de bron-IMS-organisatiebeheerders hebt ontvangen.
+1. Stuur een e-mail naar de Adobe-accountmanager namens de IMS-bestemmingsbeheerder die de toewijzing aanvraagt van rapportsuites binnen meerdere IMS-bronorganisaties naar de IMS-doelorganisatie. Voeg de goedkeuringse-mails bij die u van de bron-IMS-organisatiebeheerders hebt ontvangen.
 
-Zodra de accountmanager het e-mailbericht ontvangt met het verzoek om analysegegevens van meerdere organen toe te wijzen, wordt het verzoek in Adobe gecontroleerd. De accountmanager neemt contact met u op voor aanvullende vragen, optionele training en andere informatie.
+Zodra de Adobe-accountmanager het e-mailbericht ontvangt met het verzoek om analysegegevens van meerdere organen toe te wijzen, wordt het verzoek beoordeeld in Adobe. De Adobe-accountmanager neemt contact met u op voor aanvullende vragen, optionele training en andere informatie.
 
-Zodra goedgekeurd, wordt de gevraagde afbeelding gecreeerd en u wordt op de hoogte gebracht. De bronIMS organisatienaam wordt toegevoegd aan de naam van de rapportreeks in de [&#x200B; lijst van de het rapportreeksen van Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data) in Experience Platform.
+Zodra goedgekeurd, wordt de gevraagde afbeelding gecreeerd en u wordt op de hoogte gebracht. De bronIMS organisatienaam wordt toegevoegd aan de naam van de rapportreeks in de [ lijst van de het rapportreeksen van Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data) in Experience Platform.
 
-## Beperkingen en risico&#39;s
+
+## Beperkingen
 
 De volgende beperkingen zijn van toepassing voor de *gegevens van de Analytics van de kaart van veelvoudige organisaties IMS* eigenschap:
 
 * U kunt een rapportsuite slechts eenmaal verbinden in verschillende organisaties.
 * U moet alle verbindingen voor een organisatie schrappen IMS die als bestemmingsIMS organisatie in een afbeelding wordt bepaald alvorens u kunt verzoeken om de afbeelding te schrappen.
 * ECID&#39;s zijn niet compatibel tussen toegewezen bron-IMS-organisaties en niet compatibel met de doel-IMS-organisatie.
-* Een gebruiker met voldoende toestemmingen om de Analytics bronschakelaar in de organisatie van bestemmingsIMS te vormen heeft de capaciteit om de gegevens van Analytics van om het even welke in kaart gebrachte bronIMS organisatie in te voeren. Er worden voor die gebruiker geen machtigingen gecontroleerd voor een van de bron-IMS-organisaties.
+
+
+## Overwegingen
+
+U zou de volgende onderwerpen kunnen willen overwegen alvorens u om de *gegevens van de analyse van de kaart van veelvoudige organisaties IMS* verzoekt eigenschap:
+
+### Profielen
+
+Zodra de *gegevens van de Analyse van de kaart van veelvoudige organisaties IMS* worden goedgekeurd, kunt u gegevens aan Experience Platform voor één of meerdere van de rapportreeksen in de organisatie van bestemmingsIMS toevoegen. U doet dit door de configuratie van de [ bron van Analytics schakelaar ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics). De datasets van het doel worden dan gecreeerd in Experience Platform. Als deel van deze configuratie en proces, hebt u de optie om profielgegevens van één of meerdere rapportreeksen naar de dienst van het Profiel te verzenden.
+
+Schat het totale aantal profielen dat het resultaat is van de configuratie en het proces, zoals hierboven beschreven. Zorg ervoor dat het totale aantal binnen het aantal profielen is u contractueel gerechtigd aan voor de bestemmingsorganisatie. Pas [ het filtreren regels en voorwaarden ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#filtering-for-profile){target="_blank"} toe om gegevens van opname aan de dienst van het Profiel te omvatten of uit te sluiten. Of schakel de optie uit om profielgegevens naar de profielservice te verzenden voor relevante rapportsuites.
+
+
+### Stiksel
+
+Zodra de *gegevens van de Analyse van de kaart van veelvoudige organisaties IMS* worden goedgekeurd, kunt u gegevens aan Experience Platform voor één of meerdere van de rapportreeksen in de organisatie van bestemmingsIMS toevoegen. U doet dit door de configuratie van de [ bron van Analytics schakelaar ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics). De datasets van het doel voor de rapportreeksen u in de de bronschakelaar van de Analyse vormde worden dan gecreeerd in Experience Platform. Als deel van deze configuratie en proces, hebt u de optie om profielgegevens van één of meerdere rapportreeksen naar de dienst van het Profiel te verzenden.
+
+U kunt zowel op gebied-gebaseerde [ als ](/help/stitching/fbs.md) op grafiek-gebaseerde [ stitching op de doeldatasets gebruiken. ](/help/stitching/gbs.md) Wanneer u op grafiek-gebaseerd het stitching op één of meerdere van deze doeldatasets gebruikt, zorg u binnen uw contractuele rechten voor het aantal profielen blijft, zoals die in de [ 1} sectie van Profielen {worden geschetst.](#profiles)
+
+Als u niet voor het Profiel van de Klant in real time wordt vergunning gegeven, maar u nog op grafiek-gebaseerd het stitching op één of meerdere doeldatasets wilt gebruiken, verzekert u slechts de [ Dienst van de Identiteit ](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service) voor deze doeldatasets toelaat.
+
+
+### Machtigingen
+
+Een gebruiker met voldoende toestemmingen om de Analytics bronschakelaar in de organisatie van bestemmingsIMS te vormen heeft de capaciteit om de gegevens van Analytics van om het even welke in kaart gebrachte bronIMS organisatie in te voeren. Er worden voor die gebruiker geen machtigingen gecontroleerd voor een van de bron-IMS-organisaties.
+
+### Gegevens rapporteren
+
+De *gegevens van de Analyse van de kaart van veelvoudige organisaties IMS* eigenschap is slechts een eerste stap om u te verzekeren kunt de gegevens als deel van een [ verbinding van Customer Journey Analytics ](/help/connections/overview.md), één of meerdere [ gegevensmeningen ](/help/data-views/data-views.md) en [ werkruimteprojecten ](/help/analysis-workspace/home.md) gebruiken. U moet de gegevens die u nu in één IMS-organisatie hebt, zorgvuldig inspecteren. En overweeg eigenschappen zoals gegevens prep, afgeleide gebieden, extra raadplegingslijsten, en meer alvorens u over deze gegevens kunt behoorlijk rapporteren.
