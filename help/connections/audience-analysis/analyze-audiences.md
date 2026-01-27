@@ -4,9 +4,7 @@ description: Leer hoe u het Experience Platform-publiek in Customer Journey Anal
 solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
-hide: true
-hidefromtoc: true
-source-git-commit: 996d7d7bb0c0da566a926f9a3a4c465baca69a9a
+source-git-commit: e59bb52d5e9d79ba72036d5a00ed8abc69dcf735
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%
@@ -15,7 +13,7 @@ ht-degree: 0%
 
 # Experience Platform-publiek in Customer Journey Analytics analyseren {#analyze-audiences-RTCDP}
 
-Nadat u [&#x200B; een configuratie van de publieksanalyse &#x200B;](/help/connections/audience-analysis/audience-analysis-configure.md) creeert, worden de publieksgegevens beschikbaar als nieuwe dimensies in de gegevensmeningen waar u hen vormt om worden gecreeerd. U kunt de nieuwe publieksafmetingen overal in Analysis Workspace gebruiken als u toegang hebt tot een gegevensweergave waaraan de afmetingen voor de publieksanalyse zijn toegevoegd.
+Nadat u [ een configuratie van de publieksanalyse ](/help/connections/audience-analysis/audience-analysis-configure.md) creeert, worden de publieksgegevens beschikbaar als nieuwe dimensies in de gegevensmeningen waar u hen vormt om worden gecreeerd. U kunt de nieuwe publieksafmetingen overal in Analysis Workspace gebruiken als u toegang hebt tot een gegevensweergave waaraan de afmetingen voor de publieksanalyse zijn toegevoegd.
 
 ## De overzichtsjabloon Publiek gebruiken
 
@@ -25,7 +23,7 @@ Een overzichtsjabloon voor het publiek is beschikbaar in Customer Journey Analyt
 
 <!-- What are the names of the new dimensions? Are they customized to whatever your audience names are in AEP, or are they always the same? Are they the dimensions available in the Audience overview template? (Audience Name, Audience Origin, Exited Audience Name, Exited Audience Origin; Audience Description, Exited Audience Description). Metrics included (Distinct Audiences) -->
 
-Voor informatie over hoe te om tot het overzichtsmalplaatje van het Publiek toegang te hebben, zie [&#x200B; Toegang en stel een malplaatje &#x200B;](/help/analysis-workspace/templates/use-templates.md#access-and-run-a-template) in werking in [&#x200B; malplaatjes van het Gebruik &#x200B;](/help/analysis-workspace/templates/use-templates.md).
+Voor informatie over hoe te om tot het overzichtsmalplaatje van het Publiek toegang te hebben, zie [ Toegang en stel een malplaatje ](/help/analysis-workspace/templates/use-templates.md#access-and-run-a-template) in werking in [ malplaatjes van het Gebruik ](/help/analysis-workspace/templates/use-templates.md).
 
 Het overzichtssjabloon Publiek bevat de volgende deelvensters:
 

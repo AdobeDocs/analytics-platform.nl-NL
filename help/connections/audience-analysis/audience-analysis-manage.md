@@ -4,9 +4,7 @@ description: Leer hoe u configuraties voor publieksanalyse beheert
 solution: Customer Journey Analytics
 feature: Audiences
 role: Admin
-hide: true
-hidefromtoc: true
-source-git-commit: 996d7d7bb0c0da566a926f9a3a4c465baca69a9a
+source-git-commit: e59bb52d5e9d79ba72036d5a00ed8abc69dcf735
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%
@@ -15,11 +13,11 @@ ht-degree: 0%
 
 # De configuraties van de publieksanalyse beheren{#manage-audience-analysis}
 
-Nadat u [&#x200B; de configuraties van de publieksanalyse &#x200B;](/help/connections/audience-analysis/audience-analysis-configure.md) creeert, kunt u, hen bekijken uitgeven of schrappen.
+Nadat u [ de configuraties van de publieksanalyse ](/help/connections/audience-analysis/audience-analysis-configure.md) creeert, kunt u, hen bekijken uitgeven of schrappen.
 
 Alleen systeembeheerders kunnen configuraties voor publieksanalyse beheren.
 
-Voor informatie over publieksanalyse, zie [&#x200B; overzicht van de analyse van het publiek &#x200B;](/help/connections/audience-analysis/audience-analysis-overview.md).
+Voor informatie over publieksanalyse, zie [ overzicht van de analyse van het publiek ](/help/connections/audience-analysis/audience-analysis-overview.md).
 
 ## Bestaande configuraties weergeven en filteren
 
@@ -27,7 +25,7 @@ Om uw bestaande configuraties van de publieksanalyse te bekijken:
 
 1. Selecteer in Customer Journey Analytics **[!UICONTROL Data Management]** > **[!UICONTROL Audience analysis configuration]** .
 
-   ![&#x200B; de hoofdpagina van de de analyseanalyse van het publiek &#x200B;](assets/audience-analysis-manage-configurations.png)
+   ![ de hoofdpagina van de de analyseanalyse van het publiek ](assets/audience-analysis-manage-configurations.png)
 
    De volgende kolommen van informatie zijn beschikbaar over elke configuratie:
 
@@ -43,9 +41,9 @@ Om uw bestaande configuraties van de publieksanalyse te bekijken:
 
    * **[!UICONTROL Status]**: De status van de configuratie. Mogelijke statussen zijn Voltooid, Bezig of Mislukt. <!--true?-->
 
-   U kunt om het even welke kolommen verbergen door het pictogram van de Kolom te selecteren ![&#x200B; pictogram van de Kolom &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg), die om het even welke kolommen schrappen die u wilt verbergen, dan selecteren **[!UICONTROL Apply]**.
+   U kunt om het even welke kolommen verbergen door het pictogram van de Kolom te selecteren ![ pictogram van de Kolom ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg), die om het even welke kolommen schrappen die u wilt verbergen, dan selecteren **[!UICONTROL Apply]**.
 
-1. (Facultatief) om de lijst van configuraties te filtreren, selecteer het **&#x200B;**&#x200B;pictogram van de Filter van de Analyse van de Auditie van de Filter ![, dan filter door om het even welke volgende criteria:](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+1. (Facultatief) om de lijst van configuraties te filtreren, selecteer het **** pictogram van de Filter van de Analyse van de Auditie van de Filter ![, dan filter door om het even welke volgende criteria:](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
    * **[!UICONTROL Connection]**
 
@@ -61,7 +59,7 @@ Een bestaande configuratie voor publieksanalyse bewerken:
 
 1. Selecteer in Customer Journey Analytics **[!UICONTROL Data Management]** > **[!UICONTROL Audience analysis configuration]** .
 
-   ![&#x200B; de hoofdpagina van de de analyseanalyse van het publiek &#x200B;](assets/audience-analysis-manage-configurations.png)
+   ![ de hoofdpagina van de de analyseanalyse van het publiek ](assets/audience-analysis-manage-configurations.png)
 
 1. Selecteer de naam van de configuratie die u wilt bewerken.
 
@@ -77,7 +75,7 @@ Om een bestaande configuratie van de publieksanalyse te schrappen:
 
 1. Selecteer in Customer Journey Analytics **[!UICONTROL Data Management]** > **[!UICONTROL Audience analysis configuration]** .
 
-   ![&#x200B; de hoofdpagina van de de analyseanalyse van het publiek &#x200B;](assets/audience-analysis-manage-configurations.png)
+   ![ de hoofdpagina van de de analyseanalyse van het publiek ](assets/audience-analysis-manage-configurations.png)
 
 1. Schakel het selectievakje naast de configuratie die u wilt verwijderen in en selecteer vervolgens **[!UICONTROL Delete]** .
 
