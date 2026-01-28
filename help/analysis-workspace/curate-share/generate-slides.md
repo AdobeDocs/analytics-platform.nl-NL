@@ -190,7 +190,7 @@ De mogelijkheid om dia&#39;s te genereren is standaard ingeschakeld voor alle ge
 
 Beheerders van productprofielen waarvan organisaties licenties hebben om dia&#39;s te genereren, kunnen de toegang indien nodig uitschakelen.
 
-In [!UICONTROL Adobe Admin Console] bepaalt de machtiging [!UICONTROL Reporting Tools] **[!UICONTROL Data storytelling]** de toegang tot deze mogelijkheid. A [&#x200B; beheer van het productprofiel &#x200B;](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) moet deze stappen in [!UICONTROL Admin Console] volgen als zij toegang willen onbruikbaar maken:
+In [!UICONTROL Adobe Admin Console] bepaalt de machtiging [!UICONTROL Reporting Tools] **[!UICONTROL Data storytelling]** de toegang tot deze mogelijkheid. A [&#x200B; beheer van het productprofiel &#x200B;](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) moet deze stappen in [!UICONTROL Admin Console] volgen als zij toegang willen onbruikbaar maken:
 1. Ga naar **[!UICONTROL Admin Console]** > **[!UICONTROL Products and services]** > **[!UICONTROL Customer Journey Analytics]** > **[!UICONTROL Product Profiles]**
 1. Selecteer de titel van het productprofiel waartoe u toegang wilt verlenen aan [!UICONTROL Data storytelling] .
 1. Selecteer **[!UICONTROL Permissions]** in het specifieke productprofiel.
