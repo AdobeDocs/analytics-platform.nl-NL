@@ -19,7 +19,7 @@ Met Customer Journey Analytics kunt u bepalen hoe u online en offline gegevens i
 
 ## Wat is nieuw?
 
-Bekijk een glimp van de nieuwste verbeteringen in het Customer Journey Analytics-product en -documentatie! Voor een uitvoerige lijst van eigenschappen, verbeteringen, en moeilijke situaties, controleer de gedetailleerde [ versienota&#39;s ](../release-notes/latest.md). Bezoek de [ pagina van documentupdates ](../release-notes/doc-changes.md) om met de recentste documentatieupdates bijgewerkt te blijven.
+Bekijk een glimp van de nieuwste verbeteringen in het Customer Journey Analytics-product en -documentatie! Voor een uitvoerige lijst van eigenschappen, verbeteringen, en moeilijke situaties, controleer de gedetailleerde [&#x200B; versienota&#39;s &#x200B;](../release-notes/latest.md). Bezoek de [&#x200B; pagina van documentupdates &#x200B;](../release-notes/doc-changes.md) om met de recentste documentatieupdates bijgewerkt te blijven.
 
 >[!BEGINTABS]
 
