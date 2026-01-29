@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: d117ba255151f730e0b5e4958ee56f5ffc88ade9
+source-git-commit: a8c158e66b66f2110df12fac794b2223f1922b1f
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1363'
 ht-degree: 11%
 
 ---
@@ -170,7 +170,7 @@ ht-degree: 11%
       + [Analyseren](/help/connections/audience-analysis/analyze-audiences.md)
 + Gereedschappen {#tools}
    + Asset Transfer {#asset-transfer}
-      + [&#x200B; activa van de Overdracht &#x200B;](../tools/asset-transfer/transfer-assets.md)
+      + [ activa van de Overdracht ](../tools/asset-transfer/transfer-assets.md)
    + Productgebruik {#product-usage}
       + [Overzicht](../tools/product-usage/usage-overview.md)
       + [Gegevensinstellingen](../tools/product-usage/data-settings.md)
@@ -494,7 +494,24 @@ ht-degree: 11%
       + [Gebruiksscenario&#39;s voor gegevensweergaven](/help/use-cases/data-views/data-views-usecases.md)
       + [Afmetingen en metriek van binding gebruiken](/help/use-cases/data-views/binding-dimensions-metrics.md)
       + [Samenvattingsgegevens gebruiken](/help/use-cases/data-views/summary-data.md)
-      + [Gebruikskwesties voor extensie BI](/help/use-cases/data-views/bi-extension-usecases.md)
+      + BI-extensie {#bi-extension}
+         + [Gebruik hoofdletters](/help/use-cases/data-views/bi-extension-usecases.md)
+         + [Weergaven van Connect- en lijstgegevens](/help/use-cases/data-views/bi-extension/connect-and-validate.md)
+         + [Dagelijkse trend](/help/use-cases/data-views/bi-extension/daily-trend.md)
+         + [Uurtrend](/help/use-cases/data-views/bi-extension/hourly-trend.md)
+         + [Maandelijkse trend](/help/use-cases/data-views/bi-extension/monthly-trend.md)
+         + [Eén dimensie, gerangschikt](/help/use-cases/data-views/bi-extension/single-dimension-ranked.md)
+         + [Meerdere dimensies gerangschikt](/help/use-cases/data-views/bi-extension/multiple-dimension-ranked.md)
+         + [Waarden voor verschillende dimensies tellen](/help/use-cases/data-views/bi-extension/count-distinct-dimension-values.md)
+         + [Namen van datumbereik gebruiken om te filteren](/help/use-cases/data-views/bi-extension/use-date-range-names-to-filter.md)
+         + [Segmentnamen gebruiken](/help/use-cases/data-views/bi-extension/use-segment-names-to-segment.md)
+         + [Dimensiewaarden gebruiken om te segmenteren](/help/use-cases/data-views/bi-extension/use-dimension-values-to-segment.md)
+         + [Sorteren](/help/use-cases/data-views/bi-extension/sort.md)
+         + [Limieten](/help/use-cases/data-views/bi-extension/limits.md)
+         + [Transformaties](/help/use-cases/data-views/bi-extension/transformations.md)
+         + [Visualisaties](/help/use-cases/data-views/bi-extension/visualizations.md)
+         + [Caveats](/help/use-cases/data-views/bi-extension/caveats.md)
+
    + Afgeleide velden {#derived-fields}
       + [Verslag over het door LLM en AI gegenereerde verkeer](/help/use-cases/ai-traffic.md)
       + [Verslag over doelstellingen](../use-cases/goals-using-derived-fields.md)
@@ -535,4 +552,4 @@ ht-degree: 11%
    + [Prestaties optimaliseren](../technotes/optimizing-performance.md)
    + [Gebruik beheren](../technotes/estimate-usage.md)
 
-+ [&#x200B; Customer Journey Analytics API &#x200B;](https://developer.adobe.com/cja-apis/docs/)
++ [ Customer Journey Analytics API ](https://developer.adobe.com/cja-apis/docs/)
