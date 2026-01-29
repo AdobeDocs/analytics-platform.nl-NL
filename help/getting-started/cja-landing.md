@@ -4,9 +4,9 @@ description: Customer Journey Analytics-openingspagina.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: d8ff5191ea96b8871f6aaba1fc28211c22a13e0d
+source-git-commit: b8c9acfe8fef4543557f87c81079babdc8097b64
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '620'
 ht-degree: 2%
 
 ---
@@ -19,11 +19,27 @@ Met Customer Journey Analytics kunt u bepalen hoe u online en offline gegevens i
 
 ## Wat is nieuw?
 
-Bekijk een glimp van de nieuwste verbeteringen in het Customer Journey Analytics-product en -documentatie! Voor een uitvoerige lijst van eigenschappen, verbeteringen, en moeilijke situaties, controleer de gedetailleerde [&#x200B; versienota&#39;s &#x200B;](../release-notes/latest.md). Bezoek de [&#x200B; pagina van documentupdates &#x200B;](../release-notes/doc-changes.md) om met de recentste documentatieupdates bijgewerkt te blijven.
+Bekijk een glimp van de nieuwste verbeteringen in het Customer Journey Analytics-product en -documentatie! Voor een uitvoerige lijst van eigenschappen, verbeteringen, en moeilijke situaties, controleer de gedetailleerde [ versienota&#39;s ](../release-notes/latest.md). Bezoek de [ pagina van documentupdates ](../release-notes/doc-changes.md) om met de recentste documentatieupdates bijgewerkt te blijven.
 
 >[!BEGINTABS]
 
->[!TAB  Echt - tijd rapporterend* ]
+>[!TAB  Stitching in Verbindingen ]
+
+U kunt het stitching op gebeurtenisdatasets direct binnen Customer Journey Analytics Verbindingen UI nu vormen en toelaten.
+
+[![afbeelding](assets/learn-more-button.svg)](/help/stitching/use-stitching-ui.md)
+
+*_u moet minstens het Uitgezochte pakket hebben om het stitching toe te laten._*
+
+
+>[!TAB  Analyse van het publiek ]
+
+De analyse van het publiek staat u toe om de gegevens van het publiekslidmaatschap van de Gegevensreeksen van het Profiel van Experience Platform in een verbinding van Customer Journey Analytics in te voeren.
+
+[![afbeelding](assets/learn-more-button.svg)](/help/connections/audience-analysis/analyze-audiences.md)
+
+
+>[!TAB  Echt - tijd rapporterend ]
 
 Real-time rapportage in Customer Journey Analytics geeft gegevens en visualisaties in een of meer deelvensters in Analysis Workspace in real-time weer en werkt deze bij.
 
@@ -31,95 +47,19 @@ Real-time rapportage in Customer Journey Analytics geeft gegevens en visualisati
 
 *_u moet het pakket van Ultimate voor rapportering in real time hebben._*
 
+
 >[!TAB  B2B edition ]
 
 Customer Journey Analytics B2B edition helpt B2B-bedrijven hun marketing-, verkoop- en productteams op elkaar af te stemmen door inzichten van actioneerbare accounts te bieden die de inkomstengroei stimuleren. Met de rekening die bij het centrum van het gegevensmodel wordt geplaatst, richt alle analyse zich op de rekeningsreis.
 
 [![afbeelding](assets/learn-more-button.svg)](/help/getting-started/cja-b2b-edition.md)
 
->[!TAB  Voortgekomen gebiedsfuncties ]
-
-Nieuwe afgeleide gebiedsfuncties: [&#x200B; Math van Gegevens &#x200B;](/help/data-views/derived-fields/derived-fields.md#date-math), [&#x200B; Diepte &#x200B;](/help/data-views/derived-fields/derived-fields.md#depth), en [&#x200B; Typecast &#x200B;](/help/data-views/derived-fields/derived-fields.md#typecast).
-
-[![afbeelding](assets/learn-more-button.svg)](/help/data-views/derived-fields/derived-fields.md)
 
 >[!TAB  Content Analytics ]
 
 Met Content Analytics kunt u snel en eenvoudig grote hoeveelheden inhoudsgegevens onderzoeken om trends, anomalieën in steunkleuren, vermoeidheid van inhoud en inzicht in de blootstelling aan inhoud te ontdekken.
 
 [![afbeelding](assets/learn-more-button.svg)](/help/content-analytics/content-analytics.md)
-
->[!TAB  Diepte van de Gebeurtenis ]
-
-De Diepte van de gebeurtenis is een nieuwe standaarddimensie en verstrekt nieuwe manieren om te meten en beter te begrijpen hoe de gebeurtenissen binnen klantenzittingen worden geplaatst. De dimensie van de Diepte van de Gebeurtenis laat gedetailleerde het volgen en analyse van toe waar specifieke gebeurtenissen in de opeenvolgende stroom van gebruikersinteractie binnen een zitting voorkomen.
-
-[![afbeelding](assets/learn-more-button.svg)](/help/components/dimensions/overview.md#standard-dimensions)
-
-
->[!TAB  Gedeelde metriek en dimensies ]
-
-De gedeelde metriek en de afmetingen verstrekken een centrale plaats om afmetingen en metriek te beheren die over om het even welk aantal gegevensmeningen kunnen worden gebruikt. Deze componenten zijn vooral van belang voor organisaties die meerdere gegevensweergaven gebruiken, vooral als die gegevensweergaven gemeenschappelijke componentinstellingen delen.
-
-[![afbeelding](assets/learn-more-button.svg)](/help/data-views/shared-metrics-dimensions/smd-overview.md)
-
-
-<!--
->[!TAB AI Assistant] 
-
-AI Assistant is a conversational experience that allows practitioners to perform tasks at a fast pace - whether its understanding concepts, troubleshooting problems, or searching through information. It also allows non-experts to perform expert tasks and increases the overall quality of work.
-
-[![image](assets/learn-more-button.svg)](/help/ai-assistant.md)
-
-
->[!TAB Guided Analysis] 
-
-Guided Analysis is now available directly from within Analysis Workspace, enabling users to create dashboards with comprehensive insights from panels, visualizations, and guided analyses.
-
-[![image](assets/learn-more-button.svg)](/help/guided-analysis/overview.md)
-
-
-
->[!TAB Intelligent captions v2] 
-
-Intelligent captions are now supported, with additional interface improvements, for [Line](/help/analysis-workspace/visualizations/line.md) (including multi-line), [Bar](/help/analysis-workspace/visualizations/bar.md), [Horizontal bar](/help/analysis-workspace/visualizations/horizontal-bar.md), [Area](/help/analysis-workspace/visualizations/area.md) (including multiple Area lines), [Donut](/help/analysis-workspace/visualizations/donut.md), [Fallout](/help/analysis-workspace/visualizations/fallout/fallout-flow.md), and [Flow](/help/analysis-workspace/visualizations/c-flow/flow.md) visualizations.
-
-[![image](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
-
-
->[!TAB Alerts] 
-
-Alerts allow you to be notified based on changed percentages or specific data points. You can preview how often an alert will trigger, send alerts by email or SMS, create stacked alerts, and more.
-
-[![image](assets/learn-more-button.svg)](/help/components/c-intelligent-alerts/intelligent-alerts.md)
-
-
->[!TAB Summary data] 
-
-Allows you to bring in time-series data that does not have a person ID. This time-series data can be used to support various use cases, such as 
-
-- Presenting high-level performance indicators as part of or next to event-level data. 
-- Uploading targets or goals at an hourly or daily basis, then positioning these targets or goals against event-level metrics. 
-
-[![image](assets/learn-more-button.svg)](/help/data-views/summary-data.md)
-
--->
-
->[!TAB  Grafiek-based stitching* ]
-
-Door op grafiek-gebaseerde het stitching, kunt u de identiteitsgrafiek van de Dienst van de Identiteit van Experience Platform gebruiken om een beter overzicht van de klantenreis te krijgen door: <ul><li>Gegevenssets samenvoegen met verschillende id&#39;s zonder dat er aanvullende gegevens moeten worden opgehaald, getransformeerd en geladen om één id te weerspiegelen.</li> <li>Verbetering van de dekking van de preferente of gouden identiteit voor één gegevensset door identiteiten over gegevensreeksen te delen;</li><li>Profielen die in Real-Time Customer Data Platform en Journey Optimizer zijn gemaakt, worden uitgelijnd met personen in Customer Journey Analytics.</li></ul>
-
-[![afbeelding](assets/learn-more-button.svg)](/help/stitching/overview.md#graph-based-stitching)
-
-*_u moet het pakket van Prime voor op grafiek-gebaseerd het stitching hebben._*
-
->[!TAB  BI uitbreiding* ]
-
-De extensie BI biedt SQL toegang tot de gegevensweergaven die u in Customer Journey Analytics hebt gedefinieerd. U kunt nu uw favoriete BI-tool (Power BI Desktop, Tableau Desktop, Loker, Juyter Notebook en RStudio) gebruiken om rapporten en dashboards te maken op basis van dezelfde gegevensweergaven die Customer Journey Analytics-gebruikers gebruiken voor hun Analysis Workspace-projecten. [&#x200B; de gevallen van het Gebruik &#x200B;](/help/use-cases/data-views/bi-extension-usecases.md) worden verstrekt.
-
-[![afbeelding](assets/learn-more-button.svg)](/help/data-views/bi-extension.md)
-
-*_u moet het Uitgezochte pakket of hoger hebben om de uitbreiding van BI te gebruiken._*
-
 
 >[!ENDTABS]
 
@@ -183,7 +123,7 @@ Begrijp hoe Customer Journey Analytics zich verhoudt tot Adobe Analytics. En hoe
     </td>
     <td>
       <img src="./assets/guided-analysis.svg" width="35px"><br/>
-      <strong> Geleide Analyse </strong><br/> <a href="/help/guided-analysis/overview.md"> Overzicht </a> - <a href="/help/guided-analysis/types/active-growth.md"> de Groei van de Gebruiker </a> - <a href="/help/guided-analysis/types/trends.md"> Trends </a> - <a href="/help/guided-analysis/types/funnel.md"> Trechter </a> - <a href="/help/guided-analysis/types/release-impact.md"> Effect </a> - <a href="/help/guided-analysis/industry-use-cases.md"> het gebruikscase van de Industrie </a>
+      <strong> Geleide Analyse </strong><br/> <a href="/help/guided-analysis/overview.md"> Overzicht </a> - <a href="/help/guided-analysis/types/active-growth.md"> de Groei van de Gebruiker </a> - <a href="/help/guided-analysis/types/trends.md"> Trends </a> - <a href="/help/guided-analysis/types/funnel.md"> Funnel </a> - <a href="/help/guided-analysis/types/release-impact.md"> Effect </a> - <a href="/help/guided-analysis/industry-use-cases.md"> het gebruikscase van de Industrie </a>
     </td>
     <td>
       <img src="./assets/share.svg" width="35px"><br/>
@@ -196,7 +136,7 @@ Begrijp hoe Customer Journey Analytics zich verhoudt tot Adobe Analytics. En hoe
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong> Customer Journey Analytics </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank"> Leerprogramma's </a> - <a href="https://helpx.adobe.com/nl/legal/product-descriptions/customer-journey-analytics.html" target="_blank"> het productbeschrijving van Customer Journey Analytics </a> - <a href="https://helpx.adobe.com/nl/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank"> de productbeschrijving van Adobe Analytics (Customer Journey Analytics toe:voegen-op) </a> - <a href="https://helpx.adobe.com/nl/legal/product-descriptions/customer-journey-analytics-b2b.html" target="_blank"> het productbeschrijving van B2B edition van Customer Journey Analytics </a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank"> Customer Journey Analytics APIs </a> - <a href="/help/ai-assistant.md"> AI Medewerker </a>
+<a href="https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank"> Leerprogramma's </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html" target="_blank"> het productbeschrijving van Customer Journey Analytics </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank"> de productbeschrijving van Adobe Analytics (Customer Journey Analytics toe:voegen-op) </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics-b2b.html" target="_blank"> het productbeschrijving van B2B edition van Customer Journey Analytics </a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank"> Customer Journey Analytics APIs </a> - <a href="/help/ai-assistant.md"> AI Medewerker </a>
 </td>
 <td><strong> Ingestie van Gegevens </strong><br/> <a href="/help/data-ingestion/data-ingestion.md"> Overzicht </a> - <a href="/help/data-ingestion/analytics.md"> Analytics </a> - <a href="/help/data-ingestion/aepwebsdk.md"> SDK van het Web </a> - <a href="/help/data-ingestion/aepmobilesdk.md"> Mobiele SDK </a> - <a href="/help/data-ingestion/batch.md"> Partij </a> - <a href="/help/data-ingestion/streaming.md"> Streaming </a> - <a href="/help/data-ingestion/sources.md"> Bronnen </a> - <a href="/help/data-ingestion/serverapi.md"> Server API </a>
 </td>
@@ -205,4 +145,4 @@ Begrijp hoe Customer Journey Analytics zich verhoudt tot Adobe Analytics. En hoe
 
 
 <table style="table-layout:auto" class="tablelayout-is-fixed"><tbody><tr style="border: 0;"><td><img src="./assets/newsletter.png"></td><td>
-<b> blijf op de hoogte, draag aan de gemeenschap bij, en verhoog uw ervaring van Customer Journey Analytics!</b><br> Bezoek de gemeenschap van Adobe Analytics om de functionaliteit met medepraktiseraars te bespreken. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=nl"> sluit zich vandaag aan bij de gemeenschap!</a></td></tr></tbody></table>
+<b> blijf op de hoogte, draag aan de gemeenschap bij, en verhoog uw ervaring van Customer Journey Analytics!</b><br> Bezoek de gemeenschap van Adobe Analytics om de functionaliteit met medepraktiseraars te bespreken. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community"> sluit zich vandaag aan bij de gemeenschap!</a></td></tr></tbody></table>
