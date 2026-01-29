@@ -18,7 +18,7 @@ In dit artikel wordt beschreven hoe u een aantal gebruiksgevallen (15) kunt uitv
 
 * **Desktop van Power BI**. De gebruikte versie is 2.137.1102.0 64-bits (oktober 2024).
 * **Desktop van Tableau**. De gebruikte versie is 2024.1.5 (20241.24.0705.0334) 64-bits.
-* **Leider**. Online versie 25.0.23, beschikbaar door [ looker.com ](https://looker.com)
+* **Leider**. Online versie 25.0.23, beschikbaar door [&#x200B; looker.com &#x200B;](https://looker.com)
 * **Jupyter Notitieboekje**. De gebruikte versie is 7.3.2.
 * **RStudio**. De gebruikte versie is 2024.12.0, build 467.
 

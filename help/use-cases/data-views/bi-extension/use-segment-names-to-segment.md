@@ -19,11 +19,11 @@ In dit geval wilt u een bestaand segment gebruiken voor de categorie visserijpro
 
 Controleer het segment dat u in Customer Journey Analytics wilt gebruiken.
 
-![ Customer Journey Analytics gebruiken de Namen van de Filter ](../assets/cja-fishing-products.png)
+![&#x200B; Customer Journey Analytics gebruiken de Namen van de Filter &#x200B;](../assets/cja-fishing-products.png)
 
 Vervolgens kunt u dat segment in een voorbeeldvenster van **[!UICONTROL Using Segment Names To Segment]** gebruiken voor het gebruik van hoofdletters en kleine letters:
 
-![ de Afzonderlijke Waarden van de Telling van Customer Journey Analytics ](../assets/cja-using-filter-names-to-filter.png)
+![&#x200B; de Afzonderlijke Waarden van de Telling van Customer Journey Analytics &#x200B;](../assets/cja-using-filter-names-to-filter.png)
 
 +++
 
@@ -31,7 +31,7 @@ Vervolgens kunt u dat segment in een voorbeeldvenster van **[!UICONTROL Using Se
 
 >[!PREREQUISITES]
 >
->Verzeker u [ een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening ](connect-and-validate.md) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
+>Verzeker u [&#x200B; een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening &#x200B;](connect-and-validate.md) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
 >
 
 >[!BEGINTABS]
@@ -54,12 +54,12 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
    1. Selecteer **[!UICONTROL daterange is (All)]** in **[!UICONTROL Filters on this visual]** .
    1. Selecteer **[!UICONTROL Advanced filtering]** als de **[!UICONTROL Filter type]** .
    1. Definieer het filter naar **[!UICONTROL Show items when the value]** **[!UICONTROL is on or after]** `1/1/2023` **[!UICONTROL And]** **[!UICONTROL is before]** `2/1/2023` .
-   1. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL filterName]** uit **[!UICONTROL Columns]** te verwijderen.
-   1. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL daterange]** uit **[!UICONTROL Columns]** te verwijderen.
+   1. Selecteer ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL filterName]** uit **[!UICONTROL Columns]** te verwijderen.
+   1. Selecteer ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL daterange]** uit **[!UICONTROL Columns]** te verwijderen.
 
    De tabel wordt bijgewerkt met het toegepaste filter **[!UICONTROL filterName]** . Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ Desktop die van Power BI de Namen van de Waaier van de Datum gebruikt om te filtreren ](../assets/uc9-powerbi-final.png)
+   ![&#x200B; Desktop die van Power BI de Namen van de Waaier van de Datum gebruikt om te filtreren &#x200B;](../assets/uc9-powerbi-final.png)
 
 
 >[!TAB  Desktop Tableau ]
@@ -77,16 +77,16 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ de Veelvoudige Rangschikte Filter van de Desktop van Tableau Dimension ](../assets/uc9-tableau-final.png)
+      ![&#x200B; de Veelvoudige Rangschikte Filter van de Desktop van Tableau Dimension &#x200B;](../assets/uc9-tableau-final.png)
 
 >[!TAB  Leider ]
 
-1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![ Plaatsende ](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
+1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![&#x200B; Plaatsende &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-      ![ filter van de Leider ](../assets/uc2-looker-filter.png)
+      ![&#x200B; filter van de Leider &#x200B;](../assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/02/01]** .
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** om nog een filter toe te voegen.
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
@@ -102,7 +102,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ minder duidelijke telling ](../assets/uc9-looker-result.png)
+![&#x200B; minder duidelijke telling &#x200B;](../assets/uc9-looker-result.png)
 
 
 
@@ -123,7 +123,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](../assets/uc9-jupyter-input.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](../assets/uc9-jupyter-input.png)
 
 1. Selecteer **[!UICONTROL Fishing Products]** in de vervolgkeuzelijst.
 
@@ -148,12 +148,12 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](../assets/uc9-jupyter-results.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](../assets/uc9-jupyter-results.png)
 
 
 >[!TAB  RStudio ]
 
-1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in. Controleer of u de juiste filternaam gebruikt. Bijvoorbeeld `Fishing Products` .
+1. Voer de volgende instructies tussen ` ` ``{r} ` en ` `` ` ` in een nieuw segment in. Controleer of u de juiste filternaam gebruikt. Bijvoorbeeld `Fishing Products` .
 
    ```R
    ## Dimension filtered by name
@@ -167,7 +167,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](../assets/uc9-rstudio-results.png)
+   ![&#x200B; Resultaten RStudio &#x200B;](../assets/uc9-rstudio-results.png)
 
 
 >[!ENDTABS]

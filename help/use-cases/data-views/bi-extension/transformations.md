@@ -18,8 +18,8 @@ U wilt de transformaties van de voorwerpen van Customer Journey Analytics zoals 
 
 +++ Customer Journey Analytics
 
-In Customer Journey Analytics, bepaalt u in a [ gegevensmening ](/help/data-views/data-views.md), die en hoe de componenten van uw datasets als [ dimensies ](/help/components/dimensions/overview.md) en [ metriek ](/help/components/apply-create-metrics.md) worden blootgesteld. Die definitie van dimensie en metriek wordt blootgesteld aan de hulpmiddelen van BI gebruikend de uitbreiding van BI.
-U gebruikt componenten zoals [ Filters ](/help/components/segments/seg-overview.md), [ Berekende metriek ](/help/components/calc-metrics/calc-metr-overview.md), en [ de waaiers van de Datum ](/help/components/date-ranges/overview.md) als deel van uw projecten van Workspace. Deze componenten worden ook blootgesteld aan de hulpmiddelen van BI gebruikend de uitbreiding van BI.
+In Customer Journey Analytics, bepaalt u in a [&#x200B; gegevensmening &#x200B;](/help/data-views/data-views.md), die en hoe de componenten van uw datasets als [&#x200B; dimensies &#x200B;](/help/components/dimensions/overview.md) en [&#x200B; metriek &#x200B;](/help/components/apply-create-metrics.md) worden blootgesteld. Die definitie van dimensie en metriek wordt blootgesteld aan de hulpmiddelen van BI gebruikend de uitbreiding van BI.
+U gebruikt componenten zoals [&#x200B; Filters &#x200B;](/help/components/segments/seg-overview.md), [&#x200B; Berekende metriek &#x200B;](/help/components/calc-metrics/calc-metr-overview.md), en [&#x200B; de waaiers van de Datum &#x200B;](/help/components/date-ranges/overview.md) als deel van uw projecten van Workspace. Deze componenten worden ook blootgesteld aan de hulpmiddelen van BI gebruikend de uitbreiding van BI.
 
 +++
 
@@ -27,7 +27,7 @@ U gebruikt componenten zoals [ Filters ](/help/components/segments/seg-overview.
 
 >[!PREREQUISITES]
 >
->Verzeker u [ een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening ](connect-and-validate.md) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
+>Verzeker u [&#x200B; een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening &#x200B;](connect-and-validate.md) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
 >
 
 >[!BEGINTABS]
@@ -47,24 +47,24 @@ Metrische gegevens uit Customer Journey Analytics worden geïdentificeerd door d
 Filters die u in Customer Journey Analytics definieert, zijn beschikbaar in het veld **[!UICONTROL filterName]** . Wanneer u een **[!UICONTROL filterName]** -veld gebruikt in Power BI Desktop, kunt u opgeven welk filter u wilt gebruiken.
 
 **Berekende metriek**
-De berekende metriek die u in Customer Journey Analytics bepaalt worden geïdentificeerd door [!UICONTROL External ID] u voor berekende metrisch hebt bepaald. Berekende metrische waarde **[!UICONTROL Product Name (Count Distinct)]** heeft bijvoorbeeld [!UICONTROL External ID] **[!UICONTROL product_name_count_distinct]** en wordt weergegeven als **[!UICONTROL cm_product_name_count_distinc]**t in Power BI Desktop.
+De berekende metriek die u in Customer Journey Analytics bepaalt worden geïdentificeerd door [!UICONTROL External ID] u voor berekende metrisch hebt bepaald. Berekende metrische waarde **[!UICONTROL Product Name (Count Distinct)]** heeft bijvoorbeeld [!UICONTROL External ID] **[!UICONTROL product_name_count_distinct]** en wordt weergegeven als **[!UICONTROL cm_product_name_count_distinc]**&#x200B;t in Power BI Desktop.
 
 **waaiers van de Datum**
 Datumbereiken die u in Customer Journey Analytics definieert, zijn beschikbaar in het veld **[!UICONTROL daterangeName]** . Wanneer u een veld **[!UICONTROL daterangeName]** gebruikt, kunt u opgeven welk datumbereik u wilt gebruiken.
 
 **de transformaties van de Douane**
-De Desktop van Power BI verstrekt de functionaliteit van de douanetransformatie gebruikend [ Uitdrukkingen van de Analyse van Gegevens (DAX) ](https://learn.microsoft.com/en-us/dax/dax-overview). Als voorbeeld, wilt u de [ Enige afmeting gerangschikte ](#single-dimension-ranked) gebruiksgeval met productnamen in kleine letters uitvoeren.
+De Desktop van Power BI verstrekt de functionaliteit van de douanetransformatie gebruikend [&#x200B; Uitdrukkingen van de Analyse van Gegevens (DAX) &#x200B;](https://learn.microsoft.com/en-us/dax/dax-overview). Als voorbeeld, wilt u de [&#x200B; Enige afmeting gerangschikte &#x200B;](#single-dimension-ranked) gebruiksgeval met productnamen in kleine letters uitvoeren.
 
 1. Selecteer in de rapportweergave de streepjesvisualisatie.
 1. Selecteer **[!UICONTROL product_name]** in het venster Gegevens.
 1. Selecteer **[!UICONTROL New column]** op de werkbalk.
 1. Definieer in de formule-editor een nieuwe kolom met de naam `product_name_lower` , net als `product_name_lower = LOWER('public.cc_data_view[product_name])` .
-   ![ de Transformatie van de Desktop van Power BI aan Laag ](../assets/uc14-powerbi-transformation.png)
+   ![&#x200B; de Transformatie van de Desktop van Power BI aan Laag &#x200B;](../assets/uc14-powerbi-transformation.png)
 1. Selecteer de nieuwe kolom **[!UICONTROL product_name_lower]** in het deelvenster **[!UICONTROL Data]** in plaats van de kolom **[!UICONTROL product_name]** .
-1. Selecteer **[!UICONTROL Report as Table]** van ![ Meer ](/help/assets/icons/More.svg) in de lijstvisualisatie.
+1. Selecteer **[!UICONTROL Report as Table]** van ![&#x200B; Meer &#x200B;](/help/assets/icons/More.svg) in de lijstvisualisatie.
 
    Je Power BI Desktop moet er hieronder uitzien.
-   ![ Definitieve Transformatie van de Desktop van Power BI ](../assets/uc14-powerbi-final.png)
+   ![&#x200B; Definitieve Transformatie van de Desktop van Power BI &#x200B;](../assets/uc14-powerbi-final.png)
 
 De aangepaste transformatie resulteert in een update van SQL-query&#39;s. Zie het gebruik van de functie `lower` in het volgende SQL-voorbeeld:
 
@@ -128,11 +128,11 @@ De berekende metriek die u in Customer Journey Analytics bepaalt worden geïdent
 Datumbereiken die u in Customer Journey Analytics definieert, zijn beschikbaar in het veld **[!UICONTROL Daterange Name]** . Wanneer u een veld **[!UICONTROL Daterange Name]** gebruikt, kunt u opgeven welk datumbereik u wilt gebruiken.
 
 **de transformaties van de Douane**
-De Desktop van tableau verstrekt de functionaliteit van de douanetransformatie gebruikend [ Berekende Gebieden ](https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm). Als voorbeeld, wilt u de [ Enige afmeting gerangschikte ](#single-dimension-ranked) gebruiksgeval met productnamen in kleine letters uitvoeren.
+De Desktop van tableau verstrekt de functionaliteit van de douanetransformatie gebruikend [&#x200B; Berekende Gebieden &#x200B;](https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_create.htm). Als voorbeeld, wilt u de [&#x200B; Enige afmeting gerangschikte &#x200B;](#single-dimension-ranked) gebruiksgeval met productnamen in kleine letters uitvoeren.
 
 1. Selecteer **[!UICONTROL Analysis]** > **[!UICONTROL Create Calculated Field]** in het hoofdmenu.
    1. Definieer **[!UICONTROL Lowercase Product Name]** met de functie `LOWER([Product Name])` .
-      ![ Berekend Gebied van Tableau ](../assets/uc14-tableau-calculated-field.png)
+      ![&#x200B; Berekend Gebied van Tableau &#x200B;](../assets/uc14-tableau-calculated-field.png)
    1. Selecteer **[!UICONTROL OK]**.
 1. Selecteer het **[!UICONTROL Data]** blad.
    1. Sleep **[!UICONTROL Lowercase Product Name]** van **[!UICONTROL Tables]** en laat vallen de ingang in het gebied naast **[!UICONTROL Rows]**.
@@ -141,7 +141,7 @@ De Desktop van tableau verstrekt de functionaliteit van de douanetransformatie g
 
 Uw Tableau Desktop moet er hieronder uitzien.
 
-![ Desktop Tableau na transformatie ](../assets/uc14-tableau-final.png)
+![&#x200B; Desktop Tableau na transformatie &#x200B;](../assets/uc14-tableau-final.png)
 
 De aangepaste transformatie resulteert in updates van SQL-query&#39;s. Zie het gebruik van de functie `LOWER` in het volgende SQL-voorbeeld:
 
@@ -176,18 +176,18 @@ De berekende metriek die u in Customer Journey Analytics bepaalt worden geïdent
 Datumbereiken die u in Customer Journey Analytics definieert, zijn beschikbaar in het veld **[!UICONTROL Daterange Name]** . Wanneer u een veld **[!UICONTROL Daterange Name]** gebruikt, kunt u opgeven welk datumbereik u wilt gebruiken.
 
 **de transformaties van de Douane**
-Looker biedt aangepaste transformatiefuncties met behulp van aangepaste veldbuilders, zoals hierboven wordt weergegeven. Als voorbeeld, wilt u de [ Enige afmeting gerangschikte ](#single-dimension-ranked) gebruiksgeval met productnamen in kleine letters uitvoeren.
+Looker biedt aangepaste transformatiefuncties met behulp van aangepaste veldbuilders, zoals hierboven wordt weergegeven. Als voorbeeld, wilt u de [&#x200B; Enige afmeting gerangschikte &#x200B;](#single-dimension-ranked) gebruiksgeval met productnamen in kleine letters uitvoeren.
 
 1. Vanuit het gedeelte **[!UICONTROL ‣ Custom Fields]** in de linkertrack:
    1. Selecteer **[!UICONTROL Custom Dimension]** in de vervolgkeuzelijst **[!UICONTROL + Add]** .
    1. Voer `lower(${cc_data_view.product_name})` in het tekstgebied **[!UICONTROL Expression]** in. Wanneer u `Product Name` begint te typen, krijgt u de juiste syntaxis.
-      ![ de transformatievoorbeeld van de Leider ](../assets/uc14-looker-transformation.png)
+      ![&#x200B; de transformatievoorbeeld van de Leider &#x200B;](../assets/uc14-looker-transformation.png)
    1. Voer `product name` in als de **[!UICONTROL Name]** .
    1. Selecteer **[!UICONTROL Save]**.
 
 U dient een vergelijkbare tabel te zien zoals hieronder weergegeven.
 
-![ Lager transformatieresultaat ](../assets/uc14-looker-result.png)
+![&#x200B; Lager transformatieresultaat &#x200B;](../assets/uc14-looker-result.png)
 
 
 De aangepaste transformatie resulteert in updates van SQL-query&#39;s. Zie het gebruik van de functie `LOWER` in het volgende SQL-voorbeeld:
@@ -226,7 +226,7 @@ De Customer Journey Analytics-objecten (afmetingen, metriek, filters, berekende 
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](../assets/uc13-jupyter-results.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](../assets/uc13-jupyter-results.png)
 
 De query wordt uitgevoerd door de BI-extensie zoals gedefinieerd in Jupyter Notebook.
 
@@ -236,7 +236,7 @@ De Customer Journey Analytics-componenten (afmetingen, metriek, filters, bereken
 
 **de transformaties van de Douane**
 
-1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in.
+1. Voer de volgende instructies tussen ` ` ``{r} ` en ` `` ` ` in een nieuw segment in.
 
    ```R
    df <- dv %>%
@@ -250,7 +250,7 @@ De Customer Journey Analytics-componenten (afmetingen, metriek, filters, bereken
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](../assets/uc13-rstudio-results.png)
+   ![&#x200B; Resultaten RStudio &#x200B;](../assets/uc13-rstudio-results.png)
 
 De query die wordt gegenereerd door RStudio met de BI-extensie bevat `lower` . Dit houdt in dat de aangepaste transformatie wordt uitgevoerd door RStudio en de BI-extensie.
 

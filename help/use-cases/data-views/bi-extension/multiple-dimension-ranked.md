@@ -20,7 +20,7 @@ In dit geval wilt u een tabel weergeven die de aankoopopbrengsten en -aankopen v
 
 Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdlettergebruik:
 
-![ Veelvoudige Dimension van Customer Journey Analytics Rangschikte paneel ](../assets/cja-multiple-dimension-ranked.png)
+![&#x200B; Veelvoudige Dimension van Customer Journey Analytics Rangschikte paneel &#x200B;](../assets/cja-multiple-dimension-ranked.png)
 
 +++
 
@@ -28,7 +28,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
 >[!PREREQUISITES]
 >
->Verzeker u [ een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening ](connect-and-validate.md) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
+>Verzeker u [&#x200B; een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening &#x200B;](connect-and-validate.md) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
 >
 
 >[!BEGINTABS]
@@ -49,7 +49,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
    1. Selecteren **[!UICONTROL sum purchases]**
 
 1. Als u het verticale staafdiagram wilt wijzigen in een tabel, zorgt u dat de tabel is geselecteerd en selecteert u **[!UICONTROL Matrix]** in het deelvenster **[!UICONTROL Visualizations]** .
-   * Sleep **[!UICONTROL product_name]** vanuit **[!UICONTROL Columns]** en zet het veld onder **[!UICONTROL product_categor] **y neer in **[!UICONTROL Rows]** in het deelvenster **[!UICONTROL Visualization]** .
+   * Sleep **[!UICONTROL product_name]** vanuit **[!UICONTROL Columns]** en zet het veld onder **[!UICONTROL product_categor] &#x200B;** y neer in **[!UICONTROL Rows]** in het deelvenster **[!UICONTROL Visualization]** .
 
 1. Selecteer **[!UICONTROL product_name is (All)]** in het deelvenster **[!UICONTROL Filters]** om het aantal weergegeven producten in de tabel te beperken.
 
@@ -62,7 +62,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
 1. Selecteer **[!UICONTROL +]** op productcategorieniveau om elke categorie in de tabel op te splitsen. Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ de Meerdere Dimensies van de Desktop van Power BI Rangschikte matrixlijst ](../assets/uc6-powerbi-data.png)
+   ![&#x200B; de Meerdere Dimensies van de Desktop van Power BI Rangschikte matrixlijst &#x200B;](../assets/uc6-powerbi-data.png)
 
 1. Selecteer **[!UICONTROL Home]** in het bovenste menu en selecteer **[!UICONTROL New visual]** . Een nieuwe visuele wordt toegevoegd aan uw rapport.
 
@@ -76,7 +76,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
    Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ de Veelvoudige Dimensies van de Desktop van Power BI Rangschikte treemap ](../assets/uc6-powerbi-treemap.png)
+   ![&#x200B; de Veelvoudige Dimensies van de Desktop van Power BI Rangschikte treemap &#x200B;](../assets/uc6-powerbi-treemap.png)
 
 1. Selecteer **[!UICONTROL Home]** in het bovenste menu en selecteer **[!UICONTROL New visual]** . Een nieuwe visuele wordt toegevoegd aan uw rapport.
 
@@ -93,7 +93,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
    Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ Veelvoudige Afmetingen van de Desktop van Power BI die definitief worden gerangschikt ](../assets/uc6-powerbi-final.png)
+   ![&#x200B; Veelvoudige Afmetingen van de Desktop van Power BI die definitief worden gerangschikt &#x200B;](../assets/uc6-powerbi-final.png)
 
 
 >[!TAB  Desktop Tableau ]
@@ -105,7 +105,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ de Veelvoudige Rangschikte Filter van de Desktop van Tableau Dimension ](../assets/uc6-tableau-filter.png)
+      ![&#x200B; de Veelvoudige Rangschikte Filter van de Desktop van Tableau Dimension &#x200B;](../assets/uc6-tableau-filter.png)
 
    1. Sleep **[!UICONTROL Product Category]** en zet de muisknop los naast **[!UICONTROL Columns]** .
    1. Sleep **[!UICONTROL Purchase Revenue]** en zet de muisknop los naast **[!UICONTROL Rows]** . De waarde verandert in **[!UICONTROL SUM(Purchase Revenue)]** .
@@ -118,7 +118,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Veelvoudige Afmetingen van de Desktop van Tableau Rangschikte Categorie ](../assets/uc6-tableau-category.png)
+      ![&#x200B; Veelvoudige Afmetingen van de Desktop van Tableau Rangschikte Categorie &#x200B;](../assets/uc6-tableau-category.png)
 
 1. Wijzig de naam van het huidige **[!UICONTROL Sheet 1]** blad in `Category` .
 1. Selecteer **[!UICONTROL New Worksheet]** om een nieuw blad te maken en wijzig de naam in `Data` .
@@ -137,7 +137,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ de Veelvoudige Gegevens van Dimension van de Desktop van Tableau ](../assets/uc6-tableau-data.png)
+      ![&#x200B; de Veelvoudige Gegevens van Dimension van de Desktop van Tableau &#x200B;](../assets/uc6-tableau-data.png)
 
 1. Selecteer **[!UICONTROL New worksheet]** om een nieuw blad te maken en de naam ervan te wijzigen in **[!UICONTROL Treemap]** .
    1. Sleep de vermelding **[!UICONTROL Daterange]** uit de lijst **[!UICONTROL Tables]** in het deelvenster **[!UICONTROL Data]** en zet deze op de **[!UICONTROL Filters]** shelf neer.
@@ -154,7 +154,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ de Veelvoudige Gegevens van Dimension van de Desktop van Tableau ](../assets/uc6-tableau-treemap.png)
+      ![&#x200B; de Veelvoudige Gegevens van Dimension van de Desktop van Tableau &#x200B;](../assets/uc6-tableau-treemap.png)
 
 1. Selecteer **[!UICONTROL New Dashboard]** tabknop (onder) om een nieuwe **[!UICONTROL Dashboard 1]** -weergave te maken. In de weergave **[!UICONTROL Dashboard 1]** :
    1. Sleep en laat vallen het **[!UICONTROL Category]** blad van **[!UICONTROL Sheets]** plank op de **[!UICONTROL Dashboard 1]** mening die *Dropbladen hier* leest.
@@ -164,17 +164,17 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
 
    De weergave **[!UICONTROL Dashboard 1]** ziet er hieronder ongeveer zo uit.
 
-   ![ Dashboard 1 van de Desktop van Tableau ](../assets/uc6-tableau-final.png)
+   ![&#x200B; Dashboard 1 van de Desktop van Tableau &#x200B;](../assets/uc6-tableau-final.png)
 
 
 >[!TAB  Leider ]
 
-1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![ Plaatsende ](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
+1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![&#x200B; Plaatsende &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-      ![ filter van de Leider ](../assets/uc2-looker-filter.png)
+      ![&#x200B; filter van de Leider &#x200B;](../assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2024/01/01]** .
 1. Vanuit het gedeelte **[!UICONTROL ‣ Cc Data View]** in de linkertrack:
    1. Selecteer **[!UICONTROL Product Category]**.
@@ -187,7 +187,7 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
       1. Voer een aangepaste veldnaam in voor **[!UICONTROL Name]** . Bijvoorbeeld: `Sum of Purchase Revenue` .
       1. Selecteer het tabblad **[!UICONTROL Field details]**. 
       1. Selecteer **[!UICONTROL Decimals]** in de vervolgkeuzelijst **[!UICONTROL Format]** en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .
-         ![ Lager aangepast metrisch gebied ](../assets/uc5-looker-customfield.png)
+         ![&#x200B; Lager aangepast metrisch gebied &#x200B;](../assets/uc5-looker-customfield.png)
       1. Selecteer **[!UICONTROL Save]**.
    1. Selecteer **[!UICONTROL Custom Measure]** nogmaals in de vervolgkeuzelijst **[!UICONTROL + Add]** . In het dialoogvenster **[!UICONTROL Create custom]** -meting:
       1. Selecteer **[!UICONTROL Purchases]** in de vervolgkeuzelijst **[!UICONTROL Field to measure]** .
@@ -206,14 +206,14 @@ Een voorbeeldvenster **[!UICONTROL Multiple Dimension Ranked]** voor het hoofdle
    1. Schuif omlaag en selecteer **[!UICONTROL Edit Chart Config]** .
    1. Wijzig de JSON in **[!UICONTROL Chart Config (Override)]** zoals in de onderstaande schermafbeelding en selecteer vervolgens **[!UICONTROL Preview]** .
 
-      ![ Laagere virtualisatie config ](../assets/uc6-looker-visualization.png)
+      ![&#x200B; Laagere virtualisatie config &#x200B;](../assets/uc6-looker-visualization.png)
 
    1. Selecteer **[!UICONTROL Apply]**.
-   1. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) naast **[!UICONTROL Edit]** om de popup dialoog te verbergen
+   1. Selecteer ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg) naast **[!UICONTROL Edit]** om de popup dialoog te verbergen
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ Minder resultaat dagelijkse trend ](../assets/uc6-looker-result.png)
+![&#x200B; Minder resultaat dagelijkse trend &#x200B;](../assets/uc6-looker-result.png)
 
 
 >[!TAB  Jupyter Notitieboekje ]
@@ -239,12 +239,12 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](../assets/uc6-jupyter-results.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](../assets/uc6-jupyter-results.png)
 
 
 >[!TAB  RStudio ]
 
-1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in.
+1. Voer de volgende instructies tussen ` ` ``{r} ` en ` `` ` ` in een nieuw segment in.
 
    ```R
    ## Multiple dimensions ranked
@@ -258,7 +258,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](../assets/uc6-rstudio-results.png)
+   ![&#x200B; Resultaten RStudio &#x200B;](../assets/uc6-rstudio-results.png)
 
 
 >[!ENDTABS]

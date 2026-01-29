@@ -20,11 +20,11 @@ In dit geval wilt u het duidelijke aantal productnamen ophalen waarop in januari
 
 Als u een duidelijke telling van productnamen wilt rapporteren, stelt u in Customer Journey Analytics een berekende metrische waarde in met **[!UICONTROL Title]** `Product Name (Count Distinct)` en **[!UICONTROL External Id]** `product_name_count_distinct` .
 
-![ berekende de productnaam van Customer Journey Analytics (Afzonderlijke Telling) metrisch ](../assets/cja-calc-metric-distinct-count-product-names.png)
+![&#x200B; berekende de productnaam van Customer Journey Analytics (Afzonderlijke Telling) metrisch &#x200B;](../assets/cja-calc-metric-distinct-count-product-names.png)
 
 Vervolgens kunt u die metrische waarde gebruiken in een voorbeeldvenster van **[!UICONTROL Count Distinct Dimension Values]** voor het gebruik van hoofdletters en kleine letters:
 
-![ de Afzonderlijke Waarden van de Telling van Customer Journey Analytics ](../assets/cja-count-distinct-dimension-values.png)
+![&#x200B; de Afzonderlijke Waarden van de Telling van Customer Journey Analytics &#x200B;](../assets/cja-count-distinct-dimension-values.png)
 
 +++
 
@@ -32,7 +32,7 @@ Vervolgens kunt u die metrische waarde gebruiken in een voorbeeldvenster van **[
 
 >[!PREREQUISITES]
 >
->Verzeker u [ een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening ](connect-and-validate.md) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
+>Verzeker u [&#x200B; een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening &#x200B;](connect-and-validate.md) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
 >
 
 >[!BEGINTABS]
@@ -53,7 +53,7 @@ Vervolgens kunt u die metrische waarde gebruiken in een voorbeeldvenster van **[
 
    Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ de Veelvoudige Lijst van de Telling van Power BI van de Desktop Veelvoudige ](../assets/uc7-powerbi-table.png)
+   ![&#x200B; de Veelvoudige Lijst van de Telling van Power BI van de Desktop Veelvoudige &#x200B;](../assets/uc7-powerbi-table.png)
 
 1. Selecteer de tabelvisualisatie. Selecteer **[!UICONTROL Copy]** > **[!UICONTROL Copy visual]** in het contextmenu.
 1. Plak de visualisatie met **[!UICONTROL ctrl-v]** . De exacte kopie van de visualisatie overlapt de originele versie. Verplaats het naar rechts in het rapportgebied.
@@ -61,14 +61,14 @@ Vervolgens kunt u die metrische waarde gebruiken in een voorbeeldvenster van **[
 
    Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ de Veelvoudige Lijst van de Telling van Power BI van de Desktop Veelvoudige ](../assets/uc7-powerbi-final.png)
+   ![&#x200B; de Veelvoudige Lijst van de Telling van Power BI van de Desktop Veelvoudige &#x200B;](../assets/uc7-powerbi-final.png)
 
 U kunt ook de functie Telling gebruiken, die anders is dan Power BI.
 
 1. Selecteer de **[!UICONTROL product_name]** -dimensie.
 1. Pas de functie **[!UICONTROL Count (Distinct)]** toe op de **[!UICONTROL product_name]** dimensie in **[!UICONTROL Columns]** .
 
-   ![ de Telling van Power BI Distinct ](../assets/uc7-powerbi-alternative.png)
+   ![&#x200B; de Telling van Power BI Distinct &#x200B;](../assets/uc7-powerbi-alternative.png)
 
 
 
@@ -86,7 +86,7 @@ U kunt ook de functie Telling gebruiken, die anders is dan Power BI.
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ de Veelvoudige Rangschikte Filter van de Desktop van Tableau Dimension ](../assets/uc7-tableau-data.png)
+      ![&#x200B; de Veelvoudige Rangschikte Filter van de Desktop van Tableau Dimension &#x200B;](../assets/uc7-tableau-data.png)
 
 1. Selecteer **[!UICONTROL Duplicate]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om een tweede blad te maken.
 1. Selecteer **[!UICONTROL Rename]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om de naam van het werkblad te wijzigen in `Data` .
@@ -101,7 +101,7 @@ U kunt ook de functie Telling gebruiken, die anders is dan Power BI.
 
    Uw Tableau Desktop moet er hieronder uitzien.
 
-   ![ de Veelvoudige Rangschikte Filter van de Desktop van Tableau Dimension ](../assets/uc7-tableau-card.png)
+   ![&#x200B; de Veelvoudige Rangschikte Filter van de Desktop van Tableau Dimension &#x200B;](../assets/uc7-tableau-card.png)
 
 1. Selecteer **[!UICONTROL New Dashboard]** tabknop (onder) om een nieuwe **[!UICONTROL Dashboard 1]** -weergave te maken. In de weergave **[!UICONTROL Dashboard 1]** :
    1. Sleep en laat vallen het **[!UICONTROL Card]** blad van **[!UICONTROL Sheets]** plank op de **[!UICONTROL Dashboard 1]** mening die *Dropbladen hier* leest.
@@ -109,7 +109,7 @@ U kunt ook de functie Telling gebruiken, die anders is dan Power BI.
 
    De weergave **[!UICONTROL Dashboard 1]** ziet er hieronder ongeveer zo uit.
 
-   ![ Dashboard 1 van de Desktop van Tableau ](../assets/uc7-tableau-final.png)
+   ![&#x200B; Dashboard 1 van de Desktop van Tableau &#x200B;](../assets/uc7-tableau-final.png)
 
 
 Alternatief, kunt u de telling verschillende functionaliteit van Desktop gebruiken Tableau.
@@ -117,28 +117,28 @@ Alternatief, kunt u de telling verschillende functionaliteit van Desktop gebruik
 1. Gebruik **[!UICONTROL Product Name]** in plaats van **[!UICONTROL Cm Product Name Count Distinct]** .
 1. Pas **[!UICONTROL Measure]** > **[!UICONTROL Count (Distinct)]** on **[!UICONTROL Product Name]** toe in **[!UICONTROL Marks]** .
 
-   ![ Afzonderlijke Telling van Tableau ](../assets/uc7-tableau-alternative.png)
+   ![&#x200B; Afzonderlijke Telling van Tableau &#x200B;](../assets/uc7-tableau-alternative.png)
 
 
 >[!TAB  Leider ]
 
-1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![ Plaatsende ](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
+1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![&#x200B; Plaatsende &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-      ![ filter van de Leider ](../assets/uc2-looker-filter.png)
+      ![&#x200B; filter van de Leider &#x200B;](../assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/02/01]** .
 1. Vanuit het gedeelte **[!UICONTROL ‣ Cc Data View]** in de linkertrack:
    1. Selecteer **[!UICONTROL Daterange Date]** en vervolgens **[!UICONTROL Date]** .
    1. Selecteer **[!UICONTROL Aggregate ‣ Count Distinct]** in het contextmenu **⋮ Meer** in **[!UICONTROL Product Name]** .
-      ![ het Contextmenu van de Naam van het Product van de Leider ](../assets/uc7-looker-count-distinct.png)
+      ![&#x200B; het Contextmenu van de Naam van het Product van de Leider &#x200B;](../assets/uc7-looker-count-distinct.png)
 1. Selecteer **[!UICONTROL Run]**.
 1. Selecteer **[!UICONTROL ‣ Visualization]** en selecteer 6︎⃣ op de werkbalk om één waardenvisualisatie weer te geven.
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ minder duidelijke telling ](../assets/uc7-looker-result.png)
+![&#x200B; minder duidelijke telling &#x200B;](../assets/uc7-looker-result.png)
 
 
 >[!TAB  Jupyter Notitieboekje ]
@@ -154,12 +154,12 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](../assets/uc7-jupyter-results.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](../assets/uc7-jupyter-results.png)
 
 
 >[!TAB  RStudio ]
 
-1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in.
+1. Voer de volgende instructies tussen ` ` ``{r} ` en ` `` ` ` in een nieuw segment in.
 
    ```R
    ## Count Distinct
@@ -171,7 +171,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](../assets/uc7-rstudio-results.png)
+   ![&#x200B; Resultaten RStudio &#x200B;](../assets/uc7-rstudio-results.png)
 
 
 >[!ENDTABS]

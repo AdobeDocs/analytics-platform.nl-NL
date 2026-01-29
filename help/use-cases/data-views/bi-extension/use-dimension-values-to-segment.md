@@ -20,11 +20,11 @@ Vervolgens wilt u het nieuwe segment gebruiken om productnamen en voorvallen (vo
 
 Maak een nieuw segment met **[!UICONTROL Title]** `Hunting Products` in Customer Journey Analytics.
 
-![ de Waarden van Dimension van het Gebruik van Customer Journey Analytics aan segment ](../assets/cja-hunting-products.png)
+![&#x200B; de Waarden van Dimension van het Gebruik van Customer Journey Analytics aan segment &#x200B;](../assets/cja-hunting-products.png)
 
 Vervolgens kunt u dat segment in een voorbeeldvenster van **[!UICONTROL Using Dimension Values To Filter]** gebruiken voor het gebruik van hoofdletters en kleine letters:
 
-![ de Afzonderlijke Waarden van de Telling van Customer Journey Analytics ](../assets/cja-using-dimension-values-to-filter.png)
+![&#x200B; de Afzonderlijke Waarden van de Telling van Customer Journey Analytics &#x200B;](../assets/cja-using-dimension-values-to-filter.png)
 
 +++
 
@@ -32,7 +32,7 @@ Vervolgens kunt u dat segment in een voorbeeldvenster van **[!UICONTROL Using Di
 
 >[!PREREQUISITES]
 >
->Verzeker u [ een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening ](connect-and-validate.md) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
+>Verzeker u [&#x200B; een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening &#x200B;](connect-and-validate.md) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
 >
 
 >[!BEGINTABS]
@@ -56,18 +56,18 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
    1. Selecteer **[!UICONTROL Advanced filtering]** als de **[!UICONTROL Filter type]** .
    1. Definieer het filter naar **[!UICONTROL Show items when the value]** **[!UICONTROL is on or after]** `1/1/2023` **[!UICONTROL And]** **[!UICONTROL is before]** `2/1/2023` .
    1. Selecteer **[!UICONTROL Basic filter]** als de **[!UICONTROL Filter type]** for **[!UICONTROL product_category]** en selecteer **[!UICONTROL Hunting]** in de lijst met mogelijke waarden.
-   1. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL filterName]** uit **[!UICONTROL Columns]** te verwijderen.
-   1. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL daterange]** uit **[!UICONTROL Columns]** te verwijderen.
+   1. Selecteer ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL filterName]** uit **[!UICONTROL Columns]** te verwijderen.
+   1. Selecteer ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL daterange]** uit **[!UICONTROL Columns]** te verwijderen.
 
    De tabel wordt bijgewerkt met het toegepaste filter **[!UICONTROL product_category]** . Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ Desktop die van Power BI de Namen van de Waaier van de Datum gebruikt om te filtreren ](../assets/uc10-powerbi-final.png)
+   ![&#x200B; Desktop die van Power BI de Namen van de Waaier van de Datum gebruikt om te filtreren &#x200B;](../assets/uc10-powerbi-final.png)
 
 
 
 >[!TAB  Desktop Tableau ]
 
-![ AlertRed ](/help/assets/icons/AlertRed.svg) Desktop van Tableau steunt het halen van de dynamische lijst van productcategorieën van Customer Journey Analytics niet. In plaats daarvan wordt in dit geval het nieuwe filter voor **[!UICONTROL Hunting Products]** gebruikt en worden de criteria voor de filternaam gebruikt.
+![&#x200B; AlertRed &#x200B;](/help/assets/icons/AlertRed.svg) Desktop van Tableau steunt het halen van de dynamische lijst van productcategorieën van Customer Journey Analytics niet. In plaats daarvan wordt in dit geval het nieuwe filter voor **[!UICONTROL Hunting Products]** gebruikt en worden de criteria voor de filternaam gebruikt.
 
 1. In de **[!UICONTROL Data Source]** mening, onder **[!UICONTROL Data]**, van het contextmenu op **[!UICONTROL cc_data_view(prod:cja%3FFLATTEN)]**, selecteer **[!UICONTROL Refresh]**. U moet de verbinding vernieuwen om het nieuwe filter op te halen dat u net in Customer Journey Analytics hebt gedefinieerd.
 1. Selecteer de tab **[!UICONTROL Sheet 1]** onderaan om te schakelen van **[!UICONTROL Data source]** . In de weergave **[!UICONTROL Sheet 1]** :
@@ -83,17 +83,17 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ de Veelvoudige Rangschikte Filter van de Desktop van Tableau Dimension ](../assets/uc10-tableau-final.png)
+      ![&#x200B; de Veelvoudige Rangschikte Filter van de Desktop van Tableau Dimension &#x200B;](../assets/uc10-tableau-final.png)
 
 >[!TAB  Leider ]
 
-1. In de 1. Vernieuw de verbinding in de **[!UICONTROL Explore]** -interface van Looker. Selecteer ![ Plaatsend ](/help/assets/icons/Setting.svg) **[!UICONTROL Clear cache and refresh]**.
-1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![ Plaatsende ](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
+1. In de 1. Vernieuw de verbinding in de **[!UICONTROL Explore]** -interface van Looker. Selecteer ![&#x200B; Plaatsend &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Clear cache and refresh]**.
+1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![&#x200B; Plaatsende &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-      ![ filter van de Leider ](../assets/uc2-looker-filter.png)
+      ![&#x200B; filter van de Leider &#x200B;](../assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/02/01]** .
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** om nog een filter toe te voegen.
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
@@ -101,9 +101,9 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
    1. Selecteer **[!UICONTROL ‣ Product Category]** in de lijst met velden.
 1. Controleer **[!UICONTROL is]** als de selectie voor het filter.
 
-![ AlertRed ](/help/assets/icons/AlertRed.svg) Lijnen toont niet de lijst van mogelijke waarden voor **[!UICONTROL Product Category]**.
+![&#x200B; AlertRed &#x200B;](/help/assets/icons/AlertRed.svg) Lijnen toont niet de lijst van mogelijke waarden voor **[!UICONTROL Product Category]**.
 
-![ minder duidelijke telling ](../assets/uc10-looker-result.png)
+![&#x200B; minder duidelijke telling &#x200B;](../assets/uc10-looker-result.png)
 
 
 >[!TAB  Jupyter Notitieboekje ]
@@ -123,7 +123,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](../assets/uc10-jupyter-input.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](../assets/uc10-jupyter-input.png)
 
 1. Selecteer **[!UICONTROL Hunting]** in de vervolgkeuzelijst.
 
@@ -149,12 +149,12 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](../assets/uc10-jupyter-results.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](../assets/uc10-jupyter-results.png)
 
 
 >[!TAB  RStudio ]
 
-1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in. Gebruik de juiste categorie. Bijvoorbeeld `Hunting` .
+1. Voer de volgende instructies tussen ` ` ``{r} ` en ` `` ` ` in een nieuw segment in. Gebruik de juiste categorie. Bijvoorbeeld `Hunting` .
 
    ```R
    ## Dimension 1 Filtered by Dimension 2 value
@@ -168,7 +168,7 @@ Er wordt een visualisatie weergegeven **[!UICONTROL Error fetching data for this
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](../assets/uc10-rstudio-results.png)
+   ![&#x200B; Resultaten RStudio &#x200B;](../assets/uc10-rstudio-results.png)
 
 >[!ENDTABS]
 

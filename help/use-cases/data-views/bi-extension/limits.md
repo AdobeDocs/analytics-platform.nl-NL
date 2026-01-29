@@ -20,7 +20,7 @@ In dit geval, wilt u over de hoogste 5 voorkomen van productnamen tijdens 2023 r
 
 Een voorbeeldvenster **[!UICONTROL Limit]** voor het hoofdlettergebruik:
 
-![ het paneel van de Grens van Customer Journey Analytics ](../assets/cja-limit.png)
+![&#x200B; het paneel van de Grens van Customer Journey Analytics &#x200B;](../assets/cja-limit.png)
 
 +++
 
@@ -28,7 +28,7 @@ Een voorbeeldvenster **[!UICONTROL Limit]** voor het hoofdlettergebruik:
 
 >[!PREREQUISITES]
 >
->Verzeker u [ een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening ](connect-and-validate.md) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
+>Verzeker u [&#x200B; een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening &#x200B;](connect-and-validate.md) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
 >
 
 >[!BEGINTABS]
@@ -52,11 +52,11 @@ Een voorbeeldvenster **[!UICONTROL Limit]** voor het hoofdlettergebruik:
    1. Selecteer **[!UICONTROL Apply filter]**.
 
 1. In het deelvenster Visualisatie:
-   * Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om daterange uit Kolommen te verwijderen.
+   * Selecteer ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg) om daterange uit Kolommen te verwijderen.
 
    Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ Desktop die van Power BI de Namen van de Waaier van de Datum gebruikt om te filtreren ](../assets/uc12-powerbi-final.png)
+   ![&#x200B; Desktop die van Power BI de Namen van de Waaier van de Datum gebruikt om te filtreren &#x200B;](../assets/uc12-powerbi-final.png)
 
 De query die door Power BI Desktop wordt uitgevoerd met de BI-extensie bevat een `limit` -instructie, maar niet de instructie die wordt verwacht. De limiet van de bovenste vijf exemplaren wordt door Power BI Desktop afgedwongen met expliciete resultaten voor de productnaam.
 
@@ -159,7 +159,7 @@ limit 1000001
       1. Selecteer **[!UICONTROL By field:]** **[!UICONTROL Top]** `5` **[!UICONTROL by Occurrences]** **[!UICONTROL Sum]** .
       1. Selecteer **[!UICONTROL Apply]** en **[!UICONTROL OK]** .
 
-         ![ AlertRed ](/help/assets/icons/AlertRed.svg) u merkt dat de lijst verdwijnt. Het selecteren van top 5 productnamen door voorkomen werkt **niet** behoorlijk gebruikend deze filter.
+         ![&#x200B; AlertRed &#x200B;](/help/assets/icons/AlertRed.svg) u merkt dat de lijst verdwijnt. Het selecteren van top 5 productnamen door voorkomen werkt **niet** behoorlijk gebruikend deze filter.
       1. Selecteer **[!UICONTROL Product Name]** in de **[!UICONTROL Filter]** plank en van het drop-down menu uitgezocht **[!UICONTROL Remove]**. De tabel wordt opnieuw weergegeven.
    1. Selecteer **[!UICONTROL SUM(Occurrences)]** in de **[!UICONTROL Marks]** -plank. Selecteer **[!UICONTROL Filter]** in de vervolgkeuzelijst.
       1. Selecteer **[!UICONTROL Filter \[Occurrences\]]** in het dialoogvenster **[!UICONTROL At least]** .
@@ -167,7 +167,7 @@ limit 1000001
 
          Uw Tableau Desktop moet er hieronder uitzien.
 
-         ![ Limieten van de Desktop van Tableau ](../assets/uc12-tableau-final.png)
+         ![&#x200B; Limieten van de Desktop van Tableau &#x200B;](../assets/uc12-tableau-final.png)
 
 Zoals hierboven getoond, ontbreekt deze vraag die door Desktop van Tableau wordt uitgevoerd, wanneer het bepalen van Hoogste 5 voorvalenfilter op productnamen, ontbreekt.
 
@@ -200,13 +200,13 @@ GROUP BY 1
 
 >[!TAB  Leider ]
 
-1. Vernieuw de verbinding in de **[!UICONTROL Explore]** -interface van Looker. Selecteer ![ Plaatsend ](/help/assets/icons/Setting.svg) **[!UICONTROL Clear cache and refresh]**.
-1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![ Plaatsende ](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
+1. Vernieuw de verbinding in de **[!UICONTROL Explore]** -interface van Looker. Selecteer ![&#x200B; Plaatsend &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Clear cache and refresh]**.
+1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![&#x200B; Plaatsende &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-      ![ filter van de Leider ](../assets/uc2-looker-filter.png)
+      ![&#x200B; filter van de Leider &#x200B;](../assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2024/01/01]** .
 1. Vanuit het gedeelte **[!UICONTROL ‣ Cc Data View]** in de linkertrack:
    1. Selecteer **[!UICONTROL Product Name]**.
@@ -218,7 +218,7 @@ GROUP BY 1
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ minder duidelijke telling ](../assets/uc12-looker-result.png)
+![&#x200B; minder duidelijke telling &#x200B;](../assets/uc12-looker-result.png)
 
 De vraag die door de uitbreiding wordt geproduceerd Loker die van BI gebruikt omvat `FETCH NEXT 5 ROWS ONLY`, wat impliceert dat de grens door Leider en de uitbreiding van BI wordt uitgevoerd.
 
@@ -254,13 +254,13 @@ FETCH NEXT 5 ROWS ONLY
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](../assets/uc12-jupyter-results.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](../assets/uc12-jupyter-results.png)
 
 De query wordt uitgevoerd door de BI-extensie zoals gedefinieerd in Jupyter Notebook.
 
 >[!TAB  RStudio ]
 
-1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in.
+1. Voer de volgende instructies tussen ` ` ``{r} ` en ` `` ` ` in een nieuw segment in.
 
    ```R
    ## Dimension 1 Limited
@@ -275,7 +275,7 @@ De query wordt uitgevoerd door de BI-extensie zoals gedefinieerd in Jupyter Note
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](../assets/uc12-rstudio-results.png)
+   ![&#x200B; Resultaten RStudio &#x200B;](../assets/uc12-rstudio-results.png)
 
 De query die wordt gegenereerd door RStudio met de BI-extensie bevat `LIMIT 5` . Dit houdt in dat de limiet wordt toegepast via RStudio en de BI-extensie.
 

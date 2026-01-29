@@ -20,7 +20,7 @@ In dit geval wilt u in januari 2023 voor productnamen de aankoopopbrengsten en -
 
 Een voorbeeldvenster **[!UICONTROL Sort]** voor het hoofdlettergebruik:
 
-![ het paneel van de Sortering van Customer Journey Analytics ](../assets/cja-sort.png)
+![&#x200B; het paneel van de Sortering van Customer Journey Analytics &#x200B;](../assets/cja-sort.png)
 
 +++
 
@@ -28,7 +28,7 @@ Een voorbeeldvenster **[!UICONTROL Sort]** voor het hoofdlettergebruik:
 
 >[!PREREQUISITES]
 >
->Verzeker u [ een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening ](connect-and-validate.md) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
+>Verzeker u [&#x200B; een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening &#x200B;](connect-and-validate.md) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
 >
 
 >[!BEGINTABS]
@@ -47,14 +47,14 @@ Een voorbeeldvenster **[!UICONTROL Sort]** voor het hoofdlettergebruik:
    1. Definieer het filter naar **[!UICONTROL Show items when the value]** **[!UICONTROL is on or after]** `1/1/2023` **[!UICONTROL And]** **[!UICONTROL is before]** `2/1/2023` .
 
 1. In het deelvenster Visualisaties:
-   1. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om daterange uit Kolommen te verwijderen.
+   1. Selecteer ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg) om daterange uit Kolommen te verwijderen.
    1. Sleep **[!UICONTROL Sum of purchase_revenue]** naar de onderkant van **[!UICONTROL Column]** -items.
 
 1. Selecteer in het rapport **[!UICONTROL Sum of purchase_revenue]** om de tabel in aflopende volgorde van aankoop-inkomsten te sorteren.
 
    Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ Desktop die van Power BI de Namen van de Waaier van de Datum gebruikt om te filtreren ](../assets/uc11-powerbi-final.png)
+   ![&#x200B; Desktop die van Power BI de Namen van de Waaier van de Datum gebruikt om te filtreren &#x200B;](../assets/uc11-powerbi-final.png)
 
 De query die door Power BI Desktop wordt uitgevoerd met de BI-extensie bevat geen `sort` -instructie. Het ontbreken van een instructie `sort` betekent dat de sortering aan de clientzijde wordt uitgevoerd.
 
@@ -160,7 +160,7 @@ limit 1000001
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ de Soort van de Desktop van Tableau ](../assets/uc11-tableau-final.png)
+      ![&#x200B; de Soort van de Desktop van Tableau &#x200B;](../assets/uc11-tableau-final.png)
 
 De query die wordt uitgevoerd door Tableau Desktop met de BI-extensie bevat geen `sort` -instructie. Het ontbreken van deze instructie `sort` betekent dat de sortering aan de clientzijde wordt uitgevoerd.
 
@@ -176,13 +176,13 @@ GROUP BY 1
 
 >[!TAB  Leider ]
 
-1. Vernieuw de verbinding in de **[!UICONTROL Explore]** -interface van Looker. Selecteer ![ Plaatsend ](/help/assets/icons/Setting.svg) **[!UICONTROL Clear cache and refresh]**.
-1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![ Plaatsende ](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
+1. Vernieuw de verbinding in de **[!UICONTROL Explore]** -interface van Looker. Selecteer ![&#x200B; Plaatsend &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Clear cache and refresh]**.
+1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![&#x200B; Plaatsende &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-      ![ filter van de Leider ](../assets/uc2-looker-filter.png)
+      ![&#x200B; filter van de Leider &#x200B;](../assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/02/01]** .
 1. Selecteer **[!UICONTROL ‣ Cc Data View]** in het gedeelte **[!UICONTROL Product Name]** links in de sectie.
 1. Vanuit het gedeelte **[!UICONTROL ‣ Custom Fields]** in de linkertrack:
@@ -193,7 +193,7 @@ GROUP BY 1
       1. Voer een aangepaste veldnaam in voor **[!UICONTROL Name]** . Bijvoorbeeld: `Sum of Purchase Revenue` .
       1. Selecteer het tabblad **[!UICONTROL Field details]**. 
       1. Selecteer **[!UICONTROL Decimals]** in de vervolgkeuzelijst **[!UICONTROL Format]** en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .
-         ![ Lager aangepast metrisch gebied ](../assets/uc5-looker-customfield.png)
+         ![&#x200B; Lager aangepast metrisch gebied &#x200B;](../assets/uc5-looker-customfield.png)
       1. Selecteer **[!UICONTROL Save]**.
 1. Selecteer **[!UICONTROL ↓]** (**[!UICONTROL Descending, Sort Order: 1]** ) in de kolom **[!UICONTROL Purchase Revenue]** .
 1. Selecteer **[!UICONTROL Run]**.
@@ -201,7 +201,7 @@ GROUP BY 1
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ minder duidelijke telling ](../assets/uc11-looker-result.png)
+![&#x200B; minder duidelijke telling &#x200B;](../assets/uc11-looker-result.png)
 
 
 De vraag die door het gebruiken van de uitbreiding van BI wordt geproduceerd van het plukker is met inbegrip van `ORDER BY`, wat impliceert dat de soort door de uitbreiding van het plukker en van BI wordt uitgevoerd.
@@ -238,14 +238,14 @@ FETCH NEXT 500 ROWS ONLY
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](../assets/uc11-jupyter-results.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](../assets/uc11-jupyter-results.png)
 
 De query wordt uitgevoerd door de BI-extensie zoals gedefinieerd in Jupyter Notebook.
 
 
 >[!TAB  RStudio ]
 
-1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in.
+1. Voer de volgende instructies tussen ` ` ``{r} ` en ` `` ` ` in een nieuw segment in.
 
    ```R
    ## Dimension 1 Sorted
@@ -259,7 +259,7 @@ De query wordt uitgevoerd door de BI-extensie zoals gedefinieerd in Jupyter Note
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](../assets/uc11-rstudio-results.png)
+   ![&#x200B; Resultaten RStudio &#x200B;](../assets/uc11-rstudio-results.png)
 
 De query die wordt gegenereerd door RStudio met de BI-extensie bevat `ORDER BY` . Dit houdt in dat de volgorde wordt toegepast via RStudio en de BI-extensie.
 

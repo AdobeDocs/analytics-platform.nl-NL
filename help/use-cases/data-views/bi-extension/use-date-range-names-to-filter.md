@@ -19,11 +19,11 @@ In dit geval wilt u een datumbereik gebruiken dat u in Customer Journey Analytic
 
 Als u een datumbereik wilt rapporteren, stelt u in Customer Journey Analytics een datumbereik in met **[!UICONTROL Title]** `Last Year 2023` .
 
-![ de Namen van de Datumwaaier van het Gebruik van Customer Journey Analytics aan filter ](../assets/cja-daterange.png)
+![&#x200B; de Namen van de Datumwaaier van het Gebruik van Customer Journey Analytics aan filter &#x200B;](../assets/cja-daterange.png)
 
 Vervolgens kunt u dat datumbereik gebruiken in een voorbeelddeelvenster **[!UICONTROL Using Date Range Names To Filter]** voor het gebruik van hoofdletters en kleine letters:
 
-![ de Afzonderlijke Waarden van de Telling van Customer Journey Analytics ](../assets/cja-using-date-range-filter-names-to-filter.png)
+![&#x200B; de Afzonderlijke Waarden van de Telling van Customer Journey Analytics &#x200B;](../assets/cja-using-date-range-filter-names-to-filter.png)
 
 Bedenk hoe het datumbereik dat in de visualisatie van de tabel Freeform is gedefinieerd, het datumbereik overtreft dat op het deelvenster wordt toegepast.
 
@@ -33,7 +33,7 @@ Bedenk hoe het datumbereik dat in de visualisatie van de tabel Freeform is gedef
 
 >[!PREREQUISITES]
 >
->Verzeker u [ een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening ](connect-and-validate.md) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
+>Verzeker u [&#x200B; een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening &#x200B;](connect-and-validate.md) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
 >
 
 >[!BEGINTABS]
@@ -52,11 +52,11 @@ Bedenk hoe het datumbereik dat in de visualisatie van de tabel Freeform is gedef
    1. Selecteer de **[!UICONTROL daterangeName is (All)]** van **[!UICONTROL Filters on this visual]**.
    1. Selecteer **[!UICONTROL Basic filtering]** als de **[!UICONTROL Filter type]** .
    1. Onder het veld **[!UICONTROL Search]** selecteert u **[!UICONTROL Last Year 2023]** . Dit is de naam van het datumbereik dat in Customer Journey Analytics is gedefinieerd.
-   1. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL daterangeName]** uit **[!UICONTROL Columns]** te verwijderen.
+   1. Selecteer ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL daterangeName]** uit **[!UICONTROL Columns]** te verwijderen.
 
    De tabel wordt bijgewerkt met het toegepaste filter **[!UICONTROL daterangeName]** . Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ Desktop die van Power BI de Namen van de Waaier van de Datum gebruikt om te filtreren ](../assets/uc8-powerbi-final.png)
+   ![&#x200B; Desktop die van Power BI de Namen van de Waaier van de Datum gebruikt om te filtreren &#x200B;](../assets/uc8-powerbi-final.png)
 
 >[!TAB  Desktop Tableau ]
 
@@ -71,11 +71,11 @@ Bedenk hoe het datumbereik dat in de visualisatie van de tabel Freeform is gedef
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ de Veelvoudige Rangschikte Filter van de Desktop van Tableau Dimension ](../assets/uc8-tableau-final.png)
+      ![&#x200B; de Veelvoudige Rangschikte Filter van de Desktop van Tableau Dimension &#x200B;](../assets/uc8-tableau-final.png)
 
 >[!TAB  Leider ]
 
-1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![ Plaatsende ](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
+1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![&#x200B; Plaatsende &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
@@ -89,7 +89,7 @@ Bedenk hoe het datumbereik dat in de visualisatie van de tabel Freeform is gedef
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ minder duidelijke telling ](../assets/uc8-looker-result.png)
+![&#x200B; minder duidelijke telling &#x200B;](../assets/uc8-looker-result.png)
 
 
 >[!TAB  Jupyter Notitieboekje ]
@@ -109,7 +109,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](../assets/uc8-jupyter-input.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](../assets/uc8-jupyter-input.png)
 
 1. Selecteer **[!UICONTROL Fishing Products]** in de vervolgkeuzelijst.
 
@@ -133,12 +133,12 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](../assets/uc8-jupyter-results.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](../assets/uc8-jupyter-results.png)
 
 
 >[!TAB  RStudio ]
 
-1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in. Zorg ervoor dat u de juiste naam voor het datumbereik gebruikt. Bijvoorbeeld `Last Year 2023` .
+1. Voer de volgende instructies tussen ` ` ``{r} ` en ` `` ` ` in een nieuw segment in. Zorg ervoor dat u de juiste naam voor het datumbereik gebruikt. Bijvoorbeeld `Last Year 2023` .
 
    ```R
    ## Monthly Events for Last Year
@@ -156,7 +156,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](../assets/uc8-rstudio-results.png)
+   ![&#x200B; Resultaten RStudio &#x200B;](../assets/uc8-rstudio-results.png)
 
 >[!ENDTABS]
 

@@ -20,7 +20,7 @@ In dit gebruiksgeval wilt u een tabel en eenvoudige streepjesvisualisatie weerge
 
 Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlettergebruik:
 
-![ Customer Journey Analytics Enige gerangschikte afmeting visualisatie ](../assets/cja-single-dimension-ranked.png)
+![&#x200B; Customer Journey Analytics Enige gerangschikte afmeting visualisatie &#x200B;](../assets/cja-single-dimension-ranked.png)
 
 +++
 
@@ -28,7 +28,7 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
 
 >[!PREREQUISITES]
 >
->Verzeker u [ een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening ](connect-and-validate.md) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
+>Verzeker u [&#x200B; een succesvolle verbinding, gegevensmeningen, en gebruik een gegevensmening &#x200B;](connect-and-validate.md) voor het hulpmiddel van BI hebt bevestigd waarvoor u dit gebruiksgeval wilt uitproberen.
 >
 
 >[!BEGINTABS]
@@ -54,14 +54,14 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
 
 1. In het deelvenster **[!UICONTROL Visualization]** :
 
-   1. Gebruik ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL daterange]** uit **[!UICONTROL Columns]** te verwijderen.
+   1. Gebruik ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg) om **[!UICONTROL daterange]** uit **[!UICONTROL Columns]** te verwijderen.
    1. Sleep **[!UICONTROL Sum of purchases_revenue]** onder **[!UICONTROL Sum of purchases]** in **[!UICONTROL Columns]** .
 
 1. Voor de visualisatie van de Lijst:
 
    1. Selecteer **[!UICONTROL Sum of purchase_revenue]** om de productnamen te sorteren in aflopende volgorde van inkoopopbrengsten. Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ Hoofdlettergebruik 5 van de Lijst van het Gebruik van de Desktop van Power BI status ](../assets/uc5-pbi-table.png)
+   ![&#x200B; Hoofdlettergebruik 5 van de Lijst van het Gebruik van de Desktop van Power BI status &#x200B;](../assets/uc5-pbi-table.png)
 
 1. In het deelvenster **[!UICONTROL Filters]** :
 
@@ -83,16 +83,16 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
 
    De lijn en gestapelde kolomgrafiek worden bijgewerkt. Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ Hoofdlettergebruik 5 van het Gebruik van de Desktop van Power BI Grafiek ](../assets/uc5-pbi-chart.png)
+   ![&#x200B; Hoofdlettergebruik 5 van het Gebruik van de Desktop van Power BI Grafiek &#x200B;](../assets/uc5-pbi-chart.png)
 
 1. Op de Lijn en gestapelde kolomgrafiekvisualisatie:
 
-   1. Selecteer ![ Meer ](/help/assets/icons/More.svg).
+   1. Selecteer ![&#x200B; Meer &#x200B;](/help/assets/icons/More.svg).
    1. Selecteer **[!UICONTROL Show as a table]** in het contextmenu.
 
    De hoofdweergave wordt bijgewerkt om zowel een lijnvisualisatie als een tabel weer te geven.
 
-   ![ Geval 2 van het Gebruik van de Desktop van Power BI Def. Dagelijkse Tendvisualisatie ](../assets/uc5-pbi-final.png)
+   ![&#x200B; Geval 2 van het Gebruik van de Desktop van Power BI Def. Dagelijkse Tendvisualisatie &#x200B;](../assets/uc5-pbi-final.png)
 
 >[!TAB  Desktop Tableau ]
 
@@ -101,11 +101,11 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
    1. Selecteer **[!UICONTROL Filters Field \[Daterange\]]** in het dialoogvenster **[!UICONTROL Range of Dates]** van **[!UICONTROL Next >]** .
    1. Selecteer **[!UICONTROL Filter \[Daterange\]]** in het dialoogvenster **[!UICONTROL Range of dates]** en geef een punt op van `01/01/2023` - `31/12/2023` . Selecteer **[!UICONTROL Apply]** en **[!UICONTROL OK]** .
 
-      ![ de Filter van de Desktop van Tableau ](../assets/uc5-tableau-filter.png)
+      ![&#x200B; de Filter van de Desktop van Tableau &#x200B;](../assets/uc5-tableau-filter.png)
 
    1. Sleep **[!UICONTROL Product Name]** vanuit de lijst **[!UICONTROL Tables]** in het deelvenster **[!UICONTROL Data]** en zet de vermelding in het veld naast **[!UICONTROL Rows]** neer.
-   1. De belemmering en laat vallen **[!UICONTROL Purchases]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**lijst in de **[!UICONTROL Data]**ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Rows]**. De waarde wordt automatisch omgezet in **[!UICONTROL SUM(Purchases)]**.
-   1. De belemmering en laat vallen **[!UICONTROL Purchase Revenue]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**lijst in de **[!UICONTROL Data]**ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Columns]**en verlaten van **[!UICONTROL SUM(Purchases)]**. De waarde wordt automatisch omgezet in **[!UICONTROL SUM(Purchase Revenue)]**.
+   1. De belemmering en laat vallen **[!UICONTROL Purchases]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**&#x200B;lijst in de **[!UICONTROL Data]**&#x200B;ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Rows]**. De waarde wordt automatisch omgezet in **[!UICONTROL SUM(Purchases)]**.
+   1. De belemmering en laat vallen **[!UICONTROL Purchase Revenue]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**&#x200B;lijst in de **[!UICONTROL Data]**&#x200B;ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Columns]**&#x200B;en verlaten van **[!UICONTROL SUM(Purchases)]**. De waarde wordt automatisch omgezet in **[!UICONTROL SUM(Purchase Revenue)]**.
    1. Als u beide grafieken wilt bestellen in aflopende volgorde van inkoopopbrengsten, plaatst u de muisaanwijzer op de titel van **[!UICONTROL Purchase Revenue]** en selecteert u het sorteerpictogram.
    1. Als u het aantal items in de grafieken wilt beperken, selecteert u **[!UICONTROL SUM(Purchase Revenue)]** in **[!UICONTROL Rows]** en kiest u **[!UICONTROL Filter]** in het vervolgkeuzemenu.
    1. Selecteer **[!UICONTROL Filter \[Purchase Revenue\]]** in het dialoogvenster **[!UICONTROL Range of values]** en voer de gewenste waarden in. Bijvoorbeeld: `1,000,000` - `2,000,000` . Selecteer **[!UICONTROL Apply]** en **[!UICONTROL OK]** .
@@ -116,19 +116,19 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
 
    Uw Tableau Desktop moet er hieronder uitzien.
 
-   ![ Grafiek van de Desktop van Tableau ](../assets/uc5-tableau-graph.png)
+   ![&#x200B; Grafiek van de Desktop van Tableau &#x200B;](../assets/uc5-tableau-graph.png)
 
 1. Selecteer **[!UICONTROL Duplicate]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om een tweede blad te maken.
 1. Selecteer **[!UICONTROL Rename]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om de naam van het werkblad te wijzigen in `Data` .
 1. Selecteer **[!UICONTROL Rename]** in het contextmenu van de tab **[!UICONTROL Sheet 1 (2)]** om de naam van het werkblad te wijzigen in `Graph` .
 1. Zorg ervoor dat het **[!UICONTROL Data]** -werkblad is geselecteerd.
    1. Selecteer **[!UICONTROL Show me]** rechtsboven en selecteer **[!UICONTROL Text table]** (visualisatie linksboven) om de inhoud van de twee grafieken aan een tabel aan te passen.
-   1. Om koopopbrengst in dalende orde te opdracht geven, houd over **[!UICONTROL Purchase Revenue]** in de lijst en selecteer ![ SortOrderDown ](/help/assets/icons/SortOrderDown.svg).
+   1. Om koopopbrengst in dalende orde te opdracht geven, houd over **[!UICONTROL Purchase Revenue]** in de lijst en selecteer ![&#x200B; SortOrderDown &#x200B;](/help/assets/icons/SortOrderDown.svg).
    1. Selecteer **[!UICONTROL Entire View]** in de vervolgkeuzelijst **[!UICONTROL Fit]** .
 
    Uw Tableau Desktop moet er hieronder uitzien.
 
-   ![ Gegevens van de Desktop van Tableau ](../assets/uc5-tableau-data.png)
+   ![&#x200B; Gegevens van de Desktop van Tableau &#x200B;](../assets/uc5-tableau-data.png)
 
 1. Selecteer **[!UICONTROL New Dashboard]** tabknop (onder) om een nieuwe **[!UICONTROL Dashboard 1]** -weergave te maken. In de weergave **[!UICONTROL Dashboard 1]** :
    1. Sleep en laat vallen het **[!UICONTROL Graph]** blad van **[!UICONTROL Sheets]** plank op de **[!UICONTROL Dashboard 1]** mening die *Dropbladen hier* leest.
@@ -137,18 +137,18 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
 
    De weergave **[!UICONTROL Dashboard 1]** ziet er hieronder ongeveer zo uit.
 
-   ![ Dashboard 1 van de Desktop van Tableau ](../assets/uc5-tableau-dashboard.png)
+   ![&#x200B; Dashboard 1 van de Desktop van Tableau &#x200B;](../assets/uc5-tableau-dashboard.png)
 
 
 
 >[!TAB  Leider ]
 
-1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![ Plaatsende ](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
+1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![&#x200B; Plaatsende &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-      ![ filter van de Leider ](../assets/uc2-looker-filter.png)
+      ![&#x200B; filter van de Leider &#x200B;](../assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2024/01/01]** .
 1. Selecteer **[!UICONTROL ‣ Cc Data View]** in het gedeelte **[!UICONTROL Product Name]** links in de sectie.
 1. Vanuit het gedeelte **[!UICONTROL ‣ Custom Fields]** in de linkertrack:
@@ -159,7 +159,7 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
       1. Voer een aangepaste veldnaam in voor **[!UICONTROL Name]** . Bijvoorbeeld: `Purchase Revenue` .
       1. Selecteer het tabblad **[!UICONTROL Field details]**. 
       1. Selecteer **[!UICONTROL Decimals]** in de vervolgkeuzelijst **[!UICONTROL Format]** en zorg ervoor dat `0` wordt ingevoerd in **[!UICONTROL Decimals]** .
-         ![ Lager aangepast metrisch gebied ](../assets/uc5-looker-customfield.png)
+         ![&#x200B; Lager aangepast metrisch gebied &#x200B;](../assets/uc5-looker-customfield.png)
       1. Selecteer **[!UICONTROL Save]**.
    1. Selecteer **[!UICONTROL Custom Measure]** nogmaals in de vervolgkeuzelijst **[!UICONTROL + Add]** . In het dialoogvenster **[!UICONTROL Create custom]** -meting:
       1. Selecteer **[!UICONTROL Purchases]** in de vervolgkeuzelijst **[!UICONTROL Field to measure]** .
@@ -178,13 +178,13 @@ Een voorbeeldvenster **[!UICONTROL Single Dimension Ranked]** voor het hoofdlett
    1. Selecteer het tabblad **[!UICONTROL Series]**. 
    1. Schuif omlaag om **[!UICONTROL Purchases]** weer te geven en wijzig de **[!UICONTROL Type]** in **[!UICONTROL Line]** .
    1. Selecteer het tabblad **[!UICONTROL Y]**. 
-   1. Sleep **[!UICONTROL Purchases]** van de **[!UICONTROL Left 1]** container aan waar het **[!UICONTROL *reeksen van de Belemmering hier leest om een nieuwe linkeras *]**tot stand te brengen. Met deze actie maakt u een **[!UICONTROL Left 2]**-container.
-      ![ Leerdere visualisatieconfiguratie ](../assets/uc5-looker-visualization.png)
-   1. Selecteer ![ CrossSize75 ](/help/assets/icons/CrossSize75.svg) naast **[!UICONTROL Edit]** om de popup dialoog te verbergen
+   1. Sleep **[!UICONTROL Purchases]** van de **[!UICONTROL Left 1]** container aan waar het **[!UICONTROL *reeksen van de Belemmering hier leest om een nieuwe linkeras *]**&#x200B;tot stand te brengen. Met deze actie maakt u een **[!UICONTROL Left 2]**-container.
+      ![&#x200B; Leerdere visualisatieconfiguratie &#x200B;](../assets/uc5-looker-visualization.png)
+   1. Selecteer ![&#x200B; CrossSize75 &#x200B;](/help/assets/icons/CrossSize75.svg) naast **[!UICONTROL Edit]** om de popup dialoog te verbergen
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ Minder resultaat dagelijkse trend ](../assets/uc5-looker-result.png)
+![&#x200B; Minder resultaat dagelijkse trend &#x200B;](../assets/uc5-looker-result.png)
 
 
 >[!TAB  Jupyter Notitieboekje ]
@@ -209,12 +209,12 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](../assets/uc5-jupyter-results.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](../assets/uc5-jupyter-results.png)
 
 
 >[!TAB  RStudio ]
 
-1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in.
+1. Voer de volgende instructies tussen ` ` ``{r} ` en ` `` ` ` in een nieuw segment in.
 
    ```R
    library(tidyr)
@@ -235,7 +235,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](../assets/uc5-rstudio-results.png)
+   ![&#x200B; Resultaten RStudio &#x200B;](../assets/uc5-rstudio-results.png)
 
 >[!ENDTABS]
 

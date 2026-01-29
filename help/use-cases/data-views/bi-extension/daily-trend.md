@@ -20,7 +20,7 @@ In dit geval wilt u een tabel en eenvoudige lijnvisualisatie weergeven met een d
 
 Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 
-![ Customer Journey Analytics het Dagelijkse paneel van de Trend ](../assets/cja_daily_trend.png)
+![&#x200B; Customer Journey Analytics het Dagelijkse paneel van de Trend &#x200B;](../assets/cja_daily_trend.png)
 
 +++
 
@@ -28,7 +28,7 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 
 >[!PREREQUISITES]
 >
->Verzeker u a [ succesvolle verbinding en kunt gegevensmeningen ](connect-and-validate.md) voor het hulpmiddel bevestigen en gebruiken BI waarvoor u dit gebruiksgeval wilt uitproberen.
+>Verzeker u a [&#x200B; succesvolle verbinding en kunt gegevensmeningen &#x200B;](connect-and-validate.md) voor het hulpmiddel bevestigen en gebruiken BI waarvoor u dit gebruiksgeval wilt uitproberen.
 >
 
 >[!BEGINTABS]
@@ -54,16 +54,16 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 
    Een lijngrafiekvisualisatie vervangt de lijst terwijl het gebruiken van de zelfde gegevens zoals de lijst. Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ Geval van het Gebruik van de Desktop van Power BI 2 de waaierfilter van de Datum ](../assets/uc2-pbi-daterange.png)
+   ![&#x200B; Geval van het Gebruik van de Desktop van Power BI 2 de waaierfilter van de Datum &#x200B;](../assets/uc2-pbi-daterange.png)
 
 1. Op het grafiekvisualisatie van de Lijn:
 
-   1. Selecteer ![ Meer ](/help/assets/icons/More.svg).
+   1. Selecteer ![&#x200B; Meer &#x200B;](/help/assets/icons/More.svg).
    1. Selecteer **[!UICONTROL Show as a table]** in het contextmenu.
 
    De hoofdweergave wordt bijgewerkt om zowel een lijnvisualisatie als een tabel weer te geven. Je Power BI Desktop moet er hieronder uitzien.
 
-   ![ Geval 2 van het Gebruik van de Desktop van Power BI Def. Dagelijkse Tendvisualisatie ](../assets/uc2-pbi-final.png)
+   ![&#x200B; Geval 2 van het Gebruik van de Desktop van Power BI Def. Dagelijkse Tendvisualisatie &#x200B;](../assets/uc2-pbi-final.png)
 
 >[!TAB  Desktop Tableau ]
 
@@ -72,16 +72,16 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
    1. Selecteer **[!UICONTROL Filters Field \[Daterange\]]** in het dialoogvenster **[!UICONTROL Range of Dates]** van **[!UICONTROL Next >]** .
    1. Selecteer **[!UICONTROL Filter \[Daterange\]]** in het dialoogvenster **[!UICONTROL Range of dates]** en geef een punt op van `01/01/2023` - `01/02/2023` .
 
-      ![ de Filter van de Desktop van Tableau ](../assets/uc2-tableau-filter.png)
+      ![&#x200B; de Filter van de Desktop van Tableau &#x200B;](../assets/uc2-tableau-filter.png)
 
    1. Sleep **[!UICONTROL Daterangeday]** vanuit de lijst **[!UICONTROL Tables]** in het deelvenster **[!UICONTROL Data]** en zet de vermelding in het veld naast **[!UICONTROL Columns]** neer.
       * Selecteer **[!UICONTROL Day]** in de vervolgkeuzelijst **[!UICONTROL Daterangeday]** , zodat de waarde wordt bijgewerkt naar **[!UICONTROL DAY(Daterangeday)]** .
-   1. De belemmering en laat vallen **[!UICONTROL Occurrences]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**lijst in de **[!UICONTROL Data]**ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Rows]**. De waarde wordt automatisch omgezet in **[!UICONTROL SUM(Occurrences)]**.
+   1. De belemmering en laat vallen **[!UICONTROL Occurrences]** van de **[!UICONTROL Tables (*Namen van de Maatregel *)]**&#x200B;lijst in de **[!UICONTROL Data]**&#x200B;ruit en laat vallen de ingang op het gebied naast **[!UICONTROL Rows]**. De waarde wordt automatisch omgezet in **[!UICONTROL SUM(Occurrences)]**.
    1. Wijzig **[!UICONTROL Standard]** in **[!UICONTROL Entire View]** in het vervolgkeuzemenu **[!UICONTROL Fit]** op de werkbalk.
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Grafiek van de Desktop van Tableau ](../assets/uc2-tableau-graph.png)
+      ![&#x200B; Grafiek van de Desktop van Tableau &#x200B;](../assets/uc2-tableau-graph.png)
 
 1. Selecteer **[!UICONTROL Duplicate]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om een tweede blad te maken.
 1. Selecteer **[!UICONTROL Rename]** in het contextmenu van de tab **[!UICONTROL Sheet 1]** om de naam van het werkblad te wijzigen in `Graph` .
@@ -93,7 +93,7 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Gegevens van de Desktop van Tableau ](../assets/uc2-tableau-data.png)
+      ![&#x200B; Gegevens van de Desktop van Tableau &#x200B;](../assets/uc2-tableau-data.png)
 
 1. Selecteer de tabknop **[!UICONTROL New Dashboard]** (onder) om een nieuwe **[!UICONTROL Dashboard 1]** -weergave te maken. In de weergave **[!UICONTROL Dashboard 1]** :
    1. Sleep en laat vallen het **[!UICONTROL Graph]** blad van **[!UICONTROL Sheets]** plank op de **[!UICONTROL Dashboard 1]** mening die *Dropbladen hier* leest.
@@ -102,17 +102,17 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 
       Uw Tableau Desktop moet er hieronder uitzien.
 
-      ![ Dashboard 1 van de Desktop van Tableau ](../assets/uc2-tableau-dashboard.png)
+      ![&#x200B; Dashboard 1 van de Desktop van Tableau &#x200B;](../assets/uc2-tableau-dashboard.png)
 
 
 >[!TAB  Leider ]
 
-1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![ Plaatsende ](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
+1. Zorg ervoor dat u in de interface **[!UICONTROL Explore]** van Looker een schone instelling hebt. Als niet, uitgezochte ![&#x200B; Plaatsende &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Remove fields and filters]**.
 1. Selecteer **[!UICONTROL + Filter]** onder **[!UICONTROL Filters]** .
 1. In het dialoogvenster **[!UICONTROL Add Filter]** :
    1. Selecteren **[!UICONTROL ‣ Cc Data View]**
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en vervolgens **[!UICONTROL Daterange Date]** in de lijst met velden.
-      ![ filter van de Leider ](../assets/uc2-looker-filter.png)
+      ![&#x200B; filter van de Leider &#x200B;](../assets/uc2-looker-filter.png)
 1. Geef het filter **[!UICONTROL Cc Data View Daterange Date]** op als **[!UICONTROL is in range]** **[!UICONTROL 2023/01/01]** **[!UICONTROL until (before)]** **[!UICONTROL 2023/02/01]** .
 1. Vanaf het gedeelte **[!UICONTROL Cc Data View]** in de linkerspoorstaaf,
    1. Selecteer **[!UICONTROL ‣ Daterange Date]** en **[!UICONTROL Date]** in de lijst met **[!UICONTROL DIMENSIONS]** .
@@ -122,7 +122,7 @@ Een voorbeeldvenster **[!UICONTROL Daily Trend]** voor het hoofdlettergebruik:
 
 U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
-![ Minder resultaat dagelijkse trend ](../assets/uc2-looker-result.png)
+![&#x200B; Minder resultaat dagelijkse trend &#x200B;](../assets/uc2-looker-result.png)
 
 
 >[!TAB  Jupyter Notitieboekje ]
@@ -147,12 +147,12 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer de cel uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Jupyter de Resultaten van het Notitieboekje ](../assets/uc2-jupyter-results.png)
+   ![&#x200B; Jupyter de Resultaten van het Notitieboekje &#x200B;](../assets/uc2-jupyter-results.png)
 
 
 >[!TAB  RStudio ]
 
-1. Voer de volgende instructies tussen ` ```{r} ` en ` ``` ` in een nieuw segment in.
+1. Voer de volgende instructies tussen ` ` ``{r} ` en ` `` ` ` in een nieuw segment in.
 
    ```R
    ## Daily Events
@@ -170,7 +170,7 @@ U dient een visualisatie en tabel te zien zoals hieronder weergegeven.
 
 1. Voer het segment uit. U zou output moeten zien gelijkend op het hieronder opgenomen schermschot.
 
-   ![ Resultaten RStudio ](../assets/uc2-rstudio-results.png)
+   ![&#x200B; Resultaten RStudio &#x200B;](../assets/uc2-rstudio-results.png)
 
 >[!ENDTABS]
 
