@@ -4,9 +4,9 @@ description: Customer Journey Analytics-openingspagina.
 solution: Customer Journey Analytics
 feature: Basics
 exl-id: 7f67c497-386b-4442-a502-6b492f35c6e6
-source-git-commit: b8c9acfe8fef4543557f87c81079babdc8097b64
+source-git-commit: 3afb60a60b7fd1acb414244dffdb6a6493792f9c
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '628'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ Met Customer Journey Analytics kunt u bepalen hoe u online en offline gegevens i
 
 ## Wat is nieuw?
 
-Bekijk een glimp van de nieuwste verbeteringen in het Customer Journey Analytics-product en -documentatie! Voor een uitvoerige lijst van eigenschappen, verbeteringen, en moeilijke situaties, controleer de gedetailleerde [&#x200B; versienota&#39;s &#x200B;](../release-notes/latest.md). Bezoek de [&#x200B; pagina van documentupdates &#x200B;](../release-notes/doc-changes.md) om met de recentste documentatieupdates bijgewerkt te blijven.
+Bekijk een glimp van de nieuwste verbeteringen in het Customer Journey Analytics-product en -documentatie! Voor een uitvoerige lijst van eigenschappen, verbeteringen, en moeilijke situaties, controleer de gedetailleerde [ versienota&#39;s ](../release-notes/latest.md). Bezoek de [ pagina van documentupdates ](../release-notes/doc-changes.md) om met de recentste documentatieupdates bijgewerkt te blijven.
 
 >[!BEGINTABS]
 
@@ -29,7 +29,7 @@ U kunt het stitching op gebeurtenisdatasets direct binnen Customer Journey Analy
 
 [![afbeelding](assets/learn-more-button.svg)](/help/stitching/use-stitching-ui.md)
 
-*_u moet minstens het Uitgezochte pakket hebben om het stitching toe te laten._*
+*u moet minstens het Uitgezochte pakket hebben om het stitching toe te laten.*
 
 
 >[!TAB  Analyse van het publiek ]
@@ -45,7 +45,7 @@ Real-time rapportage in Customer Journey Analytics geeft gegevens en visualisati
 
 [![afbeelding](assets/learn-more-button.svg)](/help/components/real-time/real-time.md)
 
-*_u moet het pakket van Ultimate voor rapportering in real time hebben._*
+*u moet het pakket van Ultimate voor rapportering in real time hebben.*
 
 
 >[!TAB  B2B edition ]
@@ -67,6 +67,7 @@ Met Content Analytics kunt u snel en eenvoudig grote hoeveelheden inhoudsgegeven
 
 Begin met het lezen van het materiaal in de onderstaande koppelingen om uzelf vertrouwd te maken met de mogelijkheden en functies van Customer Journey Analytics.
 
+
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
@@ -75,16 +76,20 @@ Begin met het lezen van het materiaal in de onderstaande koppelingen om uzelf ve
     </td>
     <td>
     <a href="/help/data-ingestion/data-ingestion.md"><img src="./assets/data-ingestion.png"></a>
-    <div><strong> Samenvatting en gebruik gegevens </strong><br/> leren over de opties die u gegevens in Experience Platform moet opnemen en het voor analyse en rapportering in Customer Journey Analytics gebruiken.</div>
+    <div><strong> Samenvatting en gebruik gegevens </strong><br/> leren over de opties die u gegevens in Experience Platform moet opnemen en het voor analyse en rapportering gebruiken.</div>
     </td>
     <td>
     <a href="/help/guided-analysis/overview.md"><img src="./assets/product-analytics.png"></a>
-    <div><strong> Geleide Analyse </strong><br/> Leer hoe te om werkschema's te gebruiken om gegevens en inzichten over de het productervaring van uw klant te bereiken. Product Analytics via geleide analyse...
+    <div><strong> Geleide Analyse </strong><br/> Leer hoe te om werkschema's te gebruiken om gegevens en inzichten over de het productervaring van uw klant te bereiken. Product Analytics door middel van geleide analyse.
     </div>
     </td>
     <td>
     <a href="/help/analysis-workspace/home.md"><img src="./assets/workspace.png"></a>
     <div><strong> Analysis Workspace </strong><br/> het Gebruik Analysis Workspace om basis en geavanceerde analyse, zoals attributie, stroom en reservediagrammen, afmetingsonderverdelingen uit te voeren.</div>
+    </td>
+    <td>
+    <a href="/help/content-analytics/content-analytics.md"><img src="./assets/content-analytics.png"></a>
+    <div><strong> Content Analytics </strong><br/> begrijpt hoe de inhoud, naast gedrag, zeer belangrijke prestatiesindicatoren beïnvloedt. Verbeter dieper inzicht in de gegevens van de klantenreis.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -92,6 +97,7 @@ Begin met het lezen van het materiaal in de onderstaande koppelingen om uzelf ve
     <td align="center"><a href="/help/data-ingestion/data-ingestion.md"><img src="./assets/learn-more-button.svg"></a></td>
     <td align="center"><a href="/help/guided-analysis/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
     <td align="center"><a href="/help/analysis-workspace/home.md"><img src="./assets/learn-more-button.svg"></a></td>
+    <td align="center"><a href="/help/content-analytics/content-analytics.md"><img src="./assets/learn-more-button.svg"></a></td>
     </tr>
 </table>
 
@@ -104,7 +110,7 @@ Begrijp hoe Customer Journey Analytics zich verhoudt tot Adobe Analytics. En hoe
   <tr style="border: 0;">
     <td>
       <img src="./assets/analytics.svg" width="35px"><br/>
-      <strong> Vergelijk met Adobe Analytics </strong><br/> <a href="/help/getting-started/aa-vs-cja/overview.md"> Overzicht </a> - <a href="/help/getting-started/aa-to-cja.md"> Evolutie </a> - <a href="/help/getting-started/aa-vs-cja/aa-data-in-cja.md"> de gegevens van Adobe Analytics van het Gebruik </a> - <a href="/help/getting-started/aa-vs-cja/cja-aa.md"> de steun van de Eigenschap </a> - <a href="/help/getting-started/aa-vs-cja/terminology.md"> Terminologie </a> - <a href="/help/getting-started/aa-vs-cja/data-processing-comparisons.md"> de verwerking van Gegevens </a> - <a href="/help/getting-started/cja-b2b-edition.md"> Customer Journey Analytics B2B edition </a>
+      <strong> Vergelijk met Adobe Analytics </strong><br/> <a href="/help/getting-started/aa-vs-cja/overview.md"> Overzicht </a> - <a href="/help/getting-started/aa-to-cja.md"> Evolutie </a> - <a href="/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md"> Verbetering </a> - <a href="/help/getting-started/aa-vs-cja/aa-data-in-cja.md"> de gegevens van Adobe Analytics van het Gebruik </a> - <a href="/help/getting-started/aa-vs-cja/cja-aa.md"> de steun van de Eigenschap </a> - <a href="/help/getting-started/aa-vs-cja/terminology.md"> Terminologie </a> - <a href="/help/getting-started/aa-vs-cja/data-processing-comparisons.md"> de verwerking van Gegevens </a>
     </td>
     <td>
       <img src="./assets/connections.svg" width="35px"><br/>
@@ -121,13 +127,13 @@ Begrijp hoe Customer Journey Analytics zich verhoudt tot Adobe Analytics. En hoe
       <img src="./assets/workspace.svg" width="35px"><br/>
       <strong> de Projecten van Workspace </strong><br/> <a href="/help/analysis-workspace/home.md"> Analysis Workspace </a> - <a href="/help/analysis-workspace/perform-basic-analysis.md"> Basis </a> &amp; <a href="/help/analysis-workspace/perform-adv-analysis.md"> Geavanceerde analyse </a> - <a href="/help/analysis-workspace/build-workspace-project/freeform-overview.md"> Projecten </a> - <a href="/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md"> Visualisaties </a> - <a href="/help/analysis-workspace/c-panels/freeform-panel.md"> Punten </a>
     </td>
-    <td>
-      <img src="./assets/guided-analysis.svg" width="35px"><br/>
-      <strong> Geleide Analyse </strong><br/> <a href="/help/guided-analysis/overview.md"> Overzicht </a> - <a href="/help/guided-analysis/types/active-growth.md"> de Groei van de Gebruiker </a> - <a href="/help/guided-analysis/types/trends.md"> Trends </a> - <a href="/help/guided-analysis/types/funnel.md"> Funnel </a> - <a href="/help/guided-analysis/types/release-impact.md"> Effect </a> - <a href="/help/guided-analysis/industry-use-cases.md"> het gebruikscase van de Industrie </a>
-    </td>
-    <td>
+        <td>
       <img src="./assets/share.svg" width="35px"><br/>
       <strong> Aandeel, de uitvoer, integreert </strong><br/> <a href="/help/analysis-workspace/curate-share/share-projects.md"> Projecten </a> - <a href="/help/mobile-app/home.md"> de Dashboards van Analytics </a> - <a href="/help/report-builder/rb-overview.md"> Report Builder </a> - <a href="/help/components/exports/manage-exports.md"> de uitvoer van de Wolk </a> - <a href="/help/integrations/overview.md"> Integraties </a>
+    </td>
+    <td>
+      <img src="./assets/guided-analysis.svg" width="35px"><br/>
+      <strong> en meer... </strong><br/> <a href="/help/guided-analysis/overview.md"> Geleide Analyse </a> - <a href="/help/content-analytics/content-analytics.md"> Content Analytics </a> - <a href="/help/getting-started/cja-b2b-edition.md"> B2B edition </a> 
     </td>
   </tr>
 </table>
@@ -136,7 +142,7 @@ Begrijp hoe Customer Journey Analytics zich verhoudt tot Adobe Analytics. En hoe
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong> Customer Journey Analytics </strong><br/>
-<a href="https://experienceleague.adobe.com/nl/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank"> Leerprogramma's </a> - <a href="https://helpx.adobe.com/nl/legal/product-descriptions/customer-journey-analytics.html" target="_blank"> het productbeschrijving van Customer Journey Analytics </a> - <a href="https://helpx.adobe.com/nl/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank"> de productbeschrijving van Adobe Analytics (Customer Journey Analytics toe:voegen-op) </a> - <a href="https://helpx.adobe.com/nl/legal/product-descriptions/customer-journey-analytics-b2b.html" target="_blank"> het productbeschrijving van B2B edition van Customer Journey Analytics </a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank"> Customer Journey Analytics APIs </a> - <a href="/help/ai-assistant.md"> AI Medewerker </a>
+<a href="https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/overview" target="_blank"> Leerprogramma's </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html" target="_blank"> het productbeschrijving van Customer Journey Analytics </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-analytics-addon-customer-journey-analytics.html" target="_blank"> de productbeschrijving van Adobe Analytics (Customer Journey Analytics toe:voegen-op) </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics-b2b.html" target="_blank"> het productbeschrijving van B2B edition van Customer Journey Analytics </a> - <a href="https://developer.adobe.com/cja-apis/docs/" target="_blank"> Customer Journey Analytics APIs </a> - <a href="/help/ai-assistant.md"> AI Medewerker </a>
 </td>
 <td><strong> Ingestie van Gegevens </strong><br/> <a href="/help/data-ingestion/data-ingestion.md"> Overzicht </a> - <a href="/help/data-ingestion/analytics.md"> Analytics </a> - <a href="/help/data-ingestion/aepwebsdk.md"> SDK van het Web </a> - <a href="/help/data-ingestion/aepmobilesdk.md"> Mobiele SDK </a> - <a href="/help/data-ingestion/batch.md"> Partij </a> - <a href="/help/data-ingestion/streaming.md"> Streaming </a> - <a href="/help/data-ingestion/sources.md"> Bronnen </a> - <a href="/help/data-ingestion/serverapi.md"> Server API </a>
 </td>
@@ -145,4 +151,4 @@ Begrijp hoe Customer Journey Analytics zich verhoudt tot Adobe Analytics. En hoe
 
 
 <table style="table-layout:auto" class="tablelayout-is-fixed"><tbody><tr style="border: 0;"><td><img src="./assets/newsletter.png"></td><td>
-<b> blijf op de hoogte, draag aan de gemeenschap bij, en verhoog uw ervaring van Customer Journey Analytics!</b><br> Bezoek de gemeenschap van Adobe Analytics om de functionaliteit met medepraktiseraars te bespreken. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=nl"> sluit zich vandaag aan bij de gemeenschap!</a></td></tr></tbody></table>
+<b> blijf op de hoogte, draag aan de gemeenschap bij, en verhoog uw ervaring van Customer Journey Analytics!</b><br> Bezoek de gemeenschap van Adobe Analytics om de functionaliteit met medepraktiseraars te bespreken. <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community"> sluit zich vandaag aan bij de gemeenschap!</a></td></tr></tbody></table>
