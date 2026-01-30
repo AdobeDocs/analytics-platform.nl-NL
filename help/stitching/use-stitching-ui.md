@@ -33,7 +33,7 @@ Om het stitching op een gebeurtenisdataset binnen de UI van Verbindingen toe te 
 
 Als u aan de eerste vereisten voldoet, kunt u sommige preflight controles op de gegevens in de gebeurtenisdataset willen uitvoeren alvorens u identiteitsstitching toelaat:
 
-* Zorg ervoor dat de identiteiten behoorlijk in het schema voor de gebeurtenisdataset worden gemerkt. [&#x200B; zie het overzicht van Identiteitsnaamruimte &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces).
+* Zorg ervoor dat de identiteiten behoorlijk in het schema voor de gebeurtenisdataset worden gemerkt. [&#x200B; zie het overzicht van Identiteitsnaamruimte &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/namespaces).
 * Identiteitsdekking voor zowel blijvende identiteitskaart als persoonsidentiteitskaart verifiëren:
    * Persistente ID: query 7 dagen van gegevens waarbij het veld van uw permanente id niet null is en wordt gedeeld door een query van 7 dagen met gegevens voor alle gebeurtenissen in uw dataset. Dit percentage zou boven 95% moeten liggen.
 
