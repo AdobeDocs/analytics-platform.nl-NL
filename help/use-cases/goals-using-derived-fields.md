@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Dit gebruiksgeval beschrijft hoe te om de macht van afgeleide gebieden te gebruiken om doelstellingen voor een specifieke dimensie te plaatsen en dan deze doelstellingen in uw project van Workspace te gebruiken.
 
-Als u niet vertrouwd met afgeleide gebieden bent, verwijs naar het [ leerprogramma ](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/derived-fields-in-cja.html) en [ documentatie ](../data-views/derived-fields/derived-fields.md) voor een inleiding.
+Als u niet vertrouwd met afgeleide gebieden bent, verwijs naar het [&#x200B; leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/data-views/derived-fields-in-cja.html) en [&#x200B; documentatie &#x200B;](../data-views/derived-fields/derived-fields.md) voor een inleiding.
 
 
 ## Doelstellingen definiëren
@@ -32,22 +32,22 @@ U wilt uitdrukkelijk doelstellingen voor uw bevelen van het giftecertificaat voo
 
 1. Statische waarden instellen met een CASE WHEN-REGEL voor elke maand door een **[!UICONTROL Custom numeric value]** in te stellen. Zie de regel Maandelijkse Productdoelen hieronder.
 
-   ![ Maandelijkse Doelstellingen van het Product ](assets/goals-derived-field-product-goals-1.png)
+   ![&#x200B; Maandelijkse Doelstellingen van het Product &#x200B;](assets/goals-derived-field-product-goals-1.png)
 
 
 ### Doelstellingen van inkomsten uit marketingkanalen
 
 U wilt een maandelijks inkomstendoel voor elk van uw marketing kanalen plaatsen. Dit doet u als volgt:
 
-1. Creeer een nieuw afgeleid gebied, gebruikend het [ malplaatje van de de kanaalfunctie van de Marketing ](/help/data-views/derived-fields/derived-fields.md#marketing-channels) met de naam `Monthly Marketing Channel Revenue Goal (Incremental)`.
+1. Creeer een nieuw afgeleid gebied, gebruikend het [&#x200B; malplaatje van de de kanaalfunctie van de Marketing &#x200B;](/help/data-views/derived-fields/derived-fields.md#marketing-channels) met de naam `Monthly Marketing Channel Revenue Goal (Incremental)`.
 
 1. Definieer alle regels om alle marketingkanalen correct te identificeren op basis van een combinatie van URL PARSE en CASE WHEN-regels. Bijvoorbeeld:
 
-   ![ Definitie van regels voor het op de markt brengen van kanaal afgeleid gebied ](assets/goals-derived-field-marketing-channel-1.png)
+   ![&#x200B; Definitie van regels voor het op de markt brengen van kanaal afgeleid gebied &#x200B;](assets/goals-derived-field-marketing-channel-1.png)
 
 1. Statische waarden expliciet instellen voor de specifieke marketingkanalen in een definitieve CASE WHEN-regel door een **[!UICONTROL Custom numeric value]** in te stellen. Deze waarden vertegenwoordigen de doelstellingen van de maandelijkse omzet. Zie de onderstaande regel [!DNL Monthly Goal] .
 
-   ![ Maandelijkse Doelen ](assets/goals-derived-field-marketing-channel-2.png)
+   ![&#x200B; Maandelijkse Doelen &#x200B;](assets/goals-derived-field-marketing-channel-2.png)
 
 
 
@@ -59,15 +59,15 @@ Om doelstellingen in uw project van Workspace te gebruiken, gebruikt u de bereke
 
 1. Maak een berekend metrisch veld met de naam `Monthly Gift Certificate Orders Goal` , gedefinieerd als:
 
-   ![ het Doel van Orden ](assets/calculated-metric-ordersgoals.png)
+   ![&#x200B; het Doel van Orden &#x200B;](assets/calculated-metric-ordersgoals.png)
 
 1. U kunt aanvullende berekende velden maken, bijvoorbeeld `% of Monthly Gift Certificate Orders Goal` , om de werkelijke voortgang ten opzichte van de doelen te laten zien, bijvoorbeeld:
 
-   ![ het Tarief van het Goal van Orden ](assets/calculated-metric-ordersgoalspercent.png)
+   ![&#x200B; het Tarief van het Goal van Orden &#x200B;](assets/calculated-metric-ordersgoalspercent.png)
 
 U kunt deze berekende metriek gebruiken om over vooruitgang in vrije vormlijsten en visualisaties te rapporteren. Bijvoorbeeld:
 
-![ Vrije lijst die marketing opbrengstdoelstellingen toont ](assets/freeform-table-marketing-channel-revenue-goals.png)
+![&#x200B; Vrije lijst die marketing opbrengstdoelstellingen toont &#x200B;](assets/freeform-table-marketing-channel-revenue-goals.png)
 
 
 
@@ -76,12 +76,12 @@ U kunt deze berekende metriek gebruiken om over vooruitgang in vrije vormlijsten
 
 1. Maak een berekend metrisch veld met de naam `Marketing Channel Revenue Goal` , gedefinieerd als:
 
-   ![ het Doel van de Opbrengst ](assets/calculated-metric-revenuegoals.png)
+   ![&#x200B; het Doel van de Opbrengst &#x200B;](assets/calculated-metric-revenuegoals.png)
 
 1. U kunt aanvullende berekende velden maken, bijvoorbeeld `% of Marketing Channel Revenue Goal` , om de werkelijke voortgang ten opzichte van de doelen te laten zien, bijvoorbeeld:
 
-   ![ Percentage van het Gebied van Opbrengst ](assets/calculated-metric-revenuegoalspercent.png)
+   ![&#x200B; Percentage van het Gebied van Opbrengst &#x200B;](assets/calculated-metric-revenuegoalspercent.png)
 
 U kunt deze berekende metriek gebruiken om over vooruitgang in vrije vormlijsten en visualisaties te rapporteren. Bijvoorbeeld:
 
-![ Vrije lijst die marketing opbrengstdoelstellingen toont ](assets/freeform-table-product-order-goals.png)
+![&#x200B; Vrije lijst die marketing opbrengstdoelstellingen toont &#x200B;](assets/freeform-table-product-order-goals.png)
