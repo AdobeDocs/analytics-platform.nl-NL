@@ -1,14 +1,14 @@
 ---
-title: Wat is Report Builder in Customer Journey Analytics
-description: Beschrijft Report Builder voor Customer Journey Analytics
+title: Report Builder - Overzicht
+description: Meer weten over de Report Builder-functionaliteit?
 role: User
 feature: Report Builder
 type: Documentation
 exl-id: 56bf524d-101d-4745-b2ef-9770c50f6774
 solution: Customer Journey Analytics
-source-git-commit: 720751130d0f66bddffd13c6f160a85fcc7a7206
+source-git-commit: 31d3b40ad7a081aefa4297d7f4a3b986711ead03
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '330'
 ht-degree: 1%
 
 ---
@@ -48,8 +48,8 @@ Report Builder for Customer Journey Analytics is een Microsoft Excel-invoegtoepa
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Report Builder voor Customer Journey Analytics &#x200B;](https://video.tv.adobe.com/v/3452586?quality=12&learn=on&captions=dut){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Report Builder voor Customer Journey Analytics ](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
-U kunt Report Builder voor Customer Journey Analytics van de [&#x200B; Winkel van Microsoft downloaden &#x200B;](https://appsource.microsoft.com/en-us/product/Office365/WA200003101).
+U kunt Report Builder voor Customer Journey Analytics van de [ Winkel van Microsoft downloaden ](https://appsource.microsoft.com/en-us/product/Office365/WA200003101).
