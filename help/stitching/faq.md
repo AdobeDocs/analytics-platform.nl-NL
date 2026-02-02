@@ -1,13 +1,13 @@
 ---
 title: Veelgestelde vragen over tekst
-description: Veelgestelde vragen over Stitching
+description: Meer informatie over veelgestelde vragen over stitching.
 solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 exl-id: f4115164-7263-40ad-9706-3b98d0bb7905
 role: Admin
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
 workflow-type: tm+mt
-source-wordcount: '2069'
+source-wordcount: '2149'
 ht-degree: 2%
 
 ---
@@ -22,9 +22,9 @@ Hier volgen een aantal veelgestelde vragen over stitching:
 
 U kunt een stroomvisualisatie met de dimensie van identiteitskaart van de Dataset gebruiken.
 
-1. Login aan [&#x200B; Customer Journey Analytics &#x200B;](https://analytics.adobe.com) en creeer een leeg project van Workspace.
-2. Selecteer het **[!UICONTROL ** Visualisaties **]** lusje op de linkerzijde, en sleep a **[!UICONTROL **&#x200B; Stroom &#x200B;**]** visualisatie aan het canvas op het recht.
-3. Selecteer het **[!UICONTROL ** lusje van Componenten **]** op de linkerzijde, en sleep dimensie **[!UICONTROL ** identiteitskaart van de Dataset **]** aan de centrumplaats geëtiketteerd **[!UICONTROL **&#x200B; Dimension of Punt &#x200B;**]**.
+1. Login aan [ Customer Journey Analytics ](https://analytics.adobe.com) en creeer een leeg project van Workspace.
+2. Selecteer het **[!UICONTROL ** Visualisaties **]** lusje op de linkerzijde, en sleep a **[!UICONTROL ** Stroom **]** visualisatie aan het canvas op het recht.
+3. Selecteer het **[!UICONTROL ** lusje van Componenten **]** op de linkerzijde, en sleep dimensie **[!UICONTROL ** identiteitskaart van de Dataset **]** aan de centrumplaats geëtiketteerd **[!UICONTROL ** Dimension of Punt **]**.
 4. Dit stroomrapport is interactief. Als u de stromen naar volgende of vorige pagina&#39;s wilt uitbreiden, selecteert u een van de waarden. Gebruik het met de rechtermuisknop aanklikken menu om kolommen uit of samen te vouwen. Binnen hetzelfde stroomrapport kunnen ook verschillende afmetingen worden gebruikt.
 
 Als u de de afmetingspunten van identiteitskaart van de dataset zou willen anders noemen, kunt u een raadplegingsdataset gebruiken.
@@ -47,7 +47,7 @@ In sommige situaties, is het mogelijk dat de veelvoudige mensen van het zelfde a
 
 De persoon-id negeert de permanente id, zodat gedeelde apparaten als afzonderlijke personen worden beschouwd (zelfs als ze van hetzelfde apparaat afkomstig zijn).
 
-Zie [&#x200B; Gedeelde apparaten &#x200B;](/help/use-cases/stitching/shared-devices.md) gebruiksgeval voor meer details.
+Zie [ Gedeelde apparaten ](/help/use-cases/stitching/shared-devices.md) gebruiksgeval voor meer details.
 
 +++
 
@@ -55,11 +55,11 @@ Zie [&#x200B; Gedeelde apparaten &#x200B;](/help/use-cases/stitching/shared-devi
 
 +++ Hoe kan stitching situaties verwerken waarin één persoon vele blijvende IDs heeft?
 
-In sommige situaties kan een individuele gebruiker veel permanente id&#39;s koppelen. Een voorbeeld hiervan is dat een gebruiker vaak de cookies van de browser wist of de persoonlijke/incognitomodus van de browser gebruikt.
+In sommige situaties kan een individuele gebruiker veel permanente id&#39;s koppelen. Een voorbeeld hiervan is dat iemand vaak de cookies van de browser wist of de modus Private/Incognito van de browser gebruikt.
 
 Voor stitching in het veld is het aantal permanente id&#39;s niet relevant ten gunste van de persoon-id. Eén gebruiker kan tot een willekeurig aantal apparaten behoren zonder dat dit invloed heeft op de mogelijkheid van Customer Journey Analytics om apparaten aan te sluiten.
 
-Voor op een grafiek gebaseerde stitching, kan één enkele persoon vele blijvende identiteitskaart in de identiteitsgrafiek hebben. Op grafiek gebaseerde stitching gebruikt blijvende identiteitskaart die op gespecificeerde namespace wordt gebaseerd. Als er een meer permanente id voor dezelfde naamruimte is, wordt de lexicografische eerste permanente id gebruikt.
+Voor op een grafiek gebaseerde stitching, kan één enkele persoon vele blijvende IDs in de identiteitsgrafiek hebben. Op grafiek gebaseerde stitching gebruikt blijvende identiteitskaart die op gespecificeerde namespace wordt gebaseerd. Als er meer permanente id&#39;s zijn voor dezelfde naamruimte, wordt de lexicografische eerste permanente id gebruikt.
 
 +++
 
@@ -75,9 +75,9 @@ Livestitching is ongeveer een week beschikbaar nadat Adobe stitching inschakelt.
 
 +++ Wat is het verschil tussen apparaatanalyse (een functie in traditionele Analytics) en kanaalanalyse?
 
-[&#x200B; dwars-apparaat analyseert &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=nl-NL) is een eigenschap specifiek voor traditionele Adobe Analytics die u toestaat om te begrijpen hoe de mensen over apparaten werken. Er zijn twee workflows om apparaatgegevens aan elkaar te koppelen: op het veld gebaseerde stitching en de apparaatgrafiek.
+[ dwars-apparaat analyseert ](https://experienceleague.adobe.com/en/docs/analytics/components/cda/overview) is een eigenschap specifiek voor traditionele Adobe Analytics die u toestaat om te begrijpen hoe de mensen over apparaten werken. Er zijn twee workflows om apparaatgegevens aan elkaar te koppelen: op het veld gebaseerde stitching en de apparaatgrafiek.
 
-Kanaaloverschrijdende analyse is een gebruiksgeval specifiek voor Customer Journey Analytics dat u toestaat om te begrijpen hoe de mensen over zowel apparaten als kanalen werken. Het stitches de de persoonsidentiteitskaart van een dataset, toestaand die dataset om naadloos met andere datasets worden gecombineerd. Deze functie werkt op vergelijkbare wijze in ontwerpen als op het veld gebaseerde koppelingen voor apparaatanalyse, maar de implementatie is anders vanwege de verschillende gegevensarchitectuur tussen traditionele Analytics en Customer Journey Analytics. Zie [&#x200B; het Plaatsen &#x200B;](overview.md) en het [&#x200B; dwars-kanaalanalyse &#x200B;](../use-cases/cross-channel/cross-channel.md) gebruiksgeval voor meer informatie.
+Kanaaloverschrijdende analyse is een gebruiksgeval specifiek voor Customer Journey Analytics dat u toestaat om te begrijpen hoe de mensen over zowel apparaten als kanalen werken. Het stitches de de persoonsidentiteitskaart van een dataset, toestaand die dataset om naadloos met andere datasets worden gecombineerd. Deze functie werkt op vergelijkbare wijze in ontwerpen als op het veld gebaseerde koppelingen voor apparaatanalyse, maar de implementatie is anders vanwege de verschillende gegevensarchitectuur tussen traditionele Analytics en Customer Journey Analytics. Zie [ het Plaatsen ](overview.md) en het [ dwars-kanaalanalyse ](../use-cases/cross-channel/cross-channel.md) gebruiksgeval voor meer informatie.
 
 +++
 
@@ -85,7 +85,7 @@ Kanaaloverschrijdende analyse is een gebruiksgeval specifiek voor Customer Journ
 
 +++ Hoe behandelt Stitching privacyverzoeken?
 
-Adobe handelt privacyverzoeken af in overeenstemming met de lokale en internationale wetgeving. Adobe biedt [&#x200B; Adobe Experience Platform Privacy Service &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl-NL) aan om verzoeken van de gegevenstoegang en schrapping voor te leggen. De verzoeken zijn van toepassing op zowel de oorspronkelijke als de opgehaalde gegevensbestanden.
+Adobe handelt privacyverzoeken af in overeenstemming met de lokale en internationale wetgeving. Adobe biedt [ Adobe Experience Platform Privacy Service ](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/home) aan om verzoeken van de gegevenstoegang en schrapping voor te leggen. De verzoeken zijn van toepassing op zowel de oorspronkelijke als de opgehaalde gegevensbestanden.
 
 >[!IMPORTANT]
 >
@@ -114,27 +114,27 @@ Stel de volgende gegevens in voor identiteiten, gebeurtenissen vóór het stitch
 | | 3 | ts2 | 123 | ecid | Alex | CustId | Alex | CustId |
 
 
-**Huidige proces voor privacyverzoek**
+**Huidige proces voor privacyverzoeken**
 
 Wanneer een privacyverzoek voor klant met Loodje CustID wordt ontvangen, worden de rijen met doorhalingangen geschrapt. Andere gebeurtenissen krijgen een nieuwe naam met de identiteitskaart. Bijvoorbeeld, wordt eerste vastgemaakte identiteitskaart in de gestikte dataset bijgewerkt aan **Alex**.
 
 | Identiteitskaart | Id | tijdstempel | blijvende id | permanente naamruimte | persoon-id | naamruimte van persoon |
 |:---:|---|---|---|---|---|---|
-| ![&#x200B; DeleteOutline &#x200B;](/help/assets/icons/DeleteOutline.svg) | ~~1~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Loodje~~ | ~~CustId~~ |
+| ![ DeleteOutline ](/help/assets/icons/DeleteOutline.svg) | ~~1~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Loodje~~ | ~~CustId~~ |
 |  | 2 | ts2 | 123 | ecid | Alex | CustId |
 
 
 | Gegevensset gebeurtenissen | Id | tijdstempel | blijvende id | permanente naamruimte | persoon-id | naamruimte van persoon |
 |:---:|---|---|---|---|---|---|
 | | 1 | ts0 | 123 | ecid | | |
-| ![&#x200B; DeleteOutline &#x200B;](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Loodje~~ | ~~CustId~~ |
+| ![ DeleteOutline ](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Loodje~~ | ~~CustId~~ |
 | | 3 | ts2 | 123 | ecid | Alex | CustId |
 
 
 | Stitched dataset | Id | tijdstempel | blijvende id | permanente naamruimte | persoon-id | naamruimte van persoon | schuine ID | gebonden naamruimte |
 |:---:|---|---|---|---|---|---|---|---|
 | | 1 | ts0 | 123 | ecid | | | **Alex** | CustId |
-| ![&#x200B; DeleteOutline &#x200B;](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Loodje~~ | ~~CustId~~ | ~~Loodje~~ | ~~CustId~~ |
+| ![ DeleteOutline ](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Loodje~~ | ~~CustId~~ | ~~Loodje~~ | ~~CustId~~ |
 | | 3 | ts2 | 123 | ecid | Alex | CustId | Alex | CustId |
 
 
@@ -144,21 +144,21 @@ Wanneer een privacyverzoek voor klant met Loodje CustID wordt ontvangen, worden 
 
 | Identiteitskaart | Id | tijdstempel | blijvende id | permanente naamruimte | persoon-id | naamruimte van persoon |
 |:---:|---|---|---|---|---|---|
-| ![&#x200B; DeleteOutline &#x200B;](/help/assets/icons/DeleteOutline.svg) | ~~1~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Loodje~~ | ~~CustId~~ |
+| ![ DeleteOutline ](/help/assets/icons/DeleteOutline.svg) | ~~1~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Loodje~~ | ~~CustId~~ |
 |  | 2 | ts2 | 123 | ecid | Alex | CustId |
 
 
 | Gegevensset gebeurtenissen | Id | tijdstempel | blijvende id | permanente naamruimte | persoon-id | naamruimte van persoon |
 |:---:|---|---|---|---|---|---|
 | | 1 | ts0 | 123 | ecid | | |
-| ![&#x200B; DeleteOutline &#x200B;](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Loodje~~ | ~~CustId~~ |
+| ![ DeleteOutline ](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Loodje~~ | ~~CustId~~ |
 | | 3 | ts2 | 123 | ecid | Alex | CustId |
 
 
 | Stitched dataset | Id | tijdstempel | blijvende id | permanente naamruimte | persoon-id | naamruimte van persoon | schuine ID | gebonden naamruimte |
 |:---:|---|---|---|---|---|---|---|---|
 | | 1 | ts0 | 123 | ecid | | | **123** | ecid |
-| ![&#x200B; DeleteOutline &#x200B;](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Loodje~~ | ~~CustId~~ | ~~Loodje~~ | ~~CustId~~ |
+| ![ DeleteOutline ](/help/assets/icons/DeleteOutline.svg) | ~~2~~ | ~~ts1~~ | ~~123~~ | ~~ecid~~ | ~~Loodje~~ | ~~CustId~~ | ~~Loodje~~ | ~~CustId~~ |
 | | 3 | ts2 | 123 | ecid | Alex | CustId | Alex | CustId |
 
 +++
@@ -167,10 +167,10 @@ Wanneer een privacyverzoek voor klant met Loodje CustID wordt ontvangen, worden 
 
 +++ Wat gebeurt er als het veld Persistente ID in een of meer gebeurtenissen leeg is?
 
-Als het veld Persistent-id leeg is voor een gebeurtenis in een gegevensset die wordt gekoppeld, wordt de vergrendelde id voor die gebeurtenis op twee manieren bepaald:
+Als het veld Persistent-id leeg is voor een gebeurtenis in een gegevensset die wordt gekoppeld, wordt de vergrendelde id voor die gebeurtenis op een van de volgende twee manieren bepaald:
 
-* Als het veld Tijdelijke id niet leeg is, gebruikt Customer Journey Analytics de waarde in de tijdelijke id als de vergrendelde id.
-* Als het veld voor de tijdelijke id leeg is, laat Customer Journey Analytics ook de naastgelegen id leeg. In dit geval blijven de permanente id, de tijdelijke id en de naastgelegen id leeg voor de gebeurtenis. Deze typen gebeurtenissen worden uit elke Customer Journey Analytics-verbinding verwijderd met behulp van de gegevensset die wordt vastgezet, waarbij de vastgezette id is gekozen als de persoon-id.
+* Als het veld Persoon-id niet leeg is, gebruikt Customer Journey Analytics de waarde in persoon-id als de opgegeven id.
+* Als het veld Personen-id leeg is, laat Customer Journey Analytics ook de opgegeven ID leeg. In dit geval zijn de permanente id, de persoon-id en de aangesloten id leeg voor de gebeurtenis. Deze typen gebeurtenissen worden uit elke Customer Journey Analytics-verbinding verwijderd met behulp van de gegevensset die wordt vastgezet waar de vastgezette id als de persoon-id is gekozen.
 
 +++
 
@@ -205,11 +205,11 @@ Bepaalde metriek in Customer Journey Analytics lijken op metriek in traditionele
 
 | **Customer Journey Analytics stitched gegevens** | **Customer Journey Analytics unstitched gegevens** | **Adobe Analytics** | **Analytics Ultimate met CDA** |
 | ----- | ----- | ----- | ----- |
-| **Mensen** = Telling van verschillende persoon IDs waar vastgemaakte identiteitskaart als persoonsidentiteitskaart wordt gekozen. **Mensen** kunnen hoger of lager zijn dan **Unieke Bezoekers** in traditionele Adobe Analytics, afhankelijk van het resultaat van het stitching proces. | **Mensen** = Telling van verschillende persoon IDs die op de kolom wordt gebaseerd die als persoonidentiteitskaart wordt geselecteerd. **Mensen** in Analytics bronschakelaardatasets is gelijkaardig aan **Unieke Bezoekers** in traditionele Adobe Analytics als `endUserIDs._experience.aaid.id` als persoonsidentiteitskaart in Customer Journey Analytics wordt gebruikt. | **Unieke Bezoekers** = Telling van verschillende bezoeker IDs. **Unieke Bezoekers** kunnen niet het zelfde zijn als de telling van verschillende **ECID** s. | Zie [&#x200B; Mensen &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/metrics/people.html?lang=nl-NL). |
-| **Sessies**: Gedefinieerd op basis van de sessiemontages in de Customer Journey Analytics gegevensweergave. Tijdens het koppelingsproces kunnen afzonderlijke sessies van meerdere apparaten in één sessie worden gecombineerd. | **Sessies**: Gedefinieerd op basis van de sessiemontages die zijn opgegeven in de gegevensweergave van Customer Journey Analytics. | **bezoeken**: Zie [&#x200B; bezoeken &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=nl-NL). | **bezoeken**: Gedefinieerd gebaseerd op de zittingsmontages die in de [&#x200B; worden gespecificeerd CDA virtuele rapportreeks &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/cda/setup.html?lang=nl-NL). |
-| **Gebeurtenissen** = telling van rijen in de gestikte gegevens in Customer Journey Analytics. Dit metrisch is typisch dicht bij **Voorkomen** in traditionele Adobe Analytics. Opmerking: de veelgestelde vragen hierboven hebben betrekking op rijen met een lege permanente id. | **Gebeurtenissen** = telling van rijen in de unstitched gegevens in Customer Journey Analytics. Dit metrisch is typisch dicht bij **Voorkomen** in traditionele Adobe Analytics. Houd er echter rekening mee dat als een willekeurige gebeurtenis een lege persoon-id heeft in de niet-opgeslagen gegevens in het Experience Platform data Lake, deze gebeurtenissen niet in Customer Journey Analytics zijn opgenomen. | **Voorkomen**: Zie [&#x200B; Voorkomen &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=nl-NL). | **Voorkomen**: Zie [&#x200B; Voorkomen &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/metrics/occurrences.html?lang=nl-NL). |
+| **Mensen** = Telling van verschillende persoon IDs waar vastgemaakte identiteitskaart als persoonsidentiteitskaart wordt gekozen. **Mensen** kunnen hoger of lager zijn dan **Unieke Bezoekers** in traditionele Adobe Analytics, afhankelijk van het resultaat van het stitching proces. | **Mensen** = Telling van verschillende persoon IDs die op de kolom wordt gebaseerd die als persoonidentiteitskaart wordt geselecteerd. **Mensen** in Analytics bronschakelaardatasets is gelijkaardig aan **Unieke Bezoekers** in traditionele Adobe Analytics als `endUserIDs._experience.aaid.id` als persoonsidentiteitskaart in Customer Journey Analytics wordt gebruikt. | **Unieke Bezoekers** = Telling van verschillende bezoeker IDs. **Unieke Bezoekers** kunnen niet het zelfde zijn als de telling van verschillende **ECID** s. | Zie [ Mensen ](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/people). |
+| **Sessies**: Gedefinieerd op basis van de sessiemontages in de Customer Journey Analytics gegevensweergave. Tijdens het koppelingsproces kunnen afzonderlijke sessies van meerdere apparaten in één sessie worden gecombineerd. | **Sessies**: Gedefinieerd op basis van de sessiemontages die zijn opgegeven in de gegevensweergave van Customer Journey Analytics. | **bezoeken**: Zie [ bezoeken ](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/visits). | **bezoeken**: Gedefinieerd gebaseerd op de zittingsmontages die in de [ worden gespecificeerd CDA virtuele rapportreeks ](https://experienceleague.adobe.com/en/docs/analytics/components/cda/setup). |
+| **Gebeurtenissen** = telling van rijen in de gestikte gegevens in Customer Journey Analytics. Dit metrisch is typisch dicht bij **Voorkomen** in traditionele Adobe Analytics. Opmerking: de veelgestelde vragen hierboven hebben betrekking op rijen met een lege permanente id. | **Gebeurtenissen** = telling van rijen in de unstitched gegevens in Customer Journey Analytics. Dit metrisch is typisch dicht bij **Voorkomen** in traditionele Adobe Analytics. Houd er echter rekening mee dat als een willekeurige gebeurtenis een lege persoon-id heeft in de niet-opgeslagen gegevens in het Experience Platform data Lake, deze gebeurtenissen niet in Customer Journey Analytics zijn opgenomen. | **Voorkomen**: Zie [ Voorkomen ](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/occurrences). | **Voorkomen**: Zie [ Voorkomen ](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/occurrences). |
 
-Andere cijfers kunnen vergelijkbaar zijn in Customer Journey Analytics en Adobe Analytics. Bijvoorbeeld, is de totale telling voor Adobe Analytics [&#x200B; douanegebeurtenissen &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/metrics/custom-events.html?lang=nl-NL) 1-100 vergelijkbaar tussen traditionele Adobe Analytics en Customer Journey Analytics (of vastgemaakt of unstitched). [&#x200B; Verschillen in mogelijkheden &#x200B;](/help/getting-started/aa-vs-cja/cja-aa.md)) zoals gebeurtenis deduplicatie tussen Customer Journey Analytics versus Adobe Analytics kan discrepantie tussen de twee producten veroorzaken.
+Andere cijfers kunnen vergelijkbaar zijn in Customer Journey Analytics en Adobe Analytics. Bijvoorbeeld, is de totale telling voor Adobe Analytics [ douanegebeurtenissen ](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/custom-events) 1-100 vergelijkbaar tussen traditionele Adobe Analytics en Customer Journey Analytics (of vastgemaakt of unstitched). [ Verschillen in mogelijkheden ](/help/getting-started/aa-vs-cja/cja-aa.md)) zoals gebeurtenis deduplicatie tussen Customer Journey Analytics versus Adobe Analytics kan discrepantie tussen de twee producten veroorzaken.
 
 +++
 
@@ -217,7 +217,7 @@ Andere cijfers kunnen vergelijkbaar zijn in Customer Journey Analytics en Adobe 
 
 +++ Kan Customer Journey Analytics de velden Identity Map gebruiken?
 
-Ja, Customer Journey Analytics kan de gebieden van de Kaart van de Identiteit voor zowel [&#x200B; op gebied-gebaseerde &#x200B;](/help/stitching/fbs.md#identitymap) als [&#x200B; op grafiek-gebaseerde &#x200B;](/help/stitching/gbs.md#identitymap) stitching gebruiken.
+Ja, Customer Journey Analytics kan de gebieden van de Kaart van de Identiteit voor zowel [ op gebied-gebaseerde ](/help/stitching/fbs.md#identitymap) als [ op grafiek-gebaseerde ](/help/stitching/gbs.md#identitymap) stitching gebruiken.
 
 +++
 
@@ -225,7 +225,7 @@ Ja, Customer Journey Analytics kan de gebieden van de Kaart van de Identiteit vo
 
 +++ Moeten de gegevens opnieuw worden ingevoerd om van op het veld gebaseerde stitching naar op grafiek gebaseerde stitching over te schakelen?
 
-Gegevens hoeven niet opnieuw in Experience Platform te worden ingevoerd, maar moeten in Customer Journey Analytics opnieuw worden geconfigureerd. Voer de volgende stappen uit:
+Gegevens hoeven niet opnieuw in Experience Platform te worden ingevoerd. Gegevens moeten echter opnieuw worden geconfigureerd in Customer Journey Analytics. Voer de volgende stappen uit:
 
 1. Stel de nieuwe, op een grafiek gebaseerde, gestikte gegevensset in met behulp van op een grafiek gebaseerde stitching.
 1. Maak een nieuwe tijdelijke verbinding met een zeer klein tijdvenster met gegevens.
@@ -248,33 +248,35 @@ Niet als u de hierboven beschreven stappen uitvoert. Anders vraagt u Adobe Consu
 
 +++ Hoe te om een dataset voor de Dienst van de Identiteit slechts toe te laten? 
 
-U moet ervoor zorgen dat een dataset voor de Dienst van de Identiteit wordt toegelaten om de dataset in grafiek-gebaseerd het stitching te gebruiken.
+Zorg ervoor dat een dataset voor de Dienst van de Identiteit wordt toegelaten om de dataset in grafiek-gebaseerd het stitching te gebruiken.
 
 U hoeft geen licentie te hebben voor Real-Time Customer Data Platform om gebruik te maken van op grafieken gebaseerde stitching. Grafiekgebaseerde stitching is gebaseerd op een beschikbare identiteitsgrafiek en niet op klantenprofielen in real time.
 
-Als u alleen een gegevensset voor de identiteitsservice wilt inschakelen, gebruikt u een `POST` -aanvraag voor het `/datasets` -eindpunt dat alleen de tag `unifiedIdentity` gebruikt. Bijvoorbeeld:
+Om een bestaande dataset te controleren en de dataset voor de Dienst van de Identiteit slechts toe te laten, gebruik een `PATCH` verzoek aan het `/datasets` eindpunt dat slechts de `unifiedIdentity` markering gebruikt. Bijvoorbeeld:
 
 ```shell
-curl -X POST \
-  https://platform.adobe.io/data/foundation/catalog/dataSets \
-  -H 'Content-Type: application/json' \
+curl -X PATCH \
+  https://platform.adobe.io/data/foundation/catalog/dataSets/{DATASET_ID} \
+  -H 'Content-Type:application/json-patch+json' \
   -H 'Authorization: Bearer {ACCESS_TOKEN}' \
   -H 'x-api-key: {API_KEY}' \
   -H 'x-gw-ims-org-id: {ORG_ID}' \
   -H 'x-sandbox-name: {SANDBOX_NAME}' \
-  -d '{
-    "schemaRef": {
-        "id": "https://ns.adobe.com/{TENANT_ID}/schemas/31670881463308a46f7d2cb09762715",
-        "contentType": "application/vnd.adobe.xed-full-notext+json; version=1"
-    },
-    "tags": {
-       "unifiedIdentity": ["enabled:true"]
-    }
-  }'
+  -d '[
+        { "op": "add", "path": "/tags/unifiedProfile", "value": ["enabled:true"] }
+      ]'
 ```
 
 Als u de tag `unifiedProfile` in de aanvraag gebruikt, maar geen licentie hebt voor Real-Time Customer Data Profile, wordt een fout geretourneerd.
 
-Zie [&#x200B; een dataset creëren die voor Profiel en Identiteit &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/enable-for-profile#create-a-dataset-enabled-for-profile-and-identity) voor meer informatie wordt toegelaten.
+Zie [ een dataset creëren die voor Profiel en Identiteit ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-for-profile#enable-the-dataset) voor meer informatie wordt toegelaten.
 
 +++ 
+
+
+## Naamruimtewaarden met titel
+
++++ Waarom komen gebonden naamruimtewaarden niet altijd overeen met de naamruimtewaarde van de identiteit die u binnen een andere gegevensset binnen de CJA-verbinding zou kunnen gebruiken?
+
+Standaard worden naamruimtewaarden in kleine letters geplaatst. Dus `custEmail` wordt `custemail` . Als u nog een gegevensset met de naamruimtewaarde `custEmail` voor identiteit hebt, komen de twee waarden niet overeen. Om rond dit gedrag in het melden te werken, kon u [ in kleine letters () gebruiken ](/help/data-views/derived-fields/derived-fields.md#lowercase) afgeleide gebiedsfunctie om de waarden van identiteitskaart aan te passen namespace.
+
