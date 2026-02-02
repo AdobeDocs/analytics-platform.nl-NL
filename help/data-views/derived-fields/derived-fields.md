@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Afgeleide velden zijn een belangrijk aspect van de functionaliteit voor realtime rapportage in Adobe Customer Journey Analytics. Een afgeleid gebied staat u toe om (vaak complexe) gegevensmanipulaties op de vlucht, door een klantgerichte regelbouwer te bepalen. U kunt dat afgeleid gebied als component (metrisch of afmeting) in [&#x200B; Workspace &#x200B;](../../analysis-workspace/home.md) dan gebruiken of zelfs het afgeleide gebied als component in [&#x200B; mening van Gegevens &#x200B;](../data-views.md) verder bepalen.
 
-Afgeleide velden kunnen veel tijd en moeite besparen in vergelijking met het transformeren of manipuleren van gegevens op andere locaties buiten Customer Journey Analytics. Zoals [&#x200B; Prep van Gegevens &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html), [&#x200B; Gegevens Distiller &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html), of binnen uw eigen processen van de Lading van de Transformatie van de Transformatie van het Uittreksel (ETL) / van de Transformatie van de Lading van het Uittreksel (ELT).
+Afgeleide velden kunnen veel tijd en moeite besparen in vergelijking met het transformeren of manipuleren van gegevens op andere locaties buiten Customer Journey Analytics. Zoals [&#x200B; Prep van Gegevens &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=nl-NL), [&#x200B; Gegevens Distiller &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/data-distiller/overview.html?lang=nl-NL), of binnen uw eigen processen van de Lading van de Transformatie van de Transformatie van het Uittreksel (ETL) / van de Transformatie van de Lading van het Uittreksel (ELT).
 
 De afgeleide gebieden worden bepaald binnen [&#x200B; meningen van Gegevens &#x200B;](../data-views.md), zijn gebaseerd op een reeks die functies als regels worden bepaald, en op beschikbare standaard en/of schemagebieden worden toegepast.
 
@@ -1580,10 +1580,10 @@ U wilt een gedeelte van een URL vastleggen en dat gebruiken als unieke pagina-id
 
 | Pagina-URL |
 |---|
-| `https://business.adobe.com/products/analytics/adobe-analytics-benefits.html` |
-| `https://business.adobe.com/products/analytics/adobe-analytics.html` |
-| `https://business.adobe.com/products/experience-platform/customer-journey-analytics.html` |
-| `https://business.adobe.com/products/experience-platform/adobe-experience-platform.html` |
+| `https://business.adobe.com/nl/products/analytics/adobe-analytics-benefits.html` |
+| `https://business.adobe.com/nl/products/analytics/adobe-analytics.html` |
+| `https://business.adobe.com/nl/products/experience-platform/customer-journey-analytics.html` |
+| `https://business.adobe.com/nl/products/experience-platform/adobe-experience-platform.html` |
 
 {style="table-layout:auto"}
 
@@ -2089,7 +2089,7 @@ De volgende beperkingen zijn van toepassing op de functionaliteit van het afgele
 
 - U kunt maximaal tien verschillende schemavelden gebruiken (zonder standaardvelden) bij het definiëren van regels voor een afgeleid veld.
    - Van dit maximum van tien verschillende schemagebieden, slechts worden een maximum van drie raadplegingsschema of profielschemagebieden toegestaan.
-- U kunt een maximumaantal afgeleide gebieden per verbinding van Customer Journey Analytics afhankelijk van het pakket hebben u vergunning geeft. Zie [&#x200B; Beschrijving van het Product &#x200B;](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html){target="_blank"} voor meer informatie.
+- U kunt een maximumaantal afgeleide gebieden per verbinding van Customer Journey Analytics afhankelijk van het pakket hebben u vergunning geeft. Zie [&#x200B; Beschrijving van het Product &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/customer-journey-analytics.html){target="_blank"} voor meer informatie.
 
 
 ### Overzicht van functiebeperkingen
@@ -2140,7 +2140,7 @@ De steun voor raadpleging en profielgebieden in Voortgekomen Gebieden laat u toe
 
 >[!MORELIKETHIS]
 >
->- [&#x200B; Blog: Making the most of Your Data: A Framework for Using Derived Fields in Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670)
->- [&#x200B; Blog: Afgeleide Gevallen van het Gebruik van Gebieden voor Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679)
->- [&#x200B; Blog: Adobe Customer Journey Analytics Afgeleide Verbeteringen van Gebieden &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808)
+>- [&#x200B; Blog: Making the most of Your Data: A Framework for Using Derived Fields in Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/making-the-most-of-your-data-a-framework-for-using-derived/ba-p/601670?profile.language=nl)
+>- [&#x200B; Blog: Afgeleide Gevallen van het Gebruik van Gebieden voor Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/derived-fields-use-cases-for-customer-journey-analytics/ba-p/601679?profile.language=nl)
+>- [&#x200B; Blog: Adobe Customer Journey Analytics Afgeleide Verbeteringen van Gebieden &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/adobe-customer-journey-analytics-derived-fields-enhancements/ba-p/697808?profile.language=nl)
 
