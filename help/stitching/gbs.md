@@ -17,11 +17,11 @@ ht-degree: 0%
 In op grafiek-gebaseerde het stitching, specificeert u een gebeurtenisdataset. En voor die gebeurtenisdataset geeft u de permanente id (cookie) en de gewenste stitching-naamruimte op vanuit de identiteitsgrafiek die de waarden van de persoon-id bevat. Op grafiek gebaseerde stitching voegt een nieuwe kolom voor stitched ID aan de gebeurtenisdataset toe. De permanente id wordt gebruikt om een query uit te voeren naar de identiteitsgrafiek van de Experience Platform Identity Service, waarbij de opgegeven stitching-naamruimte wordt gebruikt om de opgeslagen id bij te werken.
 
 
-![ grafiek-gebaseerd-stitching ](/help/stitching/assets/gbs.png)
+![&#x200B; grafiek-gebaseerd-stitching &#x200B;](/help/stitching/assets/gbs.png)
 
 ## IdentityMap
 
-Op grafiek-gebaseerde het stitching steunt het gebruik van de [`identityMap` gebiedsgroep ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity) in de volgende scenario&#39;s:
+Op grafiek-gebaseerde het stitching steunt het gebruik van de [`identityMap` gebiedsgroep &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity) in de volgende scenario&#39;s:
 
 - Gebruik van de primaire identiteit in `identityMap` naamruimten om de persistentID te definiëren:
    - Als er meerdere primaire identiteiten voorkomen in verschillende naamruimten, worden de identiteiten in de naamruimten lexicografisch gesorteerd en wordt de eerste identiteit geselecteerd.
@@ -95,9 +95,9 @@ Met Stitching worden minimaal twee gegevenscontroles uitgevoerd in een bepaalde 
 
 - **Replay het stitching**: *speelt* gegevens opnieuw die op bijgewerkte identiteiten van de identiteitsgrafiek worden gebaseerd. In dit stadium worden hits van voorheen onbekende apparaten (permanente id&#39;s) vastgezet naarmate de identiteitsgrafiek de identiteit van een naamruimte heeft opgelost. Twee parameters bepalen replay: **frequentie** en **raadplegingsvenster**. Adobe biedt de volgende combinaties van deze parameters aan:
    - **Dagelijkse raadpleging op een dagelijkse frequentie**: De gegevens respeelt elke dag met een terugkijkvenster van 24 uur terug. Deze optie biedt een voordeel dat het aantal keren opnieuw wordt afgespeeld, maar niet-geverifieerde profielen moeten op dezelfde dag dat ze uw site bezoeken, worden geverifieerd.
-   - **wekelijkse raadpleging op een wekelijkse frequentie**: De gegevens respeelt eens per week met een wekelijks terugkijkvenster (zie [ opties ](#options)) opnieuw. Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Niet-opgeslagen gegevens van minder dan een week oud worden echter pas opnieuw verwerkt wanneer de gegevens wekelijks opnieuw worden afgespeeld.
-   - **biwekelijkse raadpleging op een wekelijkse frequentie**: De gegevens respeelt eens per week met een tweewekelijkse raadplegingsvenster (zie [ opties ](#options)) opnieuw. Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Onverwachte gegevens van minder dan twee weken oud worden echter pas opnieuw verwerkt wanneer de volgende week opnieuw wordt afgespeeld.
-   - **Maandelijkse raadpleging op een wekelijkse frequentie**: De gegevens replay elke week met een maandelijks terugkijkvenster (zie [ opties ](#options)). Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Niet-opgeslagen gegevens van minder dan een maand oud worden echter pas opnieuw verwerkt wanneer de gegevens wekelijks opnieuw worden afgespeeld.
+   - **wekelijkse raadpleging op een wekelijkse frequentie**: De gegevens respeelt eens per week met een wekelijks terugkijkvenster (zie [&#x200B; opties &#x200B;](#options)) opnieuw. Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Niet-opgeslagen gegevens van minder dan een week oud worden echter pas opnieuw verwerkt wanneer de gegevens wekelijks opnieuw worden afgespeeld.
+   - **biwekelijkse raadpleging op een wekelijkse frequentie**: De gegevens respeelt eens per week met een tweewekelijkse raadplegingsvenster (zie [&#x200B; opties &#x200B;](#options)) opnieuw. Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Onverwachte gegevens van minder dan twee weken oud worden echter pas opnieuw verwerkt wanneer de volgende week opnieuw wordt afgespeeld.
+   - **Maandelijkse raadpleging op een wekelijkse frequentie**: De gegevens replay elke week met een maandelijks terugkijkvenster (zie [&#x200B; opties &#x200B;](#options)). Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Niet-opgeslagen gegevens van minder dan een maand oud worden echter pas opnieuw verwerkt wanneer de gegevens wekelijks opnieuw worden afgespeeld.
 
 - **Privacy**: Wanneer op privacy betrekking hebbende verzoeken, naast het verwijderen van de gevraagde identiteit uit de brondataset worden ontvangen, moet om het even welk stitching van die identiteit over niet voor authentiek verklaarde gebeurtenissen worden ongedaan gemaakt. De identiteit moet ook uit het identiteitsdiagram worden verwijderd om te voorkomen dat op een grafiek gebaseerde stitching wordt toegepast voor die specifieke identiteit.
 
@@ -110,9 +110,9 @@ Gegevens buiten het terugzoekvenster worden niet opnieuw afgespeeld. Een profiel
 
 Bekijk de volgende twee identiteitsgrafiekupdates in de loop der tijd voor bezoeker A (met blijvende identiteitskaart `246`) en bezoeker B (met blijvende identiteitskaart `3579`), en hoe deze updates de stappen in op grafiek-gebaseerde het stitching beïnvloeden.
 
-![ Grafiek 3579 van de Identiteit ](assets/identity-graphs.svg)
+![&#x200B; Grafiek 3579 van de Identiteit &#x200B;](assets/identity-graphs.svg)
 
-U kunt een identiteitsgrafiek over tijd voor een specifiek profiel bekijken gebruikend de [ Kijker van de Grafiek van de Identiteit ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-viewer). Zie ook [ Dienst die van de Identiteit logica ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic) verbindt om een beter begrip van de gebruikte logica te krijgen wanneer het verbinden van identiteiten.
+U kunt een identiteitsgrafiek over tijd voor een specifiek profiel bekijken gebruikend de [&#x200B; Kijker van de Grafiek van de Identiteit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-viewer). Zie ook [&#x200B; Dienst die van de Identiteit logica &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic) verbindt om een beter begrip van de gebruikte logica te krijgen wanneer het verbinden van identiteiten.
 
 ### Stap 1: Actief stitching
 
@@ -120,15 +120,15 @@ Met live stitching wordt geprobeerd elke gebeurtenis na het verzamelen aan beken
 
 +++ Details
 
-| | Tijd | Blijvende id <br/>`ECID` | Namespace <br/>`Email` ![ DataMapping ](/help/assets/icons/DataMapping.svg) | Id met titel (na liveslot) |
+| | Tijd | Blijvende id <br/>`ECID` | Namespace <br/>`Email` ![&#x200B; DataMapping &#x200B;](/help/assets/icons/DataMapping.svg) | Id met titel (na liveslot) |
 |--:|---|---|---|---|
-| 1 | 2023-05-12 11 :00 | `246` | `246` ![ Branch1 ](/help/assets/icons/Branch1.svg) *niet gedefiniëerd* | `246` |
-| 2 | 2023-05-12 14 :00 | `246` | `246` ![ Branch1 ](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
-| 3 | 2023-05-12 15 :00 | `246` | `246` ![ Branch1 ](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
-| 4 | 2023-05-12 17 :00 | `3579` | `3579` ![ Branch1 ](/help/assets/icons/Branch1.svg) *niet gedefiniëerd* | `3579` |
-| 5 | 2023-05-12 19 :00 | `3579` | `3579` ![ Branch1 ](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `ted.w@gmail.com` |
-| 6 | 2023-05-13 15 :00 | `246` | `246` ![ Branch1 ](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
-| 7 | 2023-05-13 16 :30 | `246` | `246` ![ Branch1 ](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk`<br/>`246` ![ Branch1 ](/help/assets/icons/Branch1.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` |
+| 1 | 2023-05-12 11 :00 | `246` | `246` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) *niet gedefiniëerd* | `246` |
+| 2 | 2023-05-12 14 :00 | `246` | `246` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
+| 3 | 2023-05-12 15 :00 | `246` | `246` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
+| 4 | 2023-05-12 17 :00 | `3579` | `3579` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) *niet gedefiniëerd* | `3579` |
+| 5 | 2023-05-12 19 :00 | `3579` | `3579` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `ted.w@gmail.com` |
+| 6 | 2023-05-13 15 :00 | `246` | `246` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` |
+| 7 | 2023-05-13 16 :30 | `246` | `246` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk`<br/>`246` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` |
 
 {style="table-layout:auto"}
 
@@ -143,16 +143,16 @@ Met regelmatige intervallen (afhankelijk van het gekozen terugkijkvenster) worde
 
 +++ Details
 
-Met een replay het stitching gebeuren in 2023-05-13 16 :30, met een configuratie van het terugkijkvenster van 24 uur, worden sommige gebeurtenissen van de steekproef opnieuw vastgemaakt (die door ![ wordt vermeld Replay ](/help/assets/icons/Replay.svg)).
+Met een replay het stitching gebeuren in 2023-05-13 16 :30, met een configuratie van het terugkijkvenster van 24 uur, worden sommige gebeurtenissen van de steekproef opnieuw vastgemaakt (die door ![&#x200B; wordt vermeld Replay &#x200B;](/help/assets/icons/Replay.svg)).
 
-| | Tijd | Blijvende id <br/>`ECID` | Namespace <br/>`Email` ![ DataMapping ](/help/assets/icons/DataMapping.svg) | Gestikte identiteitskaart <br/> (na levende steek) | Gestikte identiteitskaart <br/> (na replay 24 uren) |
+| | Tijd | Blijvende id <br/>`ECID` | Namespace <br/>`Email` ![&#x200B; DataMapping &#x200B;](/help/assets/icons/DataMapping.svg) | Gestikte identiteitskaart <br/> (na levende steek) | Gestikte identiteitskaart <br/> (na replay 24 uren) |
 |---|---|---|---|---|---|
-| 2 | 2023-05-12 14 :00 | `246` | `246` ![ Branch1 ](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `bob.a@gmail.com` |
-| 3 | 2023-05-12 15 :00 | `246` | `246` ![ Branch1 ](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `bob.a@gmail.com` |
-| ![ Replay ](/help/assets/icons/Replay.svg) 4 | 2023-05-12 17 :00 | `3579` | `3579` ![ Verbinding ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `3579` | `ted.w@gmail.com` |
-| ![ Replay ](/help/assets/icons/Replay.svg) 5 | 2023-05-12 19 :00 | `3579` | `3579` ![ Verbinding ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `ted.w@gmail.com` | `ted.w@gmail.com` |
-| ![ Replay ](/help/assets/icons/Replay.svg) 6 | 2023-05-13 15 :00 | `246` | `246` ![ Verbinding ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
-| ![ Replay ](/help/assets/icons/Replay.svg) 7 | 2023-05-13 16 :30 | `246` | `246` ![ Branch1 ](/help/assets/icons/Branch1.svg)`a.b@yahoo.co.uk`<br/>`246` ![ Branch1 ](/help/assets/icons/Branch1.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` | `a.b@yahoo.co.uk` |
+| 2 | 2023-05-12 14 :00 | `246` | `246` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `bob.a@gmail.com` |
+| 3 | 2023-05-12 15 :00 | `246` | `246` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `bob.a@gmail.com` |
+| ![&#x200B; Replay &#x200B;](/help/assets/icons/Replay.svg) 4 | 2023-05-12 17 :00 | `3579` | `3579` ![&#x200B; Verbinding &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `3579` | `ted.w@gmail.com` |
+| ![&#x200B; Replay &#x200B;](/help/assets/icons/Replay.svg) 5 | 2023-05-12 19 :00 | `3579` | `3579` ![&#x200B; Verbinding &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `ted.w@gmail.com` | `ted.w@gmail.com` | `ted.w@gmail.com` |
+| ![&#x200B; Replay &#x200B;](/help/assets/icons/Replay.svg) 6 | 2023-05-13 15 :00 | `246` | `246` ![&#x200B; Verbinding &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Branch1_18_N.svg) `a.b@yahoo.co.uk` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
+| ![&#x200B; Replay &#x200B;](/help/assets/icons/Replay.svg) 7 | 2023-05-13 16 :30 | `246` | `246` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg)`a.b@yahoo.co.uk`<br/>`246` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` | `a.b@yahoo.co.uk` |
 
 {style="table-layout:auto"}
 
@@ -160,15 +160,15 @@ Met een replay het stitching gebeuren in 2023-05-13 16 :30, met een configuratie
 Met replay het stitching gebeuren bij 2023-05-13 16 :30, met een configuratie van het 7 dagterugkijkvenster, worden alle gebeurtenissen van de steekproef re-stitched.
 
 
-| | Tijd | Blijvende id <br/>`ECID` | Namespace <br/>`Email` ![ DataMapping ](/help/assets/icons/DataMapping.svg) | Gestikte identiteitskaart <br/> (na levende steek) | Gestikte identiteitskaart <br/> (na replay 7 dagen) |
+| | Tijd | Blijvende id <br/>`ECID` | Namespace <br/>`Email` ![&#x200B; DataMapping &#x200B;](/help/assets/icons/DataMapping.svg) | Gestikte identiteitskaart <br/> (na levende steek) | Gestikte identiteitskaart <br/> (na replay 7 dagen) |
 |---|---|---|---|---|---|
-| ![ opnieuw spelen ](/help/assets/icons/Replay.svg) 1 | 2023-05-12 11 :00 | `246` | `246` ![ Branch1 ](/help/assets/icons/Branch1.svg) *niet gedefiniëerd* | `246` | `a.b@yahoo.co.uk` |
-| ![ Replay ](/help/assets/icons/Replay.svg) 2 | 2023-05-12 14 :00 | `246` | `246` ![ Branch1 ](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
-| ![ Replay ](/help/assets/icons/Replay.svg) 3 | 2023-05-12 15 :00 | `246` | `246` ![ Branch1 ](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
-| ![ Replay ](/help/assets/icons/Replay.svg) 4 | 2023-05-12 17 :00 | `3579` | `3579` ![ Branch1 ](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `3579` | `ted.w@gmail.com` |
-| ![ Replay ](/help/assets/icons/Replay.svg) 5 | 2023-05-12 19 :00 | `3579` | `3579` ![ Branch1 ](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `ted.w@gmail.com` | `ted.w@gmail.com` |
-| ![ Replay ](/help/assets/icons/Replay.svg) 6 | 2023-05-13 15 :00 | `246` | `246` ![ Branch1 ](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
-| ![ Replay ](/help/assets/icons/Replay.svg) 7 | 2023-05-13 16 :30 | `246` | `246` ![ Branch1 ](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk`<br/>`246` ![ Branch1 ](/help/assets/icons/Branch1.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` | `a.b@yahoo.co.uk` |
+| ![&#x200B; opnieuw spelen &#x200B;](/help/assets/icons/Replay.svg) 1 | 2023-05-12 11 :00 | `246` | `246` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) *niet gedefiniëerd* | `246` | `a.b@yahoo.co.uk` |
+| ![&#x200B; Replay &#x200B;](/help/assets/icons/Replay.svg) 2 | 2023-05-12 14 :00 | `246` | `246` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
+| ![&#x200B; Replay &#x200B;](/help/assets/icons/Replay.svg) 3 | 2023-05-12 15 :00 | `246` | `246` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) `bob.a@gmail.com` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
+| ![&#x200B; Replay &#x200B;](/help/assets/icons/Replay.svg) 4 | 2023-05-12 17 :00 | `3579` | `3579` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `3579` | `ted.w@gmail.com` |
+| ![&#x200B; Replay &#x200B;](/help/assets/icons/Replay.svg) 5 | 2023-05-12 19 :00 | `3579` | `3579` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `ted.w@gmail.com` | `ted.w@gmail.com` |
+| ![&#x200B; Replay &#x200B;](/help/assets/icons/Replay.svg) 6 | 2023-05-13 15 :00 | `246` | `246` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `bob.a@gmail.com` | `a.b@yahoo.co.uk` |
+| ![&#x200B; Replay &#x200B;](/help/assets/icons/Replay.svg) 7 | 2023-05-13 16 :30 | `246` | `246` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk`<br/>`246` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) `bob.ab@gmail.com` | `a.b@yahoo.co.uk` | `a.b@yahoo.co.uk` |
 
 {style="table-layout:auto"}
 
@@ -182,15 +182,15 @@ Wanneer u een privacyverzoek ontvangt, wordt de opgeslagen id verwijderd in alle
 
 De volgende lijst vertegenwoordigt de zelfde gegevens zoals hierboven, maar toont het effect dat een privacyverzoek (bijvoorbeeld bij 2023-05-13 18 :00) voor de steekproefgebeurtenissen heeft.
 
-| | Tijd | Blijvende id <br/>`ECID` | Namespace <br/>`Email` ![ DataMapping ](/help/assets/icons/DataMapping.svg) | Id met titel (na privacyverzoek) |
+| | Tijd | Blijvende id <br/>`ECID` | Namespace <br/>`Email` ![&#x200B; DataMapping &#x200B;](/help/assets/icons/DataMapping.svg) | Id met titel (na privacyverzoek) |
 |--:|---|---|---|---|
-| ![ RemoveCircle ](/help/assets/icons/RemoveCircle.svg) 1 | 2023-05-12 11 :00 | `246` | `246` ![ Branch1 ](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
-| ![ RemoveCircle ](/help/assets/icons/RemoveCircle.svg) 2 | 2023-05-12 14 :00 | `246` | `246`![ Branch1 ](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
-| ![ RemoveCircle ](/help/assets/icons/RemoveCircle.svg) 3 | 2023-05-12 15 :00 | `246` | `246` ![ Branch1 ](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
-| ![ RemoveCircle ](/help/assets/icons/RemoveCircle.svg) 4 | 2023-05-12 17 :00 | `3579` | `3579` ![ Branch1 ](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `3579` |
-| ![ RemoveCircle ](/help/assets/icons/RemoveCircle.svg) 5 | 2023-05-12 19 :00 | `3579` | `3579` ![ Branch1 ](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `3579` |
-| ![ RemoveCircle ](/help/assets/icons/RemoveCircle.svg) 6 | 2023-05-13 15 :00 | `246` | `246` ![ Branch1 ](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
-| ![ RemoveCircle ](/help/assets/icons/RemoveCircle.svg) 7 | 2023-05-13 16 :30 | `246` | `246` ![ Branch1 ](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk`<br/>`246` ![ Branch1 ](/help/assets/icons/Branch1.svg) `bob.ab@gmail.com` | `246` |
+| ![&#x200B; RemoveCircle &#x200B;](/help/assets/icons/RemoveCircle.svg) 1 | 2023-05-12 11 :00 | `246` | `246` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
+| ![&#x200B; RemoveCircle &#x200B;](/help/assets/icons/RemoveCircle.svg) 2 | 2023-05-12 14 :00 | `246` | `246`![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
+| ![&#x200B; RemoveCircle &#x200B;](/help/assets/icons/RemoveCircle.svg) 3 | 2023-05-12 15 :00 | `246` | `246` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
+| ![&#x200B; RemoveCircle &#x200B;](/help/assets/icons/RemoveCircle.svg) 4 | 2023-05-12 17 :00 | `3579` | `3579` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `3579` |
+| ![&#x200B; RemoveCircle &#x200B;](/help/assets/icons/RemoveCircle.svg) 5 | 2023-05-12 19 :00 | `3579` | `3579` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) `ted.w@gmail.com` | `3579` |
+| ![&#x200B; RemoveCircle &#x200B;](/help/assets/icons/RemoveCircle.svg) 6 | 2023-05-13 15 :00 | `246` | `246` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk` | `246` |
+| ![&#x200B; RemoveCircle &#x200B;](/help/assets/icons/RemoveCircle.svg) 7 | 2023-05-13 16 :30 | `246` | `246` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) `a.b@yahoo.co.uk`<br/>`246` ![&#x200B; Branch1 &#x200B;](/help/assets/icons/Branch1.svg) `bob.ab@gmail.com` | `246` |
 
 {style="table-layout:auto"}
 
@@ -204,14 +204,14 @@ De volgende voorwaarden zijn specifiek van toepassing op op grafiek gebaseerde s
 - De identiteitsgrafiek van de Dienst van de Identiteit van Experience Platform moet op zandbakniveau worden opgesteld, alvorens op grafiek-gebaseerde stitching toe te laten.
    - De identiteitsgrafiek moet een naamruimte hebben (bijvoorbeeld `Email` of `Phone` ) die u tijdens het naaien wilt gebruiken om de persoon-id op te lossen.
    - De identiteitsgrafiek moet met identiteitsinformatie van om het even welke relevante datasets (van type *gebeurtenis* of *profiel* worden bevolkt en die minstens twee nuttige namespaces met de waarden van identiteitskaart bevatten).
-   - Alle datasets die dergelijke relevante identiteiten houden moeten [ worden toegelaten voor de gegevensopname van de identiteitsgrafiek ](faq.md#enable-a-dataset-for-the-identity-service). Hierdoor wordt gegarandeerd dat inkomende identiteiten na verloop van tijd uit alle benodigde bronnen aan de grafiek worden toegevoegd.
+   - Alle datasets die dergelijke relevante identiteiten houden moeten [&#x200B; worden toegelaten voor de gegevensopname van de identiteitsgrafiek &#x200B;](faq.md#enable-a-dataset-for-the-identity-service). Hierdoor wordt gegarandeerd dat inkomende identiteiten na verloop van tijd uit alle benodigde bronnen aan de grafiek worden toegevoegd.
    - Als de grafiek al een tijdje het Real-Time Klantgegevensprofiel of Adobe Journey Optimizer gebruikt, moet de grafiek al in zekere mate zijn ingesteld.<br/> als historische het stitching backfill ook voor de dataset wordt vereist die met op grafiek-gebaseerde het stitching wordt toegelaten, zou de grafiek historische identiteiten voor de volledige periode reeds moeten bevatten, om gewenste het stitching resultaten te verkrijgen.
-- Als u op grafiek-gebaseerde het stitching wilt gebruiken en u de gebeurtenisdataset om aan de identiteitsgrafiek vooruitloopt bij te dragen, zou u de dataset voor de dienst van de Identiteit [ moeten toelaten.](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service)
-- Ononderbroken identiteitskaart en persoonsidentiteitskaart kunnen met [ identityMap ](#identitymap) worden gebruikt. Of blijvende identiteitskaart en persoonsidentiteitskaart kunnen gebieden van het schema zijn XDM, in welk geval de gebieden [ als identiteit ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity?lang=en) in het schema moeten worden bepaald.
+- Als u op grafiek-gebaseerde het stitching wilt gebruiken en u de gebeurtenisdataset om aan de identiteitsgrafiek vooruitloopt bij te dragen, zou u de dataset voor de dienst van de Identiteit [&#x200B; moeten toelaten.](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service)
+- Ononderbroken identiteitskaart en persoonsidentiteitskaart kunnen met [&#x200B; identityMap &#x200B;](#identitymap) worden gebruikt. Of blijvende identiteitskaart en persoonsidentiteitskaart kunnen gebieden van het schema zijn XDM, in welk geval de gebieden [&#x200B; als identiteit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity?lang=en) in het schema moeten worden bepaald.
 
 >[!NOTE]
 >
->U **** vereist geen vergunning van het Platform van Gegevens van de Klant in real time voor op grafiek-gebaseerd het stitching. Het **Prime** pakket of hoger van Customer Journey Analytics omvat de vereiste rechten van de Dienst van de Identiteit van Experience Platform.
+>U **&#x200B;**&#x200B;vereist geen vergunning van het Platform van Gegevens van de Klant in real time voor op grafiek-gebaseerd het stitching. Het **Prime** pakket of hoger van Customer Journey Analytics omvat de vereiste rechten van de Dienst van de Identiteit van Experience Platform.
 
 
 ## Beperkingen
@@ -219,9 +219,9 @@ De volgende voorwaarden zijn specifiek van toepassing op op grafiek gebaseerde s
 De volgende beperkingen zijn specifiek van toepassing op op grafiek gebaseerde stitching:
 
 - Tijdstempels worden niet in aanmerking genomen wanneer wordt gezocht naar de persoon-id met behulp van de opgegeven naamruimte. Het is dus mogelijk dat een permanente id wordt gekoppeld aan een persoon-id uit een record met een eerdere tijdstempel.
-- In scenario&#39;s voor gedeelde apparaten, waarbij de naamruimte in de grafiek meerdere identiteiten bevat, wordt de eerste lexicografische identiteit gebruikt. Als namespace grenzen en prioriteiten als deel van de versie van grafiek-verbinden regels worden gevormd, wordt de laatste voor authentiek verklaarde identiteit van de gebruiker gebruikt. Zie [ Gedeelde apparaten ](/help/use-cases/stitching/shared-devices.md) voor meer informatie.
+- In scenario&#39;s voor gedeelde apparaten, waarbij de naamruimte in de grafiek meerdere identiteiten bevat, wordt de eerste lexicografische identiteit gebruikt. Als namespace grenzen en prioriteiten als deel van de versie van grafiek-verbinden regels worden gevormd, wordt de laatste voor authentiek verklaarde identiteit van de gebruiker gebruikt. Zie [&#x200B; Gedeelde apparaten &#x200B;](/help/use-cases/stitching/shared-devices.md) voor meer informatie.
 - Er geldt een harde limiet van drie maanden voor het terugvullen van identiteiten in de identiteitsgrafiek. Als u geen Experience Platform-toepassing gebruikt, zoals Real-time Customer Data Platform, kunt u de identiteitsgrafiek weergeven door identiteiten te herstellen.
-- De [ Garanties van de Dienst van de Identiteit ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails) zijn van toepassing. Zie, bijvoorbeeld, de volgende [ statische grenzen ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails#static-limits):
+- De [&#x200B; Garanties van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails) zijn van toepassing. Zie, bijvoorbeeld, de volgende [&#x200B; statische grenzen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails#static-limits):
    - Maximumaantal identiteiten in een grafiek: 50.
    - Maximum aantal koppelingen naar een identiteit voor één batch-opname: 50.
    - Maximum aantal identiteiten in een XDM-record voor grafiekopname: 20.

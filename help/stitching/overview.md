@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->U moet het Customer Journey Analytics **Uitgezochte** pakket of hoger hebben (voor [ op gebied-gebaseerd het stitching ](fbs.md)) of het Customer Journey Analytics **Prime** pakket of hoger (voor [ op grafiek-gebaseerd het stitching ](gbs.md)) om de functionaliteit te gebruiken die in deze sectie wordt beschreven. Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Analytics-pakket u hebt.
+>U moet het Customer Journey Analytics **Uitgezochte** pakket of hoger hebben (voor [&#x200B; op gebied-gebaseerd het stitching &#x200B;](fbs.md)) of het Customer Journey Analytics **Prime** pakket of hoger (voor [&#x200B; op grafiek-gebaseerd het stitching &#x200B;](gbs.md)) om de functionaliteit te gebruiken die in deze sectie wordt beschreven. Neem contact op met de beheerder als u niet zeker weet welk Customer Journey Analytics-pakket u hebt.
 
 Identiteitsstitching (of eenvoudig, stitching) is een krachtige eigenschap die de geschiktheid van een gebeurtenisdataset voor kanaalanalyse verhoogt. Kanaaloverschrijdende analyse is een belangrijk gebruiksgeval voor Customer Journey Analytics. De eigenschap staat u toe om rapporten naadloos op veelvoudige datasets van verschillende kanalen te combineren en in werking te stellen, die op een gemeenschappelijke herkenningsteken (persoonsidentiteitskaart) worden gebaseerd.
 
@@ -26,7 +26,7 @@ Helaas zijn niet alle gegevenssets die op gebeurtenissen zijn gebaseerd en die d
 
 Bij het plaatsen worden de identiteiten binnen de rijen van één dataset opnieuw ingesteld om ervoor te zorgen dat de persoon-id (naastgelegen identiteitskaart) op elke gebeurtenis beschikbaar is. Bij het zoeken naar gebruikersgegevens van zowel geverifieerde als niet-geverifieerde sessies wordt de gemeenschappelijke ID-waarde van de persoon bepaald die kan worden gebruikt als aangesloten id. Dit opnieuw gebruiken verhelpt ongelijksoortige verslagen aan één enkele gestikte identiteitskaart voor analyse op het persoonniveau, eerder dan op het apparaat of koekjesniveau.
 
-Customer Journey Analytics steunt twee soorten het stitching: [ op gebied-gebaseerde het stitching ](fbs.md) en [ op grafiek-gebaseerde het stitching ](gbs.md).
+Customer Journey Analytics steunt twee soorten het stitching: [&#x200B; op gebied-gebaseerde het stitching &#x200B;](fbs.md) en [&#x200B; op grafiek-gebaseerde het stitching &#x200B;](gbs.md).
 
 ## Vereisten
 
@@ -40,8 +40,8 @@ Voordat u stitching gebruikt, moet u ervoor zorgen dat uw organisatie is voorber
 
 - Importeer de gewenste gegevens naar Adobe Experience Platform:
 
-   - Voor de gegevens van Adobe Analytics, zie [ Gebruikend de gegevens van de het rapportreeks van Adobe Analytics in Customer Journey Analytics ](/help/getting-started/aa-vs-cja/aa-data-in-cja.md).
-   - Voor andere soorten gegevens, zie [ een schema ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui) en [ Samenvatting gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home) in de documentatie van Adobe Experience Platform creëren.
+   - Voor de gegevens van Adobe Analytics, zie [&#x200B; Gebruikend de gegevens van de het rapportreeks van Adobe Analytics in Customer Journey Analytics &#x200B;](/help/getting-started/aa-vs-cja/aa-data-in-cja.md).
+   - Voor andere soorten gegevens, zie [&#x200B; een schema &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui) en [&#x200B; Samenvatting gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home) in de documentatie van Adobe Experience Platform creëren.
 
 U profiteert van kanaalanalyse als u een of meer van uw gestikte datasets met andere datasets, zoals de gegevens van het vraagcentrum, als deel van het bepalen van uw verbinding van Customer Journey Analytics combineert. Deze verbindingsconfiguratie veronderstelt dat die andere datasets reeds een persoonsidentiteitskaart op elke rij, gelijkend op vastgemaakte identiteitskaart bevatten.
 
@@ -49,8 +49,8 @@ U profiteert van kanaalanalyse als u een of meer van uw gestikte datasets met an
 
 U kunt stitching op twee manieren inschakelen:
 
-- [ Verzoek om het stitching ](/help/stitching/use-stitching.md) (afgekeurd) toe te laten. Zodra goedgekeurd, wordt een dubbele dataset gecreeerd voor de dataset waarvoor u het stitching hebt gevraagd. Deze dubbele dataset bevat een extra kolom met het gestikte herkenningsteken. U moet een nieuwe verbinding tot stand brengen of een bestaande verbinding uitgeven die de gestikte dataset omvat om de gestikte gegevens in Customer Journey Analytics te gebruiken.
-- [ laat het stikken in de interface van Verbindingen ](/help/stitching/use-stitching-ui.md) toe. Wanneer u het stitching voor een dataset in de interface van Verbindingen vormt, komt het stitching op de vlucht, tijdens de opname van gegevens van die dataset in Customer Journey Analytics voor.
+- [&#x200B; Verzoek om het stitching &#x200B;](/help/stitching/use-stitching.md) (afgekeurd) toe te laten. Zodra goedgekeurd, wordt een dubbele dataset gecreeerd voor de dataset waarvoor u het stitching hebt gevraagd. Deze dubbele dataset bevat een extra kolom met het gestikte herkenningsteken. U moet een nieuwe verbinding tot stand brengen of een bestaande verbinding uitgeven die de gestikte dataset omvat om de gestikte gegevens in Customer Journey Analytics te gebruiken.
+- [&#x200B; laat het stikken in de interface van Verbindingen &#x200B;](/help/stitching/use-stitching-ui.md) toe. Wanneer u het stitching voor een dataset in de interface van Verbindingen vormt, komt het stitching op de vlucht, tijdens de opname van gegevens van die dataset in Customer Journey Analytics voor.
 
 ## Beperkingen
 
@@ -82,9 +82,9 @@ Het plaatsen steunt de volgende automatisch geproduceerde datasets van Journey O
 
 >[!MORELIKETHIS]
 >
->[ Op gebied-gebaseerde het stitching ](fbs.md)
->[Op grafiek gebaseerde stitching ](gbs.md)
->[Sstitching gebruiken ](use-stitching.md)
->[Sstitching valideren ](validate.md)
->[Veelgestelde vragen over stitching ](faq.md)
+>[&#x200B; Op gebied-gebaseerde het stitching &#x200B;](fbs.md)
+>[Op grafiek gebaseerde stitching &#x200B;](gbs.md)
+>[Sstitching gebruiken &#x200B;](use-stitching.md)
+>[Sstitching valideren &#x200B;](validate.md)
+>[Veelgestelde vragen over stitching &#x200B;](faq.md)
 
