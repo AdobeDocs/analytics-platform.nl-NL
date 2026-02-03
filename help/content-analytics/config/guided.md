@@ -26,7 +26,7 @@ De Content Analytics-configuratie openen
 
 In het **[!UICONTROL Content Analytics Configurations]** -scherm ziet u een tabel met bestaande Content Analytics-configuraties.
 
-![ de configuraties van Content Analytics ](../assets/aca-configuration-table.png)
+![&#x200B; de configuraties van Content Analytics &#x200B;](../assets/aca-configuration-table.png)
 Voor elke configuratie zijn de volgende details beschikbaar:
 
 | Kolom | Beschrijving |
@@ -36,23 +36,23 @@ Voor elke configuratie zijn de volgende details beschikbaar:
 | **[!UICONTROL Created on]** | De tijdstempel op het moment dat de configuratie werd gemaakt. |
 | **[!UICONTROL Modified on]** | De tijdstempel wanneer de configuratie voor het laatst is gewijzigd. |
 | **[!UICONTROL Sandbox]** | De sandbox binnen de organisatie waarin Content Analytics is (gepland) geconfigureerd en geïmplementeerd. |
-| **[!UICONTROL Status]** | De status van de configuratie. De status kan zijn:<br/>![ StatusGray ](/help/assets/icons/StatusGray.svg) **[!UICONTROL Draft]**: De configuratie wordt bewaard voor later, en niet opgesteld.<br/>![ StatusRed ](/help/assets/icons/StatusRed.svg) **[!UICONTROL Failed]**: De configuratie heeft ontbroken. U kunt **[!UICONTROL Edit]** selecteren om informatie over de fout op te halen. Adobe pakt proactief eventuele mislukte implementaties aan. U kunt contact opnemen met de klantenservice voor meer informatie.<br/>![ StatusGreen ](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Complete]**: de configuratie is voltooid en met succes uitgevoerd. |
+| **[!UICONTROL Status]** | De status van de configuratie. De status kan zijn:<br/>![&#x200B; StatusGray &#x200B;](/help/assets/icons/StatusGray.svg) **[!UICONTROL Draft]**: De configuratie wordt bewaard voor later, en niet opgesteld.<br/>![&#x200B; StatusRed &#x200B;](/help/assets/icons/StatusRed.svg) **[!UICONTROL Failed]**: De configuratie heeft ontbroken. U kunt **[!UICONTROL Edit]** selecteren om informatie over de fout op te halen. Adobe pakt proactief eventuele mislukte implementaties aan. U kunt contact opnemen met de klantenservice voor meer informatie.<br/>![&#x200B; StatusGreen &#x200B;](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Complete]**: de configuratie is voltooid en met succes uitgevoerd. |
 
-U kunt ![ gebruiken ColumnSetting ](/help/assets/icons/ColumnSetting.svg) om de lijst aan te passen. Selecteer welke kolommen u wilt weergeven in het dialoogvenster **[!UICONTROL Customize table]** en selecteer **[!UICONTROL Apply]** om de wijzigingen toe te passen.
+U kunt ![&#x200B; gebruiken ColumnSetting &#x200B;](/help/assets/icons/ColumnSetting.svg) om de lijst aan te passen. Selecteer welke kolommen u wilt weergeven in het dialoogvenster **[!UICONTROL Customize table]** en selecteer **[!UICONTROL Apply]** om de wijzigingen toe te passen.
 
 Vanuit het scherm Content Analytics **[!UICONTROL Configuration]** kunt u een nieuwe configuratie maken of een bestaande configuratie bewerken.
 
 Een nieuwe configuratie maken:
 
-* Selecteer **[!UICONTROL Create configuration]** . Deze actie opent de [ geleide configuratietovenaar ](#guided-configuration-wizard).
+* Selecteer **[!UICONTROL Create configuration]** . Deze actie opent de [&#x200B; geleide configuratietovenaar &#x200B;](#guided-configuration-wizard).
 
 Een bestaande configuratie bewerken:
 
-* Selecteer ![ Meer ](/help/assets/icons/More.svg) en dan ![ geef ](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** voor een bestaande configuratie van Content Analytics uit. Deze actie opent de [ geleide configuratietovenaar ](#guided-configuration-wizard).
+* Selecteer ![&#x200B; Meer &#x200B;](/help/assets/icons/More.svg) en dan ![&#x200B; geef &#x200B;](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** voor een bestaande configuratie van Content Analytics uit. Deze actie opent de [&#x200B; geleide configuratietovenaar &#x200B;](#guided-configuration-wizard).
 
 ## Wizard Begeleide configuratie
 
-De geleide configuratietovenaar bestaat uit vier secties ([ Details ](#details), [ mening van Gegevens ](#data-view), [ Vangst &amp; definitie van de Ervaring ](#experience-capture-and-definition), en [ inzameling van Gegevens ](#data-collection)), elk die u voor details vragen die aan opstelling worden vereist en Content Analytics behoorlijk vormen. Voltooi elke sectie voordat u naar de volgende sectie gaat, omdat bepaalde instellingen in een sectie mogelijk afhankelijk zijn van configuratiewaarden in eerdere secties.
+De geleide configuratietovenaar bestaat uit vier secties ([&#x200B; Details &#x200B;](#details), [&#x200B; mening van Gegevens &#x200B;](#data-view), [&#x200B; Vangst &amp; definitie van de Ervaring &#x200B;](#experience-capture-and-definition), en [&#x200B; inzameling van Gegevens &#x200B;](#data-collection)), elk die u voor details vragen die aan opstelling worden vereist en Content Analytics behoorlijk vormen. Voltooi elke sectie voordat u naar de volgende sectie gaat, omdat bepaalde instellingen in een sectie mogelijk afhankelijk zijn van configuratiewaarden in eerdere secties.
 
 ### Details {#onboarding-details}
 
@@ -72,7 +72,7 @@ De geleide configuratietovenaar bestaat uit vier secties ([ Details ](#details),
 
 Voor elke configuratie is een unieke naam vereist. Bijvoorbeeld `Example Content Analytics configuration` . De naam wordt vereist om een configuratie te bewaren of uit te voeren.
 
-![ de configuratiedetails van Content Analytics ](../assets/aca-configuration-details.png)
+![&#x200B; de configuratiedetails van Content Analytics &#x200B;](../assets/aca-configuration-details.png)
 
 
 ### Gegevens, weergave {#onboarding-data-view}
@@ -116,22 +116,22 @@ Voor elke configuratie is een unieke naam vereist. Bijvoorbeeld `Example Content
 
 <!-- markdownlint-enable MD034 -->
 
-Uw configuratie vereist de selectie van de mening van a [ Gegevens ](/help/data-views/data-views.md).
+Uw configuratie vereist de selectie van de mening van a [&#x200B; Gegevens &#x200B;](/help/data-views/data-views.md).
 
 1. Een gegevensweergave selecteren
 
-   * Om een nieuwe gegevensmening voor een configuratie te selecteren, gebruik ![ Gegevens ](/help/assets/icons/Data.svg) **[!UICONTROL Select Data view]**.
+   * Om een nieuwe gegevensmening voor een configuratie te selecteren, gebruik ![&#x200B; Gegevens &#x200B;](/help/assets/icons/Data.svg) **[!UICONTROL Select Data view]**.
 
-     ![ configuratie van Content Analytics van een gegevensmening ](../assets/aca-configuration-dataview.png)
+     ![&#x200B; configuratie van Content Analytics van een gegevensmening &#x200B;](../assets/aca-configuration-dataview.png)
 
-   * Om een gegevensmening voor een configuratie te wijzigen, uitgezocht ![ geef ](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** uit.
+   * Om een gegevensmening voor een configuratie te wijzigen, uitgezocht ![&#x200B; geef &#x200B;](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** uit.
 
-     ![ configuratie van Content Analytics van een gegevensmening ](../assets/aca-configuration-dataview-edit.png)
+     ![&#x200B; configuratie van Content Analytics van een gegevensmening &#x200B;](../assets/aca-configuration-dataview-edit.png)
 
 
    In beide scenario&#39;s ziet u een dialoogvenster **[!UICONTROL Data view]** waarin u een gegevensweergave voor uw configuratie kunt selecteren.
 
-   ![ configuratie van Content Analytics van een gegevensmening - de lijst van gegevensmeningen ](../assets/aca-configuration-dataview-dialog.png)
+   ![&#x200B; configuratie van Content Analytics van een gegevensmening - de lijst van gegevensmeningen &#x200B;](../assets/aca-configuration-dataview-dialog.png)
 
    Voor een nieuwe configuratie, toont de lijst slechts gegevensmeningen die met zandbakken worden geassocieerd die geen actieve configuratie hebben. Bovendien ziet u alleen gegevensweergaven die zijn gekoppeld aan sandboxen waartoe u toegang hebt en verbindingen die u kunt wijzigen.
 
@@ -139,15 +139,15 @@ Uw configuratie vereist de selectie van de mening van a [ Gegevens ](/help/data-
 
    U kunt de volgende handelingen uitvoeren:
 
-   * Om naar een specifieke gegevensmening te zoeken, gebruik het ![ 1} gebied van het Onderzoek {.](/help/assets/icons/Search.svg)
-   * Om de lijst van beschikbare gegevensmeningen te filtreren, selecteer ![ filter ](/help/assets/icons/Filter.svg) tonen. U kunt de lijst filteren op [!UICONTROL Connection] , [!UICONTROL Owner] en [!UICONTROL Sandbox] .<br/> Verbergen van het gebruik ![ ](/help/assets/icons/Filter.svg) om de segmentruit te verbergen.**[!UICONTROL Hide segments]**
-   * Om te bepalen welke kolommen in de lijst te tonen, selecteer ![ Montages van de Kolom ](/help/assets/icons/ColumnSetting.svg). Selecteer welke kolommen u wilt weergeven in het dialoogvenster **[!UICONTROL Customize table]** en selecteer **[!UICONTROL Apply]** om de wijzigingen toe te passen.
+   * Om naar een specifieke gegevensmening te zoeken, gebruik het ![&#x200B; 1&rbrace; gebied van het Onderzoek &lbrace;.](/help/assets/icons/Search.svg)
+   * Om de lijst van beschikbare gegevensmeningen te filtreren, selecteer ![&#x200B; filter &#x200B;](/help/assets/icons/Filter.svg) tonen. U kunt de lijst filteren op [!UICONTROL Connection] , [!UICONTROL Owner] en [!UICONTROL Sandbox] .<br/> Verbergen van het gebruik ![&#x200B; &#x200B;](/help/assets/icons/Filter.svg) om de segmentruit te verbergen.**[!UICONTROL Hide segments]**
+   * Om te bepalen welke kolommen in de lijst te tonen, selecteer ![&#x200B; Montages van de Kolom &#x200B;](/help/assets/icons/ColumnSetting.svg). Selecteer welke kolommen u wilt weergeven in het dialoogvenster **[!UICONTROL Customize table]** en selecteer **[!UICONTROL Apply]** om de wijzigingen toe te passen.
 
-1. Selecteer ![ SelectBox ](/help/assets/icons/SelectBox.svg) de gegevensmening die u wilt gebruiken.
+1. Selecteer ![&#x200B; SelectBox &#x200B;](/help/assets/icons/SelectBox.svg) de gegevensmening die u wilt gebruiken.
 1. Selecteer **[!UICONTROL Save]** om de geselecteerde gegevensweergave te bevestigen. Selecteer **[!UICONTROL Cancel]** om te annuleren.
 
 
-In Customer Journey Analytics, is de a [ gegevensmening ](/help/data-views/data-views.md) gebonden aan een verbinding van Customer Journey Analytics [ ](/help/connections/overview.md). En een verbinding is gebaseerd op een zandbak binnen uw organisatie. Nadat u de configuratie hebt opgeslagen, wordt het veld **[!UICONTROL Sandbox]** automatisch gevuld met de naam van de sandbox op basis van de geselecteerde gegevensweergave.
+In Customer Journey Analytics, is de a [&#x200B; gegevensmening &#x200B;](/help/data-views/data-views.md) gebonden aan een verbinding van Customer Journey Analytics [&#x200B; &#x200B;](/help/connections/overview.md). En een verbinding is gebaseerd op een zandbak binnen uw organisatie. Nadat u de configuratie hebt opgeslagen, wordt het veld **[!UICONTROL Sandbox]** automatisch gevuld met de naam van de sandbox op basis van de geselecteerde gegevensweergave.
 
 
 ### Vastleggen en definiëren van ervaring {#onboarding-experiences}
@@ -177,7 +177,7 @@ In Customer Journey Analytics, is de a [ gegevensmening ](/help/data-views/data-
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_edit_include_experiences"
 >title="Vastleggen en definiëren van ervaring"
->abstract="Indien ingeschakeld, worden ervaringsgegevens verzameld, worden ervaringskenmerken gegenereerd en is ervaringsrapportage beschikbaar. <br><br/> het gebruik ![ geeft ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Edit]** uit om de configuratie van de gegevensinzameling voor ervaringen in het bezit van Markeringen te wijzigen dat met de huidige configuratie wordt geassocieerd."
+>abstract="Indien ingeschakeld, worden ervaringsgegevens verzameld, worden ervaringskenmerken gegenereerd en is ervaringsrapportage beschikbaar. <br><br/> het gebruik ![&#x200B; geeft &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Edit]** uit om de configuratie van de gegevensinzameling voor ervaringen in het bezit van Markeringen te wijzigen dat met de huidige configuratie wordt geassocieerd."
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_experiencecapture_edit_button"
@@ -197,7 +197,7 @@ Neem alleen ervaringen op als het volgende van toepassing is:
 
 >[!IMPORTANT]
 >
->Voer [ het versioning van Content Analytics ](manual.md#versioning) uit om veranderingen te verzamelen die u aan de ervaringen (pagina&#39;s) onderworpen aan Content Analytics aanbrengt.
+>Voer [&#x200B; het versioning van Content Analytics &#x200B;](manual.md#versioning) uit om veranderingen te verzamelen die u aan de ervaringen (pagina&#39;s) onderworpen aan Content Analytics aanbrengt.
 
 
 
@@ -205,7 +205,7 @@ Neem alleen ervaringen op als het volgende van toepassing is:
 
 Ervaringen opnemen in een nieuwe of niet geïmplementeerde configuratie:
 
-![ de configuratieervaring van Content Analytics vangen en definitie ](../assets/aca-configuration-experience.png)
+![&#x200B; de configuratieervaring van Content Analytics vangen en definitie &#x200B;](../assets/aca-configuration-experience.png)
 
 1. Schakel **[!UICONTROL Include experiences]** in. De knevel om ervaringen toe te laten beïnvloedt het volgende:
 
@@ -224,14 +224,14 @@ Ervaringen opnemen in een nieuwe of niet geïmplementeerde configuratie:
 
 Bestaande bewerkingen bewerken of nieuwe ervaringen opnemen in een geïmplementeerde configuratie:
 
-![ de configuratievenis van Content Analytics vangen en definitie ](../assets/aca-configuration-experience-edit.png)
+![&#x200B; de configuratievenis van Content Analytics vangen en definitie &#x200B;](../assets/aca-configuration-experience-edit.png)
 
 * Schakel **[!UICONTROL Include experiences]** in of uit om:
 
    * Het proces dat ervaringskenmerken genereert van Content Analytics-gebeurtenisgegevens
    * De rapportagesjabloon in Customer Journey Analytics.
 
-* Selecteer ![ uitgeven ](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** om de configuratie van gegevensinzameling voor ervaringen in Content Analytics verder uit te geven. U wordt opnieuw gericht aan de [ uitbreiding van Adobe Content Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) in het bezit van Markeringen dat met de huidige configuratie wordt geassocieerd.
+* Selecteer ![&#x200B; uitgeven &#x200B;](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** om de configuratie van gegevensinzameling voor ervaringen in Content Analytics verder uit te geven. U wordt opnieuw gericht aan de [&#x200B; uitbreiding van Adobe Content Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) in het bezit van Markeringen dat met de huidige configuratie wordt geassocieerd.
 
 
 ### Dataverzameling {#onboarding-data-collection}
@@ -258,7 +258,7 @@ In deze sectie configureert u hoe u uw Content Analytics-gegevens kunt verzamele
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_pages_excluded_header"
 >title="Dataverzameling"
->abstract="Wijs op welke pagina&#39;s **inbegrepen** of **** wanneer het verzamelen van gegevens voor Content Analytics zouden moeten zijn uitgesloten"
+>abstract="Wijs op welke pagina&#39;s **inbegrepen** of **&#x200B;**&#x200B;wanneer het verzamelen van gegevens voor Content Analytics zouden moeten zijn uitgesloten"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_assets_excluded_boldheader"
@@ -268,7 +268,7 @@ In deze sectie configureert u hoe u uw Content Analytics-gegevens kunt verzamele
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_assets_excluded_header"
 >title="Dataverzameling"
->abstract="Wijs op welke activa **** of **uitgesloten** zouden moeten zijn wanneer het verzamelen van gegevens voor Content Analytics"
+>abstract="Wijs op welke activa **&#x200B;**&#x200B;of **uitgesloten** zouden moeten zijn wanneer het verzamelen van gegevens voor Content Analytics"
 
 >[!CONTEXTUALHELP]
 >id="aca_onboarding_datacollection_experiences_edit_button"
@@ -293,7 +293,7 @@ In een nieuwe configuratie moet u definiëren of u een bestaande eigenschap Code
 
 * Een bestaande eigenschap Codes gebruiken:
 
-  ![ de Verzameling van Gegevens van Content Analytics Bestaande Markering ](../assets/aca-configuration-datacollection-existingtag.png)
+  ![&#x200B; de Verzameling van Gegevens van Content Analytics Bestaande Markering &#x200B;](../assets/aca-configuration-datacollection-existingtag.png)
 
    1. Selecteer **[!UICONTROL Choose existing]**.
    2. Selecteer een bestaande eigenschap in het keuzemenu **[!UICONTROL Tags property]** . U kunt beginnen te typen om naar de beschikbare opties te zoeken en te beperken. U kunt geen eigenschap Codes selecteren die al wordt gebruikt door een andere geïmplementeerde Content Analytics-configuratie.
@@ -301,7 +301,7 @@ In een nieuwe configuratie moet u definiëren of u een bestaande eigenschap Code
 
 * Een nieuwe eigenschap voor tags maken:
 
-  ![ de Nieuwe Markering van de Inzameling van Gegevens van Content Analytics ](../assets/aca-configuration-datacollection-newtag.png)
+  ![&#x200B; de Nieuwe Markering van de Inzameling van Gegevens van Content Analytics &#x200B;](../assets/aca-configuration-datacollection-newtag.png)
 
    1. Selecteer **[!UICONTROL Create new]**.
    1. Geef een **[!UICONTROL Tags name]** op, bijvoorbeeld `ACA Test for Documentation` .
@@ -317,42 +317,42 @@ In een nieuwe configuratie moet u definiëren of u een bestaande eigenschap Code
 
 >[!IMPORTANT]
 >
->Verwijder manueel de automatische inbegrepen uitbreiding van SDK van het Web uit het pas gecreëerde bezit van Markeringen in het geval u een bestaande implementatie van SDK van het Web hebt die de [ bibliotheek van JavaScript ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library) in plaats van de [ uitbreiding van Markeringen ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) gebruikt.
+>Verwijder manueel de automatische inbegrepen uitbreiding van SDK van het Web uit het pas gecreëerde bezit van Markeringen in het geval u een bestaande implementatie van SDK van het Web hebt die de [&#x200B; bibliotheek van JavaScript &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library) in plaats van de [&#x200B; uitbreiding van Markeringen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) gebruikt.
 >
 
 
 
 #### Bestaande configuratie {#existing-configuration}
 
-Voor een bestaande configuratie kunt u de eigenschap Codes niet bewerken. Voor updates aan een bezit van Markeringen verbonden aan een bestaande configuratie, gebruik de [ de uitbreidingsconfiguratie van de Markering van Content Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview).
+Voor een bestaande configuratie kunt u de eigenschap Codes niet bewerken. Voor updates aan een bezit van Markeringen verbonden aan een bestaande configuratie, gebruik de [&#x200B; de uitbreidingsconfiguratie van de Markering van Content Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview).
 
 U kunt de pagina&#39;s en elementen echter wel bewerken om deze in of uit te sluiten.
 
-* Om uit te geven welke pagina&#39;s zouden moeten worden omvat of worden uitgesloten wanneer het verzamelen van gegevens voor Content Analytics, uitgezocht ![ ](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** onderaan **[!UICONTROL Experience]** uitgeven. U wordt opnieuw gericht aan de [ uitbreiding van Adobe Content Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) die met het bezit van Markeringen voor de huidige configuratie van Content Analytics wordt geassocieerd. U kunt de reguliere expressie bewerken om pagina&#39;s op te nemen of uit te sluiten. Verzeker u [ publiceert ](#publish) uw veranderingen.
+* Om uit te geven welke pagina&#39;s zouden moeten worden omvat of worden uitgesloten wanneer het verzamelen van gegevens voor Content Analytics, uitgezocht ![&#x200B; &#x200B;](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** onderaan **[!UICONTROL Experience]** uitgeven. U wordt opnieuw gericht aan de [&#x200B; uitbreiding van Adobe Content Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) die met het bezit van Markeringen voor de huidige configuratie van Content Analytics wordt geassocieerd. U kunt de reguliere expressie bewerken om pagina&#39;s op te nemen of uit te sluiten. Verzeker u [&#x200B; publiceert &#x200B;](#publish) uw veranderingen.
 
-* Om uit te geven welke activa zouden moeten worden omvat of worden uitgesloten wanneer het verzamelen van gegevens voor Content Analytics, uitgezocht ![ ](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** onderaan **[!UICONTROL Asset]** uitgeven. U wordt opnieuw gericht aan de [ uitbreiding van Adobe Content Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) die met het bezit van Markeringen voor de huidige configuratie van Content Analytics wordt geassocieerd. U kunt de reguliere expressie bewerken om elementen op te nemen of uit te sluiten. Verzeker u [ publiceert ](#publish) uw veranderingen.
+* Om uit te geven welke activa zouden moeten worden omvat of worden uitgesloten wanneer het verzamelen van gegevens voor Content Analytics, uitgezocht ![&#x200B; &#x200B;](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** onderaan **[!UICONTROL Asset]** uitgeven. U wordt opnieuw gericht aan de [&#x200B; uitbreiding van Adobe Content Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) die met het bezit van Markeringen voor de huidige configuratie van Content Analytics wordt geassocieerd. U kunt de reguliere expressie bewerken om elementen op te nemen of uit te sluiten. Verzeker u [&#x200B; publiceert &#x200B;](#publish) uw veranderingen.
 
 
 ### Overschrijvingen koptekst
 
 U kunt desgewenst in de sectie **[!UICONTROL Header overrides]** een koptekstnaam en een geheime koptekstwaarde opgeven.  Deze kopbal treedt configuratie met voeten zorgt ervoor dat Content Analytics de kopballen van douaneHTTP verzendt om om het even welke zowel opsporing als van het toegangsverkeer technologieën te mijden u hebt uitgevoerd.
 
-![ Kopbal treedt sectie met voeten ](/help/content-analytics/assets/aca-configuration-header-overrides.png)
+![&#x200B; Kopbal treedt sectie met voeten &#x200B;](/help/content-analytics/assets/aca-configuration-header-overrides.png)
 
 1. Schakel **[!UICONTROL Configure header overrides]** in.
 1. Voer de **[!UICONTROL Header name]** in. Bijvoorbeeld `x-asset-service` .
-1. Voer de **[!UICONTROL Header value]** in. Wat u specificeert is geheim en niet zichtbaar in het gebruikersinterface (tenzij u uitdrukkelijk selecteert om ![ Zichtbaarheid ](/help/assets/icons/Visibility.svg) de waarde tijdens input vrij te geven).
+1. Voer de **[!UICONTROL Header value]** in. Wat u specificeert is geheim en niet zichtbaar in het gebruikersinterface (tenzij u uitdrukkelijk selecteert om ![&#x200B; Zichtbaarheid &#x200B;](/help/assets/icons/Visibility.svg) de waarde tijdens input vrij te geven).
 
 
 ### Samenvatting {#summary}
 
 Zodra u alle noodzakelijke details hebt verstrekt, verstrekt een samenvatting details over de artefacten die worden gecreeerd of gewijzigd.
 
-* U ziet a **[!UICONTROL You're almost ready to implement _configuratienaam _voor de samenvatting van Content Analytics]**wanneer u een nieuwe configuratie uitvoert.
+* U ziet a **[!UICONTROL You're almost ready to implement _configuratienaam _voor de samenvatting van Content Analytics]**&#x200B;wanneer u een nieuwe configuratie uitvoert.
 
 * Voor bestaande uitgevoerde configuraties, ziet u de naam van de a **[!UICONTROL You have implemented _configuratie _voor de samenvatting van Content Analytics]**.
 
-![ Samenvatting van de Configuratie van Content Analytics ](../assets/aca-configuration-summary.png)
+![&#x200B; Samenvatting van de Configuratie van Content Analytics &#x200B;](../assets/aca-configuration-summary.png)
 
 ### Handelingen {#actions}
 
@@ -369,7 +369,7 @@ Wanneer u een configuratie maakt of bewerkt, hebt u de volgende opties:
 
 * **[!UICONTROL Discard]**: alle wijzigingen die als onderdeel van de configuratie zijn aangebracht, worden genegeerd.
 * **[!UICONTROL Save for later]**: in een configuratie aangebrachte wijzigingen worden opgeslagen. U kunt de configuratie in een later stadium herzien om verdere veranderingen aan te brengen, of de configuratie uit te voeren. Alleen een waarde voor [!UICONTROL Name] is vereist om een configuratie op te slaan.
-* **[!UICONTROL Implement]**: instellingen voor of wijzigingen die in een configuratie zijn aangebracht, worden opgeslagen en geïmplementeerd. Alle gebieden die als ![ worden gemerkt Vereiste ](/help/assets/icons/Required.svg) vereiste waarden moeten hebben. De uitvoering bestaat uit:
+* **[!UICONTROL Implement]**: instellingen voor of wijzigingen die in een configuratie zijn aangebracht, worden opgeslagen en geïmplementeerd. Alle gebieden die als ![&#x200B; worden gemerkt Vereiste &#x200B;](/help/assets/icons/Required.svg) vereiste waarden moeten hebben. De uitvoering bestaat uit:
 
    * **[!UICONTROL Customer Journey Analytics]** configuratie:
       * De geselecteerde gegevensweergave wordt bijgewerkt en bevat nu de Content Analytics-dimensie en metriek.
@@ -397,10 +397,10 @@ Wanneer u een configuratie maakt of bewerkt, hebt u de volgende opties:
 
 ## Publiceren {#publish}
 
-Om gegevens voor uw configuratie van Content Analytics te beginnen verzamelen, moet u [ manueel ](manual.md) publiceren het bezit van Markeringen dat wordt gecreeerd nadat u **[!UICONTROL Implement]** selecteerde.
+Om gegevens voor uw configuratie van Content Analytics te beginnen verzamelen, moet u [&#x200B; manueel &#x200B;](manual.md) publiceren het bezit van Markeringen dat wordt gecreeerd nadat u **[!UICONTROL Implement]** selecteerde.
 
 
 >[!MORELIKETHIS]
 >
->[ Handmatige configuratie ](manual.md)
+>[&#x200B; Handmatige configuratie &#x200B;](manual.md)
 >
