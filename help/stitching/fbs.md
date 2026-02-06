@@ -5,23 +5,27 @@ solution: Customer Journey Analytics
 feature: Stitching, Cross-Channel Analysis
 role: Admin
 exl-id: e5cb55e7-aed0-4598-a727-72e6488f5aa8
-source-git-commit: a94f3fe6821d96c76b759efa3e7eedc212252c5f
+source-git-commit: b5afcfe2cac8aa12d7f4d0cf98658149707123e3
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1797'
 ht-degree: 2%
 
 ---
 
 # Veldgebaseerde stitching
 
-In op gebied-gebaseerde het stitching, specificeert u een gebeurtenisdataset evenals blijvende identiteitskaart (koekje) en persoonsidentiteitskaart voor die dataset. Op veld gebaseerde stitching voegt een nieuwe gestikte kolom van identiteitskaart aan de gebeurtenisdataset toe en werkt deze vastgemaakte identiteitskaart bij die op rijen wordt gebaseerd die een persoonsidentiteitskaart voor die specifieke blijvende identiteitskaart hebben. <br/> u kunt op gebied-gebaseerde het stitching gebruiken wanneer het gebruiken van Customer Journey Analytics als standalone oplossing (die geen toegang tot de Dienst van de Identiteit van Experience Platform en bijbehorende identiteitsgrafiek heeft). Of als u de beschikbare identiteitsgrafiek niet wilt gebruiken.
+In op gebied-gebaseerde het stitching, specificeert u een gebeurtenisdataset evenals blijvende identiteitskaart (koekje) en persoonsidentiteitskaart voor die dataset. Op veld gebaseerde stitching probeert de persoon-id-informatie beschikbaar te stellen voor Customer Journey Analytics-gegevensanalyse, voor anonieme gebeurtenissen die met een specifieke, permanente id worden ontvangen.  Deze informatie wordt opgehaald uit de rijen met een persoon-id voor die specifieke permanente id.
 
-![&#x200B; Op gebied-gebaseerde het stitching &#x200B;](/help/stitching/assets/fbs.png)
+Als de informatie van identiteitskaart van de persoon niet voor een gebeurtenis kan worden teruggewonnen, wordt blijvende identiteitskaart gebruikt in plaats daarvan voor die *verbreken* gebeurtenis. Dientengevolge, in a [ gegevensmening ](/help/data-views/data-views.md) die met a [ verbinding ](/help/connections/overview.md) wordt geassocieerd die de dataset bevat die voor het stitching wordt toegelaten, bevat de component van identiteitskaart van de persoon of de waarde van identiteitskaart of blijvende waarde van identiteitskaart op het gebeurtenisniveau.
+
+U kunt op velden gebaseerde stitching gebruiken wanneer het gebruiken van Customer Journey Analytics als standalone oplossing (die geen toegang tot de Dienst van de Identiteit van Experience Platform en bijbehorende identiteitsgrafiek heeft). Of als u de beschikbare identiteitsgrafiek niet wilt gebruiken.
+
+![ Op gebied-gebaseerde het stitching ](/help/stitching/assets/fbs.png)
 
 
 ## IdentityMap
 
-Op veld gebaseerde stitching steunt het gebruik van de [`identityMap` gebiedsgroep &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/composition#identity) in de volgende scenario&#39;s:
+Op veld gebaseerde stitching steunt het gebruik van de [`identityMap` gebiedsgroep ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity) in de volgende scenario&#39;s:
 
 - Gebruik van de primaire identiteit in `identityMap` naamruimten om de persistentID te definiëren:
    - Als er meerdere primaire identiteiten voorkomen in verschillende naamruimten, worden de identiteiten in de naamruimten lexicografisch gesorteerd en wordt de eerste identiteit geselecteerd.
@@ -96,9 +100,9 @@ Met Stitching worden minimaal twee gegevenscontroles uitgevoerd in een bepaalde 
 
 - **Replay het stitching**: *speelt* gegevens opnieuw die op unieke herkenningstekens (persoon IDs) worden gebaseerd. In dit stadium worden treffers van eerder onbekende apparaten (permanente id&#39;s) vastgezet (aan personen-id&#39;s). Twee parameters bepalen replay: **frequentie** en **raadplegingsvenster**. Adobe biedt de volgende combinaties van deze parameters aan:
    - **Dagelijkse raadpleging op een dagelijkse frequentie**: De gegevens respeelt elke dag met een terugkijkvenster van 24 uur terug. Deze optie biedt een voordeel dat het aantal keren opnieuw wordt afgespeeld, maar niet-geverifieerde profielen moeten op dezelfde dag dat ze uw site bezoeken, worden geverifieerd.
-   - **wekelijkse raadpleging op een wekelijkse frequentie**: De gegevens respeelt eens per week met een wekelijks terugkijkvenster (zie [&#x200B; opties &#x200B;](#options)) opnieuw. Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Niet-opgeslagen gegevens van minder dan een week oud worden echter pas opnieuw verwerkt wanneer de gegevens wekelijks opnieuw worden afgespeeld.
-   - **biwekelijkse raadpleging op een wekelijkse frequentie**: De gegevens respeelt eens per week met een tweewekelijkse raadplegingsvenster (zie [&#x200B; opties &#x200B;](#options)) opnieuw. Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Onverwachte gegevens van minder dan twee weken oud worden echter pas opnieuw verwerkt wanneer de volgende week opnieuw wordt afgespeeld.
-   - **Maandelijkse raadpleging op een wekelijkse frequentie**: De gegevens replay elke week met een maandelijks terugkijkvenster (zie [&#x200B; opties &#x200B;](#options)). Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Niet-opgeslagen gegevens van minder dan een maand oud worden echter pas opnieuw verwerkt wanneer de gegevens wekelijks opnieuw worden afgespeeld.
+   - **wekelijkse raadpleging op een wekelijkse frequentie**: De gegevens respeelt eens per week met een wekelijks terugkijkvenster (zie [ opties ](#options)) opnieuw. Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Niet-opgeslagen gegevens van minder dan een week oud worden echter pas opnieuw verwerkt wanneer de gegevens wekelijks opnieuw worden afgespeeld.
+   - **biwekelijkse raadpleging op een wekelijkse frequentie**: De gegevens respeelt eens per week met een tweewekelijkse raadplegingsvenster (zie [ opties ](#options)) opnieuw. Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Onverwachte gegevens van minder dan twee weken oud worden echter pas opnieuw verwerkt wanneer de volgende week opnieuw wordt afgespeeld.
+   - **Maandelijkse raadpleging op een wekelijkse frequentie**: De gegevens replay elke week met een maandelijks terugkijkvenster (zie [ opties ](#options)). Deze optie houdt een voordeel dat unauthenticated zittingen een veel mildere tijd toestaat om voor authentiek te verklaren. Niet-opgeslagen gegevens van minder dan een maand oud worden echter pas opnieuw verwerkt wanneer de gegevens wekelijks opnieuw worden afgespeeld.
 
 - **Privacy**: Wanneer op privacy betrekking hebbende verzoeken worden ontvangen, naast het verwijderen van de gevraagde identiteit, moet om het even welk stitching van die identiteit over niet voor authentiek verklaarde gebeurtenissen worden ongedaan gemaakt.
 
@@ -120,25 +124,25 @@ Overweeg het volgende voorbeeld, waar het Loodje verschillende gebeurtenissen al
 
 *Gegevens aangezien het de dag verscheen het wordt verzameld:*
 
-| Gebeurtenis | Tijdstempel | Blijvende id (cookie-id) | Persoon-id | Id met titel (na liveslot) |
+| Gebeurtenis | Tijdstempel | Blijvende id (cookie-id) | Persoon-id | Resulterende ID (na live stitch) |
 |---|---|---|---|---|
-| 1 | 2023-05-12 12 :01 | `246` ![&#x200B; ArrowRight &#x200B;](/help/assets/icons/ArrowRight.svg) | - | **`246`** |
-| 2 | 2023-05-12 12 :02 | `246` | `Bob` ![&#x200B; ArrowRight &#x200B;](/help/assets/icons/ArrowRight.svg) | `Bob` |
-| 3 | 2023-05-12 12 :03 | `246` | `Bob` ![&#x200B; ArrowRight &#x200B;](/help/assets/icons/ArrowRight.svg) | `Bob` ![&#x200B; ArrowDown &#x200B;](/help/assets/icons/ArrowDown.svg) |
+| 1 | 2023-05-12 12 :01 | `246` ![ ArrowRight ](/help/assets/icons/ArrowRight.svg) | - | **`246`** |
+| 2 | 2023-05-12 12 :02 | `246` | `Bob` ![ ArrowRight ](/help/assets/icons/ArrowRight.svg) | `Bob` |
+| 3 | 2023-05-12 12 :03 | `246` | `Bob` ![ ArrowRight ](/help/assets/icons/ArrowRight.svg) | `Bob` ![ ArrowDown ](/help/assets/icons/ArrowDown.svg) |
 | 4 | 2023-05-12 12 :04 | `246` | - | **`Bob`** |
-| 5 | 2023-05-12 12 :05 | `246` | `Bob` ![&#x200B; ArrowRight &#x200B;](/help/assets/icons/ArrowRight.svg) | `Bob` ![&#x200B; Pijl neer &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) |
+| 5 | 2023-05-12 12 :05 | `246` | `Bob` ![ ArrowRight ](/help/assets/icons/ArrowRight.svg) | `Bob` ![ Pijl neer ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) |
 | 6 | 2023-05-12 12 :06 | `246` | - | **`Bob`** |
-| 7 | 2023-05-12 12 :07 | `246` | `Bob` ![&#x200B; ArrowRight &#x200B;](/help/assets/icons/ArrowRight.svg) | `Bob` |
-| 8 | 2023-05-12 12 :03 | `3579` ![&#x200B; ArrowRight &#x200B;](/help/assets/icons/ArrowRight.svg) | - | **`3579`** |
-| 9 | 2023-05-12 12 :09 | `3579` ![&#x200B; ArrowRight &#x200B;](/help/assets/icons/ArrowRight.svg) | - | **`3579`** |
-| 10 | 2023-05-12 12 :02 | `81911` ![&#x200B; ArrowRight &#x200B;](/help/assets/icons/ArrowRight.svg) | - | **`81911`** |
-| 11 | 2023-05-12 12 :05 | `81911` | `Bob` ![&#x200B; ArrowRight &#x200B;](/help/assets/icons/ArrowRight.svg) | `Bob` ![&#x200B; ArrowDown &#x200B;](/help/assets/icons/ArrowDown.svg) |
+| 7 | 2023-05-12 12 :07 | `246` | `Bob` ![ ArrowRight ](/help/assets/icons/ArrowRight.svg) | `Bob` |
+| 8 | 2023-05-12 12 :03 | `3579` ![ ArrowRight ](/help/assets/icons/ArrowRight.svg) | - | **`3579`** |
+| 9 | 2023-05-12 12 :09 | `3579` ![ ArrowRight ](/help/assets/icons/ArrowRight.svg) | - | **`3579`** |
+| 10 | 2023-05-12 12 :02 | `81911` ![ ArrowRight ](/help/assets/icons/ArrowRight.svg) | - | **`81911`** |
+| 11 | 2023-05-12 12 :05 | `81911` | `Bob` ![ ArrowRight ](/help/assets/icons/ArrowRight.svg) | `Bob` ![ ArrowDown ](/help/assets/icons/ArrowDown.svg) |
 | 12 | 2023-05-12 12 :12 | `81911` | - | **`Bob`** |
 | | | **3 apparaten** | | **4 mensen**:<br/>`246`, `Bob`, `3579`, `81911` |
 
 Zowel niet-geverifieerde als geverifieerde gebeurtenissen op nieuwe apparaten worden als afzonderlijke personen geteld (tijdelijk). Niet-geverifieerde gebeurtenissen op herkende apparaten worden live stilgezet.
 
-Attributie werkt wanneer de identificerende aangepaste variabele aan een apparaat is gekoppeld. In het bovenstaande voorbeeld worden alle gebeurtenissen behalve de gebeurtenissen 1, 8, 9 en 10 live verbonden (ze gebruiken allemaal de id `Bob` ). Als u de stitching live uitvoert, wordt de geroteerde id voor gebeurtenis 4, 6 en 12 opgelost.
+Attributie werkt wanneer de identificerende aangepaste variabele aan een apparaat is gekoppeld. In het bovenstaande voorbeeld worden alle gebeurtenissen behalve de gebeurtenissen 1, 8, 9 en 10 live verbonden (ze gebruiken allemaal de id `Bob` ). Met Actief stitching wordt de resulterende id voor gebeurtenis 4, 6 en 12 &#39;opgelost&#39;.
 
 Vertraagde gegevens (gegevens met een tijdstempel van meer dan 24 uur oud) worden op de &#39;best mogelijke manier&#39; verwerkt, waarbij de voorkeur wordt gegeven aan het koppelen van huidige gegevens voor de hoogste kwaliteit.
 
@@ -154,19 +158,19 @@ In de volgende tabel worden dezelfde gegevens weergegeven als hierboven, maar wo
 
 *De zelfde gegevens na replay:*
 
-| Gebeurtenis | Tijdstempel | Blijvende id (cookie-id) | Persoon-id | Id met titel (na liveslot) | Id met titel (na opnieuw afspelen) |
+| Gebeurtenis | Tijdstempel | Blijvende id (cookie-id) | Persoon-id | Resulterende ID (na live stitch) | Resulterende id (na opnieuw afspelen) |
 |---|---|---|---|---|---|
 | 1 | 2023-05-12 12 :01 | `246` | - | `246` | **`Bob`** |
-| 2 | 2023-05-12 12 :02 | `246` | `Bob` ![&#x200B; ArrowRight &#x200B;](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` ![&#x200B; ArrowUp &#x200B;](/help/assets/icons/ArrowUp.svg) |
-| 3 | 2023-05-12 12 :03 | `246` | `Bob` ![&#x200B; ArrowRight &#x200B;](/help/assets/icons/ArrowRight.svg) | `Bob` | Bob |
+| 2 | 2023-05-12 12 :02 | `246` | `Bob` ![ ArrowRight ](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` ![ ArrowUp ](/help/assets/icons/ArrowUp.svg) |
+| 3 | 2023-05-12 12 :03 | `246` | `Bob` ![ ArrowRight ](/help/assets/icons/ArrowRight.svg) | `Bob` | Bob |
 | 4 | 2023-05-12 12 :04 | `246` | - | **`Bob`** | `Bob` |
-| 5 | 2023-05-12 12 :05 | `246` | `Bob` ![&#x200B; ArrowRight &#x200B;](/help/assets/icons/ArrowRight.svg) | `Bob` ![&#x200B; ArrowDown &#x200B;](/help/assets/icons/ArrowDown.svg) | `Bob` |
+| 5 | 2023-05-12 12 :05 | `246` | `Bob` ![ ArrowRight ](/help/assets/icons/ArrowRight.svg) | `Bob` ![ ArrowDown ](/help/assets/icons/ArrowDown.svg) | `Bob` |
 | 6 | 2023-05-12 12 :06 | `246` | - | **`Bob`** | `Bob` |
-| 7 | 2023-05-12 12 :07 | `246` | `Bob` ![&#x200B; ArrowRight &#x200B;](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` |
-| 8 | 2023-05-12 12 :03 | `3579` ![&#x200B; ArrowRight &#x200B;](/help/assets/icons/ArrowRight.svg) | - | **`3579`** | **`3579`** |
-| 9 | 2023-05-12 12 :09 | `3579` ![&#x200B; ArrowRight &#x200B;](/help/assets/icons/ArrowRight.svg) | - | **`3579`** | **`3579`** |
+| 7 | 2023-05-12 12 :07 | `246` | `Bob` ![ ArrowRight ](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` |
+| 8 | 2023-05-12 12 :03 | `3579` ![ ArrowRight ](/help/assets/icons/ArrowRight.svg) | - | **`3579`** | **`3579`** |
+| 9 | 2023-05-12 12 :09 | `3579` ![ ArrowRight ](/help/assets/icons/ArrowRight.svg) | - | **`3579`** | **`3579`** |
 | 10 | 2023-05-12 12 :02 | `81911` | - | `81911` | **`Bob`** |
-| 11 | 2023-05-12 12 :05 | `81911` | `Bob` ![&#x200B; ArrowRight &#x200B;](/help/assets/icons/ArrowRight.svg) | `Bob` ![&#x200B; ArrowDown &#x200B;](/help/assets/icons/ArrowDown.svg) | `Bob` ![&#x200B; ArrowUp &#x200B;](/help/assets/icons/ArrowUp.svg) |
+| 11 | 2023-05-12 12 :05 | `81911` | `Bob` ![ ArrowRight ](/help/assets/icons/ArrowRight.svg) | `Bob` ![ ArrowDown ](/help/assets/icons/ArrowDown.svg) | `Bob` ![ ArrowUp ](/help/assets/icons/ArrowUp.svg) |
 | 12 | 2023-05-12 12 :12 | `81911` | - | **`Bob`** | `Bob` |
 | | | **3 apparaten** | | **4 mensen**:<br/>`246`, `Bob`, `3579`, `81911` | **2 mensen**:<br/>`Bob`, `3579` |
 
@@ -178,7 +182,7 @@ Attributie werkt wanneer de identificerende aangepaste variabele aan een apparaa
 
 ### Stap 3: Privacy-aanvraag
 
-Wanneer u een privacyverzoek ontvangt, wordt de opgeslagen id verwijderd in alle records voor de gebruiker waarop de privacyaanvraag betrekking heeft.
+Wanneer u een privacyverzoek ontvangt, worden alle id-gegevens die door het koppelingsproces zijn ingesteld op de waarde van de persoon-id in alle records bijgewerkt naar een permanente id-waarde voor de gebruiker op wie de privacyaanvraag betrekking heeft.
 
 +++ Details
 
@@ -186,19 +190,19 @@ De volgende lijst vertegenwoordigt de zelfde gegevens zoals hierboven, maar toon
 
 *De zelfde gegevens na een privacyverzoek voor Loodje:*
 
-| Gebeurtenis | Tijdstempel | Blijvende id (cookie-id) | Persoon-id | Id met titel (na liveslot) | Id met titel (na opnieuw afspelen) | Persoon-id | Id met titel (na privacyverzoek) |
+| Gebeurtenis | Tijdstempel | Blijvende id (cookie-id) | Persoon-id | Resulterende ID (na live stitch) | Resulterende id (na opnieuw afspelen) | Persoon-id | Resulterende ID (na privacyverzoek) |
 |---|---|---|---|---|---|---|---|
 | 1 | 2023-05-12 12 :01 | `246` | - | `246` | **`Bob`** | - | `246` |
-| 2 | 2023-05-12 12 :02 | `246` | Bob ![&#x200B; ArrowRight &#x200B;](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` ![&#x200B; Pijl omhoog &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) | ![&#x200B; RemoveCircle &#x200B;](/help/assets/icons/RemoveCircle.svg) | `246` |
-| 3 | 2023-05-12 12 :03 | `246` | Bob ![&#x200B; ArrowRight &#x200B;](/help/assets/icons/ArrowRight.svg) | `Bob` ![&#x200B; ArrowDown &#x200B;](/help/assets/icons/ArrowDown.svg) | `Bob` | ![&#x200B; RemoveCircle &#x200B;](/help/assets/icons/RemoveCircle.svg) | `246` |
+| 2 | 2023-05-12 12 :02 | `246` | Bob ![ ArrowRight ](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` ![ Pijl omhoog ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowUp_18_N.svg) | ![ RemoveCircle ](/help/assets/icons/RemoveCircle.svg) | `246` |
+| 3 | 2023-05-12 12 :03 | `246` | Bob ![ ArrowRight ](/help/assets/icons/ArrowRight.svg) | `Bob` ![ ArrowDown ](/help/assets/icons/ArrowDown.svg) | `Bob` | ![ RemoveCircle ](/help/assets/icons/RemoveCircle.svg) | `246` |
 | 4 | 2023-05-12 12 :04 | `246` | - | **`Bob`** | `Bob` | - | `246` |
-| 5 | 2023-05-12 12 :05 | `246` | Bob ![&#x200B; ArrowRight &#x200B;](/help/assets/icons/ArrowRight.svg) | `Bob` ![&#x200B; ArrowDown &#x200B;](/help/assets/icons/ArrowDown.svg) | `Bob` | ![&#x200B; RemoveCircle &#x200B;](/help/assets/icons/RemoveCircle.svg) | `246` |
+| 5 | 2023-05-12 12 :05 | `246` | Bob ![ ArrowRight ](/help/assets/icons/ArrowRight.svg) | `Bob` ![ ArrowDown ](/help/assets/icons/ArrowDown.svg) | `Bob` | ![ RemoveCircle ](/help/assets/icons/RemoveCircle.svg) | `246` |
 | 6 | 2023-05-12 12 :06 | `246` | - | **`Bob`** | `Bob` | - | `246` |
-| 7 | 2023-05-12 12 :07 | `246` | `Bob` ![&#x200B; ArrowRight &#x200B;](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` | ![&#x200B; RemoveCircle &#x200B;](/help/assets/icons/RemoveCircle.svg) | `246` |
-| 8 | 2023-05-12 12 :03 | `3579` ![&#x200B; ArrowRight &#x200B;](/help/assets/icons/ArrowRight.svg) | - | **`3579`** | **`3579`** | - | `3579` |
-| 9 | 2023-05-12 12 :09 | `3579` ![&#x200B; ArrowRight &#x200B;](/help/assets/icons/ArrowRight.svg) | - | **`3579`** | **`3579`** | - | `3579` |
+| 7 | 2023-05-12 12 :07 | `246` | `Bob` ![ ArrowRight ](/help/assets/icons/ArrowRight.svg) | `Bob` | `Bob` | ![ RemoveCircle ](/help/assets/icons/RemoveCircle.svg) | `246` |
+| 8 | 2023-05-12 12 :03 | `3579` ![ ArrowRight ](/help/assets/icons/ArrowRight.svg) | - | **`3579`** | **`3579`** | - | `3579` |
+| 9 | 2023-05-12 12 :09 | `3579` ![ ArrowRight ](/help/assets/icons/ArrowRight.svg) | - | **`3579`** | **`3579`** | - | `3579` |
 | 10 | 2023-05-12 12 :02 | `81911` | - | `81911` | **`Bob`** | - | `81911` |
-| 11 | 2023-05-12 12 :05 | `81911` | `Bob` ![&#x200B; ArrowRight &#x200B;](/help/assets/icons/ArrowRight.svg) | `Bob` ![&#x200B; ArrowDown &#x200B;](/help/assets/icons/ArrowDown.svg) | `Bob` ![&#x200B; ArrowUp &#x200B;](/help/assets/icons/ArrowUp.svg) | ![&#x200B; RemoveCircle &#x200B;](/help/assets/icons/RemoveCircle.svg) | `81911` |
+| 11 | 2023-05-12 12 :05 | `81911` | `Bob` ![ ArrowRight ](/help/assets/icons/ArrowRight.svg) | `Bob` ![ ArrowDown ](/help/assets/icons/ArrowDown.svg) | `Bob` ![ ArrowUp ](/help/assets/icons/ArrowUp.svg) | ![ RemoveCircle ](/help/assets/icons/RemoveCircle.svg) | `81911` |
 | 12 | 2023-05-12 12 :12 | `81911` | - | **`Bob`** | `Bob` | - | `81911` |
 | | | **3 apparaten** | | **4 mensen**:<br/> 246, `Bob`, `3579`, `81911` | **2 mensen**:<br/> Loodje, `3579` |  | **3 mensen**:<br/>`246`, `3579`, `81911` |
 
@@ -214,7 +218,7 @@ De volgende voorwaarden zijn specifiek van toepassing op veldomstandigheden:
    - A **persoonsidentiteitskaart**, een herkenningsteken beschikbaar op slechts sommige rijen. Een gehashte gebruikersnaam of e-mailadres bijvoorbeeld wanneer een profiel wordt geverifieerd. U kunt vrijwel elke gewenste id gebruiken. Stitching beschouwt dit gebied om de daadwerkelijke informatie van persoonidentiteitskaart te houden. Voor de beste stitching resultaten, zou een persoon ID binnen de gebeurtenissen van de dataset minstens eens voor elke blijvende identiteitskaart moeten worden verzonden. Als u van plan bent om deze dataset binnen een verbinding van Customer Journey Analytics te omvatten, is het verkieslijk dat de andere datasets ook een gelijkaardige gemeenschappelijke herkenningsteken hebben.
 
 <!--
-- Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
+- Both columns (persistent ID and person ID) must be defined as an identity field with an identity namespace in the schema for the dataset you want to stitch. When using identity stitching in Real-time Customer Data Platform, using the [`identityMap` field group](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity), you still need to add identity fields with an identity namespace. This identification of identity fields is required as Customer Journey Analytics stitching does not support the `identityMap` field group. When adding an identity field in the schema, while also using the `identityMap` field group, do not set the additional identity field as a primary identity. Setting an additional identity field as primary identity interferes with the `identityMap` field group used for Real-time Customer Data Platform.
 
 -->
 
@@ -229,5 +233,5 @@ De volgende beperkingen zijn specifiek van toepassing op veldomstandigheden:
 - Bij het aanbrengen van titels worden velden niet gecombineerd of samengevoegd.
 - Het veld Persoon-id moet één type id (id&#39;s uit één naamruimte) bevatten. Het veld Personen-id mag bijvoorbeeld geen combinatie bevatten van aanmeldings-id&#39;s en e-mailadressen.
 - Als er meerdere gebeurtenissen plaatsvinden met dezelfde tijdstempel voor dezelfde permanente id, maar met verschillende waarden in het veld Personen-id, wordt de id op basis van alfabetische volgorde geselecteerd door stitching. Dus als de blijvende id A twee gebeurtenissen heeft met dezelfde tijdstempel en een van de gebeurtenissen Bob opgeeft en de andere de Ann, selecteert de stitching Ann.
-- Wees voorzichtig met scenario&#39;s waarin de persoon-id&#39;s plaatsaanduidingswaarden bevatten, bijvoorbeeld `Undefined` . Zie [&#x200B; Veelgestelde vragen &#x200B;](faq.md) voor meer informatie.
+- Wees voorzichtig met scenario&#39;s waarin de persoon-id&#39;s plaatsaanduidingswaarden bevatten, bijvoorbeeld `Undefined` . Zie [ Veelgestelde vragen ](faq.md) voor meer informatie.
 - U kunt niet dezelfde naamruimte gebruiken voor zowel de permanente id als de persoon-id. Naamruimten moeten elkaar uitsluiten.
