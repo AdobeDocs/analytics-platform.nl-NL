@@ -23,7 +23,7 @@ Als de informatie van identiteitskaart van de persoon niet voor een gebeurtenis 
 
 ## IdentityMap
 
-Op grafiek-gebaseerde het stitching steunt het gebruik van de [`identityMap` gebiedsgroep &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity) in de volgende scenario&#39;s:
+Op grafiek-gebaseerde het stitching steunt het gebruik van de [`identityMap` gebiedsgroep &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/composition#identity) in de volgende scenario&#39;s:
 
 - Gebruik van de primaire identiteit in `identityMap` naamruimten om de persistentID te definiëren:
    - Als er meerdere primaire identiteiten voorkomen in verschillende naamruimten, worden de identiteiten in de naamruimten lexicografisch gesorteerd en wordt de eerste identiteit geselecteerd.
@@ -114,7 +114,7 @@ Bekijk de volgende twee identiteitsgrafiekupdates in de loop der tijd voor bezoe
 
 ![&#x200B; Grafiek 3579 van de Identiteit &#x200B;](assets/identity-graphs.svg)
 
-U kunt een identiteitsgrafiek over tijd voor een specifiek profiel bekijken gebruikend de [&#x200B; Kijker van de Grafiek van de Identiteit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-viewer). Zie ook [&#x200B; Dienst die van de Identiteit logica &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic) verbindt om een beter begrip van de gebruikte logica te krijgen wanneer het verbinden van identiteiten.
+U kunt een identiteitsgrafiek over tijd voor een specifiek profiel bekijken gebruikend de [&#x200B; Kijker van de Grafiek van de Identiteit &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/identity-graph-viewer). Zie ook [&#x200B; Dienst die van de Identiteit logica &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/identity-linking-logic) verbindt om een beter begrip van de gebruikte logica te krijgen wanneer het verbinden van identiteiten.
 
 ### Stap 1: Actief stitching
 
@@ -209,7 +209,7 @@ De volgende voorwaarden zijn specifiek van toepassing op op grafiek gebaseerde s
    - Alle datasets die dergelijke relevante identiteiten houden moeten [&#x200B; worden toegelaten voor de gegevensopname van de identiteitsgrafiek &#x200B;](faq.md#enable-a-dataset-for-the-identity-service). Hierdoor wordt gegarandeerd dat inkomende identiteiten na verloop van tijd uit alle benodigde bronnen aan de grafiek worden toegevoegd.
    - Als de grafiek al een tijdje het Real-Time Klantgegevensprofiel of Adobe Journey Optimizer gebruikt, moet de grafiek al in zekere mate zijn ingesteld.<br/> als historische het stitching backfill ook voor de dataset wordt vereist die met op grafiek-gebaseerde het stitching wordt toegelaten, zou de grafiek historische identiteiten voor de volledige periode reeds moeten bevatten, om gewenste het stitching resultaten te verkrijgen.
 - Als u op grafiek-gebaseerde het stitching wilt gebruiken en u de gebeurtenisdataset om aan de identiteitsgrafiek vooruitloopt bij te dragen, zou u de dataset voor de dienst van de Identiteit [&#x200B; moeten toelaten.](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service)
-- Ononderbroken identiteitskaart en persoonsidentiteitskaart kunnen met [&#x200B; identityMap &#x200B;](#identitymap) worden gebruikt. Of blijvende identiteitskaart en persoonsidentiteitskaart kunnen gebieden van het schema zijn XDM, in welk geval de gebieden [&#x200B; als identiteit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity?lang=en) in het schema moeten worden bepaald.
+- Ononderbroken identiteitskaart en persoonsidentiteitskaart kunnen met [&#x200B; identityMap &#x200B;](#identitymap) worden gebruikt. Of blijvende identiteitskaart en persoonsidentiteitskaart kunnen gebieden van het schema zijn XDM, in welk geval de gebieden [&#x200B; als identiteit &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/ui/fields/identity?lang=en) in het schema moeten worden bepaald.
 
 >[!NOTE]
 >
@@ -223,7 +223,7 @@ De volgende beperkingen zijn specifiek van toepassing op op grafiek gebaseerde s
 - Tijdstempels worden niet in aanmerking genomen wanneer wordt gezocht naar de persoon-id met behulp van de opgegeven naamruimte. Het is dus mogelijk dat een permanente id wordt gekoppeld aan een persoon-id uit een record met een eerdere tijdstempel.
 - In scenario&#39;s voor gedeelde apparaten, waarbij de naamruimte in de grafiek meerdere identiteiten bevat, wordt de eerste lexicografische identiteit gebruikt. Als namespace grenzen en prioriteiten als deel van de versie van grafiek-verbinden regels worden gevormd, wordt de laatste voor authentiek verklaarde identiteit van de gebruiker gebruikt. Zie [&#x200B; Gedeelde apparaten &#x200B;](/help/use-cases/stitching/shared-devices.md) voor meer informatie.
 - Er geldt een harde limiet van drie maanden voor het terugvullen van identiteiten in de identiteitsgrafiek. Als u geen Experience Platform-toepassing gebruikt, zoals Real-time Customer Data Platform, kunt u de identiteitsgrafiek weergeven door identiteiten te herstellen.
-- De [&#x200B; Garanties van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails) zijn van toepassing. Zie, bijvoorbeeld, de volgende [&#x200B; statische grenzen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails#static-limits):
+- De [&#x200B; Garanties van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/guardrails) zijn van toepassing. Zie, bijvoorbeeld, de volgende [&#x200B; statische grenzen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/guardrails#static-limits):
    - Maximumaantal identiteiten in een grafiek: 50.
    - Maximum aantal koppelingen naar een identiteit voor één batch-opname: 50.
    - Maximum aantal identiteiten in een XDM-record voor grafiekopname: 20.
