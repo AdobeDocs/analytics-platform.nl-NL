@@ -21,7 +21,7 @@ Dit artikel schetst hoe de combinatie van de Dienst van de Vraag van Experience 
 - Gereedheid voor kunstmatig slim en machinaal leren.
 
 
-Adobe Analytics kan deze gebruiksgevallen uitvoeren gebruikend zijn [&#x200B; functionaliteit 0&rbrace; van de Diefstal van Gegevens &lbrace;. &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/data-feed-overview) Gegevensfeeds zijn een krachtige manier om onbewerkte gegevens uit Adobe Analytics te halen. In dit artikel wordt beschreven hoe u vergelijkbare onbewerkte gegevens uit Experience Platform kunt ophalen, zodat u de hierboven vermelde gebruiksgevallen kunt implementeren. Indien van toepassing worden de in dit artikel beschreven functies vergeleken met Adobe Analytics Data Feeds om verschillen in gegevens en processen te verduidelijken.
+Adobe Analytics kan deze gebruiksgevallen uitvoeren gebruikend zijn [&#x200B; functionaliteit 0&rbrace; van de Diefstal van Gegevens &lbrace;. &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/export/analytics-data-feed/data-feed-overview) Gegevensfeeds zijn een krachtige manier om onbewerkte gegevens uit Adobe Analytics te halen. In dit artikel wordt beschreven hoe u vergelijkbare onbewerkte gegevens uit Experience Platform kunt ophalen, zodat u de hierboven vermelde gebruiksgevallen kunt implementeren. Indien van toepassing worden de in dit artikel beschreven functies vergeleken met Adobe Analytics Data Feeds om verschillen in gegevens en processen te verduidelijken.
 
 ## Inleiding
 
@@ -38,8 +38,8 @@ Het uitvoeren van gegevens gebruikend de Dienst van de Vraag (Gegevens Distiller
 Zorg ervoor dat u aan alle volgende vereisten voldoet voordat u de functionaliteit gebruikt die in dit gebruiksgeval wordt beschreven:
 
 - Een werkende implementatie die gegevens verzamelt in het gegevensmeer van Experience Platform.
-- Toegang tot de gegevensinvoegtoepassing Distiller om te controleren of u batch-query&#39;s mag uitvoeren. Zie [&#x200B; het verpakken van de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/packaging) voor meer informatie.
-- Toegang tot de functionaliteit voor exportgegevenssets die beschikbaar is wanneer u het Real-Time CDP Prime- of Ultimate-pakket, Adobe Journey Optimizer of Customer Journey Analytics hebt aangeschaft. Zie [&#x200B; datasets van de Uitvoer aan de bestemmingen van de wolkenopslag &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets) voor meer informatie.
+- Toegang tot de gegevensinvoegtoepassing Distiller om te controleren of u batch-query&#39;s mag uitvoeren. Zie [&#x200B; het verpakken van de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/packaging) voor meer informatie.
+- Toegang tot de functionaliteit voor exportgegevenssets die beschikbaar is wanneer u het Real-Time CDP Prime- of Ultimate-pakket, Adobe Journey Optimizer of Customer Journey Analytics hebt aangeschaft. Zie [&#x200B; datasets van de Uitvoer aan de bestemmingen van de wolkenopslag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/export-datasets) voor meer informatie.
 - Een of meer geconfigureerde doelen (bijvoorbeeld Amazon S3, Google Cloud Storage) waarnaar u de onbewerkte gegevens van uw gegevensfeed kunt exporteren.
 
 
@@ -47,27 +47,27 @@ Zorg ervoor dat u aan alle volgende vereisten voldoet voordat u de functionalite
 
 De Dienst van de Vraag van Experience Platform staat u toe om het even welke dataset in het de gegevensmeer van Experience Platform te vragen en zich aan te sluiten alsof het een gegevensbestandlijst is. Vervolgens kunt u de resultaten vastleggen als een nieuwe gegevensset voor verder gebruik in rapportage of voor export.
 
-U kunt het gebruikersinterface van de Dienst van de Vraag [&#x200B; gebruiken, a &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/overview) cliënt die door het protocol PostgresQL [&#x200B; wordt aangesloten, of &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/clients/overview) RESTful APIs [&#x200B; om vragen tot stand te brengen en te plannen die de gegevens voor uw gegevensvoer verzamelen.](https://experienceleague.adobe.com/en/docs/experience-platform/query/api/getting-started)
+U kunt het gebruikersinterface van de Dienst van de Vraag [&#x200B; gebruiken, a &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/overview) cliënt die door het protocol PostgresQL [&#x200B; wordt aangesloten, of &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/clients/overview) RESTful APIs [&#x200B; om vragen tot stand te brengen en te plannen die de gegevens voor uw gegevensvoer verzamelen.](https://experienceleague.adobe.com/nl/docs/experience-platform/query/api/getting-started)
 
 ### Query maken
 
-U kunt alle functionaliteit van standaardANSI SQL voor UITGEZOCHTE verklaringen en andere beperkte bevelen gebruiken om vragen tot stand te brengen en uit te voeren die de gegevens voor uw gegevensvoer produceren. Zie [&#x200B; SQL syntaxis &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/syntax) voor meer informatie. Buiten deze SQL-syntaxis biedt Adobe ondersteuning voor:
+U kunt alle functionaliteit van standaardANSI SQL voor UITGEZOCHTE verklaringen en andere beperkte bevelen gebruiken om vragen tot stand te brengen en uit te voeren die de gegevens voor uw gegevensvoer produceren. Zie [&#x200B; SQL syntaxis &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/sql/syntax) voor meer informatie. Buiten deze SQL-syntaxis biedt Adobe ondersteuning voor:
 
-- prebuilt [&#x200B; Adobe-defined functies (ADF) &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/adobe-defined-functions) die helpen gemeenschappelijke zaken-gerelateerde taken op gebeurtenisgegevens uitvoeren die in het de gegevensmeer van Experience Platform worden opgeslagen, met inbegrip van functies voor [&#x200B; Sessionisatie &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-mobile-visit-processing) en [&#x200B; Attributie &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/overview),
-- verscheidene ingebouwde [&#x200B; functies van de Vonk SQL &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/spark-sql-functions),
-- [&#x200B; meta-gegevens PostgreSQL bevelen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/metadata),
-- [&#x200B; voorbereide verklaringen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/prepared-statements).
+- prebuilt [&#x200B; Adobe-defined functies (ADF) &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/sql/adobe-defined-functions) die helpen gemeenschappelijke zaken-gerelateerde taken op gebeurtenisgegevens uitvoeren die in het de gegevensmeer van Experience Platform worden opgeslagen, met inbegrip van functies voor [&#x200B; Sessionisatie &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/components/virtual-report-suites/vrs-mobile-visit-processing) en [&#x200B; Attributie &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/attribution/overview),
+- verscheidene ingebouwde [&#x200B; functies van de Vonk SQL &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/sql/spark-sql-functions),
+- [&#x200B; meta-gegevens PostgreSQL bevelen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/sql/metadata),
+- [&#x200B; voorbereide verklaringen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/sql/prepared-statements).
 
 #### Gegevensvoederkolommen
 
-De XDM gebieden die u in uw vraag kunt gebruiken hangen van de schemadefinitie af waarop uw datasets worden gebaseerd. Zorg ervoor u het schema onderaan de dataset begrijpt. Zie voor meer informatie de [&#x200B; gids UI van Datasets &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide).
+De XDM gebieden die u in uw vraag kunt gebruiken hangen van de schemadefinitie af waarop uw datasets worden gebaseerd. Zorg ervoor u het schema onderaan de dataset begrijpt. Zie voor meer informatie de [&#x200B; gids UI van Datasets &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide).
 
-Om u te helpen om de afbeelding tussen de kolommen van het Gegevensvoer en de gebieden te bepalen XDM, zie [&#x200B; het gebiedstoewijzing van Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics). Zie ook het [&#x200B; overzicht van Schema&#39;s UI &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/overview#defining-xdm-fields) voor meer informatie over hoe te om middelen XDM, met inbegrip van schema&#39;s, klassen, gebiedsgroepen, en gegevenstypes te beheren.
+Om u te helpen om de afbeelding tussen de kolommen van het Gegevensvoer en de gebieden te bepalen XDM, zie [&#x200B; het gebiedstoewijzing van Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics). Zie ook het [&#x200B; overzicht van Schema&#39;s UI &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/ui/overview#defining-xdm-fields) voor meer informatie over hoe te om middelen XDM, met inbegrip van schema&#39;s, klassen, gebiedsgroepen, en gegevenstypes te beheren.
 
 Bijvoorbeeld, voor het geval u *paginanaam* als deel van uw gegevensvoer wilt gebruiken:
 
 - In de gebruikersinterface van Adobe Analytics Data Feed selecteert u **[!UICONTROL pagename]** als kolom die u wilt toevoegen aan de definitie van de gegevensfeed.
-- In de Dienst van de Vraag, omvat u `web.webPageDetails.name` van de `sample_event_dataset_for_website_global_v1_1` dataset (die op het **Schema van de Gebeurtenis van de Steekproef voor Website (Globale v1.1)** ervaringsgebeurtenisschema) in uw vraag wordt gebaseerd. Zie de [&#x200B; groep van het het schemagebied van Details van het Web &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/web-details) voor meer informatie.
+- In de Dienst van de Vraag, omvat u `web.webPageDetails.name` van de `sample_event_dataset_for_website_global_v1_1` dataset (die op het **Schema van de Gebeurtenis van de Steekproef voor Website (Globale v1.1)** ervaringsgebeurtenisschema) in uw vraag wordt gebaseerd. Zie de [&#x200B; groep van het het schemagebied van Details van het Web &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/field-groups/event/web-details) voor meer informatie.
 
 
 #### Identiteiten
@@ -79,14 +79,14 @@ Vaak vindt u identiteiten in een afzonderlijke veldgroep. In een implementatie k
 
 U kunt `identityMap` ook gebruiken om te zoeken naar identiteiten. `identityMap` is van type `Map` en gebruikt a [&#x200B; genestelde gegevensstructuur &#x200B;](#nested-data-structure).
 
-Zie [&#x200B; identiteitsgebieden in UI &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity) voor meer informatie over hoe te om identiteitsgebieden in Experience Platform te bepalen.
+Zie [&#x200B; identiteitsgebieden in UI &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/ui/fields/identity) voor meer informatie over hoe te om identiteitsgebieden in Experience Platform te bepalen.
 
-Verwijs naar [&#x200B; Primaire herkenningstekens in de gegevens van Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics#primary-identifiers-in-analytics-data) voor een begrip hoe de identiteiten van Adobe Analytics aan de identiteiten van Experience Platform wanneer het gebruiken van de Analytics bronschakelaar in kaart worden gebracht. Deze toewijzing kan als richtlijn voor vestiging uw identiteiten dienen, zelfs wanneer het gebruiken van niet de analytische bronschakelaar.
+Verwijs naar [&#x200B; Primaire herkenningstekens in de gegevens van Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/analytics#primary-identifiers-in-analytics-data) voor een begrip hoe de identiteiten van Adobe Analytics aan de identiteiten van Experience Platform wanneer het gebruiken van de Analytics bronschakelaar in kaart worden gebracht. Deze toewijzing kan als richtlijn voor vestiging uw identiteiten dienen, zelfs wanneer het gebruiken van niet de analytische bronschakelaar.
 
 
 #### Gegevens en identificatie op bedrijfsniveau
 
-Op basis van de implementatie worden gegevens op raakniveau die traditioneel in Adobe Analytics worden verzameld, nu opgeslagen als tijdstempelgegevens voor gebeurtenissen in Experience Platform. De volgende lijst wordt gehaald uit [&#x200B; het gebiedstoewijzing van Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics#generated-mapping-fields) en toont voorbeelden hoe te om niveau-specifieke kolommen van de Invoer van Gegevens van Adobe Analytics met overeenkomstige XDM gebieden in uw vragen in kaart te brengen. De tabel bevat ook voorbeelden van hoe treffers, bezoeken en bezoekers worden geïdentificeerd met behulp van XDM-velden.
+Op basis van de implementatie worden gegevens op raakniveau die traditioneel in Adobe Analytics worden verzameld, nu opgeslagen als tijdstempelgegevens voor gebeurtenissen in Experience Platform. De volgende lijst wordt gehaald uit [&#x200B; het gebiedstoewijzing van Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics#generated-mapping-fields) en toont voorbeelden hoe te om niveau-specifieke kolommen van de Invoer van Gegevens van Adobe Analytics met overeenkomstige XDM gebieden in uw vragen in kaart te brengen. De tabel bevat ook voorbeelden van hoe treffers, bezoeken en bezoekers worden geïdentificeerd met behulp van XDM-velden.
 
 | Kolom Gegevensfeed | XDM-veld | Type | Beschrijving |
 |---|---|---|---|
@@ -115,13 +115,13 @@ Op basis van de implementatie worden gegevens op raakniveau die traditioneel in 
 
 #### Kolommen na
 
-Adobe Analytics Data Feeds gebruikt het concept kolommen met een voorvoegsel `post_` . Dit zijn kolommen met gegevens na verwerking. Zie [&#x200B; Veelgestelde Veelgestelde vragen van het voer van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/export/analytics-data-feed/df-faq#post) voor meer informatie.
+Adobe Analytics Data Feeds gebruikt het concept kolommen met een voorvoegsel `post_` . Dit zijn kolommen met gegevens na verwerking. Zie [&#x200B; Veelgestelde Veelgestelde vragen van het voer van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/export/analytics-data-feed/df-faq#post) voor meer informatie.
 
 Gegevens die via de Experience Platform Edge Network (Web SDK, Mobile SDK, Server API) in gegevenssets zijn verzameld, hebben geen concept van `post_` -velden. Dientengevolge, `post_` prefixed en *niet* - `post_` vooraf vastgestelde de kolommen van de gegevensvoer aan de zelfde gebieden XDM in kaart brengen. Zowel `page_url` als `post_page_url` gegevensfeed-kolommen worden bijvoorbeeld toegewezen aan hetzelfde `web.webPageDetails.URL` XDM-veld.
 
-Zie [&#x200B; gegevensverwerking over Adobe Analytics en Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/data-processing-comparisons) voor een overzicht van het verschil in verwerking van gegevens vergelijken.
+Zie [&#x200B; gegevensverwerking over Adobe Analytics en Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/data-processing-comparisons) voor een overzicht van het verschil in verwerking van gegevens vergelijken.
 
-Het kolomtype van de prefix `post_` van gegevens, wanneer verzameld in het gegevenshoop van Experience Platform, vereist echter geavanceerde transformaties alvorens het in een gegeven kan met succes worden gebruikt het gebruikt geval van de gegevensvoer. Het uitvoeren van deze geavanceerde transformaties in uw vragen impliceert het gebruik van [&#x200B; Adobe-bepaalde functies &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/adobe-defined-functions) voor zittingssessie, attributie, en deduplicatie. Zie [&#x200B; Voorbeelden &#x200B;](#examples) op hoe te om deze functies te gebruiken.
+Het kolomtype van de prefix `post_` van gegevens, wanneer verzameld in het gegevenshoop van Experience Platform, vereist echter geavanceerde transformaties alvorens het in een gegeven kan met succes worden gebruikt het gebruikt geval van de gegevensvoer. Het uitvoeren van deze geavanceerde transformaties in uw vragen impliceert het gebruik van [&#x200B; Adobe-bepaalde functies &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/sql/adobe-defined-functions) voor zittingssessie, attributie, en deduplicatie. Zie [&#x200B; Voorbeelden &#x200B;](#examples) op hoe te om deze functies te gebruiken.
 
 #### Zoeken
 
@@ -129,7 +129,7 @@ Als u gegevens uit andere gegevenssets wilt opzoeken, gebruikt u standaard SQL-f
 
 #### Berekeningen
 
-Om berekeningen op gebieden (kolommen) uit te voeren, gebruik de standaardSQL functies (bijvoorbeeld `COUNT(*)`), of [&#x200B; wiskunde en statistische exploitanten en functies &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/spark-sql-functions#math) deel van SQL van de Vonk. Ook, [&#x200B; vensterfuncties &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/adobe-defined-functions#window-functions) verlenen steun om samenvoegingen bij te werken en enige punten voor elke rij in een bevolen ondergroep terug te keren. Zie [&#x200B; Voorbeelden &#x200B;](#examples) op hoe te om deze functies te gebruiken.
+Om berekeningen op gebieden (kolommen) uit te voeren, gebruik de standaardSQL functies (bijvoorbeeld `COUNT(*)`), of [&#x200B; wiskunde en statistische exploitanten en functies &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/sql/spark-sql-functions#math) deel van SQL van de Vonk. Ook, [&#x200B; vensterfuncties &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/sql/adobe-defined-functions#window-functions) verlenen steun om samenvoegingen bij te werken en enige punten voor elke rij in een bevolen ondergroep terug te keren. Zie [&#x200B; Voorbeelden &#x200B;](#examples) op hoe te om deze functies te gebruiken.
 
 #### Geneste gegevensstructuur
 
@@ -154,7 +154,7 @@ De schema&#39;s waarop de datasets worden gebaseerd bevatten vaak complexe gegev
 }
 ```
 
-U kunt [`explode()` of andere functies van Arrays &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/spark-sql-functions#arrays) van SQL van de Vonk gebruiken om aan de gegevens binnen een genestelde gegevensstructuur, bijvoorbeeld te krijgen:
+U kunt [`explode()` of andere functies van Arrays &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/sql/spark-sql-functions#arrays) van SQL van de Vonk gebruiken om aan de gegevens binnen een genestelde gegevensstructuur, bijvoorbeeld te krijgen:
 
 ```sql
 select explode(identityMap) from demosys_cja_ee_v1_website_global_v1_1 limit 15;
@@ -166,7 +166,7 @@ U kunt ook naar afzonderlijke elementen verwijzen met puntnotatie. Bijvoorbeeld:
 select identityMap.ecid from demosys_cja_ee_v1_website_global_v1_1 limit 15;
 ```
 
-Zie [&#x200B; Werkend met genestelde gegevensstructuren in de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/nested-data-structures) voor meer informatie.
+Zie [&#x200B; Werkend met genestelde gegevensstructuren in de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/nested-data-structures) voor meer informatie.
 
 
 #### Voorbeelden
@@ -179,10 +179,10 @@ Voor vragen:
 
 zie:
 
-- [&#x200B; verlaten doorbladeren &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/use-cases/abandoned-browse)
-- [&#x200B; attributieanalyse &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/use-cases/attribution-analysis)
-- [&#x200B; bot het filtreren &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/use-cases/bot-filtering)
-- en andere [&#x200B; gesteunde gebruiksgevallen in de gids van de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/use-cases/overview).
+- [&#x200B; verlaten doorbladeren &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/use-cases/abandoned-browse)
+- [&#x200B; attributieanalyse &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/use-cases/attribution-analysis)
+- [&#x200B; bot het filtreren &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/use-cases/bot-filtering)
+- en andere [&#x200B; gesteunde gebruiksgevallen in de gids van de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/use-cases/overview).
 
 Hieronder ziet u een voorbeeld waarin u de toewijzing op de juiste wijze kunt toepassen op verschillende sessies. Zo ziet u hoe u
 
@@ -194,7 +194,7 @@ Hieronder ziet u een voorbeeld waarin u de toewijzing op de juiste wijze kunt to
 
   Om dit te doen, moet je...
 
-   - Gebruik een tabel met verwerkingsstatus, `checkpoint_log` , om de huidige versus de laatste ingangstijd bij te houden. Zie [&#x200B; deze gids &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/incremental-load) voor meer informatie.
+   - Gebruik een tabel met verwerkingsstatus, `checkpoint_log` , om de huidige versus de laatste ingangstijd bij te houden. Zie [&#x200B; deze gids &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/key-concepts/incremental-load) voor meer informatie.
    - Schakel het neerzetten van systeemkolommen uit, zodat u `_acp_system_metadata.ingestTime` kunt gebruiken.
    - Gebruik een binnenste `SELECT` om de velden te grijpen die u wilt gebruiken en de gebeurtenissen te beperken tot de terugzoekperiode voor sessionisatie- en/of attributieberekeningen. Bijvoorbeeld 90 dagen.
    - Gebruik een niveau op het volgende niveau `SELECT` om u sessionisatie- en/of attributievensters en andere berekeningen toe te passen.
@@ -344,28 +344,28 @@ U plant de vraag om ervoor te zorgen dat de vraag wordt uitgevoerd en dat de res
 
 #### Query-editor gebruiken
 
-U kunt een vraag plannen gebruikend de Redacteur van de Vraag. Wanneer het plannen van de vraag, bepaalt u een outputdataset. Zie [&#x200B; de programma&#39;s van de Vraag &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/query-schedules) voor meer informatie.
+U kunt een vraag plannen gebruikend de Redacteur van de Vraag. Wanneer het plannen van de vraag, bepaalt u een outputdataset. Zie [&#x200B; de programma&#39;s van de Vraag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/ui/query-schedules) voor meer informatie.
 
 
 #### API voor Query Service gebruiken
 
-Alternatief kunt u RESTful APIs gebruiken om een vraag en een programma voor de vraag te bepalen. Zie de [&#x200B; gids van de Dienst API van de Vraag &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/api/getting-started) voor meer informatie.
+Alternatief kunt u RESTful APIs gebruiken om een vraag en een programma voor de vraag te bepalen. Zie de [&#x200B; gids van de Dienst API van de Vraag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/api/getting-started) voor meer informatie.
 Verzeker u de outputdataset als deel van het facultatieve `ctasParameters` bezit wanneer het creëren van de vraag ([&#x200B; creeer een vraag &#x200B;](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Queries/operation/createQuery)) of wanneer het creëren van het programma voor een vraag ([&#x200B; creeer een geplande vraag &#x200B;](https://developer.adobe.com/experience-platform-apis/references/query-service/#tag/Schedules/operation/createSchedule)).
 
 
 
 ## Gegevensbestanden exporteren
 
-Zodra u hebt gecreeerd en uw vraag gepland, en de resultaten geverifieerd, kunt u de ruwe datasets aan de bestemmingen van de wolkenopslag dan uitvoeren. Deze uitvoer is in de terminologie van de Doelen van Experience Platform die als de uitvoerbestemmingen van de Dataset wordt bedoeld. Zie [&#x200B; datasets van de Uitvoer aan de bestemmingen van de wolkenopslag &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets) voor een overzicht.
+Zodra u hebt gecreeerd en uw vraag gepland, en de resultaten geverifieerd, kunt u de ruwe datasets aan de bestemmingen van de wolkenopslag dan uitvoeren. Deze uitvoer is in de terminologie van de Doelen van Experience Platform die als de uitvoerbestemmingen van de Dataset wordt bedoeld. Zie [&#x200B; datasets van de Uitvoer aan de bestemmingen van de wolkenopslag &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/export-datasets) voor een overzicht.
 
 De volgende bestemmingen voor cloudopslag worden ondersteund:
 
-- [&#x200B; Azure Data Lake Storage Gen2 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2)
-- [&#x200B; Gegevens die Zone &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone) aanvoeren
-- [&#x200B; Google Cloud Storage &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage)
-- [&#x200B; Amazon S3 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3)
-- [&#x200B; Azure Blob &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob)
-- [&#x200B; SFTP &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/sftp)
+- [&#x200B; Azure Data Lake Storage Gen2 &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2)
+- [&#x200B; Gegevens die Zone &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone) aanvoeren
+- [&#x200B; Google Cloud Storage &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage)
+- [&#x200B; Amazon S3 &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3)
+- [&#x200B; Azure Blob &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob)
+- [&#x200B; SFTP &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/cloud-storage/sftp)
 
 
 ### EXPERIENCE PLATFORM UI
@@ -374,7 +374,7 @@ U kunt de uitvoer van uw outputdatasets door Experience Platform UI uitvoeren en
 
 #### Doel selecteren
 
-Wanneer u hebt bepaald welke bestemming van de wolkenopslag u de outputdataset aan wilt uitvoeren, [&#x200B; selecteer de bestemming &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets#select-destination). Wanneer u nog geen bestemming voor uw aangewezen wolkenopslag hebt gevormd, moet u [&#x200B; een nieuwe bestemmingsverbinding &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination) tot stand brengen.
+Wanneer u hebt bepaald welke bestemming van de wolkenopslag u de outputdataset aan wilt uitvoeren, [&#x200B; selecteer de bestemming &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/export-datasets#select-destination). Wanneer u nog geen bestemming voor uw aangewezen wolkenopslag hebt gevormd, moet u [&#x200B; een nieuwe bestemmingsverbinding &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/connect-destination) tot stand brengen.
 
 Als deel van het vormen van een bestemming, kunt u
 
@@ -385,54 +385,54 @@ Als deel van het vormen van een bestemming, kunt u
 
 #### Gegevensset selecteren
 
-Wanneer u het doel hebt geselecteerd, moet u in de volgende **[!UICONTROL Select datasets]** stap uw outputdataset van de lijst van datasets selecteren. Als u veelvoudige geplande vragen hebt tot stand gebracht, en u de outputdatasets naar de zelfde bestemming van de wolkenopslag wilt verzenden, kunt u de overeenkomstige outputdatasets selecteren. Zie [&#x200B; selecteren uw datasets &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets#select-datasets) voor meer informatie.
+Wanneer u het doel hebt geselecteerd, moet u in de volgende **[!UICONTROL Select datasets]** stap uw outputdataset van de lijst van datasets selecteren. Als u veelvoudige geplande vragen hebt tot stand gebracht, en u de outputdatasets naar de zelfde bestemming van de wolkenopslag wilt verzenden, kunt u de overeenkomstige outputdatasets selecteren. Zie [&#x200B; selecteren uw datasets &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/export-datasets#select-datasets) voor meer informatie.
 
 #### Gegevensexport voor schema
 
-Tot slot wilt u de uitvoer van uw dataset plannen als deel van de **[!UICONTROL Scheduling]** stap. In die stap kunt u het programma bepalen en of de uitvoer van de outputdataset incrementeel of niet zou moeten zijn. Zie [&#x200B; de datasetuitvoer van het Programma &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets#scheduling) voor meer informatie.
+Tot slot wilt u de uitvoer van uw dataset plannen als deel van de **[!UICONTROL Scheduling]** stap. In die stap kunt u het programma bepalen en of de uitvoer van de outputdataset incrementeel of niet zou moeten zijn. Zie [&#x200B; de datasetuitvoer van het Programma &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/export-datasets#scheduling) voor meer informatie.
 
 
 #### Slotstappen
 
-[&#x200B; Overzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets#review) uw selectie, en wanneer correct, begin uw outputdataset aan de bestemming van de wolkenopslag te exporteren.
+[&#x200B; Overzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/export-datasets#review) uw selectie, en wanneer correct, begin uw outputdataset aan de bestemming van de wolkenopslag te exporteren.
 
-U moet [&#x200B; verifiëren &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets#verify) een succesvolle gegevensuitvoer. Bij het exporteren van gegevenssets maakt Experience Platform een of meer `.json` - of `.parquet` -bestanden op de opslaglocatie die in uw bestemming is gedefinieerd. Nieuwe bestanden worden naar verwachting op uw opslaglocatie gedeponeerd volgens het exportschema dat u instelt. Experience Platform maakt een mapstructuur op de opslaglocatie die u hebt opgegeven als onderdeel van de geselecteerde bestemming, waar de geëxporteerde bestanden worden opgeslagen. Voor elke exporttijd wordt een nieuwe map gemaakt, volgens het patroon: `folder-name-you-provided/datasetID/exportTime=YYYYMMDDHHMM` . De standaardbestandsnaam wordt willekeurig gegenereerd en zorgt ervoor dat geëxporteerde bestandsnamen uniek zijn.
+U moet [&#x200B; verifiëren &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/export-datasets#verify) een succesvolle gegevensuitvoer. Bij het exporteren van gegevenssets maakt Experience Platform een of meer `.json` - of `.parquet` -bestanden op de opslaglocatie die in uw bestemming is gedefinieerd. Nieuwe bestanden worden naar verwachting op uw opslaglocatie gedeponeerd volgens het exportschema dat u instelt. Experience Platform maakt een mapstructuur op de opslaglocatie die u hebt opgegeven als onderdeel van de geselecteerde bestemming, waar de geëxporteerde bestanden worden opgeslagen. Voor elke exporttijd wordt een nieuwe map gemaakt, volgens het patroon: `folder-name-you-provided/datasetID/exportTime=YYYYMMDDHHMM` . De standaardbestandsnaam wordt willekeurig gegenereerd en zorgt ervoor dat geëxporteerde bestandsnamen uniek zijn.
 
 ### Flow Service-API
 
-Alternatief, kunt u de uitvoer van outputdatasets uitvoeren en plannen gebruikend APIs. De betrokken stappen worden gedocumenteerd in [&#x200B; datasets van de Uitvoer door de Dienst API van de Stroom te gebruiken &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets).
+Alternatief, kunt u de uitvoer van outputdatasets uitvoeren en plannen gebruikend APIs. De betrokken stappen worden gedocumenteerd in [&#x200B; datasets van de Uitvoer door de Dienst API van de Stroom te gebruiken &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/api/export-datasets).
 
 #### Aan de slag
 
-Om datasets uit te voeren, verzeker u de [&#x200B; vereiste toestemmingen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#permissions) hebt. Verifieer ook dat de bestemming waarnaar u uw outputdataset wilt verzenden het uitvoeren van datasets steunt. U moet dan [&#x200B; de waarden voor vereiste en facultatieve kopballen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#gather-values-headers) verzamelen die u in de API vraag gebruikt. U moet ook [&#x200B; de verbindingsspecificatie en stroom specifieke IDs van de bestemming &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#gather-connection-spec-flow-spec) identificeren u van plan bent datasets naar uit te voeren.
+Om datasets uit te voeren, verzeker u de [&#x200B; vereiste toestemmingen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/api/export-datasets#permissions) hebt. Verifieer ook dat de bestemming waarnaar u uw outputdataset wilt verzenden het uitvoeren van datasets steunt. U moet dan [&#x200B; de waarden voor vereiste en facultatieve kopballen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/api/export-datasets#gather-values-headers) verzamelen die u in de API vraag gebruikt. U moet ook [&#x200B; de verbindingsspecificatie en stroom specifieke IDs van de bestemming &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/api/export-datasets#gather-connection-spec-flow-spec) identificeren u van plan bent datasets naar uit te voeren.
 
 #### In aanmerking komende gegevenssets ophalen
 
-U kunt [&#x200B; een lijst van in aanmerking komende datasets &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#retrieve-list-of-available-datasets) voor de uitvoer terugwinnen en verifiëren of uw outputdataset deel van die lijst gebruikend [`GET /connectionSpecs/{id}/configs` &#x200B;](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Configurations/operation/getDatasets) API uitmaakt.
+U kunt [&#x200B; een lijst van in aanmerking komende datasets &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/api/export-datasets#retrieve-list-of-available-datasets) voor de uitvoer terugwinnen en verifiëren of uw outputdataset deel van die lijst gebruikend [`GET /connectionSpecs/{id}/configs` &#x200B;](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Configurations/operation/getDatasets) API uitmaakt.
 
 
 #### Bronverbinding maken
 
-Daarna moet u [&#x200B; een bronverbinding &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#create-source-connection) voor de outputdataset tot stand brengen, gebruikend zijn unieke identiteitskaart, die u naar de bestemming van de wolkenopslag wilt uitvoeren. U gebruikt [`POST /sourceConnections` &#x200B;](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Source-connections/operation/postSourceConnection) API.
+Daarna moet u [&#x200B; een bronverbinding &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/api/export-datasets#create-source-connection) voor de outputdataset tot stand brengen, gebruikend zijn unieke identiteitskaart, die u naar de bestemming van de wolkenopslag wilt uitvoeren. U gebruikt [`POST /sourceConnections` &#x200B;](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Source-connections/operation/postSourceConnection) API.
 
 #### Verifiëren voor bestemming (basisverbinding maken)
 
-U moet nu [&#x200B; een basisverbinding &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#create-base-connection) tot stand brengen om de geloofsbrieven aan uw bestemming van de wolkenopslag voor authentiek te verklaren en veilig op te slaan gebruikend [`POST /targetConection` &#x200B;](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/postTargetConnection) API.
+U moet nu [&#x200B; een basisverbinding &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/api/export-datasets#create-base-connection) tot stand brengen om de geloofsbrieven aan uw bestemming van de wolkenopslag voor authentiek te verklaren en veilig op te slaan gebruikend [`POST /targetConection` &#x200B;](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/postTargetConnection) API.
 
 
 #### Exportparameters opgeven
 
-Daarna, moet u [&#x200B; een extra doelverbinding tot stand brengen die de uitvoerparameters &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#create-target-connection) voor uw outputdataset opslaat gebruikend, eens meer, [`POST /targetConection` &#x200B;](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/postTargetConnection) API. Deze exportparameters zijn onder andere locatie, bestandsindeling, compressie en meer.
+Daarna, moet u [&#x200B; een extra doelverbinding tot stand brengen die de uitvoerparameters &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/api/export-datasets#create-target-connection) voor uw outputdataset opslaat gebruikend, eens meer, [`POST /targetConection` &#x200B;](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/postTargetConnection) API. Deze exportparameters zijn onder andere locatie, bestandsindeling, compressie en meer.
 
 #### Gegevensstroom instellen
 
-Tot slot [&#x200B; opstelling dataflow &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#create-dataflow) om ervoor te zorgen dat uw outputdataset wordt uitgevoerd naar uw bestemming van de wolkenopslag gebruikend [`POST /flows` &#x200B;](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Dataflows/operation/postFlow) API. In deze stap, kunt u het programma voor de uitvoer bepalen, gebruikend de `scheduleParams` parameter.
+Tot slot [&#x200B; opstelling dataflow &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/api/export-datasets#create-dataflow) om ervoor te zorgen dat uw outputdataset wordt uitgevoerd naar uw bestemming van de wolkenopslag gebruikend [`POST /flows` &#x200B;](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Dataflows/operation/postFlow) API. In deze stap, kunt u het programma voor de uitvoer bepalen, gebruikend de `scheduleParams` parameter.
 
 #### Gegevensstroom valideren
 
-Om [&#x200B; succesvolle uitvoeringen van uw dataflow &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/export-datasets#get-dataflow-runs) te controleren, gebruik [`GET /runs` &#x200B;](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Dataflow-runs/operation/getFlowRuns) API, die dataflow identiteitskaart als vraagparameter specificeren. Deze gegevensstroom-id is een id die wordt geretourneerd wanneer u de gegevensstroom instelt.
+Om [&#x200B; succesvolle uitvoeringen van uw dataflow &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/api/export-datasets#get-dataflow-runs) te controleren, gebruik [`GET /runs` &#x200B;](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Dataflow-runs/operation/getFlowRuns) API, die dataflow identiteitskaart als vraagparameter specificeren. Deze gegevensstroom-id is een id die wordt geretourneerd wanneer u de gegevensstroom instelt.
 
-[&#x200B; verifieer &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets#verify) een succesvolle gegevensuitvoer. Bij het exporteren van gegevenssets maakt Experience Platform een of meer `.json` - of `.parquet` -bestanden op de opslaglocatie die in uw bestemming is gedefinieerd. Nieuwe bestanden worden naar verwachting op uw opslaglocatie gedeponeerd volgens het exportschema dat u instelt. Experience Platform maakt een mapstructuur op de opslaglocatie die u hebt opgegeven als onderdeel van de geselecteerde bestemming, waar de geëxporteerde bestanden worden opgeslagen. Voor elke exporttijd wordt een nieuwe map gemaakt, volgens het patroon: `folder-name-you-provided/datasetID/exportTime=YYYYMMDDHHMM` . De standaardbestandsnaam wordt willekeurig gegenereerd en zorgt ervoor dat geëxporteerde bestandsnamen uniek zijn.
+[&#x200B; verifieer &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/export-datasets#verify) een succesvolle gegevensuitvoer. Bij het exporteren van gegevenssets maakt Experience Platform een of meer `.json` - of `.parquet` -bestanden op de opslaglocatie die in uw bestemming is gedefinieerd. Nieuwe bestanden worden naar verwachting op uw opslaglocatie gedeponeerd volgens het exportschema dat u instelt. Experience Platform maakt een mapstructuur op de opslaglocatie die u hebt opgegeven als onderdeel van de geselecteerde bestemming, waar de geëxporteerde bestanden worden opgeslagen. Voor elke exporttijd wordt een nieuwe map gemaakt, volgens het patroon: `folder-name-you-provided/datasetID/exportTime=YYYYMMDDHHMM` . De standaardbestandsnaam wordt willekeurig gegenereerd en zorgt ervoor dat geëxporteerde bestandsnamen uniek zijn.
 
 ## Conclusie
 
