@@ -41,7 +41,7 @@ Voordat u stitching gebruikt, moet u ervoor zorgen dat uw organisatie is voorber
 - Importeer de gewenste gegevens naar Adobe Experience Platform:
 
    - Voor de gegevens van Adobe Analytics, zie [&#x200B; Gebruikend de gegevens van de het rapportreeks van Adobe Analytics in Customer Journey Analytics &#x200B;](/help/getting-started/aa-vs-cja/aa-data-in-cja.md).
-   - Voor andere soorten gegevens, zie [&#x200B; een schema &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui) en [&#x200B; Samenvatting gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home) in de documentatie van Adobe Experience Platform creëren.
+   - Voor andere soorten gegevens, zie [&#x200B; een schema &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/tutorials/create-schema-ui) en [&#x200B; Samenvatting gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ingestion/home) in de documentatie van Adobe Experience Platform creëren.
 
 U profiteert van kanaalanalyse als u een of meer van uw gestikte datasets met andere datasets, zoals de gegevens van het vraagcentrum, als deel van het bepalen van uw verbinding van Customer Journey Analytics combineert. Deze verbindingsconfiguratie veronderstelt dat die andere datasets reeds een persoonsidentiteitskaart van zelfde namespace op zoveel mogelijk rijen bevatten.
 
@@ -64,7 +64,7 @@ Zorg ervoor dat u het stikken niet verwart met:
 
 ## Opties
 
-Het Customer Journey Analytics-pakket waarop u recht hebt, bepaalt de beschikbare tekenreeksmethoden, opties voor de initiële duur van de backfill, het terugzoekvenster, de herhalingsfrequentie en het maximale aantal gegevenssets dat is toegestaan voor stitching. Zie de [&#x200B; het productbeschrijving van Customer Journey Analytics &#x200B;](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html) voor meer details. Bepaal de beschikbare opties voordat u stitching inschakelt.
+Het Customer Journey Analytics-pakket waarop u recht hebt, bepaalt de beschikbare tekenreeksmethoden, opties voor de initiële duur van de backfill, het terugzoekvenster, de herhalingsfrequentie en het maximale aantal gegevenssets dat is toegestaan voor stitching. Zie de [&#x200B; het productbeschrijving van Customer Journey Analytics &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/customer-journey-analytics.html) voor meer details. Bepaal de beschikbare opties voordat u stitching inschakelt.
 
 | | Customer Journey Analytics <br/> Uitgezocht | Customer Journey Analytics <br/> Prime | Customer Journey Analytics <br/> Ultimate |
 |---|---|---|---|
