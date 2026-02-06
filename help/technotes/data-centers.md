@@ -4,7 +4,7 @@ description: Meer informatie over CJA-datacenterlocaties over de hele wereld.
 solution: Customer Journey Analytics
 role: Admin
 exl-id: a41686bb-1a7b-4d27-8415-f4a1880b7de5
-source-git-commit: 3fd31ea85dc80a2d3070c8136a8a1984fe14c074
+source-git-commit: 20ead546897ad517840f95a5ec4dcd7f830afe8c
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Adobe Customer Journey Analytics wordt gehost in datacenters van bedrijfsniveau 
 
 Bij provisioning wijzen klanten het gebied aan waarin hun Adobe Experience Platform-gegevens zich bevinden. De gegevens die vanuit het Adobe Experience Platform data Lake in Customer Journey Analytics worden ingevoerd, worden in dezelfde regio opgeslagen.
 
-Zie [&#x200B; Regionale gegevensinzameling &#x200B;](https://experienceleague.adobe.com/nl/docs/core-services/interface/data-collection/rdc) in de documentatie van Adobe Experience Cloud voor meer informatie.
+Zie [ Regionale gegevensinzameling ](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/rdc) in de documentatie van Adobe Experience Cloud voor meer informatie.
 
 
 ## Het datacenter weergeven waar uw gegevens zijn opgeslagen
@@ -28,13 +28,13 @@ Zie [&#x200B; Regionale gegevensinzameling &#x200B;](https://experienceleague.ad
 
 Om te bekijken in welk datacenter uw gegevens zijn opgeslagen:
 
-1. Login aan [&#x200B; Adobe Experience Cloud &#x200B;](https://experience.adobe.com).
+1. Login aan [ Adobe Experience Cloud ](https://experience.adobe.com).
 
-1. Selecteer **[!UICONTROL Experience Platform]** van app schakelaar ![&#x200B; App &#x200B;](/help/assets/icons/Apps.svg) bij het hoogste recht van de interface.
+1. Selecteer **[!UICONTROL Experience Platform]** van app schakelaar ![ App ](/help/assets/icons/Apps.svg) bij het hoogste recht van de interface.
 
 1. De gebiedscode voor uw toegewezen gegevenscentrum wordt getoond in het hoger-juiste gedeelte van Experience Platform.
 
-   ![&#x200B; Centrum van Gegevens op Experience Platform homepage &#x200B;](assets/experience-platform-data-center.png)
+   ![ Centrum van Gegevens op Experience Platform homepage ](assets/experience-platform-data-center.png)
 
 1. Gebruik de volgende tabel om te begrijpen met welk geografisch gebied uw regiocode is geassocieerd:
 
