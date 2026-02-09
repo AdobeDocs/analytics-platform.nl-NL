@@ -5,9 +5,9 @@ role: User, Admin
 solution: Customer Journey Analytics
 feature: AI Tools
 exl-id: 262d5f15-16cb-4851-a769-7dbd205b2f81
-source-git-commit: 518f2aeac309a34016146b7a4da7823b6fd84cac
+source-git-commit: cb5baf2ec8d3ad4449a9b08d0a025a2d39a11425
 workflow-type: tm+mt
-source-wordcount: '2416'
+source-wordcount: '2389'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,17 @@ ht-degree: 0%
 >
 >Data Insights Agent is gedurende een beperkte periode beschikbaar voor in aanmerking komende klanten. Toegang tot Data Insights Agent is beschikbaar tot 28 februari 2026. Als u Data Insights Agent na deze datum zonder onderbreking wilt blijven gebruiken, neemt u contact op met uw Adobe-accountvertegenwoordiger voor meer informatie over licenties voor Adobe Experience Platform Agent Orchestrator.
 
-Data Insights Agent, toegankelijk van de [&#x200B; Medewerker AI &#x200B;](/help/ai-assistant.md) in Customer Journey Analytics, is een generatieve AI gespreksagent die snel en efficiënt vragen over uw gegevens beantwoordt. In Analysis Workspace worden relevante visualisaties gemaakt aan de hand van componenten uit uw gegevensweergave en met behulp van uw werkelijke gegevens.
+Data Insights Agent, toegankelijk van de [ Medewerker AI ](/help/ai-assistant.md) in Customer Journey Analytics, is een generatieve AI gespreksagent die snel en efficiënt vragen over uw gegevens beantwoordt. In Analysis Workspace worden relevante visualisaties gemaakt aan de hand van componenten uit uw gegevensweergave en met behulp van uw werkelijke gegevens.
 
 Als u Data Insights Agent gebruikt om gegevenscentrische vragen in Analysis Workspace te beantwoorden, bespaart u ontelbare uren die u anders handmatig zou kunnen besteden aan het maken van visualisaties in Analysis Workspace en het vertrouwd maken met de componenten van de gegevensweergave.
 
-![&#x200B; Data Insights Agent binnen de Medewerker AI &#x200B;](assets/cja-ai-asst-da.gif)
+![ Data Insights Agent binnen de Medewerker AI ](assets/cja-ai-asst-da.gif)
 
 ## Functies binnen bereik versus buiten bereik
 
 | Functie | Binnen bereik | Buiten bereik |
 | --- | --- | --- |
-| **Visualisatietypen** | <ul><li>Lijn</li><li>Meerdere regels</li><li>Vrije-vormtabel</li><li>Balk</li><li>Donut</li><li>Samenvattingsnummer</li></ul> | <ul><li>Stroom</li><li>Fallout</li><li>Cohortabel</li><li>Gebied, gebied gestapeld</li><li>Stapel gestapeld</li><li>Opsommingsteken</li><li>Combo</li><li>Histogram</li><li>Horizontale balk, horizontale balk gestapeld</li><li>Hoofdmetrische samenvatting</li><li>Spreiding</li><li>Samenvattingswijziging</li><li>Tekst</li><li>Treemap</li><li>Venn</li><li>Analyse met instructies: Actieve groei, Conversietrends, Betrokkenheid, impact voor eerste gebruik, Frequentie, Trechter, Net groei, impact release, Behoud, Tijdlijn, Trends</li></ul> |
+| **Visualisatietypen** | <ul><li>Lijn</li><li>Meerdere regels</li><li>Vrije-vormtabel</li><li>Balk</li><li>Donut</li><li>Samenvattingsnummer</li></ul> | <ul><li>Stroom</li><li>Fallout</li><li>Cohortabel</li><li>Gebied, gebied gestapeld</li><li>Stapel gestapeld</li><li>Opsommingsteken</li><li>Combo</li><li>Histogram</li><li>Horizontale balk, horizontale balk gestapeld</li><li>Hoofdmetrische samenvatting</li><li>Spreiding</li><li>Samenvattingswijziging</li><li>Tekst</li><li>Treemap</li><li>Venn</li><li>Analyse met instructies: Actieve groei, Conversietrends, Betrokkenheid, impact voor eerste gebruik, Frequentie, Funnel, Net groei, impact release, Behoud, Tijdlijn, Trends</li></ul> |
 | **de acties van Workspace en agentenmogelijkheden** | <ul><li>Visualisaties maken en bijwerken<p>Hiermee genereert u een vrije-vormtabel en de bijbehorende visualisatie (zoals een lijn, balk, donut, enzovoort).<p>Bijvoorbeeld, *wat is de winst over SKUs van Februari aan Mei?*</p></li><li>Vervolgvragen stellen<p>Reageer op een vraag in de context van om het even welke vroegere herinneringen. Bijvoorbeeld:</p> <ul><li>Vraag 1: *de gebeurtenissen van de Trend van Maart.*</li><li>Vraag 2: *toon me de gegevens van Maart aan April in plaats daarvan*</li></ul> </li><li>Snelle detectie buiten bereik<p>Als u een herinnering voorlegt die buiten werkingsgebied, zoals *is dit project* uitvoeren, antwoordt Data Insights Agent door u te informeren dat de vraag buiten werkingsgebied is.</p></li></ul> | <ul><li>Delen</li><li>Exporteren</li><li>Downloaden</li><li>Gebruikersvoorkeuren beheren</li><li>Gegevensweergave beheren</li><li>Analytische dashboards-app</li><li>Attributie</li><li>Samenvatting of reactie online<p>Data Insights Agent kan niet online in de chatrail reageren met een beknopt antwoord van een gebruikersprompt. De voorbeelden van uit-van-werkingsgebied herinneringen zijn, *geven me een samenvatting van de inzichten van mijn laatste herinnering* en *vatten de hoogtepunten van de lijnvisualisatie samen.*</p></li></ul> |
 | **het Verhelderen van vragen** | Als u een vraag stelt die niet genoeg context heeft om Data Insights Agent te beantwoorden, of te algemeen is, beantwoordt Data Insights Agent met een verduidelijkende vraag of voorgestelde opties. <p>De volgende verduidelijkende vragen zijn voorbeelden van aan onderdelen gerelateerde vragen:</p><ul><li>Metrisch: *welke metrische &quot;opbrengst&quot;metrisch u bedoelde?*</li><li>Dimension: *welke van de hieronder &quot;gebieden&quot;wilt u zich op concentreren?*</li><li>Segment: *welk &quot;segment van de Rekening&quot;wilde u toepassen?*</li><li>De Waaier van de datum: *door &quot;vorige maand,&quot;bedoelde u de laatste volledige maand of de laatste 30 dagen?*</li></ul><p>De volgende verduidelijking is een voorbeeld van een vraag die verband houdt met dimensie-elementen:</p> <ul><li>Welke &quot;winkelnaam&quot; bedoelde je? (Bijvoorbeeld Winkel #5274, Winkel #2949, enzovoort.)</li></ul> | Het verduidelijken van vragen is beperkt tot componenten en afmetingspunten. Data Insights Agent kan dingen als gegevensweergaven, visualisaties, granulariteit van gegevens, vergelijking en bereik niet verduidelijken. Wanneer het verduidelijken van vragen niet kan worden gebruikt, blijft de agent aan wat u het meest waarschijnlijk vraagt. Als het een onverwachte visualisatie of gegevensgranulariteit terugkeert, kunt u een vervolgvraag stellen of de visualisatie en de gegevens aanpassen. |
 | **verifieerbaarheid en correctheid van Gegevens** | De verifieerbaarheid en de correctheid van gegevens kunnen worden bevestigd door de geproduceerde vrije vormlijst en gegevensvisualisatie te bekijken. <p>Bijvoorbeeld, als u Data Insights Agent vraagt om *de orden van de Trend vorige maand*, kunt u bevestigen dat correcte metrische (&quot;orden&quot;) en datumwaaier (&quot;vorige maand&quot;) in het onlangs geproduceerde paneel, gegevensvisualisatie, en vrije vormlijst werden geselecteerd. | Data Insights Agent reageert niet door u te laten weten welke onderdelen of visualisaties zijn toegevoegd.</p> |
@@ -54,25 +54,25 @@ De volgende parameters regelen de toegang tot Data Insights Agent in Customer Jo
 
 * **Toestemmingen**: De noodzakelijke toestemmingen moeten in [!UICONTROL Adobe Admin Console] worden verleend alvorens de gebruikers tot Data Insights Agent kunnen toegang hebben.
 
-  Om toestemmingen te verlenen, moet a [&#x200B; admin van het productprofiel &#x200B;](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) de volgende stappen in [!UICONTROL Admin Console] voltooien:
+  Om toestemmingen te verlenen, moet a [ admin van het productprofiel ](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) de volgende stappen in [!UICONTROL Admin Console] voltooien:
    1. Selecteer in **[!UICONTROL Admin Console]** de tab **[!UICONTROL Products]** om de pagina **[!UICONTROL All products and services]** weer te geven.
    1. Selecteer **[!UICONTROL Customer Journey Analytics]**.
    1. Selecteer op het tabblad **[!UICONTROL Product Profiles]** de titel van het productprofiel waartoe u toegang wilt verlenen aan [!UICONTROL AI Assistant: Product Knowledge] .
    1. Selecteer in het specifieke productprofiel de tab **[!UICONTROL Permissions]** .
 
-      ![&#x200B; het lusje van Toestemmingen in Admin Console &#x200B;](assets/ai-assistant-permissions-tab.png)
+      ![ het lusje van Toestemmingen in Admin Console ](assets/ai-assistant-permissions-tab.png)
 
-   1. In de **[!UICONTROL Reporting Tools]** rij in de verstrekte lijst, uitgezocht geef pictogram uit ![&#x200B; &#x200B;](/help/assets/icons/Edit.svg) uitgeeft.
-   1. De rol aan of onderzoek naar **[!UICONTROL AI Assistant: Product Knowledge]**, dan selecteert het plus pictogram ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) naast deze toestemming.
-   1. De rol aan of onderzoek naar **[!UICONTROL Data Insights Agent]**, dan selecteert het plus pictogram ![&#x200B; AddCircle &#x200B;](/help/assets/icons/AddCircle.svg) naast deze toestemming.
+   1. In de **[!UICONTROL Reporting Tools]** rij in de verstrekte lijst, uitgezocht geef pictogram uit ![ ](/help/assets/icons/Edit.svg) uitgeeft.
+   1. De rol aan of onderzoek naar **[!UICONTROL AI Assistant: Product Knowledge]**, dan selecteert het plus pictogram ![ AddCircle ](/help/assets/icons/AddCircle.svg) naast deze toestemming.
+   1. De rol aan of onderzoek naar **[!UICONTROL Data Insights Agent]**, dan selecteert het plus pictogram ![ AddCircle ](/help/assets/icons/AddCircle.svg) naast deze toestemming.
 
       De machtiging **[!UICONTROL AI Assistant: Product Knowledge]** en **[!UICONTROL Data Insights Agent]** worden toegevoegd aan de kolom **[!UICONTROL Included permission items]** .
 
-      ![&#x200B; voeg toestemming &#x200B;](assets/ai-assistant-permissions.png) toe.
+      ![ voeg toestemming ](assets/ai-assistant-permissions.png) toe.
 
    1. Selecteer **[!UICONTROL Save]** om de machtigingen op te slaan.
 
-  Voor extra informatie over toegangsbeheer, zie [&#x200B; controle van de Toegang &#x200B;](/help/technotes/access-control.md#access-control).
+  Voor extra informatie over toegangsbeheer, zie [ controle van de Toegang ](/help/technotes/access-control.md#access-control).
 
 * **de toegang van de mening van Gegevens**: De meningen van gegevens moeten voor Data Insights Agent worden toegelaten.
 
@@ -82,31 +82,20 @@ De volgende parameters regelen de toegang tot Data Insights Agent in Customer Jo
   >* U kunt maximaal 50 gegevensweergaven inschakelen per IMS-organisatie. Als u meer dan 50 gegevensweergaven inschakelt voor alle productprofielen voor een bepaalde organisatie, gebruikt de Data Insights Agent de 50 meest gebruikte gegevensweergaven.
   >* De Data Insights Agent kan verwijzen naar de opgenomen gegevensweergaven op een tijdstip op dezelfde dag dat u ze inschakelt.
 
-  Gegevens weergeven voor Data Insights Agent:
+  Om gegevensmeningen voor Data Insights Agent toe te laten, zie de [ AI Montages voor een gegevensmening ](/help/data-views/create-dataview.md#ai-settings).
 
-   1. Selecteer in Customer Journey Analytics **[!UICONTROL Data Management]** > **[!UICONTROL Data views]** .
+  U kunt [ info over de kolom van Data Insights Agent in de meningen van Gegevens ](/help/data-views/manage-dataviews.md#manage-data-views) gebruiken om het aantal gegevensmeningen te bekijken die voor Data Insights Agent in uw organisatie IMS worden toegelaten.
 
-   1. Selecteer een of meer gegevensweergaven die u voor Data Insights Agent wilt inschakelen en selecteer vervolgens **[!UICONTROL Enable for Data Insights Agent]** .
-
-      ![&#x200B; laat gegevensmeningen voor Data Insights Agent &#x200B;](assets/data-view-enable-dia.png) toe
-
-  U kunt als volgt het aantal gegevensweergaven weergeven dat voor Data Insights Agent is ingeschakeld in uw IMS-organisatie:
-
-   1. Selecteer in Customer Journey Analytics **[!UICONTROL Data Management]** > **[!UICONTROL Data views]** .
-
-   1. Selecteer het infopictogram boven aan de kolom **[!UICONTROL Data Insights Agent]** .
-
-      ![&#x200B; Data Insights Agent- infopictogram &#x200B;](assets/data-insights-agent-tooltip.png)
 
 ## Data Insights Agent openen in de AI-assistent
 
-1. Ga naar [&#x200B; experience.adobe.com &#x200B;](https://experience.adobe.com/) en login met uw Adobe ID.
+1. Ga naar [ experience.adobe.com ](https://experience.adobe.com/) en login met uw Adobe ID.
 
 2. Selecteer **Customer Journey Analytics** van het Huis van Experience Cloud.
 
 3. Selecteer **[!UICONTROL Blank project]** in de banner bij de bovenkant van de projectpagina om een nieuw leeg project te openen.
 
-4. Zorg ervoor dat de geselecteerde gegevensmening voor het paneel een gegevensmening is die voor gebruik met Data Insights Agent werd toegelaten, zoals die in [&#x200B; wordt beschreven beheert toegang tot Data Insights Agent in Customer Journey Analytics &#x200B;](#manage-access-to-data-insights-agent-in-customer-journey-analytics).
+4. Zorg ervoor dat de geselecteerde gegevensmening voor het paneel een gegevensmening is die voor gebruik met Data Insights Agent werd toegelaten, zoals die in [ wordt beschreven beheert toegang tot Data Insights Agent in Customer Journey Analytics ](#manage-access-to-data-insights-agent-in-customer-journey-analytics).
 
 5. Selecteer het AI Assistant-chatpictogram rechtsboven op de pagina.
 
@@ -116,9 +105,9 @@ De volgende parameters regelen de toegang tot Data Insights Agent in Customer Jo
 
    * Gereedschappen voor gegevensweergave: **[!UICONTROL Data Insights Agent]**
 
-   Voor extra details, zie [&#x200B; toegang tot Data Insights Agent in Customer Journey Analytics beheren &#x200B;](#manage-access-to-data-insights-agent-in-customer-journey-analytics).
+   Voor extra details, zie [ toegang tot Data Insights Agent in Customer Journey Analytics beheren ](#manage-access-to-data-insights-agent-in-customer-journey-analytics).
 
-   ![&#x200B; AI Hulp pictogram &#x200B;](/help/assets/ai-asst-icon.png)
+   ![ AI Hulp pictogram ](/help/assets/ai-asst-icon.png)
 
 6. Stel in het dialoogvenster **[!UICONTROL Ask about Customer Journey Analytics]** onder aan de pagina een vraag over gegevensvisualisatie met Data Insights Agent.
 
@@ -130,13 +119,13 @@ Stel bijvoorbeeld dat u geïnteresseerd bent in de orders die uw bedrijf in juli
 
 **Herinnering:** ga *&quot;De orden van de Trend in Juli in.&quot;*
 
-![&#x200B; AI herinnering &#x200B;](/help/assets/ai-asst-prompt1.png)
+![ AI herinnering ](/help/assets/ai-asst-prompt1.png)
 
 **Reactie:** Data Insights Agent verzamelt inzichten door de gegevens in de gegevensmening, met inbegrip van de metriek en de componenten te bekijken. Het vertaalt de herinnering in de juiste afmetingen en metriek binnen de gegevenswaaier.
 
 Zoals u kunt zien, produceerde het automatisch een lijngrafiek en een vrije lijst om orden voor Juli te tonen.
 
-![&#x200B; Antwoord aan herinnering - lijngrafiek en vrije vormlijst &#x200B;](/help/assets/ai-asst-result.png)
+![ Antwoord aan herinnering - lijngrafiek en vrije vormlijst ](/help/assets/ai-asst-result.png)
 
 ### Voorbeeld 2
 
@@ -146,7 +135,7 @@ Daarna, wilt u zien hoe uw opbrengst per regio vergelijkt.
 
 **Reactie:** Data Insights Agent begrijpt intelligent dat door &quot;gebied,&quot;u &quot;klantengebied&quot;bedoelt.&quot; Het produceert een staafdiagram dat opbrengst door gebied het best toont:
 
-![&#x200B; Grafiek van de Bar &#x200B;](/help/assets/ai-asst-result2.png)
+![ Grafiek van de Bar ](/help/assets/ai-asst-result2.png)
 
 ### Voorbeeld 3
 
@@ -156,7 +145,7 @@ Naast het begrip van de opbrengsten per regio, wilt u ook gegevens voor winst pe
 
 **Reactie:** De **[!UICONTROL Bar]** grafiek verstrekt nog het meest beknopte antwoord, maar de winst metrische is toegevoegd als kolom in de vrije vormlijst:
 
-![&#x200B; Grafiek van de Bar &#x200B;](/help/assets/ai-asst-result4.png)
+![ Grafiek van de Bar ](/help/assets/ai-asst-result4.png)
 
 ### Voorbeeld 4
 
@@ -174,7 +163,7 @@ Adobe Experience Platform Agent Orchestrator biedt u toegang tot de functionalit
 
 Agent Orchestrator interpreteert uw verzoek, bepaalt welke gespecialiseerde agenten nodig zijn, en organiseert hen om de juiste reactie te leveren. Het houdt van context over multi-draai interactie bij, zodat kunt u op vroegere vragen natuurlijk voortbouwen.
 
-Voor meer informatie, zie [&#x200B; Adobe Experience Platform Agent Orchestrator &#x200B;](http://www.adobe.com/go/agent-orchestrator-home).
+Voor meer informatie, zie [ Adobe Experience Platform Agent Orchestrator ](http://www.adobe.com/go/agent-orchestrator-home).
 
 ## Voorbeeld van vragen voor gegevensvisualisatie
 
@@ -263,8 +252,8 @@ Hieronder volgen de beste werkwijzen voor uw configuratie van Customer Journey A
 
 >[!MORELIKETHIS]
 >
->[&#x200B; montages van de Component &#x200B;](/help/data-views/component-settings/overview.md)
->[Gegevenswoordenboek &#x200B;](/help/components/data-dictionary/data-dictionary-overview.md)
->[Berekende metrische waarde goedkeuren &#x200B;](/help/components/calc-metrics/cm-workflow/cm-approving.md)
->[Segmenten delen &#x200B;](/help/components/segments/seg-share.md)
+>[ montages van de Component ](/help/data-views/component-settings/overview.md)
+>[Gegevenswoordenboek ](/help/components/data-dictionary/data-dictionary-overview.md)
+>[Berekende metrische waarde goedkeuren ](/help/components/calc-metrics/cm-workflow/cm-approving.md)
+>[Segmenten delen ](/help/components/segments/seg-share.md)
 >

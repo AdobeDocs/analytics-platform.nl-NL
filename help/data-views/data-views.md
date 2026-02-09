@@ -5,16 +5,16 @@ exl-id: f69e6e38-ac98-49a6-b0ce-f642af2932ae
 solution: Customer Journey Analytics
 feature: Data Views
 role: Admin
-source-git-commit: 220ebd7dbc3fa75d221690cd6e5828bd94395434
+source-git-commit: 7835d4c5b46177ece4a146df8f0d4abb9605c670
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1080'
 ht-degree: 0%
 
 ---
 
 # Overzicht van gegevensweergaven
 
-Een gegevensmening is een container specifiek voor Customer Journey Analytics die u laat bepalen hoe te om gegevens van a [&#x200B; verbinding &#x200B;](/help/connections/create-connection.md) te interpreteren. Hiermee worden alle afmetingen en metriek opgegeven die beschikbaar zijn in Analysis Workspace en de kolommen waarvan die dimensies en metriek hun gegevens verkrijgen. Gegevensweergaven worden gedefinieerd ter voorbereiding op rapportage in Analysis Workspace.
+Een gegevensmening is een container specifiek voor Customer Journey Analytics die u laat bepalen hoe te om gegevens van a [ verbinding ](/help/connections/create-connection.md) te interpreteren. Hiermee worden alle afmetingen en metriek opgegeven die beschikbaar zijn in Analysis Workspace en de kolommen waarvan die dimensies en metriek hun gegevens verkrijgen. Gegevensweergaven worden gedefinieerd ter voorbereiding op rapportage in Analysis Workspace.
 
 >[!NOTE]
 >
@@ -61,11 +61,13 @@ Met gegevensweergaven kunt u automatisch de instellingen van schema-elementen wi
 
 * U kunt de naam van uw containers wijzigen in een gegevensweergave en de namen van containers wijzigen in elk Workspace-project dat is gebaseerd op die gegevensweergave.
 
+* U kunt de Data Insights Agent voor een gegevensweergave in- of uitschakelen.
+
 ## Voorwaarden voor gegevensweergaven {#prerequisites}
 
-* Alvorens u gegevensmeningen kunt tot stand brengen, moet u opstelling één of meerdere verbindingen aan de datasets van Experience Platform [&#128279;](/help/connections/create-connection.md).
-* Om een gegevensmening tot stand te brengen of te beheren, hebt u a [&#x200B; reeks toestemmingen in Adobe Admin Console &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-overview) nodig.
-* Als u de [&#x200B; bronschakelaar van Adobe Analytics &#x200B;](/help/data-ingestion/analytics.md) gebruikt of Adobe Analytics achtergrondkennis hebt, zou u kunnen willen begrijpen hoe de gebieden in uw schema&#39;s en datasets op de tegenhangers van Adobe Analytics betrekking hebben. Zie [&#x200B; het gebiedsafbeeldingen van Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics) voor meer informatie.
+* Alvorens u gegevensmeningen kunt tot stand brengen, moet u opstelling één of meerdere verbindingen aan de datasets van Experience Platform [.](/help/connections/create-connection.md)
+* Om een gegevensmening tot stand te brengen of te beheren, hebt u a [ reeks toestemmingen in Adobe Admin Console ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) nodig.
+* Als u de [ bronschakelaar van Adobe Analytics ](/help/data-ingestion/analytics.md) gebruikt of Adobe Analytics achtergrondkennis hebt, zou u kunnen willen begrijpen hoe de gebieden in uw schema&#39;s en datasets op de tegenhangers van Adobe Analytics betrekking hebben. Zie [ het gebiedsafbeeldingen van Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics) voor meer informatie.
 
 ## Instellingen voor gegevensweergave die u kunt overschrijven in Workspace {#settings-override}
 
@@ -84,9 +86,10 @@ Sommige instellingen voor gegevensweergave kunnen worden overschreven in Analysi
 
 ## Gegevensweergaven verwijderen {#delete}
 
-Als u een gegevensweergave verwijdert in [!UICONTROL Customer Journey Analytics] , geeft een foutbericht aan dat [!UICONTROL Workspace] -projecten die afhankelijk zijn van deze verwijderde gegevensweergave, niet meer werken.
+Als u [ een gegevensmening ](/help/data-views/manage-dataviews.md#delete-data-views) in [!UICONTROL Customer Journey Analytics] schrapt, wijst een foutenmelding erop dat om het even welke [!UICONTROL Workspace] projecten die van deze geschrapte gegevensmening afhangen niet meer werken.
 
 ## Volgende stappen
 
 * [Gegevensweergaven maken](/help/data-views/create-dataview.md)
+* [Gegevensweergaven beheren](/help/data-views/manage-dataviews.md)
 * [Gebruiksscenario&#39;s voor gegevensweergaven](/help/use-cases/data-views/data-views-usecases.md)
