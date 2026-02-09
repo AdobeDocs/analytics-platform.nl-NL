@@ -93,7 +93,7 @@ Retourneert de grootste waarde in een set dimensieelementen voor een metrische k
 
 >[!TIP]
 >
->Gebruik een [&#x200B; IF &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) verklaring zoals **IF** (*Inkomsten* = **Maximum van de Kolom*** (Inkomsten*), 1, 0) om het top-presterende punt in uw uitsplitsing te benadrukken.
+>Gebruik een [&#x200B; IF &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) verklaring zoals **IF** (*Inkomsten* = **Maximum van de Kolom*** (Inkomsten*), 1, 0) om het top-presterende punt in uw uitsplitsing te benadrukken.
 >
 
 ## Minimaal kolom {#column-minimum}
@@ -123,7 +123,7 @@ Retourneert de laagste waarde in een set dimensieelementen voor een metrische ko
 
 >[!TIP]
 >
->Gebruik een [&#x200B; IF &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) verklaring zoals **IF** (*Inkomsten* = **Minimale Kolom*** (Inkomsten*), 1, 0) om het laagste-presterende punt in uw uitsplitsing te benadrukken.
+>Gebruik een [&#x200B; IF &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) verklaring zoals **IF** (*Inkomsten* = **Minimale Kolom*** (Inkomsten*), 1, 0) om het laagste-presterende punt in uw uitsplitsing te benadrukken.
 >
 
 
