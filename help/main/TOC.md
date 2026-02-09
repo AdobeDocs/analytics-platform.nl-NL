@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 6cd1b858b3bd7e1ac69a294dbc5fa9c0c2c135a9
+source-git-commit: 16486ded009a9dbd9170240c0941853a4deec0af
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1362'
 ht-degree: 11%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 11%
    + Vergelijken met Adobe Analytics {#cja-aa-comparison}
       + [Overzicht](../getting-started/aa-vs-cja/overview.md)
       + [Adobe Analytics-gegevens gebruiken](../getting-started/aa-vs-cja/aa-data-in-cja.md)
-      + [Adobe Analytics-gegevens toewijzen](../getting-started/aa-vs-cja/mapping-data-ims-orgs.md)
+      + [Gegevenstoewijzing tussen IMS](../getting-started/aa-vs-cja/mapping-data-ims-orgs.md)
       + [Functieondersteuning](../getting-started/aa-vs-cja/cja-aa.md)
       + [Terminologie vergelijken](../getting-started/aa-vs-cja/terminology.md)
       + [Gegevensverwerking vergelijken](../getting-started/aa-vs-cja/data-processing-comparisons.md)
@@ -170,7 +170,7 @@ ht-degree: 11%
       + [Editor](/help/data-views/shared-metrics-dimensions/shared-component-editor.md)
 + Gereedschappen {#tools}
    + Asset Transfer {#asset-transfer}
-      + [&#x200B; activa van de Overdracht &#x200B;](../tools/asset-transfer/transfer-assets.md)
+      + [ activa van de Overdracht ](../tools/asset-transfer/transfer-assets.md)
    + Productgebruik {#product-usage}
       + [Overzicht](../tools/product-usage/usage-overview.md)
       + [Gegevensinstellingen](../tools/product-usage/data-settings.md)
@@ -552,4 +552,4 @@ ht-degree: 11%
    + [Prestaties optimaliseren](../technotes/optimizing-performance.md)
    + [Gebruik beheren](../technotes/estimate-usage.md)
 
-+ [&#x200B; Customer Journey Analytics API &#x200B;](https://developer.adobe.com/cja-apis/docs/)
++ [ Customer Journey Analytics API ](https://developer.adobe.com/cja-apis/docs/)
