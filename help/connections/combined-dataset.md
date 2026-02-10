@@ -1,13 +1,13 @@
 ---
-title: Gecombineerde gegevenssets voor gebeurtenissen
-description: Leer hoe de Customer Journey Analytics tot een verbinding leidt door datasets te combineren.
+title: Gegevensbestanden gecombineerde gebeurtenissen
+description: Leer hoe Customer Journey Analytics een verbinding maakt door datasets te combineren.
 exl-id: 9f678225-a9f3-4134-be38-924b8de8d57f
 solution: Customer Journey Analytics
 feature: Connections
 role: Admin
-source-git-commit: aaf23560b69c90fdbaee3fa401b5fe58e6a4e5d1
+source-git-commit: 4f1299595077a1756a6ad0c4f5ef5e0247ab4973
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '946'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # Gecombineerde gegevenssets voor gebeurtenissen
 
-Wanneer u een verbinding creeert, combineert de Customer Journey Analytics alle gebeurtenisdatasets in één enkele dataset. Deze gecombineerde gebeurtenisdataset is wat de Customer Journey Analytics voor het melden (samen met profiel en raadplegingsdatasets) gebruikt. Wanneer u veelvoudige gebeurtenisdatasets in een verbinding omvat:
+Wanneer u een verbinding creeert, combineert Customer Journey Analytics alle gebeurtenisdatasets in één enkele dataset. Deze gecombineerde gebeurtenisdataset is wat Customer Journey Analytics gebruikt voor het melden (samen met profiel en raadplegingsdatasets). Wanneer u veelvoudige gebeurtenisdatasets in een verbinding omvat:
 
 * De gegevens voor gebieden in datasets die op de **zelfde schemapad** worden gebaseerd worden samengevoegd in één enkele kolom in de gecombineerde dataset.
 * De kolom van identiteitskaart van de Persoon, die voor elke dataset wordt gespecificeerd, wordt samengevoegd in één enkele kolom in de gecombineerde dataset, **ongeacht hun naam**. Deze kolom vormt de basis voor het identificeren van unieke personen in Customer Journey Analytics.
@@ -32,18 +32,18 @@ Kijk eens naar het volgende voorbeeld. U hebt twee gebeurtenisdatasets, elk met 
 
 | example_id | tijdstempel | string_color | string_animal | metrisch_a |
 | --- | --- | --- | --- | ---: |
-| user_310 | 01 jan. 7:02 | Rood | Fox | |
-| user_310 | 01 jan. 7:04 | | | 2 |
-| user_310 | 01 jan. 7:08 | Blauw | | 3 |
-| user_847 | 12:31 | | Turf | 4 |
-| user_847 | 12:44 | | | 2 |
+| user_310 | 01 jan. :02 | Rood | Fox | |
+| user_310 | 01 jan. :04 | | | 2 |
+| user_310 | 01 jan. :08 | Blauw | | 3 |
+| user_847 | 2 jan. 12 :31 PM | | Turf | 4 |
+| user_847 | 2 jan. 12 :44 PM | | | 2 |
 
 | different_id | tijdstempel | string_color | string_shape | metrisch_b |
 | --- | --- | --- | --- | ---: |
-| user_847 | 2 jan. 12:26 | Geel | Cirkel | 8,5 |
-| user_847 | 2 jan. 13:01 | Rood | | |
-| alternateid_656 | 2 jan. 8:58 | Rood | Vierkant | 4,2 |
-| alternateid_656 | 2 jan. 9:03 | | Driehoek | 3,1 |
+| user_847 | 2 jan. 12 :26 PM | Geel | Cirkel | 8,5 |
+| user_847 | 2 jan. 1 :01 PM | Rood | | |
+| alternateid_656 | 2 jan. 8 :58 PM | Rood | Vierkant | 4,2 |
+| alternateid_656 | 2 jan. 9 :03 PM | | Driehoek | 3,1 |
 
 Wanneer u een verbinding gebruikend deze twee gebeurtenisdatasets creeert en hebt geïdentificeerd
 
@@ -54,31 +54,31 @@ de volgende gecombineerde gegevensset wordt gebruikt voor de rapportage.
 
 | id | tijdstempel | string_color | string_animal | string_shape | metrisch_a | metrisch_b |
 | --- | --- | --- | --- | --- | ---: | ---: |
-| user_310 | 01 jan. 7:02 | Rood | Fox | | | |
-| user_310 | 01 jan. 7:04 | | | | 2 | |
-| user_310 | 01 jan. 7:08 | Blauw | | | 3 | |
-| user_847 | 2 jan. 12:26 | Geel | | Cirkel | | 8,5 |
-| user_847 | 12:31 | | Turf | | 4 | |
-| user_847 | 12:44 | | | | 2 | |
-| user_847 | 2 jan. 13:01 | Rood | | | | |
-| alternateid_656 | 2 jan. 8:58 | Rood | | Vierkant | | 4,2 |
-| alternateid_656 | 2 jan. 9:03 | | | Driehoek | | 3,1 |
+| user_310 | 01 jan. :02 | Rood | Fox | | | |
+| user_310 | 01 jan. :04 | | | | 2 | |
+| user_310 | 01 jan. :08 | Blauw | | | 3 | |
+| user_847 | 2 jan. 12 :26 PM | Geel | | Cirkel | | 8,5 |
+| user_847 | 2 jan. 12 :31 PM | | Turf | | 4 | |
+| user_847 | 2 jan. 12 :44 PM | | | | 2 | |
+| user_847 | 2 jan. 1 :01 PM | Rood | | | | |
+| alternateid_656 | 2 jan. 8 :58 PM | Rood | | Vierkant | | 4,2 |
+| alternateid_656 | 2 jan. 9 :03 PM | | | Driehoek | | 3,1 |
 
 Om het belang van schemawegen te illustreren, overweeg dit scenario. In de eerste dataset, is `string_color` gebaseerd op schemapad `_experience.whatever.string_color` en in de tweede dataset op schemapad `_experience.somethingelse.string_color`. In dit scenario, wordt het gegeven **niet** samengevoegd in één kolom in de resulterende gecombineerde dataset. In plaats daarvan is het resultaat twee `string_color` kolommen in de gecombineerde dataset:
 
 | id | tijdstempel | _experience.<br/> alles.<br/> string_color | _experience.<br/> iets anders.<br/> string_color | string_animal | string_shape | metrisch_a | metrisch_b |
 |---|---|---|---|---|---|---:|---:|
-| user_310 | 01 jan. 7:02 | Rood | | Fox | | | |
-| user_310 | 01 jan. 7:04 | | | | | 2 | |
-| user_310 | 01 jan. 7:08 | Blauw | | | | 3 | |
-| user_847 | 2 jan. 12:26 | | Geel | | Cirkel | | 8,5 |
-| user_847 | 12:31 | | | Turf |  | 4 | |
-| user_847 | 12:44 | | | | | 2 | |
-| user_847 | 2 jan. 13:01 | | Rood | | | | |
-| alternateid_656 | 2 jan. 8:58 | | Rood | | Vierkant | | 4,2 |
-| alternateid_656 | 2 jan. 9:03 | | | | Driehoek | | 3,1 |
+| user_310 | 01 jan. :02 | Rood | | Fox | | | |
+| user_310 | 01 jan. :04 | | | | | 2 | |
+| user_310 | 01 jan. :08 | Blauw | | | | 3 | |
+| user_847 | 2 jan. 12 :26 PM | | Geel | | Cirkel | | 8,5 |
+| user_847 | 2 jan. 12 :31 PM | | | Turf |  | 4 | |
+| user_847 | 2 jan. 12 :44 PM | | | | | 2 | |
+| user_847 | 2 jan. 1 :01 PM | | Rood | | | | |
+| alternateid_656 | 2 jan. 8 :58 PM | | Rood | | Vierkant | | 4,2 |
+| alternateid_656 | 2 jan. 9 :03 PM | | | | Driehoek | | 3,1 |
 
-Deze gecombineerde gebeurtenisdataset is wat in het melden wordt gebruikt. Het maakt niet uit van welke dataset een rij afkomstig is. Customer Journey Analytics behandelt alle gegevens alsof het in de zelfde dataset is. Als een overeenkomende persoon-id in beide gegevenssets wordt weergegeven, worden deze als dezelfde unieke persoon beschouwd. Als een overeenkomende persoon-id binnen 30 minuten in beide gegevenssets wordt weergegeven met een tijdstempel, wordt deze beschouwd als onderdeel van dezelfde sessie. Velden met identieke schemapaden worden samengevoegd.
+Deze gecombineerde gebeurtenisdataset is wat in het melden wordt gebruikt. Het maakt niet uit van welke dataset een rij afkomstig is. Customer Journey Analytics behandelt alle gegevens alsof deze zich in dezelfde gegevensset bevinden. Als een overeenkomende persoon-id in beide gegevenssets wordt weergegeven, worden deze als dezelfde unieke persoon beschouwd. Als een overeenkomende persoon-id binnen 30 minuten in beide gegevenssets wordt weergegeven met een tijdstempel, wordt deze beschouwd als onderdeel van dezelfde sessie. Velden met identieke schemapaden worden samengevoegd.
 
 Dit concept is ook van toepassing op attributie. Het maakt niet uit van welke dataset een rij afkomstig is; de attributie werkt precies alsof alle gebeurtenissen uit één dataset kwamen. De bovenstaande tabellen als voorbeeld gebruiken:
 
@@ -111,7 +111,7 @@ Met de kanaalanalyse kunt u vragen beantwoorden zoals:
 * Hoeveel mensen beginnen met hun ervaring in één kanaal, en eindigen het in een andere?
 * Hoeveel mensen interageren met mijn merk? Hoeveel en welke soorten apparaten gebruiken zij? Hoe overlappen ze elkaar?
 * Hoe vaak beginnen mensen met een taak op een mobiel apparaat en gaan ze later over naar een desktop-pc om de taak te voltooien? Leidt de campagne klikdoorhalingen die op één apparaat landen tot omschakeling elders?
-* Hoe verandert mijn begrip van campagnedoeltreffendheid als ik apparatuurreizen bekijk? Hoe verandert mijn trechter-analyse?
+* Hoe verandert mijn begrip van campagnedoeltreffendheid als ik apparatuurreizen bekijk? Hoe verandert mijn funnel-analyse?
 * Wat zijn de gemeenschappelijkste wegen die gebruikers van één apparaat aan een ander nemen? Waar komen ze uit? Waar slagen ze?
 * Hoe verschilt het gedrag van gebruikers met meerdere apparaten van de gebruikers met één apparaat?
 
