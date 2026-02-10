@@ -66,8 +66,8 @@ Met gegevensweergaven kunt u automatisch de instellingen van schema-elementen wi
 ## Voorwaarden voor gegevensweergaven {#prerequisites}
 
 * Alvorens u gegevensmeningen kunt tot stand brengen, moet u opstelling één of meerdere verbindingen aan de datasets van Experience Platform [.](/help/connections/create-connection.md)
-* Om een gegevensmening tot stand te brengen of te beheren, hebt u a [&#x200B; reeks toestemmingen in Adobe Admin Console &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) nodig.
-* Als u de [&#x200B; bronschakelaar van Adobe Analytics &#x200B;](/help/data-ingestion/analytics.md) gebruikt of Adobe Analytics achtergrondkennis hebt, zou u kunnen willen begrijpen hoe de gebieden in uw schema&#39;s en datasets op de tegenhangers van Adobe Analytics betrekking hebben. Zie [&#x200B; het gebiedsafbeeldingen van Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics) voor meer informatie.
+* Om een gegevensmening tot stand te brengen of te beheren, hebt u a [&#x200B; reeks toestemmingen in Adobe Admin Console &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-overview) nodig.
+* Als u de [&#x200B; bronschakelaar van Adobe Analytics &#x200B;](/help/data-ingestion/analytics.md) gebruikt of Adobe Analytics achtergrondkennis hebt, zou u kunnen willen begrijpen hoe de gebieden in uw schema&#39;s en datasets op de tegenhangers van Adobe Analytics betrekking hebben. Zie [&#x200B; het gebiedsafbeeldingen van Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/mapping/analytics) voor meer informatie.
 
 ## Instellingen voor gegevensweergave die u kunt overschrijven in Workspace {#settings-override}
 
