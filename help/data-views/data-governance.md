@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Labels en beleid
 
-Wanneer u een dataset in Experience Platform creeert, kunt u [ etiketten van het gegevensgebruik ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference) voor wat of alle elementen in de dataset tot stand brengen. U kunt deze labels en beleidsregels weergeven in Customer Journey Analytics.
+Wanneer u een dataset in Experience Platform creeert, kunt u [&#x200B; etiketten van het gegevensgebruik &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference) voor wat of alle elementen in de dataset tot stand brengen. U kunt deze labels en beleidsregels weergeven in Customer Journey Analytics.
 
 De volgende labels zijn van bijzonder belang voor Customer Journey Analytics:
 
@@ -25,7 +25,7 @@ De volgende labels zijn van bijzonder belang voor Customer Journey Analytics:
 >
 >De etiketten van het gebruik van gegevens worden niet automatisch verspreid aan stitched datasets. Deze kunnen echter handmatig worden toegevoegd.
 
-De etikettering op zich betekent niet dat deze etiketten van het gegevensgebruik worden afgedwongen. Daar wordt beleid voor gebruikt. U kunt uw beleid tot stand brengen gebruikend [ Experience Platform UI ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/user-guide) of via de [ Dienst API van het Beleid ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/api/overview) in Experience Platform.
+De etikettering op zich betekent niet dat deze etiketten van het gegevensgebruik worden afgedwongen. Daar wordt beleid voor gebruikt. U kunt uw beleid tot stand brengen gebruikend [&#x200B; Experience Platform UI &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/user-guide) of via de [&#x200B; Dienst API van het Beleid &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/api/overview) in Experience Platform.
 
 Er zijn twee door Adobe gedefinieerde beleidsregels beschikbaar in Experience Platform die van invloed kunnen zijn op Customer Journey Analytics en de rapportage en gegevensexport:
 
@@ -39,7 +39,7 @@ De etiketten van gegevens die u of anderen creeerde in Experience Platform worde
 | Locatie | Beschrijving |
 | --- | --- |
 | De knop Info op een schemaveld | Als u op deze knop klikt, wordt aangegeven welke [!UICONTROL Data Usage Labels] momenteel van toepassing is op een veld:<p>![](assets/data-label-left.png) |
-| Rechterspoor onder [ montages van de Component ](/help/data-views/component-settings/overview.md) | Alle [!UICONTROL Data Usage Labels] worden hier vermeld:<p>![](assets/data-label-right.png) |
+| Rechterspoor onder [&#x200B; montages van de Component &#x200B;](/help/data-views/component-settings/overview.md) | Alle [!UICONTROL Data Usage Labels] worden hier vermeld:<p>![](assets/data-label-right.png) |
 | Gegevenslabels toevoegen als kolom | U kunt [!UICONTROL Data Usage Labels] als kolom aan de [!UICONTROL Included Components] kolommen in gegevensmeningen toevoegen. Selecteer gewoon het pictogram van de kolomkiezer en selecteer **[!UICONTROL Data Usage Labels]** :<p>![](assets/data-label-column.png) |
 
 {style="table-layout:auto"}
@@ -58,7 +58,7 @@ U kunt controleren of een beleid (bijvoorbeeld een beleid dat u hebt gemaakt met
 
 Selecteer nogmaals het pictogram [!UICONTROL filter] in de linkerrails en selecteer **[!UICONTROL Data Governance]** onder **[!UICONTROL Policies]** :
 
-![ de Filter omvatte componenten door lijst tonen van Beperkt gebruiksanalyses en gebruiker gebaseerde geselecteerde meting ](assets/filter-policies.png)
+![&#x200B; de Filter omvatte componenten door lijst tonen van Beperkt gebruiksanalyses en gebruiker gebaseerde geselecteerde meting &#x200B;](assets/filter-policies.png)
 
 Klik op **[!UICONTROL Apply]** om te zien welk beleid is ingeschakeld.
 
@@ -68,23 +68,23 @@ Als één of meerdere beleid met C8 of C12 etiketten wordt aangezet, kunnen die 
 
 Deze componenten worden grijs weergegeven in de lijst met spoorstaven links [!UICONTROL Schema fields] :
 
-![ grijsde uit componenten en het bericht dat van het Beleid beleid op beleid wijzen zijn toegepast op dit gebied dat gebruik van de gegevens beperkt ](assets/component-greyed.png)
+![&#x200B; grijsde uit componenten en het bericht dat van het Beleid beleid op beleid wijzen zijn toegepast op dit gebied dat gebruik van de gegevens beperkt &#x200B;](assets/component-greyed.png)
 
 U kunt ook geen gegevensweergave opslaan waarin velden zijn geblokkeerd.
 
 Wees voorzichtig met het toepassen van labels voor toegang en gegevensbeheer (via beleid) op velden of veldgroepen in Experience Platform, waarvoor al componenten zijn gedefinieerd in de gegevensweergave. Dit dialoogvenster wordt mogelijk weergegeven.
 
-![ Schending ](assets/violation.png)
+![&#x200B; Schending &#x200B;](assets/violation.png)
 
 U moet eerst de schending oplossen (bijvoorbeeld de componenten uit de gegevensmening verwijderen).
 
 
 >[!MORELIKETHIS]
 >
->[ Download gevoelige gegevens ](/help/analysis-workspace/export/download-send.md)
+>[&#x200B; Download gevoelige gegevens &#x200B;](/help/analysis-workspace/export/download-send.md)
 
 >[!MORELIKETHIS]
 >
->[ wat zijn beperkte etiketten in Report Builder?](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-reportbuilder/restricted-labels)
+>[&#x200B; wat zijn beperkte etiketten in Report Builder?](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-reportbuilder/restricted-labels)
 
 
