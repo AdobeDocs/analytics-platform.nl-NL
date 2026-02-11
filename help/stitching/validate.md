@@ -33,7 +33,7 @@ Hoewel deze analysemethoden kunnen worden gebruikt voor stitching in het veld en
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Plaatsende enablement en bevestiging &#x200B;](https://video.tv.adobe.com/v/3478120?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Plaatsende enablement en bevestiging &#x200B;](https://video.tv.adobe.com/v/3478126?captions=dut&quality=12&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
