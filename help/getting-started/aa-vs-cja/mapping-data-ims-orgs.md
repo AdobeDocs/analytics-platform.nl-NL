@@ -51,7 +51,7 @@ Om de *dwars-IMS gegevenstoewijzingseigenschap* te vormen en toe te laten, moet 
 
 Zodra de Adobe-accountmanager het e-mailbericht ontvangt met het verzoek om analysegegevens van meerdere organen toe te wijzen, wordt het verzoek beoordeeld in Adobe. De Adobe-accountmanager neemt contact met u op voor aanvullende vragen, optionele training en andere informatie.
 
-Zodra goedgekeurd, wordt de gevraagde afbeelding gecreeerd en u wordt op de hoogte gebracht. De bronIMS organisatienaam wordt toegevoegd aan de naam van de rapportreeks in de [&#x200B; lijst van de het rapportreeksen van Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data) in Experience Platform.
+Zodra goedgekeurd, wordt de gevraagde afbeelding gecreeerd en u wordt op de hoogte gebracht. De bronIMS organisatienaam wordt toegevoegd aan de naam van de rapportreeks in de [&#x200B; lijst van de het rapportreeksen van Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data) in Experience Platform.
 
 
 ## Beperkingen
@@ -69,9 +69,9 @@ U zou de volgende onderwerpen kunnen willen overwegen alvorens u om de *dwars-IM
 
 ### Profielen
 
-Zodra de *dwars-IMS gegevenstoewijzingseigenschap* wordt goedgekeurd, kunt u gegevens aan Experience Platform voor één of meerdere van de rapportreeksen in de organisatie van bestemmingsIMS toevoegen. U doet dit door de configuratie van de [&#x200B; bron van Analytics schakelaar &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics). De datasets van het doel worden dan gecreeerd in Experience Platform. Als deel van deze configuratie en proces, hebt u de optie om profielgegevens van één of meerdere rapportreeksen naar de dienst van het Profiel te verzenden.
+Zodra de *dwars-IMS gegevenstoewijzingseigenschap* wordt goedgekeurd, kunt u gegevens aan Experience Platform voor één of meerdere van de rapportreeksen in de organisatie van bestemmingsIMS toevoegen. U doet dit door de configuratie van de [&#x200B; bron van Analytics schakelaar &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics). De datasets van het doel worden dan gecreeerd in Experience Platform. Als deel van deze configuratie en proces, hebt u de optie om profielgegevens van één of meerdere rapportreeksen naar de dienst van het Profiel te verzenden.
 
-Schat het totale aantal profielen dat het resultaat is van de configuratie en het proces, zoals hierboven beschreven. Zorg ervoor dat het totale aantal binnen het aantal profielen is u contractueel gerechtigd aan voor de bestemmingsorganisatie. Pas [&#x200B; het filtreren regels en voorwaarden &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#filtering-for-profile){target="_blank"} toe om gegevens van opname aan de dienst van het Profiel te omvatten of uit te sluiten. Of schakel de optie uit om profielgegevens naar de profielservice te verzenden voor relevante rapportsuites.
+Schat het totale aantal profielen dat het resultaat is van de configuratie en het proces, zoals hierboven beschreven. Zorg ervoor dat het totale aantal binnen het aantal profielen is u contractueel gerechtigd aan voor de bestemmingsorganisatie. Pas [&#x200B; het filtreren regels en voorwaarden &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#filtering-for-profile){target="_blank"} toe om gegevens van opname aan de dienst van het Profiel te omvatten of uit te sluiten. Of schakel de optie uit om profielgegevens naar de profielservice te verzenden voor relevante rapportsuites.
 
 
 #### Stiksel
