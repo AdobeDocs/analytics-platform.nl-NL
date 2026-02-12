@@ -3,9 +3,10 @@ title: Meerdere afmetingen opnemen in een vrije-vormtabel
 description: Leer hoe u meerdere afmetingen opneemt in een vrije-vormtabel
 feature: Visualizations
 role: User
-source-git-commit: 696bd0db44949162307d8ce7d2debed351a76cd6
+exl-id: 66ebb4fc-feb2-4fa7-a107-37508cca4748
+source-git-commit: 14718476695dcf121c94ba4cb8b2c39e5874342d
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ U kunt filters, het sorteren, het breken, en meer op vrije vormlijsten met veelv
 
 ## Samengevoegde dimensie-items
 
-Wanneer u [&#x200B; veelvoudige afmetingskolommen aan een vrije vormlijst &#x200B;](#add-multiple-dimension-columns) toevoegt, gedraagt elke rij van afmetingspunten zich als één enkel samengevoegd afmetingspunt. Met deze functionaliteit kunt u metrische gegevens bekijken voor specifieke combinaties van dimensies.
+Wanneer u [ veelvoudige afmetingskolommen aan een vrije vormlijst ](#add-multiple-dimension-columns) toevoegt, gedraagt elke rij van afmetingspunten zich als één enkel samengevoegd afmetingspunt. Met deze functionaliteit kunt u metrische gegevens bekijken voor specifieke combinaties van dimensies.
 
 Bijvoorbeeld, overweeg een vrije lijst waar de afmetingskolommen _,_ Type van Apparaat _zijn, en_ Dag van Maand _en metrisch is_ Gebeurtenissen _._ De 3 afmetingspunten in de eerste rij van deze lijst worden één enkel samengevoegd afmetingspunt dat aantoont dat er 2.056 gebeurtenissen waren die in Mumbai van mobiele telefoons op de 30e dag van de maand plaatsvonden.
 
@@ -33,7 +34,7 @@ Bijvoorbeeld, overweeg een vrije lijst waar de afmetingskolommen _,_ Type van Ap
 
 Hieronder ziet u hoe deze tabel in Analysis Workspace wordt weergegeven:
 
-![&#x200B; Multidimensionaal voorbeeld &#x200B;](assets/multi-dim-example.png)
+![ Multidimensionaal voorbeeld ](assets/multi-dim-example.png)
 
 ## Meerdere dimensiekolommen toevoegen
 
@@ -41,27 +42,27 @@ U kunt meerdere dimensiekolommen één voor één of in bulk toevoegen.
 
 1. Maak in Analysis Workspace een vrije-vormtabel.
 
-   Voor meer informatie, zie [&#x200B; visualisaties aan een paneel &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) in [&#x200B; overzicht van Visualisaties &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) toevoegen.
+   Voor meer informatie, zie [ visualisaties aan een paneel ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) in [ overzicht van Visualisaties ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) toevoegen.
 
 1. Voeg afmetingen toe aan de vrije-vormlijst. U kunt de afmetingen een voor een toevoegen of u kunt meerdere afmetingen tegelijk toevoegen.
 
    * Sleep de afmetingen een voor een naar de vrije-vormtabel. Plaats extra afmetingskolommen links of rechts van bestaande afmetingskolommen in de tabel. Een blauwe verticale **[!UICONTROL Add]** lijn geeft aan waar de nieuwe kolom wordt gemaakt.
 
-     ![&#x200B; belemmering individuele afmetingen &#x200B;](assets/dimensions-add-individually.png)
+     ![ belemmering individuele afmetingen ](assets/dimensions-add-individually.png)
 
    * Selecteer maximaal 5 dimensies in het deelvenstermenu en sleep ze naar de vrije-vormtabel. Dimensies worden van links naar rechts aan de tabel toegevoegd in de volgorde waarin u ze selecteert.
 
      Om veelvoudige afmetingen te selecteren, houd de ***sleutel van het Bevel*** (op Mac) of de ***sleutel van CTRL*** (op Vensters).
 
-     ![&#x200B; belemmering veelvoudige afmetingen &#x200B;](assets/dimensions-add-multiple.png)
+     ![ belemmering veelvoudige afmetingen ](assets/dimensions-add-multiple.png)
 
-1. Bekijk elke rij van de lijst als één enkel afmetingspunt. Voor meer informatie, zie [&#x200B; Samengevoegde afmetingspunten &#x200B;](#concatenated-dimension-items).
+1. Bekijk elke rij van de lijst als één enkel afmetingspunt. Voor meer informatie, zie [ Samengevoegde afmetingspunten ](#concatenated-dimension-items).
 
 ## Tabellen filteren en sorteren
 
 U kunt het filtreren en het sorteren op kolommen in een vrije vormlijst toepassen. U kunt de gegevens van een vrije-vormlijst door om het even welke kolommen sorteren, of zij dimensies of metriek zijn. U kunt zelfs op meerdere kolommen tegelijk sorteren.
 
-Voor informatie, zie [&#x200B; Filter en sorteer vrije vormlijsten &#x200B;](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+Voor informatie, zie [ Filter en sorteer vrije vormlijsten ](/help/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 ## Kolommen en onderverdelingen met meerdere dimensies
 
@@ -81,11 +82,11 @@ Met meerdere dimensiekolommen kunt u:
 
 * Omvat afmetingspunten in samengevoegde rijen slechts wanneer de afmetingspunten op elke afmetingskolom in de lijst van toepassing zijn. Hiertoe deselecteert u met het kolomfilter de instelling **[!UICONTROL Include "No value"]** voor elke dimensiekolom.
 
-  Voor meer informatie, zie [&#x200B; de lijsten van de Soort door veelvoudige kolommen (het Geavanceerde sorteren) &#x200B;](#sort-tables-by-multiple-columns-advanced-sorting).
+  Voor meer informatie, zie [ de lijsten van de Soort door veelvoudige kolommen (het Geavanceerde sorteren) ](#sort-tables-by-multiple-columns-advanced-sorting).
 
 * De gegevens van de soort door veelvoudige afmeting en metrische kolommen om meer aangepaste gegevens te zien.
 
-  Voor meer informatie, zie [&#x200B; de lijsten van de Soort door veelvoudige kolommen (het Geavanceerde sorteren) &#x200B;](#sort-tables-by-multiple-columns-advanced-sorting)
+  Voor meer informatie, zie [ de lijsten van de Soort door veelvoudige kolommen (het Geavanceerde sorteren) ](#sort-tables-by-multiple-columns-advanced-sorting)
 
 Met indelingen kunt u:
 
@@ -95,7 +96,7 @@ Met indelingen kunt u:
 
 Wanneer u een verdeling aan een lijst toevoegt die veelvoudige afmetingskolommen heeft, is de verdeling op het samengevoegde afmetingspunt (over alle afmetingskolommen) op de rij van toepassing waar u het toevoegt.
 
-![&#x200B; multi-sort verdelingsvoorbeeld &#x200B;](assets/dimensions-multiple-sort-breakdown.png)
+![ multi-sort verdelingsvoorbeeld ](assets/dimensions-multiple-sort-breakdown.png)
 
 Bovendien kunt u meerdere dimensiekolommen binnen een verdeling toevoegen. Elke rij van afmetingspunten binnen de uitsplitsing gedraagt zich ook als één enkel samengevoegd afmetingspunt.
 
@@ -107,13 +108,14 @@ Voor meer informatie over hoe te om een onderverdeling toe te voegen, zie {de af
 
 Wanneer u een segment creeert dat op een afmetingspunt wordt gebaseerd dat veelvoudige afmetingskolommen overspant, is elk afmetingspunt inbegrepen in de segmentdefinitie, met en exploitanten die hen aansluiten.
 
-Voor informatie over het creëren van een segment, zie [&#x200B; segmenten &#x200B;](/help/components/segments/seg-create.md) creëren.
+Voor informatie over het creëren van een segment, zie [ segmenten ](/help/components/segments/seg-create.md) creëren.
 
-## Niet-ondersteunde afmetingen {#unsupported}
+## Niet-ondersteunde afmetingen en functies {#unsupported}
 
-De volgende dimensiecombinaties worden niet ondersteund en Analysis Workspace verbiedt het toevoegen ervan of toont een foutbericht nadat deze zijn toegevoegd:
+De volgende dimensiecombinaties en de eigenschappen worden niet gesteund wanneer het gebruiken van veelvoudige afmetingskolommen, en Analysis Workspace of verbiedt hun gebruik of toont een foutenmelding:
 
-* De veelvoudige afmetingen die van gebieden zijn die verschillende [&#x200B; series van voorwerpen &#x200B;](/help/use-cases/object-arrays.md) van verwijzingen voorzien die samen in de zelfde vrije vormlijst worden gebruikt.
+* De veelvoudige afmetingen die van gebieden zijn die verschillende [ series van voorwerpen ](/help/use-cases/object-arrays.md) van verwijzingen voorzien die samen in de zelfde vrije vormlijst worden gebruikt.
 
   Meerdere afmetingen zijn samen toegestaan in dezelfde vrije-vormtabel als ze naar dezelfde array van objecten verwijzen.
 
+* [ Statische afmetingspunten ](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md#static-dimension-items).
