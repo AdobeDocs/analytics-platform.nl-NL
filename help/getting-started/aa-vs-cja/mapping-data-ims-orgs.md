@@ -5,7 +5,7 @@ role: Admin
 solution: Customer Journey Analytics
 feature: Adobe Analytics Integration,Administration
 exl-id: c109742b-c1c5-45b3-971f-f8dcf814ec37
-source-git-commit: 888420e8cd11cd447fec99257b213669edd345c1
+source-git-commit: ff0a5eb5b04f604eff41a18b05199b517d1a2d14
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Met de *dwars-IMS gegevenstoewijzing* eigenschap, kunt u Adobe verzoeken om gege
 
 | Illustratie | Toelichting |
 |---|---|
-| ![&#x200B; gegevens van de Kaart over veelvoudige organisaties IMS &#x200B;](/help/getting-started/assets/map-data-across-ims-orgs.svg) | Deze afbeelding staat u toe om over rapportreeksen te rapporteren die in organisatie 1 bestaan IMS, organisatie 2 IMS, en organisatie 3 IMS van één verbinding in Customer Journey Analytics die binnen organisatie 3 wordt geleverd IMS. |
+| ![ gegevens van de Kaart over veelvoudige organisaties IMS ](/help/getting-started/assets/map-data-across-ims-orgs.svg) | Deze afbeelding staat u toe om over rapportreeksen te rapporteren die in organisatie 1 bestaan IMS, organisatie 2 IMS, en organisatie 3 IMS van één verbinding in Customer Journey Analytics die binnen organisatie 3 wordt geleverd IMS. |
 
 {style="table-layout:fixed"}
 
@@ -51,7 +51,7 @@ Om de *dwars-IMS gegevenstoewijzingseigenschap* te vormen en toe te laten, moet 
 
 Zodra de Adobe-accountmanager het e-mailbericht ontvangt met het verzoek om analysegegevens van meerdere organen toe te wijzen, wordt het verzoek beoordeeld in Adobe. De Adobe-accountmanager neemt contact met u op voor aanvullende vragen, optionele training en andere informatie.
 
-Zodra goedgekeurd, wordt de gevraagde afbeelding gecreeerd en u wordt op de hoogte gebracht. De bronIMS organisatienaam wordt toegevoegd aan de naam van de rapportreeks in de [&#x200B; lijst van de het rapportreeksen van Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data) in Experience Platform.
+Zodra goedgekeurd, wordt de gevraagde afbeelding gecreeerd en u wordt op de hoogte gebracht. De bronIMS organisatienaam wordt toegevoegd aan de naam van de rapportreeks in de [ lijst van de het rapportreeksen van Analytics ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#select-data) in Experience Platform.
 
 
 ## Beperkingen
@@ -69,16 +69,16 @@ U zou de volgende onderwerpen kunnen willen overwegen alvorens u om de *dwars-IM
 
 ### Profielen
 
-Zodra de *dwars-IMS gegevenstoewijzingseigenschap* wordt goedgekeurd, kunt u gegevens aan Experience Platform voor één of meerdere van de rapportreeksen in de organisatie van bestemmingsIMS toevoegen. U doet dit door de configuratie van de [&#x200B; bron van Analytics schakelaar &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics). De datasets van het doel worden dan gecreeerd in Experience Platform. Als deel van deze configuratie en proces, hebt u de optie om profielgegevens van één of meerdere rapportreeksen naar de dienst van het Profiel te verzenden.
+Zodra de *dwars-IMS gegevenstoewijzingseigenschap* wordt goedgekeurd, kunt u gegevens aan Experience Platform voor één of meerdere van de rapportreeksen in de organisatie van bestemmingsIMS toevoegen. U doet dit door de configuratie van de [ bron van Analytics schakelaar ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics). De datasets van het doel worden dan gecreeerd in Experience Platform. Als deel van deze configuratie en proces, hebt u de optie om profielgegevens van één of meerdere rapportreeksen naar de dienst van het Profiel te verzenden.
 
-Schat het totale aantal profielen dat het resultaat is van de configuratie en het proces, zoals hierboven beschreven. Zorg ervoor dat het totale aantal binnen het aantal profielen is u contractueel gerechtigd aan voor de bestemmingsorganisatie. Pas [&#x200B; het filtreren regels en voorwaarden &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#filtering-for-profile){target="_blank"} toe om gegevens van opname aan de dienst van het Profiel te omvatten of uit te sluiten. Of schakel de optie uit om profielgegevens naar de profielservice te verzenden voor relevante rapportsuites.
+Schat het totale aantal profielen dat het resultaat is van de configuratie en het proces, zoals hierboven beschreven. Zorg ervoor dat het totale aantal binnen het aantal profielen is u contractueel gerechtigd aan voor de bestemmingsorganisatie. Pas [ het filtreren regels en voorwaarden ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics#filtering-for-profile){target="_blank"} toe om gegevens van opname aan de dienst van het Profiel te omvatten of uit te sluiten. Of schakel de optie uit om profielgegevens naar de profielservice te verzenden voor relevante rapportsuites.
 
 
 #### Stiksel
 
-U kunt zowel op gebied-gebaseerde [&#x200B; als &#x200B;](/help/stitching/fbs.md) op grafiek-gebaseerde [&#x200B; stitching op de doeldatasets gebruiken. &#x200B;](/help/stitching/gbs.md) Wanneer u op grafiek-gebaseerd het stitching op één of meerdere van deze doeldatasets gebruikt, zorg u binnen uw contractuele rechten voor het aantal profielen blijft, zoals die in de [&#x200B; 1&rbrace; sectie van Profielen &lbrace;worden geschetst.](#profiles)
+U kunt zowel op gebied-gebaseerde [ als ](/help/stitching/fbs.md) op grafiek-gebaseerde [ stitching op de doeldatasets gebruiken. ](/help/stitching/gbs.md) Wanneer u op grafiek-gebaseerd het stitching op één of meerdere van deze doeldatasets gebruikt, zorg u binnen uw contractuele rechten voor het aantal profielen blijft, zoals die in de [ 1} sectie van Profielen {worden geschetst.](#profiles)
 
-Als u niet voor het Profiel van de Klant in real time wordt vergunning gegeven, maar u nog op grafiek-gebaseerd het stitching op één of meerdere doeldatasets wilt gebruiken, verzekert u slechts de [&#x200B; Dienst van de Identiteit &#x200B;](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service) voor deze doeldatasets toelaat.
+Als u niet voor het Profiel van de Klant in real time wordt vergunning gegeven, maar u nog op grafiek-gebaseerd het stitching op één of meerdere doeldatasets wilt gebruiken, verzekert u slechts de [ Dienst van de Identiteit ](/help/stitching/faq.md#enable-a-dataset-for-the-identity-service) voor deze doeldatasets toelaat.
 
 
 ### Machtigingen
@@ -87,4 +87,5 @@ Een gebruiker met voldoende toestemmingen om de Analytics bronschakelaar in de o
 
 ### Gegevens rapporteren
 
-De *eigenschap van de gegevenstoewijzing van 0&rbrace; dwars-IMS &lbrace;is slechts een eerste stap om u te verzekeren kunt de gegevens als deel van een verbinding van Customer Journey Analytics* gebruiken [, één of meerdere &#x200B;](/help/connections/overview.md) gegevensmeningen [&#x200B; en &#x200B;](/help/data-views/data-views.md) werkruimteprojecten [. &#x200B;](/help/analysis-workspace/home.md) U moet de gegevens die u nu in één IMS-organisatie hebt, zorgvuldig inspecteren. En overweeg eigenschappen zoals gegevens prep, afgeleide gebieden, extra raadplegingslijsten, en meer alvorens u over deze gegevens kunt behoorlijk rapporteren.
+De *eigenschap van de gegevenstoewijzing van 0} dwars-IMS {is slechts een eerste stap om u te verzekeren kunt de gegevens als deel van een verbinding van Customer Journey Analytics* gebruiken [, één of meerdere ](/help/connections/overview.md) gegevensmeningen [ en ](/help/data-views/data-views.md) werkruimteprojecten [. ](/help/analysis-workspace/home.md) U moet de gegevens die u nu in één IMS-organisatie hebt, zorgvuldig inspecteren. En overweeg eigenschappen zoals gegevens prep, afgeleide gebieden, extra raadplegingslijsten, en meer alvorens u over deze gegevens kunt behoorlijk rapporteren.
+
