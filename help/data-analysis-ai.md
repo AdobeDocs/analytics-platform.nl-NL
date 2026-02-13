@@ -178,7 +178,7 @@ Adobe Experience Platform Agent Orchestrator biedt u toegang tot de functionalit
 
 Agent Orchestrator interpreteert uw verzoek, bepaalt welke gespecialiseerde agenten nodig zijn, en organiseert hen om de juiste reactie te leveren. Het houdt van context over multi-draai interactie bij, zodat kunt u op vroegere vragen natuurlijk voortbouwen.
 
-Voor meer informatie, zie [&#x200B; Adobe Experience Platform Agent Orchestrator &#x200B;](https://business.adobe.com/products/experience-platform/agent-orchestrator.html).
+Voor meer informatie, zie [&#x200B; Adobe Experience Platform Agent Orchestrator &#x200B;](https://business.adobe.com/nl/products/experience-platform/agent-orchestrator.html).
 
 ## Voorbeeld van vragen voor gegevensvisualisatie
 
