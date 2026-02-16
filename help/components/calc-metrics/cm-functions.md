@@ -4,9 +4,9 @@ description: Meer informatie over berekende standaardmeetkundige functies.
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: e2e87bc3d9f26b01f250d88b924c730fe4edac7b
+source-git-commit: 211f0411d0bf70288cbd46bb219fce7ae99fe03d
 workflow-type: tm+mt
-source-wordcount: '3541'
+source-wordcount: '3532'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 # Basisfuncties
 
 
-De [&#x200B; Berekende metrieke bouwer &#x200B;](cm-workflow/cm-build-metrics.md) laat u statistische en wiskundige functies toepassen. Dit artikel documenteert alfabetische lijst van de functies en hun definities.
+De [ Berekende metrieke bouwer ](cm-workflow/cm-build-metrics.md) laat u statistische en wiskundige functies toepassen. Dit artikel documenteert alfabetische lijst van de functies en hun definities.
 
 >[!NOTE]
 >
->Waar [!DNL metric] wordt geïdentificeerd als een argument in een functie, zijn andere expressies van metriek ook toegestaan. Bijvoorbeeld, [&#x200B; MAXIMUM VAN DE KOLOM (metriek) &#x200B;](#column-maximum) staat ook voor [&#x200B; MAXIMUM VAN DE KOLOM (PageViews + Visits) &#x200B;](#column-maximum) toe.
+>Waar [!DNL metric] wordt geïdentificeerd als een argument in een functie, zijn andere expressies van metriek ook toegestaan. Bijvoorbeeld, [ MAXIMUM VAN DE KOLOM (metriek) ](#column-maximum) staat ook voor [ MAXIMUM VAN DE KOLOM (PageViews + Sessions) ](#column-maximum) toe.
 
 
 
@@ -26,7 +26,7 @@ De [&#x200B; Berekende metrieke bouwer &#x200B;](cm-workflow/cm-build-metrics.md
 
 Een tabelfunctie is een functie waarbij de uitvoer voor elke rij van de tabel hetzelfde is. Een rijfunctie is een functie waarbij de uitvoer voor elke rij van de tabel anders is.
 
-Waar toepasselijk en relevant, is een functie geannoteerd met het type van functie: [!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} of [!BADGE &#x200B; Rij &#x200B;]{type="Neutral"}
+Waar toepasselijk en relevant, is een functie geannoteerd met het type van functie: [!BADGE  Lijst ]{type="Neutral"} of [!BADGE  Rij ]{type="Neutral"}
 
 ## Wat betekent de parameter include-zeros?
 
@@ -50,9 +50,9 @@ Een alternatief scenario is dat u twee metriek van rente hebt en één een hoger
 <!-- markdownlint-enable MD034 -->
 
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL ABSOLUTE VALUE(metric)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ABSOLUTE VALUE(metric)]**
 
-[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert de absolute waarde van een aantal terug. De absolute waarde van een getal is het getal met een positieve waarde.
+[!BADGE  Rij ]{type="Neutral"} keert de absolute waarde van een aantal terug. De absolute waarde van een getal is het getal met een positieve waarde.
 
 | Argument | Beschrijving |
 |---|---|
@@ -78,7 +78,7 @@ Een alternatief scenario is dat u twee metriek van rente hebt en één een hoger
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN MAXIMUM(metric, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN MAXIMUM(metric, include_zeros)]**
 
 Retourneert de grootste waarde in een set dimensieelementen voor een metrische kolom. MAXV evalueert verticaal binnen één enkele (metrische) kolom over afmetingselementen.
 
@@ -89,11 +89,11 @@ Retourneert de grootste waarde in een set dimensieelementen voor een metrische k
 
 **geval van het Gebruik**: Identificeer de hoogste waarde binnen een uitsplitsing, zoals de dag met de meeste bezoeken of het product met de hoogste opbrengst. Dit helpt piekprestaties in verschillende categorieën te benadrukken.
 
-**in de Berekende Metrische Bouwer**: Pas **Maximum van de Kolom** op metrisch als *Opbrengst* of *Bebezoeken* toe wanneer het breken door *Dag* of *Product*. De functie retourneert de grootste waarde in die kolom voor elke rij.
+**in de Berekende Metrische Bouwer**: Pas **Maximum van de Kolom** op metrisch als *Inkomsten* of *Zittingen* toe wanneer het breken door *Dag* of *Product*. De functie retourneert de grootste waarde in die kolom voor elke rij.
 
 >[!TIP]
 >
->Gebruik een [&#x200B; IF &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) verklaring zoals **IF** (*Inkomsten* = **Maximum van de Kolom*** (Inkomsten*), 1, 0) om het top-presterende punt in uw uitsplitsing te benadrukken.
+>Gebruik een [ IF ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) verklaring zoals **IF** (*Inkomsten* = **Maximum van de Kolom*** (Inkomsten*), 1, 0) om het top-presterende punt in uw uitsplitsing te benadrukken.
 >
 
 ## Minimaal kolom {#column-minimum}
@@ -108,7 +108,7 @@ Retourneert de grootste waarde in een set dimensieelementen voor een metrische k
 <!-- markdownlint-enable MD034 -->
 
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN MINIMUM(metric, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN MINIMUM(metric, include_zeros)]**
 
 Retourneert de laagste waarde in een set dimensieelementen voor een metrische kolom. MINV evalueert verticaal binnen één enkele kolom (metrisch) over afmetingselementen.
 
@@ -123,7 +123,7 @@ Retourneert de laagste waarde in een set dimensieelementen voor een metrische ko
 
 >[!TIP]
 >
->Gebruik een [&#x200B; IF &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) verklaring zoals **IF** (*Inkomsten* = **Minimale Kolom*** (Inkomsten*), 1, 0) om het laagste-presterende punt in uw uitsplitsing te benadrukken.
+>Gebruik een [ IF ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) verklaring zoals **IF** (*Inkomsten* = **Minimale Kolom*** (Inkomsten*), 1, 0) om het laagste-presterende punt in uw uitsplitsing te benadrukken.
 >
 
 
@@ -139,7 +139,7 @@ Retourneert de laagste waarde in een set dimensieelementen voor een metrische ko
 <!-- markdownlint-enable MD034 -->
 
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN SUM(metric)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN SUM(metric)]**
 
 Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen van een afmeting) toe.
 
@@ -149,7 +149,7 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 
 **geval van het Gebruik**: Bereken het totaal van alle waarden binnen een verdeling, zoals totale opbrengst over alle producten of totale bezoeken over alle dagen. Dit helpt wanneer u een totaal tegenover individuele rijwaarden moet vergelijken.
 
-**in de Berekende Metrische Bouwer**: Pas **Som van de Kolom** op metrisch als *Inkomsten* of *Bezoeken* toe terwijl het breken door *Product* of *Dag*. De functie retourneert het totaal van alle waarden in die kolom voor elke rij.
+**in de Berekende Metrische Bouwer**: Pas **Som van de Kolom** op metrisch als *Inkomsten* of *Zittingen* toe terwijl het breken door *Product* of *Dag*. De functie retourneert het totaal van alle waarden in die kolom voor elke rij.
 
 >[!TIP]
 >
@@ -169,9 +169,9 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 <!-- markdownlint-enable MD034 -->
 
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL COUNT(metric)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL COUNT(metric)]**
 
-[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} keert het aantal, of de telling, van niet-nul waarden voor metrisch binnen een kolom (het aantal unieke die elementen terug binnen een dimensie worden gemeld).
+[!BADGE  Lijst ]{type="Neutral"} keert het aantal, of de telling, van niet-nul waarden voor metrisch binnen een kolom (het aantal unieke die elementen terug binnen een dimensie worden gemeld).
 
 | Argument | Beschrijving |
 |---|---|
@@ -179,7 +179,7 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 
 **geval van het Gebruik**: Telling het aantal gegevenspunten inbegrepen in een berekening, zoals het aantal dagen in een datumwaaier of het aantal producten in een verdeling. Dit helpt wanneer u moet weten hoeveel punten tot een bijeengevoegde waarde bijdragen.
 
-**in de Berekende Metrische Bouwer**: Pas **Telling** op metrisch als *Bezoeken* of *Opbrengst* toe om het totale aantal rijen (of gegevenspunten) inbegrepen in de huidige afbraak of datumwaaier terug te keren.
+**in de Berekende Metrische Bouwer**: Pas **Telling** op metrisch als *Sessies* of *Opbrengst* toe om het totale aantal rijen (of gegevenspunten) inbegrepen in de huidige afbraak of datumwaaier terug te keren.
 
 >[!TIP]
 >
@@ -197,17 +197,17 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENT(metric)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENT(metric)]**
 
-[!BADGE &#x200B; Keert de Rij &#x200B;]{type="Neutral"} terug wordt opgeheven aan de macht van een bepaald aantal. De constante e is gelijk aan 2,71828182845904, de basis van de natuurlijke logaritme. EXPONENT is het omgekeerde van LN, de natuurlijke logaritme van een getal.
+[!BADGE  Keert de Rij ]{type="Neutral"} e *opgeheven aan de macht van een bepaald aantal terug.* De constante *e* evenaart 2.71828182845904, de basis van natuurlijke logaritme. EXPONENT is het omgekeerde van LN, de natuurlijke logaritme van een getal.
 
 | Argument | Beschrijving |
 |---|---|
-| metrisch | De exponent die op de basis e wordt toegepast. |
+| metrisch | De exponent die op de basis *wordt toegepast e*. |
 
-**geval van het Gebruik**: Hoog een aantal of metrisch aan een gespecificeerde macht, zoals het kwadrateren van een waarde of het toepassen van een exponentiële groeifactor. Dit is nuttig wanneer het modelleren van de groeitendensen of het schrapen van metrisch exponentieel.
+**Geval van het Gebruik**: Verhoogt *e* aan de macht van een bepaald aantal of metrisch. Dit is nuttig wanneer het modelleren van de groeitendensen of het schrapen van metrisch exponentieel.
 
-**in de Berekende Metrische Bouwer**: Gebruik **Exponent** met metrisch en een machtswaarde. Bijvoorbeeld: **Exponent** (*Visit*, 2) kwadrateert de *metrische Bezoeken*.
+**in de Berekende Metrische Bouwer**: Gebruik **Exponent** met metrisch. Bijvoorbeeld: **Exponent** (*Sessies*) heft *e* aan de macht van metrische *Sessies* op.
 
 >[!TIP]
 >
@@ -227,9 +227,9 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 <!-- markdownlint-enable MD034 -->
 
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL MEAN(metric, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL MEAN(metric, include_zeros)]**
 
-[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} keert het rekenkundig gemiddelde, of het gemiddelde, voor metrisch in een kolom terug.
+[!BADGE  Lijst ]{type="Neutral"} keert het rekenkundig gemiddelde, of het gemiddelde, voor metrisch in een kolom terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -238,7 +238,7 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 
 **geval van het Gebruik**: Bereken het rekenkundige gemiddelde van een reeks waarden, zoals de gemiddelde dagelijkse opbrengst of het gemiddelde aantal bezoeken per campagne. Dit helpt een basislijn voor het vergelijken van individuele waarden binnen een dataset vestigen.
 
-**in de Berekende Metrische Bouwer**: Pas **Gemiddelde** op metrisch als *Inkomsten* of *Bebezoeken* toe om de gemiddelde waarde over alle gegevenspunten in de geselecteerde uitsplitsing of datumwaaier terug te keren.
+**in de Berekende Metrische Bouwer**: Pas **Gemiddelde** op metrisch als *Inkomsten* of *Zittingen* toe om de gemiddelde waarde over alle gegevenspunten in de geselecteerde uitsplitsing of datumwaaier terug te keren.
 
 >[!TIP]
 >
@@ -257,9 +257,9 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 <!-- markdownlint-enable MD034 -->
 
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL MEDIAN(metric, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL MEDIAN(metric, include_zeros)]**
 
-[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} keert mediaan voor metrisch in een kolom terug. De mediaan is het getal in het midden van een reeks getallen. De helft van de getallen heeft waarden die groter zijn dan of gelijk zijn aan de mediaan, en de helft is kleiner dan of gelijk aan de mediaan.
+[!BADGE  Lijst ]{type="Neutral"} keert mediaan voor metrisch in een kolom terug. De mediaan is het getal in het midden van een reeks getallen. De helft van de getallen heeft waarden die groter zijn dan of gelijk zijn aan de mediaan, en de helft is kleiner dan of gelijk aan de mediaan.
 
 | Argument | Beschrijving |
 |---|---|
@@ -288,7 +288,7 @@ Voegt alle numerieke waarden voor metrisch binnen een kolom (over de elementen v
 <!-- markdownlint-enable MD034 -->
 
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL MODULO(metric_X, metric_Y)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL MODULO(metric_X, metric_Y)]**
 
 Retourneert de rest na het delen van x door y met behulp van Euclidean-divisie.
 
@@ -334,9 +334,9 @@ MODULO(MODULO(x,y)+y,y)
 <!-- markdownlint-enable MD034 -->
 
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL PERCENTILE(metric, k, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL PERCENTILE(metric, k, include_zeros)]**
 
-[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} keert het nde percentiel terug, dat een waarde tussen 0 en 100 is. Wanneer n &lt; 0, gebruikt de functie nul. Wanneer n > 100, keert de functie 100 terug.
+[!BADGE  Lijst ]{type="Neutral"} keert het nde percentiel terug, dat een waarde tussen 0 en 100 is. Wanneer n &lt; 0, gebruikt de functie nul. Wanneer n > 100, keert de functie 100 terug.
 
 | Argument | Beschrijving |
 |---|---|
@@ -346,7 +346,7 @@ MODULO(MODULO(x,y)+y,y)
 
 **geval van het Gebruik**: Identificeer de waarde waaronder een bepaald percentage gegevenspunten, zoals het 90e percentiel van dagelijkse opbrengst of paginameningen vallen. Dit helpt distributie te meten en hoog-presterende uitschieters te ontdekken.
 
-**in de Berekende Metrische Bouwer**: Pas **Percentage** op metrisch als *Winst* of *Bezoeken* toe, en specificeer de gewenste percentiele waarde (bijvoorbeeld, **Percentile** (*Winst*, 90). Het resultaat toont de drempel dat 90% van de gegevenspunten onder daalt.
+**in de Berekende Metrische Bouwer**: Pas **Percentage** op metrisch als *Winst* of *Zittingen* toe, en specificeer de gewenste percentiele waarde (bijvoorbeeld, **Percentile** (*Winst*, 90). Het resultaat toont de drempel dat 90% van de gegevenspunten onder daalt.
 
 >[!TIP]
 >
@@ -364,7 +364,7 @@ MODULO(MODULO(x,y)+y,y)
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL POWER OPERATOR(metric_X, metrix_Y)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER OPERATOR(metric_X, metrix_Y)]**
 
 Retourneert x opgevoerd naar de y-macht.
 
@@ -375,7 +375,7 @@ Retourneert x opgevoerd naar de y-macht.
 
 **geval van het Gebruik**: Hoog één aantal of metrisch aan de macht van een andere, zoals het kwadrateren van een waarde of het toepassen van een exponentieel gewicht. Dit is nuttig wanneer het modelleren van de groei, het schrapen van waarden, of het uitvoeren van geavanceerde wiskundige transformaties.
 
-**in de Berekende Metrische Bouwer**: De Exploitant van de Macht van het gebruik **&#x200B;**&#x200B;tussen twee numerieke waarden of metriek. Bijvoorbeeld: *Inkomsten* ^ 2 heft de *waarde van de Inkomsten* aan de tweede macht op.
+**in de Berekende Metrische Bouwer**: De Exploitant van de Macht van het gebruik **** tussen twee numerieke waarden of metriek. Bijvoorbeeld: *Inkomsten* ^ 2 heft de *waarde van de Inkomsten* aan de tweede macht op.
 
 >[!TIP]
 >
@@ -394,9 +394,9 @@ Retourneert x opgevoerd naar de y-macht.
 <!-- markdownlint-enable MD034 -->
 
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL QUARTILE(metric, quartile, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL QUARTILE(metric, quartile, include_zeros)]**
 
-[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} keert de kwartiel van waarden voor metrisch terug. Bijvoorbeeld, kunnen de kwartielen worden gebruikt om de hoogste 25% van producten te vinden die de meeste opbrengst drijven. [&#x200B; MINIMUM VAN DE KOLOM &#x200B;](#column-minimum), [&#x200B; GEMIDDELD &#x200B;](#median), en [&#x200B; MAXIMUM VAN DE KOLOM &#x200B;](#column-maximum) keren de zelfde waarde terug zoals [&#x200B; KWALITEIT &#x200B;](#quartile) wanneer kwartiel aan `0` (nul) gelijk is, `2`, en `4`, respectievelijk.
+[!BADGE  Lijst ]{type="Neutral"} keert de kwartiel van waarden voor metrisch terug. Bijvoorbeeld, kunnen de kwartielen worden gebruikt om de hoogste 25% van producten te vinden die de meeste opbrengst drijven. [ MINIMUM VAN DE KOLOM ](#column-minimum), [ GEMIDDELD ](#median), en [ MAXIMUM VAN DE KOLOM ](#column-maximum) keren de zelfde waarde terug zoals [ KWALITEIT ](#quartile) wanneer kwartiel aan `0` (nul) gelijk is, `2`, en `4`, respectievelijk.
 
 | Argument | Beschrijving |
 |---|---|
@@ -406,7 +406,7 @@ Retourneert x opgevoerd naar de y-macht.
 
 **geval van het Gebruik**: Splits een dataset in vier gelijke delen om te begrijpen hoe de waarden, zoals het identificeren van top 25% van dagen door opbrengst of bezoeken worden verdeeld. Dit helpt segmentprestaties in gerangschikte groepen voor diepere vergelijking.
 
-**in de Berekende Metrische Bouwer**: Pas **Kwartaal** op metrisch als *Inkomsten* of *Bezoeken* toe, en specificeer welke kwartiel (bijvoorbeeld, **Kwart** (*Inkomsten*, 3) om de drempel voor derde kwartiel, of top 25%) terug te vinden.
+**in de Berekende Metrische Bouwer**: Pas **Veelhoek** op metrisch als *Inkomsten* of *Zittingen* toe, en specificeer welke kwartiel om terug te keren (bijvoorbeeld, **Vierkant** (*Inkomsten*, 3) om de drempel voor derde kwartiel, of top 25%) te vinden.
 
 >[!TIP]
 >
@@ -424,7 +424,7 @@ Retourneert x opgevoerd naar de y-macht.
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL ROUND(metric, number)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ROUND(metric, number)]**
 
 Rond zonder a *aantal* parameter is het zelfde als rond met a *aantal* parameter van 0, namelijk rond aan het dichtstbijzijnde geheel.  Met a *aantal* parameter, ROUND keert de *aantal* cijfers rechts van decimaal terug.  Als *aantal* negatief is, keert het 0&#39;s links van decimaal terug.
 
@@ -462,7 +462,7 @@ ROUND( 314.15, -2) = 300
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL ROW COUNT()]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ROW COUNT()]**
 
 Geeft als resultaat het aantal rijen voor een bepaalde kolom (het aantal unieke elementen dat binnen een dimensie wordt gerapporteerd). *meer uniques* wordt geteld als 1.
 
@@ -486,7 +486,7 @@ Geeft als resultaat het aantal rijen voor een bepaalde kolom (het aantal unieke 
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL ROW MAX(metric, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ROW MAX(metric, include_zeros)]**
 
 Maximaal aantal kolommen per rij.
 
@@ -495,9 +495,9 @@ Maximaal aantal kolommen per rij.
 | metrisch | Vereist minstens één metrisch maar kan om het even welk aantal metriek als parameters nemen. |
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen. |
 
-**geval van het Gebruik**: Identificeer de hoogste waarde over alle metriek in één enkele rij, zoals het bepalen van welke metrisch (bijvoorbeeld, *Inkomsten*, *Orders*, of *Bezoeken*) heeft de hoogste waarde voor een specifieke dag of een segment. Op deze manier kunt u zien welke metrische gegevens binnen elke gegevensrij worden geplaatst.
+**geval van het Gebruik**: Identificeer de hoogste waarde over alle metriek in één enkele rij, zoals het bepalen van welke metrisch (bijvoorbeeld, *Inkomsten*, *Orders*, of *Zittingen*) heeft de hoogste waarde voor een specifieke dag of een segment. Op deze manier kunt u zien welke metrische gegevens binnen elke gegevensrij worden geplaatst.
 
-**in de Berekende Metrische Bouwer**: Pas **Maximum van de Rij** toe wanneer de veelvoudige metriek in berekende metrisch inbegrepen zijn. Bijvoorbeeld: **Maximum van de Rij** (*Opbrengsten*, *Orden*, *Bezoeken*) keert de grootste waarde onder die metriek voor elke rij terug.
+**in de Berekende Metrische Bouwer**: Pas **Maximum van de Rij** toe wanneer de veelvoudige metriek in berekende metrisch inbegrepen zijn. Bijvoorbeeld: **Maximum van de Rij** (*Opbrengst*, *Orders*, *Zegelingen*) keert de grootste waarde onder die metriek voor elke rij terug.
 
 >[!TIP]
 >
@@ -515,7 +515,7 @@ Maximaal aantal kolommen per rij.
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL ROW MIN(metric, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ROW MIN(metric, include_zeros)]**
 
 Minimaal van de kolommen van elke rij.
 
@@ -524,9 +524,9 @@ Minimaal van de kolommen van elke rij.
 | metrisch | Vereist minstens één metrisch maar kan om het even welk aantal metriek als parameters nemen. |
 | include_zeros | Of nul-waarden in de berekeningen moeten worden opgenomen. |
 
-**geval van het Gebruik**: Identificeer de laagste waarde over alle metriek in één enkele rij, zoals het vinden welke metrisch (bijvoorbeeld, *Inkomsten*, *Orders*, of *Bezoeken*) de kleinste waarde voor een bepaalde dag of een bepaald segment heeft. Dit helpt de zwakst-presterende metrisch binnen elke rij van gegevens te vlekken.
+**geval van het Gebruik**: Identificeer de laagste waarde over alle metriek in één enkele rij, zoals het vinden welke metrisch (bijvoorbeeld, *Inkomsten*, *Orders*, of *Zittingen*) de kleinste waarde voor een bepaalde dag of een bepaald segment heeft. Dit helpt de zwakst-presterende metrisch binnen elke rij van gegevens te vlekken.
 
-**in de Berekende Metrische Bouwer**: Pas **Minimum van de Rij** toe wanneer het vergelijken van veelvoudige metriek. Bijvoorbeeld: **Minimum van de Rij** (*Opbrengst*, *Orden*, *Bezoeken*) keert de kleinste waarde onder die metriek voor elke rij terug.
+**in de Berekende Metrische Bouwer**: Pas **Minimum van de Rij** toe wanneer het vergelijken van veelvoudige metriek. Bijvoorbeeld: **Minimaal van de Rij** (*Opbrengst*, *Orden*, *Sessies*) keert de kleinste waarde onder die metriek voor elke rij terug.
 
 >[!TIP]
 >
@@ -544,7 +544,7 @@ Minimaal van de kolommen van elke rij.
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL ROW SUM(metric, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL ROW SUM(metric, include_zeros)]**
 
 Som van de kolommen van elke rij.
 
@@ -552,7 +552,7 @@ Som van de kolommen van elke rij.
 |---|---|
 | metrisch | Vereist minstens één metrisch maar kan om het even welk aantal metriek als parameters nemen. |
 
-**geval van het Gebruik**: Voeg samen de waarden van veelvoudige metriek binnen één enkele rij, zoals het samenvatten van *Inkomsten* en *Belasting* toe om totale transactiewaarde te berekenen, of het combineren van *Bezoeken* uit verschillende bronnen. Dit helpt verwante metriek in één totaal consolideren.
+**geval van het Gebruik**: Voeg samen de waarden van veelvoudige metriek binnen één enkele rij, zoals het samenvatten van *Inkomsten* en *Belasting* toe om totale transactiewaarde te berekenen, of het combineren van *Zittingen* uit verschillende bronnen. Dit helpt verwante metriek in één totaal consolideren.
 
 **in de Berekende Metrische Bouwer**: Pas **Som van de Rij** toe om veelvoudige metriek te combineren. Bijvoorbeeld: **de Som van de Rij** (*Ontvangsten*, *Belasting*) voegt die twee metriek voor elke rij in uw uitsplitsing toe.
 
@@ -573,9 +573,9 @@ Som van de kolommen van elke rij.
 <!-- markdownlint-enable MD034 -->
 
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL SQUARE ROOT(metric, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL SQUARE ROOT(metric, include_zeros)]**
 
-[!BADGE &#x200B; Rij &#x200B;]{type="Neutral"} keert de positieve vierkantswortel van een aantal terug. De vierkantswortel van een getal is de waarde van dat getal dat tot de macht 1/2 wordt verheven.
+[!BADGE  Rij ]{type="Neutral"} keert de positieve vierkantswortel van een aantal terug. De vierkantswortel van een getal is de waarde van dat getal dat tot de macht 1/2 wordt verheven.
 
 | Argument | Beschrijving |
 |---|---|
@@ -601,9 +601,9 @@ Som van de kolommen van elke rij.
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL STANDARD DEVIATION(metric, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL STANDARD DEVIATION(metric, include_zeros)]**
 
-[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} keert de standaardafwijking, of de vierkantswortel van de variantie terug, die op een steekproefpopulatie van gegevens wordt gebaseerd.
+[!BADGE  Lijst ]{type="Neutral"} keert de standaardafwijking, of de vierkantswortel van de variantie terug, die op een steekproefpopulatie van gegevens wordt gebaseerd.
 
 | Argument | Beschrijving |
 |---|---|
@@ -612,7 +612,7 @@ Som van de kolommen van elke rij.
 
 **geval van het Gebruik**: Meet hoeveel waarden van het gemiddelde variëren, zoals het evalueren van hoe de verenigbare dagelijkse opbrengst of de bezoeken in tijd zijn. Dit helpt volatiliteit, stabiliteit, of ongebruikelijke schommelingen in prestaties te identificeren.
 
-**in de Berekende Metrische Bouwer**: Pas **StandaardAfwijking** op metrisch als *Inkomsten* of *Bebezoeken* toe om de verspreiding van waarden binnen de geselecteerde uitsplitsing of datumwaaier te berekenen. Bijvoorbeeld: **StandaardAfwijking** (*Inkomsten*) toont hoeveel dagelijkse opbrengst van het gemiddelde afwijkt.
+**in de Berekende Metrische Bouwer**: Pas **StandaardAfwijking** op metrisch als *Inkomsten* of *Zittingen* toe om de verspreiding van waarden binnen de geselecteerde uitsplitsing of datumwaaier te berekenen. Bijvoorbeeld: **StandaardAfwijking** (*Inkomsten*) toont hoeveel dagelijkse opbrengst van het gemiddelde afwijkt.
 
 >[!TIP]
 >
@@ -630,9 +630,9 @@ Som van de kolommen van elke rij.
 
 <!-- markdownlint-enable MD034 -->
 
-![&#x200B; Effect &#x200B;](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANCE(metric, include_zeros)]**
+![ Effect ](/help/assets/icons/Effect.svg) **[!UICONTROL VARIANCE(metric, include_zeros)]**
 
-[!BADGE &#x200B; Lijst &#x200B;]{type="Neutral"} keert de variantie terug die op een steekproefpopulatie van gegevens wordt gebaseerd.
+[!BADGE  Lijst ]{type="Neutral"} keert de variantie terug die op een steekproefpopulatie van gegevens wordt gebaseerd.
 
 | Argument | Beschrijving |
 |---|---|
@@ -652,7 +652,7 @@ De vergelijking voor VARIANCE is:
 
 ![](assets/variance_eq.png){width="100"}
 
-Waar *x* het steekproefmiddel is, [&#x200B; MEAN (*metrisch*) &#x200B;](#mean), en *n* is de steekproefgrootte.
+Waar *x* het steekproefmiddel is, [ MEAN (*metrisch*) ](#mean), en *n* is de steekproefgrootte.
 
 
 Als u een variantie wilt berekenen, bekijkt u een hele kolom met getallen. Van die lijst van aantallen berekent u eerst het gemiddelde. Zodra u het gemiddelde hebt, gaat u door elke ingang en doet het volgende:
