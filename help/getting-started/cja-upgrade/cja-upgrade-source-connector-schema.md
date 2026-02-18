@@ -38,23 +38,23 @@ ht-degree: 0%
 
 U kunt de Analytics-bronconnector gebruiken om Adobe Analytics-rapportsuite-gegevens over te brengen naar Adobe Experience Platform. Deze gegevens kunnen vervolgens worden gebruikt als historische gegevens in Customer Journey Analytics.
 
-Dit proces veronderstelt dat u een douaneschema [ wilt tot stand brengen om met uw implementatie van SDK van het Web van Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) te gebruiken, omdat u een gestroomlijnd schema wilt dat aan de behoeften van uw organisatie en de specifieke toepassingen van het Platform wordt aangepast die u gebruikt.
+Dit proces veronderstelt dat u een douaneschema [&#x200B; wilt tot stand brengen om met uw implementatie van SDK van het Web van Customer Journey Analytics &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) te gebruiken, omdat u een gestroomlijnd schema wilt dat aan de behoeften van uw organisatie en de specifieke toepassingen van het Platform wordt aangepast die u gebruikt.
 
 Als u de Analytics-bronconnector wilt gebruiken om historische gegevens over te brengen naar Customer Journey Analytics, moet u:
 
 1. Maak een aangepast schema voor de bronconnector Analytics, zoals hieronder wordt beschreven.
 
-1. Als u reeds geen Analytics bronschakelaar hebt, [ creeer de de bronschakelaar van de Analyse en kaartgebieden aan uw douaneschema ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
+1. Als u reeds geen Analytics bronschakelaar hebt, [&#x200B; creeer de de bronschakelaar van de Analyse en kaartgebieden aan uw douaneschema &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
 
    of
 
-   Als u reeds een Analytics bronschakelaar hebt, [ kaartgebieden van de bronschakelaar aan uw schema XDM ](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
+   Als u reeds een Analytics bronschakelaar hebt, [&#x200B; kaartgebieden van de bronschakelaar aan uw schema XDM &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
 
 1. [Voeg de gegevensset van de bron van de Analyse aan de verbinding toe](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
 
 ## Creeer een douaneschema voor de bronschakelaar van de Analyse
 
-U zou reeds [ een nieuw douaneschema ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) voor uw implementatie van SDK van het Web van Experience Platform aan gebruik met Customer Journey Analytics moeten hebben gecreeerd. Dit schema moet alle veldgroepen bevatten voor velden waarop u gegevens wilt verzamelen.
+U zou reeds [&#x200B; een nieuw douaneschema &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) voor uw implementatie van SDK van het Web van Experience Platform aan gebruik met Customer Journey Analytics moeten hebben gecreeerd. Dit schema moet alle veldgroepen bevatten voor velden waarop u gegevens wilt verzamelen.
 
 U moet nu die zelfde gebiedsgroepen van uw schema van SDK van het Web gebruiken en hen toevoegen aan een nieuw schema dat u met de Analytics bronschakelaar kunt gebruiken.
 
@@ -66,7 +66,7 @@ Dit schema voor de de bronschakelaar van de Analyse moet bevatten:
 
 Om het douaneschema tot stand te brengen om met de Analytics bronschakelaar te gebruiken:
 
-1. In Adobe Experience Platform, begin creërend een nieuw douaneschema zoals die in [ wordt beschreven creeer een douaneschema om met uw implementatie van SDK van het Web van Customer Journey Analytics te gebruiken ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md).
+1. In Adobe Experience Platform, begin creërend een nieuw douaneschema zoals die in [&#x200B; wordt beschreven creeer een douaneschema om met uw implementatie van SDK van het Web van Customer Journey Analytics te gebruiken &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md).
 
 1. Voeg alle gebiedsgroepen (met inbegrip van om het even welke groepen van het douanegebied) toe die in het schema inbegrepen zijn dat u voor uw implementatie van SDK van het Web creeerde.
 
@@ -74,11 +74,11 @@ Om het douaneschema tot stand te brengen om met de Analytics bronschakelaar te g
 
    Selecteer in de sectie **[!UICONTROL Field groups]** de optie **[!UICONTROL Add]** om een extra veldgroep toe te voegen.
 
-   ![ voeg gebiedsgroep aan schema toe ](assets/schema-add-field-group.png)
+   ![&#x200B; voeg gebiedsgroep aan schema toe &#x200B;](assets/schema-add-field-group.png)
 
 1. Zoek naar en selecteer de **[!UICONTROL Adobe Analytics ExperienceEvent Template]** gebiedsgroep.
 
-   ![ voeg de het gebiedsgroep van Adobe Analytics ExperienceEvent ](assets/schema-experienceevent.png) toe
+   ![&#x200B; voeg de het gebiedsgroep van Adobe Analytics ExperienceEvent &#x200B;](assets/schema-experienceevent.png) toe
 
 1. Selecteer **[!UICONTROL Add field groups]**.
 

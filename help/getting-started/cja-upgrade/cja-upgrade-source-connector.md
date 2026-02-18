@@ -38,7 +38,7 @@ ht-degree: 0%
 
 U kunt de Analytics-bronconnector gebruiken om Adobe Analytics-rapportsuite-gegevens over te brengen naar Adobe Experience Platform. Deze gegevens kunnen vervolgens worden gebruikt als historische gegevens in Customer Journey Analytics.
 
-Dit proces veronderstelt dat u een douaneschema [ wilt tot stand brengen om met uw implementatie van SDK van het Web van Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) te gebruiken, omdat u een gestroomlijnd schema wilt dat aan de behoeften van uw organisatie en de specifieke toepassingen van het Platform wordt aangepast die u gebruikt.
+Dit proces veronderstelt dat u een douaneschema [&#x200B; wilt tot stand brengen om met uw implementatie van SDK van het Web van Customer Journey Analytics &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) te gebruiken, omdat u een gestroomlijnd schema wilt dat aan de behoeften van uw organisatie en de specifieke toepassingen van het Platform wordt aangepast die u gebruikt.
 
 Als u de Analytics-bronconnector wilt gebruiken om historische gegevens over te brengen naar Customer Journey Analytics, moet u:
 
@@ -48,13 +48,13 @@ Als u de Analytics-bronconnector wilt gebruiken om historische gegevens over te 
 
    of
 
-   Als u reeds een Analytics bronschakelaar hebt, [ kaartgebieden van de bronschakelaar aan uw schema van SDK van het douaneWeb ](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
+   Als u reeds een Analytics bronschakelaar hebt, [&#x200B; kaartgebieden van de bronschakelaar aan uw schema van SDK van het douaneWeb &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-from-source-connector.md).
 
 1. [Voeg de gegevensset van de bron van de Analyse aan de verbinding toe](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md)
 
 ## De bronaansluiting voor Analytics en kaartvelden maken
 
-Als uw aangepaste schema is gemaakt, moet u de Adobe Analytics-bronconnector maken die u voor historische gegevens wilt gebruiken. (Voor uitvoerigere, algemene richtlijnen bij het creëren van een bronschakelaar, zie [ een Adobe Analytics bronverbinding in UI ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) creëren.)
+Als uw aangepaste schema is gemaakt, moet u de Adobe Analytics-bronconnector maken die u voor historische gegevens wilt gebruiken. (Voor uitvoerigere, algemene richtlijnen bij het creëren van een bronschakelaar, zie [&#x200B; een Adobe Analytics bronverbinding in UI &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) creëren.)
 
 Een Adobe Analytics-bronconnector maken voor historische gegevens:
 
@@ -64,15 +64,15 @@ Een Adobe Analytics-bronconnector maken voor historische gegevens:
 
 1. Selecteer **[!UICONTROL Add data]** in de tegel Adobe Analytics.
 
-   ![ het venster van Adobe Experience Platform met Bronnen die samen met de toepassingen van Adobe worden geselecteerd en benadrukte gegevens toevoegen.](./assets/sources-overview.png)
+   ![&#x200B; het venster van Adobe Experience Platform met Bronnen die samen met de toepassingen van Adobe worden geselecteerd en benadrukte gegevens toevoegen.](./assets/sources-overview.png)
 
 1. Selecteer **[!UICONTROL Report suite]** en selecteer vervolgens in de lijst met rapportsuites de rapportsuite met de historische gegevens die u in Customer Journey Analytics wilt gebruiken.
 
-   ![ Adobe Experience Platform venster dat de lijst van de Reeksen van het Rapport toont ](./assets/report-suites.png)
+   ![&#x200B; Adobe Experience Platform venster dat de lijst van de Reeksen van het Rapport toont &#x200B;](./assets/report-suites.png)
 
 1. Selecteer **[!UICONTROL Next]** in de rechterbovenhoek van het scherm.
 
-1. Selecteer **[!UICONTROL Custom schema]**, dan selecteren het schema dat u in [ creeerde een douaneschema dat de het gebiedsgroep van Adobe Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md) omvat. <!-- Deleted this, because I changed this from choosing the default schemawe're pointing them now at the schema they just created: "Adobe Experience Platform  automatically creates the schema and the corresponding dataset to map all standard fields from the selected Adobe Analytics report suite." -->
+1. Selecteer **[!UICONTROL Custom schema]**, dan selecteren het schema dat u in [&#x200B; creeerde een douaneschema dat de het gebiedsgroep van Adobe Analytics &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md) omvat. <!-- Deleted this, because I changed this from choosing the default schemawe're pointing them now at the schema they just created: "Adobe Experience Platform  automatically creates the schema and the corresponding dataset to map all standard fields from the selected Adobe Analytics report suite." -->
 
    <!-- add screenshot -->
 
@@ -82,7 +82,7 @@ Een Adobe Analytics-bronconnector maken voor historische gegevens:
 
    1. Selecteer **[!UICONTROL Add new mapping]**.
 
-   ![ gebieden van het kaartschema ](assets/schema-mapping.png)
+   ![&#x200B; gebieden van het kaartschema &#x200B;](assets/schema-mapping.png)
 
    1. Selecteer in **[!UICONTROL Source field]** een Adobe Analytics-veld in de veldgroep Adobe Analytics ExperienceEvent-sjabloon. Selecteer vervolgens in **[!UICONTROL Target field]** het aangepaste veld in het XDM-schema waaraan u het wilt toewijzen.
 
@@ -94,13 +94,13 @@ Een Adobe Analytics-bronconnector maken voor historische gegevens:
 
 1. Geef de gegevensstroom een naam en (optioneel) geef een beschrijving op.
 
-   ![ Adobe Experience Platform venster die de sectie van het detail Dataflow ](./assets/dataflow-detail.png) benadrukt
+   ![&#x200B; Adobe Experience Platform venster die de sectie van het detail Dataflow &#x200B;](./assets/dataflow-detail.png) benadrukt
 
 1. Selecteer **[!UICONTROL Next]** in de rechterbovenhoek van het scherm.
 
 1. Controleer de verbinding en selecteer vervolgens **[!UICONTROL Finish]** .
 
-   ![ Adobe Experience Platform venster die Connect en het type van Gegevens secties voor overzicht benadrukken ](./assets/review.png)
+   ![&#x200B; Adobe Experience Platform venster die Connect en het type van Gegevens secties voor overzicht benadrukken &#x200B;](./assets/review.png)
 
    Nadat de verbinding wordt gecreeerd, wordt de dataflow automatisch gecreeerd om een dataset met de gegevens van Adobe Analytics van uw rapportreeks te bevolken. De gegevensstroom neemt tot 13 maanden historische gegevens voor productiestanddozen op. De back-up van niet-productie sandboxen is beperkt tot drie maanden.
 

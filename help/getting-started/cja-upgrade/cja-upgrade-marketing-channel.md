@@ -25,7 +25,7 @@ ht-degree: 0%
 
 {{upgrade-note-step}}
 
-Wanneer het gebruiken van de de bronschakelaar van de Analyse, stromen de marketing kanaalgegevens in Customer Journey Analytics door die schakelaar. De regels van het Kanaal van de marketing worden gevormd in traditionele Adobe Analytics en sommige regels worden niet gesteund. Voor meer informatie, zie [ de dimensies van het gebruiks marketing kanaal ](/help/use-cases/aa-data/marketing-channels.md).
+Wanneer het gebruiken van de de bronschakelaar van de Analyse, stromen de marketing kanaalgegevens in Customer Journey Analytics door die schakelaar. De regels van het Kanaal van de marketing worden gevormd in traditionele Adobe Analytics en sommige regels worden niet gesteund. Voor meer informatie, zie [&#x200B; de dimensies van het gebruiks marketing kanaal &#x200B;](/help/use-cases/aa-data/marketing-channels.md).
 
 Als u marketingkanalen in Customer Journey Analytics wilt gebruiken wanneer u de Experience Platform Web SDK gebruikt, kunt u afgeleide velden in een gegevensweergave gebruiken om dezelfde marketingkanalen en verwerkingsregels voor Customer Journey Analytics opnieuw te maken.
 
@@ -37,7 +37,7 @@ Als u marketingkanalen in Customer Journey Analytics wilt gebruiken wanneer u de
 
 1. Selecteer in het dialoogvenster **[!UICONTROL Create derived field]** de optie **[!UICONTROL Function templates]** in de vervolgkeuzelijst.
 
-   ![ creeer afgeleide malplaatjes van de gebiedsfunctie ](assets/derived-field-create.png)
+   ![&#x200B; creeer afgeleide malplaatjes van de gebiedsfunctie &#x200B;](assets/derived-field-create.png)
 
 1. Sleep de sjabloon **[!UICONTROL Marketing channels]** naar het lege canvas.
 

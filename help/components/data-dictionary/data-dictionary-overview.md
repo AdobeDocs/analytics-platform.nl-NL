@@ -30,7 +30,7 @@ De beheerders van Analytics zijn verantwoordelijk voor het krommen van informati
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ het woordenboek van Gegevens voor Analysis Workspace ](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; het woordenboek van Gegevens voor Analysis Workspace &#x200B;](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"} voor een demo video.
 
 {{videoaa}}
 
@@ -52,7 +52,7 @@ De informatie die beschikbaar is in het gegevenswoordenboek is:
 
 * Of een component door de systeembeheerder wordt goedgekeurd
 
-Voor informatie over hoe te om tot het Woordenboek van Gegevens en voor details over de informatie toegang te hebben bevat het, zie [ de componenteninformatie van de Mening in het Woordenboek van Gegevens ](/help/components/data-dictionary/view-data-dictionary.md).
+Voor informatie over hoe te om tot het Woordenboek van Gegevens en voor details over de informatie toegang te hebben bevat het, zie [&#x200B; de componenteninformatie van de Mening in het Woordenboek van Gegevens &#x200B;](/help/components/data-dictionary/view-data-dictionary.md).
 
 ## Voordelen voor beheerders
 
@@ -70,32 +70,32 @@ Analysebeheerders kunnen het gegevenswoordenboek voor deze doeleinden gebruiken:
 
   Zo worden updates van componentbeschrijvingen in de gegevensweergave ook weerspiegeld in Analysis Workspace.
 
-  Voor meer informatie over het toevoegen van componentenbeschrijvingen in of Analysis Workspace of in een gegevensmening, zie [ componentenbeschrijvingen ](/help/components/add-component-descriptions.md) toevoegen.
+  Voor meer informatie over het toevoegen van componentenbeschrijvingen in of Analysis Workspace of in een gegevensmening, zie [&#x200B; componentenbeschrijvingen &#x200B;](/help/components/add-component-descriptions.md) toevoegen.
 
 ## Het gegevenswoordenboek openen
 
 U kunt het gegevenswoordenboek op de volgende manieren openen in Analysis Workspace:
 
-![ pictogram van het Woordenboek van Gegevens in het linkerpaneel ](assets/data-dictionary-access.png)
+![&#x200B; pictogram van het Woordenboek van Gegevens in het linkerpaneel &#x200B;](assets/data-dictionary-access.png)
 
-* Van ![ Bladwijzer ](/help/assets/icons/Bookmark.svg) in het knooppaneel.
-
-
-
-* Van ![ Bladwijzer ](/help/assets/icons/Bookmark.svg) binnen info popover van een component.
+* Van ![&#x200B; Bladwijzer &#x200B;](/help/assets/icons/Bookmark.svg) in het knooppaneel.
 
 
-Voor gedetailleerde informatie over de diverse opties beschikbaar in het Woordenboek van Gegevens, zie [ de componenteninformatie van de Mening in het Woordenboek van Gegevens ](/help/components/data-dictionary/view-data-dictionary.md).
+
+* Van ![&#x200B; Bladwijzer &#x200B;](/help/assets/icons/Bookmark.svg) binnen info popover van een component.
+
+
+Voor gedetailleerde informatie over de diverse opties beschikbaar in het Woordenboek van Gegevens, zie [&#x200B; de componenteninformatie van de Mening in het Woordenboek van Gegevens &#x200B;](/help/components/data-dictionary/view-data-dictionary.md).
 
 ## Het gegevenswoordenboek bijwerken en beheren
 
-De beheerders van Customer Journey Analytics zijn verantwoordelijk voor het handhaven van een gezond Woordenboek van Gegevens voor hun organisatie, zoals die in [ wordt beschreven de Gezondheid van het Woordenboek van Gegevens van de Monitor van de Woordenboek ](/help/components/data-dictionary/monitor-data-dictionary-health.md).
+De beheerders van Customer Journey Analytics zijn verantwoordelijk voor het handhaven van een gezond Woordenboek van Gegevens voor hun organisatie, zoals die in [&#x200B; wordt beschreven de Gezondheid van het Woordenboek van Gegevens van de Monitor van de Woordenboek &#x200B;](/help/components/data-dictionary/monitor-data-dictionary-health.md).
 
-Als deel van dit proces, kunnen de beheerders van Customer Journey Analytics informatie over elke component in het gegevenswoordenboek uitgeven, zoals die in [ wordt beschreven geef componenteningangen in het Woordenboek van Gegevens ](/help/components/data-dictionary/edit-entries-data-dictionary.md) uit.
+Als deel van dit proces, kunnen de beheerders van Customer Journey Analytics informatie over elke component in het gegevenswoordenboek uitgeven, zoals die in [&#x200B; wordt beschreven geef componenteningangen in het Woordenboek van Gegevens &#x200B;](/help/components/data-dictionary/edit-entries-data-dictionary.md) uit.
 
 ## Het gegevenswoordenboek verplaatsen, minimaliseren of sluiten
 
-Wanneer u het Woordenboek van Gegevens opent (zoals die in [ wordt beschreven toegang tot het Woordenboek van Gegevens ](#access-the-data-dictionary)), toont het als venster bovenop Analysis Workspace.
+Wanneer u het Woordenboek van Gegevens opent (zoals die in [&#x200B; wordt beschreven toegang tot het Woordenboek van Gegevens &#x200B;](#access-the-data-dictionary)), toont het als venster bovenop Analysis Workspace.
 
 U kunt het venster Gegevenswoordenboek op de volgende manieren bewerken:
 

@@ -27,22 +27,22 @@ De analyse tussen kanalen laat één enkele geconsolideerde mening van klantenge
 
 ## Implementatiestappen
 
-![ stroom van implementatiestappen zoals die in deze sectie wordt beschreven.](../assets/cca-architecture.png)
+![&#x200B; stroom van implementatiestappen zoals die in deze sectie wordt beschreven.](../assets/cca-architecture.png)
 
-1. [ creeer schema&#39;s ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) voor gegevens die moeten worden opgenomen.
-1. [ creeer datasets ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) voor gegevens die moeten worden opgenomen.
-1. [ Ingest gegevens in Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html):
-   1. Op gebeurtenis-gebaseerde gegevens ![ gebeurtenis ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg) van website of mobiele app door de Edge Network of de bron van Analytics schakelaar.
-   2. De gegevens van het profiel ![ profiel ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) (bijvoorbeeld van een systeem van CRM, de toepassing van het vraagcentrum, loyaliteitstoepassing).
-   3. Opzoekgegevens ![ raadpleging ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) (bijvoorbeeld productnaam, categorie van een systeem van de productinformatie).
+1. [&#x200B; creeer schema&#39;s &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) voor gegevens die moeten worden opgenomen.
+1. [&#x200B; creeer datasets &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) voor gegevens die moeten worden opgenomen.
+1. [&#x200B; Ingest gegevens in Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html):
+   1. Op gebeurtenis-gebaseerde gegevens ![&#x200B; gebeurtenis &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg) van website of mobiele app door de Edge Network of de bron van Analytics schakelaar.
+   2. De gegevens van het profiel ![&#x200B; profiel &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) (bijvoorbeeld van een systeem van CRM, de toepassing van het vraagcentrum, loyaliteitstoepassing).
+   3. Opzoekgegevens ![&#x200B; raadpleging &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) (bijvoorbeeld productnaam, categorie van een systeem van de productinformatie).
 
-1. Gebruik een gemeenschappelijke namespaceidentiteitskaart over datasets. Het gebruik [ Stitching ](../../stitching/overview.md) om het even welke op gebeurtenis-gebaseerde dataset ![ gegevens op te heffen verfrist zich ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataRefresh_18_N.svg) met betrekking tot het verstrekken van gemeenschappelijke identiteitskaart op elke rij. Customer Journey Analytics gebruikt momenteel de services Experience Platform Profile of Identity niet voor stitching.
+1. Gebruik een gemeenschappelijke namespaceidentiteitskaart over datasets. Het gebruik [&#x200B; Stitching &#x200B;](../../stitching/overview.md) om het even welke op gebeurtenis-gebaseerde dataset ![&#x200B; gegevens op te heffen verfrist zich &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_DataRefresh_18_N.svg) met betrekking tot het verstrekken van gemeenschappelijke identiteitskaart op elke rij. Customer Journey Analytics gebruikt momenteel de services Experience Platform Profile of Identity niet voor stitching.
 1. Voer om het even welke voorbereiding van douanegegevens uit om een gemeenschappelijke sleutel over tijdreeksdatasets te verzekeren die in Customer Journey Analytics moeten worden opgenomen.
 1. Opzoekgegevens een primaire id geven die kan worden gekoppeld aan een veld in de gebeurtenisgegevens. Telt als rijen in licentie.
 1. Stel dezelfde primaire id voor profielgegevens in als de primaire id van de gebeurtenisgegevens.
-1. [ creeer een verbinding ](../../connections/overview.md) om de relevante datasets van Experience Platform aan Customer Journey Analytics in te voeren.
-1. [ creeer een gegevensmening ](/help/data-views/create-dataview.md) op de verbinding om de specifieke afmetingen en metriek te selecteren die in de mening moeten worden omvat. Attributie- en toewijzingsinstellingen worden ook geconfigureerd in de gegevensweergave. Deze instellingen worden tijdens het rapport berekend.
-1. [ creeer een project ](/help/analysis-workspace/home.md) om dashboards en rapporten binnen Analysis Workspace te vormen.
+1. [&#x200B; creeer een verbinding &#x200B;](../../connections/overview.md) om de relevante datasets van Experience Platform aan Customer Journey Analytics in te voeren.
+1. [&#x200B; creeer een gegevensmening &#x200B;](/help/data-views/create-dataview.md) op de verbinding om de specifieke afmetingen en metriek te selecteren die in de mening moeten worden omvat. Attributie- en toewijzingsinstellingen worden ook geconfigureerd in de gegevensweergave. Deze instellingen worden tijdens het rapport berekend.
+1. [&#x200B; creeer een project &#x200B;](/help/analysis-workspace/home.md) om dashboards en rapporten binnen Analysis Workspace te vormen.
 
 ## Overwegingen
 

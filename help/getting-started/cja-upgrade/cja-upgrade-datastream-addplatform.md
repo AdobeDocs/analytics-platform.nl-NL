@@ -31,7 +31,7 @@ Een gegevensstroom zou reeds moeten bestaan alvorens u de stappen in deze sectie
 
 * Als uw Adobe Analytics-implementatie gebruikmaakt van de extensie Web SDK of Web SDK, was de gegevensstroom beschikbaar voor uw Adobe Analytics-omgeving, voorafgaand aan het upgradeproces.
 
-* Voor andere implementaties van Adobe Analytics, maakt het creëren van een gegevensstroom deel uit van het verbeteringsproces, zoals die in [ wordt beschreven creeer een gegevensstroom om met Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md) te gebruiken.
+* Voor andere implementaties van Adobe Analytics, maakt het creëren van een gegevensstroom deel uit van het verbeteringsproces, zoals die in [&#x200B; wordt beschreven creeer een gegevensstroom om met Customer Journey Analytics &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-datastream.md) te gebruiken.
 
 Met de beschikbare gegevensstroom, moet u Platform als dienst toevoegen:
 
@@ -49,12 +49,12 @@ Met de beschikbare gegevensstroom, moet u Platform als dienst toevoegen:
 
    1. Selecteer de gegevensset in de lijst [!UICONTROL Event Dataset] .
 
-      ![ De dienst van AEP DataStream ](./assets/datastream-aep-service.png)
+      ![&#x200B; De dienst van AEP DataStream &#x200B;](./assets/datastream-aep-service.png)
 
    1. Laat de andere instellingen staan en selecteer **[!UICONTROL Save]** om de gegevensstroom op te slaan.
 
    Uw gegevensstroom is nu geconfigureerd om de gegevens die van uw website zijn verzameld door te sturen naar uw gegevensset in Adobe Experience Platform.
 
-   Zie [ Overzicht van gegevensstromen ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html) voor meer informatie over hoe te om een gegevensstroom te vormen en hoe te om gevoelige gegevens te behandelen.
+   Zie [&#x200B; Overzicht van gegevensstromen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html) voor meer informatie over hoe te om een gegevensstroom te vormen en hoe te om gevoelige gegevens te behandelen.
 
 {{upgrade-final-step}}

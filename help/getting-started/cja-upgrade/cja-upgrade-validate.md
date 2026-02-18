@@ -29,13 +29,13 @@ U kunt controleren of de verbinding actief is en of de gegevens doorlopen in de 
 
 1. Selecteer in Customer Journey Analytics het tabblad Verbindingen.
 
-   ![ lijstmening ](assets/list-view.png)
+   ![&#x200B; lijstmening &#x200B;](assets/list-view.png)
 
-1. Selecteer de [ verbinding die u ](/help/getting-started/cja-upgrade/cja-upgrade-connection.md) vormde.
+1. Selecteer de [&#x200B; verbinding die u &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-connection.md) vormde.
 
-   ![ Al datasetvenster dat widgets en montages ](assets/conn-details.png) toont
+   ![&#x200B; Al datasetvenster dat widgets en montages &#x200B;](assets/conn-details.png) toont
 
-1. Zie [ details van de Verbinding ](/help/connections/manage-connections.md#manage-connections) in [ verbindingen ](/help/connections/manage-connections.md) voor informatie over de details beschikbaar over elke verbinding beheren.
+1. Zie [&#x200B; details van de Verbinding &#x200B;](/help/connections/manage-connections.md#manage-connections) in [&#x200B; verbindingen &#x200B;](/help/connections/manage-connections.md) voor informatie over de details beschikbaar over elke verbinding beheren.
 
 {{upgrade-final-step}}
 

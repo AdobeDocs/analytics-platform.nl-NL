@@ -40,17 +40,17 @@ Als uw organisatie reeds aan Customer Journey Analytics gebruikend slechts de de
 
 ## Voor- en nadelen van het exclusief gebruiken van de bronconnector Analytics
 
-Voor informatie over de voordelen en de nadelen van het gebruiken van de Analyse bronschakelaar, zie [ Gebruik de Analytics bronschakelaar exclusief om aan Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-alternative-source-connector.md) te bevorderen.
+Voor informatie over de voordelen en de nadelen van het gebruiken van de Analyse bronschakelaar, zie [&#x200B; Gebruik de Analytics bronschakelaar exclusief om aan Customer Journey Analytics &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-alternative-source-connector.md) te bevorderen.
 
 ## Overgang van de de bronschakelaar van de Analyse aan het Web SDK
 
 Na is het proces op hoog niveau voor het overschakelen van uitsluitend het gebruiken van de Analytics bronschakelaar aan een implementatie die van zowel de Analytics bronschakelaar als een implementatie van SDK van het Web wordt samengesteld:
 
-1. Creeer een implementatie van SDK van het Web, zoals die in [ wordt beschreven Gedetailleerde geadviseerde verbeteringsstappen ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#detailed-recommended-upgrade-steps) in het artikel, [ Verbetering van Adobe Analytics aan Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md).
+1. Creeer een implementatie van SDK van het Web, zoals die in [&#x200B; wordt beschreven Gedetailleerde geadviseerde verbeteringsstappen &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md#detailed-recommended-upgrade-steps) in het artikel, [&#x200B; Verbetering van Adobe Analytics aan Customer Journey Analytics &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-recommendations.md).
 
    Nadat de implementatie van SDK van het Web wordt gevormd, ga met de volgende stappen verder.
 
-1. [ creeer een schema XDM voor de bron van Analytics schakelaar ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md).
+1. [&#x200B; creeer een schema XDM voor de bron van Analytics schakelaar &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-schema.md).
 
 1. Wijs elke afmeting van Adobe Analytics van uw bron van Analytics aan de afmeting in het schema van SDK van het Web toe.
 
@@ -58,7 +58,7 @@ Na is het proces op hoog niveau voor het overschakelen van uitsluitend het gebru
 
    1. Selecteer **[!UICONTROL Add new mapping]**.
 
-      ![ gebieden van het kaartschema ](assets/schema-mapping.png)
+      ![&#x200B; gebieden van het kaartschema &#x200B;](assets/schema-mapping.png)
 
    1. Selecteer in **[!UICONTROL Source field]** een Adobe Analytics-veld in de veldgroep Adobe Analytics ExperienceEvent-sjabloon. Selecteer vervolgens in **[!UICONTROL Target field]** het XDM-veld waaraan u het wilt toewijzen.
 
@@ -66,12 +66,12 @@ Na is het proces op hoog niveau voor het overschakelen van uitsluitend het gebru
 
 1. Voeg de dataset toe die automatisch met uw originele de bronschakelaar van de Analyse aan uw verbinding van Customer Journey Analytics werd gecreeerd.
 
-   Voor meer informatie, zie [ de dataset van uw huidige Analytics bronschakelaar aan de verbinding ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md) toevoegen.
+   Voor meer informatie, zie [&#x200B; de dataset van uw huidige Analytics bronschakelaar aan de verbinding &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-source-connector-dataset.md) toevoegen.
 
-1. (Voorwaardelijk) als u raadplegingsdatasets gebruikt, moet u de raadplegingsdataset tot stand brengen en het toevoegen aan uw verbinding. Voor meer informatie, zie [ raadplegingsdatasets creëren om gegevens in Customer Journey Analytics ](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md) te classificeren.
+1. (Voorwaardelijk) als u raadplegingsdatasets gebruikt, moet u de raadplegingsdataset tot stand brengen en het toevoegen aan uw verbinding. Voor meer informatie, zie [&#x200B; raadplegingsdatasets creëren om gegevens in Customer Journey Analytics &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-dataset-lookup.md) te classificeren.
 
 1. Verwijder de originele bronaansluiting voor Analytics. <!-- need to add steps somewhere about how to do this -->
 
-1. [ creeer een nieuwe de bronschakelaar van de Analyse en kaartgebieden ](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
+1. [&#x200B; creeer een nieuwe de bronschakelaar van de Analyse en kaartgebieden &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-source-connector.md).
 
 {{upgrade-final-step}}

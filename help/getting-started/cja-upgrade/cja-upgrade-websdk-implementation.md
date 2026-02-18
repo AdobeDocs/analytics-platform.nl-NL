@@ -65,10 +65,10 @@ Het aanbevolen proces om van Adobe Analytics naar Customer Journey Analytics te 
 
 Er zijn drie ondersteunde manieren om Adobe Experience Platform Web SDK te gebruiken:
 
-* [ de markeringsuitbreiding van SDK van het Web ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/extension): Adobe adviseert gebruikend deze methode. Installeer een tagloader op uw site en gebruik vervolgens de gebruikersinterface van de Adobe Experience Platform-gegevensverzameling om uw implementatie te configureren.
+* [&#x200B; de markeringsuitbreiding van SDK van het Web &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/extension): Adobe adviseert gebruikend deze methode. Installeer een tagloader op uw site en gebruik vervolgens de gebruikersinterface van de Adobe Experience Platform-gegevensverzameling om uw implementatie te configureren.
 
-* [ de bibliotheek van JavaScript van SDK van het Web ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library): Verwijzing een CDN-ontvangen bibliotheekdossier, of gastheer het bibliotheekdossier gebruikend uw eigen infrastructuur. Aanroepen vanuit de code op uw site naar de bibliotheek uitvoeren.
+* [&#x200B; de bibliotheek van JavaScript van SDK van het Web &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library): Verwijzing een CDN-ontvangen bibliotheekdossier, of gastheer het bibliotheekdossier gebruikend uw eigen infrastructuur. Aanroepen vanuit de code op uw site naar de bibliotheek uitvoeren.
 
-* [ NPM ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/npm): Installeer het Web SDK op uw plaats gebruikend NPM pakketmanager.
+* [&#x200B; NPM &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/npm): Installeer het Web SDK op uw plaats gebruikend NPM pakketmanager.
 
-Voor meer informatie, zie [ het installatieoverzicht van SDK van het Web ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/overview) in de Gids van SDK van het Web van Experience Platform.
+Voor meer informatie, zie [&#x200B; het installatieoverzicht van SDK van het Web &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/overview) in de Gids van SDK van het Web van Experience Platform.
