@@ -41,12 +41,12 @@ Uw gegevensstroom instellen:
 
 1. Selecteer in Adobe Experience Platform **[!UICONTROL Datastreams]** in [!UICONTROL DATA COLLECTION] in de linkertrack.
 
-1. Selecteer **[!UICONTROL New Datastream]** .
+1. Selecteer **[!UICONTROL New Datastream]**.
 
 1. Geef een naam en beschrijf de gegevensstroom. Selecteer het schema in de lijst [!UICONTROL Event Schema] .
 
-   ![&#x200B; Nieuwe DataStream &#x200B;](assets/new-datastream.png)
+   ![ Nieuwe DataStream ](assets/new-datastream.png)
 
-1. Selecteer **[!UICONTROL Save]** .
+1. Selecteer **[!UICONTROL Save]**.
 
 {{upgrade-final-step}}

@@ -25,11 +25,11 @@ ht-degree: 0%
 
 {{upgrade-note-step}}
 
-Na [&#x200B; het creëren van de markering en het toevoegen van de uitbreiding van SDK van het Web &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md), moet u het met gegevenselementen en regels vormen, volgens hoe u uw plaats wilt volgen en gegevens verzenden naar Adobe Experience Platform. Nadat u gegevenselementen en regels voor uw markering vormt, kunt u het bouwen en publiceren.
+Na [ het creëren van de markering en het toevoegen van de uitbreiding van SDK van het Web ](/help/getting-started/cja-upgrade/cja-upgrade-tag-property.md), moet u het met gegevenselementen en regels vormen, volgens hoe u uw plaats wilt volgen en gegevens verzenden naar Adobe Experience Platform. Nadat u gegevenselementen en regels voor uw markering vormt, kunt u het bouwen en publiceren.
 
 ## Gegevenselementen configureren
 
-Gegevenselementen zijn de bouwstenen voor uw gegevenswoordenboek (of gegevenskaart). Gebruik gegevenselementen om gegevens te verzamelen, te organiseren en te leveren over marketing- en advertentietechnologie. U stelt gegevenselementen in uw tag in die worden gelezen van uw gegevenslaag en die kunnen worden gebruikt om gegevens naar Adobe Experience Platform te verzenden. (Voor meer informatie over gegevenselementen, zie [&#x200B; elementen van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/ui/data-elements) in de Documentatie van Markeringen.)
+Gegevenselementen zijn de bouwstenen voor uw gegevenswoordenboek (of gegevenskaart). Gebruik gegevenselementen om gegevens te verzamelen, te organiseren en te leveren over marketing- en advertentietechnologie. U stelt gegevenselementen in uw tag in die worden gelezen van uw gegevenslaag en die kunnen worden gebruikt om gegevens naar Adobe Experience Platform te verzenden. (Voor meer informatie over gegevenselementen, zie [ elementen van Gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements) in de Documentatie van Markeringen.)
 
 De volgende secties beschrijven voorgestelde gegevenselementen en andere gemeenschappelijke gegevenselementen die u kunt vormen.
 
@@ -37,7 +37,7 @@ Er zijn verschillende soorten gegevenselementen. Twee gemeenschappelijke gegeven
 
 Nadat u deze twee gegevenselementen vormt, kunt u extra gegevenselementen voor de specifieke gegevens vormen u wilt vangen.
 
-Tot slot nadat u al uw gewenste gegevenselementen bepaalt, moet u de gegevenselementen aan het [&#x200B; schema toewijzen u &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) vroeger creeerde. Hiertoe definieert u een XDM-gegevenselement dat een representatie van uw XDM-schema biedt.
+Tot slot nadat u al uw gewenste gegevenselementen bepaalt, moet u de gegevenselementen aan het [ schema toewijzen u ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) vroeger creeerde. Hiertoe definieert u een XDM-gegevenselement dat een representatie van uw XDM-schema biedt.
 
 <!-- Assigning data elements to an XDM object. All of the available XDM objects are based on the schema -->
 
@@ -59,7 +59,7 @@ Een gegevenselement voor de paginanaam maken:
 
 1. Selecteer **[!UICONTROL Data Elements]** in het linkerspoor.
 
-1. Selecteer **[!UICONTROL Add Data Element]** .
+1. Selecteer **[!UICONTROL Add Data Element]**.
 
 1. Geef in het dialoogvenster **[!UICONTROL Create Data Element]** de volgende informatie op:
 
@@ -71,17 +71,17 @@ Een gegevenselement voor de paginanaam maken:
 
    * **[!UICONTROL Attribute]**: selecteer **[!UICONTROL Title]** in de lijst.
 
-     ![&#x200B; creeer het Element van de Datum gebruikend Info van de Pagina &#x200B;](assets/create-dataelement-1.png)
+     ![ creeer het Element van de Datum gebruikend Info van de Pagina ](assets/create-dataelement-1.png)
 
      U had ook de waarde van een variabele in uw gegevenslaag kunnen gebruiken, bijvoorbeeld `pageName` en het gegevenstype [!UICONTROL JavaScript Variable] voor gegevenselementen om het gegevenselement te definiëren.
 
-     ![&#x200B; creeer het Element van Gegevens gebruikend Variabele JavaScript &#x200B;](assets/create-dataelement-2.png)
+     ![ creeer het Element van Gegevens gebruikend Variabele JavaScript ](assets/create-dataelement-2.png)
 
-1. Selecteer **[!UICONTROL Save]** .
+1. Selecteer **[!UICONTROL Save]**.
 
    U wilt nu een gegevenselement instellen dat verwijst naar de Experience Cloud-id die automatisch wordt verstrekt door de Adobe Experience Platform Web SDK en beschikbaar is via de Experience Cloud ID Service-extensie.
 
-1. Ga met [&#x200B; ECID gegevenselement &#x200B;](#ecid-data-element) verder.
+1. Ga met [ ECID gegevenselement ](#ecid-data-element) verder.
 
 #### ECID-gegevenselement
 
@@ -109,7 +109,7 @@ Een ECID-gegevenselement maken:
 
 1. Selecteer **[!UICONTROL Data Elements]** in het linkerspoor.
 
-1. Selecteer **[!UICONTROL Add Data Element]** .
+1. Selecteer **[!UICONTROL Add Data Element]**.
 
 1. Geef in het dialoogvenster **[!UICONTROL Create Data Element]** de volgende informatie op:
 
@@ -119,15 +119,15 @@ Een ECID-gegevenselement maken:
 
    * **[!UICONTROL Data Element Type]**: selecteer **[!UICONTROL ECID]** in de lijst.
 
-     ![&#x200B; ECID het Element van Gegevens &#x200B;](assets/ecid-dataelement.png)
+     ![ ECID het Element van Gegevens ](assets/ecid-dataelement.png)
 
-1. Selecteer **[!UICONTROL Save]** .
+1. Selecteer **[!UICONTROL Save]**.
 
-1. Ga met [&#x200B; verder creeer extra gegevenselementen &#x200B;](#create-additional-data-elements).
+1. Ga met [ verder creeer extra gegevenselementen ](#create-additional-data-elements).
 
 ### Aanvullende gegevenselementen maken
 
-Maak een gegevenselement voor elk type gegevens dat u wilt verzamelen. Gebruik het zelfde proces dat in [&#x200B; wordt beschreven het gegevenselement van de Naam van de Pagina &#x200B;](#page-name-data-element) en [&#x200B; ECID gegevenselement &#x200B;](#ecid-data-element) om elk extra gegevenselement tot stand te brengen.
+Maak een gegevenselement voor elk type gegevens dat u wilt verzamelen. Gebruik het zelfde proces dat in [ wordt beschreven het gegevenselement van de Naam van de Pagina ](#page-name-data-element) en [ ECID gegevenselement ](#ecid-data-element) om elk extra gegevenselement tot stand te brengen.
 
 De gegevenselementen die u creeert zouden een correlerend gebied in uw schema moeten hebben.
 
@@ -157,11 +157,11 @@ De gemeenschappelijke gegevenselementen variëren afhankelijk van industrie en b
 
 * Type behandeling
 
-Nadat u alle gegevenselementen creeert die door uw organisatie voor uw implementatie worden vereist, ga met [&#x200B; XDM objecten gegevenselement &#x200B;](#xdm-object-data-element) verder.
+Nadat u alle gegevenselementen creeert die door uw organisatie voor uw implementatie worden vereist, ga met [ XDM objecten gegevenselement ](#xdm-object-data-element) verder.
 
 ### XDM-objectgegevenselement
 
-Tot slot wilt u nu om het even welk gegevenselement in kaart brengen dat u aan het [&#x200B; schema creeerde u &#x200B;](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) vroeger creeerde. Hiertoe definieert u een XDM-objectelement dat een representatie van uw XDM-schema biedt.
+Tot slot wilt u nu om het even welk gegevenselement in kaart brengen dat u aan het [ schema creeerde u ](/help/getting-started/cja-upgrade/cja-upgrade-schema-create.md) vroeger creeerde. Hiertoe definieert u een XDM-objectelement dat een representatie van uw XDM-schema biedt.
 
 Een XDM-objectelement definiëren:
 
@@ -173,7 +173,7 @@ Een XDM-objectelement definiëren:
 
 1. Selecteer **[!UICONTROL Data Elements]** in het linkerspoor.
 
-1. Selecteer **[!UICONTROL Add Data Element]** .
+1. Selecteer **[!UICONTROL Add Data Element]**.
 
 1. Geef in het dialoogvenster **[!UICONTROL Create Data Element]** de volgende informatie op:
 
@@ -189,17 +189,17 @@ Een XDM-objectelement definiëren:
 
 1. Wijs het kenmerk `identification > core > ecid`, dat in uw schema is gedefinieerd, toe aan het gegevenselement ECID. Selecteer het cilinderpictogram om het ECID-gegevenselement gemakkelijk te kiezen in de lijst met gegevenselementen.
 
-   ![&#x200B; Uitgezocht ECID het Element van Gegevens &#x200B;](assets/pick-ecid-dataelement.png)
+   ![ Uitgezocht ECID het Element van Gegevens ](assets/pick-ecid-dataelement.png)
 
-   ![&#x200B; het Element van Gegevens van de Kaart ECID &#x200B;](assets/map-ecid.png)
+   ![ het Element van Gegevens van de Kaart ECID ](assets/map-ecid.png)
 
 1. Wijs het kenmerk `web > webPageDetails > name`, dat in uw schema is gedefinieerd, toe aan het gegevenselement Paginanaam.
 
-   ![&#x200B; het Element van de Gegevens van de Naam van de Pagina van de Kaart &#x200B;](assets/map-pagename.png)
+   ![ het Element van de Gegevens van de Naam van de Pagina van de Kaart ](assets/map-pagename.png)
 
-1. Selecteer **[!UICONTROL Save]** .
+1. Selecteer **[!UICONTROL Save]**.
 
-1. Ga met [&#x200B; verder vormen regels &#x200B;](#configure-rules).
+1. Ga met [ verder vormen regels ](#configure-rules).
 
 ## **vorm regels**
 
@@ -213,7 +213,7 @@ Een regel definiëren:
 >
 >U kunt regels op verschillende manieren in uw tag gebruiken om variabelen te bewerken (met behulp van uw gegevenselementen).
 >
->Zie [&#x200B; Regels &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=nl-NL) voor meer informatie.
+>Zie [ Regels ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html) voor meer informatie.
 
 1. Meld u aan bij experience.adobe.com met uw Adobe ID-referenties.
 
@@ -223,7 +223,7 @@ Een regel definiëren:
 
 1. Selecteer **[!UICONTROL Rules]** in het linkerspoor.
 
-1. Selecteer **[!UICONTROL Add Rule]** .
+1. Selecteer **[!UICONTROL Add Rule]**.
 
 1. Geef in het dialoogvenster **[!UICONTROL Create Rule]** de volgende informatie op:
 
@@ -235,7 +235,7 @@ Een regel definiëren:
 
       * **[!UICONTROL Event Type]**: selecteer **[!UICONTROL Window Loaded]** in de lijst.
 
-        ![&#x200B; Regel - de Configuratie van de Gebeurtenis &#x200B;](assets/event-windowloaded-pageview.png)
+        ![ Regel - de Configuratie van de Gebeurtenis ](assets/event-windowloaded-pageview.png)
 
    * **[!UICONTROL Actions]**: Selecteer **[!UICONTROL + Add]** . Geef vervolgens in het dialoogvenster [!UICONTROL Action Configuration] de volgende informatie op. Selecteer **[!UICONTROL Keep Changes]** wanneer u klaar bent.
 
@@ -247,25 +247,25 @@ Een regel definiëren:
 
       * **[!UICONTROL XDM data]**: Selecteer het cilinderpictogram en selecteer vervolgens **[!UICONTROL XDM - Page View]** in de lijst met gegevenselementen.
 
-        ![&#x200B; Regel - de Configuratie van de Actie &#x200B;](assets/action-pageview-xdm.png)
+        ![ Regel - de Configuratie van de Actie ](assets/action-pageview-xdm.png)
 
         Uw regel moet er als volgt uitzien:
 
-        ![&#x200B; creeer Regel &#x200B;](assets/rule-pageview.png)
+        ![ creeer Regel ](assets/rule-pageview.png)
 
-1. Selecteer **[!UICONTROL Save]** .
+1. Selecteer **[!UICONTROL Save]**.
 
 1. Herhaal dit proces voor elke regel die u aan uw site wilt toevoegen.
 
-   Voor meer informatie over regels, zie [&#x200B; Regels &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/ui/rules) in de Documentatie van Markeringen.
+   Voor meer informatie over regels, zie [ Regels ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules) in de Documentatie van Markeringen.
 
-1. Ga met [&#x200B; verder bouw en publiceer uw markering &#x200B;](#build-and-publish-your-tag).
+1. Ga met [ verder bouw en publiceer uw markering ](#build-and-publish-your-tag).
 
 ## Uw tag maken en publiceren
 
 Nadat u gegevenselementen en regels hebt gedefinieerd, moet u de tag maken en publiceren. Wanneer u een bibliotheek maakt, moet u deze toewijzen aan een omgeving. De uitbreidingen, de regels, en de gegevenselementen van de bouwstijl worden dan gecompileerd en in het toegewezen milieu geplaatst. Elke omgeving bevat een unieke insluitcode waarmee u de toegewezen build in uw site kunt integreren.
 
-Adobe Experience Platform-tags ondersteunen eenvoudige tot complexe publicatieworkflows die geschikt zijn voor uw implementatie van Adobe Experience Platform Web SDK. Zie [&#x200B; het Publiceren overzicht &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=nl-NL) voor meer informatie.
+Adobe Experience Platform-tags ondersteunen eenvoudige tot complexe publicatieworkflows die geschikt zijn voor uw implementatie van Adobe Experience Platform Web SDK. Zie [ het Publiceren overzicht ](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html) voor meer informatie.
 
 Om uw markering te bouwen en te publiceren:
 
@@ -277,7 +277,7 @@ Om uw markering te bouwen en te publiceren:
 
 1. Selecteer **[!UICONTROL Publishing Flow]** in het linkerspoor.
 
-1. Selecteer **[!UICONTROL Add Library]** .
+1. Selecteer **[!UICONTROL Add Library]**.
 
 1. Geef in het dialoogvenster **[!UICONTROL Create Library]** de volgende informatie op:
 
@@ -285,17 +285,17 @@ Om uw markering te bouwen en te publiceren:
 
    * **[!UICONTROL Environment]**: selecteer **[!UICONTROL Development (development)]** in de lijst.
 
-1. Selecteer **[!UICONTROL + Add All Changed Resources]** .
+1. Selecteer **[!UICONTROL + Add All Changed Resources]**.
 
-   ![&#x200B; publiceer - creeer Bibliotheek &#x200B;](assets/create-library-aep.png)
+   ![ publiceer - creeer Bibliotheek ](assets/create-library-aep.png)
 
-1. Selecteer **[!UICONTROL Save & Build to Development]** .
+1. Selecteer **[!UICONTROL Save & Build to Development]**.
 
    Uw tag wordt opgeslagen en gemaakt voor uw ontwikkelomgeving. Een groene stip geeft aan dat uw tag met succes is opgebouwd in uw ontwikkelomgeving.
 
 1. U kunt **[!UICONTROL ...]** selecteren om de bibliotheek opnieuw samen te stellen of de bibliotheek naar een testomgeving of productieomgeving te verplaatsen.
 
-   ![&#x200B; publiceer - bouwt Bibliotheek &#x200B;](assets/build-library.png)
+   ![ publiceer - bouwt Bibliotheek ](assets/build-library.png)
 
 {{upgrade-final-step}}
 

@@ -12,19 +12,19 @@ ht-degree: 0%
 
 # Metrisch type en kenmerk
 
-U kunt metrisch type en [&#x200B; attributiemodel &#x200B;](#attribution-models) voor metrisch in een berekende metrische definitie vormen.
+U kunt metrisch type en [ attributiemodel ](#attribution-models) voor metrisch in een berekende metrische definitie vormen.
 
-1. Selecteer ![&#x200B; Plaatsend &#x200B;](/help/assets/icons/Setting.svg) in de metrische component.
+1. Selecteer ![ Plaatsend ](/help/assets/icons/Setting.svg) in de metrische component.
 1. In het dialoogvenster Pop-up:
 
-   ![&#x200B; Metrisch type en attributie &#x200B;](assets/cm-type-alloc.png)
+   ![ Metrisch type en attributie ](assets/cm-type-alloc.png)
 
    * Geef de waarde **[!UICONTROL Metric type]** op:
 
      | Metrisch type | Definitie |
      |---|---|
-     | **[!UICONTROL Standard]** | Als een formule uit één enkele standaardmetrische norm bestaat, toont het identieke gegevens aan zijn niet-berekende-metrische tegenhanger. Standaardmetriek zijn handig om berekende metriek te maken die specifiek zijn voor elk afzonderlijk regelitem. <p>Bijvoorbeeld, ![&#x200B; &#x200B;](/help/assets/icons/Event.svg) **[!UICONTROL Orders]** de Gebeurtenis van 0&rbrace; ![&#x200B; verdeelt &#x200B;](/help/assets/icons/Divide.svg) Gebeurtenis ![&#x200B; &#x200B;](/help/assets/icons/Event.svg) neemt de orden voor dat specifieke lijnpunt en verdeelt het door het aantal zittingen voor dat specifieke lijnpunt.**[!UICONTROL Sessions]** |
-     | **[!UICONTROL Grand total]** | Gebruik **[!UICONTROL Grand total]** voor de rapportageperiode in elk regelitem. Als een formule uit één enkel Eindtotaal metrisch bestaat, toont berekende metrisch het zelfde Grote totale aantal op elk lijnpunt. De grote totale metriek zijn nuttig wanneer u berekende metriek wilt tot stand brengen die tegen totale gegevens vergelijkt. <p>Bijvoorbeeld, ![&#x200B; de Gebeurtenis van 0&rbrace; &#x200B;](/help/assets/icons/Event.svg) **[!UICONTROL Orders]** verdeelt ![&#x200B; &#x200B;](/help/assets/icons/Divide.svg) Gebeurtenis ![&#x200B; &#x200B;](/help/assets/icons/Event.svg) toont het aandeel van orden tegen alle zittingen, niet alleen de zittingen aan het specifieke lijnpunt. **[!UICONTROL Total Sessions]** In dit voorbeeld, specificeert u **[!UICONTROL Grand Total]** voor de ![&#x200B; Gebeurtenis &#x200B;](/help/assets/icons/Event.svg) **[!UICONTROL Sessions]** metrisch in uw berekende metrisch, die het automatisch in ![&#x200B; Gebeurtenis &#x200B;](/help/assets/icons/Event.svg) **[!UICONTROL Total Sessions]** zal veranderen. |
+     | **[!UICONTROL Standard]** | Als een formule uit één enkele standaardmetrische norm bestaat, toont het identieke gegevens aan zijn niet-berekende-metrische tegenhanger. Standaardmetriek zijn handig om berekende metriek te maken die specifiek zijn voor elk afzonderlijk regelitem. <p>Bijvoorbeeld, ![ ](/help/assets/icons/Event.svg) **[!UICONTROL Orders]** de Gebeurtenis van 0} ![ verdeelt ](/help/assets/icons/Divide.svg) Gebeurtenis ![ ](/help/assets/icons/Event.svg) neemt de orden voor dat specifieke lijnpunt en verdeelt het door het aantal zittingen voor dat specifieke lijnpunt.**[!UICONTROL Sessions]** |
+     | **[!UICONTROL Grand total]** | Gebruik **[!UICONTROL Grand total]** voor de rapportageperiode in elk regelitem. Als een formule uit één enkel Eindtotaal metrisch bestaat, toont berekende metrisch het zelfde Grote totale aantal op elk lijnpunt. De grote totale metriek zijn nuttig wanneer u berekende metriek wilt tot stand brengen die tegen totale gegevens vergelijkt. <p>Bijvoorbeeld, ![ de Gebeurtenis van 0} ](/help/assets/icons/Event.svg) **[!UICONTROL Orders]** verdeelt ![ ](/help/assets/icons/Divide.svg) Gebeurtenis ![ ](/help/assets/icons/Event.svg) toont het aandeel van orden tegen alle zittingen, niet alleen de zittingen aan het specifieke lijnpunt. **[!UICONTROL Total Sessions]** In dit voorbeeld, specificeert u **[!UICONTROL Grand Total]** voor de ![ Gebeurtenis ](/help/assets/icons/Event.svg) **[!UICONTROL Sessions]** metrisch in uw berekende metrisch, die het automatisch in ![ Gebeurtenis ](/help/assets/icons/Event.svg) **[!UICONTROL Total Sessions]** zal veranderen. |
 
    * Geef **[!UICONTROL Attribution]** op.
 
@@ -33,15 +33,15 @@ U kunt metrisch type en [&#x200B; attributiemodel &#x200B;](#attribution-models)
          * Schakel **[!UICONTROL Use non-default attribution model]** uit om het standaard kolomkenmerkingsmodel, Last Touch, te gebruiken met een terugkijkvenster van 30 dagen.
          * Schakel **[!UICONTROL Use non-default attribution model]** in. In het dialoogvenster **[!UICONTROL Column attribution model]**
 
-            * Selecteer a **[!UICONTROL Model]** van de [&#x200B; attributiemodellen &#x200B;](#attribution-models).
-            * Selecteer a **[!UICONTROL Container]** van de [&#x200B; container &#x200B;](#container) opties.
-            * Selecteer a **[!UICONTROL Lookback window]** van de [&#x200B; raadplegingsvenster &#x200B;](#lookback-window) opties. Als u **[!UICONTROL Custom Time]** selecteert, kunt u de tijdsperiode definiëren in **[!UICONTROL Minute(s)]** tot **[!UICONTROL Quarter(s)]** .
+            * Selecteer a **[!UICONTROL Model]** van de [ attributiemodellen ](#attribution-models).
+            * Selecteer a **[!UICONTROL Container]** van de [ container ](#container) opties.
+            * Selecteer a **[!UICONTROL Lookback window]** van de [ raadplegingsvenster ](#lookback-window) opties. Als u **[!UICONTROL Custom Time]** selecteert, kunt u de tijdsperiode definiëren in **[!UICONTROL Minute(s)]** tot **[!UICONTROL Quarter(s)]** .
 
       1. Selecteer **[!UICONTROL Apply]** om het niet-standaard toewijzingsmodel toe te passen. Selecteer Annuleren om te annuleren.
 
      Als u al een niet-standaard toewijzingsmodel hebt gedefinieerd, selecteert u **[!UICONTROL Edit]** om de selectie te wijzigen.
 
-Zie [&#x200B; Voorbeeld &#x200B;](#example) voor een voorbeeld om een attributiemodel, container, en raadplegingsvenster te gebruiken.
+Zie [ Voorbeeld ](#example) voor een voorbeeld om een attributiemodel, container, en raadplegingsvenster te gebruiken.
 
 
 ## Attributiemodellen {#attribution-models}
@@ -162,7 +162,7 @@ Zie [&#x200B; Voorbeeld &#x200B;](#example) voor een voorbeeld om een attributie
 
 >[!MORELIKETHIS]
 >
->[&#x200B; de componentenmontages van de Attributie &#x200B;](/help/data-views/component-settings/attribution.md)
->&#x200B;>[Metrische deelname &#x200B;](participation-metric.md)
+>[ de componentenmontages van de Attributie ](/help/data-views/component-settings/attribution.md)
+>[Metrische deelname ](participation-metric.md)
 >
 

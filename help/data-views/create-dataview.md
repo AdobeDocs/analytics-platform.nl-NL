@@ -19,14 +19,14 @@ Het creëren van een gegevensmening impliceert of het creëren van metriek en di
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; creeer of geef een gegevensmening &#x200B;](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"} voor een demo video uit.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ creeer of geef een gegevensmening ](https://video.tv.adobe.com/v/35110/?quality=12&learn=on){target="_blank"} voor een demo video uit.
 
 >[!ENDSHADEBOX]
 
 
 Een gegevensweergave maken of bewerken:
 
-1. Login aan [&#x200B; Customer Journey Analytics &#x200B;](https://analytics.adobe.com) en selecteert **[!UICONTROL Data views]**, naar keuze van **[!UICONTROL Data management]**, in het hoogste menu.
+1. Login aan [ Customer Journey Analytics ](https://analytics.adobe.com) en selecteert **[!UICONTROL Data views]**, naar keuze van **[!UICONTROL Data management]**, in het hoogste menu.
 1. Selecteer **[!UICONTROL Create new data view]** om een gegevensweergave te maken. U kunt ook een bestaande gegevensweergave selecteren in de lijst met gegevensweergaven om deze te bewerken.
 
 
@@ -38,11 +38,11 @@ Een nieuwe of bestaande gegevensweergave configureren:
 
 >[!TAB  Standaard ]
 
-![&#x200B; vorm gegevensmening &#x200B;](assets/dataview-configure.png)
+![ vorm gegevensmening ](assets/dataview-configure.png)
 
 >[!TAB  B2B edition ]
 
-![&#x200B; vorm gegevensmening B2B &#x200B;](assets/dataview-configure-b2b.png)
+![ vorm gegevensmening B2B ](assets/dataview-configure-b2b.png)
 
 >[!ENDTABS]
 
@@ -81,7 +81,7 @@ Verstrekt overkoepelende montages voor de gegevensmening.
 >id="dataview_dataviewsinadobejourneyoptimizer"
 >title="Gegevensweergaven in Journey Optimizer"
 >abstract="Customer Journey Analytics moet een verbinding en gegevensweergave gebruiken die compatibel zijn met Adobe Journey Optimizer. Standaard worden automatisch een verbinding en een gegevensweergave voor dit doel gemaakt.<br/> Alternatief, kunt u deze optie toelaten om dit de standaardgegevensmening te maken die in Adobe Journey Optimizer rapportering wordt gebruikt. Wanneer toegelaten, worden alle noodzakelijke die componenten voor Journey Optimizer worden vereist toegevoegd aan deze gegevensmening, en alle noodzakelijke datasets van Journey Optimizer worden toegevoegd aan de verbinding verbonden aan deze gegevensmening."
->additional-url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/integrations/ajo#connection" text="Welke componenten en datasets worden toegevoegd."
+>additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#connection" text="Welke componenten en datasets worden toegevoegd."
 
 
 Bevat instellingen die van toepassing zijn bij gebruik van Adobe Journey Optimizer in aanvulling op Customer Journey Analytics.
@@ -90,20 +90,20 @@ Deze sectie is alleen zichtbaar voor beheerders die zijn ingericht met Journey O
 
 | Instelling | Beschrijving |
 | --- | --- |
-| [!UICONTROL **Reeks als standaardgegevensmening in Adobe Journey Optimizer**] | Met deze configuratieoptie wordt de rapportage in Journey Optimizer en Customer Journey Analytics gestandaardiseerd. Het staat u ook toe om geavanceerde analyse van uw gegevens van Adobe Journey Optimizer in Customer Journey Analytics uit te voeren (door ![&#x200B; Open &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_OpenInLight_18_N.svg) te selecteren [!UICONTROL **analyseert in CJA**] terwijl in Journey Optimizer).<p>Journey Optimizer heeft toegang nodig tot een Customer Journey Analytics-gegevensweergave om dit type analyse uit te voeren.<p>Schakel deze optie in om dit de standaardgegevensweergave te maken die wordt gebruikt in Journey Optimizer-rapportage voor uw sandbox.</p><p>Deze configuratieoptie automatisch:</p><ul><li>Vormt alle vereiste datasets van Journey Optimizer in de bijbehorende verbinding in Customer Journey Analytics voor gebruik met Journey Optimizer.</li><li>Hiermee maakt u een set Journey Optimizer-meetgegevens en -afmetingen in de gegevensweergave (inclusief afgeleide velden en berekende meetgegevens). Contextlabels worden automatisch ingesteld op al deze maatstaven en dimensies.</li><li>Hiermee wordt automatisch de optie **[!UICONTROL Use in CJA]** ingeschakeld in de verbinding die aan deze gegevensweergave is gekoppeld. (Meer over deze optie leren, zie [&#x200B; Gebruik een verbinding van Journey Optimizer in Customer Journey Analytics &#x200B;](/help/connections/manage-connections.md).)<p>Als u deze instelling handmatig uitschakelt nadat deze is ingeschakeld, worden de verbinding en de bijbehorende gegevensweergaven teruggezet op de standaardstatus. Dit kan leiden tot gegevenswijzigingen in uw rapporten.</p></li></ul><p><p>Houd rekening met het volgende wanneer u deze optie inschakelt: <ul><li>U kunt de standaardgegevensweergave later wijzigen, maar hierdoor kunnen uw Journey Optimizer-rapportgegevens veranderen. Als u deze optie uitschakelt nadat deze is ingeschakeld, wordt u gevraagd een nieuwe standaardgegevensweergave te selecteren.</li><li>Als u reeds handaanpassingen aan de datasets, afmetingen, of metriek in de de gegevensmening van Customer Journey Analytics maakte, blijven uw handaanpassingen intact wanneer het toelaten van deze configuratieoptie. Met deze optie maakt u aanvullende aanpassingen waarmee de rapportage in Journey Optimizer en Customer Journey Analytics verder wordt gestandaardiseerd. U kunt deze optie ook handmatig aanpassen nadat u deze hebt ingeschakeld.</li><li>Als deze optie is geselecteerd, kan de verbinding die aan de gegevensweergave is gekoppeld, niet worden verwijderd.</li></ul>Zie [&#x200B; Adobe Journey Optimizer met Adobe Customer Journey Analytics &#x200B;](/help/integrations/ajo.md) voor meer informatie integreren. |
+| [!UICONTROL **Reeks als standaardgegevensmening in Adobe Journey Optimizer**] | Met deze configuratieoptie wordt de rapportage in Journey Optimizer en Customer Journey Analytics gestandaardiseerd. Het staat u ook toe om geavanceerde analyse van uw gegevens van Adobe Journey Optimizer in Customer Journey Analytics uit te voeren (door ![ Open ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_OpenInLight_18_N.svg) te selecteren [!UICONTROL **analyseert in CJA**] terwijl in Journey Optimizer).<p>Journey Optimizer heeft toegang nodig tot een Customer Journey Analytics-gegevensweergave om dit type analyse uit te voeren.<p>Schakel deze optie in om dit de standaardgegevensweergave te maken die wordt gebruikt in Journey Optimizer-rapportage voor uw sandbox.</p><p>Deze configuratieoptie automatisch:</p><ul><li>Vormt alle vereiste datasets van Journey Optimizer in de bijbehorende verbinding in Customer Journey Analytics voor gebruik met Journey Optimizer.</li><li>Hiermee maakt u een set Journey Optimizer-meetgegevens en -afmetingen in de gegevensweergave (inclusief afgeleide velden en berekende meetgegevens). Contextlabels worden automatisch ingesteld op al deze maatstaven en dimensies.</li><li>Hiermee wordt automatisch de optie **[!UICONTROL Use in CJA]** ingeschakeld in de verbinding die aan deze gegevensweergave is gekoppeld. (Meer over deze optie leren, zie [ Gebruik een verbinding van Journey Optimizer in Customer Journey Analytics ](/help/connections/manage-connections.md).)<p>Als u deze instelling handmatig uitschakelt nadat deze is ingeschakeld, worden de verbinding en de bijbehorende gegevensweergaven teruggezet op de standaardstatus. Dit kan leiden tot gegevenswijzigingen in uw rapporten.</p></li></ul><p><p>Houd rekening met het volgende wanneer u deze optie inschakelt: <ul><li>U kunt de standaardgegevensweergave later wijzigen, maar hierdoor kunnen uw Journey Optimizer-rapportgegevens veranderen. Als u deze optie uitschakelt nadat deze is ingeschakeld, wordt u gevraagd een nieuwe standaardgegevensweergave te selecteren.</li><li>Als u reeds handaanpassingen aan de datasets, afmetingen, of metriek in de de gegevensmening van Customer Journey Analytics maakte, blijven uw handaanpassingen intact wanneer het toelaten van deze configuratieoptie. Met deze optie maakt u aanvullende aanpassingen waarmee de rapportage in Journey Optimizer en Customer Journey Analytics verder wordt gestandaardiseerd. U kunt deze optie ook handmatig aanpassen nadat u deze hebt ingeschakeld.</li><li>Als deze optie is geselecteerd, kan de verbinding die aan de gegevensweergave is gekoppeld, niet worden verwijderd.</li></ul>Zie [ Adobe Journey Optimizer met Adobe Customer Journey Analytics ](/help/integrations/ajo.md) voor meer informatie integreren. |
 
 {style="table-layout:auto"}
 
 ### Containers
 
-Hiermee geeft u de naam van containers voor de gegevensweergave aan. De namen van de container worden vaak gebruikt in [&#x200B; segmenten &#x200B;](/help/components/segments/seg-overview.md#containers).
+Hiermee geeft u de naam van containers voor de gegevensweergave aan. De namen van de container worden vaak gebruikt in [ segmenten ](/help/components/segments/seg-overview.md#containers).
 
 | Instelling | Beschrijving |
 | --- | --- |
-| [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Global Account container name]** | `Global Account` (standaardwaarde). De container [!UICONTROL Global Account] bevat elke sessie en gebeurtenis voor globale accounts binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt, kunt u de naam van de container hier wijzigen. |
-| [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Account container name]** | `Account` (standaardwaarde). De container [!UICONTROL Account] bevat elke sessie en gebeurtenis voor accounts binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt, kunt u de naam van de container hier wijzigen. |
-| [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Opportunity container name]** | `Opportunity` (standaardwaarde). De container [!UICONTROL Opportunity] bevat elke sessie en gebeurtenis voor mogelijkheden binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt, kunt u de naam van de container hier wijzigen. |
-| [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Buying group container name]** | `Buying Group` (standaardwaarde). De container [!UICONTROL Buying group] bevat elke sessie en gebeurtenis voor het aanschaffen van groepen binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt, kunt u de naam van de container hier wijzigen. |
+| [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Global Account container name]** | `Global Account` (standaardwaarde). De container [!UICONTROL Global Account] bevat elke sessie en gebeurtenis voor globale accounts binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt, kunt u de naam van de container hier wijzigen. |
+| [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Account container name]** | `Account` (standaardwaarde). De container [!UICONTROL Account] bevat elke sessie en gebeurtenis voor accounts binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt, kunt u de naam van de container hier wijzigen. |
+| [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Opportunity container name]** | `Opportunity` (standaardwaarde). De container [!UICONTROL Opportunity] bevat elke sessie en gebeurtenis voor mogelijkheden binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt, kunt u de naam van de container hier wijzigen. |
+| [!BADGE  B2B edition ]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} <br/>**[!UICONTROL Buying group container name]** | `Buying Group` (standaardwaarde). De container [!UICONTROL Buying group] bevat elke sessie en gebeurtenis voor het aanschaffen van groepen binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt, kunt u de naam van de container hier wijzigen. |
 | **[!UICONTROL Person container name]** | `Person` (standaardwaarde). De container [!UICONTROL Person] bevat elke sessie en gebeurtenis voor personen binnen de opgegeven tijdsperiode. Als uw organisatie een andere term gebruikt (bijvoorbeeld &quot;Bezoeker&quot; of &quot;Gebruiker&quot;), kunt u de naam van de container hier wijzigen. |
 | **[!UICONTROL Session container name]** | `Session` (standaardwaarde). Met de container [!UICONTROL Session] kunt u paginainteracties, campagnes of conversies voor een bepaalde sessie identificeren. U kunt de naam van deze container wijzigen in &#39;Visit&#39; of in een andere term die uw organisatie verkiest. |
 | **[!UICONTROL Event container name]** | `Event` (standaardwaarde). De container [!UICONTROL Event] definieert individuele gebeurtenissen in een dataset. Als uw organisatie een andere term gebruikt (bijvoorbeeld &quot;Hits&quot; of &quot;Paginaweergaven&quot;), kunt u de naam van de container hier wijzigen. |
@@ -112,12 +112,12 @@ Hiermee geeft u de naam van containers voor de gegevensweergave aan. De namen va
 
 ### AI-instellingen
 
-Selecteer **[!UICONTROL Enable for Data Insights Agent]** om de gegevensmening voor [&#x200B; Data Insights Agent &#x200B;](/help/data-analysis-ai.md) toe te laten. Data Insights Agent is een generatieve AI gespreksagent die van de Medewerker AI in Customer Journey Analytics toegankelijk is. Hiermee kunt u snel gegevens analyseren met tekstaanwijzingen. De agent bouwt relevante visualisaties in Analysis Workspace gebruikend componenten van uw gegevensmening en gebruikend uw daadwerkelijke gegevens.
+Selecteer **[!UICONTROL Enable for Data Insights Agent]** om de gegevensmening voor [ Data Insights Agent ](/help/data-analysis-ai.md) toe te laten. Data Insights Agent is een generatieve AI gespreksagent die van de Medewerker AI in Customer Journey Analytics toegankelijk is. Hiermee kunt u snel gegevens analyseren met tekstaanwijzingen. De agent bouwt relevante visualisaties in Analysis Workspace gebruikend componenten van uw gegevensmening en gebruikend uw daadwerkelijke gegevens.
 
 
 ### Kalender
 
-Hiermee geeft u de kalender-indeling aan die moet worden gevolgd door de gegevensweergave. U kunt veelvoudige gegevensmeningen hebben die op de zelfde [&#x200B; Verbinding &#x200B;](/help/connections/create-connection.md) worden gebaseerd en hen verschillende kalendertypes of tijdstreken geven. Deze gegevensmeningen kunnen teams toestaan die verschillende kalendertypes gebruiken om hun respectieve behoeften met de zelfde onderliggende gegevens aan te passen.
+Hiermee geeft u de kalender-indeling aan die moet worden gevolgd door de gegevensweergave. U kunt veelvoudige gegevensmeningen hebben die op de zelfde [ Verbinding ](/help/connections/create-connection.md) worden gebaseerd en hen verschillende kalendertypes of tijdstreken geven. Deze gegevensmeningen kunnen teams toestaan die verschillende kalendertypes gebruiken om hun respectieve behoeften met de zelfde onderliggende gegevens aan te passen.
 
 | Instelling | Beschrijving |
 | --- | --- |
@@ -139,21 +139,21 @@ Vervolgens kunt u de componenten van een gegevensweergave instellen. Dit beteken
 
 1. Selecteer het tabblad **[!UICONTROL Components]**. 
 
-   ![&#x200B; Componenten tabel &#x200B;](assets/dataview-components.png)
+   ![ Componenten tabel ](assets/dataview-components.png)
 
    U ziet de [!UICONTROL Connection] linksboven, die de gegevenssets en de [!UICONTROL Schema fields] verderop bevat.  De reeds inbegrepen componenten zijn standaardcomponenten (systeem geproduceerd) die voor alle gegevensmeningen (zoals Gebeurtenissen, Mensen, de metriek van zittingen, en Minuut, Kwart, Week afmetingen) worden vereist. Adobe past standaard ook het filter **[!UICONTROL Contains data]** en **[!UICONTROL is not deprecated]** toe, zodat alleen Schema-velden worden weergegeven die gegevens bevatten en niet worden afgekeurd.
 
-1. Onderzoek naar een schemagebied gebruikend ![&#x200B; het pictogram van het Onderzoek &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL Search schema fields]** of vind een gebied door zich in om het even welke datasetinzamelingen, als ![&#x200B; Omslag &#x200B;](/help/assets/icons/Folder.svg) **[!UICONTROL Event datasets]** of ![&#x200B; Omslag &#x200B;](/help/assets/icons/Folder.svg) **[!UICONTROL Lookup datasets]** te bewegen. Voor gebeurtenisdatasets, zijn de afzonderlijke inzamelingen voor ![&#x200B; Omslag &#x200B;](/help/assets/icons/Folder.svg) **[!UICONTROL XDM fields]** en ![&#x200B; Omslag &#x200B;](/help/assets/icons/Folder.svg) **[!UICONTROL Adhoc and relational fields]** beschikbaar.<br/> Alternatief, kunt u een afgeleid gebied tot stand brengen gebruikend ![&#x200B; het pictogram van Gegevens &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **leidt tot afgeleid gebied**. Zie [&#x200B; Afgeleide gebieden &#x200B;](./derived-fields/derived-fields.md) voor meer informatie.
+1. Onderzoek naar een schemagebied gebruikend ![ het pictogram van het Onderzoek ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) **[!UICONTROL Search schema fields]** of vind een gebied door zich in om het even welke datasetinzamelingen, als ![ Omslag ](/help/assets/icons/Folder.svg) **[!UICONTROL Event datasets]** of ![ Omslag ](/help/assets/icons/Folder.svg) **[!UICONTROL Lookup datasets]** te bewegen. Voor gebeurtenisdatasets, zijn de afzonderlijke inzamelingen voor ![ Omslag ](/help/assets/icons/Folder.svg) **[!UICONTROL XDM fields]** en ![ Omslag ](/help/assets/icons/Folder.svg) **[!UICONTROL Adhoc and relational fields]** beschikbaar.<br/> Alternatief, kunt u een afgeleid gebied tot stand brengen gebruikend ![ het pictogram van Gegevens ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) **leidt tot afgeleid gebied**. Zie [ Afgeleide gebieden ](./derived-fields/derived-fields.md) voor meer informatie.
 
-1. Wanneer u uw specifiek schemagebied vond of uw afgeleid gebied bepaalde, sleep dat gebied, zoals ![&#x200B; pictogram van het Handvat &#x200B;](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL Page Name]**, van het linkerspoor in **[!UICONTROL Metrics]** of **[!UICONTROL Dimensions]** sectie onder **[!UICONTROL Included components]**.
-U kunt het zelfde schemagebied in de dimensies of metrieksecties veelvoudige tijden slepen en de zelfde afmeting of metrisch op verschillende manieren vormen. Bijvoorbeeld, van het pageName gebied, kunt u een dimensie tot stand brengen die `Product Pages` wordt genoemd, en een andere wordt genoemd `Error pages`, door verschillende [&#x200B; montages van de Component &#x200B;](component-settings/overview.md) op het recht te gebruiken.
+1. Wanneer u uw specifiek schemagebied vond of uw afgeleid gebied bepaalde, sleep dat gebied, zoals ![ pictogram van het Handvat ](https://spectrum.adobe.com/static/icons/workflow_22/Smock_DragHandle_22_N.svg) **[!UICONTROL Page Name]**, van het linkerspoor in **[!UICONTROL Metrics]** of **[!UICONTROL Dimensions]** sectie onder **[!UICONTROL Included components]**.
+U kunt het zelfde schemagebied in de dimensies of metrieksecties veelvoudige tijden slepen en de zelfde afmeting of metrisch op verschillende manieren vormen. Bijvoorbeeld, van het pageName gebied, kunt u een dimensie tot stand brengen die `Product Pages` wordt genoemd, en een andere wordt genoemd `Error pages`, door verschillende [ montages van de Component ](component-settings/overview.md) op het recht te gebruiken.
 Als u een schemagebiedomslag van het linkerspoor sleept, worden de gebieden in de omslag automatisch gesorteerd in de aangewezen sectie. Tekenreeksvelden worden weergegeven in de sectie [!UICONTROL Dimensions] en numerieke schematypen worden weergegeven in de sectie [!UICONTROL Metrics] . U kunt ook op **[!UICONTROL Add all]** klikken en alle schemavelden worden toegevoegd aan de desbetreffende sectie.
 
 1. Zodra u een component selecteert, verschijnen de montages op het recht.
 
-   ![&#x200B; geselecteerde component van Gegevens &#x200B;](assets/dataview-component-pagename.png)
+   ![ geselecteerde component van Gegevens ](assets/dataview-component-pagename.png)
 
-   Vorm de component gebruikend [&#x200B; montages van de Component &#x200B;](component-settings/overview.md). Welke componentinstellingen beschikbaar zijn, hangt af van het feit of de component een dimensie/metrische component is en van het gegevenstype schema. Voorbeelden van instellingen:
+   Vorm de component gebruikend [ montages van de Component ](component-settings/overview.md). Welke componentinstellingen beschikbaar zijn, hangt af van het feit of de component een dimensie/metrische component is en van het gegevenstype schema. Voorbeelden van instellingen:
 
    * [[!UICONTROL Attribution]](component-settings/attribution.md)
    * [[!UICONTROL Behavior]](component-settings/behavior.md)
@@ -172,13 +172,13 @@ Het dupliceren van metriek of afmetingen en het vervolgens wijzigen van specifie
 
 ### Filterschemavelden of -gegevenssets
 
-U kunt &lbrace;het pictogram van de Filter ![&#x200B; schemagebieden in het linkerspoor door &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg), [!UICONTROL data type], [!UICONTROL datasets], en [!UICONTROL data governance] criteria ([!UICONTROL other], [!UICONTROL contains data], en [!UICONTROL is identity]) filtreren:[!UICONTROL is not deprecated]
+U kunt {het pictogram van de Filter ![ schemagebieden in het linkerspoor door ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg), [!UICONTROL data type], [!UICONTROL datasets], en [!UICONTROL data governance] criteria ([!UICONTROL other], [!UICONTROL contains data], en [!UICONTROL is identity]) filtreren:[!UICONTROL is not deprecated]
 
-![&#x200B; de gebieden van de Filter &#x200B;](assets/dataview-components-filter.png)
+![ de gebieden van de Filter ](assets/dataview-components-filter.png)
 
 >[!TIP]
 >
->Als de componenten niet behoorlijk in uw gegevensmening laden en u een foutenmelding in plaats daarvan ziet, gelieve te verwijzen naar [&#x200B; Gebrek van toestemmingen &#x200B;](../troubleshooting/lack-of-permissions.md) voor een resolutie.
+>Als de componenten niet behoorlijk in uw gegevensmening laden en u een foutenmelding in plaats daarvan ziet, gelieve te verwijzen naar [ Gebrek van toestemmingen ](../troubleshooting/lack-of-permissions.md) voor een resolutie.
 
 
 ### Opgenomen onderdelen {#included-components}
@@ -187,53 +187,53 @@ U kunt &lbrace;het pictogram van de Filter ![&#x200B; schemagebieden in het link
 >id="dataview_includedcomponents_filter_datagovernance_custom"
 >title="Aangepaste labels"
 >abstract="Naast de labels die Adobe biedt, kunt u ook uw eigen aangepaste labels voor uw organisatie definiëren."
->additional-url="https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_contract"
 >title="Contractlabels"
 >abstract="De etiketten van het contract (C) worden gebruikt om gegevens te categoriseren die contractuele verplichtingen hebben of met het beleid van het gegevensbeheer van uw organisatie verwant zijn."
->additional-url="https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_identity"
 >title="Identiteitslabels"
 >abstract="De etiketten van de identiteit (I) worden gebruikt om gegevens te categoriseren die een specifieke persoon kunnen identificeren of contacteren."
->additional-url="https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_sensitive"
 >title="Gevoelige labels"
 >abstract="Gevoelige labels (S) worden gebruikt om gegevens te categoriseren die u en uw organisatie als gevoelig beschouwen."
->additional-url="https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
 
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_partnerecosystem"
 >title="Partnerecosysteem"
 >abstract="De etiketten van het Ecosysteem van de partner (P) worden gebruikt om gegevens te categoriseren die met derdepartners worden gedeeld."
->additional-url="https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_policies"
 >title="Beleid"
 >abstract="Om gegevensgebruikslabels effectief te steunen gegevensnaleving, moet het beleid van het gegevensgebruik worden uitgevoerd. Beleid voor gegevensgebruik is regels die het soort marketingacties beschrijven dat u mag uitvoeren op gegevens in Experience Platform of waarvan u een beperking hebt ingesteld. De filters van Beleid passen het toegelaten beleid op de Mening van Gegevens toe."
->additional-url="https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
 
 
 >[!CONTEXTUALHELP]
 >id="dataview_includedcomponents_filter_datagovernance_responsibleengagement"
 >title="Verantwoordelijke betrokkenheidslabels"
 >abstract="Verantwoordelijke labels voor betrokkenheid worden gebruikt om verantwoordelijke betrokkenheid te ondersteunen."
->additional-url="https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Overzicht van labels voor gegevensgebruik"
 
 
 **[!UICONTROL Included components]** bevat de lijst met **[!UICONTROL Metrics]** en **[!UICONTROL Dimensions]** die u configureert voor de gegevensweergave.
 
-* Om naar componenten te zoeken, gebruik ![&#x200B; &#x200B;](/help/assets/icons/Search.svg) componenten van het 1&rbrace; Onderzoek **[!UICONTROL _._]**
-* Om de vermelde inbegrepen componenten te filtreren, selecteer ![&#x200B; Filter &#x200B;](/help/assets/icons/Filter.svg).
+* Om naar componenten te zoeken, gebruik ![ ](/help/assets/icons/Search.svg) componenten van het 1} Onderzoek **[!UICONTROL _._]**
+* Om de vermelde inbegrepen componenten te filtreren, selecteer ![ Filter ](/help/assets/icons/Filter.svg).
 
-  ![&#x200B; omvat de dialoog van de componentenfilter &#x200B;](assets/dataview_includedcomponents_filter.png)
+  ![ omvat de dialoog van de componentenfilter ](assets/dataview_includedcomponents_filter.png)
 
   In het dialoogvenster **[!UICONTROL Filter field by]** kunt u filteren op de volgende categorieën:
 
@@ -250,10 +250,10 @@ U kunt &lbrace;het pictogram van de Filter ![&#x200B; schemagebieden in het link
 
 1. Selecteer het tabblad **[!UICONTROL Settings]**. 
 
-   ![&#x200B; de meningsmontages van Gegevens &#x200B;](assets/dataview-settings.png)
+   ![ de meningsmontages van Gegevens ](assets/dataview-settings.png)
 
-1. Vorm segmenten om op uw volledige gegevensmening toe te passen. Zie [&#x200B; Montages (segmenten) &#x200B;](#settings-filters) hieronder.
-1. Configureer de sessietime-out en metriek. Zie [&#x200B; montages van de Zitting &#x200B;](#session-settings) hieronder.
+1. Vorm segmenten om op uw volledige gegevensmening toe te passen. Zie [ Montages (segmenten) ](#settings-filters) hieronder.
+1. Configureer de sessietime-out en metriek. Zie [ montages van de Zitting ](#session-settings) hieronder.
 
 1. Selecteer **[!UICONTROL Save and continue]** als u de nieuwe of bestaande gegevensweergave wilt blijven configureren. Selecteer **[!UICONTROL Save]** om de configuratie voor uw bestaande gegevensweergave op te slaan.
 
@@ -263,7 +263,7 @@ U kunt segmenten toevoegen die van toepassing zijn op een volledige gegevensweer
 
 ### Sessieinstellingen
 
-Bepaal de periode van inactiviteit tussen gebeurtenissen alvorens een zitting verloopt en nieuwe wordt begonnen. Er is een tijdsperiode vereist. U kunt desgewenst ook een nieuwe sessie forceren om te starten wanneer een gebeurtenis een bepaalde metrische waarde bevat. Zie [&#x200B; montages van de Zitting &#x200B;](session-settings.md) voor meer details.
+Bepaal de periode van inactiviteit tussen gebeurtenissen alvorens een zitting verloopt en nieuwe wordt begonnen. Er is een tijdsperiode vereist. U kunt desgewenst ook een nieuwe sessie forceren om te starten wanneer een gebeurtenis een bepaalde metrische waarde bevat. Zie [ montages van de Zitting ](session-settings.md) voor meer details.
 
 ### Gegevensvoorbeeld
 
