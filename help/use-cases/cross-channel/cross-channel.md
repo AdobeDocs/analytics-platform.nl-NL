@@ -29,9 +29,9 @@ De analyse tussen kanalen laat één enkele geconsolideerde mening van klantenge
 
 ![&#x200B; stroom van implementatiestappen zoals die in deze sectie wordt beschreven.](../assets/cca-architecture.png)
 
-1. [&#x200B; creeer schema&#39;s &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) voor gegevens die moeten worden opgenomen.
-1. [&#x200B; creeer datasets &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) voor gegevens die moeten worden opgenomen.
-1. [&#x200B; Ingest gegevens in Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html):
+1. [&#x200B; creeer schema&#39;s &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL) voor gegevens die moeten worden opgenomen.
+1. [&#x200B; creeer datasets &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=nl-NL) voor gegevens die moeten worden opgenomen.
+1. [&#x200B; Ingest gegevens in Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html?lang=nl-NL):
    1. Op gebeurtenis-gebaseerde gegevens ![&#x200B; gebeurtenis &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg) van website of mobiele app door de Edge Network of de bron van Analytics schakelaar.
    2. De gegevens van het profiel ![&#x200B; profiel &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) (bijvoorbeeld van een systeem van CRM, de toepassing van het vraagcentrum, loyaliteitstoepassing).
    3. Opzoekgegevens ![&#x200B; raadpleging &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) (bijvoorbeeld productnaam, categorie van een systeem van de productinformatie).

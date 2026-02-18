@@ -61,7 +61,7 @@ ht-degree: 1%
 
 
 
-Dit onderwerp bespreekt hoe te om publiek tot stand te brengen en te publiceren dat in Customer Journey Analytics wordt geïdentificeerd aan [&#x200B; Real-Time Profiel van de Klant &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) in Adobe Experience Platform voor klant richtend en verpersoonlijking.
+Dit onderwerp bespreekt hoe te om publiek tot stand te brengen en te publiceren dat in Customer Journey Analytics wordt geïdentificeerd aan [&#x200B; Real-Time Profiel van de Klant &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/home) in Adobe Experience Platform voor klant richtend en verpersoonlijking.
 
 Lees dit [&#x200B; overzicht &#x200B;](/help/components/audiences/audiences-overview.md) om met het concept van het publiek van Customer Journey Analytics vertrouwd te maken.
 
@@ -86,7 +86,7 @@ Lees dit [&#x200B; overzicht &#x200B;](/help/components/audiences/audiences-over
 1. Controleer de publieksconfiguratie en selecteer **[!UICONTROL Publish]**.
 U ontvangt een bevestigingsbericht dat het publiek wordt gepubliceerd. Publicatie duurt slechts een minuut of twee voordat dit publiek in Experience Platform verschijnt.
 
-1. Selecteer **[!UICONTROL View audience in AEP]** binnen het zelfde bericht en u wordt genomen aan [&#x200B; Segment UI &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview) in Adobe Experience Platform. Zie hieronder voor meer informatie.
+1. Selecteer **[!UICONTROL View audience in AEP]** binnen het zelfde bericht en u wordt genomen aan [&#x200B; Segment UI &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/overview) in Adobe Experience Platform. Zie hieronder voor meer informatie.
 
 ## Audience builder
 
@@ -116,13 +116,13 @@ Het deelvenster Gegevensvoorbeeld bevat de volgende informatie.
 | **[!UICONTROL Estimated to return]** | Dit aantal geeft u een geschat aantal terugkerende klanten over het tijdkader dat u selecteerde. Dit aantal wordt voorspeld gebruikend het historische kinnetarief voor dit publiek. |
 | **[!UICONTROL Preview metrics]** | U kunt specifieke metrisch selecteren om te zien hoe de gegevens voor dat metrisch is gebaseerd op het publiek u bepaalt.  Elke metrische vertoningen van de Voorproef een totaal voor metrisch die op het publiek wordt gebaseerd. En een percentage van het publiek baseerde metrisch van het algemene totaal van metrisch, zoals die door de gegevensmening wordt bepaald. 381 personen (de metrische waarde die u hebt geselecteerd) zijn bijvoorbeeld het resultaat van uw publieksdefinitie. Dit is 5% van het totale aantal personen dat beschikbaar is in de gegevensweergave. U kunt elke metrische waarde selecteren die beschikbaar is in de gegevensweergave. |
 | **[!UICONTROL Namespaces included]** | De specifieke naamruimten die zijn gekoppeld aan de personen in uw publiek. Voorbeelden zijn ECID, CRM-id, e-mailadressen enzovoort. |
-| **[!UICONTROL Sandbox]** | De [&#x200B; zandbak van Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home) waarin dit publiek verblijft. Wanneer u dit publiek publiceert naar Platform, kunt u alleen met het publiek werken binnen de grenzen van deze sandbox. |
+| **[!UICONTROL Sandbox]** | De [&#x200B; zandbak van Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sandbox/home) waarin dit publiek verblijft. Wanneer u dit publiek publiceert naar Platform, kunt u alleen met het publiek werken binnen de grenzen van deze sandbox. |
 
 {style="table-layout:auto"}
 
 ## Wat gebeurt er nadat een publiek is gemaakt en gepubliceerd? {#after-audience-created}
 
-Nadat u creeert en een publiek in Customer Journey Analytics publiceert, is het publiek beschikbaar in Experience Platform en kan in het [&#x200B; Portaal van de Publiek &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal) worden bekeken. Met het publiek beschikbaar in Experience Platform, kan het in andere toepassingen van Experience Platform, zoals Adobe Journey Optimizer worden gebruikt.
+Nadat u creeert en een publiek in Customer Journey Analytics publiceert, is het publiek beschikbaar in Experience Platform en kan in het [&#x200B; Portaal van de Publiek &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/audience-portal) worden bekeken. Met het publiek beschikbaar in Experience Platform, kan het in andere toepassingen van Experience Platform, zoals Adobe Journey Optimizer worden gebruikt.
 
 Er wordt alleen een Adobe Experience Platform-streamingsegment gemaakt als uw organisatie is ingesteld op streamingsegmentatie.
 
@@ -171,7 +171,7 @@ Customer Journey Analytics-publiek in platform weergeven:
 
    * Gebruik het ![&#x200B; 1&rbrace; onderzoeksgebied van het Onderzoek &lbrace;.](/help/assets/icons/Search.svg)
 
-Voor meer informatie over het gebruiken van Soorten publiek in Platform, zie de [&#x200B; sectie van het publiek &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) in de [&#x200B; gids UI van de Bouwer van het Segment &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) in de documentatie van Experience Platform.
+Voor meer informatie over het gebruiken van Soorten publiek in Platform, zie de [&#x200B; sectie van het publiek &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder) in de [&#x200B; gids UI van de Bouwer van het Segment &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder) in de documentatie van Experience Platform.
 
 ### Begrijp discrepanties in publiekscijfers
 
@@ -238,7 +238,7 @@ Customer Journey Analytics streamt de gegevens via pijpleiding naar Real-Time Cu
 
 +++**Welke identiteiten verzendt Customer Journey Analytics over?**
 
-Welke identiteit/namespace paren die in de [&#x200B; opstelling van de Verbinding &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection) werden gespecificeerd. Specifiek, de stap wanneer een gebruiker het gebied selecteert zij als Persoon identiteitskaart willen gebruiken.
+Welke identiteit/namespace paren die in de [&#x200B; opstelling van de Verbinding &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-connections/create-connection) werden gespecificeerd. Specifiek, de stap wanneer een gebruiker het gebied selecteert zij als Persoon identiteitskaart willen gebruiken.
 
 +++
 

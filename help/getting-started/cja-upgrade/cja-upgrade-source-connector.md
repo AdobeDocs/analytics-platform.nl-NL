@@ -54,7 +54,7 @@ Als u de Analytics-bronconnector wilt gebruiken om historische gegevens over te 
 
 ## De bronaansluiting voor Analytics en kaartvelden maken
 
-Als uw aangepaste schema is gemaakt, moet u de Adobe Analytics-bronconnector maken die u voor historische gegevens wilt gebruiken. (Voor uitvoerigere, algemene richtlijnen bij het creëren van een bronschakelaar, zie [&#x200B; een Adobe Analytics bronverbinding in UI &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) creëren.)
+Als uw aangepaste schema is gemaakt, moet u de Adobe Analytics-bronconnector maken die u voor historische gegevens wilt gebruiken. (Voor uitvoerigere, algemene richtlijnen bij het creëren van een bronschakelaar, zie [&#x200B; een Adobe Analytics bronverbinding in UI &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=nl-NL) creëren.)
 
 Een Adobe Analytics-bronconnector maken voor historische gegevens:
 

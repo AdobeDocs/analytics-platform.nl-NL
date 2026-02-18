@@ -231,7 +231,7 @@ Bestaande bewerkingen bewerken of nieuwe ervaringen opnemen in een geïmplemente
    * Het proces dat ervaringskenmerken genereert van Content Analytics-gebeurtenisgegevens
    * De rapportagesjabloon in Customer Journey Analytics.
 
-* Selecteer ![&#x200B; uitgeven &#x200B;](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** om de configuratie van gegevensinzameling voor ervaringen in Content Analytics verder uit te geven. U wordt opnieuw gericht aan de [&#x200B; uitbreiding van Adobe Content Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) in het bezit van Markeringen dat met de huidige configuratie wordt geassocieerd.
+* Selecteer ![&#x200B; uitgeven &#x200B;](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** om de configuratie van gegevensinzameling voor ervaringen in Content Analytics verder uit te geven. U wordt opnieuw gericht aan de [&#x200B; uitbreiding van Adobe Content Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) in het bezit van Markeringen dat met de huidige configuratie wordt geassocieerd.
 
 
 ### Dataverzameling {#onboarding-data-collection}
@@ -317,20 +317,20 @@ In een nieuwe configuratie moet u definiëren of u een bestaande eigenschap Code
 
 >[!IMPORTANT]
 >
->Verwijder manueel de automatische inbegrepen uitbreiding van SDK van het Web uit het pas gecreëerde bezit van Markeringen in het geval u een bestaande implementatie van SDK van het Web hebt die de [&#x200B; bibliotheek van JavaScript &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library) in plaats van de [&#x200B; uitbreiding van Markeringen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) gebruikt.
+>Verwijder manueel de automatische inbegrepen uitbreiding van SDK van het Web uit het pas gecreëerde bezit van Markeringen in het geval u een bestaande implementatie van SDK van het Web hebt die de [&#x200B; bibliotheek van JavaScript &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/install/library) in plaats van de [&#x200B; uitbreiding van Markeringen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) gebruikt.
 >
 
 
 
 #### Bestaande configuratie {#existing-configuration}
 
-Voor een bestaande configuratie kunt u de eigenschap Codes niet bewerken. Voor updates aan een bezit van Markeringen verbonden aan een bestaande configuratie, gebruik de [&#x200B; de uitbreidingsconfiguratie van de Markering van Content Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview).
+Voor een bestaande configuratie kunt u de eigenschap Codes niet bewerken. Voor updates aan een bezit van Markeringen verbonden aan een bestaande configuratie, gebruik de [&#x200B; de uitbreidingsconfiguratie van de Markering van Content Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/extensions/client/content-analytics/overview).
 
 U kunt de pagina&#39;s en elementen echter wel bewerken om deze in of uit te sluiten.
 
-* Om uit te geven welke pagina&#39;s zouden moeten worden omvat of worden uitgesloten wanneer het verzamelen van gegevens voor Content Analytics, uitgezocht ![&#x200B; &#x200B;](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** onderaan **[!UICONTROL Experience]** uitgeven. U wordt opnieuw gericht aan de [&#x200B; uitbreiding van Adobe Content Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) die met het bezit van Markeringen voor de huidige configuratie van Content Analytics wordt geassocieerd. U kunt de reguliere expressie bewerken om pagina&#39;s op te nemen of uit te sluiten. Verzeker u [&#x200B; publiceert &#x200B;](#publish) uw veranderingen.
+* Om uit te geven welke pagina&#39;s zouden moeten worden omvat of worden uitgesloten wanneer het verzamelen van gegevens voor Content Analytics, uitgezocht ![&#x200B; &#x200B;](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** onderaan **[!UICONTROL Experience]** uitgeven. U wordt opnieuw gericht aan de [&#x200B; uitbreiding van Adobe Content Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) die met het bezit van Markeringen voor de huidige configuratie van Content Analytics wordt geassocieerd. U kunt de reguliere expressie bewerken om pagina&#39;s op te nemen of uit te sluiten. Verzeker u [&#x200B; publiceert &#x200B;](#publish) uw veranderingen.
 
-* Om uit te geven welke activa zouden moeten worden omvat of worden uitgesloten wanneer het verzamelen van gegevens voor Content Analytics, uitgezocht ![&#x200B; &#x200B;](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** onderaan **[!UICONTROL Asset]** uitgeven. U wordt opnieuw gericht aan de [&#x200B; uitbreiding van Adobe Content Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) die met het bezit van Markeringen voor de huidige configuratie van Content Analytics wordt geassocieerd. U kunt de reguliere expressie bewerken om elementen op te nemen of uit te sluiten. Verzeker u [&#x200B; publiceert &#x200B;](#publish) uw veranderingen.
+* Om uit te geven welke activa zouden moeten worden omvat of worden uitgesloten wanneer het verzamelen van gegevens voor Content Analytics, uitgezocht ![&#x200B; &#x200B;](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** onderaan **[!UICONTROL Asset]** uitgeven. U wordt opnieuw gericht aan de [&#x200B; uitbreiding van Adobe Content Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/extensions/client/content-analytics/overview#configure-event-segmenting) die met het bezit van Markeringen voor de huidige configuratie van Content Analytics wordt geassocieerd. U kunt de reguliere expressie bewerken om elementen op te nemen of uit te sluiten. Verzeker u [&#x200B; publiceert &#x200B;](#publish) uw veranderingen.
 
 
 ### Overschrijvingen koptekst

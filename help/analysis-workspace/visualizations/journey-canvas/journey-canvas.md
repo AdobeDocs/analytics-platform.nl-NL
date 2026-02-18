@@ -263,5 +263,5 @@ U kunt analyses maken op het canvas Journey die zijn gebaseerd op alle afmetinge
 
 >[!MORELIKETHIS]
 >
-> * [&#x200B; Gids van A aan Visualisatie van het Canvas van de Reis in Adobe Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
+> * [&#x200B; Gids van A aan Visualisatie van het Canvas van de Reis in Adobe Customer Journey Analytics &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857?profile.language=nl)
 
