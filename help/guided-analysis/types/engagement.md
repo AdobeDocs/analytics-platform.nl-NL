@@ -35,7 +35,7 @@ De eigenschappen die naar de bovenkant van deze visualisatie trekken wijzen erop
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; analyse van de Betrokkenheid &#x200B;](https://video.tv.adobe.com/v/3429489/&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; analyse van de Betrokkenheid &#x200B;](https://video.tv.adobe.com/v/3447473?captions=dut){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
