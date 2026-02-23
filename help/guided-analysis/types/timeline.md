@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 role: User
 exl-id: d3da9257-a133-46c8-8fac-1a33d3372bb7
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -23,18 +23,18 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
-De ![&#x200B; analyse van de Chronologie &#x200B;](/help/assets/icons/Timeline.svg) **[!UICONTROL Timeline]** staat u toe om gebruiker-vlakke zittingsgebeurtenissen in tijd waar te nemen om ervaringspatronen te vinden en betere gebruikersverhalen te vertellen. Met de linkerrails kunt u de stream filteren op eigenschapswaarden en segmenten. Met de rechterrails kunt u een keuze maken uit een gerandomiseerde lijst met gebruikers die voldoen aan de filtercriteria. In het middelste gebied wordt de stream voor de geselecteerde gebruiker per sessie weergegeven, die bestaat uit tijdstempel, eigenschapswaarden en duur. De duur is niet beschikbaar voor de laatste gebeurtenis in een bepaalde sessie.
+De ![ analyse van de Chronologie ](/help/assets/icons/Timeline.svg) **[!UICONTROL Timeline]** staat u toe om gebruiker-vlakke zittingsgebeurtenissen in tijd waar te nemen om ervaringspatronen te vinden en betere gebruikersverhalen te vertellen. Met de linkerrails kunt u de stream filteren op eigenschapswaarden en segmenten. Met de rechterrails kunt u een keuze maken uit een gerandomiseerde lijst met gebruikers die voldoen aan de filtercriteria. In het middelste gebied wordt de stream voor de geselecteerde gebruiker per sessie weergegeven, die bestaat uit tijdstempel, eigenschapswaarden en duur. De duur is niet beschikbaar voor de laatste gebeurtenis in een bepaalde sessie.
 
 
 >[!NOTE]
 >
->De [!UICONTROL Timeline] analyse vereist dat de **[!UICONTROL Person ID]** standaardcomponent in de [&#x200B; gegevensmening &#x200B;](/help/data-views/component-reference.md#optional) beschikbaar is. De opneming van identiteitskaart van de Persoon in een gegevensmening wordt beheerd door uw beheerder van de Customer Journey Analytics, die uw organisatie volledige privacycontrole over geeft wie tot deze gegevens kan toegang hebben.
+>De [!UICONTROL Timeline] analyse vereist dat de **[!UICONTROL Person ID]** standaardcomponent in de [ gegevensmening ](/help/data-views/component-reference.md#optional) beschikbaar is. De opname van de persoon-id in een gegevensweergave wordt beheerd door uw Customer Journey Analytics-beheerder, zodat uw organisatie volledig controle heeft over de privacy van wie toegang heeft tot deze gegevens.
 ><br/>Als de component [!UICONTROL Person ID] niet is toegevoegd aan een gegevensweergave, wordt het volgende bericht weergegeven:
 >
 >* **Admins**: *het bezit PersonID wordt vereist voor deze analyse. Gelieve te voegen identiteitskaart van de Persoon aan de gegevensmening toe.*
->* **niet-admins**: *het bezit PersonID wordt vereist voor deze analyse. Gelieve te werken met uw beheerder van de Customer Journey Analytics om identiteitskaart van de Persoon aan de gegevensmening toe te voegen.*
+>* **niet-admins**: *het bezit PersonID wordt vereist voor deze analyse. Gelieve te werken met uw beheerder van Customer Journey Analytics om identiteitskaart van de Persoon aan de gegevensmening toe te voegen.*
 
->[!VIDEO](https://video.tv.adobe.com/v/3435773/?quality=12&learn=on&captions=dut)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/timeline)
 
 
 
@@ -42,13 +42,13 @@ De ![&#x200B; analyse van de Chronologie &#x200B;](/help/assets/icons/Timeline.s
 
 De gevallen van het gebruik voor deze analyse omvatten:
 
-* **Verkenning van de Wrijving**: Als u een steile daling in de [&#x200B; analyse van het Trechter &#x200B;](funnel.md) vindt analyse, kunt u een segment van die gebruikers tot stand brengen en het segment in deze analyse toepassen om potentiële oorzaken te onderzoeken.
+* **Verkenning van de Wrijving**: Als u een steile daling in de [ analyse van Funnel ](funnel.md) analyse vindt, kunt u een segment van die gebruikers tot stand brengen en het segment in deze analyse toepassen om potentiële oorzaken te onderzoeken.
 * **het gedrag van de Fout**: Als de gebruikers een productfout ontmoeten, kunt u onderzoeken welke gebruikers vóór of na het zien van die fout deden.
 * **de inzamelingsbevestiging van Gegevens**: De beheerders van gegevens kunnen deze analyse aan hun eigen identiteitskaart van de Persoon filtreren om te bevestigen dat de implementatie van hun organisatie zoals verwacht werkt.
 
 ## Interface
 
-Zie [&#x200B; Interface &#x200B;](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
+Zie [ Interface ](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
 
 ### Query-rail
 

@@ -4,10 +4,10 @@ description: Leer over het concept van het toekennen van krediet van een succesg
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: b70409de112ba8247df8fc6f74f20a9370cda1e1
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 30%
+source-wordcount: '466'
+ht-degree: 29%
 
 ---
 
@@ -43,38 +43,38 @@ Adobe Analytics verbetert de attributie doordat u de volgende punten naar eigen 
 
 Attributie bestaat uit de volgende kenmerken:
 
-* [&#x200B; het paneel van de Attributie &#x200B;](/help/analysis-workspace/c-panels/attribution.md): Neem om het even welke afmeting en metrisch, en vergelijk het snel met verschillende attributiemodellen.
-* [&#x200B; pas attributie op metrisch &#x200B;](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md) toe: Gebruik een niet-standaardattributie op om het even welke metrisch in een project.
-* [&#x200B; pas attributie op een verdeling &#x200B;](/help/components/dimensions/t-breakdown-fa.md#apply-attribution-models-to-breakdowns) toe: Gebruik een niet-standaardattributie op een verdeling.
-* [&#x200B; vergelijk attributiemodellen &#x200B;](/help/components/apply-create-metrics.md#compare-metrics-with-different-attribution-models): Zie snel hoe de verschillende attributiemodellen voor om het even welk metrisch vergelijken.
+* [ het paneel van de Attributie ](/help/analysis-workspace/c-panels/attribution.md): Neem om het even welke afmeting en metrisch, en vergelijk het snel met verschillende attributiemodellen.
+* [ pas attributie op metrisch ](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md) toe: Gebruik een niet-standaardattributie op om het even welke metrisch in een project.
+* [ pas attributie op een verdeling ](/help/components/dimensions/t-breakdown-fa.md#apply-attribution-models-to-breakdowns) toe: Gebruik een niet-standaardattributie op een verdeling.
+* [ vergelijk attributiemodellen ](/help/components/apply-create-metrics.md#compare-metrics-with-different-attribution-models): Zie snel hoe de verschillende attributiemodellen voor om het even welk metrisch vergelijken.
 
 ## Video&#39;s
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Attributie in Vrije vormlijsten &#x200B;](https://video.tv.adobe.com/v/23136?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Attributie in Vrije vormlijsten ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-attribution-iq-in-freeform-tables){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; &#x200B;](/help/assets/icons/VideoCheckedOut.svg) Attributie 0&rbrace; VideoCheckedOut in berekende metriek [&#x200B; voor een demo video.](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"}
+Zie ![ ](/help/assets/icons/VideoCheckedOut.svg) Attributie 0} VideoCheckedOut in berekende metriek [ voor een demo video.](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/attribution-iq-in-calculated-metrics){target="_blank"}
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Gebruikend het paneel van de Attributie &#x200B;](https://video.tv.adobe.com/v/23139?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Gebruikend het paneel van de Attributie ](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/panels/build-the-attribution-panel){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Toevoegend zij aan zij vergelijkingen van de modellen van de Attributie &#x200B;](https://video.tv.adobe.com/v/23651?quality=12&learn=on){target="_blank"} voor een demo video.
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Toevoegend zij aan zij vergelijkingen van de modellen van de Attributie ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/adding-side-by-side-comparisons-of-attribution-iq-models){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 

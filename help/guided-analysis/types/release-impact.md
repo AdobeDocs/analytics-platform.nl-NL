@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: 93e6e4f1-bbe4-4a6c-8ec3-54d1f9a8b847
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
-De ![&#x200B; 2&rbrace; analyse van de Versie &#x200B;](/help/assets/icons/Release.svg) &lbrace;toont een vergelijking van hoe de belangrijkste indicatoren vóór en na een bepaalde datum presteerden. **[!UICONTROL Release impact]** De horizontale as van dit rapport is een tijdinterval, terwijl de verticale as de gewenste belangrijkste indicatoren meet. Een verticale balk in het midden van het diagram geeft de datum aan die u voor en na wilt vergelijken. Deze datum is doorgaans een opmerkelijke wijziging van het product waarop u wilt meten, zoals een update van het product of het starten van de campagne.
+De ![ 2} analyse van de Versie ](/help/assets/icons/Release.svg) {toont een vergelijking van hoe de belangrijkste indicatoren vóór en na een bepaalde datum presteerden. **[!UICONTROL Release impact]** De horizontale as van dit rapport is een tijdinterval, terwijl de verticale as de gewenste belangrijkste indicatoren meet. Een verticale balk in het midden van het diagram geeft de datum aan die u voor en na wilt vergelijken. Deze datum is doorgaans een opmerkelijke wijziging van het product waarop u wilt meten, zoals een update van het product of het starten van de campagne.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432440/?quality=12&learn=on&captions=dut)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/release-impact)
 
 ## Gebruik hoofdletters
 
@@ -38,13 +38,13 @@ De gevallen van het gebruik voor deze analyse omvatten:
 
 ## Interface
 
-Zie [&#x200B; Interface &#x200B;](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
+Zie [ Interface ](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
 
 ### Query-rail
 
 Met de queryrail kunt u de volgende componenten configureren:
 
-* **[!UICONTROL View]**: Schakelaar tussen deze analyse en [&#x200B; Eerste gebruikseffect &#x200B;](first-use-impact.md).
+* **[!UICONTROL View]**: Schakelaar tussen deze analyse en [ Eerste gebruikseffect ](first-use-impact.md).
 * **[!UICONTROL Key indicators]**: De gebeurtenissen die u per gebruiker wilt meten. Elke geselecteerde toetsindicator wordt weergegeven als een gekleurde lijn. Aan de tabel wordt een rij toegevoegd die de gebeurtenis vertegenwoordigt. U kunt maximaal drie gebeurtenissen opnemen.
 * **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. De opties zijn [!UICONTROL Events per user] , [!UICONTROL Percentage of users] , [!UICONTROL Events] , [!UICONTROL Sessions] en [!UICONTROL Users] .
 * **[!UICONTROL Factors]**: De datum die u voor en na wilt vergelijken.

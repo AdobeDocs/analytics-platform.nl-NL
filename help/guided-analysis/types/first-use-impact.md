@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: 2c512184-2d79-4c41-8229-a09e440179ea
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '636'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,10 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
-De ![&#x200B; FirstUse &#x200B;](/help/assets/icons/FirstUse.svg) **[!UICONTROL First use impact]** analyse toont een vergelijking van hoe de zeer belangrijke indicatoren vóór en na een gebruiker een producteigenschap voor het eerst uitvoerden. De horizontale as van dit rapport is een relatief tijdinterval voor en na de gebeurtenis, terwijl de verticale as de gewenste toetsindicatoren meet. Een verticale bar in het midden van de grafiek vertegenwoordigt dag 0 voor wanneer een eigenschap voor het eerst door een bepaalde gebruiker wordt gebruikt. Omdat de gebruikers niet altijd eigenschappen op de zelfde dag goedkeuren en uw rollouts kunnen over verscheidene dagen gebeuren, kan dag 0 iets betekenen verschillend voor elke individuele gebruiker.
+De ![ FirstUse ](/help/assets/icons/FirstUse.svg) **[!UICONTROL First use impact]** analyse toont een vergelijking van hoe de zeer belangrijke indicatoren vóór en na een gebruiker een producteigenschap voor het eerst uitvoerden. De horizontale as van dit rapport is een relatief tijdinterval voor en na de gebeurtenis, terwijl de verticale as de gewenste toetsindicatoren meet. Een verticale bar in het midden van de grafiek vertegenwoordigt dag 0 voor wanneer een eigenschap voor het eerst door een bepaalde gebruiker wordt gebruikt. Omdat de gebruikers niet altijd eigenschappen op de zelfde dag goedkeuren en uw rollouts kunnen over verscheidene dagen gebeuren, kan dag 0 iets betekenen verschillend voor elke individuele gebruiker.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3432448/?quality=12&learn=on&captions=dut)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/first-use-impact)
 
 
 ## Gebruik hoofdletters
@@ -44,13 +44,13 @@ De gevallen van het gebruik voor deze analyse omvatten:
 
 ## Interface
 
-Zie [&#x200B; Interface &#x200B;](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
+Zie [ Interface ](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
 
 ### Query-rail
 
 Met de queryrail kunt u de volgende componenten configureren:
 
-* **[!UICONTROL View]**: Schakelaar tussen deze analyse en [&#x200B; Versie &#x200B;](release-impact.md).
+* **[!UICONTROL View]**: Schakelaar tussen deze analyse en [ Versie ](release-impact.md).
 * **[!UICONTROL Key indicators]**: De gebeurtenissen die u per gebruiker wilt meten. Elke geselecteerde toetsindicator wordt weergegeven als een gekleurde lijn. Aan de tabel wordt een rij toegevoegd die de gebeurtenis vertegenwoordigt. U kunt maximaal drie gebeurtenissen opnemen.
 * **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. De opties zijn [!UICONTROL Events per user] , [!UICONTROL Events] , [!UICONTROL Sessions] en [!UICONTROL Users] .
 * **[!UICONTROL Factors]**: Er zijn twee factoren voor deze analyse:

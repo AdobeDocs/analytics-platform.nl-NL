@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 role: User
 exl-id: 8a48ad3b-fa30-497e-8306-f8d881b1a335
-source-git-commit: a62ac798da9d66fa3d88262ef7d04aa4bf6a3303
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <!-- markdownlint-enable MD034 -->
 
 
-De ![&#128279;](/help/assets/icons/EngagementGraph.svg) **[!UICONTROL Engagement]** analyse 0&rbrace; EngagementGraph verstrekt inzicht in hoe vaak een eigenschap tegenover hoeveel mensen het gebruikt wordt.  Deze analyse werkt het best wanneer het vergelijken van verscheidene eigenschappen aan elkaar. Het helpt investeringsbeslissingen te voeden door te begrijpen wat uw kern, macht, eenmalig, en twijfelachtige eigenschappen zijn.
+De ![ ](/help/assets/icons/EngagementGraph.svg) analyse 0} EngagementGraph verstrekt insight in hoe vaak een eigenschap tegenover hoeveel mensen het gebruikt wordt. **[!UICONTROL Engagement]** Deze analyse werkt het best wanneer het vergelijken van verscheidene eigenschappen aan elkaar. Het helpt investeringsbeslissingen te voeden door te begrijpen wat uw kern, macht, eenmalig, en twijfelachtige eigenschappen zijn.
 
 De eigenschappen die naar de bovenkant van deze visualisatie trekken wijzen erop dat zij vaak onder betrokken gebruikers worden gebruikt. De eigenschappen die naar het recht van deze visualisatie trekken wijzen erop dat zij wijd onder uw actieve gebruikers worden geadopteerd. Het gemiddelde aantal keren dat een functie wordt gebruikt, verdeelt de grafiek horizontaal. Het mediane percentage actieve gebruikers verdeelt de grafiek verticaal. Medianen worden berekend op basis van de gebeurtenissen die in de query zijn geselecteerd, niet alle gegevens.
 
@@ -33,8 +33,11 @@ De eigenschappen die naar de bovenkant van deze visualisatie trekken wijzen erop
 * De eigenschappen in de bodem-linkerzijde van de matrijs zijn uw **lage gevolgen** eigenschappen; zij worden niet wijd goedgekeurd of vaak gebruikt.
 * De eigenschappen in het bodem-recht van de matrijs zijn uw **eenmalig** eigenschappen; zij worden wijd goedgekeurd, maar niet vaak gebruikt.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447473?captions=dut)
+>[!BEGINSHADEBOX]
 
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ analyse van de Betrokkenheid ](https://video.tv.adobe.com/v/3429489/&learn=on){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
 
 ## Gebruik hoofdletters
 
@@ -48,7 +51,7 @@ De gevallen van het gebruik voor deze analyse omvatten:
 
 ## Interface
 
-Zie [&#x200B; Interface &#x200B;](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
+Zie [ Interface ](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
 
 ### Query-rail
 

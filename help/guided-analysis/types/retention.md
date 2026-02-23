@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: c35a0ee0-e6b7-47b5-a5bc-308cde1585de
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1203'
 ht-degree: 0%
 
 ---
@@ -23,14 +23,14 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
-De ![&#x200B; Behoud &#x200B;](/help/assets/icons/Retention.svg) **[!UICONTROL Retention]** analyse meet hoe de gebruikers uw product in tijd blijven gebruiken, die u kan helpen uw productmarkt begrijpen geschikt. In de analyse worden gebruikers op basis van twee belangrijke gebeurtenissen beoordeeld:
+De ![ Behoud ](/help/assets/icons/Retention.svg) **[!UICONTROL Retention]** analyse meet hoe de gebruikers uw product in tijd blijven gebruiken, die u kan helpen uw productmarkt begrijpen geschikt. In de analyse worden gebruikers op basis van twee belangrijke gebeurtenissen beoordeeld:
 
 * Startgebeurtenis: de gebeurtenis die wordt gebruikt om gebruikers in aanmerking te laten komen voor opname in uw analyse.
 * Geretourneerde gebeurtenis: een of meer gebeurtenissen waarmee een gebruiker moet werken om als terugkerende gebruiker in uw analyse te tellen.
 
 In deze analyse, vertegenwoordigt de x-as van de grafiek de tijd sinds de eerste begingebeurtenis van een gebruiker en y-as het percentage gebruikers die met één of meerdere terugkeergebeurtenissen in dienst nemen. U kunt zowel behoud als kromme over duur bekijken, en de getoonde duur kan door de vraagmontages worden aangepast. Onder de grafiek, verstrekt een lijst samengevoegde gegevens met de optie om individuele cohorts te tonen, die een groep mensen zijn die de beginnende gebeurtenis op de zelfde datum deden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3435784/?quality=12&learn=on&captions=dut)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/retention)
 
 
 ## Gebruik hoofdletters
@@ -40,11 +40,11 @@ De gevallen van het gebruik voor deze analyse omvatten:
 * **analyse van de Cohort**: De gebruikers van de groep in cohorts die op acties worden gebaseerd die zij, zoals sign-ups of aankopen nemen. U kunt vergelijken hoe goed deze groepen behouden en bepalen hoe te om de gebruikerservaring van elke groep te verbeteren.
 * **de marktpas van het Product** past: Meet regelmatig gebruik van uw product en visualiseer als behoudkrommen. Grotere retentie betekent een grotere geschiktheid voor de productmarkt en wanneer de curve wordt afgevlakt, geeft dit aan hoe lang het duurt om uw pasvorm te bereiken. Bekijk deze analyse op een algemeen niveau of uitsplitsing naar afzonderlijke productkenmerken om dieper inzicht te krijgen.
 * **de dienstanalyse van het Abonnement**: Als uw product een abonnement of een ander type van het terugkomende opbrengstmodel aanwendt, kunt u het percentage gebruikers zien die het grootste deel van uw product maken. U kunt bepaalde kwaliteiten en gedragingen identificeren die deze gebruikers vertonen.
-* **Overeenkomst van de Gebruiker**: Evalueer hoe bepaalde types van gebruikers met uw product in dienst nemen, en vergelijk zij naast elkaar hoe vaak zij terugkeren. Een bepaald segment met een lagere retentie dan anderen kan u inzicht verschaffen in het verbeteren van mogelijke ondermaatse ervaringen die zij kunnen hebben.
+* **Overeenkomst van de Gebruiker**: Evalueer hoe bepaalde types van gebruikers met uw product in dienst nemen, en vergelijk zij naast elkaar hoe vaak zij terugkeren. Een bepaald segment met een lagere retentie dan anderen kan je insight voorzien in het verbeteren van mogelijke ondermaatse ervaringen die ze kunnen hebben.
 
 ## Interface
 
-Zie [&#x200B; Interface &#x200B;](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
+Zie [ Interface ](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
 
 ### Query-rail
 
@@ -60,7 +60,7 @@ Met de queryrail kunt u de volgende componenten configureren:
    * **[!UICONTROL Each]**: De tijdsperiode die u wilt instellen voor elke tijdsspanne. U kunt onder andere de volgende opties kiezen:
       * **[!UICONTROL Day/Week/Month]**: de beschikbare opties zijn afhankelijk van het geselecteerde datumbereik. Deze opties zijn identiek aan de instelling **[!UICONTROL Interval]** wanneer u het datumbereik en updates selecteert die automatisch worden ingesteld.
       * **[!UICONTROL Custom brackets]**: deze optie is alleen beschikbaar voor de instelling Bij elke. Hiermee kunt u gebruikers tellen over een groter tijdsbestek, bijvoorbeeld dag 7-10 in plaats van alleen dag 7.
-   * **[!UICONTROL Duration settings]**: Staat u toe om de duuremmers te controleren die op de grafiek en de lijst worden getoond. Een tijdsduur is de periode na de startgebeurtenis dat de retourgebeurtenis heeft plaatsgevonden. Opmerking: gebruikers die in aanmerking komen voor tijdsemmers zijn gebaseerd op verstreken tijd, niet op kalenderdagen. Bijvoorbeeld, als een gebruiker voor een gebeurtenis om 11:55 PM op 6 September kwalificeert, dan voor een terugkeergebeurtenis om 12:05 AM op 7 September in aanmerking komt, zouden zij niet in het 1 dagduuremmertje verschijnen. Er moet een volledige periode van 24 uur verstrijken voordat de gebruiker in aanmerking komt voor het tijdsinterval van 1 dag. De beschikbare tijdsemmers zijn afhankelijk van het datumbereik dat u instelt.
+   * **[!UICONTROL Duration settings]**: Staat u toe om de duuremmers te controleren die op de grafiek en de lijst worden getoond. Een tijdsduur is de periode na de startgebeurtenis dat de retourgebeurtenis heeft plaatsgevonden. Opmerking: gebruikers die in aanmerking komen voor tijdsemmers zijn gebaseerd op verstreken tijd, niet op kalenderdagen. Bijvoorbeeld, als een gebruiker voor een gebeurtenis bij 11 :55 PM op 6 September kwalificeert, dan voor een terugkeergebeurtenis bij 12 :05 AM op 7 September kwalificeert, zouden zij niet in het 1 dagduuremmertje verschijnen. Er moet een volledige periode van 24 uur verstrijken voordat de gebruiker in aanmerking komt voor het tijdsinterval van 1 dag. De beschikbare tijdsemmers zijn afhankelijk van het datumbereik dat u instelt.
       * **[!UICONTROL Auto durations]** definieert automatisch de tijdsemmers op basis van de lengte van het datumbereik en de nabijheid van de huidige dag waarop het datumbereik zich bevindt.
       * **[!UICONTROL Custom durations]** staat u toe om de vier die duuremmers aan te passen op de grafiek en de lijst worden getoond.
 * **[!UICONTROL Segments]**: De segmenten die u wilt meten. Elk geselecteerd segment voegt een rij toe aan de cohortingtabel. U kunt maximaal drie segmenten opnemen.

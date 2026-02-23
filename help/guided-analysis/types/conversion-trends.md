@@ -5,9 +5,9 @@ feature: Adobe Product Analytics, Guided Analysis
 keywords: productanalyse
 exl-id: 75501e77-a172-48b4-9c91-b12d39e93c37
 role: User
-source-git-commit: bd8c9951386608572d84006bd5465e57214c56d4
+source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -24,32 +24,32 @@ ht-degree: 0%
 <!-- markdownlint-enable MD034 -->
 
 
-De ![&#x200B; analyse van de Trends van de Omzetting &#x200B;](/help/assets/icons/ConversionTrends.svg) **[!UICONTROL Conversion trends]** verstrekt een trended visualisatie van omzettingen in tijd. De horizontale as is een tijdinterval, terwijl de verticale as de omzettingssnelheid vertegenwoordigt.
+De ![ analyse van de Trends van de Omzetting ](/help/assets/icons/ConversionTrends.svg) **[!UICONTROL Conversion trends]** verstrekt een trended visualisatie van omzettingen in tijd. De horizontale as is een tijdinterval, terwijl de verticale as de omzettingssnelheid vertegenwoordigt.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3432446/?quality=12&learn=on&captions=dut)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/conversion-trends)
 
 
 ## Gebruik hoofdletters
 
 De gevallen van het gebruik voor deze analyse omvatten:
 
-* **de optimaliseringsinspanningen van het Spoor**: Na het identificeren van zeer belangrijke knelpunten die u het gebruiken van de [&#x200B; analyse van het Trechter &#x200B;](funnel.md) wilt verbeteren, kunt u deze analyse gebruiken om te volgen hoe die optimalisaties omzettingspercentage in tijd beïnvloeden.
-* **A/B testende evaluatie**: Evalueer de doeltreffendheid van tests A/B of experimenten die binnen de context van een trechter worden uitgevoerd. Door de omrekeningskoersen tussen verschillende variaties te vergelijken, kunt u gemakkelijk bepalen welke tests hogere omrekeningskoersen verstrekken, die tot gegeven-gedreven besluiten leiden waarrond variaties permanent moeten uitvoeren.
+* **de optimaliseringsinspanningen van het Spoor**: Na het identificeren van zeer belangrijke knelpunten die u het gebruiken van de [ Funnel ](funnel.md) analyse wilt verbeteren, kunt u deze analyse gebruiken om te volgen hoe die optimalisaties omzettingspercentage in tijd beïnvloeden.
+* **A/B testende evaluatie**: Evalueer de doeltreffendheid van tests A/B of experimenten die binnen de context van een funnel worden uitgevoerd. Door de omrekeningskoersen tussen verschillende variaties te vergelijken, kunt u gemakkelijk bepalen welke tests hogere omrekeningskoersen verstrekken, die tot gegeven-gedreven besluiten leiden waarrond variaties permanent moeten uitvoeren.
 * **de evaluatie van de Campagne in tijd**: Meet de doeltreffendheid van marketing campagnes in tijd. U kunt een segment maken dat zich richt op gebruikers die een bepaalde campagne hebben aangeraakt, en hun conversietarieven vergelijken met andere campagnes. U kunt de huidige omrekeningskoersen ook vergelijken met vergelijkbare campagnes die in het verleden zijn gevoerd.
 
 ## Interface
 
-Zie [&#x200B; Interface &#x200B;](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
+Zie [ Interface ](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
 
 ### Query-rail
 
 Met de queryrail kunt u de volgende componenten configureren:
 
-* **[!UICONTROL View]**: Schakelaar tussen deze analyse en [&#x200B; Trechter &#x200B;](funnel.md).
+* **[!UICONTROL View]**: Schakelaar tussen deze analyse en [ Funnel ](funnel.md).
 * **[!UICONTROL Steps]**: De aanraakpunten voor gebeurtenissen die u wilt bijhouden. Elke balk in het diagram vertegenwoordigt een stap. U kunt maximaal tien stappen opnemen.
 * **[!UICONTROL Counted as]**: De telmethode die u op de geselecteerde gebeurtenissen wilt toepassen. De opties zijn [!UICONTROL Users] en [!UICONTROL Sessions] .
-* **[!UICONTROL Segments]**: De segmenten waarin u de trechter wilt vergelijken. Elk segment dat is geselecteerd, splitst elke stap in meerdere balken. Elke kleur vertegenwoordigt een ander segment. U kunt maximaal drie segmenten opnemen.
+* **[!UICONTROL Segments]**: De segmenten die u de funnel wilt vergelijken. Elk segment dat is geselecteerd, splitst elke stap in meerdere balken. Elke kleur vertegenwoordigt een ander segment. U kunt maximaal drie segmenten opnemen.
 
 ### Diagraminstellingen
 
@@ -60,7 +60,7 @@ De [!UICONTROL Conversion trends] -analyse biedt de volgende diagraminstellingen
 
 >[!NOTE]
 >
->De **Gemiddelde** kolom in de de analyselijst van de tendensen van de Omzetting verschilt van de **Totale** kolom in de [&#x200B; de analyse van het Trechter &#x200B;](funnel.md) lijst. Het eerste is een gemiddelde van de intervalkolommen (bijvoorbeeld het gemiddelde van de dagelijkse omrekeningskoersen), terwijl het laatste een geaggregeerde berekening is over het volledige datumbereik.
+>De **Gemiddelde** kolom in de de analyselijst van de tendensen van de Omzetting verschilt van de **Totale** kolom in de [ de analyse ](funnel.md) lijst van Funnel. Het eerste is een gemiddelde van de intervalkolommen (bijvoorbeeld het gemiddelde van de dagelijkse omrekeningskoersen), terwijl het laatste een geaggregeerde berekening is over het volledige datumbereik.
 
 ### Tijdvergelijking
 
