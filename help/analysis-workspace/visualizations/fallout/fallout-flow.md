@@ -25,16 +25,16 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de visualisatie van de Uitval in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_zie [ Uitval ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert de visualisatie van de Uitval in_ ![&#x200B; CustomerJourneyAnalytics &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [&#x200B; Uitval &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow) voor_ ![&#x200B; AdobeAnalytics &#x200B;](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
-A ![ ConversionFunnel ](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Fallout]** visualisatie toont waar de personen (uit) verlieten en door (vielen door) een vooraf bepaalde opeenvolging van pagina&#39;s vervielen.
+A ![&#x200B; ConversionFunnel &#x200B;](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Fallout]** visualisatie toont waar de personen (uit) verlieten en door (vielen door) een vooraf bepaalde opeenvolging van pagina&#39;s vervielen.
 
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ een rapport van de fallout visualisatie ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization){target="_blank"} voor een demo video creëren.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; een rapport van de fallout visualisatie &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization){target="_blank"} voor een demo video creëren.
 
 {{videoaa}}
 
@@ -55,7 +55,7 @@ U kunt bijvoorbeeld de uitvalpunten van een persoon bijhouden tijdens een aankoo
 
 ## Kies tussen de visualisaties voor Fallout-, Flow- en Reiscanvas
 
-De visualisatie van de Uitval heeft gelijkenissen met de [ visualisatie van de Stroom ](/help/analysis-workspace/visualizations/c-flow/flow.md) en de [ visualisatie van het canvas van de Reis ](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).
+De visualisatie van de Uitval heeft gelijkenissen met de [&#x200B; visualisatie van de Stroom &#x200B;](/help/analysis-workspace/visualizations/c-flow/flow.md) en de [&#x200B; visualisatie van het canvas van de Reis &#x200B;](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).
 
 ### De verschillen begrijpen
 
@@ -65,7 +65,7 @@ De visualisatie van de Uitval heeft gelijkenissen met de [ visualisatie van de S
 
 ### Wanneer gebruikt u Fallout
 
-Zowel zijn de Uitval als [ visualisaties van het canvas van 0} de Reis nuttig om te analyseren:](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
+Zowel zijn de Uitval als [&#x200B; visualisaties van het canvas van 0&rbrace; de Reis nuttig om te analyseren:](/help/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
 
 * Conversiepercentages via specifieke processen op uw site (zoals een aankoop- of registratieproces).
 * Algemene, bredere verkeersstromen: Van de mensen die de homepage bezochten, toont deze stroom hoeveel een onderzoek uitvoerden. En hoeveel van hen bekeken uiteindelijk een specifiek item.
@@ -77,7 +77,7 @@ Vallout-visualisaties zijn het meest geschikt voor:
 
 * De reizen waar u zij aan zij vergelijkingen van twee verschillende segmenten in het zelfde rapport moet uitvoeren.
 
-Gebruik [ de lijst hierboven ](#understand-the-differences) om de verschillen tussen het canvas van de Reis, Vallout, en de visualisaties van de Stroom te begrijpen.
+Gebruik [&#x200B; de lijst hierboven &#x200B;](#understand-the-differences) om de verschillen tussen het canvas van de Reis, Vallout, en de visualisaties van de Stroom te begrijpen.
 
 >[!MORELIKETHIS]
 >

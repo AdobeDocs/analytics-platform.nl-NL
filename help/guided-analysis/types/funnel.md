@@ -23,11 +23,11 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
-De ![ analyse 0} ConversionFunnel verstrekt een visuele vertegenwoordiging van een kritieke gebruikerstraject in uw product. ](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL Funnel]**De horizontale as vertegenwoordigt elke stap die een gebruiker moet doorgeven. De verticale as vertegenwoordigt het percentage gebruikers of zittingen bij elke stap. Alle stappen moeten in uiteindelijke volgorde worden uitgevoerd, maar kunnen op elk moment binnen het rapportagevenster plaatsvinden.
+De ![&#x200B; analyse 0&rbrace; ConversionFunnel verstrekt een visuele vertegenwoordiging van een kritieke gebruikerstraject in uw product. &#x200B;](/help/assets/icons/ConversionFunnel.svg)**[!UICONTROL Funnel]**&#x200B;De horizontale as vertegenwoordigt elke stap die een gebruiker moet doorgeven. De verticale as vertegenwoordigt het percentage gebruikers of zittingen bij elke stap. Alle stappen moeten in uiteindelijke volgorde worden uitgevoerd, maar kunnen op elk moment binnen het rapportagevenster plaatsvinden.
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ de wrijvingsanalyse van Funnel ](https://video.tv.adobe.com/v/3421663/?quality=12&learn=onn){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; de wrijvingsanalyse van Funnel &#x200B;](https://video.tv.adobe.com/v/3421663/?quality=12&learn=onn){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -44,15 +44,15 @@ De gevallen van het gebruik voor deze analyse omvatten:
 
 ## Interface
 
-Zie [ Interface ](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
+Zie [&#x200B; Interface &#x200B;](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
 
 ### Query-rail
 
 Met de queryrail kunt u de volgende componenten configureren:
 
-* **[!UICONTROL View]**: Schakelaar tussen deze analyse en [ tendensen van de Omzetting ](conversion-trends.md).
+* **[!UICONTROL View]**: Schakelaar tussen deze analyse en [&#x200B; tendensen van de Omzetting &#x200B;](conversion-trends.md).
 * **[!UICONTROL Steps]**: De aanraakpunten voor gebeurtenissen die u wilt bijhouden. Elke balk in het diagram vertegenwoordigt een stap. U kunt maximaal tien stappen opnemen.
-   * [!UICONTROL Compare]: Elke stap biedt een optie voor het vergelijken van meerdere gebeurtenissen in één funnel-stap, waardoor een &#39;forked funnel&#39; wordt gemaakt. Met deze functie kunt u de wrijving van twee ritten naast elkaar vergelijken zonder twee aparte analyses te hoeven maken. Dit is handig wanneer er stapopties zijn of er een A/B-experiment wordt uitgevoerd in de funnel. Zie [ Funnel ](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/funnel) in de leerprogramma&#39;s van Customer Journey Analytics voor een video die verklaart hoe te trechters te vergelijken.
+   * [!UICONTROL Compare]: Elke stap biedt een optie voor het vergelijken van meerdere gebeurtenissen in één funnel-stap, waardoor een &#39;forked funnel&#39; wordt gemaakt. Met deze functie kunt u de wrijving van twee ritten naast elkaar vergelijken zonder twee aparte analyses te hoeven maken. Dit is handig wanneer er stapopties zijn of er een A/B-experiment wordt uitgevoerd in de funnel. Zie [&#x200B; Funnel &#x200B;](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/funnel) in de leerprogramma&#39;s van Customer Journey Analytics voor een video die verklaart hoe te trechters te vergelijken.
 * **[!UICONTROL Counted as]**: Het bereik dat u wilt toepassen op de funnel. De opties zijn [!UICONTROL Sessions] en [!UICONTROL Users] .
    * [!UICONTROL Sessions]: alle stappen moeten binnen dezelfde sessie plaatsvinden om te worden geteld.
    * [!UICONTROL Users]: alle stappen moeten plaatsvinden binnen het geselecteerde rapportagevenster om te worden geteld.
@@ -75,7 +75,7 @@ De [!UICONTROL Funnel] -analyse biedt de volgende diagraminstellingen, die kunne
 
 Het gewenste datumbereik voor de analyse. Deze instelling bestaat uit twee componenten:
 
-* **[!UICONTROL Interval]**: De granulariteit voor de datum waarop u de getrineerde gegevens wilt weergeven. Dit het plaatsen beïnvloedt niet ontrendanalyses zoals [ Funnel ](funnel.md).
+* **[!UICONTROL Interval]**: De granulariteit voor de datum waarop u de getrineerde gegevens wilt weergeven. Dit het plaatsen beïnvloedt niet ontrendanalyses zoals [&#x200B; Funnel &#x200B;](funnel.md).
 * **[!UICONTROL Date]**: De begin- en einddatum. Voorinstellingen voor het verschuivende datumbereik en eerder opgeslagen aangepaste bereiken zijn voor uw gemak beschikbaar, maar u kunt ook de kalenderkiezer gebruiken om een vast datumbereik te kiezen.
 
 <!--

@@ -24,7 +24,7 @@ ht-degree: 0%
 <!-- markdownlint-enable MD034 -->
 
 
-De ![ ](/help/assets/icons/EngagementGraph.svg) analyse 0} EngagementGraph verstrekt insight in hoe vaak een eigenschap tegenover hoeveel mensen het gebruikt wordt. **[!UICONTROL Engagement]** Deze analyse werkt het best wanneer het vergelijken van verscheidene eigenschappen aan elkaar. Het helpt investeringsbeslissingen te voeden door te begrijpen wat uw kern, macht, eenmalig, en twijfelachtige eigenschappen zijn.
+De ![&#x200B; &#x200B;](/help/assets/icons/EngagementGraph.svg) analyse 0&rbrace; EngagementGraph verstrekt insight in hoe vaak een eigenschap tegenover hoeveel mensen het gebruikt wordt. **[!UICONTROL Engagement]** Deze analyse werkt het best wanneer het vergelijken van verscheidene eigenschappen aan elkaar. Het helpt investeringsbeslissingen te voeden door te begrijpen wat uw kern, macht, eenmalig, en twijfelachtige eigenschappen zijn.
 
 De eigenschappen die naar de bovenkant van deze visualisatie trekken wijzen erop dat zij vaak onder betrokken gebruikers worden gebruikt. De eigenschappen die naar het recht van deze visualisatie trekken wijzen erop dat zij wijd onder uw actieve gebruikers worden geadopteerd. Het gemiddelde aantal keren dat een functie wordt gebruikt, verdeelt de grafiek horizontaal. Het mediane percentage actieve gebruikers verdeelt de grafiek verticaal. Medianen worden berekend op basis van de gebeurtenissen die in de query zijn geselecteerd, niet alle gegevens.
 
@@ -35,7 +35,7 @@ De eigenschappen die naar de bovenkant van deze visualisatie trekken wijzen erop
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ analyse van de Betrokkenheid ](https://video.tv.adobe.com/v/3429489/&learn=on){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; analyse van de Betrokkenheid &#x200B;](https://video.tv.adobe.com/v/3429489/&learn=on){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -51,7 +51,7 @@ De gevallen van het gebruik voor deze analyse omvatten:
 
 ## Interface
 
-Zie [ Interface ](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
+Zie [&#x200B; Interface &#x200B;](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
 
 ### Query-rail
 

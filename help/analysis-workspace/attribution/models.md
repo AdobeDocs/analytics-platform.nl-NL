@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Het attribuutconcept in Adobe Analytics bestaat uit drie componenten:
 
-* **model van de Attributie:** het [ model ](#attribution-model) beschrijft de distributie van omzettingen in de hits in een groep. Bijvoorbeeld, eerste aanraking of laatste aanraking.
-* **Container**: De [ container ](#container) bepaalt het werkingsgebied van de attributie, of hoe te om de hits voor elk model te groeperen.
-* **venster van de raadplegingsterugkijker van de Attributie:** het [ raadplegingsvenster ](#lookback-window) beschrijft het aantal dagen terug naar het gekozen model te zoeken.
+* **model van de Attributie:** het [&#x200B; model &#x200B;](#attribution-model) beschrijft de distributie van omzettingen in de hits in een groep. Bijvoorbeeld, eerste aanraking of laatste aanraking.
+* **Container**: De [&#x200B; container &#x200B;](#container) bepaalt het werkingsgebied van de attributie, of hoe te om de hits voor elk model te groeperen.
+* **venster van de raadplegingsterugkijker van de Attributie:** het [&#x200B; raadplegingsvenster &#x200B;](#lookback-window) beschrijft het aantal dagen terug naar het gekozen model te zoeken.
 
 
 ## Attributiemodel

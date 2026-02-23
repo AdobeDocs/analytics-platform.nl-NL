@@ -23,7 +23,7 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
-De ![ Behoud ](/help/assets/icons/Retention.svg) **[!UICONTROL Retention]** analyse meet hoe de gebruikers uw product in tijd blijven gebruiken, die u kan helpen uw productmarkt begrijpen geschikt. In de analyse worden gebruikers op basis van twee belangrijke gebeurtenissen beoordeeld:
+De ![&#x200B; Behoud &#x200B;](/help/assets/icons/Retention.svg) **[!UICONTROL Retention]** analyse meet hoe de gebruikers uw product in tijd blijven gebruiken, die u kan helpen uw productmarkt begrijpen geschikt. In de analyse worden gebruikers op basis van twee belangrijke gebeurtenissen beoordeeld:
 
 * Startgebeurtenis: de gebeurtenis die wordt gebruikt om gebruikers in aanmerking te laten komen voor opname in uw analyse.
 * Geretourneerde gebeurtenis: een of meer gebeurtenissen waarmee een gebruiker moet werken om als terugkerende gebruiker in uw analyse te tellen.
@@ -44,7 +44,7 @@ De gevallen van het gebruik voor deze analyse omvatten:
 
 ## Interface
 
-Zie [ Interface ](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
+Zie [&#x200B; Interface &#x200B;](../overview.md#interface) voor een overzicht van de Geleide analyseinterface. De volgende instellingen gelden specifiek voor deze analyse:
 
 ### Query-rail
 
