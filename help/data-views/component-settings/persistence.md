@@ -91,10 +91,10 @@ De beschikbare vervalinstellingen zijn:
 
 * **Zitting**: Verloopt na een bepaalde zitting. Standaardvervalvenster.
 * **Persoon die Venster** meldt: Verloopt aan het eind van het rapporteringsvenster.
-* **Globale Rekening die Venster** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} meldt: Verloopt aan het eind van het rapporteringsvenster.
-* **Rekening die Venster** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} meldt: Verloopt aan het eind van het rapporteringsvenster.
-* **Opportunity die Venster** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} meldt: Verloopt aan het eind van het rapporteringsvenster.
-* **het Kopen Groep die Venster** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} meldt: Verloopt aan het eind van het rapporteringsvenster.
+* **Globale Rekening die Venster** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} meldt: Verloopt aan het eind van het rapporteringsvenster.
+* **Rekening die Venster** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} meldt: Verloopt aan het eind van het rapporteringsvenster.
+* **Opportunity die Venster** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} meldt: Verloopt aan het eind van het rapporteringsvenster.
+* **het Kopen Groep die Venster** [!BADGE &#x200B; B2B edition &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition" newtab=true tooltip="Customer Journey Analytics B2B edition"} meldt: Verloopt aan het eind van het rapporteringsvenster.
 * **Tijd van de Douane**: Verloopt na een gespecificeerde tijdspanne (tot 90 dagen). Deze optie voor verlopen is alleen beschikbaar voor de toewijzingsmodellen Origineel en Recentste. Wanneer u op tijd gebaseerde vervaldatums gebruikt, worden waarden vóór het begin van het rapportagevenster (maximaal 90 dagen) in overweging genomen.
 * **Metrisch**: Wanneer dit metrisch in een gebeurtenis wordt gezien, onmiddellijk verlopen de persistente waarde in de dimensie. U kunt elke gewenste metrische waarde gebruiken als eindwaarde voor de vervaldatum voor deze dimensie. Deze optie voor verlopen is alleen beschikbaar voor de instellingen Origineel en Recentste toewijzing.
 
@@ -108,7 +108,7 @@ Zie [&#x200B; Gebruikend bindende dimensies en metriek in Customer Journey Analy
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Bindende afmetingen &#x200B;](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Bindende afmetingen &#x200B;](https://experienceleague.adobe.com/nl/docs/customer-journey-analytics-learn/tutorials/data-views/binding-dimensions-in-data-views){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 

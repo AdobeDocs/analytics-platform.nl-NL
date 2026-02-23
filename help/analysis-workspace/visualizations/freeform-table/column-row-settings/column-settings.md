@@ -18,7 +18,7 @@ Met [!UICONTROL Column settings] kunt u kolomopmaak configureren, waarvan sommig
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; &#x200B;](/help/assets/icons/VideoCheckedOut.svg) Rij en kolommontages 0&rbrace; VideoCheckedOut in een Vrije vormlijst [&#x200B; voor een demo video.](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}
+Zie ![&#x200B; &#x200B;](/help/assets/icons/VideoCheckedOut.svg) Rij en kolommontages 0&rbrace; VideoCheckedOut in een Vrije vormlijst [&#x200B; voor een demo video.](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}
 
 {{videoaa}}
 

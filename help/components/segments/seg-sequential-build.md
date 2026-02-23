@@ -18,7 +18,7 @@ U maakt opeenvolgende segmenten met de logische operator [!UICONTROL Then] tusse
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Opeenvolgende segmentatie &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Opeenvolgende segmentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"} voor een demo video.
 
 {{videoaa}}
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; &#x200B;](/help/assets/icons/VideoCheckedOut.svg) Rij en kolommontages 0&rbrace; VideoCheckedOut in een Vrije vormlijst [&#x200B; voor een demo video.](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}
+Zie ![&#x200B; &#x200B;](/help/assets/icons/VideoCheckedOut.svg) Rij en kolommontages 0&rbrace; VideoCheckedOut in een Vrije vormlijst [&#x200B; voor een demo video.](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -90,4 +90,4 @@ De volgende aanvullende opties in contextmenu&#39;s zijn beschikbaar wanneer u e
 
 ## Rijhoogte wijzigen
 
-U kunt de [&#x200B; meningsdichtheid &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density) van een project plaatsen aan **[!UICONTROL Compact]**, **[!UICONTROL Comfortable]**, en **[!UICONTROL Expanded]**.
+U kunt de [&#x200B; meningsdichtheid &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/build-workspace-project/view-density) van een project plaatsen aan **[!UICONTROL Compact]**, **[!UICONTROL Comfortable]**, en **[!UICONTROL Expanded]**.

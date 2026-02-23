@@ -29,7 +29,7 @@ De volgende informatie instrueert curatoren van de gegevens van Customer Journey
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; creeer mobiele scorecard &#x200B;](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; creeer mobiele scorecard &#x200B;](https://experienceleague.adobe.com/nl/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -96,7 +96,7 @@ U kunt bijvoorbeeld de juiste afmetingen (zoals **[!DNL Marketing Channel]** in 
 
 Als u segmenten op afzonderlijke tegels wilt toepassen, sleept u een segment uit het linkerdeelvenster en zet u het segment direct boven op de tegel neer.
 
-Als u het segment op alle tegels in scorecard wilt toepassen, laat vallen de tegel bovenop scorecard. U kunt ook segmenten toepassen door deze te selecteren in het segmentmenu onder de datumbereiken. U [&#x200B; vormt en past segmenten voor uw scorecards &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) toe de zelfde manier u in Customer Journey Analytics Workspace zou.
+Als u het segment op alle tegels in scorecard wilt toepassen, laat vallen de tegel bovenop scorecard. U kunt ook segmenten toepassen door deze te selecteren in het segmentmenu onder de datumbereiken. U [&#x200B; vormt en past segmenten voor uw scorecards &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=nl-NL) toe de zelfde manier u in Customer Journey Analytics Workspace zou.
 
 ![&#x200B; drop-down selecteur die van het Segment de bouwstijlsegmenten &#x200B;](assets/segment_ui.png) benadrukt
 
@@ -212,7 +212,7 @@ Met aangepaste dia&#39;s kunt u zich nog meer richten op de informatie die u dee
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; de detailmeningen van de Douane &#x200B;](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/visitor-id/stitching-enablement-and-validation){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; de detailmeningen van de Douane &#x200B;](https://experienceleague.adobe.com/nl/docs/customer-journey-analytics-learn/tutorials/visitor-id/stitching-enablement-and-validation){target="_blank"} voor een demo video.
 
 {{videoaa}}
 
@@ -257,7 +257,7 @@ Bekijk de video voor meer informatie over het maken van gegevensverhalen in mobi
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; verhalen van Gegevens voor een Mobiel scorecard project &#x200B;](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; verhalen van Gegevens voor een Mobiel scorecard project &#x200B;](https://experienceleague.adobe.com/nl/docs/customer-journey-analytics-learn/tutorials/dashboards/create-a-mobile-scorecard){target="_blank"} voor een demo video.
 
 {{videoaa}}
 

@@ -34,7 +34,7 @@ De ![&#x200B; analyse van de Chronologie &#x200B;](/help/assets/icons/Timeline.s
 >* **Admins**: *het bezit PersonID wordt vereist voor deze analyse. Gelieve te voegen identiteitskaart van de Persoon aan de gegevensmening toe.*
 >* **niet-admins**: *het bezit PersonID wordt vereist voor deze analyse. Gelieve te werken met uw beheerder van Customer Journey Analytics om identiteitskaart van de Persoon aan de gegevensmening toe te voegen.*
 
->[!VIDEO](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/guided-analysis/timeline)
+>[!VIDEO](https://experienceleague.adobe.com/nl/docs/customer-journey-analytics-learn/tutorials/guided-analysis/timeline)
 
 
 

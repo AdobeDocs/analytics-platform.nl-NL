@@ -90,7 +90,7 @@ Herhaal bovenstaande stappen voor de internationale versie van de berekende metr
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; gebruiken gesegmenteerd berekend metrisch als implementationless metrisch &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; gebruiken gesegmenteerd berekend metrisch als implementationless metrisch &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"} voor een demo video.
 
 {{videoaa}}
 
