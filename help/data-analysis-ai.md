@@ -54,7 +54,7 @@ De volgende parameters regelen de toegang tot Data Insights Agent in Customer Jo
 
 * **Toestemmingen**: De noodzakelijke toestemmingen moeten in [!UICONTROL Adobe Admin Console] worden verleend alvorens de gebruikers tot Data Insights Agent kunnen toegang hebben.
 
-  Om toestemmingen te verlenen, moet de beheerder van het a [&#x200B; productprofiel &#x200B;](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) de volgende stappen in [!UICONTROL Admin Console] voltooien:
+  Om toestemmingen te verlenen, moet de beheerder van het a [&#x200B; productprofiel &#x200B;](https://helpx.adobe.com/nl/enterprise/using/manage-product-profiles.html) de volgende stappen in [!UICONTROL Admin Console] voltooien:
    1. Selecteer in **[!UICONTROL Admin Console]** de tab **[!UICONTROL Products]** om de pagina **[!UICONTROL All products and services]** weer te geven.
    1. Selecteer **[!UICONTROL Customer Journey Analytics]**.
    1. Selecteer op het tabblad **[!UICONTROL Product Profiles]** de titel van het productprofiel waartoe u toegang wilt verlenen aan [!UICONTROL AI Assistant: Product Knowledge] .
@@ -178,7 +178,7 @@ Adobe Experience Platform Agent Orchestrator biedt u toegang tot de functionalit
 
 Agent Orchestrator interpreteert uw verzoek, bepaalt welke gespecialiseerde agenten nodig zijn, en organiseert hen om de juiste reactie te leveren. Het houdt van context over multi-draai interactie bij, zodat kunt u op vroegere vragen natuurlijk voortbouwen.
 
-Voor meer informatie, zie [&#x200B; Adobe Experience Platform Agent Orchestrator &#x200B;](https://business.adobe.com/products/experience-platform/agent-orchestrator.html).
+Voor meer informatie, zie [&#x200B; Adobe Experience Platform Agent Orchestrator &#x200B;](https://business.adobe.com/nl/products/experience-platform/agent-orchestrator.html).
 
 ## Voorbeeld van vragen voor gegevensvisualisatie
 
