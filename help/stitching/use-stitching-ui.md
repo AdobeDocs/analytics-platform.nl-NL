@@ -27,7 +27,7 @@ U moet de eerste vereisten voor de het stitching methode controleren en ontmoete
 
 Als u aan de eerste vereisten voldoet, kunt u sommige preflight controles op de gegevens in de gebeurtenisdataset willen uitvoeren alvorens u identiteitsstitching toelaat:
 
-* Als u XDM schemagebieden voor blijvende identiteitskaart of persoonsidentiteitskaart gaat gebruiken, zorg ervoor dat de identiteiten behoorlijk in het schema voor de gebeurtenisdataset worden duidelijk. [&#x200B; zie het overzicht van Identiteitsnaamruimte &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces).
+* Als u XDM schemagebieden voor blijvende identiteitskaart of persoonsidentiteitskaart gaat gebruiken, zorg ervoor dat de identiteiten behoorlijk in het schema voor de gebeurtenisdataset worden duidelijk. [&#x200B; zie het overzicht van Identiteitsnaamruimte &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/namespaces).
 * Identiteitsdekking voor zowel blijvende identiteitskaart als persoonsidentiteitskaart verifiëren:
 
    * **Blijvende identiteitskaart**
@@ -58,7 +58,7 @@ Als u aan de eerste vereisten voldoet, kunt u sommige preflight controles op de 
 
 
    * **identiteitskaart van de Persoon**
-      * Voor op grafiek-gebaseerde het stitching, zorg ervoor dat de identiteitsgrafiek fragmenten bevat die de waarden van identiteitskaart van uw gekozen blijvende naamruimte van identiteitskaart en persoonsidentiteitskaart verbinden U kon een test in werking stellen door naar de [&#x200B; de grafiekkijker van de Identiteit van Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"} te gaan en de grafiek door sommige waarden van test blijvende identiteitskaart te vragen. Controleer of deze permanente id-waarden zijn gekoppeld aan de waarden van de persoon-id in de grafiek.
+      * Voor op grafiek-gebaseerde het stitching, zorg ervoor dat de identiteitsgrafiek fragmenten bevat die de waarden van identiteitskaart van uw gekozen blijvende naamruimte van identiteitskaart en persoonsidentiteitskaart verbinden U kon een test in werking stellen door naar de [&#x200B; de grafiekkijker van de Identiteit van Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"} te gaan en de grafiek door sommige waarden van test blijvende identiteitskaart te vragen. Controleer of deze permanente id-waarden zijn gekoppeld aan de waarden van de persoon-id in de grafiek.
       * Voor op gebied-gebaseerde het stitching, vraag 7 dagen van gegevens waar uw persoonidentiteitskaart- gebied niet ongeldig is en door een vraag van 7 dagen van gegevens voor alle gebeurtenissen in uw dataset verdeelt. Dit percentage zou idealiter boven de 5% moeten liggen.
 
         Voorbeeld van een query die u kunt gebruiken voor verificatie:
@@ -91,7 +91,7 @@ Als u aan de eerste vereisten voldoet, kunt u sommige preflight controles op de 
 >id="connection_changeto_identitygraph"
 >title="Wijzigen in identiteitsgrafiek"
 >abstract="Zorg ervoor dat u de instellingen van de identiteitsgrafiek hebt voltooid voordat u de identiteitsgrafiek voor stitching gebruikt."
->additional-url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/gbs" text="Op grafiek gebaseerde stitching"
+>additional-url="https://experienceleague.adobe.com/nl/docs/analytics-platform/using/stitching/gbs" text="Op grafiek gebaseerde stitching"
 
 >[!CONTEXTUALHELP]
 >id="connection_stitching_personid"
