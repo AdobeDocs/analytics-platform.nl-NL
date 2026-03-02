@@ -37,7 +37,7 @@ U kunt ook een koppeling delen naar een specifiek onderdeel van een project, zoa
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Verbinding binnen of buiten uw project &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Verbinding binnen of buiten uw project &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=nl-NL){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 

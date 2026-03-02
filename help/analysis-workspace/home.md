@@ -19,7 +19,7 @@ Met Analysis Workspace kunt u snel analyses maken om inzichten te verzamelen en 
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; overzicht van de werkruimte van de Analyse &#x200B;](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/workspace-projects/analysis-workspace-overview){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; overzicht van de werkruimte van de Analyse &#x200B;](https://experienceleague.adobe.com/nl/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/workspace-projects/analysis-workspace-overview){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
@@ -162,6 +162,6 @@ Wanneer je klaar bent met het uitbouwen van het project en het is het verzamelen
 ## Aanvullende bronnen {#resources}
 
 - Het [&#x200B; Leren die &#x200B;](/help/getting-started/landing.md#learning) pagina in Customer Journey Analytics landen. Deze pagina is een uitstekende manier om kennis te maken met Analysis Workspace. Met name het leren van Workspace Fundamentaal. Deze sjabloon begeleidt u door algemene terminologie en stappen voor het maken van uw eerste analyse in Workspace
-- Adobe biedt honderden [&#x200B; de videoopleidingsleerprogramma&#39;s van Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview) aan.
-- Zie [&#x200B; de versienota&#39;s van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/en/docs/release-notes/experience-cloud/current) voor updates over nieuwe eigenschappen.
+- Adobe biedt honderden [&#x200B; de videoopleidingsleerprogramma&#39;s van Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/overview) aan.
+- Zie [&#x200B; de versienota&#39;s van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/nl/docs/release-notes/experience-cloud/current) voor updates over nieuwe eigenschappen.
 
