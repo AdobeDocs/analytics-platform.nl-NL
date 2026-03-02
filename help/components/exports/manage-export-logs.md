@@ -5,9 +5,9 @@ title: Exportlogboeken beheren
 feature: Components
 exl-id: 6d676a0a-b117-421e-9a90-8c550f08d474
 role: User
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: bf76b8688dc0c463c032dd94e88450fed5488949
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -24,23 +24,25 @@ Voor geplande exportbewerkingen weerspiegelen logboeken de exportinstellingen zo
 
 1. Selecteer de [!UICONTROL **Logboeken**] tabel.
 
-   ![&#x200B; venster van de Uitvoer die de Logs tabel tonen &#x200B;](assets/export-logs-tab.png)
+   ![ venster van de Uitvoer die de Logs tabel tonen ](assets/export-logs-tab.png)
 
    De details voor elk logboek worden getoond in de beschikbare kolommen.
 
 1. Voer een van de volgende handelingen uit:
 
-   * [&#x200B; pas de kolommen &#x200B;](#configure-columns) aan die worden getoond.
+   * Systeembeheerders kunnen de optie voor **[!UICONTROL View logs for all users]** inschakelen. Wanneer deze optie is ingeschakeld, worden alle logbestanden weergegeven, ongeacht de gebruiker die de exportbewerking heeft gemaakt.
 
-   * Selecteer het **pictogram van de Informatie** ![&#x200B; pictogram van de Informatie &#x200B;](assets/information-icon.png) naast de logboeknaam om de uitvoer te bekijken die met het logboek wordt geassocieerd.
+   * [ pas de kolommen ](#configure-columns) aan die worden getoond.
 
-   * Selecteer het **uitgeven uitvoerpictogram** ![&#x200B; pictogram van de Informatie &#x200B;](assets/edit-export-icon.png) naast de logboeknaam om de uitvoer uit te geven die met het logboek wordt geassocieerd.
+   * Selecteer het **pictogram van de Informatie** ![ pictogram van de Informatie ](assets/information-icon.png) naast de logboeknaam om de uitvoer te bekijken die met het logboek wordt geassocieerd.
 
-     Voor meer informatie over het uitgeven van een uitvoer, zie [&#x200B; de rapporten van Customer Journey Analytics van de Uitvoer aan de wolk &#x200B;](/help/analysis-workspace/export/export-cloud.md).
+   * Selecteer het **uitvoerpictogram** uitgeven ![ uitvoerpictogram ](/help/assets/icons/Edit.svg) naast de logboeknaam om de uitvoer uit te geven die met het logboek wordt geassocieerd.
+
+     Voor meer informatie over het uitgeven van een uitvoer, zie [ de rapporten van Customer Journey Analytics van de Uitvoer aan de wolk ](/help/analysis-workspace/export/export-cloud.md).
 
 ## Filteren en zoeken naar logbestanden
 
-Om informatie te vinden u nodig hebt, kunt u of de lijst van logboeken filtreren of naar een logboek zoeken.
+Om de informatie te vinden die u nodig hebt, kunt u of de lijst van logboeken filtreren of naar een logboek zoeken.
 
 ### De lijst met logbestanden filteren
 
@@ -50,7 +52,7 @@ Om informatie te vinden u nodig hebt, kunt u of de lijst van logboeken filtreren
 
 1. Selecteer het **pictogram van de Filter**.
 
-   ![&#x200B; voert venster uit dat de lijst van de Filter door het type van Rekening toont &#x200B;](assets/export-log-filters.png)
+   ![ voert venster uit dat de lijst van de Filter door het type van Rekening toont ](assets/export-log-filters.png)
 
    U kunt filteren op de volgende criteria:
 
@@ -58,7 +60,7 @@ Om informatie te vinden u nodig hebt, kunt u of de lijst van logboeken filtreren
    |---------|----------|
    | [!UICONTROL **identiteitskaart van de Uitvoer**] | Geef de export-id op van het exportlogboek dat u wilt weergeven. |
    | [!UICONTROL **Type van Rekening**] | Het accounttype waaraan het logbestand is gekoppeld. De volgende accounttypen zijn beschikbaar: <ul><li>[!UICONTROL **AEP Gegevens die Zone**] aanvoeren</li><li>[!UICONTROL **Amazon S3 Rol ARN**]</li><li>[!UICONTROL **Azure SAS**]</li><li>[!UICONTROL **Azure RBAC**]</li><li>[!UICONTROL **Google Cloud Platform**]</li><li>[!UICONTROL **Snowflake**]</li></ul>. |
-   | [!UICONTROL **Status**] | De status van de uitvoer. De volgende statussen zijn beschikbaar: <ul><li>[!UICONTROL **Hangende**]: Een specifiek geval van de uitvoer is begonnen maar is nog niet volledig.<p>Als u een exportbewerking met de status In behandeling opnieuw uitvoert, wordt het exportproces vertraagd.</p></li><li>[!UICONTROL **Voltooid**]: Een specifiek geval van de uitvoer heeft verwerking gebeëindigd en is beschikbaar in de uitvoerrekening.</li><li>[!UICONTROL **Ontbroken**]<p>In verschillende situaties kan het exporteren mislukken. Houd de muisaanwijzer boven de status Mislukt om details over de fout weer te geven.<p>Voor meer informatie over mogelijke redenen voor een mislukking, zie [&#x200B; ontbroken uitvoer &#x200B;](/help/components/exports/troubleshoot-exports.md) problemen oplossen.</p> |
+   | [!UICONTROL **Status**] | De status van de uitvoer. De volgende statussen zijn beschikbaar: <ul><li>[!UICONTROL **Hangende**]: Een specifiek geval van de uitvoer is begonnen maar is nog niet volledig.<p>Als u een exportbewerking opnieuw uitvoert met de status In afwachting, wordt het exportproces vertraagd.</p></li><li>[!UICONTROL **Voltooid**]: Een specifiek geval van de uitvoer heeft verwerking gebeëindigd en is beschikbaar in de uitvoerrekening.</li><li>[!UICONTROL **Ontbroken**]<p>In verschillende situaties kan het exporteren mislukken. Houd de muisaanwijzer boven de status Mislukt om details over de fout weer te geven.</p><p>Voor meer informatie over mogelijke redenen voor een mislukking, zie [ ontbroken uitvoer ](/help/components/exports/troubleshoot-exports.md) problemen oplossen.</p></li></ul> |
 
    {style="table-layout:auto"}
 
@@ -94,11 +96,19 @@ Deze optie is niet beschikbaar als u meerdere logbestanden selecteert.
 
 1. Zoek het logboek dat is gekoppeld aan het exportbestand dat u wilt bewerken.
 
-1. Selecteer het **uitgeeft de pictogram van het de uitvoerlogboek** pictogram ![&#x200B; &#x200B;](assets/export-icon.png) naast de logboeknaam.
+1. Selecteer het **uitgeef uitvoerpictogram** pictogram ![ uitgeven het pictogram van het uitvoerlogboek ](/help/assets/icons/Edit.svg) naast de logboeknaam.
 
    of
 
    Selecteer checkbox naast het logboek, dan uitgezocht [!UICONTROL **geef uitvoer**] uit.
+
+## Een voltooide of mislukte export opnieuw uitvoeren
+
+U kunt een of meer exportlogs opnieuw uitvoeren. Als u het exporteren opnieuw wilt uitvoeren, moet het exportlogboek de status Voltooid of Mislukt hebben en mag het niet ouder zijn dan 7 dagen.
+
+1. Schakel het selectievakje in naast een of meer exporttaken die u opnieuw wilt uitvoeren.
+
+1. Selecteer **[!UICONTROL Rerun]**.
 
 ## Kolommen configureren
 
@@ -112,23 +122,24 @@ Kolommen configureren op het tabblad [!UICONTROL Logs] :
 
 1. Selecteer de [!UICONTROL **Logboeken**] tabel.
 
-1. Selecteer **aanpassen lijst** pictogram ![&#x200B; lijst &#x200B;](assets/customize-table-icon.png) in het hoger-recht van de [!UICONTROL Logs] pagina aanpassen.
+1. Selecteer **aanpassen lijst** pictogram ![ lijst ](assets/customize-table-icon.png) in het hoger-recht van de [!UICONTROL Logs] pagina aanpassen.
 
    De volgende kolommen zijn beschikbaar:
 
    | Beschikbare kolom | Beschrijving |
    |---------|----------|
-   | Exportnaam | De naam van de exportbewerking. De gebruikers geven uitvoer een naam wanneer zij tot hen, zoals die in [&#x200B; worden beschreven de rapporten van Customer Journey Analytics van de Uitvoer aan de wolk &#x200B;](/help/analysis-workspace/export/export-cloud.md) leiden. |
+   | Exportnaam | De naam van de exportbewerking. De gebruikers geven uitvoer een naam wanneer zij tot hen, zoals die in [ worden beschreven de rapporten van Customer Journey Analytics van de Uitvoer aan de wolk ](/help/analysis-workspace/export/export-cloud.md) leiden. |
    | Id exporteren | De id wordt automatisch toegewezen aan de exportbewerking wanneer deze wordt gemaakt. <!-- True? --> |
    | Instantie-id | De id van de Customer Journey Analytics-instantie. <!-- True? --> |
-   | Naam gegevensweergave | De naam van de gegevensweergave die aan het exporteren is gekoppeld. De gebruikers kunnen de gegevensmening selecteren wanneer zij tot de uitvoer leiden, zoals die in [&#x200B; wordt beschreven de rapporten van Customer Journey Analytics van de Uitvoer aan de wolk &#x200B;](/help/analysis-workspace/export/export-cloud.md). |
+   | Naam gegevensweergave | De naam van de gegevensweergave die aan het exporteren is gekoppeld. De gebruikers kunnen de gegevensmening selecteren wanneer zij tot de uitvoer leiden, zoals die in [ wordt beschreven de rapporten van Customer Journey Analytics van de Uitvoer aan de wolk ](/help/analysis-workspace/export/export-cloud.md). |
    | Aantal bestanden | Het aantal bestanden dat is opgenomen in de exportbewerking. |
-   | Grootte | De grootte van de exportbewerking.<p>De bestandsgrootte wordt berekend met een basis van 1024, die soms wordt weergegeven als KIB en MIB. Als uw cloudprovider de grootte berekent met een basis van 1000, kan dit ertoe leiden dat de grootte die wordt weergegeven in uw cloudprovider enigszins afwijkt van de grootte die hier wordt weergegeven.</p> |
+   | Grootte | De grootte van de exportbewerking.<p>De bestandsgrootte wordt berekend met een basis van 1024, die soms wordt weergegeven als KiB en MiB. Als uw cloudprovider de grootte berekent met een basis van 1000, kan de grootte die wordt weergegeven in uw cloudprovider enigszins afwijken van de grootte die hier wordt weergegeven.</p> |
    | Locatie | De locatie op de account waar de gegevens zijn geëxporteerd. |
    | Account | De account waarin de gegevens zijn geëxporteerd. |
-   | Status | De status van de uitvoer. Beschikbare statussen zijn [!UICONTROL Pending] , [!UICONTROL Delivered] en [!UICONTROL Failed] . |
+   | Status | De status van de uitvoer. Beschikbare statussen zijn [!UICONTROL Pending] , [!UICONTROL Completed] en [!UICONTROL Failed] . |
    | Datum van levering | De datum waarop de uitvoer heeft plaatsgevonden. |
-   | Accounttype | Het type cloudaccount waarin de gegevens zijn geëxporteerd. Beschikbare accounttypen zijn [!UICONTROL Amazon S3 Role ARN] , [!UICONTROL Google Cloud Platform] , [!UICONTROL Azure SAS] , [!UICONTROL Azure RBAC] , [!UICONTROL Snowflake] en [!UICONTROL Adobe Experience Platform] . |
+   | Begindatum | De datum waarop het exporteren is gestart. |
+   | Accounttype | Het type cloudaccount waarin de gegevens zijn geëxporteerd. Beschikbare accounttypen zijn [!UICONTROL Amazon S3 Role ARN] , [!UICONTROL Google Cloud Platform] , [!UICONTROL Azure SAS] , [!UICONTROL Azure RBAC] , [!UICONTROL Snowflake] en [!UICONTROL AEP Data Landing Zone] . |
    | Aantal rijen | Het aantal rijen dat is opgenomen in de geëxporteerde tabel. |
 
    {style="table-layout:auto"}
@@ -137,4 +148,4 @@ Kolommen configureren op het tabblad [!UICONTROL Logs] :
 
 ## Controlelogboeken weergeven
 
-De volledig-lijst uitvoer wordt ook gevolgd in de [&#x200B; controlelogboeken van Customer Journey Analytics &#x200B;](/help/privacy/audit-log.md). <!-- Need to see what the Component Type for full-table export will be and add it here. Also, under "Event type captured by audit logs" there would be a new event type called "Full-table export". 4 actions would be "Create, Delete, Edit, Export" and "API_Request"? Also information about the locations. Probably have a different component for the location credentials.-->
+De volledig-lijst uitvoer wordt ook gevolgd in de [ controlelogboeken van Customer Journey Analytics ](/help/privacy/audit-log.md). <!-- Need to see what the Component Type for full-table export will be and add it here. Also, under "Event type captured by audit logs" there would be a new event type called "Full-table export". 4 actions would be "Create, Delete, Edit, Export" and "API_Request"? Also information about the locations. Probably have a different component for the location credentials.-->

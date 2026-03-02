@@ -5,18 +5,18 @@ title: Locaties en accounts voor cloudexport beheren
 feature: Components
 exl-id: 8e82fe6f-99df-4360-8693-99692aac002b
 role: User, Admin
-source-git-commit: a133f60e66b34a851d2e8e1c0a853cdbc1f8d51f
+source-git-commit: 25a5c42153e28493321d87fa5227fcf44c244bb6
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
 
 # Locaties en accounts voor cloudexport beheren
 
-U kunt de exportlocaties van de cloud weergeven, bewerken en verwijderen.
+U kunt locaties en accounts voor cloudexport weergeven, bewerken en verwijderen.
 
-Voor informatie over hoe te om een nieuwe plaats tot stand te brengen, zie [&#x200B; de plaatsen van de wolkenuitvoer &#x200B;](/help/components/exports/cloud-export-locations.md) vormen.
+Voor informatie over hoe te om een nieuwe plaats tot stand te brengen, zie [ de plaatsen van de wolkenuitvoer ](/help/components/exports/cloud-export-locations.md) vormen.
 
 ## Filter- en zoeklocaties
 
@@ -30,7 +30,7 @@ Als u informatie wilt zoeken, kunt u filteren op de lijst met locaties of naar e
 
 1. Selecteer het **pictogram van de Filter**.
 
-   <!-- add screenshot -->
+   ![ pictogram van de Filter op plaatspagina ](assets/locations-filter-icon.png)
 
    U kunt filteren op de volgende criteria:
 
@@ -48,6 +48,8 @@ Als u informatie wilt zoeken, kunt u filteren op de lijst met locaties of naar e
 
 1. Selecteer de [!UICONTROL **Plaatsen**] tabel.
 
+   ![ de pagina van Plaatsen ](assets/locations-manager.png)
+
 1. (Voorwaardelijk) als u een systeembeheerder bent, kunt u de [!UICONTROL **plaatsen van de Mening voor alle gebruikers**] optie toelaten om plaatsen te bekijken die door alle gebruikers in uw organisatie worden gecreeerd.
 
 1. Typ in het zoekveld alle informatie die is gekoppeld aan de locatie waarnaar u zoekt. U kunt naar gegevens uit om het even welke kolom zoeken beschikbaar in de lijst.
@@ -62,13 +64,13 @@ Een locatie bewerken:
 
 1. Selecteer de [!UICONTROL **Plaatsen**] tabel.
 
+   ![ voert venster uit dat het lusje en de lijst van plaatsen toont.](assets/locations-manager.png)
+
 1. (Voorwaardelijk) als u een systeembeheerder bent, kunt u de [!UICONTROL **plaatsen van de Mening voor alle gebruikers**] optie toelaten om plaatsen te bekijken die door alle gebruikers in uw organisatie worden gecreeerd.
 
 1. Selecteer de locatie die u wilt bewerken.
 
-   ![&#x200B; voert venster uit dat het lusje en de lijst van plaatsen toont.](assets/locations-edit.png)
-
-1. Selecteer [!UICONTROL **uitgeven**].
+1. Selecteer [!UICONTROL **uitgeven**] bij de bodem van het scherm.
 
 1. Breng om het even welke gewenste veranderingen aan, dan uitgezocht [!UICONTROL **sparen**].
 
@@ -82,19 +84,19 @@ Een locatie verwijderen:
 
 1. Selecteer de [!UICONTROL **Plaatsen**] tabel.
 
+   ![ voert venster uit dat het lusje en de lijst van plaatsen toont.](assets/locations-manager.png)
+
 1. (Voorwaardelijk) als u een systeembeheerder bent, kunt u de [!UICONTROL **plaatsen van de Mening voor alle gebruikers**] optie toelaten om plaatsen te bekijken die door alle gebruikers in uw organisatie worden gecreeerd.
 
 1. Selecteer een of meer locaties die u wilt verwijderen.
 
-   ![&#x200B; het venster van Uitvoer die het lusje en de lijst van plaatsen tonen &#x200B;](assets/locations-edit.png)
-
-1. Selecteer [!UICONTROL **Schrapping**].
+1. Selecteer [!UICONTROL **Schrapping**] bij de bodem van het scherm.
 
    Het dialoogvenster Locatie verwijderen wordt weergegeven.
 
 1. Controleer in het dialoogvenster Locatie verwijderen of de locatie niet is gekoppeld aan een exportbewerking voordat u het verwijderen bevestigt.
 
-   ![&#x200B; de bevestigingsdialoog van de Plaats van de Schrapping &#x200B;](assets/delete-location-confirmation-dialog.png)
+   ![ de bevestigingsdialoog van de Plaats van de Schrapping ](assets/delete-location-confirmation-dialog.png)
 
 1. Selecteer [!UICONTROL **Schrapping**] opnieuw om te bevestigen.
 
@@ -108,17 +110,17 @@ Een account bewerken:
 
 1. Selecteer de [!UICONTROL **rekeningen van de Plaats**] tabel.
 
-   ![&#x200B; het venster van Uitvoer het tonen van de rekeningen tabel van de Plaats &#x200B;](assets/account-add.png)
+   ![ het venster van Uitvoer het tonen van de rekeningen tabel van de Plaats ](assets/account-add.png)
 
-1. (Voorwaardelijk) als u een systeembeheerder bent, kunt u de [!UICONTROL **rekeningen van de Mening voor alle gebruikers**] optie toelaten om plaatsen te bekijken die door alle gebruikers in uw organisatie worden gecreeerd.
+1. (Voorwaardelijk) als u een systeembeheerder bent, kunt u de [!UICONTROL **rekeningen van de Mening voor alle gebruikers**] optie toelaten om rekeningen te bekijken die door alle gebruikers in uw organisatie worden gecreeerd.
 
-1. Selecteer [!UICONTROL **details van de Mening**] op de rekening die u wilt uitgeven.
+1. Selecteer [!UICONTROL **uitgeeft details**] op de rekening die u wilt uitgeven.
 
 1. Breng om het even welke gewenste veranderingen aan, dan uitgezocht [!UICONTROL **sparen**].
 
 ## Accountsleutels weergeven
 
-Nadat u een account hebt gemaakt, kunt u de accountsleutels voor dat account bekijken. U zou deze informatie kunnen moeten bekijken als u niet klaar was met het vormen van de rekening met uw wolkenleverancier [&#x200B; toen u oorspronkelijk de rekening &#x200B;](/help/components/exports/cloud-export-accounts.md) vormde.
+Nadat u een account hebt gemaakt, kunt u de accountsleutels voor dat account bekijken. U zou deze informatie kunnen moeten bekijken als u niet klaar was met het vormen van de rekening met uw wolkenleverancier [ toen u oorspronkelijk de rekening ](/help/components/exports/cloud-export-accounts.md) vormde.
 
 Aan menings sleutels verbonden aan een de uitvoerrekening:
 
@@ -126,11 +128,11 @@ Aan menings sleutels verbonden aan een de uitvoerrekening:
 
 1. Selecteer de [!UICONTROL **rekeningen van de Plaats**] tabel.
 
-   ![&#x200B; het venster van Uitvoer het tonen van de rekeningen tabel van de Plaats &#x200B;](assets/account-add.png)
+   ![ het venster van Uitvoer het tonen van de rekeningen tabel van de Plaats ](assets/account-add.png)
 
-1. (Voorwaardelijk) als u een systeembeheerder bent, kunt u de [!UICONTROL **rekeningen van de Mening voor alle gebruikers**] optie toelaten om plaatsen te bekijken die door alle gebruikers in uw organisatie worden gecreeerd.
+1. (Voorwaardelijk) als u een systeembeheerder bent, kunt u de [!UICONTROL **rekeningen van de Mening voor alle gebruikers**] optie toelaten om rekeningen te bekijken die door alle gebruikers in uw organisatie worden gecreeerd.
 
-1. Selecteer het pictogram met drie punten op de rekening die u wilt uitgeven, dan selecteren [!UICONTROL **sleutels van de Rekening**].
+1. Selecteer het pictogram met drie punten op de rekening die u wilt uitgeven, dan selecteren [!UICONTROL **tonen sleutels**].
 
 ## Accounts verwijderen
 
@@ -138,11 +140,11 @@ Aan menings sleutels verbonden aan een de uitvoerrekening:
 
 1. Selecteer de [!UICONTROL **rekeningen van de Plaats**] tabel.
 
-   ![&#x200B; het venster van Uitvoer het tonen van de rekeningen tabel van de Plaats &#x200B;](assets/account-add.png)
+   ![ het venster van Uitvoer het tonen van de rekeningen tabel van de Plaats ](assets/account-add.png)
 
-1. (Voorwaardelijk) als u een systeembeheerder bent, kunt u de [!UICONTROL **rekeningen van de Mening voor alle gebruikers**] optie toelaten om plaatsen te bekijken die door alle gebruikers in uw organisatie worden gecreeerd.
+1. (Voorwaardelijk) als u een systeembeheerder bent, kunt u de [!UICONTROL **rekeningen van de Mening voor alle gebruikers**] optie toelaten om rekeningen te bekijken die door alle gebruikers in uw organisatie worden gecreeerd.
 
-1. Selecteer het 3 puntpictogram op de rekening die u wilt uitgeven, dan selecteren [!UICONTROL **rekening van de Schrapping**].
+1. Selecteer het 3 puntpictogram op de rekening die u wilt schrappen, dan selecteren [!UICONTROL **rekening van de Schrapping**].
 
 1. Selecteer [!UICONTROL **Schrapping**] opnieuw op de bevestigingsdialoog.
 
@@ -150,46 +152,46 @@ Aan menings sleutels verbonden aan een de uitvoerrekening:
 
 Systeembeheerders kunnen gebruikers beperken bij het maken van accounts en locaties, of ze kunnen de typen accounts beperken die gebruikers kunnen maken en gebruiken.
 
-![&#x200B; Admin montages tabel &#x200B;](assets/locations-admin-settings.png)
+![ Admin montages tabel ](assets/locations-admin-settings.png)
 
 ### Configureren of gebruikers accounts kunnen maken en bewerken
 
-Door gebrek, kunnen alle gebruikers in de organisatie rekeningen tot stand brengen en rekeningen uitgeven die zij in uw milieu van Customer Journey Analytics creëren, zoals die in [&#x200B; wordt beschreven vormen wolkenuitvoerrekeningen &#x200B;](/help/components/exports/cloud-export-accounts.md).
+Door gebrek, kunnen alle gebruikers in de organisatie rekeningen tot stand brengen en rekeningen uitgeven die zij in uw milieu van Customer Journey Analytics creëren, zoals die in [ wordt beschreven vormen wolkenuitvoerrekeningen ](/help/components/exports/cloud-export-accounts.md).
 
-U kunt voorkomen dat gebruikers accounts maken. Wanneer u dat doet, kunnen gebruikers nog steeds accounts gebruiken die ze al hebben gemaakt, maar ze kunnen ze niet meer bewerken. U kunt rekeningen schrappen die de gebruikers hebben gecreeerd, zoals die in [&#x200B; wordt beschreven een rekening &#x200B;](#delete-an-account) schrappen.
+U kunt voorkomen dat gebruikers accounts maken. Wanneer u dat doet, kunnen gebruikers nog steeds accounts gebruiken die ze al hebben gemaakt, maar ze kunnen ze niet meer bewerken. U kunt rekeningen schrappen die de gebruikers hebben gecreeerd, zoals die in [ wordt beschreven een rekening ](#delete-accounts) schrappen.
 
 Alle gebruikers beperken in het maken en bewerken van accounts:
 
 1. In Customer Journey Analytics, selecteer **[!UICONTROL Components]** > **[!UICONTROL Exports]**, dan selecteren de [!UICONTROL **montages Admin**] tabel.
 
-1. In de [!UICONTROL **rekeningen van Plaatsen**] sectie, schrap de optie, [!UICONTROL **staat gebruikers toe om plaatsrekeningen**] tot stand te brengen en te beheren.
+1. In de [!UICONTROL **rekeningen van de Plaats**] sectie, schrap de optie, [!UICONTROL **staat gebruikers toe om plaatsrekeningen**] tot stand te brengen en te beheren.
 
 1. Selecteer [!UICONTROL **sparen**].
 
-1. (Facultatief) Schrap om het even welke rekeningen die de gebruikers hebben gecreeerd die u hen niet meer wilt gebruiken, zoals die in [&#x200B; wordt beschreven een rekening &#x200B;](#delete-an-account) schrappen.
+1. (Facultatief) Schrap om het even welke rekeningen die de gebruikers hebben gecreeerd die u hen niet meer wilt gebruiken, zoals die in [ wordt beschreven een rekening ](#delete-accounts) schrappen.
 
 ### Configureren of gebruikers locaties kunnen maken en bewerken
 
-Door gebrek, kunnen alle gebruikers in de organisatie plaatsen tot stand brengen en plaatsen uitgeven zij in uw milieu van Customer Journey Analytics creëren, zoals die in [&#x200B; wordt beschreven vormt wolkenuitvoerplaatsen &#x200B;](/help/components/exports/cloud-export-locations.md).
+Door gebrek, kunnen alle gebruikers in de organisatie plaatsen tot stand brengen en plaatsen uitgeven zij in uw milieu van Customer Journey Analytics creëren, zoals die in [ wordt beschreven vormt wolkenuitvoerplaatsen ](/help/components/exports/cloud-export-locations.md).
 
-U kunt voorkomen dat gebruikers locaties maken. Wanneer u dat doet, kunnen gebruikers nog steeds alle locaties gebruiken die ze al hebben gemaakt, maar kunnen ze ze niet meer bewerken. U kunt plaatsen schrappen die de gebruikers hebben gecreeerd, zoals die in [&#x200B; worden beschreven plaats van de Schrapping &#x200B;](#delete-a-location).
+U kunt voorkomen dat gebruikers locaties maken. Wanneer u dat doet, kunnen gebruikers nog steeds alle locaties gebruiken die ze al hebben gemaakt, maar kunnen ze ze niet meer bewerken. U kunt plaatsen schrappen die de gebruikers hebben gecreeerd, zoals die in [ worden beschreven plaats van de Schrapping ](#delete-locations).
 
 Alle gebruikers beperken van het maken en bewerken van locaties:
 
-1. In Customer Journey Analytics, selecteer **[!UICONTROL Components]** > **[!UICONTROL Eports]**, dan selecteren de [!UICONTROL **montages Admin**] tabel.
+1. In Customer Journey Analytics, selecteer **[!UICONTROL Components]** > **[!UICONTROL Exports]**, dan selecteren de [!UICONTROL **montages Admin**] tabel.
 
 1. In de [!UICONTROL **sectie van Plaats**], schrap de optie, [!UICONTROL **staat gebruikers toe om plaatsen**] tot stand te brengen en te leiden.
 
 1. Selecteer [!UICONTROL **sparen**].
 
-1. (Facultatief) Schrap om het even welke plaatsen die de gebruikers hebben gecreeerd die u hen niet meer wilt gebruiken, zoals die in [&#x200B; wordt beschreven Schrap een plaats &#x200B;](#delete-a-location).
+1. (Facultatief) Schrap om het even welke plaatsen die de gebruikers hebben gecreeerd die u hen niet meer wilt gebruiken, zoals die in [ wordt beschreven Schrap een plaats ](#delete-locations).
 
 ### Beperken welke accounttypen gebruikers kunnen maken en gebruiken
 
 U kunt de accounttypen beperken die gebruikers zien in de volgende omstandigheden:
 
-* Wanneer [&#x200B; het creëren van nieuwe rekeningen &#x200B;](/help/components/exports/cloud-export-accounts.md).
-* Wanneer het kiezen van welke rekeningen te gebruiken wanneer het uitvoeren van dossiers gebruikend [&#x200B; volledige lijstuitvoer &#x200B;](/help/analysis-workspace/export/export-cloud.md).
+* Wanneer [ het creëren van nieuwe rekeningen ](/help/components/exports/cloud-export-accounts.md).
+* Wanneer het kiezen van welke rekeningen te gebruiken wanneer het uitvoeren van dossiers gebruikend [ volledige lijstuitvoer ](/help/analysis-workspace/export/export-cloud.md).
 
 Wanneer u accounttypen beperkt zoals beschreven in deze sectie, zijn accounts van het type dat u beperkt, niet meer zichtbaar voor gebruikers. Dit betekent dat er geen nieuwe accounts van dat type kunnen worden gemaakt en dat bestaande accounts van dat type niet kunnen worden gebruikt bij het exporteren van bestanden die gebruikmaken van volledige tabelexport.
 
@@ -201,15 +203,15 @@ Wanneer u accounttypen beperkt, worden bestaande accounts verborgen en niet verw
 
 Als de programma&#39;s reeds worden gevormd om gegevens naar een rekening te verzenden die van het type is dat u beperkt, zullen de programma&#39;s blijven lopen zelfs nadat u het accounttype beperkt, en de gegevens zullen blijven worden verzonden naar de rekening. Als bijvoorbeeld een volledige tabelexport gepland is om gegevens naar een accounttype te verzenden dat u beperkt, gaat het programma door.
 
-Als u moet ervoor zorgen dat de rekeningen van een bepaald type niet in geplande uitvoer worden gebruikt, kunt u de rekeningen schrappen alvorens u [&#x200B; de accounttypes &#x200B;](#limit-the-account-types-that-are-available-to-users) beperkt.
+Als u moet ervoor zorgen dat de rekeningen van een bepaald type niet in geplande uitvoer worden gebruikt, kunt u de rekeningen schrappen alvorens u [ de accounttypes ](#limit-the-account-types-that-are-available-to-users) beperkt.
 
 Accounts verwijderen:
 
 1. Zoek de accounts van het accounttype dat u wilt beperken. Deze worden gebruikt voor geplande exportbewerkingen.
 
-1. Schrap de rekeningen, zoals die in [&#x200B; worden beschreven Schrap een rekening &#x200B;](#delete-an-account).
+1. Schrap de rekeningen, zoals die in [ worden beschreven Schrap een rekening ](#delete-accounts).
 
-1. Ga met de volgende sectie verder, [&#x200B; Beperk de rekeningstypes die aan gebruikers &#x200B;](#limit-the-account-types-that-are-available-to-users) beschikbaar zijn.
+1. Ga met de volgende sectie verder, [ Beperk de rekeningstypes die aan gebruikers ](#limit-the-account-types-that-are-available-to-users) beschikbaar zijn.
 
 #### De accounttypen beperken die beschikbaar zijn voor gebruikers
 
