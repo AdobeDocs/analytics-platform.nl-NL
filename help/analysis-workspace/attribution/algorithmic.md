@@ -4,24 +4,26 @@ description: Begrijp de details van het algoritmische attributiemodel.
 feature: Attribution
 role: User, Admin
 exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
-source-git-commit: 023808a13ba9e438b33b1183b92d3aa8ac339230
+source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
 # Algorithmic, toewijzing
 
-Het de attributenmodel van het Algorithmic [&#x200B; &#x200B;](models.md) in Analysis Workspace verschilt van andere modellen in die zin dat het statistische technieken gebruikt om krediet over de afmetingspunten in uw rapport of vrije vormlijst toe te wijzen. Net als alle andere attributiemodellen in Analysis Workspace, kan algoritmische attributie worden gebruikt voor elke dimensie of metrisch. Algorithmic-toewijzing ondersteunt onbeperkte segmentatie en uitsplitsingen en verdeelt 100% van de conversies naar een of meer dimensies in de tabel (ook wel &quot;fractionele&quot; attributie genoemd).
+Het de attributenmodel van het Algorithmic [ ](models.md) in Analysis Workspace verschilt van andere modellen in die zin dat het statistische technieken gebruikt om krediet over de afmetingspunten in uw rapport of vrije vormlijst toe te wijzen. Net als alle andere attributiemodellen in Analysis Workspace, kan algoritmische attributie worden gebruikt voor elke dimensie of metrisch. Algorithmic-toewijzing ondersteunt onbeperkte segmentatie en uitsplitsingen en verdeelt 100% van de conversies naar een of meer dimensies in de tabel (ook wel &quot;fractionele&quot; attributie genoemd).
 
+<!-- 
 
 >[!BEGINSHADEBOX]
 
-Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Algorithmic attributie &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/algorithmic-model-in-attribution-iq){target="_blank"} voor een demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Algorithmic attribution](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/algorithmic-model-in-attribution-iq){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
+-->
 
 Het algoritme dat wordt gebruikt voor attributie is gebaseerd op de Harsanyi Dividend van coöperatieve speltheorie. Het dividend van Harsanyi is een generalisering van de Shapley-waardeoplossing (genoemd naar Lloyd Shapley, een Nobelprijswinnaar) om krediet te verstrekken onder spelers in een spel met ongelijke bijdragen aan de uitkomst.
 

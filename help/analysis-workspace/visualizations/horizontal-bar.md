@@ -4,9 +4,9 @@ title: Horizontale balk en horizontale balk gestapeld
 feature: Visualizations
 exl-id: 4d982430-5d43-482a-ab4e-ab1fc3616f0c
 role: User
-source-git-commit: 8054aab28c405f6a9dd24306a086c78069032999
+source-git-commit: 211dbd80b21f84ab616569c0d847dcc97f13661c
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-_dit artikel documenteert de Horizontale bar en de Horizontale bar gestapelde visualisaties in_ ![&#x200B; CustomerJourneyAnalytics &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._<br/>_zie [&#x200B; Horizontale bar en horizontale bar gestapeld &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar) voor_ ![&#x200B; AdobeAnalytics &#x200B;](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** versie van dit artikel._
+_dit artikel documenteert de Horizontale bar en de Horizontale bar gestapelde visualisaties in_ ![ CustomerJourneyAnalytics ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._<br/>_zie [ Horizontale bar en horizontale bar gestapeld ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/horizontal-bar) voor_ ![ AdobeAnalytics ](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** versie van dit artikel._
 
 >[!ENDSHADEBOX]
 
@@ -33,9 +33,9 @@ De horizontale staafvisualisatie heeft een standaard en gestapelde optie.
 <!-- markdownlint-enable MD034 -->
 
 
-Thie ![&#x200B; GraphBarHorizontal &#x200B;](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL Horizontal bar]** visualisatie toont horizontale bars die diverse waarden over één of meerdere metriek vertegenwoordigen.
+Thie ![ GraphBarHorizontal ](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL Horizontal bar]** visualisatie toont horizontale bars die diverse waarden over één of meerdere metriek vertegenwoordigen.
 
-![&#x200B; Horizontale bar die metriek met inbegrip van de Weergaven van de Pagina, de Snelheid van de Pagina, bezoeken, Ingangen, en Uitgangen tonen.](assets/horizontal-bar.png)
+![ Horizontale bar die metriek met inbegrip van de Weergaven van de Pagina, de Snelheid van de Pagina, bezoeken, Ingangen, en Uitgangen tonen.](assets/horizontal-bar.png)
 
 ## Horizontale balk gestapeld {#horizontal-bar-stacked}
 
@@ -49,19 +49,24 @@ Thie ![&#x200B; GraphBarHorizontal &#x200B;](/help/assets/icons/GraphBarHorizont
 <!-- markdownlint-enable MD034 -->
 
 
-![&#x200B; GraphBarHorizontalStapelde &#x200B;](/help/assets/icons/GraphBarHorizontalStacked.svg) **[!UICONTROL Horizontal bar stacked]** visualisatie is als [!UICONTROL Horizontal bar], maar de reeksbars lijken gestapeld.
+![ GraphBarHorizontalStapelde ](/help/assets/icons/GraphBarHorizontalStacked.svg) **[!UICONTROL Horizontal bar stacked]** visualisatie is als [!UICONTROL Horizontal bar], maar de reeksbars lijken gestapeld.
 
-![&#x200B; een gestapelde horizontale bar die de Weergaven van de Pagina, Bezoeken, Ingangen, en Uitgangen toont.](assets/horizontal-bar-stacked.png)
+![ een gestapelde horizontale bar die de Weergaven van de Pagina, Bezoeken, Ingangen, en Uitgangen toont.](assets/horizontal-bar-stacked.png)
 
-Gebruik de **[!UICONTROL 100% stacked]** optie in ![&#x200B; Plaatsend &#x200B;](/help/assets/icons/Setting.svg) **[!UICONTROL Settings]** om de grafiek in een 100% gestapelde visualisatie te veranderen.
+Gebruik de **[!UICONTROL 100% stacked]** optie in ![ Plaatsend ](/help/assets/icons/Setting.svg) **[!UICONTROL Settings]** om de grafiek in een 100% gestapelde visualisatie te veranderen.
 
-![&#x200B; Horizontale bar gestapelde 100% &#x200B;](assets/horizontal-bar-stacked100.png)
+![ Horizontale bar gestapelde 100% ](assets/horizontal-bar-stacked100.png)
 
+>[!BEGINSHADEBOX]
+
+Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ visualisatie van het Gebied ](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/visualizations/add-bar-visualizations){target="_blank"} voor een demo video.
+
+>[!ENDSHADEBOX]
 
 >[!MORELIKETHIS]
 >
->[&#x200B; voeg een visualisatie aan een paneel toe &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Visualisatie-instellingen &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Contextmenu Visualisatie &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[ voeg een visualisatie aan een paneel toe ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Visualisatie-instellingen ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Contextmenu Visualisatie ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
