@@ -20,13 +20,13 @@ Analysis Workspace biedt vele manieren om een project aan uw gebruikers te delen
 
 Als u een koppeling naar een project wilt delen, gaat u naar het project dat u wilt delen en selecteert u Ga naar **[!UICONTROL Share]** > **[!UICONTROL Get project link]** (of **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]** > **[!UICONTROL Share by link]** ). Gebruikers met wie u de koppeling deelt, moeten zich aanmelden.
 
-Als de ontvanger van de verbinding niet a [ projectrol ](/help/analysis-workspace/curate-share/share-projects.md) is toegewezen, ontvangen de beheerders **[!UICONTROL Edit original]** en niet-admins ontvangen **[!UICONTROL Edit copy]** ervaringen.
+Als de ontvanger van de verbinding niet a [&#x200B; projectrol &#x200B;](/help/analysis-workspace/curate-share/share-projects.md) is toegewezen, ontvangen de beheerders **[!UICONTROL Edit original]** en niet-admins ontvangen **[!UICONTROL Edit copy]** ervaringen.
 
 ## Een alleen-lezen koppeling ophalen om met iedereen te delen
 
 U kunt een alleen-lezen koppeling naar Analysis Workspace-projecten delen met mensen die geen toegang hebben tot Customer Journey Analytics.
 
-Voor meer informatie, zie [ Aandeel met iedereen ](/help/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required).
+Voor meer informatie, zie [&#x200B; Aandeel met iedereen &#x200B;](/help/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required).
 
 ## Een deelvenster of visualisatiekoppeling ophalen {#panel-link}
 
@@ -37,13 +37,13 @@ U kunt ook een koppeling delen naar een specifiek onderdeel van een project, zoa
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Verbinding binnen of buiten uw project ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Verbinding binnen of buiten uw project &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
-![ het drop-down menu nadat u de kopbal met de rechtermuisknop aanklikt met de Get gemarkeerde visualisatiekoppeling.](assets/get-visualization-link.png)
+![&#x200B; het drop-down menu nadat u de kopbal met de rechtermuisknop aanklikt met de Get gemarkeerde visualisatiekoppeling.](assets/get-visualization-link.png)
 
 ## Koppelingen in een inhoudsopgave gebruiken {#TOC}
 
-Één uiteinde voor het leveraging van de diverse verbindingsopties moet a [ inhoudstafel ](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md) bij de bovenkant van uw project van Workspace altijd omvatten. In de inhoudsopgave kunt u een koppeling maken naar andere relevante projecten, specifieke panels en specifieke visualisaties. Hierdoor kan de ontvanger van het project gemakkelijker navigeren.
+Één uiteinde voor het leveraging van de diverse verbindingsopties moet a [&#x200B; inhoudstafel &#x200B;](/help/analysis-workspace/build-workspace-project/project-table-of-contents.md) bij de bovenkant van uw project van Workspace altijd omvatten. In de inhoudsopgave kunt u een koppeling maken naar andere relevante projecten, specifieke panels en specifieke visualisaties. Hierdoor kan de ontvanger van het project gemakkelijker navigeren.
 

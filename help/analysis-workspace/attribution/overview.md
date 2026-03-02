@@ -43,10 +43,10 @@ Adobe Analytics verbetert de attributie doordat u de volgende punten naar eigen 
 
 Attributie bestaat uit de volgende kenmerken:
 
-* [ het paneel van de Attributie ](/help/analysis-workspace/c-panels/attribution.md): Neem om het even welke afmeting en metrisch, en vergelijk het snel met verschillende attributiemodellen.
-* [ pas attributie op metrisch ](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md) toe: Gebruik een niet-standaardattributie op om het even welke metrisch in een project.
-* [ pas attributie op een verdeling ](/help/components/dimensions/t-breakdown-fa.md#apply-attribution-models-to-breakdowns) toe: Gebruik een niet-standaardattributie op een verdeling.
-* [ vergelijk attributiemodellen ](/help/components/apply-create-metrics.md#compare-metrics-with-different-attribution-models): Zie snel hoe de verschillende attributiemodellen voor om het even welk metrisch vergelijken.
+* [&#x200B; het paneel van de Attributie &#x200B;](/help/analysis-workspace/c-panels/attribution.md): Neem om het even welke afmeting en metrisch, en vergelijk het snel met verschillende attributiemodellen.
+* [&#x200B; pas attributie op metrisch &#x200B;](/help/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md) toe: Gebruik een niet-standaardattributie op om het even welke metrisch in een project.
+* [&#x200B; pas attributie op een verdeling &#x200B;](/help/components/dimensions/t-breakdown-fa.md#apply-attribution-models-to-breakdowns) toe: Gebruik een niet-standaardattributie op een verdeling.
+* [&#x200B; vergelijk attributiemodellen &#x200B;](/help/components/apply-create-metrics.md#compare-metrics-with-different-attribution-models): Zie snel hoe de verschillende attributiemodellen voor om het even welk metrisch vergelijken.
 
 ## Video&#39;s
 
@@ -73,7 +73,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution in c
 
 >[!BEGINSHADEBOX]
 
-Zie ![ VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [ Gebruikend het paneel van de Attributie ](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/panels/build-the-attribution-panel){target="_blank"} voor een demo video.
+Zie ![&#x200B; VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; Gebruikend het paneel van de Attributie &#x200B;](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/panels/build-the-attribution-panel){target="_blank"} voor een demo video.
 
 >[!ENDSHADEBOX]
 
