@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Gebruiksgevallen van de analyse van het publiek {#analyze-audiences-use-cases}
 
-De Analyse van het publiek laat de rapportering van de gegevens van het het publiekslidmaatschap van Experience Platform in Customer Journey Analytics toe. Dit wordt bereikt door configuraties die via de de configuratietovenaar van de Analyse van de Publiek worden beheerd, die u helpt bepalen welke profieldataset u, naast andere parameters en configuratiedetails opneemt. (Voor meer gedetailleerde overzichtsinformatie, zie [ Overzicht van de Analyse van de Analyse van het publiek ](/help/connections/audience-analysis/audience-analysis-overview.md).)
+De Analyse van het publiek laat de rapportering van de gegevens van het het publiekslidmaatschap van Experience Platform in Customer Journey Analytics toe. Dit wordt bereikt door configuraties die via de de configuratietovenaar van de Analyse van de Publiek worden beheerd, die u helpt bepalen welke profieldataset u, naast andere parameters en configuratiedetails opneemt. (Voor meer gedetailleerde overzichtsinformatie, zie [&#x200B; Overzicht van de Analyse van de Analyse van het publiek &#x200B;](/help/connections/audience-analysis/audience-analysis-overview.md).)
 
 Dit document bevat voorbeelden van gebruiksgevallen die de waarde markeren die Audience Analysis biedt. Voordat u de gebruiksgevallen herziet, dient u eerst de onderstaande rapporteringsoverwegingen te kennen. Het is belangrijk om deze overwegingen in mening te houden wanneer het gaan over uw gebruiksgevallen, aangezien zij de definitieve output van uw rapporten kunnen beïnvloeden.
 
