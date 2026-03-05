@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Overzicht van Content Analytics-rapportage
 
-U rapporteert, voert analyse uit en behaalt inzicht op [!DNL Content Analytics] binnen [ Analysis Workspace ](/help/analysis-workspace/home.md). Een specifiek Workspace [ malplaatje ](#template) is beschikbaar, zodat kunt u tot een pre-bevolkt project van Workspace met relevante inhoudsinzichten onmiddellijk toegang hebben.
+U rapporteert, voert analyse uit en behaalt inzicht op [!DNL Content Analytics] binnen [&#x200B; Analysis Workspace &#x200B;](/help/analysis-workspace/home.md). Een specifiek Workspace [&#x200B; malplaatje &#x200B;](#template) is beschikbaar, zodat kunt u tot een pre-bevolkt project van Workspace met relevante inhoudsinzichten onmiddellijk toegang hebben.
 
 Voer de volgende stappen uit om uw eigen Content Analytics-rapport helemaal zelf te maken:
 
-1. [ creeer een nieuw ](/help/analysis-workspace/build-workspace-project/create-projects.md) of [ open een bestaand ](/help/analysis-workspace/build-workspace-project/open-projects.md) project in Workspace.
-1. Verzeker u [ selecteert een gegevensmening ](/help/analysis-workspace/c-panels/panels.md#data-view) voor Content Analytics rapporterend. Content Analytics het melden is slechts beschikbaar voor gegevensmeningen die [ ](/help/content-analytics/config/configuration.md) voor Content Analytics worden gevormd.
-1. Sleep a ![ Lijst ](/help/assets/icons/Table.svg) [ vrije vormlijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) visualisatie op het canvas.
-1. Het gebruik [ specifieke componenten van Content Analytics ](components.md) en andere generische [ componenten ](/help/components/overview.md) (als segmenten, datumwaaiers, annotaties) om uw inzichten van Content Analytics te bouwen.
-1. Gebruik andere [ visualisaties ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) om uw project te verbeteren.
+1. [&#x200B; creeer een nieuw &#x200B;](/help/analysis-workspace/build-workspace-project/create-projects.md) of [&#x200B; open een bestaand &#x200B;](/help/analysis-workspace/build-workspace-project/open-projects.md) project in Workspace.
+1. Verzeker u [&#x200B; selecteert een gegevensmening &#x200B;](/help/analysis-workspace/c-panels/panels.md#data-view) voor Content Analytics rapporterend. Content Analytics het melden is slechts beschikbaar voor gegevensmeningen die [&#x200B; &#x200B;](/help/content-analytics/config/configuration.md) voor Content Analytics worden gevormd.
+1. Sleep a ![&#x200B; Lijst &#x200B;](/help/assets/icons/Table.svg) [&#x200B; vrije vormlijst &#x200B;](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) visualisatie op het canvas.
+1. Het gebruik [&#x200B; specifieke componenten van Content Analytics &#x200B;](components.md) en andere generische [&#x200B; componenten &#x200B;](/help/components/overview.md) (als segmenten, datumwaaiers, annotaties) om uw inzichten van Content Analytics te bouwen.
+1. Gebruik andere [&#x200B; visualisaties &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) om uw project te verbeteren.
 
 
 ## Miniaturen
@@ -31,12 +31,12 @@ Op basis van de specifieke Content Analytics-afmetingen die u in uw project gebr
 
 ### Vrije-vormtabel
 
-![ de duimnagels van Content Analytics ](../assets/aca-thumbnails.png)
+![&#x200B; de duimnagels van Content Analytics &#x200B;](../assets/aca-thumbnails.png)
 
-Door gebrek, worden de duimnagels getoond in a [ vrije vormlijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md). De weergave van miniaturen configureren voor een Content Analytics-dimensie:
+Door gebrek, worden de duimnagels getoond in a [&#x200B; vrije vormlijst &#x200B;](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md). De weergave van miniaturen configureren voor een Content Analytics-dimensie:
 
 * Houd de muisaanwijzer boven een koptekstrij voor een Content Analytics-dimensie. Bijvoorbeeld **[!UICONTROL Asset IDs]** of **[!UICONTROL Experience IDs]** .
-* Selecteer ![ Plaatsend ](/help/assets/icons/Setting.svg).
+* Selecteer ![&#x200B; Plaatsend &#x200B;](/help/assets/icons/Setting.svg).
 * Schakel **[!UICONTROL Row setting]** onder **[!UICONTROL Settings]** in de pop-up **[!UICONTROL Show Thumbnails]** in of uit.
 
 
@@ -44,49 +44,49 @@ Door gebrek, worden de duimnagels getoond in a [ vrije vormlijst ](/help/analysi
 
 {{release-limited-testing-section}}
 
-![ de duimnagels van Content Analytics voor bar grafiek ](/help/content-analytics/assets/aca-bar-thumbnail.png)
+![&#x200B; de duimnagels van Content Analytics voor bar grafiek &#x200B;](/help/content-analytics/assets/aca-bar-thumbnail.png)
 
 
-Miniaturen worden weergegeven als onderdeel van de legenda op de verticale of horizontale as. De duimnagels worden ook getoond wanneer u over een bar in a [ (gestapelde) bar ](/help/analysis-workspace/visualizations/bar.md) en [ horizontale bar (gestapeld) ](/help/analysis-workspace/visualizations/horizontal-bar.md) beweegt.
+Miniaturen worden weergegeven als onderdeel van de legenda op de verticale of horizontale as. De duimnagels worden ook getoond wanneer u over een bar in a [&#x200B; (gestapelde) bar &#x200B;](/help/analysis-workspace/visualizations/bar.md) en [&#x200B; horizontale bar (gestapeld) &#x200B;](/help/analysis-workspace/visualizations/horizontal-bar.md) beweegt.
 
 
 ### Spreiding
 
 {{release-limited-testing-section}}
 
-![ de duimnagels van Content Analytics voor spreiding ](/help/content-analytics/assets/aca-scatter-thumbnail.png)
+![&#x200B; de duimnagels van Content Analytics voor spreiding &#x200B;](/help/content-analytics/assets/aca-scatter-thumbnail.png)
 
-De duimnagels worden getoond wanneer u over een gegevenspunt in a [ spreiding ](/help/analysis-workspace/visualizations/scatterplot.md) beweegt.
+De duimnagels worden getoond wanneer u over een gegevenspunt in a [&#x200B; spreiding &#x200B;](/help/analysis-workspace/visualizations/scatterplot.md) beweegt.
 
 ## Voorvertoningen
 
 >[!AVAILABILITY]
 >
->De functionaliteit voor de visualisaties voor staaf en spreiding die in deze sectie wordt beschreven, bevindt zich in de Beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het de versieproces van Customer Journey Analytics, zie [ de eigenschapversies van Customer Journey Analytics ](/help/release-notes/releases.md).
+>De functionaliteit voor de visualisaties voor staaf en spreiding die in deze sectie wordt beschreven, bevindt zich in de Beperkte testfase van de release en is mogelijk nog niet beschikbaar in uw omgeving. Deze notitie wordt verwijderd wanneer de functionaliteit algemeen beschikbaar is. Voor informatie over het de versieproces van Customer Journey Analytics, zie [&#x200B; de eigenschapversies van Customer Journey Analytics &#x200B;](/help/release-notes/releases.md).
 >
 
 U kunt een voorvertoningsvenster openen. Daartoe:
 
-* Selecteer ![ InfoOutline ](/help/assets/icons/InfoOutline.svg) in a [ vrije vormlijst ](#freeform-table).
-* Selecteer een specifieke bar in a [ bar ](#bar-and-horizontal-bar) of [ horizontale bar ](#bar-and-horizontal-bar) visualisatie, of een gegevenspunt in [ spreidt ](#scatter) visualisatie.
+* Selecteer ![&#x200B; InfoOutline &#x200B;](/help/assets/icons/InfoOutline.svg) in a [&#x200B; vrije vormlijst &#x200B;](#freeform-table).
+* Selecteer een specifieke bar in a [&#x200B; bar &#x200B;](#bar-and-horizontal-bar) of [&#x200B; horizontale bar &#x200B;](#bar-and-horizontal-bar) visualisatie, of een gegevenspunt in [&#x200B; spreidt &#x200B;](#scatter) visualisatie.
 
 
 U ziet de volgende details.
 
 | Voorvertoning van ervaring | Voorvertoning van element |
 |---|---|
-| ![ de voorproef van de Ervaring van Content Analytics ](../assets/aca-experience-preview.png) | ![ Voorproef van de Activa van Content Analytics ](../assets/aca-asset-preview.png) |
+| ![&#x200B; de voorproef van de Ervaring van Content Analytics &#x200B;](../assets/aca-experience-preview.png) | ![&#x200B; Voorproef van de Activa van Content Analytics &#x200B;](../assets/aca-asset-preview.png) |
 | Naam van de dimensie (bijvoorbeeld, **[!UICONTROL Experience ID])** | Naam van de afmeting van het element (bijvoorbeeld, **[!UICONTROL Asset ID])** |
 | **[!UICONTROL Impressions (all time)]**: aantal indrukken voor de ervaring. | **[!UICONTROL Impressions (all times)]**: aantal afbeeldingen voor het element. |
-| **[!UICONTROL Assets]**: Het aantal elementen dat deze ervaring bevat. <br/> Uitgezochte ![ Uitsplitsing ](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** om de activa te inspecteren. | **[!UICONTROL Experiences]**: Aantal ervaringen waarin dit element wordt weergegeven. <br/> Uitgezochte ![ Uitsplitsing ](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** om de activa te inspecteren. |
+| **[!UICONTROL Assets]**: Het aantal elementen dat deze ervaring bevat. <br/> Uitgezochte ![&#x200B; Uitsplitsing &#x200B;](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** om de activa te inspecteren. | **[!UICONTROL Experiences]**: Aantal ervaringen waarin dit element wordt weergegeven. <br/> Uitgezochte ![&#x200B; Uitsplitsing &#x200B;](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** om de activa te inspecteren. |
 | **[!UICONTROL First impression]**: Datum waarop de ervaring voor het eerst wordt weergegeven. | **[!UICONTROL First impression]**: Datum waarop het element voor het eerst wordt weergegeven. |
 | **[!UICONTROL Most recent impression]**: Datum van de meest recente indruk van de ervaring. | **[!UICONTROL Most recent impression]**: Datum van meest recente indruk van het element. |
-| **[!UICONTROL Experience attributes]**: De [ attributen ](/help/content-analytics/report/components.md#experience-attributes) van de ervaring. | **[!UICONTROL Asset attributes]**: De [ attributen ](/help/content-analytics/report/components.md#asset-attributes) van de activa. |
+| **[!UICONTROL Experience attributes]**: De [&#x200B; attributen &#x200B;](/help/content-analytics/report/components.md#experience-attributes) van de ervaring. | **[!UICONTROL Asset attributes]**: De [&#x200B; attributen &#x200B;](/help/content-analytics/report/components.md#asset-attributes) van de activa. |
 
 
 ## Sjabloon
 
-Een Content Analytics [ malplaatje ](/help/analysis-workspace/templates/use-templates.md) is beschikbaar om u te helpen welke inhoud en inhoudsattributen het best presteren. Het malplaatje maakt deel uit van het [ kanaal van het Web en het gebruiksgeval van de Betrokkenheid ](/help/analysis-workspace/templates/use-templates.md#web-engagement) en details hoe uw inhoud op een korrelig niveau presteert. U kunt kijken naar de prestaties van afzonderlijke elementen of naar specifieke kenmerken.
+Een Content Analytics [&#x200B; malplaatje &#x200B;](/help/analysis-workspace/templates/use-templates.md) is beschikbaar om u te helpen welke inhoud en inhoudsattributen het best presteren. Het malplaatje maakt deel uit van het [&#x200B; kanaal van het Web en het gebruiksgeval van de Betrokkenheid &#x200B;](/help/analysis-workspace/templates/use-templates.md#web-engagement) en details hoe uw inhoud op een korrelig niveau presteert. U kunt kijken naar de prestaties van afzonderlijke elementen of naar specifieke kenmerken.
 
 Gebaseerd op wat je leert, kun je een aantal dingen doen. Net als bij het promoten van hoogwaardige, goed presterende elementen op uw homepage, kunt u de inhoud voor specifieke segmenten personaliseren om de kenmerken voor hoge prestaties op te nemen, of inhoud roteren die geleidelijk aan is gaan groeien.
 
@@ -94,12 +94,12 @@ De sjabloon gebruiken:
 
 1. Selecteer **[!UICONTROL Workspace]** in het hoofdmenu.
 1. Controleer of u een gegevensweergave hebt geselecteerd die is geconfigureerd voor Content Analytics.
-1. Zoek naar, of gebruik segmenten (**[!UICONTROL Web]** voor **[!UICONTROL Channel]** en **[!UICONTROL Engagement]** voor ** [!UICONTROL Use Case] **s) om het **[!UICONTROL Content Analytics]** malplaatje te vinden en te selecteren.
+1. Zoek naar, of gebruik segmenten (**[!UICONTROL Web]** voor **[!UICONTROL Channel]** en **[!UICONTROL Engagement]** voor **&#x200B; [!UICONTROL Use Case] &#x200B;** s) om het **[!UICONTROL Content Analytics]** malplaatje te vinden en te selecteren.
 1. Selecteer **[!UICONTROL Use template]**.
 1. Selecteer in het dialoogvenster **[!UICONTROL Set up your template]** een metrische waarde in het dialoogvenster **[!UICONTROL Select a conversion metric]** . Bijvoorbeeld **[!UICONTROL Asset CTR]** .
 1. Selecteer **[!UICONTROL Continue]**.
 
-Een **[!UICONTROL Content Analytics Overview]** project opent in [ Analysis Workspace ](/help/analysis-workspace/home.md). Het project bestaat uit vier [ panelen ](/help/analysis-workspace/c-panels/panels.md), waar elk paneel [ vrije vormlijsten ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) en [ visualisaties ](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) verstrekt om een specifieke vraag te beantwoorden:
+Een **[!UICONTROL Content Analytics Overview]** project opent in [&#x200B; Analysis Workspace &#x200B;](/help/analysis-workspace/home.md). Het project bestaat uit vier [&#x200B; panelen &#x200B;](/help/analysis-workspace/c-panels/panels.md), waar elk paneel [&#x200B; vrije vormlijsten &#x200B;](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) en [&#x200B; visualisaties &#x200B;](/help/analysis-workspace/visualizations/freeform-analysis-visualizations.md) verstrekt om een specifieke vraag te beantwoorden:
 
 * **Welke inhoud voert het beste uit?**
 Dit paneel helpt u te begrijpen welke ervaringen en welke middelen in die ervaringen de drijvende kracht zijn achter betrokkenheid en conversie. Ervaringen zijn een volledige webpagina, die op een bepaald moment wordt vastgelegd. Een ervaring kan zowel tekst als meerdere afzonderlijke afbeeldingselementen bevatten. Een element is een afzonderlijke afbeelding.
@@ -110,45 +110,45 @@ Dit paneel helpt u te begrijpen welke ervaringen en welke middelen in die ervari
 
      >[!NOTE]
      >
-     >Deze visualisaties verschijnen slechts in uw malplaatje wanneer u aan [ hebt gevormd om ervaringen ](/help/content-analytics/config/guided.md#experience-capture-and-definition) in uw configuratie van Content Analytics te omvatten.
+     >Deze visualisaties verschijnen slechts in uw malplaatje wanneer u aan [&#x200B; hebt gevormd om ervaringen &#x200B;](/help/content-analytics/config/guided.md#experience-capture-and-definition) in uw configuratie van Content Analytics te omvatten.
      > 
 
-      * **Ervaring CTR**: a [ summiere verandering ](/help/analysis-workspace/visualizations/summary-number-change.md) visualisatie die Ervaring CTR toont.
-      * **Hoogste het omzetten ervaringen**: A [ horizontale bar ](/help/analysis-workspace/visualizations/horizontal-bar.md) visualisatie die bovenkant het omzetten ervaringen tonen die op geselecteerde metrische omzetting worden gebaseerd.
-      * **Hoogst uitvoerend ervaringen**: A [ vrije lijst van de vorm ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (met inbegrip van [ duimnagels ](#thumbnails) en [ voorproeven ](#previews)) voor de hoogste uitvoerend ervaringen.
+      * **Ervaring CTR**: a [&#x200B; summiere verandering &#x200B;](/help/analysis-workspace/visualizations/summary-number-change.md) visualisatie die Ervaring CTR toont.
+      * **Hoogste het omzetten ervaringen**: A [&#x200B; horizontale bar &#x200B;](/help/analysis-workspace/visualizations/horizontal-bar.md) visualisatie die bovenkant het omzetten ervaringen tonen die op geselecteerde metrische omzetting worden gebaseerd.
+      * **Hoogst uitvoerend ervaringen**: A [&#x200B; vrije lijst van de vorm &#x200B;](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (met inbegrip van [&#x200B; duimnagels &#x200B;](#thumbnails) en [&#x200B; voorproeven &#x200B;](#previews)) voor de hoogste uitvoerend ervaringen.
 
    * **Assets**
 
       * **Activum CTR**
-A [ summiere verandering ](/help/analysis-workspace/visualizations/summary-number-change.md) visualisatie die Activum CTR toont.
+A [&#x200B; summiere verandering &#x200B;](/help/analysis-workspace/visualizations/summary-number-change.md) visualisatie die Activum CTR toont.
       * **Hoogste het omzetten activa**
-A [ horizontale bar ](/help/analysis-workspace/visualizations/horizontal-bar.md) visualisatie die bovenkant het omzetten activa toont die op geselecteerde metrische omzetting worden gebaseerd.
+A [&#x200B; horizontale bar &#x200B;](/help/analysis-workspace/visualizations/horizontal-bar.md) visualisatie die bovenkant het omzetten activa toont die op geselecteerde metrische omzetting worden gebaseerd.
       * **Hoogst uitvoerend activa**
-A [ vrije vormlijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (met inbegrip van [ duimnagels ](#thumbnails) en [ voorproeven ](#previews)) voor de hoogste uitvoerend activa.
+A [&#x200B; vrije vormlijst &#x200B;](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (met inbegrip van [&#x200B; duimnagels &#x200B;](#thumbnails) en [&#x200B; voorproeven &#x200B;](#previews)) voor de hoogste uitvoerend activa.
       * **Assets - meningen tegenover omzetting.**
-A [ scatterplot ](/help/analysis-workspace/visualizations/scatterplot.md) visualisatie die een spreidingsplot van activameningen tegenover activa omzettingen toont.
+A [&#x200B; scatterplot &#x200B;](/help/analysis-workspace/visualizations/scatterplot.md) visualisatie die een spreidingsplot van activameningen tegenover activa omzettingen toont.
 
 * **Welke activa attributen dragen aan omzettingen bij?**
-Content Analytics gebruikt AI en GenAI om elk activa [ meta-gegevens ](/help/content-analytics/report/components.md#asset-metadata) en [ attributen ](/help/content-analytics/report/components.md#asset-attributes) automatisch, als onderwerpen, scènes, voorgrondkleuren, en meer toe te wijzen. Een kenmerk is een door AI toegewezen metagegevenstag waarmee wordt beschreven wat zich in een element of ervaring bevindt. Bijvoorbeeld: <code> voorgrondkleur: rood</code> is een automatisch toegewezen attribuut. Met behulp van de visualisaties kunt u bepalen welke kenmerken van uw elementen het meest bijdragen aan de conversie.
+Content Analytics gebruikt AI en GenAI om elk activa [&#x200B; meta-gegevens &#x200B;](/help/content-analytics/report/components.md#asset-metadata) en [&#x200B; attributen &#x200B;](/help/content-analytics/report/components.md#asset-attributes) automatisch, als onderwerpen, scènes, voorgrondkleuren, en meer toe te wijzen. Een kenmerk is een door AI toegewezen metagegevenstag waarmee wordt beschreven wat zich in een element of ervaring bevindt. Bijvoorbeeld: <code> voorgrondkleur: rood</code> is een automatisch toegewezen attribuut. Met behulp van de visualisaties kunt u bepalen welke kenmerken van uw elementen het meest bijdragen aan de conversie.
 
   Het deelvenster bestaat uit de volgende visualisaties:
 
    * **Hoogste het omzetten activaattributen**
-A [ horizontale bar ](/help/analysis-workspace/visualizations/horizontal-bar.md) die de bovenkant toont die activaattributen die op geselecteerde metrische omzetting worden gebaseerd.
+A [&#x200B; horizontale bar &#x200B;](/help/analysis-workspace/visualizations/horizontal-bar.md) die de bovenkant toont die activaattributen die op geselecteerde metrische omzetting worden gebaseerd.
    * **Hoogste het omzetten activa attributen tegenover voorafgaande 30 dagen**
-A [ horizontale bar ](/help/analysis-workspace/visualizations/horizontal-bar.md) visualisatie die de hoogste het omzetten activaattributen toont, in vergelijking met voorafgaande 30 dagen, die op geselecteerde metrische omzetting worden gebaseerd.
+A [&#x200B; horizontale bar &#x200B;](/help/analysis-workspace/visualizations/horizontal-bar.md) visualisatie die de hoogste het omzetten activaattributen toont, in vergelijking met voorafgaande 30 dagen, die op geselecteerde metrische omzetting worden gebaseerd.
    * **Hoogste het omzetten gegevens van activa attribuut**
-A [ vrije lijst van de vorm ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) die de hoogste omzettingsattributen toont die op geselecteerde metrische omzetting worden gebaseerd. Selecteer een rij in de lijst om de trendvisualisatie van Attributen bij te werken.
+A [&#x200B; vrije lijst van de vorm &#x200B;](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) die de hoogste omzettingsattributen toont die op geselecteerde metrische omzetting worden gebaseerd. Selecteer een rij in de lijst om de trendvisualisatie van Attributen bij te werken.
    * **trend van Attributen**
-A [ lijn ](/help/analysis-workspace/visualizations/line.md) visualisatie die de kenmerktrend voor de geselecteerde hoogste het omzetten activa attributen tonen.
+A [&#x200B; lijn &#x200B;](/help/analysis-workspace/visualizations/line.md) visualisatie die de kenmerktrend voor de geselecteerde hoogste het omzetten activa attributen tonen.
    * **Voorgrondkleur van Activa**
-Een voorbeeld [ vrije lijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) die de prestaties van punten van één enkele categorie van activaattributen vergelijkt: Voorgrondkleuren. U kunt dit elementkenmerk vervangen door andere klassendimensies van het elementkenmerk.
+Een voorbeeld [&#x200B; vrije lijst &#x200B;](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) die de prestaties van punten van één enkele categorie van activaattributen vergelijkt: Voorgrondkleuren. U kunt dit elementkenmerk vervangen door andere klassendimensies van het elementkenmerk.
 
 * **Welke ervaringsattributen dragen aan omzettingen bij?**
 
   >[!NOTE]
   >
-  >Dit paneel toont slechts wanneer u [ inbegrepen ervaringen ](/help/content-analytics/config/guided.md#experience-capture-and-definition) in uw configuratie van Content Analytics hebt.
+  >Dit paneel toont slechts wanneer u [&#x200B; inbegrepen ervaringen &#x200B;](/help/content-analytics/config/guided.md#experience-capture-and-definition) in uw configuratie van Content Analytics hebt.
   > 
 
   Elementkenmerken zijn vooral gericht op de visuele kwaliteiten van afbeeldingen, terwijl kenmerken de tekst van de pagina beïnvloeden. Met de onderstaande visualisaties kunt u nagaan welke ervaringskenmerken bijdragen aan de conversie. Deze kenmerken worden ook automatisch toegewezen met behulp van AI- en GenAI-modellen.
@@ -156,15 +156,15 @@ Een voorbeeld [ vrije lijst ](/help/analysis-workspace/visualizations/freeform-t
   Het deelvenster bestaat uit de volgende visualisaties:
 
    * **Hoogste het omzetten ervaringsattributen**
-A [ horizontale bar ](/help/analysis-workspace/visualizations/horizontal-bar.md) visualisatie die de hoogste het omzetten ervaringsattributen toont die op geselecteerde metrische omzetting worden gebaseerd.
+A [&#x200B; horizontale bar &#x200B;](/help/analysis-workspace/visualizations/horizontal-bar.md) visualisatie die de hoogste het omzetten ervaringsattributen toont die op geselecteerde metrische omzetting worden gebaseerd.
    * **Hoogste het omzetten ervaringsattributen versus voorafgaande 30 dagen**
-A [ horizontale bar ](/help/analysis-workspace/visualizations/horizontal-bar.md) visualisatie die de hoogste het omzetten ervaringsattributen toont, in vergelijking met voorafgaande 30 dagen, die op geselecteerde metrische omzetting worden gebaseerd.
+A [&#x200B; horizontale bar &#x200B;](/help/analysis-workspace/visualizations/horizontal-bar.md) visualisatie die de hoogste het omzetten ervaringsattributen toont, in vergelijking met voorafgaande 30 dagen, die op geselecteerde metrische omzetting worden gebaseerd.
    * **Hoogste het omzetten gegevens van ervaringsattributen**
-A [ vrije vormlijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) die de hoogste het omzetten ervaringen toont die op geselecteerde metrische omzetting worden gebaseerd. Selecteer een rij in de tabel om de lijnvisualisatie bij te werken.
+A [&#x200B; vrije vormlijst &#x200B;](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) die de hoogste het omzetten ervaringen toont die op geselecteerde metrische omzetting worden gebaseerd. Selecteer een rij in de tabel om de lijnvisualisatie bij te werken.
    * **Lijn**
-A [ lijn ](/help/analysis-workspace/visualizations/line.md) visualisatie die de trend voor de geselecteerde hoogste het omzetten ervaringsattributen toont.
+A [&#x200B; lijn &#x200B;](/help/analysis-workspace/visualizations/line.md) visualisatie die de trend voor de geselecteerde hoogste het omzetten ervaringsattributen toont.
    * **de sleutelwoorden van de Ervaring**
-A [ vrije lijst van de vrije vorm ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) die de hoogste ervaringstrefwoorden toont die op geselecteerde metrische omzetting worden gebaseerd.
+A [&#x200B; vrije lijst van de vrije vorm &#x200B;](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) die de hoogste ervaringstrefwoorden toont die op geselecteerde metrische omzetting worden gebaseerd.
 
 * **waar verschijnen de activa op mijn plaats?**
 Een deelvenster dat bestaat uit één vrije-vormtabel waarin de meest bekeken elementen op uw site worden weergegeven. Deze analyse helpt u te begrijpen welke pagina&#39;s of secties het meest profiteren van uw best presterende elementen en waar u plaatsing optimaliseert.
@@ -174,7 +174,7 @@ Een deelvenster dat bestaat uit één vrije-vormtabel waarin de meest bekeken el
    * **waar verschijnen de meest bekeken activa?**
 U kunt elk element onderverdelen op basis van afmetingen, zodat u beter begrijpt waar de afbeelding voorkomt.
 
-     In de voorbeeld [ vrije vormlijst ](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (met inbegrip van [ duimnagels ](#thumbnails) en [ voorproeven ](#previews)), **[!UICONTROL Asset Perception ID]** wordt gebruikt in plaats van [!UICONTROL Asset Id]. Soms kan exact dezelfde afbeelding op uw site worden gedupliceerd met een andere afbeeldings-URL. Met het kenmerk [!UICONTROL Asset Perception ID] kunt u deze duplicaten groeperen onder één id.
+     In de voorbeeld [&#x200B; vrije vormlijst &#x200B;](/help/analysis-workspace/visualizations/freeform-table/freeform-table.md) (met inbegrip van [&#x200B; duimnagels &#x200B;](#thumbnails) en [&#x200B; voorproeven &#x200B;](#previews)), **[!UICONTROL Asset Perception ID]** wordt gebruikt in plaats van [!UICONTROL Asset Id]. Soms kan exact dezelfde afbeelding op uw site worden gedupliceerd met een andere afbeeldings-URL. Met het kenmerk [!UICONTROL Asset Perception ID] kunt u deze duplicaten groeperen onder één id.
 
      Omdat elementen op een pagina kunnen veranderen, wordt elk element uitgesplitst door **[!UICONTROL Experience Id]** om te bepalen op welke versie van die pagina het element is weergegeven. U kunt [!UICONTROL Experience Id] vervangen door andere afmetingen die u helpen de locatie van een element op uw site te begrijpen. Bijvoorbeeld [!UICONTROL Page name] , [!UICONTROL Page URL] of [!UICONTROL Site section] .
 
@@ -183,6 +183,6 @@ U kunt elk element onderverdelen op basis van afmetingen, zodat u beter begrijpt
 
 >[!MORELIKETHIS]
 >
->[ de componenten van Content Analytics ](components.md)
->[Sjablonen gebruiken ](/help/analysis-workspace/templates/use-templates.md#web-engagement)
+>[&#x200B; de componenten van Content Analytics &#x200B;](components.md)
+>[Sjablonen gebruiken &#x200B;](/help/analysis-workspace/templates/use-templates.md#web-engagement)
 >
