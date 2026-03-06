@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: 974d8a269be15d3ea6fbbcf96f2ab5457d9c9554
+source-git-commit: e81d2f973a39df580453eca1ff4d5c074a3830aa
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1371'
 ht-degree: 11%
 
 ---
@@ -145,7 +145,7 @@ ht-degree: 11%
       + [Configureren](/help/connections/audience-analysis/audience-analysis-configure.md)
       + [Beheren](/help/connections/audience-analysis/audience-analysis-manage.md)
       + [Analyseren](/help/connections/audience-analysis/analyze-audiences.md)
-      + [Gebruik hoofdletters](/help/connections/audience-analysis/audience-analysis-use-cases.md)
+      + [Gebruiksscenario&#39;s](/help/connections/audience-analysis/audience-analysis-use-cases.md)
 + Gegevens weergeven {#cja-dataviews}
    + [Overzicht van gegevensweergaven](../data-views/data-views.md)
    + [Een gegevensweergave maken of bewerken](../data-views/create-dataview.md)
@@ -173,7 +173,7 @@ ht-degree: 11%
       + [Editor](/help/data-views/shared-metrics-dimensions/shared-component-editor.md)
 + Gereedschappen {#tools}
    + Asset Transfer {#asset-transfer}
-      + [&#x200B; activa van de Overdracht &#x200B;](../tools/asset-transfer/transfer-assets.md)
+      + [ activa van de Overdracht ](../tools/asset-transfer/transfer-assets.md)
    + Productgebruik {#product-usage}
       + [Overzicht](../tools/product-usage/usage-overview.md)
       + [Gegevensinstellingen](../tools/product-usage/data-settings.md)
@@ -221,7 +221,7 @@ ht-degree: 11%
       + Cohortingtabel {#cohort-table}
          + [Overzicht](../analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configureren](../analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + [Gebruik hoofdletters](../analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + [Gebruiksscenario&#39;s](../analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Fallout {#fallout}
          + [Overzicht](../analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configureren](../analysis-workspace/visualizations/fallout/configuring-fallout.md)
@@ -404,7 +404,7 @@ ht-degree: 11%
       + [Waarschuwingen maken](/help/components/c-intelligent-alerts/alert-builder.md)
       + [Waarschuwingen beheren](/help/components/c-intelligent-alerts/alert-manager.md)
       + [Functievergelijking](/help/components/c-intelligent-alerts/alerts-feature-comparison.md)
-      + [Gebruik hoofdletters](/help/components/c-intelligent-alerts/alerts-use-cases.md)
+      + [Gebruiksscenario&#39;s](/help/components/c-intelligent-alerts/alerts-use-cases.md)
    + Uitvoer {#exports}
       + [Cloudexportaccounts configureren](/help/components/exports/cloud-export-accounts.md)
       + [Cloudexportlocaties configureren](/help/components/exports/cloud-export-locations.md)
@@ -466,7 +466,7 @@ ht-degree: 11%
    + [Controlelogboek](../privacy/audit-log.md)
    + [Door de klant beheerde toetsen](../privacy/cmk.md)
 
-+ Gebruik hoofdletters {#cja-usecases}
++ Gebruiksscenario&#39;s {#cja-usecases}
    + [Customer Journey Analytics-gebruikskwesties](../use-cases/cja-usecases.md)
    + Adobe Analytics-gegevens {#aa-data}
       + [Afmetingen marketingkanaal gebruiken](../use-cases/aa-data/marketing-channels.md)
@@ -498,7 +498,7 @@ ht-degree: 11%
       + [Afmetingen en metriek van binding gebruiken](/help/use-cases/data-views/binding-dimensions-metrics.md)
       + [Samenvattingsgegevens gebruiken](/help/use-cases/data-views/summary-data.md)
       + BI-extensie {#bi-extension}
-         + [Gebruik hoofdletters](/help/use-cases/data-views/bi-extension-usecases.md)
+         + [Gebruiksscenario&#39;s](/help/use-cases/data-views/bi-extension-usecases.md)
          + [Weergaven van Connect- en lijstgegevens](/help/use-cases/data-views/bi-extension/connect-and-validate.md)
          + [Dagelijkse trend](/help/use-cases/data-views/bi-extension/daily-trend.md)
          + [Uurtrend](/help/use-cases/data-views/bi-extension/hourly-trend.md)
@@ -546,6 +546,7 @@ ht-degree: 11%
 
 + Technische notities {#technotes}
    + [Toegangsbeheer](../technotes/access-control.md)
+   + [Ongeldige id&#39;s](/help/technotes/badids.md)
    + [Gegevenscentra](../technotes/data-centers.md)
    + [Gevolgen van verwijdering](../technotes/deletion.md)
    + [Domeinen](../technotes/domains.md)
@@ -555,4 +556,4 @@ ht-degree: 11%
    + [Prestaties optimaliseren](../technotes/optimizing-performance.md)
    + [Gebruik beheren](../technotes/estimate-usage.md)
 
-+ [&#x200B; Customer Journey Analytics API &#x200B;](https://developer.adobe.com/cja-apis/docs/)
++ [ Customer Journey Analytics API ](https://developer.adobe.com/cja-apis/docs/)
