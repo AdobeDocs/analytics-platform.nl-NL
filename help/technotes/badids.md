@@ -19,7 +19,7 @@ Dit artikel biedt context voor beschadigde id&#39;s en hoe u de aanwezigheid of 
 
 >[!INFO]
 >
->Slechte IDs wordt ook bedoeld als BAVIDs in de interface van Customer Journey Analytics (voortkomend uit [&#x200B; Analytics BAVID &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16444)).
+>Slechte IDs wordt ook bedoeld als BAVIDs in de interface van Customer Journey Analytics (voortkomend uit [&#x200B; Analytics BAVID &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-16444)).
 >
 
 ## Definitie
