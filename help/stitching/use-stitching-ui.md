@@ -16,18 +16,18 @@ ht-degree: 0%
 
 U kunt het stitching op één of meerdere gebeurtenisdatasets toelaten u als deel van uw verbinding hebt gevormd. Het Customer Journey Analytics-pakket waarvoor u een licentie hebt verleend, bepaalt het aantal gebeurtenisdatasets dat u kunt inschakelen voor het naaien.
 
-U laat het stitching als deel van de [ montages van de dataset ](/help/connections/create-connection.md#dataset-settings) voor een gebeurtenisdataset toe wanneer u [ een verbinding ](/help/connections/create-connection.md) creeert of wanneer u [ een verbinding ](/help/connections/manage-connections.md#edit-a-connection) uitgeeft.
+U laat het stitching als deel van de [&#x200B; montages van de dataset &#x200B;](/help/connections/create-connection.md#dataset-settings) voor een gebeurtenisdataset toe wanneer u [&#x200B; een verbinding &#x200B;](/help/connections/create-connection.md) creeert of wanneer u [&#x200B; een verbinding &#x200B;](/help/connections/manage-connections.md#edit-a-connection) uitgeeft.
 
 ## Vereisten
 
-U moet de eerste vereisten voor de het stitching methode controleren en ontmoeten u specificeert: [ op gebied-gebaseerd het stitching ](fbs.md#prerequisites) of [ op grafiek-gebaseerde het stitching ](gbs.md#prerequisites).
+U moet de eerste vereisten voor de het stitching methode controleren en ontmoeten u specificeert: [&#x200B; op gebied-gebaseerd het stitching &#x200B;](fbs.md#prerequisites) of [&#x200B; op grafiek-gebaseerde het stitching &#x200B;](gbs.md#prerequisites).
 
 
 ## Preflight-controles
 
 Als u aan de eerste vereisten voldoet, kunt u sommige preflight controles op de gegevens in de gebeurtenisdataset willen uitvoeren alvorens u identiteitsstitching toelaat:
 
-* Als u XDM schemagebieden voor blijvende identiteitskaart of persoonsidentiteitskaart gaat gebruiken, zorg ervoor dat de identiteiten behoorlijk in het schema voor de gebeurtenisdataset worden duidelijk. [ zie het overzicht van Identiteitsnaamruimte ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces).
+* Als u XDM schemagebieden voor blijvende identiteitskaart of persoonsidentiteitskaart gaat gebruiken, zorg ervoor dat de identiteiten behoorlijk in het schema voor de gebeurtenisdataset worden duidelijk. [&#x200B; zie het overzicht van Identiteitsnaamruimte &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces).
 * Identiteitsdekking voor zowel blijvende identiteitskaart als persoonsidentiteitskaart verifiëren:
 
    * **Blijvende identiteitskaart**
@@ -58,7 +58,7 @@ Als u aan de eerste vereisten voldoet, kunt u sommige preflight controles op de 
 
 
    * **identiteitskaart van de Persoon**
-      * Voor op grafiek-gebaseerde het stitching, zorg ervoor dat de identiteitsgrafiek fragmenten bevat die de waarden van identiteitskaart van uw gekozen blijvende naamruimte van identiteitskaart en persoonsidentiteitskaart verbinden U kon een test in werking stellen door naar de [ de grafiekkijker van de Identiteit van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"} te gaan en de grafiek door één of andere steekproef blijvende waarden van identiteitskaart te vragen. Controleer of deze permanente id-waarden zijn gekoppeld aan de waarden van de persoon-id in de grafiek.
+      * Voor op grafiek-gebaseerde het stitching, zorg ervoor dat de identiteitsgrafiek fragmenten bevat die de waarden van identiteitskaart van uw gekozen blijvende naamruimte van identiteitskaart en persoonsidentiteitskaart verbinden U kon een test in werking stellen door naar de [&#x200B; de grafiekkijker van de Identiteit van Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-viewer){target="_blank"} te gaan en de grafiek door één of andere steekproef blijvende waarden van identiteitskaart te vragen. Controleer of deze permanente id-waarden zijn gekoppeld aan de waarden van de persoon-id in de grafiek.
       * Voor op gebied-gebaseerde het stitching, vraag 7 dagen van gegevens waar uw persoonidentiteitskaart- gebied niet ongeldig is en door een vraag van 7 dagen van gegevens voor alle gebeurtenissen in uw dataset verdeelt. Dit percentage zou idealiter boven de 5% moeten liggen.
 
         Voorbeeld van een query die u kunt gebruiken voor verificatie:
@@ -87,7 +87,7 @@ Als u aan de eerste vereisten voldoet, kunt u sommige preflight controles op de 
 
 ## Identiteitsstitatie inschakelen {#enable-identity-stitching}
 
-U kunt identiteit toelaten stitching wanneer u [ ](/help/connections/create-connection.md#add-datasets) toevoegt of [ ](/help/connections/create-connection.md#edit-a-dataset) een gebeurtenisdataset in een op persoon-gebaseerde verbinding uitgeeft. Identiteitskoppelen is niet beschikbaar voor op account gebaseerde verbindingen.
+U kunt identiteit toelaten stitching wanneer u [&#x200B; &#x200B;](/help/connections/create-connection.md#add-datasets) toevoegt of [&#x200B; &#x200B;](/help/connections/create-connection.md#edit-a-dataset) een gebeurtenisdataset in een op persoon-gebaseerde verbinding uitgeeft. Identiteitskoppelen is niet beschikbaar voor op account gebaseerde verbindingen.
 
 >[!CONTEXTUALHELP]
 >id="connection_changeto_identitygraph"
@@ -132,7 +132,7 @@ U kunt identiteit toelaten stitching wanneer u [ ](/help/connections/create-conn
 
 Als u stitching wilt inschakelen, gaat u naar het gedeelte **[!UICONTROL Datasets settings]** van de gebeurtenissenset van het dialoogvenster **[!UICONTROL Add datasets]** of **[!UICONTROL Edit dataset]** :
 
-![ Identiteit die opties stitching wanneer u identiteitsstitching ](assets/identity-stitching-ui.png) toelaat
+![&#x200B; Identiteit die opties stitching wanneer u identiteitsstitching &#x200B;](assets/identity-stitching-ui.png) toelaat
 
 1. Selecteer **[!UICONTROL Enable identity stitching]**.
 
@@ -155,14 +155,14 @@ Als u stitching wilt inschakelen, gaat u naar het gedeelte **[!UICONTROL Dataset
    * Selecteer een naamruimte in het vervolgkeuzemenu **[!UICONTROL Namespace]** .
 
 
-   Als u **[!UICONTROL Identity Graph]** voor persoonsidentiteitskaart (om [ op grafiek-gebaseerd het stitching ](/help/stitching/gbs.md) te gebruiken) selecteert, moet u een namespace selecteren.
+   Als u **[!UICONTROL Identity Graph]** voor persoonsidentiteitskaart (om [&#x200B; op grafiek-gebaseerd het stitching &#x200B;](/help/stitching/gbs.md) te gebruiken) selecteert, moet u een namespace selecteren.
 
    >[!NOTE]
    >
    >Zorg ervoor dat u het recht hebt om de identiteitsgrafiek te gebruiken.
    >
 
-   Vóór dat, wordt een **[!UICONTROL Change to identity graph]** dialoog getoond om te verzekeren u de opstelling van de identiteitsgrafiek voor de dataset hebt gebeëindigd. Deze opstelling maakt deel uit van de [ op grafiek-gebaseerde eerste vereisten ](/help/stitching/gbs.md#prerequisites) alvorens u de identiteitsgrafiek voor het stitching kunt gebruiken. Selecteer **[!UICONTROL Continue]** om door te gaan.
+   Vóór dat, wordt een **[!UICONTROL Change to identity graph]** dialoog getoond om te verzekeren u de opstelling van de identiteitsgrafiek voor de dataset hebt gebeëindigd. Deze opstelling maakt deel uit van de [&#x200B; op grafiek-gebaseerde eerste vereisten &#x200B;](/help/stitching/gbs.md#prerequisites) alvorens u de identiteitsgrafiek voor het stitching kunt gebruiken. Selecteer **[!UICONTROL Continue]** om door te gaan.
 
    * Selecteer een naamruimte in het vervolgkeuzemenu **[!UICONTROL Namespace]** .
 
@@ -173,13 +173,13 @@ Als u stitching wilt inschakelen, gaat u naar het gedeelte **[!UICONTROL Dataset
 
 ### Voorvertoning gegevensbestanden
 
-Boven op de standaard **[!UICONTROL Datasets preview]** interface, wanneer [ toevoegend ](/help/connections/create-connection.md#add-datasets) of [ het uitgeven ](/help/connections/create-connection.md#edit-a-dataset) datasets in een op persoon-gebaseerde verbinding, zijn twee extra informatiepanelen beschikbaar.
+Boven op de standaard **[!UICONTROL Datasets preview]** interface, wanneer [&#x200B; toevoegend &#x200B;](/help/connections/create-connection.md#add-datasets) of [&#x200B; het uitgeven &#x200B;](/help/connections/create-connection.md#edit-a-dataset) datasets in een op persoon-gebaseerde verbinding, zijn twee extra informatiepanelen beschikbaar.
 
 >[!NOTE]
 >Voor klanten die Customer Journey Analytics op AWS hebben geïmplementeerd, is deze functionaliteit in afwachting van release.
 >
 
-![ Identiteit die opties stitching wanneer u identiteitsstitching ](assets/identity-stitching-ui-preview.png) toelaat
+![&#x200B; Identiteit die opties stitching wanneer u identiteitsstitching &#x200B;](assets/identity-stitching-ui-preview.png) toelaat
 
 #### Stitching-metriek
 
@@ -214,12 +214,12 @@ Wanneer een ID-waarde wordt gemarkeerd als een slechte id, worden toekomstige ge
 
 Voorbeelden van Gebruiksgevallen van slechte id&#39;s:
 
-* U hebt aangepaste of plaatsaanduidingswaarden in het veld Personen-id (bijvoorbeeld `undefined` ). Dergelijke waarden kunnen ook [ het stitching en het melden van gegevenskwaliteit ](/help/stitching/faq.md#undefined-person-id-values) beïnvloeden.
+* U hebt aangepaste of plaatsaanduidingswaarden in het veld Personen-id (bijvoorbeeld `undefined` ). Dergelijke waarden kunnen ook [&#x200B; het stitching en het melden van gegevenskwaliteit &#x200B;](/help/stitching/faq.md#undefined-person-id-values) beïnvloeden.
 * In een op gebied-gebaseerde het stitching configuratie, als de veelvoudige mensen een apparaat delen en het totale aantal overgangen tussen gebruikers overschrijdt 50.000. In dit scenario stopt het koppelingsproces met het gebruik van de ID-gegevens van de persoon voor dat apparaat en wordt in plaats daarvan alleen permanente ID-informatie gebruikt. Dientengevolge, worden alle datasetgebeurtenissen van dat apparaat verzonden naar verbindingsgegevens met de blijvende identiteit van identiteitskaart, met een hoge kans om een Onjuiste situatie te veroorzaken IDs.
 
 
 >[!NOTE]
->De waarde **[!UICONTROL Stitching metrics]**, inclusief **[!UICONTROL Bad IDs]** , wordt berekend op basis van een beperkte set gegevens. Om Verkeerde aanwezigheid IDs voor een dataset te identificeren u voor het stitching van plan bent te gebruiken, verwijs naar het [ Verkeerde technologie IDs ](/help/technotes/badids.md).
+>De waarde **[!UICONTROL Stitching metrics]**, inclusief **[!UICONTROL Bad IDs]** , wordt berekend op basis van een beperkte set gegevens. Om Verkeerde aanwezigheid IDs voor een dataset te identificeren u voor het stitching van plan bent te gebruiken, verwijs naar het [&#x200B; Verkeerde technologie IDs &#x200B;](/help/technotes/badids.md).
 >
 
 
@@ -229,13 +229,13 @@ Zodra u een verbinding opslaat, wordt het het stitching proces voor het stitchin
 
 >[!CAUTION]
 >
->Voor datasets die voor het stitching in de interface van Verbindingen worden toegelaten, wordt de backfill status onmiddellijk en verkeerd gemeld als ![ Status groene ](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _voltooide backfills]**voor het aantal voltooide backfills. Gebruik andere manieren om te verifiëren of de gegevens van de gestikte dataset achtergevulde gegevens zijn.
+>Voor datasets die voor het stitching in de interface van Verbindingen worden toegelaten, wordt de backfill status onmiddellijk en verkeerd gemeld als ![&#x200B; Status groene &#x200B;](/help/assets/icons/StatusGreen.svg) **[!UICONTROL _x _voltooide backfills]**&#x200B;voor het aantal voltooide backfills. Gebruik andere manieren om te verifiëren of de gegevens van de gestikte dataset achtergevulde gegevens zijn.
 >
 
 
 ## Beperkingen
 
-Boven de [ op gebied-gebaseerde het stitching beperkingen ](/help/stitching/fbs.md#limitations) en [ op grafiek-gebaseerde het stitching beperkingen ](/help/stitching/gbs.md#limitations), zijn de volgende beperkingen van toepassing wanneer u het stitching in de interface van Verbindingen toelaat:
+Boven de [&#x200B; op gebied-gebaseerde het stitching beperkingen &#x200B;](/help/stitching/fbs.md#limitations) en [&#x200B; op grafiek-gebaseerde het stitching beperkingen &#x200B;](/help/stitching/gbs.md#limitations), zijn de volgende beperkingen van toepassing wanneer u het stitching in de interface van Verbindingen toelaat:
 
 * U kunt een gebeurtenisdataset slechts eenmaal aansluiten als deel van één enkele verbinding. U kunt niet de zelfde gebeurtenisdataset meer dan eens bepalen en een afzonderlijke stitching configuratie voor elke instantie gebruiken. Als u verschillende stitching configuraties op de zelfde dataset wilt toepassen, gebruik een afzonderlijke verbinding voor elke configuratie.
 

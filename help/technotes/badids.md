@@ -19,7 +19,7 @@ Dit artikel biedt context voor beschadigde id&#39;s en hoe u de aanwezigheid of 
 
 >[!INFO]
 >
->Slechte IDs wordt ook bedoeld als BAVIDs in de interface van Customer Journey Analytics (voortkomend uit [ Analytics BAVID ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16444)).
+>Slechte IDs wordt ook bedoeld als BAVIDs in de interface van Customer Journey Analytics (voortkomend uit [&#x200B; Analytics BAVID &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16444)).
 >
 
 ## Definitie
@@ -44,15 +44,15 @@ Een voorbeeld van een Slecht scenario IDs is dat u douane of placeholder waarden
 
 De Customer Journey Analytics Connection-interface biedt **[!UICONTROL Bad IDs]** metrische informatie op verschillende plaatsen in de interface.
 
-* U ziet **[!UICONTROL Bad IDs]** (of **[!UICONTROL BAVIDs]** ) als mogelijke redenen voor het overslaan van records in het dialoogvenster **[!UICONTROL Check skipped details]** . Gebruik **[!UICONTROL Check detail]** (als beschikbaar) hieronder **[!UICONTROL Records skipped]** in het [ detailscherm van een verbinding ](/help/connections/create-connection.md).
+* U ziet **[!UICONTROL Bad IDs]** (of **[!UICONTROL BAVIDs]** ) als mogelijke redenen voor het overslaan van records in het dialoogvenster **[!UICONTROL Check skipped details]** . Gebruik **[!UICONTROL Check detail]** (als beschikbaar) hieronder **[!UICONTROL Records skipped]** in het [&#x200B; detailscherm van een verbinding &#x200B;](/help/connections/create-connection.md).
 * Voor een stitching ingeschakelde dataset, [**[!UICONTROL Dataset preview]**](/help/stitching/use-stitching-ui.md#bad-ids) toont **[!UICONTROL Bad IDs]** als deel van **[!UICONTROL Stitching metrics]**. Deze metrisch kan u helpen mogelijke Onjuiste IDs gevallen identificeren. Houd er echter rekening mee dat deze metrische waarde wordt berekend op basis van een beperkte set gegevens.
 
-Verwijs naar [ Verkeerde blootstelling IDs ](#bad-ids-exposure) om u te helpen slechte aanwezigheid IDs voor een dataset identificeren die u van plan bent om binnen een verbinding (ongeacht als het stitching-toegelaten of niet) te gebruiken.
+Verwijs naar [&#x200B; Verkeerde blootstelling IDs &#x200B;](#bad-ids-exposure) om u te helpen slechte aanwezigheid IDs voor een dataset identificeren die u van plan bent om binnen een verbinding (ongeacht als het stitching-toegelaten of niet) te gebruiken.
 
 
 ## Belichting
 
-Om de Blootstelling te onderzoeken Slechte IDs voor een bepaald datasetgebied, denk na uitvoerend de volgende vraag in de Dienst van de Vraag van Experience Platform. Controleer de bovenste geretourneerde ID-waarden om te zien of er mogelijk ongeldige id&#39;s zijn. Ben zich ervan bewust dat de [ Onjuiste definitie van identiteitskaart ](#definition) rekening houdt met alle datasets binnen de verbinding.
+Om de Blootstelling te onderzoeken Slechte IDs voor een bepaald datasetgebied, denk na uitvoerend de volgende vraag in de Dienst van de Vraag van Experience Platform. Controleer de bovenste geretourneerde ID-waarden om te zien of er mogelijk ongeldige id&#39;s zijn. Ben zich ervan bewust dat de [&#x200B; Onjuiste definitie van identiteitskaart &#x200B;](#definition) rekening houdt met alle datasets binnen de verbinding.
 
 
 ### Identificeer (risico van) Beschadigde IDs binnen een gebied
