@@ -6,16 +6,17 @@ feature: Audiences
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 974d8a269be15d3ea6fbbcf96f2ab5457d9c9554
+exl-id: 4f465e71-f1b5-4f38-a1db-645550856849
+source-git-commit: d14163794fd4d31b29bfc6f55622d839b67ab3d7
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1486'
 ht-degree: 0%
 
 ---
 
 # Gebruiksgevallen van de analyse van het publiek {#analyze-audiences-use-cases}
 
-De Analyse van het publiek laat de rapportering van de gegevens van het het publiekslidmaatschap van Experience Platform in Customer Journey Analytics toe. Dit wordt bereikt door configuraties die via de de configuratietovenaar van de Analyse van de Publiek worden beheerd, die u helpt bepalen welke profieldataset u, naast andere parameters en configuratiedetails opneemt. (Voor meer gedetailleerde overzichtsinformatie, zie [&#x200B; Overzicht van de Analyse van de Analyse van het publiek &#x200B;](/help/connections/audience-analysis/audience-analysis-overview.md).)
+De Analyse van het publiek laat de rapportering van de gegevens van het het publiekslidmaatschap van Experience Platform in Customer Journey Analytics toe. Dit wordt bereikt door configuraties die via de de configuratietovenaar van de Analyse van de Publiek worden beheerd, die u helpt bepalen welke profieldataset u, naast andere parameters en configuratiedetails opneemt. (Voor meer gedetailleerde overzichtsinformatie, zie [ Overzicht van de Analyse van de Analyse van het publiek ](/help/connections/audience-analysis/audience-analysis-overview.md).)
 
 Dit document bevat voorbeelden van gebruiksgevallen die de waarde markeren die Audience Analysis biedt. Voordat u de gebruiksgevallen herziet, dient u eerst de onderstaande rapporteringsoverwegingen te kennen. Het is belangrijk om deze overwegingen in mening te houden wanneer het gaan over uw gebruiksgevallen, aangezien zij de definitieve output van uw rapporten kunnen beïnvloeden.
 
@@ -61,7 +62,7 @@ Begrijp hoe een specifiek publiek zich in een bepaald kanaal (bijvoorbeeld, Web 
 
    * Vergelijk publiek versus niet-publiek (of tegen een ander publiek) op metriek zoals zittingen, omzettingstarief, opbrengst per persoon.
 
-1. Geef uw inzichten in kanaaloptimalisatiestrategieën door (bijvoorbeeld, richtend regels, inhoud of aanbieding het stemmen).
+1. Gebruik de gegenereerde inzichten om de strategieën voor kanaaloptimalisatie nauwkeurig af te stemmen (bijvoorbeeld voor het kiezen van regels, inhoud of tuning aanbieden).
 
 #### Overwegingen voor identiteitsoplossing
 
@@ -142,4 +143,3 @@ Begrijp het gedrag van klanten die onlangs een zeer belangrijk publiek verlaten 
 | Hoofdletters gebruiken | Kernzakelijke vraag | Overeenstemming over identiteitsresolutie | Hoog-auth/enig-namespace organisaties (gebeurtenissen reeds onder 1 persoonsidentiteitskaart, b.v. login /CRM) | Fragmented / multi-namespace instanties (gebeurtenissen onder ECID + CRM + anderen) |
 |---------|----------|---------|---------|---------|
 | Geëxporteerde soorten publiek - chroonanalyse | _&quot;Who just left a key publiek?&quot;_ <p>_&quot;Wat deden zij rond uitgang?&quot;_</p> | De uitgang van het publiek wordt gevolgd bij zelfde persoon identiteitskaart die voor de verbinding en publieksconfiguratie wordt gebruikt. | Afsluiten gemeten op een stabiele login/CRM-id weerspiegelt doorgaans de werkelijke gedragswijziging. <p>Wanneer iemand een publiek verlaat op deze id, betekent dit meestal een echte verandering (klonen, downgraden, inactiviteit).</p><p>U kunt hun recente gedrag analyseren om reizen en win-back aanbiedingen met vertrouwen te verfijnen.</p> | Afsluiten is alleen zichtbaar waar profielen en gebeurtenissen de geconfigureerde id delen en dus een zorgvuldige interpretatie vereisen.<p>Gebruik verlaten cohorts als sterke wenk of signaal, maar het wordt geadviseerd dat u met andere gegevenspunten vóór kritieke besluiten kruist.</p> |
-
