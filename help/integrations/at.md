@@ -25,7 +25,7 @@ Door de de opzoekdataset van de Indeling van het Doel (die door gebrek in Experi
 
 ## Notities en overwegingen
 
-Uw activiteit van het Doel moet [ Customer Journey Analytics als rapporteringsbron ](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja) gebruiken.
+Uw activiteit van het Doel moet [&#x200B; Customer Journey Analytics als rapporteringsbron &#x200B;](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja) gebruiken.
 
 Zodra de Dataset van de Gebeurtenis van de Classificatie van het Doel aan een verbinding is toegevoegd, zijn er een paar kleine aanpassingen die binnen de gegevensmening moeten worden aangebracht zodra deze componenten als afmetingen zijn toegevoegd, die omvatten:
 
@@ -35,6 +35,6 @@ Zodra de Dataset van de Gebeurtenis van de Classificatie van het Doel aan een ve
 
 ## Meer gedetailleerde informatie
 
-Zie [ Doel rapporterend in Adobe Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja) in de documentatie van het Doel voor meer informatie.
+Zie [&#x200B; Doel rapporterend in Adobe Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja) in de documentatie van het Doel voor meer informatie.
 
-Zie het [ paneel van de Experimentatie ](../analysis-workspace/c-panels/experimentation.md) voor meer informatie over hoe de analisten verschillende gebruikerservaring, marketing, of overseinenvariaties kunnen vergelijken om te bepalen wat het best in het drijven van een specifiek resultaat is. U kunt de lift en het vertrouwen van om het even welk A/B experiment van om het even welk experimentatieplatform evalueren - online, off-line, van de oplossingen van Adobe zoals Doel of Journey Optimizer, en zelfs BYO (breng-uw-eigen) gegevens.
+Zie het [&#x200B; paneel van de Experimentatie &#x200B;](../analysis-workspace/c-panels/experimentation.md) voor meer informatie over hoe de analisten verschillende gebruikerservaring, marketing, of overseinenvariaties kunnen vergelijken om te bepalen wat het best in het drijven van een specifiek resultaat is. U kunt de lift en het vertrouwen van om het even welk A/B experiment van om het even welk experimentatieplatform evalueren - online, off-line, van de oplossingen van Adobe zoals Doel of Journey Optimizer, en zelfs BYO (breng-uw-eigen) gegevens.

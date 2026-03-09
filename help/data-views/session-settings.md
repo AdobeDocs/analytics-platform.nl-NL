@@ -34,7 +34,7 @@ De context van een sessie in een gegevensweergave definiëren:
 
 1. Selecteer **[!UICONTROL Data views]** (optioneel) in **[!UICONTROL Data management]** in de hoofdnavigatie van de gebruikersinterface van Customer Journey Analytics.
 
-1. Maak een nieuwe of bewerk een bestaande gegevensweergave. Zie [ creeer of geef een gegevensmening ](create-dataview.md) voor meer informatie uit.
+1. Maak een nieuwe of bewerk een bestaande gegevensweergave. Zie [&#x200B; creeer of geef een gegevensmening &#x200B;](create-dataview.md) voor meer informatie uit.
 
 1. Selecteer de tab **[!UICONTROL Settings]** . Onder [!UICONTROL Session settings] :
 
@@ -44,19 +44,19 @@ De context van een sessie in een gegevensweergave definiëren:
 
       Gebruik een lange sessietime-out (bijvoorbeeld 3 maanden) als u online en offline gegevens combineert en wilt analyseren of klanten die een of meer van uw producten hebben aangeschaft, binnen de eerste drie maanden na hun aankoop contact hebben opgenomen met uw contactcentrum.
 
-   1. Selecteer een segment in het vervolgkeuzemenu **[!UICONTROL Add segments]** als u een gegevensweergave wilt segmenteren. Alternatief, kunt u een segment van ![ Segmentatie ](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segments]** in de linkerruit op **[!UICONTROL _Daling hier_]** slepen en laten vallen.
+   1. Selecteer een segment in het vervolgkeuzemenu **[!UICONTROL Add segments]** als u een gegevensweergave wilt segmenteren. Alternatief, kunt u een segment van ![&#x200B; Segmentatie &#x200B;](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segments]** in de linkerruit op **[!UICONTROL _Daling hier_]** slepen en laten vallen.
 
       Alleen die segmenten worden vermeld die worden gedeeld, waartoe u toegang hebt en die kunnen worden geëvalueerd op basis van de componenten die u voor de gegevensweergave hebt gedefinieerd.
 
-   1. Selecteer een metrische waarde in het keuzemenu **[!UICONTROL Start new session with a metric]** . Alternatief, kunt u metrisch van ![ Gebeurtenis ](/help/assets/icons/Event.svg) slepen en laten vallen **[!UICONTROL Metrics]** in de linkerruit op **[!UICONTROL _Daling hier metrisch_]**. De geselecteerde metrische waarde bepaalt het begin van een nieuwe zitting. U kunt meerdere metrische waarden definiëren.
+   1. Selecteer een metrische waarde in het keuzemenu **[!UICONTROL Start new session with a metric]** . Alternatief, kunt u metrisch van ![&#x200B; Gebeurtenis &#x200B;](/help/assets/icons/Event.svg) slepen en laten vallen **[!UICONTROL Metrics]** in de linkerruit op **[!UICONTROL _Daling hier metrisch_]**. De geselecteerde metrische waarde bepaalt het begin van een nieuwe zitting. U kunt meerdere metrische waarden definiëren.
 
       U kunt om het even welk soort metrisch gebruiken om een nieuwe zitting te bepalen. Stel dat u elke keer dat een profiel uw mobiele app start, een nieuwe sessie wilt definiëren. In **[!UICONTROL Data view]** > **[!UICONTROL Components]** definieert u een component van het type metrisch, genaamd **[!UICONTROL Launch]** , op basis van een schemaveld **[!UICONTROL appInteraction]** **[!UICONTROL Name]** . U geeft verder de metrische component **[!UICONTROL Launch]** op, zodat alleen de waarde wordt geteld wanneer de waarde overeenkomt met `launch` .
 
-      ![ de Metrische Lanceringen van de Component van de Interactie van de Toepassing ](assets/component-launches.png)
+      ![&#x200B; de Metrische Lanceringen van de Component van de Interactie van de Toepassing &#x200B;](assets/component-launches.png)
 
       Vervolgens sleept u de sjabloon en selecteert u de metrische waarde van **[!UICONTROL Launch]** als de metrische waarde om een nieuwe sessie te definiëren.
 
-      ![ Lanceringen van de Montages van de Zitting ](assets/session-settings-launches-metric.png)
+      ![&#x200B; Lanceringen van de Montages van de Zitting &#x200B;](assets/session-settings-launches-metric.png)
 
 
 
