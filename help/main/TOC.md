@@ -9,9 +9,9 @@ index: true
 user-guide-title: Handleiding voor Customer Journey Analytics
 user-guide-description: Meer informatie over Adobe Customer Journey Analytics en hoe u Analysis Workspace kunt gebruiken met gegevens van Experience Platform.
 breadcrumb-title: Handleiding voor Customer Journey Analytics
-source-git-commit: e81d2f973a39df580453eca1ff4d5c074a3830aa
+source-git-commit: 82fe9ca3b702f9213e2eb1e4ab0260500be0f731
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1374'
 ht-degree: 11%
 
 ---
@@ -173,7 +173,7 @@ ht-degree: 11%
       + [Editor](/help/data-views/shared-metrics-dimensions/shared-component-editor.md)
 + Gereedschappen {#tools}
    + Asset Transfer {#asset-transfer}
-      + [&#x200B; activa van de Overdracht &#x200B;](../tools/asset-transfer/transfer-assets.md)
+      + [ activa van de Overdracht ](../tools/asset-transfer/transfer-assets.md)
    + Productgebruik {#product-usage}
       + [Overzicht](../tools/product-usage/usage-overview.md)
       + [Gegevensinstellingen](../tools/product-usage/data-settings.md)
@@ -547,6 +547,7 @@ ht-degree: 11%
 + Technische notities {#technotes}
    + [Toegangsbeheer](../technotes/access-control.md)
    + [Ongeldige id&#39;s](/help/technotes/badids.md)
+   + [Browser en taal](/help/technotes/browser-language.md)
    + [Gegevenscentra](../technotes/data-centers.md)
    + [Gevolgen van verwijdering](../technotes/deletion.md)
    + [Domeinen](../technotes/domains.md)
@@ -556,4 +557,4 @@ ht-degree: 11%
    + [Prestaties optimaliseren](../technotes/optimizing-performance.md)
    + [Gebruik beheren](../technotes/estimate-usage.md)
 
-+ [&#x200B; Customer Journey Analytics API &#x200B;](https://developer.adobe.com/cja-apis/docs/)
++ [ Customer Journey Analytics API ](https://developer.adobe.com/cja-apis/docs/)
